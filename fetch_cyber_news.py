@@ -46,16 +46,16 @@ NEWS_FEEDS = [
         "url": "https://www.itnews.com.au/RSS/rss.ashx"
     },
     {
-        "name": "Risky Biz News",
-        "url": "https://risky.biz/feeds/risky-business-news/"
-    },
-    {
-        "name": "The Educator Australia",
-        "url": "https://theeducatoronline.com/k12/rss"
+        "name": "ABC News Business",
+        "url": "https://www.abc.net.au/news/feed/104217374/rss.xml"
     },
     {
         "name": "Google News — ASQA / RTO",
         "url": "https://news.google.com/rss/search?q=ASQA+RTO+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — VET Workforce",
+        "url": "https://news.google.com/rss/search?q=VET+workforce+skills+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — AU Cyber",
@@ -99,6 +99,7 @@ TOOL_FEEDS = [
 
 # -------------------------------------------------------
 # TAGGING RULES — TOPIC
+# An article can match multiple topic tags
 # -------------------------------------------------------
 
 TOPIC_TAG_RULES = [
@@ -137,7 +138,7 @@ TOPIC_TAG_RULES = [
 
 # -------------------------------------------------------
 # TAGGING RULES — THREAT LEVEL
-# Assigned in order — first match wins
+# First match wins (most severe first)
 # -------------------------------------------------------
 
 THREAT_LEVEL_RULES = [
@@ -220,27 +221,62 @@ AUDIENCE_RULES = [
 
 
 # -------------------------------------------------------
+# TAGGING RULES — RELEVANCE
+# How directly applicable is this to your RTO context?
+# First match wins (most specific to least specific)
+# Falls back to "Global" if nothing matches
+# -------------------------------------------------------
+
+RELEVANCE_RULES = [
+    {
+        "relevance": "Direct",
+        "keywords": [
+            "rto", "asqa", "tafe", "registered training",
+            "training provider", "vet sector", "vocational",
+            "training organisation", "2025 standards",
+            "training package", "national training",
+            "apprentice", "traineeship",
+        ]
+    },
+    {
+        "relevance": "Sector",
+        "keywords": [
+            "education", "school", "university", "campus",
+            "student data", "learning management", "edtech",
+            "higher education", "skills australia",
+        ]
+    },
+    {
+        "relevance": "AU General",
+        "keywords": [
+            "australia", "australian", "acsc", "asd",
+            "auscert", "medibank", "optus", "telstra", "qantas",
+            "mygovid", "mygov", "ato", "medicare",
+            "critical infrastructure",
+        ]
+    },
+]
+
+
+# -------------------------------------------------------
 # HELPER: Parse a date from an RSS entry
 # RSS feeds use inconsistent date formats, so we try
 # a few approaches and fall back gracefully
+# Date formatted as DD-MM-YYYY HH:MM AM/PM (AEST)
 # -------------------------------------------------------
 
 def parse_date(entry):
-    # feedparser gives us a 'published_parsed' tuple if it can parse the date
-    # It's a time.struct_time object we can convert to a datetime
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         try:
             dt = datetime.datetime(*entry.published_parsed[:6])
-            return dt.strftime("%Y-%m-%d %H:%M")
+            return dt.strftime("%d-%m-%Y %I:%M %p")
         except Exception:
             pass
 
-    # Fall back to the raw published string if parsing failed
     if hasattr(entry, "published") and entry.published:
         return entry.published
 
-    # If no date at all, use now
-    return datetime.datetime.now().strftime("%Y-%m-%d %H:%M")
+    return datetime.datetime.now().strftime("%d-%m-%Y %I:%M %p")
 
 
 # -------------------------------------------------------
@@ -265,7 +301,7 @@ def fetch_feed(url):
 
 
 # -------------------------------------------------------
-# HELPER: Get topic tags
+# HELPER: Get topic tags (can match multiple)
 # -------------------------------------------------------
 
 def get_topic_tags(combined):
@@ -287,7 +323,7 @@ def get_threat_level(combined):
         for keyword in rule["keywords"]:
             if keyword.lower() in combined:
                 return rule["level"]
-    return "Advisory"   # default if nothing matches
+    return "Advisory"
 
 
 # -------------------------------------------------------
@@ -305,9 +341,61 @@ def get_audience_tags(combined):
 
 
 # -------------------------------------------------------
+# HELPER: Get relevance level (first match wins)
+# Falls back to "Global" if nothing matches
+# -------------------------------------------------------
+
+def get_relevance(combined):
+    for rule in RELEVANCE_RULES:
+        for keyword in rule["keywords"]:
+            if keyword.lower() in combined:
+                return rule["relevance"]
+    return "Global"
+
+
+# -------------------------------------------------------
+# HELPER: Filter out articles older than N days
+# Keeps your feed current and removes stale Google News results
+# -------------------------------------------------------
+
+def filter_old_articles(articles, days=180):
+    import email.utils
+    cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
+    filtered = []
+    for article in articles:
+        kept = False
+        date_str = article.get("date", "")
+
+        # Try our formatted DD-MM-YYYY HH:MM AM/PM
+        try:
+            dt = datetime.datetime.strptime(date_str, "%d-%m-%Y %I:%M %p")
+            if dt >= cutoff:
+                filtered.append(article)
+            kept = True
+        except ValueError:
+            pass
+
+        if not kept:
+            # Try raw RSS date string e.g. "Mon, 21 Apr 2025 08:00:00 +0000"
+            try:
+                parsed = email.utils.parsedate(date_str)
+                if parsed:
+                    dt = datetime.datetime(*parsed[:6])
+                    if dt >= cutoff:
+                        filtered.append(article)
+                    kept = True
+            except Exception:
+                pass
+
+        if not kept:
+            # Can't parse date at all — keep it
+            filtered.append(article)
+
+    return filtered
+
+
+# -------------------------------------------------------
 # HELPER: Deduplicate articles by title similarity
-# Compares lowercase, stripped titles — if two titles
-# are identical or one contains the other, drop the dupe
 # -------------------------------------------------------
 
 def deduplicate(articles):
@@ -316,15 +404,12 @@ def deduplicate(articles):
 
     for article in articles:
         title = article["title"].lower().strip()
-
-        # Check if this title is too similar to one we've already kept
         is_dupe = False
+
         for seen in seen_titles:
-            # Exact match
             if title == seen:
                 is_dupe = True
                 break
-            # One title contains the other (handles slight variations)
             if len(title) > 20 and (title in seen or seen in title):
                 is_dupe = True
                 break
@@ -348,18 +433,22 @@ def fetch_news():
         parsed = fetch_feed(feed["url"])
 
         for entry in parsed.entries:
-            title   = entry.get("title", "")
-            summary = entry.get("summary", "")
-            link    = entry.get("link", "")
-            date    = parse_date(entry)
+            title    = entry.get("title", "")
+            summary  = entry.get("summary", "")
+            link     = entry.get("link", "")
+            date     = parse_date(entry)
 
             combined = (title + " " + summary).lower()
 
-            topic_tags  = get_topic_tags(combined)
-            threat      = get_threat_level(combined)
-            audiences   = get_audience_tags(combined)
+            topic_tags = get_topic_tags(combined)
+            threat     = get_threat_level(combined)
+            audiences  = get_audience_tags(combined)
+            relevance  = get_relevance(combined)
 
-            # Only include if it matched at least one topic tag
+            # Skip sponsored content
+            if title.lower().startswith("sponsored"):
+                continue
+
             if topic_tags:
                 all_articles.append({
                     "source":    feed["name"],
@@ -370,17 +459,12 @@ def fetch_news():
                     "tags":      topic_tags,
                     "threat":    threat,
                     "audience":  audiences,
+                    "relevance": relevance,
                 })
 
-    # Remove duplicates before sorting
     all_articles = deduplicate(all_articles)
-
-    # Sort by date — most recent first
-    # Articles without a parseable date will sort to the end
-    all_articles.sort(
-        key=lambda a: a["date"],
-        reverse=True
-    )
+    all_articles = filter_old_articles(all_articles, days=90)
+    all_articles.sort(key=lambda a: a["date"], reverse=True)
 
     return all_articles
 
@@ -411,7 +495,6 @@ def fetch_tool_updates():
                 "date":    date,
             })
 
-    # Sort tool updates by date too
     all_updates.sort(key=lambda a: a["date"], reverse=True)
 
     return all_updates
@@ -423,7 +506,7 @@ def fetch_tool_updates():
 
 def save_json(data, filename):
     output = {
-        "last_updated": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
+        "last_updated": datetime.datetime.now().strftime("%d-%m-%Y %I:%M %p"),
         "count":        len(data),
         "items":        data,
     }
@@ -446,12 +529,11 @@ if __name__ == "__main__":
     tools = fetch_tool_updates()
     save_json(tools, "tool_updates.json")
 
-    print("\n--- Tag breakdown (Zone 1) ---")
+    print("\n--- Tag breakdown ---")
     tag_counts = {}
     for article in news:
         for tag in article["tags"]:
             tag_counts[tag] = tag_counts.get(tag, 0) + 1
-
     for tag, count in tag_counts.items():
         print(f"  {tag}: {count} articles")
 
@@ -460,18 +542,23 @@ if __name__ == "__main__":
     for article in news:
         t = article["threat"]
         threat_counts[t] = threat_counts.get(t, 0) + 1
-
     for level in ["Critical", "High", "Medium", "Advisory"]:
-        count = threat_counts.get(level, 0)
-        print(f"  {level}: {count} articles")
+        print(f"  {level}: {threat_counts.get(level, 0)} articles")
 
     print("\n--- Audience breakdown ---")
     audience_counts = {}
     for article in news:
         for a in article["audience"]:
             audience_counts[a] = audience_counts.get(a, 0) + 1
-
     for audience, count in audience_counts.items():
         print(f"  {audience}: {count} articles")
+
+    print("\n--- Relevance breakdown ---")
+    relevance_counts = {}
+    for article in news:
+        r = article.get("relevance", "Global")
+        relevance_counts[r] = relevance_counts.get(r, 0) + 1
+    for level in ["Direct", "Sector", "AU General", "Global"]:
+        print(f"  {level}: {relevance_counts.get(level, 0)} articles")
 
     print("\nDone!")
