@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cyber & Sector Intelligence</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,400;0,500;1,400&family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,300&display=swap" rel="stylesheet">
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* ── THEMES ── */
+:root[data-theme="dark"] {
+  --bg:         #293241;
+  --surface:    #1e2736;
+  --surface2:   #3d5a80;
+  --border:     rgba(152,193,217,0.12);
+  --border2:    rgba(152,193,217,0.22);
+  --text:       #e0fbfc;
+  --muted:      #98c1d9;
+  --hint:       #5a7a9a;
+  --accent:     #ee6c4d;
+  --accent-dim: rgba(238,108,77,0.15);
+  --accent-b:   rgba(238,108,77,0.4);
+  --tag-cyber-bg: rgba(238,108,77,0.12); --tag-cyber-text: #ee6c4d; --tag-cyber-b: rgba(238,108,77,0.3);
+  --tag-rto-bg:   rgba(152,193,217,0.12); --tag-rto-text: #98c1d9;  --tag-rto-b:   rgba(152,193,217,0.3);
+  --tag-edu-bg:   rgba(224,251,252,0.08); --tag-edu-text: #e0fbfc;  --tag-edu-b:   rgba(224,251,252,0.2);
+  --crit: #ee6c4d; --high: #e8a040; --med: #6cbf8a; --adv: #98c1d9;
+  --live-dot: #ee6c4d;
+  --tracker-bg: #1e2736;
+}
+:root[data-theme="light"] {
+  --bg:         #f9f7f3;
+  --surface:    #ffffff;
+  --surface2:   #eef4f8;
+  --border:     rgba(61,90,128,0.12);
+  --border2:    rgba(61,90,128,0.2);
+  --text:       #3d5a80;
+  --muted:      #5a7a9a;
+  --hint:       #98b4c8;
+  --accent:     #f7a072;
+  --accent-dim: rgba(247,160,114,0.12);
+  --accent-b:   rgba(247,160,114,0.45);
+  --tag-cyber-bg: rgba(238,108,77,0.08); --tag-cyber-text: #b8420a; --tag-cyber-b: rgba(238,108,77,0.3);
+  --tag-rto-bg:   rgba(15,163,177,0.08); --tag-rto-text: #0a7a85;  --tag-rto-b:   rgba(15,163,177,0.25);
+  --tag-edu-bg:   rgba(237,222,164,0.35);--tag-edu-text: #7a6010;  --tag-edu-b:   rgba(200,175,80,0.35);
+  --crit: #c03818; --high: #a06810; --med: #287048; --adv: #3d5a80;
+  --live-dot: #ee6c4d;
+  --tracker-bg: #ffffff;
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Mono', monospace;
+  font-size: 14px;
+  line-height: 1.6;
+  min-height: 100vh;
+  transition: background 0.2s, color 0.2s;
+}
+
+/* ── HEADER ── */
+.site-header {
+  padding: 20px 32px 16px;
+  border-bottom: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--surface);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.site-title { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 300; letter-spacing: -0.02em; }
+.site-title em { font-style: italic; color: var(--accent); }
+.site-meta { font-size: 10px; color: var(--hint); margin-top: 3px; letter-spacing: 0.04em; }
+.header-controls { display: flex; align-items: center; gap: 10px; }
+.theme-toggle {
+  width: 32px; height: 32px; border-radius: 50%;
+  border: 0.5px solid var(--border2); background: var(--surface2);
+  color: var(--text); cursor: pointer; font-size: 15px;
+  display: flex; align-items: center; justify-content: center;
+  transition: all 0.15s;
+}
+.theme-toggle:hover { border-color: var(--accent); }
+.refresh-btn {
+  font-family: 'DM Mono', monospace; font-size: 10px;
+  padding: 7px 16px; border: 0.5px solid var(--border2);
+  background: transparent; color: var(--muted); cursor: pointer;
+  letter-spacing: 0.06em; border-radius: 4px; transition: all 0.15s;
+}
+.refresh-btn:hover { color: var(--accent); border-color: var(--accent-b); }
+
+/* ── TRACKER ── */
+.tracker {
+  margin: 0; background: var(--tracker-bg);
+  border-bottom: 0.5px solid var(--border);
+}
+.tracker-hdr {
+  padding: 12px 32px;
+  display: flex; align-items: center; justify-content: space-between;
+  border-bottom: 0.5px solid var(--border);
+}
+.tracker-title { font-size: 11px; font-weight: 500; color: var(--text); letter-spacing: 0.04em; }
+.live-dot {
+  width: 7px; height: 7px; border-radius: 50%;
+  background: var(--live-dot); display: inline-block;
+  margin-right: 6px; animation: pulse 2s ease-in-out infinite;
+}
+@keyframes pulse { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:0.5;transform:scale(0.8)} }
+.tracker-src { font-size: 10px; color: var(--hint); }
+
+.tracker-tabs { display: flex; border-bottom: 0.5px solid var(--border); padding: 0 32px; }
+.ttab {
+  font-family: 'DM Mono', monospace; font-size: 10px;
+  letter-spacing: 0.06em; text-transform: uppercase;
+  color: var(--hint); cursor: pointer; padding: 9px 0; margin-right: 24px;
+  border-bottom: 2px solid transparent; transition: all 0.15s;
+}
+.ttab:hover { color: var(--muted); }
+.ttab.active { color: var(--text); border-bottom-color: var(--accent); }
+.tpanel { display: none; }
+.tpanel.active { display: block; }
+
+/* Live panel */
+.live-body {
+  display: grid; grid-template-columns: 1fr auto;
+  gap: 0; border-bottom: 0.5px solid var(--border);
+}
+.main-count-wrap { padding: 18px 32px; border-right: 0.5px solid var(--border); }
+.count-label { font-size: 10px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+.count-num { font-family: 'Fraunces', serif; font-size: 52px; font-weight: 200; color: var(--accent); letter-spacing: -0.02em; line-height: 1; font-variant-numeric: tabular-nums; }
+.count-sub { font-size: 11px; color: var(--hint); margin-top: 5px; line-height: 1.5; }
+.count-sub b { color: var(--muted); font-weight: 400; }
+.count-note { font-size: 10px; color: var(--border2); margin-top: 4px; font-style: italic; }
+
+.mini-stats { display: grid; grid-template-columns: repeat(2,1fr); }
+.ms { padding: 14px 20px; border-left: 0.5px solid var(--border); border-bottom: 0.5px solid var(--border); }
+.ms:nth-child(odd) { border-left: none; }
+.ms-n { font-family: 'Fraunces', serif; font-size: 20px; font-weight: 300; color: var(--accent); font-variant-numeric: tabular-nums; }
+.ms-n.blue { color: var(--muted); }
+.ms-n.teal { color: var(--text); }
+.ms-l { font-size: 10px; color: var(--hint); margin-top: 2px; line-height: 1.4; }
+
+.breakdown-row { padding: 12px 32px; border-bottom: 0.5px solid var(--border); }
+.bd-label { font-size: 10px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 8px; }
+.bar-wrap { display: flex; height: 6px; border-radius: 3px; overflow: hidden; gap: 2px; margin-bottom: 8px; }
+.bar-seg { height: 100%; border-radius: 2px; transition: width 1s ease; }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; }
+.leg { display: flex; align-items: center; gap: 5px; font-size: 10px; color: var(--hint); }
+.leg-dot { width: 8px; height: 8px; border-radius: 2px; flex-shrink: 0; }
+
+.ticker-row { padding: 9px 32px; display: flex; align-items: center; gap: 10px; }
+.ticker-lbl { font-size: 10px; color: var(--hint); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+.ticker-txt { font-size: 11px; color: var(--muted); overflow: hidden; white-space: nowrap; text-overflow: ellipsis; transition: opacity 0.4s; }
+
+/* Report panel */
+.report-grid { display: grid; grid-template-columns: repeat(3,1fr); }
+.rc { padding: 14px 20px; border-right: 0.5px solid var(--border); border-bottom: 0.5px solid var(--border); }
+.rc:nth-child(3n) { border-right: none; }
+.rc-n { font-family: 'Fraunces', serif; font-size: 24px; font-weight: 300; color: var(--accent); }
+.rc-ch { font-size: 10px; color: var(--crit); margin-top: 2px; }
+.rc-l { font-size: 10px; color: var(--hint); margin-top: 3px; line-height: 1.4; }
+.highlights { padding: 14px 32px; }
+.hl-label { font-size: 10px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+.hl-list { display: grid; grid-template-columns: 1fr 1fr; gap: 6px 24px; }
+.hl { font-size: 11px; color: var(--muted); padding-left: 12px; position: relative; line-height: 1.5; }
+.hl::before { content:''; position:absolute; left:0; top:7px; width:4px; height:4px; border-radius:50%; background:var(--accent); }
+.hl b { color: var(--text); font-weight: 500; }
+.report-foot { padding: 8px 32px; font-size: 10px; color: var(--hint); font-style: italic; border-top: 0.5px solid var(--border); }
+
+/* ── QUICK VIEWS ── */
+.quick-views {
+  padding: 10px 32px;
+  border-bottom: 0.5px solid var(--border);
+  display: flex; align-items: center; gap: 8px;
+  background: var(--surface);
+}
+.qv-label { font-size: 10px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; margin-right: 4px; }
+.qv {
+  font-family: 'DM Mono', monospace; font-size: 11px;
+  padding: 5px 14px; border-radius: 4px;
+  border: 0.5px solid var(--border2); background: transparent;
+  color: var(--muted); cursor: pointer; transition: all 0.15s;
+}
+.qv:hover { color: var(--text); border-color: var(--accent-b); }
+.qv.active { background: var(--accent-dim); border-color: var(--accent-b); color: var(--accent); }
+
+/* ── FILTER BAR ── */
+.filter-bar {
+  padding: 8px 32px;
+  border-bottom: 0.5px solid var(--border);
+  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  background: var(--bg);
+}
+.filter-group { display: flex; align-items: center; gap: 6px; }
+.filter-divider { width: 0.5px; height: 18px; background: var(--border2); margin: 0 4px; }
+.fl { font-size: 10px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; white-space: nowrap; }
+.pill {
+  font-family: 'DM Mono', monospace; font-size: 10px;
+  padding: 3px 10px; border: 0.5px solid var(--border2);
+  background: transparent; color: var(--hint); cursor: pointer;
+  border-radius: 20px; transition: all 0.15s; white-space: nowrap;
+}
+.pill:hover { color: var(--muted); border-color: var(--border2); }
+.pill.active-topic  { background: var(--tag-cyber-bg); border-color: var(--tag-cyber-b); color: var(--tag-cyber-text); }
+.pill.active-rto    { background: var(--tag-rto-bg);   border-color: var(--tag-rto-b);   color: var(--tag-rto-text); }
+.pill.active-edu    { background: var(--tag-edu-bg);   border-color: var(--tag-edu-b);   color: var(--tag-edu-text); }
+.pill.active-aud    { background: var(--accent-dim);   border-color: var(--accent-b);    color: var(--accent); }
+.pill.active-threat { background: rgba(238,108,77,0.1);border-color: rgba(238,108,77,0.3);color: var(--crit); }
+.pill.active-high   { background: rgba(232,160,64,0.1);border-color: rgba(232,160,64,0.3);color: var(--high); }
+.pill.active-med    { background: rgba(108,191,138,0.1);border-color:rgba(108,191,138,0.3);color:var(--med); }
+.pill.active-adv    { background: var(--accent-dim);   border-color: var(--border2);     color: var(--adv); }
+
+/* ── LAYOUT ── */
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 280px;
+}
+
+/* ── ARTICLES ── */
+.main-feed { border-right: 0.5px solid var(--border); }
+.article {
+  display: block; padding: 16px 32px;
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none; color: inherit;
+  transition: background 0.1s; cursor: pointer;
+}
+.article:hover { background: var(--surface); }
+.art-meta { display: flex; align-items: center; gap: 6px; margin-bottom: 7px; flex-wrap: wrap; }
+.source { font-size: 10px; color: var(--hint); letter-spacing: 0.05em; text-transform: uppercase; }
+.dot { color: var(--border2); }
+.tag { font-size: 10px; padding: 2px 7px; border-radius: 3px; }
+.tag-cyber { background: var(--tag-cyber-bg); border: 0.5px solid var(--tag-cyber-b); color: var(--tag-cyber-text); }
+.tag-rto   { background: var(--tag-rto-bg);   border: 0.5px solid var(--tag-rto-b);   color: var(--tag-rto-text); }
+.tag-edu   { background: var(--tag-edu-bg);   border: 0.5px solid var(--tag-edu-b);   color: var(--tag-edu-text); }
+.tag-aud { font-size: 10px; padding: 2px 7px; border-radius: 3px; background: var(--accent-dim); border: 0.5px solid var(--accent-b); color: var(--accent); }
+.threat-badge { font-size: 10px; font-weight: 500; }
+.t-critical { color: var(--crit); }
+.t-high     { color: var(--high); }
+.t-medium   { color: var(--med);  }
+.t-advisory { color: var(--adv);  }
+.art-title {
+  font-family: 'Fraunces', serif; font-size: 15px; font-weight: 300;
+  color: var(--text); line-height: 1.4; margin-bottom: 5px; letter-spacing: -0.01em;
+}
+.article:hover .art-title { color: var(--accent); }
+.art-summary { font-size: 11px; color: var(--hint); line-height: 1.6; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.art-date { font-size: 10px; color: var(--border2); margin-top: 5px; }
+
+.no-results { padding: 48px 32px; text-align: center; color: var(--hint); }
+.no-results p { margin-top: 6px; font-size: 12px; }
+.loading-msg { padding: 32px; text-align: center; color: var(--hint); font-size: 12px; }
+
+/* ── SIDEBAR ── */
+.sidebar { background: var(--surface); }
+.sb-hdr {
+  padding: 10px 20px; border-bottom: 0.5px solid var(--border);
+  font-size: 10px; color: var(--hint); letter-spacing: 0.1em; text-transform: uppercase;
+  position: sticky; top: 57px; background: var(--surface); z-index: 10;
+}
+.tool-group { border-bottom: 0.5px solid var(--border); }
+.tool-name { padding: 10px 20px 4px; font-size: 10px; color: var(--muted); letter-spacing: 0.08em; text-transform: uppercase; }
+.tool-item {
+  display: block; padding: 8px 20px 10px;
+  border-top: 0.5px solid var(--border);
+  text-decoration: none; color: inherit; transition: background 0.1s;
+}
+.tool-item:hover { background: var(--bg); }
+.tool-item-title { font-size: 12px; color: var(--text); line-height: 1.4; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.tool-item-date { font-size: 10px; color: var(--hint); margin-top: 2px; }
+.sb-empty { padding: 24px 20px; font-size: 11px; color: var(--hint); text-align: center; line-height: 1.6; }
+
+/* ── TIPS ZONE ── */
+.tips-zone {
+  border-top: 0.5px solid var(--border);
+  padding: 20px 32px;
+  background: var(--surface);
+}
+.tips-hdr { font-size: 10px; color: var(--hint); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+.tips-placeholder {
+  border: 0.5px dashed var(--border2); border-radius: 6px;
+  padding: 20px; text-align: center; color: var(--hint); font-size: 11px; line-height: 1.6;
+}
+.tips-placeholder b { color: var(--muted); font-weight: 400; display: block; margin-bottom: 4px; font-size: 13px; }
+
+/* ── FOOTER ── */
+.site-footer {
+  padding: 12px 32px; border-top: 0.5px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between;
+  font-size: 10px; color: var(--hint);
+}
+</style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="site-header">
+  <div>
+    <div class="site-title">Cyber &amp; Sector <em>Intelligence</em></div>
+    <div class="site-meta" id="last-updated">Loading...</div>
+  </div>
+  <div class="header-controls">
+    <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Toggle theme">☀</button>
+    <button class="refresh-btn" onclick="loadData()">↺ REFRESH</button>
+  </div>
+</header>
+
+<!-- THREAT TRACKER -->
+<section class="tracker">
+  <div class="tracker-hdr">
+    <div class="tracker-title"><span class="live-dot"></span>Australian Cyber Threat Tracker</div>
+    <div class="tracker-src">Source: ACSC Annual Cyber Threat Report 2024–25</div>
+  </div>
+  <div class="tracker-tabs">
+    <div class="ttab active" onclick="switchTrackerTab('live', this)">FY 2025–26 (Live Projection)</div>
+    <div class="ttab" onclick="switchTrackerTab('report', this)">FY 2024–25 (Official Report)</div>
+  </div>
+
+  <!-- LIVE TAB -->
+  <div class="tpanel active" id="tpanel-live">
+    <div class="live-body">
+      <div class="main-count-wrap">
+        <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
+        <div class="count-num" id="main-count">0</div>
+        <div class="count-sub">One report every <b>6 minutes</b> · Counting from 1 July 2025</div>
+        <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
+      </div>
+      <div class="mini-stats">
+        <div class="ms"><div class="ms-n" id="incidents-count">0</div><div class="ms-l">Projected incidents<br>this financial year</div></div>
+        <div class="ms"><div class="ms-n blue">$80,850</div><div class="ms-l">Avg cost per<br>business incident</div></div>
+        <div class="ms"><div class="ms-n teal">$33,000</div><div class="ms-l">Avg individual<br>loss per incident</div></div>
+        <div class="ms"><div class="ms-n blue" id="domains-count">0</div><div class="ms-l">Projected malicious<br>domains blocked</div></div>
+      </div>
+    </div>
+    <div class="breakdown-row">
+      <div class="bd-label">Crime type distribution — based on 2024–25 reporting</div>
+      <div class="bar-wrap">
+        <div class="bar-seg" id="b-ransom" style="background:#ee6c4d;width:0%"></div>
+        <div class="bar-seg" id="b-id"     style="background:#98c1d9;width:0%"></div>
+        <div class="bar-seg" id="b-shop"   style="background:#3d5a80;width:0%"></div>
+        <div class="bar-seg" id="b-bank"   style="background:rgba(224,251,252,0.5);width:0%"></div>
+        <div class="bar-seg" id="b-other"  style="background:rgba(152,193,217,0.15);border:0.5px solid rgba(152,193,217,0.2);width:0%"></div>
+      </div>
+      <div class="legend">
+        <div class="leg"><div class="leg-dot" style="background:#ee6c4d"></div>Ransomware 11%</div>
+        <div class="leg"><div class="leg-dot" style="background:#98c1d9"></div>Identity fraud 8%</div>
+        <div class="leg"><div class="leg-dot" style="background:#3d5a80"></div>Online shopping 7%</div>
+        <div class="leg"><div class="leg-dot" style="background:rgba(224,251,252,0.5)"></div>Banking fraud 6%</div>
+        <div class="leg"><div class="leg-dot" style="background:rgba(152,193,217,0.15);border:0.5px solid rgba(152,193,217,0.3)"></div>Other 68%</div>
+      </div>
+    </div>
+    <div class="ticker-row">
+      <div class="ticker-lbl">Latest</div>
+      <div class="ticker-txt" id="ticker-txt">Loading...</div>
+    </div>
+  </div>
+
+  <!-- REPORT TAB -->
+  <div class="tpanel" id="tpanel-report">
+    <div class="report-grid">
+      <div class="rc"><div class="rc-n">84,700</div><div class="rc-ch">↑ Consistent with prior year</div><div class="rc-l">Cybercrime reports received in FY2024–25</div></div>
+      <div class="rc"><div class="rc-n">1,200+</div><div class="rc-ch">↑ 11% year on year</div><div class="rc-l">Significant incidents responded to</div></div>
+      <div class="rc"><div class="rc-n">42,500+</div><div class="rc-ch">↑ 16% year on year</div><div class="rc-l">Calls to the Cyber Security Hotline</div></div>
+      <div class="rc"><div class="rc-n">$80,850</div><div class="rc-ch">↑ 50% year on year</div><div class="rc-l">Avg cost per business cybercrime report</div></div>
+      <div class="rc"><div class="rc-n">334M</div><div class="rc-ch">↑ 307% year on year</div><div class="rc-l">Malicious domains blocked by ASD</div></div>
+      <div class="rc"><div class="rc-n">1,700+</div><div class="rc-ch">↑ 83% year on year</div><div class="rc-l">Entities notified of malicious activity</div></div>
+    </div>
+    <div class="highlights">
+      <div class="hl-label">Key findings from the report</div>
+      <div class="hl-list">
+        <div class="hl">Critical infrastructure attacks up <b>111%</b> — finance (32%) and transport (26%) most targeted</div>
+        <div class="hl">Healthcare ransomware incidents <b>doubled</b> — 95% resulted in confirmed compromise</div>
+        <div class="hl">DoS/DDoS attacks rose <b>280%</b> — over 200 incidents in FY2024–25</div>
+        <div class="hl">Large business avg loss jumped <b>219%</b> to $202,700 per incident</div>
+        <div class="hl">Identity fraud remains <b>#1</b> reported cybercrime — avg individual loss $33,000</div>
+        <div class="hl">State-sponsored actors from <b>China and Russia</b> actively targeting Australian networks</div>
+        <div class="hl"><b>39%</b> of ransomware incidents detected by ACSC before the organisation knew</div>
+        <div class="hl">Mandatory ransomware reporting introduced for businesses over <b>$3M</b> turnover</div>
+      </div>
+    </div>
+    <div class="report-foot">ASD's ACSC Annual Cyber Threat Report 2024–25 · Published October 2025 · cyber.gov.au</div>
+  </div>
+</section>
+
+<!-- QUICK VIEWS -->
+<div class="quick-views">
+  <span class="qv-label">Quick view</span>
+  <button class="qv active" onclick="applyQuickView('all', this)">Everything</button>
+  <button class="qv" onclick="applyQuickView('forme', this)">For me</button>
+  <button class="qv" onclick="applyQuickView('fororg', this)">For our org</button>
+  <button class="qv" onclick="applyQuickView('critical', this)">Critical now</button>
+</div>
+
+<!-- FILTER BAR -->
+<div class="filter-bar">
+  <span class="fl">Topic</span>
+  <div class="filter-group" id="topic-filters">
+    <button class="pill" data-filter-type="topic" data-value="AU Cyber"  onclick="toggleFilter(this)">AU Cyber</button>
+    <button class="pill" data-filter-type="topic" data-value="RTO / VET" onclick="toggleFilter(this)">RTO / VET</button>
+    <button class="pill" data-filter-type="topic" data-value="Education" onclick="toggleFilter(this)">Education</button>
+  </div>
+  <div class="filter-divider"></div>
+  <span class="fl">Audience</span>
+  <div class="filter-group" id="audience-filters">
+    <button class="pill" data-filter-type="audience" data-value="SMB"            onclick="toggleFilter(this)">SMB</button>
+    <button class="pill" data-filter-type="audience" data-value="Enterprise"     onclick="toggleFilter(this)">Enterprise</button>
+    <button class="pill" data-filter-type="audience" data-value="Consumer"       onclick="toggleFilter(this)">Consumer</button>
+    <button class="pill" data-filter-type="audience" data-value="Critical Infra" onclick="toggleFilter(this)">Critical Infra</button>
+  </div>
+  <div class="filter-divider"></div>
+  <span class="fl">Threat</span>
+  <div class="filter-group" id="threat-filters">
+    <button class="pill" data-filter-type="threat" data-value="Critical" onclick="toggleFilter(this)">Critical</button>
+    <button class="pill" data-filter-type="threat" data-value="High"     onclick="toggleFilter(this)">High</button>
+    <button class="pill" data-filter-type="threat" data-value="Medium"   onclick="toggleFilter(this)">Medium</button>
+    <button class="pill" data-filter-type="threat" data-value="Advisory" onclick="toggleFilter(this)">Advisory</button>
+  </div>
+</div>
+
+<!-- MAIN LAYOUT -->
+<div class="layout">
+  <main class="main-feed" id="articles-container">
+    <div class="loading-msg">Loading articles...</div>
+  </main>
+
+  <aside class="sidebar">
+    <div class="sb-hdr">Tool Updates</div>
+    <div id="tools-container">
+      <div class="sb-empty">Run the Python script to populate tool updates.</div>
+    </div>
+  </aside>
+</div>
+
+<!-- TIPS ZONE -->
+<div class="tips-zone">
+  <div class="tips-hdr">Staff Tips</div>
+  <div class="tips-placeholder">
+    <b>Coming soon — App tips for your team</b>
+    Weekly tips for Microsoft 365, Google Workspace, Zoom, Asana and more.<br>
+    This section will auto-populate once the tips feed is configured.
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <span>Cyber &amp; Sector Intelligence · Built for internal use</span>
+  <span id="footer-updated"></span>
+</footer>
+
+<script>
+// ── THEME ──
+const savedTheme = localStorage.getItem('csi-theme') || 'dark';
+document.documentElement.setAttribute('data-theme', savedTheme);
+document.getElementById('theme-btn').textContent = savedTheme === 'dark' ? '☀' : '☽';
+
+function toggleTheme() {
+  const cur = document.documentElement.getAttribute('data-theme');
+  const next = cur === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  localStorage.setItem('csi-theme', next);
+  document.getElementById('theme-btn').textContent = next === 'dark' ? '☀' : '☽';
+}
+
+// ── TRACKER ──
+const FY_START = new Date('2025-07-01T00:00:00+10:00');
+const SECS_YEAR = 365.25 * 24 * 3600;
+
+function getElapsed() {
+  const now = new Date();
+  const start = FY_START > now ? new Date('2024-07-01T00:00:00+10:00') : FY_START;
+  return Math.max(0, (now - start) / 1000);
+}
+
+function fmt(n) { return Math.floor(n).toLocaleString('en-AU'); }
+
+function updateTracker() {
+  const e = getElapsed();
+  document.getElementById('main-count').textContent = fmt(e * 84700 / SECS_YEAR);
+  document.getElementById('incidents-count').textContent = fmt(e * 1200 / SECS_YEAR);
+  const d = e * 334000000 / SECS_YEAR;
+  document.getElementById('domains-count').textContent = d > 1e6 ? (d/1e6).toFixed(1)+'M' : fmt(d);
+}
+
+setTimeout(() => {
+  document.getElementById('b-ransom').style.width = '11%';
+  document.getElementById('b-id').style.width = '8%';
+  document.getElementById('b-shop').style.width = '7%';
+  document.getElementById('b-bank').style.width = '6%';
+  document.getElementById('b-other').style.width = '68%';
+}, 400);
+
+const tickers = [
+  'HIGH ALERT: Ongoing targeting of online code repositories — ACSC',
+  'Ransomware most disruptive threat — 138 incidents in FY2024–25',
+  'Critical infrastructure attacks up 111% year on year',
+  'DoS/DDoS attacks rose 280% — over 200 incidents in FY2024–25',
+  '42,500+ calls to the Cyber Security Hotline in FY2024–25 — up 16%',
+  'Identity fraud remains #1 reported cybercrime for individuals',
+  'Avg business loss $80,850 — up 50% year on year',
+  '39% of ransomware victims didn\'t know they\'d been hit until ACSC told them',
+];
+let tickerIdx = 0;
+const tickerEl = document.getElementById('ticker-txt');
+tickerEl.textContent = tickers[0];
+setInterval(() => {
+  tickerEl.style.opacity = 0;
+  setTimeout(() => {
+    tickerIdx = (tickerIdx + 1) % tickers.length;
+    tickerEl.textContent = tickers[tickerIdx];
+    tickerEl.style.opacity = 1;
+  }, 400);
+}, 5000);
+
+function switchTrackerTab(tab, el) {
+  document.querySelectorAll('.ttab').forEach(t => t.classList.remove('active'));
+  document.querySelectorAll('.tpanel').forEach(p => p.classList.remove('active'));
+  el.classList.add('active');
+  document.getElementById('tpanel-' + tab).classList.add('active');
+}
+
+updateTracker();
+setInterval(updateTracker, 6000);
+
+// ── DATA & FILTERS ──
+let allArticles = [];
+let allTools = [];
+let activeFilters = { topic: [], audience: [], threat: [] };
+
+async function loadData() {
+  document.getElementById('last-updated').textContent = 'Refreshing...';
+  try {
+    const res = await fetch('news.json');
+    const data = await res.json();
+    allArticles = data.items || [];
+    const ts = data.last_updated || '';
+    document.getElementById('last-updated').textContent = ts ? 'Last updated: ' + ts : '';
+    document.getElementById('footer-updated').textContent = ts ? 'Updated: ' + ts : '';
+    renderArticles();
+  } catch(e) {
+    document.getElementById('articles-container').innerHTML =
+      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>Could not load news.json.<br>Run the Python script first, then open via local server.</p></div>';
+    document.getElementById('last-updated').textContent = 'Failed to load';
+  }
+  try {
+    const res2 = await fetch('tool_updates.json');
+    const data2 = await res2.json();
+    allTools = data2.items || [];
+    renderTools();
+  } catch(e) {}
+}
+
+// ── QUICK VIEWS ──
+function applyQuickView(view, btn) {
+  document.querySelectorAll('.qv').forEach(q => q.classList.remove('active'));
+  btn.classList.add('active');
+  clearAllFilters();
+  if (view === 'forme') {
+    setFilter('audience', 'Consumer');
+  } else if (view === 'fororg') {
+    setFilter('topic', 'RTO / VET');
+    setFilter('audience', 'SMB');
+  } else if (view === 'critical') {
+    setFilter('threat', 'Critical');
+    setFilter('threat', 'High');
+  }
+  renderArticles();
+}
+
+function clearAllFilters() {
+  activeFilters = { topic: [], audience: [], threat: [] };
+  document.querySelectorAll('.pill').forEach(p => p.className = 'pill');
+}
+
+function setFilter(type, value) {
+  if (!activeFilters[type].includes(value)) activeFilters[type].push(value);
+  const pill = document.querySelector(`.pill[data-filter-type="${type}"][data-value="${value}"]`);
+  if (pill) {
+    if (type === 'topic') {
+      if (value === 'AU Cyber') pill.classList.add('active-topic');
+      else if (value === 'RTO / VET') pill.classList.add('active-rto');
+      else pill.classList.add('active-edu');
+    } else if (type === 'audience') {
+      pill.classList.add('active-aud');
+    } else {
+      if (value === 'Critical') pill.classList.add('active-threat');
+      else if (value === 'High') pill.classList.add('active-high');
+      else if (value === 'Medium') pill.classList.add('active-med');
+      else pill.classList.add('active-adv');
+    }
+  }
+}
+
+function toggleFilter(pill) {
+  document.querySelectorAll('.qv').forEach(q => q.classList.remove('active'));
+  document.querySelector('.qv[onclick*="all"]').classList.add('active');
+
+  const type  = pill.dataset.filterType;
+  const value = pill.dataset.value;
+  const idx   = activeFilters[type].indexOf(value);
+
+  if (idx > -1) {
+    activeFilters[type].splice(idx, 1);
+    pill.className = 'pill';
+  } else {
+    activeFilters[type].push(value);
+    if (type === 'topic') {
+      if (value === 'AU Cyber') pill.classList.add('active-topic');
+      else if (value === 'RTO / VET') pill.classList.add('active-rto');
+      else pill.classList.add('active-edu');
+    } else if (type === 'audience') {
+      pill.classList.add('active-aud');
+    } else {
+      if (value === 'Critical') pill.classList.add('active-threat');
+      else if (value === 'High') pill.classList.add('active-high');
+      else if (value === 'Medium') pill.classList.add('active-med');
+      else pill.classList.add('active-adv');
+    }
+  }
+  renderArticles();
+}
+
+function passesFilters(article) {
+  const { topic, audience, threat } = activeFilters;
+  if (topic.length    && !topic.some(t    => (article.tags || []).includes(t)))     return false;
+  if (audience.length && !audience.some(a => (article.audience || []).includes(a))) return false;
+  if (threat.length   && !threat.includes(article.threat))                          return false;
+  return true;
+}
+
+function tagClass(tag) {
+  if (tag === 'AU Cyber') return 'tag tag-cyber';
+  if (tag === 'RTO / VET') return 'tag tag-rto';
+  if (tag === 'Education') return 'tag tag-edu';
+  return 'tag';
+}
+
+function threatClass(t) {
+  if (t === 'Critical') return 'threat-badge t-critical';
+  if (t === 'High')     return 'threat-badge t-high';
+  if (t === 'Medium')   return 'threat-badge t-medium';
+  return 'threat-badge t-advisory';
+}
+
+function threatDot(t) {
+  if (t === 'Critical') return '● Critical';
+  if (t === 'High')     return '● High';
+  if (t === 'Medium')   return '● Medium';
+  return '● Advisory';
+}
+
+function renderArticles() {
+  const filtered = allArticles.filter(passesFilters);
+  if (!filtered.length) {
+    document.getElementById('articles-container').innerHTML =
+      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
+    return;
+  }
+
+  const html = filtered.map(a => {
+    const tags = (a.tags || []).map(t => `<span class="${tagClass(t)}">${t}</span>`).join('');
+    const auds = (a.audience || []).slice(0,2).map(au => `<span class="tag-aud">${au}</span>`).join('');
+    const summary = (a.summary || '').replace(/<[^>]+>/g, '');
+    const date = a.date ? `<div class="art-date">${a.date}</div>` : '';
+    return `<a class="article" href="${a.link}" target="_blank" rel="noopener">
+      <div class="art-meta">
+        <span class="source">${a.source}</span>
+        <span class="dot">·</span>
+        ${tags}${auds}
+        <span class="${threatClass(a.threat)}">${threatDot(a.threat)}</span>
+      </div>
+      <div class="art-title">${a.title}</div>
+      ${summary ? `<div class="art-summary">${summary}</div>` : ''}
+      ${date}
+    </a>`;
+  }).join('');
+
+  document.getElementById('articles-container').innerHTML = html;
+}
+
+function renderTools() {
+  if (!allTools.length) return;
+  const grouped = {};
+  allTools.forEach(t => { if (!grouped[t.tool]) grouped[t.tool] = []; grouped[t.tool].push(t); });
+  const html = Object.entries(grouped).map(([tool, items]) =>
+    `<div class="tool-group">
+      <div class="tool-name">${tool}</div>
+      ${items.map(i => `<a class="tool-item" href="${i.link}" target="_blank" rel="noopener">
+        <div class="tool-item-title">${i.title}</div>
+        ${i.date ? `<div class="tool-item-date">${i.date}</div>` : ''}
+      </a>`).join('')}
+    </div>`
+  ).join('');
+  document.getElementById('tools-container').innerHTML = html;
+}
+
+loadData();
+</script>
+</body>
+</html>
