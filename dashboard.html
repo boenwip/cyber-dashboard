@@ -28,6 +28,10 @@
   --tag-rel-sector-bg: rgba(100,180,220,0.14); --tag-rel-sector-text: #80c8e8; --tag-rel-sector-b: rgba(100,180,220,0.35);
   --tag-rel-au-bg:     rgba(232,160,64,0.15);  --tag-rel-au-text:     #e8c070; --tag-rel-au-b:     rgba(232,160,64,0.35);
   --tag-rel-global-bg: rgba(160,160,160,0.12); --tag-rel-global-text: #a8a8a8; --tag-rel-global-b: rgba(160,160,160,0.28);
+  --tag-edtech-bg: rgba(160,100,220,0.15); --tag-edtech-text: #c080f0; --tag-edtech-b: rgba(160,100,220,0.35);
+  --tag-ai-bg: rgba(60,180,200,0.15); --tag-ai-text: #60d0e8; --tag-ai-b: rgba(60,180,200,0.35);
+  --tag-scam-bg: rgba(220,80,80,0.15); --tag-scam-text: #f08080; --tag-scam-b: rgba(220,80,80,0.35);
+  --tag-compliance-bg: rgba(200,160,40,0.15); --tag-compliance-text: #e0c060; --tag-compliance-b: rgba(200,160,40,0.35);
   --crit: #f07060; --high: #e8b050; --med: #70c890; --adv: #88aac8;
   --live-dot: #ee6c4d;
   --tracker-bg: #222527;
@@ -51,6 +55,10 @@
   --tag-rel-sector-bg: rgba(30,100,170,0.08); --tag-rel-sector-text: #0a4080; --tag-rel-sector-b: rgba(30,100,170,0.25);
   --tag-rel-au-bg:     rgba(160,110,20,0.08); --tag-rel-au-text:     #6a4808; --tag-rel-au-b:     rgba(160,110,20,0.25);
   --tag-rel-global-bg: rgba(80,80,80,0.06);   --tag-rel-global-text: #404040; --tag-rel-global-b: rgba(80,80,80,0.2);
+  --tag-edtech-bg: rgba(120,60,180,0.08); --tag-edtech-text: #6030a0; --tag-edtech-b: rgba(120,60,180,0.25);
+  --tag-ai-bg: rgba(20,140,160,0.08); --tag-ai-text: #106080; --tag-ai-b: rgba(20,140,160,0.25);
+  --tag-scam-bg: rgba(180,40,40,0.08); --tag-scam-text: #901818; --tag-scam-b: rgba(180,40,40,0.25);
+  --tag-compliance-bg: rgba(160,120,20,0.08); --tag-compliance-text: #705008; --tag-compliance-b: rgba(160,120,20,0.25);
   --crit: #b83018; --high: #906010; --med: #207040; --adv: #2a5080;
   --live-dot: #c85a30;
   --tracker-bg: #ffffff;
@@ -210,9 +218,13 @@ body {
   border-radius: 20px; transition: all 0.15s; white-space: nowrap;
 }
 .pill:hover { color: var(--muted); border-color: var(--border2); }
-.pill.active-topic  { background: var(--tag-cyber-bg); border-color: var(--tag-cyber-b); color: var(--tag-cyber-text); }
-.pill.active-rto    { background: var(--tag-rto-bg);   border-color: var(--tag-rto-b);   color: var(--tag-rto-text); }
-.pill.active-edu    { background: var(--tag-edu-bg);   border-color: var(--tag-edu-b);   color: var(--tag-edu-text); }
+.pill.active-topic       { background: var(--tag-cyber-bg);      border-color: var(--tag-cyber-b);      color: var(--tag-cyber-text); }
+.pill.active-rto         { background: var(--tag-rto-bg);        border-color: var(--tag-rto-b);        color: var(--tag-rto-text); }
+.pill.active-edu         { background: var(--tag-edu-bg);        border-color: var(--tag-edu-b);        color: var(--tag-edu-text); }
+.pill.active-edtech      { background: var(--tag-edtech-bg);     border-color: var(--tag-edtech-b);     color: var(--tag-edtech-text); }
+.pill.active-ai          { background: var(--tag-ai-bg);         border-color: var(--tag-ai-b);         color: var(--tag-ai-text); }
+.pill.active-scam        { background: var(--tag-scam-bg);       border-color: var(--tag-scam-b);       color: var(--tag-scam-text); }
+.pill.active-compliance  { background: var(--tag-compliance-bg); border-color: var(--tag-compliance-b); color: var(--tag-compliance-text); }
 .pill.active-aud    { background: var(--accent-dim);   border-color: var(--accent-b);    color: var(--accent); }
 .pill.active-threat { background: rgba(238,108,77,0.1);border-color: rgba(238,108,77,0.3);color: var(--crit); }
 .pill.active-high   { background: rgba(232,160,64,0.1);border-color: rgba(232,160,64,0.3);color: var(--high); }
@@ -246,9 +258,13 @@ body {
 .source { font-size: 12px; color: var(--hint); letter-spacing: 0.03em; text-transform: uppercase; }
 .dot { color: var(--border2); }
 .tag { font-size: 12px; padding: 3px 9px; border-radius: 3px; }
-.tag-cyber { background: var(--tag-cyber-bg); border: 0.5px solid var(--tag-cyber-b); color: var(--tag-cyber-text); }
-.tag-rto   { background: var(--tag-rto-bg);   border: 0.5px solid var(--tag-rto-b);   color: var(--tag-rto-text); }
-.tag-edu   { background: var(--tag-edu-bg);   border: 0.5px solid var(--tag-edu-b);   color: var(--tag-edu-text); }
+.tag-cyber       { background: var(--tag-cyber-bg);       border: 0.5px solid var(--tag-cyber-b);       color: var(--tag-cyber-text); }
+.tag-rto         { background: var(--tag-rto-bg);         border: 0.5px solid var(--tag-rto-b);         color: var(--tag-rto-text); }
+.tag-edu         { background: var(--tag-edu-bg);         border: 0.5px solid var(--tag-edu-b);         color: var(--tag-edu-text); }
+.tag-edtech      { background: var(--tag-edtech-bg);      border: 0.5px solid var(--tag-edtech-b);      color: var(--tag-edtech-text); }
+.tag-ai          { background: var(--tag-ai-bg);          border: 0.5px solid var(--tag-ai-b);          color: var(--tag-ai-text); }
+.tag-scam        { background: var(--tag-scam-bg);        border: 0.5px solid var(--tag-scam-b);        color: var(--tag-scam-text); }
+.tag-compliance  { background: var(--tag-compliance-bg);  border: 0.5px solid var(--tag-compliance-b);  color: var(--tag-compliance-text); }
 .tag-aud { font-size: 12px; padding: 3px 9px; border-radius: 3px; background: var(--accent-dim); border: 0.5px solid var(--accent-b); color: var(--accent); }
 .threat-badge { font-size: 12px; font-weight: 600; }
 .t-critical { color: var(--crit); }
@@ -329,6 +345,7 @@ body {
   <div class="tracker-tabs">
     <div class="ttab active" onclick="switchTrackerTab('live', this)">FY 2025–26 (Live Projection)</div>
     <div class="ttab" onclick="switchTrackerTab('report', this)">FY 2024–25 (Official Report)</div>
+    <div class="ttab" onclick="switchTrackerTab('threatmap', this)">🌐 Live Threat Map</div>
   </div>
 
   <!-- LIVE TAB -->
@@ -404,15 +421,20 @@ body {
   <button class="qv" onclick="applyQuickView('forme', this)">For me</button>
   <button class="qv" onclick="applyQuickView('industry', this)">Industry</button>
   <button class="qv" onclick="applyQuickView('critical', this)">Critical now</button>
+  <button class="qv" onclick="applyQuickView('scams', this)">⚠ Scam Watch</button>
 </div>
 
 <!-- FILTER BAR -->
 <div class="filter-bar">
   <span class="fl">Topic</span>
   <div class="filter-group" id="topic-filters">
-    <button class="pill" data-filter-type="topic" data-value="AU Cyber"  onclick="toggleFilter(this)">AU Cyber</button>
-    <button class="pill" data-filter-type="topic" data-value="RTO / VET" onclick="toggleFilter(this)">RTO / VET</button>
-    <button class="pill" data-filter-type="topic" data-value="Education" onclick="toggleFilter(this)">Education</button>
+    <button class="pill" data-filter-type="topic" data-value="AU Cyber"    onclick="toggleFilter(this)">AU Cyber</button>
+    <button class="pill" data-filter-type="topic" data-value="RTO / VET"  onclick="toggleFilter(this)">RTO / VET</button>
+    <button class="pill" data-filter-type="topic" data-value="Education"  onclick="toggleFilter(this)">Education</button>
+    <button class="pill" data-filter-type="topic" data-value="EdTech"     onclick="toggleFilter(this)">EdTech</button>
+    <button class="pill" data-filter-type="topic" data-value="AI & Tools" onclick="toggleFilter(this)">AI & Tools</button>
+    <button class="pill" data-filter-type="topic" data-value="Scams"      onclick="toggleFilter(this)">Scams</button>
+    <button class="pill" data-filter-type="topic" data-value="Compliance" onclick="toggleFilter(this)">Compliance</button>
   </div>
   <div class="filter-divider"></div>
   <span class="fl">Audience</span>
@@ -619,6 +641,10 @@ function setFilter(type, value) {
     if (type === 'topic') {
       if (value === 'AU Cyber') pill.classList.add('active-topic');
       else if (value === 'RTO / VET') pill.classList.add('active-rto');
+      else if (value === 'EdTech') pill.classList.add('active-edtech');
+      else if (value === 'AI & Tools') pill.classList.add('active-ai');
+      else if (value === 'Scams') pill.classList.add('active-scam');
+      else if (value === 'Compliance') pill.classList.add('active-compliance');
       else pill.classList.add('active-edu');
     } else if (type === 'audience') {
       pill.classList.add('active-aud');
@@ -652,6 +678,10 @@ function toggleFilter(pill) {
     if (type === 'topic') {
       if (value === 'AU Cyber') pill.classList.add('active-topic');
       else if (value === 'RTO / VET') pill.classList.add('active-rto');
+      else if (value === 'EdTech') pill.classList.add('active-edtech');
+      else if (value === 'AI & Tools') pill.classList.add('active-ai');
+      else if (value === 'Scams') pill.classList.add('active-scam');
+      else if (value === 'Compliance') pill.classList.add('active-compliance');
       else pill.classList.add('active-edu');
     } else if (type === 'audience') {
       pill.classList.add('active-aud');
@@ -683,6 +713,10 @@ function tagClass(tag) {
   if (tag === 'AU Cyber') return 'tag tag-cyber';
   if (tag === 'RTO / VET') return 'tag tag-rto';
   if (tag === 'Education') return 'tag tag-edu';
+  if (tag === 'EdTech') return 'tag tag-edtech';
+  if (tag === 'AI & Tools') return 'tag tag-ai';
+  if (tag === 'Scams') return 'tag tag-scam';
+  if (tag === 'Compliance') return 'tag tag-compliance';
   return 'tag';
 }
 
