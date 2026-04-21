@@ -564,7 +564,8 @@ function formatDateAEST(isoStr) {
 async function loadData() {
   document.getElementById('last-updated').textContent = 'Refreshing...';
   try {
-    const res = await fetch('news.json');
+    const res = await fetch('news.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     allArticles = data.items || [];
     const ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
@@ -573,11 +574,12 @@ async function loadData() {
     renderArticles();
   } catch(e) {
     document.getElementById('articles-container').innerHTML =
-      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>Could not load news.json.<br>Run the Python script first, then open via local server.</p></div>';
+      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>Could not load news.json.<br>' + e.message + '</p></div>';
     document.getElementById('last-updated').textContent = 'Failed to load';
   }
   try {
-    const res2 = await fetch('tool_updates.json');
+    const res2 = await fetch('tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res2.ok) throw new Error('HTTP ' + res2.status);
     const data2 = await res2.json();
     allTools = data2.items || [];
     renderTools();
