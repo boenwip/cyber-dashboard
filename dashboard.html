@@ -9,6 +9,8 @@
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
 /* ── THEMES ── */
+*, *::before, *::after { transition: background-color 0.25s ease, color 0.15s ease, border-color 0.15s ease; }
+
 :root[data-theme="dark"] {
   --bg:         #181a1b;
   --surface:    #222527;
@@ -331,7 +333,7 @@ body {
     <div class="site-meta" id="last-updated">Loading...</div>
   </div>
   <div class="header-controls">
-    <button class="theme-toggle" id="theme-btn" onclick="toggleTheme()" title="Toggle theme">☀</button>
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark mode">☀</button>
     <button class="refresh-btn" onclick="loadData()">↺ REFRESH</button>
   </div>
 </header>
@@ -422,6 +424,40 @@ body {
   <button class="qv" onclick="applyQuickView('industry', this)">Industry</button>
   <button class="qv" onclick="applyQuickView('critical', this)">Critical now</button>
   <button class="qv" onclick="applyQuickView('scams', this)">⚠ Scam Watch</button>
+</div>
+
+<!-- THREAT MAP TAB -->
+<div class="tpanel" id="tpanel-threatmap">
+  <div style="padding:24px 32px;">
+    <div style="font-size:13px;color:var(--muted);margin-bottom:6px;line-height:1.6;">Live cyber threat maps visualise attacks detected across global sensor networks. Hosted by security vendors — open in a new tab.</div>
+    <div style="font-size:11px;color:var(--hint);font-style:italic;margin-bottom:20px;">Attack volumes reflect each vendor's own network visibility — for awareness purposes.</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;">
+      <a href="https://cybermap.kaspersky.com/" target="_blank" rel="noopener" style="text-decoration:none;">
+        <div style="padding:20px;border:0.5px solid var(--border2);border-radius:8px;background:var(--surface2);cursor:pointer;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">
+          <div style="font-size:22px;margin-bottom:10px;">🌐</div>
+          <div style="font-size:14px;font-weight:500;color:var(--text);margin-bottom:6px;">Kaspersky</div>
+          <div style="font-size:12px;color:var(--hint);line-height:1.5;margin-bottom:12px;">Most visually detailed — shows attack types, origins and targets in real time</div>
+          <div style="font-size:12px;color:var(--accent);">Open map ↗</div>
+        </div>
+      </a>
+      <a href="https://threatmap.checkpoint.com/" target="_blank" rel="noopener" style="text-decoration:none;">
+        <div style="padding:20px;border:0.5px solid var(--border2);border-radius:8px;background:var(--surface2);cursor:pointer;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">
+          <div style="font-size:22px;margin-bottom:10px;">🛡</div>
+          <div style="font-size:14px;font-weight:500;color:var(--text);margin-bottom:6px;">Check Point</div>
+          <div style="font-size:12px;color:var(--hint);line-height:1.5;margin-bottom:12px;">Real-time attack data from Check Point's ThreatCloud intelligence network</div>
+          <div style="font-size:12px;color:var(--accent);">Open map ↗</div>
+        </div>
+      </a>
+      <a href="https://www.fortiguard.com/map" target="_blank" rel="noopener" style="text-decoration:none;">
+        <div style="padding:20px;border:0.5px solid var(--border2);border-radius:8px;background:var(--surface2);cursor:pointer;" onmouseover="this.style.borderColor='var(--accent)'" onmouseout="this.style.borderColor='var(--border2)'">
+          <div style="font-size:22px;margin-bottom:10px;">📡</div>
+          <div style="font-size:14px;font-weight:500;color:var(--text);margin-bottom:6px;">Fortinet</div>
+          <div style="font-size:12px;color:var(--hint);line-height:1.5;margin-bottom:12px;">FortiGuard Labs live botnet and attack activity across global infrastructure</div>
+          <div style="font-size:12px;color:var(--accent);">Open map ↗</div>
+        </div>
+      </a>
+    </div>
+  </div>
 </div>
 
 <!-- FILTER BAR -->
@@ -755,7 +791,9 @@ function renderArticles() {
     const tags = (a.tags || []).map(t => `<span class="${tagClass(t)}">${t}</span>`).join('');
     const auds = (a.audience || []).slice(0,2).map(au => `<span class="tag-aud">${au}</span>`).join('');
     const rel = a.relevance ? `<span class="${relClass(a.relevance)}">${a.relevance}</span>` : '';
-    const summary = (a.summary || '').replace(/<[^>]+>/g, '');
+    let summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+    // Google News summaries are just truncated titles — skip them
+    if (summary.length < 80 || a.source.toLowerCase().includes('google news')) summary = '';
     const dateStr = a.date ? formatDateAEST(a.date) : '';
     // Filter sponsored content
     if (a.title.toLowerCase().startsWith('sponsored')) return '';
