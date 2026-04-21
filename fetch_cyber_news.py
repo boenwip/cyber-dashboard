@@ -25,6 +25,7 @@ import socket
 # -------------------------------------------------------
 
 NEWS_FEEDS = [
+    # ── Government & Official ──
     {
         "name": "ACSC Alerts",
         "url": "https://www.cyber.gov.au/rss/alerts"
@@ -34,9 +35,15 @@ NEWS_FEEDS = [
         "url": "https://www.cyber.gov.au/rss/advisories"
     },
     {
+        "name": "Google News — ScamWatch",
+        "url": "https://news.google.com/rss/search?q=site:scamwatch.gov.au&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    # ── Australian Cyber & Tech News ──
+    {
         "name": "Australian Cyber Security Magazine",
         "url": "https://australiancybersecuritymagazine.com.au/feed"
     },
+
     {
         "name": "Security Brief Australia",
         "url": "https://securitybrief.com.au/feed"
@@ -49,17 +56,52 @@ NEWS_FEEDS = [
         "name": "ABC News Business",
         "url": "https://www.abc.net.au/news/feed/104217374/rss.xml"
     },
+    # ── Google News: Cyber & Scams ──
+    {
+        "name": "Google News — AU Cyber",
+        "url": "https://news.google.com/rss/search?q=cyber+attack+data+breach+australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — AU Scams",
+        "url": "https://news.google.com/rss/search?q=scam+fraud+australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    # ── Google News: RTO / VET / Education ──
     {
         "name": "Google News — ASQA / RTO",
-        "url": "https://news.google.com/rss/search?q=ASQA+RTO+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=ASQA+RTO+traineeship+vocational+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — VET Workforce",
-        "url": "https://news.google.com/rss/search?q=VET+workforce+skills+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=VET+traineeship+apprenticeship+skills+shortage+Australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
-        "name": "Google News — AU Cyber",
-        "url": "https://news.google.com/rss/search?q=cyber+breach+australia+banking+energy&hl=en-AU&gl=AU&ceid=AU:en"
+        "name": "Google News — TAFE Australia",
+        "url": "https://news.google.com/rss/search?q=TAFE+Queensland+NSW+Australia+training&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — ITECA / Training Policy",
+        "url": "https://news.google.com/rss/search?q=ITECA+vocational+training+policy+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — Training.gov.au",
+        "url": "https://news.google.com/rss/search?q=training.gov.au+qualifications+accreditation+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    # ── Google News: AI, EdTech & Compliance ──
+    {
+        "name": "Google News — VET Funding & Policy",
+        "url": "https://news.google.com/rss/search?q=VET+funding+fee-free+TAFE+skills+policy+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — AI & EdTech",
+        "url": "https://news.google.com/rss/search?q=AI+tools+education+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — AI Workforce",
+        "url": "https://news.google.com/rss/search?q=artificial+intelligence+workforce+Australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — Privacy & Compliance",
+        "url": "https://news.google.com/rss/search?q=Privacy+Act+compliance+Australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
     },
 ]
 
@@ -111,18 +153,46 @@ TOPIC_TAG_RULES = [
             "phishing", "data breach", "vulnerability", "cve",
             "malware", "threat actor", "exploit", "patch",
             "incident", "compromise", "advisory", "alert",
+            "cyber attack", "cyberwarfare", "cybercrime",
         ]
     },
     {
         "tag": "RTO / VET",
         "keywords": [
-            "rto", "vet sector", "vocational", "asqa", "tafe",
-            "training provider", "registered training",
+            # Core sector identifiers
+            "rto", "vet sector", "vocational education", "vocational training",
+            "asqa", "tafe", "tafe queensland", "tafe nsw", "tafe sa",
+            "tafe victoria", "tafe wa", "tafe tasmania",
+            "training provider", "registered training organisation",
+            "independent training provider", "private training",
+            # Qualifications and frameworks
             "apprentice", "traineeship", "qualification",
-            "standards for rtos", "national training",
-            "vet quality", "training package", "skills australia",
+            "certificate iii", "certificate iv", "diploma",
+            "advanced diploma", "aqf", "australian qualifications framework",
+            "training package", "unit of competency", "competency based",
+            "nationally recognised training", "nrt",
+            # Regulatory and policy
+            "standards for rtos", "2025 standards", "vet quality framework",
+            "national training", "vet quality", "training organisation",
+            "skills australia", "jobs and skills australia",
             "department of employment", "jobs and skills",
-            "2025 standards", "training organisation",
+            "ncver", "national centre for vocational education",
+            "iteca", "independent tertiary education",
+            "training.gov.au", "skills insight",
+            # Funding and policy
+            "fee-free tafe", "fee free tafe", "vet funding",
+            "skills reform", "skills minister", "skills shortage",
+            "workforce development", "workforce skills",
+            "apprenticeship incentive", "traineeship incentive",
+            "vet student loans", "vsl",
+            # International students in VET
+            "cricos", "international student", "student visa",
+            "esos", "education services overseas",
+            # Sector issues
+            "vet provider", "college registration", "rto registration",
+            "rto compliance", "rto audit", "asqa audit",
+            "rto cancellation", "rto deregistration",
+            "fake qualification", "certificate fraud",
         ]
     },
     {
@@ -130,7 +200,48 @@ TOPIC_TAG_RULES = [
         "keywords": [
             "education", "school", "university", "student",
             "teacher", "learning", "campus", "higher education",
-            "k-12", "edtech", "classroom", "curriculum",
+            "k-12", "classroom", "curriculum",
+        ]
+    },
+    {
+        "tag": "EdTech",
+        "keywords": [
+            "edtech", "learning management", "lms", "canvas", "moodle",
+            "online learning", "e-learning", "elearning", "digital learning",
+            "learning platform", "virtual classroom", "learning technology",
+            "instructional technology", "digital education",
+            "ai in education", "ai in training", "generative ai learning",
+        ]
+    },
+    {
+        "tag": "AI & Tools",
+        "keywords": [
+            "artificial intelligence", "generative ai", "chatgpt", "copilot",
+            "large language model", "llm", "ai tools", "machine learning",
+            "automation", "ai workforce", "ai skills", "ai adoption",
+            "openai", "anthropic", "google gemini", "ai productivity",
+            "ai regulation", "ai governance", "responsible ai",
+        ]
+    },
+    {
+        "tag": "Scams",
+        "keywords": [
+            "scam", "fraud", "scamwatch", "phishing", "impersonation",
+            "deepfake scam", "romance scam", "investment scam",
+            "ato scam", "mygov scam", "centrelink scam",
+            "bank scam", "text scam", "email scam", "phone scam",
+            "social engineering", "identity theft", "money mule",
+        ]
+    },
+    {
+        "tag": "Compliance",
+        "keywords": [
+            "privacy act", "privacy law", "oaic", "notifiable data breach",
+            "ndb scheme", "gdpr", "compliance", "regulation",
+            "regulatory", "legislation", "legal requirement",
+            "data protection", "information security policy",
+            "ism", "essential eight", "iso 27001", "soc 2",
+            "audit", "data governance", "data sovereignty",
         ]
     },
 ]
@@ -235,7 +346,14 @@ RELEVANCE_RULES = [
             "training provider", "vet sector", "vocational",
             "training organisation", "2025 standards",
             "training package", "national training",
-            "apprentice", "traineeship",
+            "apprentice", "traineeship", "iteca",
+            "ncver", "training.gov.au", "skills insight",
+            "fee-free tafe", "fee free tafe", "vet funding",
+            "certificate iii", "certificate iv",
+            "aqf", "cricos", "esos", "vet student loans",
+            "rto compliance", "rto audit", "rto registration",
+            "competency based", "nationally recognised training",
+            "skills reform", "jobs and skills australia",
         ]
     },
     {
@@ -358,7 +476,7 @@ def get_relevance(combined):
 # Keeps your feed current and removes stale Google News results
 # -------------------------------------------------------
 
-def filter_old_articles(articles, days=180):
+def filter_old_articles(articles, days=365):
     import email.utils
     cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
     filtered = []
