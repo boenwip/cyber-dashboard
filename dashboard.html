@@ -733,7 +733,7 @@ function renderArticles() {
     </a>`;
   }).join('');
 
-  document.getElementById('articles-container').innerHTML = html.filter(Boolean).join('') || '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
+  document.getElementById('articles-container').innerHTML = html || '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
 }
 
 function renderTools() {
