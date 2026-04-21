@@ -393,7 +393,7 @@ body {
         <div class="hl">Mandatory ransomware reporting introduced for businesses over <b>$3M</b> turnover</div>
       </div>
     </div>
-    <div class="report-foot">ASD's ACSC Annual Cyber Threat Report 2024–25 · Published October 2025 · cyber.gov.au</div>
+    <div class="report-foot"><a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">ASD's ACSC Annual Cyber Threat Report 2024–25 · Published October 2025 · cyber.gov.au</a></div>
   </div>
 </section>
 
@@ -551,8 +551,11 @@ let activeFilters = { topic: [], audience: [], threat: [], relevance: [] };
 
 function formatDateAEST(isoStr) {
   if (!isoStr) return '';
+  // Dates from Python are already formatted as DD-MM-YYYY HH:MM AM/PM - return as-is
+  if (/^\d{2}-\d{2}-\d{4}/.test(isoStr)) return isoStr;
   try {
-    const d = new Date(isoStr.replace(' ', 'T') + '+00:00');
+    const d = new Date(isoStr);
+    if (isNaN(d)) return isoStr;
     return d.toLocaleString('en-AU', {
       timeZone: 'Australia/Sydney',
       day: '2-digit', month: '2-digit', year: 'numeric',
