@@ -21,6 +21,54 @@ import socket
 
 
 # -------------------------------------------------------
+# SOURCE BLOCKLIST
+# Articles from these domains are excluded regardless of feed
+# Prioritises factual, credible sources only
+# -------------------------------------------------------
+
+BLOCKED_DOMAINS = [
+    # Commercial / tabloid Australian media
+    "7news.com.au",
+    "7news.com",
+    "9news.com.au",
+    "news.com.au",
+    "heraldsun.com.au",
+    "dailytelegraph.com.au",
+    "couriermail.com.au",
+    "adelaidenow.com.au",
+    "perthnow.com.au",
+    "skynews.com.au",
+    "foxnews.com",
+    "nypost.com",
+    "dailymail.co.uk",
+    "theaustralian.com.au",  # Murdoch
+    "townsvillebulletin.com.au",
+    "cairnspost.com.au",
+    "goldcoastbulletin.com.au",
+    # Clickbait / low quality
+    "buzzfeed.com",
+    "ladbible.com",
+    "unilad.com",
+    "viral.com",
+    # SEO content farms
+    "vocal.media",
+    "medium.com",  # too variable in quality
+    "substack.com",
+]
+
+
+def is_blocked(link, title=""):
+    """Return True if the article should be excluded based on source domain."""
+    if not link:
+        return False
+    link_lower = link.lower()
+    for domain in BLOCKED_DOMAINS:
+        if domain in link_lower:
+            return True
+    return False
+
+
+# -------------------------------------------------------
 # ZONE 1: NEWS FEEDS
 # -------------------------------------------------------
 
@@ -55,6 +103,14 @@ NEWS_FEEDS = [
     {
         "name": "ABC News Business",
         "url": "https://www.abc.net.au/news/feed/104217374/rss.xml"
+    },
+    {
+        "name": "SBS News",
+        "url": "https://www.sbs.com.au/news/feed"
+    },
+    {
+        "name": "The Guardian Australia",
+        "url": "https://www.theguardian.com/australia-news/rss"
     },
     # ── Google News: Cyber & Scams ──
     {
@@ -565,6 +621,10 @@ def fetch_news():
 
             # Skip sponsored content
             if title.lower().startswith("sponsored"):
+                continue
+
+            # Skip blocked sources
+            if is_blocked(link, title):
                 continue
 
             if topic_tags:
