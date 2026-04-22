@@ -146,4 +146,4 @@ python -m http.server 8000
 
 ---
 
-*Built as a learning project alongside a Python uni course (7 weeks in). Started as a personal cyber news aggregator — evolving into a broader staff resource for Skills Generation, an Australian RTO delivering traineeships, VET in Schools, and regional training programs.*
+*Built as a learning project alongside a Python uni course (7 weeks in). Started as a personal cyber news aggregator — evolving into a broader staff resource for an Australian RTO delivering traineeships, VET in Schools, and regional training programs.*
