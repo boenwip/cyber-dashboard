@@ -1,6 +1,6 @@
 # Cyber & Sector Awareness Dashboard
 
-A live cyber security and sector intelligence dashboard built for Australian RTO/VET professionals. Aggregates news from Australian government, cyber security and sector-specific sources — filtered, tagged, and presented in a clean two-theme interface.
+A live cyber security and sector intelligence dashboard built for Australian RTO/VET professionals. Aggregates news from Australian government, cyber security and sector sources — filtered, tagged, and updated automatically.
 
 **Live dashboard:** https://boenwip.github.io/cyber-dashboard/dashboard.html
 
@@ -8,84 +8,102 @@ A live cyber security and sector intelligence dashboard built for Australian RTO
 
 ## What it does
 
-**News feed** — pulls from Australian cyber security, VET/RTO sector, scam, AI and compliance RSS feeds. Every article is tagged across four dimensions and sorted newest first.
+**Stat strip** — live counts pulled from loaded data on every page load: ACSC updates this week, new articles in the last 12 hours, total tracked, scam notices, and the ACSC average SMB loss figure ($80,850 per incident).
 
-**Stat strip** — live counts from the loaded data: ACSC updates this week, new articles in the last 12 hours, total tracked, scam notices, and the ACSC average SMB loss figure ($80,850).
+**News feed** — capped at 20 most recent articles with internal scroll. Credible sources only — tabloid and clickbait domains are blocked automatically.
 
-**Threat tracker** — three tabs:
-- FY 2025–26 live projection (counting from 1 July 2025, based on 84,700 reports/year)
-- FY 2024–25 official ACSC Annual Report statistics
-- Live threat map links (Kaspersky, Check Point, Fortinet — open in new tab)
+**Threat tracker** — four tabs:
+- FY 2025–26 live projection (counting from 1 July 2025, based on ACSC rate of 84,700 reports/year)
+- FY 2024–25 official ACSC Annual Report statistics with crime type distribution chart
+- Live threat map links (Kaspersky, Check Point, Fortinet — tabbed, open in new tab)
+- Cyber Awareness — six tip cards covering scams, phishing, passwords, safe browsing, AI safety, reporting
 
-**Cyber Awareness tab** — six tip cards covering scams, phishing, passwords, safe browsing, AI tool safety, and what to do if something goes wrong. Includes links to ScamWatch and cyber.gov.au.
+**Quick views** — Everything, For Me, Industry, Critical Now, ⚠ Scam Watch, ✦ Good News
 
-**Tool updates sidebar** — live feed from Google Workspace and Asana product blogs.
+**Filter system** — topic, audience, relevance and threat level pills
 
-**Filter system** — quick views (Everything, For Me, Industry, Critical Now, Scam Watch) plus topic, audience, relevance and threat level filter pills.
+**Tool updates sidebar** — Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva
+
+**Two themes** — light default (warm parchment) and dark (deep navy-black)
 
 ---
 
 ## Tagging system
 
-Each article is tagged across four dimensions:
-
 | Dimension | Values |
 |---|---|
-| Topic | AU Cyber, RTO / VET, Education, EdTech, AI & Tools, Scams, Compliance |
+| Topic | AU Cyber, RTO / VET, Education, EdTech, AI & Tools, Scams, Compliance, Good News |
 | Threat level | Critical, High, Medium, Advisory |
-| Audience | SMB, Enterprise, Consumer, Critical Infra |
+| Audience | Small Business, Enterprise, Consumer, Critical Infrastructure |
 | Relevance | Direct, Sector, AU General, Global |
 
 ---
 
 ## News sources
 
-| Source | Type |
+### Zone 1 — News feeds
+
+| Source | Focus |
 |---|---|
 | ACSC Updates | Australian government cyber advisories |
 | ACSC Advisories | Australian government advisories |
-| Google News — ScamWatch | Official scam alerts via Google News |
-| Australian Cyber Security Magazine | AU cyber industry news |
-| Security Brief Australia | AU enterprise security news |
-| iTnews | AU enterprise IT news |
-| ABC News Business | National business and tech news |
+| Google News — ScamWatch | Official scam alerts |
+| Australian Cyber Security Magazine | AU cyber industry |
+| Security Brief Australia | AU enterprise security |
+| iTnews | AU enterprise IT |
+| ABC News Business | National business and tech |
 | SBS News | National news |
 | The Guardian Australia | Independent Australian news |
-| Google News — AU Cyber | Cyber attack and data breach news |
-| Google News — AU Scams | Australian scam and fraud news |
-| Google News — ASQA / RTO | VET sector and compliance news |
-| Google News — VET Workforce | Skills and training workforce news |
-| Google News — VET Funding & Policy | Funding announcements and policy |
-| Google News — AI & EdTech | AI in education and training |
-| Google News — AI Workforce | AI impact on Australian workforce |
-| Google News — Privacy & Compliance | Privacy Act and regulatory news |
+| Google News — AU Cyber | Cyber attack and data breach |
+| Google News — AU Scams | Australian scam and fraud |
+| Google News — ASQA / RTO | VET sector and compliance |
+| Google News — VET Workforce | Skills and training workforce |
+| Google News — VET Funding & Policy | Funding and policy |
+| Google News — AI & EdTech | AI in education |
+| Google News — AI Workforce | AI impact on workforce |
+| Google News — Privacy & Compliance | Privacy Act and regulatory |
+| Google News — AU Cyber Wins | Positive cyber outcomes |
+| Google News — AI Progress | Positive AI developments |
 
-**Source blocklist** — 7News, 9News, News.com.au, Herald Sun, Daily Telegraph, Courier Mail, Sky News and other low-quality sources are automatically excluded.
+### Zone 2 — Tool feeds
+
+| Source | Tool |
+|---|---|
+| Google Workspace Updates | Google |
+| Chrome Releases | Google |
+| Asana Product Blog | Asana |
+| Zoom Blog | Zoom |
+| Google News — ChatGPT Updates | AI Tools |
+| Google News — Canva Updates | Canva |
+
+### Source blocklist
+
+Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait domains are automatically excluded — 7news, 9news, news.com.au, heraldsun, dailytelegraph, couriermail, skynews, theaustralian, foxnews, dailymail, vocal.media, buzzfeed, ladbible, loyaltylobby, and others.
 
 ---
 
 ## Automation
 
-GitHub Actions runs `fetch_cyber_news.py` on a schedule and commits updated JSON back to the repo. GitHub Pages serves the dashboard from those files.
-
 **Schedule:**
-- Weekdays 8am–7pm AEST: every 30 minutes
-- Every night 11pm AEST: overnight refresh
-- Weekends: every 6 hours
+- Weekdays 8am–7pm AEST — every 30 minutes
+- Nightly 11pm AEST — overnight refresh
+- Weekends — every 6 hours
+
+GitHub Actions runs `fetch_cyber_news.py` and commits updated JSON back to the repo automatically.
 
 ---
 
-## Themes
+## Colour palette
 
-Two themes — light (default) and dark — toggled via the sun/moon button in the header.
-
-| | Light | Dark |
+| | Light (default) | Dark |
 |---|---|---|
-| Background | #F5F2EC (warm parchment) | #13141A (deep navy-black) |
+| Background | #F5F2EC | #13141A |
 | Surface | #FDFAF5 | #1C1E26 |
-| Text | #1C1C1E | #edeae4 |
-| Accent | #3D6B9E (slate blue) | #7E9DC4 |
-| RTO / VET tag | Purple | Purple |
+| Accent | #3D6B9E slate blue | #7E9DC4 |
+| RTO / VET | #6B4A9E purple | #9B78C8 |
+| Critical | #A8443E | #C8706A |
+| Teal / scam | #3A7A6E | #6BA898 |
+| Amber / high | #8C6E2A | #C4A35A |
 
 ---
 
@@ -93,14 +111,12 @@ Two themes — light (default) and dark — toggled via the sun/moon button in t
 
 ```
 cyber-dashboard/
-├── dashboard.html          # Frontend — served via GitHub Pages
-├── fetch_cyber_news.py     # Python script — fetches, tags, deduplicates, saves JSON
-├── news.json               # Generated by script (auto-committed by Actions)
-├── tool_updates.json       # Generated by script (auto-committed by Actions)
-├── .github/
-│   └── workflows/
-│       └── fetch_news.yml  # GitHub Actions workflow
-├── .gitignore
+├── dashboard.html              # Frontend
+├── fetch_cyber_news.py         # Python pipeline
+├── news.json                   # Auto-generated
+├── tool_updates.json           # Auto-generated
+├── .github/workflows/
+│   └── fetch_news.yml          # Actions schedule
 └── README.md
 ```
 
@@ -109,13 +125,8 @@ cyber-dashboard/
 ## Running locally
 
 ```bash
-# Install dependency (once)
 pip install feedparser
-
-# Fetch latest news
 python fetch_cyber_news.py
-
-# Serve the dashboard
 python -m http.server 8000
 # Open http://localhost:8000/dashboard.html
 ```
@@ -124,26 +135,21 @@ python -m http.server 8000
 
 ## Planned
 
+- Permanent Actions fix — git pull before commit to prevent JSON conflicts
 - Left sidebar navigation
 - CVE feed panel (NIST NVD, High/Critical only)
 - Resources — Learn & Awareness page
 - Resources — IT Tools page (Shodan, OSINT, cheat sheets)
 - AI Guide page (prompt library, safety tips, model updates)
+- Background mesh — Canva asset (bg-dark.png, bg-light.png)
 - ASQA dedicated page
-- Background mesh design (Canva asset)
-- Staff tool tips (Google Workspace, Zoom, Canva, Gamma)
 
 ---
 
 ## Tech
 
-- **Python** — feedparser, urllib, json, datetime
-- **HTML / CSS / JS** — vanilla, no frameworks
-- **Fonts** — IBM Plex Sans (body), Fraunces (display/numbers)
-- **Hosting** — GitHub Pages (free)
-- **Automation** — GitHub Actions (free tier)
-- **Data source** — ACSC Annual Cyber Threat Report 2024–25
+Python · feedparser · vanilla HTML/CSS/JS · IBM Plex Sans + Fraunces · GitHub Pages · GitHub Actions
 
 ---
 
-*Built as a learning project alongside a Python uni course (7 weeks in). Started as a personal cyber news aggregator — evolving into a broader staff resource for an Australian RTO delivering traineeships, VET in Schools, and regional training programs.*
+*Built alongside a Python university course. Started as a personal cyber news aggregator — evolving into a staff resource for Skills Generation, an Australian RTO delivering traineeships, VET in Schools, and regional training programs.*
