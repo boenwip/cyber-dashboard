@@ -119,6 +119,22 @@ NEWS_FEEDS = [
         "name": "The Guardian Australia",
         "url": "https://www.theguardian.com/australia-news/rss"
     },
+    {
+        "name": "The Guardian — Tech",
+        "url": "https://www.theguardian.com/technology/rss"
+    },
+    {
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+    },
+    {
+        "name": "Schneier on Security",
+        "url": "https://www.schneier.com/feed/atom"
+    },
+    {
+        "name": "Troy Hunt Blog",
+        "url": "https://www.troyhunt.com/rss/"
+    },
     # ── Google News: Cyber & Scams ──
     {
         "name": "Google News — AU Cyber",

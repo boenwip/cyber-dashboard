@@ -132,15 +132,12 @@ body {
 
 /* ── HEADER ── */
 .site-header {
-  padding: 20px 32px 16px;
+  padding: 16px 32px;
   border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: center;
   justify-content: space-between;
   background: var(--surface);
-  position: sticky;
-  top: 0;
-  z-index: 100;
 }
 .site-title { font-family: 'Fraunces', serif; font-size: 22px; font-weight: 300; letter-spacing: -0.02em; }
 .site-title em { font-style: italic; color: var(--accent); }
@@ -259,14 +256,32 @@ body {
 
 /* ── FILTER BAR ── */
 .filter-bar {
-  padding: 8px 32px;
+  padding: 0 32px;
   border-bottom: 0.5px solid var(--border);
-  display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
-  background: var(--bg);
+  background: var(--surface);
 }
-.filter-group { display: flex; align-items: center; gap: 6px; }
-.filter-divider { width: 0.5px; height: 18px; background: var(--border2); margin: 0 4px; }
-.fl { font-size: 12px; color: var(--hint); letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+.filter-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 0;
+  border-bottom: 0.5px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-row:last-child { border-bottom: none; }
+.filter-group { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
+.filter-divider { display: none; }
+.fl {
+  font-size: 10px;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  min-width: 76px;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
 .pill {
   font-family: 'IBM Plex Sans', sans-serif; font-size: 12px;
   padding: 3px 10px; border: 0.5px solid var(--border2);
@@ -342,7 +357,14 @@ body {
 .loading-msg { padding: 32px; text-align: center; color: var(--hint); font-size: 12px; }
 
 /* ── SIDEBAR ── */
-.sidebar { background: var(--surface); }
+.sidebar {
+  background: var(--surface);
+  border-left: 0.5px solid var(--border);
+  height: 680px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
+}
 .sb-hdr {
   padding: 12px 20px; border-bottom: 0.5px solid var(--border);
   font-size: 12px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase;
@@ -496,7 +518,6 @@ body {
   <button class="qv" onclick="applyQuickView('critical', this)">Critical now</button>
   <button class="qv" onclick="applyQuickView('scams', this)">⚠ Scam Watch</button>
   <button class="qv" onclick="applyQuickView('good', this)">✦ Good News</button>
-  <button class="qv" onclick="applyQuickView('goodnews', this)">✦ Good News</button>
 </div>
 
 <!-- THREAT MAP TAB -->
@@ -575,7 +596,7 @@ body {
 <div class="tpanel" id="tpanel-tips">
   <div style="padding:20px 32px 28px;">
     <div style="font-size:12px;color:var(--hint);margin-bottom:20px;font-style:italic;">
-      Practical steps for Skills Generation staff — share these with your team.
+      Practical steps to stay safe — share these with anyone who needs them.
     </div>
     <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;">
 
@@ -669,40 +690,44 @@ body {
 
 <!-- FILTER BAR -->
 <div class="filter-bar">
-  <span class="fl">Topic</span>
-  <div class="filter-group" id="topic-filters">
-    <button class="pill" data-filter-type="topic" data-value="AU Cyber"    onclick="toggleFilter(this)">AU Cyber</button>
-    <button class="pill" data-filter-type="topic" data-value="RTO / VET"  onclick="toggleFilter(this)">RTO / VET</button>
-    <button class="pill" data-filter-type="topic" data-value="Education"  onclick="toggleFilter(this)">Education</button>
-    <button class="pill" data-filter-type="topic" data-value="EdTech"     onclick="toggleFilter(this)">EdTech</button>
-    <button class="pill" data-filter-type="topic" data-value="AI & Tools" onclick="toggleFilter(this)">AI & Tools</button>
-    <button class="pill" data-filter-type="topic" data-value="Scams"      onclick="toggleFilter(this)">Scams</button>
-    <button class="pill" data-filter-type="topic" data-value="Compliance" onclick="toggleFilter(this)">Compliance</button>
-    <button class="pill" data-filter-type="topic" data-value="Good News" onclick="toggleFilter(this)">Good News</button>
+  <div class="filter-row">
+    <span class="fl">Topic</span>
+    <div class="filter-group" id="topic-filters">
+      <button class="pill" data-filter-type="topic" data-value="AU Cyber"    onclick="toggleFilter(this)">AU Cyber</button>
+      <button class="pill" data-filter-type="topic" data-value="RTO / VET"  onclick="toggleFilter(this)">RTO / VET</button>
+      <button class="pill" data-filter-type="topic" data-value="Education"  onclick="toggleFilter(this)">Education</button>
+      <button class="pill" data-filter-type="topic" data-value="EdTech"     onclick="toggleFilter(this)">EdTech</button>
+      <button class="pill" data-filter-type="topic" data-value="AI & Tools" onclick="toggleFilter(this)">AI & Tools</button>
+      <button class="pill" data-filter-type="topic" data-value="Scams"      onclick="toggleFilter(this)">Scams</button>
+      <button class="pill" data-filter-type="topic" data-value="Compliance" onclick="toggleFilter(this)">Compliance</button>
+    </div>
   </div>
-  <div class="filter-divider"></div>
-  <span class="fl">Audience</span>
-  <div class="filter-group" id="audience-filters">
-    <button class="pill" data-filter-type="audience" data-value="Small Business"            onclick="toggleFilter(this)">Small Business</button>
-    <button class="pill" data-filter-type="audience" data-value="Enterprise"     onclick="toggleFilter(this)">Enterprise</button>
-    <button class="pill" data-filter-type="audience" data-value="Consumer"       onclick="toggleFilter(this)">Consumer</button>
-    <button class="pill" data-filter-type="audience" data-value="Critical Infrastructure" onclick="toggleFilter(this)">Critical Infrastructure</button>
+  <div class="filter-row">
+    <span class="fl">Audience</span>
+    <div class="filter-group" id="audience-filters">
+      <button class="pill" data-filter-type="audience" data-value="Small Business"          onclick="toggleFilter(this)">Small Business</button>
+      <button class="pill" data-filter-type="audience" data-value="Enterprise"              onclick="toggleFilter(this)">Enterprise</button>
+      <button class="pill" data-filter-type="audience" data-value="Consumer"                onclick="toggleFilter(this)">Consumer</button>
+      <button class="pill" data-filter-type="audience" data-value="Critical Infrastructure" onclick="toggleFilter(this)">Critical Infrastructure</button>
+    </div>
   </div>
-  <div class="filter-divider"></div>
-  <span class="fl">Relevance</span>
-  <div class="filter-group" id="relevance-filters">
-    <button class="pill" data-filter-type="relevance" data-value="Direct"     onclick="toggleFilter(this)">Direct</button>
-    <button class="pill" data-filter-type="relevance" data-value="Sector"     onclick="toggleFilter(this)">Sector</button>
-    <button class="pill" data-filter-type="relevance" data-value="AU General" onclick="toggleFilter(this)">AU General</button>
-    <button class="pill" data-filter-type="relevance" data-value="Global"     onclick="toggleFilter(this)">Global</button>
+  <div class="filter-row">
+    <span class="fl">Relevance</span>
+    <div class="filter-group" id="relevance-filters">
+      <button class="pill" data-filter-type="relevance" data-value="Direct"     onclick="toggleFilter(this)">Direct</button>
+      <button class="pill" data-filter-type="relevance" data-value="Sector"     onclick="toggleFilter(this)">Sector</button>
+      <button class="pill" data-filter-type="relevance" data-value="AU General" onclick="toggleFilter(this)">AU General</button>
+      <button class="pill" data-filter-type="relevance" data-value="Global"     onclick="toggleFilter(this)">Global</button>
+    </div>
   </div>
-  <div class="filter-divider"></div>
-  <span class="fl">Threat</span>
-  <div class="filter-group" id="threat-filters">
-    <button class="pill" data-filter-type="threat" data-value="Critical" onclick="toggleFilter(this)">Critical</button>
-    <button class="pill" data-filter-type="threat" data-value="High"     onclick="toggleFilter(this)">High</button>
-    <button class="pill" data-filter-type="threat" data-value="Medium"   onclick="toggleFilter(this)">Medium</button>
-    <button class="pill" data-filter-type="threat" data-value="Advisory" onclick="toggleFilter(this)">Advisory</button>
+  <div class="filter-row">
+    <span class="fl">Threat</span>
+    <div class="filter-group" id="threat-filters">
+      <button class="pill" data-filter-type="threat" data-value="Critical" onclick="toggleFilter(this)">Critical</button>
+      <button class="pill" data-filter-type="threat" data-value="High"     onclick="toggleFilter(this)">High</button>
+      <button class="pill" data-filter-type="threat" data-value="Medium"   onclick="toggleFilter(this)">Medium</button>
+      <button class="pill" data-filter-type="threat" data-value="Advisory" onclick="toggleFilter(this)">Advisory</button>
+    </div>
   </div>
 </div>
 
@@ -927,9 +952,7 @@ function applyQuickView(view, btn) {
     setFilter('topic', 'Scams');
   } else if (view === 'good') {
     setFilter('topic', 'Good News');
-  } else if (view === 'goodnews') {
-    setFilter('topic', 'Good News');
-  }
+  
   renderArticles();
 }
 
@@ -1049,7 +1072,10 @@ function threatDot(t) {
 }
 
 function renderArticles() {
-  const filtered = allArticles.filter(passesFilters).slice(0, 20);
+  const filtered = allArticles
+    .filter(passesFilters)
+    .sort((a, b) => parseArticleDate(b.date) - parseArticleDate(a.date))
+    .slice(0, 20);
   if (!filtered.length) {
     document.getElementById('articles-container').innerHTML =
       '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
