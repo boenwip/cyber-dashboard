@@ -1112,15 +1112,13 @@ function renderTools() {
   if (!allTools.length) return;
   const grouped = {};
   allTools.forEach(t => { if (!grouped[t.tool]) grouped[t.tool] = []; grouped[t.tool].push(t); });
-  const html = Object.entries(grouped).map(([tool, items]) =>
-    `<div class="tool-group">
-      <div class="tool-name">${tool}</div>
-      ${items.map(i => `<a class="tool-item" href="${i.link}" target="_blank" rel="noopener">
-        <div class="tool-item-title">${i.title}</div>
-        ${i.date ? `<div class="tool-item-date">${i.date}</div>` : ''}
-      </a>`).join('')}
-    </div>`
-  ).join('');
+  const html = Object.entries(grouped).map(([tool, items]) => {
+    const itemsHtml = items.map(i => {
+      const dateHtml = i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '';
+      return '<a class="tool-item" href="' + i.link + '" target="_blank" rel="noopener"><div class="tool-item-title">' + i.title + '</div>' + dateHtml + '</a>';
+    }).join('');
+    return '<div class="tool-group"><div class="tool-name">' + tool + '</div>' + itemsHtml + '</div>';
+  }).join('');
   document.getElementById('tools-container').innerHTML = html;
 }
 
