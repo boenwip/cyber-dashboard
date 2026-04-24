@@ -189,7 +189,7 @@ function applyQuickView(view, btn) {
     setFilter('topic', 'Scams');
   } else if (view === 'good') {
     setFilter('topic', 'Good News');
-  
+  }
   renderArticles();
 }
 
