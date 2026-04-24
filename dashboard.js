@@ -80,13 +80,13 @@ function updateStatStrip(data) {
   // Scam notices
   const scamCount = items.filter(a => (a.tags || []).includes('Scams')).length;
 
-  document.getElementById('stat-acsc').textContent = acscCount || '—';
-  document.getElementById('stat-new').textContent = newCount || '—';
-  document.getElementById('stat-total').textContent = items.length;
-  document.getElementById('stat-scams').textContent = scamCount || '—';
-
+  function setEl(id, val) { var el = document.getElementById(id); if (el) el.textContent = val; }
+  setEl('stat-acsc', acscCount || '—');
+  setEl('stat-new', newCount || '—');
+  setEl('stat-total', items.length);
+  setEl('stat-scams', scamCount || '—');
   const ts = data.last_updated || '';
-  if (ts) document.getElementById('stat-updated').textContent = 'Updated ' + ts + ' AEST';
+  if (ts) setEl('stat-updated', 'Updated ' + ts + ' AEST');
 }
 
 function parseArticleDate(dateStr) {
@@ -154,8 +154,11 @@ async function loadData() {
     const data = await res.json();
     allArticles = data.items || [];
     const ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
-    document.getElementById('last-updated').textContent = ts ? 'Last updated: ' + ts + ' AEST' : '';
-    document.getElementById('footer-updated').textContent = ts ? 'Updated: ' + ts + ' AEST' : '';
+    var luEl = document.getElementById('last-updated');
+    var fuEl = document.getElementById('footer-updated');
+    if (luEl) luEl.textContent = ts ? 'Last updated: ' + ts + ' AEST' : '';
+    if (fuEl) fuEl.textContent = ts ? 'Updated: ' + ts + ' AEST' : '';
+    try { updateStatStrip(data); } catch(e) {}
     renderArticles();
   } catch(e) {
     document.getElementById('articles-container').innerHTML =

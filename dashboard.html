@@ -36,25 +36,28 @@
 
   <!-- LIVE TAB -->
   <div class="tpanel active" id="tpanel-live">
-    <div class="live-body" style="display:grid;grid-template-columns:1fr 1fr;gap:0;align-items:stretch;">
-      <!-- LEFT: Stats -->
-      <div style="padding:18px 32px;border-right:0.5px solid var(--border);">
+    <div class="live-body" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;align-items:stretch;">
+      <!-- COL 1: Live counter -->
+      <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
         <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
         <div class="count-num" id="main-count">0</div>
         <div class="count-sub">One report every <b>6 minutes</b> · Counting from 1 July 2025</div>
         <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
-        <div class="mini-stats" style="margin-top:12px;">
-          <div class="ms"><div class="ms-n" id="incidents-count">0</div><div class="ms-l">Projected incidents<br>this financial year</div></div>
-          <div class="ms"><div class="ms-n blue">$80,850</div><div class="ms-l">Avg cost per<br>business incident</div></div>
-          <div class="ms"><div class="ms-n teal">$33,000</div><div class="ms-l">Avg individual<br>loss per incident</div></div>
-          <div class="ms"><div class="ms-n blue" id="domains-count">0</div><div class="ms-l">Projected malicious<br>domains blocked</div></div>
+      </div>
+      <!-- COL 2: Key stats -->
+      <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
+        <div class="mini-stats" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div class="ms"><div class="ms-n" id="incidents-count">0</div><div class="ms-l">Projected incidents this FY</div></div>
+          <div class="ms"><div class="ms-n blue">$80,850</div><div class="ms-l">Avg cost per business incident</div></div>
+          <div class="ms"><div class="ms-n teal">$33,000</div><div class="ms-l">Avg individual loss per incident</div></div>
+          <div class="ms"><div class="ms-n blue" id="domains-count">0</div><div class="ms-l">Projected malicious domains blocked</div></div>
         </div>
       </div>
-      <!-- RIGHT: CVE Feed -->
-      <div style="padding:18px 24px;overflow-y:auto;">
-        <div style="font-size:13px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--hint);margin-bottom:12px;">Recent CVEs — High / Critical</div>
+      <!-- COL 3: CVE Feed -->
+      <div style="padding:18px 20px;overflow-y:auto;">
+        <div style="font-size:11px;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;color:var(--hint);margin-bottom:10px;">Recent CVEs — High / Critical</div>
         <div id="cve-feed">
-          <div style="font-size:14px;color:var(--hint);font-style:italic;">Loading CVEs...</div>
+          <div style="font-size:13px;color:var(--hint);font-style:italic;">Loading CVEs...</div>
         </div>
       </div>
     </div>
@@ -120,6 +123,25 @@
     <div class="report-foot"><a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">ASD's ACSC Annual Cyber Threat Report 2024–25 · Published October 2025 · cyber.gov.au</a></div>
   </div>
 </section>
+
+<!-- CRIME DISTRIBUTION -->
+<div style="padding:12px 32px;border-bottom:0.5px solid var(--border);background:var(--surface);">
+  <div style="font-size:13px;letter-spacing:0.07em;text-transform:uppercase;color:var(--hint);margin-bottom:10px;">Crime type distribution — FY 2024–25</div>
+  <div class="bar-wrap">
+    <div class="bar-seg" id="b-ransom" style="background:#C8706A;width:0%"></div>
+    <div class="bar-seg" id="b-id"     style="background:#9B78C8;width:0%"></div>
+    <div class="bar-seg" id="b-shop"   style="background:#7E9DC4;width:0%"></div>
+    <div class="bar-seg" id="b-bank"   style="background:#6BA898;width:0%"></div>
+    <div class="bar-seg" id="b-other"  style="background:var(--border2);width:0%"></div>
+  </div>
+  <div class="legend">
+    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#C8706A;display:inline-block;"></span>Ransomware 11%</span>
+    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#9B78C8;display:inline-block;"></span>Identity fraud 8%</span>
+    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#7E9DC4;display:inline-block;"></span>Online shopping 7%</span>
+    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#6BA898;display:inline-block;"></span>Banking fraud 6%</span>
+    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:var(--border2);display:inline-block;"></span>Other 68%</span>
+  </div>
+</div>
 
 <!-- QUICK VIEWS -->
 <div class="quick-views">
@@ -296,25 +318,6 @@
       </div>
 
     </div>
-  </div>
-</div>
-
-<!-- CRIME DISTRIBUTION -->
-<div style="padding:12px 32px;border-bottom:0.5px solid var(--border);background:var(--surface);">
-  <div style="font-size:13px;letter-spacing:0.07em;text-transform:uppercase;color:var(--hint);margin-bottom:10px;">Crime type distribution — FY 2024–25</div>
-  <div class="bar-wrap">
-    <div class="bar-seg" id="b-ransom" style="background:#C8706A;width:0%"></div>
-    <div class="bar-seg" id="b-id"     style="background:#9B78C8;width:0%"></div>
-    <div class="bar-seg" id="b-shop"   style="background:#7E9DC4;width:0%"></div>
-    <div class="bar-seg" id="b-bank"   style="background:#6BA898;width:0%"></div>
-    <div class="bar-seg" id="b-other"  style="background:var(--border2);width:0%"></div>
-  </div>
-  <div class="legend">
-    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#C8706A;display:inline-block;"></span>Ransomware 11%</span>
-    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#9B78C8;display:inline-block;"></span>Identity fraud 8%</span>
-    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#7E9DC4;display:inline-block;"></span>Online shopping 7%</span>
-    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:#6BA898;display:inline-block;"></span>Banking fraud 6%</span>
-    <span style="font-size:13px;color:var(--muted);display:flex;align-items:center;gap:5px;"><span style="width:10px;height:10px;border-radius:2px;background:var(--border2);display:inline-block;"></span>Other 68%</span>
   </div>
 </div>
 
