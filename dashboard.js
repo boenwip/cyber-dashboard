@@ -92,13 +92,17 @@ function updateStatStrip(data) {
 function parseArticleDate(dateStr) {
   if (!dateStr) return new Date(0);
   try {
-    // DD-MM-YYYY HH:MM AM/PM
-    const m = dateStr.match(/(\d{2})-(\d{2})-(\d{4})\s+(\d{1,2}):(\d{2})\s+(AM|PM)/i);
+    // DD-MM-YYYY HH:MM AM/PM — stored in AEST (UTC+10), convert to UTC for comparison
+    var m = dateStr.match(/(\d{2})-(\d{2})-(\d{4})\s+(\d{1,2}):(\d{2})\s+(AM|PM)/i);
     if (m) {
-      let h = parseInt(m[4]);
+      var h = parseInt(m[4]);
       if (m[6].toUpperCase() === 'PM' && h !== 12) h += 12;
       if (m[6].toUpperCase() === 'AM' && h === 12) h = 0;
-      return new Date(parseInt(m[3]), parseInt(m[2])-1, parseInt(m[1]), h, parseInt(m[5]));
+      // Build ISO string treating time as AEST (UTC+10)
+      var day = m[1], mon = m[2], yr = m[3], min = m[5];
+      var iso = yr + '-' + mon + '-' + day + 'T' + (h < 10 ? '0' : '') + h + ':' + min + ':00+10:00';
+      var d = new Date(iso);
+      return isNaN(d) ? new Date(0) : d;
     }
   } catch(e) {}
   return new Date(0);

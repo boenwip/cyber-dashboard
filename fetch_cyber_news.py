@@ -535,17 +535,29 @@ RELEVANCE_RULES = [
 # -------------------------------------------------------
 
 def parse_date(entry):
+    """Parse feed entry date, always return as AEST formatted string DD-MM-YYYY HH:MM AM/PM"""
+    AEST_OFFSET = datetime.timezone(datetime.timedelta(hours=10))
+
     if hasattr(entry, "published_parsed") and entry.published_parsed:
         try:
-            dt = datetime.datetime(*entry.published_parsed[:6])
-            return dt.strftime("%d-%m-%Y %I:%M %p")
+            # published_parsed is UTC — convert to AEST
+            dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
+            dt_aest = dt_utc.astimezone(AEST_OFFSET)
+            return dt_aest.strftime("%d-%m-%Y %I:%M %p")
         except Exception:
             pass
 
     if hasattr(entry, "published") and entry.published:
-        return entry.published
+        try:
+            # Try to parse the raw string and convert
+            import email.utils
+            parsed = email.utils.parsedate_to_datetime(entry.published)
+            dt_aest = parsed.astimezone(AEST_OFFSET)
+            return dt_aest.strftime("%d-%m-%Y %I:%M %p")
+        except Exception:
+            return entry.published
 
-    return datetime.datetime.now().strftime("%d-%m-%Y %I:%M %p")
+    return datetime.datetime.now(AEST_OFFSET).strftime("%d-%m-%Y %I:%M %p")
 
 
 # -------------------------------------------------------
