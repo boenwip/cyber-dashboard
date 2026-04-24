@@ -199,6 +199,8 @@ function applyQuickView(view, btn) {
     setFilter('threat', 'High');
   } else if (view === 'scams') {
     setFilter('topic', 'Scams');
+  } else if (view === 'good') {
+    setFilter('topic', 'Good News');
   }
   renderArticles();
 }
@@ -399,7 +401,11 @@ function initBarChart() {
 }
 
 function renderTools() {
-  if (!allTools.length) return;
+  if (!allTools.length) {
+    var el = document.getElementById('tools-container');
+    if (el) el.innerHTML = '<div style="padding:12px 16px;font-size:12px;color:var(--hint);font-style:italic;">No tool updates available.</div>';
+    return;
+  }
   var grouped = {};
   allTools.forEach(function(t) {
     if (!grouped[t.tool]) grouped[t.tool] = [];
@@ -407,17 +413,25 @@ function renderTools() {
   });
   var html = Object.entries(grouped).map(function(entry) {
     var tool = entry[0];
-    var items = entry[1];
+    var items = entry[1].slice(0, 3);
     var itemsHtml = items.map(function(i) {
+      var title = i.title || '';
+      // Clean up version-only titles from GitHub releases
+      if (/^v\d+\.\d+/.test(title)) {
+        title = tool + ' ' + title;
+      }
+      // Truncate long titles
+      if (title.length > 80) title = title.substring(0, 77) + '...';
       var datePart = i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '';
       return '<a class="tool-item" href="' + i.link + '" target="_blank" rel="noopener">' +
-        '<div class="tool-item-title">' + i.title + '</div>' +
+        '<div class="tool-item-title">' + title + '</div>' +
         datePart +
       '</a>';
     }).join('');
     return '<div class="tool-group"><div class="tool-name">' + tool + '</div>' + itemsHtml + '</div>';
   }).join('');
-  document.getElementById('tools-container').innerHTML = html;
+  var el = document.getElementById('tools-container');
+  if (el) el.innerHTML = html;
 }
 
 loadData();
