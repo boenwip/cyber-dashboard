@@ -321,8 +321,10 @@ function threatDot(t) {
 }
 
 function renderArticles() {
+  var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
   var filtered = allArticles
     .filter(passesFilters)
+    .filter(function(a) { return !a.date || parseArticleDate(a.date) >= sevenDaysAgo; })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); })
     .slice(0, 20);
   if (!filtered.length) {

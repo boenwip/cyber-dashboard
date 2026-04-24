@@ -199,6 +199,39 @@ NEWS_FEEDS = [
         "name": "Google News — AI Progress",
         "url": "https://news.google.com/rss/search?q=AI+tools+productivity+education+Australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
     },
+    # ── High quality international / AU sources ──
+    {
+        "name": "CyberDaily AU",
+        "url": "https://www.cyberdaily.au/feed"
+    },
+    {
+        "name": "404 Media",
+        "url": "https://www.404media.co/rss"
+    },
+    {
+        "name": "Risky Business",
+        "url": "https://risky.biz/feeds/risky-business/"
+    },
+    {
+        "name": "Dark Reading",
+        "url": "https://www.darkreading.com/rss.xml"
+    },
+    {
+        "name": "Google News — CyberDaily AU",
+        "url": "https://news.google.com/rss/search?q=site:cyberdaily.au&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — Dark Reading",
+        "url": "https://news.google.com/rss/search?q=site:darkreading.com+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — Risky Business",
+        "url": "https://news.google.com/rss/search?q=site:risky.biz&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — 404 Media",
+        "url": "https://news.google.com/rss/search?q=site:404media.co+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
+    },
 ]
 
 
@@ -268,15 +301,6 @@ TOPIC_TAG_RULES = [
         ]
     },
     {
-        "tag": "Good News",
-        "keywords": [
-            "new policy", "improvement", "progress", "milestone",
-            "breakthrough", "launched", "partnership", "investment",
-            "success", "initiative", "positive", "uplift",
-            "reduction in", "protected", "secured", "recovered",
-        ]
-    },
-    {
         "tag": "RTO / VET",
         "keywords": [
             # Core sector identifiers
@@ -301,7 +325,7 @@ TOPIC_TAG_RULES = [
             "training.gov.au", "skills insight",
             # Funding and policy
             "fee-free tafe", "fee free tafe", "vet funding",
-            "skills reform", "skills minister", "skills shortage",
+            "skills reform", "skills minister", "skills shortage australia",
             "workforce development", "workforce skills",
             "apprenticeship incentive", "traineeship incentive",
             "vet student loans", "vsl",
@@ -351,16 +375,6 @@ TOPIC_TAG_RULES = [
             "ato scam", "mygov scam", "centrelink scam",
             "bank scam", "text scam", "email scam", "phone scam",
             "social engineering", "identity theft", "money mule",
-        ]
-    },
-    {
-        "tag": "Good News",
-        "keywords": [
-            "disrupted", "arrested", "charged", "convicted", "prevented",
-            "protected", "breakthrough", "milestone", "launched", "partnership",
-            "innovation", "improvement", "award", "success", "achievement",
-            "new policy", "investment in cyber", "cyber win", "positive",
-            "free tool", "open source released", "patch released",
         ]
     },
     {
@@ -606,7 +620,7 @@ def get_relevance(combined):
 # Keeps your feed current and removes stale Google News results
 # -------------------------------------------------------
 
-def filter_old_articles(articles, days=365):
+def filter_old_articles(articles, days=30):
     import email.utils
     cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
     filtered = []

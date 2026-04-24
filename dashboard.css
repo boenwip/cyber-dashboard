@@ -355,14 +355,25 @@ body {
   background: var(--surface);
   border-left: 0.5px solid var(--border);
   height: 680px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.tools-scroll {
+  flex: 1;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
 .sb-hdr {
-  padding: 12px 20px; border-bottom: 0.5px solid var(--border);
-  font-size: 16px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase;
-  position: sticky; top: 57px; background: var(--surface); z-index: 10;
+  padding: 10px 16px;
+  border-bottom: 0.5px solid var(--border);
+  font-size: 11px;
+  color: var(--hint);
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  flex-shrink: 0;
+  background: var(--surface);
 }
 .tool-group { border-bottom: 0.5px solid var(--border); }
 .tool-name { position: sticky; top: 0; background: var(--surface); z-index: 1;  padding: 10px 20px 4px; font-size: 16px; color: var(--muted); letter-spacing: 0.06em; text-transform: uppercase; }
