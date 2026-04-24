@@ -515,9 +515,8 @@ body {
   <button class="qv active" onclick="applyQuickView('all', this)">Everything</button>
   <button class="qv" onclick="applyQuickView('forme', this)">For me</button>
   <button class="qv" onclick="applyQuickView('industry', this)">Industry</button>
-  <button class="qv" onclick="applyQuickView('critical', this)">Critical now</button>
+  <button class="qv" onclick="applyQuickView('critical', this)">Critical</button>
   <button class="qv" onclick="applyQuickView('scams', this)">⚠ Scam Watch</button>
-  <button class="qv" onclick="applyQuickView('good', this)">✦ Good News</button>
 </div>
 
 <!-- THREAT MAP TAB -->
@@ -963,7 +962,7 @@ function clearAllFilters() {
 
 function setFilter(type, value) {
   if (!activeFilters[type].includes(value)) activeFilters[type].push(value);
-  const pill = document.querySelector(`.pill[data-filter-type="${type}"][data-value="${value}"]`);
+  var pill = document.querySelector('.pill[data-filter-type="' + type + '"][data-value="' + value + '"]');
   if (pill) {
     if (type === 'topic') {
       if (value === 'AU Cyber') pill.classList.add('active-topic');
@@ -1082,40 +1081,52 @@ function renderArticles() {
     return;
   }
 
-  const html = filtered.map(a => {
-    const tags = (a.tags || []).map(t => `<span class="${tagClass(t)}">${t}</span>`).join('');
-    const auds = (a.audience || []).slice(0,2).map(au => `<span class="tag-aud">${au}</span>`).join('');
-    const rel = a.relevance ? `<span class="${relClass(a.relevance)}">${a.relevance}</span>` : '';
-    let summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
-    // Google News summaries are just truncated titles — skip them
-    if (summary.length < 80 || a.source.toLowerCase().includes('google news')) summary = '';
-    const dateStr = a.date ? formatDateAEST(a.date) : '';
-    // Filter sponsored content
+  const html = filtered.map(function(a) {
     if (a.title.toLowerCase().startsWith('sponsored')) return '';
-    return `<a class="article" href="${a.link}" target="_blank" rel="noopener">
-      <div class="art-meta">
-        <span class="source">${a.source}</span>
-        ${dateStr ? `<span class="dot">·</span><span class="art-date">${dateStr}</span>` : ''}
-        <span class="dot">·</span>
-        ${tags}${auds}${rel}
-        <span class="${threatClass(a.threat)}">${threatDot(a.threat)}</span>
-      </div>
-      <div class="art-title">${a.title}</div>
-      ${summary ? `<div class="art-summary">${summary}</div>` : ''}
-    </a>`;
+    var tags = (a.tags || []).map(function(t) {
+      return '<span class="' + tagClass(t) + '">' + t + '</span>';
+    }).join('');
+    var auds = (a.audience || []).slice(0,2).map(function(au) {
+      return '<span class="tag-aud">' + au + '</span>';
+    }).join('');
+    var rel = a.relevance ? '<span class="' + relClass(a.relevance) + '">' + a.relevance + '</span>' : '';
+    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+    if (summary.length < 80 || a.source.toLowerCase().indexOf('google news') !== -1) summary = '';
+    var dateStr = a.date ? formatDateAEST(a.date) : '';
+    var datePart = dateStr ? '<span class="dot">·</span><span class="art-date">' + dateStr + '</span>' : '';
+    var summaryPart = summary ? '<div class="art-summary">' + summary + '</div>' : '';
+    return '<a class="article" href="' + a.link + '" target="_blank" rel="noopener">' +
+      '<div class="art-meta">' +
+        '<span class="source">' + a.source + '</span>' +
+        datePart +
+        '<span class="dot">·</span>' +
+        tags + auds + rel +
+        '<span class="' + threatClass(a.threat) + '">' + threatDot(a.threat) + '</span>' +
+      '</div>' +
+      '<div class="art-title">' + a.title + '</div>' +
+      summaryPart +
+    '</a>';
   }).join('');
 
-  document.getElementById('articles-container').innerHTML = html || '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
+  document.getElementById('articles-container').innerHTML = html || '<div class="no-results"><div style="font-size:24px;opacity:0.3">-</div><p>No articles match the current filters.</p></div>';
 }
 
 function renderTools() {
   if (!allTools.length) return;
-  const grouped = {};
-  allTools.forEach(t => { if (!grouped[t.tool]) grouped[t.tool] = []; grouped[t.tool].push(t); });
-  const html = Object.entries(grouped).map(([tool, items]) => {
-    const itemsHtml = items.map(i => {
-      const dateHtml = i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '';
-      return '<a class="tool-item" href="' + i.link + '" target="_blank" rel="noopener"><div class="tool-item-title">' + i.title + '</div>' + dateHtml + '</a>';
+  var grouped = {};
+  allTools.forEach(function(t) {
+    if (!grouped[t.tool]) grouped[t.tool] = [];
+    grouped[t.tool].push(t);
+  });
+  var html = Object.entries(grouped).map(function(entry) {
+    var tool = entry[0];
+    var items = entry[1];
+    var itemsHtml = items.map(function(i) {
+      var datePart = i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '';
+      return '<a class="tool-item" href="' + i.link + '" target="_blank" rel="noopener">' +
+        '<div class="tool-item-title">' + i.title + '</div>' +
+        datePart +
+      '</a>';
     }).join('');
     return '<div class="tool-group"><div class="tool-name">' + tool + '</div>' + itemsHtml + '</div>';
   }).join('');
