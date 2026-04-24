@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-04-2026 12:15 AM",
+  "last_updated": "25-04-2026 12:17 AM",
   "count": 25,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "25-04-2026 12:15 AM"
+      "date": "25-04-2026 12:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "25-04-2026 12:15 AM"
+      "date": "25-04-2026 12:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "25-04-2026 12:15 AM"
+      "date": "25-04-2026 12:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "25-04-2026 12:15 AM"
+      "date": "25-04-2026 12:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.114",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed a crash in the permission dialog when an agent teams teammate requested tool permission</li>\n</ul>",
-      "date": "25-04-2026 12:15 AM"
+      "date": "25-04-2026 12:17 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",

@@ -248,6 +248,16 @@ TOOL_FEEDS = [
         "url": "https://chromereleases.googleblog.com/feeds/posts/default"
     },
     {
+        "name": "Microsoft 365 Blog",
+        "tool": "Microsoft 365",
+        "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+    },
+    {
+        "name": "Google News — Microsoft 365",
+        "tool": "Microsoft 365",
+        "url": "https://news.google.com/rss/search?q=Microsoft+365+Word+Excel+update+feature+2026&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
         "name": "Asana Product News",
         "tool": "Asana",
         "url": "https://blog.asana.com/category/product/feed"
