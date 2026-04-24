@@ -199,8 +199,6 @@ function applyQuickView(view, btn) {
     setFilter('threat', 'High');
   } else if (view === 'scams') {
     setFilter('topic', 'Scams');
-  } else if (view === 'good') {
-    setFilter('topic', 'Good News');
   }
   renderArticles();
 }
