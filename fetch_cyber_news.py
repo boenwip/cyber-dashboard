@@ -64,13 +64,25 @@ BLOCKED_DOMAINS = [
 ]
 
 
+# Keywords that indicate irrelevant celebrity/tabloid content
+BLOCKED_TITLE_KEYWORDS = [
+    "nude photo", "naked", "sex tape", "celebrity hack", "snapchat leak",
+    "onlyfans", "nudes leaked", "intimate images", "revenge porn",
+    "bachelor", "bachelorette", "reality tv", "kardashian", "taylor swift",
+]
+
 def is_blocked(link, title=""):
-    """Return True if the article should be excluded based on source domain."""
+    """Return True if the article should be excluded based on source domain or title keywords."""
     if not link:
         return False
     link_lower = link.lower()
     for domain in BLOCKED_DOMAINS:
         if domain in link_lower:
+            return True
+    # Block irrelevant title content regardless of source
+    title_lower = title.lower()
+    for kw in BLOCKED_TITLE_KEYWORDS:
+        if kw in title_lower:
             return True
     return False
 
@@ -116,12 +128,8 @@ NEWS_FEEDS = [
         "url": "https://www.sbs.com.au/news/feed"
     },
     {
-        "name": "The Guardian Australia",
-        "url": "https://www.theguardian.com/australia-news/rss"
-    },
-    {
-        "name": "The Guardian — Tech",
-        "url": "https://www.theguardian.com/technology/rss"
+        "name": "The Guardian — Cybersecurity",
+        "url": "https://www.theguardian.com/technology/data-computer-security/rss"
     },
     {
         "name": "Krebs on Security",
@@ -228,6 +236,16 @@ TOOL_FEEDS = [
         "name": "Google News — Canva Updates",
         "tool": "Canva",
         "url": "https://news.google.com/rss/search?q=Canva+new+feature+update+2026&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Claude Code Releases",
+        "tool": "Claude",
+        "url": "https://github.com/anthropics/claude-code/releases.atom"
+    },
+    {
+        "name": "Google News — Claude Updates",
+        "tool": "Claude",
+        "url": "https://news.google.com/rss/search?q=Anthropic+Claude+new+model+update+release&hl=en-AU&gl=AU&ceid=AU:en"
     },
 ]
 
@@ -683,6 +701,15 @@ def fetch_news():
             if is_blocked(link, title):
                 continue
 
+            # Skip celebrity/entertainment content that slips through
+            TITLE_BLOCKLIST = [
+                "rebel wilson", "kardashian", "celebrity", "actor", "actress",
+                "nude photo", "leaked photo", "snapchat hack celebrity",
+                "reality tv", "influencer", "tiktok star", "youtube star",
+            ]
+            if any(term in title.lower() for term in TITLE_BLOCKLIST):
+                continue
+
             if topic_tags:
                 all_articles.append({
                     "source":    feed["name"],
@@ -738,6 +765,64 @@ def fetch_tool_updates():
 # SAVE to JSON
 # -------------------------------------------------------
 
+def fetch_cves():
+    """Fetch latest High/Critical CVEs from NIST NVD API."""
+    import time
+    cves = []
+    urls = [
+        "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=CRITICAL&resultsPerPage=4",
+        "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=HIGH&resultsPerPage=4",
+    ]
+    for url in urls:
+        try:
+            req = urllib.request.Request(url, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; cyber-dashboard/1.0)',
+                'Accept': 'application/json'
+            })
+            resp = urllib.request.urlopen(req, timeout=15)
+            data = json.loads(resp.read().decode())
+            vulns = data.get('vulnerabilities', [])
+            for v in vulns:
+                try:
+                    cve = v['cve']
+                    cve_id = cve['id']
+                    desc = next((d['value'] for d in cve.get('descriptions', []) if d['lang'] == 'en'), '')
+                    metrics = cve.get('metrics', {})
+                    score = None
+                    severity = 'High'
+                    for key in ['cvssMetricV31', 'cvssMetricV30', 'cvssMetricV2']:
+                        metric_list = metrics.get(key, [])
+                        if metric_list:
+                            score = metric_list[0].get('cvssData', {}).get('baseScore')
+                            severity = metric_list[0].get('cvssData', {}).get('baseSeverity', severity)
+                            break
+                    published = cve.get('published', '')[:10]
+                    refs = cve.get('references', [])
+                    link = refs[0]['url'] if refs else 'https://nvd.nist.gov/vuln/detail/' + cve_id
+                    cves.append({
+                        'id': cve_id,
+                        'description': desc[:200],
+                        'score': score,
+                        'severity': severity,
+                        'published': published,
+                        'link': link
+                    })
+                except Exception:
+                    continue
+            time.sleep(1)  # NVD rate limit
+        except Exception as e:
+            print(f"    CVE fetch error: {e}")
+    # Deduplicate by ID, sort by score descending, take top 4
+    seen = set()
+    unique = []
+    for c in cves:
+        if c['id'] not in seen:
+            seen.add(c['id'])
+            unique.append(c)
+    unique.sort(key=lambda x: x.get('score') or 0, reverse=True)
+    return unique[:4]
+
+
 def save_json(data, filename):
     output = {
         "last_updated": datetime.datetime.now().strftime("%d-%m-%Y %I:%M %p"),
@@ -762,6 +847,11 @@ if __name__ == "__main__":
     print("\n=== Fetching tool updates (Zone 2) ===")
     tools = fetch_tool_updates()
     save_json(tools, "tool_updates.json")
+
+    print("\n=== Fetching CVEs ===")
+    cves = fetch_cves()
+    save_json({'last_updated': datetime.datetime.now().strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
+    print(f"  Saved {len(cves)} CVEs to cve.json")
 
     print("\n--- Tag breakdown ---")
     tag_counts = {}

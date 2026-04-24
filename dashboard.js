@@ -169,6 +169,15 @@ async function loadData() {
     allTools = data2.items || [];
     renderTools();
   } catch(e) {}
+  try {
+    const res3 = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res3.ok) throw new Error('HTTP ' + res3.status);
+    const data3 = await res3.json();
+    renderCVE(data3.items || []);
+  } catch(e) {
+    var el = document.getElementById('cve-feed');
+    if (el) el.innerHTML = '<div style="font-size:14px;color:var(--hint);font-style:italic;">CVE data unavailable.</div>';
+  }
 }
 
 // ── QUICK VIEWS ──
@@ -309,9 +318,9 @@ function threatDot(t) {
 }
 
 function renderArticles() {
-  const filtered = allArticles
+  var filtered = allArticles
     .filter(passesFilters)
-    .sort((a, b) => parseArticleDate(b.date) - parseArticleDate(a.date))
+    .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); })
     .slice(0, 20);
   if (!filtered.length) {
     document.getElementById('articles-container').innerHTML =
@@ -333,7 +342,8 @@ function renderArticles() {
     var dateStr = a.date ? formatDateAEST(a.date) : '';
     var datePart = dateStr ? '<span class="dot">·</span><span class="art-date">' + dateStr + '</span>' : '';
     var summaryPart = summary ? '<div class="art-summary">' + summary + '</div>' : '';
-    return '<a class="article" href="' + a.link + '" target="_blank" rel="noopener">' +
+    var href = a.link && a.link.startsWith('http') ? a.link : '#';
+    return '<a class="article" href="' + href + '" target="_blank" rel="noopener">' +
       '<div class="art-meta">' +
         '<span class="source">' + a.source + '</span>' +
         datePart +
@@ -347,6 +357,44 @@ function renderArticles() {
   }).join('');
 
   document.getElementById('articles-container').innerHTML = html || '<div class="no-results"><div style="font-size:24px;opacity:0.3">-</div><p>No articles match the current filters.</p></div>';
+}
+
+function renderCVE(items) {
+  var el = document.getElementById('cve-feed');
+  if (!el) return;
+  var cveItems = items.slice(0, 4);
+  if (!cveItems.length) {
+    el.innerHTML = '<div style="font-size:14px;color:var(--hint);font-style:italic;">No CVE data available.</div>';
+    return;
+  }
+  el.innerHTML = cveItems.map(function(c) {
+    var sev = (c.severity || 'High');
+    var sevColor = sev === 'CRITICAL' || sev === 'Critical' ? 'var(--crit)' : 'var(--high)';
+    var score = c.score ? c.score.toFixed(1) : '';
+    var desc = (c.description || '').substring(0, 120) + (c.description && c.description.length > 120 ? '...' : '');
+    var link = c.link || ('https://nvd.nist.gov/vuln/detail/' + c.id);
+    return '<a href="' + link + '" target="_blank" rel="noopener" style="display:block;padding:10px 0;border-bottom:0.5px solid var(--border);text-decoration:none;">' +
+      '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;">' +
+        '<span style="font-size:13px;font-family:monospace;color:var(--accent);">' + (c.id || '') + '</span>' +
+        (score ? '<span style="font-size:12px;font-weight:600;color:' + sevColor + ';">● ' + sev + ' ' + score + '</span>' : '') +
+      '</div>' +
+      '<div style="font-size:14px;color:var(--muted);line-height:1.5;">' + desc + '</div>' +
+      (c.published ? '<div style="font-size:11px;color:var(--hint);margin-top:4px;">' + c.published + '</div>' : '') +
+    '</a>';
+  }).join('');
+}
+
+function initBarChart() {
+  setTimeout(function() {
+    var b = document.getElementById('b-ransom');
+    if (b) {
+      document.getElementById('b-ransom').style.width = '11%';
+      document.getElementById('b-id').style.width = '8%';
+      document.getElementById('b-shop').style.width = '7%';
+      document.getElementById('b-bank').style.width = '6%';
+      document.getElementById('b-other').style.width = '68%';
+    }
+  }, 400);
 }
 
 function renderTools() {
