@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-04-2026 12:09 AM",
+  "last_updated": "25-04-2026 12:15 AM",
   "count": 25,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "25-04-2026 12:09 AM"
+      "date": "25-04-2026 12:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "25-04-2026 12:09 AM"
+      "date": "25-04-2026 12:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "25-04-2026 12:09 AM"
+      "date": "25-04-2026 12:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "25-04-2026 12:09 AM"
+      "date": "25-04-2026 12:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.114",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed a crash in the permission dialog when an agent teams teammate requested tool permission</li>\n</ul>",
-      "date": "25-04-2026 12:09 AM"
+      "date": "25-04-2026 12:15 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -125,14 +125,6 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing workspace agents in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14N1RKNWtPajlOcGJKUUh4V2JpWl83OE1PSHpSOENDSE5scTlyYlhzQi1OZGxKOWc5VjRaY2c4MzNyS0x5azRXUkpxR2FScmVqTGN0LTN0ODEzdS1HZDE4aHhfeHVVbjgtZjZqVVIta3pYbm8?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE14N1RKNWtPajlOcGJKUUh4V2JpWl83OE1PSHpSOENDSE5scTlyYlhzQi1OZGxKOWc5VjRaY2c4MzNyS0x5azRXUkpxR2FScmVqTGN0LTN0ODEzdS1HZDE4aHhfeHVVbjgtZjZqVVIta3",
-      "date": "22-04-2026 05:38 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
@@ -187,20 +179,28 @@
       "date": "16-04-2026 02:32 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
-      "date": "14-04-2026 02:26 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic\u2019s new AI tool has implications for us all \u2013 whether we can use it or not | Shakeel Hashim - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZTNkQ0ZHbjI4TzdsaEtlRGFwbmhUckN4R2N3MnVFd0tPa3gtbU5LX19qaXhzSlp6TjBFRWc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZT",
       "date": "10-04-2026 07:00 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI's Deep Research now runs on GPT-5.2 and lets users search specific websites - the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQXdTSjJ3VHNRN1AtZDF2dDJYUDQzdUJPQ1R2aFZOd25lT2gtRGo4RGdUeFdiU21LcTN0cVMxUHpNZmZLZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQX",
+      "date": "10-02-2026 08:00 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Guide 2026: Features, Pricing, Tips, Alternatives & More - techi.com",
+      "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5\" target=\"_blank\">ChatGPT Guide 2026: Features, Prici",
+      "date": "03-04-2026 07:00 AM"
     }
   ]
 }

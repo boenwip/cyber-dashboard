@@ -120,13 +120,10 @@ NEWS_FEEDS = [
         "url": "https://www.itnews.com.au/RSS/rss.ashx"
     },
     {
-        "name": "ABC News Business",
-        "url": "https://www.abc.net.au/news/feed/104217374/rss.xml"
+        "name": "ABC News — Technology",
+        "url": "https://www.abc.net.au/news/science-environment/technology/rss.xml"
     },
-    {
-        "name": "SBS News",
-        "url": "https://www.sbs.com.au/news/feed"
-    },
+
     {
         "name": "The Guardian — Cybersecurity",
         "url": "https://www.theguardian.com/technology/data-computer-security/rss"
