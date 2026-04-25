@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-04-2026 01:15 PM",
+  "last_updated": "25-04-2026 02:03 PM",
   "count": 30,
   "items": [
     {
@@ -24,7 +24,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "25-04-2026 11:15 PM"
+      "date": "26-04-2026 12:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "25-04-2026 11:15 PM"
+      "date": "26-04-2026 12:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "25-04-2026 11:15 PM"
+      "date": "26-04-2026 12:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -48,7 +48,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "25-04-2026 11:15 PM"
+      "date": "26-04-2026 12:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -56,7 +56,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "25-04-2026 11:15 PM"
+      "date": "26-04-2026 12:03 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -155,14 +155,6 @@
       "date": "22-04-2026 05:00 AM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canvas users get new AI tools free until June as Instructure adds tiers - Stock Titan",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdWQxU1gwM2ZKX1ViTi1nUy02MTYzVDE1ZmRuQjN1UGRIdlpRUGF5T0VteXlKSHhDcWdMWUpVMXVScEZxMWh5MUtVemswSXlzZnV1WHpKeTJ1cXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdW",
-      "date": "22-04-2026 02:00 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Introducing ChatGPT Images 2.0 - OpenAI",
@@ -177,6 +169,14 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
       "date": "20-04-2026 06:13 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases first major update to its free Affinity software - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
+      "date": "18-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
