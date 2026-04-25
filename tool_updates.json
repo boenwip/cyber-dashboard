@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-04-2026 02:03 PM",
+  "last_updated": "25-04-2026 07:01 PM",
   "count": 30,
   "items": [
     {
@@ -24,7 +24,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "26-04-2026 12:03 AM"
+      "date": "26-04-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "26-04-2026 12:03 AM"
+      "date": "26-04-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "26-04-2026 12:03 AM"
+      "date": "26-04-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -48,7 +48,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "26-04-2026 12:03 AM"
+      "date": "26-04-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -56,7 +56,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "26-04-2026 12:03 AM"
+      "date": "26-04-2026 05:01 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -69,18 +69,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Claude Mythos explained: Is Anthropic's most powerful AI model really too dangerous to release to the public? - Live Science",
-      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCajhsZ3d1SHFNRUtjRWJNYWNtcWNSZW9OckxJemxMT1dJaDRqWFVGUUJkU0ptTTdMX2sxLUd0ODViRzB4SHBGMXVqaU5yREVFZG92MVl6aHdfeU9yNmRGVDNFcGcwYjhULXNpS1E0eVRoM2pzTmlfQWpjTDNLYWh1bWdjd2d5TGZVVGhTTUZYLXFKOENJWTFEUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCaj",
-      "date": "24-04-2026 10:13 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation - Venturebeat",
-      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVU96ZmdmYmd0NWFLNFJwRFV0X0Y2OEZQdUpHNzREaGRRMlZEOXV2MU5lYmZYUG5pTmRHMGZlV1dSX2RFd3pwRGZoTTMwTnFIN3dEVWExeWRMMjJPZzMxYkJHQzVYaEVGN1F6S1A3akpWSGxEdWNDQzA2RkpobGpXdFpZazFoc3o4Q0Q1SlNuUXJLMnYzcUZ0eXRXdERkSjlkQ0MzS3E1Zy1DSGMtenRWaURMTXhNMF9OMXowUWhzVkZvSVVjQjFvcjdqb0FIT1Fzck5rajJKZ2E0UDhqVHhJOXE0OA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVU96ZmdmYmd0NWFLNFJwRFV0X0Y2OEZQdUpHNzREaGRRMlZEOXV2MU5lYmZYUG5pTmRHMGZlV1dSX2RFd3pwRGZoTTMwTnFIN3dEVWExeWRMMjJPZzMxYkJHQzVYaEVGN1F6S1A3ak",
-      "date": "24-04-2026 07:50 AM"
+      "title": "'Too Dangerous to Release' Is Becoming AI's New Normal - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VURVTC1NSlNkUGVOd3ptUDlzTE1IaFA0WWJaWVFIYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VU",
+      "date": "25-04-2026 06:35 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -123,6 +115,14 @@
       "date": "24-04-2026 02:43 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "A group of users leaked Anthropic's AI model Mythos by reportedly guessing where it was located - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHpMY1BjcDVTNTNRZldOMzFRMThvenhoc0FRUVRvZU1BSENHWFA5ampfOFBIZTRwc01iaDIwVHByb0pjQ0h6YU5LbWtfVUg5QlNVMjZCNUFIN2tKc3pUdTVRMmpDRjVSbUF0NXRWaTB3MjRCYXZ0M1A3d05kajktVUxSQUdxWHNlekFMM0NiU2lpcGhMeWFjOThMSkdZMFg0MzZ6SFpaZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHpMY1BjcDVTNTNRZldOMzFRMThvenhoc0FRUVRvZU1BSENHWFA5ampfOFBIZTRwc01iaDIwVHByb0pjQ0h6YU5LbWtfVUg5QlNVMjZCNUFIN2tKc3pUdTVRMmpDRjVSbUF0NXRWaT",
+      "date": "24-04-2026 01:54 AM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
@@ -139,6 +139,14 @@
       "date": "23-04-2026 03:38 AM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI Launches ChatGPT Images 2.0 with Advanced Professional and Creative Features - BitPinas",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kZUVBWEl4aTNjMms0SEtfV1ppNTUwODV1SWJRUGk3QVk5VjgyNDF1Qkx5R1Nnc0lNVTJ0WnZDY2dpNHhOa19hZXdrUHpYcVFRWFJfMEhjWWpYNktwQjVz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kZUVBWEl4aTNjMms0SEtfV1ppNTUwODV1SWJRUGk3QVk5VjgyNDF1Qkx5R1Nnc0lNVTJ0WnZDY2dpNHhOa19hZXdrUHpYcVFRWFJfMEhjWWpYNktwQjVz?oc=5\" target=\"_blank\"",
+      "date": "22-04-2026 09:29 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic investigating claim of unauthorised access to Mythos AI tool - BBC",
@@ -149,10 +157,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - Venturebeat",
+      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
       "date": "22-04-2026 05:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canvas users get new AI tools free until June as Instructure adds tiers - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdWQxU1gwM2ZKX1ViTi1nUy02MTYzVDE1ZmRuQjN1UGRIdlpRUGF5T0VteXlKSHhDcWdMWUpVMXVScEZxMWh5MUtVemswSXlzZnV1WHpKeTJ1cXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdW",
+      "date": "22-04-2026 02:00 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -169,14 +185,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
       "date": "20-04-2026 06:13 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
-      "date": "18-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -201,14 +209,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
-      "date": "15-04-2026 12:26 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
