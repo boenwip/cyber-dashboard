@@ -1,5 +1,5 @@
 {
-  "last_updated": "24-04-2026 07:01 PM",
+  "last_updated": "25-04-2026 02:51 AM",
   "count": 30,
   "items": [
     {
@@ -19,6 +19,46 @@
       "date": "28-01-2026 06:00 PM"
     },
     {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.120",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
+      "summary": "<p>chore: Update CHANGELOG.md</p>",
+      "date": "25-04-2026 12:51 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.119",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
+      "date": "25-04-2026 12:51 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.118",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
+      "date": "25-04-2026 12:51 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.117",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
+      "date": "25-04-2026 12:51 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.116",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
+      "date": "25-04-2026 12:51 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases Claude Opus 4.7: How to try it, benchmarks, safety - Mashable",
@@ -27,44 +67,12 @@
       "date": "25-04-2026 12:36 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.119",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "25-04-2026 05:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.118",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "25-04-2026 05:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.117",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "25-04-2026 05:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.116",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "25-04-2026 05:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.114",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.114",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed a crash in the permission dialog when an agent teams teammate requested tool permission</li>\n</ul>",
-      "date": "25-04-2026 05:01 AM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_0697876420.html",
+      "summary": "<p>The Dev channel has been updated to 149.0.7808.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0.7",
+      "date": "25-04-2026 08:58 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -113,22 +121,6 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-desktop-update_0281369631.html",
       "summary": "<p>The Beta channel has been updated to 148.0.7778.56 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/148.0",
       "date": "24-04-2026 02:43 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft officially releases Copilot agent functionality for Word, Excel, and PowerPoint. - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9Nazh4eXBzMmgtLTViM2VnX01LaldTbC1md0ZJRlVzQm51MXA5ME52b2dWcjkxU2pTMDFrdE93YkphQUpJdzhkaml3M2w3eG0tWUVrMTdJMXVWdk9wVWxUM0ZTWm5wT1JLODZnMGlHOWdYN2hDOWJkNFRB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE9Nazh4eXBzMmgtLTViM2VnX01LaldTbC1md0ZJRlVzQm51MXA5ME52b2dWcjkxU2pTMDFrdE93YkphQUpJdzhkaml3M2w3eG0tWUVrMTdJMXVWdk9wVWxUM0ZTWm5wT1JLODZnMGlHOW",
-      "date": "24-04-2026 02:20 PM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-android-update_0704188053.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Dev 149 (149.0.7806.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
-      "date": "23-04-2026 11:28 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -189,14 +181,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
-      "date": "17-04-2026 12:32 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
@@ -205,18 +189,34 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
-      "date": "16-04-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
       "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
+      "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
+      "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOThIaWw0ZmJNdmY2UjJSWGprTnNTV0dwUThfTVYxZVRIQld3THVmMHNBZHJwMVBBM3lGeDRleUxFUE1ncWlLdEJJVUtESFBCM3hJQU5lNW1zWllwWVlMYmg2Sk1jNTF3cnl5bnNPYnlCNExkclByc3RfUjJ3UVdYQklTWU5kV3lHaU5PVDcxbkZTNmJ3a1o3eTJPUm9yMi1ncFZtVFZFYmswS3lNTDM3bNIBtgFBVV95cUxNMXk4M0JTMTJKOXRXVk10Z2gzaTZzSVo3OWFHR0FWVmdRcDNsamZEUS1VRHVaQUlJTk1NdzlpZUZab1NFdXdVM3RjS0lfeEVhNHZoMklENXl6NkV5MVRaeEdBaFk5RmlUT2VLVlQ4U1l3LWxKQlJWeEJXOXhjUUI2U1RrVlVHLW9BdXctb2x2RnUwTlIzNUMwUDJsTktMSGVfWm5TalZ1cFVpUTNQRkRURUlaNGRnUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNOThIaWw0ZmJNdmY2UjJSWGprTnNTV0dwUThfTVYxZVRIQld3THVmMHNBZHJwMVBBM3lGeDRleUxFUE1ncWlLdEJJVUtESFBCM3hJQU5lNW1zWllwWVlMYmg2Sk1jNTF3cnl5bnNPYn",
+      "date": "14-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
