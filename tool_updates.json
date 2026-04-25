@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-04-2026 07:25 AM",
+  "last_updated": "25-04-2026 01:15 PM",
   "count": 30,
   "items": [
     {
@@ -19,6 +19,46 @@
       "date": "28-01-2026 06:00 PM"
     },
     {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.120",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
+      "summary": "<p>chore: Update CHANGELOG.md</p>",
+      "date": "25-04-2026 11:15 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.119",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
+      "date": "25-04-2026 11:15 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.118",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
+      "date": "25-04-2026 11:15 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.117",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
+      "date": "25-04-2026 11:15 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.116",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
+      "date": "25-04-2026 11:15 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Dev for Desktop Update",
@@ -27,52 +67,20 @@
       "date": "25-04-2026 08:58 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.120",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
-      "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "25-04-2026 05:25 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.119",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "25-04-2026 05:25 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.118",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "25-04-2026 05:25 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.117",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "25-04-2026 05:25 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.116",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "25-04-2026 05:25 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Claude Mythos explained: Is Anthropic's most powerful AI model really too dangerous to release to the public? - Live Science",
       "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCajhsZ3d1SHFNRUtjRWJNYWNtcWNSZW9OckxJemxMT1dJaDRqWFVGUUJkU0ptTTdMX2sxLUd0ODViRzB4SHBGMXVqaU5yREVFZG92MVl6aHdfeU9yNmRGVDNFcGcwYjhULXNpS1E0eVRoM2pzTmlfQWpjTDNLYWh1bWdjd2d5TGZVVGhTTUZYLXFKOENJWTFEUQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCaj",
       "date": "24-04-2026 10:13 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Mystery solved: Anthropic reveals changes to Claude's harnesses and operating instructions likely caused degradation - Venturebeat",
+      "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVU96ZmdmYmd0NWFLNFJwRFV0X0Y2OEZQdUpHNzREaGRRMlZEOXV2MU5lYmZYUG5pTmRHMGZlV1dSX2RFd3pwRGZoTTMwTnFIN3dEVWExeWRMMjJPZzMxYkJHQzVYaEVGN1F6S1A3akpWSGxEdWNDQzA2RkpobGpXdFpZazFoc3o4Q0Q1SlNuUXJLMnYzcUZ0eXRXdERkSjlkQ0MzS3E1Zy1DSGMtenRWaURMTXhNMF9OMXowUWhzVkZvSVVjQjFvcjdqb0FIT1Fzck5rajJKZ2E0UDhqVHhJOXE0OA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4wFBVV95cUxPVU96ZmdmYmd0NWFLNFJwRFV0X0Y2OEZQdUpHNzREaGRRMlZEOXV2MU5lYmZYUG5pTmRHMGZlV1dSX2RFd3pwRGZoTTMwTnFIN3dEVWExeWRMMjJPZzMxYkJHQzVYaEVGN1F6S1A3ak",
+      "date": "24-04-2026 07:50 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -147,6 +155,14 @@
       "date": "22-04-2026 05:00 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canvas users get new AI tools free until June as Instructure adds tiers - Stock Titan",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdWQxU1gwM2ZKX1ViTi1nUy02MTYzVDE1ZmRuQjN1UGRIdlpRUGF5T0VteXlKSHhDcWdMWUpVMXVScEZxMWh5MUtVemswSXlzZnV1WHpKeTJ1cXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmFFUERHS0s5TlJfai0ta3UtRGxRU2dKMVctLWZJOG5EMjA1VU83RTIta0xNVTF0Q2ZEb0ZzNEZndjMydmpnLUdYLUl4by05VFJDb1RGZHFnWVo0RVZYTThmQ1poclVYNmsybDFxdW",
+      "date": "22-04-2026 02:00 AM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Introducing ChatGPT Images 2.0 - OpenAI",
@@ -157,26 +173,10 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva unveils its most intelligent and innovative feature yet: Canva AI 2.0 - adobo Magazine",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYmRER1I5Q1QtaHQxd1E5LUtxMWwwVEE4bG1BX0dqcGVRMzR4QVp5LVJWbWJ2SExPMDVHbTMyeDIzVXBSVXdpelliTUdUWWMzME5uMXlpMnVsUi0yMld5Q1JmOXV6SHlJZHVBUnRKbG1WNnNXMDJBdkwzNGNNdDlXTXR2d21udEpDajNRRDBDYkpNcXl4NHoyWDBrT21MSC11MEVjN3hkTUlhSGIyYmdGdW1B?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxOYmRER1I5Q1QtaHQxd1E5LUtxMWwwVEE4bG1BX0dqcGVRMzR4QVp5LVJWbWJ2SExPMDVHbTMyeDIzVXBSVXdpelliTUdUWWMzME5uMXlpMnVsUi0yMld5Q1JmOXV6SHlJZHVBUnRKbG",
-      "date": "20-04-2026 08:40 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
       "date": "20-04-2026 06:13 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Best Microsoft Office alternative of 2026 - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dGFBQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dG",
-      "date": "19-01-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -203,20 +203,20 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 4.7 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5\" target=\"_blank\">Intro",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
       "date": "15-04-2026 12:26 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft April 2026 Patch Tuesday fixes 167 flaws, 2 zero-days - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOThIaWw0ZmJNdmY2UjJSWGprTnNTV0dwUThfTVYxZVRIQld3THVmMHNBZHJwMVBBM3lGeDRleUxFUE1ncWlLdEJJVUtESFBCM3hJQU5lNW1zWllwWVlMYmg2Sk1jNTF3cnl5bnNPYnlCNExkclByc3RfUjJ3UVdYQklTWU5kV3lHaU5PVDcxbkZTNmJ3a1o3eTJPUm9yMi1ncFZtVFZFYmswS3lNTDM3bNIBtgFBVV95cUxNMXk4M0JTMTJKOXRXVk10Z2gzaTZzSVo3OWFHR0FWVmdRcDNsamZEUS1VRHVaQUlJTk1NdzlpZUZab1NFdXdVM3RjS0lfeEVhNHZoMklENXl6NkV5MVRaeEdBaFk5RmlUT2VLVlQ4U1l3LWxKQlJWeEJXOXhjUUI2U1RrVlVHLW9BdXctb2x2RnUwTlIzNUMwUDJsTktMSGVfWm5TalZ1cFVpUTNQRkRURUlaNGRnUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNOThIaWw0ZmJNdmY2UjJSWGprTnNTV0dwUThfTVYxZVRIQld3THVmMHNBZHJwMVBBM3lGeDRleUxFUE1ncWlLdEJJVUtESFBCM3hJQU5lNW1zWllwWVlMYmg2Sk1jNTF3cnl5bnNPYn",
+      "date": "14-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
