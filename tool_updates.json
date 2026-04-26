@@ -1,5 +1,5 @@
 {
-  "last_updated": "26-04-2026 10:43 PM",
+  "last_updated": "26-04-2026 11:42 PM",
   "count": 30,
   "items": [
     {
@@ -24,7 +24,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "27-04-2026 08:43 AM"
+      "date": "27-04-2026 09:42 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "27-04-2026 08:43 AM"
+      "date": "27-04-2026 09:42 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "27-04-2026 08:43 AM"
+      "date": "27-04-2026 09:42 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -48,7 +48,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "27-04-2026 08:43 AM"
+      "date": "27-04-2026 09:42 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -56,7 +56,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "27-04-2026 08:43 AM"
+      "date": "27-04-2026 09:42 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,6 +73,14 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VURVTC1NSlNkUGVOd3ptUDlzTE1IaFA0WWJaWVFIYzRn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VU",
       "date": "25-04-2026 06:35 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Mythos explained: Is Anthropic's most powerful AI model really too dangerous to release to the public? - Live Science",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCajhsZ3d1SHFNRUtjRWJNYWNtcWNSZW9OckxJemxMT1dJaDRqWFVGUUJkU0ptTTdMX2sxLUd0ODViRzB4SHBGMXVqaU5yREVFZG92MVl6aHdfeU9yNmRGVDNFcGcwYjhULXNpS1E0eVRoM2pzTmlfQWpjTDNLYWh1bWdjd2d5TGZVVGhTTUZYLXFKOENJWTFEUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxPMVJSenhRdVpfdzZIU25hN2dUdGpIRGFaT25NUXVLY3hMMk1JdkI5T0szMHJlVHBSM0tLNUxEY1paZ21yRXNGa0p6T0xUNTd5TWRJS2VnTWNFSm9wVkw4Mmhqdjhab1BQdUFiaXdCaj",
+      "date": "24-04-2026 10:13 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -113,14 +121,6 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-desktop-update_0281369631.html",
       "summary": "<p>The Beta channel has been updated to 148.0.7778.56 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/148.0",
       "date": "24-04-2026 02:43 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "A group of users leaked Anthropic's AI model Mythos by reportedly guessing where it was located - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHpMY1BjcDVTNTNRZldOMzFRMThvenhoc0FRUVRvZU1BSENHWFA5ampfOFBIZTRwc01iaDIwVHByb0pjQ0h6YU5LbWtfVUg5QlNVMjZCNUFIN2tKc3pUdTVRMmpDRjVSbUF0NXRWaTB3MjRCYXZ0M1A3d05kajktVUxSQUdxWHNlekFMM0NiU2lpcGhMeWFjOThMSkdZMFg0MzZ6SFpaZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOcHpMY1BjcDVTNTNRZldOMzFRMThvenhoc0FRUVRvZU1BSENHWFA5ampfOFBIZTRwc01iaDIwVHByb0pjQ0h6YU5LbWtfVUg5QlNVMjZCNUFIN2tKc3pUdTVRMmpDRjVSbUF0NXRWaT",
-      "date": "24-04-2026 01:54 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
