@@ -1,5 +1,5 @@
 {
-  "last_updated": "27-04-2026 03:07 PM",
+  "last_updated": "27-04-2026 10:56 PM",
   "count": 30,
   "items": [
     {
@@ -16,7 +16,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "28-04-2026 01:07 AM"
+      "date": "28-04-2026 08:56 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "28-04-2026 01:07 AM"
+      "date": "28-04-2026 08:56 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "28-04-2026 01:07 AM"
+      "date": "28-04-2026 08:56 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "28-04-2026 01:07 AM"
+      "date": "28-04-2026 08:56 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -48,7 +48,7 @@
       "title": "v2.1.116",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.116",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/resume</code> on large sessions is significantly faster (up to 67% on 40MB+ sessions) and handles sessions with many dead-fork entries more efficiently</li>\n<li",
-      "date": "28-04-2026 01:07 AM"
+      "date": "28-04-2026 08:56 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -89,14 +89,6 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-for-android-update_63.html",
       "summary": "<p>&nbsp; Hello Everyone! We've just released Chrome 148 (148.0.7778.60) for Android to a small percentage of users. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.androi",
       "date": "24-04-2026 07:18 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-5.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5\" target=\"_blank\">Introduc",
-      "date": "24-04-2026 07:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -147,12 +139,12 @@
       "date": "23-04-2026 10:00 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing workspace agents in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE14N1RKNWtPajlOcGJKUUh4V2JpWl83OE1PSHpSOENDSE5scTlyYlhzQi1OZGxKOWc5VjRaY2c4MzNyS0x5azRXUkpxR2FScmVqTGN0LTN0ODEzdS1HZDE4aHhfeHVVbjgtZjZqVVIta3pYbm8?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE14N1RKNWtPajlOcGJKUUh4V2JpWl83OE1PSHpSOENDSE5scTlyYlhzQi1OZGxKOWc5VjRaY2c4MzNyS0x5azRXUkpxR2FScmVqTGN0LTN0ODEzdS1HZDE4aHhfeHVVbjgtZjZqVVIta3",
-      "date": "23-04-2026 03:38 AM"
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
+      "date": "23-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -161,6 +153,14 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5\" target=\"_blank\">Claud",
       "date": "22-04-2026 08:13 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.0 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5\" targ",
+      "date": "21-04-2026 03:46 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -205,7 +205,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
+      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
@@ -227,12 +227,12 @@
       "date": "10-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 explained: Office 365, rebranded and expanded - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1NVhnUUh0ck43dFJSZVl3RUhvVk01YldlYmQ2a2szcEp4NnRUMy1BbURzUzB0Y0V1RjRFdWktcG1FWmVMQjdqVDB1X0RZelA3WE5WREdBcXBaS01JRUVLQjFobm5tcG0yd2FaZ1JQMVZIT2s0NF9OYXJOWkdNTWM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFB1NVhnUUh0ck43dFJSZVl3RUhvVk01YldlYmQ2a2szcEp4NnRUMy1BbURzUzB0Y0V1RjRFdWktcG1FWmVMQjdqVDB1X0RZelA3WE5WREdBcXBaS01JRUVLQjFobm5tcG0yd2FaZ1JQMV",
-      "date": "03-04-2026 05:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT can now create interactive visuals to help you understand math and science concepts - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPUG00NkxFSHQwcGcwbFZPVlBJNHJIT0RGV3NoN3c3NUdaOHg0dkNrakdSTHFYSVFnQ1VwQ29tMmtEX3RxNE91Q1o5eURHMEpxUFRYTnJhekpycmUwZGpVbXNOVVJ5bmZ1eS00SmhHbE90S3oxQ2JzT21NZjdzZjBsOGMxVGQ1c3BKU09laWhyMm9CX1ZqODhJclk0NE1WZTlrd2Rqc2U0UXpWS29nSzZTVU5EY3NablFCeXVRMTZndVRVelFn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxPUG00NkxFSHQwcGcwbFZPVlBJNHJIT0RGV3NoN3c3NUdaOHg0dkNrakdSTHFYSVFnQ1VwQ29tMmtEX3RxNE91Q1o5eURHMEpxUFRYTnJhekpycmUwZGpVbXNOVVJ5bmZ1eS00SmhHbE",
+      "date": "10-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
