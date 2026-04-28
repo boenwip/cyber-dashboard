@@ -1,5 +1,5 @@
 {
-  "last_updated": "28-04-2026 08:10 AM",
+  "last_updated": "28-04-2026 10:30 AM",
   "count": 30,
   "items": [
     {
@@ -16,7 +16,7 @@
       "title": "v2.1.121",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "28-04-2026 06:10 PM"
+      "date": "28-04-2026 08:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "28-04-2026 06:10 PM"
+      "date": "28-04-2026 08:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "28-04-2026 06:10 PM"
+      "date": "28-04-2026 08:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "28-04-2026 06:10 PM"
+      "date": "28-04-2026 08:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -48,7 +48,7 @@
       "title": "v2.1.117",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "28-04-2026 06:10 PM"
+      "date": "28-04-2026 08:30 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -81,14 +81,6 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_0697876420.html",
       "summary": "<p>The Dev channel has been updated to 149.0.7808.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0.7",
       "date": "25-04-2026 08:58 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "'Too Dangerous to Release' Is Becoming AI's New Normal - Time Magazine",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VURVTC1NSlNkUGVOd3ptUDlzTE1IaFA0WWJaWVFIYzRn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VU",
-      "date": "25-04-2026 06:35 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -163,14 +155,6 @@
       "date": "23-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Mythos AI unauthorised access claim probed by Anthropic - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5\" target=\"_blank\">Claud",
-      "date": "22-04-2026 08:13 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Introducing ChatGPT Images 2.0 - OpenAI",
@@ -221,6 +205,14 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRklNQndjUkdiZEZNRTBWYkxmY9IBhgFBVV95cUxQUU5aWDM2ZWh6LWxiLVZhWnNPMG9VRUJsMXl6NUJ2eFY4bEdIV1FoX1RscEhIVll2VGozTWw4eWEyeUczXzdxNlNXeTJpdUFmZzRvVlFSZ1k2blA2MTkwa0owdndJa1NTNXEwRUN3UlRqUG9sOFJyQUdlX2JERGRrbDRIN3ZJZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRk",
+      "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic\u2019s new AI tool has implications for us all \u2013 whether we can use it or not | Shakeel Hashim - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZTNkQ0ZHbjI4TzdsaEtlRGFwbmhUckN4R2N3MnVFd0tPa3gtbU5LX19qaXhzSlp6TjBFRWc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZT",
@@ -233,6 +225,14 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQXdTSjJ3VHNRN1AtZDF2dDJYUDQzdUJPQ1R2aFZOd25lT2gtRGo4RGdUeFdiU21LcTN0cVMxUHpNZmZLZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQX",
       "date": "10-02-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Why Anthropic won't release its new Claude Mythos AI model to the public - NBC News",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDVzYzIyd1lfM2tpX0RqUDZiMGgwWjZ6UXU0VkswX3Y3bTk5RGM2ZmY4VGZBYlV2QmxfZ2l6RGtWZmxLMS1KSmZic2t1Qm94aHpsU3JMZHNsWm5QRDFzMnNGVTlLQXB0bVFjbHdyS3JkZGJYZEdMaDh3RG9aR1VmTVNLVXZhNGxpY1ZwSXFOMGNpOXBpMUpDd2VId3JPRWs5OW9OQ0RNMkxtZDZLLVNBY3dnVzhrSHZkUE1Z?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDVzYzIyd1lfM2tpX0RqUDZiMGgwWjZ6UXU0VkswX3Y3bTk5RGM2ZmY4VGZBYlV2QmxfZ2l6RGtWZmxLMS1KSmZic2t1Qm94aHpsU3JMZHNsWm5QRDFzMnNGVTlLQXB0bVFjbHdyS3",
+      "date": "08-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
