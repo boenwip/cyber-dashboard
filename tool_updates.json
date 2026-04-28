@@ -1,14 +1,22 @@
 {
-  "last_updated": "28-04-2026 03:27 PM",
+  "last_updated": "28-04-2026 10:59 PM",
   "count": 30,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.122",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
+      "date": "29-04-2026 08:59 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.121",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "29-04-2026 01:27 AM"
+      "date": "29-04-2026 08:59 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "29-04-2026 01:27 AM"
+      "date": "29-04-2026 08:59 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "29-04-2026 01:27 AM"
+      "date": "29-04-2026 08:59 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,39 @@
       "title": "v2.1.118",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "29-04-2026 01:27 AM"
+      "date": "29-04-2026 08:59 AM"
     },
     {
-      "source": "Claude Code Releases",
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Updates for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/04/extended-stable-updates-for-desktop_28.html",
+      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 146.0.7680.216</span><span color=\"rgba(0, 0, 0, 0.87)\">",
+      "date": "29-04-2026 06:09 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/04/stable-channel-update-for-desktop_28.html",
+      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\">The Stable channel has been updated to 147.0.7727.137/138 for Windows/Mac&nbsp; and&nbsp;</span><span color=\"rgba(0, 0, 0, 0.87)\">147.0.7727.137 for Linux, which w",
+      "date": "29-04-2026 05:59 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "v2.1.117",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.117",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Forked subagents can now be enabled on external builds by setting <code>CLAUDE_CODE_FORK_SUBAGENT=1</code></li>\n<li>Agent frontmatter <code>mcpServers</code> are now l",
-      "date": "29-04-2026 01:27 AM"
+      "title": "Anthropic releases 9 Claude connectors for creative tools, including Blender and Adobe - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWlSUmYzVEJLc1NudzFPR0sxMXp2dDVHalBKdDFrZDItSXVCdnlHdlNCZlpCUXVaS0thci1PTjh3TnpmVmlrYjFPbzUwbTBXRlczMlpQRzNhdTNZcGdWRTkxWFpxVnh2Ql91WkY0RUdVR1pPRzB1dm1BOFgtLVdwYVQ3V050OG44MGY3TUtrMEZUN3V3OFM0WTJ6VFJrOTNHNUR5aFh5VlhhVEU2TlVvanYwOHV4ckQ3SE9hTXl3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxOZWlSUmYzVEJLc1NudzFPR0sxMXp2dDVHalBKdDFrZDItSXVCdnlHdlNCZlpCUXVaS0thci1PTjh3TnpmVmlrYjFPbzUwbTBXRlczMlpQRzNhdTNZcGdWRTkxWFpxVnh2Ql91WkY0RU",
+      "date": "29-04-2026 01:37 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude for Creative Work - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5\" targe",
+      "date": "29-04-2026 01:14 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -59,6 +91,14 @@
       "date": "28-01-2026 06:00 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.2 - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ",
+      "date": "27-04-2026 04:34 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Dev for Desktop Update",
@@ -73,14 +113,6 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-for-android-update_63.html",
       "summary": "<p>&nbsp; Hello Everyone! We've just released Chrome 148 (148.0.7778.60) for Android to a small percentage of users. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.androi",
       "date": "24-04-2026 07:18 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-5.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5\" target=\"_blank\">Introduc",
-      "date": "24-04-2026 07:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -105,22 +137,6 @@
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5\" tar",
       "date": "24-04-2026 04:05 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/04/early-stable-update-for-desktop_23.html",
-      "summary": "<p><span style=\"color: #666666; font-family: Arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font",
-      "date": "24-04-2026 03:25 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-desktop-update_0281369631.html",
-      "summary": "<p>The Beta channel has been updated to 148.0.7778.56 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/148.0",
-      "date": "24-04-2026 02:43 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -155,20 +171,12 @@
       "date": "20-04-2026 06:13 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Best Microsoft Office alternative of 2026 - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dGFBQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dG",
-      "date": "19-01-2026 06:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
-      "date": "18-03-2026 05:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "New OpenAI leak hints at upcoming ChatGPT features - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaDdyUWhXYzBEdVdXa1hHRWRxMndrLUprRUI2enZHLWNlWE5ma3J4QktqTzZQSFI2NXFJbS1YMW1yRzNmLXhFeDFCRHNrWXVZWmhXcWhZa3kzVC1GRFNfMnZtT1FJb0VWRjhyRW1mNjdZalVJaEJYSmNyZXlGWV9oTmJJQWpvcmdmazI2OGg1S3d0eWlsNFFHYnZ3c3NURVlMakVQTTNXZGhqenR4RHl4THRDWdIBuAFBVV95cUxPNFBOMF9RcTlWZ1huY0t3WWhKa2FHYk5sck5vVmo5eTM5cFBTajJLVTFoWkR4VzI5cS1YTHNKQVhVcWpiNmluRU8xWVhSa2poeHFnT29kYi1YSkRkYUFlaUZqdGZjQzF6XzZ6TzdDUzFCUFBfdDZCZ0tYTWMxNFZlVzBsQVRlanNKYjVYMUFhcFBHM3hmSmFub1A4UDQ1LWRvbE93dWpGQ1FORDR4ZXkzdmZQNWZRT0xI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNaDdyUWhXYzBEdVdXa1hHRWRxMndrLUprRUI2enZHLWNlWE5ma3J4QktqTzZQSFI2NXFJbS1YMW1yRzNmLXhFeDFCRHNrWXVZWmhXcWhZa3kzVC1GRFNfMnZtT1FJb0VWRjhyRW1mNj",
+      "date": "18-01-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -197,26 +205,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Opus 4.7 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5\" target=\"_blank\">Intro",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos - CNBC",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRklNQndjUkdiZEZNRTBWYkxmY9IBhgFBVV95cUxQUU5aWDM2ZWh6LWxiLVZhWnNPMG9VRUJsMXl6NUJ2eFY4bEdIV1FoX1RscEhIVll2VGozTWw4eWEyeUczXzdxNlNXeTJpdUFmZzRvVlFSZ1k2blA2MTkwa0owdndJa1NTNXEwRUN3UlRqUG9sOFJyQUdlX2JERGRrbDRIN3ZJZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRk",
       "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
-      "date": "15-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -227,12 +219,20 @@
       "date": "10-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why Anthropic won't release its new Claude Mythos AI model to the public - NBC News",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDVzYzIyd1lfM2tpX0RqUDZiMGgwWjZ6UXU0VkswX3Y3bTk5RGM2ZmY4VGZBYlV2QmxfZ2l6RGtWZmxLMS1KSmZic2t1Qm94aHpsU3JMZHNsWm5QRDFzMnNGVTlLQXB0bVFjbHdyS3JkZGJYZEdMaDh3RG9aR1VmTVNLVXZhNGxpY1ZwSXFOMGNpOXBpMUpDd2VId3JPRWs5OW9OQ0RNMkxtZDZLLVNBY3dnVzhrSHZkUE1Z?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdDVzYzIyd1lfM2tpX0RqUDZiMGgwWjZ6UXU0VkswX3Y3bTk5RGM2ZmY4VGZBYlV2QmxfZ2l6RGtWZmxLMS1KSmZic2t1Qm94aHpsU3JMZHNsWm5QRDFzMnNGVTlLQXB0bVFjbHdyS3",
-      "date": "08-04-2026 05:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI's Deep Research now runs on GPT-5.2 and lets users search specific websites - the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQXdTSjJ3VHNRN1AtZDF2dDJYUDQzdUJPQ1R2aFZOd25lT2gtRGo4RGdUeFdiU21LcTN0cVMxUHpNZmZLZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQX",
+      "date": "10-02-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 Suite Pricing To Increase Next Year - Redmondmag.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRGNIdER5MDEzSEJkLXpfSmhBbnZ5UkREUDlLRHJ2UVprbE1PVUtaRXo0a1FBYjlyU1FSWEhVc0dyaU4tQmFPTDFhVWY4NnRhR28xNERWSW0zVDFEdDc0VUU2TnV0MUhPS2FqNm1RRVRldFJTQlpSSnVSWTZuMlVzU3dYOS00aThXdU9vYzdjVW1EZUxHY0RpblJFdzR1dw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPRGNIdER5MDEzSEJkLXpfSmhBbnZ5UkREUDlLRHJ2UVprbE1PVUtaRXo0a1FBYjlyU1FSWEhVc0dyaU4tQmFPTDFhVWY4NnRhR28xNERWSW0zVDFEdDc0VUU2TnV0MUhPS2FqNm1RRV",
+      "date": "08-12-2025 06:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
