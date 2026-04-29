@@ -1,40 +1,40 @@
 {
-  "last_updated": "29-04-2026 05:39 AM",
+  "last_updated": "29-04-2026 08:04 AM",
   "count": 2,
   "items": {
-    "last_updated": "29-04-2026 05:39 AM",
+    "last_updated": "29-04-2026 08:04 AM",
     "items": [
       {
-        "id": "CVE-1999-0426",
-        "description": "The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "1999-03-01",
-        "link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426"
+        "id": "CVE-1999-0236",
+        "description": "ScriptAlias directory in NCSA and Apache httpd allowed attackers to read CGI programs.",
+        "score": 7.5,
+        "severity": "HIGH",
+        "published": "1997-01-01",
+        "link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0236"
       },
       {
-        "id": "CVE-1999-1324",
-        "description": "VAXstations running Open VMS 5.3 through 5.5-2 with VMS DECwindows or MOTIF do not properly disable access to user accounts that exceed the break-in limit threshold for failed login attempts, which ma",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "1999-12-31",
-        "link": "http://ciac.llnl.gov/ciac/bulletins/d-06.shtml"
+        "id": "CVE-1999-0239",
+        "description": "Netscape FastTrack Web server lists files when a lowercase \"get\" command is used instead of an uppercase GET.",
+        "score": 7.5,
+        "severity": "HIGH",
+        "published": "1998-01-01",
+        "link": "http://www.osvdb.org/122"
       },
       {
-        "id": "CVE-2000-1218",
-        "description": "The default configuration for the domain name resolver for Microsoft Windows 98, NT 4.0, 2000, and XP sets the QueryIpMatching parameter to 0, which causes Windows to accept DNS updates from hosts tha",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "2000-04-14",
-        "link": "http://www.kb.cert.org/vuls/id/458659"
+        "id": "CVE-1999-1152",
+        "description": "Compaq/Microcom 6000 Access Integrator does not disconnect a client after a certain number of failed login attempts, which allows remote attackers to guess usernames or passwords via a brute force att",
+        "score": 7.5,
+        "severity": "HIGH",
+        "published": "1998-06-03",
+        "link": "http://marc.info/?l=bugtraq&m=90296493106214&w=2"
       },
       {
-        "id": "CVE-2000-0944",
-        "description": "CGI Script Center News Update 1.1 does not properly validate the original news administration password during a password change operation, which allows remote attackers to modify the password without ",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "2000-12-19",
-        "link": "http://archives.neohapsis.com/archives/bugtraq/2000-10/0402.html"
+        "id": "CVE-1999-1568",
+        "description": "Off-by-one error in NcFTPd FTP server before 2.4.1 allows a remote attacker to cause a denial of service (crash) via a long PORT command.",
+        "score": 7.5,
+        "severity": "HIGH",
+        "published": "1999-01-01",
+        "link": "http://marc.info/?l=bugtraq&m=91981352617720&w=2"
       }
     ]
   }
