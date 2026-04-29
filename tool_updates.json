@@ -1,47 +1,7 @@
 {
-  "last_updated": "29-04-2026 02:08 AM",
+  "last_updated": "29-04-2026 05:39 AM",
   "count": 30,
   "items": [
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.122",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
-      "date": "29-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.121",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "29-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.120",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
-      "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "29-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.119",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "29-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.118",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.118",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added vim visual mode (<code>v</code>) and visual-line mode (<code>V</code>) with selection, operators, and visual feedback</li>\n<li>Merged <code>/cost</code> and <cod",
-      "date": "29-04-2026 12:08 PM"
-    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -75,6 +35,46 @@
       "date": "29-04-2026 05:59 AM"
     },
     {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.123",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
+      "date": "29-04-2026 03:39 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.122",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
+      "date": "29-04-2026 03:39 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.121",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
+      "date": "29-04-2026 03:39 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.120",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
+      "summary": "<p>chore: Update CHANGELOG.md</p>",
+      "date": "29-04-2026 03:39 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.119",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
+      "date": "29-04-2026 03:39 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases 9 Claude connectors for creative tools, including Blender and Adobe - 9to5Mac",
@@ -99,14 +99,6 @@
       "date": "29-01-2026 06:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Here are all the new features Microsoft added to Excel in January 2026 - XDA",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLWRCWlE1eU5UakQyaHNBMWRxZHhPQ01hUXlyQXM2RVN2N2FDZEZYQ1Qtdm5vNjNSeXdvbm1UXw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLW",
-      "date": "28-01-2026 06:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva releases Affinity 3.2 - CG Channel",
@@ -121,6 +113,14 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-dev-for-desktop-update_0697876420.html",
       "summary": "<p>The Dev channel has been updated to 149.0.7808.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0.7",
       "date": "25-04-2026 08:58 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "'Too Dangerous to Release' Is Becoming AI's New Normal - Time Magazine",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VURVTC1NSlNkUGVOd3ptUDlzTE1IaFA0WWJaWVFIYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFJRdjh2TXlmVGNFeXZOZmpYVTBIVktxNGxDZF9iaWlfc0hPRkZ2czZRVHByQ0dERU1MeEZjN2JhM1RfRko3ZVpiTFFpUTRLM013elVTS0ZxZkNOUXhQVEF3WGNPNHdmWGFzSmV3VU",
+      "date": "25-04-2026 06:35 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -213,26 +213,26 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRklNQndjUkdiZEZNRTBWYkxmY9IBhgFBVV95cUxQUU5aWDM2ZWh6LWxiLVZhWnNPMG9VRUJsMXl6NUJ2eFY4bEdIV1FoX1RscEhIVll2VGozTWw4eWEyeUczXzdxNlNXeTJpdUFmZzRvVlFSZ1k2blA2MTkwa0owdndJa1NTNXEwRUN3UlRqUG9sOFJyQUdlX2JERGRrbDRIN3ZJZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRk",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
-      "date": "15-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Anthropic\u2019s new AI tool has implications for us all \u2013 whether we can use it or not | Shakeel Hashim - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZTNkQ0ZHbjI4TzdsaEtlRGFwbmhUckN4R2N3MnVFd0tPa3gtbU5LX19qaXhzSlp6TjBFRWc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZT",
       "date": "10-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI's Deep Research now runs on GPT-5.2 and lets users search specific websites - the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQXdTSjJ3VHNRN1AtZDF2dDJYUDQzdUJPQ1R2aFZOd25lT2gtRGo4RGdUeFdiU21LcTN0cVMxUHpNZmZLZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQX",
+      "date": "10-02-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 Copilot Wave 3 announced: New agentic features for Word, Excel, and Outlook - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTWg1dkkybzd3THVaZlBMdDcyNXFKZXNWS0J0aWJ0RmVMOGx2ZVNjZmZaM1RwSVgxekdkMmN0NktxQnBid3E4clZmN0RXaEtQUdIBtAFBVV95cUxPMGFwd2ZNYzl0eFpmemtNa0JrRTFtejhTRzB6ZVE2S25hRlRDVVlLTnl3c2VVbjl0dWh1dnFWYVZrTWJyUTE5OWdvM05UVE1Lb2V5cFFNREFDM1MxZ3VMQ3RRMW5mczkzYy1DS2ctaGZXcEZPWDBoRGJOSlpCdmM4TUN0LTllY2dKUnRIdU1Hd24tOVBSaTVIZU5CQV9Hc2swWWpwSXN0MzhqbnIwYWdTdzQtSi0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTW",
+      "date": "09-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
