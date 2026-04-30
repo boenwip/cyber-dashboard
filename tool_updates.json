@@ -1,5 +1,5 @@
 {
-  "last_updated": "30-04-2026 12:04 AM",
+  "last_updated": "30-04-2026 02:08 AM",
   "count": 30,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.123",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
-      "date": "30-04-2026 10:04 AM"
+      "date": "30-04-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.122",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
-      "date": "30-04-2026 10:04 AM"
+      "date": "30-04-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.121",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "30-04-2026 10:04 AM"
+      "date": "30-04-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "30-04-2026 10:04 AM"
+      "date": "30-04-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.119",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "30-04-2026 10:04 AM"
+      "date": "30-04-2026 12:08 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -99,14 +99,6 @@
       "date": "29-01-2026 06:00 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases Affinity 3.2 - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ",
-      "date": "27-04-2026 04:34 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
@@ -147,11 +139,35 @@
       "date": "21-04-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
+      "date": "20-04-2026 06:13 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Best Microsoft Office alternative of 2026 - TechRadar",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dGFBQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dG",
+      "date": "19-01-2026 06:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT Guide 2026: Features, Pricing, Tips, Alternatives & More - techi.com",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5\" target=\"_blank\">ChatGPT Guide 2026: Features, Prici",
+      "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases first major update to its free Affinity software - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
     },
     {
@@ -195,14 +211,6 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s AI assistant can now call various tools to make designs for you - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkhjUDlPX0dGSDQ3LWFMUzVwU3YtNGtQUWxHcE1UUUJhaGRxOTRZcFh5UUJqM3h5cmpuQW1wMnMtWG1aS1h6Y2xUU1dIOGx0M3VIRndLZ0JZWS1QTDVfRm5BYldOUGVMSGNjbE1uYjJibGo1NUNLbjVSRUhoelotbHVrYU4xdVg2RzhwU0w4UWFWZmpRd29SMUNBSTQwWExfLVRqdTdxY1Y?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkhjUDlPX0dGSDQ3LWFMUzVwU3YtNGtQUWxHcE1UUUJhaGRxOTRZcFh5UUJqM3h5cmpuQW1wMnMtWG1aS1h6Y2xUU1dIOGx0M3VIRndLZ0JZWS1QTDVfRm5BYldOUGVMSGNjbE1uYj",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos - CNBC",
@@ -211,28 +219,20 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
+      "date": "15-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic\u2019s new AI tool has implications for us all \u2013 whether we can use it or not | Shakeel Hashim - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZTNkQ0ZHbjI4TzdsaEtlRGFwbmhUckN4R2N3MnVFd0tPa3gtbU5LX19qaXhzSlp6TjBFRWc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZT",
       "date": "10-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI's Deep Research now runs on GPT-5.2 and lets users search specific websites - the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQXdTSjJ3VHNRN1AtZDF2dDJYUDQzdUJPQ1R2aFZOd25lT2gtRGo4RGdUeFdiU21LcTN0cVMxUHpNZmZLZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQR0hwYzc5TGdLVERocXItOFRiNmhmNVBYSEVhek04R1YtN0EzNktSbFNZemNRbW0ybzJJc1FOa1pJRjg5SlNZbVVTX2NxbzJEUFJEMEs5RThCMUNCbzNTYzBLWmViX2ZqOUZnLWhSQX",
-      "date": "10-02-2026 06:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 Copilot Wave 3 announced: New agentic features for Word, Excel, and Outlook - Neowin",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTWg1dkkybzd3THVaZlBMdDcyNXFKZXNWS0J0aWJ0RmVMOGx2ZVNjZmZaM1RwSVgxekdkMmN0NktxQnBid3E4clZmN0RXaEtQUdIBtAFBVV95cUxPMGFwd2ZNYzl0eFpmemtNa0JrRTFtejhTRzB6ZVE2S25hRlRDVVlLTnl3c2VVbjl0dWh1dnFWYVZrTWJyUTE5OWdvM05UVE1Lb2V5cFFNREFDM1MxZ3VMQ3RRMW5mczkzYy1DS2ctaGZXcEZPWDBoRGJOSlpCdmM4TUN0LTllY2dKUnRIdU1Hd24tOVBSaTVIZU5CQV9Hc2swWWpwSXN0MzhqbnIwYWdTdzQtSi0?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTW",
-      "date": "09-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
