@@ -1,46 +1,14 @@
 {
-  "last_updated": "30-04-2026 02:08 AM",
+  "last_updated": "30-04-2026 05:43 AM",
   "count": 30,
   "items": [
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.123",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
-      "date": "30-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.122",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
-      "date": "30-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.121",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "30-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.120",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
-      "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "30-04-2026 12:08 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.119",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
-      "date": "30-04-2026 12:08 PM"
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft expands AI-powered Outlook and Copilot tools in 2026 rollout - MSN",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbU54OEhzYnQ4XzVYWDVqT000OWdXUTg0TExvcnkwSEhYRTBnMFVBUkNyVVFyQjVlQUh2VTJaWUQ2ZU9LV3Atc2lpcmhNVEdXTjBjem1HbXdyeGpZay1nQmI1dU54endjYnAyZjBIRVk4NEtPeHpOUmNlLXJnVVFQLVVoQ2V2MGplSWI0OU5ZX3ZpWmw1ZGFMam4zQW5MVVptMF9Fc3p4MHA4cG5OajM5dmF6QmJFSDJzczRaQk1R?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPbU54OEhzYnQ4XzVYWDVqT000OWdXUTg0TExvcnkwSEhYRTBnMFVBUkNyVVFyQjVlQUh2VTJaWUQ2ZU9LV3Atc2lpcmhNVEdXTjBjem1HbXdyeGpZay1nQmI1dU54endjYnAyZjBIRV",
+      "date": "30-04-2026 12:56 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -75,6 +43,46 @@
       "date": "30-04-2026 04:13 AM"
     },
     {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.123",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
+      "date": "30-04-2026 03:43 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.122",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
+      "date": "30-04-2026 03:43 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.121",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
+      "date": "30-04-2026 03:43 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.120",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
+      "summary": "<p>chore: Update CHANGELOG.md</p>",
+      "date": "30-04-2026 03:43 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.119",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/config</code> settings (theme, editor mode, verbose, etc.) now persist to <code>~/.claude/settings.json</code> and participate in project/local/policy override ",
+      "date": "30-04-2026 03:43 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
@@ -99,20 +107,28 @@
       "date": "29-01-2026 06:00 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.2 - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBBSHdDZHpZUWNUWlBsZTExbDdYTWV1aVVFV28wSkhCbFd2c2VIdUFMZmpHMkVzVy1QX2J4MjA5X0RoNmtaVmI2UG9YZ2hhb1RxVG14UTdSeUtWV2oxYlViS2tyTWVRTU04YlprSlRBTQ",
+      "date": "27-04-2026 04:34 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft lets Windows 11 users remove Copilot after update - MSN",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbUNUaEJFSDhPZ3ZVNWo0Xzk2ZjVhYXV4dDg5Qy1IbnAtakRTdmxCM1djNUFvcXQxN09CckFNeGZySm83eTByWXFF?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbU",
+      "date": "25-04-2026 02:07 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
       "date": "24-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "An update on recent Claude Code quality reports - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5\" tar",
-      "date": "24-04-2026 04:05 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -147,27 +163,11 @@
       "date": "20-04-2026 06:13 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Best Microsoft Office alternative of 2026 - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dGFBQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dG",
-      "date": "19-01-2026 06:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT Guide 2026: Features, Pricing, Tips, Alternatives & More - techi.com",
       "link": "https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiREFVX3lxTE1RcmVLS3d6NDRLcmpRbEVMRkVER21rVmdQNkRFOHB2dFdzSU1QRGRiNWFyOVlhRGp0ME9GSjg0ck9xbzhD?oc=5\" target=\"_blank\">ChatGPT Guide 2026: Features, Prici",
-      "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
     },
     {
@@ -213,9 +213,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic rolls out Claude Opus 4.7, an AI model that is less risky than Mythos - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRklNQndjUkdiZEZNRTBWYkxmY9IBhgFBVV95cUxQUU5aWDM2ZWh6LWxiLVZhWnNPMG9VRUJsMXl6NUJ2eFY4bEdIV1FoX1RscEhIVll2VGozTWw4eWEyeUczXzdxNlNXeTJpdUFmZzRvVlFSZ1k2blA2MTkwa0owdndJa1NTNXEwRUN3UlRqUG9sOFJyQUdlX2JERGRrbDRIN3ZJZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxNUklUZEtKVDFaRXJscjBwVzdwTnFnVmlNd1VMNHRmWHdnQnVGNFVYVWtfSUZnZ2JIN2ZMY0hSMFhmUUM2eXFncEZpdHBjdFRkMnlMUDZCcWM5Vld5M21KMWhELTdRZmYwVWNGbzZzRk",
+      "title": "Introducing Claude Opus 4.7 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5\" target=\"_blank\">Intro",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -229,18 +229,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Claude Mythos and Project Glasswing: why an AI superhacker has the tech world on alert - UQ News",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYlhPVXZ0RkdXNjA1c3VqdklMWGtHZmlGelBNMDhpc0tyTHhEU0RxcUdJTFFZR2lEWnpPSXhxaHFfeEFEQkE0UnY1Wk1xNTlySFdWTU9VVjRzZFY1MHBHQngzUHhhYjhaLS12Z2dXekR4M244d2FhbEJwRlZwbmJlQnBzUjkwYkRBMUR6UnIyeUg2Z0lnQ0JPdzZ6RFR1QW1Wd3hlbndMWTZDZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYlhPVXZ0RkdXNjA1c3VqdklMWGtHZmlGelBNMDhpc0tyTHhEU0RxcUdJTFFZR2lEWnpPSXhxaHFfeEFEQkE0UnY1Wk1xNTlySFdWTU9VVjRzZFY1MHBHQngzUHhhYjhaLS12Z2dXek",
+      "date": "14-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic\u2019s new AI tool has implications for us all \u2013 whether we can use it or not | Shakeel Hashim - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZTNkQ0ZHbjI4TzdsaEtlRGFwbmhUckN4R2N3MnVFd0tPa3gtbU5LX19qaXhzSlp6TjBFRWc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQdC1ncERhRTUxSkVnZFJOX3pTWHE0Tlg5MHplVGJaNW1mVmR2WWV5VTNFeE1FdG5XZUVLRlotODliaVNqRHZ6SmZ5UHAwRDlCZ0tCQnp1MHB3WHpOeVpXNWlGbzhwLWV6eU92bkJHZT",
       "date": "10-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 Suite Pricing To Increase Next Year - Redmondmag.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRGNIdER5MDEzSEJkLXpfSmhBbnZ5UkREUDlLRHJ2UVprbE1PVUtaRXo0a1FBYjlyU1FSWEhVc0dyaU4tQmFPTDFhVWY4NnRhR28xNERWSW0zVDFEdDc0VUU2TnV0MUhPS2FqNm1RRVRldFJTQlpSSnVSWTZuMlVzU3dYOS00aThXdU9vYzdjVW1EZUxHY0RpblJFdzR1dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPRGNIdER5MDEzSEJkLXpfSmhBbnZ5UkREUDlLRHJ2UVprbE1PVUtaRXo0a1FBYjlyU1FSWEhVc0dyaU4tQmFPTDFhVWY4NnRhR28xNERWSW0zVDFEdDc0VUU2TnV0MUhPS2FqNm1RRV",
-      "date": "08-12-2025 06:00 PM"
     }
   ]
 }
