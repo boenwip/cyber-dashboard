@@ -1,6 +1,6 @@
 {
-  "last_updated": "30-04-2026 08:07 AM",
-  "count": 270,
+  "last_updated": "30-04-2026 10:23 AM",
+  "count": 279,
   "items": [
     {
       "source": "Google News \u2014 AU Scams",
@@ -60,20 +60,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Sector"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Microlise launches AI distraction cameras for fleets",
-      "link": "https://securitybrief.com.au/story/microlise-launches-ai-distraction-cameras-for-fleets",
-      "summary": "Microlise rolls out AI-powered distraction cameras in Australia as fleet managers face rising pressure to prove driver safety and compliance.",
-      "date": "30-04-2026 10:34 AM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -148,6 +134,19 @@
       "relevance": "AU General"
     },
     {
+      "source": "Schneier on Security",
+      "title": "Fast16 Malware",
+      "link": "https://www.schneier.com/blog/archives/2026/04/fast16-malware.html",
+      "summary": "<p>Researchers have reverse-engineered a piece of malware named Fast16. It&#8217;s almost certainly state-sponsored, probably US in origin, and was <a href=\"https://www.wired.com/story/fast16-malware-stuxnet-precursor-iran-nuclear-attack/?_sp=72d58355-e351-43ad-ba73-bc2b546a30a0.1777128353268\">deplo",
+      "date": "30-04-2026 08:22 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 AU Scams",
       "title": "Mobile fraud alert in Australia: How scammers take over your phone number - Bitdefender",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeWlyX3ZRSVpqMi1FOFVUaDFQbDcxNk55V2hNVmJXVGRPYjZBVEtVZS1PRVE2SC1RU3VlQ1d2WWxqWXI2T1VJTURaOFREQWdoQWVWTjRkNlpxRm15WU1TSzB5OVQtVDU5Y0VwNF8zVm1TLUtqS01Ma3B3QzNDLVlPR0VKMU5Jd0lYOFBJZmNB?oc=5",
@@ -162,6 +161,34 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Optro launches MCP server for governed GRC data access",
+      "link": "https://securitybrief.com.au/story/optro-launches-mcp-server-for-governed-grc-data-access",
+      "summary": "Optro unveils MCP server to let customers link large language models to live GRC data while preserving role-based access and audit controls.",
+      "date": "30-04-2026 06:37 PM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI is biggest cyber threat to CISOs, NCC Group warns",
+      "link": "https://securitybrief.com.au/story/ai-is-biggest-cyber-threat-to-cisos-ncc-group-warns",
+      "summary": "Artificial intelligence heightens cyber risk for chief information security officers as ransomware attacks rise 22% in March, NCC Group says.",
+      "date": "30-04-2026 06:30 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -272,6 +299,19 @@
       "audience": [
         "Consumer"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 VET Workforce",
+      "title": "Victoria building future construction skills - Infrastructure Magazine",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEJ6X2REd3dCeERLZk1WRk1STmRHdHBWTllMcmtaWDM3cEFZU3hMUnI5cHBrRGt1ajVxWnVPRGdSMjVDRDBHaU5nT19yOTQ4TEZIQXlUdnJYamxNb2VTVDY5REVTb1o0b1dFTWRyRWtGLTlCT0s2Z09uRXZETzkwbjhMOGU2cjVnaFlv?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEJ6X2REd3dCeERLZk1WRk1STmRHdHBWTllMcmtaWDM3cEFZU3hMUnI5cHBrRGt1ajVxWnVPRGdSMjVDRDBHaU5nT19yOTQ4TEZIQXlUdnJYamxNb2VTVDY5REVTb1o0b1dFTWRyRWtGLTlCT0s2Z09uRXZETzkwbjhMOGU2cjVnaFlv?oc=5\" target=\"_blank\">Victoria building future construction s",
+      "date": "30-03-2026 05:00 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -480,23 +520,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #835 -- Why the Fast16 malware is badass",
-      "link": "https://risky.biz/RB835/",
-      "summary": "On this week\u2019s show, Patrick Gray and James Wilson are joined by special guest-host Dmitri Alperovitch. They discuss the week\u2019s cybersecurity news, including:\n\n\n  The US government is mad as hell about Chinese firms stealing American AI technology\n  Dmitri has an opinion or two about the US selling ",
-      "date": "29-04-2026 02:43 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "AU General"
     },
     {
@@ -814,6 +837,20 @@
     },
     {
       "source": "Google News \u2014 AI Workforce",
+      "title": "AI and Technology are Transforming Medical Recruitment - Probono Australia",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWRnRi0xdGsycVRaeGpmNWx5OFFtOEJTRzBnSHM1VnRTclFQME0ta29fcDV1ZUFLMFNTRW1aNHQzSDZvUlNNMVB4SWNzRjZNZUdCWDhWUW9lWEpNejQtaUtxdElfZU1kRW44R21VUXRGbGlPdG9Nb2k4X21MVGxfdldaTXpIQjduamxYUV9ldGhQN1RsVDdzWW52R3o2a3BudzctRnFFVGI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSWRnRi0xdGsycVRaeGpmNWx5OFFtOEJTRzBnSHM1VnRTclFQME0ta29fcDV1ZUFLMFNTRW1aNHQzSDZvUlNNMVB4SWNzRjZNZUdCWDhWUW9lWEpNejQtaUtxdElfZU1kRW44R21VUXRGbGlPdG9Nb2k4X21MVGxfdldaTXpIQjduamxYUV9ldGhQN1RsVDdzWW52R3o2a3BudzctRnFFVGI?oc=5\" target=\"_blank\">",
+      "date": "27-02-2026 06:00 PM",
+      "tags": [
+        "AU Cyber",
+        "RTO / VET"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 AI Workforce",
       "title": "Catastrophic AI warning as another tech giant slashes over 4000 jobs - Sky News Australia",
       "link": "https://news.google.com/rss/articles/CBMitAJBVV95cUxQbEVmLWlPVjZhVUJZaW55UTJsUFNyWWJpZHhuYll3SHp4QVktUVhoNmpuZFFUQm91S3FndDJkTV9PZ2hRNDdRREl0WE9kSXZRZmhoMjRiQVA2UTJYTVNaVkNYM1VMUGVubDloRVpLYWRiQ0VhVVB6bmNMLV9oWS1pdmdpdGt3QU5QM0lGd3haWUxEV0N0YTQ2UFJ1blFYV0RZTFZKMER1c25OWFpPX0lKNVZSazFzV3V0ZDljVGo4dlliWGd6TUdNeTlUWFpEeklSVS1sSUZuaTlPTEFVdnRZZS1HVF9PeVY3ZGNHNEN6X3pjYXhGTHhlcW8yc1FqZ1dUQXAwN3ZwNUlvUWJ5NklCVjl5X3pQS09hdGRJdXBWc0JnbzRRVWNjZXp3dEZEWjlhdHcyMtIBugJBVV95cUxNVzRUcG51akdoS0VjY0U3VkxscVJTdFR1RGgtZzJDNjUwa2U3Y1JGN3FXNUF4WjdPOFBPQ3c3elI1SndpbmZYYUhPT2Q0V2U1U19KdGJIZGFKTHEzdDBlczI0bzRmVHQ5dVhOZzhVMURsWFJYdEZJYVhGN1RFTl9vVFltcVFzZDVyUzhTcGVhWlpJVWhyRUZXRnY4VTFaajJLYVBJV3ZuQ3lXSjBRQjlXcmFreHhySHN0TzJHbGZxaE5uNmIyTjVWUmVYQ28zSTd2czFSVWE3QXlFSG55T2w3TndSYi1wUlplN09NSzYwM21ocDhaVWdRSzU0QUgtT0FIWEZuZ0stOEJCR2h0LUVIdDRLYkxGV0JpSUN3cm9Od190a1FFb1BzdkEzV3pKWEV6emNHMDljUkR2Zw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAJBVV95cUxQbEVmLWlPVjZhVUJZaW55UTJsUFNyWWJpZHhuYll3SHp4QVktUVhoNmpuZFFUQm91S3FndDJkTV9PZ2hRNDdRREl0WE9kSXZRZmhoMjRiQVA2UTJYTVNaVkNYM1VMUGVubDloRVpLYWRiQ0VhVVB6bmNMLV9oWS1pdmdpdGt3QU5QM0lGd3haWUxEV0N0YTQ2UFJ1blFYV0RZTFZKMER1c25OWFpPX0lKNVZSazFzV3V0ZD",
@@ -906,6 +943,21 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 AU Cyber Wins",
+      "title": "Strengthening critical infrastructure resilience: proposed amendments to the Ministerial Directions Powers and CIRMP Rules under the SOCI Act - Gilbert + Tobin",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT3hJbDZKeUtxN3Zibm1Ed1hmTElETFZQQmJ3QkIxa1VjVlRoOUN3RE8xejNwWjhOTkV6a1RJbEZUb2Z3cTE2VWUxN1ZHS3U3TTBHVmptNjVZZHl4RlRjV3FtSk1XazhsZ0tTaVF0OWsydElnTFpkUlJsQWw2bER1SEtLdTRJNGpUalE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOT3hJbDZKeUtxN3Zibm1Ed1hmTElETFZQQmJ3QkIxa1VjVlRoOUN3RE8xejNwWjhOTkV6a1RJbEZUb2Z3cTE2VWUxN1ZHS3U3TTBHVmptNjVZZHl4RlRjV3FtSk1XazhsZ0tTaVF0OWsydElnTFpkUlJsQWw2bER1SEtLdTRJNGpUalE?oc=5\" target=\"_blank\">Strengthening critical infrastructure re",
+      "date": "26-03-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
       "source": "Google News \u2014 AI Workforce",
       "title": "WiseTech to axe 2,000 jobs as AI reshapes workforce - IT Brief Australia",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQODdsZGVuTlRWZEVoZVpaX1pqRVc1dFpUN25NV0E0S1F0eWNIVTdRZk5TQ1ZNekh3M0toMHJjd2N2QWFrWDROcGt6Z2hSZW12eHIxWXJyemt1YTFhVFNVX0NaUXQtUllpQlA2R2NXNkpBQl9sTTN0S0RRTGo0LVJ1QWhla2o5clk?oc=5",
@@ -947,23 +999,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 AU Scams",
-      "title": "International student scams: stay informed, stay safe - La Trobe University",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1kLTA3enFFWlB2d2VCMmZaT2JoSHVQSXJ3emxYS283V0dkdlpLUzVpUVY0b1pTZld5U1RUZU5Xa09fVWNVNzAyaDRvODhrdUE3VWw1WHpoamF0NzliQXpSZkdVeHBjSWhPMEUzT0thMU4xeHBiT29rMmh2eHlOa2M?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1kLTA3enFFWlB2d2VCMmZaT2JoSHVQSXJ3emxYS283V0dkdlpLUzVpUVY0b1pTZld5U1RUZU5Xa09fVWNVNzAyaDRvODhrdUE3VWw1WHpoamF0NzliQXpSZkdVeHBjSWhPMEUzT0thMU4xeHBiT29rMmh2eHlOa2M?oc=5\" target=\"_blank\">International student scams: stay informed, stay safe</a",
-      "date": "25-03-2026 05:00 PM",
-      "tags": [
-        "RTO / VET",
-        "Education",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Sector"
     },
     {
       "source": "Google News \u2014 Privacy & Compliance",
@@ -1389,6 +1424,20 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 Privacy & Compliance",
+      "title": "Data Sovereignty in Australia: Audit Checklist in 2026 - appinventiv.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vbUVzcmo3UmpDdEd1aG1namFOdTBfd3hEVTFGbUQ1ZnpZbW51amozb1l0XzNOc2JWR2ZfbHdLZTR5Sm9Iakd6Y01JOUh1akFYSy1vdjlTOWNtNXNVZXgzcWV3dTdHcG8?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9vbUVzcmo3UmpDdEd1aG1namFOdTBfd3hEVTFGbUQ1ZnpZbW51amozb1l0XzNOc2JWR2ZfbHdLZTR5Sm9Iakd6Y01JOUh1akFYSy1vdjlTOWNtNXNVZXgzcWV3dTdHcG8?oc=5\" target=\"_blank\">Data Sovereignty in Australia: Audit Checklist in 2026</a>&nbsp;&nbsp;<font color=\"#6f6f",
+      "date": "23-04-2026 11:45 PM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "Google News \u2014 AI & EdTech",
       "title": "Microsoft announces Australia\u2019s largest AI skilling commitment: three million people by 2028 - Microsoft Source",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYkwwcHZ4RHJnWEhRenFMeEdndlgwWV92ZGtteTZJSEd0eEx2QkYwV2hKMlh4SEZWMGtmWWVYWDNNc1BxcmZPS2dkd2VFZE9nZV8xMzVFZno4LWJTNXVvQ3Z1WGM3d2NGcnhnT0lWSVVxNlEyS3pJcWwwUW5ULWg3M3JrZkRnOV9XTEF5Sm8wdmNtaGdNblJ0SDg2bHl5bTItdnAxRWcxUUcyTWtBYWl2SmRR?oc=5",
@@ -1501,6 +1550,19 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 AI Workforce",
+      "title": "10 Rising AI-Related Jobs Transforming Australia's Workforce in 2026 - International Business Times Australia",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPOGk4dlhpTjE2el9LWjMyWEZSc1hEQ2xGd1piZzRTaE00bXA4SlNoZ01GakU3Q081SWZRbThaNV9Scm96aFhjUkkwSGp2TFphalp2WXNZV3kzZVJvc181TlNwdm82MmJMUHpvaVU2Q2NqeXllbGIyY0RSQ0cwUGcxRTBrbXZzSHI2c0Rpc0dxNjZrZWc1VGtabEhwY005SDQ0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPOGk4dlhpTjE2el9LWjMyWEZSc1hEQ2xGd1piZzRTaE00bXA4SlNoZ01GakU3Q081SWZRbThaNV9Scm96aFhjUkkwSGp2TFphalp2WXNZV3kzZVJvc181TlNwdm82MmJMUHpvaVU2Q2NqeXllbGIyY0RSQ0cwUGcxRTBrbXZzSHI2c0Rpc0dxNjZrZWc1VGtabEhwY005SDQ0?oc=5\" target=\"_blank\">10 Rising A",
+      "date": "23-03-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "The Guardian \u2014 Cybersecurity",
       "title": "Crossbench MPs pressure Labor over gas export tax \u2013 as it happened",
       "link": "https://www.theguardian.com/australia-news/live/2026/mar/23/federal-parliament-ursula-von-der-leyen-visit-labor-anthony-albanese-chris-bowen-fuel-crisis-coalition-liberals-angus-taylor-nationals-matt-canavan-ntwnfb",
@@ -1527,6 +1589,19 @@
         "Compliance"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 AU Cyber",
+      "title": "230,000 Australian driver licences exposed in ransomware attack on vehicle finance firm - CarExpert",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2lvZlJ0OG1xNGhySGw0Z3lPN0xoSUJEN3RtUzlWWEFhLUdEZTdpNURpdFNaQ2lydk81LVJxOENhd241SzFvcHJRT3pFaEtIX3F5TTNROGhER0lOVUl0NU42WHBOR2pRRENyeFFXcHlSWktyUzVCbl9ITVFRbDA1YUQwYkRBanhOREUwSmRWc2xkWTNlTmotRjVLRDRPb3BqWkJxR3Nob2puYXNZQmpHd0N2T29xYXktLWMyOV9iNXc5dw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNU2lvZlJ0OG1xNGhySGw0Z3lPN0xoSUJEN3RtUzlWWEFhLUdEZTdpNURpdFNaQ2lydk81LVJxOENhd241SzFvcHJRT3pFaEtIX3F5TTNROGhER0lOVUl0NU42WHBOR2pRRENyeFFXcHlSWktyUzVCbl9ITVFRbDA1YUQwYkRBanhOREUwSmRWc2xkWTNlTmotRjVLRDRPb3BqWkJxR3Nob2puYXNZQmpHd0N2T29xYXktLW",
+      "date": "23-02-2026 06:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
       "audience": [],
       "relevance": "AU General"
     },
@@ -1746,21 +1821,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 AU Cyber",
-      "title": "Pub left without 'parmas' as cyber attack targets chicken processor - Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYmg4THRZR1FNVHlkOFBHSGFSeUl1SndpcVdscG5pUU15eWNvUUNSMHBsdlRpSzlWNHFjSGt4ek8yejVEc3ZVWEdJYU9pZFhkSkltWWxJQnFYelZvN0Q2N0VvTzFndndRSUFPUUtpYm5aQllvNjI4X3c1Z2Q4dWEwLWdPRVp1bmEwbUQ3dDBaNVZlbUY1RDdDekEwSW1fdjhUZnBCbU5DejVSUmlibmQ4?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQYmg4THRZR1FNVHlkOFBHSGFSeUl1SndpcVdscG5pUU15eWNvUUNSMHBsdlRpSzlWNHFjSGt4ek8yejVEc3ZVWEdJYU9pZFhkSkltWWxJQnFYelZvN0Q2N0VvTzFndndRSUFPUUtpYm5aQllvNjI4X3c1Z2Q4dWEwLWdPRVp1bmEwbUQ3dDBaNVZlbUY1RDdDekEwSW1fdjhUZnBCbU5DejVSUmlibmQ4?oc=5\" target=",
-      "date": "22-02-2026 06:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Google News \u2014 Training.gov.au",
       "title": "TAC Update - Issue 117 - April 2026 - Western Australian Government",
       "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNelBpcmZkMVc5M0tMel9Bb2R0U0lxTkFteHE3c3JwLU5vTkhqcEhmY2t0TnpldEtHdU5xcWVURFJpRzhoNUhoRE5kdHJsdjZfVDU5SmljSzJ4aDVrWGVfQ0kxQ1h6SXQ2S0lTZnhRTkJhZkVDd0xXb0FidDhfYWJ2d3FMcUo?oc=5",
@@ -1914,31 +1974,20 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 AU Cyber Wins",
-      "title": "Australian CPD Series 2026: Developments in Privacy Law and Cyber Security Expectations - K&L Gates",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0VidDVwM0p4cC1KS0dCTGhlcEVfaTB2ZUhHc19odDVSczkyX0Q0azlURmlMNXpmbU9nMmNlWHJuT0JIa1UtbFBfckZ6Q2ZIMkFkS09hNlBXaERKQnBhd3ZtNS1lVkF2MTN1WlByY3VxOFk5TmVVS0gyRzZ5dEM4eW04S2UxNDllNlNmWlZLVlJRMzVtYlU1c2czdzRvaEEtOXRRRUt6aGRyX2NGNW1OMUVIVklCa05uakpxMA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxQc0VidDVwM0p4cC1KS0dCTGhlcEVfaTB2ZUhHc19odDVSczkyX0Q0azlURmlMNXpmbU9nMmNlWHJuT0JIa1UtbFBfckZ6Q2ZIMkFkS09hNlBXaERKQnBhd3ZtNS1lVkF2MTN1WlByY3VxOFk5TmVVS0gyRzZ5dEM4eW04S2UxNDllNlNmWlZLVlJRMzVtYlU1c2czdzRvaEEtOXRRRUt6aGRyX2NGNW1OMUVIVklCa05uak",
+      "source": "Google News \u2014 AU Scams",
+      "title": "Financial Services: Regulatory Recap - Week commencing 16 February 2026 - Gilbert + Tobin",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSld4alczdDBSTXp1NHpJLS1tWW5iajNOMFNxSE5LREJkNFpaNVoxNjBjczFZaUVPMm04ZkEzNGxTX0RJRnI5ZDFZVXBDS3IzUkxpRU5HWjlZN0FMeUVKanB0WThYQmFxRklZd3BucU1NLXdCbkNvdEVfTXlzdDBNbEw1VzA2Qzl2YWpfSzduZnYzQ2dLb1VwN2I3djVTNnNLcndDcw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOSld4alczdDBSTXp1NHpJLS1tWW5iajNOMFNxSE5LREJkNFpaNVoxNjBjczFZaUVPMm04ZkEzNGxTX0RJRnI5ZDFZVXBDS3IzUkxpRU5HWjlZN0FMeUVKanB0WThYQmFxRklZd3BucU1NLXdCbkNvdEVfTXlzdDBNbEw1VzA2Qzl2YWpfSzduZnYzQ2dLb1VwN2I3djVTNnNLcndDcw?oc=5\" target=\"_blank\">Finan",
       "date": "19-02-2026 06:00 PM",
       "tags": [
-        "AU Cyber",
         "Compliance"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 AI Progress",
-      "title": "The greatest risk of AI in higher education isn\u2019t cheating \u2013 it\u2019s the erosion of learning itself - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdjRQMV96dGVnV0M0ZlBnTFJBSUlxekpuRWlHckhtUXNBSWRNSmVjM015bzBNVGp4RGVUbnhuSGNXS0pBc1oxRnlZNEhXcmhNeGQyUkJfY0tDX3hBcHNPUXhMcGFtaTBJRmNhMHY4U1lZblhEY1NBblR5WkplTDlWTDRib2M3MkNyeVQwR0RZVk5uQkpuQ1VGR0I5Qmk5TFp4ODdHUFVpc2VDam1tdFJEOTFkSjJFZGVXS3NPWnpFSUtUVDBHTWc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixgFBVV95cUxPdjRQMV96dGVnV0M0ZlBnTFJBSUlxekpuRWlHckhtUXNBSWRNSmVjM015bzBNVGp4RGVUbnhuSGNXS0pBc1oxRnlZNEhXcmhNeGQyUkJfY0tDX3hBcHNPUXhMcGFtaTBJRmNhMHY4U1lZblhEY1NBblR5WkplTDlWTDRib2M3MkNyeVQwR0RZVk5uQkpuQ1VGR0I5Qmk5TFp4ODdHUFVpc2VDam1tdFJEOTFkSjJFZGVXS3",
-      "date": "19-02-2026 06:00 PM",
-      "tags": [
-        "Education"
+      "audience": [
+        "Enterprise",
+        "Consumer"
       ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Sector"
+      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 AI Progress",
@@ -2512,19 +2561,16 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 AU Scams",
-      "title": "Card fraud surges as one in seven Australians hit by personal fraud - Australian Broker News",
-      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPZXJoNkt3RDJlelFnVmMxdGdQMzUzd1JhN2VlVkJsaVBXTDJBbUJMM1VlYWZ6cDE2c2FZVjJZYnRiRnRmOUNuSXltY2k5M015ZURGbHRhaU5mQXpVeUp2UWJJd0VWeFdYZW9TMEwzejhxb2JGNFdnZHJZMUtsdWhwVnRlNGVWYmpfcFdWNklMdVlHd1dMUUY4UzlpRS1TempVMXFFT0JXcjZabk10RGRNaEFKc01Wdzg4MG9ZbnNNMVEzLWRaSGEw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPZXJoNkt3RDJlelFnVmMxdGdQMzUzd1JhN2VlVkJsaVBXTDJBbUJMM1VlYWZ6cDE2c2FZVjJZYnRiRnRmOUNuSXltY2k5M015ZURGbHRhaU5mQXpVeUp2UWJJd0VWeFdYZW9TMEwzejhxb2JGNFdnZHJZMUtsdWhwVnRlNGVWYmpfcFdWNklMdVlHd1dMUUY4UzlpRS1TempVMXFFT0JXcjZabk10RGRNaEFKc01Wdzg4MG",
-      "date": "13-03-2026 05:00 PM",
+      "source": "Google News \u2014 AU Cyber",
+      "title": "Warning as travel giant in huge data breach - Yahoo News Australia",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA4VzdDNXBCWHJpU3R0UnRYaGFDS0tFSnp2OTVWODREUk9hQVZkdENMb3JsWW5YUERxZ1dPQnd1Z3BkRWhYUWYxUFBRdEZGZlB2N0pERDZyTnJMZk1TTzljUFlhZGxFXzBfUjdBQkl0cnlzWTMtVzhmdHhaazl5aEE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTFA4VzdDNXBCWHJpU3R0UnRYaGFDS0tFSnp2OTVWODREUk9hQVZkdENMb3JsWW5YUERxZ1dPQnd1Z3BkRWhYUWYxUFBRdEZGZlB2N0pERDZyTnJMZk1TTzljUFlhZGxFXzBfUjdBQkl0cnlzWTMtVzhmdHhaazl5aEE?oc=5\" target=\"_blank\">Warning as travel giant in huge data breach</a>&nbsp;&nb",
+      "date": "13-04-2026 05:00 PM",
       "tags": [
-        "AU Cyber",
-        "Scams"
+        "AU Cyber"
       ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
+      "threat": "Medium",
+      "audience": [],
       "relevance": "AU General"
     },
     {
@@ -2662,6 +2708,19 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 AU Cyber Wins",
+      "title": "Summit targets gender gap in Australia's cyber ranks - SecurityBrief Australia",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGNTY0pTVWZoRWtKd1JxNTJKY0JfalNSNVR3VGhRWHFFek02c0Nsd3JJbTR6cGZtZVp2b2tiYWpBZmtXOVFqSzg2a3pucnNRbDB2UHdjQXFVVTJRb0ozZ3lONDhkYURaYW1YeERZdXRwUE5saHF6RlZjRnFOb0hTSmhwaUk2ZmdwcTBpM2NoUzA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNeGNTY0pTVWZoRWtKd1JxNTJKY0JfalNSNVR3VGhRWHFFek02c0Nsd3JJbTR6cGZtZVp2b2tiYWpBZmtXOVFqSzg2a3pucnNRbDB2UHdjQXFVVTJRb0ozZ3lONDhkYURaYW1YeERZdXRwUE5saHF6RlZjRnFOb0hTSmhwaUk2ZmdwcTBpM2NoUzA?oc=5\" target=\"_blank\">Summit targets gender gap in Aus",
+      "date": "12-03-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "Krebs on Security",
       "title": "Iran-Backed Hackers Claim Wiper Attack on Medtech Firm Stryker",
       "link": "https://krebsonsecurity.com/2026/03/iran-backed-hackers-claim-wiper-attack-on-medtech-firm-stryker/",
@@ -2708,19 +2767,6 @@
     },
     {
       "source": "Google News \u2014 AU Cyber Wins",
-      "title": "Government entities not reporting cyber incidents to ASD - iTnews",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1BnTkkwQnF6SjlPankwZUtIMVBidlhYdWotRm1SQzktYm9za05uZ1RHU1J1OXdjNVUtWW5pY1BiVWltd0J0NGpvUWI4Q29rUVAyU0Nmdkl4VXJ6RUNkZk9kS1ZtU1JHVlYyR1BvVFRFdFotWVlPMnhSbkR2Vnl6Uk5NR3BhdlpYMHFsaDZwR1NKTUpkeXNJcUZ3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1BnTkkwQnF6SjlPankwZUtIMVBidlhYdWotRm1SQzktYm9za05uZ1RHU1J1OXdjNVUtWW5pY1BiVWltd0J0NGpvUWI4Q29rUVAyU0Nmdkl4VXJ6RUNkZk9kS1ZtU1JHVlYyR1BvVFRFdFotWVlPMnhSbkR2Vnl6Uk5NR3BhdlpYMHFsaDZwR1NKTUpkeXNJcUZ3?oc=5\" target=\"_blank\">Government entities",
-      "date": "12-02-2026 06:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 AU Cyber Wins",
       "title": "Australia\u2019s cyber posture shows progress - but gaps in controls and reporting keep insurers on alert - Insurance Business",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZGx6cmFjWHlOOTUyQlh3YjdGUTEtejFoM0RvVnpac3c0TzBsNm45U2dzbmN3RzF4bnFxRjFDODM5S1prLURIbmxvVnZEOUtHQnlvY1FqUk13dVFLZllsZERnTndnRldFZXhEaXZLckNMOG1XQXNjMlhSaTV0Y2dSR01WOHdIYnI4bklzQmxELTZpaFoxN1lkaHl5TkNRWEd2cE5xOFo5N0YzY3N2V1pSRVBCQllJUjVxUHAwSTRHMHJ6U3BuLUktTWdBVG5ZOWFQY1EwenU2LW9BRFhzbnpWQTR1RzZadkx5c211WGh1dG9UdkE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQZGx6cmFjWHlOOTUyQlh3YjdGUTEtejFoM0RvVnpac3c0TzBsNm45U2dzbmN3RzF4bnFxRjFDODM5S1prLURIbmxvVnZEOUtHQnlvY1FqUk13dVFLZllsZERnTndnRldFZXhEaXZLckNMOG1XQXNjMlhSaTV0Y2dSR01WOHdIYnI4bklzQmxELTZpaFoxN1lkaHl5TkNRWEd2cE5xOFo5N0YzY3N2V1pSRVBCQllJUjVxUH",
@@ -2735,10 +2781,10 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 AI Progress",
-      "title": "Falling behind on AI? How to clear barriers on the path to scale - The Australian",
-      "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObUszdVc4bU11RjJxZFpMV25PNlhQUlRJMUQtZEJLWGJTOGpDRkdQYVJFeUlsYjdnREZyd1c3TU1aRzU2a1RUNTd0ZFlkYnliMzlZTmFtZzd2c2J1cmlIMGVDSC14NWk4Q202aktDUm9IdHlFSXE2dGI0dXo0T245bnNkdXRNcTJ4eFJZMDlncGE1RUpZZmdrVEwySTdxOUdleERGcm85N2xsZUFkV1JOajIzdndpT05PSktsbWJOSDZ6bkJWVFh5OVJkOG1qUENKVW11NV83N25JMGVuV1J6MlF2QVFlTWk5R3Q5VW95Q1RrbXdN0gH6AUFVX3lxTE9aeE94aERxZFhrSE84Y3UyVGVlMkp6REdCZzBzTEtuNGdPWldnMkNPM0xac05PRENxVXVFNkZMcG1CRFVjcGJhTXVFaC0yQzJXbUhEOVMzeUlqa0pKOGgyWWlsOWp5T09XVmVuUlRrWjhxNFhhdmJ4dUh4QTRFZVl3dUZJaWVMbW9YNXNaVENIajc4NkxqeXpzNjRMSmdURWZ4RzJfMWF1R29LbkJKbnVYcV9NdXc2TTlMZnV3Y3dLeFJCSFp6cmVkTFI0Vk0zQU02Rms3MmlNTWlITjZSQWc1MU5ybTR6Q1hiVXVCSWk5UV9nOEhGSVZsbkE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9AFBVV95cUxObUszdVc4bU11RjJxZFpMV25PNlhQUlRJMUQtZEJLWGJTOGpDRkdQYVJFeUlsYjdnREZyd1c3TU1aRzU2a1RUNTd0ZFlkYnliMzlZTmFtZzd2c2J1cmlIMGVDSC14NWk4Q202aktDUm9IdHlFSXE2dGI0dXo0T245bnNkdXRNcTJ4eFJZMDlncGE1RUpZZmdrVEwySTdxOUdleERGcm85N2xsZUFkV1JOajIzdndpT05PSk",
+      "source": "Google News \u2014 AU Cyber Wins",
+      "title": "Government entities not reporting cyber incidents to ASD - iTnews",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1BnTkkwQnF6SjlPankwZUtIMVBidlhYdWotRm1SQzktYm9za05uZ1RHU1J1OXdjNVUtWW5pY1BiVWltd0J0NGpvUWI4Q29rUVAyU0Nmdkl4VXJ6RUNkZk9kS1ZtU1JHVlYyR1BvVFRFdFotWVlPMnhSbkR2Vnl6Uk5NR3BhdlpYMHFsaDZwR1NKTUpkeXNJcUZ3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNa1BnTkkwQnF6SjlPankwZUtIMVBidlhYdWotRm1SQzktYm9za05uZ1RHU1J1OXdjNVUtWW5pY1BiVWltd0J0NGpvUWI4Q29rUVAyU0Nmdkl4VXJ6RUNkZk9kS1ZtU1JHVlYyR1BvVFRFdFotWVlPMnhSbkR2Vnl6Uk5NR3BhdlpYMHFsaDZwR1NKTUpkeXNJcUZ3?oc=5\" target=\"_blank\">Government entities",
       "date": "12-02-2026 06:00 PM",
       "tags": [
         "AU Cyber"
@@ -2806,6 +2852,21 @@
         "Enterprise",
         "Consumer"
       ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 AI Workforce",
+      "title": "Navigating the evolving landscape of AI regulation in Australian workplaces - hcamag.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSWFNdEZGQXJld0RSQ1RfbGxvVjBaMkhzS2lKSHhURk1ZUm1COTlvcUFkYlRPZE0zd1c1eXFuUXpDREhEZjNvYXE0VWRtd01vOEJzMjB4Q25GZVYxcmcyTlBmYWN1d05pRkNuTldrWHA1bFpVeV9RWUhaRHVnLUIwVmViLUpDS1RObzJqNU1Cd1ZHZF9Sa2RQUUVqTnNpZDREZHgzazd2b3gyeEI1bDMydHVpX3NpdUxRS19tb29VMkx6MTV3djd6eDFVaWt4RDVSOGYzbg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSWFNdEZGQXJld0RSQ1RfbGxvVjBaMkhzS2lKSHhURk1ZUm1COTlvcUFkYlRPZE0zd1c1eXFuUXpDREhEZjNvYXE0VWRtd01vOEJzMjB4Q25GZVYxcmcyTlBmYWN1d05pRkNuTldrWHA1bFpVeV9RWUhaRHVnLUIwVmViLUpDS1RObzJqNU1Cd1ZHZF9Sa2RQUUVqTnNpZDREZHgzazd2b3gyeEI1bDMydHVpX3NpdUxRS1",
+      "date": "11-02-2026 06:00 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "AU General"
     },
     {
@@ -3381,6 +3442,19 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 Privacy & Compliance",
+      "title": "How Much Does Accounting Practice Management Software Development Cost in Australia 2026? - appinventiv.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObjZCWkx5aHJvQm1MLXFRWEpRUmtpQXZfdXpIdHlDUU9TN29xRWFwLXdMRTVRS1I0TGhsN0ZWNW5YM2dfNmpRcXBwOWNNd1J4VHEzV25Ld1lWdnpQbHhPTGw1SHo1NzdZZmtqeV9jRE04dVNrN0lpVTd5OU9kYnZla1MwRFdUUWlqTGloZEZqM3B3dEtHTkx4V1FFM1Y?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxObjZCWkx5aHJvQm1MLXFRWEpRUmtpQXZfdXpIdHlDUU9TN29xRWFwLXdMRTVRS1I0TGhsN0ZWNW5YM2dfNmpRcXBwOWNNd1J4VHEzV25Ld1lWdnpQbHhPTGw1SHo1NzdZZmtqeV9jRE04dVNrN0lpVTd5OU9kYnZla1MwRFdUUWlqTGloZEZqM3B3dEtHTkx4V1FFM1Y?oc=5\" target=\"_blank\">How Much Does Ac",
+      "date": "06-03-2026 01:44 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "Google News \u2014 AU Scams",
       "title": "ACCC warns of surge in Qantas impersonation scams - Australian Aviation",
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPb3hKcWw5bVNieWk3SWdfbDhGaUdxM2pBS3BNaW4wbXY2ZmhXb0hMLWhDczVFWGxWa0NOSzNYU2pyWjZEOVhSZmlNbk91ZUsxSlhpVlA5c2QwbTNvNDNLa0NNSy1VTFJCVE9uQlVBaVhYT0N1NmJ6bkpXODF4Y1hMd3BjZ1Yya1RrQlpsckRrYloyOWtVYldN?oc=5",
@@ -3480,6 +3554,21 @@
       "threat": "High",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 AU Cyber Wins",
+      "title": "Ruling made in Bunnings' three-year fight to use AI to scan customer faces - Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0x2OHBpWjNxcEZYMElrcFJPX0xFb1hCV19uTndDS1FXcWdBZENDTUdtMUU0b2RubHpMZHBTNFYtMG1wbTZjYk92aDBhOHg2dThKMXhOWW1iM1dmQzg3MlJic1RMSjRfWjhoOGVST25WVUxiR3dnRC1fVTlaMmIydHo3YndTQkxEWFIya0xWeExVWDNpaUFtLU1vYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPM0x2OHBpWjNxcEZYMElrcFJPX0xFb1hCV19uTndDS1FXcWdBZENDTUdtMUU0b2RubHpMZHBTNFYtMG1wbTZjYk92aDBhOHg2dThKMXhOWW1iM1dmQzg3MlJic1RMSjRfWjhoOGVST25WVUxiR3dnRC1fVTlaMmIydHo3YndTQkxEWFIya0xWeExVWDNpaUFtLU1vYw?oc=5\" target=\"_blank\">Ruling made in Bu",
+      "date": "05-02-2026 06:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 Privacy & Compliance",
@@ -3771,6 +3860,19 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 AU Cyber Wins",
+      "title": "How NSW\u2019s new cyber strategy changes the game for partners - CRN Australia",
+      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTVkwMFQ0aUlnc3FpUVZ2aGxDRmNqY1FHQmxRR2tQa01Oel9nbTFGSDNGOGY0RHdyQm44YmRvd0c5REctY25wU0d2OVBUYXoxVkNSNXdpeFRvSkpYYmNzN2loSGNjeVF5b0VlTHpQQk5RNDZDSDM3M1lQYS11dVlRZlkxZG1MMHdPd0pQazByc3UzcUFWVkxpWEM1OTVmME5ELXMyOWdVTFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTVkwMFQ0aUlnc3FpUVZ2aGxDRmNqY1FHQmxRR2tQa01Oel9nbTFGSDNGOGY0RHdyQm44YmRvd0c5REctY25wU0d2OVBUYXoxVkNSNXdpeFRvSkpYYmNzN2loSGNjeVF5b0VlTHpQQk5RNDZDSDM3M1lQYS11dVlRZlkxZG1MMHdPd0pQazByc3UzcUFWVkxpWEM1OTVmME5ELXMyOWdVTFE?oc=5\" target=\"_blank\">",
+      "date": "03-02-2026 06:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "The Guardian \u2014 Cybersecurity",
       "title": "Real estate agents in Australia using apps that leave millions of lease documents at risk, digital researcher says",
       "link": "https://www.theguardian.com/australia-news/2026/feb/02/real-estate-agents-in-australia-using-apps-that-leave-millions-of-lease-documents-at-risk-digital-researcher-says",
@@ -3899,6 +4001,19 @@
         "Enterprise"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 Dark Reading",
+      "title": "AI Governance: Redefining Security in Cyber Operations - Dark Reading",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONlZfdGlDcnNzMkdMcXhmdWJ0RWg5RXZCRnloV3U3UEpMQkl3TEc2eFB2QjZJS2ZKQU4xajRSUXEwWWJSTVBGR1JIWVBhcVZ0N3JFZHVKUnJHQVpLSm5Yb2tRLUpET2EtVjRSREhXWmJDZkIxMTVCSUJyVm1JblBUOXFtenhETFdfSHhGdFFjTXpmUkJWc1dGbjFYM0U?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxONlZfdGlDcnNzMkdMcXhmdWJ0RWg5RXZCRnloV3U3UEpMQkl3TEc2eFB2QjZJS2ZKQU4xajRSUXEwWWJSTVBGR1JIWVBhcVZ0N3JFZHVKUnJHQVpLSm5Yb2tRLUpET2EtVjRSREhXWmJDZkIxMTVCSUJyVm1JblBUOXFtenhETFdfSHhGdFFjTXpmUkJWc1dGbjFYM0U?oc=5\" target=\"_blank\">AI Governance: R",
+      "date": "01-03-2026 06:00 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     }
   ]
 }
