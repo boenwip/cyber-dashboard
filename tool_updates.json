@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-05-2026 08:20 AM",
+  "last_updated": "01-05-2026 10:02 AM",
   "count": 30,
   "items": [
     {
@@ -200,7 +200,7 @@
       "title": "v2.1.126",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>The <code>/model</code> picker now lists models from your gateway's <code>/v1/models</code> endpoint when <code>ANTHROPIC_BASE_URL</code> points at an Anthropic-compat",
-      "date": "01-05-2026 06:20 PM"
+      "date": "01-05-2026 08:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -208,7 +208,7 @@
       "title": "v2.1.123",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
-      "date": "01-05-2026 06:20 PM"
+      "date": "01-05-2026 08:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -216,7 +216,7 @@
       "title": "v2.1.122",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
-      "date": "01-05-2026 06:20 PM"
+      "date": "01-05-2026 08:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -224,7 +224,7 @@
       "title": "v2.1.121",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "01-05-2026 06:20 PM"
+      "date": "01-05-2026 08:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -232,7 +232,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "01-05-2026 06:20 PM"
+      "date": "01-05-2026 08:02 PM"
     },
     {
       "source": "Google Chrome Releases",
