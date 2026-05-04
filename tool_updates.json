@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-05-2026 05:47 AM",
+  "last_updated": "04-05-2026 08:20 AM",
   "count": 30,
   "items": [
     {
@@ -25,6 +25,14 @@
       "link": "http://chromereleases.googleblog.com/2026/04/chrome-beta-for-ios-update_0285487381.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 148 (148.0.7778.101) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"",
       "date": "30-04-2026 04:13 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude for Creative Work - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5\" targe",
+      "date": "29-04-2026 01:14 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -131,14 +139,6 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 4.7 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5\" target=\"_blank\">Intro",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
@@ -176,7 +176,7 @@
       "title": "v2.1.126",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.126",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>The <code>/model</code> picker now lists models from your gateway's <code>/v1/models</code> endpoint when <code>ANTHROPIC_BASE_URL</code> points at an Anthropic-compat",
-      "date": "04-05-2026 03:47 PM"
+      "date": "04-05-2026 06:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -184,7 +184,7 @@
       "title": "v2.1.123",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.123",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed OAuth authentication failing with a 401 retry loop when <code>CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1</code> is set</li>\n</ul>",
-      "date": "04-05-2026 03:47 PM"
+      "date": "04-05-2026 06:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -192,7 +192,7 @@
       "title": "v2.1.122",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.122",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>ANTHROPIC_BEDROCK_SERVICE_TIER</code> environment variable to select a Bedrock service tier (<code>default</code>, <code>flex</code>, or <code>priority</co",
-      "date": "04-05-2026 03:47 PM"
+      "date": "04-05-2026 06:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -200,7 +200,7 @@
       "title": "v2.1.121",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.121",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>alwaysLoad</code> option to MCP server config \u2014 when <code>true</code>, all tools from that server skip tool-search deferral and are always available</li>\n",
-      "date": "04-05-2026 03:47 PM"
+      "date": "04-05-2026 06:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -208,7 +208,7 @@
       "title": "v2.1.120",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.120",
       "summary": "<p>chore: Update CHANGELOG.md</p>",
-      "date": "04-05-2026 03:47 PM"
+      "date": "04-05-2026 06:20 PM"
     },
     {
       "source": "Google Chrome Releases",
