@@ -799,20 +799,23 @@ def fetch_tool_updates():
 # -------------------------------------------------------
 
 def fetch_cves():
-    """Fetch latest High/Critical CVEs from NIST NVD API."""
+    """Fetch latest High/Critical CVEs — tries NIST NVD first, falls back to CIRCL."""
     import time
     cves = []
-    urls = [
+
+    # Primary: NIST NVD API
+    nvd_urls = [
         "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=CRITICAL&resultsPerPage=4",
         "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=HIGH&resultsPerPage=4",
     ]
-    for url in urls:
+    nvd_success = False
+    for url in nvd_urls:
         try:
             req = urllib.request.Request(url, headers={
-                'User-Agent': 'Mozilla/5.0 (compatible; cyber-dashboard/1.0)',
+                'User-Agent': 'cyber-dashboard/1.0 (github.com/boenwip/cyber-dashboard)',
                 'Accept': 'application/json'
             })
-            resp = urllib.request.urlopen(req, timeout=15)
+            resp = urllib.request.urlopen(req, timeout=8)
             data = json.loads(resp.read().decode())
             vulns = data.get('vulnerabilities', [])
             for v in vulns:
@@ -840,11 +843,49 @@ def fetch_cves():
                         'published': published,
                         'link': link
                     })
+                    nvd_success = True
                 except Exception:
                     continue
-            time.sleep(1)  # NVD rate limit
+            time.sleep(2)
         except Exception as e:
-            print(f"    CVE fetch error: {e}")
+            print(f"    NVD fetch error: {e}")
+
+    # Fallback: CIRCL CVE API (no rate limit, no key required)
+    if not nvd_success or len(cves) < 3:
+        print("    Trying CIRCL CVE API fallback...")
+        try:
+            req = urllib.request.Request(
+                "https://cve.circl.lu/api/last/8",
+                headers={'User-Agent': 'cyber-dashboard/1.0', 'Accept': 'application/json'}
+            )
+            resp = urllib.request.urlopen(req, timeout=15)
+            data = json.loads(resp.read().decode())
+            for item in data:
+                try:
+                    cve_id = item.get('id', '') or item.get('cveMetadata', {}).get('cveId', '')
+                    if not cve_id:
+                        continue
+                    desc = (item.get('summary', '') or item.get('description', '') or '')[:200]
+                    score = item.get('cvss', None) or item.get('cvss3', {}).get('cvssV3', {}).get('baseScore', None) if isinstance(item.get('cvss3'), dict) else item.get('cvss', None)
+                    try:
+                        score = float(score) if score else None
+                    except (ValueError, TypeError):
+                        score = None
+                    severity = 'Critical' if score and score >= 9.0 else 'High'
+                    published = (item.get('Published', '') or item.get('publishedDate', ''))[:10]
+                    link = 'https://nvd.nist.gov/vuln/detail/' + cve_id
+                    cves.append({
+                        'id': cve_id,
+                        'description': desc,
+                        'score': float(score) if score else None,
+                        'severity': severity,
+                        'published': published,
+                        'link': link
+                    })
+                except Exception:
+                    continue
+        except Exception as e:
+            print(f"    CIRCL fallback error: {e}")
     # Deduplicate by ID, sort by score descending, take top 4
     seen = set()
     unique = []
@@ -865,7 +906,8 @@ def save_json(data, filename):
     with open(filename, "w") as f:
         json.dump(output, f, indent=2)
 
-    print(f"  Saved {len(data)} items to {filename}")
+    items = data.get("items", data) if isinstance(data, dict) else data
+    print(f"  Saved {len(items)} items to {filename}")
 
 
 # -------------------------------------------------------
