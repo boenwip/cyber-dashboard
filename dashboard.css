@@ -231,13 +231,8 @@ body {
 .report-foot { padding: 10px 32px; font-size: 16px; color: var(--hint); font-style: italic; border-top: 0.5px solid var(--border); }
 
 /* ── QUICK VIEWS ── */
-.quick-views {
-  padding: 10px 32px;
-  border-bottom: 0.5px solid var(--border);
-  display: flex; align-items: center; gap: 8px;
-  background: var(--surface);
-}
-.qv-label { font-size: 16px; color: var(--hint); letter-spacing: 0.06em; text-transform: uppercase; margin-right: 4px; }
+
+
 .qv {
   font-family: 'IBM Plex Sans', sans-serif; font-size: 14px;
   padding: 5px 14px; border-radius: 4px;
@@ -392,16 +387,9 @@ body {
 .sb-empty { padding: 24px 20px; font-size: 14px; color: var(--hint); text-align: center; line-height: 1.6; }
 
 /* ── TIPS ZONE ── */
-.tips-zone {
-  border-top: 0.5px solid var(--border);
-  padding: 20px 32px;
-  background: var(--surface);
-}
-.tips-hdr { font-size: 16px; color: var(--hint); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 12px; }
-.tips-placeholder {
-  border: 0.5px dashed var(--border2); border-radius: 6px;
-  padding: 20px; text-align: center; color: var(--hint); font-size: 12px; line-height: 1.6;
-}
+
+
+
 .tips-placeholder b { color: var(--muted); font-weight: 500; display: block; margin-bottom: 4px; font-size: 16px; }
 
 .site-footer {

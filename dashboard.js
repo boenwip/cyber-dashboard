@@ -133,7 +133,7 @@ function switchMapTab(map, btn) {
 // ── DATA & FILTERS ──
 let allArticles = [];
 let allTools = [];
-let activeFilters = { topic: [], audience: [], threat: [], relevance: [] };
+let activeFilters = { topic: [], threat: [] };
 
 function formatDateAEST(isoStr) {
   if (!isoStr) return '';
@@ -188,29 +188,11 @@ async function loadData() {
 }
 
 // ── QUICK VIEWS ──
-function applyQuickView(view, btn) {
-  document.querySelectorAll('.qv').forEach(q => q.classList.remove('active'));
-  btn.classList.add('active');
-  clearAllFilters();
-  if (view === 'forme') {
-    setFilter('relevance', 'Direct');
-    setFilter('relevance', 'Sector');
-  } else if (view === 'industry') {
-    setFilter('relevance', 'AU General');
-    setFilter('relevance', 'Sector');
-  } else if (view === 'critical') {
-    setFilter('threat', 'Critical');
-    setFilter('threat', 'High');
-  } else if (view === 'scams') {
-    setFilter('topic', 'Scams');
-  } else if (view === 'good') {
-    setFilter('topic', 'Good News');
-  }
-  renderArticles();
-}
+// Quick views removed
+
 
 function clearAllFilters() {
-  activeFilters = { topic: [], audience: [], threat: [], relevance: [] };
+  activeFilters = { topic: [], threat: [] };
   document.querySelectorAll('.pill').forEach(p => p.className = 'pill');
 }
 
@@ -283,11 +265,9 @@ function toggleFilter(pill) {
 }
 
 function passesFilters(article) {
-  const { topic, audience, threat, relevance } = activeFilters;
-  if (topic.length     && !topic.some(t    => (article.tags || []).includes(t)))      return false;
-  if (audience.length  && !audience.some(a => (article.audience || []).includes(a)))  return false;
-  if (threat.length    && !threat.includes(article.threat))                           return false;
-  if (relevance.length && !relevance.includes(article.relevance))                     return false;
+  const { topic, threat } = activeFilters;
+  if (topic.length  && !topic.some(t => (article.tags || []).includes(t)))  return false;
+  if (threat.length && !threat.includes(article.threat))                    return false;
   return true;
 }
 

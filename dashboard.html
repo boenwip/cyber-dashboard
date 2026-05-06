@@ -147,15 +147,6 @@
   </div>
 </div>
 
-<!-- QUICK VIEWS -->
-<div class="quick-views">
-  <span class="qv-label">Quick view</span>
-  <button class="qv active" onclick="applyQuickView('all', this)">Everything</button>
-  <button class="qv" onclick="applyQuickView('forme', this)">For me</button>
-  <button class="qv" onclick="applyQuickView('industry', this)">Industry</button>
-  <button class="qv" onclick="applyQuickView('critical', this)">Critical</button>
-  <button class="qv" onclick="applyQuickView('scams', this)">⚠ Scam Watch</button>
-</div>
 
 <!-- THREAT MAP TAB -->
 <div class="tpanel" id="tpanel-threatmap">
@@ -330,33 +321,17 @@
   <div class="filter-row">
     <span class="fl">Topic</span>
     <div class="filter-group" id="topic-filters">
-      <button class="pill" data-filter-type="topic" data-value="AU Cyber"    onclick="toggleFilter(this)">AU Cyber</button>
-      <button class="pill" data-filter-type="topic" data-value="RTO / VET"  onclick="toggleFilter(this)">RTO / VET</button>
-      <button class="pill" data-filter-type="topic" data-value="Education"  onclick="toggleFilter(this)">Education</button>
-      <button class="pill" data-filter-type="topic" data-value="EdTech"     onclick="toggleFilter(this)">EdTech</button>
-      <button class="pill" data-filter-type="topic" data-value="AI & Tools" onclick="toggleFilter(this)">AI & Tools</button>
-      <button class="pill" data-filter-type="topic" data-value="Scams"      onclick="toggleFilter(this)">Scams</button>
-      <button class="pill" data-filter-type="topic" data-value="Compliance" onclick="toggleFilter(this)">Compliance</button>
+      <button class="pill" data-filter-type="topic" data-value="AU Cyber"    onclick="toggleFilter(this)">Australian Cyber</button>
+      <button class="pill" data-filter-type="topic" data-value="Scams"       onclick="toggleFilter(this)">Scams &amp; Fraud</button>
+      <button class="pill" data-filter-type="topic" data-value="AI & Tools"  onclick="toggleFilter(this)">AI &amp; Tools</button>
+      <button class="pill" data-filter-type="topic" data-value="RTO / VET"   onclick="toggleFilter(this)">Training &amp; VET</button>
+      <button class="pill" data-filter-type="topic" data-value="Compliance"  onclick="toggleFilter(this)">Compliance &amp; Policy</button>
+      <button class="pill" data-filter-type="topic" data-value="EdTech"      onclick="toggleFilter(this)">EdTech</button>
+      <button class="pill" data-filter-type="topic" data-value="Education"   onclick="toggleFilter(this)">Education</button>
     </div>
   </div>
-  <div class="filter-row">
-    <span class="fl">Audience</span>
-    <div class="filter-group" id="audience-filters">
-      <button class="pill" data-filter-type="audience" data-value="Small Business"          onclick="toggleFilter(this)">Small Business</button>
-      <button class="pill" data-filter-type="audience" data-value="Enterprise"              onclick="toggleFilter(this)">Enterprise</button>
-      <button class="pill" data-filter-type="audience" data-value="Consumer"                onclick="toggleFilter(this)">Consumer</button>
-      <button class="pill" data-filter-type="audience" data-value="Critical Infrastructure" onclick="toggleFilter(this)">Critical Infrastructure</button>
-    </div>
-  </div>
-  <div class="filter-row">
-    <span class="fl">Relevance</span>
-    <div class="filter-group" id="relevance-filters">
-      <button class="pill" data-filter-type="relevance" data-value="Direct"     onclick="toggleFilter(this)">Direct</button>
-      <button class="pill" data-filter-type="relevance" data-value="Sector"     onclick="toggleFilter(this)">Sector</button>
-      <button class="pill" data-filter-type="relevance" data-value="AU General" onclick="toggleFilter(this)">AU General</button>
-      <button class="pill" data-filter-type="relevance" data-value="Global"     onclick="toggleFilter(this)">Global</button>
-    </div>
-  </div>
+
+
   <div class="filter-row">
     <span class="fl">Threat</span>
     <div class="filter-group" id="threat-filters">
@@ -384,15 +359,6 @@
   </aside>
 </div>
 
-<!-- TIPS ZONE -->
-<div class="tips-zone">
-  <div class="tips-hdr">Staff Tips</div>
-  <div class="tips-placeholder">
-    <b>Coming soon — App tips for your team</b>
-    Weekly tips for Microsoft 365, Google Workspace, Zoom, Asana and more.<br>
-    This section will auto-populate once the tips feed is configured.
-  </div>
-</div>
 
 <!-- FOOTER -->
 <footer class="site-footer">
