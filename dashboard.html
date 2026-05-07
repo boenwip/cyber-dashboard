@@ -13,7 +13,7 @@
 <header class="site-header">
   <div>
     <div class="site-title">Cyber &amp; Sector <em>Awareness</em></div>
-    <div class="site-meta" id="last-updated">Loading...</div>
+    <div class="site-meta hdr-updated" id="last-updated"></div>
   </div>
   <div class="header-controls">
     <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark mode">☀</button>
@@ -24,105 +24,53 @@
 <!-- THREAT TRACKER -->
 <section class="tracker">
   <div class="tracker-hdr">
-    <div class="tracker-title"><span class="live-dot"></span>Australian Cyber Threat Tracker</div>
-    <div class="tracker-src">Source: ACSC Annual Cyber Threat Report 2024–25</div>
-  </div>
-  <div class="tracker-tabs">
-    <div class="ttab active" onclick="switchTrackerTab('live', this)">FY 2025–26 (Live Projection)</div>
-    <div class="ttab" onclick="switchTrackerTab('report', this)">FY 2024–25 (Official Report)</div>
-    <div class="ttab" onclick="switchTrackerTab('threatmap', this)">🌐 Live Threat Map</div>
-    <div class="ttab" onclick="switchTrackerTab('tips', this)">🛡 Cyber Awareness</div>
-  </div>
-
-  <!-- LIVE TAB -->
-  <div class="tpanel active" id="tpanel-live">
-    <div class="live-body" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;align-items:stretch;">
-      <!-- COL 1: Live counter -->
-      <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
-        <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
-        <div class="count-num" id="main-count">0</div>
-        <div class="count-sub">One report every <b>6 minutes</b> · Counting from 1 July 2025</div>
-        <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
-      </div>
-      <!-- COL 2: Key stats -->
-      <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
-        <div class="mini-stats" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
-          <div class="ms"><div class="ms-n" id="incidents-count">0</div><div class="ms-l">Projected incidents this FY</div></div>
-          <div class="ms"><div class="ms-n blue">$80,850</div><div class="ms-l">Avg cost per business incident</div></div>
-          <div class="ms"><div class="ms-n teal">$33,000</div><div class="ms-l">Avg individual loss per incident</div></div>
-          <div class="ms"><div class="ms-n blue" id="domains-count">0</div><div class="ms-l">Projected malicious domains blocked</div></div>
-        </div>
-      </div>
-      <!-- COL 3: CVE Feed -->
-      <div style="padding:18px 20px;overflow-y:auto;">
-        <div style="font-size:11px;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;color:var(--hint);margin-bottom:10px;">Recent CVEs — High / Critical</div>
-        <div id="cve-feed">
-          <div style="font-size:13px;color:var(--hint);font-style:italic;">Loading CVEs...</div>
-        </div>
-      </div>
-    </div>
-    <div class="ticker-row">
-      <div class="ticker-lbl">Latest</div>
-      <div class="ticker-txt" id="ticker-txt">Loading...</div>
+    <div class="tracker-title"><span class="live-dot"></span>FY 2025–26 Live Tracker</div>
+    <div style="display:flex;align-items:center;gap:16px;">
+      <a href="https://cybermap.kaspersky.com/en" target="_blank" rel="noopener" class="tracker-link">🌐 Threat Map</a>
+      <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="tracker-link">🛡 Cyber Awareness</a>
+      <div class="tracker-src">ACSC Annual Report 2024–25</div>
     </div>
   </div>
 
-  <!-- REPORT TAB -->
-  <div class="tpanel" id="tpanel-report">
-    <div class="report-grid">
-      <div class="rc"><div class="rc-n">84,700</div><div class="rc-ch">↑ Consistent with prior year</div><div class="rc-l">Cybercrime reports received in FY2024–25</div></div>
-      <div class="rc"><div class="rc-n">1,200+</div><div class="rc-ch">↑ 11% year on year</div><div class="rc-l">Significant incidents responded to</div></div>
-      <div class="rc"><div class="rc-n">42,500+</div><div class="rc-ch">↑ 16% year on year</div><div class="rc-l">Calls to the Cyber Security Hotline</div></div>
-      <div class="rc"><div class="rc-n">$80,850</div><div class="rc-ch">↑ 50% year on year</div><div class="rc-l">Avg cost per business cybercrime report</div></div>
-      <div class="rc"><div class="rc-n">334M</div><div class="rc-ch">↑ 307% year on year</div><div class="rc-l">Malicious domains blocked by ASD</div></div>
-      <div class="rc"><div class="rc-n">1,700+</div><div class="rc-ch">↑ 83% year on year</div><div class="rc-l">Entities notified of malicious activity</div></div>
+  <div class="live-body" style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:0;align-items:stretch;">
+    <!-- COL 1: Live counter -->
+    <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
+      <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
+      <div class="count-num" id="main-count">—</div>
+      <div class="count-sub">One report every <b>6 minutes</b> · Counting from 1 July 2025</div>
+      <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
     </div>
-    <div class="highlights">
-      <div class="hl-label">Key findings from the report</div>
-      <div class="hl-list">
-        <div class="hl">Critical infrastructure attacks up <b>111%</b> — finance (32%) and transport (26%) most targeted</div>
-        <div class="hl">Healthcare ransomware incidents <b>doubled</b> — 95% resulted in confirmed compromise</div>
-        <div class="hl">DoS/DDoS attacks rose <b>280%</b> — over 200 incidents in FY2024–25</div>
-        <div class="hl">Large business avg loss jumped <b>219%</b> to $202,700 per incident</div>
-        <div class="hl">Identity fraud remains <b>#1</b> reported cybercrime — avg individual loss $33,000</div>
-        <div class="hl">State-sponsored actors from <b>China and Russia</b> actively targeting Australian networks</div>
-        <div class="hl"><b>39%</b> of ransomware incidents detected by ACSC before the organisation knew</div>
-        <div class="hl">Mandatory ransomware reporting introduced for businesses over <b>$3M</b> turnover</div>
+    <!-- COL 2: Key stats -->
+    <div style="padding:18px 24px;border-right:0.5px solid var(--border);">
+      <div class="mini-stats" style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+        <div class="ms"><div class="ms-n" id="incidents-count">—</div><div class="ms-l">Projected incidents this FY</div></div>
+        <div class="ms"><div class="ms-n blue">$80,850</div><div class="ms-l">Avg cost per business incident</div></div>
+        <div class="ms"><div class="ms-n teal">$33,000</div><div class="ms-l">Avg individual loss per incident</div></div>
+        <div class="ms"><div class="ms-n blue" id="domains-count">—</div><div class="ms-l">Projected malicious domains blocked</div></div>
       </div>
     </div>
-    <div style="padding:20px 32px;border-top:0.5px solid var(--border);">
+    <!-- COL 3: CVE Feed -->
+    <div style="padding:18px 20px;display:flex;flex-direction:column;overflow:hidden;">
+      <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px;flex-shrink:0;">
+        <div style="font-size:11px;font-weight:600;letter-spacing:0.09em;text-transform:uppercase;color:var(--hint);">Actively Exploited CVEs</div>
+        <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener" style="font-size:11px;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;">CISA KEV ↗</a>
+      </div>
+      <div id="cve-feed" style="overflow-y:auto;flex:1;max-height:180px;scrollbar-width:thin;scrollbar-color:var(--border2) transparent;">
+        <div style="font-size:13px;color:var(--hint);font-style:italic;">Loading CVEs...</div>
+      </div>
+    </div>
+  </div>
 
-      <div style="display:flex;flex-direction:column;gap:10px;">
-        <div style="display:flex;align-items:center;gap:12px;">
-          <div style="width:90px;font-size:13px;color:var(--muted);">Ransomware</div>
-          <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden;"><div style="height:100%;width:11%;background:#C8706A;border-radius:4px;"></div></div>
-          <div style="font-size:13px;color:var(--muted);width:32px;text-align:right;">11%</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;">
-          <div style="width:90px;font-size:13px;color:var(--muted);">Identity fraud</div>
-          <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden;"><div style="height:100%;width:8%;background:#9B78C8;border-radius:4px;"></div></div>
-          <div style="font-size:13px;color:var(--muted);width:32px;text-align:right;">8%</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;">
-          <div style="width:90px;font-size:13px;color:var(--muted);">Online shopping</div>
-          <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden;"><div style="height:100%;width:7%;background:#7E9DC4;border-radius:4px;"></div></div>
-          <div style="font-size:13px;color:var(--muted);width:32px;text-align:right;">7%</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;">
-          <div style="width:90px;font-size:13px;color:var(--muted);">Banking fraud</div>
-          <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden;"><div style="height:100%;width:6%;background:#6BA898;border-radius:4px;"></div></div>
-          <div style="font-size:13px;color:var(--muted);width:32px;text-align:right;">6%</div>
-        </div>
-        <div style="display:flex;align-items:center;gap:12px;">
-          <div style="width:90px;font-size:13px;color:var(--muted);">Other</div>
-          <div style="flex:1;height:8px;background:var(--border);border-radius:4px;overflow:hidden;"><div style="height:100%;width:68%;background:var(--hint);border-radius:4px;opacity:0.5;"></div></div>
-          <div style="font-size:13px;color:var(--muted);width:32px;text-align:right;">68%</div>
-        </div>
-      </div>
-    </div>
-    <div class="report-foot"><a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" style="color:inherit;text-decoration:underline;text-underline-offset:3px;opacity:0.7;">ASD's ACSC Annual Cyber Threat Report 2024–25 · Published October 2025 · cyber.gov.au</a></div>
+  <!-- 2024-25 REPORT — collapsed, accessible via link -->
+  <div class="report-summary" style="padding:12px 24px;border-top:0.5px solid var(--border);display:flex;align-items:center;gap:24px;flex-wrap:wrap;">
+    <div class="rs-item"><span class="rs-n">84,700</span><span class="rs-l">Cybercrime reports FY24–25</span></div>
+    <div class="rs-item"><span class="rs-n">$80,850</span><span class="rs-l">↑ 50% avg business loss</span></div>
+    <div class="rs-item"><span class="rs-n">334M</span><span class="rs-l">↑ 307% malicious domains blocked</span></div>
+    <div class="rs-item"><span class="rs-n">1,200+</span><span class="rs-l">↑ 11% significant incidents</span></div>
+    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" style="margin-left:auto;font-size:12px;color:var(--accent);text-decoration:underline;text-underline-offset:3px;white-space:nowrap;">Full report ↗</a>
   </div>
 </section>
+
 
 <!-- CRIME DISTRIBUTION -->
 <div style="padding:12px 32px;border-bottom:0.5px solid var(--border);background:var(--surface);">
@@ -147,100 +95,6 @@
   </div>
 </div>
 
-
-<!-- THREAT MAP TAB -->
-<div class="tpanel" id="tpanel-threatmap">
-  <div style="padding:16px 32px 24px;">
-    <div style="font-size:12px;color:var(--hint);font-style:italic;margin-bottom:16px;">
-      Live threat maps are hosted by security vendors and cannot be embedded — they open in a new tab. Attack volumes reflect each vendor's own sensor network.
-    </div>
-    <!-- Map sub-tabs -->
-    <div style="display:flex;gap:0;border-bottom:0.5px solid var(--border);margin-bottom:20px;">
-      <button onclick="switchMapTab('kaspersky',this)" id="maptab-kaspersky"
-        style="padding:8px 18px;font-size:12px;background:none;border:none;border-bottom:2px solid var(--accent);color:var(--text);cursor:pointer;font-family:inherit;letter-spacing:0.04em;">
-        Kaspersky
-      </button>
-      <button onclick="switchMapTab('checkpoint',this)" id="maptab-checkpoint"
-        style="padding:8px 18px;font-size:12px;background:none;border:none;border-bottom:2px solid transparent;color:var(--hint);cursor:pointer;font-family:inherit;letter-spacing:0.04em;">
-        Check Point
-      </button>
-      <button onclick="switchMapTab('fortinet',this)" id="maptab-fortinet"
-        style="padding:8px 18px;font-size:12px;background:none;border:none;border-bottom:2px solid transparent;color:var(--hint);cursor:pointer;font-family:inherit;letter-spacing:0.04em;">
-        Fortinet
-      </button>
-    </div>
-    <!-- Kaspersky -->
-    <div id="mapview-kaspersky">
-      <div style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:8px;padding:28px 32px;display:flex;align-items:center;gap:32px;flex-wrap:wrap;">
-        <div style="font-size:48px;">🌐</div>
-        <div style="flex:1;min-width:200px;">
-          <div style="font-size:16px;font-weight:500;color:var(--text);margin-bottom:6px;">Kaspersky Cyberthreat Real-Time Map</div>
-          <div style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:16px;">
-            The most visually detailed live threat map available. Shows malware infections, network attacks, on-access scans and vulnerabilities detected across Kaspersky's global sensor network in real time.
-          </div>
-          <a href="https://cybermap.kaspersky.com/en" target="_blank" rel="noopener"
-            style="display:inline-block;padding:9px 20px;background:var(--accent);color:#fff;border-radius:4px;text-decoration:none;font-size:13px;font-family:inherit;">
-            Open Kaspersky Map ↗
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Check Point -->
-    <div id="mapview-checkpoint" style="display:none;">
-      <div style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:8px;padding:28px 32px;display:flex;align-items:center;gap:32px;flex-wrap:wrap;">
-        <div style="font-size:48px;">🛡️</div>
-        <div style="flex:1;min-width:200px;">
-          <div style="font-size:16px;font-weight:500;color:var(--text);margin-bottom:6px;">Check Point ThreatCloud Live Map</div>
-          <div style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:16px;">
-            Real-time cyber attack visualisation powered by Check Point's ThreatCloud intelligence network. Shows attacks by type, country and organisation across millions of protected endpoints globally.
-          </div>
-          <a href="https://threatmap.checkpoint.com/" target="_blank" rel="noopener"
-            style="display:inline-block;padding:9px 20px;background:var(--accent);color:#fff;border-radius:4px;text-decoration:none;font-size:13px;font-family:inherit;">
-            Open Check Point Map ↗
-          </a>
-        </div>
-      </div>
-    </div>
-    <!-- Fortinet -->
-    <div id="mapview-fortinet" style="display:none;">
-      <div style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:8px;padding:28px 32px;display:flex;align-items:center;gap:32px;flex-wrap:wrap;">
-        <div style="font-size:48px;">📡</div>
-        <div style="flex:1;min-width:200px;">
-          <div style="font-size:16px;font-weight:500;color:var(--text);margin-bottom:6px;">Fortinet FortiGuard Threat Map</div>
-          <div style="font-size:13px;color:var(--muted);line-height:1.6;margin-bottom:16px;">
-            FortiGuard Labs live view of global attack and botnet activity. Includes a day/night overlay so you can see where threat actors are most active across time zones.
-          </div>
-          <a href="https://threatmap.fortiguard.com/" target="_blank" rel="noopener"
-            style="display:inline-block;padding:9px 20px;background:var(--accent);color:#fff;border-radius:4px;text-decoration:none;font-size:13px;font-family:inherit;">
-            Open Fortinet Map ↗
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- TIPS TAB -->
-<div class="tpanel" id="tpanel-tips">
-  <div style="padding:20px 32px 28px;">
-    <div style="font-size:12px;color:var(--hint);margin-bottom:20px;font-style:italic;">
-      Practical steps to stay safe — share these with anyone who needs them.
-    </div>
-    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;">
-
-      <!-- Scams -->
-      <div style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:8px;padding:18px 20px;">
-        <div style="font-size:13px;font-weight:600;color:var(--tag-scam-text);margin-bottom:10px;display:flex;align-items:center;gap:8px;">
-          <span>⚠️</span> Protecting yourself from scams
-        </div>
-        <ul style="font-size:12px;color:var(--muted);line-height:1.8;padding-left:16px;margin:0;">
-          <li>Never click links in unexpected texts or emails — go directly to the website</li>
-          <li>Government agencies (ATO, MyGov, Medicare) will <b>never</b> call and ask for payment</li>
-          <li>If someone calls claiming to be your bank, hang up and call the number on your card</li>
-          <li>Check <a href="https://www.scamwatch.gov.au/" target="_blank" rel="noopener" style="color:var(--accent);">ScamWatch</a> before acting on any unexpected contact</li>
-          <li>Enable multi-factor authentication on email, banking and MyGov</li>
-        </ul>
-      </div>
 
       <!-- Phishing -->
       <div style="background:var(--surface2);border:0.5px solid var(--border2);border-radius:8px;padding:18px 20px;">

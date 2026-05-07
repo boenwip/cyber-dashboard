@@ -824,7 +824,7 @@ def fetch_cves():
             # Sort by dateAdded descending — most recently added first
             vulns.sort(key=lambda x: x.get('dateAdded', '0000-00-00'), reverse=True)
 
-            for v in vulns[:4]:
+            for v in vulns[:10]:
                 try:
                     cve_id = v.get('cveID', '')
                     name = v.get('vulnerabilityName', '')

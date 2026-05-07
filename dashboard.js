@@ -340,7 +340,7 @@ function renderArticles() {
 function renderCVE(items) {
   var el = document.getElementById('cve-feed');
   if (!el) return;
-  var cveItems = items.slice(0, 4);
+  var cveItems = items.slice(0, 10);
   if (!cveItems.length) {
     el.innerHTML = '<div style="font-size:13px;color:var(--hint);font-style:italic;">No CVE data available.</div>';
     return;
