@@ -1,9 +1,20 @@
 {
-  "last_updated": "07-05-2026 03:28 PM",
+  "last_updated": "07-05-2026 11:02 PM",
   "count": 2,
   "items": {
-    "last_updated": "07-05-2026 03:28 PM",
+    "last_updated": "07-05-2026 11:02 PM",
     "items": [
+      {
+        "id": "CVE-2026-6973",
+        "description": "Ivanti Endpoint Manager Mobile (EPMM) \u2014 Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+        "score": null,
+        "severity": "HIGH",
+        "published": "2026-05-07",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+        "vendor": "Ivanti",
+        "product": "Endpoint Manager Mobile (EPMM)",
+        "ransomware": "Unknown"
+      },
       {
         "id": "CVE-2026-0300",
         "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrar",
@@ -101,17 +112,6 @@
         "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57726",
         "vendor": "SimpleHelp ",
         "product": "SimpleHelp",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-39987",
-        "description": "Marimo Marimo \u2014 Marimo contains an pre-authorization remote code execution vulnerability, allowing an unauthenticated attacked to shell access and execute arbitrary system commands.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-23",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-39987",
-        "vendor": "Marimo",
-        "product": "Marimo",
         "ransomware": "Unknown"
       }
     ]
