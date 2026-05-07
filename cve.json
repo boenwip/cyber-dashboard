@@ -1,40 +1,52 @@
 {
-  "last_updated": "07-05-2026 07:32 AM",
+  "last_updated": "07-05-2026 12:02 PM",
   "count": 2,
   "items": {
-    "last_updated": "07-05-2026 07:32 AM",
+    "last_updated": "07-05-2026 12:02 PM",
     "items": [
       {
-        "id": "CVE-1999-0426",
-        "description": "The default permissions of /dev/kmem in Linux versions before 2.0.36 allows IP spoofing.",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "1999-03-01",
-        "link": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0426"
+        "id": "CVE-2026-0300",
+        "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrar",
+        "score": null,
+        "severity": "HIGH",
+        "published": "2026-05-06",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
+        "vendor": "Palo Alto Networks",
+        "product": "PAN-OS",
+        "ransomware": "Unknown"
       },
       {
-        "id": "CVE-1999-1324",
-        "description": "VAXstations running Open VMS 5.3 through 5.5-2 with VMS DECwindows or MOTIF do not properly disable access to user accounts that exceed the break-in limit threshold for failed login attempts, which ma",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "1999-12-31",
-        "link": "http://ciac.llnl.gov/ciac/bulletins/d-06.shtml"
+        "id": "CVE-2026-31431",
+        "description": "Linux Kernel \u2014 Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+        "score": null,
+        "severity": "HIGH",
+        "published": "2026-05-01",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+        "vendor": "Linux",
+        "product": "Kernel",
+        "ransomware": "Unknown"
       },
       {
-        "id": "CVE-2000-1218",
-        "description": "The default configuration for the domain name resolver for Microsoft Windows 98, NT 4.0, 2000, and XP sets the QueryIpMatching parameter to 0, which causes Windows to accept DNS updates from hosts tha",
-        "score": 9.8,
+        "id": "CVE-2026-41940",
+        "description": "WebPros cPanel & WHM and WP2 (WordPress Squared) \u2014 WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized ac",
+        "score": null,
         "severity": "CRITICAL",
-        "published": "2000-04-14",
-        "link": "http://www.kb.cert.org/vuls/id/458659"
+        "published": "2026-04-30",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
+        "vendor": "WebPros",
+        "product": "cPanel & WHM and WP2 (WordPress Squared)",
+        "ransomware": "Known"
       },
       {
-        "id": "CVE-2000-0944",
-        "description": "CGI Script Center News Update 1.1 does not properly validate the original news administration password during a password change operation, which allows remote attackers to modify the password without ",
-        "score": 9.8,
-        "severity": "CRITICAL",
-        "published": "2000-12-19",
-        "link": "http://archives.neohapsis.com/archives/bugtraq/2000-10/0402.html"
+        "id": "CVE-2024-1708",
+        "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+        "score": null,
+        "severity": "HIGH",
+        "published": "2026-04-28",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
+        "vendor": "ConnectWise",
+        "product": "ScreenConnect",
+        "ransomware": "Unknown"
       }
     ]
   }

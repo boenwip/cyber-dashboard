@@ -799,102 +799,71 @@ def fetch_tool_updates():
 # -------------------------------------------------------
 
 def fetch_cves():
-    """Fetch latest High/Critical CVEs — tries NIST NVD first, falls back to CIRCL."""
-    import time
+    """Fetch 4 most recently added CVEs from CISA Known Exploited Vulnerabilities catalog.
+    Primary: CISA KEV JSON (authoritative, no key required)
+    Fallback: GitHub mirror of same data
+    """
+    AEST = datetime.timezone(datetime.timedelta(hours=10))
     cves = []
 
-    # Primary: NIST NVD API
-    nvd_urls = [
-        "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=CRITICAL&resultsPerPage=4",
-        "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=HIGH&resultsPerPage=4",
+    sources = [
+        "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+        "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
     ]
-    nvd_success = False
-    for url in nvd_urls:
+
+    for url in sources:
         try:
             req = urllib.request.Request(url, headers={
                 'User-Agent': 'cyber-dashboard/1.0 (github.com/boenwip/cyber-dashboard)',
                 'Accept': 'application/json'
             })
-            resp = urllib.request.urlopen(req, timeout=8)
+            resp = urllib.request.urlopen(req, timeout=10)
             data = json.loads(resp.read().decode())
             vulns = data.get('vulnerabilities', [])
-            for v in vulns:
-                try:
-                    cve = v['cve']
-                    cve_id = cve['id']
-                    desc = next((d['value'] for d in cve.get('descriptions', []) if d['lang'] == 'en'), '')
-                    metrics = cve.get('metrics', {})
-                    score = None
-                    severity = 'High'
-                    for key in ['cvssMetricV31', 'cvssMetricV30', 'cvssMetricV2']:
-                        metric_list = metrics.get(key, [])
-                        if metric_list:
-                            score = metric_list[0].get('cvssData', {}).get('baseScore')
-                            severity = metric_list[0].get('cvssData', {}).get('baseSeverity', severity)
-                            break
-                    published = cve.get('published', '')[:10]
-                    refs = cve.get('references', [])
-                    link = refs[0]['url'] if refs else 'https://nvd.nist.gov/vuln/detail/' + cve_id
-                    cves.append({
-                        'id': cve_id,
-                        'description': desc[:200],
-                        'score': score,
-                        'severity': severity,
-                        'published': published,
-                        'link': link
-                    })
-                    nvd_success = True
-                except Exception:
-                    continue
-            time.sleep(2)
-        except Exception as e:
-            print(f"    NVD fetch error: {e}")
 
-    # Fallback: CIRCL CVE API (no rate limit, no key required)
-    if not nvd_success or len(cves) < 3:
-        print("    Trying CIRCL CVE API fallback...")
-        try:
-            req = urllib.request.Request(
-                "https://cve.circl.lu/api/last/8",
-                headers={'User-Agent': 'cyber-dashboard/1.0', 'Accept': 'application/json'}
-            )
-            resp = urllib.request.urlopen(req, timeout=15)
-            data = json.loads(resp.read().decode())
-            for item in data:
+            # Sort by dateAdded descending — most recently added first
+            vulns.sort(key=lambda x: x.get('dateAdded', '0000-00-00'), reverse=True)
+
+            for v in vulns[:4]:
                 try:
-                    cve_id = item.get('id', '') or item.get('cveMetadata', {}).get('cveId', '')
-                    if not cve_id:
-                        continue
-                    desc = (item.get('summary', '') or item.get('description', '') or '')[:200]
-                    score = item.get('cvss', None) or item.get('cvss3', {}).get('cvssV3', {}).get('baseScore', None) if isinstance(item.get('cvss3'), dict) else item.get('cvss', None)
-                    try:
-                        score = float(score) if score else None
-                    except (ValueError, TypeError):
-                        score = None
-                    severity = 'Critical' if score and score >= 9.0 else 'High'
-                    published = (item.get('Published', '') or item.get('publishedDate', ''))[:10]
+                    cve_id = v.get('cveID', '')
+                    name = v.get('vulnerabilityName', '')
+                    desc = v.get('shortDescription', '') or name
+                    vendor = v.get('vendorProject', '')
+                    product = v.get('product', '')
+                    date_added = v.get('dateAdded', '')
+                    ransomware = v.get('knownRansomwareCampaignUse', 'Unknown')
                     link = 'https://nvd.nist.gov/vuln/detail/' + cve_id
+
+                    # Build concise description
+                    full_desc = desc[:200] if desc else name
+                    if vendor and product:
+                        full_desc = vendor + ' ' + product + ' — ' + full_desc
+
                     cves.append({
                         'id': cve_id,
-                        'description': desc,
-                        'score': float(score) if score else None,
-                        'severity': severity,
-                        'published': published,
-                        'link': link
+                        'description': full_desc,
+                        'score': None,
+                        'severity': 'CRITICAL' if ransomware == 'Known' else 'HIGH',
+                        'published': date_added,
+                        'link': link,
+                        'vendor': vendor,
+                        'product': product,
+                        'ransomware': ransomware,
                     })
                 except Exception:
                     continue
+
+            if cves:
+                print(f"    Fetched {len(cves)} CVEs from CISA KEV")
+                return cves
+
         except Exception as e:
-            print(f"    CIRCL fallback error: {e}")
-    # Deduplicate by ID, sort by score descending, take top 4
-    seen = set()
-    unique = []
-    for c in cves:
-        if c['id'] not in seen:
-            seen.add(c['id'])
-            unique.append(c)
-    unique.sort(key=lambda x: x.get('score') or 0, reverse=True)
-    return unique[:4]
+            print(f"    KEV source failed ({url[:50]}): {e}")
+            continue
+
+    print("    All CVE sources failed")
+    return []
 
 
 def save_json(data, filename):
@@ -925,6 +894,9 @@ if __name__ == "__main__":
 
     print("\n=== Fetching CVEs ===")
     cves = fetch_cves()
+    # Guard against nested structure if cves is a dict instead of list
+    if isinstance(cves, dict):
+        cves = cves.get('items', [])
     save_json({'last_updated': datetime.datetime.now().strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
     print(f"  Saved {len(cves)} CVEs to cve.json")
 

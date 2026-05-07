@@ -108,27 +108,12 @@ function parseArticleDate(dateStr) {
   return new Date(0);
 }
 
-function switchTrackerTab(tab, el) {
-  document.querySelectorAll('.ttab').forEach(t => t.classList.remove('active'));
-  document.querySelectorAll('.tpanel').forEach(p => p.classList.remove('active'));
-  el.classList.add('active');
-  document.getElementById('tpanel-' + tab).classList.add('active');
-}
+
 
 updateTracker();
 setInterval(updateTracker, 6000);
 
-function switchMapTab(map, btn) {
-  ['kaspersky','checkpoint','fortinet'].forEach(m => {
-    const view = document.getElementById('mapview-' + m);
-    const tab = document.getElementById('maptab-' + m);
-    if (view) view.style.display = m === map ? 'block' : 'none';
-    if (tab) {
-      tab.style.borderBottomColor = m === map ? 'var(--accent)' : 'transparent';
-      tab.style.color = m === map ? 'var(--text)' : 'var(--hint)';
-    }
-  });
-}
+
 
 // ── DATA & FILTERS ──
 let allArticles = [];
@@ -160,7 +145,7 @@ async function loadData() {
     const ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
     var luEl = document.getElementById('last-updated');
     var fuEl = document.getElementById('footer-updated');
-    if (luEl) luEl.textContent = ts ? 'Last updated: ' + ts + ' AEST' : '';
+    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts + ' AEST' : ''; luEl.classList.add('visible'); }
     if (fuEl) fuEl.textContent = ts ? 'Updated: ' + ts + ' AEST' : '';
     try { updateStatStrip(data); } catch(e) {}
     renderArticles();
@@ -180,7 +165,11 @@ async function loadData() {
     const res3 = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res3.ok) throw new Error('HTTP ' + res3.status);
     const data3 = await res3.json();
-    renderCVE(data3.items || []);
+    var cveItems = data3.items || [];
+    if (cveItems && typeof cveItems === 'object' && !Array.isArray(cveItems)) {
+      cveItems = cveItems.items || [];
+    }
+    renderCVE(cveItems);
   } catch(e) {
     var el = document.getElementById('cve-feed');
     if (el) el.innerHTML = '<div style="font-size:14px;color:var(--hint);font-style:italic;">CVE data unavailable.</div>';
@@ -353,22 +342,24 @@ function renderCVE(items) {
   if (!el) return;
   var cveItems = items.slice(0, 4);
   if (!cveItems.length) {
-    el.innerHTML = '<div style="font-size:14px;color:var(--hint);font-style:italic;">No CVE data available.</div>';
+    el.innerHTML = '<div style="font-size:13px;color:var(--hint);font-style:italic;">No CVE data available.</div>';
     return;
   }
   el.innerHTML = cveItems.map(function(c) {
-    var sev = (c.severity || 'High');
-    var sevColor = sev === 'CRITICAL' || sev === 'Critical' ? 'var(--crit)' : 'var(--high)';
-    var score = c.score ? c.score.toFixed(1) : '';
-    var desc = (c.description || '').substring(0, 120) + (c.description && c.description.length > 120 ? '...' : '');
+    var sev = (c.severity || 'HIGH');
+    var sevColor = sev === 'CRITICAL' ? 'var(--crit)' : 'var(--high)';
+    var ransomware = c.ransomware === 'Known' ? '<span style="font-size:10px;color:var(--crit);margin-left:4px;">⚠ Ransomware</span>' : '';
+    var desc = (c.description || '').substring(0, 130) + (c.description && c.description.length > 130 ? '...' : '');
     var link = c.link || ('https://nvd.nist.gov/vuln/detail/' + c.id);
-    return '<a href="' + link + '" target="_blank" rel="noopener" style="display:block;padding:10px 0;border-bottom:0.5px solid var(--border);text-decoration:none;">' +
-      '<div style="display:flex;align-items:center;gap:8px;margin-bottom:5px;">' +
-        '<span style="font-size:13px;font-family:monospace;color:var(--accent);">' + (c.id || '') + '</span>' +
-        (score ? '<span style="font-size:12px;font-weight:600;color:' + sevColor + ';">● ' + sev + ' ' + score + '</span>' : '') +
+    var dateAdded = c.published ? 'Added ' + c.published : '';
+    return '<a href="' + link + '" target="_blank" rel="noopener" style="display:block;padding:9px 0;border-bottom:0.5px solid var(--border);text-decoration:none;">' +
+      '<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap;">' +
+        '<span style="font-size:12px;font-family:monospace;color:var(--accent);">' + (c.id || '') + '</span>' +
+        '<span style="font-size:10px;font-weight:600;color:' + sevColor + ';">● ' + sev + '</span>' +
+        ransomware +
       '</div>' +
-      '<div style="font-size:14px;color:var(--muted);line-height:1.5;">' + desc + '</div>' +
-      (c.published ? '<div style="font-size:11px;color:var(--hint);margin-top:4px;">' + c.published + '</div>' : '') +
+      '<div style="font-size:13px;color:var(--muted);line-height:1.5;">' + desc + '</div>' +
+      (dateAdded ? '<div style="font-size:11px;color:var(--hint);margin-top:3px;">' + dateAdded + '</div>' : '') +
     '</a>';
   }).join('');
 }
