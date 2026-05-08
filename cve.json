@@ -1,9 +1,20 @@
 {
-  "last_updated": "08-05-2026 02:51 PM",
+  "last_updated": "08-05-2026 07:25 PM",
   "count": 2,
   "items": {
-    "last_updated": "08-05-2026 02:51 PM",
+    "last_updated": "08-05-2026 07:25 PM",
     "items": [
+      {
+        "id": "CVE-2026-42208",
+        "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the cre",
+        "score": null,
+        "severity": "HIGH",
+        "published": "2026-05-08",
+        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+        "vendor": "BerriAI",
+        "product": "LiteLLM",
+        "ransomware": "Unknown"
+      },
       {
         "id": "CVE-2026-6973",
         "description": "Ivanti Endpoint Manager Mobile (EPMM) \u2014 Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
@@ -99,17 +110,6 @@
         "severity": "HIGH",
         "published": "2026-04-24",
         "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
-        "vendor": "SimpleHelp ",
-        "product": "SimpleHelp",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2024-57726",
-        "description": "SimpleHelp  SimpleHelp \u2014 SimpleHelp contains a missing authorization vulnerability that could allow low-privileged technicians to create API keys with excessive permissions. These API keys can be used to escalate privileges t",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-24",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57726",
         "vendor": "SimpleHelp ",
         "product": "SimpleHelp",
         "ransomware": "Unknown"
