@@ -22,7 +22,7 @@
     <div class="site-meta hdr-updated" id="last-updated"></div>
   </div>
   <div class="hdr-right">
-    <a href="https://cybermap.kaspersky.com/en" target="_blank" rel="noopener" class="hdr-link">🌐 Threat Map</a>
+    <button onclick="var s=document.getElementById('threat-map-section');var l=document.querySelector('.layout');if(s.style.display==='none'){s.style.display='block';l.style.display='none';}else{s.style.display='none';l.style.display='grid';}" class="hdr-link hdr-btn">🌐 Threat Map</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-link">🛡 ACSC</a>
     <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark mode">☀</button>
   </div>
@@ -140,6 +140,22 @@
       </div>
     </div>
   </aside>
+</div>
+
+<!-- THREAT MAP MODAL/SECTION -->
+<div id="threat-map-section" class="threat-map-section" style="display:none;">
+  <div class="threat-map-header">
+    <span class="threat-map-title">🌐 Live Global Threat Map</span>
+    <span class="threat-map-note">Real-time attack visualisation · cyberattackmap.net</span>
+    <button onclick="document.getElementById('threat-map-section').style.display='none';document.querySelector('.layout').style.display='grid';" class="threat-map-close">✕ Close</button>
+  </div>
+  <iframe 
+    src="https://cyberattackmap.net/" 
+    class="threat-map-frame"
+    title="Live Cyber Attack Map"
+    frameborder="0"
+    allowfullscreen>
+  </iframe>
 </div>
 
 <!-- FOOTER -->

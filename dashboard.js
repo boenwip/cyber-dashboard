@@ -40,27 +40,7 @@ setTimeout(() => {
   document.getElementById('b-other').style.width = '68%';
 }, 400);
 
-const tickers = [
-  'HIGH ALERT: Ongoing targeting of online code repositories — ACSC',
-  'Ransomware most disruptive threat — 138 incidents in FY2024–25',
-  'Critical infrastructure attacks up 111% year on year',
-  'DoS/DDoS attacks rose 280% — over 200 incidents in FY2024–25',
-  '42,500+ calls to the Cyber Security Hotline in FY2024–25 — up 16%',
-  'Identity fraud remains #1 reported cybercrime for individuals',
-  'Avg business loss $80,850 — up 50% year on year',
-  '39% of ransomware victims didn\'t know they\'d been hit until ACSC told them',
-];
-let tickerIdx = 0;
-const tickerEl = document.getElementById('ticker-txt');
-tickerEl.textContent = tickers[0];
-setInterval(() => {
-  tickerEl.style.opacity = 0;
-  setTimeout(() => {
-    tickerIdx = (tickerIdx + 1) % tickers.length;
-    tickerEl.textContent = tickers[tickerIdx];
-    tickerEl.style.opacity = 1;
-  }, 400);
-}, 5000);
+// Ticker removed
 
 function updateStatStrip(data) {
   const items = data.items || [];
@@ -110,8 +90,15 @@ function parseArticleDate(dateStr) {
 
 
 
-updateTracker();
-setInterval(updateTracker, 6000);
+// Run tracker updates after DOM ready
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.getElementById('main-count')) {
+    updateTracker();
+    setInterval(updateTracker, 6000);
+  }
+  initBarChart();
+  loadData();
+});
 
 
 
@@ -410,5 +397,3 @@ function renderTools() {
   var el = document.getElementById('tools-container');
   if (el) el.innerHTML = html;
 }
-
-loadData();

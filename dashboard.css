@@ -570,3 +570,51 @@ body { background: var(--bg); }
   .mini-stats { grid-template-columns: 1fr 1fr; }
   .count-num { font-size: 36px; }
 }
+
+/* ── THREAT MAP ── */
+.threat-map-section {
+  width: 100%;
+  border-top: 0.5px solid var(--border);
+}
+.threat-map-header {
+  padding: 10px 32px;
+  background: var(--surface);
+  border-bottom: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.threat-map-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+}
+.threat-map-note {
+  font-size: 11px;
+  color: var(--hint);
+  font-style: italic;
+}
+.threat-map-close {
+  margin-left: auto;
+  font-family: inherit;
+  font-size: 12px;
+  padding: 5px 12px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--hint);
+  cursor: pointer;
+  transition: color 0.15s, border-color 0.15s;
+}
+.threat-map-close:hover { color: var(--crit); border-color: var(--crit); }
+.threat-map-frame {
+  width: 100%;
+  height: 600px;
+  display: block;
+  border: none;
+}
+.hdr-btn {
+  font-family: inherit;
+  cursor: pointer;
+  background: transparent;
+}
