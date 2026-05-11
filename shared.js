@@ -1,5 +1,5 @@
 /**
- * shared.js — PseudoSec
+ * shared.js — pseudosec.
  * Theme, nav active state, date utilities, word of the day
  * Load before page-specific scripts.
  */
@@ -82,9 +82,9 @@ function readingTime(text) {
 function getWordOfTheDay(terms) {
   if (!terms || !terms.length) return null;
   try {
-    var aest = new Date(new Date().toLocaleString('en-US', { timeZone: 'Australia/Sydney' }));
-    // Day number since epoch
-    var dayNum = Math.floor(aest.getTime() / 86400000);
+    // Use UTC+10 offset for AEST — simple, reliable, no locale dependency
+    var nowUtc = Date.now() + (10 * 60 * 60 * 1000);
+    var dayNum = Math.floor(nowUtc / 86400000);
     return terms[dayNum % terms.length];
   } catch(e) {
     return terms[0];
@@ -92,14 +92,13 @@ function getWordOfTheDay(terms) {
 }
 
 function renderWotd(terms) {
-  var strip = document.getElementById('wotd-strip');
-  if (!strip || !terms || !terms.length) return;
+  if (!terms || !terms.length) return;
   var term = getWordOfTheDay(terms);
   if (!term) return;
-  var termEl = strip.querySelector('.wotd-term');
-  var defEl = strip.querySelector('.wotd-def');
-  if (termEl) termEl.textContent = term.term;
-  if (defEl) defEl.textContent = term.short;
+  var termEl = document.getElementById('wotd-term');
+  var defEl  = document.getElementById('wotd-def');
+  if (termEl) termEl.textContent = term.term || '';
+  if (defEl)  defEl.textContent  = term.short || '';
 }
 
 // ── INIT ────────────────────────────────────────────────────

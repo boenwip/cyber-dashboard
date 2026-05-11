@@ -1,5 +1,5 @@
 /**
- * ai-guide.js — PseudoSec AI Guide
+ * ai-guide.js — pseudosec. AI Guide
  * Prompt library rendering and filtering
  */
 

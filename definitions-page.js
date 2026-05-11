@@ -1,5 +1,5 @@
 /**
- * definitions-page.js — PseudoSec
+ * definitions-page.js — pseudosec.
  * Glossary page: search, filter, A-Z index, term cards
  */
 

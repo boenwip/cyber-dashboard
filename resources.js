@@ -1,5 +1,5 @@
 /**
- * resources.js — PseudoSec
+ * resources.js — pseudosec.
  * Breach checker (HaveIBeenPwned v3 API)
  */
 
@@ -34,7 +34,7 @@ function checkBreach() {
   fetch(url, {
     headers: {
       'hibp-api-key': '',
-      'User-Agent': 'PseudoSec-Dashboard'
+      'User-Agent': 'pseudosec-dashboard'
     }
   })
   .then(function(r) {

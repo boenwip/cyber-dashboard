@@ -1,5 +1,5 @@
 /**
- * definitions.js — PseudoSec
+ * definitions.js — pseudosec.
  * 50 cyber security terms for the glossary and word of the day
  */
 

@@ -1,5 +1,5 @@
 /**
- * dashboard.js — PseudoSec Dashboard
+ * dashboard.js — pseudosec. Dashboard
  * Requires: shared.js, definitions.js loaded first
  */
 
