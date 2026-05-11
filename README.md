@@ -1,124 +1,116 @@
-# Cyber & Sector Awareness Dashboard
+# pseudosec.
 
-A live cyber security and sector intelligence dashboard built for Australian RTO/VET professionals. Aggregates news from Australian government, cyber security and sector sources — filtered, tagged, and updated automatically.
+> Australian cyber security intelligence. Live, automated, no noise.
 
-**Live dashboard:** https://boenwip.github.io/cyber-dashboard/dashboard.html
-
----
-
-## What it does
-
-**Stat strip** — live counts pulled from loaded data on every page load: ACSC updates this week, new articles in the last 12 hours, total tracked, scam notices, and the ACSC average SMB loss figure ($80,850 per incident).
-
-**News feed** — capped at 20 most recent articles with internal scroll. Credible sources only — tabloid and clickbait domains are blocked automatically.
-
-**Threat tracker** — four tabs:
-- FY 2025–26 live projection (counting from 1 July 2025, based on ACSC rate of 84,700 reports/year)
-- FY 2024–25 official ACSC Annual Report statistics with crime type distribution chart
-- Live threat map links (Kaspersky, Check Point, Fortinet — tabbed, open in new tab)
-- Cyber Awareness — six tip cards covering scams, phishing, passwords, safe browsing, AI safety, reporting
-
-**Quick views** — Everything, For Me, Industry, Critical Now, ⚠ Scam Watch, ✦ Good News
-
-**Filter system** — topic, audience, relevance and threat level pills
-
-**Tool updates sidebar** — Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva
-
-**Two themes** — light default (warm parchment) and dark (deep navy-black)
+**Live site:** https://boenwip.github.io/cyber-dashboard/
 
 ---
 
-## Tagging system
+## What it is
 
-| Dimension | Values |
-|---|---|
-| Topic | AU Cyber, RTO / VET, Education, EdTech, AI & Tools, Scams, Compliance, Good News |
-| Threat level | Critical, High, Medium, Advisory |
-| Audience | Small Business, Enterprise, Consumer, Critical Infrastructure |
-| Relevance | Direct, Sector, AU General, Global |
+A personal project that became something more useful than intended.
+
+PseudoSec is a live cyber security intelligence dashboard built for Australians — whether you work in security, IT, education, small business, or you're just someone who wants to know what's actually happening in the threat landscape without wading through tabloid tech journalism.
+
+It pulls from 20+ curated Australian and international sources, filters out the noise, tags everything by topic and threat level, and updates automatically throughout the day. No ads, no accounts, no tracking.
 
 ---
 
-## News sources
+## Pages
 
-### Zone 1 — News feeds
-
-| Source | Focus |
+| Page | What's on it |
 |---|---|
-| ACSC Updates | Australian government cyber advisories |
-| ACSC Advisories | Australian government advisories |
-| Google News — ScamWatch | Official scam alerts |
-| Australian Cyber Security Magazine | AU cyber industry |
-| Security Brief Australia | AU enterprise security |
-| iTnews | AU enterprise IT |
-| ABC News Business | National business and tech |
-| SBS News | National news |
-| The Guardian Australia | Independent Australian news |
-| Google News — AU Cyber | Cyber attack and data breach |
-| Google News — AU Scams | Australian scam and fraud |
-| Google News — ASQA / RTO | VET sector and compliance |
-| Google News — VET Workforce | Skills and training workforce |
-| Google News — VET Funding & Policy | Funding and policy |
-| Google News — AI & EdTech | AI in education |
-| Google News — AI Workforce | AI impact on workforce |
-| Google News — Privacy & Compliance | Privacy Act and regulatory |
-| Google News — AU Cyber Wins | Positive cyber outcomes |
-| Google News — AI Progress | Positive AI developments |
+| **Dashboard** | Live threat tracker, CVE panel, AI briefing, scam alert, news feed, tool updates |
+| **Definitions** | 51 cyber security terms explained in plain English — beginner to intermediate |
+| **Resources** | Breach checker, report links, learning resources, security tools |
+| **AI Guide** | Prompt library for everyday work tasks, AI safety rules, per-tool safety ratings |
 
-### Zone 2 — Tool feeds
+---
 
-| Source | Tool |
-|---|---|
-| Google Workspace Updates | Google |
-| Chrome Releases | Google |
-| Asana Product Blog | Asana |
-| Zoom Blog | Zoom |
-| Google News — ChatGPT Updates | AI Tools |
-| Google News — Canva Updates | Canva |
+## Features
 
-### Source blocklist
+**Live tracker** — Counts estimated FY2025–26 cybercrime reports in real time, projected from the ACSC annual rate of 84,700 reports/year. Alongside: avg business loss ($80,850), avg individual loss ($36,633), significant incidents, hotline calls. All sourced from the ACSC Annual Cyber Threat Report 2024–25.
 
-Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait domains are automatically excluded — 7news, 9news, news.com.au, heraldsun, dailytelegraph, couriermail, skynews, theaustralian, foxnews, dailymail, vocal.media, buzzfeed, ladbible, loyaltylobby, and others.
+**CVE panel** — 10 most recently added entries from the CISA Known Exploited Vulnerabilities catalog. Actively exploited CVEs only. Flags ransomware-linked CVEs.
+
+**AI daily briefing** — Plain English summary of the day's top Australian cyber stories, generated via the Anthropic API and saved as static JSON. Runs server-side via GitHub Actions — no API key exposed to the browser. Deduplicates clustered stories before summarising.
+
+**Scam of the week** — Surfaces the most recent ScamWatch article automatically.
+
+**Word of the day** — Deterministic daily rotation through 51 cyber security definitions. Same term for everyone on the same AEST day.
+
+**News feed** — Up to 30 articles from the last 7 days, sorted by date. Click any tag on an article to filter. Clear with one button.
+
+**Tool updates sidebar** — Changelog-style feed for Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva, Claude, and Microsoft 365.
+
+**Breach checker** — Email breach lookup via HaveIBeenPwned. Read-only, not stored, not logged.
+
+**Two themes** — Dark (yellow on near-black) and light (navy `#0D3B66` on warm parchment). Persisted via localStorage.
+
+---
+
+## Sources
+
+### News (Zone 1)
+
+Australian-focused. Global sources are AU-filtered via Google News.
+
+- ACSC Updates & Advisories
+- ScamWatch (ACCC)
+- Australian Cyber Security Magazine
+- Security Brief Australia
+- iTnews · ABC Technology · CyberDaily AU
+- Troy Hunt Blog · Risky Business
+- Dark Reading · 404 Media (AU-filtered)
+- Google News — AU Cyber, Scams, ASQA/RTO, VET, AI & EdTech, Privacy, Funding
+
+### Tool Updates (Zone 2)
+
+Google Workspace · Chrome · Asana · Zoom · ChatGPT · Canva · Claude · Microsoft 365
+
+### CVE
+
+CISA Known Exploited Vulnerabilities catalog · cisagov/kev-data (fallback)
+
+### Blocklist
+
+Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait farms excluded automatically.
+
+---
+
+## Architecture
+
+```
+pseudosec/
+├── index.html              # Dashboard
+├── definitions.html        # Glossary
+├── resources.html          # Breach checker + links
+├── ai-guide.html           # Prompt library + AI safety
+├── shared.css              # Design system
+├── shared.js               # Theme, nav, date utils, word of the day
+├── dashboard.css/js        # Dashboard
+├── definitions.css/js      # Glossary
+├── definitions-page.js     # Search, filter, render
+├── resources.css/js        # Breach checker
+├── ai-guide.css/js         # Prompt library
+├── fetch_cyber_news.py     # Python pipeline
+├── briefing.json           # AI briefing (auto-generated)
+├── news.json               # Feed output (auto)
+├── tool_updates.json       # Tool feed output (auto)
+├── cve.json                # CVE output (auto)
+└── .github/workflows/
+    └── fetch_news.yml      # GitHub Actions schedule
+```
 
 ---
 
 ## Automation
 
-**Schedule:**
-- Weekdays 8am–7pm AEST — every 30 minutes
-- Nightly 11pm AEST — overnight refresh
-- Weekends — every 6 hours
+GitHub Actions runs `fetch_cyber_news.py` on a schedule and commits updated JSON back to the repo. GitHub Pages serves everything statically.
 
-GitHub Actions runs `fetch_cyber_news.py` and commits updated JSON back to the repo automatically.
+**Schedule:** weekdays every 30 minutes (8am–7pm AEST) · nightly refresh · weekends every 8 hours.
 
----
-
-## Colour palette
-
-| | Light (default) | Dark |
-|---|---|---|
-| Background | #F5F2EC | #13141A |
-| Surface | #FDFAF5 | #1C1E26 |
-| Accent | #3D6B9E slate blue | #7E9DC4 |
-| RTO / VET | #6B4A9E purple | #9B78C8 |
-| Critical | #A8443E | #C8706A |
-| Teal / scam | #3A7A6E | #6BA898 |
-| Amber / high | #8C6E2A | #C4A35A |
-
----
-
-## Project structure
-
-```
-cyber-dashboard/
-├── dashboard.html              # Frontend
-├── fetch_cyber_news.py         # Python pipeline
-├── news.json                   # Auto-generated
-├── tool_updates.json           # Auto-generated
-├── .github/workflows/
-│   └── fetch_news.yml          # Actions schedule
-└── README.md
-```
+The AI briefing requires `ANTHROPIC_API_KEY` as a GitHub Actions secret. Without it, the step is skipped gracefully.
 
 ---
 
@@ -126,30 +118,37 @@ cyber-dashboard/
 
 ```bash
 pip install feedparser
-python fetch_cyber_news.py
-python -m http.server 8000
-# Open http://localhost:8000/dashboard.html
+python3 fetch_cyber_news.py
+python3 -m http.server 8000
+# Open http://localhost:8000/index.html
+```
+
+With briefing:
+
+```bash
+export ANTHROPIC_API_KEY=your_key_here
+python3 fetch_cyber_news.py
 ```
 
 ---
 
-## Planned
+## Design
 
-- Permanent Actions fix — git pull before commit to prevent JSON conflicts
-- Left sidebar navigation
-- CVE feed panel (NIST NVD, High/Critical only)
-- Resources — Learn & Awareness page
-- Resources — IT Tools page (Shodan, OSINT, cheat sheets)
-- AI Guide page (prompt library, safety tips, model updates)
-- Background mesh — Canva asset (bg-dark.png, bg-light.png)
-- ASQA dedicated page
+| | Dark | Light |
+|---|---|---|
+| Background | `#0d0f14` | `#f4f1eb` |
+| Accent | `#f5c842` yellow | `#0D3B66` navy |
+| Critical | `#e07878` | `#b83a3a` |
+| High | `#d4a84a` | `#8a6020` |
+
+Fonts: IBM Plex Sans · IBM Plex Mono · Fraunces. WCAG AA contrast throughout.
 
 ---
 
 ## Tech
 
-Python · feedparser · vanilla HTML/CSS/JS · IBM Plex Sans + Fraunces · GitHub Pages · GitHub Actions
+Python · feedparser · Anthropic API · vanilla HTML/CSS/JS · GitHub Pages · GitHub Actions
 
 ---
 
-*Built alongside a Python university course. Started as a personal cyber news aggregator — evolving into a staff resource for Skills Generation, an Australian RTO delivering traineeships, VET in Schools, and regional training programs.*
+*Started as a personal news aggregator. Got out of hand.*
