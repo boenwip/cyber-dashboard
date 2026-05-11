@@ -97,7 +97,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 56px;
+  height: 62px;
   gap: 24px;
   position: sticky;
   top: 0;
@@ -105,7 +105,7 @@ body {
 }
 .hdr-left { display: flex; align-items: center; gap: 24px; }
 .site-logo { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
-.site-logo img { height: 30px; width: auto; display: block; }
+.site-logo img { height: 44px; width: auto; display: block; }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link {
   font-size: 13px;
@@ -296,7 +296,7 @@ body {
 }
 @media (max-width: 768px) {
   .site-nav { display: none; }
-  .site-logo img { height: 24px; }
+  .site-logo img { height: 34px; }
   .site-footer { flex-direction: column; gap: 4px; text-align: center; }
   .wotd-more { margin-left: 0; }
 }
