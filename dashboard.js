@@ -263,7 +263,11 @@ function renderScamOfWeek(articles) {
   var scams = articles
     .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link; })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
-  if (!scams.length) return;
+  if (!scams.length) {
+    var el = document.getElementById('scam-callout');
+    if (el) el.style.display = 'none';
+    return;
+  }
   var s = scams[0];
   var titleEl = document.getElementById('scam-title');
   var metaEl  = document.getElementById('scam-meta');
@@ -289,18 +293,22 @@ function loadBriefing() {
         textEl.textContent = data.briefing;
         if (dateEl && data.date) dateEl.textContent = data.date;
       } else {
-        textEl.innerHTML = '<span class="briefing-loading">Briefing not yet available.</span>';
+        var panel = document.getElementById('briefing-panel');
+        if (panel) panel.style.display = 'none';
       }
     })
     .catch(function() {
-      textEl.innerHTML = '<span class="briefing-loading">Today\'s briefing is being prepared...</span>';
+      var panel = document.getElementById('briefing-panel');
+      if (panel) panel.style.display = 'none';
     });
 }
 
 // ── WORD OF THE DAY ────────────────────────────────────────
 function initWotd() {
-  if (typeof DEFINITIONS === 'undefined') return;
+  if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
   renderWotd(DEFINITIONS);
+  var strip = document.getElementById('wotd-strip');
+  if (strip) strip.style.opacity = '1';
 }
 
 // ── DATA LOAD ──────────────────────────────────────────────
