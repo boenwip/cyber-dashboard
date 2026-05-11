@@ -27,9 +27,6 @@ function fmt(n) { return Math.floor(n).toLocaleString('en-AU'); }
 function updateTracker() {
   const e = getElapsed();
   document.getElementById('main-count').textContent = fmt(e * 84700 / SECS_YEAR);
-  document.getElementById('incidents-count').textContent = fmt(e * 1200 / SECS_YEAR);
-  const d = e * 334000000 / SECS_YEAR;
-  document.getElementById('domains-count').textContent = d > 1e6 ? (d/1e6).toFixed(1)+'M' : fmt(d);
 }
 
 setTimeout(() => {

@@ -125,20 +125,16 @@ NEWS_FEEDS = [
     },
 
     {
-        "name": "The Guardian — Cybersecurity",
-        "url": "https://www.theguardian.com/technology/data-computer-security/rss"
-    },
-    {
-        "name": "Krebs on Security",
-        "url": "https://krebsonsecurity.com/feed/"
-    },
-    {
-        "name": "Schneier on Security",
-        "url": "https://www.schneier.com/feed/atom"
+        "name": "Google News — Guardian AU Cyber",
+        "url": "https://news.google.com/rss/search?q=site:theguardian.com+australia+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Troy Hunt Blog",
         "url": "https://www.troyhunt.com/rss/"
+    },
+    {
+        "name": "Google News — Krebs Security",
+        "url": "https://news.google.com/rss/search?q=site:krebsonsecurity.com+australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
     # ── Google News: Cyber & Scams ──
     {
@@ -219,7 +215,7 @@ NEWS_FEEDS = [
     },
     {
         "name": "Google News — Dark Reading",
-        "url": "https://news.google.com/rss/search?q=site:darkreading.com+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=site:darkreading.com+australia+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — Risky Business",
@@ -227,7 +223,7 @@ NEWS_FEEDS = [
     },
     {
         "name": "Google News — 404 Media",
-        "url": "https://news.google.com/rss/search?q=site:404media.co+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=site:404media.co+australia+cyber&hl=en-AU&gl=AU&ceid=AU:en"
     },
 ]
 
