@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PseudoSec — Live Australian cyber security intelligence. Threat advisories, CVE bulletins, scam alerts and sector news, updated every 30 minutes.">
+<meta property="og:title" content="PseudoSec — Australian Cyber Intelligence">
+<meta property="og:description" content="Live Australian cyber security intelligence — threat advisories, CVE bulletins, scam alerts and sector news.">
+<meta property="og:image" content="pseudosec.png">
+<title>PseudoSec — Australian Cyber Intelligence</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="hdr-left">
+    <a href="index.html" class="site-logo" aria-label="PseudoSec home">
+      <img src="pseudosec.png" alt="PseudoSec" height="30">
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html"       class="nav-link">Dashboard</a>
+      <a href="definitions.html" class="nav-link">Definitions</a>
+      <a href="resources.html"   class="nav-link">Resources</a>
+      <a href="ai-guide.html"    class="nav-link">AI Guide</a>
+    </nav>
+  </div>
+  <div class="hdr-right">
+    <button class="hdr-btn" id="threat-map-btn" onclick="toggleThreatMap()">🌐 Threat Map</button>
+    <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn">🛡 ACSC</a>
+    <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
+  </div>
+</header>
+
+<!-- WORD OF THE DAY -->
+<div class="wotd-strip" id="wotd-strip" aria-label="Word of the day">
+  <span class="wotd-label">Word of the day</span>
+  <span class="wotd-term" id="wotd-term">—</span>
+  <span class="wotd-sep">—</span>
+  <span class="wotd-def" id="wotd-def">Loading...</span>
+  <a href="definitions.html" class="wotd-more">Full glossary ↗</a>
+</div>
+
+<!-- AI BRIEFING -->
+<div class="briefing-panel" id="briefing-panel">
+  <div class="briefing-hdr">
+    <span class="briefing-label">AI Briefing</span>
+    <span class="briefing-date" id="briefing-date"></span>
+  </div>
+  <div class="briefing-text" id="briefing-text">
+    <span class="briefing-loading">Loading today's briefing...</span>
+  </div>
+</div>
+
+<!-- SCAM OF THE WEEK -->
+<div class="scam-callout" id="scam-callout" style="display:none;" aria-label="Scam alert">
+  <span class="scam-badge">⚠ Scam Alert</span>
+  <div class="scam-content">
+    <div class="scam-title" id="scam-title">—</div>
+    <div class="scam-meta" id="scam-meta"></div>
+  </div>
+  <a class="scam-link" id="scam-link" href="#" target="_blank" rel="noopener">Read more ↗</a>
+</div>
+
+<!-- TRACKER -->
+<section class="tracker" aria-label="Live cyber threat tracker">
+  <div class="tracker-header">
+    <div class="tracker-title"><span class="live-dot" aria-hidden="true"></span>FY 2025–26 Live Tracker</div>
+    <div class="tracker-src">Source: ACSC Annual Cyber Threat Report 2024–25</div>
+  </div>
+  <div class="tracker-body">
+    <div class="tracker-col tracker-col--counter">
+      <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
+      <div class="count-num" id="main-count" aria-live="polite">—</div>
+      <div class="count-sub">One report every <strong>6 minutes</strong> · Counting from 1 July 2025</div>
+      <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
+    </div>
+    <div class="tracker-col tracker-col--stats">
+      <div class="mini-stats">
+        <div class="ms"><div class="ms-n">1,200+</div><div class="ms-l">Significant incidents FY24–25</div></div>
+        <div class="ms"><div class="ms-n ms-n--high">0,850</div><div class="ms-l">Avg cost per business incident</div></div>
+        <div class="ms"><div class="ms-n ms-n--med">6,633</div><div class="ms-l">Avg individual loss per incident</div></div>
+        <div class="ms"><div class="ms-n">42,500+</div><div class="ms-l">Calls to Cyber Security Hotline FY24–25</div></div>
+      </div>
+    </div>
+    <div class="tracker-col tracker-col--cve">
+      <div class="cve-header">
+        <span class="cve-title">Actively Exploited CVEs</span>
+        <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener" class="cve-link">CISA KEV ↗</a>
+      </div>
+      <div id="cve-feed" class="cve-feed" role="list">
+        <div class="cve-loading">Loading CVEs...</div>
+      </div>
+    </div>
+  </div>
+  <div class="report-summary" role="complementary" aria-label="FY2024-25 report summary">
+    <div class="rs-item"><span class="rs-n">84,700</span><span class="rs-l">Cybercrime reports FY24–25</span></div>
+    <div class="rs-item"><span class="rs-n">0,850</span><span class="rs-l">↑ 50% avg business loss</span></div>
+    <div class="rs-item"><span class="rs-n">334M</span><span class="rs-l">↑ 307% malicious domains blocked</span></div>
+    <div class="rs-item"><span class="rs-n">1,200+</span><span class="rs-l">↑ 11% significant incidents</span></div>
+    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="rs-link">Full report ↗</a>
+  </div>
+</section>
+
+<!-- CRIME CHART -->
+<div class="crime-chart" role="img" aria-label="Crime type distribution FY2024-25">
+  <div class="crime-chart-label">Crime type distribution — FY 2024–25</div>
+  <div class="bar-wrap">
+    <div class="bar-seg" id="b-ransom" style="background:#e07878;width:0%" aria-label="Ransomware 11%"></div>
+    <div class="bar-seg" id="b-id"     style="background:#c090f0;width:0%" aria-label="Identity fraud 8%"></div>
+    <div class="bar-seg" id="b-shop"   style="background:#7fa8d4;width:0%" aria-label="Online shopping 7%"></div>
+    <div class="bar-seg" id="b-bank"   style="background:#5aad96;width:0%" aria-label="Banking fraud 6%"></div>
+    <div class="bar-seg" id="b-other"  style="background:var(--border2);width:0%" aria-label="Other 68%"></div>
+  </div>
+  <div class="legend">
+    <span class="legend-item"><span class="legend-dot" style="background:#e07878;"></span>Ransomware 11%</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#c090f0;"></span>Identity fraud 8%</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#7fa8d4;"></span>Online shopping 7%</span>
+    <span class="legend-item"><span class="legend-dot" style="background:#5aad96;"></span>Banking fraud 6%</span>
+    <span class="legend-item"><span class="legend-dot" style="background:var(--border2);"></span>Other 68%</span>
+  </div>
+  <div class="crime-chart-note">
+    <strong>Other (68%)</strong> includes business email compromise, hacking, malware and extortion — grouped together in ACSC reporting.
+    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="chart-link">Full breakdown ↗</a>
+  </div>
+</div>
+
+<!-- TAG FILTERS: click tags on articles to filter — toggleTagFilter() in dashboard.js -->
+<!-- ACTIVE FILTER BAR (hidden by default, shown when filters active) -->
+<div class="active-filter-bar" id="active-filter-bar" style="display:none;" role="status" aria-live="polite">
+  <span class="active-filter-label">Filtered by</span>
+  <div class="active-filter-tags" id="active-filter-tags"></div>
+  <button class="clear-filters-btn" onclick="clearAllFilters()">Clear all ✕</button>
+</div>
+
+<!-- MAIN LAYOUT -->
+<div class="layout">
+  <main class="feed" role="main">
+    <div id="articles-container" role="feed" aria-label="News articles">
+      <div class="loading-msg">Loading articles...</div>
+    </div>
+  </main>
+  <aside class="sidebar" role="complementary" aria-label="Tool updates">
+    <div class="sb-hdr">Tool Updates</div>
+    <div class="tools-scroll">
+      <div id="tools-container">
+        <div class="sb-empty">Loading...</div>
+      </div>
+    </div>
+  </aside>
+</div>
+
+<!-- THREAT MAP (toggled) -->
+<div id="threat-map-section" class="threat-map-section" hidden>
+  <div class="threat-map-header">
+    <span class="threat-map-title">🌐 Live Global Threat Map</span>
+    <span class="threat-map-note">cyberattackmap.net · opens in new tab if blocked by browser</span>
+    <button onclick="toggleThreatMap()" class="threat-map-close" aria-label="Close threat map">✕ Close</button>
+  </div>
+  <iframe
+    src="https://cyberattackmap.net/"
+    class="threat-map-frame"
+    title="Live Cyber Attack Map"
+    loading="lazy"
+    sandbox="allow-scripts allow-same-origin allow-popups"
+    referrerpolicy="no-referrer">
+  </iframe>
+</div>
+
+<footer class="site-footer">
+  <span>pseudosec. · Australian Cyber Intelligence · <a href="https://github.com/boenwip/cyber-dashboard" target="_blank" rel="noopener">GitHub</a></span>
+  <span id="footer-updated"></span>
+</footer>
+
+<script src="shared.js"></script>
+<script src="definitions.js"></script>
+<script src="dashboard.js"></script>
+</body>
+</html>

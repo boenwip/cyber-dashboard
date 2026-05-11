@@ -1,172 +1,26 @@
-/* ============================================================
-   CYBER & SECTOR AWARENESS — dashboard.css
-   Authored: 2026 · github.com/boenwip/cyber-dashboard
-   ============================================================ */
+/**
+ * dashboard.css — PseudoSec
+ * Dashboard-specific styles. Requires shared.css.
+ */
 
-/* ── FONTS ── */
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500&family=Fraunces:ital,wght@0,200;0,300;1,300&display=swap');
-
-/* ── RESET ── */
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-html { scroll-behavior: smooth; }
-
-/* ── THEME: DARK (default) ── */
-:root[data-theme="dark"] {
-  --bg:          #13141a;
-  --surface:     #1C1E26;
-  --surface2:    #252830;
-  --border:      rgba(255,255,255,0.07);
-  --border2:     rgba(255,255,255,0.13);
-  --text:        #edeae4;
-  --muted:       #b8b4ac;
-  --hint:        #6a6660;
-  --accent:      #7E9DC4;
-  --accent-dim:  rgba(126,157,196,0.12);
-  --accent-b:    rgba(126,157,196,0.3);
-  --crit:        #C8706A;
-  --high:        #C4A35A;
-  --med:         #6BA898;
-  --adv:         #7E9DC4;
-  --live-dot-c:  #6BA898;
-  --tracker-bg:  #1C1E26;
-
-  /* Tags */
-  --tag-cyber-bg: rgba(126,157,196,0.13); --tag-cyber-text: #9ab8d8; --tag-cyber-b: rgba(126,157,196,0.28);
-  --tag-rto-bg:   rgba(155,120,200,0.13); --tag-rto-text:   #b890e0; --tag-rto-b:   rgba(155,120,200,0.28);
-  --tag-edu-bg:   rgba(107,168,152,0.13); --tag-edu-text:   #80c0b0; --tag-edu-b:   rgba(107,168,152,0.28);
-  --tag-edtech-bg:rgba(155,120,200,0.13); --tag-edtech-text:#b890e0; --tag-edtech-b:rgba(155,120,200,0.28);
-  --tag-ai-bg:    rgba(107,168,152,0.13); --tag-ai-text:    #80c0b0; --tag-ai-b:    rgba(107,168,152,0.28);
-  --tag-scam-bg:  rgba(200,112,106,0.13); --tag-scam-text:  #d88880; --tag-scam-b:  rgba(200,112,106,0.28);
-  --tag-comp-bg:  rgba(196,163,90,0.13);  --tag-comp-text:  #d4b870; --tag-comp-b:  rgba(196,163,90,0.28);
-  --tag-good-bg:  rgba(107,168,152,0.13); --tag-good-text:  #6BA898; --tag-good-b:  rgba(107,168,152,0.28);
-
-  --tag-rel-direct-bg: rgba(107,168,152,0.13); --tag-rel-direct-text: #80c0b0; --tag-rel-direct-b: rgba(107,168,152,0.28);
-  --tag-rel-sector-bg: rgba(126,157,196,0.10); --tag-rel-sector-text: #9ab8d8; --tag-rel-sector-b: rgba(126,157,196,0.25);
-  --tag-rel-au-bg:     rgba(196,163,90,0.13);  --tag-rel-au-text:     #d4b870; --tag-rel-au-b:     rgba(196,163,90,0.28);
-  --tag-rel-global-bg: rgba(140,136,128,0.10); --tag-rel-global-text: #a8a49c; --tag-rel-global-b: rgba(140,136,128,0.22);
-}
-
-/* ── THEME: LIGHT ── */
-:root[data-theme="light"] {
-  --bg:          #F5F2EC;
-  --surface:     #FDFAF5;
-  --surface2:    #EDE9E0;
-  --border:      rgba(0,0,0,0.07);
-  --border2:     rgba(0,0,0,0.12);
-  --text:        #1C1C1E;
-  --muted:       #44403A;
-  --hint:        #7A7670;
-  --accent:      #3D6B9E;
-  --accent-dim:  rgba(61,107,158,0.08);
-  --accent-b:    rgba(61,107,158,0.22);
-  --crit:        #A8443E;
-  --high:        #8C6E2A;
-  --med:         #3A7A6E;
-  --adv:         #3D6B9E;
-  --live-dot-c:  #3A7A6E;
-  --tracker-bg:  #FDFAF5;
-
-  --tag-cyber-bg: rgba(61,107,158,0.08);  --tag-cyber-text: #2A5280; --tag-cyber-b: rgba(61,107,158,0.2);
-  --tag-rto-bg:   rgba(107,74,158,0.08);  --tag-rto-text:   #4A2888; --tag-rto-b:   rgba(107,74,158,0.2);
-  --tag-edu-bg:   rgba(58,122,110,0.08);  --tag-edu-text:   #1E6858; --tag-edu-b:   rgba(58,122,110,0.2);
-  --tag-edtech-bg:rgba(107,74,158,0.08);  --tag-edtech-text:#4A2888; --tag-edtech-b:rgba(107,74,158,0.2);
-  --tag-ai-bg:    rgba(58,122,110,0.08);  --tag-ai-text:    #1E6858; --tag-ai-b:    rgba(58,122,110,0.2);
-  --tag-scam-bg:  rgba(168,68,62,0.08);   --tag-scam-text:  #7A2020; --tag-scam-b:  rgba(168,68,62,0.2);
-  --tag-comp-bg:  rgba(140,110,42,0.08);  --tag-comp-text:  #5C4010; --tag-comp-b:  rgba(140,110,42,0.2);
-  --tag-good-bg:  rgba(58,122,110,0.08);  --tag-good-text:  #1E6858; --tag-good-b:  rgba(58,122,110,0.2);
-
-  --tag-rel-direct-bg: rgba(58,122,110,0.08);  --tag-rel-direct-text: #1E6858; --tag-rel-direct-b: rgba(58,122,110,0.2);
-  --tag-rel-sector-bg: rgba(61,107,158,0.07);  --tag-rel-sector-text: #2A5280; --tag-rel-sector-b: rgba(61,107,158,0.18);
-  --tag-rel-au-bg:     rgba(140,110,42,0.07);  --tag-rel-au-text:     #5C4010; --tag-rel-au-b:     rgba(140,110,42,0.18);
-  --tag-rel-global-bg: rgba(100,96,88,0.06);   --tag-rel-global-text: #48443C; --tag-rel-global-b: rgba(100,96,88,0.16);
-}
-
-/* ── TRANSITIONS ── */
-*, *::before, *::after {
-  transition: background-color 0.2s ease, border-color 0.15s ease, color 0.15s ease;
-}
-
-/* ── BASE ── */
-body {
-  background: var(--bg);
-  color: var(--text);
-  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
-  font-size: 15px;
-  line-height: 1.6;
-  min-height: 100vh;
-}
-
-/* Max-width container */
-.site-header, .tracker, .crime-chart, .filter-bar, .layout, .site-footer {
-  max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+/* ── LAYOUT CONTAINERS ── */
+.tracker,
+.crime-chart,
+.active-filter-bar,
+.layout,
+.threat-map-section {
+  max-width: 1480px;
+  margin: 0 auto;
   width: 100%;
 }
-body { background: var(--bg); }
-
-/* ── HEADER ── */
-.site-header {
-  padding: 14px 32px;
-  border-bottom: 0.5px solid var(--border);
-  background: var(--surface);
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-}
-.hdr-left { display: flex; align-items: baseline; gap: 12px; }
-.site-title {
-  font-family: 'Fraunces', Georgia, serif;
-  font-size: 20px;
-  font-weight: 300;
-  letter-spacing: -0.02em;
-  line-height: 1;
-  color: var(--text);
-}
-.site-title em { font-style: italic; color: var(--accent); }
-.site-meta {
-  font-size: 11px;
-  color: var(--hint);
-  letter-spacing: 0.02em;
-}
-.hdr-updated { opacity: 0; transition: opacity 0.5s ease; }
-.hdr-updated.visible { opacity: 1; }
-.hdr-right { display: flex; align-items: center; gap: 10px; }
-.hdr-link {
-  font-size: 12px;
-  color: var(--hint);
-  text-decoration: none;
-  padding: 5px 12px;
-  border: 0.5px solid var(--border2);
-  border-radius: 20px;
-  transition: color 0.15s, border-color 0.15s;
-  white-space: nowrap;
-}
-.hdr-link:hover { color: var(--accent); border-color: var(--accent-b); }
-.theme-btn {
-  width: 36px; height: 36px; min-width: 36px;
-  border-radius: 50%;
-  border: 1.5px solid var(--border2);
-  background: var(--surface2);
-  color: #f5c842;
-  cursor: pointer;
-  font-size: 16px;
-  padding: 0;
-  display: grid;
-  place-items: center;
-  flex-shrink: 0;
-  transition: border-color 0.15s, background 0.15s;
-}
-.theme-btn:hover { border-color: #f5c842; background: rgba(245,200,66,0.08); }
 
 /* ── TRACKER ── */
 .tracker {
-  background: var(--tracker-bg);
+  background: var(--surface);
   border-bottom: 0.5px solid var(--border);
 }
 .tracker-header {
-  padding: 10px 32px;
+  padding: 9px 40px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -174,31 +28,32 @@ body { background: var(--bg); }
 }
 .tracker-title {
   font-size: 11px;
-  font-weight: 400;
-  color: var(--hint);
-  letter-spacing: 0.09em;
+  font-weight: 600;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
+  color: var(--text-3);
   display: flex;
   align-items: center;
   gap: 8px;
 }
-.tracker-src { font-size: 11px; color: var(--hint); opacity: 0.6; }
+.tracker-src { font-size: 11px; color: var(--text-4); }
+
 .live-dot {
   width: 6px; height: 6px;
   border-radius: 50%;
-  background: var(--live-dot-c);
-  animation: pulse 2s ease-in-out infinite;
+  background: var(--live);
+  animation: pulse 2.5s ease-in-out infinite;
   flex-shrink: 0;
 }
-@keyframes pulse { 0%,100%{opacity:0.4;} 50%{opacity:1;} }
+@keyframes pulse { 0%,100%{opacity:0.3;} 50%{opacity:1;} }
 
 .tracker-body {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 300px;
   align-items: stretch;
 }
 .tracker-col {
-  padding: 18px 24px;
+  padding: 20px 28px;
   border-right: 0.5px solid var(--border);
 }
 .tracker-col:last-child { border-right: none; }
@@ -211,208 +66,239 @@ body { background: var(--bg); }
 /* Count */
 .count-label {
   font-size: 11px;
-  letter-spacing: 0.06em;
+  font-weight: 500;
+  letter-spacing: 0.07em;
   text-transform: uppercase;
-  color: var(--hint);
-  margin-bottom: 8px;
+  color: var(--text-3);
+  margin-bottom: 10px;
 }
 .count-num {
-  font-family: 'Fraunces', serif;
-  font-size: 48px;
-  font-weight: 200;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 46px;
+  font-weight: 400;
   color: var(--accent);
-  letter-spacing: -0.02em;
+  letter-spacing: -0.01em;
   line-height: 1;
   opacity: 0;
-  transition: opacity 0.8s ease;
+  transition: opacity 1s ease;
 }
 .count-num.visible { opacity: 1; }
-.count-sub { font-size: 13px; color: var(--muted); margin-top: 8px; line-height: 1.5; }
-.count-note { font-size: 11px; color: var(--hint); font-style: italic; margin-top: 4px; }
+.count-sub { font-size: 13px; color: var(--text-2); margin-top: 10px; line-height: 1.55; }
+.count-note { font-size: 11px; color: var(--text-3); font-style: italic; margin-top: 5px; }
 
 /* Mini stats */
 .mini-stats {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 16px;
   height: 100%;
+  align-content: center;
 }
-.ms { display: flex; flex-direction: column; gap: 3px; }
+.ms { display: flex; flex-direction: column; gap: 4px; }
 .ms-n {
-  font-family: 'Fraunces', serif;
-  font-size: 22px;
-  font-weight: 300;
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 20px;
+  font-weight: 400;
   line-height: 1;
   color: var(--accent);
 }
-.ms-n--blue  { color: var(--accent); }
-.ms-n--teal  { color: var(--med); }
-.ms-l { font-size: 11px; color: var(--hint); line-height: 1.3; }
+.ms-n--high { color: var(--high); }
+.ms-n--med  { color: var(--med); }
+.ms-l { font-size: 12px; color: var(--text-3); line-height: 1.4; }
 
 /* CVE panel */
 .cve-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   flex-shrink: 0;
 }
 .cve-title {
   font-size: 11px;
   font-weight: 600;
-  letter-spacing: 0.09em;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
-  color: var(--hint);
+  color: var(--text-3);
 }
 .cve-link {
   font-size: 11px;
+  font-weight: 500;
   color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  white-space: nowrap;
+  text-decoration: none;
 }
+.cve-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .cve-feed {
   overflow-y: auto;
   flex: 1;
-  max-height: 180px;
+  max-height: 200px;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
-.cve-loading { font-size: 13px; color: var(--hint); font-style: italic; }
+.cve-loading { font-size: 13px; color: var(--text-3); font-style: italic; }
+.cve-item {
+  display: block;
+  padding: 9px 0;
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none;
+}
+.cve-item:last-child { border-bottom: none; }
+.cve-id-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 4px;
+  flex-wrap: wrap;
+}
+.cve-id {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 12px;
+  color: var(--accent);
+}
+.cve-sev { font-size: 10px; font-weight: 700; }
+.cve-sev--critical { color: var(--crit); }
+.cve-sev--high     { color: var(--high); }
+.cve-ransomware    { font-size: 10px; color: var(--crit); }
+.cve-desc { font-size: 12px; color: var(--text-3); line-height: 1.5; }
+.cve-date { font-size: 11px; color: var(--text-4); margin-top: 3px; font-family: 'IBM Plex Mono', monospace; }
 
 /* Report summary */
 .report-summary {
-  padding: 10px 32px;
+  padding: 10px 40px;
   border-top: 0.5px solid var(--border);
   background: var(--surface2);
   display: flex;
   align-items: center;
-  gap: 28px;
+  gap: 32px;
   flex-wrap: wrap;
 }
-.rs-item { display: flex; flex-direction: column; gap: 1px; }
-.rs-n { font-family: 'Fraunces', serif; font-size: 16px; font-weight: 300; color: var(--accent); line-height: 1; }
-.rs-l { font-size: 10px; color: var(--hint); }
+.rs-item { display: flex; flex-direction: column; gap: 2px; }
+.rs-n {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--accent);
+  line-height: 1;
+}
+.rs-l { font-size: 11px; color: var(--text-3); }
 .rs-link {
   margin-left: auto;
   font-size: 12px;
+  font-weight: 500;
   color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-  white-space: nowrap;
+  text-decoration: none;
 }
+.rs-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
 /* ── CRIME CHART ── */
 .crime-chart {
-  padding: 14px 32px;
+  padding: 14px 40px;
   border-bottom: 0.5px solid var(--border);
   background: var(--surface);
 }
 .crime-chart-label {
   font-size: 11px;
-  letter-spacing: 0.07em;
+  font-weight: 600;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: var(--hint);
-  margin-bottom: 10px;
+  color: var(--text-3);
+  margin-bottom: 12px;
 }
 .bar-wrap {
   display: flex;
-  height: 6px;
-  border-radius: 3px;
+  height: 7px;
+  border-radius: 4px;
   overflow: hidden;
   gap: 2px;
   margin-bottom: 10px;
+  background: var(--surface3);
 }
-.bar-seg { height: 100%; border-radius: 2px; transition: width 1s ease; }
-.legend { display: flex; gap: 14px; flex-wrap: wrap; margin-bottom: 8px; }
-.legend-item {
+.bar-seg { height: 100%; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); }
+.legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-2); }
+.legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.crime-chart-note { font-size: 12px; color: var(--text-3); font-style: italic; line-height: 1.6; }
+.crime-chart-note strong { font-style: normal; color: var(--text-2); }
+.chart-link { color: var(--accent); text-decoration: none; }
+.chart-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── ACTIVE FILTER BAR ── */
+.active-filter-bar {
+  padding: 8px 40px;
+  background: var(--surface2);
+  border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  color: var(--muted);
+  gap: 10px;
+  flex-wrap: wrap;
 }
-.legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-.crime-chart-note {
-  font-size: 11px;
-  color: var(--hint);
-  font-style: italic;
-  line-height: 1.6;
-}
-.crime-chart-note strong { font-style: normal; color: var(--muted); }
-.chart-link { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
-
-/* ── FILTER BAR ── */
-.filter-bar {
-  padding: 8px 32px;
-  border-bottom: 0.5px solid var(--border);
-  background: var(--surface);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 6px 40px;
-}
-.filter-row { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; padding: 3px 0; }
-.filter-group { display: flex; align-items: center; gap: 5px; flex-wrap: wrap; }
-.fl {
+.active-filter-label {
   font-size: 11px;
   font-weight: 600;
-  color: var(--hint);
-  letter-spacing: 0.09em;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  white-space: nowrap;
-  min-width: 55px;
+  color: var(--text-3);
   flex-shrink: 0;
 }
-.pill {
-  font-family: inherit;
+.active-filter-tags { display: flex; gap: 6px; flex-wrap: wrap; flex: 1; }
+.active-filter-chip {
   font-size: 12px;
   padding: 3px 10px;
-  border: 0.5px solid var(--border2);
-  background: transparent;
-  color: var(--hint);
-  cursor: pointer;
   border-radius: 20px;
-  transition: all 0.15s;
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-b);
+  color: var(--accent);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-family: inherit;
+}
+.active-filter-chip:hover { opacity: 0.7; }
+.clear-filters-btn {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 4px 12px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-3);
+  cursor: pointer;
+  margin-left: auto;
   white-space: nowrap;
 }
-.pill:hover { border-color: var(--accent-b); color: var(--accent); }
-.pill.active          { background: var(--accent-dim); border-color: var(--accent-b); color: var(--accent); }
-.pill.active-scam     { background: rgba(200,112,106,0.1); border-color: rgba(200,112,106,0.3); color: var(--crit); }
-.pill.active-rto      { background: rgba(155,120,200,0.1); border-color: rgba(155,120,200,0.3); color: #b890e0; }
-.pill.active-ai       { background: rgba(107,168,152,0.1); border-color: rgba(107,168,152,0.3); color: var(--med); }
-.pill.active-comp     { background: rgba(196,163,90,0.1);  border-color: rgba(196,163,90,0.3);  color: var(--high); }
-.pill.active-threat-c { background: rgba(200,112,106,0.1); border-color: rgba(200,112,106,0.3); color: var(--crit); }
-.pill.active-threat-h { background: rgba(196,163,90,0.1);  border-color: rgba(196,163,90,0.3);  color: var(--high); }
-.pill.active-threat-m { background: rgba(107,168,152,0.1); border-color: rgba(107,168,152,0.3); color: var(--med); }
+.clear-filters-btn:hover { color: var(--crit); border-color: var(--crit); }
 
 /* ── MAIN LAYOUT ── */
 .layout {
   display: grid;
-  grid-template-columns: 1fr 220px;
+  grid-template-columns: 1fr 300px;
   min-height: 600px;
 }
 
 /* ── FEED ── */
 .feed { background: var(--bg); border-right: 0.5px solid var(--border); }
 #articles-container {
-  height: 680px;
+  height: 720px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
-.loading-msg { padding: 32px; font-size: 14px; color: var(--hint); font-style: italic; }
-.no-results { padding: 32px; text-align: center; color: var(--hint); }
-.no-results p { margin-top: 8px; font-size: 14px; }
+.loading-msg { padding: 40px; font-size: 14px; color: var(--text-3); font-style: italic; }
+.no-results { padding: 40px; text-align: center; color: var(--text-3); }
+.no-results-icon { font-size: 24px; opacity: 0.3; margin-bottom: 8px; }
+.no-results p { font-size: 14px; margin-top: 6px; }
 
-/* Articles */
+/* Articles — clickable tags replace filter bar */
 .article {
   display: block;
-  padding: 14px 28px;
+  padding: 16px 40px;
   border-bottom: 0.5px solid var(--border);
   text-decoration: none;
   color: inherit;
   border-left: 2px solid transparent;
   transition: background 0.12s, border-left-color 0.12s;
+  position: relative;
 }
 .article:hover {
   background: var(--surface);
@@ -421,60 +307,79 @@ body { background: var(--bg); }
 .art-meta {
   display: flex;
   align-items: center;
-  gap: 5px;
-  margin-bottom: 6px;
+  gap: 6px;
+  margin-bottom: 7px;
   flex-wrap: wrap;
 }
 .source {
-  font-size: 10px;
-  letter-spacing: 0.08em;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--muted);
-  font-weight: 500;
+  color: var(--text-2);
+  font-family: 'IBM Plex Mono', monospace;
 }
 .dot { color: var(--border2); font-size: 10px; }
-.art-date { font-size: 11px; color: var(--hint); }
+.art-date {
+  font-size: 11px;
+  color: var(--text-3);
+  font-family: 'IBM Plex Mono', monospace;
+}
+.art-reading-time {
+  font-size: 11px;
+  color: var(--text-4);
+  font-style: italic;
+}
 .art-title {
   font-family: 'Fraunces', Georgia, serif;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 300;
   color: var(--text);
   line-height: 1.45;
   letter-spacing: -0.01em;
+  transition: color 0.12s;
 }
+.article:hover .art-title { color: var(--accent); }
 .art-summary {
-  font-size: 12px;
-  color: var(--hint);
-  margin-top: 4px;
-  line-height: 1.6;
+  font-size: 13px;
+  color: var(--text-3);
+  margin-top: 6px;
+  line-height: 1.65;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+.art-tags { margin-top: 8px; display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
 
-/* Tags */
-.tag { font-size: 10px; padding: 2px 7px; border-radius: 3px; white-space: nowrap; }
-.tag-cyber      { background: var(--tag-cyber-bg); border: 0.5px solid var(--tag-cyber-b); color: var(--tag-cyber-text); }
-.tag-rto        { background: var(--tag-rto-bg);   border: 0.5px solid var(--tag-rto-b);   color: var(--tag-rto-text); }
-.tag-edu        { background: var(--tag-edu-bg);   border: 0.5px solid var(--tag-edu-b);   color: var(--tag-edu-text); }
-.tag-edtech     { background: var(--tag-edtech-bg);border: 0.5px solid var(--tag-edtech-b);color: var(--tag-edtech-text); }
-.tag-ai         { background: var(--tag-ai-bg);    border: 0.5px solid var(--tag-ai-b);    color: var(--tag-ai-text); }
-.tag-scam       { background: var(--tag-scam-bg);  border: 0.5px solid var(--tag-scam-b);  color: var(--tag-scam-text); }
-.tag-compliance { background: var(--tag-comp-bg);  border: 0.5px solid var(--tag-comp-b);  color: var(--tag-comp-text); }
-.tag-good       { background: var(--tag-good-bg);  border: 0.5px solid var(--tag-good-b);  color: var(--tag-good-text); }
-.tag-rel-direct { background: var(--tag-rel-direct-bg); border: 0.5px solid var(--tag-rel-direct-b); color: var(--tag-rel-direct-text); }
-.tag-rel-sector { background: var(--tag-rel-sector-bg); border: 0.5px solid var(--tag-rel-sector-b); color: var(--tag-rel-sector-text); }
-.tag-rel-au     { background: var(--tag-rel-au-bg);     border: 0.5px solid var(--tag-rel-au-b);     color: var(--tag-rel-au-text); }
-.tag-rel-global { background: var(--tag-rel-global-bg); border: 0.5px solid var(--tag-rel-global-b); color: var(--tag-rel-global-text); }
+/* Tags — clickable */
+.tag {
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 4px;
+  white-space: nowrap;
+  cursor: pointer;
+  border: 0.5px solid transparent;
+  transition: opacity 0.12s, transform 0.08s;
+  display: inline-block;
+}
+.tag:hover { opacity: 0.75; transform: scale(0.97); }
+.tag.tag--active { box-shadow: 0 0 0 1.5px var(--accent); }
+.tag-cyber    { background: var(--tag-cyber-bg);   border-color: var(--tag-cyber-b);   color: var(--tag-cyber-c); }
+.tag-rto      { background: var(--tag-rto-bg);     border-color: var(--tag-rto-b);     color: var(--tag-rto-c); }
+.tag-edu      { background: var(--tag-edu-bg);     border-color: var(--tag-edu-b);     color: var(--tag-edu-c); }
+.tag-edtech   { background: var(--tag-edtech-bg);  border-color: var(--tag-edtech-b);  color: var(--tag-edtech-c); }
+.tag-ai       { background: var(--tag-ai-bg);      border-color: var(--tag-ai-b);      color: var(--tag-ai-c); }
+.tag-scam     { background: var(--tag-scam-bg);    border-color: var(--tag-scam-b);    color: var(--tag-scam-c); }
+.tag-comp     { background: var(--tag-comp-bg);    border-color: var(--tag-comp-b);    color: var(--tag-comp-c); }
+.tag-good     { background: var(--tag-ai-bg);      border-color: var(--tag-ai-b);      color: var(--tag-ai-c); }
 
-/* Threat badges */
-.threat-badge { font-size: 10px; font-weight: 600; }
-.threat-crit  { color: var(--crit); }
-.threat-high  { color: var(--high); }
-.threat-med   { color: var(--med); }
-.threat-adv   { color: var(--hint); }
-.tag-aud { font-size: 10px; color: var(--hint); padding: 2px 6px; border-radius: 3px; border: 0.5px solid var(--border2); }
+/* Threat badge */
+.threat-badge { font-size: 11px; font-weight: 600; }
+.t-critical { color: var(--crit); }
+.t-high     { color: var(--high); }
+.t-medium   { color: var(--med); }
+.t-advisory { color: var(--text-4); }
 
 /* ── SIDEBAR ── */
 .sidebar {
@@ -482,18 +387,20 @@ body { background: var(--bg); }
   border-left: 0.5px solid var(--border);
   display: flex;
   flex-direction: column;
-  height: 680px;
+  height: 720px;
   overflow: hidden;
 }
 .sb-hdr {
-  padding: 10px 16px;
+  padding: 11px 20px;
   border-bottom: 0.5px solid var(--border);
   font-size: 11px;
-  color: var(--hint);
-  letter-spacing: 0.09em;
+  font-weight: 600;
+  letter-spacing: 0.10em;
   text-transform: uppercase;
+  color: var(--text-3);
   flex-shrink: 0;
   background: var(--surface);
+  font-family: 'IBM Plex Mono', monospace;
 }
 .tools-scroll {
   flex: 1;
@@ -501,120 +408,101 @@ body { background: var(--bg); }
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
-.sb-empty { padding: 16px; font-size: 12px; color: var(--hint); font-style: italic; }
-.tool-group { margin-bottom: 4px; }
+.sb-empty { padding: 20px; font-size: 13px; color: var(--text-3); font-style: italic; }
+.tool-group { }
 .tool-name {
-  padding: 10px 16px 4px;
+  padding: 10px 20px 5px;
   font-size: 10px;
-  letter-spacing: 0.08em;
+  font-weight: 600;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
-  color: var(--hint);
-  background: var(--surface);
+  color: var(--text-4);
+  font-family: 'IBM Plex Mono', monospace;
+  background: var(--surface2);
+  border-top: 0.5px solid var(--border);
 }
 .tool-item {
   display: block;
-  padding: 8px 16px;
+  padding: 10px 20px;
   border-top: 0.5px solid var(--border);
   text-decoration: none;
   transition: background 0.12s;
 }
 .tool-item:hover { background: var(--surface2); }
 .tool-item-title {
-  font-size: 12px;
-  color: var(--muted);
-  line-height: 1.4;
+  font-size: 13px;
+  color: var(--text-2);
+  line-height: 1.45;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
   display: block;
 }
-.tool-item-date { font-size: 10px; color: var(--hint); margin-top: 2px; }
-
-/* ── FOOTER ── */
-.site-footer {
-  padding: 10px 32px;
-  border-top: 0.5px solid var(--border);
-  display: flex;
-  justify-content: space-between;
+.tool-item-date {
   font-size: 11px;
-  color: var(--hint);
-  background: var(--surface);
+  color: var(--text-3);
+  margin-top: 3px;
+  font-family: 'IBM Plex Mono', monospace;
 }
 
-/* ── MOBILE ── */
-@media (max-width: 768px) {
-  .site-header { padding: 12px 16px; }
-  .hdr-link { display: none; }
-  .site-title { font-size: 16px; }
-
-  .tracker-body { grid-template-columns: 1fr; }
-  .tracker-col { border-right: none; border-bottom: 0.5px solid var(--border); }
-  .tracker-col--cve { display: none; }
-  .tracker-header { padding: 8px 16px; }
-  .report-summary { padding: 10px 16px; gap: 16px; }
-  .rs-link { margin-left: 0; }
-
-  .crime-chart { padding: 12px 16px; }
-  .filter-bar { padding: 8px 16px; grid-template-columns: 1fr; }
-
-  .layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-
-  #articles-container { height: auto; max-height: 60vh; }
-  .article { padding: 12px 16px; }
-
-  .site-footer { padding: 10px 16px; flex-direction: column; gap: 4px; }
-}
-
-@media (max-width: 480px) {
-  .mini-stats { grid-template-columns: 1fr 1fr; }
-  .count-num { font-size: 36px; }
+/* ── HDRM ETA ── */
+.hdr-meta {
+  font-size: 11px;
+  color: var(--text-4);
+  font-family: 'IBM Plex Mono', monospace;
 }
 
 /* ── THREAT MAP ── */
 .threat-map-section {
-  width: 100%;
   border-top: 0.5px solid var(--border);
 }
 .threat-map-header {
-  padding: 10px 32px;
+  padding: 10px 40px;
   background: var(--surface);
   border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: center;
   gap: 16px;
 }
-.threat-map-title {
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--text);
-}
-.threat-map-note {
-  font-size: 11px;
-  color: var(--hint);
-  font-style: italic;
-}
+.threat-map-title { font-size: 13px; font-weight: 500; color: var(--text); }
+.threat-map-note  { font-size: 12px; color: var(--text-3); font-style: italic; }
 .threat-map-close {
   margin-left: auto;
   font-family: inherit;
   font-size: 12px;
-  padding: 5px 12px;
+  padding: 5px 14px;
   border: 0.5px solid var(--border2);
   border-radius: 20px;
   background: transparent;
-  color: var(--hint);
+  color: var(--text-3);
   cursor: pointer;
-  transition: color 0.15s, border-color 0.15s;
 }
 .threat-map-close:hover { color: var(--crit); border-color: var(--crit); }
-.threat-map-frame {
-  width: 100%;
-  height: 600px;
-  display: block;
-  border: none;
+.threat-map-frame { width: 100%; height: 580px; display: block; border: none; background: var(--bg); }
+
+/* ── MOBILE ── */
+@media (max-width: 1100px) {
+  .tracker-body { grid-template-columns: 1fr 1fr; }
+  .tracker-col--cve { grid-column: 1 / -1; border-right: none; border-top: 0.5px solid var(--border); }
+  .cve-feed { max-height: 120px; }
 }
-.hdr-btn {
-  font-family: inherit;
-  cursor: pointer;
-  background: transparent;
+@media (max-width: 900px) {
+  .tracker-header, .report-summary, .crime-chart,
+  .active-filter-bar, .article, .threat-map-header { padding-left: 20px; padding-right: 20px; }
+  .tracker-col { padding: 16px 20px; }
+}
+@media (max-width: 768px) {
+  .tracker-body { grid-template-columns: 1fr; }
+  .tracker-col { border-right: none; border-bottom: 0.5px solid var(--border); }
+  .tracker-col--cve { display: none; }
+  .layout { grid-template-columns: 1fr; }
+  .sidebar { display: none; }
+  #articles-container { height: auto; max-height: 70vh; }
+  .report-summary { gap: 16px; }
+  .rs-link { margin-left: 0; }
+  .mini-stats { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 480px) {
+  .count-num { font-size: 36px; }
+  .art-title { font-size: 15px; }
 }

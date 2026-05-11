@@ -879,6 +879,87 @@ def save_json(data, filename):
 # RUN
 # -------------------------------------------------------
 
+
+def generate_briefing(articles):
+    """Generate AI daily briefing using Anthropic API. Requires ANTHROPIC_API_KEY env var."""
+    import os, json, urllib.request, urllib.error, datetime
+
+    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
+    if not api_key:
+        print("    No ANTHROPIC_API_KEY — skipping briefing generation")
+        return None
+
+    AEST = datetime.timezone(datetime.timedelta(hours=10))
+    today = datetime.datetime.now(AEST).strftime('%d %B %Y')
+
+    # Get most recent articles, deduplicated by topic cluster
+    recent = [a for a in articles if a.get('date')]
+    recent.sort(key=lambda x: x.get('date',''), reverse=True)
+
+    # Simple dedup — skip articles whose title is 80%+ similar to one already included
+    seen_words = []
+    deduped = []
+    for a in recent[:40]:
+        words = set((a.get('title') or '').lower().split())
+        if not words: continue
+        is_dup = any(len(words & s) / max(len(words), len(s)) > 0.7 for s in seen_words)
+        if not is_dup:
+            deduped.append(a)
+            seen_words.append(words)
+        if len(deduped) >= 8:
+            break
+
+    if not deduped:
+        return None
+
+    articles_text = '\n'.join([
+        f"- [{a.get('source','')}] {a.get('title','')} ({a.get('date','')})"
+        for a in deduped
+    ])
+
+    prompt = f"""You are writing a daily cyber security briefing for Australian staff at a registered training organisation. Today is {today} AEST.
+
+Based on the following recent articles, write a 2-3 paragraph plain English briefing (150-200 words). 
+- Focus only on what is relevant to Australian organisations, individuals, and the education sector
+- Use clear, non-technical language suitable for people who are not cyber security professionals
+- Do not repeat the same story twice
+- Do not make up or embellish facts not in the article titles
+- End with one practical tip or action for readers
+
+Articles:
+{articles_text}
+
+Write the briefing now. Do not include a title or sign-off — just the paragraphs."""
+
+    payload = json.dumps({
+        "model": "claude-opus-4-5",
+        "max_tokens": 400,
+        "messages": [{"role": "user", "content": prompt}]
+    }).encode()
+
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=payload,
+        headers={
+            "x-api-key": api_key,
+            "anthropic-version": "2023-06-01",
+            "content-type": "application/json"
+        },
+        method="POST"
+    )
+
+    try:
+        resp = urllib.request.urlopen(req, timeout=30)
+        result = json.loads(resp.read().decode())
+        briefing_text = result.get("content", [{}])[0].get("text", "").strip()
+        if briefing_text:
+            print(f"    AI briefing generated ({len(briefing_text)} chars)")
+            return briefing_text
+    except Exception as e:
+        print(f"    Briefing generation failed: {e}")
+
+    return None
+
 if __name__ == "__main__":
     print("\n=== Fetching news feeds (Zone 1) ===")
     news = fetch_news()
@@ -890,11 +971,24 @@ if __name__ == "__main__":
 
     print("\n=== Fetching CVEs ===")
     cves = fetch_cves()
-    # Guard against nested structure if cves is a dict instead of list
     if isinstance(cves, dict):
         cves = cves.get('items', [])
     save_json({'last_updated': datetime.datetime.now().strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
     print(f"  Saved {len(cves)} CVEs to cve.json")
+
+    print("\n=== Generating AI briefing ===")
+    AEST = datetime.timezone(datetime.timedelta(hours=10))
+    briefing_text = generate_briefing(news if isinstance(news, list) else (news.get('items', []) if isinstance(news, dict) else []))
+    if briefing_text:
+        briefing_data = {
+            'date': datetime.datetime.now(AEST).strftime('%d %B %Y'),
+            'briefing': briefing_text,
+            'generated': datetime.datetime.now(AEST).strftime('%d-%m-%Y %I:%M %p')
+        }
+        save_json(briefing_data, 'briefing.json')
+        print(f"  Briefing saved to briefing.json")
+    else:
+        print("  Briefing skipped (no API key or error)")
 
     print("\n--- Tag breakdown ---")
     tag_counts = {}

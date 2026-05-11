@@ -1,268 +1,127 @@
+/**
+ * dashboard.js — PseudoSec Dashboard
+ * Requires: shared.js, definitions.js loaded first
+ */
 
-// ── THEME ──
-const savedTheme = localStorage.getItem('csi-theme') || 'dark';
-document.documentElement.setAttribute('data-theme', savedTheme);
-document.getElementById('theme-btn').textContent = savedTheme === 'dark' ? '☀' : '☽';
-
-function toggleTheme() {
-  const cur = document.documentElement.getAttribute('data-theme');
-  const next = cur === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('csi-theme', next);
-  document.getElementById('theme-btn').textContent = next === 'dark' ? '☀' : '☽';
-}
-
-// ── TRACKER ──
-const FY_START = new Date('2025-07-01T00:00:00+10:00');
-const SECS_YEAR = 365.25 * 24 * 3600;
+// ── TRACKER ────────────────────────────────────────────────
+var FY_START  = new Date('2025-07-01T00:00:00+10:00');
+var SECS_YEAR = 365.25 * 24 * 3600;
 
 function getElapsed() {
-  const now = new Date();
-  const start = FY_START > now ? new Date('2024-07-01T00:00:00+10:00') : FY_START;
+  var now   = new Date();
+  var start = FY_START > now ? new Date('2024-07-01T00:00:00+10:00') : FY_START;
   return Math.max(0, (now - start) / 1000);
 }
 
 function fmt(n) { return Math.floor(n).toLocaleString('en-AU'); }
 
 function updateTracker() {
-  const e = getElapsed();
-  document.getElementById('main-count').textContent = fmt(e * 84700 / SECS_YEAR);
+  var el = document.getElementById('main-count');
+  if (!el) return;
+  var e = getElapsed();
+  el.textContent = fmt(e * 84700 / SECS_YEAR);
+  el.classList.add('visible');
 }
 
-setTimeout(() => {
-  document.getElementById('b-ransom').style.width = '11%';
-  document.getElementById('b-id').style.width = '8%';
-  document.getElementById('b-shop').style.width = '7%';
-  document.getElementById('b-bank').style.width = '6%';
-  document.getElementById('b-other').style.width = '68%';
-}, 400);
-
-// Ticker removed
-
-function updateStatStrip(data) {
-  const items = data.items || [];
-  const now = new Date();
-  const twelveHrsAgo = new Date(now - 12 * 60 * 60 * 1000);
-
-  // ACSC updates — count items from ACSC sources this week
-  const weekAgo = new Date(now - 7 * 24 * 60 * 60 * 1000);
-  const acscCount = items.filter(a => {
-    return (a.source || '').toLowerCase().includes('acsc') &&
-      parseArticleDate(a.date) > weekAgo;
-  }).length;
-
-  // New in 12hrs
-  const newCount = items.filter(a => parseArticleDate(a.date) > twelveHrsAgo).length;
-
-  // Scam notices
-  const scamCount = items.filter(a => (a.tags || []).includes('Scams')).length;
-
-  function setEl(id, val) { var el = document.getElementById(id); if (el) el.textContent = val; }
-  setEl('stat-acsc', acscCount || '—');
-  setEl('stat-new', newCount || '—');
-  setEl('stat-total', items.length);
-  setEl('stat-scams', scamCount || '—');
-  const ts = data.last_updated || '';
-  if (ts) setEl('stat-updated', 'Updated ' + ts + ' AEST');
+function initBarChart() {
+  setTimeout(function() {
+    var b = document.getElementById('b-ransom');
+    if (!b) return;
+    document.getElementById('b-ransom').style.width = '11%';
+    document.getElementById('b-id').style.width    = '8%';
+    document.getElementById('b-shop').style.width  = '7%';
+    document.getElementById('b-bank').style.width  = '6%';
+    document.getElementById('b-other').style.width = '68%';
+  }, 500);
 }
 
-function parseArticleDate(dateStr) {
-  if (!dateStr) return new Date(0);
-  try {
-    // DD-MM-YYYY HH:MM AM/PM — stored in AEST (UTC+10), convert to UTC for comparison
-    var m = dateStr.match(/(\d{2})-(\d{2})-(\d{4})\s+(\d{1,2}):(\d{2})\s+(AM|PM)/i);
-    if (m) {
-      var h = parseInt(m[4]);
-      if (m[6].toUpperCase() === 'PM' && h !== 12) h += 12;
-      if (m[6].toUpperCase() === 'AM' && h === 12) h = 0;
-      // Build ISO string treating time as AEST (UTC+10)
-      var day = m[1], mon = m[2], yr = m[3], min = m[5];
-      var iso = yr + '-' + mon + '-' + day + 'T' + (h < 10 ? '0' : '') + h + ':' + min + ':00+10:00';
-      var d = new Date(iso);
-      return isNaN(d) ? new Date(0) : d;
-    }
-  } catch(e) {}
-  return new Date(0);
+// ── THREAT MAP ─────────────────────────────────────────────
+function toggleThreatMap() {
+  var section = document.getElementById('threat-map-section');
+  var layout  = document.querySelector('.layout');
+  if (!section) return;
+  var isHidden = section.hidden;
+  section.hidden = !isHidden;
+  if (layout) layout.style.display = isHidden ? 'none' : 'grid';
+  var btn = document.getElementById('threat-map-btn');
+  if (btn) btn.textContent = isHidden ? '✕ Close Map' : '🌐 Threat Map';
 }
 
+// ── DATA STATE ─────────────────────────────────────────────
+var allArticles = [];
+var allTools    = [];
+var activeFilters = { topic: [], threat: [] };
 
-
-// Run tracker updates after DOM ready
-document.addEventListener('DOMContentLoaded', function() {
-  if (document.getElementById('main-count')) {
-    updateTracker();
-    setInterval(updateTracker, 6000);
-  }
-  initBarChart();
-  loadData();
-});
-
-
-
-// ── DATA & FILTERS ──
-let allArticles = [];
-let allTools = [];
-let activeFilters = { topic: [], threat: [] };
-
-function formatDateAEST(isoStr) {
-  if (!isoStr) return '';
-  // Dates from Python are already formatted as DD-MM-YYYY HH:MM AM/PM - return as-is
-  if (/^\d{2}-\d{2}-\d{4}/.test(isoStr)) return isoStr;
-  try {
-    const d = new Date(isoStr);
-    if (isNaN(d)) return isoStr;
-    return d.toLocaleString('en-AU', {
-      timeZone: 'Australia/Sydney',
-      day: '2-digit', month: '2-digit', year: 'numeric',
-      hour: 'numeric', minute: '2-digit', hour12: true
-    });
-  } catch(e) { return isoStr; }
-}
-
-async function loadData() {
-  document.getElementById('last-updated').textContent = 'Refreshing...';
-  try {
-    const res = await fetch('news.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
-    allArticles = data.items || [];
-    const ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
-    var luEl = document.getElementById('last-updated');
-    var fuEl = document.getElementById('footer-updated');
-    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts + ' AEST' : ''; luEl.classList.add('visible'); }
-    if (fuEl) fuEl.textContent = ts ? 'Updated: ' + ts + ' AEST' : '';
-    try { updateStatStrip(data); } catch(e) {}
-    renderArticles();
-  } catch(e) {
-    document.getElementById('articles-container').innerHTML =
-      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>Could not load news.json.<br>' + e.message + '</p></div>';
-    document.getElementById('last-updated').textContent = 'Failed to load';
-  }
-  try {
-    const res2 = await fetch('tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res2.ok) throw new Error('HTTP ' + res2.status);
-    const data2 = await res2.json();
-    allTools = data2.items || [];
-    renderTools();
-  } catch(e) {}
-  try {
-    const res3 = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res3.ok) throw new Error('HTTP ' + res3.status);
-    const data3 = await res3.json();
-    var cveItems = data3.items || [];
-    if (cveItems && typeof cveItems === 'object' && !Array.isArray(cveItems)) {
-      cveItems = cveItems.items || [];
-    }
-    renderCVE(cveItems);
-  } catch(e) {
-    var el = document.getElementById('cve-feed');
-    if (el) el.innerHTML = '<div style="font-size:14px;color:var(--hint);font-style:italic;">CVE data unavailable.</div>';
-  }
-}
-
-// ── QUICK VIEWS ──
-// Quick views removed
-
-
-function clearAllFilters() {
-  activeFilters = { topic: [], threat: [] };
-  document.querySelectorAll('.pill').forEach(p => p.className = 'pill');
-}
-
-function setFilter(type, value) {
-  if (!activeFilters[type].includes(value)) activeFilters[type].push(value);
-  var pill = document.querySelector('.pill[data-filter-type="' + type + '"][data-value="' + value + '"]');
-  if (pill) {
-    if (type === 'topic') {
-      if (value === 'AU Cyber') pill.classList.add('active-topic');
-      else if (value === 'RTO / VET') pill.classList.add('active-rto');
-      else if (value === 'EdTech') pill.classList.add('active-edtech');
-      else if (value === 'AI & Tools') pill.classList.add('active-ai');
-      else if (value === 'Scams') pill.classList.add('active-scam');
-      else if (value === 'Compliance') pill.classList.add('active-compliance');
-      else if (value === 'Good News') pill.classList.add('active-good');
-      else pill.classList.add('active-edu');
-    } else if (type === 'audience') {
-      pill.classList.add('active-aud');
-    } else if (type === 'relevance') {
-      if (value === 'Direct') pill.classList.add('active-rel-direct');
-      else if (value === 'Sector') pill.classList.add('active-rel-sector');
-      else if (value === 'AU General') pill.classList.add('active-rel-au');
-      else pill.classList.add('active-rel-global');
-    } else {
-      if (value === 'Critical') pill.classList.add('active-threat');
-      else if (value === 'High') pill.classList.add('active-high');
-      else if (value === 'Medium') pill.classList.add('active-med');
-      else pill.classList.add('active-adv');
-    }
-  }
-}
-
-function toggleFilter(pill) {
-  document.querySelectorAll('.qv').forEach(q => q.classList.remove('active'));
-  document.querySelector('.qv[onclick*="all"]').classList.add('active');
-
-  const type  = pill.dataset.filterType;
-  const value = pill.dataset.value;
-  const idx   = activeFilters[type].indexOf(value);
-
-  if (idx > -1) {
-    activeFilters[type].splice(idx, 1);
-    pill.className = 'pill';
-  } else {
-    activeFilters[type].push(value);
-    if (type === 'topic') {
-      if (value === 'AU Cyber') pill.classList.add('active-topic');
-      else if (value === 'RTO / VET') pill.classList.add('active-rto');
-      else if (value === 'EdTech') pill.classList.add('active-edtech');
-      else if (value === 'AI & Tools') pill.classList.add('active-ai');
-      else if (value === 'Scams') pill.classList.add('active-scam');
-      else if (value === 'Compliance') pill.classList.add('active-compliance');
-      else if (value === 'Good News') pill.classList.add('active-good');
-      else pill.classList.add('active-edu');
-    } else if (type === 'audience') {
-      pill.classList.add('active-aud');
-    } else if (type === 'relevance') {
-      if (value === 'Direct') pill.classList.add('active-rel-direct');
-      else if (value === 'Sector') pill.classList.add('active-rel-sector');
-      else if (value === 'AU General') pill.classList.add('active-rel-au');
-      else pill.classList.add('active-rel-global');
-    } else {
-      if (value === 'Critical') pill.classList.add('active-threat');
-      else if (value === 'High') pill.classList.add('active-high');
-      else if (value === 'Medium') pill.classList.add('active-med');
-      else pill.classList.add('active-adv');
-    }
-  }
-  renderArticles();
-}
-
+// ── FILTER LOGIC ───────────────────────────────────────────
 function passesFilters(article) {
-  const { topic, threat } = activeFilters;
-  if (topic.length  && !topic.some(t => (article.tags || []).includes(t)))  return false;
-  if (threat.length && !threat.includes(article.threat))                    return false;
+  var t = activeFilters.topic;
+  var h = activeFilters.threat;
+  if (t.length && !t.some(function(v) { return (article.tags || []).indexOf(v) > -1; })) return false;
+  if (h.length && h.indexOf(article.threat) === -1) return false;
   return true;
 }
 
-function tagClass(tag) {
-  if (tag === 'AU Cyber') return 'tag tag-cyber';
-  if (tag === 'RTO / VET') return 'tag tag-rto';
-  if (tag === 'Education') return 'tag tag-edu';
-  if (tag === 'EdTech') return 'tag tag-edtech';
-  if (tag === 'AI & Tools') return 'tag tag-ai';
-  if (tag === 'Scams') return 'tag tag-scam';
-  if (tag === 'Compliance') return 'tag tag-compliance';
-  if (tag === 'Good News') return 'tag tag-good';
-  return 'tag';
+function toggleTagFilter(type, value) {
+  var idx = activeFilters[type].indexOf(value);
+  if (idx > -1) {
+    activeFilters[type].splice(idx, 1);
+  } else {
+    activeFilters[type].push(value);
+  }
+  updateFilterBar();
+  renderArticles();
 }
 
-function relClass(rel) {
-  if (rel === 'Direct')     return 'tag tag-rel-direct';
-  if (rel === 'Sector')     return 'tag tag-rel-sector';
-  if (rel === 'AU General') return 'tag tag-rel-au';
-  return 'tag tag-rel-global';
+function clearAllFilters() {
+  activeFilters = { topic: [], threat: [] };
+  updateFilterBar();
+  renderArticles();
 }
 
+function updateFilterBar() {
+  var bar = document.getElementById('active-filter-bar');
+  var tagsContainer = document.getElementById('active-filter-tags');
+  if (!bar || !tagsContainer) return;
+  var all = activeFilters.topic.concat(activeFilters.threat);
+  if (!all.length) {
+    bar.style.display = 'none';
+    return;
+  }
+  bar.style.display = 'flex';
+  tagsContainer.innerHTML = all.map(function(v) {
+    return '<button class="active-filter-chip" onclick="removeFilter(\'' + v + '\')" aria-label="Remove ' + v + ' filter">' +
+      v + ' ✕</button>';
+  }).join('');
+}
+
+function removeFilter(value) {
+  var ti = activeFilters.topic.indexOf(value);
+  if (ti > -1) activeFilters.topic.splice(ti, 1);
+  var hi = activeFilters.threat.indexOf(value);
+  if (hi > -1) activeFilters.threat.splice(hi, 1);
+  updateFilterBar();
+  renderArticles();
+}
+
+// ── TAG HELPERS ────────────────────────────────────────────
+var TAG_CLASS_MAP = {
+  'AU Cyber':   'tag-cyber',
+  'RTO / VET':  'tag-rto',
+  'Education':  'tag-edu',
+  'EdTech':     'tag-edtech',
+  'AI & Tools': 'tag-ai',
+  'Scams':      'tag-scam',
+  'Compliance': 'tag-comp',
+  'Good News':  'tag-good'
+};
+
+function tagClass(t)  { return 'tag ' + (TAG_CLASS_MAP[t] || ''); }
+function threatDot(t) {
+  if (t === 'Critical') return '● Critical';
+  if (t === 'High')     return '● High';
+  if (t === 'Medium')   return '● Medium';
+  return '● Advisory';
+}
 function threatClass(t) {
   if (t === 'Critical') return 'threat-badge t-critical';
   if (t === 'High')     return 'threat-badge t-high';
@@ -270,101 +129,107 @@ function threatClass(t) {
   return 'threat-badge t-advisory';
 }
 
-function threatDot(t) {
-  if (t === 'Critical') return '● Critical';
-  if (t === 'High')     return '● High';
-  if (t === 'Medium')   return '● Medium';
-  return '● Advisory';
-}
-
+// ── RENDER ARTICLES ────────────────────────────────────────
 function renderArticles() {
+  var container = document.getElementById('articles-container');
+  if (!container) return;
+
   var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
   var filtered = allArticles
     .filter(passesFilters)
     .filter(function(a) { return !a.date || parseArticleDate(a.date) >= sevenDaysAgo; })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); })
-    .slice(0, 20);
+    .slice(0, 30);
+
   if (!filtered.length) {
-    document.getElementById('articles-container').innerHTML =
-      '<div class="no-results"><div style="font-size:24px;opacity:0.3">—</div><p>No articles match the current filters.</p></div>';
+    container.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div>' +
+      '<p>No articles match the current filters.</p>' +
+      '<p style="margin-top:8px;"><button onclick="clearAllFilters()" style="background:transparent;border:0.5px solid var(--border2);color:var(--accent);padding:6px 14px;border-radius:20px;cursor:pointer;font-family:inherit;font-size:13px;">Clear filters</button></p></div>';
     return;
   }
 
-  const html = filtered.map(function(a) {
-    if (a.title.toLowerCase().startsWith('sponsored')) return '';
+  container.innerHTML = filtered.map(function(a) {
+    // Security: sanitise title and summary
+    if (!a.title) return '';
+    if (a.title.toLowerCase().indexOf('sponsored') === 0) return '';
+    var title   = a.title.replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ')
+      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+    if (summary.length < 80 || (a.source || '').toLowerCase().indexOf('google news') > -1) summary = '';
+    var href = (a.link && a.link.indexOf('http') === 0) ? a.link : '#';
+
+    // Reading time from title + summary words
+    var wordCount = (title + ' ' + summary).split(/\s+/).length;
+    var mins = Math.max(1, Math.ceil(wordCount / 220));
+    var readTime = mins + ' min read';
+
+    // Tags — clickable to filter
     var tags = (a.tags || []).map(function(t) {
-      return '<span class="' + tagClass(t) + '">' + t + '</span>';
+      var isActive = activeFilters.topic.indexOf(t) > -1;
+      var cls = tagClass(t) + (isActive ? ' tag--active' : '');
+      return '<span class="' + cls + '" ' +
+        'onclick="event.preventDefault();toggleTagFilter(\'topic\',\'' + t.replace(/'/g, "\\'") + '\')" ' +
+        'role="button" tabindex="0" aria-label="Filter by ' + t + '">' + t + '</span>';
     }).join('');
-    var auds = (a.audience || []).slice(0,2).map(function(au) {
-      return '<span class="tag-aud">' + au + '</span>';
-    }).join('');
-    var rel = a.relevance ? '<span class="' + relClass(a.relevance) + '">' + a.relevance + '</span>' : '';
-    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
-    if (summary.length < 80 || a.source.toLowerCase().indexOf('google news') !== -1) summary = '';
-    var dateStr = a.date ? formatDateAEST(a.date) : '';
+
+    // Threat tag — clickable
+    var threatVal = a.threat || 'Advisory';
+    var isThActive = activeFilters.threat.indexOf(threatVal) > -1;
+    var threatBtn = '<span class="' + threatClass(a.threat) + (isThActive ? ' tag--active' : '') + '" ' +
+      'onclick="event.preventDefault();toggleTagFilter(\'threat\',\'' + threatVal + '\')" ' +
+      'role="button" tabindex="0" aria-label="Filter by ' + threatVal + ' threat">' + threatDot(a.threat) + '</span>';
+
+    var dateStr  = a.date ? formatDateAEST(a.date) : '';
     var datePart = dateStr ? '<span class="dot">·</span><span class="art-date">' + dateStr + '</span>' : '';
-    var summaryPart = summary ? '<div class="art-summary">' + summary + '</div>' : '';
-    var href = a.link && a.link.startsWith('http') ? a.link : '#';
-    return '<a class="article" href="' + href + '" target="_blank" rel="noopener">' +
+    var summaryPart = summary ? '<div class="art-summary">' + summary.substring(0, 240) + '</div>' : '';
+
+    return '<a class="article" href="' + href + '" target="_blank" rel="noopener noreferrer">' +
       '<div class="art-meta">' +
-        '<span class="source">' + a.source + '</span>' +
+        '<span class="source">' + (a.source || '').replace(/</g,'&lt;') + '</span>' +
         datePart +
         '<span class="dot">·</span>' +
-        tags + auds + rel +
-        '<span class="' + threatClass(a.threat) + '">' + threatDot(a.threat) + '</span>' +
+        '<span class="art-reading-time">' + readTime + '</span>' +
       '</div>' +
-      '<div class="art-title">' + a.title + '</div>' +
+      '<div class="art-title">' + title + '</div>' +
       summaryPart +
+      '<div class="art-tags">' + tags + threatBtn + '</div>' +
     '</a>';
   }).join('');
-
-  document.getElementById('articles-container').innerHTML = html || '<div class="no-results"><div style="font-size:24px;opacity:0.3">-</div><p>No articles match the current filters.</p></div>';
 }
 
+// ── RENDER CVE ─────────────────────────────────────────────
 function renderCVE(items) {
   var el = document.getElementById('cve-feed');
   if (!el) return;
-  var cveItems = items.slice(0, 10);
-  if (!cveItems.length) {
-    el.innerHTML = '<div style="font-size:13px;color:var(--hint);font-style:italic;">No CVE data available.</div>';
+  if (!items || !items.length) {
+    el.innerHTML = '<div class="cve-loading">No CVE data available.</div>';
     return;
   }
-  el.innerHTML = cveItems.map(function(c) {
-    var sev = (c.severity || 'HIGH');
-    var sevColor = sev === 'CRITICAL' ? 'var(--crit)' : 'var(--high)';
-    var ransomware = c.ransomware === 'Known' ? '<span style="font-size:10px;color:var(--crit);margin-left:4px;">⚠ Ransomware</span>' : '';
-    var desc = (c.description || '').substring(0, 130) + (c.description && c.description.length > 130 ? '...' : '');
-    var link = c.link || ('https://nvd.nist.gov/vuln/detail/' + c.id);
-    var dateAdded = c.published ? 'Added ' + c.published : '';
-    return '<a href="' + link + '" target="_blank" rel="noopener" style="display:block;padding:9px 0;border-bottom:0.5px solid var(--border);text-decoration:none;">' +
-      '<div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap;">' +
-        '<span style="font-size:12px;font-family:monospace;color:var(--accent);">' + (c.id || '') + '</span>' +
-        '<span style="font-size:10px;font-weight:600;color:' + sevColor + ';">● ' + sev + '</span>' +
-        ransomware +
+  el.innerHTML = items.slice(0, 10).map(function(c) {
+    var sev    = (c.severity || 'HIGH').toUpperCase();
+    var sevCls = sev === 'CRITICAL' ? 'cve-sev--critical' : 'cve-sev--high';
+    var ransom = c.ransomware === 'Known' ? '<span class="cve-ransomware">⚠ Ransomware</span>' : '';
+    var desc   = (c.description || '').substring(0, 120) + (c.description && c.description.length > 120 ? '…' : '');
+    var link   = c.link || 'https://nvd.nist.gov/vuln/detail/' + (c.id || '');
+    var added  = c.published ? c.published : '';
+    return '<a class="cve-item" href="' + link + '" target="_blank" rel="noopener noreferrer" role="listitem">' +
+      '<div class="cve-id-row">' +
+        '<span class="cve-id">' + (c.id || '') + '</span>' +
+        '<span class="cve-sev ' + sevCls + '">● ' + sev + '</span>' +
+        ransom +
       '</div>' +
-      '<div style="font-size:13px;color:var(--muted);line-height:1.5;">' + desc + '</div>' +
-      (dateAdded ? '<div style="font-size:11px;color:var(--hint);margin-top:3px;">' + dateAdded + '</div>' : '') +
+      '<div class="cve-desc">' + desc.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>' +
+      (added ? '<div class="cve-date">Added ' + added + '</div>' : '') +
     '</a>';
   }).join('');
 }
 
-function initBarChart() {
-  setTimeout(function() {
-    var b = document.getElementById('b-ransom');
-    if (b) {
-      document.getElementById('b-ransom').style.width = '11%';
-      document.getElementById('b-id').style.width = '8%';
-      document.getElementById('b-shop').style.width = '7%';
-      document.getElementById('b-bank').style.width = '6%';
-      document.getElementById('b-other').style.width = '68%';
-    }
-  }, 400);
-}
-
+// ── RENDER TOOLS ───────────────────────────────────────────
 function renderTools() {
+  var el = document.getElementById('tools-container');
+  if (!el) return;
   if (!allTools.length) {
-    var el = document.getElementById('tools-container');
-    if (el) el.innerHTML = '<div style="padding:12px 16px;font-size:12px;color:var(--hint);font-style:italic;">No tool updates available.</div>';
+    el.innerHTML = '<div class="sb-empty">No tool updates available.</div>';
     return;
   }
   var grouped = {};
@@ -372,25 +237,124 @@ function renderTools() {
     if (!grouped[t.tool]) grouped[t.tool] = [];
     grouped[t.tool].push(t);
   });
-  var html = Object.entries(grouped).map(function(entry) {
-    var tool = entry[0];
+  el.innerHTML = Object.entries(grouped).map(function(entry) {
+    var tool  = entry[0];
     var items = entry[1].slice(0, 3);
-    var itemsHtml = items.map(function(i) {
-      var title = i.title || '';
-      // Clean up version-only titles from GitHub releases
-      if (/^v\d+\.\d+/.test(title)) {
-        title = tool + ' ' + title;
-      }
-      // Truncate long titles
-      if (title.length > 80) title = title.substring(0, 77) + '...';
-      var datePart = i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '';
-      return '<a class="tool-item" href="' + i.link + '" target="_blank" rel="noopener">' +
+    var rows  = items.map(function(i) {
+      var title = (i.title || '');
+      if (/^v\d+\.\d+/.test(title)) title = tool + ' ' + title;
+      if (title.length > 80) title = title.substring(0, 77) + '…';
+      title = title.replace(/</g,'&lt;').replace(/>/g,'&gt;');
+      var href = (i.link && i.link.indexOf('http') === 0) ? i.link : '#';
+      return '<a class="tool-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' +
         '<div class="tool-item-title">' + title + '</div>' +
-        datePart +
+        (i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '') +
       '</a>';
     }).join('');
-    return '<div class="tool-group"><div class="tool-name">' + tool + '</div>' + itemsHtml + '</div>';
+    return '<div class="tool-group"><div class="tool-name">' +
+      tool.replace(/</g,'&lt;') + '</div>' + rows + '</div>';
   }).join('');
-  var el = document.getElementById('tools-container');
-  if (el) el.innerHTML = html;
 }
+
+// ── SCAM OF THE WEEK ───────────────────────────────────────
+function renderScamOfWeek(articles) {
+  var callout = document.getElementById('scam-callout');
+  if (!callout) return;
+  var scams = articles
+    .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link; })
+    .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
+  if (!scams.length) return;
+  var s = scams[0];
+  var titleEl = document.getElementById('scam-title');
+  var metaEl  = document.getElementById('scam-meta');
+  var linkEl  = document.getElementById('scam-link');
+  if (titleEl) titleEl.textContent = s.title || '';
+  if (metaEl)  metaEl.textContent  = (s.source || '') + (s.date ? '  ·  ' + s.date : '');
+  if (linkEl)  { linkEl.href = s.link; }
+  callout.style.display = 'flex';
+}
+
+// ── AI BRIEFING ────────────────────────────────────────────
+function loadBriefing() {
+  var textEl = document.getElementById('briefing-text');
+  var dateEl = document.getElementById('briefing-date');
+  if (!textEl) return;
+  fetch('briefing.json?t=' + Date.now(), { cache: 'no-cache' })
+    .then(function(r) {
+      if (!r.ok) throw new Error('HTTP ' + r.status);
+      return r.json();
+    })
+    .then(function(data) {
+      if (data.briefing) {
+        textEl.textContent = data.briefing;
+        if (dateEl && data.date) dateEl.textContent = data.date;
+      } else {
+        textEl.innerHTML = '<span class="briefing-loading">Briefing not yet available.</span>';
+      }
+    })
+    .catch(function() {
+      textEl.innerHTML = '<span class="briefing-loading">Today\'s briefing is being prepared...</span>';
+    });
+}
+
+// ── WORD OF THE DAY ────────────────────────────────────────
+function initWotd() {
+  if (typeof DEFINITIONS === 'undefined') return;
+  renderWotd(DEFINITIONS);
+}
+
+// ── DATA LOAD ──────────────────────────────────────────────
+async function loadData() {
+  var luEl = document.getElementById('last-updated');
+  var fuEl = document.getElementById('footer-updated');
+
+  // 1. News feed
+  try {
+    var res  = await fetch('news.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    var data = await res.json();
+    allArticles = Array.isArray(data.items) ? data.items : [];
+    var ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
+    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts : ''; luEl.classList.add('visible'); }
+    if (fuEl)   fuEl.textContent = ts ? 'Updated ' + ts : '';
+    renderArticles();
+    renderScamOfWeek(allArticles);
+  } catch(e) {
+    var c = document.getElementById('articles-container');
+    if (c) c.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div>' +
+      '<p>Could not load news feed. ' + (e.message || '') + '</p></div>';
+    if (luEl) luEl.textContent = 'Load failed';
+  }
+
+  // 2. Tool updates
+  try {
+    var res2  = await fetch('tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res2.ok) throw new Error('HTTP ' + res2.status);
+    var data2 = await res2.json();
+    allTools  = Array.isArray(data2.items) ? data2.items : [];
+    renderTools();
+  } catch(e) {}
+
+  // 3. CVE feed
+  try {
+    var res3  = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
+    if (!res3.ok) throw new Error('HTTP ' + res3.status);
+    var data3 = await res3.json();
+    var cveItems = Array.isArray(data3.items) ? data3.items :
+      (typeof data3.items === 'object' ? (data3.items.items || []) : []);
+    renderCVE(cveItems);
+  } catch(e) {
+    var cveEl = document.getElementById('cve-feed');
+    if (cveEl) cveEl.innerHTML = '<div class="cve-loading">CVE data unavailable.</div>';
+  }
+}
+
+// ── INIT ───────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', function() {
+  updateTracker();
+  setInterval(updateTracker, 6000);
+  initBarChart();
+  initWotd();
+  loadBriefing();
+  loadData();
+});

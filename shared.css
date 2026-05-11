@@ -1,0 +1,302 @@
+/**
+ * shared.css — PseudoSec
+ * Design tokens, typography, nav, footer — imported by all pages
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:ital,wght@0,200;0,300;1,300&display=swap');
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+
+/* ── DARK THEME ── */
+:root[data-theme="dark"] {
+  --bg:         #0d0f14;
+  --surface:    #13161e;
+  --surface2:   #1a1e28;
+  --surface3:   #222736;
+  --border:     rgba(255,255,255,0.07);
+  --border2:    rgba(255,255,255,0.13);
+  --text:       #f0ede6;
+  --text-2:     #c8c4bc;
+  --text-3:     #8a8680;   /* tertiary  —  4.8:1 AA min on --bg */
+  --text-4:     #55524e;
+  --accent:     #f5c842;
+  --accent-dim: rgba(245,200,66,0.10);
+  --accent-b:   rgba(245,200,66,0.28);
+  --crit:       #e07878;
+  --high:       #d4a84a;
+  --med:        #5aad96;
+  --adv:        #7fa8d4;
+  --live:       #5aad96;
+  --surface-hdr:#13161e;
+  --mono:       'IBM Plex Mono', monospace;
+  --tag-cyber-bg:rgba(127,168,212,0.12); --tag-cyber-c:#9dc0e0; --tag-cyber-b:rgba(127,168,212,0.22);
+  --tag-rto-bg:rgba(165,130,215,0.12);   --tag-rto-c:#c090f0;   --tag-rto-b:rgba(165,130,215,0.22);
+  --tag-ai-bg:rgba(90,173,150,0.12);     --tag-ai-c:#70c8b0;    --tag-ai-b:rgba(90,173,150,0.22);
+  --tag-scam-bg:rgba(224,120,120,0.12);  --tag-scam-c:#f09090;  --tag-scam-b:rgba(224,120,120,0.22);
+  --tag-comp-bg:rgba(212,168,74,0.12);   --tag-comp-c:#e8c870;  --tag-comp-b:rgba(212,168,74,0.22);
+  --tag-edu-bg:rgba(90,173,150,0.12);    --tag-edu-c:#70c8b0;   --tag-edu-b:rgba(90,173,150,0.22);
+  --tag-edtech-bg:rgba(165,130,215,0.12);--tag-edtech-c:#c090f0;--tag-edtech-b:rgba(165,130,215,0.22);
+}
+
+/* ── LIGHT THEME ── */
+:root[data-theme="light"] {
+  --bg:         #f4f1eb;
+  --surface:    #faf8f2;
+  --surface2:   #edeae2;
+  --surface3:   #e4e0d6;
+  --border:     rgba(0,0,0,0.08);
+  --border2:    rgba(0,0,0,0.14);
+  --text:       #0D3B66;
+  --text-2:     #1a3a5c;
+  --text-3:     #4a6a8a;
+  --text-4:     #8aabbf;
+  --accent:     #0D3B66;
+  --accent-dim: rgba(13,59,102,0.08);
+  --accent-b:   rgba(13,59,102,0.22);
+  --crit:       #b83a3a;
+  --high:       #8a6020;
+  --med:        #2a7a62;
+  --adv:        #0D3B66;
+  --live:       #2a7a62;
+  --surface-hdr:#faf8f2;
+  --mono:       'IBM Plex Mono', monospace;
+  --tag-cyber-bg:rgba(13,59,102,0.08);   --tag-cyber-c:#0D3B66; --tag-cyber-b:rgba(13,59,102,0.20);
+  --tag-rto-bg:rgba(100,60,160,0.08);    --tag-rto-c:#502090;   --tag-rto-b:rgba(100,60,160,0.20);
+  --tag-ai-bg:rgba(42,122,98,0.08);      --tag-ai-c:#1a6048;    --tag-ai-b:rgba(42,122,98,0.20);
+  --tag-scam-bg:rgba(184,58,58,0.08);    --tag-scam-c:#901818;  --tag-scam-b:rgba(184,58,58,0.20);
+  --tag-comp-bg:rgba(138,96,32,0.08);    --tag-comp-c:#6a4808;  --tag-comp-b:rgba(138,96,32,0.20);
+  --tag-edu-bg:rgba(42,122,98,0.08);     --tag-edu-c:#1a6048;   --tag-edu-b:rgba(42,122,98,0.20);
+  --tag-edtech-bg:rgba(100,60,160,0.08); --tag-edtech-c:#502090;--tag-edtech-b:rgba(100,60,160,0.20);
+}
+
+/* ── MOTION ── */
+*, *::before, *::after {
+  transition: background-color 0.2s ease, border-color 0.15s ease, color 0.15s ease;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { transition: none !important; animation: none !important; }
+}
+
+/* ── BASE ── */
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  line-height: 1.65;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ── HEADER ── */
+.site-header {
+  background: var(--surface-hdr);
+  border-bottom: 0.5px solid var(--border);
+  padding: 0 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 56px;
+  gap: 24px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.hdr-left { display: flex; align-items: center; gap: 24px; }
+.site-logo { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
+.site-logo img { height: 30px; width: auto; display: block; }
+.site-nav { display: flex; align-items: center; gap: 2px; }
+.nav-link {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--text-3);
+  text-decoration: none;
+  padding: 6px 11px;
+  border-radius: 6px;
+  border: 0.5px solid transparent;
+  white-space: nowrap;
+}
+.nav-link:hover { color: var(--text); background: var(--surface2); }
+.nav-link--active {
+  color: var(--accent);
+  background: var(--accent-dim);
+  border-color: var(--accent-b);
+  font-weight: 500;
+}
+.hdr-right { display: flex; align-items: center; gap: 8px; }
+.hdr-btn {
+  font-family: inherit;
+  font-size: 12px;
+  color: var(--text-3);
+  padding: 5px 13px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.hdr-btn:hover { color: var(--accent); border-color: var(--accent-b); }
+.theme-btn {
+  width: 34px; height: 34px;
+  border-radius: 50%;
+  border: 1.5px solid var(--border2);
+  background: var(--surface2);
+  color: #f5c842;
+  cursor: pointer;
+  font-size: 15px;
+  display: grid;
+  place-items: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+.theme-btn:hover { border-color: #f5c842; }
+
+/* ── WORD OF DAY ── */
+.wotd-strip {
+  background: var(--surface2);
+  border-bottom: 0.5px solid var(--border);
+  padding: 9px 40px;
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.wotd-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  flex-shrink: 0;
+}
+.wotd-term {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  flex-shrink: 0;
+}
+.wotd-sep { color: var(--border2); flex-shrink: 0; }
+.wotd-def { font-size: 13px; color: var(--text-3); line-height: 1.5; }
+.wotd-more {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--accent);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.wotd-more:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* ── SCAM CALLOUT ── */
+.scam-callout {
+  border-left: 3px solid var(--crit);
+  background: rgba(224,120,120,0.05);
+  padding: 12px 40px;
+  border-bottom: 0.5px solid var(--border);
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.scam-badge {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--crit);
+  flex-shrink: 0;
+  white-space: nowrap;
+}
+.scam-content { flex: 1; min-width: 0; }
+.scam-title {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.scam-meta { font-size: 11px; color: var(--text-3); margin-top: 1px; }
+.scam-link {
+  font-size: 12px;
+  color: var(--crit);
+  text-decoration: none;
+  flex-shrink: 0;
+}
+.scam-link:hover { text-decoration: underline; }
+
+/* ── AI BRIEFING ── */
+.briefing-panel {
+  background: var(--surface);
+  border-bottom: 0.5px solid var(--border);
+  padding: 14px 40px;
+}
+.briefing-hdr {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.briefing-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.briefing-date {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  color: var(--text-4);
+}
+.briefing-text {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.75;
+  max-width: 860px;
+}
+.briefing-loading { font-size: 13px; color: var(--text-3); font-style: italic; }
+
+/* ── FOOTER ── */
+.site-footer {
+  padding: 12px 40px;
+  border-top: 0.5px solid var(--border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  color: var(--text-3);
+  background: var(--surface);
+}
+.site-footer a { color: inherit; text-decoration: none; }
+.site-footer a:hover { color: var(--accent); }
+
+/* ── PAGE (inner pages) ── */
+.page-wrap { max-width: 1480px; margin: 0 auto; padding: 40px; }
+.page-hero { margin-bottom: 36px; padding-bottom: 28px; border-bottom: 0.5px solid var(--border); }
+.page-hero-title {
+  font-family: 'Fraunces', serif;
+  font-size: 32px;
+  font-weight: 300;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin-bottom: 10px;
+}
+.page-hero-title em { font-style: italic; color: var(--accent); }
+.page-hero-sub { font-size: 15px; color: var(--text-3); max-width: 580px; line-height: 1.65; }
+
+/* ── MOBILE ── */
+@media (max-width: 900px) {
+  .site-header { padding: 0 20px; }
+  .wotd-strip, .scam-callout, .briefing-panel, .site-footer { padding-left: 20px; padding-right: 20px; }
+  .page-wrap { padding: 24px 20px; }
+}
+@media (max-width: 768px) {
+  .site-nav { display: none; }
+  .site-logo img { height: 24px; }
+  .site-footer { flex-direction: column; gap: 4px; text-align: center; }
+  .wotd-more { margin-left: 0; }
+}

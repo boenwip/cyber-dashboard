@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PseudoSec Glossary — 50 cyber security terms explained in plain English, from beginner to intermediate.">
+<title>Definitions — PseudoSec</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="definitions.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="hdr-left">
+    <a href="index.html" class="site-logo" aria-label="PseudoSec home">
+      <img src="pseudosec.png" alt="PseudoSec" height="30">
+    </a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html"       class="nav-link">Dashboard</a>
+      <a href="definitions.html" class="nav-link">Definitions</a>
+      <a href="resources.html"   class="nav-link">Resources</a>
+      <a href="ai-guide.html"    class="nav-link">AI Guide</a>
+    </nav>
+  </div>
+  <div class="hdr-right">
+    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" aria-label="Toggle theme">☀</button>
+  </div>
+</header>
+
+<!-- WORD OF THE DAY -->
+<div class="wotd-strip" id="wotd-strip">
+  <span class="wotd-label">Word of the day</span>
+  <span class="wotd-term" id="wotd-term">—</span>
+  <span class="wotd-sep">—</span>
+  <span class="wotd-def" id="wotd-def">Loading...</span>
+</div>
+
+<div class="page-wrap">
+  <div class="page-hero">
+    <h1 class="page-hero-title">Cyber Security <em>Glossary</em></h1>
+    <p class="page-hero-sub">51 terms explained in plain English — from what every Australian should know to what security practitioners talk about every day.</p>
+  </div>
+
+  <!-- SEARCH + FILTER -->
+  <div class="def-controls">
+    <div class="def-search-wrap">
+      <input type="search" id="def-search" class="def-search" placeholder="Search terms..." aria-label="Search definitions" autocomplete="off">
+    </div>
+    <div class="def-level-filter">
+      <button class="def-lvl-btn def-lvl-btn--active" data-level="all"          onclick="filterLevel('all',this)">All</button>
+      <button class="def-lvl-btn" data-level="beginner"      onclick="filterLevel('beginner',this)">Beginner</button>
+      <button class="def-lvl-btn" data-level="intermediate"  onclick="filterLevel('intermediate',this)">Intermediate</button>
+    </div>
+  </div>
+
+  <div id="def-count" class="def-count"></div>
+
+  <!-- A-Z INDEX -->
+  <div class="def-alpha" id="def-alpha" role="navigation" aria-label="Alphabetical index"></div>
+
+  <!-- TERMS -->
+  <div id="def-grid" class="def-grid" role="list"></div>
+</div>
+
+<footer class="site-footer">
+  <span>pseudosec. · Australian Cyber Intelligence</span>
+  <span>51 terms · Updated May 2026</span>
+</footer>
+
+<script src="shared.js"></script>
+<script src="definitions.js"></script>
+<script src="definitions-page.js"></script>
+</body>
+</html>

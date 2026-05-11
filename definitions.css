@@ -1,0 +1,185 @@
+/**
+ * definitions.css — PseudoSec
+ * Glossary page styles. Requires shared.css.
+ */
+
+/* Controls */
+.def-controls {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 16px;
+  flex-wrap: wrap;
+}
+.def-search-wrap { flex: 1; min-width: 200px; }
+.def-search {
+  width: 100%;
+  padding: 9px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+  transition: border-color 0.15s;
+}
+.def-search:focus { border-color: var(--accent); }
+.def-search::placeholder { color: var(--text-4); }
+.def-level-filter { display: flex; gap: 6px; }
+.def-lvl-btn {
+  font-family: inherit;
+  font-size: 12px;
+  padding: 6px 14px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-3);
+  cursor: pointer;
+  white-space: nowrap;
+  transition: all 0.15s;
+}
+.def-lvl-btn:hover { color: var(--text); border-color: var(--accent-b); }
+.def-lvl-btn--active {
+  background: var(--accent-dim);
+  border-color: var(--accent-b);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* Count */
+.def-count {
+  font-size: 12px;
+  color: var(--text-4);
+  font-family: 'IBM Plex Mono', monospace;
+  margin-bottom: 20px;
+}
+
+/* Alpha index */
+.def-alpha {
+  display: flex;
+  gap: 4px;
+  flex-wrap: wrap;
+  margin-bottom: 28px;
+  padding-bottom: 16px;
+  border-bottom: 0.5px solid var(--border);
+}
+.alpha-link {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 13px;
+  font-weight: 500;
+  width: 28px;
+  height: 28px;
+  display: grid;
+  place-items: center;
+  border-radius: 4px;
+  text-decoration: none;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-b);
+  transition: opacity 0.12s;
+}
+.alpha-link:hover { opacity: 0.75; }
+.alpha-link--empty {
+  color: var(--text-4);
+  background: transparent;
+  border-color: var(--border);
+  pointer-events: none;
+}
+
+/* Letter sections */
+.def-letter-section { margin-bottom: 32px; }
+.def-letter-head {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  padding: 6px 0;
+  margin-bottom: 10px;
+  border-bottom: 0.5px solid var(--border);
+}
+
+/* Term cards */
+.def-grid { }
+.def-card {
+  padding: 18px 0;
+  border-bottom: 0.5px solid var(--border);
+}
+.def-card:last-child { border-bottom: none; }
+.def-card-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+.def-term {
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--text);
+}
+.def-level {
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  padding: 2px 7px;
+  border-radius: 3px;
+}
+.def-level--beginner {
+  background: rgba(90,173,150,0.12);
+  border: 0.5px solid rgba(90,173,150,0.25);
+  color: var(--med);
+}
+.def-level--intermediate {
+  background: rgba(212,168,74,0.12);
+  border: 0.5px solid rgba(212,168,74,0.25);
+  color: var(--high);
+}
+.def-short {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--text-2);
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+.def-full {
+  font-size: 14px;
+  color: var(--text-3);
+  line-height: 1.75;
+  margin-bottom: 10px;
+}
+.def-example {
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 6px;
+  padding: 12px 16px;
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.65;
+  font-style: italic;
+}
+.def-example-label {
+  display: block;
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-style: normal;
+  margin-bottom: 6px;
+  font-family: 'IBM Plex Mono', monospace;
+}
+.def-empty {
+  padding: 40px 0;
+  color: var(--text-3);
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .def-controls { flex-direction: column; align-items: stretch; }
+  .def-search-wrap { min-width: 0; }
+}

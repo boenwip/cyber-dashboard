@@ -1,0 +1,156 @@
+/**
+ * resources.css — PseudoSec Resources page
+ */
+
+.res-section {
+  margin-bottom: 48px;
+}
+.res-section-title {
+  font-family: 'Fraunces', serif;
+  font-size: 22px;
+  font-weight: 300;
+  color: var(--text);
+  margin-bottom: 8px;
+  letter-spacing: -0.02em;
+}
+.res-section-sub {
+  font-size: 14px;
+  color: var(--text-3);
+  margin-bottom: 20px;
+  line-height: 1.65;
+}
+.res-section-sub a { color: var(--accent); text-decoration: none; }
+.res-section-sub a:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* Grid */
+.res-grid {
+  display: grid;
+  gap: 12px;
+}
+.res-grid--2 { grid-template-columns: repeat(2, 1fr); }
+.res-grid--3 { grid-template-columns: repeat(3, 1fr); }
+
+/* Cards */
+.res-card {
+  padding: 20px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, background 0.15s;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.res-card:hover {
+  border-color: var(--accent-b);
+  background: var(--surface2);
+}
+.res-card--action { border-left: 2px solid var(--accent); }
+.res-card-icon { font-size: 22px; margin-bottom: 4px; }
+.res-card-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+}
+.res-card-desc {
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.6;
+  flex: 1;
+}
+.res-card-link { font-size: 12px; color: var(--accent); font-family: 'IBM Plex Mono', monospace; }
+.res-card-tag {
+  font-size: 11px;
+  color: var(--text-4);
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+/* HIBP */
+.hibp-disclaimer {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 6px;
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.hibp-disclaimer-icon { flex-shrink: 0; font-size: 16px; }
+.hibp-disclaimer a { color: var(--accent); text-decoration: none; }
+.hibp-disclaimer a:hover { text-decoration: underline; }
+.hibp-disclaimer strong { color: var(--text-2); }
+
+.hibp-form { max-width: 520px; }
+.hibp-input-wrap {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+.hibp-input {
+  flex: 1;
+  padding: 10px 16px;
+  font-family: inherit;
+  font-size: 14px;
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 8px;
+  color: var(--text);
+  outline: none;
+}
+.hibp-input:focus { border-color: var(--accent); }
+.hibp-input::placeholder { color: var(--text-4); }
+.hibp-btn {
+  padding: 10px 20px;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 500;
+  background: var(--accent);
+  color: var(--bg);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+.hibp-btn:hover { opacity: 0.85; }
+.hibp-btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.hibp-result {
+  padding: 14px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  line-height: 1.65;
+  display: none;
+  gap: 12px;
+  align-items: flex-start;
+}
+.hibp-result:not(:empty) { display: flex; }
+.hibp-icon { font-size: 20px; flex-shrink: 0; }
+.hibp-result--safe   { background: rgba(90,173,150,0.10); border: 0.5px solid rgba(90,173,150,0.25); color: var(--text-2); }
+.hibp-result--pwned  { background: rgba(224,120,120,0.10); border: 0.5px solid rgba(224,120,120,0.25); color: var(--text-2); }
+.hibp-result--error  { background: var(--surface2); border: 0.5px solid var(--border2); color: var(--text-3); }
+.hibp-result--loading{ background: var(--surface2); border: 0.5px solid var(--border2); color: var(--text-3); font-style: italic; }
+.hibp-result--info   { background: var(--surface2); border: 0.5px solid var(--accent-b); color: var(--text-2); }
+.hibp-result a       { color: var(--accent); }
+
+.hibp-breach-list {
+  margin: 10px 0 0 0;
+  padding-left: 16px;
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.7;
+}
+.hibp-more { display: block; margin-top: 8px; font-size: 12px; color: var(--text-3); }
+.hibp-more a { color: var(--accent); }
+
+@media (max-width: 768px) {
+  .res-grid--2, .res-grid--3 { grid-template-columns: 1fr; }
+  .hibp-input-wrap { flex-direction: column; }
+  .hibp-btn { width: 100%; }
+}
