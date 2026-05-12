@@ -225,6 +225,17 @@ function renderCVE(items) {
 }
 
 // ── RENDER TOOLS ───────────────────────────────────────────
+var TOOL_ICON_MAP = {
+  'google-workspace': 'https://cdn.simpleicons.org/google/4285F4',
+  'google-chrome':    'https://cdn.simpleicons.org/googlechrome/4285F4',
+  'microsoft-365':    'https://cdn.simpleicons.org/microsoft/D83B01',
+  'asana':            'https://cdn.simpleicons.org/asana/F06A6A',
+  'zoom':             'https://cdn.simpleicons.org/zoom/2D8CFF',
+  'ai-tools':         'https://cdn.simpleicons.org/openai/10A37F',
+  'canva':            'https://cdn.simpleicons.org/canva/00C4CC',
+  'claude':           'https://cdn.simpleicons.org/anthropic/CC785C',
+};
+
 function renderTools() {
   var el = document.getElementById('tools-container');
   if (!el) return;
@@ -252,8 +263,12 @@ function renderTools() {
       '</a>';
     }).join('');
     var toolKey = tool.toLowerCase().replace(/[\s\/]+/g, '-').replace(/[^a-z0-9-]/g, '');
+    var iconUrl = TOOL_ICON_MAP[toolKey] || '';
+    var iconHtml = iconUrl
+      ? '<img src="' + iconUrl + '" class="tool-icon" alt="" aria-hidden="true" width="14" height="14">'
+      : '';
     return '<div class="tool-group"><div class="tool-name" data-tool="' + toolKey + '">' +
-      tool.replace(/</g,'&lt;') + '</div>' + rows + '</div>';
+      iconHtml + tool.replace(/</g,'&lt;') + '</div>' + rows + '</div>';
   }).join('');
 }
 

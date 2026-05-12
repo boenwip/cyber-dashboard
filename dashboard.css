@@ -447,32 +447,17 @@
   font-family: var(--mono);
 }
 
-/* ── TOOL BRAND BADGES ── */
-.tool-name[data-tool]::before {
-  display: inline-block;
-  width: 16px;
-  height: 16px;
-  border-radius: 3px;
+/* ── TOOL BRAND ICONS ── */
+.tool-icon {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
   margin-right: 7px;
-  text-align: center;
-  line-height: 16px;
-  font-size: 8px;
-  font-weight: 800;
   vertical-align: middle;
-  color: #fff;
-  font-family: 'Inter', sans-serif;
-  letter-spacing: 0;
-  text-transform: none;
-  font-style: normal;
+  object-fit: contain;
+  display: inline-block;
+  flex-shrink: 0;
 }
-.tool-name[data-tool="google-workspace"]::before { content: 'G';  background: #4285F4; }
-.tool-name[data-tool="chrome"]::before           { content: 'C';  background: #34A853; }
-.tool-name[data-tool="asana"]::before            { content: 'A';  background: #F06A6A; }
-.tool-name[data-tool="zoom"]::before             { content: 'Z';  background: #2D8CFF; }
-.tool-name[data-tool="chatgpt"]::before          { content: 'AI'; background: #10A37F; font-size: 7px; }
-.tool-name[data-tool="canva"]::before            { content: 'Cv'; background: #00C4CC; font-size: 7px; }
-.tool-name[data-tool="claude"]::before           { content: 'Cl'; background: #CC785C; font-size: 7px; }
-.tool-name[data-tool="microsoft-365"]::before    { content: 'M';  background: #D83B01; }
 
 /* ── HDRM ETA ── */
 .hdr-meta {
