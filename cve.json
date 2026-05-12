@@ -1,119 +1,116 @@
 {
-  "last_updated": "12-05-2026 12:16 AM",
-  "count": 2,
-  "items": {
-    "last_updated": "12-05-2026 12:16 AM",
-    "items": [
-      {
-        "id": "CVE-2026-42208",
-        "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the cre",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-05-08",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-        "vendor": "BerriAI",
-        "product": "LiteLLM",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-6973",
-        "description": "Ivanti Endpoint Manager Mobile (EPMM) \u2014 Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-05-07",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
-        "vendor": "Ivanti",
-        "product": "Endpoint Manager Mobile (EPMM)",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-0300",
-        "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrar",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-05-06",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
-        "vendor": "Palo Alto Networks",
-        "product": "PAN-OS",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-31431",
-        "description": "Linux Kernel \u2014 Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-05-01",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
-        "vendor": "Linux",
-        "product": "Kernel",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-41940",
-        "description": "WebPros cPanel & WHM and WP2 (WordPress Squared) \u2014 WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized ac",
-        "score": null,
-        "severity": "CRITICAL",
-        "published": "2026-04-30",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
-        "vendor": "WebPros",
-        "product": "cPanel & WHM and WP2 (WordPress Squared)",
-        "ransomware": "Known"
-      },
-      {
-        "id": "CVE-2024-1708",
-        "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-28",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
-        "vendor": "ConnectWise",
-        "product": "ScreenConnect",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2026-32202",
-        "description": "Microsoft Windows \u2014 Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-28",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
-        "vendor": "Microsoft",
-        "product": "Windows",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2025-29635",
-        "description": "D-Link DIR-823X \u2014 D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via t",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-24",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-29635",
-        "vendor": "D-Link",
-        "product": "DIR-823X",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2024-7399",
-        "description": "Samsung MagicINFO 9 Server \u2014 Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-24",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
-        "vendor": "Samsung",
-        "product": "MagicINFO 9 Server",
-        "ransomware": "Unknown"
-      },
-      {
-        "id": "CVE-2024-57728",
-        "description": "SimpleHelp  SimpleHelp \u2014 SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited ",
-        "score": null,
-        "severity": "HIGH",
-        "published": "2026-04-24",
-        "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
-        "vendor": "SimpleHelp ",
-        "product": "SimpleHelp",
-        "ransomware": "Unknown"
-      }
-    ]
-  }
+  "last_updated": "12-05-2026 08:02 PM",
+  "count": 10,
+  "items": [
+    {
+      "id": "CVE-2026-42208",
+      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorised access to the proxy and the cre",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-08",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-6973",
+      "description": "Ivanti Endpoint Manager Mobile (EPMM) \u2014 Ivanti Endpoint Manager Mobile (EPMM) contains an improper input validation vulnerability that allows a remotely authenticated user with administrative access to achieve remote code execution.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-07",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-6973",
+      "vendor": "Ivanti",
+      "product": "Endpoint Manager Mobile (EPMM)",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-0300",
+      "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an out-of-bounds write vulnerability in the User-ID Authentication Portal (aka Captive Portal) service that can allow an unauthenticated attacker to execute arbitrar",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-06",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0300",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-31431",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an incorrect resource transfer between spheres vulnerability that could allow for privilege escalation.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-01",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-31431",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-41940",
+      "description": "WebPros cPanel & WHM and WP2 (WordPress Squared) \u2014 WebPros cPanel & WHM (WebHost Manager) and WP2 (WordPress Squared) contain an authentication bypass vulnerability in the login flow that allows unauthenticated remote attackers to gain unauthorized ac",
+      "score": null,
+      "severity": "CRITICAL",
+      "published": "2026-04-30",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41940",
+      "vendor": "WebPros",
+      "product": "cPanel & WHM and WP2 (WordPress Squared)",
+      "ransomware": "Known"
+    },
+    {
+      "id": "CVE-2024-1708",
+      "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-04-28",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-32202",
+      "description": "Microsoft Windows \u2014 Microsoft Windows Shell contains a protection mechanism failure vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-04-28",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-32202",
+      "vendor": "Microsoft",
+      "product": "Windows",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2025-29635",
+      "description": "D-Link DIR-823X \u2014 D-Link DIR-823X contains a command injection vulnerability that allows an authorized attacker to execute arbitrary commands on remote devices by sending a POST request to /goform/set_prohibiting via t",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-04-24",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-29635",
+      "vendor": "D-Link",
+      "product": "DIR-823X",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2024-7399",
+      "description": "Samsung MagicINFO 9 Server \u2014 Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-04-24",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
+      "vendor": "Samsung",
+      "product": "MagicINFO 9 Server",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2024-57728",
+      "description": "SimpleHelp  SimpleHelp \u2014 SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-04-24",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
+      "vendor": "SimpleHelp ",
+      "product": "SimpleHelp",
+      "ransomware": "Unknown"
+    }
+  ]
 }
