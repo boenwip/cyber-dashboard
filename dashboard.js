@@ -281,16 +281,21 @@ function renderScamOfWeek(articles) {
 
 // ── AI BRIEFING ────────────────────────────────────────────
 function toggleBriefing() {
-  var body = document.getElementById('briefing-body');
-  var btn  = document.getElementById('briefing-toggle');
-  if (!body) return;
-  var isOpen = body.classList.contains('briefing-body--open');
+  var popup    = document.getElementById('briefing-popup');
+  var backdrop = document.getElementById('briefing-backdrop');
+  var btn      = document.getElementById('briefing-btn');
+  if (!popup) return;
+  var isOpen = popup.classList.contains('briefing-popup--open');
   if (isOpen) {
-    body.classList.remove('briefing-body--open');
+    popup.classList.remove('briefing-popup--open');
+    if (backdrop) backdrop.classList.remove('briefing-backdrop--open');
     if (btn) btn.setAttribute('aria-expanded', 'false');
+    popup.setAttribute('aria-hidden', 'true');
   } else {
-    body.classList.add('briefing-body--open');
+    popup.classList.add('briefing-popup--open');
+    if (backdrop) backdrop.classList.add('briefing-backdrop--open');
     if (btn) btn.setAttribute('aria-expanded', 'true');
+    popup.setAttribute('aria-hidden', 'false');
   }
 }
 
@@ -310,13 +315,13 @@ function loadBriefing() {
         textEl.textContent = item.briefing;
         if (dateEl && item.date) dateEl.textContent = item.date;
       } else {
-        var panel = document.getElementById('briefing-panel');
-        if (panel) panel.style.display = 'none';
+        var btn = document.getElementById('briefing-btn');
+        if (btn) btn.style.display = 'none';
       }
     })
     .catch(function() {
-      var panel = document.getElementById('briefing-panel');
-      if (panel) panel.style.display = 'none';
+      var btn = document.getElementById('briefing-btn');
+      if (btn) btn.style.display = 'none';
     });
 }
 

@@ -18,6 +18,7 @@
   <div class="hdr-left">
     <a href="index.html" class="site-logo" aria-label="pseudosec. home">
       <img src="pseudosec.png" alt="pseudosec." height="30">
+      <span class="site-logo-name">pseudosec<em>.</em></span>
     </a>
     <nav class="site-nav" aria-label="Main navigation">
       <a href="index.html"       class="nav-link">Dashboard</a>
@@ -27,6 +28,7 @@
     </nav>
   </div>
   <div class="hdr-right">
+    <button class="hdr-btn" id="briefing-btn" onclick="toggleBriefing()" aria-expanded="false" aria-label="Open AI briefing">Briefing</button>
     <button class="hdr-btn" id="threat-map-btn" onclick="toggleThreatMap()">🌐 Threat Map</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn">🛡 ACSC</a>
     <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
@@ -43,19 +45,18 @@
   <a href="definitions.html" class="wotd-more">Full glossary ↗</a>
 </div>
 
-<!-- AI BRIEFING -->
-<div class="briefing-panel" id="briefing-panel">
-  <button class="briefing-toggle" id="briefing-toggle" onclick="toggleBriefing()" aria-expanded="false" aria-controls="briefing-body">
-    <span class="briefing-label">AI Briefing</span>
-    <span class="briefing-date" id="briefing-date"></span>
-    <span class="briefing-chevron" id="briefing-chevron" aria-hidden="true">▾</span>
-  </button>
-  <div class="briefing-body" id="briefing-body">
-    <div class="briefing-text" id="briefing-text">
-      <span class="briefing-loading">Loading today's briefing...</span>
-    </div>
+<!-- AI BRIEFING POPUP -->
+<div class="briefing-popup" id="briefing-popup" aria-hidden="true" role="dialog" aria-modal="true" aria-label="AI Briefing">
+  <div class="briefing-popup-hdr">
+    <span class="briefing-popup-label">AI Briefing</span>
+    <span class="briefing-popup-date" id="briefing-date"></span>
+    <button class="briefing-popup-close" onclick="toggleBriefing()" aria-label="Close briefing">✕</button>
+  </div>
+  <div class="briefing-popup-body" id="briefing-text">
+    <span class="briefing-loading">Loading today's briefing...</span>
   </div>
 </div>
+<div class="briefing-backdrop" id="briefing-backdrop" onclick="toggleBriefing()" aria-hidden="true"></div>
 
 <!-- SCAM OF THE WEEK -->
 <div class="scam-callout" id="scam-callout" style="display:none;" aria-label="Scam alert">

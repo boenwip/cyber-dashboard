@@ -98,15 +98,23 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 62px;
+  height: 66px;
   gap: 24px;
   position: sticky;
   top: 0;
   z-index: 100;
 }
 .hdr-left { display: flex; align-items: center; gap: 24px; }
-.site-logo { display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
-.site-logo img { height: 44px; width: auto; display: block; }
+.site-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+.site-logo img { height: 52px; width: auto; display: block; }
+.site-logo-name {
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  color: var(--text);
+  line-height: 1;
+}
+.site-logo-name em { font-style: normal; color: var(--accent); }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link {
   font-size: 13px;
@@ -234,67 +242,85 @@ body {
 }
 .scam-link:hover { text-decoration: underline; }
 
-/* ── AI BRIEFING ── */
-.briefing-panel {
-  background: var(--surface);
-  border-bottom: 0.5px solid var(--border);
+/* ── AI BRIEFING POPUP ── */
+.briefing-popup {
+  position: fixed;
+  top: 76px;
+  right: 40px;
+  width: min(500px, calc(100vw - 80px));
+  max-height: min(560px, calc(100vh - 100px));
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 12px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.20), 0 2px 6px rgba(0,0,0,0.12);
+  display: flex;
+  flex-direction: column;
+  z-index: 200;
+  opacity: 0;
+  transform: scale(0.93) translateY(-6px);
+  transform-origin: top right;
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
-.briefing-toggle {
-  width: 100%;
+.briefing-popup--open {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+  pointer-events: all;
+}
+.briefing-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 199;
+  cursor: default;
+  display: none;
+}
+.briefing-backdrop--open { display: block; }
+.briefing-popup-hdr {
   display: flex;
   align-items: center;
-  gap: 12px;
-  padding: 12px 40px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: inherit;
-  color: inherit;
-  text-align: left;
-  transition: background 0.12s;
+  gap: 10px;
+  padding: 14px 18px 12px;
+  border-bottom: 0.5px solid var(--border);
+  flex-shrink: 0;
 }
-.briefing-toggle:hover { background: var(--surface2); }
-.briefing-label {
+.briefing-popup-label {
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
-  flex-shrink: 0;
 }
-.briefing-date {
+.briefing-popup-date {
   font-family: var(--mono);
   font-size: 11px;
   color: var(--text-4);
 }
-.briefing-chevron {
+.briefing-popup-close {
   margin-left: auto;
+  background: none;
+  border: none;
   color: var(--text-4);
-  font-size: 16px;
+  font-size: 14px;
+  cursor: pointer;
+  padding: 2px 6px;
   line-height: 1;
-  transition: transform 0.25s ease;
-  flex-shrink: 0;
+  font-family: inherit;
+  border-radius: 4px;
 }
-.briefing-toggle[aria-expanded="true"] .briefing-chevron {
-  transform: rotate(180deg);
-}
-.briefing-body {
-  display: grid;
-  grid-template-rows: 0fr;
-  transition: grid-template-rows 0.3s ease;
-}
-.briefing-body--open {
-  grid-template-rows: 1fr;
-}
-.briefing-body > div { overflow: hidden; }
-.briefing-text {
+.briefing-popup-close:hover { color: var(--text); background: var(--surface3); }
+.briefing-popup-body {
   font-size: 14px;
   color: var(--text-2);
   line-height: 1.8;
-  padding: 4px 40px 18px;
-  max-width: 860px;
+  padding: 16px 18px 20px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
 }
 .briefing-loading { font-size: 13px; color: var(--text-3); font-style: italic; }
+@media (max-width: 768px) {
+  .briefing-popup { right: 16px; left: 16px; width: auto; top: 72px; }
+}
 
 /* ── FOOTER ── */
 .site-footer {
@@ -326,12 +352,13 @@ body {
 /* ── MOBILE ── */
 @media (max-width: 900px) {
   .site-header { padding: 0 20px; }
-  .wotd-strip, .scam-callout, .briefing-toggle, .briefing-text, .site-footer { padding-left: 20px; padding-right: 20px; }
+  .wotd-strip, .scam-callout, .site-footer { padding-left: 20px; padding-right: 20px; }
   .page-wrap { padding: 24px 20px; }
 }
 @media (max-width: 768px) {
   .site-nav { display: none; }
-  .site-logo img { height: 34px; }
+  .site-logo img { height: 38px; }
+  .site-logo-name { display: none; }
   .site-footer { flex-direction: column; gap: 4px; text-align: center; }
   .wotd-more { margin-left: 0; }
 }

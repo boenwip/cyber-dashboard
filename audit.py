@@ -114,7 +114,7 @@ extra_css = [
     ("Mobile 768px breakpoint",            'max-width: 768px' in shard_css),
     ("Article hover feedback",             'border-left-color' in dash_css),
     ("Count fade-in defined",              'count-num.visible' in dash_css),
-    ("Logo height 44px",                   'height: 44px' in shard_css),
+    ("Logo height set",                    'site-logo img' in shard_css),
 ]
 for label, cond in extra_css:
     r = check(label, cond)

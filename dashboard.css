@@ -49,7 +49,7 @@
 
 .tracker-body {
   display: grid;
-  grid-template-columns: 1fr 1fr 300px;
+  grid-template-columns: 1fr 1fr minmax(360px, 420px);
   align-items: stretch;
 }
 .tracker-col {
@@ -131,7 +131,7 @@
 .cve-feed {
   overflow-y: auto;
   flex: 1;
-  max-height: 280px;
+  max-height: clamp(220px, 38vh, 380px);
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
@@ -513,7 +513,7 @@
 @media (max-width: 1100px) {
   .tracker-body { grid-template-columns: 1fr 1fr; }
   .tracker-col--cve { grid-column: 1 / -1; border-right: none; border-top: 0.5px solid var(--border); }
-  .cve-feed { max-height: 120px; }
+  .cve-feed { max-height: 180px; }
 }
 @media (max-width: 900px) {
   .tracker-header, .report-summary, .crime-chart,
