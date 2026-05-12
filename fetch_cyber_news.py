@@ -391,6 +391,15 @@ TOPIC_TAG_RULES = [
             "audit", "data governance", "data sovereignty",
         ]
     },
+    {
+        "tag": "Good News",
+        "keywords": [
+            "arrested", "charged", "convicted", "sentenced",
+            "disrupted", "taken down", "seized", "shut down",
+            "law enforcement", "crackdown", "busted",
+            "positive outcome", "security milestone",
+        ]
+    },
 ]
 
 
@@ -676,6 +685,16 @@ def filter_old_articles(articles, days=30):
 # HELPER: Deduplicate articles by title similarity
 # -------------------------------------------------------
 
+def _parse_date_for_sort(date_str):
+    """Parse formatted date string for sort key; returns datetime.min on any failure."""
+    if not date_str:
+        return datetime.datetime.min
+    try:
+        return datetime.datetime.strptime(date_str, '%d-%m-%Y %I:%M %p')
+    except (ValueError, TypeError):
+        return datetime.datetime.min
+
+
 def deduplicate(articles):
     seen_titles = []
     unique = []
@@ -754,11 +773,8 @@ def fetch_news():
                 })
 
     all_articles = deduplicate(all_articles)
-    all_articles = filter_old_articles(all_articles, days=90)
-    all_articles.sort(
-        key=lambda a: (datetime.datetime.strptime(a['date'], '%d-%m-%Y %I:%M %p') if a.get('date') else datetime.datetime.min),
-        reverse=True
-    )
+    all_articles = filter_old_articles(all_articles, days=14)
+    all_articles.sort(key=lambda a: _parse_date_for_sort(a.get('date', '')), reverse=True)
 
     return all_articles
 
@@ -795,10 +811,7 @@ def fetch_tool_updates():
                 "date":    date,
             })
 
-    all_updates.sort(
-        key=lambda a: (datetime.datetime.strptime(a['date'], '%d-%m-%Y %I:%M %p') if a.get('date') else datetime.datetime.min),
-        reverse=True
-    )
+    all_updates.sort(key=lambda a: _parse_date_for_sort(a.get('date', '')), reverse=True)
 
     return all_updates
 
@@ -910,8 +923,8 @@ def generate_briefing(articles):
     today = datetime.datetime.now(AEST).strftime('%d %B %Y')
 
     # Get most recent articles, deduplicated by topic cluster
+    # articles already sorted chronologically by fetch_news() — preserve that order
     recent = [a for a in articles if a.get('date')]
-    recent.sort(key=lambda x: x.get('date',''), reverse=True)
 
     # Simple dedup — skip articles whose title is 80%+ similar to one already included
     seen_words = []

@@ -27,7 +27,7 @@ function initBarChart() {
   setTimeout(function() {
     var b = document.getElementById('b-ransom');
     if (!b) return;
-    document.getElementById('b-ransom').style.width = '11%';
+    b.style.width = '11%';
     document.getElementById('b-id').style.width    = '8%';
     document.getElementById('b-shop').style.width  = '7%';
     document.getElementById('b-bank').style.width  = '6%';
@@ -153,8 +153,7 @@ function renderArticles() {
     if (!a.title) return '';
     if (a.title.toLowerCase().indexOf('sponsored') === 0) return '';
     var title   = a.title.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ')
-      .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>').trim();
+    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').trim();
     if (summary.length < 80 || (a.source || '').toLowerCase().indexOf('google news') > -1) summary = '';
     var href = (a.link && a.link.indexOf('http') === 0) ? a.link : '#';
 
@@ -169,6 +168,7 @@ function renderArticles() {
       var cls = tagClass(t) + (isActive ? ' tag--active' : '');
       return '<span class="' + cls + '" ' +
         'onclick="event.preventDefault();toggleTagFilter(\'topic\',\'' + t.replace(/'/g, "\\'") + '\')" ' +
+        'onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleTagFilter(\'topic\',\'' + t.replace(/'/g, "\\'") + '\')}" ' +
         'role="button" tabindex="0" aria-label="Filter by ' + t + '">' + t + '</span>';
     }).join('');
 
@@ -177,6 +177,7 @@ function renderArticles() {
     var isThActive = activeFilters.threat.indexOf(threatVal) > -1;
     var threatBtn = '<span class="' + threatClass(a.threat) + (isThActive ? ' tag--active' : '') + '" ' +
       'onclick="event.preventDefault();toggleTagFilter(\'threat\',\'' + threatVal + '\')" ' +
+      'onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleTagFilter(\'threat\',\'' + threatVal + '\')}" ' +
       'role="button" tabindex="0" aria-label="Filter by ' + threatVal + ' threat">' + threatDot(a.threat) + '</span>';
 
     var dateStr  = a.date ? formatDateAEST(a.date) : '';
@@ -214,7 +215,7 @@ function renderCVE(items) {
     var added  = c.published ? c.published : '';
     return '<a class="cve-item" href="' + link + '" target="_blank" rel="noopener noreferrer" role="listitem">' +
       '<div class="cve-id-row">' +
-        '<span class="cve-id">' + (c.id || '') + '</span>' +
+        '<span class="cve-id">' + (c.id || '').replace(/</g,'&lt;') + '</span>' +
         '<span class="cve-sev ' + sevCls + '">● ' + sev + '</span>' +
         ransom +
       '</div>' +
@@ -280,8 +281,7 @@ function renderScamOfWeek(articles) {
     .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title; })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
   if (!scams.length) {
-    var el = document.getElementById('scam-callout');
-    if (el) el.style.display = 'none';
+    callout.style.display = 'none';
     return;
   }
   var s = scams[0];
@@ -358,7 +358,7 @@ async function loadData() {
     var data = await res.json();
     allArticles = Array.isArray(data.items) ? data.items : [];
     var ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
-    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts : ''; luEl.classList.add('visible'); }
+    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts : ''; }
     if (fuEl)   fuEl.textContent = ts ? 'Updated ' + ts : '';
     renderArticles();
     renderScamOfWeek(allArticles);
