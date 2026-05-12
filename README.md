@@ -27,7 +27,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **CVE panel** — 10 most recently added entries from the CISA Known Exploited Vulnerabilities catalog. Actively exploited only — not CVSS-scored CVEs from 1999. Ransomware-linked CVEs flagged with ⚠.
 
-**AI daily briefing** — Plain English summary of the day's top Australian cyber stories, generated via the Anthropic API and saved as static JSON. Runs server-side in GitHub Actions — no API key exposed to the browser. Deduplicates clustered stories before summarising. Hides the panel gracefully if no briefing is available.
+**AI daily briefing** — Plain English summary of the day's top Australian cyber stories, generated via the Anthropic API and saved as static JSON. Runs server-side in GitHub Actions — no API key exposed to the browser. Deduplicates clustered stories before summarising. Opens as a floating panel from the header — hides the button gracefully if no briefing is available.
 
 **Scam of the week** — The most recent ScamWatch article, surfaced automatically. Hidden if nothing recent.
 
@@ -35,7 +35,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **News feed** — Up to 30 articles from the last 7 days, sorted by date. Click any tag on an article to filter — active filters shown in a slim bar with one-click clear. Estimated reading time shown per article. Sources: ACSC, ScamWatch, AU Cyber Security Magazine, Security Brief AU, iTnews, ABC Technology, CyberDaily AU, Troy Hunt Blog, Risky Business, Dark Reading, 404 Media, Google News (AU-filtered). Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait farms blocked automatically.
 
-**Tool updates** — Changelog-style sidebar tracking releases and updates for Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva, Claude, and Microsoft 365.
+**Tool updates** — Changelog-style sidebar tracking releases and updates for Google Workspace, Chrome, Asana, Zoom, AI Tools, Canva, Claude, and Microsoft 365. Each tool group displays its brand icon via Simple Icons CDN.
 
 **Breach checker** — Email breach lookup via HaveIBeenPwned. Read-only, not stored, not logged. Falls back to the HIBP site directly if the API blocks browser requests.
 
@@ -57,8 +57,7 @@ pseudosec/
 ├── definitions.css/js      # Glossary styles, search, filter, render
 ├── resources.css/js        # Breach checker
 ├── ai-guide.css/js         # Prompt library
-├── fetch_cyber_news.py     # RSS aggregation + AI briefing pipeline
-├── apply_updates.py        # Tool updates pipeline
+├── fetch_cyber_news.py     # RSS aggregation, tool updates, CVEs + AI briefing
 ├── briefing.json           # AI briefing (auto-generated)
 ├── news.json               # Feed (auto-generated)
 ├── tool_updates.json       # Tool updates (auto-generated)
