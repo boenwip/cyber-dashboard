@@ -261,7 +261,7 @@ function renderScamOfWeek(articles) {
   var callout = document.getElementById('scam-callout');
   if (!callout) return;
   var scams = articles
-    .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link; })
+    .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title; })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
   if (!scams.length) {
     var el = document.getElementById('scam-callout');
@@ -289,9 +289,11 @@ function loadBriefing() {
       return r.json();
     })
     .then(function(data) {
-      if (data.briefing) {
-        textEl.textContent = data.briefing;
-        if (dateEl && data.date) dateEl.textContent = data.date;
+      var item = (data.items && typeof data.items === 'object' && !Array.isArray(data.items))
+        ? data.items : data;
+      if (item.briefing) {
+        textEl.textContent = item.briefing;
+        if (dateEl && item.date) dateEl.textContent = item.date;
       } else {
         var panel = document.getElementById('briefing-panel');
         if (panel) panel.style.display = 'none';

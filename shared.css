@@ -166,6 +166,8 @@ body {
   gap: 10px;
   flex-wrap: wrap;
   text-align: center;
+  opacity: 0;
+  transition: opacity 0.25s ease;
 }
 .wotd-label {
   font-size: 10px;
