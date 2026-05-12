@@ -1,5 +1,5 @@
 {
-  "last_updated": "13-05-2026 08:10 AM",
+  "last_updated": "13-05-2026 09:05 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "13-05-2026 08:10 AM"
+      "date": "13-05-2026 09:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.139",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added agent view (Research Preview): a single list of every Claude Code session \u2014 running, blocked on you, or done. Run <code>claude agents</code> to get started. See ",
-      "date": "13-05-2026 08:10 AM"
+      "date": "13-05-2026 09:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.138",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal fixes</li>\n</ul>",
-      "date": "13-05-2026 08:10 AM"
+      "date": "13-05-2026 09:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.137",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Fixed extension failing to activate on Windows</li>\n</ul>",
-      "date": "13-05-2026 08:10 AM"
+      "date": "13-05-2026 09:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.136",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>\n<",
-      "date": "13-05-2026 08:10 AM"
+      "date": "13-05-2026 09:05 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -69,7 +69,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Is Anthropic\u2019s New A.I. Really That Scary? It Depends Whom You Ask. - The New York Times",
+      "title": "Is Anthropic\u2019s Claude Mythos Really a Cybersecurity Risk? - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1ZnRVhtaGlSMXYxSno0X0U?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1",
       "date": "13-05-2026 02:01 AM"
@@ -147,6 +147,14 @@
       "date": "02-05-2026 01:00 AM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft adds uninvited AI co-author to Word docs - The Register",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEdjejZTRk5OQnJudG94LUdFdk5Fb0JvUWM5djVEYUltbnFPSEtxaDl1X09FVTBTeTVpTVpfWDJ1bHpLM1R2ckxEVFRYNUZ2R3ZRSFE2UVJYOUlLYkx3SHRYZGFTTnF2M1RNUVU3dXdYVDlxS0dWTng4UHZSOWNIdlgybzl5Y2gtZTFicTN3eWJMYjFqMlpWTlh4VjRNNWhjc3pqZjk4N3lpQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEdjejZTRk5OQnJudG94LUdFdk5Fb0JvUWM5djVEYUltbnFPSEtxaDl1X09FVTBTeTVpTVpfWDJ1bHpLM1R2ckxEVFRYNUZ2R3ZRSFE2UVJYOUlLYkx3SHRYZGFTTnF2M1RNUVU3dX",
+      "date": "23-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "An update on recent Claude Code quality reports - Anthropic",
@@ -181,14 +189,6 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.0 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5\" targ",
-      "date": "21-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
@@ -200,6 +200,14 @@
       "title": "Images in ChatGPT are getting a major update - Axios",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=",
+      "date": "21-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.0 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5\" targ",
       "date": "21-04-2026 05:00 PM"
     },
     {
@@ -235,14 +243,6 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT April 2026 Update: OpenAI Rolls Out GPT-5.3 Instant Mini and $100 Pro Plan Amid Growing Backlash - International Business Times Australia",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1RNb1RFZHJ4amdaWkFJSElidU56aGFISzltV2szZnFyb3dVVjgwTHRCMEZTOWxFVElvU2lSVEdBVVJnQzZfN1FWSVlHUTRTS19WakNPMEtEWWI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQOHpKdVZ0elNMM25tbjJuVnpROURMd1lxcUJsbTdLcTkwNUczRXllcDFIb1RyNWVDWVRwa0ZzQk85cnV5ZzI1cm1VRHN6TmdMRHVpVjdNcTcyS3hRRnMtRG5Ya1Z0b3BJRUJKd3pKc1",
-      "date": "15-04-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
@@ -275,12 +275,12 @@
       "date": "18-03-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Here are all the new features Microsoft added to Excel in January 2026 - XDA",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLWRCWlE1eU5UakQyaHNBMWRxZHhPQ01hUXlyQXM2RVN2N2FDZEZYQ1Qtdm5vNjNSeXdvbm1UXw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLW",
-      "date": "28-01-2026 06:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Health - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NN182QVdKeERlaTBWeVNNdTlUY19MNGVZZ1VzeEVhY3FIU1d2SHRLejJpMENpbnFWclYyZTFkb2NWR21Lc1NCVkUwZXVIdGhHeUxTV3RyWkd5WnFIRnJUNFhB?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NN182QVdKeERlaTBWeVNNdTlUY19MNGVZZ1VzeEVhY3FIU1d2SHRLejJpMENpbnFWclYyZTFkb2NWR21Lc1NCVkUwZXVIdGhHeUxTV3RyWkd5WnFIRnJUNFhB?oc=5\" target=\"_bl",
+      "date": "07-01-2026 06:00 PM"
     }
   ]
 }
