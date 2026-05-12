@@ -6,8 +6,12 @@
 
 // ── THEME — apply before paint to avoid flash ──────────────
 (function() {
-  var t = localStorage.getItem('csi-theme') || 'dark';
-  document.documentElement.setAttribute('data-theme', t);
+  try {
+    var t = localStorage.getItem('csi-theme') || 'dark';
+    document.documentElement.setAttribute('data-theme', t);
+  } catch(e) {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
 })();
 
 function toggleTheme() {
