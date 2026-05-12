@@ -864,7 +864,7 @@ def fetch_cves():
 
 def save_json(data, filename):
     output = {
-        "last_updated": datetime.datetime.now().strftime("%d-%m-%Y %I:%M %p"),
+        "last_updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=10))).strftime("%d-%m-%Y %I:%M %p"),
         "count":        len(data),
         "items":        data,
     }
@@ -973,7 +973,7 @@ if __name__ == "__main__":
     cves = fetch_cves()
     if isinstance(cves, dict):
         cves = cves.get('items', [])
-    save_json({'last_updated': datetime.datetime.now().strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
+    save_json({'last_updated': datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=10))).strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
     print(f"  Saved {len(cves)} CVEs to cve.json")
 
     print("\n=== Generating AI briefing ===")
