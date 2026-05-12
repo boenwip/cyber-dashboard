@@ -105,16 +105,16 @@ function renderWotd(terms) {
 
 // ── WEATHER WIDGET ──────────────────────────────────────────
 function weatherIcon(code) {
-  if (!code && code !== 0) return '☁';
-  if (code === 0) return '☀';
-  if (code <= 2)  return '⛅';
-  if (code <= 3)  return '☁';
-  if (code <= 48) return '🌫';
-  if (code <= 67) return '🌧';
-  if (code <= 77) return '❄';
-  if (code <= 82) return '🌦';
-  if (code <= 99) return '⛈';
-  return '☁';
+  if (!code && code !== 0) return '&#x2601;';
+  if (code === 0) return '&#x2600;';
+  if (code <= 2)  return '&#x26C5;';
+  if (code <= 3)  return '&#x2601;';
+  if (code <= 48) return '&#x1F32B;';
+  if (code <= 67) return '&#x1F327;';
+  if (code <= 77) return '&#x2744;';
+  if (code <= 82) return '&#x1F326;';
+  if (code <= 99) return '&#x26C8;';
+  return '&#x2601;';
 }
 
 function initWeather() {
@@ -134,7 +134,7 @@ function initWeather() {
           if (!cur || cur.temperature_2m === undefined) return;
           var icon = weatherIcon(cur.weather_code);
           widget.innerHTML = '<span class="weather-icon">' + icon + '</span>' +
-            '<span class="weather-temp">' + Math.round(cur.temperature_2m) + '°</span>';
+            '<span class="weather-temp">' + Math.round(cur.temperature_2m) + '&#176;</span>';
           widget.style.display = 'flex';
         })
         .catch(function() {});
