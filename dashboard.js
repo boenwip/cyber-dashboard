@@ -329,8 +329,6 @@ function loadBriefing() {
 function initWotd() {
   if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
   renderWotd(DEFINITIONS);
-  var strip = document.getElementById('wotd-strip');
-  if (strip) strip.style.opacity = '1';
 }
 
 // ── DATA LOAD ──────────────────────────────────────────────
@@ -370,8 +368,7 @@ async function loadData() {
     var res3  = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res3.ok) throw new Error('HTTP ' + res3.status);
     var data3 = await res3.json();
-    var cveItems = Array.isArray(data3.items) ? data3.items :
-      (typeof data3.items === 'object' ? (data3.items.items || []) : []);
+    var cveItems = Array.isArray(data3.items) ? data3.items : [];
     renderCVE(cveItems);
   } catch(e) {
     var cveEl = document.getElementById('cve-feed');

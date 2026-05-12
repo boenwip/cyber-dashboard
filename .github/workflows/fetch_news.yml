@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -37,5 +37,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add news.json tool_updates.json cve.json briefing.json || true
           git diff --staged --quiet && echo "No changes" && exit 0
-          git commit -m "chore: update feeds [$(date '+%d-%m-%Y %H:%M') AEST]"
+          git commit -m "chore: update feeds [$(TZ='Australia/Sydney' date '+%d-%m-%Y %H:%M') AEST]"
           git push origin HEAD:main --force-with-lease

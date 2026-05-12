@@ -27,17 +27,25 @@ function checkBreach() {
   resultEl.className = 'hibp-result hibp-result--loading';
   resultEl.textContent = 'Checking against known breaches...';
 
-  // HIBP v3 — no API key required for basic breach check
+  // HIBP v3 — requires a paid API key; gracefully falls back to redirect on 401
   var url = 'https://haveibeenpwned.com/api/v3/breachedaccount/' +
     encodeURIComponent(email) + '?truncateResponse=false';
 
   fetch(url, {
-    headers: {
-      'hibp-api-key': '',
-      'User-Agent': 'pseudosec-dashboard'
-    }
+    headers: { 'User-Agent': 'pseudosec-dashboard' }
   })
   .then(function(r) {
+    if (r.status === 401 || r.status === 403) {
+      resultEl.className = 'hibp-result hibp-result--info';
+      resultEl.innerHTML =
+        '<span class="hibp-icon">ℹ</span>' +
+        '<div>' +
+          '<strong>Check directly on HaveIBeenPwned</strong><br>' +
+          'Visit <a href="https://haveibeenpwned.com" target="_blank" rel="noopener">haveibeenpwned.com</a> ' +
+          'to check your email — it\'s free and takes 10 seconds.' +
+        '</div>';
+      return null;
+    }
     if (r.status === 404) {
       // Not found in any breach
       resultEl.className = 'hibp-result hibp-result--safe';

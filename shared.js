@@ -99,6 +99,8 @@ function renderWotd(terms) {
   var defEl  = document.getElementById('wotd-def');
   if (termEl) termEl.textContent = term.term || '';
   if (defEl)  defEl.textContent  = term.short || '';
+  var strip = document.getElementById('wotd-strip');
+  if (strip) strip.style.opacity = '1';
 }
 
 // ── INIT ────────────────────────────────────────────────────

@@ -564,7 +564,7 @@ def fetch_feed(url):
     try:
         req = urllib.request.Request(
             url,
-            headers={"User-Agent": "Mozilla/5.0"}
+            headers={"User-Agent": "cyber-dashboard/1.0 (github.com/boenwip/cyber-dashboard)"}
         )
         with urllib.request.urlopen(req, timeout=10) as response:
             data = response.read()
@@ -637,7 +637,8 @@ def get_relevance(combined):
 
 def filter_old_articles(articles, days=30):
     import email.utils
-    cutoff = datetime.datetime.now() - datetime.timedelta(days=days)
+    AEST = datetime.timezone(datetime.timedelta(hours=10))
+    cutoff = datetime.datetime.now(AEST).replace(tzinfo=None) - datetime.timedelta(days=days)
     filtered = []
     for article in articles:
         kept = False
@@ -754,7 +755,10 @@ def fetch_news():
 
     all_articles = deduplicate(all_articles)
     all_articles = filter_old_articles(all_articles, days=90)
-    all_articles.sort(key=lambda a: a["date"], reverse=True)
+    all_articles.sort(
+        key=lambda a: (datetime.datetime.strptime(a['date'], '%d-%m-%Y %I:%M %p') if a.get('date') else datetime.datetime.min),
+        reverse=True
+    )
 
     return all_articles
 
@@ -765,6 +769,7 @@ def fetch_news():
 
 def fetch_tool_updates():
     all_updates = []
+    seen_titles = set()
 
     for feed in TOOL_FEEDS:
         print(f"  Fetching: {feed['name']}...")
@@ -772,6 +777,11 @@ def fetch_tool_updates():
 
         for entry in parsed.entries[:5]:
             title   = entry.get("title", "")
+            title_key = title.lower().strip()
+            if title_key in seen_titles:
+                continue
+            if title_key:
+                seen_titles.add(title_key)
             link    = entry.get("link", "")
             summary = entry.get("summary", "")
             date    = parse_date(entry)
@@ -785,7 +795,10 @@ def fetch_tool_updates():
                 "date":    date,
             })
 
-    all_updates.sort(key=lambda a: a["date"], reverse=True)
+    all_updates.sort(
+        key=lambda a: (datetime.datetime.strptime(a['date'], '%d-%m-%Y %I:%M %p') if a.get('date') else datetime.datetime.min),
+        reverse=True
+    )
 
     return all_updates
 
@@ -863,16 +876,20 @@ def fetch_cves():
 
 
 def save_json(data, filename):
+    if isinstance(data, list):
+        count = len(data)
+    elif isinstance(data, dict) and isinstance(data.get('items'), list):
+        count = len(data['items'])
+    else:
+        count = 0
     output = {
         "last_updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=10))).strftime("%d-%m-%Y %I:%M %p"),
-        "count":        len(data),
+        "count":        count,
         "items":        data,
     }
     with open(filename, "w") as f:
         json.dump(output, f, indent=2)
-
-    items = data.get("items", data) if isinstance(data, dict) else data
-    print(f"  Saved {len(items)} items to {filename}")
+    print(f"  Saved {count} items to {filename}")
 
 
 # -------------------------------------------------------
@@ -932,7 +949,7 @@ Articles:
 Write the briefing now. Do not include a title or sign-off — just the paragraphs."""
 
     payload = json.dumps({
-        "model": "claude-opus-4-5",
+        "model": "claude-sonnet-4-6",
         "max_tokens": 400,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
@@ -973,8 +990,7 @@ if __name__ == "__main__":
     cves = fetch_cves()
     if isinstance(cves, dict):
         cves = cves.get('items', [])
-    save_json({'last_updated': datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=10))).strftime('%d-%m-%Y %I:%M %p'), 'items': cves}, 'cve.json')
-    print(f"  Saved {len(cves)} CVEs to cve.json")
+    save_json(cves, 'cve.json')
 
     print("\n=== Generating AI briefing ===")
     AEST = datetime.timezone(datetime.timedelta(hours=10))

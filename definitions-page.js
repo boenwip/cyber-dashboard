@@ -98,6 +98,7 @@ function initSearch() {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+  if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
   renderAlpha(DEFINITIONS);
   renderDefs();
   initSearch();

@@ -126,15 +126,15 @@ Then work through the human lenses.
 
 **Typography**
 - [ ] Body text is readable at current size (no smaller than 13px for secondary text)
-- [ ] Monospace font (IBM Plex Mono) used only for technical content — CVE IDs, timestamps, stats
-- [ ] Fraunces used only for display/headline — article titles, stat numbers, page titles
+- [ ] Monospace font (Hack) used only for technical content — CVE IDs, timestamps, stats
+- [ ] Inter used consistently for all body text, headings, and UI labels
 - [ ] No text is invisible against its background (WCAG AA: 4.5:1 minimum)
 
 **Empty and loading states**
 - [ ] No panel shows "Loading..." permanently — all panels hide gracefully if data is absent
 - [ ] The word of the day either shows a real term or is hidden — never shows "—" or "Loading..."
 - [ ] The scam callout is hidden until it has real content
-- [ ] The briefing panel is hidden if no briefing is available
+- [ ] The briefing button is hidden if no briefing is available
 
 **Cross-theme**
 - [ ] Dark theme: yellow accent (`#f5c842`) on near-black (`#0d0f14`)
