@@ -50,7 +50,7 @@
 .tracker-body {
   display: grid;
   grid-template-columns: 1fr 1fr minmax(360px, 420px);
-  align-items: stretch;
+  align-items: start;
 }
 .tracker-col {
   padding: 14px 20px;
@@ -128,8 +128,7 @@
 .cve-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .cve-feed {
   overflow-y: auto;
-  flex: 1;
-  max-height: clamp(220px, 38vh, 380px);
+  max-height: 160px;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
