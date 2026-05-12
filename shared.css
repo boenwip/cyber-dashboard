@@ -199,11 +199,12 @@ body {
 .scam-callout {
   border-left: 3px solid var(--crit);
   background: rgba(224,120,120,0.05);
-  padding: 12px 40px;
+  padding: 8px 40px;
   border-bottom: 0.5px solid var(--border);
   display: flex;
   align-items: center;
   gap: 14px;
+  min-height: 0;
 }
 .scam-badge {
   display: flex;
@@ -224,6 +225,9 @@ body {
   font-weight: 500;
   color: var(--text);
   line-height: 1.45;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 .scam-meta { font-size: 11px; color: var(--text-3); margin-top: 1px; }
 .scam-link {
@@ -238,7 +242,7 @@ body {
 .briefing-popup {
   position: fixed;
   top: 76px;
-  right: 40px;
+  left: 50%;
   width: min(500px, calc(100vw - 80px));
   max-height: min(560px, calc(100vh - 100px));
   background: var(--surface2);
@@ -249,14 +253,14 @@ body {
   flex-direction: column;
   z-index: 200;
   opacity: 0;
-  transform: scale(0.93) translateY(-6px);
-  transform-origin: top right;
+  transform: translateX(-50%) scale(0.93) translateY(-6px);
+  transform-origin: top center;
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
 }
 .briefing-popup--open {
   opacity: 1;
-  transform: scale(1) translateY(0);
+  transform: translateX(-50%) scale(1) translateY(0);
   pointer-events: all;
 }
 .briefing-backdrop {
@@ -311,8 +315,26 @@ body {
 }
 .briefing-loading { font-size: 13px; color: var(--text-3); font-style: italic; }
 @media (max-width: 768px) {
-  .briefing-popup { right: 16px; left: 16px; width: auto; top: 72px; }
+  .briefing-popup { left: 16px; right: 16px; width: auto; top: 72px; transform: none !important; }
+  .briefing-popup--open { transform: none !important; opacity: 1; pointer-events: all; }
 }
+
+/* ── WEATHER WIDGET ── */
+.weather-widget {
+  display: none;
+  align-items: center;
+  gap: 5px;
+  font-size: 12px;
+  color: var(--text-3);
+  padding: 5px 11px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  cursor: default;
+  white-space: nowrap;
+}
+.weather-icon { font-size: 15px; line-height: 1; }
+.weather-temp { font-family: var(--mono); }
 
 /* ── FOOTER ── */
 .site-footer {

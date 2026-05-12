@@ -949,21 +949,21 @@ def generate_briefing(articles):
 
     prompt = f"""You are writing a daily cyber security briefing for Australian staff at a registered training organisation. Today is {today} AEST.
 
-Based on the following recent articles, write a 2-3 paragraph plain English briefing (150-200 words). 
-- Focus only on what is relevant to Australian organisations, individuals, and the education sector
-- Use clear, non-technical language suitable for people who are not cyber security professionals
+Based on the following recent articles, write a 1-2 paragraph plain English briefing (80-100 words maximum).
+- Focus only on what is directly relevant to Australian organisations or individuals
+- Use clear, non-technical language suitable for non-security professionals
 - Do not repeat the same story twice
-- Do not make up or embellish facts not in the article titles
-- End with one practical tip or action for readers
+- Do not make up or embellish facts
+- End with one short practical tip
 
 Articles:
 {articles_text}
 
-Write the briefing now. Do not include a title or sign-off — just the paragraphs."""
+Write the briefing now. No title, no sign-off — just 1-2 short paragraphs."""
 
     payload = json.dumps({
         "model": "claude-sonnet-4-6",
-        "max_tokens": 400,
+        "max_tokens": 200,
         "messages": [{"role": "user", "content": prompt}]
     }).encode()
 

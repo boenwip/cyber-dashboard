@@ -7,7 +7,7 @@
 <meta property="og:title" content="pseudosec. — Australian Cyber Intelligence">
 <meta property="og:description" content="Live Australian cyber security intelligence — threat advisories, CVE bulletins, scam alerts and sector news.">
 <meta property="og:image" content="pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; object-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; connect-src https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
 <title>pseudosec. — Australian Cyber Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
 <link rel="stylesheet" href="shared.css">
@@ -32,6 +32,7 @@
     <button class="hdr-btn" id="threat-map-btn">🌐 Threat Map</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn">🛡 ACSC</a>
     <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
+    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
     <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
   </div>
 </header>

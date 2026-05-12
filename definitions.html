@@ -7,7 +7,7 @@
 <meta property="og:title" content="Cyber Security Glossary — pseudosec.">
 <meta property="og:description" content="51 cyber security terms explained in plain English — from what every Australian should know to what practitioners talk about every day.">
 <meta property="og:image" content="pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; object-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
 <title>Definitions — pseudosec.</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
 <link rel="stylesheet" href="shared.css">
@@ -28,6 +28,7 @@
     </nav>
   </div>
   <div class="hdr-right">
+    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
     <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
   </div>
 </header>

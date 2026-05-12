@@ -38,11 +38,10 @@ function initBarChart() {
 // ── THREAT MAP ─────────────────────────────────────────────
 function toggleThreatMap() {
   var section = document.getElementById('threat-map-section');
-  var layout  = document.querySelector('.layout');
   if (!section) return;
   var isHidden = section.hidden;
   section.hidden = !isHidden;
-  if (layout) layout.style.display = isHidden ? 'none' : 'grid';
+  document.body.classList.toggle('threat-map-open', isHidden);
   var btn = document.getElementById('threat-map-btn');
   if (btn) btn.textContent = isHidden ? '✕ Close Map' : '🌐 Threat Map';
 }
@@ -275,8 +274,12 @@ function renderTools() {
 function renderScamOfWeek(articles) {
   var callout = document.getElementById('scam-callout');
   if (!callout) return;
+  // Prefer ScamWatch consumer alerts specifically
   var scams = articles
-    .filter(function(a) { return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title; })
+    .filter(function(a) {
+      return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title &&
+        a.source && a.source.toLowerCase().indexOf('scamwatch') > -1;
+    })
     .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
   if (!scams.length) {
     callout.style.display = 'none';
@@ -287,7 +290,7 @@ function renderScamOfWeek(articles) {
   var metaEl  = document.getElementById('scam-meta');
   var linkEl  = document.getElementById('scam-link');
   if (titleEl) titleEl.textContent = s.title || '';
-  if (metaEl)  metaEl.textContent  = (s.source || '') + (s.date ? '  ·  ' + s.date : '');
+  if (metaEl)  metaEl.textContent  = s.date || '';
   if (linkEl)  { linkEl.href = s.link; }
   callout.style.display = 'flex';
 }
@@ -325,7 +328,11 @@ function loadBriefing() {
       var item = (data.items && typeof data.items === 'object' && !Array.isArray(data.items))
         ? data.items : data;
       if (item.briefing) {
-        textEl.textContent = item.briefing;
+        // Render paragraph breaks for readability
+        var paras = item.briefing.split(/\n\n+/);
+        textEl.innerHTML = paras.map(function(p) {
+          return '<p style="margin:0 0 12px 0;">' + p.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,' ') + '</p>';
+        }).join('');
         if (dateEl && item.date) dateEl.textContent = item.date;
       } else {
         var btn = document.getElementById('briefing-btn');

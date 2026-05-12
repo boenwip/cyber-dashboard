@@ -103,9 +103,51 @@ function renderWotd(terms) {
   if (strip) strip.style.opacity = '1';
 }
 
+// ── WEATHER WIDGET ──────────────────────────────────────────
+function weatherIcon(code) {
+  if (!code && code !== 0) return '☁';
+  if (code === 0) return '☀';
+  if (code <= 2)  return '⛅';
+  if (code <= 3)  return '☁';
+  if (code <= 48) return '🌫';
+  if (code <= 67) return '🌧';
+  if (code <= 77) return '❄';
+  if (code <= 82) return '🌦';
+  if (code <= 99) return '⛈';
+  return '☁';
+}
+
+function initWeather() {
+  var widget = document.getElementById('weather-widget');
+  if (!widget || !navigator.geolocation) return;
+  navigator.geolocation.getCurrentPosition(
+    function(pos) {
+      var lat = pos.coords.latitude.toFixed(4);
+      var lon = pos.coords.longitude.toFixed(4);
+      var url = 'https://api.open-meteo.com/v1/forecast?' +
+        'latitude=' + lat + '&longitude=' + lon +
+        '&current=temperature_2m,weather_code&temperature_unit=celsius&timezone=auto';
+      fetch(url)
+        .then(function(r) { return r.json(); })
+        .then(function(data) {
+          var cur = data && data.current;
+          if (!cur || cur.temperature_2m === undefined) return;
+          var icon = weatherIcon(cur.weather_code);
+          widget.innerHTML = '<span class="weather-icon">' + icon + '</span>' +
+            '<span class="weather-temp">' + Math.round(cur.temperature_2m) + '°</span>';
+          widget.style.display = 'flex';
+        })
+        .catch(function() {});
+    },
+    function() {},
+    { timeout: 8000, maximumAge: 600000 }
+  );
+}
+
 // ── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
   markActiveNav();
   var themeBtn = document.getElementById('theme-btn');
   if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+  initWeather();
 });

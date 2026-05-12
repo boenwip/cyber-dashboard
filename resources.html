@@ -7,7 +7,7 @@
 <meta property="og:title" content="Resources &amp; Tools — pseudosec.">
 <meta property="og:description" content="Practical tools for Australians — check if your data has been breached, learn from the best, and connect with the right organisations.">
 <meta property="og:image" content="pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src https://haveibeenpwned.com; object-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src https://haveibeenpwned.com https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
 <title>Resources — pseudosec.</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
 <link rel="stylesheet" href="shared.css">
@@ -28,6 +28,7 @@
     </nav>
   </div>
   <div class="hdr-right">
+    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
     <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
   </div>
 </header>
@@ -174,6 +175,50 @@
         <div class="res-card-name">MXToolbox</div>
         <div class="res-card-desc">Check email security configuration — SPF, DKIM, DMARC. Find out if your domain is properly protected against email spoofing.</div>
         <div class="res-card-tag">Free</div>
+      </a>
+    </div>
+  </section>
+
+  <!-- CTF & PRACTICE -->
+  <section class="res-section">
+    <h2 class="res-section-title">Capture the Flag &amp; Practice</h2>
+    <p class="res-section-sub">Hands-on platforms for building real cyber security skills — from complete beginners to advanced practitioners. CTF (Capture the Flag) challenges let you practice in legal, safe environments.</p>
+    <div class="res-grid res-grid--3">
+      <a href="https://tryhackme.com" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">🚩</div>
+        <div class="res-card-name">TryHackMe</div>
+        <div class="res-card-desc">Browser-based labs covering pentesting, blue teaming, and security fundamentals. Guided learning paths — great for beginners. No setup required.</div>
+        <div class="res-card-tag">Free tier · Beginner friendly</div>
+      </a>
+      <a href="https://www.hackthebox.com" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">💻</div>
+        <div class="res-card-name">Hack The Box</div>
+        <div class="res-card-desc">Industry-standard practice platform with realistic machines, Sherlocks (blue team investigations), and enterprise training tracks.</div>
+        <div class="res-card-tag">Free tier · Intermediate–Advanced</div>
+      </a>
+      <a href="https://picoctf.org" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">🎓</div>
+        <div class="res-card-name">picoCTF</div>
+        <div class="res-card-desc">Beginner-friendly CTF platform from Carnegie Mellon University. Covers cryptography, forensics, web, and binary exploitation. Fully free.</div>
+        <div class="res-card-tag">Free · Beginner</div>
+      </a>
+      <a href="https://ctftime.org" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">🗓</div>
+        <div class="res-card-name">CTFtime</div>
+        <div class="res-card-desc">Global calendar of upcoming CTF competitions. Find events by difficulty and format — a good way to practise against real challenges with a team.</div>
+        <div class="res-card-tag">Free · All levels</div>
+      </a>
+      <a href="https://cyberdefenders.org" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">🔵</div>
+        <div class="res-card-name">CyberDefenders</div>
+        <div class="res-card-desc">Blue team focused labs: incident response, threat hunting, malware analysis, and SIEM investigations. Realistic SOC analyst scenarios.</div>
+        <div class="res-card-tag">Free tier · Blue team · Intermediate</div>
+      </a>
+      <a href="https://www.malware-traffic-analysis.net" target="_blank" rel="noopener" class="res-card">
+        <div class="res-card-icon">🦠</div>
+        <div class="res-card-name">Malware Traffic Analysis</div>
+        <div class="res-card-desc">Free archive of real-world packet captures (PCAPs) for Wireshark practice. Used by security analysts to study malware behaviour and C2 traffic patterns.</div>
+        <div class="res-card-tag">Free · Wireshark · Network analysis</div>
       </a>
     </div>
   </section>
