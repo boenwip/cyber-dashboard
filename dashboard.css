@@ -73,7 +73,7 @@
   margin-bottom: 10px;
 }
 .count-num {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 46px;
   font-weight: 400;
   color: var(--accent);
@@ -96,14 +96,14 @@
 }
 .ms { display: flex; flex-direction: column; gap: 4px; }
 .ms-n {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 20px;
   font-weight: 400;
   line-height: 1;
   color: var(--accent);
 }
-.ms-n--high { color: var(--high); }
-.ms-n--med  { color: var(--med); }
+.ms-n--high { color: var(--accent); }
+.ms-n--med  { color: var(--accent); }
 .ms-l { font-size: 12px; color: var(--text-3); line-height: 1.4; }
 
 /* CVE panel */
@@ -131,7 +131,7 @@
 .cve-feed {
   overflow-y: auto;
   flex: 1;
-  max-height: 200px;
+  max-height: 280px;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
@@ -151,7 +151,7 @@
   flex-wrap: wrap;
 }
 .cve-id {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 12px;
   color: var(--accent);
 }
@@ -160,7 +160,7 @@
 .cve-sev--high     { color: var(--high); }
 .cve-ransomware    { font-size: 10px; color: var(--crit); }
 .cve-desc { font-size: 12px; color: var(--text-3); line-height: 1.5; }
-.cve-date { font-size: 11px; color: var(--text-4); margin-top: 3px; font-family: 'IBM Plex Mono', monospace; }
+.cve-date { font-size: 11px; color: var(--text-4); margin-top: 3px; font-family: var(--mono); }
 
 /* Report summary */
 .report-summary {
@@ -174,7 +174,7 @@
 }
 .rs-item { display: flex; flex-direction: column; gap: 2px; }
 .rs-n {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 16px;
   font-weight: 400;
   color: var(--accent);
@@ -206,7 +206,7 @@
 }
 .bar-wrap {
   display: flex;
-  height: 7px;
+  height: 11px;
   border-radius: 4px;
   overflow: hidden;
   gap: 2px;
@@ -273,13 +273,15 @@
 .layout {
   display: grid;
   grid-template-columns: 1fr 300px;
-  min-height: 600px;
+  min-height: 400px;
 }
 
 /* ── FEED ── */
 .feed { background: var(--bg); border-right: 0.5px solid var(--border); }
 #articles-container {
-  height: 720px;
+  height: calc(100vh - 460px);
+  min-height: 400px;
+  max-height: 860px;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
@@ -317,23 +319,21 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-2);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
 .dot { color: var(--border2); font-size: 10px; }
 .art-date {
   font-size: 11px;
   color: var(--text-3);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
 .art-reading-time {
   font-size: 11px;
   color: var(--text-4);
-  font-style: italic;
 }
 .art-title {
-  font-family: 'Fraunces', Georgia, serif;
   font-size: 16px;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--text);
   line-height: 1.45;
   letter-spacing: -0.01em;
@@ -387,7 +387,9 @@
   border-left: 0.5px solid var(--border);
   display: flex;
   flex-direction: column;
-  height: 720px;
+  height: calc(100vh - 460px);
+  min-height: 400px;
+  max-height: 860px;
   overflow: hidden;
 }
 .sb-hdr {
@@ -400,7 +402,7 @@
   color: var(--text-3);
   flex-shrink: 0;
   background: var(--surface);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
 .tools-scroll {
   flex: 1;
@@ -417,7 +419,7 @@
   letter-spacing: 0.09em;
   text-transform: uppercase;
   color: var(--text-4);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   background: var(--surface2);
   border-top: 0.5px solid var(--border);
 }
@@ -442,14 +444,41 @@
   font-size: 11px;
   color: var(--text-3);
   margin-top: 3px;
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
+
+/* ── TOOL BRAND BADGES ── */
+.tool-name[data-tool]::before {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border-radius: 3px;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 16px;
+  font-size: 8px;
+  font-weight: 800;
+  vertical-align: middle;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: 0;
+  text-transform: none;
+  font-style: normal;
+}
+.tool-name[data-tool="google-workspace"]::before { content: 'G';  background: #4285F4; }
+.tool-name[data-tool="chrome"]::before           { content: 'C';  background: #34A853; }
+.tool-name[data-tool="asana"]::before            { content: 'A';  background: #F06A6A; }
+.tool-name[data-tool="zoom"]::before             { content: 'Z';  background: #2D8CFF; }
+.tool-name[data-tool="chatgpt"]::before          { content: 'AI'; background: #10A37F; font-size: 7px; }
+.tool-name[data-tool="canva"]::before            { content: 'Cv'; background: #00C4CC; font-size: 7px; }
+.tool-name[data-tool="claude"]::before           { content: 'Cl'; background: #CC785C; font-size: 7px; }
+.tool-name[data-tool="microsoft-365"]::before    { content: 'M';  background: #D83B01; }
 
 /* ── HDRM ETA ── */
 .hdr-meta {
   font-size: 11px;
   color: var(--text-4);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
 
 /* ── THREAT MAP ── */

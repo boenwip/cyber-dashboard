@@ -251,7 +251,8 @@ function renderTools() {
         (i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '') +
       '</a>';
     }).join('');
-    return '<div class="tool-group"><div class="tool-name">' +
+    var toolKey = tool.toLowerCase().replace(/[\s\/]+/g, '-').replace(/[^a-z0-9-]/g, '');
+    return '<div class="tool-group"><div class="tool-name" data-tool="' + toolKey + '">' +
       tool.replace(/</g,'&lt;') + '</div>' + rows + '</div>';
   }).join('');
 }
@@ -279,6 +280,20 @@ function renderScamOfWeek(articles) {
 }
 
 // ── AI BRIEFING ────────────────────────────────────────────
+function toggleBriefing() {
+  var body = document.getElementById('briefing-body');
+  var btn  = document.getElementById('briefing-toggle');
+  if (!body) return;
+  var isOpen = body.classList.contains('briefing-body--open');
+  if (isOpen) {
+    body.classList.remove('briefing-body--open');
+    if (btn) btn.setAttribute('aria-expanded', 'false');
+  } else {
+    body.classList.add('briefing-body--open');
+    if (btn) btn.setAttribute('aria-expanded', 'true');
+  }
+}
+
 function loadBriefing() {
   var textEl = document.getElementById('briefing-text');
   var dateEl = document.getElementById('briefing-date');

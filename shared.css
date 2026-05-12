@@ -3,7 +3,8 @@
  * Design tokens, typography, nav, footer — imported by all pages
  */
 
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Fraunces:ital,wght@0,200;0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
@@ -29,7 +30,7 @@ html { scroll-behavior: smooth; }
   --adv:        #7fa8d4;
   --live:       #5aad96;
   --surface-hdr:#13161e;
-  --mono:       'IBM Plex Mono', monospace;
+  --mono:       'Hack', monospace;
   --tag-cyber-bg:rgba(127,168,212,0.12); --tag-cyber-c:#9dc0e0; --tag-cyber-b:rgba(127,168,212,0.22);
   --tag-rto-bg:rgba(165,130,215,0.12);   --tag-rto-c:#c090f0;   --tag-rto-b:rgba(165,130,215,0.22);
   --tag-ai-bg:rgba(90,173,150,0.12);     --tag-ai-c:#70c8b0;    --tag-ai-b:rgba(90,173,150,0.22);
@@ -60,7 +61,7 @@ html { scroll-behavior: smooth; }
   --adv:        #0D3B66;
   --live:       #2a7a62;
   --surface-hdr:#faf8f2;
-  --mono:       'IBM Plex Mono', monospace;
+  --mono:       'Hack', monospace;
   --tag-cyber-bg:rgba(13,59,102,0.08);   --tag-cyber-c:#0D3B66; --tag-cyber-b:rgba(13,59,102,0.20);
   --tag-rto-bg:rgba(100,60,160,0.08);    --tag-rto-c:#502090;   --tag-rto-b:rgba(100,60,160,0.20);
   --tag-ai-bg:rgba(42,122,98,0.08);      --tag-ai-c:#1a6048;    --tag-ai-b:rgba(42,122,98,0.20);
@@ -82,7 +83,7 @@ html { scroll-behavior: smooth; }
 body {
   background: var(--bg);
   color: var(--text);
-  font-family: 'IBM Plex Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   font-size: 15px;
   line-height: 1.65;
   min-height: 100vh;
@@ -178,7 +179,7 @@ body {
   flex-shrink: 0;
 }
 .wotd-term {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 13px;
   font-weight: 500;
   color: var(--text);
@@ -205,6 +206,9 @@ body {
   gap: 14px;
 }
 .scam-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.10em;
@@ -213,14 +217,13 @@ body {
   flex-shrink: 0;
   white-space: nowrap;
 }
+.scam-icon { flex-shrink: 0; }
 .scam-content { flex: 1; min-width: 0; }
 .scam-title {
   font-size: 13px;
   font-weight: 500;
   color: var(--text);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  line-height: 1.45;
 }
 .scam-meta { font-size: 11px; color: var(--text-3); margin-top: 1px; }
 .scam-link {
@@ -235,30 +238,60 @@ body {
 .briefing-panel {
   background: var(--surface);
   border-bottom: 0.5px solid var(--border);
-  padding: 14px 40px;
 }
-.briefing-hdr {
+.briefing-toggle {
+  width: 100%;
   display: flex;
   align-items: center;
-  gap: 10px;
-  margin-bottom: 8px;
+  gap: 12px;
+  padding: 12px 40px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  color: inherit;
+  text-align: left;
+  transition: background 0.12s;
 }
+.briefing-toggle:hover { background: var(--surface2); }
 .briefing-label {
   font-size: 10px;
   font-weight: 700;
   letter-spacing: 0.12em;
   text-transform: uppercase;
   color: var(--accent);
+  flex-shrink: 0;
 }
 .briefing-date {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 11px;
   color: var(--text-4);
 }
+.briefing-chevron {
+  margin-left: auto;
+  color: var(--text-4);
+  font-size: 16px;
+  line-height: 1;
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+.briefing-toggle[aria-expanded="true"] .briefing-chevron {
+  transform: rotate(180deg);
+}
+.briefing-body {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.3s ease;
+}
+.briefing-body--open {
+  grid-template-rows: 1fr;
+}
+.briefing-body > div { overflow: hidden; }
 .briefing-text {
   font-size: 14px;
   color: var(--text-2);
-  line-height: 1.75;
+  line-height: 1.8;
+  padding: 4px 40px 18px;
   max-width: 860px;
 }
 .briefing-loading { font-size: 13px; color: var(--text-3); font-style: italic; }
@@ -281,9 +314,8 @@ body {
 .page-wrap { max-width: 1480px; margin: 0 auto; padding: 40px; }
 .page-hero { margin-bottom: 36px; padding-bottom: 28px; border-bottom: 0.5px solid var(--border); }
 .page-hero-title {
-  font-family: 'Fraunces', serif;
   font-size: 32px;
-  font-weight: 300;
+  font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--text);
   margin-bottom: 10px;
@@ -294,7 +326,7 @@ body {
 /* ── MOBILE ── */
 @media (max-width: 900px) {
   .site-header { padding: 0 20px; }
-  .wotd-strip, .scam-callout, .briefing-panel, .site-footer { padding-left: 20px; padding-right: 20px; }
+  .wotd-strip, .scam-callout, .briefing-toggle, .briefing-text, .site-footer { padding-left: 20px; padding-right: 20px; }
   .page-wrap { padding: 24px 20px; }
 }
 @media (max-width: 768px) {

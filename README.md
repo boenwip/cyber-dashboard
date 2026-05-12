@@ -121,7 +121,7 @@ python3 audit.py
 | Critical | `#e07878` | `#b83a3a` |
 | High | `#d4a84a` | `#8a6020` |
 
-Fonts: IBM Plex Sans (body) · IBM Plex Mono (technical/data) · Fraunces (display). WCAG AA contrast throughout.
+Fonts: Inter (body + headings) · Hack (technical/terminal data). WCAG AA contrast throughout.
 
 ---
 

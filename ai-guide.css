@@ -4,9 +4,8 @@
 
 .ag-section { margin-bottom: 52px; }
 .ag-section-title {
-  font-family: 'Fraunces', serif;
   font-size: 22px;
-  font-weight: 300;
+  font-weight: 600;
   color: var(--text);
   margin-bottom: 8px;
   letter-spacing: -0.02em;
@@ -94,7 +93,7 @@
   letter-spacing: 0.10em;
   text-transform: uppercase;
   color: var(--accent);
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
 }
 .ag-prompt-title {
   font-size: 14px;
@@ -102,7 +101,7 @@
   color: var(--text);
 }
 .ag-prompt-text {
-  font-family: 'IBM Plex Mono', monospace;
+  font-family: var(--mono);
   font-size: 12px;
   color: var(--text-3);
   line-height: 1.7;
