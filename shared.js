@@ -104,4 +104,8 @@ function renderWotd(terms) {
 }
 
 // ── INIT ────────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', markActiveNav);
+document.addEventListener('DOMContentLoaded', function() {
+  markActiveNav();
+  var themeBtn = document.getElementById('theme-btn');
+  if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
+});

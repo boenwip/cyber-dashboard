@@ -103,4 +103,8 @@ document.addEventListener('DOMContentLoaded', function() {
   renderDefs();
   initSearch();
   renderWotd(DEFINITIONS);
+
+  document.querySelectorAll('.def-lvl-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() { filterLevel(btn.dataset.level, btn); });
+  });
 });

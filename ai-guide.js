@@ -53,9 +53,7 @@ function renderPrompts() {
       '<div class="ag-prompt-cat">' + p.cat + '</div>' +
       '<div class="ag-prompt-title">' + p.title.replace(/</g,'&lt;') + '</div>' +
       '<pre class="ag-prompt-text" id="' + id + '">' + p.prompt.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</pre>' +
-      '<button class="ag-copy-btn" onclick="copyPrompt(\'' + id + '\', this)" aria-label="Copy prompt">' +
-        'Copy prompt' +
-      '</button>' +
+      '<button class="ag-copy-btn" data-prompt-id="' + id + '" aria-label="Copy prompt">Copy prompt</button>' +
     '</div>';
   }).join('');
 }
@@ -95,4 +93,18 @@ function copyPrompt(id, btn) {
   });
 }
 
-document.addEventListener('DOMContentLoaded', renderPrompts);
+document.addEventListener('DOMContentLoaded', function() {
+  renderPrompts();
+
+  document.querySelectorAll('.ag-cat-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() { filterPrompts(btn.dataset.cat, btn); });
+  });
+
+  var grid = document.getElementById('prompt-grid');
+  if (grid) {
+    grid.addEventListener('click', function(e) {
+      var copyBtn = e.target.closest('[data-prompt-id]');
+      if (copyBtn) copyPrompt(copyBtn.dataset.promptId, copyBtn);
+    });
+  }
+});

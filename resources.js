@@ -112,12 +112,9 @@ function checkBreach() {
   });
 }
 
-// Allow Enter key in email input
 document.addEventListener('DOMContentLoaded', function() {
   var input = document.getElementById('hibp-email');
-  if (input) {
-    input.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') checkBreach();
-    });
-  }
+  if (input) input.addEventListener('keydown', function(e) { if (e.key === 'Enter') checkBreach(); });
+  var btn = document.getElementById('hibp-btn');
+  if (btn) btn.addEventListener('click', checkBreach);
 });

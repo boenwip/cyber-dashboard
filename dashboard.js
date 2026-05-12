@@ -89,7 +89,7 @@ function updateFilterBar() {
   }
   bar.style.display = 'flex';
   tagsContainer.innerHTML = all.map(function(v) {
-    return '<button class="active-filter-chip" onclick="removeFilter(\'' + v + '\')" aria-label="Remove ' + v + ' filter">' +
+    return '<button class="active-filter-chip" data-remove-filter="' + v.replace(/"/g, '&quot;') + '" aria-label="Remove ' + v + ' filter">' +
       v + ' ✕</button>';
   }).join('');
 }
@@ -162,13 +162,12 @@ function renderArticles() {
     var mins = Math.max(1, Math.ceil(wordCount / 220));
     var readTime = mins + ' min read';
 
-    // Tags — clickable to filter
+    // Tags — clickable to filter (data attributes, handled via event delegation)
     var tags = (a.tags || []).map(function(t) {
       var isActive = activeFilters.topic.indexOf(t) > -1;
       var cls = tagClass(t) + (isActive ? ' tag--active' : '');
       return '<span class="' + cls + '" ' +
-        'onclick="event.preventDefault();toggleTagFilter(\'topic\',\'' + t.replace(/'/g, "\\'") + '\')" ' +
-        'onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleTagFilter(\'topic\',\'' + t.replace(/'/g, "\\'") + '\')}" ' +
+        'data-filter-topic="' + t.replace(/"/g, '&quot;') + '" ' +
         'role="button" tabindex="0" aria-label="Filter by ' + t + '">' + t + '</span>';
     }).join('');
 
@@ -176,8 +175,7 @@ function renderArticles() {
     var threatVal = a.threat || 'Advisory';
     var isThActive = activeFilters.threat.indexOf(threatVal) > -1;
     var threatBtn = '<span class="' + threatClass(a.threat) + (isThActive ? ' tag--active' : '') + '" ' +
-      'onclick="event.preventDefault();toggleTagFilter(\'threat\',\'' + threatVal + '\')" ' +
-      'onkeydown="if(event.key===\'Enter\'||event.key===\' \'){event.preventDefault();toggleTagFilter(\'threat\',\'' + threatVal + '\')}" ' +
+      'data-filter-threat="' + threatVal.replace(/"/g, '&quot;') + '" ' +
       'role="button" tabindex="0" aria-label="Filter by ' + threatVal + ' threat">' + threatDot(a.threat) + '</span>';
 
     var dateStr  = a.date ? formatDateAEST(a.date) : '';
@@ -383,7 +381,8 @@ async function loadData() {
     var res3  = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res3.ok) throw new Error('HTTP ' + res3.status);
     var data3 = await res3.json();
-    var cveItems = Array.isArray(data3.items) ? data3.items : [];
+    var cveItems = Array.isArray(data3.items) ? data3.items
+      : (data3.items && Array.isArray(data3.items.items)) ? data3.items.items : [];
     renderCVE(cveItems);
   } catch(e) {
     var cveEl = document.getElementById('cve-feed');
@@ -399,4 +398,50 @@ document.addEventListener('DOMContentLoaded', function() {
   initWotd();
   loadBriefing();
   loadData();
+
+  // Static button listeners — replaces inline onclick attributes
+  var briefingBtn = document.getElementById('briefing-btn');
+  if (briefingBtn) briefingBtn.addEventListener('click', toggleBriefing);
+
+  var briefingClose = document.querySelector('.briefing-popup-close');
+  if (briefingClose) briefingClose.addEventListener('click', toggleBriefing);
+
+  var briefingBackdrop = document.getElementById('briefing-backdrop');
+  if (briefingBackdrop) briefingBackdrop.addEventListener('click', toggleBriefing);
+
+  var threatMapBtn = document.getElementById('threat-map-btn');
+  if (threatMapBtn) threatMapBtn.addEventListener('click', toggleThreatMap);
+
+  var threatMapClose = document.querySelector('.threat-map-close');
+  if (threatMapClose) threatMapClose.addEventListener('click', toggleThreatMap);
+
+  var clearFiltersBtn = document.querySelector('.clear-filters-btn');
+  if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', clearAllFilters);
+
+  // Event delegation — article tag filters
+  var feed = document.getElementById('articles-container');
+  if (feed) {
+    feed.addEventListener('click', function(e) {
+      var el = e.target.closest('[data-filter-topic]');
+      if (el) { e.preventDefault(); toggleTagFilter('topic', el.dataset.filterTopic); return; }
+      el = e.target.closest('[data-filter-threat]');
+      if (el) { e.preventDefault(); toggleTagFilter('threat', el.dataset.filterThreat); }
+    });
+    feed.addEventListener('keydown', function(e) {
+      if (e.key !== 'Enter' && e.key !== ' ') return;
+      var el = e.target.closest('[data-filter-topic]');
+      if (el) { e.preventDefault(); toggleTagFilter('topic', el.dataset.filterTopic); return; }
+      el = e.target.closest('[data-filter-threat]');
+      if (el) { e.preventDefault(); toggleTagFilter('threat', el.dataset.filterThreat); }
+    });
+  }
+
+  // Event delegation — active filter chips
+  var filterTags = document.getElementById('active-filter-tags');
+  if (filterTags) {
+    filterTags.addEventListener('click', function(e) {
+      var chip = e.target.closest('[data-remove-filter]');
+      if (chip) removeFilter(chip.dataset.removeFilter);
+    });
+  }
 });

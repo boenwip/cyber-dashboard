@@ -7,7 +7,7 @@
 <meta property="og:title" content="pseudosec. — Australian Cyber Intelligence">
 <meta property="og:description" content="Live Australian cyber security intelligence — threat advisories, CVE bulletins, scam alerts and sector news.">
 <meta property="og:image" content="pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; object-src 'none'; base-uri 'self'">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; object-src 'none'; base-uri 'self'">
 <title>pseudosec. — Australian Cyber Intelligence</title>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
 <link rel="stylesheet" href="shared.css">
@@ -28,11 +28,11 @@
     </nav>
   </div>
   <div class="hdr-right">
-    <button class="hdr-btn" id="briefing-btn" onclick="toggleBriefing()" aria-expanded="false" aria-label="Open AI briefing">Briefing</button>
-    <button class="hdr-btn" id="threat-map-btn" onclick="toggleThreatMap()">🌐 Threat Map</button>
+    <button class="hdr-btn" id="briefing-btn" aria-expanded="false" aria-label="Open AI briefing">Briefing</button>
+    <button class="hdr-btn" id="threat-map-btn">🌐 Threat Map</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn">🛡 ACSC</a>
     <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
-    <button class="theme-btn" id="theme-btn" onclick="toggleTheme()" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
+    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
   </div>
 </header>
 
@@ -50,13 +50,13 @@
   <div class="briefing-popup-hdr">
     <span class="briefing-popup-label">AI Briefing</span>
     <span class="briefing-popup-date" id="briefing-date"></span>
-    <button class="briefing-popup-close" onclick="toggleBriefing()" aria-label="Close briefing">✕</button>
+    <button class="briefing-popup-close" aria-label="Close briefing">✕</button>
   </div>
   <div class="briefing-popup-body" id="briefing-text">
     <span class="briefing-loading">Loading today's briefing...</span>
   </div>
 </div>
-<div class="briefing-backdrop" id="briefing-backdrop" onclick="toggleBriefing()" aria-hidden="true"></div>
+<div class="briefing-backdrop" id="briefing-backdrop" aria-hidden="true"></div>
 
 <!-- SCAM OF THE WEEK -->
 <div class="scam-callout" id="scam-callout" style="display:none;" aria-label="Scam alert">
@@ -144,7 +144,7 @@
 <div class="active-filter-bar" id="active-filter-bar" style="display:none;" role="status" aria-live="polite">
   <span class="active-filter-label">Filtered by</span>
   <div class="active-filter-tags" id="active-filter-tags"></div>
-  <button class="clear-filters-btn" onclick="clearAllFilters()">Clear all ✕</button>
+  <button class="clear-filters-btn">Clear all ✕</button>
 </div>
 
 <!-- MAIN LAYOUT -->
@@ -169,7 +169,7 @@
   <div class="threat-map-header">
     <span class="threat-map-title">🌐 Live Global Threat Map</span>
     <span class="threat-map-note">cyberattackmap.net · opens in new tab if blocked by browser</span>
-    <button onclick="toggleThreatMap()" class="threat-map-close" aria-label="Close threat map">✕ Close</button>
+    <button class="threat-map-close" aria-label="Close threat map">✕ Close</button>
   </div>
   <iframe
     src="https://cyberattackmap.net/"

@@ -164,18 +164,26 @@
 
 /* Report summary */
 .report-summary {
-  padding: 10px 40px;
+  padding: 14px 40px;
   border-top: 0.5px solid var(--border);
   background: var(--surface2);
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 8px;
   flex-wrap: wrap;
 }
-.rs-item { display: flex; flex-direction: column; gap: 2px; }
+.rs-item {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  padding: 8px 16px;
+  background: var(--surface);
+  border-radius: 10px;
+  border: 0.5px solid var(--border);
+}
 .rs-n {
   font-family: var(--mono);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
   color: var(--accent);
   line-height: 1;
@@ -187,8 +195,13 @@
   font-weight: 500;
   color: var(--accent);
   text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 0.5px solid var(--accent-b);
+  background: var(--accent-dim);
+  white-space: nowrap;
 }
-.rs-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.rs-link:hover { opacity: 0.8; }
 
 /* ── CRIME CHART ── */
 .crime-chart {
@@ -206,14 +219,14 @@
 }
 .bar-wrap {
   display: flex;
-  height: 11px;
-  border-radius: 4px;
+  height: 14px;
+  border-radius: 8px;
   overflow: hidden;
   gap: 2px;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   background: var(--surface3);
 }
-.bar-seg { height: 100%; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); }
+.bar-seg { height: 100%; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); border-radius: 3px; }
 .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
 .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-2); }
 .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
