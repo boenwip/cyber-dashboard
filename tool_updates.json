@@ -1,5 +1,5 @@
 {
-  "last_updated": "13-05-2026 11:24 AM",
+  "last_updated": "13-05-2026 12:26 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "13-05-2026 11:24 AM"
+      "date": "13-05-2026 12:26 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.139",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added agent view (Research Preview): a single list of every Claude Code session \u2014 running, blocked on you, or done. Run <code>claude agents</code> to get started. See ",
-      "date": "13-05-2026 11:24 AM"
+      "date": "13-05-2026 12:26 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.138",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal fixes</li>\n</ul>",
-      "date": "13-05-2026 11:24 AM"
+      "date": "13-05-2026 12:26 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.137",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Fixed extension failing to activate on Windows</li>\n</ul>",
-      "date": "13-05-2026 11:24 AM"
+      "date": "13-05-2026 12:26 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.136",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.136",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_ENABLE_FEEDBACK_SURVEY_FOR_OTEL</code> to re-enable the session quality survey for enterprises capturing responses through OpenTelemetry</li>\n<",
-      "date": "13-05-2026 11:24 AM"
+      "date": "13-05-2026 12:26 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -153,6 +153,14 @@
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
       "summary": "<p>Microsoft Agent 365\u00a0helps you\u00a0take control\u00a0of agent sprawl\u00a0as\u00a0your\u00a0control plane to\u00a0observe, govern, and\u00a0secure agents\u00a0and their interactions.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-",
       "date": "02-05-2026 01:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft adds uninvited AI co-author to Word docs - The Register",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEdjejZTRk5OQnJudG94LUdFdk5Fb0JvUWM5djVEYUltbnFPSEtxaDl1X09FVTBTeTVpTVpfWDJ1bHpLM1R2ckxEVFRYNUZ2R3ZRSFE2UVJYOUlLYkx3SHRYZGFTTnF2M1RNUVU3dXdYVDlxS0dWTng4UHZSOWNIdlgybzl5Y2gtZTFicTN3eWJMYjFqMlpWTlh4VjRNNWhjc3pqZjk4N3lpQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWEdjejZTRk5OQnJudG94LUdFdk5Fb0JvUWM5djVEYUltbnFPSEtxaDl1X09FVTBTeTVpTVpfWDJ1bHpLM1R2ckxEVFRYNUZ2R3ZRSFE2UVJYOUlLYkx3SHRYZGFTTnF2M1RNUVU3dX",
+      "date": "23-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -273,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Here are all the new features Microsoft added to Excel in January 2026 - XDA",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLWRCWlE1eU5UakQyaHNBMWRxZHhPQ01hUXlyQXM2RVN2N2FDZEZYQ1Qtdm5vNjNSeXdvbm1UXw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQZGNFOUhzcmpJeUQwZzQxRWlHbk5tM09LMk5YRXYyX2ItNjR5aGlGc3NNOThfU1ZGVFIwWW1KMFF2NEFjUlRVWk50WUZsY3I5dDV0clZMQk5UVjdwa0h0QWIxcWxsTUtWbUNnOVdfLW",
-      "date": "28-01-2026 06:00 PM"
     }
   ]
 }
