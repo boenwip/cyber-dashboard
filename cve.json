@@ -1,7 +1,18 @@
 {
-  "last_updated": "14-05-2026 07:14 PM",
+  "last_updated": "15-05-2026 08:08 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-20182",
+      "description": "Cisco Catalyst SD-WAN \u2014 Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-14",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-42208",
       "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the cre",
@@ -61,12 +72,12 @@
       "id": "CVE-2024-1708",
       "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains a path traversal vulnerability which could allow an attacker to execute remote code or directly impact confidential data and critical systems.",
       "score": null,
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-04-28",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-1708",
       "vendor": "ConnectWise",
       "product": "ScreenConnect",
-      "ransomware": "Unknown"
+      "ransomware": "Known"
     },
     {
       "id": "CVE-2026-32202",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
       "vendor": "Samsung",
       "product": "MagicINFO 9 Server",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2024-57728",
-      "description": "SimpleHelp  SimpleHelp \u2014 SimpleHelp contains a path traversal vulnerability that allows admin users to upload arbitrary files anywhere on the file system by uploading a crafted zip file (i.e. zip slip). This can be exploited ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-04-24",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-57728",
-      "vendor": "SimpleHelp ",
-      "product": "SimpleHelp",
       "ransomware": "Unknown"
     }
   ]
