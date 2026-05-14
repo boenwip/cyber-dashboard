@@ -1,14 +1,22 @@
 {
-  "last_updated": "15-05-2026 08:08 AM",
+  "last_updated": "15-05-2026 09:00 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.142",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
+      "date": "15-05-2026 09:00 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "15-05-2026 08:08 AM"
+      "date": "15-05-2026 09:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "15-05-2026 08:08 AM"
+      "date": "15-05-2026 09:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.139",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added agent view (Research Preview): a single list of every Claude Code session \u2014 running, blocked on you, or done. Run <code>claude agents</code> to get started. See ",
-      "date": "15-05-2026 08:08 AM"
+      "date": "15-05-2026 09:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.138",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal fixes</li>\n</ul>",
-      "date": "15-05-2026 08:08 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.137",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.137",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Fixed extension failing to activate on Windows</li>\n</ul>",
-      "date": "15-05-2026 08:08 AM"
+      "date": "15-05-2026 09:00 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -117,7 +117,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Is Anthropic\u2019s Claude Mythos Really a Cybersecurity Risk? - The New York Times",
+      "title": "Is Anthropic\u2019s New A.I. Really That Scary? It Depends Whom You Ask. - The New York Times",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1ZnRVhtaGlSMXYxSno0X0U?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1",
       "date": "13-05-2026 02:01 AM"
