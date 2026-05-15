@@ -1,7 +1,18 @@
 {
-  "last_updated": "15-05-2026 08:27 PM",
+  "last_updated": "16-05-2026 03:41 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-42897",
+      "description": "Microsoft Microsoft \u2014 Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be ex",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-15",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
+      "vendor": "Microsoft",
+      "product": "Microsoft",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-20182",
       "description": "Cisco Catalyst SD-WAN \u2014 Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges ",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-29635",
       "vendor": "D-Link",
       "product": "DIR-823X",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2024-7399",
-      "description": "Samsung MagicINFO 9 Server \u2014 Samsung MagicINFO 9 Server contains a path traversal vulnerability that could allow an attacker to write arbitrary files as system authority.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-04-24",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-7399",
-      "vendor": "Samsung",
-      "product": "MagicINFO 9 Server",
       "ransomware": "Unknown"
     }
   ]
