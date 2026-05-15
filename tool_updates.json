@@ -1,5 +1,5 @@
 {
-  "last_updated": "16-05-2026 03:41 AM",
+  "last_updated": "16-05-2026 07:57 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.142",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
-      "date": "16-05-2026 03:41 AM"
+      "date": "16-05-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "16-05-2026 03:41 AM"
+      "date": "16-05-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "16-05-2026 03:41 AM"
+      "date": "16-05-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.139",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added agent view (Research Preview): a single list of every Claude Code session \u2014 running, blocked on you, or done. Run <code>claude agents</code> to get started. See ",
-      "date": "16-05-2026 03:41 AM"
+      "date": "16-05-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.138",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal fixes</li>\n</ul>",
-      "date": "16-05-2026 03:41 AM"
+      "date": "16-05-2026 07:57 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI just released new personal finance features for ChatGPT customers - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdi1JU0tXOFdZTE5aczVUM2swZENyN3dSR0FTU1FFYWEydXVQbTdjUU1BU29nY3VEbzBCTHBSQkE0Y2ZrQld2ajg3cHJkUTN3MzRoS3dla3JJeUYta1BzbThZREtQanpyVFZhSy1iWDRDZU1XUU9iY2NBQk95d3pfQ25BRWtkSHdoUERmdE5VWXJhWm9Eenk3ZzZHMFF1NFFKb0tSSEV5OA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQdi1JU0tXOFdZTE5aczVUM2swZENyN3dSR0FTU1FFYWEydXVQbTdjUU1BU29nY3VEbzBCTHBSQkE0Y2ZrQld2ajg3cHJkUTN3MzRoS3dla3JJeUYta1BzbThZREtQanpyVFZhSy1iWD",
+      "date": "16-05-2026 02:54 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -51,12 +59,12 @@
       "date": "15-05-2026 07:43 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI brings Codex to ChatGPT for iPhone, iPad, and Android with these features - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU9ZV1FabjNvUmZFQzJYMjcwS0dnTjdUVGdHQU9oZFRWVzZobHNlcXpITg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU",
-      "date": "15-05-2026 06:14 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude is telling users to go to sleep mid-session. Users are annoyed but Anthropic says it's a tic - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEppbVdmOGZYMVh3V0ZPNGFiOXVETkZCblhQaU5xN0w3bnBnZlFPM0ZuWUtzN1VsZ1J3bmU1Y2lFLUdYaEdVc3NycUQ0cENWNWl2cVFMeUJXbUtPWVV4Si1PZndBVXBtSUhzaHJzNmZnQ0R0MG1fRkxoNmpLS3NYME85TjlEZ2VYRV81T0pHVW42aEZQSV9WSkRpYU4?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxNdEppbVdmOGZYMVh3V0ZPNGFiOXVETkZCblhQaU5xN0w3bnBnZlFPM0ZuWUtzN1VsZ1J3bmU1Y2lFLUdYaEdVc3NycUQ0cENWNWl2cVFMeUJXbUtPWVV4Si1PZndBVXBtSUhzaHJzNm",
+      "date": "15-05-2026 07:11 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -93,7 +101,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions \u2014 with a catch - Venturebeat",
+      "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions \u2014 with a catch - VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdng4Q3p1N3R1QXN3ZEtQdDZrd2xVM09jcWwxRTFra181TUh5TXJ3V3F6Y2tvMzVHSGZ1aXBkczlrYi1zdFU5VWNXS3d4YlJoaHFxUjBQUzBzNVM3aWJwT0NnOGdRMUg1SW4wTlM3Z25zZ3Y0OXZoSm84d1VKcVlWQnhYa0tsc2VhR3BjWTJ2czdBbUROVUJsZ2gtYkFuRTg4N21YZWdWWk9TbFNZZmdnRElHcThnbVluNjJweWNQdUdidFBvZjNPOA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdng4Q3p1N3R1QXN3ZEtQdDZrd2xVM09jcWwxRTFra181TUh5TXJ3V3F6Y2tvMzVHSGZ1aXBkczlrYi1zdFU5VWNXS3d4YlJoaHFxUjBQUzBzNVM3aWJwT0NnOGdRMUg1SW4wTlM3Z2",
       "date": "14-05-2026 08:15 AM"
@@ -113,6 +121,14 @@
       "link": "http://chromereleases.googleblog.com/2026/05/chrome-beta-for-desktop-update_0573188611.html",
       "summary": "<p>The Beta channel has been updated to 149.0.7827.14 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0",
       "date": "14-05-2026 01:28 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft May 2026 Patch Tuesday Fixes 120 Flaws - The Cyber Express",
+      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBtZFlCaXB2QlBuajdQWmlWTFA4X25pemg3Y21HWjNHMTVLUkR1cXk0QVIwVEMwMkQtckpVT01sNkpHTXY1ZGxyUUNzc19veGlNRFAxZU5PNTVROXNnMGpvS3lwOG5UUnhqbHktWW9R0gFuQVVfeXFMUG1kWUJpcHZCUG5qN1BaaVZMUDhfbml6aDdjbUdaM0cxNUtSRHVxeTRBUjBUQzAyRC1ySlVPTWw2SkdNdjVkbHJRQ3NzX294aU1EUDFlTk81NVE5c2cwam9LeXA4blRSeGpseS1Zb1E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTFBtZFlCaXB2QlBuajdQWmlWTFA4X25pemg3Y21HWjNHMTVLUkR1cXk0QVIwVEMwMkQtckpVT01sNkpHTXY1ZGxyUUNzc19veGlNRFAxZU5PNTVROXNnMGpvS3lwOG5UUnhqbHktWW9R0g",
+      "date": "13-05-2026 04:48 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -157,10 +173,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI set to add remote Codex control to ChatGPT mobile app - TestingCatalog AI News",
-      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXZfV0ZPdkgyQVpGOXotQS01RWhQSHpCVEtQbG1Vdm1mYlRrTmpYMGhMWEFIS3JHZUdPbDVITUR3RUFKaS1XX1otV1c3Sno2RXRaVGNnVThoU0tjazlLc1FscGhoMXpJRHBCcXp1cnVrNHZhWjlRSjBFcmMtUTRRSURYT19XVWVucXRGVE1VNFpvNGluM25j?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXZfV0ZPdkgyQVpGOXotQS01RWhQSHpCVEtQbG1Vdm1mYlRrTmpYMGhMWEFIS3JHZUdPbDVITUR3RUFKaS1XX1otV1c3Sno2RXRaVGNnVThoU0tjazlLc1FscGhoMXpJRHBCcXp1cn",
-      "date": "11-05-2026 03:07 AM"
+      "title": "OpenAI launches new voice intelligence features in its API - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEVKNVBfWjRiOU9oWWM0Zkh4elFUbWtaMVd6RDVFeXVpTVU0TVZvTzVxbVVaMTdVWW9CejVZcklRTGFZWkhGRG1MS1NQb1V5VEF0MGxnbE9VZzVqZ0tBa2MzYjluZWpOME5wT0VBQzBFbFV4UDBfbDVlQ2tXeDZnUG5IMzdsODNXZ2NHa3I2VndTRk5XZUxXYg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEVKNVBfWjRiOU9oWWM0Zkh4elFUbWtaMVd6RDVFeXVpTVU0TVZvTzVxbVVaMTdVWW9CejVZcklRTGFZWkhGRG1MS1NQb1V5VEF0MGxnbE9VZzVqZ0tBa2MzYjluZWpOME5wT0VBQz",
+      "date": "07-05-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -189,10 +205,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Claude for Creative Work - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iUlZoVHFnVnNVdnZGeFBkUWJidEU0TnJ0aGdBTGNucDR2a1FLalhDT3d6emV4b1dQcGItWTc3eHZIVEt4MkN5NFVwblVmNmpURXEwX3pRZS1rdXpNX0gtbktQYVpSZw?oc=5\" targe",
-      "date": "28-04-2026 05:00 PM"
+      "title": "An update on recent Claude Code quality reports - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5\" tar",
+      "date": "23-04-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -208,14 +224,6 @@
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
-      "date": "22-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic investigating claim of unauthorised access to Mythos AI tool - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5\" target=\"_blank\">Anthr",
       "date": "22-04-2026 05:00 PM"
     },
     {
@@ -273,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
       "date": "04-03-2026 06:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
-      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
