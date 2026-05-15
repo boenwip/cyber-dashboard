@@ -1,5 +1,5 @@
 {
-  "last_updated": "15-05-2026 04:09 PM",
+  "last_updated": "15-05-2026 07:27 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.142",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
-      "date": "15-05-2026 04:09 PM"
+      "date": "15-05-2026 07:27 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "15-05-2026 04:09 PM"
+      "date": "15-05-2026 07:27 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "15-05-2026 04:09 PM"
+      "date": "15-05-2026 07:27 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.139",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.139",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added agent view (Research Preview): a single list of every Claude Code session \u2014 running, blocked on you, or done. Run <code>claude agents</code> to get started. See ",
-      "date": "15-05-2026 04:09 PM"
+      "date": "15-05-2026 07:27 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.138",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.138",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal fixes</li>\n</ul>",
-      "date": "15-05-2026 04:09 PM"
+      "date": "15-05-2026 07:27 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -85,7 +85,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions \u2014 with a catch - VentureBeat",
+      "title": "Anthropic reinstates OpenClaw and third-party agent usage on Claude subscriptions \u2014 with a catch - Venturebeat",
       "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdng4Q3p1N3R1QXN3ZEtQdDZrd2xVM09jcWwxRTFra181TUh5TXJ3V3F6Y2tvMzVHSGZ1aXBkczlrYi1zdFU5VWNXS3d4YlJoaHFxUjBQUzBzNVM3aWJwT0NnOGdRMUg1SW4wTlM3Z25zZ3Y0OXZoSm84d1VKcVlWQnhYa0tsc2VhR3BjWTJ2czdBbUROVUJsZ2gtYkFuRTg4N21YZWdWWk9TbFNZZmdnRElHcThnbVluNjJweWNQdUdidFBvZjNPOA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOdng4Q3p1N3R1QXN3ZEtQdDZrd2xVM09jcWwxRTFra181TUh5TXJ3V3F6Y2tvMzVHSGZ1aXBkczlrYi1zdFU5VWNXS3d4YlJoaHFxUjBQUzBzNVM3aWJwT0NnOGdRMUg1SW4wTlM3Z2",
       "date": "14-05-2026 08:15 AM"
@@ -107,14 +107,6 @@
       "date": "14-05-2026 01:28 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic expands Claude's AI tools for law firms, lawyers - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbHpGV0l6eTJkRDdzV0VtWnZ0bS1CZVh1dVFpREJJZlVvVmJXSFlKVmhmc2NBVmFXYUppOThVSDhjLVllMk5neFB3TElFTS1FX2ktLWN3Z2gyTkZhOWQyd3IzdGlsazd6Rkp1dDB4enBiTVRSalc5S0RqX1o3RjhlQnF0dkdNbXliVndaeURhVURHVXRwRzZCeVRwdkJ1eDVyejdzb0hDRGM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQbHpGV0l6eTJkRDdzV0VtWnZ0bS1CZVh1dVFpREJJZlVvVmJXSFlKVmhmc2NBVmFXYUppOThVSDhjLVllMk5neFB3TElFTS1FX2ktLWN3Z2gyTkZhOWQyd3IzdGlsazd6Rkp1dDB4en",
-      "date": "13-05-2026 06:24 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days - BleepingComputer",
@@ -129,14 +121,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1ZnRVhtaGlSMXYxSno0X0U?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1",
       "date": "13-05-2026 02:01 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-agent-governance-intelligent-workflows-and-connected-app-experiences/",
-      "summary": "<p>See what's new in Copilot Studio, April 2026: updates to workflows, increased control over agent operations, and an expanded agent usage estimator.</p>\n<p>The post <a href=\"https://www.microsoft.co",
-      "date": "12-05-2026 03:25 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -163,14 +147,6 @@
       "date": "08-05-2026 08:24 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "See the New AI Features Microsoft Just Added to Teams and Word - Geeky Gadgets",
-      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1DRVRudVZZa2kyQVhkcUhaUV91Q0JOU2RTNDBjeUNxS2t5T25aT0p6cjktSjkzTFdLTjlSN1NOSDdxQUU2RWQ0QWV5STIyZ1lJdk8teTVGOXpTc3VlM1lhMTl6ZENIMERUVFctRFhB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibkFVX3lxTE1DRVRudVZZa2kyQVhkcUhaUV91Q0JOU2RTNDBjeUNxS2t5T25aT0p6cjktSjkzTFdLTjlSN1NOSDdxQUU2RWQ0QWV5STIyZ1lJdk8teTVGOXpTc3VlM1lhMTl6ZENIMERUVFctRFhB?o",
-      "date": "05-05-2026 11:13 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
@@ -185,6 +161,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
       "summary": "<p>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes.</p>\n<p>The post <a href=\"https://www.microso",
       "date": "05-05-2026 08:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Agents for financial services - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5\" target=\"_blank\">Agents f",
+      "date": "05-05-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -221,9 +205,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Claude Mythos AI unauthorised access claim probed by Anthropic - BBC",
+      "title": "Anthropic investigating claim of unauthorised access to Mythos AI tool - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5\" target=\"_blank\">Claud",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFB2NzZaZlJ3Y21VbHdvNm43anJ4SU41WS10cjAxb3NaSWFFOFlDSWFIRDR0MUtfQ1NXVmJkUFhGWVlkYnlzUmtRbDBsQTktYzhWakRHVlFYSjBPQQ?oc=5\" target=\"_blank\">Anthr",
       "date": "22-04-2026 05:00 PM"
     },
     {
@@ -240,7 +224,7 @@
       "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
-      "date": "20-04-2026 05:00 PM"
+      "date": "20-04-2026 12:15 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -267,6 +251,14 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Bring your everyday business apps into the flow of work with agents in Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/13/bring-your-everyday-business-apps-into-the-flow-of-work-with-agents-in-microsoft-365-copilot/",
+      "summary": "<p>Microsoft 365 Copilot\u00a0can\u00a0now\u00a0bring your go-to apps directly into the conversation, which closes the gap between AI-powered insight and real, in-app action.</p>\n<p>The post <a href=\"https://www.mic",
+      "date": "14-04-2026 01:00 AM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva releases first major update to its free Affinity software - CG Channel",
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
       "date": "04-03-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
