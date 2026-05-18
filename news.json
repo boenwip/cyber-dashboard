@@ -1,15 +1,150 @@
 {
-  "last_updated": "18-05-2026 09:00 PM",
-  "count": 103,
+  "last_updated": "19-05-2026 08:00 AM",
+  "count": 113,
   "items": [
     {
+      "source": "Security Brief Australia",
+      "title": "Security concerns top barrier to AI adoption, report says",
+      "link": "https://securitybrief.com.au/story/security-concerns-top-barrier-to-ai-adoption-report-says",
+      "summary": "Businesses are struggling to deploy AI safely as security fears now outrank cost, with 48% naming them the chief adoption barrier.",
+      "date": "19-05-2026 07:51 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
-      "title": "The Boring Stuff is Dangerous Now",
+      "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
+      "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
+      "date": "19-05-2026 07:43 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
+      "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
+      "summary": "The now patched vulnerabilities in the rapidly growing AI agent framework allow attackers to steal credentials, escalate privileges, and maintain persistence.",
+      "date": "19-05-2026 07:24 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Concentric AI adds Claude compliance auditing integration",
+      "link": "https://securitybrief.com.au/story/concentric-ai-adds-claude-compliance-auditing-integration",
+      "summary": "Companies using Claude can now log prompts, responses and attachments for compliance, easing oversight of sensitive data shared by staff.",
+      "date": "19-05-2026 02:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SMBs adopt AI faster than they secure it, Sage says",
+      "link": "https://securitybrief.com.au/story/smbs-adopt-ai-faster-than-they-secure-it-sage-says",
+      "summary": "Many smaller firms lack the expertise and controls to counter AI-enabled phishing and deepfakes, Sage's research shows.",
+      "date": "19-05-2026 02:00 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
+      "summary": "Security experts have long warned that insecure automatic tank gauge (ATG) systems exposed on the Internet can be tampered with by threat actors.",
+      "date": "19-05-2026 01:41 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Trump\u2019s immigration crackdown could cost up to $479bn in lost taxes over 10 years - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdG1ycmVZSnBpMU94QUtoOVJpM1pOMEJtYUxON1Z0WUpFMWw1WE04OVlTbkRCVmVQQXJvNEp1ZHlFMWdJTVQ5NGlWMjdDbTBZbDZtdEEwaXBOUGtoQzRMcEl3U3FFMWp6SGpzd1pGSjFqRlhPTzFpR2x0TWZReTdnZ18ySWtHZ0NoX25mYkQ2Qm5SZnJ5Tmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQdG1ycmVZSnBpMU94QUtoOVJpM1pOMEJtYUxON1Z0WUpFMWw1WE04OVlTbkRCVmVQQXJvNEp1ZHlFMWdJTVQ5NGlWMjdDbTBZbDZtdEEwaXBOUGtoQzRMcEl3U3FFMWp6SGpzd1pGSjFqRlhPTzFpR2x0TWZReTdnZ18ySWtHZ0NoX25mYkQ2Qm5SZnJ5Tmc?oc=5\" target=\"_blank\">Trump\u2019s immigration crac",
+      "date": "19-05-2026 01:10 AM",
+      "tags": [
+        "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Researchers Wanted Preschool Teachers to Wear Cameras to Train AI",
+      "link": "https://www.404media.co/researchers-wanted-preschool-teachers-to-wear-cameras-to-train-ai/",
+      "summary": "\u201cWith your permission, your child\u2019s lead teacher may wear a small teacher-worn camera that captures the teacher's approximate first-person perspective, and/or we may place a fixed video camera in the classroom,\u201d a document given to parents and later shared with 404 Media reads.",
+      "date": "18-05-2026 11:17 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "The Boring Stuff Is Dangerous Now",
       "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
       "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
       "date": "18-05-2026 11:00 PM",
       "tags": [
         "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Boulevard of Broken Dreams: 2 Decades of Cyber Fails",
+      "link": "https://www.darkreading.com/cyber-risk/broken-dreams-2-decades-cyber-fails",
+      "summary": "From the MGM and Caesars fiasco and MOVEit's patch nightmare to epic business blunders and the jaded reality of living in a post-breach world, Dark Reading looks back at the mistakes, miscalculations, systemic failures, and cringeworthy moments that still have us shaking our heads.",
+      "date": "18-05-2026 10:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Anthropic to share Mythos cyber flaw findings with global finance watchdog - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcU5wb3BXTVA1SUpZT3ZhSV9CU1REQzN0Um9IczZ1aTktRkJ4Rmp3dHFHYm0yRUZvYVBZU0pPbWdHSzJLZ1NORmZwTXY5V3kzYVNEaU1iOWlqUXlPNV9velJqSjlSbXI2V2dCUE53QVRXejV1ZmlEbWdnOXRPaFdxUjNUMWt5OTYyaXF4NjBZYjRCWTBFamRZaUFGWk1BRWtyVHVKdWF6WkI4VlpEaGxoaTZyZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcU5wb3BXTVA1SUpZT3ZhSV9CU1REQzN0Um9IczZ1aTktRkJ4Rmp3dHFHYm0yRUZvYVBZU0pPbWdHSzJLZ1NORmZwTXY5V3kzYVNEaU1iOWlqUXlPNV9velJqSjlSbXI2V2dCUE53QVRXejV1ZmlEbWdnOXRPaFdxUjNUMWt5OTYyaXF4NjBZYjRCWTBFamRZaUFGWk1BRWtyVHVKdWF6WkI4VlpEaGxoaTZyZw?oc=5\" t",
+      "date": "18-05-2026 09:19 PM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Medium",
       "audience": [],
@@ -29,6 +164,21 @@
         "Enterprise"
       ],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 AU Cyber",
+      "title": "Canvas hack: How many Aussie student records were stolen - The Australian",
+      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRGVjVVRJMDg3ZjBsWmRDLUtCdkd3elYyXzhEdHZkZDhKdUxCam9leHU4ODVKaENJNUxLWGFIZWJ4a0FnaXU2ZVlSSHRaVjF4NTVVT0NzU3hyU1gyY0xBVVVMaDNzU1ZOMjRPWHUzQ0FRLXhOMzBCWURpWVI4b2pVbU53d29nRDViTXptemJqXzZIYlZMQnRyODBOb3RkelY0Sk9OdXRLQUxMZC1YNS1RZGpBczdrRk01MkdlRmlSc25ZUGVOQXFYNUQ3a1hRTnptNHZhemV4V3FES1ZyVExUVkI1N2FTcmpkVlpadEdFN0Z2NW9LTFdlWENmNno4cXBSeWtmaHpkd0o1V1ZBSGJpVGdManFXdjFrRzc40gGgAkFVX3lxTE52OUNWc1dMVGtRY3BXNXlXQXE2eTNMckV3ZTNKUkxsZTBhMzM1T0tmTjVCTG5BZHg2Ul9td1FmNDRack4xTEpLRV91TjlBX0EyU3lkVVR5SnFsNG9JY1J3WDNyOUJTZHV6XzJ2RkZOOGRoTVlybG0wcl9ZVC1ZOFI2b2U1NUYyQmpzY0V0SWVaQkFILWU0Y3dMczlwYldmNW5QSXY1Q3FkSnpOUFpTVGJRVmdhRzNVdU1VaE44ZTlmOVJCLS1GR0I0ZHRGeGxfVndxeDk1R2tETXoxRm9LYjJHZFVhNm56M1BwNFpUaE9zdjB3cWFCSl9BZHFYMXY0Q2xWeGlvRllIMkNoOFBsLWVLbTJ1dGJVZTBuQmMtb1ZuRQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwJBVV95cUxQRGVjVVRJMDg3ZjBsWmRDLUtCdkd3elYyXzhEdHZkZDhKdUxCam9leHU4ODVKaENJNUxLWGFIZWJ4a0FnaXU2ZVlSSHRaVjF4NTVVT0NzU3hyU1gyY0xBVVVMaDNzU1ZOMjRPWHUzQ0FRLXhOMzBCWURpWVI4b2pVbU53d29nRDViTXptemJqXzZIYlZMQnRyODBOb3RkelY0Sk9OdXRLQUxMZC1YNS1RZGpBczdrRk01Mk",
+      "date": "18-05-2026 05:07 PM",
+      "tags": [
+        "AU Cyber",
+        "Education",
+        "EdTech"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
     },
     {
       "source": "Security Brief Australia",
@@ -118,23 +268,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Baidam & AUSCERT sign Australia cybersecurity pact",
-      "link": "https://securitybrief.com.au/story/baidam-auscert-sign-australia-cybersecurity-pact",
-      "summary": "The deal will pool threat intelligence, incident response and training as Australian organisations face rising phishing and fraud risks.",
-      "date": "18-05-2026 10:53 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Cowbell appoints Gerry Power as General Manager, Australia",
       "link": "https://australiancybersecuritymagazine.com.au/cowbell-appoints-gerry-power-as-general-manager-australia/?utm_source=rss&utm_medium=rss&utm_campaign=cowbell-appoints-gerry-power-as-general-manager-australia&utm_source=rss&utm_medium=rss&utm_campaign=cowbell-appoints-gerry-power-as-general-manager-australia",
@@ -162,34 +295,6 @@
       "audience": [
         "Enterprise"
       ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 AU Cyber",
-      "title": "Canvas hack: How many Aussie student records were stolen - The Australian",
-      "link": "https://news.google.com/rss/articles/CBMimwJBVV95cUxQRGVjVVRJMDg3ZjBsWmRDLUtCdkd3elYyXzhEdHZkZDhKdUxCam9leHU4ODVKaENJNUxLWGFIZWJ4a0FnaXU2ZVlSSHRaVjF4NTVVT0NzU3hyU1gyY0xBVVVMaDNzU1ZOMjRPWHUzQ0FRLXhOMzBCWURpWVI4b2pVbU53d29nRDViTXptemJqXzZIYlZMQnRyODBOb3RkelY0Sk9OdXRLQUxMZC1YNS1RZGpBczdrRk01MkdlRmlSc25ZUGVOQXFYNUQ3a1hRTnptNHZhemV4V3FES1ZyVExUVkI1N2FTcmpkVlpadEdFN0Z2NW9LTFdlWENmNno4cXBSeWtmaHpkd0o1V1ZBSGJpVGdManFXdjFrRzc40gGgAkFVX3lxTE52OUNWc1dMVGtRY3BXNXlXQXE2eTNMckV3ZTNKUkxsZTBhMzM1T0tmTjVCTG5BZHg2Ul9td1FmNDRack4xTEpLRV91TjlBX0EyU3lkVVR5SnFsNG9JY1J3WDNyOUJTZHV6XzJ2RkZOOGRoTVlybG0wcl9ZVC1ZOFI2b2U1NUYyQmpzY0V0SWVaQkFILWU0Y3dMczlwYldmNW5QSXY1Q3FkSnpOUFpTVGJRVmdhRzNVdU1VaE44ZTlmOVJCLS1GR0I0ZHRGeGxfVndxeDk1R2tETXoxRm9LYjJHZFVhNm56M1BwNFpUaE9zdjB3cWFCSl9BZHFYMXY0Q2xWeGlvRllIMkNoOFBsLWVLbTJ1dGJVZTBuQmMtb1ZuRQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwJBVV95cUxQRGVjVVRJMDg3ZjBsWmRDLUtCdkd3elYyXzhEdHZkZDhKdUxCam9leHU4ODVKaENJNUxLWGFIZWJ4a0FnaXU2ZVlSSHRaVjF4NTVVT0NzU3hyU1gyY0xBVVVMaDNzU1ZOMjRPWHUzQ0FRLXhOMzBCWURpWVI4b2pVbU53d29nRDViTXptemJqXzZIYlZMQnRyODBOb3RkelY0Sk9OdXRLQUxMZC1YNS1RZGpBczdrRk01Mk",
-      "date": "18-05-2026 10:07 AM",
-      "tags": [
-        "AU Cyber",
-        "Education",
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cowbell appoints Gerry Power as general manager Australia",
-      "link": "https://securitybrief.com.au/story/cowbell-appoints-gerry-power-as-general-manager-australia",
-      "summary": "As cyber claims rise and broker demand grows, the insurer is deepening its Australian push with a newly created local leadership role.",
-      "date": "18-05-2026 09:55 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "AU General"
     },
     {
@@ -236,6 +341,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Angus Taylor says migrants are a \u2018net drain\u2019 on Australia. The numbers say the opposite is true - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxObTJoX1d1dmVTVldRRFlRRkZTY2QxMk44ZjhhYTZrc05Ed3gwQlB0UkxhZUZqcG9UNEMzSFpnX3Z2aGUzZS14a0NqZU9OYUV3aTFHVHE5Qm1nT290Xzl0Nlo3dWgzU1o1dUYwVFI3U084QUJHaHlTMWhXUnctM3B5T3cxcEtzcFRLMVpxakUxQXFhRkk2TG9NMnlkaTZoRWJwOENSUDhlUnNQUWdpMndITWh1bi1UVHZxRkZMdWtlcThrQmVESXlRRHpiLTVoUEFRWV9vWlhhSFlaMzU1X3NuNQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi4AFBVV95cUxObTJoX1d1dmVTVldRRFlRRkZTY2QxMk44ZjhhYTZrc05Ed3gwQlB0UkxhZUZqcG9UNEMzSFpnX3Z2aGUzZS14a0NqZU9OYUV3aTFHVHE5Qm1nT290Xzl0Nlo3dWgzU1o1dUYwVFI3U084QUJHaHlTMWhXUnctM3B5T3cxcEtzcFRLMVpxakUxQXFhRkk2TG9NMnlkaTZoRWJwOENSUDhlUnNQUWdpMndITWh1bi1UVHZxRk",
+      "date": "16-05-2026 12:40 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "Dark Reading",
       "title": "Congress Puts Heat on Instructure After Canvas Outage",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks",
@@ -246,6 +364,21 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Health agency names two schools affected by Berkshire meningitis outbreak - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmk1aVdaYkdlZThNU2IyVmtlVS1jWXNPeG5uc0ZSRUdhR1Rma0ZOQmZIUjN3RHJRenF5SnZNRXFLakhkdGMzSlJYRHdJVnBwdGxDWXdfYl9WTFpyUnZxRjc5eUZkQjd4ZnZRZjNTSDM1WE1scjVLSFB3WDN4dXQ4YzJWUDFmVDlVUjhPWXhnYlBGTFgyV1AySEVURlR6S05QMTdrQVR3eUJmTE1EMGg5WFpR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPNmk1aVdaYkdlZThNU2IyVmtlVS1jWXNPeG5uc0ZSRUdhR1Rma0ZOQmZIUjN3RHJRenF5SnZNRXFLakhkdGMzSlJYRHdJVnBwdGxDWXdfYl9WTFpyUnZxRjc5eUZkQjd4ZnZRZjNTSDM1WE1scjVLSFB3WDN4dXQ4YzJWUDFmVDlVUjhPWXhnYlBGTFgyV1AySEVURlR6S05QMTdrQVR3eUJmTE1EMGg5WFpR?oc=5\" tar",
+      "date": "16-05-2026 03:27 AM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
       "relevance": "Sector"
     },
     {
@@ -285,6 +418,32 @@
       "date": "16-05-2026 01:00 AM",
       "tags": [
         "EdTech"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Mali\u2019s forces target rebel alliance in junta\u2019s fight to keep power - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUNOc0FpMUQ4ZU15VE50NlV1SDlfLVFqRnBudWlHWERCVEhKZW8xNTVxeGc4UHh1REVSMlZUSUhTS2xLMGRsQS1Xal9adEhYejBKY01rUlg0bGp3X3hVcWFSQW5IWWlpSW90U3RlUkFCckNPTE1QWHBLMzdXbjZ1ZmJaVnVRRG9tQTlKd3FtTzE2UQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPcUNOc0FpMUQ4ZU15VE50NlV1SDlfLVFqRnBudWlHWERCVEhKZW8xNTVxeGc4UHh1REVSMlZUSUhTS2xLMGRsQS1Xal9adEhYejBKY01rUlg0bGp3X3hVcWFSQW5IWWlpSW90U3RlUkFCckNPTE1QWHBLMzdXbjZ1ZmJaVnVRRG9tQTlKd3FtTzE2UQ?oc=5\" target=\"_blank\">Mali\u2019s forces target rebel al",
+      "date": "16-05-2026 12:57 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "\u2018I didn\u2019t want to be the guinea pig\u2019: inside tech\u2019s AI-fueled manager purge | AI (artificial intelligence) - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5wMkdteXhIcmNQZVFKc3NnbVc3RXVaMEJ1aDZDeVMyMUlPUzBuVTVXclJWN3U3cklpSkx1MVdDOVk1aFRMMW9JV3UzTzg5ZGNvU2FtUF8tUzNDYXU1SUttek1WYWJaazV5dE5pVnJINGRvZHJFSWM5Qjd4SUI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifEFVX3lxTE5wMkdteXhIcmNQZVFKc3NnbVc3RXVaMEJ1aDZDeVMyMUlPUzBuVTVXclJWN3U3cklpSkx1MVdDOVk1aFRMMW9JV3UzTzg5ZGNvU2FtUF8tUzNDYXU1SUttek1WYWJaazV5dE5pVnJINGRvZHJFSWM5Qjd4SUI?oc=5\" target=\"_blank\">\u2018I didn\u2019t want to be the guinea pig\u2019: inside tech\u2019s AI-fuele",
+      "date": "15-05-2026 09:36 PM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -493,6 +652,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Modern antisemitism built on old Jewish stereotypes and tropes, royal commission told - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOWFwdFdETmR5Y2JxYlA0R1ZZNTJzTnVXaDQtWHlDeFp3R08tVl9VZW93N0RzOVY1VGZBS0ZOSUltYUgxMGVmUVBZb0U2aFFjT2hkM3NjR1REVnlxdHFjMEZ6WkFpVEdoazVIM2poZ051c2VmaVdmM1A3eDJDMlBiMThTUnVrSW05dXBXMzQwYmdKVEJPeTVncGh5N25SZjE5SjJybEh6b09rUDRLcERndFZveWs5dTVpQWxNMllEeEFCbEFwRHI4NFJwYURERmt0MVNpUA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPOWFwdFdETmR5Y2JxYlA0R1ZZNTJzTnVXaDQtWHlDeFp3R08tVl9VZW93N0RzOVY1VGZBS0ZOSUltYUgxMGVmUVBZb0U2aFFjT2hkM3NjR1REVnlxdHFjMEZ6WkFpVEdoazVIM2poZ051c2VmaVdmM1A3eDJDMlBiMThTUnVrSW05dXBXMzQwYmdKVEJPeTVncGh5N25SZjE5SjJybEh6b09rUDRLcERndFZveWs5dTVpQW",
+      "date": "14-05-2026 04:41 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 Risky Business",
       "title": "Srsly Risky Biz: The AI Regulation Knife Fight - Risky Business Newsletters",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9VV0VmOU9XQ0tuYk0wbkNCZV9zdzVCeEdHRGVUY2p2cnljNmlDNVkzdmpSTGIxeUQtM0p6bHY0TzJjT0NGOC1sUmtldUhjSFB3dVZJVHhwTTNqa1N4QlJIX3hOeEZDVXpGUWlPeGNvVzVSQ09jNnMycA?oc=5",
@@ -625,6 +797,22 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 AI Progress",
+      "title": "Australia Generative AI Market 2026: Enterprise Adoption, Automation & AI-Driven Innovation - vocal.media",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNYW0wQl9qZnRONGNOdFNoNWZHT1dYWGJ4XzN4WVB6ZmJTc1VNbnFZbTQzS3p1MVg5d2hNaV93cWVhMFpkVXZOMjYxV243Y2FvMXV2VmtYNEE5TWxrSjR2YkhJNVNBdldqZlgtYkx2TDFqT0tSWVRXSkkwV2VlNTB4Unh1d0N2MFA5VEVjc0RxRzg4MUpkYVgzQzI4ZDIwMnNMQmRVUVFlZ21nenczZTN1emVvWS1xZ3h5MFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNYW0wQl9qZnRONGNOdFNoNWZHT1dYWGJ4XzN4WVB6ZmJTc1VNbnFZbTQzS3p1MVg5d2hNaV93cWVhMFpkVXZOMjYxV243Y2FvMXV2VmtYNEE5TWxrSjR2YkhJNVNBdldqZlgtYkx2TDFqT0tSWVRXSkkwV2VlNTB4Unh1d0N2MFA5VEVjc0RxRzg4MUpkYVgzQzI4ZDIwMnNMQmRVUVFlZ21nenczZTN1emVvWS1xZ3h5MF",
+      "date": "14-05-2026 02:44 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
       "source": "404 Media",
       "title": "Podcast: The Chinese Deepfake Software Powering Scams",
       "link": "https://www.404media.co/podcast-the-chinese-deepfake-software-powering-scams/",
@@ -651,19 +839,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 AU Cyber",
-      "title": "Major update after Aussie student data hacked - News.com.au",
-      "link": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxNZHhiNzdtRlVDTUZGZll2U3E5TFN3UkhFSmZmVTJVazY1WS05aGs2OGVJZ0VvbVhzVnlVVks4QjZMMWhlcG9lM0VKZDFmcndVWXBsay1IRlhjdmVVQ1ZkM2NFYS03S3F4dlg2N3J1Q0ZpNTNvRWt0Y1Z5RmZ2dlRFdEtKeW1wRHFtcmx2d1FzZlgzTU9iOGs0alB6TEJoN3drVDZOZzdnM2F5U0ZIbWxzUTZFaFNkUzF5VGNUenRkZFlxSXVYdG93amhpVGJYVGJJRHdnTC1TUzZMdUVxaU5fdUl1VDVlcFJoNUJWdzRKa3lRUTB0cG9WbHhyZGpxR2FZTnhpS0FId18tQXEwX0RjNmlhVjZld3pfdTM0RGtCRHEwa2Z2TERMUtIBrgJBVV95cUxOQWlIQm9DSWVhN1RiY19oQWtxREtiZDRJeVQ0bl80QjRUOVVZZ0o4N0tIdHI0cWZkYjhFOW5CYzNZcms3OE1CcHNWYmowanBXZjBjQ2lWdTRMcXhjanhqTlJqbWplNWwzMXNXOTJ0ME1Qa0xzay0xc2JsRnBVN1AyYWN0WkJhSGc3ZllOVGVNNjQ5TzVWUjRiVThLMERHeHV5WFFjemFYQWlJZkJmQ1FjWWI2NEdHTFV1eVI5TXQ2bTBYTExVRXQ0a3d6bXg0OHE5VHhNejdrY0FWM2tCYUM2dFhEMmYtZDAxOTVsbmhPSnlSZ1ZhdmFHYlNqellUejQteWlYLXJ4MDFzVGpFRHlNYUJSVENzR1FxV0R3RGFmVjFrdmtNLU9yOFZaYjNLQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAJBVV95cUxNZHhiNzdtRlVDTUZGZll2U3E5TFN3UkhFSmZmVTJVazY1WS05aGs2OGVJZ0VvbVhzVnlVVks4QjZMMWhlcG9lM0VKZDFmcndVWXBsay1IRlhjdmVVQ1ZkM2NFYS03S3F4dlg2N3J1Q0ZpNTNvRWt0Y1Z5RmZ2dlRFdEtKeW1wRHFtcmx2d1FzZlgzTU9iOGs0alB6TEJoN3drVDZOZzdnM2F5U0ZIbWxzUTZFaFNkUzF5VG",
-      "date": "13-05-2026 05:04 PM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     },
     {
       "source": "Google News \u2014 VET Workforce",
@@ -798,6 +973,19 @@
     },
     {
       "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "UAE\u2019s secret attack on Iran risks drawing Gulf states into the war - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHpfMW5XdkFGQjFRN3VLYm5ZWm1FbVc4cW1rcTJNTWJMbENTX09SajR0STZGWmFvSlBkdlZKNS02X2lrbGNCckpPYWRmdEtvWkhDTW9hajhMUHhNeThlQ0hNVTZJUXFIMTFVZ09vcVFySW0zRDVHSmhXaGFHQmlZbUlHMEdvV2VkRG5tRU9LbFVrM2F0c0RwcXJJbFFDRFJsWTFOT3RDbw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQSHpfMW5XdkFGQjFRN3VLYm5ZWm1FbVc4cW1rcTJNTWJMbENTX09SajR0STZGWmFvSlBkdlZKNS02X2lrbGNCckpPYWRmdEtvWkhDTW9hajhMUHhNeThlQ0hNVTZJUXFIMTFVZ09vcVFySW0zRDVHSmhXaGFHQmlZbUlHMEdvV2VkRG5tRU9LbFVrM2F0c0RwcXJJbFFDRFJsWTFOT3RDbw?oc=5\" target=\"_blank\">U",
+      "date": "13-05-2026 02:37 AM",
+      "tags": [
+        "RTO / VET"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
       "title": "Canvas platform strikes deal with hackers to delete students\u2019 stolen data - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ1ZtQklxa1djY05JOFZ4MlRaa0Jsb0dWLU14ZUhzSXdhcGVsWUxYLW5icXA4ZFhlU3hMWTgyclZfbWxFaHBqdVI3MHh2eXJ6ZFh3MzI0RDRUN0Q3WktqZ1NhV0dCX1F6UWNrcGFvQUJ3ZGxWUGlEZHllTHI5Qmh2cUJmQ1Y2eWxEVlNaSmVVdmRfS0k?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMikwFBVV95cUxPZ1ZtQklxa1djY05JOFZ4MlRaa0Jsb0dWLU14ZUhzSXdhcGVsWUxYLW5icXA4ZFhlU3hMWTgyclZfbWxFaHBqdVI3MHh2eXJ6ZFh3MzI0RDRUN0Q3WktqZ1NhV0dCX1F6UWNrcGFvQUJ3ZGxWUGlEZHllTHI5Qmh2cUJmQ1Y2eWxEVlNaSmVVdmRfS0k?oc=5\" target=\"_blank\">Canvas platform strikes deal",
@@ -822,21 +1010,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 AI & EdTech",
-      "title": "Australia EdTech Market 2026: Digital Learning, AI Integration & Future of Education - vocal.media",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1dlYXhmeW9SRlA1RWZXaTNFNVFWMjZ6MTVjazFfbXI1TFFFaUFZV1hSODQ5a19XZWsxTjMtTk5HQXZCTHNFeFdFVE5oajB1X0l1d0ctVF9LWHdYeFo4VW1rdGhXZ19aLU5lNTdwMTV1eGxveGNvU3NyTi1WZkx2RzhzU2JHRnMxMzFfZkVQNmZoVDR2OEpuajdxZEJ0V3lNQlk4RUZGR3Q3bXVuZ25sMnFn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPc1dlYXhmeW9SRlA1RWZXaTNFNVFWMjZ6MTVjazFfbXI1TFFFaUFZV1hSODQ5a19XZWsxTjMtTk5HQXZCTHNFeFdFVE5oajB1X0l1d0ctVF9LWHdYeFo4VW1rdGhXZ19aLU5lNTdwMTV1eGxveGNvU3NyTi1WZkx2RzhzU2JHRnMxMzFfZkVQNmZoVDR2OEpuajdxZEJ0V3lNQlk4RUZGR3Q3bXVuZ25sMnFn?oc=5\" tar",
-      "date": "12-05-2026 08:06 PM",
-      "tags": [
-        "AU Cyber",
-        "Education",
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     },
     {
       "source": "Google News \u2014 Risky Business",
@@ -914,22 +1087,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 AU Cyber",
-      "title": "Adelaide University students critical after global data breach - Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVBzU0txQWtEWjJKQmN5eEE5ZFQtTVJnTjY2bWw5Zjc5dDFIWmZyV1kyc184QjNrSmRiT1BmWTdkY01POHV0QkZSZUtGOFgwekoxRGRXZDBXRk00amxzQ2I1WVFPOEQ0TlN3U0FYQ1FBdHNqSGxtZmpWdjZnZW9fSDFvT3BHQ2JVYkdsNUZCNHJMV3FlMXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVBzU0txQWtEWjJKQmN5eEE5ZFQtTVJnTjY2bWw5Zjc5dDFIWmZyV1kyc184QjNrSmRiT1BmWTdkY01POHV0QkZSZUtGOFgwekoxRGRXZDBXRk00amxzQ2I1WVFPOEQ0TlN3U0FYQ1FBdHNqSGxtZmpWdjZnZW9fSDFvT3BHQ2JVYkdsNUZCNHJMV3FlMXc?oc=5\" target=\"_blank\">Adelaide University stud",
-      "date": "12-05-2026 06:31 AM",
-      "tags": [
-        "AU Cyber",
-        "Education"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Sector"
-    },
-    {
       "source": "Dark Reading",
       "title": "'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros",
       "link": "https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros",
@@ -943,19 +1100,6 @@
         "Enterprise"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "Students Boo Commencement Speaker After She Calls AI the \u2018Next Industrial Revolution\u2019",
-      "link": "https://www.404media.co/ucf-ai-commencement-speaker-booed/",
-      "summary": "A commencement speaker at the University of Central Florida was booed, with graduating humanities students yelling out, \"AI SUCKS!\"",
-      "date": "11-05-2026 11:03 PM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     },
     {
       "source": "Dark Reading",
@@ -1026,6 +1170,22 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Thousands attend rally against antisemitism outside Downing Street - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUW1fMkhzWWJLOVBrRDBjbVBCODhNM0JKVUl4VER0ejVlaHN6MWoyUmdPbmpqTF9Xa05IbVBtQ1FwMWZod0s2b2tMTDhScFZ0dGJDWmlvVXBDeHVsNV90a2xJcGJoUEtpWUVSSVIxNXBjamxsTTJ0VmVieERTOG5teVA2cGdhLUdhaFJYU2VLcVFQeEpfWXBONE51Vzl3Z3VwTnRnYktGUW5NVlVKVVB3cQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQUW1fMkhzWWJLOVBrRDBjbVBCODhNM0JKVUl4VER0ejVlaHN6MWoyUmdPbmpqTF9Xa05IbVBtQ1FwMWZod0s2b2tMTDhScFZ0dGJDWmlvVXBDeHVsNV90a2xJcGJoUEtpWUVSSVIxNXBjamxsTTJ0VmVieERTOG5teVA2cGdhLUdhaFJYU2VLcVFQeEpfWXBONE51Vzl3Z3VwTnRnYktGUW5NVlVKVVB3cQ?oc=5\" targe",
+      "date": "10-05-2026 05:00 PM",
+      "tags": [
+        "RTO / VET",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Direct"
+    },
+    {
       "source": "Dark Reading",
       "title": "ShinyHunters Claims Second Attack Against Instructure",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-second-attack-instructure",
@@ -1039,6 +1199,20 @@
       "relevance": "Sector"
     },
     {
+      "source": "Google News \u2014 Privacy & Compliance",
+      "title": "Cybersecurity Breach Cost in Australia 2026 | Complete Guide - appinventiv.com",
+      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9CcEhhdFprWFBzS1pqZzZXQUMyaGpNamFPNzRJVmg0QVI0RHZkYUdxX3dfSU5BR1dhaVNGZDVONjFMd1dkUUZyYU13OUllM3ZRNGM2NEE3OXh2UFRJYmhxQW1wTldNT2d6RzV6QkFvLXNzMFU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE9CcEhhdFprWFBzS1pqZzZXQUMyaGpNamFPNzRJVmg0QVI0RHZkYUdxX3dfSU5BR1dhaVNGZDVONjFMd1dkUUZyYU13OUllM3ZRNGM2NEE3OXh2UFRJYmhxQW1wTldNT2d6RzV6QkFvLXNzMFU?oc=5\" target=\"_blank\">Cybersecurity Breach Cost in Australia 2026 | Complete Guide</a>&nbsp;&n",
+      "date": "09-05-2026 01:53 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
       "source": "Google News \u2014 AU Cyber",
       "title": "The Cyber Incident Review Board - Department of Home Affairs Website",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVUd2WlVZME9FdzlodFlicnY0X1NnN055bldKYzdoY0RacUVHZWxjenZ4eF9aVGxrQ0YyeUpHQmo3RjdCc3BMMlpfYnoyZ0dScUQ1S2hWMUxTcHRoamZTSEQ0ZUNrN1JiUVhDS1RYSmxVR3VBTE95NEFxMllCOWJRRXZaXzdCR1lpWjRZTHp5R01XbU5CeUxLTFNEMWdLQQ?oc=5",
@@ -1050,22 +1224,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 AU Cyber",
-      "title": "Students receive ransom messages after learning system cyberattack - Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkRscW9Vd00tQmx5dkNlX3c5LXRFYkg1cDd6cjBFaFNhTkhnNXg3R0FuNHViMTd0bFRGMlI2TnlWMWFTUzg3OEdPV1gxaU9ESC1IeEx6SjJWbnpNUVRtMlEtYlpTNmhGdWFDVV8zZnlCd2dKMFA2bkVHeUoxQzF1WHdOVTBBd0IxYW9lOE1VZ2dwNTNQRGRiYzJOemFkVFJQT0dsOUR3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNYkRscW9Vd00tQmx5dkNlX3c5LXRFYkg1cDd6cjBFaFNhTkhnNXg3R0FuNHViMTd0bFRGMlI2TnlWMWFTUzg3OEdPV1gxaU9ESC1IeEx6SjJWbnpNUVRtMlEtYlpTNmhGdWFDVV8zZnlCd2dKMFA2bkVHeUoxQzF1WHdOVTBBd0IxYW9lOE1VZ2dwNTNQRGRiYzJOemFkVFJQT0dsOUR3?oc=5\" target=\"_blank\">Stu",
-      "date": "08-05-2026 05:00 PM",
-      "tags": [
-        "AU Cyber",
-        "Education"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 AU Scams",
@@ -1090,6 +1248,19 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxORnAxcU5HU2RkeFpoWGNvWmxTT1I0MjNXNnpQblExSzFtZ25uWlg1TmhSVnY3cWp5MUszUldKT093LTM2OEd5ajdwbUZIaTBCOUljUUtSRHJyY0NWNHg2UnpsaHRnSWZaSElaWXVCMXlJSk9ZaHhBTENER05FcEdLMG1qZlJOM25nZUg5aVktQQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxORnAxcU5HU2RkeFpoWGNvWmxTT1I0MjNXNnpQblExSzFtZ25uWlg1TmhSVnY3cWp5MUszUldKT093LTM2OEd5ajdwbUZIaTBCOUljUUtSRHJyY0NWNHg2UnpsaHRnSWZaSElaWXVCMXlJSk9ZaHhBTENER05FcEdLMG1qZlJOM25nZUg5aVktQQ?oc=5\" target=\"_blank\">Australian Managed IT Services Fo",
       "date": "08-05-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 AU Cyber",
+      "title": "newsGP - Global cyberattack impacts more than 9000 institutions - Royal Australian College of General Practitioners (RACGP)",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOT1VkSHp3V0s3c1dTc2s0alZNV1N3MW1UTjVVN19VcHd2ZURHQ1E4YmI0cHJmT3NDeXZwOERhQlpnOXNrcHNFRzhNakVQNUFGUFRxX1BLZ1VyZy1kTEcyOU1hVTJ4RnBGZ1BMYUVvTGU4QlFBeGpGODVHdEVPajM1b1VmM0dfd2xDNnJteDVnZ0hJZXprcE1FSDRTcEI?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxOT1VkSHp3V0s3c1dTc2s0alZNV1N3MW1UTjVVN19VcHd2ZURHQ1E4YmI0cHJmT3NDeXZwOERhQlpnOXNrcHNFRzhNakVQNUFGUFRxX1BLZ1VyZy1kTEcyOU1hVTJ4RnBGZ1BMYUVvTGU4QlFBeGpGODVHdEVPajM1b1VmM0dfd2xDNnJteDVnZ0hJZXprcE1FSDRTcEI?oc=5\" target=\"_blank\">newsGP - Global ",
+      "date": "08-05-2026 04:40 PM",
       "tags": [
         "AU Cyber"
       ],
@@ -1154,7 +1325,7 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 AU Cyber",
+      "source": "Google News \u2014 TAFE Australia",
       "title": "Major data breach sees student details compromised - Australian Broadcasting Corporation",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTVQc2NDREJKNnIxZ0p3WWxGNThuM181cmNJRDhjUUFkYTBhTURKWlhQNDdtUDFDRF9IWmdLOHNlZHBZeE0zT1NXTU1MUHM2VWUtY2xETzBNQlM5azlDT3hEZ2lWeFZocFFOc1U3bG9wUWp4MHdiVmlpQ0lvTGtOdlVaWHFYUQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxNaTVQc2NDREJKNnIxZ0p3WWxGNThuM181cmNJRDhjUUFkYTBhTURKWlhQNDdtUDFDRF9IWmdLOHNlZHBZeE0zT1NXTU1MUHM2VWUtY2xETzBNQlM5azlDT3hEZ2lWeFZocFFOc1U3bG9wUWp4MHdiVmlpQ0lvTGtOdlVaWHFYUQ?oc=5\" target=\"_blank\">Major data breach sees student details compro",
@@ -1182,20 +1353,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 CyberDaily AU",
-      "title": "NSW, other states, investigating Instructure/Canvas data breach - Cyber Daily",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNYnpiSVIteXBqLUtRUUxEazRMWEcyYjVYVnJPM3REQXVXMGtaLUo3TTRuckNZUzUxRF8xRWY2TzFheG1ONnQ2c0FFVEkydFh4WjhxQml6bDN4NFc0LUZYSVNybkRiNFdWbFhaQ1RFNEhjS2tMVGpoSF9vNjJ3Ym00ZG9jdXlxZ000NXNVNE9VaW9DQlAzQ0UxRmxmOXo2YXdEN2dqa3pIRnUteWFPWXhUN3pGblI?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNYnpiSVIteXBqLUtRUUxEazRMWEcyYjVYVnJPM3REQXVXMGtaLUo3TTRuckNZUzUxRF8xRWY2TzFheG1ONnQ2c0FFVEkydFh4WjhxQml6bDN4NFc0LUZYSVNybkRiNFdWbFhaQ1RFNEhjS2tMVGpoSF9vNjJ3Ym00ZG9jdXlxZ000NXNVNE9VaW9DQlAzQ0UxRmxmOXo2YXdEN2dqa3pIRnUteWFPWXhUN3pGblI?oc=5\" ",
-      "date": "07-05-2026 05:00 PM",
-      "tags": [
-        "AU Cyber",
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 Risky Business",
@@ -1238,6 +1395,20 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 AU Cyber",
+      "title": "Queensland Department of Education confirms students, staff impacted by ShinyHunters data breach - Cyber Daily",
+      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYlB5cVE4QjJ4ZU9ESkdYXzlIamZtMHRxdkFmZXN1SWJaeUp0eHpmU25fYVFFQWF5cUtDYWxDU3BScWRNXzdMN3ZtanROV1FmNExFX1Q2cklHX2FMWmczY3VfSkZIX3BaOWY2VWgzbVA5TEpnQlVpS1hSYmlMTkkwV1phc19hSTJvazNqcmlqRzFzT2RHV29fWlU5RGV0S3NQMlVfbERlR2VLVHlqaUxlTWN6Mmo5WW1ZMHZsOFZZNEpRclJ2b0YwQmt5dzRwa2hvOTdvV1JINV8zeEU2SmNwU0luVk5rRWk4ME1vM2RjdVhuMVA4T0E?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi9gFBVV95cUxPYlB5cVE4QjJ4ZU9ESkdYXzlIamZtMHRxdkFmZXN1SWJaeUp0eHpmU25fYVFFQWF5cUtDYWxDU3BScWRNXzdMN3ZtanROV1FmNExFX1Q2cklHX2FMWmczY3VfSkZIX3BaOWY2VWgzbVA5TEpnQlVpS1hSYmlMTkkwV1phc19hSTJvazNqcmlqRzFzT2RHV29fWlU5RGV0S3NQMlVfbERlR2VLVHlqaUxlTWN6Mmo5WW1ZMH",
+      "date": "07-05-2026 12:03 PM",
+      "tags": [
+        "AU Cyber",
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
     },
     {
       "source": "Dark Reading",
@@ -1434,46 +1605,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "RMM Tools Fuel Stealthy Phishing Campaign",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/rmm-tools-stealthy-phishing-campaign",
-      "summary": "Attackers are abusing two remote monitoring and management (RMM) tools to evade detection in a campaign that has impacted over 80 organizations so far.",
-      "date": "05-05-2026 06:56 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Exploit Cyber-Frenzy Threatens Millions via Critical cPanel Vulnerability",
-      "link": "https://www.darkreading.com/threat-intelligence/exploit-cyber-frenzy-critical-cpanel-vulnerability",
-      "summary": "Shortly after the authentication-bypass flaw was disclosed multiple proof-of-concept exploits appeared, and one researcher claims there's been zero-day activity for at least a month.",
-      "date": "05-05-2026 05:14 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Silver Fox Springs Tax-Themed Attacks on Orgs in India, Russia",
-      "link": "https://www.darkreading.com/endpoint-security/silver-fox-tax-themed-attacks-india-russia",
-      "summary": "More than 1,600 socially engineered messages from the China-backed advanced persistent threat (APT) group target various sectors to deliver the previously undocumented ABCDoor backdoor, ValleyRAT, and other malware.",
-      "date": "05-05-2026 12:39 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
