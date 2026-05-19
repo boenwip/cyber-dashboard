@@ -1,0 +1,180 @@
+/**
+ * reference.css — pseudosec. Reference page
+ */
+
+/* Tab bar */
+.ref-tabs {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+  border-bottom: 0.5px solid var(--border);
+}
+.ref-tab-btn {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 18px;
+  border: 0.5px solid var(--border2);
+  border-radius: 20px;
+  background: transparent;
+  color: var(--text-3);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.ref-tab-btn:hover { color: var(--text); border-color: var(--accent-b); }
+.ref-tab-btn--active {
+  background: var(--accent-dim);
+  border-color: var(--accent-b);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Tab panels */
+.ref-panel { display: none; }
+.ref-panel--active { display: block; }
+
+/* Panel intro */
+.ref-panel-intro {
+  margin-bottom: 28px;
+  padding: 20px 24px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+}
+.ref-panel-intro p {
+  font-size: 14px;
+  color: var(--text-3);
+  line-height: 1.7;
+  margin: 0 0 12px;
+  max-width: 780px;
+}
+.ref-ext-link {
+  font-size: 12px;
+  color: var(--accent);
+  text-decoration: none;
+  font-family: var(--mono);
+}
+.ref-ext-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+
+/* OWASP list */
+.owasp-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.owasp-item {
+  padding: 20px 24px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  transition: border-color 0.15s;
+}
+.owasp-item:hover { border-color: var(--border2); }
+.owasp-item-header {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  margin-bottom: 10px;
+}
+.owasp-num {
+  font-family: var(--mono);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-b);
+  border-radius: 4px;
+  padding: 2px 8px;
+  flex-shrink: 0;
+}
+.owasp-name {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.owasp-desc {
+  font-size: 13.5px;
+  color: var(--text-3);
+  line-height: 1.72;
+  margin: 0;
+}
+
+/* Essential Eight */
+.e8-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+.e8-card {
+  padding: 20px 22px;
+  background: var(--surface);
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transition: border-color 0.15s;
+}
+.e8-card:hover { border-color: var(--border2); }
+.e8-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.e8-num {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-b);
+  color: var(--accent);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.e8-title {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+.e8-desc {
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.7;
+  margin: 0;
+  flex: 1;
+}
+.e8-prevents {
+  font-size: 11.5px;
+  color: var(--text-4);
+  font-family: var(--mono);
+  padding-top: 8px;
+  border-top: 0.5px solid var(--border);
+}
+
+/* Light mode adjustments */
+:root[data-theme="light"] .ref-panel-intro { background: var(--surface); }
+:root[data-theme="light"] .owasp-item     { background: var(--surface); }
+:root[data-theme="light"] .e8-card        { background: var(--surface); }
+
+@media (max-width: 860px) {
+  .e8-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .ref-tabs { gap: 4px; }
+  .ref-tab-btn { font-size: 12px; padding: 6px 12px; }
+  .owasp-item  { padding: 16px 18px; }
+  .e8-card     { padding: 16px 18px; }
+}

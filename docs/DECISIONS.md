@@ -5,6 +5,34 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-05-20 (continued)
+
+### Reference page — tab default
+**Decision:** OWASP Web is the default active tab on reference.html (not Glossary).
+**Why:** OWASP is the primary new content. Users arriving from the nav link will see the richest new material first. Glossary is familiar — it's always there if you click the tab.
+
+### Reference page — tab structure
+**Decision:** Five tabs: OWASP Web | OWASP API | OWASP LLM | Essential Eight | Glossary. Glossary tab reuses all existing definitions JS/CSS. Hash-based tab navigation (`reference.html#e8` etc.).
+**Why:** Consolidates all reference/educational content in one destination. Definitions page kept as-is (backward compat); nav updated to point to Reference everywhere.
+
+### AI Guide — situation categories
+**Decision:** Five situation categories replace the old activity-based ones: Staying Safe | Everyday Work | Writing & Comms | Understanding Something | Your Day-to-Day.
+**Why:** People approach AI with a situation in mind ("I need to write an email"), not an activity type. Situation-first matches mental model.
+
+### AI Guide — prompt tone and audience
+**Decision:** All prompts written for "I wouldn't even know how to do that" — complete beginners. No assumed competence. Security prompts target top everyday threats (phishing, scam calls, password advice, suspicious links, public Wi-Fi). Life prompts cover genuine day-to-day needs (prioritise your day, draft a complaint, handle a hard conversation).
+**Why:** The site is for everyone. Prompts that assume competence don't help the people who need them most.
+
+### Light mode — surface and border tokens
+**Decision:** Light theme surfaces more differentiated: `--surface: #fdfbf6` (near-white warm), `--surface2: #e6e2d8` (clearly recessed), borders increased to `rgba(0,0,0,0.09)` / `rgba(0,0,0,0.17)`.
+**Why:** Previous values (`rgba(0,0,0,0.06)` borders, surfaces within 3% lightness of each other) made cards visually indistinguishable from the page background. Cards were invisible as distinct UI elements.
+
+### Navigation — 4 flat links, Reference replaces Definitions + OWASP
+**Decision:** Nav is now: Dashboard | Reference | Resources | AI Guide. External OWASP link removed. "Definitions" renamed to "Reference". WOTD "Full glossary" link on index.html updated to `reference.html#glossary`.
+**Why:** External link in the main nav was a dead end. All OWASP content now lives on-site in the Reference page. Keeps the flat-4 constraint.
+
+---
+
 ## Session: 2026-05-19 / 2026-05-20
 
 ### AI Guide — Prompt audience and tone

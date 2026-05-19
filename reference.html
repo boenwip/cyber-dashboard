@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="pseudosec. Reference — OWASP Top 10, Essential Eight, and cyber security glossary in plain English for Australian organisations.">
+<meta property="og:title" content="Cyber Security Reference — pseudosec.">
+<meta property="og:description" content="OWASP Web, API and LLM Top 10 lists, Essential Eight controls, and a full glossary — all in plain English.">
+<meta property="og:image" content="assets/pseudosec.png">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
+<title>Reference — pseudosec.</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="definitions.css">
+<link rel="stylesheet" href="reference.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html"     class="nav-link">Dashboard</a>
+    <a href="reference.html" class="nav-link nav-link--active">Reference</a>
+    <a href="resources.html" class="nav-link">Resources</a>
+    <a href="ai-guide.html"  class="nav-link">AI Guide</a>
+  </nav>
+  <a href="index.html" class="site-logo" aria-label="pseudosec. home">
+    <img src="assets/pseudosec.png" alt="pseudosec.">
+  </a>
+  <div class="hdr-right">
+    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
+    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
+  </div>
+</header>
+
+<!-- WORD OF THE DAY -->
+<div class="wotd-strip" id="wotd-strip">
+  <span class="wotd-label">Word of the day</span>
+  <span class="wotd-term" id="wotd-term">—</span>
+  <span class="wotd-sep">—</span>
+  <span class="wotd-def" id="wotd-def">Loading...</span>
+  <a href="javascript:void(0)" class="wotd-more" id="wotd-glossary-link">Full glossary ↗</a>
+</div>
+
+<div class="page-wrap">
+  <div class="page-hero">
+    <h1 class="page-hero-title">Cyber Security <em>Reference</em></h1>
+    <p class="page-hero-sub">OWASP risk frameworks, the Essential Eight, and a full glossary — all in plain English for everyday Australian organisations.</p>
+  </div>
+
+  <!-- TAB BAR -->
+  <div class="ref-tabs" role="tablist">
+    <button class="ref-tab-btn ref-tab-btn--active" data-tab="owasp-web"  role="tab" aria-selected="true">OWASP Web</button>
+    <button class="ref-tab-btn" data-tab="owasp-api"  role="tab" aria-selected="false">OWASP API</button>
+    <button class="ref-tab-btn" data-tab="owasp-llm"  role="tab" aria-selected="false">OWASP LLM</button>
+    <button class="ref-tab-btn" data-tab="e8"          role="tab" aria-selected="false">Essential Eight</button>
+    <button class="ref-tab-btn" data-tab="glossary"    role="tab" aria-selected="false">Glossary</button>
+  </div>
+
+  <!-- ── OWASP WEB ── -->
+  <div class="ref-panel ref-panel--active" id="panel-owasp-web" role="tabpanel">
+    <div class="ref-panel-intro">
+      <p>The OWASP Top 10 for Web Applications (2021) — the ten most critical security risks facing web applications, ordered by how commonly they occur and how much damage they cause. If you build or buy web software, these are the gaps attackers look for first.</p>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">owasp.org/www-project-top-ten ↗</a>
+    </div>
+    <ol class="owasp-list">
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A01</span>
+          <span class="owasp-name">Broken Access Control</span>
+        </div>
+        <p class="owasp-desc">When a system doesn't properly check whether a user has permission to see or do something. An employee accesses another person's files. A regular user reaches admin functions. A customer changes an ID in a URL to view someone else's order. The #1 risk — found in over 94% of tested applications.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A02</span>
+          <span class="owasp-name">Cryptographic Failures</span>
+        </div>
+        <p class="owasp-desc">Sensitive data — passwords, credit cards, health records — transmitted or stored without proper encryption, or protected using outdated algorithms an attacker can crack. The problem isn't always "no encryption" — it's often encryption done badly. Previously called "Sensitive Data Exposure."</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A03</span>
+          <span class="owasp-name">Injection</span>
+        </div>
+        <p class="owasp-desc">Attackers trick an application into running malicious code by slipping it into user input — a search box, a login form, a URL parameter. SQL injection (accessing or destroying databases), command injection (running system commands), and cross-site scripting (XSS) all fall here. Classic, common, and still devastating.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A04</span>
+          <span class="owasp-name">Insecure Design</span>
+        </div>
+        <p class="owasp-desc">Security wasn't part of the design — it was bolted on later, or not at all. No threat modelling, no secure design patterns, no security requirements set before development began. You can patch implementation bugs, but you can't patch a fundamentally broken architecture. New in 2021 — acknowledges that the root cause is often design, not code.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A05</span>
+          <span class="owasp-name">Security Misconfiguration</span>
+        </div>
+        <p class="owasp-desc">Default passwords left in. Unnecessary features turned on. Verbose error messages exposing system details. Cloud storage set to public. Permissions too broad. This is the most common gap — not a clever exploit, just things not configured correctly. 90% of applications had some form of misconfiguration in testing.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A06</span>
+          <span class="owasp-name">Vulnerable and Outdated Components</span>
+        </div>
+        <p class="owasp-desc">Using libraries, frameworks, plugins, or operating systems with known vulnerabilities. Modern applications are mostly composed of third-party code — if that code has a known CVE and you haven't updated, attackers know exactly where to look. The Log4Shell vulnerability in 2021 is a defining example of this category.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A07</span>
+          <span class="owasp-name">Identification and Authentication Failures</span>
+        </div>
+        <p class="owasp-desc">Weak login systems: no multi-factor authentication, common passwords allowed, no lockout after failed attempts, session tokens that don't expire, passwords stored in plain text. When authentication can be bypassed or brute-forced, everything behind the login screen is exposed.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A08</span>
+          <span class="owasp-name">Software and Data Integrity Failures</span>
+        </div>
+        <p class="owasp-desc">Trusting code or data from untrusted sources without verification. Includes supply chain attacks — a malicious package slipped into your build pipeline, auto-updates delivered without integrity checks, CI/CD pipelines without security controls. The SolarWinds attack is the defining real-world example.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A09</span>
+          <span class="owasp-name">Security Logging and Monitoring Failures</span>
+        </div>
+        <p class="owasp-desc">Insufficient logging, logs that aren't monitored, no alerts when attacks happen, logs that can be tampered with. The average time to detect a breach is over 200 days. You can't respond to an incident you don't know about — and without logs, you can't even prove what happened after the fact.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">A10</span>
+          <span class="owasp-name">Server-Side Request Forgery (SSRF)</span>
+        </div>
+        <p class="owasp-desc">Tricking a server into making requests to internal systems or services the attacker shouldn't be able to reach directly. In cloud environments, this can expose instance metadata services containing credentials. Increasingly dangerous as more infrastructure moves to cloud architectures. New in 2021, added based on industry survey data before exploitation rates caught up.</p>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── OWASP API ── -->
+  <div class="ref-panel" id="panel-owasp-api" role="tabpanel">
+    <div class="ref-panel-intro">
+      <p>The OWASP API Security Top 10 (2023) — the ten most critical risks specific to APIs (Application Programming Interfaces). APIs are the backbone of modern software — mobile apps, web apps, and third-party integrations all rely on them. They're also a major and often underprotected attack surface.</p>
+      <a class="ref-ext-link" href="https://owasp.org/API-Security/" target="_blank" rel="noopener">owasp.org/API-Security ↗</a>
+    </div>
+    <ol class="owasp-list">
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API1</span>
+          <span class="owasp-name">Broken Object Level Authorization</span>
+        </div>
+        <p class="owasp-desc">The API doesn't check whether you have permission to access a specific object — just that you're logged in. Change a customer ID or order number in a request and you see someone else's data. The most common and impactful API vulnerability. Every object-level access needs its own authorization check.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API2</span>
+          <span class="owasp-name">Broken Authentication</span>
+        </div>
+        <p class="owasp-desc">Weak or missing authentication on API endpoints. No tokens required, tokens that never expire, tokens that can't be revoked, no protection against credential stuffing. APIs exposed to the internet without authentication are essentially public databases.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API3</span>
+          <span class="owasp-name">Broken Object Property Level Authorization</span>
+        </div>
+        <p class="owasp-desc">The API returns more fields than needed (exposing sensitive data the user shouldn't see) or allows updates to fields that shouldn't be changeable. A user profile endpoint that returns salary or admin flags. A form that accepts fields not shown in the UI but processed by the server.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API4</span>
+          <span class="owasp-name">Unrestricted Resource Consumption</span>
+        </div>
+        <p class="owasp-desc">No rate limiting or resource controls. Attackers hammer your API, run up cloud costs, extract your entire dataset one request at a time, or trigger expensive backend operations at scale. Also includes missing limits on file size, record count, or request frequency.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API5</span>
+          <span class="owasp-name">Broken Function Level Authorization</span>
+        </div>
+        <p class="owasp-desc">Admin-only API functions are accessible to regular users because authorization is only enforced on the frontend, not the API itself. A regular user calls an admin endpoint directly and gets access. Different from object-level authorization — this is about which functions you can call, not which data you can see.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API6</span>
+          <span class="owasp-name">Unrestricted Access to Sensitive Business Flows</span>
+        </div>
+        <p class="owasp-desc">Automating business actions that should be limited by design — bulk account creation for spam, scalping limited-release tickets, loyalty point abuse, mass voucher redemption. The API works as designed — the problem is there are no limits preventing automated abuse at scale.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API7</span>
+          <span class="owasp-name">Server Side Request Forgery</span>
+        </div>
+        <p class="owasp-desc">Tricking the API into making requests to internal systems on behalf of the attacker — cloud metadata endpoints, internal admin interfaces, databases that aren't meant to be internet-facing. As for the web equivalent, increasingly dangerous in cloud environments.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API8</span>
+          <span class="owasp-name">Security Misconfiguration</span>
+        </div>
+        <p class="owasp-desc">Default configurations, unnecessary HTTP methods left enabled (DELETE, PUT on read-only endpoints), verbose error messages that reveal stack traces, missing transport security (TLS), CORS configured too broadly, missing security headers. Same category as the web list — just as common, just as preventable.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API9</span>
+          <span class="owasp-name">Improper Inventory Management</span>
+        </div>
+        <p class="owasp-desc">Old API versions left running alongside the new ones. Undocumented internal endpoints. Test environments exposed to the internet. Third-party APIs included in production without vetting. You can't secure what you don't know exists. API sprawl is real — organisations often don't know how many API endpoints they have.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">API10</span>
+          <span class="owasp-name">Unsafe Consumption of APIs</span>
+        </div>
+        <p class="owasp-desc">Blindly trusting data from third-party APIs without validation or sanitisation. If a partner API is compromised, malicious data flows straight into your application. Redirect attacks, injection via API responses, unvalidated data used in queries. Your application is only as safe as the APIs it trusts.</p>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── OWASP LLM ── -->
+  <div class="ref-panel" id="panel-owasp-llm" role="tabpanel">
+    <div class="ref-panel-intro">
+      <p>The OWASP Top 10 for Large Language Model Applications (2025) — the ten most critical risks when building or using AI applications. As AI tools move from experimental to operational across Australian organisations, these are the risks that security teams and IT leaders need to understand.</p>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener">owasp.org LLM Project ↗</a>
+    </div>
+    <ol class="owasp-list">
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM01</span>
+          <span class="owasp-name">Prompt Injection</span>
+        </div>
+        <p class="owasp-desc">Crafting inputs that override an AI's instructions — making it ignore its guidelines, reveal its system prompt, or take actions its developers didn't intend. "Ignore previous instructions and…" is the classic form, but injections hidden in documents, web pages, or email content are increasingly common and much harder to detect.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM02</span>
+          <span class="owasp-name">Sensitive Information Disclosure</span>
+        </div>
+        <p class="owasp-desc">The AI reveals information it shouldn't — from its system prompt, its context window, or its training data. This includes confidential business logic embedded in prompts, personally identifiable information from training datasets, or proprietary data loaded into a RAG system. The right question, asked the right way, can extract information the developer assumed was private.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM03</span>
+          <span class="owasp-name">Supply Chain Vulnerabilities</span>
+        </div>
+        <p class="owasp-desc">Risks in the models, datasets, plugins, and integrations you rely on to build AI applications. A poisoned training dataset, a compromised model weight, a malicious plugin in an AI marketplace — these affect every application built on top of them. You inherit the security posture of every component in your AI stack.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM04</span>
+          <span class="owasp-name">Data and Model Poisoning</span>
+        </div>
+        <p class="owasp-desc">Corrupting training or fine-tuning data to change how a model behaves — introducing biases, backdoors, or incorrect outputs on specific inputs. Hard to detect and potentially catastrophic: a model that looks fine in testing but behaves badly in targeted scenarios. Fine-tuning on untrusted data is the most accessible vector.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM05</span>
+          <span class="owasp-name">Improper Output Handling</span>
+        </div>
+        <p class="owasp-desc">Feeding AI output directly into downstream systems — code execution environments, databases, HTML renderers, email clients — without validation or sanitisation. If the AI generates malicious JavaScript that gets rendered in a browser, or SQL that gets executed without checking, you've handed the attacker a path through your AI into your systems.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM06</span>
+          <span class="owasp-name">Excessive Agency</span>
+        </div>
+        <p class="owasp-desc">Giving an AI agent too much capability to act on its own — sending emails, deleting files, making purchases, calling external services — without appropriate oversight, approvals, or limits. The more autonomy an AI has, the more damage a prompt injection or jailbreak can cause. Least privilege applies to AI the same way it applies to users.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM07</span>
+          <span class="owasp-name">System Prompt Leakage</span>
+        </div>
+        <p class="owasp-desc">Users extracting the hidden instructions given to an AI — the system prompt that defines its persona, restrictions, and context. If your system prompt contains sensitive business logic, confidential information, or details about your internal architecture, it may be extractable through carefully crafted questions. Don't treat the system prompt as a security boundary.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM08</span>
+          <span class="owasp-name">Vector and Embedding Weaknesses</span>
+        </div>
+        <p class="owasp-desc">Vulnerabilities in RAG (retrieval-augmented generation) systems and vector databases. Poisoned documents can influence what the AI retrieves and how it responds. Access controls on the vector database may differ from what the AI assumes. If an attacker can influence what documents are indexed, they can influence the AI's answers.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM09</span>
+          <span class="owasp-name">Misinformation</span>
+        </div>
+        <p class="owasp-desc">LLMs generate confident, fluent, plausible-sounding text — including when that text is completely wrong. Hallucinated citations, incorrect medical or legal advice, fabricated statistics. Serious risk when AI output is used for decisions without human verification. Not a bug — it's a fundamental characteristic of how these models work.</p>
+      </li>
+      <li class="owasp-item">
+        <div class="owasp-item-header">
+          <span class="owasp-num">LLM10</span>
+          <span class="owasp-name">Unbounded Consumption</span>
+        </div>
+        <p class="owasp-desc">No limits on tokens, API calls, or compute — enabling denial of service attacks, runaway cloud costs, or resource exhaustion. Especially risky for publicly accessible AI applications where users can trigger expensive operations without rate limiting. Also includes model theft through excessive querying — extracting model behaviour to replicate it.</p>
+      </li>
+    </ol>
+  </div>
+
+  <!-- ── ESSENTIAL EIGHT ── -->
+  <div class="ref-panel" id="panel-e8" role="tabpanel">
+    <div class="ref-panel-intro">
+      <p>The Essential Eight — the Australian Signals Directorate's baseline cyber security controls for Australian organisations. Not a compliance checkbox — a prioritised set of mitigations designed to prevent the most common attacks. ACSC recommends all Australian organisations implement these at Maturity Level 2 as a minimum.</p>
+      <a class="ref-ext-link" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener">cyber.gov.au Essential Eight ↗</a>
+    </div>
+    <div class="e8-grid">
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">1</span>
+          <span class="e8-title">Application Control</span>
+        </div>
+        <p class="e8-desc">Only allow approved applications to run on your systems. Executables, scripts, libraries — if they're not on the approved list, they don't run. Stops malware and unauthorised software before it can execute. ACSC's single highest-priority mitigation — prevents the vast majority of malware incidents.</p>
+        <div class="e8-prevents">Prevents: malware execution, ransomware, unauthorised software</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">2</span>
+          <span class="e8-title">Patch Applications</span>
+        </div>
+        <p class="e8-desc">Keep applications updated — particularly internet-facing software and anything that handles files or content (browsers, Office, PDF readers). Most attacks exploit known vulnerabilities with available patches. If a patch exists and you haven't applied it, attackers know exactly where to look.</p>
+        <div class="e8-prevents">Prevents: exploitation of known vulnerabilities in third-party software</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">3</span>
+          <span class="e8-title">Configure Microsoft Office Macro Settings</span>
+        </div>
+        <p class="e8-desc">Restrict or disable macros in Office files — particularly macros from the internet. Malicious macros embedded in Word documents and Excel spreadsheets are one of the most common malware delivery methods. Users rarely need them. Blocking untrusted macros removes a major attack vector with minimal business impact.</p>
+        <div class="e8-prevents">Prevents: macro-based malware, ransomware delivered via email attachments</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">4</span>
+          <span class="e8-title">User Application Hardening</span>
+        </div>
+        <p class="e8-desc">Block high-risk features in the applications your people use every day. Disable Flash (effectively dead, still occasionally exploited), Java in browsers, and ads from untrusted sources. Configure browsers and email clients to block scripts and content that users don't need. Reduces the attack surface of your most-used software.</p>
+        <div class="e8-prevents">Prevents: drive-by downloads, malvertising, browser-based exploits</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">5</span>
+          <span class="e8-title">Restrict Administrative Privileges</span>
+        </div>
+        <p class="e8-desc">Give people only the access they need to do their job. No standing admin accounts for day-to-day work — use a separate privileged account when needed and log off after. Admin accounts are the keys to the kingdom. An attacker who compromises a standard user account gets far less than one who compromises an admin. Fewer admins, narrower blast radius.</p>
+        <div class="e8-prevents">Prevents: privilege escalation, lateral movement, damage from compromised accounts</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">6</span>
+          <span class="e8-title">Patch Operating Systems</span>
+        </div>
+        <p class="e8-desc">Keep Windows, macOS, and Linux operating systems current. Operating system vulnerabilities can give attackers a path to full system or network control. Prioritise internet-facing systems and anything that's critical to operations. Unpatched operating systems — especially those past vendor support — are a persistent high-value target.</p>
+        <div class="e8-prevents">Prevents: OS-level exploitation, worm propagation, full system compromise</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">7</span>
+          <span class="e8-title">Multi-factor Authentication</span>
+        </div>
+        <p class="e8-desc">Require more than a password to log in — a second factor like an authenticator app, hardware token, or passkey. MFA stops the vast majority of credential-based attacks, even when passwords have been stolen, guessed, or phished. Apply it everywhere: email, remote access, cloud services, and critical systems. Password alone is no longer sufficient.</p>
+        <div class="e8-prevents">Prevents: account compromise from stolen or phished credentials</div>
+      </div>
+      <div class="e8-card">
+        <div class="e8-header">
+          <span class="e8-num">8</span>
+          <span class="e8-title">Regular Backups</span>
+        </div>
+        <p class="e8-desc">Regular, tested, offline backups of important data, software, and system configuration. The difference between a ransomware incident and a ransomware disaster is whether you can restore. Backups must be disconnected from the network (so ransomware can't encrypt them too) and regularly tested (so you know they work before you need them).</p>
+        <div class="e8-prevents">Prevents: unrecoverable data loss, ransomware leverage, extended downtime</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── GLOSSARY ── -->
+  <div class="ref-panel" id="panel-glossary" role="tabpanel">
+
+    <!-- SEARCH + FILTER -->
+    <div class="def-controls">
+      <div class="def-search-wrap">
+        <input type="search" id="def-search" class="def-search" placeholder="Search terms..." aria-label="Search definitions" autocomplete="off">
+      </div>
+      <div class="def-level-filter">
+        <button class="def-lvl-btn def-lvl-btn--active" data-level="all">All</button>
+        <button class="def-lvl-btn" data-level="beginner">Beginner</button>
+        <button class="def-lvl-btn" data-level="intermediate">Intermediate</button>
+      </div>
+    </div>
+
+    <div id="def-count" class="def-count"></div>
+
+    <!-- A-Z INDEX -->
+    <div class="def-alpha" id="def-alpha" role="navigation" aria-label="Alphabetical index"></div>
+
+    <!-- TERMS -->
+    <div id="def-grid" class="def-grid" role="list"></div>
+  </div>
+
+</div>
+
+<footer class="site-footer">
+  <span>pseudosec. · Australian Cyber Intelligence</span>
+  <span>OWASP Web 2021 · OWASP API 2023 · OWASP LLM 2025 · Essential Eight · Glossary</span>
+</footer>
+
+<script src="shared.js"></script>
+<script src="definitions.js"></script>
+<script src="definitions-page.js"></script>
+<script>
+(function() {
+  var tabs   = document.querySelectorAll('.ref-tab-btn');
+  var panels = document.querySelectorAll('.ref-panel');
+
+  function activate(tabId) {
+    tabs.forEach(function(t) {
+      var on = t.dataset.tab === tabId;
+      t.classList.toggle('ref-tab-btn--active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    panels.forEach(function(p) {
+      p.classList.toggle('ref-panel--active', p.id === 'panel-' + tabId);
+    });
+    history.replaceState(null, '', '#' + tabId);
+  }
+
+  tabs.forEach(function(btn) {
+    btn.addEventListener('click', function() { activate(btn.dataset.tab); });
+  });
+
+  var glossaryLink = document.getElementById('wotd-glossary-link');
+  if (glossaryLink) {
+    glossaryLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      activate('glossary');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  var hash = location.hash.replace('#', '');
+  var valid = ['owasp-web','owasp-api','owasp-llm','e8','glossary'];
+  if (hash && valid.indexOf(hash) !== -1) activate(hash);
+})();
+</script>
+</body>
+</html>

@@ -48,11 +48,11 @@ html { scroll-behavior: smooth; }
 /* ── LIGHT THEME ── */
 :root[data-theme="light"] {
   --bg:         #f4f1eb;
-  --surface:    #faf8f2;
-  --surface2:   #edeae2;
-  --surface3:   #e4e0d6;
-  --border:     rgba(0,0,0,0.06);
-  --border2:    rgba(0,0,0,0.10);
+  --surface:    #fdfbf6;
+  --surface2:   #e6e2d8;
+  --surface3:   #dedad0;
+  --border:     rgba(0,0,0,0.09);
+  --border2:    rgba(0,0,0,0.17);
   --text:       #1a1208;
   --text-2:     #2d1e0e;
   --text-3:     #6b5040;
@@ -68,7 +68,7 @@ html { scroll-behavior: smooth; }
   --med:        #2a7a62;
   --adv:        #1a4a7a;
   --live:       #2a7a62;
-  --surface-hdr:#faf8f2;
+  --surface-hdr:#fdfbf6;
   --mono:       'Hack', monospace;
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --tag-cyber-bg:rgba(13,59,102,0.08);   --tag-cyber-c:#0D3B66; --tag-cyber-b:rgba(13,59,102,0.20);

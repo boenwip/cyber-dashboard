@@ -3,9 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="pseudosec. AI Guide — practical AI prompts for your work, what not to share with AI, and how to use AI tools safely.">
+<meta name="description" content="pseudosec. AI Guide — practical AI prompts for everyday work, staying safe online, and getting the most from AI tools without sharing sensitive information.">
 <meta property="og:title" content="AI Guide — pseudosec.">
-<meta property="og:description" content="Practical AI prompts for everyday work, what not to share with AI tools, and how to use AI safely in your organisation.">
+<meta property="og:description" content="Situation-based AI prompts for everyday Australians — staying safe, writing emails, understanding things, and getting on with your day.">
 <meta property="og:image" content="assets/pseudosec.png">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
 <title>AI Guide — pseudosec.</title>
@@ -17,11 +17,10 @@
 
 <header class="site-header">
   <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html"       class="nav-link">Dashboard</a>
-    <a href="definitions.html" class="nav-link">Definitions</a>
-    <a href="resources.html"   class="nav-link">Resources</a>
-    <a href="ai-guide.html"    class="nav-link">AI Guide</a>
-    <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener" class="nav-link nav-link--ext">OWASP Top 10 ↗</a>
+    <a href="index.html"     class="nav-link">Dashboard</a>
+    <a href="reference.html" class="nav-link">Reference</a>
+    <a href="resources.html" class="nav-link">Resources</a>
+    <a href="ai-guide.html"  class="nav-link nav-link--active">AI Guide</a>
   </nav>
   <a href="index.html" class="site-logo" aria-label="pseudosec. home">
     <img src="assets/pseudosec.png" alt="pseudosec.">
@@ -35,39 +34,80 @@
 <div class="page-wrap">
   <div class="page-hero">
     <h1 class="page-hero-title">AI <em>Guide</em></h1>
-    <p class="page-hero-sub">Practical prompts for everyday work tasks, what you should never share with AI tools, and how to use AI safely in your organisation.</p>
+    <p class="page-hero-sub">Ready-to-use prompts for everyday situations — staying safe, getting work done, and making sense of things. Copy, adapt, paste. No technical knowledge needed.</p>
   </div>
 
-  <!-- SAFETY FIRST -->
+  <!-- ── TOOL SELECTOR ── -->
+  <section class="ag-section" id="tools">
+    <h2 class="ag-section-title">Which tool are you using?</h2>
+    <p class="ag-section-sub">Select your AI tool to filter prompts written for it. Most prompts work in any tool — pick one to see what's tailored, or leave on <em>All tools</em> to see everything.</p>
+    <div class="ag-tool-filter" id="tool-filter-bar"></div>
+    <div class="ag-tool-safety-badge" id="tool-safety-badge" hidden></div>
+
+    <div class="ag-tools-grid">
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">Claude (Anthropic)</div>
+        <div class="ag-tool-desc">Strong at long documents, analysis, coding, and nuanced writing. Data not used for training by default on claude.ai.</div>
+        <div class="ag-tool-safe">🟢 Safer for work use — no training on your data by default</div>
+      </div>
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">ChatGPT (OpenAI)</div>
+        <div class="ag-tool-desc">The most widely used AI tool. Free tier may use your conversations for training — check settings. Team and Enterprise plans are data-isolated.</div>
+        <div class="ag-tool-safe">🟡 Check your data settings before sharing work content</div>
+      </div>
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">Microsoft Copilot</div>
+        <div class="ag-tool-desc">Built into Microsoft 365. If your organisation has Copilot licensed, your data stays within your Microsoft tenant. Tight integration with Word, Excel, Teams.</div>
+        <div class="ag-tool-safe">🟢 Safe for org-licensed users — data stays in your tenant</div>
+      </div>
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">Google Gemini</div>
+        <div class="ag-tool-desc">Integrated into Google Workspace. Business and Enterprise plans include data protection. Personal Google accounts may use data for model improvement.</div>
+        <div class="ag-tool-safe">🟡 Safe on Workspace Business+ — check personal account settings</div>
+      </div>
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">Canva AI Features</div>
+        <div class="ag-tool-desc">Magic Write, AI image generation, and design tools. Do not upload images or text containing client or personal information.</div>
+        <div class="ag-tool-safe">🟡 Safe for public-facing design work — not sensitive content</div>
+      </div>
+      <div class="ag-tool-card">
+        <div class="ag-tool-name">Zoom AI Companion</div>
+        <div class="ag-tool-desc">Summarises meetings and generates action items. Your organisation's Zoom admin must enable it. Meeting data stays within your account when configured correctly.</div>
+        <div class="ag-tool-safe">🟢 Safe when enabled and configured by your org admin</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SAFETY FIRST ── -->
   <section class="ag-section" id="safety">
-    <h2 class="ag-section-title">⚠ What Not to Share with AI</h2>
-    <p class="ag-section-sub">AI tools like ChatGPT, Claude, Gemini, and Copilot send your input to external servers. Treat them like a public forum unless you're on an enterprise-licensed, data-isolated plan.</p>
+    <h2 class="ag-section-title">What not to share with AI</h2>
+    <p class="ag-section-sub">AI tools send your input to external servers. Unless your organisation is on an enterprise-licensed, data-isolated plan, treat what you type like a public forum.</p>
     <div class="ag-rules">
       <div class="ag-rule ag-rule--never">
         <span class="ag-rule-icon">✕</span>
         <div>
-          <div class="ag-rule-title">Never enter client or student personal information</div>
-          <div class="ag-rule-desc">Names, contact details, enrolment records, health information, Tax File Numbers — all protected under the Privacy Act and your organisation's obligations.</div>
+          <div class="ag-rule-title">Never enter client or personal information</div>
+          <div class="ag-rule-desc">Names, contact details, health records, Tax File Numbers, student or enrolment data — all protected under the Privacy Act and your organisation's obligations.</div>
         </div>
       </div>
       <div class="ag-rule ag-rule--never">
         <span class="ag-rule-icon">✕</span>
         <div>
           <div class="ag-rule-title">Never paste confidential contracts, financial data, or board documents</div>
-          <div class="ag-rule-desc">These may be used to train future models, stored by the provider, or exposed in a breach. Use internal tools for sensitive documents.</div>
+          <div class="ag-rule-desc">These may be stored by the provider, used to train future models, or exposed in a breach. Use internal tools for sensitive documents.</div>
         </div>
       </div>
       <div class="ag-rule ag-rule--never">
         <span class="ag-rule-icon">✕</span>
         <div>
-          <div class="ag-rule-title">Never share credentials, API keys, or system details</div>
-          <div class="ag-rule-desc">Passwords, API tokens, internal IP addresses, and system architecture details should never appear in an AI prompt.</div>
+          <div class="ag-rule-title">Never share passwords, API keys, or system details</div>
+          <div class="ag-rule-desc">Passwords, tokens, internal IP addresses, and system architecture details should never appear in an AI prompt.</div>
         </div>
       </div>
       <div class="ag-rule ag-rule--never">
         <span class="ag-rule-icon">✕</span>
         <div>
-          <div class="ag-rule-title">Never share unreleased product plans, M&amp;A activity, or sensitive strategy</div>
+          <div class="ag-rule-title">Never share unreleased plans, M&amp;A activity, or sensitive strategy</div>
           <div class="ag-rule-desc">Commercially sensitive information — especially anything price-sensitive for listed companies — must stay internal.</div>
         </div>
       </div>
@@ -75,65 +115,20 @@
         <span class="ag-rule-icon">~</span>
         <div>
           <div class="ag-rule-title">Be cautious with internal processes and org structure</div>
-          <div class="ag-rule-desc">Detailed org charts, system architecture, and security policies could help an attacker target your organisation if exposed.</div>
+          <div class="ag-rule-desc">Detailed org charts, security policies, and system architecture could help an attacker target your organisation if exposed.</div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- PROMPT LIBRARY -->
+  <!-- ── PROMPT LIBRARY ── -->
   <section class="ag-section" id="prompts">
     <h2 class="ag-section-title">Prompt Library</h2>
-    <p class="ag-section-sub">Copy and adapt these prompts. Replace anything in [brackets] with your specific details. None of these require sharing sensitive information.</p>
-
-    <div class="ag-categories">
-      <button class="ag-cat-btn ag-cat-btn--active" data-cat="all">All</button>
-      <button class="ag-cat-btn" data-cat="writing">Writing</button>
-      <button class="ag-cat-btn" data-cat="email">Email</button>
-      <button class="ag-cat-btn" data-cat="learning">Learning</button>
-      <button class="ag-cat-btn" data-cat="admin">Admin</button>
-      <button class="ag-cat-btn" data-cat="security">Security</button>
-    </div>
-
+    <p class="ag-section-sub">Copy any prompt and adapt it. Replace anything in [brackets] with your details. None of these require sharing sensitive information.</p>
+    <div class="ag-categories" id="cat-filter-bar"></div>
     <div class="ag-prompt-grid" id="prompt-grid"></div>
   </section>
 
-  <!-- AI TOOLS OVERVIEW -->
-  <section class="ag-section" id="tools">
-    <h2 class="ag-section-title">AI Tools in Your Stack</h2>
-    <div class="ag-tools-grid">
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Claude (Anthropic)</div>
-        <div class="ag-tool-desc">Strong at long documents, analysis, coding, and nuanced writing. Data not used for training by default on claude.ai. Enterprise plan available for data isolation.</div>
-        <div class="ag-tool-safe">🟢 Safer for work use (no training on your data)</div>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">ChatGPT (OpenAI)</div>
-        <div class="ag-tool-desc">Most widely used. Free tier may use your conversations for training — check your settings. ChatGPT Team and Enterprise plans are data-isolated.</div>
-        <div class="ag-tool-safe">🟡 Check your data settings before sharing work content</div>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Microsoft Copilot</div>
-        <div class="ag-tool-desc">Integrated into Microsoft 365. If your organisation has Microsoft 365 E3/E5 with Copilot, your data stays within your Microsoft tenant.</div>
-        <div class="ag-tool-safe">🟢 Safe for org-licensed users within tenant boundary</div>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Google Gemini</div>
-        <div class="ag-tool-desc">Integrated into Google Workspace. Workspace Business and Enterprise plans include data protection. Personal Google accounts may use data for improvement.</div>
-        <div class="ag-tool-safe">🟡 Safe on Workspace Business+ — check personal account settings</div>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Canva AI Features</div>
-        <div class="ag-tool-desc">Magic Write, AI image generation, and other features. Do not upload images or text containing client or personal information.</div>
-        <div class="ag-tool-safe">🟡 Safe for public-facing design work, not sensitive content</div>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Zoom AI Companion</div>
-        <div class="ag-tool-desc">Summarises meetings and generates action items. Check your organisation's Zoom admin settings — meeting data should not leave your tenant.</div>
-        <div class="ag-tool-safe">🟢 Safe when enabled and configured by org admin</div>
-      </div>
-    </div>
-  </section>
 </div>
 
 <footer class="site-footer">
