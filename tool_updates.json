@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-05-2026 04:42 PM",
+  "last_updated": "19-05-2026 08:34 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.144",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/resume</code> support for background sessions \u2014 sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked ",
-      "date": "19-05-2026 04:42 PM"
+      "date": "19-05-2026 08:34 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.143",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch",
-      "date": "19-05-2026 04:42 PM"
+      "date": "19-05-2026 08:34 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.142",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
-      "date": "19-05-2026 04:42 PM"
+      "date": "19-05-2026 08:34 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "19-05-2026 04:42 PM"
+      "date": "19-05-2026 08:34 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.140",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.140",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved Agent tool <code>subagent_type</code> matching to accept case- and separator-insensitive values (e.g. <code>\"Code Reviewer\"</code> resolves to <code>code-revi",
-      "date": "19-05-2026 04:42 PM"
+      "date": "19-05-2026 08:34 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Sonnet 5 release expected imminently. What we know. - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1OYlpNNEhZNDRnbFp1dzBCYUxRZ1NzYTZaQVFybjJmX2F3X2dwQUc0N1N0UkozQmtjTTI4R2dfSVRGV203TU5OZzVTR0RZU2p3UDg3eWVtUVJ6cHU2a2wtMTI2bkczMnFEX0lfaFp1cTc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE1OYlpNNEhZNDRnbFp1dzBCYUxRZ1NzYTZaQVFybjJmX2F3X2dwQUc0N1N0UkozQmtjTTI4R2dfSVRGV203TU5OZzVTR0RZU2p3UDg3eWVtUVJ6cHU2a2wtMTI2bkczMnFEX0lfaFp1cT",
+      "date": "19-05-2026 03:52 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -51,12 +59,28 @@
       "date": "18-05-2026 09:19 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Gemini app rolling out \u2018Extended\u2019 thinking level, new 3rd-party app integrations - 9to5Google",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFA2aWx4ZVEtRXk0YXBkVXlRVFBDdENFd08tTVpidWh4bmx0UDZFai1vNGZEZGExdFlRak1TcFIxVERuejdKUHRQUEt1OFFrUFl5ZVRIZUx3X1pwcW1jY3U5bHFkUjhqR0FsUGZVcg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFA2aWx4ZVEtRXk0YXBkVXlRVFBDdENFd08tTVpidWh4bmx0UDZFai1vNGZEZGExdFlRak1TcFIxVERuejdKUHRQUEt1OFFrUFl5ZVRIZUx3X1pwcW1jY3U5bHFkUjhqR0FsUGZVcg?oc=",
+      "date": "18-05-2026 04:07 AM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI launches ChatGPT for personal finance, will let you connect bank accounts - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFBfTXUxSDUyLUFUcnVFbEVfWlZuRGhiaURGem9NUm5VUkpsalpLeGVjWG1CQVd2RVVFTnZ6SnVVeEVYMVhhWl9KSV9BVmFrYXhzRUFYVzJyTmxNS2UwYmIzMWF1NGZkemdMOW1sSXpDekFxR2plYkFuN3FMeHRsWjZIbURTQjRLbDkyNlIzU0s1Z3VQUTB5SlJvaXFiUzZWRm15M1Vrc01qQnVWVHBXenhQMks?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFBfTXUxSDUyLUFUcnVFbEVfWlZuRGhiaURGem9NUm5VUkpsalpLeGVjWG1CQVd2RVVFTnZ6SnVVeEVYMVhhWl9KSV9BVmFrYXhzRUFYVzJyTmxNS2UwYmIzMWF1NGZkemdMOW1sSX",
       "date": "16-05-2026 02:00 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI brings Codex to ChatGPT for iPhone, iPad, and Android with these features - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU9ZV1FabjNvUmZFQzJYMjcwS0dnTjdUVGdHQU9oZFRWVzZobHNlcXpITg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU",
+      "date": "15-05-2026 06:14 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -115,14 +139,6 @@
       "date": "13-05-2026 04:08 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Is Anthropic\u2019s New A.I. Really That Scary? It Depends Whom You Ask. - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1ZnRVhtaGlSMXYxSno0X0U?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4xYmItWjc3dW9jYkpsVEJ2R0E5YlFOR1BFTWR0cExDSFlDa3FXbVdTaHcweENTYmx0MmpSVWxGY2NuRnFoQVFTRDlCWVViaTBObmI1bk1yckF3aV91VC1zNmRYVmNtQ1RyMHplMlYza1",
-      "date": "13-05-2026 02:01 AM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
@@ -155,14 +171,6 @@
       "date": "05-05-2026 08:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Agents for financial services - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5\" target=\"_blank\">Agents f",
-      "date": "05-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
@@ -171,28 +179,12 @@
       "date": "02-05-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI updates Codex and prepares Remote Control feature - TestingCatalog AI News",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0VGZnhKbFhhRXcyRjk0QWJOa2JMVXZWcWxGM0tVVkQyd0NLRF9Gb2RZcXVkT3FCeTJwYW5xTWhuV1EyN04zaTlnT3kyTWhCZzVOUEQzWWl5VlVTR0tBSTN0RmRRckRJYkViZjFreFU5VWUwc2YxM2RkVkhjeGs1SkJGcDctSzU1SmJVd3hsckJJUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0VGZnhKbFhhRXcyRjk0QWJOa2JMVXZWcWxGM0tVVkQyd0NLRF9Gb2RZcXVkT3FCeTJwYW5xTWhuV1EyN04zaTlnT3kyTWhCZzVOUEQzWWl5VlVTR0tBSTN0RmRRckRJYkViZjFreF",
-      "date": "30-04-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
       "summary": "<p>From first draft to final polish, Copilot acts as a true collaborator,\u00a0taking action\u00a0while you stay in control.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/2",
       "date": "23-04-2026 10:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
-      "date": "22-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -213,10 +205,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Images in ChatGPT are getting a major update - Axios",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=",
+      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - Venturebeat",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
       "date": "21-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
+      "date": "20-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -227,20 +227,12 @@
       "date": "16-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s AI assistant can now call various tools to make designs for you - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkhjUDlPX0dGSDQ3LWFMUzVwU3YtNGtQUWxHcE1UUUJhaGRxOTRZcFh5UUJqM3h5cmpuQW1wMnMtWG1aS1h6Y2xUU1dIOGx0M3VIRndLZ0JZWS1QTDVfRm5BYldOUGVMSGNjbE1uYjJibGo1NUNLbjVSRUhoelotbHVrYU4xdVg2RzhwU0w4UWFWZmpRd29SMUNBSTQwWExfLVRqdTdxY1Y?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZkhjUDlPX0dGSDQ3LWFMUzVwU3YtNGtQUWxHcE1UUUJhaGRxOTRZcFh5UUJqM3h5cmpuQW1wMnMtWG1aS1h6Y2xUU1dIOGx0M3VIRndLZ0JZWS1QTDVfRm5BYldOUGVMSGNjbE1uYj",
-      "date": "16-04-2026 05:00 PM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Mythos and Project Glasswing: why an AI superhacker has the tech world on alert - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1BselpOdjBXeGZwMWN4RlhsTFZHTUg0LW1DUFNDVVJVOUE0T2pSZHhjbGI3WGFtNmRIb2JLU1JxU2RKSFNURGxWREQ4WlFzVWhMaFMyTg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1",
+      "date": "13-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -273,6 +265,14 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
       "date": "04-03-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
