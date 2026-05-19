@@ -7,6 +7,14 @@ Format: decision → why. Newest first within each session.
 
 ## Session: 2026-05-19 / 2026-05-20
 
+### AI Guide — Prompt audience and tone
+**Decision:** Prompts written for "I wouldn't even know how to do that" — complete beginners, not IT staff. Mix of security-awareness prompts (top threats for everyday office workers) and general productivity/day-to-day prompts (improve your day, handle basic tasks). Not a power-user guide.
+**Why:** The site is for everyone. If the content assumes competence it doesn't help the people who most need it.
+
+### AI Guide — Tool filter behaviour
+**Decision:** Selecting a tool filters ALL visible prompts to that tool. Not a jump-to-section — the whole prompt set changes.
+**Why:** User confirmed this directly. Cleaner interaction model: one tool selected = one context, everything scoped to it.
+
 ### AI Guide — Tool selector at top
 **Decision:** AI Tools section lives at the top of `ai-guide.html`, not as a separate page or nav item.
 **Why:** User selects their tool first (Claude, ChatGPT, Copilot, Gemini, Canva, Zoom), then sees prompts in that context. Tool-first ordering matches how people actually approach AI — they have a tool, they want to know what to do with it. Keeps nav at 4 items.
