@@ -5,32 +5,37 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 @import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { scroll-behavior: smooth; }
 
 /* ── DARK THEME ── */
 :root[data-theme="dark"] {
-  --bg:         #0d0f14;
-  --surface:    #13161e;
-  --surface2:   #1a1e28;
-  --surface3:   #222736;
-  --border:     rgba(255,255,255,0.07);
-  --border2:    rgba(255,255,255,0.13);
+  --bg:         #0f0d0b;
+  --surface:    #161310;
+  --surface2:   #1d1914;
+  --surface3:   #25211a;
   --text:       #f0ede6;
   --text-2:     #c8c4bc;
   --text-3:     #8a8680;   /* tertiary  —  4.8:1 AA min on --bg */
   --text-4:     #55524e;
-  --accent:     #f5c842;
-  --accent-dim: rgba(245,200,66,0.10);
-  --accent-b:   rgba(245,200,66,0.28);
+  --accent:     #f8ce2a;
+  --accent-dim: rgba(248,206,42,0.10);
+  --accent-b:   rgba(248,206,42,0.28);
+  --orange:     #e07830;
+  --orange-dim: rgba(224,120,48,0.12);
+  --orange-b:   rgba(224,120,48,0.30);
   --crit:       #e07878;
   --high:       #d4a84a;
   --med:        #5aad96;
   --adv:        #7fa8d4;
   --live:       #5aad96;
-  --surface-hdr:#13161e;
+  --surface-hdr:#161310;
+  --border:     rgba(255,255,255,0.09);
+  --border2:    rgba(255,255,255,0.16);
   --mono:       'Hack', monospace;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --tag-cyber-bg:rgba(127,168,212,0.12); --tag-cyber-c:#9dc0e0; --tag-cyber-b:rgba(127,168,212,0.22);
   --tag-rto-bg:rgba(165,130,215,0.12);   --tag-rto-c:#c090f0;   --tag-rto-b:rgba(165,130,215,0.22);
   --tag-ai-bg:rgba(90,173,150,0.12);     --tag-ai-c:#70c8b0;    --tag-ai-b:rgba(90,173,150,0.22);
@@ -48,20 +53,24 @@ html { scroll-behavior: smooth; }
   --surface3:   #e4e0d6;
   --border:     rgba(0,0,0,0.06);
   --border2:    rgba(0,0,0,0.10);
-  --text:       #0D3B66;
-  --text-2:     #1a3a5c;
-  --text-3:     #4a6a8a;
-  --text-4:     #8aabbf;
-  --accent:     #0D3B66;
-  --accent-dim: rgba(13,59,102,0.08);
-  --accent-b:   rgba(13,59,102,0.22);
+  --text:       #1a1208;
+  --text-2:     #2d1e0e;
+  --text-3:     #6b5040;
+  --text-4:     #9a8070;
+  --accent:     #c85200;
+  --accent-dim: rgba(200,82,0,0.08);
+  --accent-b:   rgba(200,82,0,0.22);
+  --orange:     #c45e18;
+  --orange-dim: rgba(196,94,24,0.08);
+  --orange-b:   rgba(196,94,24,0.22);
   --crit:       #b83a3a;
   --high:       #8a6020;
   --med:        #2a7a62;
-  --adv:        #0D3B66;
+  --adv:        #1a4a7a;
   --live:       #2a7a62;
   --surface-hdr:#faf8f2;
   --mono:       'Hack', monospace;
+  --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --tag-cyber-bg:rgba(13,59,102,0.08);   --tag-cyber-c:#0D3B66; --tag-cyber-b:rgba(13,59,102,0.20);
   --tag-rto-bg:rgba(100,60,160,0.08);    --tag-rto-c:#502090;   --tag-rto-b:rgba(100,60,160,0.20);
   --tag-ai-bg:rgba(42,122,98,0.08);      --tag-ai-c:#1a6048;    --tag-ai-b:rgba(42,122,98,0.20);
@@ -89,23 +98,25 @@ body {
   min-height: 100vh;
   -webkit-font-smoothing: antialiased;
 }
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
 
 /* ── HEADER ── */
 .site-header {
   background: var(--surface-hdr);
   border-bottom: 0.5px solid var(--border);
   padding: 0 40px;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
   align-items: center;
-  justify-content: space-between;
-  height: 66px;
-  gap: 24px;
+  height: 70px;
   position: sticky;
   top: 0;
   z-index: 100;
 }
-.hdr-left { display: flex; align-items: center; gap: 24px; }
-.site-logo { display: flex; align-items: center; gap: 10px; text-decoration: none; flex-shrink: 0; }
+.site-logo { justify-self: center; display: flex; align-items: center; text-decoration: none; flex-shrink: 0; }
 .site-logo img { height: 52px; width: auto; display: block; }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link {
@@ -127,7 +138,7 @@ body {
   border-color: var(--accent-b);
   font-weight: 500;
 }
-.hdr-right { display: flex; align-items: center; gap: 8px; }
+.hdr-right { display: flex; align-items: center; gap: 8px; justify-content: flex-end; }
 .hdr-btn {
   font-family: inherit;
   font-size: 12px;
@@ -142,13 +153,13 @@ body {
   align-items: center;
   gap: 5px;
 }
-.hdr-btn:hover { color: var(--accent); border-color: var(--accent-b); }
+.hdr-btn:hover { color: var(--orange); border-color: var(--orange-b); }
 .theme-btn {
   width: 34px; height: 34px;
   border-radius: 50%;
   border: 1.5px solid var(--border2);
   background: var(--surface2);
-  color: #f5c842;
+  color: var(--accent);
   cursor: pointer;
   font-size: 15px;
   display: grid;
@@ -156,7 +167,7 @@ body {
   flex-shrink: 0;
   padding: 0;
 }
-.theme-btn:hover { border-color: #f5c842; }
+.theme-btn:hover { border-color: var(--accent); }
 
 /* ── WORD OF DAY ── */
 .wotd-strip {

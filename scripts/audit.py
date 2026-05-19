@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
 audit.py — pseudosec. pre-ship audit
-Run from the project root before every git push.
-Usage: python3 audit.py
+Run from the project root: python3 scripts/audit.py
 """
 import re, ast, os, sys
+
+ROOT = os.path.join(os.path.dirname(__file__), '..')
 
 errors = []
 warnings = []
@@ -18,7 +19,7 @@ def check(label, condition, warn=False):
 
 def load(path):
     try:
-        return open(path).read()
+        return open(os.path.join(ROOT, path)).read()
     except FileNotFoundError:
         errors.append(f"FILE MISSING: {path}")
         return ''
@@ -35,7 +36,7 @@ res_html  = load('resources.html')
 res_js    = load('resources.js')
 aig_html  = load('ai-guide.html')
 aig_js    = load('ai-guide.js')
-py_script = load('fetch_cyber_news.py')
+py_script = load('scripts/fetch_cyber_news.py')
 workflow  = load('.github/workflows/fetch_news.yml')
 
 all_html = [('index.html', idx), ('definitions.html', defs_html),
@@ -58,11 +59,11 @@ tests = [
     ("Scam callout hidden by default",     'scam-callout' in idx),
     ("Briefing hides on fail",             "display = 'none'" in dash_js),
     ("51+ definitions",                    load('definitions.js').count("short:") >= 51),
-    ("briefing.json exists",               os.path.exists('briefing.json')),
-    ("news.json exists",                   os.path.exists('news.json')),
-    ("cve.json exists",                    os.path.exists('cve.json')),
-    ("tool_updates.json exists",           os.path.exists('tool_updates.json')),
-    ("pseudosec.png exists",               os.path.exists('pseudosec.png')),
+    ("briefing.json exists",               os.path.exists(os.path.join(ROOT, 'data/briefing.json'))),
+    ("news.json exists",                   os.path.exists(os.path.join(ROOT, 'data/news.json'))),
+    ("cve.json exists",                    os.path.exists(os.path.join(ROOT, 'data/cve.json'))),
+    ("tool_updates.json exists",           os.path.exists(os.path.join(ROOT, 'data/tool_updates.json'))),
+    ("pseudosec.png exists",               os.path.exists(os.path.join(ROOT, 'assets/pseudosec.png'))),
 ]
 for label, cond in tests:
     r = check(label, cond)
@@ -83,7 +84,7 @@ for name, h in all_html:
         (f"{name}: loads shared.css",      'shared.css' in h),
         (f"{name}: loads shared.js",       'shared.js' in h),
         (f"{name}: 4+ nav links",          h.count('nav-link') >= 4),
-        (f"{name}: logo present",          'pseudosec.png' in h),
+        (f"{name}: logo present",          'assets/pseudosec.png' in h),
         (f"{name}: noopener on externals", 'rel="noopener' in h or h.count('target="_blank"') == 0),
     ]
     for label, cond in tests:
@@ -171,7 +172,7 @@ py_tests = [
     ("Briefing list-safe",                 'isinstance(news, list)' in py_script),
     ("Workflow force-with-lease",          'force-with-lease' in workflow),
     ("Workflow API key secret",            'secrets.ANTHROPIC_API_KEY' in workflow),
-    ("Workflow commits briefing.json",     'briefing.json' in workflow),
+    ("Workflow commits briefing.json",     'data/briefing.json' in workflow),
 ]
 for label, cond in py_tests:
     r = check(label, cond)
@@ -183,9 +184,8 @@ print("\n── PASS 6: SECURITY")
 all_content = idx + defs_html + res_html + aig_html + shard_js + dash_js
 sec_tests = [
     ("No API keys in HTML or JS",          'sk-ant' not in all_content),
-    ("Iframe sandboxed",                   'sandbox=' in idx),
-    ("Iframe loading=lazy",                'loading="lazy"' in idx),
-    ("Iframe referrerpolicy set",          'referrerpolicy=' in idx),
+    ("No iframe in dashboard",             'iframe' not in idx),
+    ("CSP frame-src none",                 "frame-src 'none'" in idx),
     ("ARIA live on dynamic content",       'aria-live' in idx),
     ("role=feed on article list",          'role="feed"' in idx),
     ("HIBP uses HTTPS",                    'https://haveibeenpwned' in res_js),
@@ -194,6 +194,49 @@ for label, cond in sec_tests:
     r = check(label, cond)
     results.append((label, r))
     print(f"  {'✓' if r else '✗'} {label}")
+
+# ── PASS 7: CONTENT QUALITY ──────────────────────────────────
+print("\n── PASS 7: CONTENT QUALITY")
+import json as _json
+
+def load_json(path):
+    try:
+        with open(os.path.join(ROOT, path)) as f:
+            data = _json.load(f)
+        return data.get('items', data) if isinstance(data, dict) else data
+    except Exception:
+        return []
+
+news_items = load_json('data/news.json')
+cve_items  = load_json('data/cve.json')
+
+html_pattern = __import__('re').compile(r'<[a-zA-Z]')
+flagged_sources = []
+html_summaries  = []
+
+for a in (news_items if isinstance(news_items, list) else []):
+    summary = a.get('summary', '')
+    if html_pattern.search(summary):
+        html_summaries.append(a.get('title', '')[:60])
+
+cq_tests = [
+    ("news.json has articles",             len(news_items) > 0),
+    ("cve.json has CVEs",                  len(cve_items) > 0),
+    ("No HTML in article summaries",       len(html_summaries) == 0),  # warn: stale data clears on next fetch
+    ("news.json has 10+ articles",         len(news_items) >= 10),
+    ("All articles have titles",           all(a.get('title') for a in (news_items if isinstance(news_items, list) else []))),
+    ("All articles have links",            all(a.get('link') for a in (news_items if isinstance(news_items, list) else []))),
+    ("All CVEs have IDs",                  all(c.get('id') for c in (cve_items if isinstance(cve_items, list) else []))),
+]
+for label, cond in cq_tests:
+    r = check(label, cond, warn=(label in ("news.json has 10+ articles", "No HTML in article summaries")))
+    results.append((label, r))
+    print(f"  {'✓' if r else '✗'} {label}")
+
+if html_summaries:
+    print(f"  ⚠ HTML found in summaries ({len(html_summaries)} articles) — strip_html() may not be running")
+    for t in html_summaries[:3]:
+        print(f"    • {t}")
 
 # ── SUMMARY ──────────────────────────────────────────────────
 passed = sum(1 for _, r in results if r)

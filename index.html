@@ -6,31 +6,29 @@
 <meta name="description" content="pseudosec. — Live Australian cyber security intelligence. Threat advisories, CVE bulletins, scam alerts and sector news, updated every 30 minutes.">
 <meta property="og:title" content="pseudosec. — Australian Cyber Intelligence">
 <meta property="og:description" content="Live Australian cyber security intelligence — threat advisories, CVE bulletins, scam alerts and sector news.">
-<meta property="og:image" content="pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
+<meta property="og:image" content="assets/pseudosec.png">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data: https://cdn.simpleicons.org; frame-src https://cyberattackmap.net; connect-src 'self' https://api.open-meteo.com; frame-src 'none'; object-src 'none'; base-uri 'self'">
 <title>pseudosec. — Australian Cyber Intelligence</title>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🛡</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
 <link rel="stylesheet" href="shared.css">
 <link rel="stylesheet" href="dashboard.css">
 </head>
 <body>
 
 <header class="site-header">
-  <div class="hdr-left">
-    <a href="index.html" class="site-logo" aria-label="pseudosec. home">
-      <img src="pseudosec.png" alt="pseudosec.">
-    </a>
-    <nav class="site-nav" aria-label="Main navigation">
-      <a href="index.html"       class="nav-link">Dashboard</a>
-      <a href="definitions.html" class="nav-link">Definitions</a>
-      <a href="resources.html"   class="nav-link">Resources</a>
-      <a href="ai-guide.html"    class="nav-link">AI Guide</a>
-      <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener" class="nav-link nav-link--ext">OWASP Top 10 ↗</a>
-    </nav>
-  </div>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html"       class="nav-link">Dashboard</a>
+    <a href="definitions.html" class="nav-link">Definitions</a>
+    <a href="resources.html"   class="nav-link">Resources</a>
+    <a href="ai-guide.html"    class="nav-link">AI Guide</a>
+    <a href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener" class="nav-link nav-link--ext">OWASP Top 10 ↗</a>
+  </nav>
+  <a href="index.html" class="site-logo" aria-label="pseudosec. home">
+    <img src="assets/pseudosec.png" alt="pseudosec.">
+  </a>
   <div class="hdr-right">
     <button class="hdr-btn" id="briefing-btn" aria-expanded="false" aria-label="Open AI briefing">Briefing</button>
-    <button class="hdr-btn" id="threat-map-btn">🌐 Threat Map</button>
+    <button class="hdr-btn" id="threat-map-btn">🌐 Threat Intel</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn">🛡 ACSC</a>
     <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
     <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
@@ -84,19 +82,12 @@
     <div class="tracker-src">Source: ACSC Annual Cyber Threat Report 2024–25</div>
   </div>
   <div class="tracker-body">
-    <div class="tracker-col tracker-col--counter">
+    <div class="tracker-col tracker-col--hero">
       <div class="count-label">Estimated cybercrime reports — FY 2025–26</div>
       <div class="count-num" id="main-count" aria-live="polite">—</div>
       <div class="count-sub">One report every <strong>6 minutes</strong> · Counting from 1 July 2025</div>
-      <div class="count-note">Projected from ACSC 2024–25 annual rate of 84,700 reports/year</div>
-    </div>
-    <div class="tracker-col tracker-col--stats">
-      <div class="mini-stats">
-        <div class="ms"><div class="ms-n">1,200+</div><div class="ms-l">Significant incidents FY24–25</div></div>
-        <div class="ms"><div class="ms-n ms-n--high">$80,850</div><div class="ms-l">Avg cost per business incident</div></div>
-        <div class="ms"><div class="ms-n ms-n--med">$36,633</div><div class="ms-l">Avg individual loss per incident</div></div>
-        <div class="ms"><div class="ms-n">42,500+</div><div class="ms-l">Calls to Cyber Security Hotline FY24–25</div></div>
-      </div>
+      <div id="featured-story" class="featured-story" hidden aria-live="polite"></div>
+      <p id="count-voice" class="count-voice">From a $30 phishing text to a ransomware attack on a hospital — this counter catches all of it. Most of it isn't sophisticated. Most of it is preventable.</p>
     </div>
     <div class="tracker-col tracker-col--cve">
       <div class="cve-header">
@@ -108,38 +99,33 @@
       </div>
     </div>
   </div>
-  <div class="report-summary" role="complementary" aria-label="FY2024-25 report summary">
-    <div class="rs-item"><span class="rs-n">84,700</span><span class="rs-l">Cybercrime reports FY24–25</span></div>
-    <div class="rs-item"><span class="rs-n">$80,850</span><span class="rs-l">↑ 50% avg business loss</span></div>
-    <div class="rs-item"><span class="rs-n">$36,633</span><span class="rs-l">Avg individual loss</span></div>
-    <div class="rs-item"><span class="rs-n">334M</span><span class="rs-l">↑ 307% malicious domains blocked</span></div>
-    <div class="rs-item"><span class="rs-n">1,200+</span><span class="rs-l">↑ 11% significant incidents</span></div>
-    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="rs-link">Full report ↗</a>
+  <div class="tracker-stats" role="complementary" aria-label="FY2024–25 at a glance">
+    <div class="ts-item"><span class="ts-n">1,200+</span><span class="ts-l">↑ 11% significant incidents FY24–25</span></div>
+    <div class="ts-item"><span class="ts-n ts-n--high">$80,850</span><span class="ts-l">↑ 50% avg cost per business incident</span></div>
+    <div class="ts-item"><span class="ts-n ts-n--med">$36,633</span><span class="ts-l">Avg individual loss per incident</span></div>
+    <div class="ts-item"><span class="ts-n">42,500+</span><span class="ts-l">Calls to the Cyber Security Hotline</span></div>
+    <div class="ts-item"><span class="ts-n">334M</span><span class="ts-l">↑ 307% malicious domains blocked</span></div>
+    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="ts-link">Full report ↗</a>
+  </div>
+  <div class="tracker-crime" role="img" aria-label="Crime type distribution FY2024–25">
+    <div class="tracker-crime-label">Crime type distribution — FY 2024–25</div>
+    <div class="bar-wrap">
+      <div class="bar-seg" id="b-ransom" style="background:#e07878;width:0%" aria-label="Ransomware 11%"></div>
+      <div class="bar-seg" id="b-id"     style="background:#c090f0;width:0%" aria-label="Identity fraud 8%"></div>
+      <div class="bar-seg" id="b-shop"   style="background:#7fa8d4;width:0%" aria-label="Online shopping 7%"></div>
+      <div class="bar-seg" id="b-bank"   style="background:#5aad96;width:0%" aria-label="Banking fraud 6%"></div>
+      <div class="bar-seg" id="b-other"  style="background:var(--border2);width:0%" aria-label="Other 68%"></div>
+    </div>
+    <div class="legend">
+      <span class="legend-item"><span class="legend-dot" style="background:#e07878;"></span>Ransomware 11%</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#c090f0;"></span>Identity fraud 8%</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#7fa8d4;"></span>Online shopping 7%</span>
+      <span class="legend-item"><span class="legend-dot" style="background:#5aad96;"></span>Banking fraud 6%</span>
+      <span class="legend-item"><span class="legend-dot" style="background:var(--border2);"></span>Other 68%</span>
+    </div>
+    <p class="tracker-crime-note"><strong>Other (68%)</strong> includes business email compromise, hacking, malware and extortion — grouped in ACSC reporting. <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="chart-link">Full breakdown ↗</a></p>
   </div>
 </section>
-
-<!-- CRIME CHART -->
-<div class="crime-chart" role="img" aria-label="Crime type distribution FY2024-25">
-  <div class="crime-chart-label">Crime type distribution — FY 2024–25</div>
-  <div class="bar-wrap">
-    <div class="bar-seg" id="b-ransom" style="background:#e07878;width:0%" aria-label="Ransomware 11%"></div>
-    <div class="bar-seg" id="b-id"     style="background:#c090f0;width:0%" aria-label="Identity fraud 8%"></div>
-    <div class="bar-seg" id="b-shop"   style="background:#7fa8d4;width:0%" aria-label="Online shopping 7%"></div>
-    <div class="bar-seg" id="b-bank"   style="background:#5aad96;width:0%" aria-label="Banking fraud 6%"></div>
-    <div class="bar-seg" id="b-other"  style="background:var(--border2);width:0%" aria-label="Other 68%"></div>
-  </div>
-  <div class="legend">
-    <span class="legend-item"><span class="legend-dot" style="background:#e07878;"></span>Ransomware 11%</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#c090f0;"></span>Identity fraud 8%</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#7fa8d4;"></span>Online shopping 7%</span>
-    <span class="legend-item"><span class="legend-dot" style="background:#5aad96;"></span>Banking fraud 6%</span>
-    <span class="legend-item"><span class="legend-dot" style="background:var(--border2);"></span>Other 68%</span>
-  </div>
-  <div class="crime-chart-note">
-    <strong>Other (68%)</strong> includes business email compromise, hacking, malware and extortion — grouped together in ACSC reporting.
-    <a href="https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025" target="_blank" rel="noopener" class="chart-link">Full breakdown ↗</a>
-  </div>
-</div>
 
 <!-- TAG FILTERS: click tags on articles to filter — toggleTagFilter() in dashboard.js -->
 <!-- ACTIVE FILTER BAR (hidden by default, shown when filters active) -->
@@ -163,64 +149,58 @@
         <div class="sb-empty">Loading...</div>
       </div>
     </div>
-    <div class="sb-e8-section">
-      <div class="sb-hdr sb-hdr--e8">
-        <span>Essential Eight</span>
-        <a href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener" class="sb-hdr-link">ACSC ↗</a>
-      </div>
-      <div class="sb-e8-scroll">
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">1</span>
-          <div><div class="sb-e8-name">Patch Applications</div><div class="sb-e8-desc">Fix vulnerabilities in third-party software promptly</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">2</span>
-          <div><div class="sb-e8-name">Patch Operating Systems</div><div class="sb-e8-desc">Keep OS security updates current</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">3</span>
-          <div><div class="sb-e8-name">Multi-Factor Authentication</div><div class="sb-e8-desc">Require MFA for all users and remote access</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">4</span>
-          <div><div class="sb-e8-name">Restrict Admin Privileges</div><div class="sb-e8-desc">Limit admin accounts to those who need them</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">5</span>
-          <div><div class="sb-e8-name">Application Control</div><div class="sb-e8-desc">Prevent unapproved software from executing</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">6</span>
-          <div><div class="sb-e8-name">Restrict Office Macros</div><div class="sb-e8-desc">Block macros from the internet in Microsoft Office</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">7</span>
-          <div><div class="sb-e8-name">User Application Hardening</div><div class="sb-e8-desc">Harden browsers and block risky features</div></div>
-        </a>
-        <a class="sb-e8-item" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight/essential-eight-explained" target="_blank" rel="noopener">
-          <span class="sb-e8-num">8</span>
-          <div><div class="sb-e8-name">Regular Backups</div><div class="sb-e8-desc">Test backups and protect them from ransomware</div></div>
-        </a>
-      </div>
-    </div>
   </aside>
 </div>
 
-<!-- THREAT MAP (toggled) -->
+<!-- THREAT INTEL PANEL (toggled) -->
 <div id="threat-map-section" class="threat-map-section" hidden>
   <div class="threat-map-header">
-    <span class="threat-map-title">🌐 Live Global Threat Map</span>
-    <span class="threat-map-note">cyberattackmap.net · opens in new tab if blocked by browser</span>
-    <button class="threat-map-close" aria-label="Close threat map">✕ Close</button>
+    <span class="threat-map-title">🌐 Live Threat Intelligence</span>
+    <span class="threat-map-note">Curated live sources — Cloudflare Radar · CISA · ASD</span>
+    <button class="threat-map-close" aria-label="Close threat intelligence panel">✕ Close</button>
   </div>
-  <iframe
-    src="https://cyberattackmap.net/"
-    class="threat-map-frame"
-    title="Live Cyber Attack Map"
-    loading="lazy"
-    sandbox="allow-scripts allow-popups"
-    referrerpolicy="no-referrer">
-  </iframe>
+  <div class="threat-intel-grid">
+    <a class="threat-intel-card" href="https://radar.cloudflare.com/security-and-attacks" target="_blank" rel="noopener">
+      <div class="tic-logo">
+        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" aria-hidden="true"><rect width="80" height="80" rx="8" fill="#F38020"/><path d="M52 28c-2.2-6.6-8.4-11-15.5-11C28.7 17 23 22.7 23 29.5c0 .5 0 1 .1 1.5C19.6 32 17 35.3 17 39.2 17 44 21 48 25.8 48H54c4.4 0 8-3.6 8-8 0-3.9-2.8-7.2-6.6-7.8L52 28Z" fill="white" fill-opacity="0.9"/></svg>
+      </div>
+      <div class="tic-body">
+        <div class="tic-name">Cloudflare Radar</div>
+        <div class="tic-desc">Global DDoS attack trends, layer 3/4/7 traffic, threat timeseries — updated in real time.</div>
+        <div class="tic-link">radar.cloudflare.com ↗</div>
+      </div>
+    </a>
+    <a class="threat-intel-card" href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">
+      <div class="tic-logo">
+        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" aria-hidden="true"><rect width="80" height="80" rx="8" fill="#003087"/><path d="M40 14l4.7 14.4H59l-11.8 8.6 4.5 13.8L40 42.2 28.3 50.8l4.5-13.8L21 28.4h14.3L40 14Z" fill="white"/></svg>
+      </div>
+      <div class="tic-body">
+        <div class="tic-name">CISA Known Exploited Vulnerabilities</div>
+        <div class="tic-desc">Authoritative US government list of vulnerabilities actively exploited in the wild. Drives the CVE feed above.</div>
+        <div class="tic-link">cisa.gov ↗</div>
+      </div>
+    </a>
+    <a class="threat-intel-card" href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories" target="_blank" rel="noopener">
+      <div class="tic-logo">
+        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" aria-hidden="true"><rect width="80" height="80" rx="8" fill="#00843D"/><path d="M40 16c-13.3 0-24 10.7-24 24s10.7 24 24 24 24-10.7 24-24S53.3 16 40 16Zm0 4c2.8 0 5.4.6 7.8 1.7L21.7 47.8C20.6 45.4 20 42.8 20 40c0-11 9-20 20-20Zm0 40c-2.8 0-5.4-.6-7.8-1.7l26.1-26.1C59.4 34.6 60 37.2 60 40c0 11-9 20-20 20Z" fill="white"/></svg>
+      </div>
+      <div class="tic-body">
+        <div class="tic-name">ASD Alerts &amp; Advisories</div>
+        <div class="tic-desc">Australian Signals Directorate live threat advisories and critical vulnerability alerts for Australian organisations.</div>
+        <div class="tic-link">cyber.gov.au ↗</div>
+      </div>
+    </a>
+    <a class="threat-intel-card" href="https://www.scamwatch.gov.au/news-and-alerts" target="_blank" rel="noopener">
+      <div class="tic-logo">
+        <svg width="20" height="20" viewBox="0 0 80 80" fill="none" aria-hidden="true"><rect width="80" height="80" rx="8" fill="#C8102E"/><path d="M40 18L16 58h48L40 18Zm0 10l18.6 26H21.4L40 28Zm-2 12h4v8h-4v-8Zm0 10h4v4h-4v-4Z" fill="white"/></svg>
+      </div>
+      <div class="tic-body">
+        <div class="tic-name">Scamwatch Alerts</div>
+        <div class="tic-desc">ACCC live scam news and consumer alerts — types of scams, recent warnings, and how to report.</div>
+        <div class="tic-link">scamwatch.gov.au ↗</div>
+      </div>
+    </a>
+  </div>
 </div>
 
 <footer class="site-footer">

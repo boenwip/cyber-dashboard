@@ -91,6 +91,34 @@ def is_blocked(link, title=""):
 # ZONE 1: NEWS FEEDS
 # -------------------------------------------------------
 
+# -------------------------------------------------------
+# APPROVED DOMAINS — allowlist for Google News proxy results
+# Articles via news.google.com links are only accepted if
+# their title suffix or source name maps to one of these.
+# Direct RSS feeds (non-Google-News) are always trusted.
+# -------------------------------------------------------
+
+APPROVED_DOMAINS = {
+    # Government / authoritative
+    "scamwatch.gov.au", "cyber.gov.au", "asd.gov.au", "cisa.gov",
+    "asqa.gov.au", "employment.gov.au", "education.gov.au",
+    # Specialist AU cyber / tech press
+    "cyberdaily.au", "australiancybersecuritymagazine.com.au",
+    "securitybrief.com.au", "itnews.com.au", "zdnet.com",
+    # Reputable AU general tech / news
+    "abc.net.au", "theguardian.com", "smh.com.au", "afr.com",
+    "theconversation.com", "crikey.com.au",
+    # High-quality international cyber
+    "krebsonsecurity.com", "troyhunt.com", "risky.biz",
+    "darkreading.com", "404media.co", "theregister.com",
+    "arstechnica.com", "wired.com", "bleepingcomputer.com",
+    "threatpost.com", "securityweek.com", "infosecurity-magazine.com",
+    # Education / VET sector
+    "tafequensland.edu.au", "tafensw.edu.au", "iteca.edu.au",
+    "ncver.edu.au", "skillsignited.gov.au",
+}
+
+
 NEWS_FEEDS = [
     # ── Government & Official ──
     {
@@ -105,12 +133,15 @@ NEWS_FEEDS = [
         "name": "Google News — ScamWatch",
         "url": "https://news.google.com/rss/search?q=site:scamwatch.gov.au&hl=en-AU&gl=AU&ceid=AU:en"
     },
-    # ── Australian Cyber & Tech News ──
+    # ── Australian Cyber & Tech News (direct RSS — always trusted) ──
+    {
+        "name": "CyberDaily AU",
+        "url": "https://www.cyberdaily.au/feed"
+    },
     {
         "name": "Australian Cyber Security Magazine",
         "url": "https://australiancybersecuritymagazine.com.au/feed"
     },
-
     {
         "name": "Security Brief Australia",
         "url": "https://securitybrief.com.au/feed"
@@ -123,79 +154,9 @@ NEWS_FEEDS = [
         "name": "ABC News — Technology",
         "url": "https://www.abc.net.au/news/science-environment/technology/rss.xml"
     },
-
-    {
-        "name": "Google News — Guardian AU Cyber",
-        "url": "https://news.google.com/rss/search?q=site:theguardian.com+australia+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
-    },
     {
         "name": "Troy Hunt Blog",
         "url": "https://www.troyhunt.com/rss/"
-    },
-    {
-        "name": "Google News — Krebs Security",
-        "url": "https://news.google.com/rss/search?q=site:krebsonsecurity.com+australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    # ── Google News: Cyber & Scams ──
-    {
-        "name": "Google News — AU Cyber",
-        "url": "https://news.google.com/rss/search?q=cyber+attack+data+breach+australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — AU Scams",
-        "url": "https://news.google.com/rss/search?q=scam+fraud+australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    # ── Google News: RTO / VET / Education ──
-    {
-        "name": "Google News — ASQA / RTO",
-        "url": "https://news.google.com/rss/search?q=ASQA+RTO+traineeship+vocational+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — VET Workforce",
-        "url": "https://news.google.com/rss/search?q=VET+traineeship+apprenticeship+skills+shortage+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — TAFE Australia",
-        "url": "https://news.google.com/rss/search?q=TAFE+Queensland+NSW+Australia+training&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — ITECA / Training Policy",
-        "url": "https://news.google.com/rss/search?q=ITECA+vocational+training+policy+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — Training.gov.au",
-        "url": "https://news.google.com/rss/search?q=training.gov.au+qualifications+accreditation+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    # ── Google News: AI, EdTech & Compliance ──
-    {
-        "name": "Google News — VET Funding & Policy",
-        "url": "https://news.google.com/rss/search?q=VET+funding+fee-free+TAFE+skills+policy+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — AI & EdTech",
-        "url": "https://news.google.com/rss/search?q=AI+tools+education+training+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — AI Workforce",
-        "url": "https://news.google.com/rss/search?q=artificial+intelligence+workforce+Australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — Privacy & Compliance",
-        "url": "https://news.google.com/rss/search?q=Privacy+Act+compliance+Australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    # ── Positive / Good News ──
-    {
-        "name": "Google News — AU Cyber Wins",
-        "url": "https://news.google.com/rss/search?q=australia+cyber+security+policy+improvement+2026&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — AI Progress",
-        "url": "https://news.google.com/rss/search?q=AI+tools+productivity+education+Australia+2026&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    # ── High quality international / AU sources ──
-    {
-        "name": "CyberDaily AU",
-        "url": "https://www.cyberdaily.au/feed"
     },
     {
         "name": "404 Media",
@@ -210,20 +171,33 @@ NEWS_FEEDS = [
         "url": "https://www.darkreading.com/rss.xml"
     },
     {
-        "name": "Google News — CyberDaily AU",
-        "url": "https://news.google.com/rss/search?q=site:cyberdaily.au&hl=en-AU&gl=AU&ceid=AU:en"
+        "name": "Krebs on Security",
+        "url": "https://krebsonsecurity.com/feed/"
+    },
+    # ── Google News: site-scoped queries only (vetted outlets) ──
+    {
+        "name": "Google News — Guardian AU Cyber",
+        "url": "https://news.google.com/rss/search?q=site:theguardian.com+australia+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
-        "name": "Google News — Dark Reading",
-        "url": "https://news.google.com/rss/search?q=site:darkreading.com+australia+cyber+security&hl=en-AU&gl=AU&ceid=AU:en"
+        "name": "Google News — ABC Tech",
+        "url": "https://news.google.com/rss/search?q=site:abc.net.au+cyber+security+scam&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
-        "name": "Google News — Risky Business",
-        "url": "https://news.google.com/rss/search?q=site:risky.biz&hl=en-AU&gl=AU&ceid=AU:en"
+        "name": "Google News — Bleeping Computer AU",
+        "url": "https://news.google.com/rss/search?q=site:bleepingcomputer.com+australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
-        "name": "Google News — 404 Media",
-        "url": "https://news.google.com/rss/search?q=site:404media.co+australia+cyber&hl=en-AU&gl=AU&ceid=AU:en"
+        "name": "Google News — The Register AU",
+        "url": "https://news.google.com/rss/search?q=site:theregister.com+australia&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — ASQA / RTO",
+        "url": "https://news.google.com/rss/search?q=site:asqa.gov.au+OR+site:iteca.edu.au&hl=en-AU&gl=AU&ceid=AU:en"
+    },
+    {
+        "name": "Google News — Privacy & Compliance AU",
+        "url": "https://news.google.com/rss/search?q=site:abc.net.au+OR+site:theguardian.com+privacy+act+australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
 ]
 
@@ -566,6 +540,40 @@ def parse_date(entry):
 
 
 # -------------------------------------------------------
+# HELPER: Strip HTML tags from a string (for Google News summaries)
+# -------------------------------------------------------
+
+def strip_html(text):
+    """Remove HTML tags and decode common entities."""
+    import re as _re
+    text = _re.sub(r'<[^>]+>', '', text)
+    text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>') \
+               .replace('&nbsp;', ' ').replace('&#39;', "'").replace('&quot;', '"')
+    return ' '.join(text.split()).strip()
+
+
+# -------------------------------------------------------
+# HELPER: Check if a Google News proxied article is from an approved domain
+# Google News RSS titles often end with "- Publisher Name"
+# -------------------------------------------------------
+
+def is_approved_gnews(title, source_name):
+    """For Google News proxy articles, approve only if publisher is in APPROVED_DOMAINS."""
+    title_lower = title.lower()
+    for domain in APPROVED_DOMAINS:
+        # Check if domain name appears in the title suffix (e.g., "- abc.net.au")
+        name_part = domain.split('.')[0]  # e.g., "abc", "krebsonsecurity"
+        if name_part in title_lower.split()[-3:]:
+            return True
+        if domain in title_lower:
+            return True
+    # Also approve site:-scoped queries unconditionally — the query itself is the vetting
+    if 'site:' in source_name.lower():
+        return True
+    return False
+
+
+# -------------------------------------------------------
 # HELPER: Fetch a feed safely with timeout + User-Agent
 # -------------------------------------------------------
 
@@ -729,9 +737,11 @@ def fetch_news():
         print(f"  Fetching: {feed['name']}...")
         parsed = fetch_feed(feed["url"])
 
+        is_gnews = feed["url"].startswith("https://news.google.com")
+
         for entry in parsed.entries:
             title    = entry.get("title", "")
-            summary  = entry.get("summary", "")
+            summary  = strip_html(entry.get("summary", ""))
             link     = entry.get("link", "")
             date     = parse_date(entry)
 
@@ -748,6 +758,10 @@ def fetch_news():
 
             # Skip blocked sources
             if is_blocked(link, title):
+                continue
+
+            # For Google News proxy feeds, only accept approved publishers
+            if is_gnews and not is_approved_gnews(title, feed["name"]):
                 continue
 
             # Skip celebrity/entertainment content that slips through
@@ -990,34 +1004,99 @@ Write the briefing now. No title, no sign-off — just 1-2 short paragraphs."""
 
     return None
 
+def generate_featured_article(articles):
+    """Use AI to select the most notable article and write a one-sentence pull quote."""
+    import os, re as _re
+    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
+    if not api_key or not articles:
+        return None
+
+    candidates = articles[:15]
+    numbered = '\n'.join([
+        '{}: [{}] {} — {}'.format(i, a.get('source', ''), a.get('title', ''), a.get('summary', '')[:100])
+        for i, a in enumerate(candidates)
+    ])
+    prompt = (
+        'From these recent cybersecurity articles, pick the single most significant or interesting story for an Australian audience.\n\n'
+        + numbered
+        + '\n\nReturn ONLY valid JSON:\n{"index": <number 0-'
+        + str(len(candidates) - 1)
+        + '>, "quote": "<one plain-English sentence, max 18 words, explaining why this story matters>"}'
+    )
+    payload = json.dumps({
+        'model': 'claude-haiku-4-5-20251001',
+        'max_tokens': 100,
+        'messages': [{'role': 'user', 'content': prompt}]
+    }).encode()
+    req = urllib.request.Request(
+        'https://api.anthropic.com/v1/messages',
+        data=payload,
+        headers={
+            'x-api-key': api_key,
+            'anthropic-version': '2023-06-01',
+            'content-type': 'application/json'
+        },
+        method='POST'
+    )
+    try:
+        resp = urllib.request.urlopen(req, timeout=20)
+        result = json.loads(resp.read().decode())
+        text = result.get('content', [{}])[0].get('text', '').strip()
+        match = _re.search(r'\{[^}]+\}', text, _re.DOTALL)
+        if match:
+            data = json.loads(match.group())
+            idx = int(data.get('index', 0))
+            quote = str(data.get('quote', '')).strip()
+            if 0 <= idx < len(candidates) and quote:
+                a = candidates[idx]
+                print('    Featured: {}...'.format(a.get('title', '')[:60]))
+                return {
+                    'title':  a.get('title', ''),
+                    'link':   a.get('link', ''),
+                    'source': a.get('source', ''),
+                    'date':   a.get('date', ''),
+                    'quote':  quote,
+                }
+    except Exception as e:
+        print('    Featured article selection failed: {}'.format(e))
+    return None
+
+
 if __name__ == "__main__":
     print("\n=== Fetching news feeds (Zone 1) ===")
     news = fetch_news()
-    save_json(news, "news.json")
+    save_json(news, "data/news.json")
 
     print("\n=== Fetching tool updates (Zone 2) ===")
     tools = fetch_tool_updates()
-    save_json(tools, "tool_updates.json")
+    save_json(tools, "data/tool_updates.json")
 
     print("\n=== Fetching CVEs ===")
     cves = fetch_cves()
     if isinstance(cves, dict):
         cves = cves.get('items', [])
-    save_json(cves, 'cve.json')
+    save_json(cves, 'data/cve.json')
 
     print("\n=== Generating AI briefing ===")
     AEST = datetime.timezone(datetime.timedelta(hours=10))
-    briefing_text = generate_briefing(news if isinstance(news, list) else (news.get('items', []) if isinstance(news, dict) else []))
-    if briefing_text:
-        briefing_data = {
-            'date': datetime.datetime.now(AEST).strftime('%d %B %Y'),
-            'briefing': briefing_text,
-            'generated': datetime.datetime.now(AEST).strftime('%d-%m-%Y %I:%M %p')
-        }
-        save_json(briefing_data, 'briefing.json')
-        print(f"  Briefing saved to briefing.json")
+    news_list = news if isinstance(news, list) else (news.get('items', []) if isinstance(news, dict) else [])
+    briefing_text = generate_briefing(news_list)
+
+    print("\n=== Selecting featured article ===")
+    featured = generate_featured_article(news_list)
+
+    briefing_data = {
+        'date':      datetime.datetime.now(AEST).strftime('%d %B %Y'),
+        'briefing':  briefing_text or '',
+        'generated': datetime.datetime.now(AEST).strftime('%d-%m-%Y %I:%M %p')
+    }
+    if featured:
+        briefing_data['featured'] = featured
+    if briefing_text or featured:
+        save_json(briefing_data, 'data/briefing.json')
+        print("  Briefing saved to data/briefing.json")
     else:
-        print("  Briefing skipped (no API key or error)")
+        print("  Briefing skipped (no API key or no articles)")
 
     print("\n--- Tag breakdown ---")
     tag_counts = {}

@@ -49,12 +49,14 @@
 
 .tracker-body {
   display: grid;
-  grid-template-columns: 1fr 1fr minmax(360px, 420px);
-  align-items: start;
+  grid-template-columns: 1fr minmax(300px, 360px);
+  align-items: stretch;
 }
 .tracker-col {
-  padding: 14px 20px;
+  padding: 22px 28px;
   border-right: 0.5px solid var(--border);
+  display: flex;
+  flex-direction: column;
 }
 .tracker-col:last-child { border-right: none; }
 .tracker-col--cve {
@@ -73,36 +75,113 @@
   margin-bottom: 10px;
 }
 .count-num {
-  font-family: var(--mono);
-  font-size: 36px;
-  font-weight: 400;
+  font-family: 'Inter', sans-serif;
+  font-size: 52px;
+  font-weight: 700;
   color: var(--accent);
-  letter-spacing: -0.01em;
+  letter-spacing: -0.03em;
   line-height: 1;
+  font-variant-numeric: tabular-nums;
   opacity: 0;
   transition: opacity 1s ease;
 }
 .count-num.visible { opacity: 1; }
 .count-sub { font-size: 13px; color: var(--text-2); margin-top: 8px; line-height: 1.55; }
-.count-note { font-size: 11px; color: var(--text-3); font-style: italic; margin-top: 5px; }
-
-/* Mini stats */
-.mini-stats {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+.count-voice {
+  font-size: 14px;
+  color: var(--text-2);
+  font-style: italic;
+  margin-top: auto;
+  padding-top: 24px;
+  line-height: 1.8;
+  border-left: 2px solid var(--accent-b);
+  padding-left: 14px;
+  max-width: 440px;
 }
-.ms { display: flex; flex-direction: column; gap: 3px; }
-.ms-n {
+
+/* Featured story card */
+.featured-story {
+  margin-top: 20px;
+  padding: 14px 16px;
+  background: var(--surface2);
+  border: 0.5px solid var(--border2);
+  border-radius: 8px;
+  max-width: 440px;
+}
+.fs-label {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--orange);
+  margin-bottom: 8px;
+}
+.fs-quote {
+  font-size: 14px;
+  color: var(--text);
+  line-height: 1.65;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+.fs-link {
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fs-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+.fs-source {
+  font-size: 11px;
+  color: var(--text-3);
+  margin-top: 5px;
+}
+
+/* Stats strip */
+.tracker-stats {
+  padding: 8px 28px;
+  border-top: 0.5px solid var(--border);
+  background: var(--surface2);
+  display: flex;
+  align-items: stretch;
+}
+.ts-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 20px;
+  border-right: 0.5px solid var(--border);
+}
+.ts-item:first-child { padding-left: 0; }
+.ts-n {
   font-family: var(--mono);
   font-size: 18px;
   font-weight: 400;
-  line-height: 1;
   color: var(--accent);
+  line-height: 1;
 }
-.ms-n--high { color: var(--high); }
-.ms-n--med  { color: var(--med); }
-.ms-l { font-size: 12px; color: var(--text-3); line-height: 1.4; }
+.ts-n--high { color: var(--high); }
+.ts-n--med  { color: var(--med); }
+.ts-l { font-size: 11px; color: var(--text-3); line-height: 1.4; }
+.ts-link {
+  margin-left: auto;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 8px 14px;
+  border-radius: 20px;
+  border: 0.5px solid var(--accent-b);
+  background: var(--accent-dim);
+  white-space: nowrap;
+  flex-shrink: 0;
+  align-self: center;
+}
+.ts-link:hover { opacity: 0.8; }
 
 /* CVE panel */
 .cve-header {
@@ -128,6 +207,7 @@
 .cve-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .cve-feed {
   overflow-y: auto;
+  min-height: 80px;
   max-height: 160px;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
@@ -159,54 +239,13 @@
 .cve-desc { font-size: 12px; color: var(--text-3); line-height: 1.5; }
 .cve-date { font-size: 11px; color: var(--text-4); margin-top: 3px; font-family: var(--mono); }
 
-/* Report summary */
-.report-summary {
-  padding: 10px 40px;
+/* Crime chart — merged into tracker */
+.tracker-crime {
+  padding: 14px 28px;
   border-top: 0.5px solid var(--border);
-  background: var(--surface2);
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  flex-wrap: wrap;
-}
-.rs-item {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-  padding: 5px 12px;
-  background: var(--surface);
-  border-radius: 8px;
-  border: 0.5px solid var(--border);
-}
-.rs-n {
-  font-family: var(--mono);
-  font-size: 15px;
-  font-weight: 400;
-  color: var(--accent);
-  line-height: 1;
-}
-.rs-l { font-size: 11px; color: var(--text-3); }
-.rs-link {
-  margin-left: auto;
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--accent);
-  text-decoration: none;
-  padding: 8px 14px;
-  border-radius: 20px;
-  border: 0.5px solid var(--accent-b);
-  background: var(--accent-dim);
-  white-space: nowrap;
-}
-.rs-link:hover { opacity: 0.8; }
-
-/* ── CRIME CHART ── */
-.crime-chart {
-  padding: 14px 40px;
-  border-bottom: 0.5px solid var(--border);
   background: var(--surface);
 }
-.crime-chart-label {
+.tracker-crime-label {
   font-size: 11px;
   font-weight: 600;
   letter-spacing: 0.08em;
@@ -214,6 +253,10 @@
   color: var(--text-3);
   margin-bottom: 12px;
 }
+.tracker-crime-note { font-size: 12px; color: var(--text-3); font-style: italic; line-height: 1.6; margin-top: 8px; }
+.tracker-crime-note strong { font-style: normal; color: var(--text-2); }
+
+/* ── CRIME CHART BAR (shared by tracker-crime) ── */
 .bar-wrap {
   display: flex;
   height: 14px;
@@ -227,8 +270,6 @@
 .legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
 .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-2); }
 .legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
-.crime-chart-note { font-size: 12px; color: var(--text-3); font-style: italic; line-height: 1.6; }
-.crime-chart-note strong { font-style: normal; color: var(--text-2); }
 .chart-link { color: var(--accent); text-decoration: none; }
 .chart-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -288,14 +329,6 @@
 
 /* ── FEED ── */
 .feed { background: var(--bg); border-right: 0.5px solid var(--border); }
-#articles-container {
-  height: calc(100vh - 460px);
-  min-height: 400px;
-  max-height: 860px;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border2) transparent;
-}
 .loading-msg { padding: 40px; font-size: 14px; color: var(--text-3); font-style: italic; }
 .no-results { padding: 40px; text-align: center; color: var(--text-3); }
 .no-results-icon { font-size: 24px; opacity: 0.3; margin-bottom: 8px; }
@@ -397,10 +430,13 @@
   border-left: 0.5px solid var(--border);
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 460px);
-  min-height: 400px;
-  max-height: 860px;
-  overflow: hidden;
+  position: sticky;
+  top: 70px;
+  align-self: flex-start;
+  max-height: calc(100vh - 90px);
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--border2) transparent;
 }
 .sb-hdr {
   padding: 11px 20px;
@@ -415,8 +451,7 @@
   font-family: var(--mono);
 }
 .tools-scroll {
-  flex: 0 1 auto;
-  max-height: 52%;
+  flex: 1;
   overflow-y: auto;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
@@ -535,11 +570,10 @@
 body.threat-map-open .wotd-strip,
 body.threat-map-open #scam-callout,
 body.threat-map-open .tracker,
-body.threat-map-open .crime-chart,
 body.threat-map-open .active-filter-bar,
 body.threat-map-open .layout { display: none !important; }
 
-/* ── THREAT MAP ── */
+/* ── THREAT INTEL PANEL ── */
 .threat-map-section {
   border-top: 0.5px solid var(--border);
 }
@@ -565,29 +599,88 @@ body.threat-map-open .layout { display: none !important; }
   cursor: pointer;
 }
 .threat-map-close:hover { color: var(--crit); border-color: var(--crit); }
-.threat-map-frame { width: 100%; height: 580px; display: block; border: none; background: var(--bg); }
+.threat-intel-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+  background: var(--bg);
+}
+.threat-intel-card {
+  display: flex;
+  gap: 14px;
+  padding: 24px 28px;
+  border-right: 0.5px solid var(--border);
+  border-bottom: 0.5px solid var(--border);
+  text-decoration: none;
+  color: inherit;
+  transition: background 0.12s;
+  align-items: flex-start;
+}
+.threat-intel-card:last-child { border-right: none; }
+.threat-intel-card:hover { background: var(--surface); }
+.tic-logo {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+}
+.tic-body { flex: 1; min-width: 0; }
+.tic-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text);
+  line-height: 1.4;
+  margin-bottom: 6px;
+}
+.tic-desc {
+  font-size: 12px;
+  color: var(--text-3);
+  line-height: 1.6;
+  margin-bottom: 8px;
+}
+.tic-link {
+  font-size: 11px;
+  font-weight: 500;
+  color: var(--accent);
+  font-family: var(--mono);
+}
+@media (max-width: 900px) {
+  .threat-intel-grid { grid-template-columns: repeat(2, 1fr); }
+  .threat-intel-card:nth-child(2) { border-right: none; }
+}
+@media (max-width: 600px) {
+  .threat-intel-grid { grid-template-columns: 1fr; }
+  .threat-intel-card { border-right: none; }
+}
 
 /* ── MOBILE ── */
 @media (max-width: 1100px) {
-  .tracker-body { grid-template-columns: 1fr 1fr; }
-  .tracker-col--cve { grid-column: 1 / -1; border-right: none; border-top: 0.5px solid var(--border); }
+  .tracker-body { grid-template-columns: 1fr; }
+  .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); }
   .cve-feed { max-height: 180px; }
+  .tracker-stats { flex-wrap: wrap; }
+  .ts-item { min-width: 40%; }
 }
 @media (max-width: 900px) {
-  .tracker-header, .report-summary, .crime-chart,
+  .tracker-header, .tracker-stats, .tracker-crime,
   .active-filter-bar, .article, .threat-map-header { padding-left: 20px; padding-right: 20px; }
-  .tracker-col { padding: 16px 20px; }
+  .tracker-col { padding: 18px 20px; }
+  .ts-item:first-child { padding-left: 0; }
 }
 @media (max-width: 768px) {
-  .tracker-body { grid-template-columns: 1fr; }
-  .tracker-col { border-right: none; border-bottom: 0.5px solid var(--border); }
   .tracker-col--cve { display: none; }
+  .tracker-stats { flex-direction: column; gap: 0; padding: 0 20px; }
+  .ts-item { border-right: none; border-bottom: 0.5px solid var(--border); padding: 12px 0; }
+  .ts-item:first-child { padding-left: 0; }
+  .ts-link { margin-left: 0; margin-top: 12px; align-self: flex-start; }
   .layout { grid-template-columns: 1fr; }
   .sidebar { display: none; }
   #articles-container { height: auto; max-height: 70vh; }
-  .report-summary { gap: 16px; }
-  .rs-link { margin-left: 0; }
-  .mini-stats { grid-template-columns: 1fr 1fr; }
+  .count-voice { max-width: 100%; }
 }
 @media (max-width: 480px) {
   .count-num { font-size: 36px; }

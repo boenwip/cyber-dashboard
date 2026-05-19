@@ -35,6 +35,24 @@ function initBarChart() {
   }, 500);
 }
 
+// ── ROTATING BLURBS ────────────────────────────────────────
+var BLURBS = [
+  'From a $30 phishing text to a ransomware attack on a hospital — this counter catches all of it. Most of it isn\'t sophisticated. Most of it is preventable.',
+  'The majority of these reports aren\'t headline events. They\'re opportunistic, automated, and aimed at ordinary Australians on an ordinary day.',
+  'One number. Hundreds of types of crime. Everything from a compromised email to critical infrastructure — counted together.',
+  'Behind every tick is someone navigating a system they didn\'t choose to become familiar with.',
+  'Not every cybercrime makes the news. Most never do. But every one of them is counted here.',
+  'The scale isn\'t the whole story. A single report can represent a business that didn\'t survive it.',
+  'Most victims don\'t realise something went wrong until weeks later. The counter doesn\'t wait.'
+];
+
+function initBlurb() {
+  var el = document.getElementById('count-voice');
+  if (!el) return;
+  var day = Math.floor(Date.now() / 86400000);
+  el.textContent = BLURBS[day % BLURBS.length];
+}
+
 // ── THREAT MAP ─────────────────────────────────────────────
 function toggleThreatMap() {
   var section = document.getElementById('threat-map-section');
@@ -43,7 +61,7 @@ function toggleThreatMap() {
   section.hidden = !isHidden;
   document.body.classList.toggle('threat-map-open', isHidden);
   var btn = document.getElementById('threat-map-btn');
-  if (btn) btn.textContent = isHidden ? '✕ Close Map' : '🌐 Threat Map';
+  if (btn) btn.textContent = isHidden ? '✕ Close' : '🌐 Threat Intel';
 }
 
 // ── DATA STATE ─────────────────────────────────────────────
@@ -274,13 +292,27 @@ function renderTools() {
 function renderScamOfWeek(articles) {
   var callout = document.getElementById('scam-callout');
   if (!callout) return;
-  // Prefer ScamWatch consumer alerts specifically
+  var GENERIC = ['browse news', 'news and alerts', 'alerts and news'];
+  function usable(a) {
+    var t = (a.title || '').toLowerCase();
+    return !GENERIC.some(function(g) { return t.indexOf(g) > -1; });
+  }
+  var byDate = function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); };
   var scams = articles
     .filter(function(a) {
       return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title &&
         a.source && a.source.toLowerCase().indexOf('scamwatch') > -1;
     })
-    .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); });
+    .filter(usable)
+    .sort(byDate);
+  if (!scams.length) {
+    scams = articles
+      .filter(function(a) {
+        return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title;
+      })
+      .filter(usable)
+      .sort(byDate);
+  }
   if (!scams.length) {
     callout.style.display = 'none';
     return;
@@ -289,10 +321,28 @@ function renderScamOfWeek(articles) {
   var titleEl = document.getElementById('scam-title');
   var metaEl  = document.getElementById('scam-meta');
   var linkEl  = document.getElementById('scam-link');
-  if (titleEl) titleEl.textContent = s.title || '';
-  if (metaEl)  metaEl.textContent  = s.date || '';
-  if (linkEl)  { linkEl.href = s.link; }
+  var cleanTitle = (s.title || '').replace(/\s*[-–|]\s*(Scamwatch|Scam\s+Watch|ACCC).*$/i, '').trim();
+  if (titleEl) titleEl.textContent = cleanTitle;
+  var src = (s.source || '').replace(/^Google News\s*[—-]\s*/i, '');
+  if (metaEl) metaEl.textContent = (src ? src + ' · ' : '') + (s.date || '');
+  if (linkEl && s.link && s.link.indexOf('http') === 0) linkEl.href = s.link;
   callout.style.display = 'flex';
+}
+
+// ── FEATURED STORY ─────────────────────────────────────────
+function renderFeaturedStory(f) {
+  var el = document.getElementById('featured-story');
+  if (!el || !f || !f.quote) return;
+  var title  = (f.title  || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  var quote  = (f.quote  || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  var source = (f.source || '').replace(/^Google News\s*[—\-]\s*/i, '').replace(/</g, '&lt;');
+  var href   = (f.link && f.link.indexOf('http') === 0) ? f.link : '#';
+  el.innerHTML =
+    '<div class="fs-label">Today\'s story</div>' +
+    '<p class="fs-quote">' + quote + '</p>' +
+    '<a class="fs-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + title + ' ↗</a>' +
+    (source ? '<div class="fs-source">' + source + '</div>' : '');
+  el.hidden = false;
 }
 
 // ── AI BRIEFING ────────────────────────────────────────────
@@ -319,7 +369,7 @@ function loadBriefing() {
   var textEl = document.getElementById('briefing-text');
   var dateEl = document.getElementById('briefing-date');
   if (!textEl) return;
-  fetch('briefing.json?t=' + Date.now(), { cache: 'no-cache' })
+  fetch('data/briefing.json?t=' + Date.now(), { cache: 'no-cache' })
     .then(function(r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
       return r.json();
@@ -327,6 +377,7 @@ function loadBriefing() {
     .then(function(data) {
       var item = (data.items && typeof data.items === 'object' && !Array.isArray(data.items))
         ? data.items : data;
+      if (item.featured) renderFeaturedStory(item.featured);
       if (item.briefing) {
         // Render paragraph breaks for readability
         var paras = item.briefing.split(/\n\n+/);
@@ -358,7 +409,7 @@ async function loadData() {
 
   // 1. News feed
   try {
-    var res  = await fetch('news.json?t=' + Date.now(), { cache: 'no-cache' });
+    var res  = await fetch('data/news.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res.ok) throw new Error('HTTP ' + res.status);
     var data = await res.json();
     allArticles = Array.isArray(data.items) ? data.items : [];
@@ -376,7 +427,7 @@ async function loadData() {
 
   // 2. Tool updates
   try {
-    var res2  = await fetch('tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
+    var res2  = await fetch('data/tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res2.ok) throw new Error('HTTP ' + res2.status);
     var data2 = await res2.json();
     allTools  = Array.isArray(data2.items) ? data2.items : [];
@@ -385,7 +436,7 @@ async function loadData() {
 
   // 3. CVE feed
   try {
-    var res3  = await fetch('cve.json?t=' + Date.now(), { cache: 'no-cache' });
+    var res3  = await fetch('data/cve.json?t=' + Date.now(), { cache: 'no-cache' });
     if (!res3.ok) throw new Error('HTTP ' + res3.status);
     var data3 = await res3.json();
     var cveItems = Array.isArray(data3.items) ? data3.items
@@ -403,6 +454,7 @@ document.addEventListener('DOMContentLoaded', function() {
   setInterval(updateTracker, 6000);
   initBarChart();
   initWotd();
+  initBlurb();
   loadBriefing();
   loadData();
 
