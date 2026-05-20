@@ -232,15 +232,13 @@ function initStory() {
   var day = Math.floor(Date.now() / 86400000);
   var s = STORIES[day % STORIES.length];
   el.innerHTML =
-    '<div class="tracker-story-meta">' +
-      '<div class="tracker-story-label">Story of the day &nbsp;·&nbsp; Darknet Diaries</div>' +
-      '<div class="tracker-story-row">' +
-        '<span class="tracker-story-ep">EP ' + s.ep + '</span>' +
-        '<span class="tracker-story-title">' + s.title + '</span>' +
-      '</div>' +
-      '<p class="tracker-story-hook">' + s.hook + '</p>' +
+    '<div class="tracker-story-label">Story of the day · Darknet Diaries</div>' +
+    '<div class="tracker-story-row">' +
+      '<span class="tracker-story-ep">EP ' + s.ep + '</span>' +
+      '<span class="tracker-story-title">' + s.title + '</span>' +
     '</div>' +
-    '<a href="' + s.url + '" target="_blank" rel="noopener" class="tracker-story-listen">Listen ↗</a>';
+    '<p class="tracker-story-hook">' + s.hook + '</p>' +
+    '<a href="' + s.url + '" target="_blank" rel="noopener" class="tracker-story-listen">Listen ↗</a>';
   el.hidden = false;
 }
 
