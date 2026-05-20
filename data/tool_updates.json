@@ -1,5 +1,5 @@
 {
-  "last_updated": "20-05-2026 04:42 PM",
+  "last_updated": "20-05-2026 08:20 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.145",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>\n<li>Added <code>agent_id",
-      "date": "20-05-2026 04:42 PM"
+      "date": "20-05-2026 08:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.144",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/resume</code> support for background sessions \u2014 sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked ",
-      "date": "20-05-2026 04:42 PM"
+      "date": "20-05-2026 08:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.143",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch",
-      "date": "20-05-2026 04:42 PM"
+      "date": "20-05-2026 08:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.142",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
-      "date": "20-05-2026 04:42 PM"
+      "date": "20-05-2026 08:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "20-05-2026 04:42 PM"
+      "date": "20-05-2026 08:20 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
+      "date": "20-05-2026 05:01 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -49,14 +57,6 @@
       "link": "http://chromereleases.googleblog.com/2026/05/stable-channel-update-for-chromeos_01312344978.html",
       "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">M-148, ChromeOS version 16640.40.0 (Browser version 148.0.7778.174) has rolled out to ChromeOS devices on the Stable channel.&nb",
       "date": "20-05-2026 09:17 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
-      "date": "20-05-2026 09:02 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -105,14 +105,6 @@
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFBfTXUxSDUyLUFUcnVFbEVfWlZuRGhiaURGem9NUm5VUkpsalpLeGVjWG1CQVd2RVVFTnZ6SnVVeEVYMVhhWl9KSV9BVmFrYXhzRUFYVzJyTmxNS2UwYmIzMWF1NGZkemdMOW1sSXpDekFxR2plYkFuN3FMeHRsWjZIbURTQjRLbDkyNlIzU0s1Z3VQUTB5SlJvaXFiUzZWRm15M1Vrc01qQnVWVHBXenhQMks?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNdFBfTXUxSDUyLUFUcnVFbEVfWlZuRGhiaURGem9NUm5VUkpsalpLeGVjWG1CQVd2RVVFTnZ6SnVVeEVYMVhhWl9KSV9BVmFrYXhzRUFYVzJyTmxNS2UwYmIzMWF1NGZkemdMOW1sSX",
       "date": "16-05-2026 02:00 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI brings Codex to ChatGPT for iPhone, iPad, and Android with these features - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU9ZV1FabjNvUmZFQzJYMjcwS0dnTjdUVGdHQU9oZFRWVzZobHNlcXpITg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPLWYyRzEtSkx3OWdjX1VoX1VuazJqMTdvLV9JN3lnbDRBWG5rN3djUUFWLTEyeVBIWEZ3SEduQmNSaDlhZ0pPMS1penA0YWVpMlBFbXUzTG5DYkdXZG5VTDg0M2dVdjFrRFRfclFKLU",
-      "date": "15-05-2026 06:14 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -221,9 +213,17 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - Venturebeat",
+      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - VentureBeat",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
+      "date": "21-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Images in ChatGPT are getting a major update - Axios",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE5Nek15blk4YmxDY3NuN0dGTm1YcERSa0dxRGxjRmFiYXpURWY5c3NSZU8tSUEtWUJWVmQ2X2lQaHcxZ2FTTjNKeEhYOFhmNHBwRXpTZVp0NXJXb3M4YjZZTS1pSkM3OUtraGVlcw?oc=",
       "date": "21-04-2026 05:00 PM"
     },
     {
