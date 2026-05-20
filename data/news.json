@@ -1,13 +1,13 @@
 {
-  "last_updated": "20-05-2026 12:33 PM",
-  "count": 60,
+  "last_updated": "20-05-2026 04:42 PM",
+  "count": 59,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "20-05-2026 12:33 PM",
+      "date": "20-05-2026 04:42 PM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,63 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #838 -- GitHub investigates possible breach",
+      "link": "https://risky.biz/RB838/",
+      "summary": "On this week\u2019s show Patrick Gray, Adam Boileau and James Wilson discuss the week\u2019s cybersecurity news. They cover: GitHub announced a possible breach CISA leaks important creds, keys in public repo Awful vulnerability in Bitlocker renders it useless without a PIN So. Many. Patches. Polish Government",
+      "date": "20-05-2026 03:22 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Small businesses fear AI cyberattacks, WatchGuard finds",
+      "link": "https://securitybrief.com.au/story/small-businesses-fear-ai-cyberattacks-watchguard-finds",
+      "summary": "Rising incidents and compliance demands are pushing small businesses towards managed security support as 91% worry about AI-driven attacks.",
+      "date": "20-05-2026 02:31 PM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Chief AI Officers: The next test of Australia's digital government leadership",
+      "link": "https://securitybrief.com.au/story/chief-ai-officers-the-next-test-of-australia-s-digital-government-leadership",
+      "summary": "Safely embedding AI into public services now hinges on clearer accountability, as only 22% of Australian organisations use advanced governance models.",
+      "date": "20-05-2026 01:50 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "MSHTA abuse helps malware hide in Windows processes",
+      "link": "https://securitybrief.com.au/story/mshta-abuse-helps-malware-hide-in-windows-processes",
+      "summary": "A default Windows utility is giving attackers a way to run malicious scripts through trusted processes and dodge security tools.",
+      "date": "20-05-2026 01:15 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -53,48 +110,6 @@
         "AU Cyber"
       ],
       "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "OpenText launches AI cyber tools for Australian firms",
-      "link": "https://securitybrief.com.au/story/opentext-launches-ai-cyber-tools-for-australian-firms",
-      "summary": "Australian firms face rising cyber and compliance costs as OpenText adds tools to govern AI use, data access and application risks.",
-      "date": "20-05-2026 09:15 AM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Dell launches PowerStore Elite for AI & cyber risk",
-      "link": "https://securitybrief.com.au/story/dell-launches-powerstore-elite-for-ai-cyber-risk",
-      "summary": "Enterprises under pressure from AI growth and ransomware get mixed-generation clustering, stronger recovery tools and higher capacity in Dell's new platform.",
-      "date": "20-05-2026 09:06 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "The AI challenge - balancing governance and innovation",
-      "link": "https://securitybrief.com.au/story/the-ai-challenge-balancing-governance-and-innovation",
-      "summary": "Many projects remain stuck at proof of concept as businesses wrestle with data governance, security and agent oversight before scaling AI.",
-      "date": "20-05-2026 09:00 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -137,6 +152,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNXJ5Y09UQnhzSi1rVGN6aDd6ZFR4OU9lc2VLcE1IcTAxNy1LV050bkdoNTBWNDdqTlNPbkhTSGZFNDVMWUFPVzZOaDF5ZUozVU40dHAzcm9xRV9Jd1BidFBjd2VsZldGdkJMRkoyMG0xajByZFBES2c3TEhXV0llRW1ZRFh3ckR1cjEwTW5XSUpWUHNtREJWcTZYZTIxZDhFSmxOVWxOM243NjU1eXQ0?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "19-05-2026 10:48 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -301,22 +332,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxPRmczSjN3eDZFOTNhNEQ4cWQyak5ram4yX1VfYjhLZW9BZUcyRWY4MW9SX0IxTGJFVHVZbE9OTDYzb0RmeTBPZGtROXAzNXUtX3VUTHRoakJlbWIzd3Q4LWR1dVhUb0QwU1dLN2lxR1pRYnNHUkJOOGZBU05yZWgwcXpNUHFVcWl4VGdydTB3M3ozbHdDdzd1R0cyenNoWjVsUHR3ZXFxaGlKektvc3FLMjVIbFhUb3hUaXprOTM1aW1UbzhIVW1nUFJkWDVfdFNyejdOLWt5ZHoxU2l4RU53Y3AwTlpJNTJVVG5JM1NHTm5UelRjNHhVdnM5MGJvXzFTV0R4eWxzLU8xMmJZTTVQNksxMF9SM2d2ZWNZd3FXNnBEakpWb3p2OU16MXlHXzhMX1o4?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "16-05-2026 07:35 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -812,34 +827,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Middle East Cyber Battle Field Broadens \u2014 Especially in UAE",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/middle-east-cyber-battle-field-broadens-uae",
-      "summary": "As the war with Iran continues, breach attempts targeting the United Arab Emirates tripled in a few weeks \u2014 many targeting critical infrastructure.",
-      "date": "06-05-2026 03:30 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #836 -- You can't patch the bugpocalypse",
-      "link": "https://risky.biz/RB836/",
-      "summary": "On this week\u2019s show, Patrick Gray and James Wilson are joined by special guest co-host Brad Arkin. They discuss the week\u2019s cybersecurity news, including: The US Government says we just have to patch faster, but\u2026 Bugs in cPanel, MoveIt and all Linux distributions this week show that patching alone is",
-      "date": "06-05-2026 03:14 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
     }
   ]
 }

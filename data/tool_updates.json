@@ -1,5 +1,5 @@
 {
-  "last_updated": "20-05-2026 12:33 PM",
+  "last_updated": "20-05-2026 04:42 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.145",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>\n<li>Added <code>agent_id",
-      "date": "20-05-2026 12:33 PM"
+      "date": "20-05-2026 04:42 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.144",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/resume</code> support for background sessions \u2014 sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked ",
-      "date": "20-05-2026 12:33 PM"
+      "date": "20-05-2026 04:42 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.143",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.143",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added plugin dependency enforcement: <code>claude plugin disable</code> now refuses when another enabled plugin depends on the target (with a copy-pasteable disable-ch",
-      "date": "20-05-2026 12:33 PM"
+      "date": "20-05-2026 04:42 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.142",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.142",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added new <code>claude agents</code> flags: <code>--add-dir</code>, <code>--settings</code>, <code>--mcp-config</code>, <code>--plugin-dir</code>, <code>--permission-m",
-      "date": "20-05-2026 12:33 PM"
+      "date": "20-05-2026 04:42 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.141",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.141",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>terminalSequence</code> field to hook JSON output so hooks can emit desktop notifications, window titles, and bells without a controlling terminal</li>\n<li",
-      "date": "20-05-2026 12:33 PM"
+      "date": "20-05-2026 04:42 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -163,6 +163,14 @@
       "date": "05-05-2026 08:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Agents for financial services - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5\" target=\"_blank\">Agents f",
+      "date": "05-05-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
@@ -213,7 +221,7 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - VentureBeat",
+      "title": "OpenAI's ChatGPT Images 2.0 is here and it does multilingual text, full infographics, slides, maps, even manga \u2014 seemingly flawlessly - Venturebeat",
       "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5WkdQNGJsSUdLTXJqSDB0aURHLUtKd3ZkNjRIcGdMeDlSUGhqMEdFaGVBOHgyMTNwTWZ1SWk1Z1BvM3liV2Joakx4bWpzVFJmWFZjOFRZYmVZMUpkTmlvVXZpaF96SXlRTVJnUWl0dFU1TTc0MlBXUzZrQW9NNU1QX3VWb2FSRV9fZTBtVFk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxQMU1iMXA3VDJyM3FBWlNRMlNlYkRIcDBrRHQ3dEI0OFJSVkFEdzZ4Y3lhQVpKUVNHeGJXSlNMVVdlcTBSS1NMQ0FBWTBTX2YxSGFRcGEtUDVySElhNVVjRzNCRXRxaWdsdm1wa0M5Wk",
       "date": "21-04-2026 05:00 PM"
@@ -237,14 +245,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Project Glasswing: Securing critical software for the AI era - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfQUdtMDZYaEtZV0JMSk1ZSzdqTl9mV3dQTnZYcVEzaHo4cV8yUEl2a25QMWRXenFTYUQ3NF9WakR5WXVwaDRTZC1ZYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfQUdtMDZYaEtZV0JMSk1ZSzdqTl9mV3dQTnZYcVEzaHo4cV8yUEl2a25QMWRXenFTYUQ3NF9WakR5WXVwaDRTZC1ZYw?oc=5\" target=\"_blank\">Project Glasswing: Securi",
-      "date": "08-04-2026 04:06 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Details leak on Anthropic\u2019s \u201cstep-change\u201d Mythos model - Techzine Global",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQjZEVm5jY1ZxQUpHSzJMTld5dG9BZjZXb1dpcTV4ZW5FM2JKanhQbmo1X1RiUmZoNU8zaFNTdmVJNmROZkQyOEtGMXRNOENpSGZRbVFxOXc2TE5HWTFzd1lIUHlWOWlkNkNUUlY3eERtWWZDb0JvblliWnFIc1BtaWZqT3AySXdNT2hONlhvVlJzOGRCNDk1Mm1wcmo0RGIxeXJv?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxNQjZEVm5jY1ZxQUpHSzJMTld5dG9BZjZXb1dpcTV4ZW5FM2JKanhQbmo1X1RiUmZoNU8zaFNTdmVJNmROZkQyOEtGMXRNOENpSGZRbVFxOXc2TE5HWTFzd1lIUHlWOWlkNkNUUlY3eE",
@@ -261,18 +261,18 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
-      "date": "04-03-2026 06:00 PM"
+      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
+      "date": "12-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
-      "date": "29-01-2026 06:00 PM"
+      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
+      "date": "04-03-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
