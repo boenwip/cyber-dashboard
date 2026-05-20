@@ -2,6 +2,48 @@
  * ai-guide.css — pseudosec. AI Guide
  */
 
+/* Audience toggle */
+.ag-audience-toggle {
+  display: inline-flex;
+  margin-top: 20px;
+  border: 0.5px solid var(--border2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.ag-audience-btn {
+  font-family: inherit;
+  font-size: 13px;
+  font-weight: 500;
+  padding: 7px 20px;
+  border: none;
+  background: transparent;
+  color: var(--text-3);
+  cursor: pointer;
+  transition: all 0.15s;
+  white-space: nowrap;
+}
+.ag-audience-btn + .ag-audience-btn { border-left: 0.5px solid var(--border2); }
+.ag-audience-btn:hover { color: var(--text); background: var(--surface2); }
+.ag-audience-btn--active {
+  background: var(--accent-dim);
+  color: var(--accent);
+  font-weight: 600;
+}
+
+/* Pro tag on prompt cards */
+.ag-prompt-meta { display: flex; align-items: center; gap: 8px; }
+.ag-prompt-pro {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--orange);
+  background: var(--orange-dim);
+  border: 0.5px solid var(--orange-b);
+  border-radius: 4px;
+  padding: 1px 6px;
+}
+
 .ag-section { margin-bottom: 52px; }
 .ag-section-title {
   font-size: 22px;
