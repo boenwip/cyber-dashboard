@@ -63,6 +63,7 @@
   flex-direction: column;
   overflow: hidden;
   min-height: 180px;
+  max-height: clamp(260px, 42vh, 420px);
 }
 
 /* Count */
@@ -208,7 +209,7 @@
 .cve-feed {
   flex: 1;
   overflow-y: auto;
-  min-height: 80px;
+  min-height: 0;
   scrollbar-width: thin;
   scrollbar-color: var(--border2) transparent;
 }
@@ -375,7 +376,7 @@
   color: var(--text-4);
 }
 .art-title {
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 400;
   color: var(--text);
   line-height: 1.45;
@@ -632,7 +633,7 @@ body.threat-map-open .layout { display: none !important; }
 }
 @media (max-width: 900px) {
   .tracker-body { grid-template-columns: 1fr; }
-  .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; }
+  .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; max-height: none; }
   .cve-feed { max-height: 180px; }
   .tracker-stats { flex-wrap: wrap; }
   .ts-item { min-width: 40%; }

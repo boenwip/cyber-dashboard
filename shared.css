@@ -366,7 +366,7 @@ h1, h2, h3, h4 {
 .page-wrap { max-width: 1480px; margin: 0 auto; padding: 40px; }
 .page-hero { margin-bottom: 36px; padding-bottom: 28px; border-bottom: 0.5px solid var(--border); }
 .page-hero-title {
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 600;
   letter-spacing: -0.03em;
   color: var(--text);
@@ -385,8 +385,48 @@ h1, h2, h3, h4 {
   .wotd-strip, .scam-callout, .site-footer { padding-left: 20px; padding-right: 20px; }
   .page-wrap { padding: 24px 20px; }
 }
+/* ── MOBILE NAV TOGGLE ── */
+.nav-toggle {
+  display: none;
+  width: 34px;
+  height: 34px;
+  border-radius: 8px;
+  border: 1.5px solid var(--border2);
+  background: var(--surface2);
+  color: var(--text);
+  cursor: pointer;
+  font-size: 17px;
+  line-height: 1;
+  place-items: center;
+  flex-shrink: 0;
+  padding: 0;
+}
+.nav-toggle:hover { border-color: var(--accent); color: var(--accent); }
+
 @media (max-width: 768px) {
   .site-nav { display: none; overflow: visible; }
+  .nav-toggle { display: grid; }
   .site-footer { flex-direction: column; gap: 4px; text-align: center; }
   .wotd-more { margin-left: 0; }
+
+  /* Slide-down mobile nav panel */
+  .site-nav--open {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background: var(--surface-hdr);
+    border-bottom: 0.5px solid var(--border2);
+    padding: 12px 20px 16px;
+    gap: 2px;
+    z-index: 99;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+  }
+  .site-nav--open .nav-link {
+    padding: 10px 14px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
 }

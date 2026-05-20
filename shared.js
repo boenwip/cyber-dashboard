@@ -148,10 +148,44 @@ function initWeather() {
   );
 }
 
+// ── MOBILE NAV ──────────────────────────────────────────────
+function initMobileNav() {
+  var toggle = document.getElementById('nav-toggle');
+  var nav    = document.querySelector('.site-nav');
+  if (!toggle || !nav) return;
+
+  function openNav() {
+    nav.classList.add('site-nav--open');
+    toggle.setAttribute('aria-expanded', 'true');
+    toggle.textContent = '✕';
+  }
+  function closeNav() {
+    nav.classList.remove('site-nav--open');
+    toggle.setAttribute('aria-expanded', 'false');
+    toggle.innerHTML = '&#9776;';
+  }
+
+  toggle.addEventListener('click', function() {
+    nav.classList.contains('site-nav--open') ? closeNav() : openNav();
+  });
+
+  nav.querySelectorAll('.nav-link').forEach(function(link) {
+    link.addEventListener('click', closeNav);
+  });
+
+  document.addEventListener('click', function(e) {
+    if (nav.classList.contains('site-nav--open') &&
+        !nav.contains(e.target) && e.target !== toggle) {
+      closeNav();
+    }
+  });
+}
+
 // ── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
   markActiveNav();
   var themeBtn = document.getElementById('theme-btn');
   if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
   initWeather();
+  initMobileNav();
 });
