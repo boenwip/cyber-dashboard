@@ -79,115 +79,6 @@ function initTip() {
 }
 
 // ── STORY OF THE DAY ───────────────────────────────────────
-var STORIES = [
-  {
-    year: 2022,
-    title: 'The Optus Breach',
-    hook: 'An unauthenticated API exposed 9.8 million Australians\' names, dates of birth, addresses, and passport or licence numbers. The attacker demanded a ransom, posted 10,000 records online — then abruptly apologised and deleted everything.',
-    url: 'https://www.oaic.gov.au/privacy/notifiable-data-breaches'
-  },
-  {
-    year: 2022,
-    title: 'The Medibank Breach',
-    hook: 'A Russian-linked criminal stole health records for 9.7 million Australians — including mental health diagnoses, drug treatment history, and pregnancy terminations. When the ransom was refused, they published it all on the dark web.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2023,
-    title: 'The Latitude Financial Breach',
-    hook: '14 million customer records stolen across Australia and New Zealand — including 7.9 million driver\'s licence numbers. Latitude refused to pay the ransom. The scale triggered a national debate about whether ransom payment should be made illegal.',
-    url: 'https://www.oaic.gov.au/privacy/notifiable-data-breaches'
-  },
-  {
-    year: 2023,
-    title: 'DP World Ransomware',
-    hook: 'A ransomware attack on Australia\'s largest port operator shut down freight movement for days. DP World handles roughly 40% of Australia\'s containerised trade — tens of thousands of shipping containers were stuck at four major ports.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2024,
-    title: 'MediSecure',
-    hook: 'A ransomware attack on prescription delivery service MediSecure exposed the health and personal data of roughly 12.9 million Australians — half the country\'s population — making it one of the largest healthcare breaches in Australian history.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2019,
-    title: 'The Canva Breach',
-    hook: 'A hacker group breached Canva — Sydney\'s billion-dollar design startup — and accessed 139 million user accounts globally. Canva found out when Troy Hunt, who runs HaveIBeenPwned, called them. The attacker had been bragging about it online.',
-    url: 'https://haveibeenpwned.com/PwnedWebsites'
-  },
-  {
-    year: 2019,
-    title: 'Parliament House Hacked',
-    hook: 'Australia\'s parliamentary computer network was breached by a sophisticated state actor — widely attributed to China — just months before the federal election. Email accounts were compromised. The timing raised obvious concerns about electoral interference.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2019,
-    title: 'The ANU Breach',
-    hook: 'A sophisticated actor quietly spent 14 months inside Australian National University\'s network before being detected. They accessed 19 years of personal data — student records, HR files, payroll, financial data. Most of it dating back to 1999.',
-    url: 'https://www.anu.edu.au/news/all-news/anu-cyber-incident'
-  },
-  {
-    year: 2020,
-    title: 'The PM\'s Announcement',
-    hook: 'The Prime Minister went on national television to announce Australia was under sustained attack by a sophisticated state-based cyber actor. No attribution was made publicly. It was one of the most significant state-level cyber disclosures in Australian history.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2020,
-    title: 'Service NSW Phishing',
-    hook: 'A phishing attack on 47 Service NSW staff email accounts gave attackers access to documents customers had submitted — passports, Medicare cards, birth certificates. Around 186,000 Australians had sensitive personal documents exposed.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2020,
-    title: 'Toll Group — Twice',
-    hook: 'Australia\'s largest freight company was hit by ransomware twice in three months — by two different criminal groups. Staff had to switch to manual operations twice while systems were rebuilt. The second attack hit while they were still recovering from the first.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2021,
-    title: 'Eastern Health Ransomware',
-    hook: 'Four Melbourne public hospitals were taken offline by ransomware. Elective surgeries were cancelled and staff reverted to pen and paper. Healthcare is a preferred target for ransomware groups precisely because the pressure to restore systems is immediate.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2021,
-    title: 'Nine Entertainment',
-    hook: 'A Sunday morning ransomware attack disrupted Nine\'s live broadcasts and took editorial systems offline across the country. Staff couldn\'t access email. 60 Minutes nearly didn\'t air. It was the most significant attack on an Australian media company on record.',
-    url: 'https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories'
-  },
-  {
-    year: 2018,
-    title: 'The Melbourne Teen Who Hacked Apple',
-    hook: 'A Melbourne teenager spent over a year quietly accessing Apple\'s internal network, downloading 90GB of secure files and accessing customer accounts. He stored everything in a folder named "hacky hack hack." Apple noticed, called the FBI, who called the AFP.',
-    url: 'https://www.abc.net.au/news/2019-08-30/teenager-convicted-after-hacking-apple/11462294'
-  },
-  {
-    year: 2016,
-    title: 'Red Cross Blood Service',
-    hook: 'A misconfigured web server exposed the personal data of 550,000 Australian blood donors — including a field indicating whether they had ever engaged in at-risk sexual behaviour. An external security researcher found it and reported it. No one inside had noticed.',
-    url: 'https://www.oaic.gov.au/privacy/notifiable-data-breaches'
-  }
-];
-
-function initStory() {
-  var el = document.getElementById('tracker-story');
-  if (!el) return;
-  var day = Math.floor(Date.now() / 86400000);
-  var s = STORIES[day % STORIES.length];
-  el.innerHTML =
-    '<div class="tracker-story-label">Australian Cyber Story</div>' +
-    '<div class="tracker-story-row">' +
-      '<span class="tracker-story-ep">' + s.year + '</span>' +
-      '<span class="tracker-story-title">' + s.title + '</span>' +
-    '</div>' +
-    '<p class="tracker-story-hook">' + s.hook + '</p>' +
-    '<a href="' + s.url + '" target="_blank" rel="noopener" class="tracker-story-listen">Read more ↗</a>';
-  el.hidden = false;
-}
-
 // ── THREAT MAP ─────────────────────────────────────────────
 function toggleThreatMap() {
   var section = document.getElementById('threat-map-section');
@@ -591,7 +482,6 @@ document.addEventListener('DOMContentLoaded', function() {
   initWotd();
   initBlurb();
   initTip();
-  initStory();
   loadBriefing();
   loadData();
 

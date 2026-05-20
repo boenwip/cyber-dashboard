@@ -48,7 +48,7 @@
 
 .tracker-body {
   display: grid;
-  grid-template-columns: 1fr minmax(240px, 360px) minmax(280px, 380px);
+  grid-template-columns: 1fr minmax(300px, 420px);
   align-items: stretch;
 }
 .tracker-col {
@@ -256,63 +256,6 @@
 }
 .tracker-crime-note { font-size: 12px; color: var(--text-3); font-style: italic; line-height: 1.6; margin-top: 8px; }
 .tracker-crime-note strong { font-style: normal; color: var(--text-2); }
-
-/* Story of the Day — middle column inside tracker-body */
-.tracker-col--story {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-}
-.tracker-story-label {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  color: var(--text-3);
-}
-.tracker-story-row {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-.tracker-story-ep {
-  font-family: var(--mono);
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-  color: var(--accent);
-  background: var(--accent-dim);
-  border: 0.5px solid var(--accent-b);
-  border-radius: 4px;
-  padding: 2px 7px;
-  flex-shrink: 0;
-}
-.tracker-story-title {
-  font-size: 15px;
-  font-weight: 600;
-  color: var(--text);
-  letter-spacing: -0.01em;
-}
-.tracker-story-hook {
-  font-size: 13px;
-  color: var(--text-3);
-  line-height: 1.7;
-  margin: 0;
-  flex: 1;
-}
-.tracker-story-listen {
-  font-size: 12px;
-  font-weight: 500;
-  color: var(--accent);
-  text-decoration: none;
-  border: 0.5px solid var(--accent-b);
-  background: var(--accent-dim);
-  border-radius: 20px;
-  padding: 8px 18px;
-  align-self: flex-start;
-}
-.tracker-story-listen:hover { opacity: 0.8; }
 
 /* ── CRIME CHART BAR (shared by tracker-crime) ── */
 .bar-wrap {
@@ -690,7 +633,6 @@ body.threat-map-open .layout { display: none !important; }
 }
 @media (max-width: 900px) {
   .tracker-body { grid-template-columns: 1fr; }
-  .tracker-col--story { border-right: none; border-top: 0.5px solid var(--border); }
   .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; max-height: none; }
   .cve-feed { max-height: 180px; }
   .tracker-stats { flex-wrap: wrap; }
