@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="pseudosec. Sources & Methodology — how we collect, process, and present Australian cyber security information.">
+<meta property="og:title" content="Sources &amp; Methodology — pseudosec.">
+<meta property="og:description" content="How pseudosec. collects and presents Australian cyber intelligence — sources, update frequency, AI usage, and limitations.">
+<meta property="og:image" content="assets/pseudosec.png">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
+<title>Sources &amp; Methodology — pseudosec.</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
+<link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="sources.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html"     class="nav-link">Dashboard</a>
+    <a href="reference.html" class="nav-link">Reference</a>
+    <a href="resources.html" class="nav-link">Resources</a>
+    <a href="ai-guide.html"  class="nav-link">AI Guide</a>
+  </nav>
+  <a href="index.html" class="site-logo" aria-label="pseudosec. home">
+    <img src="assets/pseudosec.png" alt="pseudosec.">
+  </a>
+  <div class="hdr-right">
+    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
+    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
+  </div>
+</header>
+
+<div class="page-wrap">
+  <div class="page-hero">
+    <h1 class="page-hero-title">Sources &amp; <em>Methodology</em></h1>
+    <p class="page-hero-sub">How pseudosec. collects and presents information — and what you should know before relying on it.</p>
+  </div>
+
+  <div class="src-disclaimer">
+    <span class="src-disclaimer-icon">⚠</span>
+    <p class="src-disclaimer-text"><strong>Educational use only.</strong> pseudosec. is an independently run awareness project. It is not affiliated with the Australian Government, ACSC, or any security vendor. It is not a real-time security operations tool and should not be used as a substitute for professional security advice or official government guidance.</p>
+  </div>
+
+  <!-- WHAT THIS IS -->
+  <section class="src-section">
+    <h2 class="src-section-title">What pseudosec. is</h2>
+    <p class="src-section-sub">pseudosec. aggregates publicly available Australian cyber security information into a single, readable view. It is designed for general awareness — helping everyday Australians and those new to cyber security understand the threat landscape without needing to monitor multiple government and industry sources themselves.</p>
+    <p class="src-section-sub">It is a personal project. There is no team, no 24/7 monitoring, and no service level agreement. Feeds may experience delays. Summaries may contain errors. Content is curated with care but is not professionally fact-checked before publication.</p>
+  </section>
+
+  <!-- DATA SOURCES -->
+  <section class="src-section">
+    <h2 class="src-section-title">Data sources</h2>
+    <p class="src-section-sub">All information is drawn from publicly available sources. No proprietary threat intelligence feeds are used.</p>
+    <div class="src-list">
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">Australian Signals Directorate — Alerts &amp; Advisories</div>
+          <div class="src-item-desc">Australia's national cyber authority. ASD advisories and alerts are the primary source for threat activity affecting Australian organisations and individuals. Chosen for authority and Australian relevance.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Every 30 min</span>
+          <span class="src-item-type">RSS feed</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">Scamwatch — ACCC</div>
+          <div class="src-item-desc">The ACCC's national scam reporting platform. Used for the live scam alert strip. Scam alerts are pulled from the public Scamwatch feed and displayed as-is without editorial modification.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Every 30 min</span>
+          <span class="src-item-type">RSS feed</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">CISA Known Exploited Vulnerabilities (KEV)</div>
+          <div class="src-item-desc">CISA's authoritative catalog of vulnerabilities being actively exploited in real attacks. Used for the CVE panel. Chosen because KEV is the most operationally relevant vulnerability list — inclusion requires confirmed active exploitation.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Daily</span>
+          <span class="src-item-type">JSON API</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">Australian cybersecurity news</div>
+          <div class="src-item-desc">Aggregated from multiple Australian and internationally relevant security news sources via RSS. Articles are deduplicated and sorted by recency. Sources include ASD, iTnews, SC Media Australia, and similar publications.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Every 30 min</span>
+          <span class="src-item-type">RSS feed</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">ACSC Annual Cyber Threat Report</div>
+          <div class="src-item-desc">The statistics displayed in the live tracker (incident counts, average costs, hotline calls) are sourced from the most recent ACSC Annual Cyber Threat Report. These figures are static and updated manually when a new report is published.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Annual</span>
+          <span class="src-item-type">Manual</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">HaveIBeenPwned — Troy Hunt</div>
+          <div class="src-item-desc">Used on the Resources page breach checker only. Email addresses entered by users are sent directly to the HIBP API and are not stored, logged, or processed by pseudosec. HIBP is run by Australian security researcher Troy Hunt.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Real-time</span>
+          <span class="src-item-type">API (Resources only)</span>
+        </div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">Open-Meteo</div>
+          <div class="src-item-desc">Used for the weather widget in the header. Location is requested from the browser and sent directly to Open-Meteo's public API. No location data is stored by pseudosec.</div>
+        </div>
+        <div class="src-item-meta">
+          <span class="src-item-freq">Real-time</span>
+          <span class="src-item-type">API</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- AI BRIEFING -->
+  <section class="src-section">
+    <h2 class="src-section-title">AI Briefing</h2>
+    <p class="src-section-sub">The daily AI Briefing is generated using the Claude API (Anthropic). It summarises recent threat activity drawn from the news and advisory feeds.</p>
+    <div class="src-limits">
+      <div class="src-limit">
+        <span class="src-limit-icon">⚠</span>
+        <span>The briefing is <strong>not fact-checked by a human</strong> before publication. AI summaries can misinterpret, omit, or inaccurately represent source content. Treat it as a starting point — always verify significant information against original sources.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">⚠</span>
+        <span>The briefing is generated once daily. It does not reflect real-time events and may be outdated by the time you read it.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">ℹ</span>
+        <span>Anthropic's data usage policies apply to content sent to the Claude API. pseudosec. does not send personally identifiable information to the API.</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- UPDATE FREQUENCY -->
+  <section class="src-section">
+    <h2 class="src-section-title">Update frequency</h2>
+    <div class="src-list">
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">News feed, scam alerts, ASD advisories</div>
+          <div class="src-item-desc">Fetched and refreshed automatically via a scheduled job.</div>
+        </div>
+        <div class="src-item-meta"><span class="src-item-freq">Every 30 min</span></div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">AI Briefing</div>
+          <div class="src-item-desc">Generated once daily from the most recent feed content.</div>
+        </div>
+        <div class="src-item-meta"><span class="src-item-freq">Daily</span></div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">CVE panel (CISA KEV)</div>
+          <div class="src-item-desc">Checked against the CISA KEV catalog daily for newly added exploited vulnerabilities.</div>
+        </div>
+        <div class="src-item-meta"><span class="src-item-freq">Daily</span></div>
+      </div>
+      <div class="src-item">
+        <div class="src-item-body">
+          <div class="src-item-name">Statistics, glossary, reference content</div>
+          <div class="src-item-desc">Manually reviewed and updated. Statistics reflect the most recent ACSC Annual Report. Glossary and OWASP content updated when significant changes are published.</div>
+        </div>
+        <div class="src-item-meta"><span class="src-item-freq">Manual</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- LIMITATIONS -->
+  <section class="src-section">
+    <h2 class="src-section-title">Limitations</h2>
+    <div class="src-limits">
+      <div class="src-limit">
+        <span class="src-limit-icon">—</span>
+        <span>This is a <strong>single-person project</strong>. There is no team monitoring feeds, reviewing AI output, or responding to incidents around the clock.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">—</span>
+        <span>Feed ingestion relies on external RSS sources and APIs. Delays, outages, or changes to upstream sources may result in stale or missing data.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">—</span>
+        <span>AI-generated summaries may contain factual errors, hallucinations, or outdated information. Do not use the AI Briefing as your sole source of threat information.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">—</span>
+        <span>pseudosec. does not generate original threat intelligence. All content is drawn from publicly available sources. It is a synthesis and presentation layer, not an intelligence product.</span>
+      </div>
+      <div class="src-limit">
+        <span class="src-limit-icon">—</span>
+        <span>For specific cyber security advice, contact a qualified security professional, the <a href="https://www.cyber.gov.au" target="_blank" rel="noopener">Australian Signals Directorate</a>, or call the ACSC hotline on <strong>1300 CYBER1</strong>.</span>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer class="site-footer">
+  <span>pseudosec. · Australian Cyber Intelligence · <a href="sources.html">Sources &amp; Methodology</a></span>
+  <span>Last reviewed May 2026</span>
+</footer>
+
+<script src="shared.js"></script>
+</body>
+</html>

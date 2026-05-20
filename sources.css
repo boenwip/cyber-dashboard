@@ -1,0 +1,115 @@
+/**
+ * sources.css — pseudosec. Sources & Methodology
+ */
+
+.src-section { margin-bottom: 48px; }
+.src-section-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.02em;
+  margin-bottom: 8px;
+}
+.src-section-sub {
+  font-size: 14px;
+  color: var(--text-3);
+  line-height: 1.7;
+  max-width: 680px;
+  margin-bottom: 20px;
+}
+
+/* Disclaimer banner */
+.src-disclaimer {
+  display: flex;
+  gap: 14px;
+  align-items: flex-start;
+  padding: 16px 20px;
+  background: rgba(212,168,74,0.06);
+  border: 0.5px solid rgba(212,168,74,0.22);
+  border-radius: 8px;
+  margin-bottom: 40px;
+}
+.src-disclaimer-icon { font-size: 18px; flex-shrink: 0; padding-top: 1px; }
+.src-disclaimer-text { font-size: 14px; color: var(--text-2); line-height: 1.7; }
+
+/* Source list */
+.src-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  border: 0.5px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+}
+.src-item {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 16px;
+  padding: 18px 22px;
+  background: var(--surface);
+  align-items: start;
+}
+.src-item:hover { background: var(--surface2); }
+.src-item-body { min-width: 0; }
+.src-item-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text);
+  margin-bottom: 4px;
+}
+.src-item-desc {
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.6;
+}
+.src-item-meta { text-align: right; flex-shrink: 0; }
+.src-item-freq {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--accent);
+  background: var(--accent-dim);
+  border: 0.5px solid var(--accent-b);
+  border-radius: 4px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  display: inline-block;
+}
+.src-item-type {
+  font-size: 11px;
+  color: var(--text-4);
+  margin-top: 5px;
+  display: block;
+  text-align: right;
+}
+
+/* Limitation pills */
+.src-limits {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.src-limit {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 14px 18px;
+  border-radius: 8px;
+  border: 0.5px solid var(--border);
+  background: var(--surface);
+  font-size: 13px;
+  color: var(--text-3);
+  line-height: 1.6;
+}
+.src-limit-icon {
+  font-size: 15px;
+  flex-shrink: 0;
+  padding-top: 1px;
+  width: 20px;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .src-item { grid-template-columns: 1fr; gap: 8px; }
+  .src-item-meta { text-align: left; }
+  .src-item-type { text-align: left; }
+}
