@@ -78,6 +78,172 @@ function initTip() {
   el.textContent = TIPS[day % TIPS.length];
 }
 
+// ── STORY OF THE DAY ───────────────────────────────────────
+var STORIES = [
+  {
+    ep: 12,
+    title: 'Samy',
+    hook: 'In 2005, a 19-year-old wrote a MySpace worm that added "samy is my hero" to a million profiles in under 20 hours — mostly as a joke. It rewrote how the web thought about XSS.',
+    url: 'https://darknetdiaries.com/episode/12/'
+  },
+  {
+    ep: 19,
+    title: 'Operation Aurora',
+    hook: 'Chinese hackers simultaneously breached Google, Adobe, and 30 other US companies in 2009. Google went public. Everyone else stayed quiet.',
+    url: 'https://darknetdiaries.com/episode/19/'
+  },
+  {
+    ep: 29,
+    title: 'Stuxnet',
+    hook: 'The most sophisticated cyberweapon ever built quietly destroyed hundreds of Iranian centrifuges — while operators watched the gauges read perfectly normal.',
+    url: 'https://darknetdiaries.com/episode/29/'
+  },
+  {
+    ep: 31,
+    title: 'Takedown',
+    hook: 'Three university students built Mirai, the botnet that knocked out the internet for millions in 2016 — then open-sourced the code hoping to muddy the trail. It didn\'t work.',
+    url: 'https://darknetdiaries.com/episode/31/'
+  },
+  {
+    ep: 47,
+    title: 'Project Raven',
+    hook: 'Former NSA operatives were hired by the UAE to build a world-class surveillance program. They ended up spying on dissidents, journalists — and eventually Americans.',
+    url: 'https://darknetdiaries.com/episode/47/'
+  },
+  {
+    ep: 48,
+    title: 'Operation Socialist',
+    hook: 'GCHQ hacked Belgacom — Belgium\'s national telco — through a fake LinkedIn profile. They sat quietly inside the network for years.',
+    url: 'https://darknetdiaries.com/episode/48/'
+  },
+  {
+    ep: 52,
+    title: 'Magecart',
+    hook: 'Invisible card skimmers quietly embedded in checkout pages hit British Airways, Ticketmaster, and thousands of smaller sites. Most victims had no idea.',
+    url: 'https://darknetdiaries.com/episode/52/'
+  },
+  {
+    ep: 54,
+    title: 'NotPetya',
+    hook: 'Disguised as ransomware, NotPetya was actually a wiper. It spread globally through a hijacked software update and cost the world over $10 billion in a single day.',
+    url: 'https://darknetdiaries.com/episode/54/'
+  },
+  {
+    ep: 62,
+    title: 'Project Raven II',
+    hook: 'The full story of how a UAE surveillance program built from American expertise turned its sights on targets it was never supposed to touch.',
+    url: 'https://darknetdiaries.com/episode/62/'
+  },
+  {
+    ep: 69,
+    title: 'Human Hacker',
+    hook: 'The best security systems in the world fall to the same attack: a confident voice on the phone and a plausible story. Social engineering is still the most reliable exploit.',
+    url: 'https://darknetdiaries.com/episode/69/'
+  },
+  {
+    ep: 79,
+    title: 'Dark Caracal',
+    hook: 'A major global espionage campaign was traced to a single building in Beirut — run on a shoestring budget, affecting thousands of people across 21 countries.',
+    url: 'https://darknetdiaries.com/episode/79/'
+  },
+  {
+    ep: 83,
+    title: 'NSO Group',
+    hook: 'An Israeli firm sells military-grade spyware to governments. The pitch: catch terrorists. The reality: journalists, activists, and heads of state on the target list.',
+    url: 'https://darknetdiaries.com/episode/83/'
+  },
+  {
+    ep: 94,
+    title: 'Glowing Symphony',
+    hook: 'US Cyber Command\'s covert campaign to dismantle ISIS\'s online propaganda machine — fought entirely in server rooms, no shots fired.',
+    url: 'https://darknetdiaries.com/episode/94/'
+  },
+  {
+    ep: 105,
+    title: 'The Twitter Hack',
+    hook: 'Teenagers used phone calls to trick Twitter staff into handing over admin access — then hijacked Obama, Biden, and Musk\'s accounts to run a live Bitcoin scam.',
+    url: 'https://darknetdiaries.com/episode/105/'
+  },
+  {
+    ep: 112,
+    title: 'Dirty Coms',
+    hook: 'A loosely organised crew of teenagers ran one of the most brazen SIM-swapping campaigns in history — no sophisticated malware, just Discord, audacity, and vulnerable helpdesks.',
+    url: 'https://darknetdiaries.com/episode/112/'
+  },
+  {
+    ep: 118,
+    title: 'Hot Wallets',
+    hook: 'Inside the biggest crypto heists — insider threats, exchange vulnerabilities, and how hundreds of millions in digital assets vanish in minutes.',
+    url: 'https://darknetdiaries.com/episode/118/'
+  },
+  {
+    ep: 128,
+    title: 'The Colonial Pipeline Attack',
+    hook: 'A single compromised VPN password brought the US East Coast\'s fuel supply to a standstill. DarkSide collected $4.4M. Most was later recovered.',
+    url: 'https://darknetdiaries.com/episode/128/'
+  },
+  {
+    ep: 136,
+    title: 'Lapsus$',
+    hook: 'A teenager in Oxford led a group that breached Microsoft, Nvidia, Uber, and Rockstar Games — not through sophisticated exploits, but by calling helpdesks.',
+    url: 'https://darknetdiaries.com/episode/136/'
+  },
+  {
+    ep: 1,
+    title: 'The Oyster Card',
+    hook: 'Security researchers cracked the cryptography on London\'s Oyster transit card using cheap off-the-shelf hardware. The fix took years — replacing 17 million cards isn\'t simple.',
+    url: 'https://darknetdiaries.com/episode/1/'
+  },
+  {
+    ep: 4,
+    title: 'Panic!',
+    hook: 'A hacker stumbles into a backdoor inside a major corporation and has to decide what to do with it — a story about responsible disclosure before anyone knew the term.',
+    url: 'https://darknetdiaries.com/episode/4/'
+  },
+  {
+    ep: 23,
+    title: 'Vladimir Levin',
+    hook: 'In 1994, a Russian mathematician orchestrated the first major internet bank robbery — moving millions from Citibank accounts using nothing but a terminal and a dial-up modem.',
+    url: 'https://darknetdiaries.com/episode/23/'
+  },
+  {
+    ep: 46,
+    title: 'Zain',
+    hook: 'SIM swapping: convince a carrier employee to hand over someone\'s number, then drain their crypto wallet before they notice the signal drop. It\'s disturbingly easy.',
+    url: 'https://darknetdiaries.com/episode/46/'
+  },
+  {
+    ep: 100,
+    title: 'Honkers',
+    hook: 'The Honker Union of China — a patriotic hacker collective that defaced thousands of American websites after the 2001 spy plane incident. A cyber conflict the world mostly forgot.',
+    url: 'https://darknetdiaries.com/episode/100/'
+  },
+  {
+    ep: 141,
+    title: 'The Pirate Bay',
+    hook: 'The full story of how four Swedes built the world\'s most resilient file-sharing site, survived raids and convictions, and kept the servers running from inside a mountain.',
+    url: 'https://darknetdiaries.com/episode/141/'
+  }
+];
+
+function initStory() {
+  var el = document.getElementById('tracker-story');
+  if (!el) return;
+  var day = Math.floor(Date.now() / 86400000);
+  var s = STORIES[day % STORIES.length];
+  el.innerHTML =
+    '<div class="tracker-story-meta">' +
+      '<div class="tracker-story-label">Story of the day &nbsp;·&nbsp; Darknet Diaries</div>' +
+      '<div class="tracker-story-row">' +
+        '<span class="tracker-story-ep">EP ' + s.ep + '</span>' +
+        '<span class="tracker-story-title">' + s.title + '</span>' +
+      '</div>' +
+      '<p class="tracker-story-hook">' + s.hook + '</p>' +
+    '</div>' +
+    '<a href="' + s.url + '" target="_blank" rel="noopener" class="tracker-story-listen">Listen ↗</a>';
+  el.hidden = false;
+}
+
 // ── THREAT MAP ─────────────────────────────────────────────
 function toggleThreatMap() {
   var section = document.getElementById('threat-map-section');
@@ -481,6 +647,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initWotd();
   initBlurb();
   initTip();
+  initStory();
   loadBriefing();
   loadData();
 
