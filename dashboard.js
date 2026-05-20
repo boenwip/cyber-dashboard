@@ -53,6 +53,31 @@ function initBlurb() {
   el.textContent = BLURBS[day % BLURBS.length];
 }
 
+// ── SIDEBAR TIPS ───────────────────────────────────────────
+var TIPS = [
+  'Enable multi-factor authentication on your email account first. It\'s the key to resetting everything else — if someone gets into your email, they can get into everything.',
+  'Use a password manager. You only need to remember one strong password, and it handles the rest. Most phones and browsers have one built in for free.',
+  'Check if your details have been in a data breach at haveibeenpwned.com — it takes ten seconds and the results are often surprising.',
+  'Never click links in unexpected texts or emails. Go directly to the website by typing the address yourself. Scammers rely on you not doing this.',
+  'Keep your phone and computer updated. Most successful attacks exploit software that hasn\'t been patched. Updates are the simplest defence.',
+  'Don\'t reuse passwords across accounts. If one site gets breached, attackers try your credentials everywhere. Different passwords mean one breach stays one breach.',
+  'A real bank, telco, or government agency will never ask for your password, PIN, or one-time code over the phone. Hang up and call back on a number you find yourself.',
+  'Public Wi-Fi is fine for general browsing. Avoid logging into banking, email, or anything sensitive on it — those networks can be monitored.',
+  'Lock your phone with a PIN, fingerprint, or face recognition. A swipe pattern can be lifted from the smudges on your screen.',
+  'Back up your important files somewhere separate — an external drive or cloud service. Ransomware makes backups the difference between inconvenient and catastrophic.',
+  'Be thoughtful about what you share on LinkedIn. Job titles, team structure, and project names help attackers craft convincing impersonation attempts.',
+  'If you get an unexpected "verify your account" or "unusual login" email, don\'t click the link inside it. Open a new tab and log in directly.',
+  'Review which apps have access to your camera, microphone, and location. Revoke anything you don\'t recognise or no longer use.',
+  'If something feels off about a call, email, or message, trust your gut. Hang up. Call back on a number you find independently. Legitimate organisations won\'t mind.'
+];
+
+function initTip() {
+  var el = document.getElementById('sb-tip-text');
+  if (!el) return;
+  var day = Math.floor(Date.now() / 86400000);
+  el.textContent = TIPS[day % TIPS.length];
+}
+
 // ── THREAT MAP ─────────────────────────────────────────────
 function toggleThreatMap() {
   var section = document.getElementById('threat-map-section');
@@ -455,6 +480,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initBarChart();
   initWotd();
   initBlurb();
+  initTip();
   loadBriefing();
   loadData();
 
