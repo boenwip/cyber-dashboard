@@ -131,8 +131,6 @@ h1, h2, h3, h4 {
   white-space: nowrap;
 }
 .nav-link:hover { color: var(--text); background: var(--surface2); }
-.nav-link--ext { opacity: 0.75; }
-.nav-link--ext:hover { opacity: 1; }
 .nav-link--active {
   color: var(--accent);
   background: var(--accent-dim);

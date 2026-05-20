@@ -5,7 +5,6 @@
 
 /* ── LAYOUT CONTAINERS ── */
 .tracker,
-.crime-chart,
 .active-filter-bar,
 .layout,
 .threat-map-section {
@@ -481,59 +480,6 @@
 }
 .sb-empty { padding: 20px; font-size: 13px; color: var(--text-3); font-style: italic; }
 
-/* ── ESSENTIAL EIGHT PANEL ── */
-.sb-e8-section {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  border-top: 0.5px solid var(--border);
-  min-height: 0;
-  overflow: hidden;
-}
-.sb-hdr--e8 {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.sb-hdr-link {
-  font-size: 10px;
-  font-weight: 500;
-  color: var(--accent);
-  text-decoration: none;
-  letter-spacing: 0.04em;
-  font-family: var(--mono);
-}
-.sb-hdr-link:hover { text-decoration: underline; text-underline-offset: 3px; }
-.sb-e8-scroll {
-  flex: 1;
-  overflow-y: auto;
-  scrollbar-width: thin;
-  scrollbar-color: var(--border2) transparent;
-}
-.sb-e8-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 10px;
-  padding: 8px 20px;
-  border-bottom: 0.5px solid var(--border);
-  text-decoration: none;
-  color: inherit;
-  transition: background 0.12s;
-}
-.sb-e8-item:last-child { border-bottom: none; }
-.sb-e8-item:hover { background: var(--surface2); }
-.sb-e8-num {
-  font-family: var(--mono);
-  font-size: 10px;
-  font-weight: 700;
-  color: var(--accent);
-  width: 13px;
-  flex-shrink: 0;
-  margin-top: 3px;
-  text-align: right;
-}
-.sb-e8-name { font-size: 12px; color: var(--text-2); font-weight: 500; line-height: 1.4; }
-.sb-e8-desc { font-size: 11px; color: var(--text-3); line-height: 1.45; margin-top: 2px; }
 .tool-group { }
 .tool-name {
   padding: 10px 20px 5px;
