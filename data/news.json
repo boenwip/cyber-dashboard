@@ -1,13 +1,13 @@
 {
-  "last_updated": "21-05-2026 08:33 PM",
-  "count": 61,
+  "last_updated": "22-05-2026 08:17 AM",
+  "count": 57,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "21-05-2026 08:33 PM",
+      "date": "22-05-2026 08:17 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,77 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
+      "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
+      "summary": "Canadian authorities on Wednesday arrested a 23-year-old Ottawa man on suspicion of building and operating Kimwolf, a fast spreading Internet-of-Things botnet that enslaved millions of devices for use in a series of massive distributed denial-of-service (DDoS) attacks over the past six months. Krebs",
+      "date": "22-05-2026 07:50 AM",
+      "tags": [
+        "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "1Kosmos wins Epic Toolbox identity verification spot",
+      "link": "https://securitybrief.com.au/story/1kosmos-wins-epic-toolbox-identity-verification-spot",
+      "summary": "The integration could help health systems curb account takeover and fraud as MyChart use grows for records, bookings and messages.",
+      "date": "22-05-2026 04:04 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cloudflare launches Claude agent environments with Anthropic",
+      "link": "https://securitybrief.com.au/story/cloudflare-launches-claude-agent-environments-with-anthropic",
+      "summary": "Businesses can now run Claude-powered agents in isolated Cloudflare sandboxes, with tighter controls for private data, audit trails and scaling.",
+      "date": "22-05-2026 01:00 AM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "How Deepfakes Tore a High School Apart",
+      "link": "https://www.404media.co/radnor-high-school-pennsylvania-ai-deepfakes-child-sexual-abuse-material/",
+      "summary": "After five teen girls were targeted by AI-generated child sexual abuse material, Radnor Township High School in Pennsylvania has become a case study in how schools and police around the country grapple with how to response to deepfake crimes involving children.",
+      "date": "22-05-2026 12:41 AM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "High",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Content Delivery Exploit Opens Websites to Brand Hijacking",
+      "link": "https://www.darkreading.com/cyber-risk/content-delivery-exploit-websites-brand-hijacking",
+      "summary": "The Underminr domain-fronting attack allows threat actors to modify Web requests and leverage trusted websites to cloak malicious activity.",
+      "date": "21-05-2026 11:05 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
@@ -30,76 +101,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cloudflare & Anthropic launch Claude agents on sandboxes",
-      "link": "https://securitybrief.com.au/story/cloudflare-anthropic-launch-claude-agents-on-sandboxes",
-      "summary": "Developers can now run Claude agents in Cloudflare sandboxes, with code, tools and private connectivity handled outside Anthropic's core platform.",
-      "date": "21-05-2026 05:00 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian shoppers wary of social commerce security",
-      "link": "https://securitybrief.com.au/story/australian-shoppers-wary-of-social-commerce-security",
-      "summary": "Most Australian buyers say security fears, late deliveries and poor tracking are undermining social commerce, despite rising use of the channels.",
-      "date": "21-05-2026 04:25 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Apple blocks USD $2.2 billion in fraudulent App Store fraud",
-      "link": "https://securitybrief.com.au/story/apple-blocks-usd-2-2-billion-in-fraudulent-app-store-fraud",
-      "summary": "The report underscores the scale of policing required to protect users and developers on one of the world's largest mobile marketplaces.",
-      "date": "21-05-2026 02:38 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI accountability gap widens as organisations scale faster than governance",
-      "link": "https://securitybrief.com.au/story/ai-accountability-gap-widens-as-organisations-scale-faster-than-governance",
-      "summary": "Many Australian firms are slowing AI roll-outs because fragmented oversight is leaving no one clearly accountable for risk, compliance or decisions.",
-      "date": "21-05-2026 01:00 PM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Kong partners with Unfold to widen ANZ channel reach",
-      "link": "https://securitybrief.com.au/story/kong-partners-with-unfold-to-widen-anz-channel-reach",
-      "summary": "Channel partners in Australia and New Zealand will get clearer sales guidance as Kong taps Unfold to accelerate AI and API deal flow.",
-      "date": "21-05-2026 12:51 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "AU General"
     },
     {
@@ -120,7 +121,7 @@
       "source": "Dark Reading",
       "title": "GitHub Confirms Breach, 4K Internal Repos Stolen",
       "link": "https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen",
-      "summary": "Open source software giant GitHub confirmed a data breach this week involving the theft of thousands of repos. One threat actor \u2014 TeamPCP \u2014 took credit.",
+      "summary": "GitHub confirmed a data breach this week involving the theft of thousands of developer code repositories. One threat actor \u2014 TeamPCP \u2014 took credit.",
       "date": "21-05-2026 06:51 AM",
       "tags": [
         "AU Cyber"
@@ -131,7 +132,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Svcs.",
+      "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Services",
       "link": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud",
       "summary": "The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.",
       "date": "21-05-2026 06:35 AM",
@@ -531,19 +532,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "DOGE Cuts Unleashed a Deadly Wave of Violence Across Africa, Study Finds",
-      "link": "https://www.404media.co/doge-cuts-unleashed-a-deadly-wave-of-violence-across-africa-study-finds/",
-      "summary": "The dismantling of the United States Agency for International Development (USAID) is associated with measurable increases in Africa, especially in areas most dependent on the agency\u2019s support.",
-      "date": "15-05-2026 04:00 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "'FrostyNeighbor' APT Carefully Targets Govt Orgs in Poland, Ukraine",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/frostyneighbor-apt-govt-orgs-poland-ukraine",
@@ -771,21 +759,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Dark Reading",
-      "title": "Cyber Espionage Group Targets Aviation Firms to Steal Map Data",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/cyber-espionage-group-aviation-firms-steal-map-data",
-      "summary": "The campaign quietly compromises aerospace and drone operators to exfiltrate GIS files, terrain models, and GPS data and gain a clear picture of adversaries' world view.",
-      "date": "11-05-2026 10:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Troy Hunt Blog",
       "title": "Welcoming the Costa Rican Government to Have I Been Pwned",
       "link": "https://www.troyhunt.com/welcoming-the-costa-rican-government-to-have-i-been-pwned/",
@@ -812,19 +785,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Dark Reading",
-      "title": "ShinyHunters Claims Second Attack Against Instructure",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shinyhunters-second-attack-instructure",
-      "summary": "The edtech company is struggling to wrest control from its hackers. PII belonging to hundreds of millions of people is on the line.",
-      "date": "09-05-2026 06:08 AM",
-      "tags": [
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
-    },
-    {
       "source": "Krebs on Security",
       "title": "Canvas Breach Disrupts Schools & Colleges Nationwide",
       "link": "https://krebsonsecurity.com/2026/05/canvas-breach-disrupts-schools-colleges-nationwide/",
@@ -841,20 +801,6 @@
         "SMB"
       ],
       "relevance": "Sector"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "After Replacing TeamPCP Malware, 'PCPJack' Steals Cloud Secrets",
-      "link": "https://www.darkreading.com/cloud-security/teampcp-malware-pcpjack-steals-cloud-secrets",
-      "summary": "PCPJack makes innovative use of parquet files for stealthy, pre-validated target discovery as it canvasses multiple cloud environments.",
-      "date": "08-05-2026 06:43 AM",
-      "tags": [
-        "AU Cyber",
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

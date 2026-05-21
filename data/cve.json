@@ -1,7 +1,29 @@
 {
-  "last_updated": "21-05-2026 08:34 PM",
+  "last_updated": "22-05-2026 08:17 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2025-34291",
+      "description": "Langflow Langflow \u2014 Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-34926",
+      "description": "Trend Micro Apex One \u2014 Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deplo",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
+      "vendor": "Trend Micro",
+      "product": "Apex One",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2008-4250",
       "description": "Microsoft Windows \u2014 Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow duri",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
       "vendor": "Microsoft",
       "product": "Microsoft",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-20182",
-      "description": "Cisco Catalyst SD-WAN \u2014 Cisco Catalyst SD-WAN Controller & Manager contain an authentication bypass vulnerability that allows an unauthenticated, remote attacker to bypass authentication and obtain administrative privileges ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-14",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20182",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-42208",
-      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a SQL injection vulnerability that allows an attacker to read data from the proxy's database and potentially modify it, leading to unauthorized access to the proxy and the cre",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42208",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
       "ransomware": "Unknown"
     }
   ]
