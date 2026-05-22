@@ -1,6 +1,6 @@
 {
-  "last_updated": "22-05-2026 08:53 PM",
-  "count": 35,
+  "last_updated": "23-05-2026 03:54 AM",
+  "count": 34,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.148",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>\n</ul>",
-      "date": "22-05-2026 08:53 PM"
+      "date": "23-05-2026 03:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.147",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s",
-      "date": "22-05-2026 08:53 PM"
+      "date": "23-05-2026 03:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.146",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>\n<li>Auto mode no longer suppresses",
-      "date": "22-05-2026 08:53 PM"
+      "date": "23-05-2026 03:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.145",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>\n<li>Added <code>agent_id",
-      "date": "22-05-2026 08:53 PM"
+      "date": "23-05-2026 03:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.144",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/resume</code> support for background sessions \u2014 sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked ",
-      "date": "22-05-2026 08:53 PM"
+      "date": "23-05-2026 03:54 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/05/chrome-dev-for-android-update_0491183579.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 150 (150.0.7847.3) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "23-05-2026 02:13 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -61,14 +69,6 @@
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/05/chrome-dev-for-android-update_01282484650.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Dev 150 (150.0.7847.2) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
-      "date": "22-05-2026 02:13 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
       "title": "Chrome for Android Update",
       "link": "http://chromereleases.googleblog.com/2026/05/chrome-for-android-update_01490005206.html",
       "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 149 (149.0.7827.22) for Android to a small percentage of users. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.android",
@@ -81,14 +81,6 @@
       "link": "http://chromereleases.googleblog.com/2026/05/early-stable-update-for-desktop.html",
       "summary": "<p><span style=\"color: #666666; font-family: Arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font",
       "date": "21-05-2026 06:45 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/05/chrome-beta-for-desktop-update_01135482202.html",
-      "summary": "<p>The Beta channel has been updated to 149.0.7827.22 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0",
-      "date": "21-05-2026 06:13 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -163,20 +155,20 @@
       "date": "05-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Agents for financial services - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5\" target=\"_blank\">Agents f",
-      "date": "05-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
       "summary": "<p>Microsoft Agent 365\u00a0helps you\u00a0take control\u00a0of agent sprawl\u00a0as\u00a0your\u00a0control plane to\u00a0observe, govern, and\u00a0secure agents\u00a0and their interactions.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-",
       "date": "02-05-2026 01:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "An update on recent Claude Code quality reports - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5\" tar",
+      "date": "23-04-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -221,9 +213,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Releases Claude Mythos Preview with Cybersecurity Capabilities but Withholds Public Access - infoq.com",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE4zd0R3aXhqWXVPVC0zM0F0bC1aUG9QVi1ORUhxZU9TQlNYbHpnMU1YallZT1pYUVNlYkVsN3JoUndGZm94VDljZHRtT25wUDRRaEthMWIyR2k0NmNMOXZ6VFJja19hckxIMDdn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE4zd0R3aXhqWXVPVC0zM0F0bC1aUG9QVi1ORUhxZU9TQlNYbHpnMU1YallZT1pYUVNlYkVsN3JoUndGZm94VDljZHRtT25wUDRRaEthMWIyR2k0NmNMOXZ6VFJja19hckxIMDdn?oc=5\"",
+      "title": "Claude Mythos and Project Glasswing: why an AI superhacker has the tech world on alert - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1BselpOdjBXeGZwMWN4RlhsTFZHTUg0LW1DUFNDVVJVOUE0T2pSZHhjbGI3WGFtNmRIb2JLU1JxU2RKSFNURGxWREQ4WlFzVWhMaFMyTg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1",
       "date": "13-04-2026 05:00 PM"
     },
     {

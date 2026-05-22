@@ -1,13 +1,13 @@
 {
-  "last_updated": "22-05-2026 08:53 PM",
-  "count": 63,
+  "last_updated": "23-05-2026 03:54 AM",
+  "count": 62,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "22-05-2026 08:53 PM",
+      "date": "23-05-2026 03:54 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -19,14 +19,55 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Merchants rush to adopt AI shopping agents, Ravelin finds",
-      "link": "https://securitybrief.com.au/story/merchants-rush-to-adopt-ai-shopping-agents-ravelin-finds",
-      "summary": "Most enterprise retailers now plan to use AI shopping agents, even as many say they are not ready for the fraud risks they bring.",
-      "date": "22-05-2026 06:15 PM",
+      "title": "Geordie links Claude Enterprise to security controls",
+      "link": "https://securitybrief.com.au/story/geordie-links-claude-enterprise-to-security-controls",
+      "summary": "Enterprise teams can now monitor chats, files and project logs in Claude, closing a security gap as AI tools take on more workplace tasks.",
+      "date": "23-05-2026 02:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Coro signs Australian distribution deal with Leader",
+      "link": "https://securitybrief.com.au/story/coro-signs-australian-distribution-deal-with-leader",
+      "summary": "Australian MSPs and resellers gain access to Coro's cybersecurity platform as the deal broadens channel options and simplifies security management.",
+      "date": "23-05-2026 01:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CTERA launches InsightAI for unstructured data analysis",
+      "link": "https://securitybrief.com.au/story/ctera-launches-insightai-for-unstructured-data-analysis",
+      "summary": "It gives IT and security teams a way to spot risks, track usage and investigate incidents across sprawling unstructured data estates.",
+      "date": "23-05-2026 01:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Darwinium updates mobile SDKs to spot scam activity",
+      "link": "https://securitybrief.com.au/story/darwinium-updates-mobile-sdks-to-spot-scam-activity",
+      "summary": "Banks and payment firms could spot scams mid-session, as Darwinium's updated mobile SDKs track live calls, screen sharing and device evasion.",
+      "date": "23-05-2026 01:45 AM",
       "tags": [
         "Scams"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [
         "Enterprise",
         "Consumer"
@@ -35,76 +76,70 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "ReliaQuest warns of SonicWall MFA bypass after patching",
-      "link": "https://securitybrief.com.au/story/reliaquest-warns-of-sonicwall-mfa-bypass-after-patching",
-      "summary": "Patching alone has left some older SonicWall devices exposed to VPN attacks, with reliaQuest finding the first known in-the-wild use of CVE-2024-12802.",
-      "date": "22-05-2026 05:45 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "TAC Security adds Anthropic & Perplexity AI clients",
-      "link": "https://securitybrief.com.au/story/tac-security-adds-anthropic-perplexity-ai-clients",
-      "summary": "Independent security checks are gaining urgency as fast-growing AI and software firms face rising scrutiny from customers, partners and regulators.",
-      "date": "22-05-2026 04:48 PM",
+      "title": "MIND first data security firm in Anthropic cyber scheme",
+      "link": "https://securitybrief.com.au/story/mind-first-data-security-firm-in-anthropic-cyber-scheme",
+      "summary": "Broader Claude access should help MIND sharpen data discovery and loss prevention for customers, after it joined Anthropic's cyber scheme.",
+      "date": "23-05-2026 01:42 AM",
       "tags": [
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
-      "title": "Here launches location reasoning for AI spatial decisions",
-      "link": "https://securitybrief.com.au/story/here-launches-location-reasoning-for-ai-spatial-decisions",
-      "summary": "Businesses using AI for routes and dispatch could cut errors and costs as HERE adds a dedicated layer for spatial computation.",
-      "date": "22-05-2026 04:43 PM",
+      "title": "Black Kite says 58 CVEs pose critical supply threat",
+      "link": "https://securitybrief.com.au/story/black-kite-says-58-cves-pose-critical-supply-threat",
+      "summary": "Only a small fraction of disclosed flaws are likely to hit suppliers, leaving security teams to focus on the 58 highest-risk CVEs.",
+      "date": "23-05-2026 01:15 AM",
       "tags": [
         "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "1Password expands OpenAI Codex deal for secure credentials",
+      "link": "https://securitybrief.com.au/story/1password-expands-openai-codex-deal-for-secure-credentials",
+      "summary": "The new integration keeps passwords out of prompts and repos, reducing the risk of leaks as AI coding agents move into production workflows.",
+      "date": "23-05-2026 01:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "KnowBe4 warns of phishing campaign using fake surveys",
+      "link": "https://securitybrief.com.au/story/knowbe4-warns-of-phishing-campaign-using-fake-surveys",
+      "summary": "Victims are being lured into handing over card details after completing bogus brand surveys promising prizes, as short-lived domains evade filters.",
+      "date": "23-05-2026 01:00 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
       ],
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "ASX 200 firms hit by infostealer infections: report",
-      "link": "https://securitybrief.com.au/story/asx-200-firms-hit-by-infostealer-infections-report",
-      "summary": "UpGuard says exposed credentials and supplier risk leave Australia's biggest listed firms vulnerable, despite a modest rise in security scores.",
-      "date": "22-05-2026 04:41 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Why Australian SMEs can't afford to treat cybersecurity as an afterthought",
-      "link": "https://securitybrief.com.au/story/why-australian-smes-can-t-afford-to-treat-cybersecurity-as-an-afterthought",
-      "summary": "Rising attack volumes are exposing under-resourced SMEs to downtime, lost contracts and regulatory risk unless security is built in now.",
-      "date": "22-05-2026 04:30 PM",
+      "source": "Dark Reading",
+      "title": "Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks",
+      "link": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks",
+      "summary": "Ransomware and vendor breaches persist, but the 2026 Data Breach Investigations Report (DBIR) highlights how evolving social engineering tactics make the sector more vulnerable.",
+      "date": "22-05-2026 11:17 PM",
       "tags": [
         "AU Cyber",
-        "Compliance"
+        "Scams"
       ],
-      "threat": "Medium",
-      "audience": [
-        "SMB",
-        "Consumer"
-      ],
-      "relevance": "AU General"
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -120,36 +155,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "CypherLoc scam kit drives millions of browser attacks",
-      "link": "https://securitybrief.com.au/story/cypherloc-scam-kit-drives-millions-of-browser-attacks",
-      "summary": "Browser-based fraud is scaling fast, with Barracuda saying CypherLoc has driven about 2.8 million attacks since the start of 2026.",
-      "date": "22-05-2026 03:12 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Proofpoint extends controls into Claude Enterprise",
-      "link": "https://securitybrief.com.au/story/proofpoint-extends-controls-into-claude-enterprise",
-      "summary": "Organisations using AI assistants face growing compliance risk as Proofpoint folds Claude activity into existing data loss prevention and governance controls.",
-      "date": "22-05-2026 11:45 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "WFI says only a quarter of Australian farmers are considering cyber insurance",
       "link": "https://australiancybersecuritymagazine.com.au/wfi-says-only-a-quarter-of-australian-farmers-are-considering-cyber-insurance/?utm_source=rss&utm_medium=rss&utm_campaign=wfi-says-only-a-quarter-of-australian-farmers-are-considering-cyber-insurance&utm_source=rss&utm_medium=rss&utm_campaign=wfi-says-only-a-quarter-of-australian-farmers-are-considering-cyber-insurance",
@@ -163,21 +168,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Asia Pacific tops financial cyberattack target list",
-      "link": "https://securitybrief.com.au/story/asia-pacific-tops-financial-cyberattack-target-list",
-      "summary": "Banks and fintechs face mounting risk as application-layer attacks and bot activity increasingly exploit Asia Pacific's expanding digital finance links.",
-      "date": "22-05-2026 11:10 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
     },
     {
       "source": "Krebs on Security",
@@ -267,7 +257,7 @@
       "source": "Dark Reading",
       "title": "Processes &amp; Culture Top Reasons Behind Data Breaches",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/processes-and-culture-top-reasons-behind-data-breaches",
-      "summary": "Government leaders revealed that, in spite of state laws meant to improve cyber hygiene, an analysis of incidents showed issues persist and visibility falls short.",
+      "summary": "Despite state laws meant to improve cyber hygiene, an analysis of incidents shows issues persist and visibility falls short.",
       "date": "21-05-2026 03:42 AM",
       "tags": [
         "AU Cyber"
@@ -841,21 +831,6 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Dirty Frag' Exploit Poised to Blow Up on Enterprise Linux Distros",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/dirty-frag-exploit-blow-up-enterprise-linux-distros",
-      "summary": "The privilege escalation vulnerability, which is similar to other Linux flaws like Copy Fail and Dirty Pipe, may already be under limited exploitation.",
-      "date": "12-05-2026 01:05 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
       "audience": [
         "Enterprise"
       ],
