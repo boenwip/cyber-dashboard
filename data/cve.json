@@ -1,7 +1,18 @@
 {
-  "last_updated": "23-05-2026 03:54 AM",
+  "last_updated": "23-05-2026 08:05 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-9082",
+      "description": "Drupal Core \u2014 Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-22",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
+      "vendor": "Drupal",
+      "product": "Core",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2025-34291",
       "description": "Langflow Langflow \u2014 Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage ",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
       "vendor": "Microsoft",
       "product": "Defender",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-42897",
-      "description": "Microsoft Microsoft \u2014 Microsoft Exchange Server contains a cross-site scripting vulnerability during web page generation in Outlook Web Access and when certain interaction conditions are met, arbitrary JavaScript can be ex",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-15",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42897",
-      "vendor": "Microsoft",
-      "product": "Microsoft",
       "ransomware": "Unknown"
     }
   ]
