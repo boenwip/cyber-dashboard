@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-05-2026 08:19 PM",
+  "last_updated": "22-05-2026 08:53 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.148",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>\n</ul>",
-      "date": "22-05-2026 08:19 PM"
+      "date": "22-05-2026 08:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.147",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s",
-      "date": "22-05-2026 08:19 PM"
+      "date": "22-05-2026 08:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.146",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>\n<li>Auto mode no longer suppresses",
-      "date": "22-05-2026 08:19 PM"
+      "date": "22-05-2026 08:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.145",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>\n<li>Added <code>agent_id",
-      "date": "22-05-2026 08:19 PM"
+      "date": "22-05-2026 08:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.144",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/resume</code> support for background sessions \u2014 sessions started via <code>claude --bg</code> or agent view now appear alongside interactive ones, marked ",
-      "date": "22-05-2026 08:19 PM"
+      "date": "22-05-2026 08:53 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
