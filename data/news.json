@@ -1,13 +1,13 @@
 {
-  "last_updated": "22-05-2026 09:05 AM",
-  "count": 57,
+  "last_updated": "22-05-2026 11:30 AM",
+  "count": 59,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "22-05-2026 09:05 AM",
+      "date": "22-05-2026 11:30 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,63 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Asia Pacific tops financial cyberattack target list",
+      "link": "https://securitybrief.com.au/story/asia-pacific-tops-financial-cyberattack-target-list",
+      "summary": "Banks and fintechs face mounting risk as application-layer attacks and bot activity increasingly exploit Asia Pacific's expanding digital finance links.",
+      "date": "22-05-2026 11:10 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike links Claude compliance data to Falcon",
+      "link": "https://securitybrief.com.au/story/crowdstrike-links-claude-compliance-data-to-falcon",
+      "summary": "Security teams can now track Claude use alongside other threats, as CrowdStrike folds compliance logs into Falcon's monitoring and response tools.",
+      "date": "22-05-2026 10:47 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Netskope links Claude to enterprise compliance tools",
+      "link": "https://securitybrief.com.au/story/netskope-links-claude-to-enterprise-compliance-tools",
+      "summary": "Security teams will gain continuous oversight of Claude use as Netskope brings the AI assistant under existing compliance and data-loss rules.",
+      "date": "22-05-2026 10:35 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Exploitation overtakes social engineering in Rapid7 report",
+      "link": "https://securitybrief.com.au/story/exploitation-overtakes-social-engineering-in-rapid7-report",
+      "summary": "Exposed systems are becoming the main target, as Rapid7 says flaws were used in 38% of incidents and patch windows shrank to five days.",
+      "date": "22-05-2026 10:08 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
@@ -38,36 +95,6 @@
       "date": "22-05-2026 07:50 AM",
       "tags": [
         "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "1Kosmos wins Epic Toolbox identity verification spot",
-      "link": "https://securitybrief.com.au/story/1kosmos-wins-epic-toolbox-identity-verification-spot",
-      "summary": "The integration could help health systems curb account takeover and fraud as MyChart use grows for records, bookings and messages.",
-      "date": "22-05-2026 04:04 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cloudflare launches Claude agent environments with Anthropic",
-      "link": "https://securitybrief.com.au/story/cloudflare-launches-claude-agent-environments-with-anthropic",
-      "summary": "Businesses can now run Claude-powered agents in isolated Cloudflare sandboxes, with tighter controls for private data, audit trails and scaling.",
-      "date": "22-05-2026 01:00 AM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
       ],
       "threat": "Advisory",
       "audience": [],
