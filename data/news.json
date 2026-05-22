@@ -1,13 +1,13 @@
 {
-  "last_updated": "22-05-2026 04:42 PM",
-  "count": 62,
+  "last_updated": "22-05-2026 08:18 PM",
+  "count": 63,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "22-05-2026 04:42 PM",
+      "date": "22-05-2026 08:18 PM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,63 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Merchants rush to adopt AI shopping agents, Ravelin finds",
+      "link": "https://securitybrief.com.au/story/merchants-rush-to-adopt-ai-shopping-agents-ravelin-finds",
+      "summary": "Most enterprise retailers now plan to use AI shopping agents, even as many say they are not ready for the fraud risks they bring.",
+      "date": "22-05-2026 06:15 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ReliaQuest warns of SonicWall MFA bypass after patching",
+      "link": "https://securitybrief.com.au/story/reliaquest-warns-of-sonicwall-mfa-bypass-after-patching",
+      "summary": "Patching alone has left some older SonicWall devices exposed to VPN attacks, with reliaQuest finding the first known in-the-wild use of CVE-2024-12802.",
+      "date": "22-05-2026 05:45 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "TAC Security adds Anthropic & Perplexity AI clients",
+      "link": "https://securitybrief.com.au/story/tac-security-adds-anthropic-perplexity-ai-clients",
+      "summary": "Independent security checks are gaining urgency as fast-growing AI and software firms face rising scrutiny from customers, partners and regulators.",
+      "date": "22-05-2026 04:48 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Here launches location reasoning for AI spatial decisions",
+      "link": "https://securitybrief.com.au/story/here-launches-location-reasoning-for-ai-spatial-decisions",
+      "summary": "Businesses using AI for routes and dispatch could cut errors and costs as HERE adds a dedicated layer for spatial computation.",
+      "date": "22-05-2026 04:43 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
@@ -123,34 +180,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike links Claude compliance data to Falcon",
-      "link": "https://securitybrief.com.au/story/crowdstrike-links-claude-compliance-data-to-falcon",
-      "summary": "Security teams can now track Claude use alongside other threats, as CrowdStrike folds compliance logs into Falcon's monitoring and response tools.",
-      "date": "22-05-2026 10:47 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Netskope links Claude to enterprise compliance tools",
-      "link": "https://securitybrief.com.au/story/netskope-links-claude-to-enterprise-compliance-tools",
-      "summary": "Security teams will gain continuous oversight of Claude use as Netskope brings the AI assistant under existing compliance and data-loss rules.",
-      "date": "22-05-2026 10:35 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Krebs on Security",
       "title": "Alleged Kimwolf Botmaster \u2018Dort\u2019 Arrested, Charged in U.S. and Canada",
       "link": "https://krebsonsecurity.com/2026/05/alleged-kimwolf-botmaster-dort-arrested-charged-in-u-s-and-canada/",
@@ -236,7 +265,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Processes and Culture Top Reasons Behind Data Breaches",
+      "title": "Processes &amp; Culture Top Reasons Behind Data Breaches",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/processes-and-culture-top-reasons-behind-data-breaches",
       "summary": "Government leaders revealed that, in spite of state laws meant to improve cyber hygiene, an analysis of incidents showed issues persist and visibility falls short.",
       "date": "21-05-2026 03:42 AM",
@@ -830,20 +859,6 @@
       "audience": [
         "Enterprise"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Hackers Use AI for Exploit Development, Attack Automation",
-      "link": "https://www.darkreading.com/cloud-security/hackers-ai-exploit-dev-attack-automation",
-      "summary": "Cyber adversaries have long used AI, but now attackers are using large language models to develop exploits and orchestrate complex attacks.",
-      "date": "11-05-2026 11:00 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
