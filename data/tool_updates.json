@@ -1,14 +1,22 @@
 {
-  "last_updated": "23-05-2026 01:31 PM",
+  "last_updated": "23-05-2026 07:56 PM",
   "count": 34,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.150",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
+      "date": "23-05-2026 07:56 PM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.149",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage \u2014 skills, subagents, plugins, and per-MCP-server cost</li>\n<li><code>/diff</",
-      "date": "23-05-2026 01:31 PM"
+      "date": "23-05-2026 07:56 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.148",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>\n</ul>",
-      "date": "23-05-2026 01:31 PM"
+      "date": "23-05-2026 07:56 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.147",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s",
-      "date": "23-05-2026 01:31 PM"
+      "date": "23-05-2026 07:56 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.146",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>\n<li>Auto mode no longer suppresses",
-      "date": "23-05-2026 01:31 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.145",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.145",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude agents --json</code> to list live Claude sessions as JSON for scripting (tmux-resurrect, status bars, session pickers)</li>\n<li>Added <code>agent_id",
-      "date": "23-05-2026 01:31 PM"
+      "date": "23-05-2026 07:56 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -67,20 +67,20 @@
       "date": "23-05-2026 02:13 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT can now create, edit PowerPoint presentations: Here's how it works - Business Standard",
-      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLUtqZi1WcEFnQjA2czVMdjZ5c1pYc012eTNJSkktY3hfakltdV9WQ1Y1QVVabGx0YUpNX3UtSXU2dUxOdEJRcC1kWFpfdnlCX1hXSkpaY2xlUF9jSi1iVkU3eVd1LTNkd1BTbWVYSEpZamJCREVBMHFlaHUySEItdlpMa2habmpVdHRuVmtDa1ppd0VJRE9SYXI4d1F6cmk0V1pjemRxdnV0cHhfUFR6b1NxOTZERmNPX1ZEcjd3NWNjTXd2SDUwbTRvQkxZS0NZdmhKRUNJX1o5bThfQzFnOWlSRllGZ9IB5gFBVV95cUxQLUtqZi1WcEFnQjA2czVMdjZ5c1pYc012eTNJSkktY3hfakltdV9WQ1Y1QVVabGx0YUpNX3UtSXU2dUxOdEJRcC1kWFpfdnlCX1hXSkpaY2xlUF9jSi1iVkU3eVd1LTNkd1BTbWVYSEpZamJCREVBMHFlaHUySEItdlpMa2habmpVdHRuVmtDa1ppd0VJRE9SYXI4d1F6cmk0V1pjemRxdnV0cHhfUFR6b1NxOTZERmNPX1ZEcjd3NWNjTXd2SDUwbTRvQkxZS0NZdmhKRUNJX1o5bThfQzFnOWlSRllGZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5gFBVV95cUxQLUtqZi1WcEFnQjA2czVMdjZ5c1pYc012eTNJSkktY3hfakltdV9WQ1Y1QVVabGx0YUpNX3UtSXU2dUxOdEJRcC1kWFpfdnlCX1hXSkpaY2xlUF9jSi1iVkU3eVd1LTNkd1BTbWVYSE",
-      "date": "22-05-2026 05:37 PM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Dev for Desktop Update",
       "link": "http://chromereleases.googleblog.com/2026/05/chrome-dev-for-desktop-update_01036491744.html",
       "summary": "<p>The Dev channel has been updated to 150.0.7846.4 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7",
       "date": "22-05-2026 02:13 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI improves Codex iOS experience with turn completion alerts, new commands, more - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFRQQTdqbXd6UzZZRG43eUFWdTNsdHd6bDItU3RjNjhiMzE0eTZqMTlYRk5STlBGZGUyV19MazlybFhDU3c2anYxLWtJODlSNDFvTG9nRUU4QTdKUTBxcEl1NkpaQ3NWWVIxamhnVUFJb0FmRTNHNXFrSjB6c2c2cGxOVWViYjVMUE5OdURJWmRnSVVUSWl0eHh4U0p5NzdlMzA3Rmx3MGlpaUF5TUhwRWJ2ZXg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFRQQTdqbXd6UzZZRG43eUFWdTNsdHd6bDItU3RjNjhiMzE0eTZqMTlYRk5STlBGZGUyV19MazlybFhDU3c2anYxLWtJODlSNDFvTG9nRUU4QTdKUTBxcEl1NkpaQ3NWWVIxamhnVU",
+      "date": "22-05-2026 01:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -97,6 +97,22 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
       "date": "20-05-2026 08:03 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Statistics (May 2026) \u2013 Active Users & Growth Data - DemandSage",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5\" target=\"_blank\">ChatG",
+      "date": "19-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Mythos: Why Anthropic Won\u2019t Release Its New AI Model - Built In",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SclhqVWhwS1ZvVlEwc3U1Nkd6aFphMDFqd1RmQkpwNUp1dFR4OXJJamxVdzJyRGR6V1BpemNSbU5YeVJOcHhSUFBVc3pZdl9zNW5aOVNtTUEtUXZ4VTlyWkFn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1SclhqVWhwS1ZvVlEwc3U1Nkd6aFphMDFqd1RmQkpwNUp1dFR4OXJJamxVdzJyRGR6V1BpemNSbU5YeVJOcHhSUFBVc3pZdl9zNW5aOVNtTUEtUXZ4VTlyWkFn?oc=5\" target=\"_bl",
+      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -123,14 +139,6 @@
       "date": "11-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Higher usage limits for Claude and a compute deal with SpaceX - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE50ZXhOWkRpY080blQ2aDkzS1Fwb3FYWUhGM3FGUzNIbWNyYXY4cVZMaDYxMDVFejU1UGFkblVXMDdwMHJFQldvRXBUeXpJYUR5amgxelJtZ3dTU0U2dk1Taw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTE50ZXhOWkRpY080blQ2aDkzS1Fwb3FYWUhGM3FGUzNIbWNyYXY4cVZMaDYxMDVFejU1UGFkblVXMDdwMHJFQldvRXBUeXpJYUR5amgxelJtZ3dTU0U2dk1Taw?oc=5\" target=\"_blan",
-      "date": "06-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
@@ -155,28 +163,12 @@
       "date": "05-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Agents for financial services - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE1IS1R3ZVd5NUxtWGJjRlFBQXZfOXJPS2xlY0wtaWZhSmx0M2RNaFUwN3FCU1Y3bTh5dkhqOEtIUE94UXFtT2l1MEk0WFZyUVRYV1Fsc1JrMEU?oc=5\" target=\"_blank\">Agents f",
-      "date": "05-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
       "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
       "summary": "<p>Microsoft Agent 365\u00a0helps you\u00a0take control\u00a0of agent sprawl\u00a0as\u00a0your\u00a0control plane to\u00a0observe, govern, and\u00a0secure agents\u00a0and their interactions.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-",
       "date": "02-05-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "An update on recent Claude Code quality reports - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTE9lbzBkRXBGLTl2YjRQU2NDT0piaWdaZks2ckFNNXYwXzdEOERUZHBEWVZSTktyZ0xQLTNrM2h3NXZnY3N2Ty0xdUJFRzNfUFRqWHl3VW5hMGxpTkttOVR1YXRSMnVJNWR5?oc=5\" tar",
-      "date": "23-04-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -195,6 +187,14 @@
       "date": "20-04-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "What is Anthopic's Claude Mythos and what risks does it pose? - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ080QjNmR3N5VElKQnh1WXRFSk9iR0JxTy1ZaDNRY0dXNUFXZ0w1Wk1XUWs2MTdTR3dUZVpfMHYwVUJSZ1ZTQlVPaWFFODdFSHRKdXJxazVfUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ080QjNmR3N5VElKQnh1WXRFSk9iR0JxTy1ZaDNRY0dXNUFXZ0w1Wk1XUWs2MTdTR3dUZVpfMHYwVUJSZ1ZTQlVPaWFFODdFSHRKdXJxazVfUQ?oc=5\" target=\"_blank\">What ",
+      "date": "17-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
@@ -205,26 +205,26 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
+      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
       "date": "16-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Opus 4.7 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1rS2xYRnJxOV9fQjgxWkl0OHlJRFhxMktsVmtTdGV6dnhPTXQzSXcwRE5hQXhOUGdVMXNwVVBZb01wYTVlY0tCT3VKZTBVQzZtVXRGY25XME5rUQ?oc=5\" target=\"_blank\">Intro",
-      "date": "16-04-2026 05:00 PM"
+      "title": "Claude Mythos and Project Glasswing: why an AI superhacker has the tech world on alert - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1BselpOdjBXeGZwMWN4RlhsTFZHTUg0LW1DUFNDVVJVOUE0T2pSZHhjbGI3WGFtNmRIb2JLU1JxU2RKSFNURGxWREQ4WlFzVWhMaFMyTg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFNoWV8yVXdkX0JTMWotbnA0azM1WGlIR0w2N0t6dXNQQW1TNkxxUjBiR1J1dHpaUkd2dk95eXhJNnJVYVozdEJKMk9ydDg2azFpNGJGeGZkZHExTTJOWGhSRGpQREdOWlZnTERwS1",
+      "date": "13-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1ieG41ZEx5Mnh5dFN0QkFUVG54R2JmdnV6TWk1UWtXamw0TTA1d0hfZTR1ZjhGNGtfQV96REQtOGFYNGxmb3E0QTVqUFRxOWxzNHFvRkozOU5sc0RqSHVWQ1hRcnA0enVzeWFJSmJMcUZab2ZzaUZTQWdFcThTNEZ2N0hDR2k2Z2VKZWVkZG1nejFyTXhpODhsRDJabEhINmhrMndGYmrSAa4BQVVfeXFMTlM0a3RLa21CU19pdFQ2aEs2SVo5Z2dSSkRwcXhoRUFnbGh5TDZ5OGhYbW5KWmktbHdHMDNiaTlLM2hKRkFGeGxuOWlHT1RYSXZoTGVPd1lFSV9aR2dYc3hyOVh0VjlGOVdBcVdHVGQyQy1lZ1ZsSDI3Y1QwN1JFNEt6emlMMjFvWlozUHgzeHRWeHlra01SVEtxay1XNEg4QkNFSlJFa09CX3VveFB3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1ieG41ZEx5Mnh5dFN0QkFUVG54R2JmdnV6TWk1UWtXamw0TTA1d0hfZTR1ZjhGNGtfQV96REQtOGFYNGxmb3E0QTVqUFRxOWxzNHFvRkozOU5sc0RqSHVWQ1hRcnA0enVzeWFJSm",
-      "date": "24-03-2026 05:00 PM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic keeps latest AI tool out of public\u2019s hands for fear of enabling widespread hacking - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQkVJRG9GVWY3TTVxMFZXRE5nQUxoUy1mNlp0Mkg2T1d4dVF2Y2psWnNwXzBiWnNmSldUenJsT1dUNnJXNnEwd3F2Sy1icFRwVnEzMUtTYlRfRDZySHRMZVdNMG1XSFJmaXNZUGpPSXZpdWhLNWdtbWY1WGZkSU5hblJuTGJNY1VZQTMwYnlxdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPQkVJRG9GVWY3TTVxMFZXRE5nQUxoUy1mNlp0Mkg2T1d4dVF2Y2psWnNwXzBiWnNmSldUenJsT1dUNnJXNnEwd3F2Sy1icFRwVnEzMUtTYlRfRDZySHRMZVdNMG1XSFJmaXNZUGpPSX",
+      "date": "08-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
