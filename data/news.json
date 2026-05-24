@@ -1,13 +1,13 @@
 {
-  "last_updated": "25-05-2026 07:53 AM",
-  "count": 63,
+  "last_updated": "25-05-2026 08:59 AM",
+  "count": 64,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "25-05-2026 07:53 AM",
+      "date": "25-05-2026 08:59 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,82 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Canvas breach puts global education cyber risk in focus",
+      "link": "https://securitybrief.com.au/story/canvas-breach-puts-global-education-cyber-risk-in-focus",
+      "summary": "Hundreds of millions of student records may be exposed, disrupting exam systems at universities and highlighting the fragility of centralised school software.",
+      "date": "25-05-2026 08:45 AM",
+      "tags": [
+        "Education",
+        "EdTech"
+      ],
+      "threat": "High",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sumo Logic adds Claude compliance monitoring integration",
+      "link": "https://securitybrief.com.au/story/sumo-logic-adds-claude-compliance-monitoring-integration",
+      "summary": "It will let security teams fold Claude audit trails into existing monitoring, easing compliance checks as AI use spreads across enterprises.",
+      "date": "25-05-2026 08:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Group-IB strengthens banking growth with AWS recognition",
+      "link": "https://securitybrief.com.au/story/group-ib-strengthens-banking-growth-with-aws-recognition",
+      "summary": "The AWS recognition should help Group-IB win more regulated financial customers by proving its fraud and incident response tools meet sector standards.",
+      "date": "25-05-2026 08:00 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Unlocking intelligence with access control",
+      "link": "https://securitybrief.com.au/story/unlocking-intelligence-with-access-control",
+      "summary": "Centralised access data is helping security teams spot risks sooner, streamline compliance and improve how sites, staff and space are managed.",
+      "date": "25-05-2026 08:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ESET invests EUR \u20ac40 million in AI cybersecurity R&D",
+      "link": "https://securitybrief.com.au/story/eset-invests-eur-40-million-in-ai-cybersecurity-r-d",
+      "summary": "Threats from AI skills are escalating as the cybersecurity group expands research to counter a fast-growing software supply chain and attack surface.",
+      "date": "25-05-2026 08:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
@@ -70,63 +146,6 @@
       ],
       "threat": "Advisory",
       "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Geordie links Claude Enterprise to security controls",
-      "link": "https://securitybrief.com.au/story/geordie-links-claude-enterprise-to-security-controls",
-      "summary": "Enterprise teams can now monitor chats, files and project logs in Claude, closing a security gap as AI tools take on more workplace tasks.",
-      "date": "23-05-2026 02:00 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Coro signs Australian distribution deal with Leader",
-      "link": "https://securitybrief.com.au/story/coro-signs-australian-distribution-deal-with-leader",
-      "summary": "Australian MSPs and resellers gain access to Coro's cybersecurity platform as the deal broadens channel options and simplifies security management.",
-      "date": "23-05-2026 01:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CTERA launches InsightAI for unstructured data analysis",
-      "link": "https://securitybrief.com.au/story/ctera-launches-insightai-for-unstructured-data-analysis",
-      "summary": "It gives IT and security teams a way to spot risks, track usage and investigate incidents across sprawling unstructured data estates.",
-      "date": "23-05-2026 01:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Darwinium updates mobile SDKs to spot scam activity",
-      "link": "https://securitybrief.com.au/story/darwinium-updates-mobile-sdks-to-spot-scam-activity",
-      "summary": "Banks and payment firms could spot scams mid-session, as Darwinium's updated mobile SDKs track live calls, screen sharing and device evasion.",
-      "date": "23-05-2026 01:45 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise",
         "Consumer"
       ],
       "relevance": "Global"
