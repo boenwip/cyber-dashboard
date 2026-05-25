@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-05-2026 09:34 PM",
+  "last_updated": "26-05-2026 08:05 AM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.150",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "25-05-2026 09:34 PM"
+      "date": "26-05-2026 08:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.149",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage \u2014 skills, subagents, plugins, and per-MCP-server cost</li>\n<li><code>/diff</",
-      "date": "25-05-2026 09:34 PM"
+      "date": "26-05-2026 08:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.148",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>\n</ul>",
-      "date": "25-05-2026 09:34 PM"
+      "date": "26-05-2026 08:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.147",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s",
-      "date": "25-05-2026 09:34 PM"
+      "date": "26-05-2026 08:05 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,15 @@
       "title": "v2.1.146",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.146",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Renamed <code>/simplify</code> to <code>/code-review</code> with an optional effort level (e.g. <code>/code-review high</code>)</li>\n<li>Auto mode no longer suppresses",
-      "date": "25-05-2026 09:34 PM"
+      "date": "26-05-2026 08:05 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic plans Claude memory update with new Memory Files - TestingCatalog AI News",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdmEzam5vMVl2bkpzR0RTSDdWQmJCcjRkdXMtZFVwRkNYY3YyTDRoWmVLTzdRZG43QVdvYjBMckFqZG1PUjlJT3AzS3lSWlRnQ2tSenlkbnZ4MXJGUGVzUWNuMkFmOTVRZ09MaHJXcVZzb09IUHdpZ3lrbjFUT2dvb0RiTHFyS3JWZHhOZ3JDeFFfY0dy?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQdmEzam5vMVl2bkpzR0RTSDdWQmJCcjRkdXMtZFVwRkNYY3YyTDRoWmVLTzdRZG43QVdvYjBMckFqZG1PUjlJT3AzS3lSWlRnQ2tSenlkbnZ4MXJGUGVzUWNuMkFmOTVRZ09MaHJXcV",
-      "date": "25-05-2026 01:45 AM"
+      "title": "Anthropic prepares Mythos 1 for Claude Code and Claude Security - TestingCatalog AI News",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUVXeTM4c1FFdXpsQTVlNXhEN29LYlA1cUg5Ul9TWXE0T1Bnd2E2Vm5scHEtRlFiazFqYWNXY2trMktQMDVoeGdOQTRQaExndWdaQ2dhN0tqS00ya1pFS3NtTEJxdFNtZG9ISDE3R3d6LUl3UV9rbUVNN0g2QThPYmFrV3hpM04zMTEtUXZQcXE0RS14ZExqd0J6SQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxOMUVXeTM4c1FFdXpsQTVlNXhEN29LYlA1cUg5Ul9TWXE0T1Bnd2E2Vm5scHEtRlFiazFqYWNXY2trMktQMDVoeGdOQTRQaExndWdaQ2dhN0tqS00ya1pFS3NtTEJxdFNtZG9ISDE3R3",
+      "date": "24-05-2026 09:00 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -139,6 +139,22 @@
       "date": "18-05-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Defender's Guide to the Frontier AI Impact on Cybersecurity: May 2026 Update - Palo Alto Networks",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGhHSl9uTmRSQWoxQkZOSVlUY2p2SlUxOVVmTGE5cVI2Mm45ZzRWYmhpNFd6VnJJRGIyQ3EwRjhwdXlSbmpRbHVuMUNyU1AyVnhndlRxTExBdUItOGJyYjEwZmJXaGJwSFlWUnR1Vk5MWFpMblNkSXdWNWdGWnRKeVh0NWtFVGtmMjZnSHFtbDhDOU84elFudDRuNC1KcXFESjFybXRKSUpBejk0VWNaRw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQUGhHSl9uTmRSQWoxQkZOSVlUY2p2SlUxOVVmTGE5cVI2Mm45ZzRWYmhpNFd6VnJJRGIyQ3EwRjhwdXlSbmpRbHVuMUNyU1AyVnhndlRxTExBdUItOGJyYjEwZmJXaGJwSFlWUnR1Vk",
+      "date": "13-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft May 2026 Patch Tuesday fixes 120 flaws, no zero-days - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOTHdjNmtrNnhteDJaQmhtM3VQd2tnOW1CbnRXWnUtMkwwLXJYb1VpN0xZWWNDRFZYb3EzbEVtSmNzUkwzTXNyLXI5cjY1Ul9USVJlaXZzR3lleFFmY0JUblFEaEhLUnNRbkR3SnllaGhiTnBSdE5BZFIydmRZR1drVTJyOWkyVEtQT0dfb0hXOEYwZTBmTXoxbkhLSEU5S1pjNlU0U1pFRmh3WWY2cEFz0gG0AUFVX3lxTE4yTGVQazdQUzhIZk5xcVNHQnhZVXlkNVZkaVlRLXpzRU0yQm5fdWptWlY1S2FqU3lFUWVZTXBhaG9qYXV6d2o4RVFFZlNKN1VZMFJqY1lwNmNaQnY2Z0w2eU5VNEE5aGMwX2VQNXZFWFA5RERkRkNTUDZfMHhaVGgtMXA3enc1TXFEb2dUVzFGdHlVaTV0aVJxalduTGZrODJ6OUVQZ0lvZGdfUWJVOGtHX0JiVA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOTHdjNmtrNnhteDJaQmhtM3VQd2tnOW1CbnRXWnUtMkwwLXJYb1VpN0xZWWNDRFZYb3EzbEVtSmNzUkwzTXNyLXI5cjY1Ul9USVJlaXZzR3lleFFmY0JUblFEaEhLUnNRbkR3SnllaG",
+      "date": "12-05-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences",
@@ -187,6 +203,14 @@
       "date": "02-05-2026 01:00 AM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI updates Codex and prepares Remote Control feature - TestingCatalog AI News",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0VGZnhKbFhhRXcyRjk0QWJOa2JMVXZWcWxGM0tVVkQyd0NLRF9Gb2RZcXVkT3FCeTJwYW5xTWhuV1EyN04zaTlnT3kyTWhCZzVOUEQzWWl5VlVTR0tBSTN0RmRRckRJYkViZjFreFU5VWUwc2YxM2RkVkhjeGs1SkJGcDctSzU1SmJVd3hsckJJUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxQb0VGZnhKbFhhRXcyRjk0QWJOa2JMVXZWcWxGM0tVVkQyd0NLRF9Gb2RZcXVkT3FCeTJwYW5xTWhuV1EyN04zaTlnT3kyTWhCZzVOUEQzWWl5VlVTR0tBSTN0RmRRckRJYkViZjFreF",
+      "date": "30-04-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available",
@@ -203,14 +227,6 @@
       "date": "20-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "What is Anthopic's Claude Mythos and what risks does it pose? - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ080QjNmR3N5VElKQnh1WXRFSk9iR0JxTy1ZaDNRY0dXNUFXZ0w1Wk1XUWs2MTdTR3dUZVpfMHYwVUJSZ1ZTQlVPaWFFODdFSHRKdXJxazVfUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE9RQ080QjNmR3N5VElKQnh1WXRFSk9iR0JxTy1ZaDNRY0dXNUFXZ0w1Wk1XUWs2MTdTR3dUZVpfMHYwVUJSZ1ZTQlVPaWFFODdFSHRKdXJxazVfUQ?oc=5\" target=\"_blank\">What ",
-      "date": "17-04-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
@@ -225,14 +241,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1ieG41ZEx5Mnh5dFN0QkFUVG54R2JmdnV6TWk1UWtXamw0TTA1d0hfZTR1ZjhGNGtfQV96REQtOGFYNGxmb3E0QTVqUFRxOWxzNHFvRkozOU5sc0RqSHVWQ1hRcnA0enVzeWFJSmJMcUZab2ZzaUZTQWdFcThTNEZ2N0hDR2k2Z2VKZWVkZG1nejFyTXhpODhsRDJabEhINmhrMndGYmrSAa4BQVVfeXFMTlM0a3RLa21CU19pdFQ2aEs2SVo5Z2dSSkRwcXhoRUFnbGh5TDZ5OGhYbW5KWmktbHdHMDNiaTlLM2hKRkFGeGxuOWlHT1RYSXZoTGVPd1lFSV9aR2dYc3hyOVh0VjlGOVdBcVdHVGQyQy1lZ1ZsSDI3Y1QwN1JFNEt6emlMMjFvWlozUHgzeHRWeHlra01SVEtxay1XNEg4QkNFSlJFa09CX3VveFB3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1ieG41ZEx5Mnh5dFN0QkFUVG54R2JmdnV6TWk1UWtXamw0TTA1d0hfZTR1ZjhGNGtfQV96REQtOGFYNGxmb3E0QTVqUFRxOWxzNHFvRkozOU5sc0RqSHVWQ1hRcnA0enVzeWFJSm",
-      "date": "24-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -265,14 +273,6 @@
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
       "date": "29-01-2026 06:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Best Microsoft Office alternative of 2026 - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dGFBQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE9CcURpbXlwczRQaDJyZlJFWHBVNFhlTGd4NzR5dXBjY2ZEVWhzczBJUUpubGE5aVhiVFM5VUVGY21PYi1KVjlCS2x3ZWtZOVV3TmFlbEdZdjBSQlkybU0tc2liV2Fpc2FnWXBHS192dG",
-      "date": "19-01-2026 06:00 PM"
     }
   ]
 }
