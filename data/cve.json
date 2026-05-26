@@ -1,7 +1,18 @@
 {
-  "last_updated": "26-05-2026 04:31 PM",
+  "last_updated": "27-05-2026 08:18 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-48172",
+      "description": "LiteSpeed cPanel Plugin \u2014 LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with roo",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-9082",
       "description": "Drupal Core \u2014 Drupal Core contains a SQL injection vulnerability that could allow for privilege escalation and remote code execution via specially crafted requests sent with the database abstraction API.",
@@ -97,17 +108,6 @@
       "severity": "HIGH",
       "published": "2026-05-20",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-      "vendor": "Microsoft",
-      "product": "Defender",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-45498",
-      "description": "Microsoft Defender \u2014 Microsoft Defender contains an unspecified vulnerability that allows for denial of service.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45498",
       "vendor": "Microsoft",
       "product": "Defender",
       "ransomware": "Unknown"
