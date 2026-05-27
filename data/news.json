@@ -1,5 +1,5 @@
 {
-  "last_updated": "27-05-2026 08:53 PM",
+  "last_updated": "28-05-2026 08:29 AM",
   "count": 64,
   "items": [
     {
@@ -7,7 +7,7 @@
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "27-05-2026 08:53 PM",
+      "date": "28-05-2026 08:29 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,47 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Latin American Cybercriminals Hoover Up Government Data",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data",
+      "summary": "A purported leak exposing 5.8 million records of Uruguayan citizens is the latest incident where cybercriminals targeted government agencies to monetize citizen data.",
+      "date": "28-05-2026 02:19 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI-Assisted Exploit Development Outpaces Scanner Detection",
+      "link": "https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection",
+      "summary": "Attackers are using AI to dramatically reduce the time they need to develop a working exploit for a CVE, according to new research.",
+      "date": "28-05-2026 02:11 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Podcast: How Deepfakes Destroyed a High School",
+      "link": "https://www.404media.co/podcast-how-deepfakes-destroyed-a-high-school/",
+      "summary": "How deepfakes rocked a high school; BusPatrol giving AI camera data to cops; and a big time crash out.",
+      "date": "27-05-2026 11:02 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "High",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
     },
     {
       "source": "Risky Business",
@@ -120,26 +161,39 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "EC-Council launches AI governance framework & tool",
-      "link": "https://securitybrief.com.au/story/ec-council-launches-ai-governance-framework-tool",
-      "summary": "Only 1% of leaders think their AI governance is mature, as businesses rush to deploy systems without enough controls in place.",
-      "date": "27-05-2026 07:59 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos",
       "link": "https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos",
       "summary": "In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.",
       "date": "27-05-2026 05:47 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "State Cyber Leaders Beg Congress for More Funding, Support",
+      "link": "https://www.darkreading.com/threat-intelligence/state-leaders-beg-congress-resume-cyber-funding",
+      "summary": "A recent congressional hearing highlighted how states are reeling from federal cutbacks to important cyber grants and information sharing initiatives amid damaging attacks to critical infrastructure.",
+      "date": "27-05-2026 05:29 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Shai-Hulud Hackers TeamPCP: Lucky or Skilled?",
+      "link": "https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled",
+      "summary": "TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.",
+      "date": "27-05-2026 05:18 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -842,60 +896,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Checkbox Assessments Aren't Fit to Measure Risk",
-      "link": "https://www.darkreading.com/cyber-risk/checkbox-assessments-aren-t-fit-to-measure-to-risk",
-      "summary": "Security governance needs to be more than an annual compliance exercise. New companies are emerging to address risk-management gaps in current audit tools.",
-      "date": "14-05-2026 07:17 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Attackers Weaponize RubyGems for Data Dead Drops",
-      "link": "https://www.darkreading.com/application-security/attackers-weaponize-rubygems-data-dead-drops",
-      "summary": "Threat actors are publishing RubyGems packages that include scrapers targeting public-facing UK government servers, but with no clear objective.",
-      "date": "14-05-2026 07:09 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Tables Turn on 'The Gentlemen' RaaS Gang With Data Leak",
-      "link": "https://www.darkreading.com/threat-intelligence/gentlemen-raas-gang-data-leak",
-      "summary": "An OPSEC failure provides a window into what helped the ransomware group rise: a generous affiliate model, opportunistic TTPs, and an effective organizational structure.",
-      "date": "14-05-2026 06:47 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "LatAm Vibe Hackers Generate Custom Hacking Tools on the Fly",
-      "link": "https://www.darkreading.com/cloud-security/ai-agents-generate-custom-hacking-tools",
-      "summary": "In the latest evolution of automated cyberattacks, threat actors heavily leveraged AI agents to support campaigns against entities in Mexico and Brazil.",
-      "date": "13-05-2026 11:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

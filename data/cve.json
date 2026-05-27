@@ -1,7 +1,40 @@
 {
-  "last_updated": "27-05-2026 08:53 PM",
+  "last_updated": "28-05-2026 08:29 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-48027",
+      "description": "Nx Nx Console \u2014 Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harveste",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
+      "vendor": "Nx",
+      "product": "Nx Console",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-45321",
+      "description": "TanStack TanStack \u2014 TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
+      "vendor": "TanStack",
+      "product": "TanStack",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-8398",
+      "description": "Daemon Daemon Tools Lite \u2014 Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
+      "vendor": "Daemon",
+      "product": "Daemon Tools Lite",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-48172",
       "description": "LiteSpeed cPanel Plugin \u2014 LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with roo",
@@ -77,39 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
       "vendor": "Adobe",
       "product": "Acrobat and Reader",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2010-0249",
-      "description": "Microsoft Internet Explorer \u2014 Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code by accessing a pointer associated with a deleted object. The impacted p",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2010-0249",
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2010-0806",
-      "description": "Microsoft Internet Explorer \u2014 Microsoft Internet Explorer contains an use-after-free vulnerability that could allow remote attackers to execute arbitrary code via vectors involving access to an invalid pointer after the deletion o",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2010-0806",
-      "vendor": "Microsoft",
-      "product": "Internet Explorer",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-41091",
-      "description": "Microsoft Defender \u2014 Microsoft Defender contains a link following vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-41091",
-      "vendor": "Microsoft",
-      "product": "Defender",
       "ransomware": "Unknown"
     }
   ]
