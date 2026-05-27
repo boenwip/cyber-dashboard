@@ -1,13 +1,13 @@
 {
-  "last_updated": "27-05-2026 12:38 PM",
-  "count": 63,
+  "last_updated": "27-05-2026 04:57 PM",
+  "count": 64,
   "items": [
     {
       "source": "Dark Reading",
       "title": "[Virtual Event] Anatomy of a Data Breach: What to Do if it Happens to You",
       "link": "https://www.darkreading.com/events/anatomy-of-a-data-breach-what-to-do-if-it-happens-to-you",
       "summary": "",
-      "date": "27-05-2026 12:38 PM",
+      "date": "27-05-2026 04:57 PM",
       "tags": [
         "AU Cyber"
       ],
@@ -16,6 +16,37 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #839 -- TeamPCP stole GitHub's internal repos",
+      "link": "https://risky.biz/RB839/",
+      "summary": "On this week\u2019s show Patrick Gray, Adam Boileau and James Wilson discuss the week\u2019s cybersecurity news. They cover: TeamPCP breached GitHub\u2019s internal repos. Now what? Some absolute plonker glued Coruna to a hijacked npm package CISA is worried about about open source and wants third party submission",
+      "date": "27-05-2026 03:45 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Protect your small business from scams - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUWFvTUpibWxsc0w1SDhXTk05ckx4YWdRb3pLdDFjWjlub2pHM21XbllZVkdHWGVDRW1jb2NBMHVOTFNZaWF6Rm1CSTliMGZZTzF1d050akRfU3JZaXpEWVJ3czNBUF82QXZHVFBOWGxLOVVtcm9CM281bVhaVE1FTEsxNkp0RlVxWmEzMEszVQ?oc=5",
+      "summary": "Protect your small business from scams Scamwatch",
+      "date": "27-05-2026 12:40 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB",
+        "Consumer"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -865,24 +896,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #837 -- GitHub Actions footgun claims TanStack",
-      "link": "https://risky.biz/RB837/",
-      "summary": "On this week\u2019s show Patrick Gray, Adam Boileau and James Wilson discuss the week\u2019s cybersecurity news. They cover: Mini Shai-Hulud and the TanStack compromise using Github Actions Instructure pays Canvas elearning platform data extortionists More Linux privilege escalation 0days! CISA helping critic",
-      "date": "13-05-2026 03:08 PM",
-      "tags": [
-        "AU Cyber",
-        "Education",
-        "EdTech"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
