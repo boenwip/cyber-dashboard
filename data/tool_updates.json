@@ -1,14 +1,22 @@
 {
-  "last_updated": "28-05-2026 09:20 AM",
+  "last_updated": "28-05-2026 11:23 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.153",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>\n<li>Claude ",
+      "date": "28-05-2026 11:23 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.152",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/",
-      "date": "28-05-2026 09:20 AM"
+      "date": "28-05-2026 11:23 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.150",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "28-05-2026 09:20 AM"
+      "date": "28-05-2026 11:23 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.149",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.149",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/usage</code> now shows a per-category breakdown of what's driving your limits usage \u2014 skills, subagents, plugins, and per-MCP-server cost</li>\n<li><code>/diff</",
-      "date": "28-05-2026 09:20 AM"
+      "date": "28-05-2026 11:23 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.148",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.148",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed the Bash tool returning exit code 127 on every command for some users (a regression introduced in 2.1.147)</li>\n</ul>",
-      "date": "28-05-2026 09:20 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.147",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.147",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Pinned background sessions (<code>Ctrl+T</code> in <code>claude agents</code>) now stay alive when idle, are restarted in place to apply Claude Code updates, and are s",
-      "date": "28-05-2026 09:20 AM"
+      "date": "28-05-2026 11:23 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -133,18 +133,18 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Sick of Copilot In Office Apps? Microsoft Finally Lets You Move Its Floating Button - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmNQZTcxWEhUNHlVdXozY3czbWtiTS1VS0R2bUlzZ3RWdTRTc1JZaTlISEptX0NWRFBrQjdtWDl1LWpvSE5vT3hhZXZuSnU4bXU2MWlPLTBtOWNweDNGbzdiVk4xbm5USWhDZmRINGRQTExvNl9fMktsX3RxRzcycUdxWWYwOWY3eXp5dTJOUFByTWJBNVNmZU05b0NoUjFzWmFlMQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmNQZTcxWEhUNHlVdXozY3czbWtiTS1VS0R2bUlzZ3RWdTRTc1JZaTlISEptX0NWRFBrQjdtWDl1LWpvSE5vT3hhZXZuSnU4bXU2MWlPLTBtOWNweDNGbzdiVk4xbm5USWhDZmRING",
-      "date": "23-05-2026 02:56 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
+      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -261,17 +261,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
+      "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
