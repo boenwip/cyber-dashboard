@@ -1,28 +1,28 @@
 {
-  "last_updated": "28-05-2026 08:47 PM",
+  "last_updated": "29-05-2026 08:40 AM",
   "count": 10,
   "items": [
     {
       "id": "CVE-2026-48027",
       "description": "Nx Nx Console \u2014 Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harveste",
       "score": null,
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-05-27",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
       "vendor": "Nx",
       "product": "Nx Console",
-      "ransomware": "Unknown"
+      "ransomware": "Known"
     },
     {
       "id": "CVE-2026-45321",
       "description": "TanStack TanStack \u2014 TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
       "score": null,
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-05-27",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
       "vendor": "TanStack",
       "product": "TanStack",
-      "ransomware": "Unknown"
+      "ransomware": "Known"
     },
     {
       "id": "CVE-2026-8398",
