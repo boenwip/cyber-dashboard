@@ -1,7 +1,18 @@
 {
-  "last_updated": "30-05-2026 04:36 AM",
+  "last_updated": "30-05-2026 08:26 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-0257",
+      "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-05-29",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
+      "vendor": "Palo Alto Networks",
+      "product": "PAN-OS",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-48027",
       "description": "Nx Nx Console \u2014 Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harveste",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2009-1537",
       "vendor": "Microsoft",
       "product": "DirectX",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2009-3459",
-      "description": "Adobe Acrobat and Reader \u2014 Adobe Acrobat and Reader contain a heap-based buffer overflow vulnerability which could allow remote attackers to execute arbitrary code via a crafted PDF file that triggers memory corruption.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2009-3459",
-      "vendor": "Adobe",
-      "product": "Acrobat and Reader",
       "ransomware": "Unknown"
     }
   ]
