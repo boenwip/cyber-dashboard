@@ -1,5 +1,5 @@
 {
-  "last_updated": "29-05-2026 09:32 PM",
+  "last_updated": "30-05-2026 04:36 AM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.156",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>\n</ul>",
-      "date": "29-05-2026 09:32 PM"
+      "date": "30-05-2026 04:36 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.154",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Opus 4.8 is here! Now defaults to high effort \u00b7 /effort xhigh for your hardest tasks</li>\n<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc",
-      "date": "29-05-2026 09:32 PM"
+      "date": "30-05-2026 04:36 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.153",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>\n<li>Claude ",
-      "date": "29-05-2026 09:32 PM"
+      "date": "30-05-2026 04:36 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.152",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.152",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/code-review --fix</code> now applies review findings to your working tree after the review, surfacing reuse, simplification, and efficiency suggestions; <code>/",
-      "date": "29-05-2026 09:32 PM"
+      "date": "30-05-2026 04:36 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,39 @@
       "title": "v2.1.150",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.150",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "29-05-2026 09:32 PM"
+      "date": "30-05-2026 04:36 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/05/chrome-beta-for-desktop-update_02063643260.html",
+      "summary": "<p>The Beta channel has been updated to 149.0.7827.53 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/149.0",
+      "date": "30-05-2026 03:58 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/05/chrome-dev-for-android-update_0902842360.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 150 (150.0.7863.2) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "30-05-2026 02:43 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic launches Claude Opus 4.8 with new controls - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelN2SU0zNTUzcVlFLWx3WmRwRzkzQlZhcDJQV0pEd1FQaFgwTWlKWEdVb0dsUTdoV3RSV3EyX3VhcWJodDZhZ1ptUzd6aDFhVlJNWW9KOXo1SmRrNWdnYmpNNTVqaHZ5dGVZWXNWWmVNalNHczRQSWJ0X1pYSmdSQ05KQ3JHNXly?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOelN2SU0zNTUzcVlFLWx3WmRwRzkzQlZhcDJQV0pEd1FQaFgwTWlKWEdVb0dsUTdoV3RSV3EyX3VhcWJodDZhZ1ptUzd6aDFhVlJNWW9KOXo1SmRrNWdnYmpNNTVqaHZ5dGVZWXNWWm",
+      "date": "30-05-2026 02:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases new model, Opus 4.8 - Axios",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBDWS04UW10TmJCWGpvY3QxVHY5YVFSSXg2OHpBVXFyX08tWjQxa19kN25Vc1ZNU2xfQldKM3J0MWJCUGF0TTFHdlRFalJ1S1lXRE4xMWhpNXF0aUNBUTFzLS1FLUhVRjBvdWpiYVBxZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBDWS04UW10TmJCWGpvY3QxVHY5YVFSSXg2OHpBVXFyX08tWjQxa19kN25Vc1ZNU2xfQldKM3J0MWJCUGF0TTFHdlRFalJ1S1lXRE4xMWhpNXF0aUNBUTFzLS1FLUhVRjBvdWpiYVBxZw",
+      "date": "29-05-2026 08:26 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -59,6 +91,14 @@
       "date": "29-05-2026 11:21 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5\" target=\"_blank\">Intro",
+      "date": "29-05-2026 08:52 AM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Android Update",
@@ -67,12 +107,12 @@
       "date": "29-05-2026 07:43 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "How to try Claude Opus 4.8, the 'honest' Anthropic AI - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5\" target=\"_bl",
-      "date": "29-05-2026 06:11 AM"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+      "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
+      "date": "29-05-2026 05:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -91,36 +131,20 @@
       "date": "29-05-2026 03:21 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
-      "date": "29-05-2026 03:00 AM"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing a new design for Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
+      "date": "29-05-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 4.8 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5\" target=\"_blank\">Intro",
-      "date": "29-05-2026 02:51 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Stable for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/05/chrome-stable-for-ios-update_0206811855.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Stable 149 (149.0.7827.45) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvem",
-      "date": "28-05-2026 04:28 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_0877304591.html",
-      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 148.0.7778.216/217 for Windows and&nbsp;</span><span color=\"rgba(0, 0, 0, 0.87",
-      "date": "28-05-2026 03:52 AM"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
+      "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
+      "date": "27-05-2026 02:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -129,14 +153,6 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaU1ELWJCYlc3LXdQbHdSNTJqQm9WRTQxeGV6UVJQWkRzRklhTjhWbEpJUTJKSnloOU5OYXA5dUhINTdxQ0VrVjV2LVJYNWV1TWdUeGpVZDVIRHFjaGZZanlsVDgxNE83TTI0YUFobUJ1dzZtdVgtcUlQdTZseFEySDd4bVJYMzM5RkdxWndlRmVhQm4ySjUw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNaU1ELWJCYlc3LXdQbHdSNTJqQm9WRTQxeGV6UVJQWkRzRklhTjhWbEpJUTJKSnloOU5OYXA5dUhINTdxQ0VrVjV2LVJYNWV1TWdUeGpVZDVIRHFjaGZZanlsVDgxNE83TTI0YUFobU",
       "date": "26-05-2026 06:09 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
-      "date": "21-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -187,28 +203,12 @@
       "date": "05-05-2026 08:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
-      "summary": "<p>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes.</p>\n<p>The post <a href=\"https://www.microso",
-      "date": "05-05-2026 08:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
       "date": "05-05-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
-      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
-      "summary": "<p>Microsoft Agent 365\u00a0helps you\u00a0take control\u00a0of agent sprawl\u00a0as\u00a0your\u00a0control plane to\u00a0observe, govern, and\u00a0secure agents\u00a0and their interactions.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-",
-      "date": "02-05-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -225,14 +225,6 @@
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbUNUaEJFSDhPZ3ZVNWo0Xzk2ZjVhYXV4dDg5Qy1IbnAtakRTdmxCM1djNUFvcXQxN09CckFNeGZySm83eTByWXFF?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbU",
       "date": "25-04-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
-      "summary": "<p>From first draft to final polish, Copilot acts as a true collaborator,\u00a0taking action\u00a0while you stay in control.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/2",
-      "date": "23-04-2026 10:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -257,6 +249,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
+      "date": "04-03-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",

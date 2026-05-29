@@ -1,7 +1,89 @@
 {
-  "last_updated": "29-05-2026 09:32 PM",
-  "count": 62,
+  "last_updated": "30-05-2026 04:36 AM",
+  "count": 60,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "GuidePoint launches supply chain detection & response",
+      "link": "https://securitybrief.com.au/story/guidepoint-launches-supply-chain-detection-response",
+      "summary": "Security teams can now fold supplier risk alerts into incident response as GuidePoint's new service targets breaches from third-party tools.",
+      "date": "30-05-2026 01:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic launches dynamic workflows in Claude Code",
+      "link": "https://securitybrief.com.au/story/anthropic-launches-dynamic-workflows-in-claude-code",
+      "summary": "Software teams can now tackle sprawling code audits and migrations with parallel AI subagents, though the feature uses more tokens and needs approval.",
+      "date": "30-05-2026 01:00 AM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Governance teams face AI oversight strain, report finds",
+      "link": "https://securitybrief.com.au/story/governance-teams-face-ai-oversight-strain-report-finds",
+      "summary": "Rising workloads and weak systems are leaving governance teams with more compliance risk and little room to manage AI oversight.",
+      "date": "30-05-2026 01:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "New Study Reveals the Manipulative \u2018Dark Patterns\u2019 of AI Chatbots",
+      "link": "https://www.404media.co/new-study-reveals-the-manipulative-dark-patterns-of-ai-chatbots/",
+      "summary": "A new study by the Center for Democracy & Technology shows how chatbots like ChatGPT, Gemini, Replika and more can lead users down paths they didn't intend.",
+      "date": "29-05-2026 11:16 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
+      "summary": "Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.",
+      "date": "29-05-2026 11:00 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
+      "link": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
+      "summary": "Your organization's security failures have consequences for everyone else too, since this neo-Nazi-infested criminal gang uses its cyber winnings to support more violent and widespread crimes.",
+      "date": "29-05-2026 10:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "KnowBe4 launches Teams security tool against phishing",
@@ -18,89 +100,6 @@
         "Enterprise"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "IBM & Red Hat launch \u00a35bn open-source security plan",
-      "link": "https://securitybrief.com.au/story/ibm-red-hat-launch-5bn-open-source-security-plan",
-      "summary": "The move targets vulnerabilities in software used by large firms, as AI makes it easier to find and exploit flaws.",
-      "date": "29-05-2026 03:10 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "TrendAI deploys Claude Opus 4.8 for vulnerability hunts",
-      "link": "https://securitybrief.com.au/story/trendai-deploys-claude-opus-4-8-for-vulnerability-hunts",
-      "summary": "Security teams in Australia and New Zealand may soon triage flaws faster as TrendAI uses Claude Opus 4.8 to assess exploitability and impact.",
-      "date": "29-05-2026 12:43 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ExpressVPN hits 27 audits as privacy tools pass checks",
-      "link": "https://securitybrief.com.au/story/expressvpn-hits-27-audits-as-privacy-tools-pass-checks",
-      "summary": "Cure53 found no major flaws in ExpressVPN's email alias and identity monitoring tools, bolstering trust as privacy services face scrutiny.",
-      "date": "29-05-2026 12:15 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia warned over quantum cyber security risks",
-      "link": "https://securitybrief.com.au/story/australia-warned-over-quantum-cyber-security-risks",
-      "summary": "Government and critical infrastructure operators may need years to upgrade vulnerable encryption before quantum computers make it obsolete.",
-      "date": "29-05-2026 12:08 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains",
-      "link": "https://securitybrief.com.au/story/anthropic-releases-claude-opus-4-8-with-broad-gains",
-      "summary": "The update is being pitched as a broader step up for professional users, with gains reported in accuracy, speed and reliability across tasks.",
-      "date": "29-05-2026 11:21 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Claroty launches Claire AI agent for cyber-physical systems",
-      "link": "https://securitybrief.com.au/story/claroty-launches-claire-ai-agent-for-cyber-physical-systems",
-      "summary": "Infrastructure operators face rising cyber risk as Claroty rolls out Claire, an AI agent that maps assets and flags compliance gaps.",
-      "date": "29-05-2026 11:15 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 Bleeping Computer AU",
@@ -247,9 +246,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Protect your small business from scams - Scamwatch",
+      "title": "Protect your small business from scams - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUWFvTUpibWxsc0w1SDhXTk05ckx4YWdRb3pLdDFjWjlub2pHM21XbllZVkdHWGVDRW1jb2NBMHVOTFNZaWF6Rm1CSTliMGZZTzF1d050akRfU3JZaXpEWVJ3czNBUF82QXZHVFBOWGxLOVVtcm9CM281bVhaVE1FTEsxNkp0RlVxWmEzMEszVQ?oc=5",
-      "summary": "Protect your small business from scams Scamwatch",
+      "summary": "Protect your small business from scams scamwatch.gov.au",
       "date": "27-05-2026 12:40 PM",
       "tags": [
         "Scams"
@@ -333,9 +332,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
+      "title": "Browse news and alerts - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVUo0NmVndUZJaW1rbEVockk0VTM3N3BDcmJJZFBmWE1uTVNLUG04RG9LZFU5MnZTUGVVdzFsWVVjSkE0MjNPYXRXMTVmRjJqekFXM1RiMXBTVUN1NTk5d2lQc1lnQXZNMDNpZDBZeUdudzEweWVGcGJpRUl4NUsxOGFYWF9GbUtldWU4QjE1c3dVYTBhaENJaHBLVkx4YzhJM0NSbzliUFBIWVlSMkxkZzZpZmU?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
+      "summary": "Browse news and alerts scamwatch.gov.au",
       "date": "27-05-2026 03:18 AM",
       "tags": [
         "AU Cyber",
@@ -417,25 +416,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 14 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQa3BTRGdLN0U0bVhBR244ZFhwNGNEbEhBdmNFbHJ5cTR2NnhidUZZTnF2TWNhVXRSbUQ5MTZUTWRUMmlsOVo0eEtEMWNBNXlzZ0NXUzduenN1bjJHNkQ1WlJ2aGhLdGYwTXg0Wk1TMHBCbXZFdlhwc3RONjdCVFBMOHprYU1RaGR6QzRBMDJPRmZ2SU5vSXMxTFQzYURoOEp6WnZwM1cwc1JiRWVCcXhXZFlBYmkzWDh3LWRLZWRGN05BTXBjTU9IMGN1ODdVaGRGSUM1bTZjVnd2VnVhZWJDTjJhNUZSTFJPUkJDOGdaQ3lPcUpaQ0dGOTNYRQ?oc=5",
-      "summary": "Browse news and alerts - page 14 Scamwatch",
-      "date": "23-05-2026 03:26 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - Scamwatch",
+      "title": "Browse news and alerts - page 3 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPejhyck5nZFRkbGozcl9GSjhJbGtvV2x5OEdEX0E3TjR3VlpDczRNYTcyXzlRalpkTXNxOEZxejNmX3BKT2o4MmdtV1ZJejk5SEFDa3gzSGM1VW55VW5wYi1UcUtsTjIyc0NhNTlxTTVZQ3B6ZlZoWWh0T19mX3BybXY1Zzl5VnE4cF9lbEZCVHlCakVFUVJ5QXJIOEVrbDB1aTFaREVWRjZBa2VMQk83NFF4M0VvT0k0S0pENFpuaXhZb3RnYmpGSlY5ZlMwOXRka3h6d0F1c0NublN5Y0NqODVjUTJ0V044eEduZzA2c0huLWhMdVZYSjVxeUFDcUstUE8zeE9WZFJ1RGctS1FlVlpCWVExajJFbzBTSVd3?oc=5",
-      "summary": "Browse news and alerts - page 3 Scamwatch",
+      "summary": "Browse news and alerts - page 3 scamwatch.gov.au",
       "date": "23-05-2026 01:23 AM",
       "tags": [
         "AU Cyber",
@@ -628,9 +611,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Scam alert: Job recruitment scams - Scamwatch",
+      "title": "Scam alert: Job recruitment scams - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPajR0R2I1bkZCRUxQY2RPVEd4WXZTS2ZnQnlsU2oxWlUzVU1uYjVxQ3JHNDF5Qjh0WU1veUNiVGlvdFJ4Y3N6dTYyVDAzWXFRNGJjNVlYQ3prLTd1WFVudFl4U2ZUVGEyRjVBNTlCT1ZFVy03RzdpZkVDMVloZjVjMTIyWU9TRzFpcWJVbmVqUQ?oc=5",
-      "summary": "Scam alert: Job recruitment scams Scamwatch",
+      "summary": "Scam alert: Job recruitment scams scamwatch.gov.au",
       "date": "20-05-2026 12:53 PM",
       "tags": [
         "AU Cyber",
@@ -698,9 +681,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Scam alert: Fake crypto trading platforms - Scamwatch",
+      "title": "Scam alert: Fake crypto trading platforms - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSnhISGl1LWg5RVZLMTczRkttaklhMmF5NE1OMlJMRUxmdkx4RzMwNEdPUWg3cUtsYWJtVm5DQ1ZWUWQ4SGxkWEZZV2tCWS1HczJXV3BUNGtsdlNVUDJCZ0VkYWQ5ckg2dVBrWU9LOFVnbllYRnZGcnRDZGgtNk5RdzNYSS0yczQxbVFyVTd1RjdHNmlFbXF5aUVR?oc=5",
-      "summary": "Scam alert: Fake crypto trading platforms Scamwatch",
+      "summary": "Scam alert: Fake crypto trading platforms scamwatch.gov.au",
       "date": "19-05-2026 05:00 PM",
       "tags": [
         "AU Cyber",
@@ -859,19 +842,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Congress Puts Heat on Instructure After Canvas Outage",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/congress-instructure-shinyhunters-attacks",
-      "summary": "The House Committee on Homeland Security sent a letter about the Canvas cyberattack, the same day that the edtech company said it reached an \"agreement\" with the ShinyHunters cybercriminals.",
-      "date": "16-05-2026 06:19 AM",
-      "tags": [
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     }
   ]
 }
