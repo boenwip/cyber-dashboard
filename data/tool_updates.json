@@ -1,5 +1,5 @@
 {
-  "last_updated": "30-05-2026 01:38 PM",
+  "last_updated": "30-05-2026 08:03 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "30-05-2026 01:38 PM"
+      "date": "30-05-2026 08:03 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.157",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>\n<li>Added <code>claude plugin init &lt;name&gt;</code> to",
-      "date": "30-05-2026 01:38 PM"
+      "date": "30-05-2026 08:03 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.156",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>\n</ul>",
-      "date": "30-05-2026 01:38 PM"
+      "date": "30-05-2026 08:03 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.154",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Opus 4.8 is here! Now defaults to high effort \u00b7 /effort xhigh for your hardest tasks</li>\n<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc",
-      "date": "30-05-2026 01:38 PM"
+      "date": "30-05-2026 08:03 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.153",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>\n<li>Claude ",
-      "date": "30-05-2026 01:38 PM"
+      "date": "30-05-2026 08:03 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Amidst Codex's Strong Performance... Anthropic Releases Claude Opus 4.8 Just 42 Days Later - Inven Global",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEUzX00zLTM0QVM1LUs5cWNIRFRmOG5uUUFqWkFaQmF4R0I5bzNMSHJYZ0hTSzdmRUNFU2dTclVfbHZnZHhKWWM0bkwzbTh4QTNFY2hqY1BLTklHMU9WNVVKSFNHSGFaWDZEZE1qQnBLQlpURlRtYTcxamdUaENWOU9wLXdKbE5ULVFteFJJZF9XTkFETF9oTlJHcGZUVE9ESHdqS2F1MjFoUG9ucW8yZjJJdWtqVUNHSllTb2JkamRWTzlvMmJF?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNcEUzX00zLTM0QVM1LUs5cWNIRFRmOG5uUUFqWkFaQmF4R0I5bzNMSHJYZ0hTSzdmRUNFU2dTclVfbHZnZHhKWWM0bkwzbTh4QTNFY2hqY1BLTklHMU9WNVVKSFNHSGFaWDZEZE1qQn",
+      "date": "30-05-2026 01:50 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,14 +123,6 @@
       "date": "29-05-2026 07:43 AM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
-      "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
-      "date": "29-05-2026 05:00 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -139,30 +139,6 @@
       "date": "29-05-2026 03:21 AM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing a new design for Microsoft 365 Copilot",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
-      "date": "29-05-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic\u2019s new Claude model sparks cyber fears: \u2018We are not ready for what\u2019s coming\u2019 - ynetnews",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52YXUzeWlnTUdERko0S25XOFVfejV5UnBLcWJWRnRhX0JYaVhtcGtxOVF3bkZJRWs1YkIwWDZDSWVfZ3RBc2d3V2hvTTA3dk5fU2FaWlhBbG1RakZoNElXUTdRQkZ2anZPMkZoQg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE52YXUzeWlnTUdERko0S25XOFVfejV5UnBLcWJWRnRhX0JYaVhtcGtxOVF3bkZJRWs1YkIwWDZDSWVfZ3RBc2d3V2hvTTA3dk5fU2FaWlhBbG1RakZoNElXUTdRQkZ2anZPMkZoQg?oc=",
-      "date": "27-05-2026 09:24 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-      "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
-      "date": "27-05-2026 02:00 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Restores Copilot Ribbon Option in Office - Let's Data Science",
@@ -177,6 +153,14 @@
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
       "date": "20-05-2026 06:19 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Statistics (May 2026) \u2013 Active Users & Growth Data - DemandSage",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5\" target=\"_blank\">ChatG",
+      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -203,19 +187,19 @@
       "date": "11-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s new ChatGPT feature can alert a trusted contact during mental health crises - Notebookcheck",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRk1QVzBHWmFHQ2ozTVFXZzQxdUdycnRBczNYNks2bzVNYTZob3ptWUdrTTBKaWk0dnYzSV9UVEpPYUdJaHBIS3c1OHJEMFR2c2pFZXh4Und1V1Z6UElyQzdhNkxUUmVoQzI3QV9CUVNVazdoUGpoUTFDRDUwR3ZEMG1NUGI5NFFRNzFkcml4dDBXd0FxajRfUDJKUzMxenRGbVRLZkhkRVZqNVRsM2UyRWd6clZZazhOYmxRUjdRX3VIbENBeDJ6QQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRk1QVzBHWmFHQ2ozTVFXZzQxdUdycnRBczNYNks2bzVNYTZob3ptWUdrTTBKaWk0dnYzSV9UVEpPYUdJaHBIS3c1OHJEMFR2c2pFZXh4Und1V1Z6UElyQzdhNkxUUmVoQzI3QV9CUV",
-      "date": "08-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork: From conversation to action across skills, integrations, and devices",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copilot-cowork-from-conversation-to-action-across-skills-integrations-and-devices/",
       "summary": "<p>Today,\u00a0we\u2019re\u00a0announcing\u00a0additional\u00a0capabilities in\u00a0Cowork\u00a0to expand\u00a0on\u00a0what\u00a0it can make possible\u00a0for you.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/copi",
+      "date": "05-05-2026 08:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 Copilot, human agency, and the opportunity for every organization",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/05/microsoft-365-copilot-human-agency-and-the-opportunity-for-every-organization/",
+      "summary": "<p>As AI and agents take on more of the execution, people have more agency than ever to unlock their ambition, direct what gets done, and own the outcomes.</p>\n<p>The post <a href=\"https://www.microso",
       "date": "05-05-2026 08:00 PM"
     },
     {
@@ -227,20 +211,20 @@
       "date": "05-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
+      "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
-      "title": "Microsoft lets Windows 11 users remove Copilot after update - MSN",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbUNUaEJFSDhPZ3ZVNWo0Xzk2ZjVhYXV4dDg5Qy1IbnAtakRTdmxCM1djNUFvcXQxN09CckFNeGZySm83eTByWXFF?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOYXJ4RUZCS2hBQ2QweWdPSkl2R3VqRllwem5TT05XRVV5dEwtak5MMVd6OGFQNGJCZzhWT0g3aWlJaHo0U0VySU5uczdoVGViOC04X0ZnQTctaUJhQ1RoYTE0enEzd1RBeDlSX2JKbU",
-      "date": "25-04-2026 05:00 PM"
+      "title": "Microsoft Agent 365, now generally available, expands capabilities and integrations",
+      "link": "https://www.microsoft.com/en-us/security/blog/2026/05/01/microsoft-agent-365-now-generally-available-expands-capabilities-and-integrations/",
+      "summary": "<p>Microsoft Agent 365\u00a0helps you\u00a0take control\u00a0of agent sprawl\u00a0as\u00a0your\u00a0control plane to\u00a0observe, govern, and\u00a0secure agents\u00a0and their interactions.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-",
+      "date": "02-05-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-5.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWEFVX3lxTE5NNXhTM0RLTTBMTktqSFdCbUUxTXN2cC1xdmJPcEpjbktUdm43SlB0cFI3UGNRMnRXODFHZHZab3hOMlUwSlFKa1ZjWUg3R0c0NG1PZ0hWcnQ?oc=5\" target=\"_blank\">Introduc",
-      "date": "23-04-2026 05:00 PM"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/22/copilots-agentic-capabilities-in-word-excel-and-powerpoint-are-generally-available/",
+      "summary": "<p>From first draft to final polish, Copilot acts as a true collaborator,\u00a0taking action\u00a0while you stay in control.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/04/2",
+      "date": "23-04-2026 10:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -275,12 +259,28 @@
       "date": "04-03-2026 06:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "An update on our mental health-related work - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tV3ozN3lKTjJySlFtZUVHWmJleUhHZ2lHZ2ZoTnNHc0lfNTRPYk9CZEVkd0ZEcTVXYU9IT0VyeWJlcmtQenhwX1ZKeUo4ZGlWRTVhNmlVOERXNG8tQlpRQi1ZVDVHYWN0LVpaSUpfaw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1tV3ozN3lKTjJySlFtZUVHWmJleUhHZ2lHZ2ZoTnNHc0lfNTRPYk9CZEVkd0ZEcTVXYU9IT0VyeWJlcmtQenhwX1ZKeUo4ZGlWRTVhNmlVOERXNG8tQlpRQi1ZVDVHYWN0LVpaSUpfaw",
+      "date": "27-02-2026 06:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
       "date": "29-01-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Best free office software of 2026 - TechRadar",
+      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5NWFodlRMWkFZVXYyWXZFN3BXdjJtN2RiS1ptWjZPaXZId1hMY0RnenVnVFVMLXFuRlZ4RDdReVVaeUhCLWhrTkQwNXNtVXZ6QlIzTHFtZmJoUDJNNFBSXw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5NWFodlRMWkFZVXYyWXZFN3BXdjJtN2RiS1ptWjZPaXZId1hMY0RnenVnVFVMLXFuRlZ4RDdReVVaeUhCLWhrTkQwNXNtVXZ6QlIzTHFtZmJoUDJNNFBSXw?oc=5\" target=\"_blan",
+      "date": "14-01-2026 06:00 PM"
     }
   ]
 }
