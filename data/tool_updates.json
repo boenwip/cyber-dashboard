@@ -1,14 +1,22 @@
 {
-  "last_updated": "31-05-2026 07:58 AM",
+  "last_updated": "01-06-2026 07:57 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.159",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
+      "date": "01-06-2026 07:57 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "31-05-2026 07:58 AM"
+      "date": "01-06-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.157",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>\n<li>Added <code>claude plugin init &lt;name&gt;</code> to",
-      "date": "31-05-2026 07:58 AM"
+      "date": "01-06-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.156",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>\n</ul>",
-      "date": "31-05-2026 07:58 AM"
+      "date": "01-06-2026 07:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,23 +40,7 @@
       "title": "v2.1.154",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Opus 4.8 is here! Now defaults to high effort \u00b7 /effort xhigh for your hardest tasks</li>\n<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc",
-      "date": "31-05-2026 07:58 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.153",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>skipLfs</code> option to <code>github</code>/<code>git</code> plugin marketplace sources to skip Git LFS downloads during clone and update</li>\n<li>Claude ",
-      "date": "31-05-2026 07:58 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Opus 4.8: Anthropic Launches Its Most Capable AI Model Yet With Dynamic Workflows and Agent Swarms - Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg5eEdMTC1PcldYODN1WnhaekdXUlM3QktnaFFKX2U4Xy15UzJSaTNrVVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg5eEdMTC1PcldYODN1Wn",
-      "date": "31-05-2026 03:54 AM"
+      "date": "01-06-2026 07:57 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,6 +107,14 @@
       "date": "29-05-2026 07:43 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Opus 4.8: Anthropic makes a more 'honest' AI - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5\" target=\"_bl",
+      "date": "29-05-2026 05:57 AM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -133,9 +133,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Tops OpenAI to Become the World\u2019s Most Valuable A.I. Start-Up - The New York Times",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSi1XZmpReGJ1X3dWZ0JsQ1BHXzloYm93YjV2N09HX0VlRTFDa2huRE9jX3h6cWxQSDJDdVhnR1Awc01WZDRtVW13Zk50T3dINkJvSS13RkQ3WTM3d2NhRWpZWDV5VEhwV0FQMGRwNEJCdy1idFhIZXBqR3hUX0RHOHdEOU9lZU1GNXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPSi1XZmpReGJ1X3dWZ0JsQ1BHXzloYm93YjV2N09HX0VlRTFDa2huRE9jX3h6cWxQSDJDdVhnR1Awc01WZDRtVW13Zk50T3dINkJvSS13RkQ3WTM3d2NhRWpZWDV5VEhwV0FQMGRwNE",
+      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
       "date": "29-05-2026 03:00 AM"
     },
     {
@@ -153,14 +153,6 @@
       "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNaU1ELWJCYlc3LXdQbHdSNTJqQm9WRTQxeGV6UVJQWkRzRklhTjhWbEpJUTJKSnloOU5OYXA5dUhINTdxQ0VrVjV2LVJYNWV1TWdUeGpVZDVIRHFjaGZZanlsVDgxNE83TTI0YUFobUJ1dzZtdVgtcUlQdTZseFEySDd4bVJYMzM5RkdxWndlRmVhQm4ySjUw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNaU1ELWJCYlc3LXdQbHdSNTJqQm9WRTQxeGV6UVJQWkRzRklhTjhWbEpJUTJKSnloOU5OYXA5dUhINTdxQ0VrVjV2LVJYNWV1TWdUeGpVZDVIRHFjaGZZanlsVDgxNE83TTI0YUFobU",
       "date": "26-05-2026 06:09 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT Statistics (May 2026) \u2013 Active Users & Growth Data - DemandSage",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE5oQnNFcmEwdmlzWnZ0SzRsYUktQjhUYkNWRjFONUU3Vy1Rd1lWNU0tQlhtMDhRSE1rSUVfUlRUa0o0X1lobEplUFBPMU9COWw2OHVFbWZiVUU0dw?oc=5\" target=\"_blank\">ChatG",
-      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -259,6 +251,14 @@
       "date": "18-03-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 Copilot Wave 3 announced: New agentic features for Word, Excel, and Outlook - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTWg1dkkybzd3THVaZlBMdDcyNXFKZXNWS0J0aWJ0RmVMOGx2ZVNjZmZaM1RwSVgxekdkMmN0NktxQnBid3E4clZmN0RXaEtQUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOTnUzdTJCZUdUM0tsSVFhU05WNUR6R2pqVkgwTW9GbWN6bGZpU2VacXBaVWFmY01USkhWbFRGeVhZdmRVcldubzF3UW9OTjlsZ21LZXlQaV96Q0J4enZKZm1ad1poWVFfYVMxbzMtTW",
+      "date": "09-03-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "An update on our mental health-related work - OpenAI",
@@ -267,20 +267,20 @@
       "date": "27-02-2026 06:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "What is ChatGPT-5.2? \u2014 new features, how to use it, plans, pricing, and more - Tom's Guide",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE44UldveFpHY0tyZ0JrcUxEMk1BUlJTX0lLY0t1OERoOVJsdUw1eV9lS3FyTUE1T25hNldmeTFZQ2VLWFhxRTlRWWVEVDRSdXJHNzJyQXJRdmVEbFk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE44UldveFpHY0tyZ0JrcUxEMk1BUlJTX0lLY0t1OERoOVJsdUw1eV9lS3FyTUE1T25hNldmeTFZQ2VLWFhxRTlRWWVEVDRSdXJHNzJyQXJRdmVEbFk?oc=5\" target=\"_blank\">What",
+      "date": "25-02-2026 06:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
       "date": "29-01-2026 06:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Best free office software of 2026 - TechRadar",
-      "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5NWFodlRMWkFZVXYyWXZFN3BXdjJtN2RiS1ptWjZPaXZId1hMY0RnenVnVFVMLXFuRlZ4RDdReVVaeUhCLWhrTkQwNXNtVXZ6QlIzTHFtZmJoUDJNNFBSXw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYEFVX3lxTFA5NWFodlRMWkFZVXYyWXZFN3BXdjJtN2RiS1ptWjZPaXZId1hMY0RnenVnVFVMLXFuRlZ4RDdReVVaeUhCLWhrTkQwNXNtVXZ6QlIzTHFtZmJoUDJNNFBSXw?oc=5\" target=\"_blan",
-      "date": "14-01-2026 06:00 PM"
     }
   ]
 }
