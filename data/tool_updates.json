@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-06-2026 09:02 AM",
+  "last_updated": "01-06-2026 11:40 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "01-06-2026 09:02 AM"
+      "date": "01-06-2026 11:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "01-06-2026 09:02 AM"
+      "date": "01-06-2026 11:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.157",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>\n<li>Added <code>claude plugin init &lt;name&gt;</code> to",
-      "date": "01-06-2026 09:02 AM"
+      "date": "01-06-2026 11:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.156",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>\n</ul>",
-      "date": "01-06-2026 09:02 AM"
+      "date": "01-06-2026 11:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.154",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Opus 4.8 is here! Now defaults to high effort \u00b7 /effort xhigh for your hardest tasks</li>\n<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc",
-      "date": "01-06-2026 09:02 AM"
+      "date": "01-06-2026 11:40 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -155,6 +155,14 @@
       "date": "26-05-2026 06:09 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Sick of Copilot In Office Apps? Microsoft Finally Lets You Move Its Floating Button - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmNQZTcxWEhUNHlVdXozY3czbWtiTS1VS0R2bUlzZ3RWdTRTc1JZaTlISEptX0NWRFBrQjdtWDl1LWpvSE5vT3hhZXZuSnU4bXU2MWlPLTBtOWNweDNGbzdiVk4xbm5USWhDZmRINGRQTExvNl9fMktsX3RxRzcycUdxWWYwOWY3eXp5dTJOUFByTWJBNVNmZU05b0NoUjFzWmFlMQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPRmNQZTcxWEhUNHlVdXozY3czbWtiTS1VS0R2bUlzZ3RWdTRTc1JZaTlISEptX0NWRFBrQjdtWDl1LWpvSE5vT3hhZXZuSnU4bXU2MWlPLTBtOWNweDNGbzdiVk4xbm5USWhDZmRING",
+      "date": "22-05-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
@@ -249,14 +257,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
-      "date": "12-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
