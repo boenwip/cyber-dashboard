@@ -1,22 +1,127 @@
 {
-  "last_updated": "02-06-2026 12:32 AM",
-  "count": 57,
+  "last_updated": "02-06-2026 09:00 AM",
+  "count": 58,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Dragos acquires Phosphorus to widen OT security reach",
-      "link": "https://securitybrief.com.au/story/dragos-acquires-phosphorus-to-widen-ot-security-reach",
-      "summary": "Critical infrastructure operators could gain broader visibility as Dragos adds Phosphorus tools for managing exposed connected devices across OT networks.",
-      "date": "01-06-2026 08:46 PM",
+      "title": "Secure Code Warrior launches AI governance learning",
+      "link": "https://securitybrief.com.au/story/secure-code-warrior-launches-ai-governance-learning",
+      "summary": "Companies can now tie AI code-use risks to developer training, with Secure Code Warrior aiming to prove compliance at commit level.",
+      "date": "02-06-2026 08:46 AM",
+      "tags": [
+        "Education",
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic to Open Mythos AI to EU's ENISA",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa",
+      "summary": "The European security agency's entry to Project Glasswing is the result of \"strong bilateral cooperation\" between the European Commission and Anthropic.",
+      "date": "02-06-2026 07:07 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Windows 11 sandbox flaw lets attackers escape with one click",
+      "link": "https://securitybrief.com.au/story/windows-11-sandbox-flaw-lets-attackers-escape-with-one-click",
+      "summary": "Microsoft patched a CVE-2025-59199 flaw in October after researchers showed a single click could let low-integrity code escape Windows 11's sandbox.",
+      "date": "02-06-2026 07:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
+      "link": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
+      "summary": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
+      "date": "02-06-2026 04:52 AM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "WordPress malware campaign hides payloads in Steam profiles - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1o1LTFSdDUwcUd0OWRhVFRvaXhZS29DT1p1dWZMeWxCUEk4ODVyNTlsUzRFT0VkMDFpRW1EQy1NZ2p0MkJmMkdkTnM3NTg3MnppZXdiREZZXzVaZUhzZmRuYkp2TmRaY0FOWER4UEZkc3RVbjZHTHdfelQ3OUo1M3U4ek1NazdxUUZmVUt5TzRJYkh4Wkl1TExYbXJiUHMxUWlHS09zcWhtb03SAbABQVVfeXFMT3hjZWFnUUhJb0lyN0tJbnlQZk5jVVk5dmQ4ZE9nd2dUcWdEdDVHQjhsZ2lEaHVlSmxPQ29VdXVoZGpmRG1aaFliR05yeGp4T0VLN0M5SnpvSEZSYUE0Nzh5NnkzSUZiSFY3dWFlZGQyeVZTdk01UW95ZkRDdklkc2RhaEJFMnEtUjFYNHlmN0xvcTU1WWlDVHg0WWRQQnlHQUdtRnFkV2c5Vk9pbDVvcjc?oc=5",
+      "summary": "WordPress malware campaign hides payloads in Steam profiles BleepingComputer",
+      "date": "02-06-2026 03:04 AM",
+      "tags": [
+        "AU Cyber"
       ],
-      "relevance": "AU General"
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Hackers Simply Asked Meta AI to Give Them Access to High-Profile Instagram Accounts. It Worked",
+      "link": "https://www.404media.co/hackers-simply-asked-meta-ai-to-give-them-access-to-high-profile-instagram-accounts-it-worked/",
+      "summary": "The exploit shows the extreme risk of offloading technical support to AI.",
+      "date": "02-06-2026 03:03 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ctera names Tal Sarfaty cyberstorage security chief",
+      "link": "https://securitybrief.com.au/story/ctera-names-tal-sarfaty-cyberstorage-security-chief",
+      "summary": "The hire underscores CTERA's push into a fast-growing segment as ransomware drives demand for stronger protection of live storage data.",
+      "date": "02-06-2026 01:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Telus Digital flags AI model safety gaps in benchmark",
+      "link": "https://securitybrief.com.au/story/telus-digital-flags-ai-model-safety-gaps-in-benchmark",
+      "summary": "Enterprises face uneven safeguards as TELUS Digital found no generative AI model was fully immune to attack in 620,000 tests.",
+      "date": "02-06-2026 01:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
+      "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
+      "summary": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
+      "date": "02-06-2026 12:35 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Troy Hunt Blog",
@@ -31,34 +136,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DevOps platform vulnerabilities rise in 2025 report",
-      "link": "https://securitybrief.com.au/story/devops-platform-vulnerabilities-rise-in-2025-report",
-      "summary": "More than half of patched flaws in major DevOps tools were high or critical in 2025, putting software supply chains at greater risk.",
-      "date": "01-06-2026 05:45 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ManageEngine launches ITCON Australia & New Zealand 2026",
-      "link": "https://securitybrief.com.au/story/manageengine-launches-itcon-australia-new-zealand-2026",
-      "summary": "Attendance will be free as ITCON 2026 seeks to help firms tackle rising complexity, security gaps and brittle systems.",
-      "date": "01-06-2026 03:45 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -461,19 +538,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "An Incomplete List of Successful Anti-Data Center Legislation",
-      "link": "https://www.404media.co/an-incomplete-list-of-successful-anti-data-center-legislation/",
-      "summary": "No one wants to live next to a noisy computer warehouse and communities across the country are successfully fighting them.",
-      "date": "25-05-2026 11:00 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 3 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPejhyck5nZFRkbGozcl9GSjhJbGtvV2x5OEdEX0E3TjR3VlpDczRNYTcyXzlRalpkTXNxOEZxejNmX3BKT2o4MmdtV1ZJejk5SEFDa3gzSGM1VW55VW5wYi1UcUtsTjIyc0NhNTlxTTVZQ3B6ZlZoWWh0T19mX3BybXY1Zzl5VnE4cF9lbEZCVHlCakVFUVJ5QXJIOEVrbDB1aTFaREVWRjZBa2VMQk83NFF4M0VvT0k0S0pENFpuaXhZb3RnYmpGSlY5ZlMwOXRka3h6d0F1c0NublN5Y0NqODVjUTJ0V044eEduZzA2c0huLWhMdVZYSjVxeUFDcUstUE8zeE9WZFJ1RGctS1FlVlpCWVExajJFbzBTSVd3?oc=5",
@@ -749,58 +813,6 @@
         "AU Cyber"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Is 2026 the Year AI Bills of Materials Get Real?",
-      "link": "https://www.darkreading.com/cyber-risk/is-2026-year-ai-bills-of-materials-get-real",
-      "summary": "Understanding AI BOMs and where they fit into risk management for artificial intelligence.",
-      "date": "19-05-2026 07:44 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft Exchange Zero-Day Under Attack, No Patch Available",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-exchange-zero-day-no-patch",
-      "summary": "CVE-2026-42897 stems from a cross-site scripting (XSS) vulnerability and can allow an attacker to compromise Outlook Web Access (OWA) mailboxes.",
-      "date": "19-05-2026 07:43 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Claw Chain' Vulnerabilities Threaten OpenClaw Deployments",
-      "link": "https://www.darkreading.com/application-security/claw-chain-vulnerabilities-threaten-openclaw",
-      "summary": "The now-patched vulnerabilities in the rapidly growing AI agent framework allow attackers to steal credentials, escalate privileges, and maintain persistence.",
-      "date": "19-05-2026 07:24 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Fuel Tank Breaches Expand Scope of Iran's Cyber Offensive",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fuel-tank-breaches-expand-scope-irans-cyber-offensive",
-      "summary": "Security experts have long warned that insecure automatic tank gauge (ATG) systems exposed on the Internet can be tampered with by threat actors.",
-      "date": "19-05-2026 01:41 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     }
