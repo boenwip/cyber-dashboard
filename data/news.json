@@ -1,7 +1,49 @@
 {
-  "last_updated": "01-06-2026 12:49 PM",
-  "count": 61,
+  "last_updated": "01-06-2026 06:27 PM",
+  "count": 60,
   "items": [
+    {
+      "source": "Troy Hunt Blog",
+      "title": "1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever",
+      "link": "https://www.troyhunt.com/1000-data-breaches-later-the-disclosure-lag-is-worse-than-ever/",
+      "summary": "Today, I loaded the 1,000th data breach into Have I Been Pwned. Reflecting on that milestone number, I pondered how to mark the occasion in writing, and what immediately came to mind was a very simple question: why is it still needed? Especially considering the emergence of privacy regulations",
+      "date": "01-06-2026 06:22 PM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "DevOps platform vulnerabilities rise in 2025 report",
+      "link": "https://securitybrief.com.au/story/devops-platform-vulnerabilities-rise-in-2025-report",
+      "summary": "More than half of patched flaws in major DevOps tools were high or critical in 2025, putting software supply chains at greater risk.",
+      "date": "01-06-2026 05:45 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ManageEngine launches ITCON Australia & New Zealand 2026",
+      "link": "https://securitybrief.com.au/story/manageengine-launches-itcon-australia-new-zealand-2026",
+      "summary": "Attendance will be free as ITCON 2026 seeks to help firms tackle rising complexity, security gaps and brittle systems.",
+      "date": "01-06-2026 03:45 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Sinch named Gartner leader in CPaaS for fourth year",
@@ -45,35 +87,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Australia's sovereign AI adoption stays governance-led",
-      "link": "https://securitybrief.com.au/story/australia-s-sovereign-ai-adoption-stays-governance-led",
-      "summary": "Security, privacy and skills shortages are slowing Australian agencies, even as most weigh sovereign AI for defence and public health.",
-      "date": "01-06-2026 09:40 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Plaud launches Team in Australia for workplace notes",
-      "link": "https://securitybrief.com.au/story/plaud-launches-team-in-australia-for-workplace-notes",
-      "summary": "Businesses could lose meeting context unless they adopt Plaud Team, which adds shared note management, billing and controls in Australia.",
-      "date": "01-06-2026 09:40 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 5 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSjhMSTdZOTRDVjI0SFp4OTZDOXZyMjZ3WWtsRHVPWVFrMmUzNjhBM3FXaFpEc2JlOUVYempUOHRPM0V6R2g1aUVnb1B5eEdTMll3RHdsRnNVeWU3VmUtRGNncGx2Wm9rbUcxNHdJZEdDR2syRVBfZUd6QmpKakRQSllLMFZUSVJMVXUzOUFoVmJnLVVFMlJuNWJvOHFPcVBjcVZ3MEVJWld1b2VncVlhc2kzU2dhYXluTjZ6V3FPWFgtMWxlc2tPNXVCd0lYbE9JS0RlZg?oc=5",
@@ -101,21 +114,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "GuidePoint launches supply chain detection & response",
-      "link": "https://securitybrief.com.au/story/guidepoint-launches-supply-chain-detection-response",
-      "summary": "Security teams can now fold supplier risk alerts into incident response as GuidePoint's new service targets breaches from third-party tools.",
-      "date": "30-05-2026 01:30 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
       "relevance": "Global"
     },
     {
@@ -198,21 +196,6 @@
       "date": "29-05-2026 09:52 AM",
       "tags": [
         "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0xTVlJZLWphV2JUVzNudXJ2dzhJczdrRWE5eHFMVVBtNjJNa0FxOENwdHZkcGFaUzhTQkh3LTBMMkFndURfU3VPTzlPX0F4SVhUSU5QMG9YWU9YZ1FmMVIxdldmVEg1SGp0T1N6V3hycHhUSWVTVXY1bDkyTzRjLWVHUXkwZkpxYTJaalZweXlYWFNpUFBfMXlXUU5OWnFVc19FOEFUOTVVdkgzN0RWbNIBtgFBVV95cUxPazlRR1NwZUdxNVVFRGxmN2dFRGR3VDRlN2pTVEFMOGRXaGZtMEJsSDY0NWlrenVIQkJ2R0tXckJXOXI5R1dUTWJZMHNaa0tRZUFUbGE0UU1Fa096U3dSajI1MDVrdkdYeVc1eWViS0xYbkozTUREaTFjSVVPZ2xLZlFxOHl6TmxiQ2ItTm9ncHhWQm5UbV9wb2dQSklHVEkzYjAzQ01IWVBJQlNrWXAxemx5SzFlUQ?oc=5",
-      "summary": "FBI warns of fake FIFA websites running World Cup fraud schemes BleepingComputer",
-      "date": "29-05-2026 05:08 AM",
-      "tags": [
         "Scams"
       ],
       "threat": "Advisory",
