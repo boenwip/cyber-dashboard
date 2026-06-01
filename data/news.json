@@ -1,7 +1,23 @@
 {
-  "last_updated": "01-06-2026 06:27 PM",
-  "count": 60,
+  "last_updated": "02-06-2026 12:32 AM",
+  "count": 57,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Dragos acquires Phosphorus to widen OT security reach",
+      "link": "https://securitybrief.com.au/story/dragos-acquires-phosphorus-to-widen-ot-security-reach",
+      "summary": "Critical infrastructure operators could gain broader visibility as Dragos adds Phosphorus tools for managing exposed connected devices across OT networks.",
+      "date": "01-06-2026 08:46 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Troy Hunt Blog",
       "title": "1,000 Data Breaches Later, the Disclosure Lag is Worse Than Ever",
@@ -37,48 +53,6 @@
       "link": "https://securitybrief.com.au/story/manageengine-launches-itcon-australia-new-zealand-2026",
       "summary": "Attendance will be free as ITCON 2026 seeks to help firms tackle rising complexity, security gaps and brittle systems.",
       "date": "01-06-2026 03:45 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Sinch named Gartner leader in CPaaS for fourth year",
-      "link": "https://securitybrief.com.au/story/sinch-named-gartner-leader-in-cpaas-for-fourth-year",
-      "summary": "Enterprises are putting greater weight on fraud controls and identity checks as AI-driven customer messaging becomes central to CPaaS buying decisions.",
-      "date": "01-06-2026 11:18 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Reolink launches triple-lens security cameras in Australia",
-      "link": "https://securitybrief.com.au/story/reolink-launches-triple-lens-security-cameras-in-australia",
-      "summary": "Homeowners can now buy Reolink's new triple-lens cameras in Australia, with the first OMVI model priced from AUD $429.99 and subscription-free storage.",
-      "date": "01-06-2026 09:42 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Fastly appoints Peter Scott as ANZ Channel Manager",
-      "link": "https://securitybrief.com.au/story/fastly-appoints-peter-scott-as-anz-channel-manager",
-      "summary": "The hire signals a sharper push into partner-led sales across Australia and New Zealand, as Fastly seeks specialised local reach.",
-      "date": "01-06-2026 09:41 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -163,7 +137,7 @@
       "source": "Dark Reading",
       "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
       "link": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
-      "summary": "Your organization's security failures have consequences for everyone else too, since this neo-Nazi-infested criminal gang uses its cyber winnings to support more violent and widespread crimes.",
+      "summary": "Your organization's security failures have consequences for everyone else as well since this criminal gang uses its cyber winnings to support more violent and widespread crimes.",
       "date": "29-05-2026 10:00 PM",
       "tags": [
         "AU Cyber"
@@ -232,6 +206,19 @@
       "audience": [
         "Enterprise"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV1lmdERzd0wwaDYtbHl1ZzZob3BpeW9NY0ItRjdvMWYwdGFWb2FFSzFhLVFoSHhtb3ROMlBzUEZ2RGo2dTVoaVFYRWpOdE9MSFctVmVQSXJmUlVhc25ZdGV1a0xyRTRwcXF5UnNta3BQVHRUUzk0R2V2TnZLNDB0NnFRY0NXVUYtRXZTZTJNam1BUWxoUWxMUUFxbllXSk5ZSDJVbUtSbVVyR2NNMVpZbGlZeU5idmprbXfSAb8BQVVfeXFMTk44MDZrZDhjYURGMjFWbG9SaHVaNV9YRms1bDJrOVNabTRpa3ZJYkE0Rkl1cENsamNXQW5hNG1MMUN6STNXRkNMWjFkRWtuVktyRFZkMEFNWXRWanQ2N1d6amhhTHRKUUQ2aC1CSi1HbkpZVTFvT1lDbm9OaGNjWmRVa1NZNTJ6VlFsWWtsenBVLURJR1pJWjVCVmhsYjJCeFhPSTdMNWhjZkVxM3VxNVpfZURrWlA2S2NmUnVELXM?oc=5",
+      "summary": "Carnival Cruise confirms data breach affecting nearly 6 million people BleepingComputer",
+      "date": "28-05-2026 08:49 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -814,32 +801,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "The Boring Stuff Is Dangerous Now",
-      "link": "https://www.darkreading.com/cyber-risk/ai-code-and-agents-forces-defenders-adapt",
-      "summary": "AI agents capable of discovering and exploiting obscure vulnerabilities are emerging alongside developers producing vast amounts of potentially flawed AI-generated code, forcing defenders to adapt accordingly.",
-      "date": "18-05-2026 11:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Boulevard of Broken Dreams: 2 Decades of Cyber Fails",
-      "link": "https://www.darkreading.com/cyber-risk/broken-dreams-2-decades-cyber-fails",
-      "summary": "From the MGM and Caesars fiasco and MOVEit's patch nightmare to epic business blunders and the jaded reality of living in a post-breach world, Dark Reading looks back at the mistakes, miscalculations, systemic failures, and cringeworthy moments that still have us shaking our heads.",
-      "date": "18-05-2026 10:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     }

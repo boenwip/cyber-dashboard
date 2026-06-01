@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-06-2026 06:27 PM",
+  "last_updated": "02-06-2026 12:32 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "01-06-2026 06:27 PM"
+      "date": "02-06-2026 12:32 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "01-06-2026 06:27 PM"
+      "date": "02-06-2026 12:32 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.157",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>\n<li>Added <code>claude plugin init &lt;name&gt;</code> to",
-      "date": "01-06-2026 06:27 PM"
+      "date": "02-06-2026 12:32 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.156",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.156",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed an issue when using Opus 4.8 where thinking blocks were modified, leading to API errors.</li>\n</ul>",
-      "date": "01-06-2026 06:27 PM"
+      "date": "02-06-2026 12:32 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.154",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.154",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Opus 4.8 is here! Now defaults to high effort \u00b7 /effort xhigh for your hardest tasks</li>\n<li>Introducing dynamic workflows: ask Claude to create a workflow and it orc",
-      "date": "01-06-2026 06:27 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Launches Claude Opus 4.8 With Upgrades for Coding, Agents and Knowledge Work - entARABI",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWkpwaHdxaklLdVFubUdoMmNUdmNWTk5EZ1N1MEVXamo3TlBYV3VhY3ZnY2RwNngzZzdWODVWNWRNd21tbUc2eGZXd1pIblFkUmhEUTN2MVJDcVROV1BBTDUtd085TEVNczZsUk90d1JSMVBjNkVuemRfZWxDLWRyYi1WS3hGdkJfSVowSkxwTGo5NDJONVBtd24xcjhKTG9hZUhITHFLT3ZhT1lBLWF4WmF6T1FZOVNJV1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNWkpwaHdxaklLdVFubUdoMmNUdmNWTk5EZ1N1MEVXamo3TlBYV3VhY3ZnY2RwNngzZzdWODVWNWRNd21tbUc2eGZXd1pIblFkUmhEUTN2MVJDcVROV1BBTDUtd085TEVNczZsUk90d1",
-      "date": "31-05-2026 11:05 PM"
+      "date": "02-06-2026 12:32 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,6 +107,14 @@
       "date": "29-05-2026 07:43 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Opus 4.8: Anthropic makes a more 'honest' AI - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5\" target=\"_bl",
+      "date": "29-05-2026 05:57 AM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -145,6 +145,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "27-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
+      "date": "20-05-2026 06:19 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -224,14 +232,6 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
     },
     {
