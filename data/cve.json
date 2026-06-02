@@ -1,7 +1,29 @@
 {
-  "last_updated": "02-06-2026 09:48 PM",
+  "last_updated": "03-06-2026 09:00 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2022-0492",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2025-48595",
+      "description": "Android Framework \u2014 Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
+      "vendor": "Android",
+      "product": "Framework",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2024-21182",
       "description": "Oracle WebLogic Server \u2014 Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vul",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
       "vendor": "Langflow",
       "product": "Langflow",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-34926",
-      "description": "Trend Micro Apex One \u2014 Trend Micro Apex One (on-premise) contains a directory traversal vulnerability that could allow a pre-authenticated local attacker to modify a key table on the server to inject malicious code to deplo",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-21",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34926",
-      "vendor": "Trend Micro",
-      "product": "Apex One",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2008-4250",
-      "description": "Microsoft Windows \u2014 Microsoft Windows contains a buffer overflow vulnerability in the Windows Server Service that allows remote attackers to execute arbitrary code via a crafted RPC request that triggers an overflow duri",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2008-4250",
-      "vendor": "Microsoft",
-      "product": "Windows",
       "ransomware": "Unknown"
     }
   ]

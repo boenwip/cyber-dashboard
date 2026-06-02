@@ -1,57 +1,99 @@
 {
-  "last_updated": "02-06-2026 09:48 PM",
-  "count": 55,
+  "last_updated": "03-06-2026 09:00 AM",
+  "count": 52,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Amazon adds OpenAI models to Bedrock for AWS users",
-      "link": "https://securitybrief.com.au/story/amazon-adds-openai-models-to-bedrock-for-aws-users",
-      "summary": "AWS customers can now run OpenAI's latest models in production without leaving Bedrock, with pricing and governance folded into existing commitments.",
-      "date": "02-06-2026 05:45 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "GoTo adds new AI tools to LogMeIn Resolve & Rescue platforms",
-      "link": "https://securitybrief.com.au/story/goto-adds-new-ai-tools-to-logmein-resolve-rescue-platforms",
-      "summary": "IT support teams will get faster troubleshooting as GoTo embeds agentic AI, live device data and tighter Nexthink links into LogMeIn products.",
-      "date": "02-06-2026 05:15 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Orca Opti launches free AI governance tool for Australia",
-      "link": "https://securitybrief.com.au/story/orca-opti-launches-free-ai-governance-tool-for-australia",
-      "summary": "Regulated employers can now test their AI controls in minutes, as the Brisbane firm targets stricter data rules and workplace leak risks.",
-      "date": "02-06-2026 02:44 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Commvault urges four-step resilience against AI threats",
-      "link": "https://securitybrief.com.au/story/commvault-urges-four-step-resilience-against-ai-threats",
-      "summary": "AI-driven vulnerability discovery is leaving companies less time to patch, prompting new focus on clean recovery, air-gapped backups and testing.",
-      "date": "02-06-2026 01:07 PM",
+      "title": "Diligent launches cyber risk tool for board oversight",
+      "link": "https://securitybrief.com.au/story/diligent-launches-cyber-risk-tool-for-board-oversight",
+      "summary": "Boards will get clearer visibility of cyber threats as the new software ties vulnerability data to strategic priorities and business impact.",
+      "date": "03-06-2026 08:30 AM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
+      "link": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
+      "summary": "Once targeting just Microsoft 365, the phishing-as-a-service platform now aims at AWS, Okta, and Russian platforms, while relying on device code phishing.",
+      "date": "03-06-2026 07:32 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks",
+      "summary": "A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.",
+      "date": "03-06-2026 06:11 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
+      "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
+      "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
+      "date": "03-06-2026 05:50 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "HackerOne launches AI platform to close security gap",
+      "link": "https://securitybrief.com.au/story/hackerone-launches-ai-platform-to-close-security-gap",
+      "summary": "Rising vulnerability volumes are outpacing fix times, prompting HackerOne to roll out an AI system that feeds confirmed threats into developer tools.",
+      "date": "03-06-2026 01:03 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Nvidia and Microsoft Researchers Say AI Agents Don't Care About Safety or Reliability",
+      "link": "https://www.404media.co/nvidia-and-microsoft-researchers-say-ai-agents-dont-care-about-safety-or-reliability/",
+      "summary": "The researchers compared AI to the near-sighted cartoon character Mr. Magoo, who can\u2019t see he\u2019s stumbling through dangerous situations.",
+      "date": "03-06-2026 01:03 AM",
+      "tags": [
+        "RTO / VET"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Direct"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Assured Data Protection names Gonzalez to wider role",
+      "link": "https://securitybrief.com.au/story/assured-data-protection-names-gonzalez-to-wider-role",
+      "summary": "The restructure aims to speed Assured's global expansion by aligning product, alliances and marketing around rising demand for cyber resilience.",
+      "date": "02-06-2026 10:25 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -351,21 +393,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "Podcast: How Deepfakes Destroyed a High School",
-      "link": "https://www.404media.co/podcast-how-deepfakes-destroyed-a-high-school/",
-      "summary": "How deepfakes rocked a high school; BusPatrol giving AI camera data to cops; and a big time crash out.",
-      "date": "27-05-2026 11:02 PM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "High",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Sector"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #839 -- TeamPCP stole GitHub's internal repos",
       "link": "https://risky.biz/RB839/",
@@ -465,35 +492,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "Millions of People Are Installing Malware on Their Partners\u2019 Phones (with Zack Whittaker)",
-      "link": "https://www.404media.co/millions-of-people-are-installing-malware-on-their-partners-phones-with-zack-whittaker/",
-      "summary": "Joseph talks to Zack Whittaker all about stalkerware, the pervasive malware that ordinary people install on their partners' phones.",
-      "date": "27-05-2026 01:41 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "\u2018BusPatrol\u2019 Put AI Cameras in Tens of Thousands of School Buses. Now They Want to Give Cops Access",
-      "link": "https://www.404media.co/buspatrol-put-ai-cameras-in-tens-of-thousands-of-school-buses-now-they-want-to-give-cops-access/",
-      "summary": "BusPatrol plans to scan the license plates of all vehicles the buses drive past, and then let law enforcement search that data. The plan would essentially turn school buses into roaming surveillance vehicles.",
-      "date": "26-05-2026 11:49 PM",
-      "tags": [
-        "Education",
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Sector"
     },
     {
       "source": "Troy Hunt Blog",
@@ -729,47 +727,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Verizon DBIR: Enterprises Face a Dangerous Vulnerability Glut",
-      "link": "https://www.darkreading.com/threat-intelligence/verizon-dbir-enterprises-vulnerability-glut",
-      "summary": "Verizon's 2026 Data Breach Investigations Report (DBIR) finds that exploits are now involved in 31% of initial access for breaches, while patching lags too far behind the bad guys.",
-      "date": "20-05-2026 07:55 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Windows Zero-Day Barrage Continues After Patch Tuesday",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/windows-zero-day-barrage-continues-after-patch-tuesday",
-      "summary": "YellowKey, GreenPlasma, and MiniPlasma add to the growing list of vulnerabilities a security researcher disclosed over the past six weeks.",
-      "date": "20-05-2026 07:06 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Stealer Spoofs Google, Microsoft &amp; Apple, Then Backdoors macOS",
-      "link": "https://www.darkreading.com/threat-intelligence/stealer-spoofs-google-microsoft-apple-backdoors-macos",
-      "summary": "The SHub Reaper stealer, which hides behind fake WeChat and Miro installers, marks a shift from ClickFix social engineering to Apple script-based execution.",
-      "date": "20-05-2026 05:49 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
