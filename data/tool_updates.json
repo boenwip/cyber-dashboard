@@ -1,5 +1,5 @@
 {
-  "last_updated": "03-06-2026 06:10 PM",
+  "last_updated": "03-06-2026 10:53 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "03-06-2026 06:10 PM"
+      "date": "03-06-2026 10:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "03-06-2026 06:10 PM"
+      "date": "03-06-2026 10:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "03-06-2026 06:10 PM"
+      "date": "03-06-2026 10:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "03-06-2026 06:10 PM"
+      "date": "03-06-2026 10:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.157",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Plugins in <code>.claude/skills</code> directories are now automatically loaded, no marketplace required</li>\n<li>Added <code>claude plugin init &lt;name&gt;</code> to",
-      "date": "03-06-2026 06:10 PM"
+      "date": "03-06-2026 10:53 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -237,10 +237,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
-      "date": "05-05-2026 05:00 PM"
+      "title": "OpenAI launches new voice intelligence features in its API - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEVKNVBfWjRiOU9oWWM0Zkh4elFUbWtaMVd6RDVFeXVpTVU0TVZvTzVxbVVaMTdVWW9CejVZcklRTGFZWkhGRG1MS1NQb1V5VEF0MGxnbE9VZzVqZ0tBa2MzYjluZWpOME5wT0VBQzBFbFV4UDBfbDVlQ2tXeDZnUG5IMzdsODNXZ2NHa3I2VndTRk5XZUxXYg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOWEVKNVBfWjRiOU9oWWM0Zkh4elFUbWtaMVd6RDVFeXVpTVU0TVZvTzVxbVVaMTdVWW9CejVZcklRTGFZWkhGRG1MS1NQb1V5VEF0MGxnbE9VZzVqZ0tBa2MzYjluZWpOME5wT0VBQz",
+      "date": "07-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",

@@ -1,7 +1,47 @@
 {
-  "last_updated": "03-06-2026 06:10 PM",
-  "count": 52,
+  "last_updated": "03-06-2026 10:53 PM",
+  "count": 55,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Malicious Notifications Could Trick Google Gemini Users",
+      "link": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
+      "summary": "A prompt injection flaw in Google Gemini's voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.",
+      "date": "03-06-2026 10:01 PM",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Global Stock Exchange Hit by Monthslong Email Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/global-stock-exchange-hit-monthslong-email-campaign",
+      "summary": "A threat actor got a near-continuous view into an influential finance executive's email inbox, thanks to clever use of legitimate, native Windows tools.",
+      "date": "03-06-2026 08:01 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sonatype flags 176 npm packages in dependency attack",
+      "link": "https://securitybrief.com.au/story/sonatype-flags-176-npm-packages-in-dependency-attack",
+      "summary": "Developers using npm could have secrets exposed as 176 malicious packages were set up to hijack dependency resolution and run postinstall malware.",
+      "date": "03-06-2026 07:57 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Cohesity wins US patent for Gaia backup AI approach",
@@ -70,21 +110,6 @@
       ],
       "threat": "Medium",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Snowflake renames AI tools amid broader platform push",
-      "link": "https://securitybrief.com.au/story/snowflake-renames-ai-tools-amid-broader-platform-push",
-      "summary": "Customers will get tighter controls and new streaming and interoperability features as Snowflake expands its platform around enterprise data.",
-      "date": "03-06-2026 12:00 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
       "relevance": "Global"
     },
     {
@@ -381,6 +406,19 @@
       "audience": [
         "Enterprise"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "Carnival Cruise confirms data breach affecting nearly 6 million people - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNV1lmdERzd0wwaDYtbHl1ZzZob3BpeW9NY0ItRjdvMWYwdGFWb2FFSzFhLVFoSHhtb3ROMlBzUEZ2RGo2dTVoaVFYRWpOdE9MSFctVmVQSXJmUlVhc25ZdGV1a0xyRTRwcXF5UnNta3BQVHRUUzk0R2V2TnZLNDB0NnFRY0NXVUYtRXZTZTJNam1BUWxoUWxMUUFxbllXSk5ZSDJVbUtSbVVyR2NNMVpZbGlZeU5idmprbXfSAb8BQVVfeXFMTk44MDZrZDhjYURGMjFWbG9SaHVaNV9YRms1bDJrOVNabTRpa3ZJYkE0Rkl1cENsamNXQW5hNG1MMUN6STNXRkNMWjFkRWtuVktyRFZkMEFNWXRWanQ2N1d6amhhTHRKUUQ2aC1CSi1HbkpZVTFvT1lDbm9OaGNjWmRVa1NZNTJ6VlFsWWtsenBVLURJR1pJWjVCVmhsYjJCeFhPSTdMNWhjZkVxM3VxNVpfZURrWlA2S2NmUnVELXM?oc=5",
+      "summary": "Carnival Cruise confirms data breach affecting nearly 6 million people BleepingComputer",
+      "date": "28-05-2026 08:49 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
