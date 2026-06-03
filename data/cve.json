@@ -1,7 +1,18 @@
 {
-  "last_updated": "03-06-2026 10:53 PM",
+  "last_updated": "04-06-2026 09:04 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-45247",
+      "description": "Mirasvit Mirasvit Full Page Cache Warmer \u2014 Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-03",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45247",
+      "vendor": "Mirasvit",
+      "product": "Mirasvit Full Page Cache Warmer",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2022-0492",
       "description": "Linux Kernel \u2014 Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-9082",
       "vendor": "Drupal",
       "product": "Core",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-34291",
-      "description": "Langflow Langflow \u2014 Langflow contains an origin validation error vulnerability in which an overly permissive CORS configuration combined with a refresh token cookie configured as SameSite=None allows a malicious webpage ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-21",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-34291",
-      "vendor": "Langflow",
-      "product": "Langflow",
       "ransomware": "Unknown"
     }
   ]

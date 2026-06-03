@@ -1,7 +1,107 @@
 {
-  "last_updated": "03-06-2026 10:53 PM",
-  "count": 55,
+  "last_updated": "04-06-2026 09:04 AM",
+  "count": 53,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium & Censys join forces on exposure management",
+      "link": "https://securitybrief.com.au/story/tanium-censys-join-forces-on-exposure-management",
+      "summary": "Security teams could gain a single view of internal and internet-facing risk, helping them prioritise fixes before exposed assets are exploited.",
+      "date": "04-06-2026 09:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Most under-16s still using social media despite ban",
+      "link": "https://securitybrief.com.au/story/most-under-16s-still-using-social-media-despite-ban",
+      "summary": "Parents are bearing most of the burden, as 78% of under-16s in Australia are still accessing social media covered by the ban.",
+      "date": "04-06-2026 08:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Use AI to Automate EDR Evasion Testing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing",
+      "summary": "Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.",
+      "date": "04-06-2026 07:34 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Cyber Insurance Rates Are Dropping, but Exclusions Widen",
+      "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen",
+      "summary": "Cyber insurance coverage is slowly changing, and some policies may not provide coverage for social engineering attacks like ClickFix.",
+      "date": "04-06-2026 05:10 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Snowflake expands Claude use as demand for governed AI grows",
+      "link": "https://securitybrief.com.au/story/snowflake-expands-claude-use-as-demand-for-governed-ai-grows",
+      "summary": "Enterprises are turning to governed AI tools as Snowflake and Anthropic expand Claude access across Cortex AI for sensitive data workflows.",
+      "date": "04-06-2026 04:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ebankIT partners Daon on continuous identity checks",
+      "link": "https://securitybrief.com.au/story/ebankit-partners-daon-on-continuous-identity-checks",
+      "summary": "Banks using ebankIT can now trigger extra checks when fraud risk rises, after AI-driven impersonation exposed gaps in one-off onboarding checks.",
+      "date": "04-06-2026 02:00 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
+      "link": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
+      "summary": "Peptide companies have been doing AI-engine optimization by spamming the biohackers subreddit to manipulate ChatGPT and Google.",
+      "date": "04-06-2026 12:29 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Dark Reading",
       "title": "Malicious Notifications Could Trick Google Gemini Users",
@@ -30,32 +130,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Sonatype flags 176 npm packages in dependency attack",
-      "link": "https://securitybrief.com.au/story/sonatype-flags-176-npm-packages-in-dependency-attack",
-      "summary": "Developers using npm could have secrets exposed as 176 malicious packages were set up to hijack dependency resolution and run postinstall malware.",
-      "date": "03-06-2026 07:57 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cohesity wins US patent for Gaia backup AI approach",
-      "link": "https://securitybrief.com.au/story/cohesity-wins-us-patent-for-gaia-backup-ai-approach",
-      "summary": "It may help regulated customers use archived data for AI without moving sensitive records into separate systems, reducing compliance risk.",
-      "date": "03-06-2026 05:30 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #840 -- Microsoft walks back researcher threats",
       "link": "https://risky.biz/RB840/",
@@ -66,62 +140,6 @@
         "Scams"
       ],
       "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Snowflake & Anthropic expand Claude use for enterprise AI",
-      "link": "https://securitybrief.com.au/story/snowflake-anthropic-expand-claude-use-for-enterprise-ai",
-      "summary": "Demand is rising as businesses seek AI that can work on governed data without moving sensitive information out of Snowflake.",
-      "date": "03-06-2026 01:45 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Global Signal Exchange unveils upgraded fraud platform",
-      "link": "https://securitybrief.com.au/story/global-signal-exchange-unveils-upgraded-fraud-platform",
-      "summary": "Oxford Information Labs says cross-border scam probes could improve as the upgraded platform draws on about 28 million signals across ASEAN.",
-      "date": "03-06-2026 01:30 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Workday launches tools to build AI agents securely",
-      "link": "https://securitybrief.com.au/story/workday-launches-tools-to-build-ai-agents-securely",
-      "summary": "The package aims to cut development time and curb compliance risks as firms deploy AI agents into HR, finance and IT workflows.",
-      "date": "03-06-2026 12:13 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWGlqZm42YkRmdWNUTnUwRkM4WW9xYjZzdmZtZHMwd0xSVVNCbkVaZDBpWG1ScGtudE9CR3BKWVNrYW96dzZ1WjVJMnRFazNVcEJ5UHpFb0x4bnBpdzVpRVIzaDZxekM2eXhvby03cFd2UlJyUE9KSXYxTS1ub1FVVUJ1VGZ5SWpyVUthXzF4NEhSWlppSTgtLTFPeTgzaTgyTGUtNEpaMTVhZUpaTDdaTWlPUklMTzjSAbwBQVVfeXFMT2hKeWNhZDJUcjZnbXIxTzZYcjN3TW1wRFJMcHUwYWUtWXc4SEdWem8tN1V5eHkzbmlacFVrZXowT0N1UEJ4clhfdUNabU9tSlJ0SWNWa21rTHJWYnNNZkdjOWxHaEprZ2NYWVdxTXpiUmQ5elA1VFRNaFpqWnJoTzBhTXUzcElTSy1rcmZQc0xzYnc1WF9BaXhMTzJPYjFQZlhhX1BGdXFFcGJzdTZfV0VYakhfZElPUlhIODI?oc=5",
-      "summary": "Over 116,000 Minecraft systems infected in WeedHack malware campaign BleepingComputer",
-      "date": "03-06-2026 07:54 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -370,6 +388,21 @@
       "date": "29-05-2026 09:52 AM",
       "tags": [
         "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "FBI warns of fake FIFA websites running World Cup fraud schemes - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZ0xTVlJZLWphV2JUVzNudXJ2dzhJczdrRWE5eHFMVVBtNjJNa0FxOENwdHZkcGFaUzhTQkh3LTBMMkFndURfU3VPTzlPX0F4SVhUSU5QMG9YWU9YZ1FmMVIxdldmVEg1SGp0T1N6V3hycHhUSWVTVXY1bDkyTzRjLWVHUXkwZkpxYTJaalZweXlYWFNpUFBfMXlXUU5OWnFVc19FOEFUOTVVdkgzN0RWbNIBtgFBVV95cUxPazlRR1NwZUdxNVVFRGxmN2dFRGR3VDRlN2pTVEFMOGRXaGZtMEJsSDY0NWlrenVIQkJ2R0tXckJXOXI5R1dUTWJZMHNaa0tRZUFUbGE0UU1Fa096U3dSajI1MDVrdkdYeVc1eWViS0xYbkozTUREaTFjSVVPZ2xLZlFxOHl6TmxiQ2ItTm9ncHhWQm5UbV9wb2dQSklHVEkzYjAzQ01IWVBJQlNrWXAxemx5SzFlUQ?oc=5",
+      "summary": "FBI warns of fake FIFA websites running World Cup fraud schemes BleepingComputer",
+      "date": "29-05-2026 05:08 AM",
+      "tags": [
         "Scams"
       ],
       "threat": "Advisory",
@@ -713,61 +746,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "GitHub Confirms Breach, 4K Internal Repos Stolen",
-      "link": "https://www.darkreading.com/application-security/github-confirms-breach-4k-internal-repos-stolen",
-      "summary": "GitHub confirmed a data breach this week involving the theft of thousands of developer code repositories. One threat actor \u2014 TeamPCP \u2014 took credit.",
-      "date": "21-05-2026 06:51 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Fake Android Apps Commit Carrier Billing Fraud for Premium Services",
-      "link": "https://www.darkreading.com/mobile-security/fake-android-apps-carrier-billing-fraud",
-      "summary": "The disguised apps use WebView automation, JavaScript injection, and OTP interception to avoid detection and complete fraudulent subscriptions.",
-      "date": "21-05-2026 06:35 AM",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Processes &amp; Culture Top Reasons Behind Data Breaches",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/processes-and-culture-top-reasons-behind-data-breaches",
-      "summary": "In spite of state laws meant to improve cyber hygiene, an analysis of incidents shows issues persist and visibility falls short.",
-      "date": "21-05-2026 03:42 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Patch Now: Critical Flaw in OT Robot OS Gives Attackers Control",
-      "link": "https://www.darkreading.com/ics-ot-security/patch-now-critical-flaw-ot-robot-os",
-      "summary": "An unauthenticated attacker can exploit the command injection vulnerability to gain remote access to robotic systems, causing significant disruption to the environment.",
-      "date": "21-05-2026 02:12 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
