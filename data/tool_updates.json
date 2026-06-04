@@ -1,14 +1,22 @@
 {
-  "last_updated": "04-06-2026 08:46 PM",
+  "last_updated": "05-06-2026 08:18 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.163",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
+      "date": "05-06-2026 08:18 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "04-06-2026 08:46 PM"
+      "date": "05-06-2026 08:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "04-06-2026 08:46 PM"
+      "date": "05-06-2026 08:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "04-06-2026 08:46 PM"
+      "date": "05-06-2026 08:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,23 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "04-06-2026 08:46 PM"
+      "date": "05-06-2026 08:18 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.158",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "04-06-2026 08:46 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_02087761502.html",
+      "summary": "<p>The Dev channel has been updated to 151.0.7872.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0.7",
+      "date": "05-06-2026 02:28 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 151 (151.0.7872.3) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "05-06-2026 01:58 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -75,22 +91,6 @@
       "date": "04-06-2026 02:43 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Updates for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/extended-stable-updates-for-desktop.html",
-      "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 148.0.7778.254</span><span color=\"rgba(0, 0, 0, 0",
-      "date": "04-06-2026 02:20 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-android-update_01919683854.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.3) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You",
-      "date": "04-06-2026 02:13 AM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
@@ -105,14 +105,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
       "date": "03-06-2026 03:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "PSA: Microsoft Office 2019 for Mac Will Soon Block You From Editing Your Documents - MacTrast",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdThWNnRMdHBDRkNORW5UaV90THhnY2hQckZMejVMZlkwQldoeXpTMEtlY3dBUmxMa3dNZVJVNm9lLXJCRTIteWJVVTc5N05HRkVRUnRERC16T1VwQ3NBVU5PU055TzBVSEZyQXVic2F1cnlkZlZHYmVyb1ZIZ0tuYzl1bk5SS09aYW5Yblh3UmtuZXpua1ptX2gxeXNvbXIzZFhCUjY4LXl5MEtmaUQzaHB6bXRBalpVOEU00gG7AUFVX3lxTE51OFY2dEx0cENGQ05FblRpX3RMeGdjaFByRkx6NUxmWTBCV2h5elMwS2Vjd0FSbExrd01lUlU2b2UtckJFMi15YlVVNzk3TkdGRVFSdERELXpPVXBDc0FVTk9TTnlPMFVIRnJBdWJzYXVyeWRmVkdiZXJvVkhnS25jOXVuTlJLT1phblhuWHdSa25lem5rWm1faDF5c29tcjNkWEJSNjgteXkwS2ZpRDNocHptdEFqWlU4RTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdThWNnRMdHBDRkNORW5UaV90THhnY2hQckZMejVMZlkwQldoeXpTMEtlY3dBUmxMa3dNZVJVNm9lLXJCRTIteWJVVTc5N05HRkVRUnRERC16T1VwQ3NBVU5PU055TzBVSEZyQXVic2",
-      "date": "03-06-2026 02:27 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -139,20 +131,20 @@
       "date": "02-06-2026 11:05 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI adds a new 'secret' feature to ChatGPT that lets users change response effort with a hidden gesture - Moneycontrol.com",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOE8yZ09qekxNUEkxTzlQOGViSGJlQTdzanhaWXhodFQ3T2RWdnU2UzhNcjJxYUNYT1BQcmRxcGxVbWxpeFlmdzBjc1pXWk9vbEd2UXBWQ2RscEJxRVlmaFZfbG9tUmg4TE45ekxiWUpxUElzM29pdVRMLWJLY19sVXIwRUM2OFZoQzczZ3dtNEpQR2lVVHNtTUlzaWVkc0tXUEhmSXVKOHBmN0w1SGZ1aktjQVJHNVpSTF91TnN5bDUyQnFqSFRGSHdaMTBtbV8zdmZmQmdoRGpYcGk1RlRqYXYzWkxMY0lyQTB5UmtLRzVNSWZqQmhlaUFnNy1kdDTSAf8BQVVfeXFMTThPMmdPanpMTVBJMU85UDhlYkhiZUE3c2p4Wll4aHRUN09kVnZ1NlM4TXIycWFDWE9QUHJkcXBsVW1saXhZZncwY3NaV1pPb2xHdlFwVkNkbHBCcUVZZmhWX2xvbVJoOExOOXpMYllKcVBJczNvaXVUTC1iS2NfbFVyMEVDNjhWaEM3M2d3bTRKUEdpVVRzbU1Jc2llZHNLV1BIZkl1SjhwZjdMNUhmdWpLY0FSRzVaUkxfdU5zeWw1MkJxakhURkh3WjEwbW1fM3ZmZkJnaERqWHBpNUZUamF2M1pMTGNJckEweVJrS0c1TUlmakJoZWlBZzctZHQ0?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOE8yZ09qekxNUEkxTzlQOGViSGJlQTdzanhaWXhodFQ3T2RWdnU2UzhNcjJxYUNYT1BQcmRxcGxVbWxpeFlmdzBjc1pXWk9vbEd2UXBWQ2RscEJxRVlmaFZfbG9tUmg4TE45ekxiWU",
-      "date": "02-06-2026 09:13 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "AI platform updates you need to know from May 2026 - Campaign Middle East",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eHBfeGZieFJlam1jdG1tOEU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eH",
       "date": "02-06-2026 04:02 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI enhances ChatGPT app with this hidden feature - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xakw5dFFERlNfbzJZWk9meFJxTGRYTUR5dE15SGd4cA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xak",
+      "date": "02-06-2026 12:57 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -197,10 +189,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
-      "date": "29-05-2026 03:21 AM"
+      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
+      "date": "29-05-2026 03:00 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -209,14 +201,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
       "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
       "date": "29-05-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
-      "date": "27-05-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -240,7 +224,7 @@
       "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
-      "date": "20-05-2026 06:19 AM"
+      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -275,12 +259,28 @@
       "date": "18-03-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
+      "date": "04-03-2026 06:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Testing ads in ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5\" target=\"_blank\">Tes",
       "date": "09-02-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
