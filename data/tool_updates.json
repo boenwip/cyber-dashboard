@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-06-2026 09:47 AM",
+  "last_updated": "04-06-2026 12:51 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "04-06-2026 09:47 AM"
+      "date": "04-06-2026 12:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "04-06-2026 09:47 AM"
+      "date": "04-06-2026 12:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "04-06-2026 09:47 AM"
+      "date": "04-06-2026 12:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "04-06-2026 09:47 AM"
+      "date": "04-06-2026 12:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "04-06-2026 09:47 AM"
+      "date": "04-06-2026 12:51 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-chromeos.html",
+      "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">M-148, ChromeOS version 16640.57.0 (Browser version 148.0.7778.250) has rolled out to ChromeOS devices on the Stable channel.&nb",
+      "date": "04-06-2026 09:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,14 +81,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-android-update_01919683854.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.3) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You",
       "date": "04-06-2026 02:13 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-ios-update.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.2) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"ht",
-      "date": "04-06-2026 12:58 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -131,12 +131,28 @@
       "date": "02-06-2026 11:05 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "AI platform updates you need to know from May 2026 - Campaign Middle East",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eHBfeGZieFJlam1jdG1tOEU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eH",
+      "date": "02-06-2026 04:02 AM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI enhances ChatGPT app with this hidden feature - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xakw5dFFERlNfbzJZWk9meFJxTGRYTUR5dE15SGd4cA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xak",
       "date": "02-06-2026 12:57 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The move to 'read-only' mode in Microsoft Office 2019 and 2021 for Mac, which prevents editing, is causing a lot of controversy. - GIGAZINE",
+      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlhuTkcwMDN5clZ4VVZaUW96dWEzZ3B4OVZoSzFsbll0UUUyMnhQSFZXeFhNVzNaekNFbzVERjAyeDZwVXFlSFR2NVVOR3hwTFpHbjJPU2ZXVTFkWHRmYXl0YXlIUERiNE91b2lLSXNDMGZMbzJQTW5ORHY3aHZHdUJoNA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlhuTkcwMDN5clZ4VVZaUW96dWEzZ3B4OVZoSzFsbll0UUUyMnhQSFZXeFhNVzNaekNFbzVERjAyeDZwVXFlSFR2NVVOR3hwTFpHbjJPU2ZXVTFkWHRmYXl0YXlIUERiNE91b2lLSX",
+      "date": "01-06-2026 10:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -173,10 +189,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
-      "date": "29-05-2026 03:00 AM"
+      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
+      "date": "29-05-2026 03:21 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -227,14 +243,6 @@
       "date": "18-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "New and improved: Agent governance, intelligent workflows, and connected app experiences - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQODhHRUJtc1hqc3lRVDdQamtnNm1ZbzM5TDVJVnQwWHlnWVNLOVBtc3EwRjVBNWZmWkVCR0N3cUd0WlhjR2lwR3RUdUFiRXYxZzV5WUtNM1cwcF82R2JCLXNzRWZFNkx2T0dDREY0Mk4wa1VOUjhNTk5pTmZ4aGhZcDRsX2tqYjFpRTdOQnNKX2FDeEZ6V1h2UW9kSFJkWEdFQnpQTkxJQV9UajQzX2tTTEZjOFZ5WmlnTkRzaGV5dlExVU03eXFTSGxLZVkzSEswM1Z4OHlRR3Y2emlIMnFISzBubmNlbVBJQUs0VQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxQODhHRUJtc1hqc3lRVDdQamtnNm1ZbzM5TDVJVnQwWHlnWVNLOVBtc3EwRjVBNWZmWkVCR0N3cUd0WlhjR2lwR3RUdUFiRXYxZzV5WUtNM1cwcF82R2JCLXNzRWZFNkx2T0dDREY0Mk",
-      "date": "11-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
@@ -243,12 +251,12 @@
       "date": "05-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
-      "date": "20-04-2026 05:00 PM"
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
+      "date": "22-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -265,14 +273,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
-      "date": "12-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
