@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-06-2026 05:18 PM",
+  "last_updated": "04-06-2026 08:46 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "04-06-2026 05:18 PM"
+      "date": "04-06-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "04-06-2026 05:18 PM"
+      "date": "04-06-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "04-06-2026 05:18 PM"
+      "date": "04-06-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "04-06-2026 05:18 PM"
+      "date": "04-06-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.158",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.158",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available on Bedrock, Vertex, and Foundry for Opus 4.7 and Opus 4.8. Opt in by setting <code>CLAUDE_CODE_ENABLE_AUTO_MODE=1</code></li>\n</ul>",
-      "date": "04-06-2026 05:18 PM"
+      "date": "04-06-2026 08:46 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
+      "date": "04-06-2026 12:34 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -131,20 +139,20 @@
       "date": "02-06-2026 11:05 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI adds a new 'secret' feature to ChatGPT that lets users change response effort with a hidden gesture - Moneycontrol.com",
+      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOE8yZ09qekxNUEkxTzlQOGViSGJlQTdzanhaWXhodFQ3T2RWdnU2UzhNcjJxYUNYT1BQcmRxcGxVbWxpeFlmdzBjc1pXWk9vbEd2UXBWQ2RscEJxRVlmaFZfbG9tUmg4TE45ekxiWUpxUElzM29pdVRMLWJLY19sVXIwRUM2OFZoQzczZ3dtNEpQR2lVVHNtTUlzaWVkc0tXUEhmSXVKOHBmN0w1SGZ1aktjQVJHNVpSTF91TnN5bDUyQnFqSFRGSHdaMTBtbV8zdmZmQmdoRGpYcGk1RlRqYXYzWkxMY0lyQTB5UmtLRzVNSWZqQmhlaUFnNy1kdDTSAf8BQVVfeXFMTThPMmdPanpMTVBJMU85UDhlYkhiZUE3c2p4Wll4aHRUN09kVnZ1NlM4TXIycWFDWE9QUHJkcXBsVW1saXhZZncwY3NaV1pPb2xHdlFwVkNkbHBCcUVZZmhWX2xvbVJoOExOOXpMYllKcVBJczNvaXVUTC1iS2NfbFVyMEVDNjhWaEM3M2d3bTRKUEdpVVRzbU1Jc2llZHNLV1BIZkl1SjhwZjdMNUhmdWpLY0FSRzVaUkxfdU5zeWw1MkJxakhURkh3WjEwbW1fM3ZmZkJnaERqWHBpNUZUamF2M1pMTGNJckEweVJrS0c1TUlmakJoZWlBZzctZHQ0?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxNOE8yZ09qekxNUEkxTzlQOGViSGJlQTdzanhaWXhodFQ3T2RWdnU2UzhNcjJxYUNYT1BQcmRxcGxVbWxpeFlmdzBjc1pXWk9vbEd2UXBWQ2RscEJxRVlmaFZfbG9tUmg4TE45ekxiWU",
+      "date": "02-06-2026 09:13 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "AI platform updates you need to know from May 2026 - Campaign Middle East",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eHBfeGZieFJlam1jdG1tOEU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eH",
       "date": "02-06-2026 04:02 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI enhances ChatGPT app with this hidden feature - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xakw5dFFERlNfbzJZWk9meFJxTGRYTUR5dE15SGd4cA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xak",
-      "date": "02-06-2026 12:57 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -189,10 +197,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
-      "date": "29-05-2026 03:00 AM"
+      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
+      "date": "29-05-2026 03:21 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -237,22 +245,6 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
-      "date": "18-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "A new personal finance experience in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jMVZYNmlKRzNCcndxTHE2N2tEa21NRnpZLVd4OG91TGpCeDJaWTlqa0EzajdBdWVwZGlvMkctWmd3U0xxQ3N3MFR4bkNRVEJtYlZOeEFaUXdvYV8wT0pz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jMVZYNmlKRzNCcndxTHE2N2tEa21NRnpZLVd4OG91TGpCeDJaWTlqa0EzajdBdWVwZGlvMkctWmd3U0xxQ3N3MFR4bkNRVEJtYlZOeEFaUXdvYV8wT0pz?oc=5\" target=\"_blank\"",
-      "date": "15-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Testing ads in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5\" target=\"_blank\">Tes",
+      "date": "09-02-2026 06:00 PM"
     }
   ]
 }
