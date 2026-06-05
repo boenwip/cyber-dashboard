@@ -1,7 +1,49 @@
 {
-  "last_updated": "05-06-2026 02:00 PM",
-  "count": 48,
+  "last_updated": "05-06-2026 05:00 PM",
+  "count": 44,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Digidentity helping companies navigate AI fraud challenges",
+      "link": "https://securitybrief.com.au/story/digidentity-helping-companies-navigate-ai-fraud-challenges",
+      "summary": "AI-driven fraud is pushing healthcare, government and carmakers to tighten identity checks as remote transactions spread worldwide.",
+      "date": "05-06-2026 03:22 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australia leads in self-hosted AI use, JFrog finds",
+      "link": "https://securitybrief.com.au/story/australia-leads-in-self-hosted-ai-use-jfrog-finds",
+      "summary": "The survey also found most firms still lack secrets scanning and rapid audit proof, leaving hidden credentials and compliance delays as weak spots.",
+      "date": "05-06-2026 03:11 PM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Soap Box: Detection and response in the AI age",
+      "link": "https://risky.biz/SOAPBOX108/",
+      "summary": "In this sponsored Soap Box edition of the Risky Business podcast Patrick Gray chats with Edward Wu, founder of Dropzone, about what AI is doing to detection, response and the SOC more generally. Dropzone makes AI agents that conduct alert investigations in your SOC, but will the SOC as we know it ev",
+      "date": "05-06-2026 02:41 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "TrendAI joins Anthropic's Project Glasswing for security",
@@ -46,36 +88,6 @@
       "threat": "Advisory",
       "audience": [
         "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian healthcare AI adoption slowed by maturity gaps",
-      "link": "https://securitybrief.com.au/story/australian-healthcare-ai-adoption-slowed-by-maturity-gaps",
-      "summary": "Most Australian healthcare providers are stuck in pilot mode as weak data, governance and operating models limit wider AI rollout.",
-      "date": "05-06-2026 09:00 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ESET report finds 45% of SMBs hit by cyber incidents",
-      "link": "https://securitybrief.com.au/story/eset-report-finds-45-of-smbs-hit-by-cyber-incidents",
-      "summary": "Nearly half of small businesses suffered cyber incidents last year, despite most saying they were confident in their defences.",
-      "date": "05-06-2026 08:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra",
-        "SMB"
       ],
       "relevance": "Global"
     },
@@ -336,22 +348,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSjhMSTdZOTRDVjI0SFp4OTZDOXZyMjZ3WWtsRHVPWVFrMmUzNjhBM3FXaFpEc2JlOUVYempUOHRPM0V6R2g1aUVnb1B5eEdTMll3RHdsRnNVeWU3VmUtRGNncGx2Wm9rbUcxNHdJZEdDR2syRVBfZUd6QmpKakRQSllLMFZUSVJMVXUzOUFoVmJnLVVFMlJuNWJvOHFPcVBjcVZ3MEVJWld1b2VncVlhc2kzU2dhYXluTjZ6V3FPWFgtMWxlc2tPNXVCd0lYbE9JS0RlZg?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "31-05-2026 10:28 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 Bleeping Computer AU",
       "title": "ChatGPT share links abused to host fake outage pages to deliver malware - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2FjN3IxMFJTR044NmV1SVJZUTA3VXpBN1ZNTDU4a3N5cWVxYXU1VGtuOUdpYlZtdHhvdGRrRFdFWEZjRXN0RVNKTjFRaVg5eGlNeEZFblJJNGxzYWVwRzViSjFPc0pCUk9aOFdkMHZjOUJuY3gxNWFXUHJnczRkU1c5dkpKVlYxd3lMTEUxNTRYSGtCa0dBRHdwcldpMThBbFg4WGphaFg1S29nZlo4LUVrMnpjSkZfa0840gHAAUFVX3lxTE5TZHpOX0hrakRPbHgzeTZCNWVWTGlxVXpSTXFVa1NBRTF5bDF1THFLazkzLXU5NThONzEyMnJyNDBIc2Q1SFVYcWtoQnlTaWxFMjF1TVRLNFJtMUtycU9ITDl5c19pdEJjM1dqMWhtcDZsVFcwZVlURG1rUFYtRGRjXzk4ZlVZU3NkcVpXNlMwLWVxQU1JUENXUlRUZ2Y2TE9zUXJJQ0FmZHFEM0d2SWd5OTZOaHRKMEdHVzUtUXJxYw?oc=5",
@@ -363,22 +359,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQbDFDbU9oMVFCNWdHMFJta2NLalpvaHRmYTI2YndOYnBnWHhpdkJKWkJJWXBKdDdQQTJweUl6d3FBWjN4UWpnNi1lTHhCMUtkZG5jQ2dBM2Zrb0lDbXpPUmRJcWRMNXN4bmZwempTQ0dCRjlYbTdnamxrZWpJdGk2S0doUEg2V3Z3R2FYY0hxczFLeUVGRHdZcWNkWC1idFdTcHFxZWN1VzdTWDhMekgzT05KRHcyUUhVNmRkS3EwSGYxMWxhMGFmRG8zRWhXMDJPRktCWmp6anNCdGhIR3BGYlhnWXFEZU5CaUVTUmFkVHNCTDJKeUlNakd3?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "29-05-2026 11:04 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -406,38 +386,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 6 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQajdzbm9DV05SeGg4a19KXzJoR0g5cU5FNDVPbmlNWTRIOV9IUk1VN2tiSG1jOE9wVjBvVDJNVDgzM0tzTFVyUmxzUHVFbnUtbEtRNFFxN0Q5NWdTZXh0QXItLXV0UXAyTndWQ0swMUlRN092d013MVVCMmx0d3ZncFY4eUtCYU52ZzZjSFlxbjZyOTk2Nkg1blNuMHFQdzVkSThSY05iNEtUQ3pyN25HVlNqS2huSW1qMUh6UUpnRHdkRi1tRWgwMml0Vkx1d1J1MXhSajVaVXRyNGFNWmtPVm5aczRJd3E2azdIbkRDRGJQSzJDcnZiYnRJMnRGbDNqU3l5b3ZYU1VXSDY3S3NmRzZMVzlCMmdPcllyYUNOMWs?oc=5",
-      "summary": "Browse news and alerts - page 6 Scamwatch",
-      "date": "29-05-2026 09:10 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 9 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPRW1ZRERpREZDakZZMEpsM2c0N3BDZUxzVlB1NTNBOVgyMWRvT2pWdGZwVWR5YTBGRUFaaDNNbVE5YmdkaE8tY20wVlVLekt4N1RaajR6TzdiWUdMT3dLcmJrTFNBY1hCNTlLeHNvaV9leEpFeE1qWjJKZ2JoeWljQUpTUHpoZGM4VS02aTJrY0RaYWFBbzdURzFlb1g4TmJQZU9hR0xvWXNLSDM0QnlaV1R0bFF0ekIyMTBmbFRwek1heUQwbEs1QWlfWWZ6a3hFYWJyNTNVbmhWa1Y1QWtEdm4td19kNzk5cWRXcDRXQjljYXo3ZHNnc3VRTQ?oc=5",
-      "summary": "Browse news and alerts - page 9 Scamwatch",
-      "date": "29-05-2026 09:52 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -554,22 +502,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Protect your small business from scams - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUWFvTUpibWxsc0w1SDhXTk05ckx4YWdRb3pLdDFjWjlub2pHM21XbllZVkdHWGVDRW1jb2NBMHVOTFNZaWF6Rm1CSTliMGZZTzF1d050akRfU3JZaXpEWVJ3czNBUF82QXZHVFBOWGxLOVVtcm9CM281bVhaVE1FTEsxNkp0RlVxWmEzMEszVQ?oc=5",
-      "summary": "Protect your small business from scams Scamwatch",
-      "date": "27-05-2026 12:40 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Sovereign Technology Report highlights execution pressure on public sector transformation",
       "link": "https://australiancybersecuritymagazine.com.au/sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation/?utm_source=rss&utm_medium=rss&utm_campaign=sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation&utm_source=rss&utm_medium=rss&utm_campaign=sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation",
@@ -653,6 +585,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Krebs on Security",
+      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
+      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
+      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
+      "date": "25-05-2026 11:21 PM",
+      "tags": [
+        "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Verizon DBIR: Healthcare Fends Off Increased Social Engineering Attacks",
       "link": "https://www.darkreading.com/cyber-risk/verizon-dbir-healthcare-fends-off-increased-social-engineering-attacks",
@@ -665,19 +610,6 @@
       "threat": "High",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Too Big to Fail \u2013 Hyperscale Data Centres Bring New Infrastructure Security Imperatives to Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/too-big-to-fail-hyperscale-data-centres-bring-new-infrastructure-security-imperatives-to-australia/?utm_source=rss&utm_medium=rss&utm_campaign=too-big-to-fail-hyperscale-data-centres-bring-new-infrastructure-security-imperatives-to-australia&utm_source=rss&utm_medium=rss&utm_campaign=too-big-to-fail-hyperscale-data-centres-bring-new-infrastructure-security-imperatives-to-australia",
-      "summary": "By Mike Fisher* The security implications of huge data centres as an integral component of national infrastructure have moved to centre stage with the wave of investment announcements arriving on [...]",
-      "date": "22-05-2026 03:52 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     }
   ]
 }
