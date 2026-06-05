@@ -1,5 +1,5 @@
 {
-  "last_updated": "05-06-2026 09:31 PM",
+  "last_updated": "06-06-2026 03:58 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.165",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "05-06-2026 09:30 PM"
+      "date": "06-06-2026 03:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.163",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
-      "date": "05-06-2026 09:30 PM"
+      "date": "06-06-2026 03:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "05-06-2026 09:30 PM"
+      "date": "06-06-2026 03:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "05-06-2026 09:30 PM"
+      "date": "06-06-2026 03:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "05-06-2026 09:30 PM"
+      "date": "06-06-2026 03:58 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -155,14 +155,6 @@
       "date": "02-06-2026 11:05 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "AI platform updates you need to know from May 2026 - Campaign Middle East",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eHBfeGZieFJlam1jdG1tOEU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1HV2lsWHQxX0J2OFlCdjMwREEwZlBhNkJ4VDJrRE1JdHhMeDVYTzk1S3lkX1hVeXVLOTVGTnFSLS1xMGtmNzZsY2JDWGxGeExOaUhNX015eU41TzFJWmo3djFGLWdkZmlDcUFlMDE3eH",
-      "date": "02-06-2026 04:02 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
@@ -185,14 +177,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
       "date": "29-05-2026 03:33 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
-      "date": "29-05-2026 03:21 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -232,7 +216,15 @@
       "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
       "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
-      "date": "19-05-2026 05:00 PM"
+      "date": "20-05-2026 06:19 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic to share Mythos cyber flaw findings with global finance watchdog - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcU5wb3BXTVA1SUpZT3ZhSV9CU1REQzN0Um9IczZ1aTktRkJ4Rmp3dHFHYm0yRUZvYVBZU0pPbWdHSzJLZ1NORmZwTXY5V3kzYVNEaU1iOWlqUXlPNV9velJqSjlSbXI2V2dCUE53QVRXejV1ZmlEbWdnOXRPaFdxUjNUMWt5OTYyaXF4NjBZYjRCWTBFamRZaUFGWk1BRWtyVHVKdWF6WkI4VlpEaGxoaTZyZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxNcU5wb3BXTVA1SUpZT3ZhSV9CU1REQzN0Um9IczZ1aTktRkJ4Rmp3dHFHYm0yRUZvYVBZU0pPbWdHSzJLZ1NORmZwTXY5V3kzYVNEaU1iOWlqUXlPNV9velJqSjlSbXI2V2dCUE53QV",
+      "date": "18-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -249,6 +241,14 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
       "date": "22-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
+      "date": "20-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
