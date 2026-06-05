@@ -1,5 +1,5 @@
 {
-  "last_updated": "05-06-2026 11:38 AM",
+  "last_updated": "05-06-2026 12:38 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.163",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
-      "date": "05-06-2026 11:38 AM"
+      "date": "05-06-2026 12:38 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "05-06-2026 11:38 AM"
+      "date": "05-06-2026 12:38 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.161",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.161",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>OTEL_RESOURCE_ATTRIBUTES</code> values are now included as labels on metric datapoints, so you can slice usage metrics by custom dimensions like team or repo</li",
-      "date": "05-06-2026 11:38 AM"
+      "date": "05-06-2026 12:38 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.160",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.160",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a prompt before writing to shell startup files (<code>.zshenv</code>, <code>.zlogin</code>, <code>.bash_login</code>) and <code>~/.config/git/</code>, which coul",
-      "date": "05-06-2026 11:38 AM"
+      "date": "05-06-2026 12:38 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.159",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.159",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Internal infrastructure improvements (no user-facing changes)</li>\n</ul>",
-      "date": "05-06-2026 11:38 AM"
+      "date": "05-06-2026 12:38 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -107,14 +107,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "PSA: Microsoft Office 2019 for Mac Will Soon Block You From Editing Your Documents - MacTrast",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdThWNnRMdHBDRkNORW5UaV90THhnY2hQckZMejVMZlkwQldoeXpTMEtlY3dBUmxMa3dNZVJVNm9lLXJCRTIteWJVVTc5N05HRkVRUnRERC16T1VwQ3NBVU5PU055TzBVSEZyQXVic2F1cnlkZlZHYmVyb1ZIZ0tuYzl1bk5SS09aYW5Yblh3UmtuZXpua1ptX2gxeXNvbXIzZFhCUjY4LXl5MEtmaUQzaHB6bXRBalpVOEU00gG7AUFVX3lxTE51OFY2dEx0cENGQ05FblRpX3RMeGdjaFByRkx6NUxmWTBCV2h5elMwS2Vjd0FSbExrd01lUlU2b2UtckJFMi15YlVVNzk3TkdGRVFSdERELXpPVXBDc0FVTk9TTnlPMFVIRnJBdWJzYXVyeWRmVkdiZXJvVkhnS25jOXVuTlJLT1phblhuWHdSa25lem5rWm1faDF5c29tcjNkWEJSNjgteXkwS2ZpRDNocHptdEFqWlU4RTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdThWNnRMdHBDRkNORW5UaV90THhnY2hQckZMejVMZlkwQldoeXpTMEtlY3dBUmxMa3dNZVJVNm9lLXJCRTIteWJVVTc5N05HRkVRUnRERC16T1VwQ3NBVU5PU055TzBVSEZyQXVic2",
-      "date": "03-06-2026 02:27 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI putting Codex inside ChatGPT, 6 new business plugins now available - 9to5Mac",
@@ -157,10 +149,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Launches Claude Opus 4.8 With Upgrades for Coding, Agents and Knowledge Work - entARABI",
-      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWkpwaHdxaklLdVFubUdoMmNUdmNWTk5EZ1N1MEVXamo3TlBYV3VhY3ZnY2RwNngzZzdWODVWNWRNd21tbUc2eGZXd1pIblFkUmhEUTN2MVJDcVROV1BBTDUtd085TEVNczZsUk90d1JSMVBjNkVuemRfZWxDLWRyYi1WS3hGdkJfSVowSkxwTGo5NDJONVBtd24xcjhKTG9hZUhITHFLT3ZhT1lBLWF4WmF6T1FZOVNJV1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNWkpwaHdxaklLdVFubUdoMmNUdmNWTk5EZ1N1MEVXamo3TlBYV3VhY3ZnY2RwNngzZzdWODVWNWRNd21tbUc2eGZXd1pIblFkUmhEUTN2MVJDcVROV1BBTDUtd085TEVNczZsUk90d1",
-      "date": "31-05-2026 11:05 PM"
+      "title": "Claude Opus 4.8: Anthropic Launches Its Most Capable AI Model Yet With Dynamic Workflows and Agent Swarms - Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg5eEdMTC1PcldYODN1WnhaekdXUlM3QktnaFFKX2U4Xy15UzJSaTNrVVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNTDdkQ0dTcl9PczFFQ1h6aVdGTElVWkVNUTRLVldYQWlQLXduS0h6UWdqYkZQd011UTFYRTNzWjAyTVctRF9NMFRGaGZNWmNTeUk1MWw3eDlPZ0pHQmI4Szg5eEdMTC1PcldYODN1Wn",
+      "date": "31-05-2026 03:55 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -237,10 +229,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozND",
-      "date": "24-04-2026 05:00 PM"
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
+      "date": "05-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5\" target=\"_blank\">Tes",
       "date": "09-02-2026 06:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
