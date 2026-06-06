@@ -1,5 +1,5 @@
 {
-  "last_updated": "07-06-2026 03:18 AM",
+  "last_updated": "07-06-2026 08:01 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.167",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-06-2026 03:18 AM"
+      "date": "07-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.166",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-",
-      "date": "07-06-2026 03:18 AM"
+      "date": "07-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.165",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-06-2026 03:18 AM"
+      "date": "07-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.163",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
-      "date": "07-06-2026 03:18 AM"
+      "date": "07-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.162",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "07-06-2026 03:18 AM"
+      "date": "07-06-2026 08:01 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -123,14 +123,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI putting Codex inside ChatGPT, 6 new business plugins now available - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPN0JGNWs3elBuMGx3bVpaVEZsQy1PQmk2X2VBT01CVW82OFhSTFFfU29MM1F1RFZVSFRSQUp3amxmWC0za1I0cVZnbzZsVTQtVXZaY1VidlpacFJuYWhOYWUtQ3hPYXJ0aWNsVmYxUV9WOHhBZXF3dmdqeWFJa1dxTklEY3Y0LWtLUzhLLVlvQ1hGRTNsX2lhR2Y0d2JhRTFuc2t4ZnBNTmJiZ0Y1UWctYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxPN0JGNWs3elBuMGx3bVpaVEZsQy1PQmk2X2VBT01CVW82OFhSTFFfU29MM1F1RFZVSFRSQUp3amxmWC0za1I0cVZnbzZsVTQtVXZaY1VidlpacFJuYWhOYWUtQ3hPYXJ0aWNsVmYxUV",
-      "date": "03-06-2026 02:22 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Office 2019 for Mac Will Soon Stop Letting You Edit Documents - MacRumors",
@@ -145,14 +137,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRWF6VVZqQWo3VEJKQ2NDOTRXT1dQaUNzcURtbkdocEg1bnY1WEFFWF8zRGxwd0R0d1NxZFZVQ3dBeXdGU1hpNEZMd2JFcHFzU0UxLTdUVnNKXzM3dTZSanU4b2ZGM1lwUnc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRWF6VVZqQWo3VEJKQ2NDOTRXT1dQaUNzcURtbkdocEg1bnY1WEFFWF8zRGxwd0R0d1NxZFZVQ3dBeXdGU1hpNEZMd2JFcHFzU0UxLTdUVnNKXzM3dTZSanU4b2ZGM1lwUnc?oc=5\" ",
       "date": "02-06-2026 11:05 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "The move to 'read-only' mode in Microsoft Office 2019 and 2021 for Mac, which prevents editing, is causing a lot of controversy. - GIGAZINE",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlhuTkcwMDN5clZ4VVZaUW96dWEzZ3B4OVZoSzFsbll0UUUyMnhQSFZXeFhNVzNaekNFbzVERjAyeDZwVXFlSFR2NVVOR3hwTFpHbjJPU2ZXVTFkWHRmYXl0YXlIUERiNE91b2lLSXNDMGZMbzJQTW5ORHY3aHZHdUJoNA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNSlhuTkcwMDN5clZ4VVZaUW96dWEzZ3B4OVZoSzFsbll0UUUyMnhQSFZXeFhNVzNaekNFbzVERjAyeDZwVXFlSFR2NVVOR3hwTFpHbjJPU2ZXVTFkWHRmYXl0YXlIUERiNE91b2lLSX",
-      "date": "01-06-2026 10:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -237,6 +221,14 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
+      "date": "05-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
       "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozND",
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
+      "date": "12-03-2026 05:00 PM"
     }
   ]
 }
