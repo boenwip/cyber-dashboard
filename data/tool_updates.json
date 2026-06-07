@@ -1,14 +1,22 @@
 {
-  "last_updated": "07-06-2026 08:01 AM",
+  "last_updated": "08-06-2026 08:01 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.168",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
+      "date": "08-06-2026 08:01 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.167",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-06-2026 08:01 AM"
+      "date": "08-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.166",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-",
-      "date": "07-06-2026 08:01 AM"
+      "date": "08-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.165",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-06-2026 08:01 AM"
+      "date": "08-06-2026 08:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.163",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
-      "date": "07-06-2026 08:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.162",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.162",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>claude agents --json</code> now includes <code>waitingFor</code> showing what a waiting session is blocked on (e.g. permission prompt)</li>\n<li><code>--tools</co",
-      "date": "07-06-2026 08:01 AM"
+      "date": "08-06-2026 08:01 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -155,14 +155,6 @@
       "date": "29-05-2026 05:00 AM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
-      "date": "29-05-2026 03:33 AM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing a new design for Microsoft 365 Copilot",
@@ -189,6 +181,14 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
+      "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic\u2019s new Claude model sparks cyber fears: \u2018We are not ready for what\u2019s coming\u2019 - Ynetnews",
       "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE52YXUzeWlnTUdERko0S25XOFVfejV5UnBLcWJWRnRhX0JYaVhtcGtxOVF3bkZJRWs1YkIwWDZDSWVfZ3RBc2d3V2hvTTA3dk5fU2FaWlhBbG1RakZoNElXUTdRQkZ2anZPMkZoQg?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE52YXUzeWlnTUdERko0S25XOFVfejV5UnBLcWJWRnRhX0JYaVhtcGtxOVF3bkZJRWs1YkIwWDZDSWVfZ3RBc2d3V2hvTTA3dk5fU2FaWlhBbG1RakZoNElXUTdRQkZ2anZPMkZoQg?oc=",
@@ -203,12 +203,12 @@
       "date": "27-05-2026 02:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Banks, telcos briefed on threat of 'dangerous' AI model - Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQalRTWHlkUjNKOE94SzNhM2hkQlFaNW9vZ21PRTB5aEhtZVNxM213dm04SURMX29MWUNYSXdmXzVqMHZHWlVFOWM2M0IwUENlcjVLTVBvcDBab0JwQzRSMjNqVkU0WlRyNkNSQ3prbEt3NVBsbkZWaTQ0Rzk0WWt4TnVlSEhDc0Uwc0VLaWlwNXp1TVlIU3FuSFVZRy1fTVZVZEozaUxnUFZCU3M?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQalRTWHlkUjNKOE94SzNhM2hkQlFaNW9vZ21PRTB5aEhtZVNxM213dm04SURMX29MWUNYSXdmXzVqMHZHWlVFOWM2M0IwUENlcjVLTVBvcDBab0JwQzRSMjNqVkU0WlRyNkNSQ3prbE",
-      "date": "20-05-2026 05:00 PM"
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
+      "date": "20-05-2026 06:19 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
