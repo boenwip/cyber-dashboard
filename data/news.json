@@ -1,7 +1,89 @@
 {
-  "last_updated": "08-06-2026 10:13 PM",
-  "count": 43,
+  "last_updated": "09-06-2026 08:23 AM",
+  "count": 47,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/silent-ransom-us-law-firms-extortion-attacks",
+      "summary": "The financially motivated group is combining vishing, IT impersonation, and in-person office intrusions to steal data and extort victims.",
+      "date": "09-06-2026 06:59 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Check Point VPN Flaw Exploited Since Early May",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/check-point-vpn-flaw-exploited-early-may",
+      "summary": "A newly discovered, critical zero-day vulnerability is under attack; a Qilin ransomware affiliate has been blamed for at least one incident.",
+      "date": "09-06-2026 06:28 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Iran Signed a Ceasefire \u2014 Its Hackers Didn't",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/iran-signed-ceasefire-hackers",
+      "summary": "An extension of the Geneva Conventions could impose restrictions on cyberwarfare under ceasefire conditions and close a major loophole in international conflict.",
+      "date": "09-06-2026 05:07 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
+      "link": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
+      "summary": "Microsoft took the highly unusual step of shutting down more than 70 of its own GitHub repositories after hackers pushed malware that would steal credentials from AI coding agent users.",
+      "date": "09-06-2026 01:50 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic expands Project Glasswing to 150 organisations",
+      "link": "https://securitybrief.com.au/story/anthropic-expands-project-glasswing-to-150-organisations",
+      "summary": "The wider rollout targets critical infrastructure and software maintainers after early users found more than 10,000 serious flaws.",
+      "date": "09-06-2026 01:30 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra",
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU21Yb0xkRkRxbE1Wc2xZOW1IYWdoSEF6ZGRXbFNCREMtS1liRWliRHQzN2lEWWZDRHZmM25jcF8yTmJEQWQ5ZU9JM0NDLXZ3X2Vucnk3bWJxQjYxcnBsVk9pTHZ1Q3czaXpnQkk0Skg3NjdJX3hoaTI5bHFQUFJGWEw2N1hSOFBRN0RxZXJKY25LNFV2TnhBb3V3Ym9pMUhtenAwWDRaUXFzSU9Eb2xactIBtgFBVV95cUxPbWdaYUZZSnVZSUhNX25KSUFOYV9fTzJVQ2QtMDRFSFVqMTVvZzMwOUR3Sldmem1USkVuSFMzZ284c0dhZ29JSm5oeFgydkY5eUpvOW5XaFdSeWxLUm0zZnhLTW9udTFnMUtPMUNObEJXT2lfRUltdjlJRGhsVUFzZTYzLVpqTlhPMkotbzBuMWRQS2kyOXFmdGsxTUFnT0ZJMnIzSFdvZ18xbi1yM2pucXhuSHpaUQ?oc=5",
+      "summary": "Check Point links VPN zero-day attacks to Qilin ransomware gang BleepingComputer",
+      "date": "08-06-2026 11:05 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Synology outlines storage and surveillance roadmap",
@@ -167,19 +249,6 @@
       "audience": [
         "Enterprise"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
-      "link": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
-      "summary": "Peptide companies have been doing AI-engine optimization by spamming the biohackers subreddit to manipulate ChatGPT and Google.",
-      "date": "04-06-2026 12:29 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -579,19 +648,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Netherlands Seizes 800 Servers, Arrests 2 for Aiding Cyberattacks",
-      "link": "https://krebsonsecurity.com/2026/05/netherlands-seizes-800-servers-arrests-2-for-aiding-cyberattacks/",
-      "summary": "Authorities in the Netherlands have arrested the co-owners of two related Internet hosting companies for operating IT infrastructure used by Russia to carry out cyberattacks, influence operations and disinformation campaigns inside the European Union. The two men were the focus of a 2025 KrebsOnSecu",
-      "date": "25-05-2026 11:21 PM",
-      "tags": [
-        "Good News"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     }

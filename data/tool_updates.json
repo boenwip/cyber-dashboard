@@ -1,14 +1,22 @@
 {
-  "last_updated": "08-06-2026 10:13 PM",
+  "last_updated": "09-06-2026 08:24 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.169",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve",
+      "date": "09-06-2026 08:24 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.168",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "08-06-2026 10:13 PM"
+      "date": "09-06-2026 08:24 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.167",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "08-06-2026 10:13 PM"
+      "date": "09-06-2026 08:24 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.166",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.166",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>fallbackModel</code> setting to configure up to three fallback models tried in order when the primary model is overloaded or unavailable; <code>--fallback-",
-      "date": "08-06-2026 10:13 PM"
+      "date": "09-06-2026 08:24 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,23 @@
       "title": "v2.1.165",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "08-06-2026 10:13 PM"
+      "date": "09-06-2026 08:24 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.163",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.163",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>requiredMinimumVersion</code> and <code>requiredMaximumVersion</code> managed settings \u2014 Claude Code refuses to start if its version is outside the allowed",
-      "date": "08-06-2026 10:13 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Updates for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/extended-stable-updates-for-desktop_01900035594.html",
+      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 148.0.7778.254</span><span color=\"rgba(0, 0, 0, 0.87)\" ",
+      "date": "09-06-2026 06:40 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0153744567.html",
+      "summary": "<p><span style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.102/.103 for Windows and</span><span ",
+      "date": "09-06-2026 06:39 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,22 +89,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update.html",
       "summary": "<p>Hi everyone! We've just released Chrome Dev 151 (151.0.7872.3) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
       "date": "05-06-2026 01:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-chromeos.html",
-      "summary": "<p><span face=\"Arial, sans-serif\" style=\"white-space: pre-wrap;\">M-148, ChromeOS version 16640.57.0 (Browser version 148.0.7778.250) has rolled out to ChromeOS devices on the Stable channel.&nbsp;</sp",
-      "date": "04-06-2026 09:10 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for.html",
-      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span face=\"Roboto, sans-serif\" st",
-      "date": "04-06-2026 03:34 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -133,14 +133,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Expanding Project Glasswing - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRWF6VVZqQWo3VEJKQ2NDOTRXT1dQaUNzcURtbkdocEg1bnY1WEFFWF8zRGxwd0R0d1NxZFZVQ3dBeXdGU1hpNEZMd2JFcHFzU0UxLTdUVnNKXzM3dTZSanU4b2ZGM1lwUnc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE1SRWF6VVZqQWo3VEJKQ2NDOTRXT1dQaUNzcURtbkdocEg1bnY1WEFFWF8zRGxwd0R0d1NxZFZVQ3dBeXdGU1hpNEZMd2JFcHFzU0UxLTdUVnNKXzM3dTZSanU4b2ZGM1lwUnc?oc=5\" ",
-      "date": "02-06-2026 11:05 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
@@ -181,6 +173,14 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
+      "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic releases Opus 4.8 with new \u2018dynamic workflow\u2019 tool - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUzhRLVRtYkVlWFo2bEtoY3p3Q2loTjBWaFo4dVEwZ0RIeE1GUnFNUjQxcQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ2taMVlYMlJRZlBOc3dLU0trM1h4djVWRTFuSkkxckJTdTlVTWNDLUhwNlRWb19YclM5SHM0NU1JRi0zNlVqa3JQeElMT0xsMFV6Y2czVFpYTENFamxVbEpmSURMMHhyNGt4ZUdfUz",
@@ -189,10 +189,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8, promising a more honest model - Techzine Global",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpejRvYTJIOVhxUW9HbFhKUVNzbmg0R0wxTm9YMVZYWkZwR2JzNmU5QjRYODBkQ1R4el8yS2JRSVNObFJJcXBMTkVmUzZMako?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJJRTQzaUphY2RXUDJlUkFPYmJGMG1Qa3JPLUFsQTNvc2Q2bmFvd0dDbDN3Qlp3RlNaZl90Ty04ZVlPWTAtaWE1aHpsdURvMXBRNVRLMGpidE1KTllwYXgyM0otS1I3a3NYc2lpej",
-      "date": "28-05-2026 05:00 PM"
+      "title": "Anthropic's Claude Mythos, or a model like it, to get public release - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBwNUtpeTNOcWVyWHRSOGRRQkpYdGhKQ1cxd0M5MEs5cFVoQ1QwZnZPQ1gtWk5zbWMtTjR6a0lmR2FxN1hXWHh3YTBBcGVDdWN2cktDM2lkLWdfcm9kbEZsN2NMb19SdEJYVTM2VXRPaklnNnFrbkE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMidkFVX3lxTFBwNUtpeTNOcWVyWHRSOGRRQkpYdGhKQ1cxd0M5MEs5cFVoQ1QwZnZPQ1gtWk5zbWMtTjR6a0lmR2FxN1hXWHh3YTBBcGVDdWN2cktDM2lkLWdfcm9kbEZsN2NMb19SdEJYVTM2VXRPak",
+      "date": "27-05-2026 02:44 AM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -253,9 +253,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
+      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
     },
     {

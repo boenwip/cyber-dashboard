@@ -1,7 +1,29 @@
 {
-  "last_updated": "08-06-2026 10:13 PM",
+  "last_updated": "09-06-2026 08:24 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-42271",
+      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-08",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-50751",
+      "description": "Check Point Security Gateway \u2014 Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a r",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-08",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
+      "vendor": "Check Point",
+      "product": "Security Gateway",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-28318",
       "description": "SolarWinds Serv-U \u2014 SolarWinds Serv-U contains an uncontrolled resource consumption vulnerability that allows specially crafted POST requests using the Content-Encoding: deflate header to crash the Serv-U service without",
@@ -89,28 +111,6 @@
       "vendor": "TanStack",
       "product": "TanStack",
       "ransomware": "Known"
-    },
-    {
-      "id": "CVE-2026-8398",
-      "description": "Daemon Daemon Tools Lite \u2014 Daemon Tools contains an unspecified vulnerability that has a high impact on confidentiality, integrity, and availability.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8398",
-      "vendor": "Daemon",
-      "product": "Daemon Tools Lite",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-48172",
-      "description": "LiteSpeed cPanel Plugin \u2014 LiteSpeed cPanel Plugin contains privilege escalation vulnerability that is exposed via the user-end cPanel plugin, which can be abused by any cPanel user account to execute arbitrary scripts with roo",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48172",
-      "vendor": "LiteSpeed",
-      "product": "cPanel Plugin",
-      "ransomware": "Unknown"
     }
   ]
 }
