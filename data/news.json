@@ -1,6 +1,6 @@
 {
-  "last_updated": "08-06-2026 05:24 PM",
-  "count": 19,
+  "last_updated": "08-06-2026 10:13 PM",
+  "count": 43,
   "items": [
     {
       "source": "Security Brief Australia",
@@ -74,6 +74,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "Exposed Fuel Tank Gauges Under Attack in the US",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
+      "summary": "Threat actors are taking advantage of Internet-exposed tank gauges by breaching gas stations, opening the door to disruption.",
+      "date": "06-06-2026 05:04 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Risky Business",
       "title": "Soap Box: Detection and response in the AI age",
       "link": "https://risky.biz/SOAPBOX108/",
@@ -103,6 +116,60 @@
       "relevance": "AU General"
     },
     {
+      "source": "Dark Reading",
+      "title": "China's TA4922 Expands Cybercrime Attacks Globally",
+      "link": "https://www.darkreading.com/threat-intelligence/china-ta4922-cybercrime-attacks-globally",
+      "summary": "One of the world's most diverse, least-focused cybercrime groups is enlarging its footprint beyond East Asia.",
+      "date": "05-06-2026 07:23 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs",
+      "link": "https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs",
+      "summary": "Organizations are growing serious about what nation\u2019s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.",
+      "date": "05-06-2026 12:22 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Use AI to Automate EDR Evasion Testing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-automate-edr-evasion-testing",
+      "summary": "Python scripts were used to test malware against endpoint detection and response agents from Sophos, CrowdStrike, and Windows Defender.",
+      "date": "04-06-2026 07:34 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Cyber Insurance Rates Are Dropping, but Exclusions Widen",
+      "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-rates-drop-exclusions-widen",
+      "summary": "Cyber insurance coverage is slowly changing, and some policies may not provide coverage for social engineering attacks like ClickFix.",
+      "date": "04-06-2026 05:10 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "404 Media",
       "title": "Companies Are Using Reddit to Manipulate ChatGPT and Google AI Search",
       "link": "https://www.404media.co/companies-are-using-reddit-to-manipulate-chatgpt-and-google-ai-search/",
@@ -112,6 +179,33 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Malicious Notifications Could Trick Google Gemini Users",
+      "link": "https://www.darkreading.com/application-security/malicious-notifications-could-trick-google-gemini-users",
+      "summary": "A prompt injection flaw in Google Gemini's voice assistant let attackers hide malicious commands in notifications, enabling social engineering and more.",
+      "date": "03-06-2026 10:01 PM",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Global Stock Exchange Hit by Monthslong Email Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/global-stock-exchange-hit-monthslong-email-campaign",
+      "summary": "A threat actor got a near-continuous view into an influential finance executive's email inbox, thanks to clever use of legitimate, native Windows tools.",
+      "date": "03-06-2026 08:01 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -143,6 +237,73 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
+      "link": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
+      "summary": "Once targeting just Microsoft 365, the phishing-as-a-service platform now aims at AWS, Okta, and Russian platforms, while relying on device code phishing.",
+      "date": "03-06-2026 07:32 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks",
+      "summary": "A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.",
+      "date": "03-06-2026 06:11 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
+      "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
+      "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
+      "date": "03-06-2026 05:50 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic to Open Mythos AI to EU's ENISA",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa",
+      "summary": "The European security agency's entry to Project Glasswing is the result of \"strong bilateral cooperation\" between the European Commission and Anthropic.",
+      "date": "02-06-2026 07:07 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
+      "link": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
+      "summary": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
+      "date": "02-06-2026 04:52 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 Bleeping Computer AU",
       "title": "WordPress malware campaign hides payloads in Steam profiles - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1o1LTFSdDUwcUd0OWRhVFRvaXhZS29DT1p1dWZMeWxCUEk4ODVyNTlsUzRFT0VkMDFpRW1EQy1NZ2p0MkJmMkdkTnM3NTg3MnppZXdiREZZXzVaZUhzZmRuYkp2TmRaY0FOWER4UEZkc3RVbjZHTHdfelQ3OUo1M3U4ek1NazdxUUZmVUt5TzRJYkh4Wkl1TExYbXJiUHMxUWlHS09zcWhtb03SAbABQVVfeXFMT3hjZWFnUUhJb0lyN0tJbnlQZk5jVVk5dmQ4ZE9nd2dUcWdEdDVHQjhsZ2lEaHVlSmxPQ29VdXVoZGpmRG1aaFliR05yeGp4T0VLN0M5SnpvSEZSYUE0Nzh5NnkzSUZiSFY3dWFlZGQyeVZTdk01UW95ZkRDdklkc2RhaEJFMnEtUjFYNHlmN0xvcTU1WWlDVHg0WWRQQnlHQUdtRnFkV2c5Vk9pbDVvcjc?oc=5",
@@ -152,6 +313,19 @@
         "AU Cyber"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
+      "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
+      "summary": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
+      "date": "02-06-2026 12:35 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -170,19 +344,88 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPSjhMSTdZOTRDVjI0SFp4OTZDOXZyMjZ3WWtsRHVPWVFrMmUzNjhBM3FXaFpEc2JlOUVYempUOHRPM0V6R2g1aUVnb1B5eEdTMll3RHdsRnNVeWU3VmUtRGNncGx2Wm9rbUcxNHdJZEdDR2syRVBfZUd6QmpKakRQSllLMFZUSVJMVXUzOUFoVmJnLVVFMlJuNWJvOHFPcVBjcVZ3MEVJWld1b2VncVlhc2kzU2dhYXluTjZ6V3FPWFgtMWxlc2tPNXVCd0lYbE9JS0RlZg?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "31-05-2026 10:28 AM",
+      "source": "Dark Reading",
+      "title": "With Complex Cloud Integrations, Small Errors Lead to Major Compromises",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/complex-cloud-integrations-small-errors-compromises",
+      "summary": "Researchers discover an exploit chain combining over-permissioned roles, secrets discovery, and non-human identities that could have compromised a popular automation service.",
+      "date": "29-05-2026 11:00 PM",
       "tags": [
         "AU Cyber",
-        "Scams"
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'The Com' Cyberattacks Support Violence &amp; Sexploitation",
+      "link": "https://www.darkreading.com/threat-intelligence/the-com-cyberattacks-violence-sexploitation",
+      "summary": "Your organization's security failures have consequences for everyone else as well since this criminal gang uses its cyber winnings to support more violent and widespread crimes.",
+      "date": "29-05-2026 10:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Dutch Raid Fails to Dent Russian Bulletproof Host",
+      "link": "https://www.darkreading.com/cyber-risk/dutch-raid-russian-bulletproof-host",
+      "summary": "Dutch law enforcement seized 800 servers and arrested two operators of THE.Hosting but left the hosting provider's core IP address space intact.",
+      "date": "29-05-2026 05:04 AM",
+      "tags": [
+        "Good News"
       ],
       "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Focus on Cyber Insurance: How Quantifying Risk Is Reshaping Security",
+      "link": "https://www.darkreading.com/cyber-risk/focus-cyber-insurance-quantifying-risk-reshape-security",
+      "summary": "In this latest installment of the Reporters' Notebook video series, we discuss how cyber insurance is forcing organizations to quantify risk, what's covered (and what's not), and why this could be the best thing to happen to cybersecurity.",
+      "date": "28-05-2026 10:29 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "BTMOB RAT Spreads Across Brazil, LatAm via MaaS Model",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/btmob-rat-brazil-latam-maas-model",
+      "summary": "An advanced remote access Trojan is propagating online. Notably, it's delivered via an operator licensing model and features a no-code malware-development interface.",
+      "date": "28-05-2026 07:06 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Nordic CISOs Handle Rising Cyber Threats Remarkably Well",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/nordic-cisos-rising-cyber-threats",
+      "summary": "Artificial intelligence notwithstanding, the vast majority of CISOs in northern Europe say they're facing no more serious cyberattacks than they did two years ago.",
+      "date": "28-05-2026 05:01 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -198,6 +441,32 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Latin American Cybercriminals Hoover Up Government Data",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data",
+      "summary": "A purported leak exposing 5.8 million records of Uruguayan citizens is the latest incident where cybercriminals targeted government agencies to monetize citizen data.",
+      "date": "28-05-2026 02:19 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI-Assisted Exploit Development Outpaces Scanner Detection",
+      "link": "https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection",
+      "summary": "Attackers are using AI to dramatically reduce the time they need to develop a working exploit for a CVE, according to new research.",
+      "date": "28-05-2026 02:11 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Risky Business",
@@ -245,6 +514,60 @@
         "Enterprise"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos",
+      "link": "https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos",
+      "summary": "In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.",
+      "date": "27-05-2026 05:47 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "State Cyber Leaders Push Congress for More Funding, Support",
+      "link": "https://www.darkreading.com/threat-intelligence/state-leaders-beg-congress-resume-cyber-funding",
+      "summary": "A recent congressional hearing highlighted how states are reeling from federal cutbacks to important cybergrants and information-sharing initiatives amid damaging attacks to critical infrastructure.",
+      "date": "27-05-2026 05:29 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Shai-Hulud Hackers TeamPCP: Lucky or Skilled?",
+      "link": "https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled",
+      "summary": "TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.",
+      "date": "27-05-2026 05:18 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Issues Out-of-Band SharePoint Patch",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
+      "summary": "SharePoint often gives access to the keys of the kingdom, something attackers and defenders understand all too well.",
+      "date": "27-05-2026 04:25 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Troy Hunt Blog",
