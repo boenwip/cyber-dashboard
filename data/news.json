@@ -1,7 +1,49 @@
 {
-  "last_updated": "09-06-2026 08:23 AM",
-  "count": 47,
+  "last_updated": "09-06-2026 09:13 AM",
+  "count": 46,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "BeyondTrust joins Anthropic's Project Glasswing push",
+      "link": "https://securitybrief.com.au/story/beyondtrust-joins-anthropic-s-project-glasswing-push",
+      "summary": "The partnership could help uncover critical flaws faster as AI-driven attacks and machine identities raise the stakes for infrastructure security.",
+      "date": "09-06-2026 09:04 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Archer quantum fraud test advances on real hardware",
+      "link": "https://securitybrief.com.au/story/archer-quantum-fraud-test-advances-on-real-hardware",
+      "summary": "Testing on a commercial quantum computer showed Archer's model can spot fraud, though the higher false-positive rate underscores hurdles for banks.",
+      "date": "09-06-2026 08:41 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "New Relic launches AI coding observability feature",
+      "link": "https://securitybrief.com.au/story/new-relic-launches-ai-coding-observability-feature",
+      "summary": "It aims to close monitoring gaps as firms adopt multiple AI coding assistants, with spending, productivity and compliance now harder to track.",
+      "date": "09-06-2026 08:27 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Dark Reading",
       "title": "Silent Ransom Group Hits US Law Firms in Escalating Extortion Attacks",
@@ -83,48 +125,6 @@
       "threat": "Critical",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Synology outlines storage and surveillance roadmap",
-      "link": "https://securitybrief.com.au/story/synology-outlines-storage-and-surveillance-roadmap",
-      "summary": "Businesses will get cheaper storage and wider backup coverage as Synology adds SATA-based systems, object storage and AI tools to its roadmap.",
-      "date": "08-06-2026 04:26 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Sophos & Rubrik launch Microsoft 365 backup service",
-      "link": "https://securitybrief.com.au/story/sophos-rubrik-launch-microsoft-365-backup-service-e96aff04-e642-4917-94a4-65d94995fd0d",
-      "summary": "Security teams can now restore Microsoft 365 data from ransomware or deletion within Sophos Central, reducing reliance on separate backup tools.",
-      "date": "08-06-2026 02:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "PhishByte warns spear phishing drives payment fraud losses",
-      "link": "https://securitybrief.com.au/story/phishbyte-warns-spear-phishing-drives-payment-fraud-losses",
-      "summary": "Targeted email scams are pushing payment redirection fraud losses higher as Australian firms lose more than AUD $166.8 million.",
-      "date": "08-06-2026 08:30 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "High",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -635,19 +635,6 @@
         "AU Cyber"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Troy Hunt Blog",
-      "title": "Welcoming the Bhutanese Government to Have I Been Pwned",
-      "link": "https://www.troyhunt.com/welcoming-the-bhutanese-government-to-have-i-been-pwned/",
-      "summary": "Today, we welcome the 45th government onboarded to Have I Been Pwned&#x2019;s free gov service: Bhutan. The Bhutan Computer Incident Response Team, BtCIRT, now has access to monitor Bhutanese government domains against the data in HIBP. As Bhutan&#x2019;s national CIRT, BtCIRT is responsible for con",
-      "date": "26-05-2026 08:52 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     }
