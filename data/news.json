@@ -1,7 +1,106 @@
 {
-  "last_updated": "09-06-2026 08:29 PM",
+  "last_updated": "10-06-2026 08:21 AM",
   "count": 47,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Phishing costs rise to USD $51,948 per analyst yearly",
+      "link": "https://securitybrief.com.au/story/phishing-costs-rise-to-usd-51-948-per-analyst-yearly",
+      "summary": "Attackers are using generative AI to flood inboxes, pushing phishing to 36.5% of security teams' hours and USD $51,948 per analyst yearly.",
+      "date": "10-06-2026 08:16 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "A Record-Breaking Patch Tuesday for June 2026",
+      "link": "https://krebsonsecurity.com/2026/06/a-record-breaking-patch-tuesday-for-june-2026/",
+      "summary": "Microsoft today released software updates to plug nearly 200 security holes across its Windows operating systems and supported software, a record number of fixes for the company's monthly Patch Tuesday cycle. Nearly three dozen of those bugs earned Microsoft's most dire \"critical\" rating, and exploi",
+      "date": "10-06-2026 08:07 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Blame AI: Patch Tuesday Hits Record 206 CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/blame-ai-patch-tuesday-record-206-cves",
+      "summary": "Voluminous patch updates could soon be the norm, as artificial intelligence accelerates the speed and scale of vulnerability discovery.",
+      "date": "10-06-2026 07:42 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "ServiceNow discloses security incident exposing customer data - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNejRLd3FQUkxRRHlpMHNPb3doN3lLNDMxNmtvTjhBT0g0N3c0aUprV0VyY2c5Mmx5TGxBVU5wOHJfNG90UDJieUxrSldWejd6VFAyek14RVNWLXVreXFlbE5iRUNEUmtUQTJSVzEybl9mWFlZU3ctOGxCQW1rMmhkQ0p1SE1NUFBVVGxrNVlnZ0R6azNnNzdrd1FIS3hmMmtVVFY4OUkzNkxRLTY3QVHSAbMBQVVfeXFMTS1EUlFXVmFfcFFXc0ZyRVlZTEdRWmNKRFFWdXZUQ3docllSOUpJbmJGV0hRNklQVUV1VzhPWWtPZ1ZaOWJlc1VBNDQ1VlVQQ2pQMV9uOU5iMjFPS19rWGczaUdZbzhkQkl6dlJZMVhuU3JzWHl3bzMtUG1PTzBTMzdZVFdlOHhXSXZndXVidjFQal90MlFtbW1tODNvamdXZWsxNHVwWGR5YXdHcnpBbWNKem8?oc=5",
+      "summary": "ServiceNow discloses security incident exposing customer data BleepingComputer",
+      "date": "10-06-2026 07:34 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Miasma Supply Chain Worm Burrows Into 73 Microsoft Repositories",
+      "link": "https://www.darkreading.com/application-security/miasma-supply-chain-worm-73-microsoft-repositories",
+      "summary": "The attacks stemmed from a GitHub account that was also compromised in a previous Miasmi attack on Microsoft last month.",
+      "date": "10-06-2026 05:33 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CSC adds .brand domain security to CrowdStrike Marketplace",
+      "link": "https://securitybrief.com.au/story/csc-adds-brand-domain-security-to-crowdstrike-marketplace",
+      "summary": "Customers can now access advice on branded web domains as phishing and impersonation risks push more firms to tighten online controls.",
+      "date": "10-06-2026 05:21 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Russian Attackers Weaponize WinRAR Flaw Against Ukrainian Orgs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/russian-groups-winrar-flaw-ukrainian-orgs",
+      "summary": "Two separate campaigns target CVE-2025-8088, fixed last July, to conduct data theft and cyberespionage against military and government targets in Ukraine.",
+      "date": "10-06-2026 01:37 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Healthcare data fuels underground cybercrime economy",
@@ -12,48 +111,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Broadcom expands Spring security with faster patches",
-      "link": "https://securitybrief.com.au/story/broadcom-expands-spring-security-with-faster-patches",
-      "summary": "Java developers using Spring will get faster fixes as Broadcom backs day-zero patch access and more secure dependency builds for paying customers.",
-      "date": "09-06-2026 01:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Rising hardware costs accelerate shift to private cloud adoption",
-      "link": "https://securitybrief.com.au/story/rising-hardware-costs-accelerate-shift-to-private-cloud-adoption",
-      "summary": "Higher hardware prices and longer lead times are pushing Australian firms towards private cloud for steadier costs and onshore data control.",
-      "date": "09-06-2026 12:22 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cohesity gains access to Anthropic's Claude for security",
-      "link": "https://securitybrief.com.au/story/cohesity-gains-access-to-anthropic-s-claude-for-security",
-      "summary": "The restricted model could speed up vulnerability fixes across Cohesity's platform as AI intensifies both attack and defence in critical software.",
-      "date": "09-06-2026 10:47 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Critical",
       "audience": [
         "Critical Infra"
       ],
@@ -228,7 +285,7 @@
       "source": "Dark Reading",
       "title": "Bugcrowd Launches EU Data Residency Option For Evolving Data Sovereignty Needs",
       "link": "https://www.darkreading.com/cyber-risk/bugcrowd-launches-eu-data-residency-option-for-evolving-data-sovereignty-needs",
-      "summary": "Organizations are growing serious about what nation\u2019s rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.",
+      "summary": "Organizations are growing serious about which nation's rules apply to their data. Experts point to geopolitical tensions as a main contributing factor.",
       "date": "05-06-2026 12:22 AM",
       "tags": [
         "Compliance"
@@ -597,60 +654,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Feeding Frenzy: 'Megalodon' Malware Infects Thousands of GitHub Repos",
-      "link": "https://www.darkreading.com/application-security/megalodon-malware-infects-thousands-github-repos",
-      "summary": "In just six hours, the campaign quietly pushed thousands of malicious commits to more than 5,500 GitHub repositories, stealing credentials, developer secrets, and more.",
-      "date": "27-05-2026 05:47 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "State Cyber Leaders Push Congress for More Funding, Support",
-      "link": "https://www.darkreading.com/threat-intelligence/state-leaders-beg-congress-resume-cyber-funding",
-      "summary": "A recent congressional hearing highlighted how states are reeling from federal cutbacks to important cybergrants and information-sharing initiatives amid damaging attacks to critical infrastructure.",
-      "date": "27-05-2026 05:29 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Shai-Hulud Hackers TeamPCP: Lucky or Skilled?",
-      "link": "https://www.darkreading.com/application-security/shai-hulud-hackers-teampcp-lucky-skilled",
-      "summary": "TeamPCP, the cybercrime group behind later waves of the Shai-Hulud worm, has done significant damage to the open source ecosystem. But it's not necessarily due to skill alone.",
-      "date": "27-05-2026 05:18 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft Issues Out-of-Band SharePoint Patch",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-issues-sharepoint-patch",
-      "summary": "SharePoint often gives access to the keys of the kingdom, something attackers and defenders understand all too well.",
-      "date": "27-05-2026 04:25 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

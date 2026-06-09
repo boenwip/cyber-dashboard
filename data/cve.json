@@ -1,7 +1,40 @@
 {
-  "last_updated": "09-06-2026 08:29 PM",
+  "last_updated": "10-06-2026 08:21 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-11645",
+      "description": "Google Chromium V8 \u2014 Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect mul",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-09",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-7473",
+      "description": "Arista Extensible Operating System \u2014 Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-09",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
+      "vendor": "Arista",
+      "product": "Extensible Operating System",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-20245",
+      "description": "Cisco Catalyst SD-WAN Manager \u2014 Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbi",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-09",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-42271",
       "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
@@ -17,12 +50,12 @@
       "id": "CVE-2026-50751",
       "description": "Check Point Security Gateway \u2014 Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a r",
       "score": null,
-      "severity": "HIGH",
+      "severity": "CRITICAL",
       "published": "2026-06-08",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
       "vendor": "Check Point",
       "product": "Security Gateway",
-      "ransomware": "Unknown"
+      "ransomware": "Known"
     },
     {
       "id": "CVE-2026-28318",
@@ -78,39 +111,6 @@
       "vendor": "Oracle",
       "product": "WebLogic Server",
       "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-0257",
-      "description": "Palo Alto Networks PAN-OS \u2014 Palo Alto Networks PAN-OS contains an authentication bypass vulnerability that allows attackers to bypass security restrictions and establish an unauthorized VPN connection.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-05-29",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0257",
-      "vendor": "Palo Alto Networks",
-      "product": "PAN-OS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-48027",
-      "description": "Nx Nx Console \u2014 Nx Console contains an embedded malicious code vulnerability that allowed a malicious version of Nx Console to be published. The compromised extension fetched an obfuscated payload that could harveste",
-      "score": null,
-      "severity": "CRITICAL",
-      "published": "2026-05-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48027",
-      "vendor": "Nx",
-      "product": "Nx Console",
-      "ransomware": "Known"
-    },
-    {
-      "id": "CVE-2026-45321",
-      "description": "TanStack TanStack \u2014 TanStack contains an unspecified vulnerability that allowed malicious versions of the product to be published to the npm registry to publish credential-stealing malware under a trusted identity.",
-      "score": null,
-      "severity": "CRITICAL",
-      "published": "2026-05-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45321",
-      "vendor": "TanStack",
-      "product": "TanStack",
-      "ransomware": "Known"
     }
   ]
 }
