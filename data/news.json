@@ -1,7 +1,79 @@
 {
-  "last_updated": "10-06-2026 11:37 AM",
-  "count": 51,
+  "last_updated": "10-06-2026 12:38 PM",
+  "count": 53,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Elastic adds Kubernetes incident workflow for AI tools",
+      "link": "https://securitybrief.com.au/story/elastic-adds-kubernetes-incident-workflow-for-ai-tools",
+      "summary": "Outages in Kubernetes clusters can now be triaged automatically inside AI tools, cutting the time on-call engineers spend hunting root causes.",
+      "date": "10-06-2026 12:36 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cyber criminals target World Cup staff & suppliers",
+      "link": "https://securitybrief.com.au/story/cyber-criminals-target-world-cup-staff-suppliers",
+      "summary": "Attackers are using fake World Cup sites and messaging apps to steal credentials, with some scams now aimed at event suppliers and staff.",
+      "date": "10-06-2026 12:13 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian football fans trust fake Wi-Fi networks",
+      "link": "https://securitybrief.com.au/story/australian-football-fans-trust-fake-wi-fi-networks",
+      "summary": "Most Australian fans would still join venue-named hotspots, leaving match-day travellers exposed to phishing, fake streams and account theft.",
+      "date": "10-06-2026 12:13 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "How Australians can spot FIFA World Cup scams",
+      "link": "https://australiancybersecuritymagazine.com.au/how-australians-can-spot-fifa-world-cup-scams/?utm_source=rss&utm_medium=rss&utm_campaign=how-australians-can-spot-fifa-world-cup-scams&utm_source=rss&utm_medium=rss&utm_campaign=how-australians-can-spot-fifa-world-cup-scams",
+      "summary": "Australians planning to attend the FIFA World Cup in North America next year are being warned to watch for ticketing and related scams that typically surge around major sporting events, [...]",
+      "date": "10-06-2026 11:53 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Datadog launches 100 AI tools for operations & security",
+      "link": "https://securitybrief.com.au/story/datadog-launches-100-ai-tools-for-operations-security",
+      "summary": "The rollout aims to help customers tame rising AI-driven complexity as Datadog adds autonomous monitoring, security and agent oversight tools.",
+      "date": "10-06-2026 11:50 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "BlueVoyant launches AI platform for security operations",
@@ -70,37 +142,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Tanium named Forrester leader in endpoint management",
-      "link": "https://securitybrief.com.au/story/tanium-named-forrester-leader-in-endpoint-management",
-      "summary": "Large enterprises under pressure to speed up patching and visibility now have a stronger shortlist option after Forrester ranked Tanium a leader.",
-      "date": "10-06-2026 09:50 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "North Korea-linked hackers target developers via GitHub",
-      "link": "https://securitybrief.com.au/story/north-korea-linked-hackers-target-developers-via-github",
-      "summary": "Nearly 100 organisations were hit in a six-week phishing spree that used GitHub repositories and Visual Studio Code tools to infect developers.",
-      "date": "10-06-2026 08:45 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
     },
     {
       "source": "Krebs on Security",
@@ -694,22 +735,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Sovereign Technology Report highlights execution pressure on public sector transformation",
-      "link": "https://australiancybersecuritymagazine.com.au/sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation/?utm_source=rss&utm_medium=rss&utm_campaign=sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation&utm_source=rss&utm_medium=rss&utm_campaign=sovereign-technology-report-highlights-execution-pressure-on-public-sector-transformation",
-      "summary": "Australian government and critical infrastructure organisations face growing pressure to modernise technology environments while maintaining operational control, accountability and resilience, according to new research commissioned by Kinetic IT and developed [...]",
-      "date": "27-05-2026 11:41 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
