@@ -1,5 +1,5 @@
 {
-  "last_updated": "11-06-2026 08:50 AM",
+  "last_updated": "11-06-2026 09:27 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "11-06-2026 08:50 AM"
+      "date": "11-06-2026 09:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.170",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "11-06-2026 08:50 AM"
+      "date": "11-06-2026 09:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.169",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve",
-      "date": "11-06-2026 08:50 AM"
+      "date": "11-06-2026 09:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.168",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "11-06-2026 08:50 AM"
+      "date": "11-06-2026 09:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.167",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.167",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "11-06-2026 08:50 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic CEO calls for FAA-style regulation of powerful AI models: what enterprises should know - VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQek9ndmxod255ZDg1N0pIbVJteVdnVVVBanpFaHd3ZmhrOXhMQVpvaTdrSHhHVlZNTXR4eHFxQUs5MDgyWVYzVjVMR1ItaWlzYzNmVG10eFNNRW5PWFJTWUtHU0RqZGUxVkR2VjRJYjFNZmg3QmNGUFFuXy1tQ0xDUGNJaWZTc0hHZnVzRk55NkRySjhFWk15UXN3em5Uc3ZNMnhEc2tQNTlfZG1JUDZXYk5RSGpfMkxHQ0hDXzRGMmZjNkd4Ty12V2RR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQek9ndmxod255ZDg1N0pIbVJteVdnVVVBanpFaHd3ZmhrOXhMQVpvaTdrSHhHVlZNTXR4eHFxQUs5MDgyWVYzVjVMR1ItaWlzYzNmVG10eFNNRW5PWFJTWUtHU0RqZGUxVkR2VjRJYj",
-      "date": "11-06-2026 05:50 AM"
+      "date": "11-06-2026 09:27 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -131,20 +123,20 @@
       "date": "10-06-2026 03:00 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Offers Mythos Upgrade for Cyber Partners and a \u2018Safe\u2019 Version for the Rest of You - WIRED",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MG",
+      "date": "10-06-2026 03:00 AM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "How ChatGPT\u2019s New Memory Update Changes Your Daily Workflows - Geeky Gadgets",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE92WGN1aXVUY3FBb1dZTjZSc29nRmpCVlZOSGFjSG9qOGJSRVRWQi1mbkFZUDAzcUZVbTFrQ294M0o1TUJOU0JMZVkyb1FZTHhOdnZpeGNpaUdqY2NhWlZVLTJON3IydGItZ21FMGtuRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE92WGN1aXVUY3FBb1dZTjZSc29nRmpCVlZOSGFjSG9qOGJSRVRWQi1mbkFZUDAzcUZVbTFrQ294M0o1TUJOU0JMZVkyb1FZTHhOdnZpeGNpaUdqY2NhWlZVLTJON3IydGItZ21FMGtuRQ",
       "date": "08-06-2026 08:45 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI Announces Unnerving New ChatGPT Feature Named \u2018Lockdown Mode\u2019 - Gizmodo",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOR3lRQXh5MXR3UTU1ZjZVN2M5eGZBcmNUYVY4WGplbGMwRzFDTkZMUDdnMWdvZ1RxZU9JNU5FWlhCMTFaajJLb3E4R2xFNU9VQ0xHbXpDN2QwWUFjeFRMUlp5ejVHYUZya3BMZVl3RUxQcGhrV1hLSHZyRVpfbHZIdmtwT3FxNmdHQkJONTdLOWw3d0xEdTFQbVpBSkdSZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOR3lRQXh5MXR3UTU1ZjZVN2M5eGZBcmNUYVY4WGplbGMwRzFDTkZMUDdnMWdvZ1RxZU9JNU5FWlhCMTFaajJLb3E4R2xFNU9VQ0xHbXpDN2QwWUFjeFRMUlp5ejVHYUZya3BMZVl3RU",
-      "date": "07-06-2026 07:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -195,14 +187,6 @@
       "date": "02-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Codex for every role, tool, and workflow - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB6RzVPbFNDZEpQQWYwa3MyOTJ1ZTFMemc2MFJXUl9MZXNiTmVIMjZaSVN6VkwxNkFGekF3UEVHc3d4SS13SEFsbURCMGgtcVFzZ0xZWlRYQmx4b0Qwdnk1cFEwNklFc3dKbzhlUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTFB6RzVPbFNDZEpQQWYwa3MyOTJ1ZTFMemc2MFJXUl9MZXNiTmVIMjZaSVN6VkwxNkFGekF3UEVHc3d4SS13SEFsbURCMGgtcVFzZ0xZWlRYQmx4b0Qwdnk1cFEwNklFc3dKbzhlUQ?oc=",
-      "date": "02-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -249,6 +233,22 @@
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObklUYThuaWlLWG5nX0ZRa25oN0hkQS1NWXlRbmdka2FpbTAxOXBESlZwdmFMR3lVbEM1YmFlTEdQRkl4a2pyZWNyZzE5RXRMS0o0RXhNZFFBYzB0X1pWRHFXR2ZwWmNtUkZSWDA3Z2tSYnMyc2piZjFzNGV4VU56TVk0S043VEpJWWYzaEJhd1RudU1Ic215dy1LUDdVRnZ4SDlMcDZRcTJmV1BDbHdacl9oQjdVQQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxObklUYThuaWlLWG5nX0ZRa25oN0hkQS1NWXlRbmdka2FpbTAxOXBESlZwdmFMR3lVbEM1YmFlTEdQRkl4a2pyZWNyZzE5RXRMS0o0RXhNZFFBYzB0X1pWRHFXR2ZwWmNtUkZSWDA3Z2",
       "date": "14-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
+      "date": "05-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozND",
+      "date": "24-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
