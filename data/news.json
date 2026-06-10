@@ -1,42 +1,55 @@
 {
-  "last_updated": "10-06-2026 09:07 PM",
-  "count": 47,
+  "last_updated": "11-06-2026 08:50 AM",
+  "count": 53,
   "items": [
     {
-      "source": "Risky Business",
-      "title": "Risky Business #841 -- Microsoft gets owned and 0day'd",
-      "link": "https://risky.biz/RB841/",
-      "summary": "On this week\u2019s show special guest co-host Chris Wade, the founder of Corellium turned Cellebrite CTO, joins Patrick Gray and James Wilson to discuss the week\u2019s cybersecurity news. They cover: Microsoft has repos owned, GitHub tokens popped, and a new 0day dropped on them Meanwhile, researchers are c",
-      "date": "10-06-2026 04:35 PM",
+      "source": "Security Brief Australia",
+      "title": "Evergreen buys OSIT in its largest ANZ deal to date",
+      "link": "https://securitybrief.com.au/story/evergreen-buys-osit-in-its-largest-anz-deal-to-date",
+      "summary": "The deal gives Evergreen a bigger foothold in Australia and New Zealand as demand for outsourced IT support and cybersecurity keeps rising.",
+      "date": "11-06-2026 08:30 AM",
       "tags": [
-        "AI & Tools"
+        "AU Cyber"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
+      "relevance": "AU General"
     },
     {
       "source": "Security Brief Australia",
-      "title": "KnowBe4 launches game to train staff on vishing scams",
-      "link": "https://securitybrief.com.au/story/knowbe4-launches-game-to-train-staff-on-vishing-scams",
-      "summary": "Phone-based fraud is forcing employers to train staff more aggressively as vishing losses rise and call scams spread across Australia.",
-      "date": "10-06-2026 03:01 PM",
+      "title": "Telstra launches bank-verified identity checks in store",
+      "link": "https://securitybrief.com.au/story/telstra-launches-bank-verified-identity-checks-in-store",
+      "summary": "Telstra store customers can now verify their identity through a bank in seconds, cutting document handovers and helping curb fraud.",
+      "date": "11-06-2026 08:00 AM",
       "tags": [
-        "AU Cyber",
         "Scams"
       ],
       "threat": "Advisory",
       "audience": [
+        "Enterprise",
         "Consumer"
       ],
       "relevance": "AU General"
     },
     {
+      "source": "Dark Reading",
+      "title": "CISA Rewrites Federal Patching Requirements for AI Threat Era",
+      "link": "https://www.darkreading.com/cyber-risk/cisa-rewrites-federal-patching-requirements-ai-threat-era",
+      "summary": "The new directive gives federal agencies three days to fix the most dangerous flaws, while less severe issues can be deferred.",
+      "date": "11-06-2026 07:17 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Security Brief Australia",
-      "title": "Enterprises shift AI workloads towards private cloud",
-      "link": "https://securitybrief.com.au/story/enterprises-shift-ai-workloads-towards-private-cloud",
-      "summary": "Rising costs, security worries and data sovereignty are pushing more firms to run production AI inferencing in private cloud, a Broadcom survey shows.",
-      "date": "10-06-2026 01:39 PM",
+      "title": "Spectrum wins ISO 27001 in seven months with Spotica",
+      "link": "https://securitybrief.com.au/story/spectrum-wins-iso-27001-in-seven-months-with-spotica",
+      "summary": "The certification could help Spectrum win government and enterprise contracts, after it cut the usual ISO 27001 timetable and costs sharply.",
+      "date": "11-06-2026 06:15 AM",
       "tags": [
         "Compliance"
       ],
@@ -47,31 +60,137 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "Bug Bounty Research Triggers ServiceNow Security Alert",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/bug-bounty-research-triggers-servicenow-security-alert",
+      "summary": "Bug bounty research inadvertently led organizations to believe they were being breached through their ServiceNow instances.",
+      "date": "11-06-2026 06:07 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Security Brief Australia",
-      "title": "Gallagher to host Western Australia Security Forum in Perth",
-      "link": "https://securitybrief.com.au/story/gallagher-to-host-western-australia-security-forum-in-perth",
-      "summary": "Security operators in Western Australia will get updates on protecting critical assets and integrating systems at the Perth forum.",
-      "date": "10-06-2026 01:08 PM",
+      "title": "Averlon launches Precog to block exploitable risks",
+      "link": "https://securitybrief.com.au/story/averlon-launches-precog-to-block-exploitable-risks",
+      "summary": "Security teams are under pressure as attacks can now begin before patches land, making early risk detection critical.",
+      "date": "11-06-2026 05:23 AM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Check Point adds AI security tools for MSP partners",
+      "link": "https://securitybrief.com.au/story/check-point-adds-ai-security-tools-for-msp-partners",
+      "summary": "As AI use spreads, MSPs can now monitor and govern employees' interactions with AI tools through Check Point's expanded platform.",
+      "date": "11-06-2026 03:04 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Nightmare-Eclipse Drops Yet Another Microsoft Exploit, RoguePlanet",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-microsoft-exploit-rogueplanet",
+      "summary": "The disgruntled researcher released yet another PoC for a Windows Defender bug that allows for system takeover, showing no signs of abandoning their ongoing feud with Microsoft.",
+      "date": "11-06-2026 02:31 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Global cyber attacks fall but ransomware jumps 48%",
+      "link": "https://securitybrief.com.au/story/global-cyber-attacks-fall-but-ransomware-jumps-48",
+      "summary": "Ransomware losses worsened in May as attacks climbed 48% year on year, despite a 7% drop in overall cyber incidents.",
+      "date": "11-06-2026 02:19 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic launches Claude Fable 5 with safety limits",
+      "link": "https://securitybrief.com.au/story/anthropic-launches-claude-fable-5-with-safety-limits",
+      "summary": "Many harmless prompts will now be diverted to Claude Opus 4.8 as Anthropic tightens safeguards around its newest general-use model.",
+      "date": "11-06-2026 01:30 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Who Runs the Ransomware Group \u2018The Gentlemen?\u2019",
+      "link": "https://krebsonsecurity.com/2026/06/who-runs-the-ransomware-group-the-gentlemen/",
+      "summary": "A cybercrime group known as The Gentlemen has emerged as the second most active ransomware gang by victim count, rapidly attracting a talented pool of hackers through an aggressive recruitment strategy that promises affiliates 90 percent of any ransom paid by victims. This post examines clues pointi",
+      "date": "11-06-2026 12:03 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Elastic adds Kubernetes incident workflow for AI tools",
-      "link": "https://securitybrief.com.au/story/elastic-adds-kubernetes-incident-workflow-for-ai-tools",
-      "summary": "Outages in Kubernetes clusters can now be triaged automatically inside AI tools, cutting the time on-call engineers spend hunting root causes.",
-      "date": "10-06-2026 12:36 PM",
+      "source": "404 Media",
+      "title": "Cops Keep Getting Arrested for Using Flock to Stalk People",
+      "link": "https://www.404media.co/cops-keep-getting-arrested-for-using-flock-to-stalk-people/",
+      "summary": "There have been more than a dozen cases around the country where police use Flock to obsessively and illegally stalk people.",
+      "date": "10-06-2026 11:22 PM",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "Good News"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPTk9VMWJ5TXZzdFNyT1l0WmVrTDF5TV96NEUwSXlPcGFJdVhIQXZRdHhLanl1WFNGSHdUaWJVNWZ0ZDF3NnE1WlVBcEkwVmNxZkNyUFpVTDFfejRJU3dWTmp1QlBSNGw0RG9qNm85MVhLMHlac0FvZXlyWmZZeWpra1FOQWgzVWRhV2FXZHNHZzM1MTUyZU1CNWI5QWlvUHg1R1VMM2tCTTdDbjJfSTB1VkhRRDI4TlVhd01iSFZOQm40b2xMcm1DQW9faXFMSm5kNFlTOXNQNFYtdVBPRXJWTlV1UUZzLVVYUUFVLUxObzZOd2plZVJiQlI0ZmdxbjJpaHo5WUo5dkczc202dTZ3UVFIeENTVVJnUTZuWTB1cjlLclJoMnA1NGNJLWNKZkRZdTBGVm03RUdvMlQzTUtheW9FUGpmeGVxQm55RlM1QzBtSUNZWWhNcWJYMm9YRnkwQ2lGNHAzekdXOE91a2c?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "10-06-2026 09:46 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #841 -- Microsoft gets owned and 0day'd",
+      "link": "https://risky.biz/RB841/",
+      "summary": "On this week\u2019s show special guest co-host Chris Wade, the founder of Corellium turned Cellebrite CTO, joins Patrick Gray and James Wilson to discuss the week\u2019s cybersecurity news. They cover: Microsoft has repos owned, GitHub tokens popped, and a new 0day dropped on them Meanwhile, researchers are c",
+      "date": "10-06-2026 04:35 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -173,22 +292,6 @@
       ],
       "threat": "Medium",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNdTByekdSU3I5dXhFOGdEanNUbUNXc2J5ODZQMmdvVm9lMVVsN2t3aVNPTkFvdWRtc1FpT2RCRTZ3c2NGTF9RdW5JSV9XNDFtdFN1a2ljeGcyUDNlRGR3ejdQdXVPdlhMUHhJQmpBNDR2WlRybThGXzhlNVpsMUR1LXdMa3I0cmZXU0ttNjFaajVLVFluOXoxQ1VGR0lsMEVvVFZIRGc4aEhfb2dqbzJiX2VGcjV1UzU3b19YcUVDTUdSR214TUFlTWwteVVONERaQWVqVzZ3QXpvY2lqVGxBdFMtWU9DaVZQWmtjNzRxZlczY1RCcE9DNlRCWTVVaGhkbjhiUjFVMDNfY1lERGpzMnlTbldTUmhsWVhmNWUtaDFZXzhHVjJaRVhSOTBOVE9RNzFhTGJmR0xIT3hmM054ZXFjYld1R21nTmhiSU5UaG1VeEtVdXpvOHh0UEI?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "09-06-2026 10:23 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -627,32 +730,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Latin American Cybercriminals Hoover Up Government Data",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/latin-american-cybercriminals-government-data",
-      "summary": "A purported leak exposing 5.8 million records of Uruguayan citizens is the latest incident where cybercriminals targeted government agencies to monetize citizen data.",
-      "date": "28-05-2026 02:19 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI-Assisted Exploit Development Outpaces Scanner Detection",
-      "link": "https://www.darkreading.com/threat-intelligence/ai-assisted-exploit-development-scanner-detection",
-      "summary": "Attackers are using AI to dramatically reduce the time they need to develop a working exploit for a CVE, according to new research.",
-      "date": "28-05-2026 02:11 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
