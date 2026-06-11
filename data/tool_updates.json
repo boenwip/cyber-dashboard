@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-06-2026 08:49 AM",
+  "last_updated": "12-06-2026 09:25 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "12-06-2026 08:49 AM"
+      "date": "12-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "12-06-2026 08:49 AM"
+      "date": "12-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.170",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "12-06-2026 08:49 AM"
+      "date": "12-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.169",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve",
-      "date": "12-06-2026 08:49 AM"
+      "date": "12-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.168",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "12-06-2026 08:49 AM"
+      "date": "12-06-2026 09:25 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -67,6 +67,14 @@
       "date": "12-06-2026 04:57 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Using Claude Fable 5 means opting into data collection - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRUM5N01kYjVHRHZNX1FzeG1pbUJYR25HVG1raGN0YkplRldOMVM5LXZwYl9QeDVoQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRU",
+      "date": "12-06-2026 03:43 AM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Dev for Android Update",
@@ -78,8 +86,8 @@
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Tech updates (June 11, 2026): New ASUS gaming laptops, Canva Offline, Samsung AI deals, more - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN195dzZtMk45Tk5wY3pubVBfZURIMnVCTTk2VjQyRXU5bDhnWFlwZjRPQkdvWUM4MVE3cXlLMVhrYWpsTlVkcXotbjU1anJ4TGhOUmFINE45SXFYcHlfNXdKcW5EUE4wTXpWY1R0ZU0yX0dXcUVZZUxqOTRObFpFZ2V2U3Atd1VNTkFMT2_SAfoBQVVfeXFMUGp2R3VxU25kUlY5ZmVZeEtOemd6czlxZmpIUDlURXlvU25faUxVWHk4Zy1vckZPTm00XzBvZmJvSmUydjJIdnFQZUdLejd3VVlRblJkLTFpQW4tcGZmQ1pSU3VhcFZxQTJXWk5YekZYYVlVMWxpOWxBMUVqaDd3VlZma2VtOGdqeFB5SzdGaTBVVU5ZQWxnRHl5NFlYQVR1bTVackgtLWRpd3hiMzk2c0MzRTMzXzl6akFVVFVzR0dIT283QnJxazNrTGl5OFMtZkRROXhBZE1DY0hMTGVyTFpESDJDbmJndk9JaW5WeVBjTzFmZFRjRVZjZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN1",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6RlhhWVUxbGk5bEExRWpoN3dWVmZrZW04Z2p4UHlLN0ZpMFVVTllBbGdEeXk0WVhBVHVtNVpySC0tZGl3eGIzOTZzQzNFMzNfOXpqQVVUVXNHR0hPbzdCcnFrM2tMaXk4Uy1mRFE5eEFkTUNjSExMZXJMWkRIMkNuYmd2T0lpblZ5UGNPMWZkVGNFVmNn0gH6AUFVX3lxTFBqdkd1cVNuZFJWOWZlWXhLTnpnenM5cWZqSFA5VEV5b1NuX2lMVVh5OGctb3JGT05tNF8wb2Zib0plMnYySHZxUGVHS3o3d1VZUW5SZC0xaUFuLXBmZkNaUlN1YXBWcUEyV1pOWHpGWGFZVTFsaTlsQTFFamg3d1ZWZmtlbThnanhQeUs3RmkwVVVOWUFsZ0R5eTRZWEFUdW01WnJILS1kaXd4YjM5NnNDM0UzM185empBVVRVc0dHSE9vN0JycWsza0xpeThTLWZEUTl4QWRNQ2NITExlckxaREgyQ25iZ3ZPSWluVnlQY08xZmRUY0VWY2c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6Rl",
       "date": "11-06-2026 09:57 PM"
     },
     {
@@ -105,14 +113,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-ios-update_02051407938.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.14) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
       "date": "11-06-2026 05:28 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
-      "date": "11-06-2026 01:53 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -144,14 +144,6 @@
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street - CNBC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodkY4MFh1TE1B0gF8QVVfeXFMTnE5TEtyeWVsVjdmVXZsNGRLMkpxRE5iQzlGdzQ4V1N2d0gxQk5xMGRJdjZ5ckRSRFhZeFFDYk1odkZLdWE5Uk15R3VlWnV3MzRvRms2Tm14T1lxVE1Wc2t0a1FUUm8yYWVwXzA3TDIwWVRUTGctVENYTHpZUg?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodk",
-      "date": "10-06-2026 03:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Offers Mythos Upgrade for Cyber Partners and a \u2018Safe\u2019 Version for the Rest of You - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MG",
       "date": "10-06-2026 03:00 AM"
     },
     {
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
+      "date": "12-03-2026 05:00 PM"
     }
   ]
 }
