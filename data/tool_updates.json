@@ -1,5 +1,5 @@
 {
-  "last_updated": "11-06-2026 09:53 PM",
+  "last_updated": "12-06-2026 08:49 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "11-06-2026 09:53 PM"
+      "date": "12-06-2026 08:49 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "11-06-2026 09:53 PM"
+      "date": "12-06-2026 08:49 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.170",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "11-06-2026 09:53 PM"
+      "date": "12-06-2026 08:49 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.169",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.169",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--safe-mode</code> flag (and <code>CLAUDE_CODE_SAFE_MODE</code>) to start Claude Code with all customizations (CLAUDE.md, plugins, skills, hooks, MCP serve",
-      "date": "11-06-2026 09:53 PM"
+      "date": "12-06-2026 08:49 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,47 @@
       "title": "v2.1.168",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.168",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "11-06-2026 09:53 PM"
+      "date": "12-06-2026 08:49 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/06/beta-channel-update-for-chromeos_01208472864.html",
+      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The ChromeOS Beta channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family:",
+      "date": "12-06-2026 07:33 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Updates for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/extended-stable-updates-for-desktop_01561723318.html",
+      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 148.0.7778.265</span><span color=\"rgba(0, 0, 0, 0.87)\">",
+      "date": "12-06-2026 04:59 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01962725236.html",
+      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666; font-size: 17px;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0",
+      "date": "12-06-2026 04:57 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_01778503557.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 151 (151.0.7885.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "11-06-2026 11:28 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Tech updates (June 11, 2026): New ASUS gaming laptops, Canva Offline, Samsung AI deals, more - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN195dzZtMk45Tk5wY3pubVBfZURIMnVCTTk2VjQyRXU5bDhnWFlwZjRPQkdvWUM4MVE3cXlLMVhrYWpsTlVkcXotbjU1anJ4TGhOUmFINE45SXFYcHlfNXdKcW5EUE4wTXpWY1R0ZU0yX0dXcUVZZUxqOTRObFpFZ2V2U3Atd1VNTkFMT2_SAfoBQVVfeXFMUGp2R3VxU25kUlY5ZmVZeEtOemd6czlxZmpIUDlURXlvU25faUxVWHk4Zy1vckZPTm00XzBvZmJvSmUydjJIdnFQZUdLejd3VVlRblJkLTFpQW4tcGZmQ1pSU3VhcFZxQTJXWk5YekZYYVlVMWxpOWxBMUVqaDd3VlZma2VtOGdqeFB5SzdGaTBVVU5ZQWxnRHl5NFlYQVR1bTVackgtLWRpd3hiMzk2c0MzRTMzXzl6akFVVFVzR0dIT283QnJxazNrTGl5OFMtZkRROXhBZE1DY0hMTGVyTFpESDJDbmJndk9JaW5WeVBjTzFmZFRjRVZjZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN1",
+      "date": "11-06-2026 09:57 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -67,44 +107,12 @@
       "date": "11-06-2026 05:28 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Stable for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-stable-for-ios-update.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Stable 149 (149.0.7827.137) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improve",
-      "date": "11-06-2026 02:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-android-update_0552428693.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.13) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>Yo",
-      "date": "11-06-2026 02:43 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_01047798853.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Dev 150 (150.0.7871.15) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You ",
-      "date": "11-06-2026 01:58 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Using Claude Fable 5 means your data will be collected. It\u2019s not optional. - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRUM5N01kYjVHRHZNX1FzeG1pbUJYR25HVG1raGN0YkplRldOMVM5LXZwYl9QeDVoQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRU",
-      "date": "11-06-2026 01:46 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-desktop-update_01461772900.html",
-      "summary": "<p>The Beta channel has been updated to 150.0.7871.13 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0",
-      "date": "11-06-2026 12:43 AM"
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
+      "date": "11-06-2026 01:53 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -139,12 +147,12 @@
       "date": "10-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI says ChatGPT\u2019s memory feature is getting smarter and coming to free users - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeFFDT0dEblZjTURjcVZBbkgtN0c0bkJzSUo2OEptajFpMWMtbGE4NFF3a2lZWUg4b0o2R2JDM0NERG5ZNzhma1FvOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeF",
-      "date": "05-06-2026 02:40 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Offers Mythos Upgrade for Cyber Partners and a \u2018Safe\u2019 Version for the Rest of You - WIRED",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MG",
+      "date": "10-06-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -195,6 +203,14 @@
       "date": "02-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT for iOS and Android can now start Codex work on Windows - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW4tVGM0NmU3NGVKX0lINWFCaHliYmhsUllnNVF3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW",
+      "date": "29-05-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -225,14 +241,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
       "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
       "date": "27-05-2026 02:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
-      "date": "20-05-2026 06:19 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -273,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
-      "date": "12-03-2026 05:00 PM"
     }
   ]
 }

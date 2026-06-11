@@ -1,7 +1,18 @@
 {
-  "last_updated": "11-06-2026 09:53 PM",
+  "last_updated": "12-06-2026 08:49 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-10520",
+      "description": "Ivanti Sentry \u2014 Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vul",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
+      "vendor": "Ivanti",
+      "product": "Sentry",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-11645",
       "description": "Google Chromium V8 \u2014 Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect mul",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
       "vendor": "Android",
       "product": "Framework",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2024-21182",
-      "description": "Oracle WebLogic Server \u2014 Oracle WebLogic contains an unspecified vulnerability that could allow an unauthenticated attacker with network access via T3, IIOP to compromise Oracle WebLogic Server. Successful attacks of this vul",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-01",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-21182",
-      "vendor": "Oracle",
-      "product": "WebLogic Server",
       "ransomware": "Unknown"
     }
   ]
