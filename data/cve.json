@@ -1,7 +1,18 @@
 {
-  "last_updated": "12-06-2026 09:45 PM",
+  "last_updated": "13-06-2026 04:09 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-35273",
+      "description": "Oracle  PeopleSoft Enterprise PeopleTools \u2014 Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise",
+      "score": null,
+      "severity": "CRITICAL",
+      "published": "2026-06-12",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-35273",
+      "vendor": "Oracle",
+      "product": " PeopleSoft Enterprise PeopleTools",
+      "ransomware": "Known"
+    },
     {
       "id": "CVE-2026-10520",
       "description": "Ivanti Sentry \u2014 Ivanti Sentry (formerly known as MobileIron Sentry) contains an OS command injection vulnerability which could allow a remote unauthenticated user to achieve root-level remote code execution. This vul",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
       "vendor": "Linux",
       "product": "Kernel",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-48595",
-      "description": "Android Framework \u2014 Android Framework contains an integer overflow vulnerability that allows for code execution that could allow for local privilege escalation.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-02",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-48595",
-      "vendor": "Android",
-      "product": "Framework",
       "ransomware": "Unknown"
     }
   ]
