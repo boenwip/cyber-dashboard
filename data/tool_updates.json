@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-06-2026 05:15 PM",
+  "last_updated": "12-06-2026 09:12 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "12-06-2026 05:15 PM"
+      "date": "12-06-2026 09:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.174",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>\n<li>Fixed the <code>/model</code> picker h",
-      "date": "12-06-2026 05:15 PM"
+      "date": "12-06-2026 09:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "12-06-2026 05:15 PM"
+      "date": "12-06-2026 09:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "12-06-2026 05:15 PM"
+      "date": "12-06-2026 09:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.170",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "12-06-2026 05:15 PM"
+      "date": "12-06-2026 09:12 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -85,18 +85,18 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Tech updates (June 11, 2026): New ASUS gaming laptops, Canva Offline, Samsung AI deals, more - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6RlhhWVUxbGk5bEExRWpoN3dWVmZrZW04Z2p4UHlLN0ZpMFVVTllBbGdEeXk0WVhBVHVtNVpySC0tZGl3eGIzOTZzQzNFMzNfOXpqQVVUVXNHR0hPbzdCcnFrM2tMaXk4Uy1mRFE5eEFkTUNjSExMZXJMWkRIMkNuYmd2T0lpblZ5UGNPMWZkVGNFVmNn0gH6AUFVX3lxTFBqdkd1cVNuZFJWOWZlWXhLTnpnenM5cWZqSFA5VEV5b1NuX2lMVVh5OGctb3JGT05tNF8wb2Zib0plMnYySHZxUGVHS3o3d1VZUW5SZC0xaUFuLXBmZkNaUlN1YXBWcUEyV1pOWHpGWGFZVTFsaTlsQTFFamg3d1ZWZmtlbThnanhQeUs3RmkwVVVOWUFsZ0R5eTRZWEFUdW01WnJILS1kaXd4YjM5NnNDM0UzM185empBVVRVc0dHSE9vN0JycWsza0xpeThTLWZEUTl4QWRNQ2NITExlckxaREgyQ25iZ3ZPSWluVnlQY08xZmRUY0VWY2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6Rl",
-      "date": "11-06-2026 09:57 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva Launches Free Offline Mode, Letting Users Design For Up To 14 Days Without Internet - ETV Bharat",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNEtsUThRMWFLb0FYbUhIUjVyNVFzX0RxMHNnWUZtSmZweTM0a1FYMHFyNWFlNzRYS3R0d1E0Z1hrcEFIMXBFLUlLSDZRS09qQ2pVLUE1OFdsWHY0SlV0cldGUk1VcUJad21Wa1lHU2VURkpuejjSAeABQVVfeXFMUE9KTmNCQklkbmJZU2JMUWYxclVVcU5yREQta3Z4TWx4YzJTZ3IyZEt4VThSTFI0aVNCTXVkYTRxWlVYWVA5a01Qcm1QSW8tX0VCUWFYSzlrcExneHZGcWtIbjgtMU1EeS05RGR0el83blhablZwMDRmM3U0SW44OUJWMVJGOHN2V2xOeHNuSUprOVFmWDNhWDhFRTI5WEhJTlAxeVZtQ0kyUDNCVU9BMnQyRi13N0hMRXJKa1ZvM0huY0ZwVWJLRjVsV25SLWF4Y2ZPQmhQbnd2NW9qTU8xcVc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNE",
       "date": "11-06-2026 08:20 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "You can now work on Canva designs without internet with Offline Mode - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm5lWlNvNEx6Y09WWVE1bElXTXVOVzU0cDNlb21hdV9LT2ZsSGFENERzMmN1dEVZUGRNRFVjY2pVOWRKOFN3ZU1VQXlDa0xiM2ZDaE42Mi1rQ0w3TWVDZjl1LWdUaXZqVVV0Q2NoeXVKLVA4M2pQbUcxa0pKWHlON0pxMC1YMkJUemUxWmFpNmZqLTduTEM2V3ZhZXpiT3ZZSUgyS2tXa2pud0g0S2ZuelJGNXpHcFY4akpGempEeWhnUmJCS1dj0gHHAUFVX3lxTFBGbmVaU280THpjT1ZZUTVsSVdNdU5XNTRwM2VvbWF1X0tPZmxIYUQ0RHMyY3V0RVlQZE1EVWNjalU5ZEo4U3dlTVVBeUNrTGIzZkNoTjYyLWtDTDdNZUNmOXUtZ1RpdmpVVXRDY2h5dUotUDgzalBtRzFrSkpYeU43SnEwLVgyQlR6ZTFaYWk2ZmotN25MQzZXdmFlemJPdllJSDJLa1dram53SDRLZm56UkY1ekdwVjhqSkZ6akR5aGdSYkJLV2M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm5lWlNvNEx6Y09WWVE1bElXTXVOVzU0cDNlb21hdV9LT2ZsSGFENERzMmN1dEVZUGRNRFVjY2pVOWRKOFN3ZU1VQXlDa0xiM2ZDaE42Mi1rQ0w3TWVDZjl1LWdUaXZqVVV0Q2NoeX",
+      "date": "10-06-2026 04:16 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -152,7 +152,7 @@
       "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
-      "date": "05-06-2026 02:07 AM"
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -195,6 +195,14 @@
       "date": "02-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT for iOS and Android can now start Codex work on Windows - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW4tVGM0NmU3NGVKX0lINWFCaHliYmhsUllnNVF3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW",
+      "date": "29-05-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -229,18 +237,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI improves Codex iOS experience with turn completion alerts, new commands, more - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFRQQTdqbXd6UzZZRG43eUFWdTNsdHd6bDItU3RjNjhiMzE0eTZqMTlYRk5STlBGZGUyV19MazlybFhDU3c2anYxLWtJODlSNDFvTG9nRUU4QTdKUTBxcEl1NkpaQ3NWWVIxamhnVUFJb0FmRTNHNXFrSjB6c2c2cGxOVWViYjVMUE5OdURJWmRnSVVUSWl0eHh4U0p5NzdlMzA3Rmx3MGlpaUF5TUhwRWJ2ZXg?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxNWFRQQTdqbXd6UzZZRG43eUFWdTNsdHd6bDItU3RjNjhiMzE0eTZqMTlYRk5STlBGZGUyV19MazlybFhDU3c2anYxLWtJODlSNDFvTG9nRUU4QTdKUTBxcEl1NkpaQ3NWWVIxamhnVU",
-      "date": "21-05-2026 05:00 PM"
+      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNT",
+      "date": "14-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
-      "date": "05-05-2026 05:00 PM"
+      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozND",
+      "date": "24-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -273,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
       "date": "12-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "4 Big Changes Coming To ChatGPT In 2026 - SlashGear",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8yV1NRVXo3NnhGRWJDUUtWdUFIVzJuRHRXenlRZk50WFplX0dtNHR6WWI2aW9WUUlBOGl4LWtzMTdJbEl0WDlkRkJCZkdERDRELVU1dkhkOFRzeDBjSW9YcWw0VjUwZ1B2WVVQMUtGVXV1ZWZoRGRFSQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE8yV1NRVXo3NnhGRWJDUUtWdUFIVzJuRHRXenlRZk50WFplX0dtNHR6WWI2aW9WUUlBOGl4LWtzMTdJbEl0WDlkRkJCZkdERDRELVU1dkhkOFRzeDBjSW9YcWw0VjUwZ1B2WVVQMUtGVX",
-      "date": "03-02-2026 06:00 PM"
     }
   ]
 }
