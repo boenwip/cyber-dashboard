@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-06-2026 09:12 PM",
+  "last_updated": "12-06-2026 09:45 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "12-06-2026 09:12 PM"
+      "date": "12-06-2026 09:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.174",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>\n<li>Fixed the <code>/model</code> picker h",
-      "date": "12-06-2026 09:12 PM"
+      "date": "12-06-2026 09:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "12-06-2026 09:12 PM"
+      "date": "12-06-2026 09:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "12-06-2026 09:12 PM"
+      "date": "12-06-2026 09:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.170",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "12-06-2026 09:12 PM"
+      "date": "12-06-2026 09:45 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,6 +91,14 @@
       "date": "11-06-2026 08:20 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Using Claude Fable 5 means your data will be collected. It\u2019s not optional. - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRUM5N01kYjVHRHZNX1FzeG1pbUJYR25HVG1raGN0YkplRldOMVM5LXZwYl9QeDVoQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRU",
+      "date": "11-06-2026 01:29 AM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "You can now work on Canva designs without internet with Offline Mode - Storyboard18",
@@ -105,14 +113,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0tsVnQ5eWhUaGM5aVNTOFdKM3BTb2NUSkk2bWdmVTk3c2tUUEdGX0JNcjdjMEZv?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0tsVnQ5eWhUaGM5aVNTOFdKM3",
       "date": "10-06-2026 08:28 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Mythos: Anthropic releases version of AI tool despite risk concerns - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5\" target=\"_blank\">Claud",
-      "date": "10-06-2026 04:35 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
