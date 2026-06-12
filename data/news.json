@@ -1,7 +1,22 @@
 {
-  "last_updated": "12-06-2026 09:25 AM",
-  "count": 52,
+  "last_updated": "12-06-2026 11:57 AM",
+  "count": 54,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium named a Leader in Forrester endpoint report",
+      "link": "https://securitybrief.com.au/story/tanium-named-a-leader-in-forrester-endpoint-report",
+      "summary": "The recognition strengthens Tanium's pitch to enterprises seeking faster patching and broader visibility across complex endpoint estates as cyber risks rise.",
+      "date": "12-06-2026 11:20 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Dark Reading",
       "title": "Phishing Attack Volume Down 20%, but Risk Still Rising",
@@ -13,6 +28,49 @@
         "Scams"
       ],
       "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "DXC deepens Anthropic tie-up for mission-critical AI",
+      "link": "https://securitybrief.com.au/story/dxc-deepens-anthropic-tie-up-for-mission-critical-ai",
+      "summary": "The deal will put Claude into banking, aviation and government systems, as DXC scales AI agents across regulated customer environments.",
+      "date": "12-06-2026 10:04 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Hype growing - but SMEs still face barriers to AI adoption",
+      "link": "https://securitybrief.com.au/story/hype-growing-but-smes-still-face-barriers-to-ai-adoption",
+      "summary": "Small firms risk falling behind unless they adopt AI for practical gains, as SMEC AI says many are still confused by the technology.",
+      "date": "12-06-2026 09:55 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Rubrik launches cloud recovery tool for cyber attacks",
+      "link": "https://securitybrief.com.au/story/rubrik-launches-cloud-recovery-tool-for-cyber-attacks",
+      "summary": "Companies now face greater pressure to restore critical cloud services fast, as Rubrik's new tool targets the whole application stack after attacks.",
+      "date": "12-06-2026 09:44 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
       "audience": [],
       "relevance": "Global"
     },
@@ -59,19 +117,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Liquibase launches free CVE library for Community users",
-      "link": "https://securitybrief.com.au/story/liquibase-launches-free-cve-library-for-community-users",
-      "summary": "Older Liquibase Community users can now check release-by-release vulnerabilities in a free public library covering Docker images and binaries.",
-      "date": "12-06-2026 07:10 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Max-Severity Ivanti Flaw Exploited 24 Hours After Disclosure",
       "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ivanti-sentry-flaw-exploited-24-hours",
@@ -81,49 +126,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point gains OpenAI access for defensive security",
-      "link": "https://securitybrief.com.au/story/check-point-gains-openai-access-for-defensive-security",
-      "summary": "Faster threat analysis and incident response could bolster enterprise defences as the cyber security company gets access to GPT-5.5.",
-      "date": "12-06-2026 04:04 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra",
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ConnectWise launches AI-native platform for Predictive IT",
-      "link": "https://securitybrief.com.au/story/connectwise-launches-ai-native-platform-for-predictive-it",
-      "summary": "MSPs could trim ticket loads and lift margins as the new platform ties AI automation to service workflows and security operations.",
-      "date": "12-06-2026 01:45 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "PureVPN launches ChatGPT tool for VPN server access",
-      "link": "https://securitybrief.com.au/story/purevpn-launches-chatgpt-tool-for-vpn-server-access",
-      "summary": "Users in 10 markets can now find and connect to PureVPN servers through ChatGPT prompts, without sharing data with the chatbot.",
-      "date": "12-06-2026 01:15 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -638,6 +640,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "Over 116,000 Minecraft systems infected in WeedHack malware campaign - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNWGlqZm42YkRmdWNUTnUwRkM4WW9xYjZzdmZtZHMwd0xSVVNCbkVaZDBpWG1ScGtudE9CR3BKWVNrYW96dzZ1WjVJMnRFazNVcEJ5UHpFb0x4bnBpdzVpRVIzaDZxekM2eXhvby03cFd2UlJyUE9KSXYxTS1ub1FVVUJ1VGZ5SWpyVUthXzF4NEhSWlppSTgtLTFPeTgzaTgyTGUtNEpaMTVhZUpaTDdaTWlPUklMTzjSAbwBQVVfeXFMT2hKeWNhZDJUcjZnbXIxTzZYcjN3TW1wRFJMcHUwYWUtWXc4SEdWem8tN1V5eHkzbmlacFVrZXowT0N1UEJ4clhfdUNabU9tSlJ0SWNWa21rTHJWYnNNZkdjOWxHaEprZ2NYWVdxTXpiUmQ5elA1VFRNaFpqWnJoTzBhTXUzcElTSy1rcmZQc0xzYnc1WF9BaXhMTzJPYjFQZlhhX1BGdXFFcGJzdTZfV0VYakhfZElPUlhIODI?oc=5",
+      "summary": "Over 116,000 Minecraft systems infected in WeedHack malware campaign BleepingComputer",
+      "date": "02-06-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Anthropic to Open Mythos AI to EU's ENISA",
       "link": "https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa",
@@ -712,6 +727,20 @@
       "date": "29-05-2026 10:00 PM",
       "tags": [
         "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Bleeping Computer AU",
+      "title": "ChatGPT share links abused to host fake outage pages to deliver malware - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNS2FjN3IxMFJTR044NmV1SVJZUTA3VXpBN1ZNTDU4a3N5cWVxYXU1VGtuOUdpYlZtdHhvdGRrRFdFWEZjRXN0RVNKTjFRaVg5eGlNeEZFblJJNGxzYWVwRzViSjFPc0pCUk9aOFdkMHZjOUJuY3gxNWFXUHJnczRkU1c5dkpKVlYxd3lMTEUxNTRYSGtCa0dBRHdwcldpMThBbFg4WGphaFg1S29nZlo4LUVrMnpjSkZfa0840gHAAUFVX3lxTE5TZHpOX0hrakRPbHgzeTZCNWVWTGlxVXpSTXFVa1NBRTF5bDF1THFLazkzLXU5NThONzEyMnJyNDBIc2Q1SFVYcWtoQnlTaWxFMjF1TVRLNFJtMUtycU9ITDl5c19pdEJjM1dqMWhtcDZsVFcwZVlURG1rUFYtRGRjXzk4ZlVZU3NkcVpXNlMwLWVxQU1JUENXUlRUZ2Y2TE9zUXJJQ0FmZHFEM0d2SWd5OTZOaHRKMEdHVzUtUXJxYw?oc=5",
+      "summary": "ChatGPT share links abused to host fake outage pages to deliver malware BleepingComputer",
+      "date": "29-05-2026 05:00 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
