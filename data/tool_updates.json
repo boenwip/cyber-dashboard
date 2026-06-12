@@ -1,14 +1,22 @@
 {
-  "last_updated": "13-06-2026 04:09 AM",
+  "last_updated": "13-06-2026 08:22 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.176",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
+      "date": "13-06-2026 08:22 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "13-06-2026 04:09 AM"
+      "date": "13-06-2026 08:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.174",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>\n<li>Fixed the <code>/model</code> picker h",
-      "date": "13-06-2026 04:09 AM"
+      "date": "13-06-2026 08:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "13-06-2026 04:09 AM"
+      "date": "13-06-2026 08:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.172",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.172",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Sub-agents can now spawn their own sub-agents (up to 5 levels deep)</li>\n<li>Amazon Bedrock now reads the AWS region from <code>~/.aws</code> config files when <code>A",
-      "date": "13-06-2026 04:09 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.170",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.170",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Fable 5: a Mythos-class model that we\u2019ve made safe for general use. Fable\u2019s capabilities exceed those of any model we\u2019ve ever made generally availab",
-      "date": "13-06-2026 04:09 AM"
+      "date": "13-06-2026 08:22 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -85,14 +85,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Tech updates (June 11, 2026): New ASUS gaming laptops, Canva Offline, Samsung AI deals, more - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6RlhhWVUxbGk5bEExRWpoN3dWVmZrZW04Z2p4UHlLN0ZpMFVVTllBbGdEeXk0WVhBVHVtNVpySC0tZGl3eGIzOTZzQzNFMzNfOXpqQVVUVXNHR0hPbzdCcnFrM2tMaXk4Uy1mRFE5eEFkTUNjSExMZXJMWkRIMkNuYmd2T0lpblZ5UGNPMWZkVGNFVmNn0gH6AUFVX3lxTFBqdkd1cVNuZFJWOWZlWXhLTnpnenM5cWZqSFA5VEV5b1NuX2lMVVh5OGctb3JGT05tNF8wb2Zib0plMnYySHZxUGVHS3o3d1VZUW5SZC0xaUFuLXBmZkNaUlN1YXBWcUEyV1pOWHpGWGFZVTFsaTlsQTFFamg3d1ZWZmtlbThnanhQeUs3RmkwVVVOWUFsZ0R5eTRZWEFUdW01WnJILS1kaXd4YjM5NnNDM0UzM185empBVVRVc0dHSE9vN0JycWsza0xpeThTLWZEUTl4QWRNQ2NITExlckxaREgyQ25iZ3ZPSWluVnlQY08xZmRUY0VWY2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-gFBVV95cUxQanZHdXFTbmRSVjlmZVl4S056Z3pzOXFmakhQOVRFeW9Tbl9pTFVYeThnLW9yRk9ObTRfMG9mYm9KZTJ2Mkh2cVBlR0t6N3dVWVFuUmQtMWlBbi1wZmZDWlJTdWFwVnFBMldaTlh6Rl",
-      "date": "11-06-2026 09:57 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva Launches Free Offline Mode, Letting Users Design For Up To 14 Days Without Internet - ETV Bharat",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNEtsUThRMWFLb0FYbUhIUjVyNVFzX0RxMHNnWUZtSmZweTM0a1FYMHFyNWFlNzRYS3R0d1E0Z1hrcEFIMXBFLUlLSDZRS09qQ2pVLUE1OFdsWHY0SlV0cldGUk1VcUJad21Wa1lHU2VURkpuejjSAeABQVVfeXFMUE9KTmNCQklkbmJZU2JMUWYxclVVcU5yREQta3Z4TWx4YzJTZ3IyZEt4VThSTFI0aVNCTXVkYTRxWlVYWVA5a01Qcm1QSW8tX0VCUWFYSzlrcExneHZGcWtIbjgtMU1EeS05RGR0el83blhablZwMDRmM3U0SW44OUJWMVJGOHN2V2xOeHNuSUprOVFmWDNhWDhFRTI5WEhJTlAxeVZtQ0kyUDNCVU9BMnQyRi13N0hMRXJKa1ZvM0huY0ZwVWJLRjVsV25SLWF4Y2ZPQmhQbnd2NW9qTU8xcVc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNE",
@@ -115,6 +107,14 @@
       "date": "11-06-2026 01:29 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "You can now work on Canva designs without internet with Offline Mode - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm5lWlNvNEx6Y09WWVE1bElXTXVOVzU0cDNlb21hdV9LT2ZsSGFENERzMmN1dEVZUGRNRFVjY2pVOWRKOFN3ZU1VQXlDa0xiM2ZDaE42Mi1rQ0w3TWVDZjl1LWdUaXZqVVV0Q2NoeXVKLVA4M2pQbUcxa0pKWHlON0pxMC1YMkJUemUxWmFpNmZqLTduTEM2V3ZhZXpiT3ZZSUgyS2tXa2pud0g0S2ZuelJGNXpHcFY4akpGempEeWhnUmJCS1dj0gHHAUFVX3lxTFBGbmVaU280THpjT1ZZUTVsSVdNdU5XNTRwM2VvbWF1X0tPZmxIYUQ0RHMyY3V0RVlQZE1EVWNjalU5ZEo4U3dlTVVBeUNrTGIzZkNoTjYyLWtDTDdNZUNmOXUtZ1RpdmpVVXRDY2h5dUotUDgzalBtRzFrSkpYeU43SnEwLVgyQlR6ZTFaYWk2ZmotN25MQzZXdmFlemJPdllJSDJLa1dram53SDRLZm56UkY1ekdwVjhqSkZ6akR5aGdSYkJLV2M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxQRm5lWlNvNEx6Y09WWVE1bElXTXVOVzU0cDNlb21hdV9LT2ZsSGFENERzMmN1dEVZUGRNRFVjY2pVOWRKOFN3ZU1VQXlDa0xiM2ZDaE42Mi1rQ0w3TWVDZjl1LWdUaXZqVVV0Q2NoeX",
+      "date": "10-06-2026 04:16 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases \u2018safe\u2019 version of Claude Mythos AI model to public - The Guardian",
@@ -123,12 +123,12 @@
       "date": "10-06-2026 08:28 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft June 2026 Patch Tuesday fixes 6 zero-days, 200 flaws - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENlhCcGN5SVhuSHl6ZWpJYWxyUFpmMHUyMjV5bWtjZjdFZnRmSTFTTGdiTlJoNFp5b1Z1cmtmRkkwY0pQbUNzc1A00gG0AUFVX3lxTE5qV2RuektGMV9xM3gwUjcxZXlacEtCdHUxS0E4Z3FfMzQtTHF6bzk4WHpZTTBKMDd0cjRDMF96dUE1TXpXTzBJVjBPODN1c2xCTm12cWRUSzBGaXp0WlFyY3NxOF9aY0Nwa0MxTmVpVmM4N1g1OTR6aGFVMnpvenowZHBQQlpQQ1dSelNRTy1xa1IyRmJyV2pWRDBjNTNqckM2eGJ1bmdrREF3ZEk2dVhsMGhLYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENl",
-      "date": "10-06-2026 03:57 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Mythos: Anthropic releases version of AI tool despite risk concerns - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE10UWltbU1VMDNEZkx2ZXB5djRGdG5jMkRiQmtuQUU2ZXhQRGUzTzNWUzB4cllPdlR1UUtmbWVZRzdock5INWhWSXlPUS1MUUpYcG52aW1BakEwdw?oc=5\" target=\"_blank\">Claud",
+      "date": "10-06-2026 04:35 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -144,14 +144,6 @@
       "title": "Anthropic releases Mythos-like AI model to the public two months after private rollout rocked Wall Street - CNBC",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodkY4MFh1TE1B0gF8QVVfeXFMTnE5TEtyeWVsVjdmVXZsNGRLMkpxRE5iQzlGdzQ4V1N2d0gxQk5xMGRJdjZ5ckRSRFhZeFFDYk1odkZLdWE5Uk15R3VlWnV3MzRvRms2Tm14T1lxVE1Wc2t0a1FUUm8yYWVwXzA3TDIwWVRUTGctVENYTHpZUg?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBqd1hkdnpwejJ6QzlJemxSRkZtTWRTeFNFLUpmaGFRekZpVF9VOXR4a3hHQlVLU29yS1dibUhDMHdfeGpiTk9PZXR0aUlGTHE1Zld2aXl5S2Y2V1FXdUFwUHNvd3Y2WjVmRXcyeWFodk",
-      "date": "10-06-2026 03:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Offers Mythos Upgrade for Cyber Partners and a \u2018Safe\u2019 Version for the Rest of You - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MG",
       "date": "10-06-2026 03:00 AM"
     },
     {
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Patchday: Microsoft Office Updates (March 10 2026)Born's Tech and Windows World - BornCity",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaHVXN2lZbzFpa1BHSUtwT0NGLUg2Y0hTblUzc3Z5Qw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPaUtiWi1WcFFZZ0hsRGNHUVM2NFI1OVBEMVBCUzhZYXZWS1VjUnZjTl9FdDkyRGh5QmVkY3NLY0ZNaE1PQjVtTFdWZHZTSFhpZ0FYWTh1QmxKMVNkRnFlN0F0UGhENnlGM2xtOU5VaH",
+      "date": "12-03-2026 05:00 PM"
     }
   ]
 }
