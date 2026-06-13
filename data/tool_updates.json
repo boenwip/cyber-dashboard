@@ -1,5 +1,5 @@
 {
-  "last_updated": "13-06-2026 08:32 PM",
+  "last_updated": "14-06-2026 03:25 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "13-06-2026 08:32 PM"
+      "date": "14-06-2026 03:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.176",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
-      "date": "13-06-2026 08:32 PM"
+      "date": "14-06-2026 03:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "13-06-2026 08:32 PM"
+      "date": "14-06-2026 03:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.174",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>\n<li>Fixed the <code>/model</code> picker h",
-      "date": "13-06-2026 08:32 PM"
+      "date": "14-06-2026 03:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "13-06-2026 08:32 PM"
+      "date": "14-06-2026 03:25 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -48,7 +48,15 @@
       "title": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5\" target=\"_blank\">Anthr",
-      "date": "13-06-2026 01:54 PM"
+      "date": "14-06-2026 12:36 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "U.S. Bars Foreigners From Using Anthropic\u2019s Most Advanced A.I. Models - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHRjTk4ySzZxRVVlTnA4LXdBSzZ3RzFEX0puLW1ZTVhxNXRSTmN3ZEVhV0phNWF5YzhfMVhZWGhnR0RlMzhDeUx6RkhuWXRYR0YyTWVTdU1EX3ZZV3l5S3MtRW5LbHczR2VlWDRVSjlVcnRKVTY4Y0ZmZ1V5bWdpb1dVQXBTLTdTMUE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPTHRjTk4ySzZxRVVlTnA4LXdBSzZ3RzFEX0puLW1ZTVhxNXRSTmN3ZEVhV0phNWF5YzhfMVhZWGhnR0RlMzhDeUx6RkhuWXRYR0YyTWVTdU1EX3ZZV3l5S3MtRW5LbHczR2VlWDRVSj",
+      "date": "13-06-2026 01:48 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -57,14 +65,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0398938937.html",
       "summary": "<p><span face=\"Roboto, sans-serif\" style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span face=\"Roboto, sans-serif\" style=\"background-c",
       "date": "13-06-2026 11:10 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic disables access to Fable 5 and Mythos 5 to comply with government directive - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQndha2NfQ0ZvbE1DU2gxUFBrLWdGU2x3RjFlbGQ0MG1TSzBVVlRrUFlqbFZnUERDbW1oYmY3cTV4UnZkelZ4TEtLa3ZabEpCcXJVQTZEZjFyT2hWdEFERXpVdDR2OUhCWnVEbklSeEJGU1gxaGdvdmt2d0psY2N3RnlHdjMtOGIxOHV2cXpuUzlqVk42TkYxbEpMOVJzenZ5VVg1b29rcUpnRFlWSDQxV3FWMm5fY3lyVnlQU29BONIBxAFBVV95cUxQUHNqZzhHU1lSVGhtUmhjSF9iS3o5VG0wM1NZM2RfckdPWWhUZURYUGVhaW1VdVZ0bWJaeHd5Uk9RUDZIRmh0X3RZY2Eyc1hzSGtqSTlzTEJrVEctMW1oUWZUNURTQV96dm42NF9nWTBnZDFuSWxTMGNIX0dGZUs2TWFYXzAwWVBKRUhFdHIxd2JXcnczX0w1UUwzZ1EzT3pXMDhxVFZaZTNGbmRKOUc4cVJWSDY3dXVpQkVxYlphWFlnYS1v?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxQQndha2NfQ0ZvbE1DU2gxUFBrLWdGU2x3RjFlbGQ0MG1TSzBVVlRrUFlqbFZnUERDbW1oYmY3cTV4UnZkelZ4TEtLa3ZabEpCcXJVQTZEZjFyT2hWdEFERXpVdDR2OUhCWnVEbklSeE",
-      "date": "13-06-2026 11:09 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -115,14 +115,6 @@
       "date": "11-06-2026 08:20 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
-      "date": "11-06-2026 01:53 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Using Claude Fable 5 means opting into data collection - Mashable",
@@ -137,6 +129,14 @@
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0tsVnQ5eWhUaGM5aVNTOFdKM3BTb2NUSkk2bWdmVTk3c2tUUEdGX0JNcjdjMEZv?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbEtEWjN5UjUyS1BjVWNiNTItSHNiXzlVbnZZZ2cyRU5FdmRfQ1BHbmZrTU12SE5QR1Vfc1kyVlVuM2lJWGRjSEQwYXVrRjl0b3AxRXdRYXB4UzZNa0tsVnQ5eWhUaGM5aVNTOFdKM3",
       "date": "10-06-2026 08:28 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft June 2026 Patch Tuesday fixes 6 zero-days, 200 flaws - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENlhCcGN5SVhuSHl6ZWpJYWxyUFpmMHUyMjV5bWtjZjdFZnRmSTFTTGdiTlJoNFp5b1Z1cmtmRkkwY0pQbUNzc1A00gG0AUFVX3lxTE5qV2RuektGMV9xM3gwUjcxZXlacEtCdHUxS0E4Z3FfMzQtTHF6bzk4WHpZTTBKMDd0cjRDMF96dUE1TXpXTzBJVjBPODN1c2xCTm12cWRUSzBGaXp0WlFyY3NxOF9aY0Nwa0MxTmVpVmM4N1g1OTR6aGFVMnpvenowZHBQQlpQQ1dSelNRTy1xa1IyRmJyV2pWRDBjNTNqckM2eGJ1bmdrREF3ZEk2dVhsMGhLYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENl",
+      "date": "10-06-2026 03:57 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
