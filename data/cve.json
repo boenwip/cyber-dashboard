@@ -1,7 +1,29 @@
 {
-  "last_updated": "15-06-2026 06:51 PM",
+  "last_updated": "16-06-2026 09:00 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-54420",
+      "description": "LiteSpeed cPanel Plugin \u2014 LiteSpeed cPanel plugin contains a UNIX symbolic link (Symlink) following vulnerability that could allow a user with FTP or web shell access on a shared hosting server running CloudLinux/CageFS.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-15",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-54420",
+      "vendor": "LiteSpeed",
+      "product": "cPanel Plugin",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-20262",
+      "description": "Cisco Catalyst SD-WAN Manager \u2014 Cisco Catalyst SD-WAN Manager contains a directory or path traversal vulnerability that could allow an authenticated, remote attacker to create a file or overwrite any file on the filesystem of an aff",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-15",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20262",
+      "vendor": "Cisco",
+      "product": "Catalyst SD-WAN Manager",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-35273",
       "description": "Oracle  PeopleSoft Enterprise PeopleTools \u2014 Oracle PeopleSoft Enterprise PeopleTools contains a missing authentication for critical function vulnerability which could allow an unauthenticated attacker to obtain takeover of PeopleSoft Enterprise",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-28318",
       "vendor": "SolarWinds",
       "product": "Serv-U",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-45247",
-      "description": "Mirasvit Mirasvit Full Page Cache Warmer \u2014 Mirasvit Full Page Cache Warmer contains a deserialization of untrusted data vulnerability that could allow unauthenticated attackers to achieve remote code execution by supplying a crafted serialized",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-03",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-45247",
-      "vendor": "Mirasvit",
-      "product": "Mirasvit Full Page Cache Warmer",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2022-0492",
-      "description": "Linux Kernel \u2014 Linux Kernel contains an improper authentication vulnerability which could allow for privilege escalation via the cgroups v1 release_agent feature.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-02",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0492",
-      "vendor": "Linux",
-      "product": "Kernel",
       "ransomware": "Unknown"
     }
   ]

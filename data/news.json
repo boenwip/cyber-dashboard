@@ -1,19 +1,142 @@
 {
-  "last_updated": "15-06-2026 06:51 PM",
-  "count": 46,
+  "last_updated": "16-06-2026 09:00 AM",
+  "count": 49,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Australian fleets turn to tech as fatigue & safety bite",
-      "link": "https://securitybrief.com.au/story/australian-fleets-turn-to-tech-as-fatigue-safety-bite",
-      "summary": "Driver fatigue is pushing Australian fleets towards video telematics, with more than half now using in-cab cameras to cut risks and costs.",
-      "date": "15-06-2026 10:15 AM",
+      "title": "UTS makes VR violence training compulsory for nurses",
+      "link": "https://securitybrief.com.au/story/uts-makes-vr-violence-training-compulsory-for-nurses",
+      "summary": "More than 600 incoming students will learn to spot aggression early, as Australia's first such mandate aims to cut assaults on nurses.",
+      "date": "16-06-2026 08:30 AM",
       "tags": [
-        "AU Cyber"
+        "AU Cyber",
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Spaceship urges investors to back AI beneficiaries",
+      "link": "https://securitybrief.com.au/story/spaceship-urges-investors-to-back-ai-beneficiaries",
+      "summary": "AI adoption could lift earnings for software and cybersecurity groups even as businesses trim staff and automation threatens more jobs.",
+      "date": "16-06-2026 08:30 AM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Medium",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "NEC Australia & Exabeam expand security partnership",
+      "link": "https://securitybrief.com.au/story/nec-australia-exabeam-expand-security-partnership",
+      "summary": "The tie-up aims to help Australian organisations spot suspicious activity sooner as AI-driven systems and human users blur traditional security boundaries.",
+      "date": "16-06-2026 08:29 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Copilot 'SearchLeak' Attack Allows 1-Click Data Theft",
+      "link": "https://www.darkreading.com/application-security/copilot-searchleak-attack-1-click-data-theft",
+      "summary": "The critical, three-stage attack is now patched, but it's part of a new group of AI prompt-injection issues that use hidden URLs and other variables.",
+      "date": "16-06-2026 05:27 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sequent adopts VoteSecure to boost election auditability",
+      "link": "https://securitybrief.com.au/story/sequent-adopts-votesecure-to-boost-election-auditability",
+      "summary": "Election officials and voters may gain independently checkable results as Sequent adds open-source VoteSecure to its digital voting platform.",
+      "date": "16-06-2026 01:45 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "The Beginning of the End of Social Engineering",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/beginning-end-social-engineering",
+      "summary": "AI-native operating systems are shifting the responsibility to stay vigilant against social engineering cyberattacks from the user onto the system itself.",
+      "date": "16-06-2026 01:08 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic suspends Fable 5 & Mythos 5 after US order",
+      "link": "https://securitybrief.com.au/story/anthropic-suspends-fable-5-mythos-5-after-us-order",
+      "summary": "Customers have lost access to Fable 5 and Mythos 5 after a US export control order, while other Anthropic models remain available.",
+      "date": "16-06-2026 01:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "It Is Trivially Easy to Use Reddit to Manipulate AI Search, Research Suggests",
+      "link": "https://www.404media.co/it-is-trivially-easy-to-use-reddit-to-manipulate-ai-search-research-suggests/",
+      "summary": "\"We show that a tiny snippet\u2014just 13 words\u2014of retrieved text on a UGC website like Reddit, Wikipedia, Quora, or Facebook can change AI agents to output spam / scam content pretty consistently.\"",
+      "date": "16-06-2026 12:19 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "The OPSEC Rave Wave (with Imani Thompson)",
+      "link": "https://www.404media.co/the-opsec-rave-wave-with-imani-thompson/",
+      "summary": "We get into how platforms have tried to make surveillance cute, why that damn Duolingo owl emotionally manipulates you, and why learning about privacy best practices when surrounded by community works.",
+      "date": "15-06-2026 10:59 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "US Cracks Down on Anthropic AI Models Amid Abuse Concerns",
+      "link": "https://www.darkreading.com/cyber-risk/us-cracks-down-anthropic-ai-models-abuse-concerns",
+      "summary": "Anthropic abruptly suspended all access to Fable 5 and Mythos 5 after receiving an export control directive that banned foreign nationals from using the technology.",
+      "date": "15-06-2026 10:17 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -31,24 +154,10 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Anthropic's Claude Fable 5 sparks cybersecurity warnings",
-      "link": "https://securitybrief.com.au/story/anthropic-s-claude-fable-5-sparks-cybersecurity-warnings",
-      "summary": "Cybersecurity teams fear the release could speed up vulnerability hunting on both sides, forcing faster patching and tighter controls.",
-      "date": "13-06-2026 01:30 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Claude Fable 5 Doesn't Change the Mythos Security Story",
       "link": "https://www.darkreading.com/vulnerabilities-threats/claude-fable-5-doesnt-change-mythos-security-story",
-      "summary": "Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos \"made safe for general use,\" Anthropic explained.",
+      "summary": "Stay cool: Mythos 5 is an upgrade over Mythos Preview while Fable 5 is Mythos \"made safe for general use,\" Anthropic explains.",
       "date": "12-06-2026 11:01 PM",
       "tags": [
         "AI & Tools"
@@ -375,35 +484,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "Microsoft Hacked to Deliver Malware to Claude and Gemini Users",
-      "link": "https://www.404media.co/microsoft-hacked-to-deliver-malware-to-claude-and-gemini-users/",
-      "summary": "Microsoft took the highly unusual step of shutting down more than 70 of its own GitHub repositories after hackers pushed malware that would steal credentials from AI coding agent users.",
-      "date": "09-06-2026 01:50 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOaFhTNnY2VEU0Q1l2MTFfcm5DR3AtaDZ3MnNFT1owbnZvLXpQOWdHMVZZZm50SEhRN0ZCdWQ0SWpnTGZvdENjMkZHTGlrUDBoZWp4TGtPZ3BGaURUcWxFQTV6NkxjQkJselNFaTVXYVpMNzFBVEtGMVhyZkpubHpKb3lUMXpJaDhNSjFtZWUxZmhRMTJzby1xaGphaGtsb1NwNkdOODV2eHZxMXVHYkM5NWE2YVZjZ2hEVWVGVTM5V2VlNVFPRGNvWDBTSGpyQVNIakZhcDF5ZXhzRGF6OGJjX094QXl2TUhrcGZUQjJQREViQVVTbFRrTVJ3?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
-      "date": "09-06-2026 12:08 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 Bleeping Computer AU",
       "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU21Yb0xkRkRxbE1Wc2xZOW1IYWdoSEF6ZGRXbFNCREMtS1liRWliRHQzN2lEWWZDRHZmM25jcF8yTmJEQWQ5ZU9JM0NDLXZ3X2Vucnk3bWJxQjYxcnBsVk9pTHZ1Q3czaXpnQkk0Skg3NjdJX3hoaTI5bHFQUFJGWEw2N1hSOFBRN0RxZXJKY25LNFV2TnhBb3V3Ym9pMUhtenAwWDRaUXFzSU9Eb2xactIBtgFBVV95cUxPbWdaYUZZSnVZSUhNX25KSUFOYV9fTzJVQ2QtMDRFSFVqMTVvZzMwOUR3Sldmem1USkVuSFMzZ284c0dhZ29JSm5oeFgydkY5eUpvOW5XaFdSeWxLUm0zZnhLTW9udTFnMUtPMUNObEJXT2lfRUltdjlJRGhsVUFzZTYzLVpqTlhPMkotbzBuMWRQS2kyOXFmdGsxTUFnT0ZJMnIzSFdvZ18xbi1yM2pucXhuSHpaUQ?oc=5",
@@ -591,45 +671,6 @@
         "Scams"
       ],
       "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Anthropic to Open Mythos AI to EU's ENISA",
-      "link": "https://www.darkreading.com/cyber-risk/anthropic-mythos-ai-eu-enisa",
-      "summary": "The European security agency's entry to Project Glasswing is the result of \"strong bilateral cooperation\" between the European Commission and Anthropic.",
-      "date": "02-06-2026 07:07 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft's Zero-Day Legal Threats Spark Backlash",
-      "link": "https://www.darkreading.com/application-security/microsoft-zero-day-legal-threats-backlash",
-      "summary": "After a disgruntled security researcher published several zero-day exploits in recent weeks, Microsoft seemingly indicated criminal charges were in order.",
-      "date": "02-06-2026 04:52 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Patch Now: Another Palo Alto Auth Bypass Bug Under Active Exploit",
-      "link": "https://www.darkreading.com/threat-intelligence/patch-palo-alto-auth-bypass-bug-exploit",
-      "summary": "Exploiting the PAN-OS GlobalProtect VPN vulnerability requires certain conditions, but adversaries have done so in two attack waves that started in mid-May.",
-      "date": "02-06-2026 12:35 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     }
