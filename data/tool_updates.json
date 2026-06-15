@@ -1,5 +1,5 @@
 {
-  "last_updated": "15-06-2026 12:01 PM",
+  "last_updated": "15-06-2026 12:53 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "15-06-2026 12:01 PM"
+      "date": "15-06-2026 12:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.176",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
-      "date": "15-06-2026 12:01 PM"
+      "date": "15-06-2026 12:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "15-06-2026 12:01 PM"
+      "date": "15-06-2026 12:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.174",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.174",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>wheelScrollAccelerationEnabled</code> setting to disable mouse-wheel scroll acceleration in fullscreen mode</li>\n<li>Fixed the <code>/model</code> picker h",
-      "date": "15-06-2026 12:01 PM"
+      "date": "15-06-2026 12:53 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.173",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.173",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed Fable 5 model names with a <code>[1m]</code> suffix not being normalized \u2014 Fable 5 includes 1M context by default, so the suffix is now stripped automatically</l",
-      "date": "15-06-2026 12:01 PM"
+      "date": "15-06-2026 12:53 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -101,14 +101,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Tech updates (June 11, 2026): New ASUS gaming laptops, Canva Offline, Samsung AI deals, more - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN195dzZtMk45Tk5wY3pubVBfZURIMnVCTTk2VjQyRXU5bDhnWFlwZjRPQkdvWUM4MVE3cXlLMVhrYWpsTlVkcXotbjU1anJ4TGhOUmFINE45SXFYcHlfNXdKcW5EUE4wTXpWY1R0ZU0yX0dXcUVZZUxqOTRObFpFZ2V2U3Atd1VNTkFMT2_SAfoBQVVfeXFMUGp2R3VxU25kUlY5ZmVZeEtOemd6czlxZmpIUDlURXlvU25faUxVWHk4Zy1vckZPTm00XzBvZmJvSmUydjJIdnFQZUdLejd3VVlRblJkLTFpQW4tcGZmQ1pSU3VhcFZxQTJXWk5YekZYYVlVMWxpOWxBMUVqaDd3VlZma2VtOGdqeFB5SzdGaTBVVU5ZQWxnRHl5NFlYQVR1bTVackgtLWRpd3hiMzk2c0MzRTMzXzl6akFVVFVzR0dIT283QnJxazNrTGl5OFMtZkRROXhBZE1DY0hMTGVyTFpESDJDbmJndk9JaW5WeVBjTzFmZFRjRVZjZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8wFBVV95cUxPcDlFV3dZWFBqRVY5eXJ6VkJWTGk0a0JCYUlQYUFRQ2lXZUQtTFllNVpxLV9pcWVsTERMUDZLeURpa185eVdSRF82QUMwQWlKUGxKaUw5RGoxTnpWTGRNLXdsWlRjb0xJVng4MFVXN1",
-      "date": "11-06-2026 09:57 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva Launches Free Offline Mode, Letting Users Design For Up To 14 Days Without Internet - ETV Bharat",
       "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNEtsUThRMWFLb0FYbUhIUjVyNVFzX0RxMHNnWUZtSmZweTM0a1FYMHFyNWFlNzRYS3R0d1E0Z1hrcEFIMXBFLUlLSDZRS09qQ2pVLUE1OFdsWHY0SlV0cldGUk1VcUJad21Wa1lHU2VURkpuejjSAeABQVVfeXFMUE9KTmNCQklkbmJZU2JMUWYxclVVcU5yREQta3Z4TWx4YzJTZ3IyZEt4VThSTFI0aVNCTXVkYTRxWlVYWVA5a01Qcm1QSW8tX0VCUWFYSzlrcExneHZGcWtIbjgtMU1EeS05RGR0el83blhablZwMDRmM3U0SW44OUJWMVJGOHN2V2xOeHNuSUprOVFmWDNhWDhFRTI5WEhJTlAxeVZtQ0kyUDNCVU9BMnQyRi13N0hMRXJKa1ZvM0huY0ZwVWJLRjVsV25SLWF4Y2ZPQmhQbnd2NW9qTU8xcVc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNE",
@@ -121,6 +113,14 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
       "date": "11-06-2026 01:53 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Using Claude Fable 5 means opting into data collection - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRUM5N01kYjVHRHZNX1FzeG1pbUJYR25HVG1raGN0YkplRldOMVM5LXZwYl9QeDVoQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxOdzFiZTlJYXRBWGJaRXl3YUQ1WTBjUU00czBkYnk1TDlaWUd4NndPeDhqZzlCTXE3ZWRMQ09RdGxLdWZRU1cxaS1veHdieXVKdjZIMW9tTFV5STVLeFFLVmlEV0dCb1kxbzhJZlFRRU",
+      "date": "11-06-2026 01:29 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -163,27 +163,11 @@
       "date": "10-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Offers Mythos Upgrade for Cyber Partners and a \u2018Safe\u2019 Version for the Rest of You - WIRED",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MGk1bkNnUlUtaDhmZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMie0FVX3lxTE55czl0bUUwQnFtVl80SXRyT1BUd3AtLXotTUJ1WVVlU3QyMndVMU1ReDIzblRhcV80Wmk3czdLTVhqb25HcUFFeEJjSjhKei1LM2JOb3ZvRzJTWmxVSVhwbVZ0WEt3eEpOOXNXblg5MG",
-      "date": "10-06-2026 03:00 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
-      "date": "04-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI says ChatGPT\u2019s memory feature is getting smarter and coming to free users - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeFFDT0dEblZjTURjcVZBbkgtN0c0bkJzSUo2OEptajFpMWMtbGE4NFF3a2lZWUg4b0o2R2JDM0NERG5ZNzhma1FvOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeF",
       "date": "04-06-2026 05:00 PM"
     },
     {
@@ -209,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVUd6c0lUZ3JLbUdvRFVuaVBhVXdiTGppeE82R2Nmckdn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVU",
       "date": "02-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT for iOS and Android can now start Codex work on Windows - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW4tVGM0NmU3NGVKX0lINWFCaHliYmhsUllnNVF3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxQREhqcndYMXk2Z1VBY1FXQ3hVMVJVOXh5RzN6a19vd1N1WGJjQXl5eEMybktGTW9yMGl1UUlpUzRRVFg5aUZjQTFuZldscVRuaFJ0b3MzZDcyQ2dNVUFUT2dXeUk0VlAtMzhqVExURW",
+      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -241,6 +233,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
       "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
       "date": "27-05-2026 02:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
+      "date": "20-05-2026 06:19 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
