@@ -1,15 +1,60 @@
 {
-  "last_updated": "16-06-2026 06:40 PM",
-  "count": 50,
+  "last_updated": "17-06-2026 08:51 AM",
+  "count": 53,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Drata launches AI agent governance for enterprises",
-      "link": "https://securitybrief.com.au/story/drata-launches-ai-agent-governance-for-enterprises",
-      "summary": "Enterprise buyers are demanding proof of what AI agents do, as scrutiny rises over permissions, ownership and audit trails across organisations.",
-      "date": "16-06-2026 06:15 PM",
+      "title": "Australian firms roll back AI agents over governance",
+      "link": "https://securitybrief.com.au/story/australian-firms-roll-back-ai-agents-over-governance",
+      "summary": "Governance failures have forced most Australian enterprises to pull back customer-facing AI agents, even as spending plans and deployments keep rising.",
+      "date": "17-06-2026 08:46 AM",
       "tags": [
-        "Compliance"
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Customers lose trust in AI in regulated industries",
+      "link": "https://securitybrief.com.au/story/customers-lose-trust-in-ai-in-regulated-industries",
+      "summary": "Consumer patience is thinning, with Australian customers most likely to walk away when poor communications or clumsy data capture erode trust.",
+      "date": "17-06-2026 08:35 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Team Cymru makes Sydney APJ hub in regional expansion",
+      "link": "https://securitybrief.com.au/story/team-cymru-makes-sydney-apj-hub-in-regional-expansion",
+      "summary": "Sydney will coordinate wider APJ growth as demand rises for earlier warning on cyber threats hitting critical infrastructure and finance.",
+      "date": "17-06-2026 08:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Fileless Phantom Stealer Targets Browser Credentials",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
+      "summary": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to frustrate detection.",
+      "date": "17-06-2026 08:26 AM",
+      "tags": [
+        "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [
@@ -18,20 +63,105 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "DSi Compliance launches DS-Investigator for audio analysis",
-      "link": "https://securitybrief.com.au/story/dsi-compliance-launches-ds-investigator-for-audio-analysis",
-      "summary": "Law enforcement teams may cut review time as the platform tackles noisy, multilingual recordings and flags relevant evidence from $50.",
-      "date": "16-06-2026 06:15 PM",
+      "source": "Dark Reading",
+      "title": "Security Community Slams US Ban on Exporting Mythos, Fable",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/security-community-slams-us-ban-on-exporting-mythos-fable",
+      "summary": "An open letter signed by dozens of security experts asked the government to reverse export restrictions on Anthropic's Claude Fable 5 and Mythos 5 models.",
+      "date": "17-06-2026 08:00 AM",
       "tags": [
-        "Compliance",
-        "Good News"
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Fortinet launches FortiSOC cloud security platform",
+      "link": "https://securitybrief.com.au/story/fortinet-launches-fortisoc-cloud-security-platform",
+      "summary": "The cloud service aims to cut alert overload and tool sprawl for security teams under pressure to investigate and respond faster.",
+      "date": "17-06-2026 07:34 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sports betting apps targeted by fraud, warns Approov",
+      "link": "https://securitybrief.com.au/story/sports-betting-apps-targeted-by-fraud-warns-approov",
+      "summary": "Major sporting events are giving fraudsters fresh ways to scrape data, hijack tokens and abuse APIs in genuine betting apps.",
+      "date": "17-06-2026 05:37 AM",
+      "tags": [
+        "Scams"
       ],
       "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
-      "relevance": "AU General"
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Rokarolla Android Trojan Levels Up to Full Device Control, Persistence",
+      "link": "https://www.darkreading.com/endpoint-security/rokarolla-android-trojan",
+      "summary": "The emerging malware, spread via fake TikTok and Chrome downloads, demonstrates an evolution by combining banking fraud with extensive device surveillance and remote control.",
+      "date": "17-06-2026 03:32 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Codenotary flags 210,000 risky AI agent actions daily",
+      "link": "https://securitybrief.com.au/story/codenotary-flags-210-000-risky-ai-agent-actions-daily",
+      "summary": "About 7% of monitored interactions raised security, compliance or operational concerns as enterprises deploy more autonomous AI into daily workflows.",
+      "date": "17-06-2026 03:17 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "1Kosmos puts workforce identity tool on Google Cloud",
+      "link": "https://securitybrief.com.au/story/1kosmos-puts-workforce-identity-tool-on-google-cloud",
+      "summary": "The listing should speed procurement for cloud customers as employers face rising risks from impersonation, fraud and stolen credentials.",
+      "date": "17-06-2026 02:30 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Lorem Ipsum' Malware Pivots to ClickFix Delivery",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/lorem-ipsum-malware-clickfix-delivery",
+      "summary": "New analysis shows the campaign, which uses compromised WordPress sites, may be linked to the ransomware and data extortion group Vice Society.",
+      "date": "17-06-2026 01:10 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -47,19 +177,6 @@
         "Enterprise"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Sharon AI signs 600-petabyte sovereign AI deal with VAST",
-      "link": "https://securitybrief.com.au/story/sharon-ai-signs-600-petabyte-sovereign-ai-deal-with-vast",
-      "summary": "The 600-petabyte deployment is set to underpin regulated AI workloads in Australia as demand for onshore data control intensifies.",
-      "date": "16-06-2026 01:25 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -78,18 +195,19 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "'Strong partnership': Canva, OpenAI team up for hackathon",
-      "link": "https://securitybrief.com.au/story/strong-partnership-canva-openai-team-up-for-hackathon",
-      "summary": "Hundreds of admin hours are draining staff time from lifesaving, research and STEM work at Australian nonprofits.",
-      "date": "16-06-2026 09:58 AM",
+      "source": "Dark Reading",
+      "title": "HTTP/2 Bomb Attacks Put Telcos, Healthcare Orgs at Risk",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/http-2-bomb-attacks-telcos-healthcare",
+      "summary": "The denial-of-service (DoS) exploit takes advantage of two features in HTTP/2 that were designed to save Internet bandwith, not power massive amplification attacks.",
+      "date": "16-06-2026 05:31 AM",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "AU Cyber"
       ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
+      "threat": "Medium",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -340,19 +458,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "404 Media",
-      "title": "Cops Keep Getting Arrested for Using Flock to Stalk People",
-      "link": "https://www.404media.co/cops-keep-getting-arrested-for-using-flock-to-stalk-people/",
-      "summary": "There have been more than a dozen cases around the country where police use Flock to obsessively and illegally stalk people.",
-      "date": "10-06-2026 11:22 PM",
-      "tags": [
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #841 -- Microsoft gets owned and 0day'd",
       "link": "https://risky.biz/RB841/",
@@ -505,19 +610,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Check Point links VPN zero-day attacks to Qilin ransomware gang - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPU21Yb0xkRkRxbE1Wc2xZOW1IYWdoSEF6ZGRXbFNCREMtS1liRWliRHQzN2lEWWZDRHZmM25jcF8yTmJEQWQ5ZU9JM0NDLXZ3X2Vucnk3bWJxQjYxcnBsVk9pTHZ1Q3czaXpnQkk0Skg3NjdJX3hoaTI5bHFQUFJGWEw2N1hSOFBRN0RxZXJKY25LNFV2TnhBb3V3Ym9pMUhtenAwWDRaUXFzSU9Eb2xactIBtgFBVV95cUxPbWdaYUZZSnVZSUhNX25KSUFOYV9fTzJVQ2QtMDRFSFVqMTVvZzMwOUR3Sldmem1USkVuSFMzZ284c0dhZ29JSm5oeFgydkY5eUpvOW5XaFdSeWxLUm0zZnhLTW9udTFnMUtPMUNObEJXT2lfRUltdjlJRGhsVUFzZTYzLVpqTlhPMkotbzBuMWRQS2kyOXFmdGsxTUFnT0ZJMnIzSFdvZ18xbi1yM2pucXhuSHpaUQ?oc=5",
-      "summary": "Check Point links VPN zero-day attacks to Qilin ransomware gang BleepingComputer",
-      "date": "08-06-2026 11:05 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Exposed Fuel Tank Gauges Under Attack in the US",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/exposed-fuel-tank-gauges-attack-us",
@@ -651,47 +743,6 @@
         "Scams"
       ],
       "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "FBI-Flagged Phishing Kit Kali365 Expands Its Reach",
-      "link": "https://www.darkreading.com/cyber-risk/fbi-flagged-phishing-kit-kali365-expands-its-reach",
-      "summary": "Once targeting just Microsoft 365, the phishing-as-a-service platform now aims at AWS, Okta, and Russian platforms, while relying on device code phishing.",
-      "date": "03-06-2026 07:32 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "DriveSurge Hijacks Thousands of Sites for ClickFix, FakeUpdate Attacks",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/drivesurge-hijacks-thousands-sites-clickfix-fakeupdate-attacks",
-      "summary": "A sneaky, wide-scale IAB operation uses a malicious traffic distribution system (TDS) to redirect visitors of trusted websites to ones that deliver malware.",
-      "date": "03-06-2026 06:11 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "China Uses Dual-Method Cyberattack on Czech Orgs",
-      "link": "https://www.darkreading.com/threat-intelligence/china-uses-dual-method-attack-czech-taiwan-orgs",
-      "summary": "China is stealing data from high-value targets via a sneaky, double-layer spear-phishing campaign that includes the Azureveil malware.",
-      "date": "03-06-2026 05:50 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "High",
       "audience": [],
       "relevance": "Global"
     }
