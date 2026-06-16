@@ -1,5 +1,5 @@
 {
-  "last_updated": "17-06-2026 08:51 AM",
+  "last_updated": "17-06-2026 09:25 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "17-06-2026 08:51 AM"
+      "date": "17-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "17-06-2026 08:51 AM"
+      "date": "17-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "17-06-2026 08:51 AM"
+      "date": "17-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.176",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
-      "date": "17-06-2026 08:51 AM"
+      "date": "17-06-2026 09:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.175",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "17-06-2026 08:51 AM"
+      "date": "17-06-2026 09:25 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -65,6 +65,14 @@
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNEJWSEQxOVUxZ2tMOGQwNVlLSDAyV3Z4VnRabjNPQXViZmt6d1NST2FWaDRrUkEwdw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNE",
       "date": "17-06-2026 05:38 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
+      "date": "17-06-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -113,6 +121,14 @@
       "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0398938937.html",
       "summary": "<p><span face=\"Roboto, sans-serif\" style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span face=\"Roboto, sans-serif\" style=\"background-c",
       "date": "13-06-2026 11:10 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Claude, Zoom ++ - ICAEW.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTjJWQXFQc0V1YTExcTZBbHJ5b2xaQVpuNm8wM3U0TXpwT2hhYU9OZWFVZl9yRElXMDByUUhBQzIzRDkxSnpFTE9HYXEyczA2d25M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTj",
+      "date": "13-06-2026 02:23 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -219,14 +235,6 @@
       "date": "29-05-2026 01:00 AM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-      "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
-      "date": "27-05-2026 02:00 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
@@ -264,14 +272,6 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
       "date": "16-04-2026 05:00 PM"
     },
     {
