@@ -1,14 +1,22 @@
 {
-  "last_updated": "17-06-2026 10:34 PM",
+  "last_updated": "18-06-2026 08:44 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.181",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
+      "date": "18-06-2026 08:44 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "17-06-2026 10:34 PM"
+      "date": "18-06-2026 08:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "17-06-2026 10:34 PM"
+      "date": "18-06-2026 08:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "17-06-2026 10:34 PM"
+      "date": "18-06-2026 08:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,39 +40,63 @@
       "title": "v2.1.176",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
-      "date": "17-06-2026 10:34 PM"
+      "date": "18-06-2026 08:44 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.175",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.175",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>enforceAvailableModels</code> managed setting \u2014 when enabled, the <code>availableModels</code> allowlist also constrains the Default model (a Default that ",
-      "date": "17-06-2026 10:34 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Stable for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-stable-for-ios-update_0343727604.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Stable 150 (150.0.7871.34) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvem",
+      "date": "18-06-2026 07:13 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01355673137.html",
-      "summary": "<p>Hi, everyone! We've just released&nbsp;<b>Chrome 149 (149.0.7827.159)</b>&nbsp;for Android. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on",
-      "date": "17-06-2026 10:30 AM"
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_0779506642.html",
+      "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 150 (150.0.7871.28) for Android to a small percentage of users. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.android",
+      "date": "18-06-2026 07:00 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01750511403.html",
-      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.155/.156 fo",
-      "date": "17-06-2026 07:58 AM"
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-chromeos_01459451963.html",
+      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\">The ChromeOS Stable channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\">16667.47.0</span><span color=\"rgba(0, 0, 0, 0.87)\"> (Browser ve",
+      "date": "18-06-2026 06:48 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI launches scheduled tasks in ChatGPT, details here - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCblFOeW1laTNvUHRBVjdneHVEUzBuZnpxX1Y0U2FVVnBHanQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCbl",
+      "date": "18-06-2026 05:15 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/extended-stable-update-for-desktop.html",
-      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 148.0.7778.271</span><span color=\"rgba(0, 0, 0, 0.87)\" ",
-      "date": "17-06-2026 07:30 AM"
+      "title": "Chrome Beta for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-ios-update_01693329942.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.35) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
+      "date": "18-06-2026 03:43 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Early Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/early-stable-update-for-desktop.html",
+      "summary": "<p><span style=\"font-family: arial;\"><span style=\"color: #666666; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color:",
+      "date": "18-06-2026 02:10 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
+      "date": "17-06-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -73,14 +105,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "16-06-2026 06:23 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_0791837599.html",
-      "summary": "<p>The Dev channel has been updated to 151.0.7886.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
-      "date": "16-06-2026 02:13 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -115,20 +139,20 @@
       "date": "14-06-2026 02:28 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0398938937.html",
-      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span face=\"Roboto, sans-serif\" style=\"background-c",
-      "date": "13-06-2026 11:10 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
       "date": "12-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva Launches Free Offline Mode, Letting Users Design For Up To 14 Days Without Internet - ETV Bharat",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNEtsUThRMWFLb0FYbUhIUjVyNVFzX0RxMHNnWUZtSmZweTM0a1FYMHFyNWFlNzRYS3R0d1E0Z1hrcEFIMXBFLUlLSDZRS09qQ2pVLUE1OFdsWHY0SlV0cldGUk1VcUJad21Wa1lHU2VURkpuejjSAeABQVVfeXFMUE9KTmNCQklkbmJZU2JMUWYxclVVcU5yREQta3Z4TWx4YzJTZ3IyZEt4VThSTFI0aVNCTXVkYTRxWlVYWVA5a01Qcm1QSW8tX0VCUWFYSzlrcExneHZGcWtIbjgtMU1EeS05RGR0el83blhablZwMDRmM3U0SW44OUJWMVJGOHN2V2xOeHNuSUprOVFmWDNhWDhFRTI5WEhJTlAxeVZtQ0kyUDNCVU9BMnQyRi13N0hMRXJKa1ZvM0huY0ZwVWJLRjVsV25SLWF4Y2ZPQmhQbnd2NW9qTU8xcVc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNE",
+      "date": "11-06-2026 08:20 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -153,6 +177,14 @@
       "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5\" target=\"",
       "date": "09-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT's new memory upgrade is powerful - and could poison every answer it gives you - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDljU05GQ3J4alYxTG81cEozdHJkSm9PYzJOSlpNdzNTaHpoMmFPY1NBTFB5T2sxRUczX2c0M0lkNkFPcGgzNDRlQVJiVDJUcWpzX0VfOEZKUmV0OFRqbERxNTd6bHdud2RVbE1rWi1aNnNwZ0dSSTFwREcyN20zUllseXU3NEp1dTNjeFZHZ0dER1NuRkZxMG95Vll1YTJWeTRkT0xscy04TmUzeTJ2bXdzVQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDljU05GQ3J4alYxTG81cEozdHJkSm9PYzJOSlpNdzNTaHpoMmFPY1NBTFB5T2sxRUczX2c0M0lkNkFPcGgzNDRlQVJiVDJUcWpzX0VfOEZKUmV0OFRqbERxNTd6bHdud2RVbE1rWi",
+      "date": "08-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -187,14 +219,6 @@
       "date": "02-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI enhances ChatGPT app with this hidden feature - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xakw5dFFERlNfbzJZWk9meFJxTGRYTUR5dE15SGd4cA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xak",
-      "date": "01-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -217,30 +241,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
       "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
       "date": "29-05-2026 01:00 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "New and improved: Computer-using agents, a new workflows experience, and real-time voice experiences",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/new-and-improved-computer-using-agents-a-new-workflows-experience-and-real-time-voice-experiences/",
-      "summary": "<p>Learn what\u2019s new in Copilot Studio, May 2026: computer-using agents are now generally available, plus redesigned workflows and Work IQ extensibility.</p>\n<p>The post <a href=\"https://www.microsoft.",
-      "date": "27-05-2026 02:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Google Pics is coming to Workspace \u2014 it could mean competition for Canva - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSjFRVm9TdHc1cw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE9SUk1ST25rSFNWejUwczNRWmJJQ2huelZRRlhKSE5rQUNEcXJXMkR3a1UxQ20wZ1h0M3pNLWE5NHo4M3MyanVOZllfbFJqMkVwcUtMbXcxMzlyX1lTRzJMWllCeVNGaGkwX2pGNFhzSj",
-      "date": "20-05-2026 06:19 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI rolls out ChatGPT 5.5 Instant as the new default model for everyone - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5lQXBfN2J0VUFsNTdVNkxtQnpodVlRVmFPaDVBWEFsWm9mNVJIZlNPdmFhaExOMmlieFFfSEtzUThDNVVKRVJodTVhUGxYRlNTcUppZG9DS3NzbWpScG9RTkJEVE1yR2pvT2kydjEzSQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE5lQXBfN2J0VUFsNTdVNkxtQnpodVlRVmFPaDVBWEFsWm9mNVJIZlNPdmFhaExOMmlieFFfSEtzUThDNVVKRVJodTVhUGxYRlNTcUppZG9DS3NzbWpScG9RTkJEVE1yR2pvT2kydjEzSQ",
-      "date": "06-05-2026 05:22 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
