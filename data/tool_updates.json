@@ -1,5 +1,5 @@
 {
-  "last_updated": "18-06-2026 05:28 PM",
+  "last_updated": "18-06-2026 09:36 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.181",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "18-06-2026 05:28 PM"
+      "date": "18-06-2026 09:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "18-06-2026 05:28 PM"
+      "date": "18-06-2026 09:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "18-06-2026 05:28 PM"
+      "date": "18-06-2026 09:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "18-06-2026 05:28 PM"
+      "date": "18-06-2026 09:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.176",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.176",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Session titles are now generated in the language of your conversation (set the <code>language</code> setting to pin a specific language)</li>\n<li>Added <code>footerLin",
-      "date": "18-06-2026 05:28 PM"
+      "date": "18-06-2026 09:36 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -165,6 +165,14 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
+      "title": "ChatGPT's new memory upgrade is powerful - and could poison every answer it gives you - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDljU05GQ3J4alYxTG81cEozdHJkSm9PYzJOSlpNdzNTaHpoMmFPY1NBTFB5T2sxRUczX2c0M0lkNkFPcGgzNDRlQVJiVDJUcWpzX0VfOEZKUmV0OFRqbERxNTd6bHdud2RVbE1rWi1aNnNwZ0dSSTFwREcyN20zUllseXU3NEp1dTNjeFZHZ0dER1NuRkZxMG95Vll1YTJWeTRkT0xscy04TmUzeTJ2bXdzVQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPTDljU05GQ3J4alYxTG81cEozdHJkSm9PYzJOSlpNdzNTaHpoMmFPY1NBTFB5T2sxRUczX2c0M0lkNkFPcGgzNDRlQVJiVDJUcWpzX0VfOEZKUmV0OFRqbERxNTd6bHdud2RVbE1rWi",
+      "date": "08-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
       "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
@@ -185,6 +193,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
       "date": "03-06-2026 03:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office 2019 for Mac Will Soon Stop Letting You Edit Documents - MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVUd6c0lUZ3JLbUdvRFVuaVBhVXdiTGppeE82R2Nmckdn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVU",
+      "date": "02-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -209,14 +225,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
       "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
       "date": "29-05-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Here are all the new features Microsoft added to Excel in May 2026 - Neowin",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2I3OExKRmhOZF90SGNCQmc0TUJfbGIwTi1fNzQ4UXppRGlJSERISG4ycXZXUWNWbHhVM25Ta1pmQlVSV1M1Tm5hX3VNaUltYmVsdFk4TzVOQ05pR2JNcHhWTElvS0NneGE2ZjBUTXlrN05CQzZlWEgzVEJ0ZDRVcE1WX1B6X1JGSkVib3JydUJGeHM1eWZFNmpTQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPT2I3OExKRmhOZF90SGNCQmc0TUJfbGIwTi1fNzQ4UXppRGlJSERISG4ycXZXUWNWbHhVM25Ta1pmQlVSV1M1Tm5hX3VNaUltYmVsdFk4TzVOQ05pR2JNcHhWTElvS0NneGE2ZjBUTX",
-      "date": "27-05-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -273,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing ChatGPT Health - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NN182QVdKeERlaTBWeVNNdTlUY19MNGVZZ1VzeEVhY3FIU1d2SHRLejJpMENpbnFWclYyZTFkb2NWR21Lc1NCVkUwZXVIdGhHeUxTV3RyWkd5WnFIRnJUNFhB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NN182QVdKeERlaTBWeVNNdTlUY19MNGVZZ1VzeEVhY3FIU1d2SHRLejJpMENpbnFWclYyZTFkb2NWR21Lc1NCVkUwZXVIdGhHeUxTV3RyWkd5WnFIRnJUNFhB?oc=5\" target=\"_bl",
-      "date": "07-01-2026 06:00 PM"
     }
   ]
 }
