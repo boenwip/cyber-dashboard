@@ -1,7 +1,18 @@
 {
-  "last_updated": "18-06-2026 09:36 PM",
+  "last_updated": "19-06-2026 08:54 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-20253",
+      "description": "Splunk Enterprise \u2014 Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar ser",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-18",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20253",
+      "vendor": "Splunk",
+      "product": "Enterprise",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-48907",
       "description": "Widget Factory Joomla Content Editor  \u2014 Widget Factory Joomla Content Editor contains an improper access control vulnerability which could allow for upload and execution of PHP code via the creation of new editor profiles for unauthenticate",
@@ -100,17 +111,6 @@
       "vendor": "BerriAI",
       "product": "LiteLLM",
       "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-50751",
-      "description": "Check Point Security Gateway \u2014 Check Point Security Gateway contains an improper authentication vulnerability in IKEv1 key exchange that could allow an unauthenticated remote attacker to bypass user authentication and establish a r",
-      "score": null,
-      "severity": "CRITICAL",
-      "published": "2026-06-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50751",
-      "vendor": "Check Point",
-      "product": "Security Gateway",
-      "ransomware": "Known"
     }
   ]
 }
