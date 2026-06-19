@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-06-2026 10:08 PM",
+  "last_updated": "20-06-2026 04:01 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.183",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved auto mode safety: destructive git commands (<code>git reset --hard</code>, <code>git checkout -- .</code>, <code>git clean -fd</code>, <code>git stash drop</c",
-      "date": "19-06-2026 10:08 PM"
+      "date": "20-06-2026 04:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.181",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "19-06-2026 10:08 PM"
+      "date": "20-06-2026 04:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "19-06-2026 10:08 PM"
+      "date": "20-06-2026 04:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "19-06-2026 10:08 PM"
+      "date": "20-06-2026 04:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "19-06-2026 10:08 PM"
+      "date": "20-06-2026 04:01 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Fable 5 crossed a line the world was not ready for - Fast Company",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNV0xvQ3h3c0JpN0c5alB5LWotRnFEZERBZDBzall6TDBHbGgwWC1GdjNCX2ZhZGNicVNqLUN6Q0QwbTc2ck5EU1FfWnN6MUU2dDZsNXBCeW1oNElpUm94ZF9jOV8xbUtzTjNEVGNIM295MkU0X016ZS1EcktQMjdOV28xUWRraHRWMGw2NFlLMmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxNV0xvQ3h3c0JpN0c5alB5LWotRnFEZERBZDBzall6TDBHbGgwWC1GdjNCX2ZhZGNicVNqLUN6Q0QwbTc2ck5EU1FfWnN6MUU2dDZsNXBCeW1oNElpUm94ZF9jOV8xbUtzTjNEVGNIM2",
+      "date": "19-06-2026 06:17 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -117,22 +125,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5 - infoq.com",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5\" target=\"_bl",
-      "date": "15-06-2026 03:01 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 02:08 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5\" target=\"_blank\">Anthr",
@@ -203,6 +195,14 @@
       "date": "02-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
+      "date": "29-05-2026 11:21 AM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -269,7 +269,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg",
+      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
