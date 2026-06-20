@@ -1,5 +1,5 @@
 {
-  "last_updated": "20-06-2026 08:34 PM",
+  "last_updated": "21-06-2026 03:28 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.183",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved auto mode safety: destructive git commands (<code>git reset --hard</code>, <code>git checkout -- .</code>, <code>git clean -fd</code>, <code>git stash drop</c",
-      "date": "20-06-2026 08:34 PM"
+      "date": "21-06-2026 03:28 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.181",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "20-06-2026 08:34 PM"
+      "date": "21-06-2026 03:28 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "20-06-2026 08:34 PM"
+      "date": "21-06-2026 03:28 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "20-06-2026 08:34 PM"
+      "date": "21-06-2026 03:28 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.177",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.177",
       "summary": "No content.",
-      "date": "20-06-2026 08:34 PM"
+      "date": "21-06-2026 03:28 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -73,6 +73,14 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_01724281417.html",
       "summary": "<p>The Dev channel has been updated to 151.0.7896.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
       "date": "19-06-2026 12:13 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The 11 Best Free Microsoft Excel Alternative Programs in 2026 - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm9XYWN4a05udEhkNGFFaVU?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm",
+      "date": "18-06-2026 05:00 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -117,6 +125,14 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Why has Anthropic\u2019s Claude Fable 5 AI model been suspended? - capacityglobal.com",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5rdzhsNUJ1WHc5emtGZFNYQmMwWUIxYUdnSmc3YUkzVUxHVlg2VGdQaWFDZFloNlFGOEo3NWh4aE13blBEZGFENzJ6ajZWdWo3MkFZMGhTc2pHTTdWY0trMUFiZmQ0Mjg1d0xB?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE5rdzhsNUJ1WHc5emtGZFNYQmMwWUIxYUdnSmc3YUkzVUxHVlg2VGdQaWFDZFloNlFGOEo3NWh4aE13blBEZGFENzJ6ajZWdWo3MkFZMGhTc2pHTTdWY0trMUFiZmQ0Mjg1d0xB?oc=5\"",
+      "date": "16-06-2026 12:40 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic Releases and Temporarily Suspends Claude Fable 5 - infoq.com",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ2dYRkVybk1YWUJCQllMOW53U2NCMlhkRFo4cHVjYXB1SUVVZzVDcXo4OEgtUVBQXzd2TTVHT2JKQzFnZGdfMklQWWdQTExxM0gya0NHUHN5dW9XSTZJaFpB?oc=5\" target=\"_bl",
@@ -131,12 +147,12 @@
       "date": "15-06-2026 02:08 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5\" target=\"_blank\">Anthr",
-      "date": "14-06-2026 02:28 AM"
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "New tech features for Mar-May 2026: Excel, Teams, Google Sheets, Chat GPT, M365, Power BI, Canva, Claude, Zoom ++ - ICAEW.com",
+      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTjJWQXFQc0V1YTExcTZBbHJ5b2xaQVpuNm8wM3U0TXpwT2hhYU9OZWFVZl9yRElXMDByUUhBQzIzRDkxSnpFTE9HYXEyczA2d25M?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxOOXRpXzRNOHNGbk5jbUdKRkhuWGgybk1qRHp1NURJeWMyMGktZUE5dFNWZDhQRWl2TWxjSG9fUDExZWJoM3dZWEs1TFh2MEtUbmNQenlDSGE2T0tZTVRFalBqSWhNMU5vcXBMaXZpTj",
+      "date": "13-06-2026 02:23 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -195,14 +211,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 for Mac Will Soon Stop Letting You Edit Documents - MacRumors",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVUd6c0lUZ3JLbUdvRFVuaVBhVXdiTGppeE82R2Nmckdn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTA1REhlVDFfQjhmMXU0VjdIWEgwZWNSUEVvV2hEaS0yZlprWEVXTHJVYmZENXBfWktLaTVXMGQzalRIbXQ1aDNCYWw5OURxdTB3dUpVRUJWUUxlUjY3bDhzVTBtYmt2dmQ1YmFrVU",
-      "date": "02-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -237,10 +245,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
-      "date": "05-05-2026 05:00 PM"
+      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozND",
+      "date": "24-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -256,14 +264,6 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
       "date": "16-04-2026 05:00 PM"
     },
     {
