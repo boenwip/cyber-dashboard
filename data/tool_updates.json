@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-06-2026 12:03 PM",
+  "last_updated": "22-06-2026 12:54 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.185",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>The stream-stall hint now reads \"Waiting for API response \u00b7 will retry in \u2026\" instead of \"No response from API \u00b7 Retrying in \u2026\", and triggers after 20s of silence inste",
-      "date": "22-06-2026 12:03 PM"
+      "date": "22-06-2026 12:54 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.183",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved auto mode safety: destructive git commands (<code>git reset --hard</code>, <code>git checkout -- .</code>, <code>git clean -fd</code>, <code>git stash drop</c",
-      "date": "22-06-2026 12:03 PM"
+      "date": "22-06-2026 12:54 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.181",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "22-06-2026 12:03 PM"
+      "date": "22-06-2026 12:54 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "22-06-2026 12:03 PM"
+      "date": "22-06-2026 12:54 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.178",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.178",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>Tool(param:value)</code> syntax for permission rules to match a tool's input parameters (with <code>*</code> wildcard), e.g. <code>Agent(model:opus)</code>",
-      "date": "22-06-2026 12:03 PM"
+      "date": "22-06-2026 12:54 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
