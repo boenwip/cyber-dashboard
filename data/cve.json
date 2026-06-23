@@ -1,7 +1,51 @@
 {
-  "last_updated": "23-06-2026 08:30 PM",
+  "last_updated": "24-06-2026 08:09 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2025-67038",
+      "description": "Lantronix EDS5000 \u2014 Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-23",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
+      "vendor": "Lantronix",
+      "product": "EDS5000",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-34910",
+      "description": "Ubiquiti UniFi OS \u2014 Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-23",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-34909",
+      "description": "Ubiquiti UniFi OS \u2014 Ubiquiti UniFi OS contains a path traversal vulnerability which could allow a malicious actor with access to the network to access files on the underlying system that could be manipulated to access an",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-23",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34909",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-34908",
+      "description": "Ubiquiti UniFi OS \u2014 Ubiquiti UniFi OS contains an improper access control vulnerability which could allow a malicious actor with access to the network to make unauthorized changes to the system.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-06-23",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34908",
+      "vendor": "Ubiquiti",
+      "product": "UniFi OS",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-20253",
       "description": "Splunk Enterprise \u2014 Splunk Enterprise contains a missing authentication for critical function vulnerability which could allow an unauthenticated user to create or truncate arbitrary files through a PostgreSQL sidecar ser",
@@ -66,50 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-10520",
       "vendor": "Ivanti",
       "product": "Sentry",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-11645",
-      "description": "Google Chromium V8 \u2014 Google Chromium V8 out-of-bounds read and write vulnerability that could allow a remote attacker to execute arbitrary code inside a sandbox via a crafted HTML page. This vulnerability could affect mul",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-11645",
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-7473",
-      "description": "Arista Extensible Operating System \u2014 Arista Extensible Operating System (EOS) contains an incomplete comparison with missing factors vulnerability when the switch incorrectly decapsulate and forwards other unexpected tunneled packet with",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-7473",
-      "vendor": "Arista",
-      "product": "Extensible Operating System",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-20245",
-      "description": "Cisco Catalyst SD-WAN Manager \u2014 Cisco Catalyst SD-WAN Manager formerly SD-WAN vManage contains an improper encoding or escaping of output vulnerability. This vulnerability could allow an authenticated, local attacker to execute arbi",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20245",
-      "vendor": "Cisco",
-      "product": "Catalyst SD-WAN Manager",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-42271",
-      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains a command injection vulnerability that could allow any authenticated user, including holders of low-privilege internal-user keys, to run arbitrary commands on the host.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42271",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
       "ransomware": "Unknown"
     }
   ]
