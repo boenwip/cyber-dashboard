@@ -1,5 +1,5 @@
 {
-  "last_updated": "23-06-2026 11:32 AM",
+  "last_updated": "23-06-2026 12:30 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.186",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude mcp login &lt;name&gt;</code> and <code>claude mcp logout &lt;name&gt;</code> to authenticate MCP servers from the CLI without opening the interacti",
-      "date": "23-06-2026 11:32 AM"
+      "date": "23-06-2026 12:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.185",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>The stream-stall hint now reads \"Waiting for API response \u00b7 will retry in \u2026\" instead of \"No response from API \u00b7 Retrying in \u2026\", and triggers after 20s of silence inste",
-      "date": "23-06-2026 11:32 AM"
+      "date": "23-06-2026 12:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.183",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved auto mode safety: destructive git commands (<code>git reset --hard</code>, <code>git checkout -- .</code>, <code>git clean -fd</code>, <code>git stash drop</c",
-      "date": "23-06-2026 11:32 AM"
+      "date": "23-06-2026 12:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.181",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "23-06-2026 11:32 AM"
+      "date": "23-06-2026 12:30 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.179",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.179",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed mid-stream connection drops: partial responses are now preserved instead of showing a raw error, and the spinner no longer gets stuck at \"running tool\"</li>\n<li>",
-      "date": "23-06-2026 11:32 AM"
+      "date": "23-06-2026 12:30 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -73,14 +73,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_01724281417.html",
       "summary": "<p>The Dev channel has been updated to 151.0.7896.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
       "date": "19-06-2026 12:13 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "The 11 Best Free Microsoft Excel Alternative Programs in 2026 - TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm9XYWN4a05udEhkNGFFaVU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm",
-      "date": "18-06-2026 05:00 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -153,6 +145,14 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
       "date": "12-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva Launches Free Offline Mode, Letting Users Design For Up To 14 Days Without Internet - ETV Bharat",
+      "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNEtsUThRMWFLb0FYbUhIUjVyNVFzX0RxMHNnWUZtSmZweTM0a1FYMHFyNWFlNzRYS3R0d1E0Z1hrcEFIMXBFLUlLSDZRS09qQ2pVLUE1OFdsWHY0SlV0cldGUk1VcUJad21Wa1lHU2VURkpuejjSAeABQVVfeXFMUE9KTmNCQklkbmJZU2JMUWYxclVVcU5yREQta3Z4TWx4YzJTZ3IyZEt4VThSTFI0aVNCTXVkYTRxWlVYWVA5a01Qcm1QSW8tX0VCUWFYSzlrcExneHZGcWtIbjgtMU1EeS05RGR0el83blhablZwMDRmM3U0SW44OUJWMVJGOHN2V2xOeHNuSUprOVFmWDNhWDhFRTI5WEhJTlAxeVZtQ0kyUDNCVU9BMnQyRi13N0hMRXJKa1ZvM0huY0ZwVWJLRjVsV25SLWF4Y2ZPQmhQbnd2NW9qTU8xcVc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi2wFBVV95cUxPZ2Fjd3l1dEtIWHQxd3Jzb3hRcWRrZjQtckJKbVJEenZHb0szMV8tYjBOQWRkeTdiOWRzNlYtM2R1OXczeGJ0R0hLYW5sNTdiXzZtUklYZktwbnhndlpESkp3Q0VfTHdEdHRlMGUwNE",
+      "date": "11-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -269,18 +269,18 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVj",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva releases first major update to its free Affinity software - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
