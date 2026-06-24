@@ -1,14 +1,30 @@
 {
-  "last_updated": "24-06-2026 08:15 PM",
-  "count": 34,
+  "last_updated": "25-06-2026 08:13 AM",
+  "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.191",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
+      "date": "25-06-2026 08:13 AM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.190",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
+      "date": "25-06-2026 08:13 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.187",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.credentials</code> setting to block sandboxed commands from reading credential files and secret environment variables</li>\n<li>Added org-configured",
-      "date": "24-06-2026 08:15 PM"
+      "date": "25-06-2026 08:13 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +32,7 @@
       "title": "v2.1.186",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude mcp login &lt;name&gt;</code> and <code>claude mcp logout &lt;name&gt;</code> to authenticate MCP servers from the CLI without opening the interacti",
-      "date": "24-06-2026 08:15 PM"
+      "date": "25-06-2026 08:13 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,55 +40,55 @@
       "title": "v2.1.185",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>The stream-stall hint now reads \"Waiting for API response \u00b7 will retry in \u2026\" instead of \"No response from API \u00b7 Retrying in \u2026\", and triggers after 20s of silence inste",
-      "date": "24-06-2026 08:15 PM"
+      "date": "25-06-2026 08:13 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.183",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.183",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Improved auto mode safety: destructive git commands (<code>git reset --hard</code>, <code>git checkout -- .</code>, <code>git clean -fd</code>, <code>git stash drop</c",
-      "date": "24-06-2026 08:15 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.181",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.181",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/config key=value</code> syntax to set any setting from the prompt (e.g. <code>/config thinking=false</code>) \u2014 works in interactive, <code>-p</code>, and ",
-      "date": "24-06-2026 08:15 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Stable for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-stable-for-ios-update_0913956154.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Stable 150 (150.0.7871.51) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improvem",
+      "date": "25-06-2026 07:43 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01705291676.html",
-      "summary": "<p>Hi, everyone! We've just released&nbsp;<b>Chrome 149 (149.0.7827.197)</b>&nbsp;for Android. It'll become&nbsp;<a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on",
-      "date": "24-06-2026 09:00 AM"
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01850164664.html",
+      "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 150 (150.0.7871.46) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chro",
+      "date": "25-06-2026 06:57 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/extended-stable-update-for-desktop_0779765963.html",
-      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 148.0.7778.280</span><span color=\"rgba(0, 0, 0, 0.87)\" ",
-      "date": "24-06-2026 04:59 AM"
+      "title": "Early Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/early-stable-update-for-desktop_01696591429.html",
+      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font",
+      "date": "25-06-2026 05:05 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_0482630350.html",
-      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.196/197 for",
-      "date": "24-06-2026 04:37 AM"
+      "title": "Chrome Beta for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-ios-update_01307594816.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.52) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
+      "date": "25-06-2026 04:58 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/06/beta-channel-update-for-chromeos_01991392350.html",
-      "summary": "<p><span>The Beta channel is being updated to OS version 16700.25.0 (Browser version 150.0.7871.40) for most ChromeOS devices.</span></p><div class=\"post-body\"><div class=\"post-content post-original\" ",
-      "date": "24-06-2026 04:28 AM"
+      "title": "Chrome Beta for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-desktop-update_02072900116.html",
+      "summary": "<p>The Beta channel has been updated to 150.0.7871.46 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0",
+      "date": "25-06-2026 03:13 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Lessons from Anthropic\u2019s failed Fable 5 release - The Hill",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQakk0dWhnLVJwN09zUU1aeTBKeGl3VWpocVZUTTNnMGNqVXVVWnpES3NTOGh0eS05S203UjRPaThrSWJhQlNqaHRvUlZybU1rdE1HeVhkOWxmRDJzcGlIeVQzUWswOS1sUUg2SlI4NkQtQWdjRGx0VG5tQTFERFB0WDhNUUl6Wlc20gGOAUFVX3lxTFBrcU03bWxLZGRNX3BucGJnb2x6WHZjSUlZQ1hDZE1ZQmVJR3pGVnRSdnhtVmNfZlMwVmNlRU90dV9tZ2M0VjhuWWFHWTVYUUxQYVA4Y0FEZUNMZWJselJPSWF1OEF1YzBnc0c2MWhJZUU2XzFmV1QtMnhtUmNMaUYwXzRLdk00R0NJeGpncWc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxQakk0dWhnLVJwN09zUU1aeTBKeGl3VWpocVZUTTNnMGNqVXVVWnpES3NTOGh0eS05S203UjRPaThrSWJhQlNqaHRvUlZybU1rdE1HeVhkOWxmRDJzcGlIeVQzUWswOS1sUUg2SlI4Nk",
+      "date": "25-06-2026 12:00 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -83,12 +99,12 @@
       "date": "24-06-2026 03:11 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Code Artifacts update brings live, shared dashboards and interactive workspaces to enterprises - Venturebeat",
-      "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONzYxMkxpZEZqUUF5bVNlTW1VcVpZSnVnUUREejlnTlgydlhpWDNOQlhUQmVnZnRzbkdPNU9Kdmk2c19kdDJEdERDenB0aXM2ZTRkbnI2dHRnVXdvUWFMMFJTb3hmQzFXSEd1empjRldrRGdWelhjaEZCTlJRWm04MnVpc2hOMW5pNGJGU3BWN3Q4LWZuQjVBMDZQckhZMUtaWk82N2R0NUpPbF9mXzczb3o2N3pqSkhwb3JDMVNiX3VZVGZ2bXVXa1dIQVBkN1gtdnlvcVY2Zw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxONzYxMkxpZEZqUUF5bVNlTW1VcVpZSnVnUUREejlnTlgydlhpWDNOQlhUQmVnZnRzbkdPNU9Kdmk2c19kdDJEdERDenB0aXM2ZTRkbnI2dHRnVXdvUWFMMFJTb3hmQzFXSEd1empjRl",
-      "date": "19-06-2026 09:18 AM"
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
+      "date": "21-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -155,20 +171,20 @@
       "date": "12-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "New features in Teams and Microsoft 365 (monthly updates) - University of Twente",
+      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdUNUdW1CQmpSb0tVVjNpeEtTRmE0VVM0aldXMFlrNUdvLVNxSWZPcnZYOHIzTmhhWm5oTWo5YmJuRzR1azZUZGp6eFRPeFFGVE1XSUNjOUt6Q1JXRnM2c3JtaDc4Nm1LQUd1cW5RRlZNTnhUU2ZDZ0N5RzR1THhtUkNRaEEtV1RpT0xRRGdKZFBiRjgtUGtZUVJoYW54Rk9sU05pOVNGblZQQlg2OWJOZng5d0dsZV8xVlB1QXZXd0poY1ZqY0FKdjdnRFVXV3hKNDRRZVZuMFN5N0RzWWhaMUhscUdvcWZ3OV8xSHFR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdUNUdW1CQmpSb0tVVjNpeEtTRmE0VVM0aldXMFlrNUdvLVNxSWZPcnZYOHIzTmhhWm5oTWo5YmJuRzR1azZUZGp6eFRPeFFGVE1XSUNjOUt6Q1JXRnM2c3JtaDc4Nm1LQUd1cW5RRl",
+      "date": "11-06-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1",
       "date": "11-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
-      "date": "11-06-2026 01:53 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -257,14 +273,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWm",
-      "date": "04-03-2026 06:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
