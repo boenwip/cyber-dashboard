@@ -1,14 +1,22 @@
 {
-  "last_updated": "25-06-2026 08:12 PM",
+  "last_updated": "26-06-2026 08:19 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.193",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
+      "date": "26-06-2026 08:19 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "25-06-2026 08:12 PM"
+      "date": "26-06-2026 08:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.190",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "25-06-2026 08:12 PM"
+      "date": "26-06-2026 08:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.187",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.credentials</code> setting to block sandboxed commands from reading credential files and secret environment variables</li>\n<li>Added org-configured",
-      "date": "25-06-2026 08:12 PM"
+      "date": "26-06-2026 08:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,31 @@
       "title": "v2.1.186",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude mcp login &lt;name&gt;</code> and <code>claude mcp logout &lt;name&gt;</code> to authenticate MCP servers from the CLI without opening the interacti",
-      "date": "25-06-2026 08:12 PM"
+      "date": "26-06-2026 08:19 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.185",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.185",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>The stream-stall hint now reads \"Waiting for API response \u00b7 will retry in \u2026\" instead of \"No response from API \u00b7 Retrying in \u2026\", and triggers after 20s of silence inste",
-      "date": "25-06-2026 08:12 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/06/long-term-support-channel-update-for_0509660942.html",
+      "summary": "<p dir=\"ltr\" style=\"line-height: 1.38; margin-bottom: 0pt; margin-top: 0pt;\"><span style=\"background-color: transparent; color: black; font-family: Roboto,sans-serif; font-size: 12pt; font-style: norm",
+      "date": "26-06-2026 07:11 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html",
+      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.200/201 for",
+      "date": "26-06-2026 06:55 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_0407803975.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 151 (151.0.7910.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "26-06-2026 01:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -59,28 +83,12 @@
       "date": "25-06-2026 06:57 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/06/early-stable-update-for-desktop_01696591429.html",
-      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666; font",
-      "date": "25-06-2026 05:05 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-ios-update_01307594816.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 150 (150.0.7871.52) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
-      "date": "25-06-2026 04:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-beta-for-desktop-update_02072900116.html",
-      "summary": "<p>The Beta channel has been updated to 150.0.7871.46 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/150.0",
-      "date": "25-06-2026 03:13 AM"
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Figma adds code layers, support for animations, more AI features in new update - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcU5zbV9TVzNNM3RWOE96S19ENGxlUG01VnZzRnFsSXpuTGlHbTVMdkZ4VDdxalBrdS1fQWpGeWgxZ0FzR1hIRERwZHpwRWlMeXpXS0pNX2VST3FrRU4wNmtMTVNXZlI5T2V5c0JwT0VIM1BvdVlyZkItREUyN21WN0Y1LS1XelJxbjRtUFJLWGxkcmtEa2NzSzBMRkhvdnN5LURhWkQ2dzZVeGpaVTJYWg?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQcU5zbV9TVzNNM3RWOE96S19ENGxlUG01VnZzRnFsSXpuTGlHbTVMdkZ4VDdxalBrdS1fQWpGeWgxZ0FzR1hIRERwZHpwRWlMeXpXS0pNX2VST3FrRU4wNmtMTVNXZlI5T2V5c0JwT0",
+      "date": "25-06-2026 02:15 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -99,6 +107,14 @@
       "date": "24-06-2026 03:11 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "AI models capable of devastating attacks on governments and business months away, rare Five Eyes statement warns - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSHdxUUM1UXY2UXFpa09idjN1Z0ZLNFZWX2dmR1FyaDRrM2NVY2trNFJwbjJHdWZuYUUtck1rWU9VRWZEbV9kT2hXOUNxbm1iU3FwTlp3dzkzdUhQdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSH",
+      "date": "23-06-2026 11:09 AM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
@@ -113,14 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
       "date": "18-06-2026 08:30 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "The 11 Best Free Microsoft Excel Alternative Programs in 2026 - TechRepublic",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm9XYWN4a05udEhkNGFFaVU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE45WGljeGFCTnFiZF9yMXBVUGdIRlRwMU5lZ2Q3RXJfYnNWZzFCd05qeW1tb0JHbUpTWU9wdjZTbnJDMTUwYkVHOERQWHFBdGc2cTcyd2U3RVc2bGdQY3ZLR2tCNUcwanpHYUlYS0Y3Qm",
-      "date": "18-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -141,26 +149,10 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Copilot Cowork is now generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak",
-      "date": "16-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "16-06-2026 06:23 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5\" target=\"_blank\">Anthr",
-      "date": "13-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -184,7 +176,7 @@
       "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1",
-      "date": "11-06-2026 05:00 PM"
+      "date": "11-06-2026 04:42 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -219,14 +211,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
-      "date": "29-05-2026 11:21 AM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -251,6 +235,22 @@
       "date": "28-05-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5\" target=\"_blank\">Intro",
+      "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
+      "date": "22-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
@@ -269,18 +269,18 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVj",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva releases first major update to its free Affinity software - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Office zero-day lets malicious documents slip past security checks - Malwarebytes",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRFlXMWpCZ08wSTJLRzhqQjF0dHJ6WnlTOFRVZXllREIwVEstZXpfc1NLUTdfZlJDQk1JQmNEWGRNRXRWVGRTQkxUU3B1d0txWEZJM04zWUc2VEQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWTY5cXVkX2o0M3VZUEFQM05VTm4zQjBvQm5pTWhmb1I5Tld5OTY1WFJwck5rMEFnTXpVc3VZQ0lFbWxlaXdCajRzV0hWVnBPc0tNR0l3cVZScnlYY00yNDNEa1A3cXhEZ1J5Ty1mRF",
+      "date": "29-01-2026 06:00 PM"
     }
   ]
 }
