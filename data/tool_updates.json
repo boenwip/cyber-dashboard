@@ -1,14 +1,22 @@
 {
-  "last_updated": "27-06-2026 03:50 AM",
+  "last_updated": "27-06-2026 08:09 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.195",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
+      "date": "27-06-2026 08:09 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "27-06-2026 03:50 AM"
+      "date": "27-06-2026 08:09 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "27-06-2026 03:50 AM"
+      "date": "27-06-2026 08:09 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.190",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "27-06-2026 03:50 AM"
+      "date": "27-06-2026 08:09 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.187",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.credentials</code> setting to block sandboxed commands from reading credential files and secret environment variables</li>\n<li>Added org-configured",
-      "date": "27-06-2026 03:50 AM"
+      "date": "27-06-2026 08:09 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.186",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.186",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>claude mcp login &lt;name&gt;</code> and <code>claude mcp logout &lt;name&gt;</code> to authenticate MCP servers from the CLI without opening the interacti",
-      "date": "27-06-2026 03:50 AM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-chromeos_0881765047.html",
+      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\">The ChromeOS Stable channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\">16667.55.0</span><span color=\"rgba(0, 0, 0, 0.87)\"> (Browser ve",
+      "date": "27-06-2026 05:01 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,14 +81,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html",
       "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.200/201 for",
       "date": "26-06-2026 06:55 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-android-update_0407803975.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Dev 151 (151.0.7910.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
-      "date": "26-06-2026 01:58 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -121,6 +121,14 @@
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
       "date": "18-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI launches scheduled tasks in ChatGPT, details here - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCblFOeW1laTNvUHRBVjdneHVEUzBuZnpxX1Y0U2FVVnBHanQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCbl",
+      "date": "17-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -165,10 +173,10 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "New features in Teams and Microsoft 365 (monthly updates) - University of Twente",
-      "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdUNUdW1CQmpSb0tVVjNpeEtTRmE0VVM0aldXMFlrNUdvLVNxSWZPcnZYOHIzTmhhWm5oTWo5YmJuRzR1azZUZGp6eFRPeFFGVE1XSUNjOUt6Q1JXRnM2c3JtaDc4Nm1LQUd1cW5RRlZNTnhUU2ZDZ0N5RzR1THhtUkNRaEEtV1RpT0xRRGdKZFBiRjgtUGtZUVJoYW54Rk9sU05pOVNGblZQQlg2OWJOZng5d0dsZV8xVlB1QXZXd0poY1ZqY0FKdjdnRFVXV3hKNDRRZVZuMFN5N0RzWWhaMUhscUdvcWZ3OV8xSHFR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxOdUNUdW1CQmpSb0tVVjNpeEtTRmE0VVM0aldXMFlrNUdvLVNxSWZPcnZYOHIzTmhhWm5oTWo5YmJuRzR1azZUZGp6eFRPeFFGVE1XSUNjOUt6Q1JXRnM2c3JtaDc4Nm1LQUd1cW5RRl",
-      "date": "11-06-2026 05:00 PM"
+      "title": "Microsoft June 2026 Patch Tuesday fixes 6 zero-days, 200 flaws - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENlhCcGN5SVhuSHl6ZWpJYWxyUFpmMHUyMjV5bWtjZjdFZnRmSTFTTGdiTlJoNFp5b1Z1cmtmRkkwY0pQbUNzc1A00gG0AUFVX3lxTE5qV2RuektGMV9xM3gwUjcxZXlacEtCdHUxS0E4Z3FfMzQtTHF6bzk4WHpZTTBKMDd0cjRDMF96dUE1TXpXTzBJVjBPODN1c2xCTm12cWRUSzBGaXp0WlFyY3NxOF9aY0Nwa0MxTmVpVmM4N1g1OTR6aGFVMnpvenowZHBQQlpQQ1dSelNRTy1xa1IyRmJyV2pWRDBjNTNqckM2eGJ1bmdrREF3ZEk2dVhsMGhLYw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENl",
+      "date": "09-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -193,14 +201,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
       "date": "03-06-2026 03:00 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI enhances ChatGPT app with this hidden feature - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xakw5dFFERlNfbzJZWk9meFJxTGRYTUR5dE15SGd4cA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxNNHhLZzJnZjB4WVVuTDVjQVBzZTVzajViakxIOEE3TURjeW9lMHdaM3Vwa1JsMkpON2R2NHdtbWpMV2NuSjFRYmsweEpQT2xTZGJzXzUyaDZ3cGJSOTd4MEZtbldfY1BwMjJ5X05Xak",
-      "date": "01-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -237,10 +237,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
-      "date": "05-05-2026 05:00 PM"
+      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNT",
+      "date": "14-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -269,9 +269,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVj",
+      "title": "Canva Leans Into AI to Defend Its $42 Billion Empire - Bloomberg.com",
+      "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC1ENmpMUHRaTHhtY2x1OGg2N1JOQjBDX0JFbjl1LTFWTzJua3RuMk43TVhhSHpNX2d6cHJiTHdPTjZHc19HVkZ2Zm5QM3NqMlJlVHc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxPdXNnamwwX01qWU9oMk5XRmdwM0ZVSTNCSTAwdXd3elBZRDR6UEZqVml4RFdqSklTSFY2ZHlFU01mV0NRNE5JSE0tN3NBM0JrbGctbVJLYTg5MmRnbktVdjU0R0NYZDZFN1JXckJPcC",
       "date": "16-04-2026 05:00 PM"
     },
     {
