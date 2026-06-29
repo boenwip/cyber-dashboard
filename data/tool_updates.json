@@ -1,5 +1,5 @@
 {
-  "last_updated": "30-06-2026 08:07 AM",
+  "last_updated": "30-06-2026 09:01 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.195",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
-      "date": "30-06-2026 08:07 AM"
+      "date": "30-06-2026 09:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "30-06-2026 08:07 AM"
+      "date": "30-06-2026 09:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "30-06-2026 08:07 AM"
+      "date": "30-06-2026 09:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.190",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "30-06-2026 08:07 AM"
+      "date": "30-06-2026 09:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.187",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.credentials</code> setting to block sandboxed commands from reading credential files and secret environment variables</li>\n<li>Added org-configured",
-      "date": "30-06-2026 08:07 AM"
+      "date": "30-06-2026 09:01 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Is Anthropic\u2019s Fable 5 Coming Back This Week? - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNGlCUkc1cXpNdzRFZUhQWW5HSGRRUGlJQ3Z6RFQ2dlUzU0pYTFFrNnM5akNxSVhMSmVOWG9MMWJNektqeTdlNnFlaDRfc0pWcXRaRElLbVM1eEVleDRvd24zallvYkFqOHlUbWF5eXNSdS1CX3I3akVYWlR3bVp0Y0tLbFhQZDdiN3ZiMnUzcW1sOGRWVHlfQUFKOEZCUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPNGlCUkc1cXpNdzRFZUhQWW5HSGRRUGlJQ3Z6RFQ2dlUzU0pYTFFrNnM5akNxSVhMSmVOWG9MMWJNektqeTdlNnFlaDRfc0pWcXRaRElLbVM1eEVleDRvd24zallvYkFqOHlUbWF5eX",
+      "date": "30-06-2026 06:25 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -53,10 +61,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOE9ZNnB4d2ZGbU9LSE83eHhldFlELXVmNWZjZGdmTFFGTEU3WVhkWHBieTNCS3dwS0JKejJIMDktTEprZmYxS19YS0FEbW15MW5aR1FIWi1md25uSkVBQXBjY3lCTHR3alQxMHRlVXlSMFcxZDQ3c0p6UkpBSkNPMS1NejM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOOE9ZNnB4d2ZGbU9LSE83eHhldFlELXVmNWZjZGdmTFFGTEU3WVhkWHBieTNCS3dwS0JKejJIMDktTEprZmYxS19YS0FEbW15MW5aR1FIWi1md25uSkVBQXBjY3lCTHR3alQxMHRlVX",
-      "date": "27-06-2026 08:59 AM"
+      "title": "Scoop: Powerful Anthropic model, Fable 5, on track to return soon - Axios",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1meFRNUHVNUk94eW1najE5eHpMUGc0SXJKcDYtT0J0WUFzZUxUb0NqT3pHdUswR2JZTFNHdnpELVdDZGZGN0psNVhmbjQxZ1NuUjI0NzYtb1REc0VuTzhXVVZHV0RSVjc1R2wzbHluNA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1meFRNUHVNUk94eW1najE5eHpMUGc0SXJKcDYtT0J0WUFzZUxUb0NqT3pHdUswR2JZTFNHdnpELVdDZGZGN0psNVhmbjQxZ1NuUjI0NzYtb1REc0VuTzhXVVZHV0RSVjc1R2wzbHluNA",
+      "date": "27-06-2026 10:49 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -105,6 +113,14 @@
       "link": "http://chromereleases.googleblog.com/2026/06/stable-channel-update-for-desktop_01245939337.html",
       "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 149.0.7827.200/201 for",
       "date": "26-06-2026 06:55 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
+      "date": "25-06-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -163,14 +179,6 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5 and Mythos 5 AI suspended over security fears - BBC",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1iZTNFalowWHVUV2FhOGlEcWgxVWdISzBVLXJfN2FXOXBjdkVhRG0wVFRyNURuMHNxREtKeENYSkdWdm45OXBTd2xaUzlZQjBTQ2dQWjgzOUtCZw?oc=5\" target=\"_blank\">Anthr",
-      "date": "13-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
@@ -227,12 +235,12 @@
       "date": "29-05-2026 05:00 AM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing a new design for Microsoft 365 Copilot",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
-      "date": "29-05-2026 01:00 AM"
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -249,14 +257,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
       "date": "22-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
-      "date": "20-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
