@@ -1,7 +1,20 @@
 {
-  "last_updated": "01-07-2026 08:13 AM",
-  "count": 57,
+  "last_updated": "01-07-2026 09:15 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "LegalVision warns firms on single AI provider risks",
+      "link": "https://securitybrief.com.au/story/legalvision-warns-firms-on-single-ai-provider-risks",
+      "summary": "Australian firms using AI for core operations risk disruption unless they secure contracts, governance and backup plans, LegalVision says.",
+      "date": "01-07-2026 08:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Dark Reading",
       "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
@@ -143,22 +156,6 @@
       ],
       "threat": "Medium",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI reshaping cybersecurity - on defence and attack",
-      "link": "https://securitybrief.com.au/story/ai-reshaping-cybersecurity-on-defence-and-attack",
-      "summary": "Criminals are using AI to scale phishing and hunt flaws faster, forcing firms to harden defences as alert volumes and risks rise.",
-      "date": "30-06-2026 11:50 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra"
-      ],
       "relevance": "Global"
     },
     {
@@ -813,21 +810,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Fileless Phantom Stealer Targets Browser Credentials",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fileless-phantom-stealer-targets-browser-credentials",
-      "summary": "In addition to executing entirely in memory, the malware's infection chain incorporates other anti-analysis techniques designed to evade detection.",
-      "date": "17-06-2026 08:26 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
     }
   ]
 }
