@@ -1,14 +1,22 @@
 {
-  "last_updated": "30-06-2026 09:01 AM",
+  "last_updated": "30-06-2026 11:31 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.196",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added support for organization default models \u2014 admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in <code>/model</code> when you haven't",
+      "date": "30-06-2026 11:31 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.195",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
-      "date": "30-06-2026 09:01 AM"
+      "date": "30-06-2026 11:31 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "30-06-2026 09:01 AM"
+      "date": "30-06-2026 11:31 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "30-06-2026 09:01 AM"
+      "date": "30-06-2026 11:31 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.190",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.190",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "30-06-2026 09:01 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.187",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.187",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.credentials</code> setting to block sandboxed commands from reading credential files and secret environment variables</li>\n<li>Added org-configured",
-      "date": "30-06-2026 09:01 AM"
+      "date": "30-06-2026 11:31 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -61,10 +61,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Scoop: Powerful Anthropic model, Fable 5, on track to return soon - Axios",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1meFRNUHVNUk94eW1najE5eHpMUGc0SXJKcDYtT0J0WUFzZUxUb0NqT3pHdUswR2JZTFNHdnpELVdDZGZGN0psNVhmbjQxZ1NuUjI0NzYtb1REc0VuTzhXVVZHV0RSVjc1R2wzbHluNA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1meFRNUHVNUk94eW1najE5eHpMUGc0SXJKcDYtT0J0WUFzZUxUb0NqT3pHdUswR2JZTFNHdnpELVdDZGZGN0psNVhmbjQxZ1NuUjI0NzYtb1REc0VuTzhXVVZHV0RSVjc1R2wzbHluNA",
-      "date": "27-06-2026 10:49 PM"
+      "title": "Trump admin allows Anthropic to release Mythos AI model to some companies, government agencies - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOOE9ZNnB4d2ZGbU9LSE83eHhldFlELXVmNWZjZGdmTFFGTEU3WVhkWHBieTNCS3dwS0JKejJIMDktTEprZmYxS19YS0FEbW15MW5aR1FIWi1md25uSkVBQXBjY3lCTHR3alQxMHRlVXlSMFcxZDQ3c0p6UkpBSkNPMS1NejM?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihAFBVV95cUxOOE9ZNnB4d2ZGbU9LSE83eHhldFlELXVmNWZjZGdmTFFGTEU3WVhkWHBieTNCS3dwS0JKejJIMDktTEprZmYxS19YS0FEbW15MW5aR1FIWi1md25uSkVBQXBjY3lCTHR3alQxMHRlVX",
+      "date": "27-06-2026 08:59 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -115,14 +115,6 @@
       "date": "26-06-2026 06:55 AM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
-      "date": "25-06-2026 11:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Config 2026: New Materials, New Tools and a More Expressive Canvas | Figma Blog - Figma",
@@ -137,22 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
-      "date": "18-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI launches scheduled tasks in ChatGPT, details here - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCblFOeW1laTNvUHRBVjdneHVEUzBuZnpxX1Y0U2FVVnBHanQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikAFBVV95cUxOUGxjVURXNlktVHU5TjJFaWdYM2VhMUZINWJWTWw2SzFpb01sZVVnVDVucmRwNlVhUS1FWTRQVWJOX2VZRGFES1FxT3JyNWZXMzNQNmprM0VmWkwzSVJiY1RUa2V3Tzg2OG5WYmVCbl",
-      "date": "17-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -211,6 +187,14 @@
       "date": "04-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI says ChatGPT\u2019s memory feature is getting smarter and coming to free users - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeFFDT0dEblZjTURjcVZBbkgtN0c0bkJzSUo2OEptajFpMWMtbGE4NFF3a2lZWUg4b0o2R2JDM0NERG5ZNzhma1FvOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQMGRaYXliODdNMTNRSmlTTGdESjU1ZXRZaWRRb2VmdWo2NTFKNlFMZGdPRVVhcXBnVWZ5dmc4WmpfOXloRThyUEVNem9vcEtRSHc3aE5jMlNOZm1IbzdBT3dDUjdlOUFDWFBCWVVDeF",
+      "date": "04-06-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
@@ -233,6 +217,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
       "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
       "date": "29-05-2026 05:00 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing a new design for Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
+      "date": "29-05-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -273,6 +265,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
       "date": "18-03-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI delays \u2018adult mode\u2019 for ChatGPT to focus on work of higher priority - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSU5PdGdwUDRfYzVVdWRnNUVEX1FaTkxHbHk3QUQwT0JPRC1lcGFoMTZkQ1lQOUN2ZFBrWGlTTm9QcE11WnNzZ3RNQVNLT2hUYTd1X2o1M01idXUwUHk4OEJZX2tRMV9EWVRGeVlWckNSRVNlTzJBcU0yN2RjVG1rWXBGbzZpYjR0aHR3aVZXQXRSVzN1SVVYTDF4aXdfbVZCRkFDTXBmeVFYVlQtbDVfbUhsTHRVY1d4ZTNpLVpYZmc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSU5PdGdwUDRfYzVVdWRnNUVEX1FaTkxHbHk3QUQwT0JPRC1lcGFoMTZkQ1lQOUN2ZFBrWGlTTm9QcE11WnNzZ3RNQVNLT2hUYTd1X2o1M01idXUwUHk4OEJZX2tRMV9EWVRGeVlWck",
+      "date": "09-03-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
