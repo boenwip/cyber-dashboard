@@ -1,7 +1,79 @@
 {
-  "last_updated": "01-07-2026 08:52 PM",
-  "count": 55,
+  "last_updated": "02-07-2026 08:15 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Telair marks 20 years as independent Australian telco",
+      "link": "https://securitybrief.com.au/story/telair-marks-20-years-as-independent-australian-telco",
+      "summary": "Its national network upgrade is aimed at keeping business customers connected as demand for bandwidth and resilience continues to rise.",
+      "date": "02-07-2026 08:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "date": "02-07-2026 06:31 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks \u2014 it's now the rule.",
+      "date": "02-07-2026 05:46 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI-led security centres warned over missed threats",
+      "link": "https://securitybrief.com.au/story/ai-led-security-centres-warned-over-missed-threats",
+      "summary": "Missed intrusions could cost more than false alarms, as Secure.com says AI tools in security operations can miss real attacks in live use.",
+      "date": "02-07-2026 05:07 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
+      "link": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+      "summary": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
+      "date": "02-07-2026 01:17 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Jamf launches AI governance for Mac as usage rises",
@@ -73,37 +145,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "AI is already running inside the enterprise. Is Australia ready?",
-      "link": "https://securitybrief.com.au/story/ai-is-already-running-inside-the-enterprise-is-australia-ready",
-      "summary": "Australian firms are using AI at scale, but many lack the visibility to stop shadow tools, agentic access and rising incidents.",
-      "date": "01-07-2026 03:15 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian banks lag on strict DMARC email protection",
-      "link": "https://securitybrief.com.au/story/australian-banks-lag-on-strict-dmarc-email-protection",
-      "summary": "Most customers still face avoidable phishing risk, as 59% of Australian banks lack the strict DMARC setting that blocks spoofed emails.",
-      "date": "01-07-2026 03:01 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "China-Linked Group Targets Southeast Asia Critical Systems",
       "link": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
@@ -142,6 +183,19 @@
         "AU Cyber"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
+      "link": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
+      "summary": "Threat actors don't need any special authentication to reach a target endpoint \u2014 they just need to know where it is.",
+      "date": "01-07-2026 07:01 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -499,19 +553,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "Podcast: If AI Is Sentient Then So Is 'Age of Empires II'",
-      "link": "https://www.404media.co/podcast-if-ai-is-sentient-then-so-is-age-of-empires-ii/",
-      "summary": "A surreal but compelling LLM experiment with Age of Empires II; how a Texas city sold land meant for a park to a data center company; and the Madison Square Garden hack.",
-      "date": "24-06-2026 11:03 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Apple's MacOS Gap Lets Users Disable Security Tools",
       "link": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
@@ -761,32 +802,6 @@
       "date": "18-06-2026 12:28 PM",
       "tags": [
         "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "INC Ransomware Thrives by Mastering the Basics",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/inc-ransomware-thrives-by-mastering-the-basics",
-      "summary": "And one of those basics is focusing on sectors where a ransomware disruption creates immediate pressure to pay up, like with healthcare.",
-      "date": "18-06-2026 05:46 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Sweeping Credential-Harvesting Heist Compromises 30K+ Fortinet Devices",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sweeping-credential-harvesting-heist-compromises-30k-fortinet-devices",
-      "summary": "Attackers are actively targeting various sectors across nearly 200 countries and already have compiled a list of working credentials for tens of thousands of compromised devices.",
-      "date": "18-06-2026 12:06 AM",
-      "tags": [
-        "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [],
