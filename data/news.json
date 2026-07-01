@@ -1,7 +1,81 @@
 {
-  "last_updated": "01-07-2026 12:41 PM",
-  "count": 51,
+  "last_updated": "01-07-2026 05:05 PM",
+  "count": 55,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Organisations lose sight of employee AI use, report finds",
+      "link": "https://securitybrief.com.au/story/organisations-lose-sight-of-employee-ai-use-report-finds",
+      "summary": "More firms are using AI daily, but AvePoint found unauthorised access incidents remain widespread as governance trails behind adoption.",
+      "date": "01-07-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #844 -- China closes AI vulndev gap as USA lifts Fable ban",
+      "link": "https://risky.biz/RB844/",
+      "summary": "On this week\u2019s show Patrick Gray, Adam Boileau and James Wilson discuss the week\u2019s cybersecurity news. They cover: Anthropic\u2019s Fable 5 returning while OpenAI\u2019s GPT-5.6 gets thrown in model jail Distillation, cheap tokens, and AI chat harvesting is an industry in China Edge becomes a lolbin via a new",
+      "date": "01-07-2026 04:11 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI does not invent cyber risk, it accelerates it",
+      "link": "https://securitybrief.com.au/story/ai-does-not-invent-cyber-risk-it-accelerates-it",
+      "summary": "Organisations have only days to patch gaps as AI-driven attackers automate the same old weaknesses, Five Eyes warned.",
+      "date": "01-07-2026 03:30 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI is already running inside the enterprise. Is Australia ready?",
+      "link": "https://securitybrief.com.au/story/ai-is-already-running-inside-the-enterprise-is-australia-ready",
+      "summary": "Australian firms are using AI at scale, but many lack the visibility to stop shadow tools, agentic access and rising incidents.",
+      "date": "01-07-2026 03:15 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian banks lag on strict DMARC email protection",
+      "link": "https://securitybrief.com.au/story/australian-banks-lag-on-strict-dmarc-email-protection",
+      "summary": "Most customers still face avoidable phishing risk, as 59% of Australian banks lack the strict DMARC setting that blocks spoofed emails.",
+      "date": "01-07-2026 03:01 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Google Cloud adds long-lookback PromQL alert policies",
@@ -29,36 +103,17 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "BeyondTrust launches AI Agent Security beta for endpoints",
-      "link": "https://securitybrief.com.au/story/beyondtrust-launches-ai-agent-security-beta-for-endpoints",
-      "summary": "The beta aims to stop unauthorised AI tools on corporate devices from reaching cloud services, repositories and production systems.",
-      "date": "01-07-2026 11:46 AM",
+      "source": "Dark Reading",
+      "title": "China-Linked Group Targets Southeast Asia Critical Systems",
+      "link": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
+      "summary": "The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.",
+      "date": "01-07-2026 11:00 AM",
       "tags": [
-        "AI & Tools"
+        "AU Cyber"
       ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
+      "threat": "Critical",
+      "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Visa strengthens AI defences amid new era of cyber threats",
-      "link": "https://securitybrief.com.au/story/visa-strengthens-ai-defences-amid-new-era-of-cyber-threats",
-      "summary": "Visa is pouring billions into AI defences as regulators demand safer, auditable systems to counter faster cyber threats and fraud.",
-      "date": "01-07-2026 10:12 AM",
-      "tags": [
-        "Scams",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -77,30 +132,31 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "LegalVision warns firms on single AI provider risks",
-      "link": "https://securitybrief.com.au/story/legalvision-warns-firms-on-single-ai-provider-risks",
-      "summary": "Australian firms using AI for core operations risk disruption unless they secure contracts, governance and backup plans, LegalVision says.",
-      "date": "01-07-2026 08:45 AM",
+      "source": "Dark Reading",
+      "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
+      "link": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
+      "summary": "\"Agentjacking\" is the latest demonstration of how easily attackers can exploit an AI agent's inability to differentiate between content and instructions.",
+      "date": "01-07-2026 07:37 AM",
       "tags": [
         "AU Cyber"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "UpGuard links pirate football streams to offshore betting",
-      "link": "https://securitybrief.com.au/story/upguard-links-pirate-football-streams-to-offshore-betting",
-      "summary": "Exposed logs show viewers of pirate football streams were steered towards offshore betting sites, raising privacy and fraud risks ahead of the 2026 World Cup.",
-      "date": "01-07-2026 06:05 AM",
+      "source": "Dark Reading",
+      "title": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs",
+      "summary": "Separate but similar campaigns described by Microsoft and Trend Micro use malicious zip files to spread malware via social engineering and obsfucation, including blockchain abuse.",
+      "date": "01-07-2026 04:59 AM",
       "tags": [
+        "AU Cyber",
         "Scams"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [
-        "Consumer"
+        "Critical Infra"
       ],
       "relevance": "Global"
     },
@@ -148,6 +204,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "AI-Generated Workflows Are a Silent Security Disaster",
+      "link": "https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster",
+      "summary": "Teams are dealing with a truly dangerous problem \u2014 automation that works, but that no one understands.",
+      "date": "30-06-2026 11:00 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 3 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZnk5bEE3cXZicGl4azR2MEdVUnVnckwyd2kwQ09NU0l3MFpobnh0TDBCQzAzWHNJQW9HVUotdFNRRW1pUWp0ckdQa3MzdndBQ2hmX0hQZm1LNTRsQzlibExlY2NmYldQbDMyZzQwRGlISWhMQnQ0VmlMLWJBcDh6WEZkREY2ZGhYWklWVGhGMEQ4am9ad1lINTBldERDX1o2aThoMTBYQ3o4b3ZpNUU1U0hhbFBpMS1id2ZRLTVmY0lHdFMzZVZ6aWJoS2QzWWtwUkRVRXNn?oc=5",
@@ -161,6 +230,19 @@
       "audience": [
         "Consumer"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "NIST Enrichment Reductions Impact CVE Coverage, Accuracy",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy",
+      "summary": "The National Institute of Standards and Technology (NIST) scaled back the number of CVEs it selects for in-depth analysis, but the move has produced mixed results, according to researchers.",
+      "date": "30-06-2026 08:46 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -708,36 +790,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #842 -- Anthropic needs an adult in the C suite",
-      "link": "https://risky.biz/RB842/",
-      "summary": "On this week\u2019s show Patrick Gray, Adam Boileau and James Wilson discuss the week\u2019s cybersecurity news. They cover: Anthropic\u2019s Fable 5 and Mythos 5 get nuked by the US government four days after launch \u201cbecause security\u201d Why \u201cguardrails\u201d won\u2019t keep the world safe from your AI doomsday machine The FI",
-      "date": "17-06-2026 02:04 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "High",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Clayton Utz report urges boards to address third-party risk and AI rollout gaps",
-      "link": "https://australiancybersecuritymagazine.com.au/clayton-utz-report-urges-boards-to-address-third-party-risk-and-ai-rollout-gaps/?utm_source=rss&utm_medium=rss&utm_campaign=clayton-utz-report-urges-boards-to-address-third-party-risk-and-ai-rollout-gaps&utm_source=rss&utm_medium=rss&utm_campaign=clayton-utz-report-urges-boards-to-address-third-party-risk-and-ai-rollout-gaps",
-      "summary": "Australian boards risk missing critical technology and supply chain vulnerabilities due to limited visibility over third-party and sub-tier digital dependencies, according to a new white paper from law firm Clayton [...]",
-      "date": "17-06-2026 01:48 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     }
   ]
 }

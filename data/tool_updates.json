@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-07-2026 12:42 PM",
+  "last_updated": "01-07-2026 05:05 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "01-07-2026 12:42 PM"
+      "date": "01-07-2026 05:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.196",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added support for organization default models \u2014 admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in <code>/model</code> when you haven't",
-      "date": "01-07-2026 12:42 PM"
+      "date": "01-07-2026 05:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.195",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
-      "date": "01-07-2026 12:42 PM"
+      "date": "01-07-2026 05:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "01-07-2026 12:42 PM"
+      "date": "01-07-2026 05:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "01-07-2026 12:42 PM"
+      "date": "01-07-2026 05:05 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Just Now: Anthropic Releases Sonnet 5 with Performance Close to Opus 4.8, Not Necessarily Cheaper - 36Kr",
+      "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2cTgwZ2x5WDY4T2ZNUEQ4eFRKS3AwVjVnOFZmWTBZOUlBM0h5bHgydlc3LXlaelJ3MXhpWEsyR1hWU0ZSRTFTM0Z2dFNSdHJob2hR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2cTgwZ2x5WDY4T2ZNUEQ4eFRKS3AwVjVnOFZmWTBZOUlBM0h5bHgydlc3LXlaelJ3MXhpWEsyR1hWU0ZSRTFTM0Z2dFNSdHJob2hR?oc=5\" target=\"_blank\">Just Now: Anthr",
+      "date": "01-07-2026 11:14 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -85,10 +93,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic launches Claude Sonnet 5 at a steep discount to its top model as the company races toward a blockbuster IPO - VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1A2aGp1cnl6YnNVbjd3OVFjaXd4V1cxdUQtNVpYeE9BYVdVRktqSHBuTmN1TEFGeEtucThUMWZ0cjFLZlJXWWx4T1NyS3JUYktOWVkxQ2g4emFhTjBsVTltTkFOcXY0ZVM2RFhNbHg0YW5hSnF6TU9uMDZ6eGZKS1Z6YU5Lc3NLc05zTmFyaWxVUTljQVJEVEpqM0JYZXNodmZEbmZKUXhFOEEtZC12MDQtUno3ZGVnQmxQeFgwcHNQZk00Sk9sc1NhOVg5VDlYMmtnZFM3c3lMNDVHaTVsekV6SlB2VzQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1A2aGp1cnl6YnNVbjd3OVFjaXd4V1cxdUQtNVpYeE9BYVdVRktqSHBuTmN1TEFGeEtucThUMWZ0cjFLZlJXWWx4T1NyS3JUYktOWVkxQ2g4emFhTjBsVTltTkFOcXY0ZVM2RFhNbH",
-      "date": "01-07-2026 04:00 AM"
+      "title": "Updated: Anthropic launches Claude Science as a product for biopharma, starts own drug programs - Endpoints News",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPekJkRU1nWTZJQzMzdW9DYjdvUFltam5mSEdDNUgzbTlZNW9ub2lCaHBjOEk4TGtnM2tlT2tlZHEtWHlnUm81SWk5VGl4NVU2Qk5NakNVN1VSOTFCaklSQ2I0YjJTbC11dVFLQUNza3VZbDVYQ0Z3V2d4bHlqMndfbU9CRlV1d08ycW1JUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPekJkRU1nWTZJQzMzdW9DYjdvUFltam5mSEdDNUgzbTlZNW9ub2lCaHBjOEk4TGtnM2tlT2tlZHEtWHlnUm81SWk5VGl4NVU2Qk5NakNVN1VSOTFCaklSQ2I0YjJTbC11dVFLQUNza3",
+      "date": "01-07-2026 03:15 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Your Microsoft Store Office apps are losing security updates this year - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1",
+      "date": "01-07-2026 01:20 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -155,14 +171,6 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
@@ -185,14 +193,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
       "date": "11-06-2026 01:53 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft June 2026 Patch Tuesday fixes 6 zero-days, 200 flaws - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENlhCcGN5SVhuSHl6ZWpJYWxyUFpmMHUyMjV5bWtjZjdFZnRmSTFTTGdiTlJoNFp5b1Z1cmtmRkkwY0pQbUNzc1A00gG0AUFVX3lxTE5qV2RuektGMV9xM3gwUjcxZXlacEtCdHUxS0E4Z3FfMzQtTHF6bzk4WHpZTTBKMDd0cjRDMF96dUE1TXpXTzBJVjBPODN1c2xCTm12cWRUSzBGaXp0WlFyY3NxOF9aY0Nwa0MxTmVpVmM4N1g1OTR6aGFVMnpvenowZHBQQlpQQ1dSelNRTy1xa1IyRmJyV2pWRDBjNTNqckM2eGJ1bmdrREF3ZEk2dVhsMGhLYw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxPR3VwZXRqMnRaYml0S1BpSXdiX0x0Nm0tdGtJMEVVQ2ZIeWZ0TDdndzkzRy10dDFtb1dIQ28teTFDTlA3LUdfeGdBQ2Y0d2hka3dyak5wUFNZa3hMcFJNN1FXdVB6ZVAwTGJmU3pENl",
-      "date": "09-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -253,17 +253,17 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
-      "date": "20-04-2026 05:00 PM"
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
+      "date": "16-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
+      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
       "date": "16-04-2026 05:00 PM"
     },
     {
