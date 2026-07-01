@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-07-2026 05:05 PM",
+  "last_updated": "01-07-2026 08:52 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "01-07-2026 05:05 PM"
+      "date": "01-07-2026 08:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.196",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added support for organization default models \u2014 admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in <code>/model</code> when you haven't",
-      "date": "01-07-2026 05:05 PM"
+      "date": "01-07-2026 08:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.195",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
-      "date": "01-07-2026 05:05 PM"
+      "date": "01-07-2026 08:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "01-07-2026 05:05 PM"
+      "date": "01-07-2026 08:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.191",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>/rewind</code> support for resuming a conversation from before <code>/clear</code> was run</li>\n<li>Fixed scroll position jumping to the bottom while readi",
-      "date": "01-07-2026 05:05 PM"
+      "date": "01-07-2026 08:52 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -49,6 +49,14 @@
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2cTgwZ2x5WDY4T2ZNUEQ4eFRKS3AwVjVnOFZmWTBZOUlBM0h5bHgydlc3LXlaelJ3MXhpWEsyR1hWU0ZSRTFTM0Z2dFNSdHJob2hR?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiU0FVX3lxTFB2cTgwZ2x5WDY4T2ZNUEQ4eFRKS3AwVjVnOFZmWTBZOUlBM0h5bHgydlc3LXlaelJ3MXhpWEsyR1hWU0ZSRTFTM0Z2dFNSdHJob2hR?oc=5\" target=\"_blank\">Just Now: Anthr",
       "date": "01-07-2026 11:14 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Sonnet 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
+      "date": "01-07-2026 10:21 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -85,14 +93,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Sonnet 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
-      "date": "01-07-2026 04:03 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Updated: Anthropic launches Claude Science as a product for biopharma, starts own drug programs - Endpoints News",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPekJkRU1nWTZJQzMzdW9DYjdvUFltam5mSEdDNUgzbTlZNW9ub2lCaHBjOEk4TGtnM2tlT2tlZHEtWHlnUm81SWk5VGl4NVU2Qk5NakNVN1VSOTFCaklSQ2I0YjJTbC11dVFLQUNza3VZbDVYQ0Z3V2d4bHlqMndfbU9CRlV1d08ycW1JUQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPekJkRU1nWTZJQzMzdW9DYjdvUFltam5mSEdDNUgzbTlZNW9ub2lCaHBjOEk4TGtnM2tlT2tlZHEtWHlnUm81SWk5VGl4NVU2Qk5NakNVN1VSOTFCaklSQ2I0YjJTbC11dVFLQUNza3",
@@ -121,6 +121,14 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_01770796539.html",
       "summary": "<p>The Dev channel has been updated to 151.0.7912.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
       "date": "27-06-2026 12:58 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
+      "date": "25-06-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -225,14 +233,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
       "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
       "date": "29-05-2026 05:00 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing a new design for Microsoft 365 Copilot",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
-      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
-      "date": "29-05-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
