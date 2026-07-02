@@ -1,5 +1,5 @@
 {
-  "last_updated": "02-07-2026 12:31 PM",
+  "last_updated": "02-07-2026 04:32 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude in Chrome is now generally available</li>\n<li>Added background agent notifications in <code>claude agents</code> \u2014 sessions that need input or finish now fire t",
-      "date": "02-07-2026 12:31 PM"
+      "date": "02-07-2026 04:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "02-07-2026 12:31 PM"
+      "date": "02-07-2026 04:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.196",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.196",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added support for organization default models \u2014 admins set it in the org console; it shows as \"Org default\" (or \"Role default\") in <code>/model</code> when you haven't",
-      "date": "02-07-2026 12:31 PM"
+      "date": "02-07-2026 04:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.195",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.195",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>CLAUDE_CODE_DISABLE_MOUSE_CLICKS</code> to disable mouse click/drag/hover in fullscreen mode while keeping wheel scroll</li>\n<li>Fixed hook matchers with h",
-      "date": "02-07-2026 12:31 PM"
+      "date": "02-07-2026 04:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.193",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.193",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>autoMode.classifyAllShell</code> setting to route all Bash/PowerShell commands through the auto-mode classifier instead of only arbitrary-code-execution pa",
-      "date": "02-07-2026 12:31 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "All the news about Anthropic\u2019s new AI fight with the White House - The Verge",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNEJWSEQxOVUxZ2tMOGQwNVlLSDAyV3Z4VnRabjNPQXViZmt6d1NST2FWaDRrUkEwdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNE",
-      "date": "02-07-2026 09:11 AM"
+      "date": "02-07-2026 04:32 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -81,6 +73,14 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.3) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"ht",
       "date": "02-07-2026 12:58 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic says US has lifted export controls on Fable and Mythos AI models after security fears - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQVpuZTR6RF9FUUd0SFV4ZTZkeHByMURrQXVGYXQ4U1R5TDBjSGZEenh0TlA0aGtWeXBRcE9pUjhCLUpfSUVoN2pSc2QyUUZ0OXBWWFVWblpvcEQyc3JydzMtbmRSM1lLaTAtRzNDM0xiT0ZHM3djRERTcmFnTi1xcGt6b2JCdGYwVWVIUTJsTWlKZmE4SW9uc254OW0wdjB1MnB4VVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQVpuZTR6RF9FUUd0SFV4ZTZkeHByMURrQXVGYXQ4U1R5TDBjSGZEenh0TlA0aGtWeXBRcE9pUjhCLUpfSUVoN2pSc2QyUUZ0OXBWWFVWblpvcEQyc3JydzMtbmRSM1",
+      "date": "01-07-2026 11:51 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -131,14 +131,6 @@
       "date": "01-07-2026 01:20 AM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Industry Innovators 2026: Canva - BizBash",
-      "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxON1I2OEY2RmZTakc5bEp1emFkN0JiOE5rZXVHME9jcmsyXzZxRWhJdXJTX0RRcmRzLTdoazRpc0ZmcEtybktuWWEyWG1SMjY2VHpxelNtWWdOb0dsWkNJbm9sbFNWUFZ0TkJzVzBOcXpTcVZaSWdXYUkzRUEwQURCYkE4VQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxON1I2OEY2RmZTakc5bEp1emFkN0JiOE5rZXVHME9jcmsyXzZxRWhJdXJTX0RRcmRzLTdoazRpc0ZmcEtybktuWWEyWG1SMjY2VHpxelNtWWdOb0dsWkNJbm9sbFNWUFZ0TkJzVzBOcX",
-      "date": "29-06-2026 10:25 PM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
@@ -153,14 +145,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-dev-for-desktop-update_01770796539.html",
       "summary": "<p>The Dev channel has been updated to 151.0.7912.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
       "date": "27-06-2026 12:58 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
-      "date": "25-06-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -243,6 +227,14 @@
       "date": "29-05-2026 05:00 AM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing a new design for Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
+      "date": "29-05-2026 01:00 AM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -257,6 +249,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNT",
       "date": "14-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
+      "date": "20-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",

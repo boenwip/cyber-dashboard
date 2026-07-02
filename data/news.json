@@ -1,15 +1,72 @@
 {
-  "last_updated": "02-07-2026 12:31 PM",
-  "count": 50,
+  "last_updated": "02-07-2026 04:32 PM",
+  "count": 55,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "DXC launches Private Cloud+ for regulated workloads",
-      "link": "https://securitybrief.com.au/story/dxc-launches-private-cloud-for-regulated-workloads",
-      "summary": "Enterprises and agencies handling sensitive data now have a sovereign hybrid option as DXC targets stricter compliance and AI-ready workloads.",
-      "date": "02-07-2026 11:15 AM",
+      "title": "We'll get up at 4am for the Socceroos, cyber-criminals are counting on it",
+      "link": "https://securitybrief.com.au/story/we-ll-get-up-at-4am-for-the-socceroos-cyber-criminals-are-counting-on-it",
+      "summary": "Public Wi-Fi, reused passwords and distracted fans are leaving travelling Australians open to cyber-attacks during World Cup nights abroad.",
+      "date": "02-07-2026 03:11 PM",
       "tags": [
-        "Compliance"
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Asia-Pacific digital economies face highest identity fraud",
+      "link": "https://securitybrief.com.au/story/asia-pacific-digital-economies-face-highest-identity-fraud",
+      "summary": "Remote onboarding is leaving Asia-Pacific's most digital markets exposed, with Indonesia seeing the highest identity-fraud signals in Shufti's data.",
+      "date": "02-07-2026 02:50 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Zoho doubles Adelaide headcount as growth shifts regional",
+      "link": "https://securitybrief.com.au/story/zoho-doubles-adelaide-headcount-as-growth-shifts-regional",
+      "summary": "Adelaide is now the centre of Zoho's Australian operations, after the software group doubled local staff as revenue and customers climbed.",
+      "date": "02-07-2026 02:15 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Why SMS authentication is exposing mortgage lenders to avoidable risk",
+      "link": "https://securitybrief.com.au/story/why-sms-authentication-is-exposing-mortgage-lenders-to-avoidable-risk",
+      "summary": "Mortgage brokers face mounting breach and fraud risks as attackers exploit SMS codes to reach high-value client data, experts warn.",
+      "date": "02-07-2026 02:15 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Agentic AI creates enterprise challenge beyond LLM boom",
+      "link": "https://securitybrief.com.au/story/agentic-ai-creates-enterprise-challenge-beyond-llm-boom",
+      "summary": "Enterprises face rising costs and governance gaps as thousands of AI agents begin operating alongside staff across multiple systems.",
+      "date": "02-07-2026 01:56 PM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [
@@ -19,45 +76,18 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Amazon Web Services adds ACME support to Certificate Manager",
-      "link": "https://securitybrief.com.au/story/amazon-web-services-adds-acme-support-to-certificate-manager",
-      "summary": "Shorter certificate lifecycles could force more renewals onto automation, as AWS now lets customers issue and renew TLS certificates through ACME.",
-      "date": "02-07-2026 11:00 AM",
+      "title": "Commvault named Gartner backup leader for 15th time",
+      "link": "https://securitybrief.com.au/story/commvault-named-gartner-backup-leader-for-15th-time",
+      "summary": "The designation underlines rising demand for cyber recovery and AI-era data protection as enterprises shift from backup alone to broader resilience.",
+      "date": "02-07-2026 12:56 PM",
       "tags": [
-        "AI & Tools"
+        "Compliance"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia critical infrastructure rules tighten risk",
-      "link": "https://securitybrief.com.au/story/australia-critical-infrastructure-rules-tighten-risk",
-      "summary": "Operators of essential services will need to manage AI, legacy systems and supplier risks under staged obligations due in 2027 and 2028.",
-      "date": "02-07-2026 10:24 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
       "audience": [
-        "Critical Infra",
-        "Consumer"
+        "Enterprise"
       ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Geotab launches AI dash cam for fleets in Australia",
-      "link": "https://securitybrief.com.au/story/geotab-launches-ai-dash-cam-for-fleets-in-australia",
-      "summary": "Rising fatigue and safety concerns are pushing Australian fleets towards in-cab video, with 53% already using it to cut risk.",
-      "date": "02-07-2026 09:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -257,6 +287,22 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZnk5bEE3cXZicGl4azR2MEdVUnVnckwyd2kwQ09NU0l3MFpobnh0TDBCQzAzWHNJQW9HVUotdFNRRW1pUWp0ckdQa3MzdndBQ2hmX0hQZm1LNTRsQzlibExlY2NmYldQbDMyZzQwRGlISWhMQnQ0VmlMLWJBcDh6WEZkREY2ZGhYWklWVGhGMEQ4am9ad1lINTBldERDX1o2aThoMTBYQ3o4b3ZpNUU1U0hhbFBpMS1id2ZRLTVmY0lHdFMzZVZ6aWJoS2QzWWtwUkRVRXNn?oc=5",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
+      "date": "30-06-2026 08:47 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "NIST Enrichment Reductions Impact CVE Coverage, Accuracy",
       "link": "https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy",
@@ -372,6 +418,22 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNLWNlZk1tU3V1Q0FOQ3JqTWtVQzBjX0d5NjgtUjJReHhaWjBHeG81eTUwMEN5dFl0MHFhQ0h3alJTUmxDSnZrQXpva2lTQ25kUkY2czlrTEctSGZhOXpWS1h4TkFwY0drc3BBVV9qMklFUUNubjBrRlM4RER1ejRzaUFlSnNrNHVOT3hsUV9KMWROb1ZjSE1uXzB4cFlIV0tnNHJ5cXZEMldla0gtWjlwdWpZOVNYZ3JBbzcwM1I3LVJ6OTdYRDhfZjVrTXIxbUV3dnI1blExTVBBU0VYTk1RWTdQVFZ5WHgzdUcyOVhWRHJMcVZFUWtwdzlR?oc=5",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
+      "date": "27-06-2026 12:51 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "ACMA\u2019s 2026\u201327 compliance priorities focus on protecting consumers",
       "link": "https://australiancybersecuritymagazine.com.au/acmas-2026-27-compliance-priorities-focus-on-protecting-consumers/?utm_source=rss&utm_medium=rss&utm_campaign=acmas-2026-27-compliance-priorities-focus-on-protecting-consumers&utm_source=rss&utm_medium=rss&utm_campaign=acmas-2026-27-compliance-priorities-focus-on-protecting-consumers",
@@ -382,6 +444,22 @@
         "Compliance"
       ],
       "threat": "High",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Australian Taxation Office (ATO) and \u2018myGov\u2019 impersonation scams - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxONkpkeVA3NlJacUVGbEpqTmlkSngxRGcwcG4yOFJyTk1Oa3d5ZFM0bENCVTdsQkdJTHE0TGdhMWFJZ1k5cVBRMnNBNEFpTDloZU5CMjJkdmNQUEhLUjdDWnc4ZXF4dFNZenhsSGMzeGdleExDdXZaRUZFNHQ3UTYyem1QRHpRbTFSTU92MDJPcDZaRUp1Um1fMHNfZVJCVXFzM25ibUtiV09VRHROaC1DdHZGUHE?oc=5",
+      "summary": "Australian Taxation Office (ATO) and \u2018myGov\u2019 impersonation scams Scamwatch",
+      "date": "26-06-2026 11:13 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
@@ -602,6 +680,21 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "National Anti-Scam Centre contacted victims following successful money laundering prosecution - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZk8xY3kzd0RiTzNwbnJtSmhMcDY1eS1rWENHQldRTWJ4ZnBxQ2Y5cndYMGp5QUV5STN2NkZmLVNTRk5oWS1MeE5GMlVfYWQ0SFdad2dsZ0FRaGh5WU1jTjVLa1owSzBOeTR5ZTExbUtQNkhHYW1UTkJSdkxfaV80eVpSV0NDR0NtbjU2c29rcHFBZFllbHVuajRRclFLa3EtSkZQVFVudWVXZWR0Y3ZPdlQ3RU5DTEZJTDM3RVlpSm9CR1VfRkdfQTFHMmNsMl9iY19GRk1vaTNoVWZfQm5NWg?oc=5",
+      "summary": "National Anti-Scam Centre contacted victims following successful money laundering prosecution Scamwatch",
+      "date": "23-06-2026 09:00 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories",
       "link": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
@@ -695,22 +788,6 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Healthcare cyber investment rises, but confidence in recovery lags: Wasabi survey",
-      "link": "https://australiancybersecuritymagazine.com.au/healthcare-cyber-investment-rises-but-confidence-in-recovery-lags-wasabi-survey/?utm_source=rss&utm_medium=rss&utm_campaign=healthcare-cyber-investment-rises-but-confidence-in-recovery-lags-wasabi-survey&utm_source=rss&utm_medium=rss&utm_campaign=healthcare-cyber-investment-rises-but-confidence-in-recovery-lags-wasabi-survey",
-      "summary": "Australian healthcare organisations are increasing spending on cyber resilience and data protection, but many IT professionals remain unsure they could keep critical data operational after a cyberattack, according to the [...]",
-      "date": "18-06-2026 01:56 PM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Critical",
       "audience": [
         "Enterprise"
       ],
