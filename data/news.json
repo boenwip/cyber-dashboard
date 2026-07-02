@@ -1,7 +1,107 @@
 {
-  "last_updated": "02-07-2026 07:53 PM",
-  "count": 54,
+  "last_updated": "03-07-2026 08:03 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
+      "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
+      "summary": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
+      "date": "03-07-2026 05:31 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
+      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
+      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks afte",
+      "date": "03-07-2026 05:27 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
+      "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
+      "date": "03-07-2026 04:07 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Data Theorem launches AI security platform for apps",
+      "link": "https://securitybrief.com.au/story/data-theorem-launches-ai-security-platform-for-apps",
+      "summary": "Security teams are being pushed to react faster as AI-assisted attacks widen the gap between exploit discovery, patching and live defence.",
+      "date": "03-07-2026 02:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Yahoo Boys, a persistent menace and one of the longest running online crime cultures",
+      "link": "https://securitybrief.com.au/story/yahoo-boys-a-persistent-menace-and-one-of-the-longest-running-online-crime-cultures-c918eb97-d1ce-46d7-b03f-c42a7e42be2c",
+      "summary": "Yahoo Boys have evolved from email fraud into an AI-enabled cybercrime subculture, using deepfakes, sextortion and social media to target victims worldwide.",
+      "date": "03-07-2026 01:30 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
+      "summary": "IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service as Anthropic's Mythos findings ignite debate over how to secure the open-source software supply chain.",
+      "date": "02-07-2026 10:33 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Nasuni wins sixth NorthFace award, tops G2 reports",
+      "link": "https://securitybrief.com.au/story/nasuni-wins-sixth-northface-award-tops-g2-reports",
+      "summary": "Audited feedback has lifted Nasuni's customer-service standing, with a 98% CSAT score and top G2 placements across 15 categories.",
+      "date": "02-07-2026 07:38 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Attackers abuse trust as ClickFix spreads to macOS",
@@ -33,47 +133,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "We'll get up at 4am for the Socceroos, cyber-criminals are counting on it",
-      "link": "https://securitybrief.com.au/story/we-ll-get-up-at-4am-for-the-socceroos-cyber-criminals-are-counting-on-it",
-      "summary": "Public Wi-Fi, reused passwords and distracted fans are leaving travelling Australians open to cyber-attacks during World Cup nights abroad.",
-      "date": "02-07-2026 03:11 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Asia-Pacific digital economies face highest identity fraud",
-      "link": "https://securitybrief.com.au/story/asia-pacific-digital-economies-face-highest-identity-fraud",
-      "summary": "Remote onboarding is leaving Asia-Pacific's most digital markets exposed, with Indonesia seeing the highest identity-fraud signals in Shufti's data.",
-      "date": "02-07-2026 02:50 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "High",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Zoho doubles Adelaide headcount as growth shifts regional",
-      "link": "https://securitybrief.com.au/story/zoho-doubles-adelaide-headcount-as-growth-shifts-regional",
-      "summary": "Adelaide is now the centre of Zoho's Australian operations, after the software group doubled local staff as revenue and customers climbed.",
-      "date": "02-07-2026 02:15 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
       "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
@@ -98,6 +157,19 @@
         "Scams"
       ],
       "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "When Too Much Security Data Became the Risk",
+      "link": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
+      "summary": "Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.",
+      "date": "02-07-2026 01:44 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -730,51 +802,6 @@
       ],
       "threat": "Medium",
       "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "\u2018Popa\u2019 Botnet Linked to Publicly-Traded Israeli Firm",
-      "link": "https://krebsonsecurity.com/2026/06/popa-botnet-linked-to-publicly-traded-israeli-firm/",
-      "summary": "For the past four years, a sprawling Android-based botnet called Popa has forced millions of consumer TV boxes to relay Internet traffic linked to advertising fraud, account takeovers, and mass data-scraping efforts. This week, researchers from multiple security firms concluded that the Popa botnet ",
-      "date": "19-06-2026 03:37 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Salesforce Data Thefts Continue via Klue App Compromise",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/salesforce-data-thefts-klue-app-compromise",
-      "summary": "Klue's Battlecards is now the third integrated application that has been compromised to steal customers' Salesforce data, and victims include Huntress, the cybersecurity vendor.",
-      "date": "19-06-2026 02:49 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Aon study finds Australia facing AI skills and benefits gaps as adoption rises",
-      "link": "https://australiancybersecuritymagazine.com.au/aon-study-finds-australia-facing-ai-skills-and-benefits-gaps-as-adoption-rises/?utm_source=rss&utm_medium=rss&utm_campaign=aon-study-finds-australia-facing-ai-skills-and-benefits-gaps-as-adoption-rises&utm_source=rss&utm_medium=rss&utm_campaign=aon-study-finds-australia-facing-ai-skills-and-benefits-gaps-as-adoption-rises",
-      "summary": "A new study by Aon has found Australian organisations are adopting artificial intelligence at pace but lagging in workforce readiness, with gaps in skills availability, employee benefits and pay transparency. [...]",
-      "date": "18-06-2026 09:36 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
       "relevance": "AU General"
     }
   ]
