@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-07-2026 01:22 PM",
+  "last_updated": "04-07-2026 08:12 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "04-07-2026 01:22 PM"
+      "date": "04-07-2026 08:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "04-07-2026 01:22 PM"
+      "date": "04-07-2026 08:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "04-07-2026 01:22 PM"
+      "date": "04-07-2026 08:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "04-07-2026 01:22 PM"
+      "date": "04-07-2026 08:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "04-07-2026 01:22 PM"
+      "date": "04-07-2026 08:12 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -101,14 +101,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic says US has lifted export controls on Fable and Mythos AI models after security fears - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQVpuZTR6RF9FUUd0SFV4ZTZkeHByMURrQXVGYXQ4U1R5TDBjSGZEenh0TlA0aGtWeXBRcE9pUjhCLUpfSUVoN2pSc2QyUUZ0OXBWWFVWblpvcEQyc3JydzMtbmRSM1lLaTAtRzNDM0xiT0ZHM3djRERTcmFnTi1xcGt6b2JCdGYwVWVIUTJsTWlKZmE4SW9uc254OW0wdjB1MnB4VVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxNX2l3azNGRHZzQVpuZTR6RF9FUUd0SFV4ZTZkeHByMURrQXVGYXQ4U1R5TDBjSGZEenh0TlA0aGtWeXBRcE9pUjhCLUpfSUVoN2pSc2QyUUZ0OXBWWFVWblpvcEQyc3JydzMtbmRSM1",
-      "date": "01-07-2026 11:51 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Introducing Claude Sonnet 5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
@@ -153,6 +145,14 @@
       "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
       "date": "30-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Is Anthropic\u2019s Fable 5 Coming Back This Week? (Update: It Has) - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNGlCUkc1cXpNdzRFZUhQWW5HSGRRUGlJQ3Z6RFQ2dlUzU0pYTFFrNnM5akNxSVhMSmVOWG9MMWJNektqeTdlNnFlaDRfc0pWcXRaRElLbVM1eEVleDRvd24zallvYkFqOHlUbWF5eXNSdS1CX3I3akVYWlR3bVp0Y0tLbFhQZDdiN3ZiMnUzcW1sOGRWVHlfQUFKOEZCUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxPNGlCUkc1cXpNdzRFZUhQWW5HSGRRUGlJQ3Z6RFQ2dlUzU0pYTFFrNnM5akNxSVhMSmVOWG9MMWJNektqeTdlNnFlaDRfc0pWcXRaRElLbVM1eEVleDRvd24zallvYkFqOHlUbWF5eX",
+      "date": "30-06-2026 06:25 AM"
     },
     {
       "source": "Microsoft 365 Blog",
