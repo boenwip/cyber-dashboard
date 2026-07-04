@@ -1,5 +1,5 @@
 {
-  "last_updated": "05-07-2026 03:08 AM",
+  "last_updated": "05-07-2026 07:55 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "05-07-2026 03:08 AM"
+      "date": "05-07-2026 07:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "05-07-2026 03:08 AM"
+      "date": "05-07-2026 07:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "05-07-2026 03:08 AM"
+      "date": "05-07-2026 07:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "05-07-2026 03:08 AM"
+      "date": "05-07-2026 07:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "05-07-2026 03:08 AM"
+      "date": "05-07-2026 07:55 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,14 +73,6 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.6) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You",
       "date": "03-07-2026 01:28 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva Down Today: Hundreds of users report problems. Here's why you may be facing error while uploading im - The Economic Times",
-      "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWk9sb1AyNGE3WVREUEZ5SWU4Znlud2E4ZERSei14RW56RURQOHlRcmlET2lkNmw2b3FQWkRrTWNwc2ZJX3d3U3ZYeE5INVN0ZTZ0bEVMSjVpdXlhc1dPOVJNcjctNkpWU1dhRzRKcFFaVHRIa3lISEc2LUNLNHZWMzhkVWhGMnVDT1VTeC1wSWllcHhBOTVMMzZ0dDZiNVE4eURpSlBIbFR1S21PYzUzcktudEhyWUxZVTdWZGt1bHpHaS1NRkFjbGc5ekVBckMyM3V4eDJuZkdSZHpucDl5c2Fva01Ya3hOclBjWXN4NEJvVmM3YW5qbzQ4RFJzem9HUy0yMFRXTWVHd9IBjwJBVV95cUxQSnZtbnA1OG9WVXRXWGZJSGNGbmh5LUl6X1piTVU3RzdTbHJrbDEzTEptbTVOS3F0M2IycjgwZEhsbTVZbFpYMGszLWQ5TU94MXl2SlJrdVBMdGRMTDhkRnFhcmpwVnQzaGVaclpwREl4NTZxbEt2SHYwUzljTk5lQy1jLXJPclhFOHNwT0p2VkxIcGtHbE0wSFUtTDVMb0kzSGxFdWN0dHdCbzFJb0Mzc1lnRVpaVHZYa1Bhbmh6cm12MmVCYUtzZndlZ3VzZnh0NDdVV1k1dURpaklwN0E2aGJ2UklveWNQcTg1emlzZ0dSR0lob2pPLVFWYl80TkJGTTQ1WEphZFJqZ00tXzNF?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigJBVV95cUxPWk9sb1AyNGE3WVREUEZ5SWU4Znlud2E4ZERSei14RW56RURQOHlRcmlET2lkNmw2b3FQWkRrTWNwc2ZJX3d3U3ZYeE5INVN0ZTZ0bEVMSjVpdXlhc1dPOVJNcjctNkpWU1dhRzRKcF",
-      "date": "02-07-2026 07:17 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -272,6 +264,14 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
+      "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva is coming for your SaaS stack - SmartCompany",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1lDZDVfWEEwdmZST0E4V2NCM3I4eFVnNjA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1",
       "date": "16-04-2026 05:00 PM"
     },
     {
