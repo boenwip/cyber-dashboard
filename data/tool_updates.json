@@ -1,5 +1,5 @@
 {
-  "last_updated": "06-07-2026 07:58 AM",
+  "last_updated": "06-07-2026 09:03 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "06-07-2026 07:58 AM"
+      "date": "06-07-2026 09:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "06-07-2026 07:58 AM"
+      "date": "06-07-2026 09:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "06-07-2026 07:58 AM"
+      "date": "06-07-2026 09:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "06-07-2026 07:58 AM"
+      "date": "06-07-2026 09:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "06-07-2026 07:58 AM"
+      "date": "06-07-2026 09:03 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
