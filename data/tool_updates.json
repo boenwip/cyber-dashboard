@@ -1,5 +1,5 @@
 {
-  "last_updated": "06-07-2026 09:23 PM",
+  "last_updated": "07-07-2026 08:11 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "06-07-2026 09:23 PM"
+      "date": "07-07-2026 08:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "06-07-2026 09:23 PM"
+      "date": "07-07-2026 08:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "06-07-2026 09:23 PM"
+      "date": "07-07-2026 08:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "06-07-2026 09:23 PM"
+      "date": "07-07-2026 08:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,31 +40,15 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "06-07-2026 09:23 PM"
+      "date": "07-07-2026 08:11 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Updates & Timeline - autogpt.net",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rcm15Vi1NY1RCc2ozZHJtcm9JdHZtTHdnX3QzRnpTMnJ2M2ZLeWwwbXp3OEZXRlQwak1GVlBtalhaTm9zMHpUUUUtejZ6ODFIOU5iX1hqWQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rcm15Vi1NY1RCc2ozZHJtcm9JdHZtTHdnX3QzRnpTMnJ2M2ZLeWwwbXp3OEZXRlQwak1GVlBtalhaTm9zMHpUUUUtejZ6ODFIOU5iX1hqWQ?oc=5\" target=\"_blank\">Claude Up",
-      "date": "06-07-2026 10:17 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
-      "date": "06-07-2026 08:30 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Raises Microsoft 365 Commercial Subscription Prices - Let's Data Science",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGExZDgzR2d3ZndqVC1EZWw2N3dQSGtjNzM0YzQ5Tmh6b25GNldEU1lZX0FjdkpLOVdsVmN5VVFVbjVtSmZRRDlqeHQtQ05TeHdBNU5JSDkzeWtPazBnNF9jdHB4bWlOTzFxLW5YQ0VzUVJFUVFhMWpEVklhazlFYTUwRk5TTDJJMUYzTWQtc21ybzM2TmJxMWtCcXZxZHRBanlDNA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGExZDgzR2d3ZndqVC1EZWw2N3dQSGtjNzM0YzQ5Tmh6b25GNldEU1lZX0FjdkpLOVdsVmN5VVFVbjVtSmZRRDlqeHQtQ05TeHdBNU5JSDkzeWtPazBnNF9jdHB4bWlOTzFxLW5YQ0",
-      "date": "05-07-2026 10:58 AM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update.html",
+      "summary": "<p>The Dev channel has been updated to 152.0.7928.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
+      "date": "07-07-2026 12:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,6 +75,14 @@
       "date": "03-07-2026 01:28 AM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 Copilot: Office meets genAI and agents - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby05eTExa0NtUEVXVW5fREV6ampsc2ZiNklqZVNibUNuNUV6bjJtUTdVQ3JnMEJrM0xjVUtvQ1dR?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby",
+      "date": "02-07-2026 05:00 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for iOS Update",
@@ -115,12 +107,12 @@
       "date": "01-07-2026 07:33 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01486779060.html",
-      "summary": "<p>&nbsp;Hi, everyone! We've just released <b>Chrome 150 (150.0.7871.63)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Pl",
-      "date": "01-07-2026 07:18 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
+      "date": "01-07-2026 05:50 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -145,6 +137,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
       "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
       "date": "25-06-2026 11:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "AI models capable of devastating attacks on governments and business months away, rare Five Eyes statement warns - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSHdxUUM1UXY2UXFpa09idjN1Z0ZLNFZWX2dmR1FyaDRrM2NVY2trNFJwbjJHdWZuYUUtck1rWU9VRWZEbV9kT2hXOUNxbm1iU3FwTlp3dzkzdUhQdw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSH",
+      "date": "22-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
