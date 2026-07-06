@@ -1,5 +1,5 @@
 {
-  "last_updated": "06-07-2026 11:16 AM",
+  "last_updated": "06-07-2026 12:25 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "06-07-2026 11:16 AM"
+      "date": "06-07-2026 12:25 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "06-07-2026 11:16 AM"
+      "date": "06-07-2026 12:25 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "06-07-2026 11:16 AM"
+      "date": "06-07-2026 12:25 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "06-07-2026 11:16 AM"
+      "date": "06-07-2026 12:25 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.197",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "06-07-2026 11:16 AM"
+      "date": "06-07-2026 12:25 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -49,6 +49,14 @@
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rcm15Vi1NY1RCc2ozZHJtcm9JdHZtTHdnX3QzRnpTMnJ2M2ZLeWwwbXp3OEZXRlQwak1GVlBtalhaTm9zMHpUUUUtejZ6ODFIOU5iX1hqWQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE5Rcm15Vi1NY1RCc2ozZHJtcm9JdHZtTHdnX3QzRnpTMnJ2M2ZLeWwwbXp3OEZXRlQwak1GVlBtalhaTm9zMHpUUUUtejZ6ODFIOU5iX1hqWQ?oc=5\" target=\"_blank\">Claude Up",
       "date": "06-07-2026 10:17 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
+      "date": "06-07-2026 08:30 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -113,14 +121,6 @@
       "link": "http://chromereleases.googleblog.com/2026/06/chrome-for-android-update_01486779060.html",
       "summary": "<p>&nbsp;Hi, everyone! We've just released <b>Chrome 150 (150.0.7871.63)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google Pl",
       "date": "01-07-2026 07:18 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
-      "date": "01-07-2026 05:50 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
