@@ -1,14 +1,22 @@
 {
-  "last_updated": "07-07-2026 08:11 AM",
+  "last_updated": "07-07-2026 09:11 AM",
   "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.202",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a \"Dynamic workflow size\" setting in <code>/config</code> for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) \u2014 ",
+      "date": "07-07-2026 09:11 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "07-07-2026 08:11 AM"
+      "date": "07-07-2026 09:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "07-07-2026 08:11 AM"
+      "date": "07-07-2026 09:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.199",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "07-07-2026 08:11 AM"
+      "date": "07-07-2026 09:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.198",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagents now run in the background by default, so Claude keeps working while they run and is notified when they finish (previously a gradual rollout)</li>\n<li>Claude ",
-      "date": "07-07-2026 08:11 AM"
+      "date": "07-07-2026 09:11 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.197",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Introducing Claude Sonnet 5: now the default model in Claude Code, with a native 1M-token context window and promotional pricing of $2/$10 per Mtok through August 31. ",
-      "date": "07-07-2026 08:11 AM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-chromeos.html",
+      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\">The ChromeOS Stable channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\">16667.61.0</span><span color=\"rgba(0, 0, 0, 0.87)\"> (Browser ve",
+      "date": "07-07-2026 07:42 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -49,6 +57,14 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update.html",
       "summary": "<p>The Dev channel has been updated to 152.0.7928.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0.7",
       "date": "07-07-2026 12:58 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Raises Microsoft 365 Commercial Subscription Prices - Let's Data Science",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGExZDgzR2d3ZndqVC1EZWw2N3dQSGtjNzM0YzQ5Tmh6b25GNldEU1lZX0FjdkpLOVdsVmN5VVFVbjVtSmZRRDlqeHQtQ05TeHdBNU5JSDkzeWtPazBnNF9jdHB4bWlOTzFxLW5YQ0VzUVJFUVFhMWpEVklhazlFYTUwRk5TTDJJMUYzTWQtc21ybzM2TmJxMWtCcXZxZHRBanlDNA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxOdGExZDgzR2d3ZndqVC1EZWw2N3dQSGtjNzM0YzQ5Tmh6b25GNldEU1lZX0FjdkpLOVdsVmN5VVFVbjVtSmZRRDlqeHQtQ05TeHdBNU5JSDkzeWtPazBnNF9jdHB4bWlOTzFxLW5YQ0",
+      "date": "05-07-2026 10:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,22 +89,6 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update.html",
       "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.6) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You",
       "date": "03-07-2026 01:28 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 Copilot: Office meets genAI and agents - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby05eTExa0NtUEVXVW5fREV6ampsc2ZiNklqZVNibUNuNUV6bjJtUTdVQ3JnMEJrM0xjVUtvQ1dR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby",
-      "date": "02-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.3) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"ht",
-      "date": "02-07-2026 12:58 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
