@@ -1,7 +1,69 @@
 {
-  "last_updated": "06-07-2026 12:25 PM",
-  "count": 24,
+  "last_updated": "06-07-2026 04:50 PM",
+  "count": 55,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian cyber experts warn of third-party risk surge",
+      "link": "https://securitybrief.com.au/story/australian-cyber-experts-warn-of-third-party-risk-surge",
+      "summary": "Recent breaches have exposed how weak vendor oversight is leaving schools and businesses more vulnerable to supply chain attacks.",
+      "date": "06-07-2026 04:00 PM",
+      "tags": [
+        "AU Cyber",
+        "Education"
+      ],
+      "threat": "High",
+      "audience": [
+        "Enterprise",
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australians face scam risk during major life events",
+      "link": "https://securitybrief.com.au/story/australians-face-scam-risk-during-major-life-events",
+      "summary": "Stressful milestones like buying a home or job hunting are leaving Australians most exposed to scams, a TrendLife study found.",
+      "date": "06-07-2026 03:11 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian office staff flout AI rules, study finds",
+      "link": "https://securitybrief.com.au/story/australian-office-staff-flout-ai-rules-study-finds",
+      "summary": "Many workers are risking disciplinary action by feeding customer data and confidential files into public AI tools, the survey found.",
+      "date": "06-07-2026 02:08 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Kinetic IT warns AI access is a business continuity risk",
+      "link": "https://securitybrief.com.au/story/kinetic-it-warns-ai-access-is-a-business-continuity-risk",
+      "summary": "Temporary loss of access to a frontier model could disrupt service delivery, compliance and operations as AI enters core business systems.",
+      "date": "06-07-2026 12:57 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "The Fable 5 ban lesson is to diversify",
@@ -14,6 +76,22 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNb0YteWtGMkNXUEFiRGFRSUZaM29PYTF4aVFRazdzNGhhMDl0UENOdU9VYXdLVWhCdUhGSTJLQ29ZSUUzYVB6c2NlVWFmT1U5d012ZElDRFk3UWwtdTNycngtVVBVUl9FcWZzeTNuOE93ZFR5Sm5UalplQW1rdXN0V0VLdm5mRDJrR1RxSzNxaGVlYkQ5NE9vTWNwRzZvZ3lDdHg4VUZGR3pPRnB3a21nanI0WDZGZk1Vai1obG1SU211d2hlb2RsbTFKY3d0aGhNOWkzRw?oc=5",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "date": "06-07-2026 08:32 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
@@ -29,35 +107,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia warns of scam surge during Prime Day sales",
-      "link": "https://securitybrief.com.au/story/australia-warns-of-scam-surge-during-prime-day-sales",
-      "summary": "Scammers are exploiting Prime Day shopping sprees as Australia's new rules aim to stop fraudulent texts, emails and instant payments.",
-      "date": "06-07-2026 08:15 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Panasonic launches TOUGHBOOK 56 rugged laptop in Australia",
-      "link": "https://securitybrief.com.au/story/panasonic-launches-toughbook-56-rugged-laptop-in-australia",
-      "summary": "Remote crews can now tap faster links and on-device AI as Panasonic replaces its TOUGHBOOK 55 with a tougher 56 model from AUD $5,199.",
-      "date": "06-07-2026 08:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "AU General"
     },
     {
@@ -77,29 +126,46 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Anthropic AI controversy raises cyber trust concerns",
-      "link": "https://securitybrief.com.au/story/anthropic-ai-controversy-raises-cyber-trust-concerns",
-      "summary": "Hidden tracking markers and a US standoff over a vulnerability-finding model are fuelling fears that AI now carries cyber and national security risks.",
-      "date": "04-07-2026 02:30 AM",
+      "source": "Dark Reading",
+      "title": "Chinese LLMs Broaden the Gap Between Attackers &amp; Defenders",
+      "link": "https://www.darkreading.com/cyber-risk/chinese-llms-broaden-gap-between-attackers-and-defenders",
+      "summary": "Two new models from Chinese firms compete with top US mainstream and frontier models. Should cyber-defenders be worried?",
+      "date": "03-07-2026 11:01 PM",
       "tags": [
-        "AU Cyber",
+        "EdTech",
         "AI & Tools"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Anthropic widens Fable 5 safeguards & rates jailbreaks",
-      "link": "https://securitybrief.com.au/story/anthropic-widens-fable-5-safeguards-rates-jailbreaks",
-      "summary": "New safeguards will let Fable 5 block more harmful cyber prompts, as Anthropic also seeks a common scale for jailbreak risk.",
-      "date": "04-07-2026 01:15 AM",
+      "source": "Dark Reading",
+      "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
+      "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
+      "date": "03-07-2026 09:01 AM",
       "tags": [
-        "AI & Tools"
+        "AU Cyber",
+        "Compliance"
       ],
       "threat": "Medium",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
+      "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
+      "summary": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
+      "date": "03-07-2026 05:31 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -115,6 +181,92 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
+      "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
+      "date": "03-07-2026 04:07 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
+      "summary": "IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service as Anthropic's Mythos findings ignite debate over how to secure the open-source software supply chain.",
+      "date": "02-07-2026 10:33 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
+      "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
+      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
+      "date": "02-07-2026 06:31 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
+      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks \u2014 it's now the rule.",
+      "date": "02-07-2026 05:46 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "When Too Much Security Data Becomes the Risk",
+      "link": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
+      "summary": "Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.",
+      "date": "02-07-2026 01:44 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
+      "link": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
+      "summary": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
+      "date": "02-07-2026 01:17 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "404 Media",
@@ -143,6 +295,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "China-Linked Group Targets Southeast Asia Critical Systems",
+      "link": "https://www.darkreading.com/threat-intelligence/china-linked-group-targets-southeast-asia-critical-systems",
+      "summary": "The group compromised at least 10 regional organizations, including two state-owned entities, and deployed a new backdoor.",
+      "date": "01-07-2026 11:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "SMS Sender ID Register goes live to help protect Australians from scams",
       "link": "https://australiancybersecuritymagazine.com.au/sms-sender-id-register-goes-live-to-help-protect-australians-from-scams/?utm_source=rss&utm_medium=rss&utm_campaign=sms-sender-id-register-goes-live-to-help-protect-australians-from-scams&utm_source=rss&utm_medium=rss&utm_campaign=sms-sender-id-register-goes-live-to-help-protect-australians-from-scams",
@@ -157,6 +322,48 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Fake Bug Report Hijacks AI Coding Agents at Scale",
+      "link": "https://www.darkreading.com/cyber-risk/fake-bug-report-hijacks-ai-coding-agents",
+      "summary": "\"Agentjacking\" is the latest demonstration of how easily attackers can exploit an AI agent's inability to differentiate between content and instructions.",
+      "date": "01-07-2026 07:37 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Seize Exposed AI Endpoints to Power Offensive Ops",
+      "link": "https://www.darkreading.com/cloud-security/attackers-hijack-exposed-ai-endpoints-power-offensive-ops",
+      "summary": "Threat actors don't need any special authentication to reach a target endpoint \u2014 they just need to know where it is.",
+      "date": "01-07-2026 07:01 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Phishers Gain Persistence at EU, Asia Hospitality Orgs",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/phishers-persistence-eu-asia-hospitality-orgs",
+      "summary": "Separate but similar campaigns described by Microsoft and Trend Micro use malicious zip files to spread malware via social engineering and obsfucation, including blockchain abuse.",
+      "date": "01-07-2026 04:59 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "404 Media",
@@ -202,6 +409,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "AI-Generated Workflows Are a Silent Security Disaster",
+      "link": "https://www.darkreading.com/cyber-risk/ai-generated-workflows-silent-security-disaster",
+      "summary": "Teams are dealing with a truly dangerous problem \u2014 automation that works, but that no one understands.",
+      "date": "30-06-2026 11:00 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 3 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQZnk5bEE3cXZicGl4azR2MEdVUnVnckwyd2kwQ09NU0l3MFpobnh0TDBCQzAzWHNJQW9HVUotdFNRRW1pUWp0ckdQa3MzdndBQ2hmX0hQZm1LNTRsQzlibExlY2NmYldQbDMyZzQwRGlISWhMQnQ0VmlMLWJBcDh6WEZkREY2ZGhYWklWVGhGMEQ4am9ad1lINTBldERDX1o2aThoMTBYQ3o4b3ZpNUU1U0hhbFBpMS1id2ZRLTVmY0lHdFMzZVZ6aWJoS2QzWWtwUkRVRXNn?oc=5",
@@ -216,6 +436,105 @@
         "Consumer"
       ],
       "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "NIST Enrichment Reductions Impact CVE Coverage, Accuracy",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/nist-enrichment-reductions-cve-coverage-accuracy",
+      "summary": "The National Institute of Standards and Technology (NIST) scaled back the number of CVEs it selects for in-depth analysis, but the move has produced mixed results, according to researchers.",
+      "date": "30-06-2026 08:46 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Djinn' Stealer Targets Cloud, AI Credentials",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/djinn-stealer-targets-cloud-ai-credentials",
+      "summary": "The infostealer was delivered via CVE-2026-48558, a critical authentication bypass vulnerability in SimpleHelp, targeting credentials linking development and admin environments to wider enterprise systems.",
+      "date": "30-06-2026 07:29 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Vulnerabilities Expose Private Data in Indian Government Systems",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/vulnerabilities-private-data-indian-government-systems",
+      "summary": "One critical vulnerability, among many discovered by a researcher, could have allowed anyone to walk in and take over a national government portal.",
+      "date": "30-06-2026 07:05 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Iran, Russia, China Target Water Systems for Sabotage",
+      "link": "https://www.darkreading.com/ics-ot-security/iran-russia-china-target-water-systems-sabotage",
+      "summary": "Nation-state attackers breach water systems through weak passwords, exposed PLCs, and poor segmentation \u2014 not sophisticated malware.",
+      "date": "30-06-2026 05:12 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Amazon Q VS Extension Flaw Leads to Cloud Credential Theft",
+      "link": "https://www.darkreading.com/cloud-security/amazon-q-vs-extension-flaw-leads-cloud-credential-theft",
+      "summary": "Adversaries could plant a malicious repository that can execute arbitrary code and steal cloud credentials by exploiting the vulnerability, which showcases growing MCP risk.",
+      "date": "29-06-2026 09:44 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Third-Party Breaches Teach Education Sector a Costly Lesson in Vendor Risk",
+      "link": "https://www.darkreading.com/cyber-risk/third-party-breaches-teaches-education-lesson-vendor-risk",
+      "summary": "Rising threats from third-party actors are forcing institutions to play defense to protect student data from ransomware and other attacks.",
+      "date": "27-06-2026 09:48 PM",
+      "tags": [
+        "AU Cyber",
+        "Education"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "New Initiative Tackles Security for End-of-Life Open Source Software",
+      "link": "https://www.darkreading.com/application-security/initiative-tackles-security-end-of-life-open-source",
+      "summary": "The Open Source Sustainability Initiative's goal is to help enterprises manage and secure aging open source projects while maintaining regulatory compliance.",
+      "date": "27-06-2026 02:32 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -250,20 +569,92 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 11 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOSFVfeDFRYXR0bEJHVkltcVo5elNHbm1Fb3Jla1ZPV3BsaDJ2RFRYUmtDU1E2VDZfWjB0VmlfLXB0Qktab3lxUW5sY1pDOHBYR1I2LWVNdVlrX2tzVHEtT1A3Z3oyeU9FeVlqVkR3Z2VtLXNEdlZwNkp4c3Y4WllsTlNpQTByOUk2VmxjRFNhX0cwSVpVUG9LY3c5TjhSNlpleVM0c21vUHVhMnRSV3lMWE5NeFhVM1lrd25LaUxxQmRyamRtaENic0RqYXRKbWxHbFJIbWNyRU9KSmZjNExHTWJ4NzlaY1JCbWo5TEs3cnIzUzVvMUtEbGJ3?oc=5",
-      "summary": "Browse news and alerts - page 11 Scamwatch",
-      "date": "26-06-2026 12:57 AM",
+      "source": "Dark Reading",
+      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
+      "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
+      "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
+      "date": "26-06-2026 07:12 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
+      "summary": "Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters' Notebook video series.",
+      "date": "26-06-2026 06:34 AM",
+      "tags": [
+        "Education",
+        "EdTech"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
+      "link": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
+      "summary": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
+      "date": "26-06-2026 05:07 AM",
       "tags": [
         "AU Cyber",
-        "Scams"
+        "Scams",
+        "Good News"
       ],
       "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
       "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Europe Evolves Into Ransomware's Favorite Region",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/europe-evolves-ransomware-favorite-region",
+      "summary": "After a global lull, ransomware gangs are setting sights on a rich new arena: attacking EU organizations and their suppliers.",
+      "date": "25-06-2026 08:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "2026 FIFA World Cup Faces Surge in Cyber Threats",
+      "link": "https://www.darkreading.com/cybersecurity-operations/2026-fifa-world-cup-faces-surge-cyber-threats",
+      "summary": "Persistent cybercrime, social engineering, and infrastructure threats continue to plague the FIFA 2026 World Cup across the US, Canada, and Mexico.",
+      "date": "25-06-2026 06:29 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Apple's MacOS Gap Lets Users Disable Security Tools",
+      "link": "https://www.darkreading.com/application-security/apple-macos-security-gap-users-disable-security-tools",
+      "summary": "Attackers can exploit the issue to disable security and integrated browser tools without needing administrator privileges or kernel exploits.",
+      "date": "24-06-2026 10:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -309,6 +700,32 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "SocGholish Takedown Highlights Malicious TDS Threats",
+      "link": "https://www.darkreading.com/cyber-risk/socgholish-takedown-malicious-tds-threats",
+      "summary": "SocGholish uses traffic distribution systems (TDSs) to provide initial access into victims' networks for cybercrime groups such as the notorious Evil Corp.",
+      "date": "23-06-2026 11:51 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "FortiBleed Attackers Turn Firewalls Into Credential Stealers as Heists Persist",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/fortibleed-attackers-firewalls-credentials-stealers",
+      "summary": "The threat actors engineered a Golang-based sniffer to target 430,000 FortiGate firewalls and identify 110 million credentials in the ongoing global campaign.",
+      "date": "23-06-2026 10:34 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 ScamWatch",
       "title": "National Anti-Scam Centre contacted victims following successful money laundering prosecution - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNZk8xY3kzd0RiTzNwbnJtSmhMcDY1eS1rWENHQldRTWJ4ZnBxQ2Y5cndYMGp5QUV5STN2NkZmLVNTRk5oWS1MeE5GMlVfYWQ0SFdad2dsZ0FRaGh5WU1jTjVLa1owSzBOeTR5ZTExbUtQNkhHYW1UTkJSdkxfaV80eVpSV0NDR0NtbjU2c29rcHFBZFllbHVuajRRclFLa3EtSkZQVFVudWVXZWR0Y3ZPdlQ3RU5DTEZJTDM3RVlpSm9CR1VfRkdfQTFHMmNsMl9iY19GRk1vaTNoVWZfQm5NWg?oc=5",
@@ -349,6 +766,32 @@
       "audience": [
         "Enterprise"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "DifyTap Bugs Let Attackers 'Wiretap' AI Chat Histories",
+      "link": "https://www.darkreading.com/application-security/difytap-bugs-wiretap-ai-chat-histories",
+      "summary": "Four vulnerabilities allow attackers to exploit Dify, a platform for AI application building and management, to silently access and exfiltrate sensitive data.",
+      "date": "23-06-2026 07:14 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "He Thought He Was Secure; His Phone Number Was Stolen Anyway",
+      "link": "https://www.darkreading.com/cyber-risk/how-a-sim-swap-attack-led-to-a-near-account-takeover",
+      "summary": "Threat actors can easily steal one-time passwords sent by text when they conduct a SIM swap attack. This can lead to account takeovers, so users must layer up their security measures.",
+      "date": "23-06-2026 12:12 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
       "relevance": "Global"
     }
   ]
