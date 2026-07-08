@@ -1,14 +1,22 @@
 {
-  "last_updated": "08-07-2026 09:04 AM",
-  "count": 35,
+  "last_updated": "08-07-2026 11:02 AM",
+  "count": 15,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.204",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
+      "date": "08-07-2026 11:02 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "08-07-2026 09:04 AM"
+      "date": "08-07-2026 11:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.202",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a \"Dynamic workflow size\" setting in <code>/config</code> for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) \u2014 ",
-      "date": "08-07-2026 09:04 AM"
+      "date": "08-07-2026 11:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.201",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.201",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude Sonnet 5 sessions no longer use the mid-conversation system role for harness reminders</li>\n</ul>",
-      "date": "08-07-2026 09:04 AM"
+      "date": "08-07-2026 11:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.200",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.200",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>AskUserQuestion</code> dialogs to no longer auto-continue by default; opt into an idle timeout via <code>/config</code></li>\n<li>Changed the \"default\" pe",
-      "date": "08-07-2026 09:04 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.199",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.199",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Stacked slash-skill invocations like <code>/skill-a /skill-b do XYZ</code> now load all leading skills (up to 5), not just the first</li>\n<li>Fixed SSL certificate err",
-      "date": "08-07-2026 09:04 AM"
+      "date": "08-07-2026 11:02 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -57,14 +57,6 @@
       "link": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop.html",
       "summary": "<p>&nbsp;<span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 150.0.7871.100/.",
       "date": "08-07-2026 03:38 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
-      "date": "08-07-2026 01:44 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,108 +83,12 @@
       "date": "04-07-2026 01:43 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 Copilot: Office meets genAI and agents - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby05eTExa0NtUEVXVW5fREV6ampsc2ZiNklqZVNibUNuNUV6bjJtUTdVQ3JnMEJrM0xjVUtvQ1dR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOY244Y3BaNFFDNVVVV21wU01BRjJsSVNSc0pGVUt6QXgxZzI3MjZQWC0wWEM0dU83T25WR1JvX1UtZnVIQ190VnZvRFNLcUV2bHhxSS0wRTVvRUJJVWxObW93MldSUjB0VnVUYnltby",
-      "date": "02-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Sonnet 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
-      "date": "01-07-2026 10:21 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s personal finance features for ChatGPT expands to more customers - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TDdURkdrUzJIWlVKTE0yNmpFdEYtYi1wN1BMY0tuakl3T1hvanNPOGVxYzAxenYtVkJmb3c4TTVicw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TD",
-      "date": "01-07-2026 07:33 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cUl6RWtnbl9EdzY0cHl6WWVkVG0xOVI3ZHdvblRfVndiVHkzeFFfMUIybThzbE85Vnp1RC01aw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cU",
-      "date": "30-06-2026 07:04 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
-      "date": "30-06-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
-      "date": "25-06-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "AI models capable of devastating attacks on governments and business months away, rare Five Eyes statement warns - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSHdxUUM1UXY2UXFpa09idjN1Z0ZLNFZWX2dmR1FyaDRrM2NVY2trNFJwbjJHdWZuYUUtck1rWU9VRWZEbV9kT2hXOUNxbm1iU3FwTlp3dzkzdUhQdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTklxTWJwcms1UlBCeUYyTGtNTGFtdEtGcmR3bEJJWHY2VHRpbUJqR3lUdW13RkF6MWJ4SklkWEtEYUlOLURENnRDNWNjN1dCclZVVGNOQVV0OEg5U0gyY2pGWDVDY3JUR3lKelJGSH",
-      "date": "22-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
-      "date": "21-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
       "date": "17-06-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1",
-      "date": "11-06-2026 04:42 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
-      "date": "03-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -211,14 +107,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
-      "date": "29-05-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
@@ -227,60 +115,12 @@
       "date": "29-05-2026 05:00 AM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
-      "date": "28-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "A new personal finance experience in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jMVZYNmlKRzNCcndxTHE2N2tEa21NRnpZLVd4OG91TGpCeDJaWTlqa0EzajdBdWVwZGlvMkctWmd3U0xxQ3N3MFR4bkNRVEJtYlZOeEFaUXdvYV8wT0pz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTE9jMVZYNmlKRzNCcndxTHE2N2tEa21NRnpZLVd4OG91TGpCeDJaWTlqa0EzajdBdWVwZGlvMkctWmd3U0xxQ3N3MFR4bkNRVEJtYlZOeEFaUXdvYV8wT0pz?oc=5\" target=\"_blank\"",
-      "date": "15-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
+      "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
-      "date": "22-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
-      "date": "20-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva is coming for your SaaS stack - SmartCompany",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1lDZDVfWEEwdmZST0E4V2NCM3I4eFVnNjA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
-      "date": "18-03-2026 05:00 PM"
+      "title": "Introducing a new design for Microsoft 365 Copilot",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-a-new-design-for-microsoft-365-copilot/",
+      "summary": "<p>We\u2019ve redesigned the Copilot app and how Copilot shows up across Microsoft 365 apps to better move with it: cleaner, faster, and in the flow of your work.</p>\n<p>The post <a href=\"https://www.micro",
+      "date": "29-05-2026 01:00 AM"
     }
   ]
 }
