@@ -1,7 +1,67 @@
 {
-  "last_updated": "09-07-2026 09:10 AM",
-  "count": 58,
+  "last_updated": "09-07-2026 11:10 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "IBM & Red Hat launch Lightwell for open source fixes",
+      "link": "https://securitybrief.com.au/story/ibm-red-hat-launch-lightwell-for-open-source-fixes",
+      "summary": "Enterprises can now patch older open source software without disruptive upgrades, as IBM and Red Hat target stubborn vulnerability backlogs.",
+      "date": "09-07-2026 10:55 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Elastic finds AI-assisted banking fraud ring in Mexico",
+      "link": "https://securitybrief.com.au/story/elastic-finds-ai-assisted-banking-fraud-ring-in-mexico",
+      "summary": "A live fraud campaign targeting Mexican banks, fintechs and crypto services exposed how criminals are using generative AI to draft malware.",
+      "date": "09-07-2026 10:55 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australia & New Zealand phishing risk drops after training",
+      "link": "https://securitybrief.com.au/story/australia-new-zealand-phishing-risk-drops-after-training",
+      "summary": "After a year of security awareness training, only 5.3% of workers in Australia and New Zealand were likely to engage with phishing attempts.",
+      "date": "09-07-2026 10:06 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CISA uses Anthropic AI to scan federal code for flaws",
+      "link": "https://securitybrief.com.au/story/cisa-uses-anthropic-ai-to-scan-federal-code-for-flaws",
+      "summary": "The pilot could help uncover long-ignored flaws in ageing federal systems, but it also raises questions over transparency and supply-chain risk.",
+      "date": "09-07-2026 09:20 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "ESET warns of AI abuse & quishing surge in attacks",
@@ -47,21 +107,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Confirmation of Payee passes 150 million checks in year",
-      "link": "https://securitybrief.com.au/story/confirmation-of-payee-passes-150-million-checks-in-year",
-      "summary": "The name-checking service is now helping avert scam losses and mistaken payments, with more than 150 million checks completed in its first year.",
-      "date": "09-07-2026 08:30 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
       "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
@@ -86,36 +131,6 @@
       "threat": "Advisory",
       "audience": [
         "SMB"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ThetaRay appoints Santander veteran to strategy role",
-      "link": "https://securitybrief.com.au/story/thetaray-appoints-santander-veteran-to-strategy-role",
-      "summary": "The hire brings Santander compliance expertise into ThetaRay as banks face tougher anti-money laundering oversight and demand proof their controls work.",
-      "date": "09-07-2026 02:00 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "XBOW wins AWS application security competency status",
-      "link": "https://securitybrief.com.au/story/xbow-wins-aws-application-security-competency-status",
-      "summary": "The AWS badge could help XBOW win more enterprise deals as buyers seek continuous testing that shows which vulnerabilities are exploitable.",
-      "date": "09-07-2026 01:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
       ],
       "relevance": "Global"
     },
@@ -146,22 +161,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Vonage launches Okta authentication suite to curb fraud",
-      "link": "https://securitybrief.com.au/story/vonage-launches-okta-authentication-suite-to-curb-fraud",
-      "summary": "Enterprises using Okta may gain stronger checks against SIM swap fraud and inflated traffic as Vonage packages SMS and voice authentication.",
-      "date": "08-07-2026 11:39 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Krebs on Security",
       "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
       "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
@@ -173,35 +172,6 @@
       ],
       "threat": "Critical",
       "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Navex launches Nira AI agent for compliance analytics",
-      "link": "https://securitybrief.com.au/story/navex-launches-nira-ai-agent-for-compliance-analytics",
-      "summary": "Compliance teams could spend less time on manual reporting as NAVEX adds an AI agent designed to surface risk signals inside workflows.",
-      "date": "08-07-2026 06:00 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Summer holidays leave firms more exposed to cyber fraud",
-      "link": "https://securitybrief.com.au/story/summer-holidays-leave-firms-more-exposed-to-cyber-fraud",
-      "summary": "Reduced staffing and delegated approvals during annual leave are giving fraudsters more chances to slip through corporate checks, Everywhen says.",
-      "date": "08-07-2026 05:30 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise",
         "Consumer"
       ],
       "relevance": "Global"
