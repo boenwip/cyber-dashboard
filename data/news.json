@@ -1,12 +1,120 @@
 {
-  "last_updated": "09-07-2026 08:03 PM",
+  "last_updated": "10-07-2026 08:18 AM",
   "count": 57,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Telstra outage exposes Australia's reliance on carriers",
+      "link": "https://securitybrief.com.au/story/telstra-outage-exposes-australia-s-reliance-on-carriers",
+      "summary": "Businesses and emergency services faced outages nationwide as a Telstra mobile failure exposed the risks of Australia's concentrated carrier market.",
+      "date": "10-07-2026 08:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CSIRO-Built Tech Is Powering a New Era of Telehealth Psychiatry in Australia",
+      "link": "https://securitybrief.com.au/story/csiro-built-tech-is-powering-a-new-era-of-telehealth-psychiatry-in-australia",
+      "summary": "People in rural Australia can now reach specialist anxiety care sooner, with secure video consultations replacing long trips and clinic waits.",
+      "date": "10-07-2026 08:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
+      "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
+      "summary": "Obscurity isn't a defense. If your company has any Internet-facing vulnerability, you're at risk from multiple threats.",
+      "date": "10-07-2026 06:32 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Reins in RoguePlanet Zero-Day Threat",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/microsoft-rogueplanet-zero-day-threat",
+      "summary": "The researcher known as \"Nightmare-Eclipse\" published a proof-of-concept (PoC) exploit for the Windows Defender vulnerability in early June after dropping several other Microsoft zero-days.",
+      "date": "10-07-2026 06:21 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Frame launches AI campaign against social engineering",
+      "link": "https://securitybrief.com.au/story/frame-launches-ai-campaign-against-social-engineering",
+      "summary": "Rising use of deepfakes and voice cloning is forcing firms to rethink staff training as insurers and buyers scrutinise human risk more closely.",
+      "date": "10-07-2026 02:00 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "As Global Conflicts Go Digital, Businesses Need Wartime Gameplans",
+      "link": "https://www.darkreading.com/cybersecurity-operations/businesses-wartime-cybersecurity-gameplans",
+      "summary": "The fate of a Ukrainian tax software company shows how modern cyberwarfare can claim casualties far beyond the battlefield, and how businesses across the ocean still need to protect themselves.",
+      "date": "10-07-2026 12:31 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Gateways Offer Attackers the Keys to the Kingdom",
+      "link": "https://www.darkreading.com/cyber-risk/ai-gateways-keys-kingdom",
+      "summary": "A cryptomining incident highlights how AI gateways can provide access to AI models, cloud infrastructure, and identity and access management (IAM) data.",
+      "date": "09-07-2026 11:01 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACSC warns of large-scale campaign exploiting CMS vulnerabilities in Australia",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-large-scale-campaign-exploiting-cms-vulnerabilities-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-large-scale-campaign-exploiting-cms-vulnerabilities-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-large-scale-campaign-exploiting-cms-vulnerabilities-in-australia",
+      "summary": "The Australian Signals Directorate\u2019s Australian Cyber Security Centre (ACSC) has issued an alert about a \u201clarge-scale exploitation campaign\u201d targeting web content management systems (CMS), warning that many Australian businesses have [...]",
+      "date": "09-07-2026 08:06 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Dark Reading",
       "title": "'GodDamn' Ransomware Uses BYOVD to Smite US Companies",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/goddamn-ransomware-byovd-smite-companies",
-      "summary": "Microsoft co-signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
+      "summary": "Microsoft signed a malicious kernel driver, and now it's being used to kill security software in ransomware attacks.",
       "date": "09-07-2026 08:00 PM",
       "tags": [
         "AU Cyber"
@@ -59,64 +167,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "GitHub data shows Australia's global open-source rise",
-      "link": "https://securitybrief.com.au/story/github-data-shows-australia-s-global-open-source-rise",
-      "summary": "Australia's developers are contributing more widely abroad, with GitHub data showing a 16% quarterly rise in cross-border open-source collaboration.",
-      "date": "09-07-2026 03:43 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Financial services breach risk rises as AI adoption surges",
-      "link": "https://securitybrief.com.au/story/financial-services-breach-risk-rises-as-ai-adoption-surges",
-      "summary": "Breaches are hitting lenders harder as AI adoption speeds up, with 98 per cent of affected firms saying the impact was material.",
-      "date": "09-07-2026 02:49 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian compliance teams flag data silos as key gap",
-      "link": "https://securitybrief.com.au/story/australian-compliance-teams-flag-data-silos-as-key-gap",
-      "summary": "Nearly half of Australian compliance teams said fragmented systems were their biggest weakness, hampering efforts to spot sanctions and scam risks.",
-      "date": "09-07-2026 12:36 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Superloop named Australia's fastest fixed network again",
-      "link": "https://securitybrief.com.au/story/superloop-named-australia-s-fastest-fixed-network-again",
-      "summary": "Its sustained broadband performance has earned Superloop a third straight Ookla award, strengthening its case against larger rivals in Australia.",
-      "date": "09-07-2026 12:25 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
       "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
@@ -133,7 +183,7 @@
       "source": "Dark Reading",
       "title": "Vidar Infostealer Hammers SMBs via Malvertising Campaign",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign",
-      "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a malware two-for-one combo for data theft and cryptomining.",
+      "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a two-for-one malware combo for data theft and cryptomining.",
       "date": "09-07-2026 02:45 AM",
       "tags": [
         "AU Cyber"
@@ -546,19 +596,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "Apple \u2018Hide My Email\u2019 Vulnerability Reveals Peoples\u2019 Real Email Addresses",
-      "link": "https://www.404media.co/apple-hide-my-email-vulnerability-reveals-peoples-real-email-addresses/",
-      "summary": "\u201dHide My Email users deserve to know that it may be possible for attackers to discover their hidden email addresses,\u201d the person who reported the issue said.",
-      "date": "01-07-2026 08:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #844 -- China closes AI vulndev gap as USA lifts Fable ban",
       "link": "https://risky.biz/RB844/",
@@ -785,52 +822,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Russian APT 'Gamaredon' Upgrades Its Arsenal, Requiring New Defenses",
-      "link": "https://www.darkreading.com/threat-intelligence/russia-apt-gamaredon-arsenal-defense",
-      "summary": "The FSB state-sponsored operation has gotten a lot better at loading its malware and hiding its servers.",
-      "date": "26-06-2026 07:12 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "EdTech Attackers Shift From Schools to Their Software Suppliers",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/edtech-attackers-shift-schools-software-suppliers",
-      "summary": "Educational institutions, the edtech companies they rely on, and, more concerningly, the challenges they pose for schools are the focus of the latest Reporters' Notebook video series.",
-      "date": "26-06-2026 06:34 AM",
-      "tags": [
-        "Education",
-        "EdTech"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Sector"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Local Police Collusion Hampers Crackdown on Asian Scam Centers",
-      "link": "https://www.darkreading.com/threat-intelligence/police-collusion-crackdown-asian-scam-centers",
-      "summary": "With tens of billions of dollars flowing into regional economies from cybercrime, scam centers continue to flourish, despite international and law-enforcement efforts.",
-      "date": "26-06-2026 05:07 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams",
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
     }
   ]
 }
