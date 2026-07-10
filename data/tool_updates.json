@@ -1,5 +1,5 @@
 {
-  "last_updated": "10-07-2026 01:32 PM",
+  "last_updated": "10-07-2026 04:24 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "10-07-2026 01:32 PM"
+      "date": "10-07-2026 04:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "10-07-2026 01:32 PM"
+      "date": "10-07-2026 04:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "10-07-2026 01:32 PM"
+      "date": "10-07-2026 04:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "10-07-2026 01:32 PM"
+      "date": "10-07-2026 04:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.202",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.202",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a \"Dynamic workflow size\" setting in <code>/config</code> for controlling how large Claude generally makes dynamic workflows (small/medium/large agent counts) \u2014 ",
-      "date": "10-07-2026 01:32 PM"
+      "date": "10-07-2026 04:24 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -97,14 +97,6 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-for-android-update.html",
       "summary": "<p>&nbsp; Hi, everyone! We've just released <b>Chrome 150 (150.0.7871.114)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available on Google ",
       "date": "09-07-2026 08:42 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
-      "date": "09-07-2026 03:01 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -201,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
       "date": "10-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
