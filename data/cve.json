@@ -1,7 +1,29 @@
 {
-  "last_updated": "11-07-2026 03:49 AM",
+  "last_updated": "11-07-2026 07:58 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-56291",
+      "description": "Balbooa Forms \u2014 Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-10",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
+      "vendor": "Balbooa",
+      "product": "Forms",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-48939",
+      "description": "iCagenda iCagenda \u2014 iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-10",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
+      "vendor": "iCagenda",
+      "product": "iCagenda",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-48908",
       "description": "JoomShaper SP Page Builder \u2014 JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
       "vendor": "Cisco",
       "product": "Unified Communications Manager",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-67038",
-      "description": "Lantronix EDS5000 \u2014 Lantronix EDS5000 contains a code injection vulnerability that could allow attackers to inject arbitrary OS commands into the username parameter. Injected commands are executed with root privileges.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-23",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-67038",
-      "vendor": "Lantronix",
-      "product": "EDS5000",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-34910",
-      "description": "Ubiquiti UniFi OS \u2014 Ubiquiti UniFi OS contains an improper input validation vulnerability which could allow a malicious actor with access to the network to conduct command injection.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-23",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-34910",
-      "vendor": "Ubiquiti",
-      "product": "UniFi OS",
       "ransomware": "Unknown"
     }
   ]
