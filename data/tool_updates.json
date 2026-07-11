@@ -1,5 +1,5 @@
 {
-  "last_updated": "11-07-2026 12:48 PM",
+  "last_updated": "11-07-2026 07:39 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "11-07-2026 12:48 PM"
+      "date": "11-07-2026 07:39 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "11-07-2026 12:48 PM"
+      "date": "11-07-2026 07:39 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "11-07-2026 12:48 PM"
+      "date": "11-07-2026 07:39 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "11-07-2026 12:48 PM"
+      "date": "11-07-2026 07:39 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "11-07-2026 12:48 PM"
+      "date": "11-07-2026 07:39 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -165,6 +165,14 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak",
+      "date": "16-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
@@ -185,14 +193,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1",
       "date": "11-06-2026 04:42 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
-      "date": "10-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -269,9 +269,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva is coming for your SaaS stack - SmartCompany",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1lDZDVfWEEwdmZST0E4V2NCM3I4eFVnNjA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxPWDltMUkxS3BnNm5iTVJUakl1dUpXUFMwYU9NSEh4RUNhWnhQU2pxQTh1RllZVWdQZFRaV0FEaEFvN3hiT2xsb3Y0WDZhdmhVRjd4aTBLRUcyeEo2X3NhaVpYUllkVlZETm5pT3ZTQ1",
+      "title": "Canva debuts a new suite of agentic tools, as the design app quietly becomes one of the world\u2019s most used AI services - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdEUyNVY3MmtkOG1CNnBHV2RoMHpKWFlaaDNodUtRRFU5NkQ4X1Uxa3d0UUloZ28tRThnRU51NVZza3Q3V3l5VnJ5UXM0TEwxTHNLZHB0ZFpLTHZpZWdWVDJaWktBOXVabnFaSjhsZERsaTZEN1I1T0NaRTZnYVV0Rm4zdFFsZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxPdEUyNVY3MmtkOG1CNnBHV2RoMHpKWFlaaDNodUtRRFU5NkQ4X1Uxa3d0UUloZ28tRThnRU51NVZza3Q3V3l5VnJ5UXM0TEwxTHNLZHB0ZFpLTHZpZWdWVDJaWktBOXVabnFaSjhsZE",
       "date": "16-04-2026 05:00 PM"
     },
     {
