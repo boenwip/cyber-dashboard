@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-07-2026 03:00 AM",
+  "last_updated": "12-07-2026 07:44 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "12-07-2026 03:00 AM"
+      "date": "12-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "12-07-2026 03:00 AM"
+      "date": "12-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "12-07-2026 03:00 AM"
+      "date": "12-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "12-07-2026 03:00 AM"
+      "date": "12-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "12-07-2026 03:00 AM"
+      "date": "12-07-2026 07:44 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -203,14 +203,6 @@
       "date": "04-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
-      "date": "03-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
@@ -249,6 +241,14 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
       "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI previews personal finance features in ChatGPT Pro - SiliconANGLE",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUt6MEc5MTU4NDF1UDBrNExUTUNEUzlJNW9XS2hXUWZOTzlJdHQwSWNWT0tpcXl6azY0Y0N5ZnhKbFJjajQxcVF4OHkwYjB3S0JrWmowamU0RVFUZXc3RnRWcUttUHk2NzhsRThkMlhkTVZhaGNZQm9KWlB6eTBlcGh0UWdVN2VTTlF3aVlQZHV0Qldf?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUt6MEc5MTU4NDF1UDBrNExUTUNEUzlJNW9XS2hXUWZOTzlJdHQwSWNWT0tpcXl6azY0Y0N5ZnhKbFJjajQxcVF4OHkwYjB3S0JrWmowamU0RVFUZXc3RnRWcUttUHk2NzhsRThkMl",
+      "date": "15-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
