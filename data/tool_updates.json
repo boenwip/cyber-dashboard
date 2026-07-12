@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-07-2026 07:44 AM",
+  "last_updated": "13-07-2026 07:44 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "12-07-2026 07:44 AM"
+      "date": "13-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "12-07-2026 07:44 AM"
+      "date": "13-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "12-07-2026 07:44 AM"
+      "date": "13-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "12-07-2026 07:44 AM"
+      "date": "13-07-2026 07:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "12-07-2026 07:44 AM"
+      "date": "13-07-2026 07:44 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -123,14 +123,6 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "What Is ChatGPT? Key Facts About OpenAI\u2019s Chatbot. - Built In",
-      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMia0FVX3lxTE1KdndOeUpnUUtQRVNIdVdGT1Fnb3ZzQW95Q2xjZS1XaFp5a0x5NXc1NXhkS21FYnNyRG5iR0w1NmdMVDFNbnBxS1RiUEFITTE5b1d3cmtnMkhfMENWM0ladEtJajlZMzRnTXZN?oc=5\"",
-      "date": "30-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Introducing Claude Sonnet 5 - Anthropic",
@@ -161,6 +153,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
+      "date": "18-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
