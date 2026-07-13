@@ -1,7 +1,18 @@
 {
-  "last_updated": "13-07-2026 06:52 PM",
+  "last_updated": "14-07-2026 07:53 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2008-4128",
+      "description": "Cisco IOS \u2014 Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, a",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-13",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
+      "vendor": "Cisco",
+      "product": "IOS",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-56291",
       "description": "Balbooa Forms \u2014 Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to ",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-12569",
       "vendor": "PTC",
       "product": "Windchill and FlexPLM",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-20230",
-      "description": "Cisco Unified Communications Manager \u2014 Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) contain a server-side request forgery (SSRF) Vulnerability that c",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-06-25",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20230",
-      "vendor": "Cisco",
-      "product": "Unified Communications Manager",
       "ransomware": "Unknown"
     }
   ]

@@ -1,5 +1,5 @@
 {
-  "last_updated": "13-07-2026 06:52 PM",
+  "last_updated": "14-07-2026 07:53 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "13-07-2026 06:52 PM"
+      "date": "14-07-2026 07:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "13-07-2026 06:52 PM"
+      "date": "14-07-2026 07:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "13-07-2026 06:52 PM"
+      "date": "14-07-2026 07:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "13-07-2026 06:52 PM"
+      "date": "14-07-2026 07:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "13-07-2026 06:52 PM"
+      "date": "14-07-2026 07:53 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Here\u2019s Why Anthropic Extended Access To Claude Fable 5 Extended\u2014Again - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPSXc2RnNtV08tVUtmMmdOUE1DbVVqM1ppYUpKX2YwRmtxZ2gtZU1oN1ZkX0pKVFNSTW5hLWJMaHV5T2I2V1BnZWNsVzd3UW53SXhuZ0V1S0VraXQ5bC0weGZWaDRqbFpwOWZpS1VGWjZSQ3hfT2xwUk9CNlBld1pSZXhVaV9hUDdEd2pCeGFwbTZwUHB0SVZjVk5QUTM3TmR6UlhsTUFFRXhqeG5vRmFHTWZURjVNVmIzUzZTSjlsbkVHV1BVMmJj?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPSXc2RnNtV08tVUtmMmdOUE1DbVVqM1ppYUpKX2YwRmtxZ2gtZU1oN1ZkX0pKVFNSTW5hLWJMaHV5T2I2V1BnZWNsVzd3UW53SXhuZ0V1S0VraXQ5bC0weGZWaDRqbFpwOWZpS1VGWj",
+      "date": "14-07-2026 12:48 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Extends Claude Fable 5 Access From July 12 to July 19 - CyberSecurityNews",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5pSVdGc2NUcm9Yd3NfUUp6TWdVYVY0bkw3WFNOSThOVzlxdUhCaWxmVDNud21oaU9Kc2dPWnJsSzBMc2NFUk04U0F0N2xvQ1FRTHd5RDhMcUdhX1JRWlNNcExrQ1hsVDVqWERGTHdSQXI5bmZreThOcEpR0gF_QVVfeXFMUFFEcUhSTnIta2Z0Sm9OR0pJNURYYkVHWW5yYUVCemRZRnJUYk1tXzZjVTF4RDFMczJLVF9LQmdOVHY3UXVodUlkQUlWRG41T2wwUEk2eHdLX21uZUFDeldRRVh2dUxScnp3MEhnT19TMjdUaUVMY2RPZXRRUkhsbw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE5pSVdGc2NUcm9Yd3NfUUp6TWdVYVY0bkw3WFNOSThOVzlxdUhCaWxmVDNud21oaU9Kc2dPWnJsSzBMc2NFUk04U0F0N2xvQ1FRTHd5RDhMcUdhX1JRWlNNcExrQ1hsVDVqWERGTHdSQX",
+      "date": "13-07-2026 07:16 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -65,14 +81,6 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_0956390379.html",
       "summary": "<p>Hi everyone! We've just released Chrome Dev 152 (152.0.7940.2) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
       "date": "10-07-2026 11:13 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI unveils ChatGPT Work agent, GPT-5.6 models now available - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV285bnM3dGNiLVJUNFQ1N3Q5UXFpeDJkMjlfNUNDQ0xkNjJvZTl6dWtTTGM1aWhuQzlMaWdiakFVTXpsVHgyRll4Rm1MRkpYeUhXV01wb0x3RDBRdlIwZzRVTUdIVEl3VDBKb1lKNzdoaENtM2FXWG1qOFRUeEJ2SXVuaUZ3UTFGbnNmaHZ2aUVHQVR0ZTNpYjk3Yw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQV285bnM3dGNiLVJUNFQ1N3Q5UXFpeDJkMjlfNUNDQ0xkNjJvZTl6dWtTTGM1aWhuQzlMaWdiakFVTXpsVHgyRll4Rm1MRkpYeUhXV01wb0x3RDBRdlIwZzRVTUdIVEl3VDBKb1lKNz",
-      "date": "10-07-2026 02:45 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -107,19 +115,19 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Sonnet 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI\u2019s personal finance features for ChatGPT expands to more customers - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TDdURkdrUzJIWlVKTE0yNmpFdEYtYi1wN1BMY0tuakl3T1hvanNPOGVxYzAxenYtVkJmb3c4TTVicw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TD",
       "date": "30-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
+      "title": "Introducing Claude Sonnet 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
       "date": "30-06-2026 05:00 PM"
     },
     {
@@ -195,11 +203,11 @@
       "date": "04-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Australia gets access to AI model \u2018too dangerous to release\u2019 - SMH.com.au",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2NZRlV5aHpkNmRwa2hWclFUaW92clQwUzZPU2lXOFloRWFMZEVia2VXOHVSYVNxdG9IQUt4em1kaDMzSGE3c3R2X0hLc1FhdTdYSEtRWUE4Sl9ROTBqOGdaNW43cFE4dzRad2tMMTdBb1AxY29odm9weU5raENZMnFUcXNsbmYxUEpkeTBsYm5CdnYtTnhKTFAxaFpOZ1VCMjdhSXl4SHlKMlE1TDJyVlJyaw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2NZRlV5aHpkNmRwa2hWclFUaW92clQwUzZPU2lXOFloRWFMZEVia2VXOHVSYVNxdG9IQUt4em1kaDMzSGE3c3R2X0hLc1FhdTdYSEtRWUE4Sl9ROTBqOGdaNW43cFE4dzRad2tMMT",
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
       "date": "03-06-2026 05:00 PM"
     },
     {
@@ -241,14 +249,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
       "date": "28-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI previews personal finance features in ChatGPT Pro - SiliconANGLE",
-      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUt6MEc5MTU4NDF1UDBrNExUTUNEUzlJNW9XS2hXUWZOTzlJdHQwSWNWT0tpcXl6azY0Y0N5ZnhKbFJjajQxcVF4OHkwYjB3S0JrWmowamU0RVFUZXc3RnRWcUttUHk2NzhsRThkMlhkTVZhaGNZQm9KWlB6eTBlcGh0UWdVN2VTTlF3aVlQZHV0Qldf?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNVUt6MEc5MTU4NDF1UDBrNExUTUNEUzlJNW9XS2hXUWZOTzlJdHQwSWNWT0tpcXl6azY0Y0N5ZnhKbFJjajQxcVF4OHkwYjB3S0JrWmowamU0RVFUZXc3RnRWcUttUHk2NzhsRThkMl",
-      "date": "15-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
