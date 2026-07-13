@@ -1,16 +1,16 @@
 {
-  "last_updated": "13-07-2026 09:57 AM",
+  "last_updated": "13-07-2026 11:57 AM",
   "count": 0,
   "items": {
     "date": "13 July 2026",
-    "briefing": "Australian authorities have issued a warning about an ongoing global campaign targeting websites running vulnerable content management systems (CMS) like WordPress and similar platforms. Organisations using these tools should ensure they are fully updated. Separately, a new Android malware called RedHook can silently gain control of devices using a built-in wireless debugging feature, posing a risk if staff use Android phones for work purposes.\n\nIT teams should also be aware of a serious security flaw in Progress ShareFile servers, with the vendor urging administrators to shut down exposed systems immediately. **Practical tip:** Check with your IT team that any websites or file-sharing tools your organisation uses are running the latest software updates.",
-    "generated": "13-07-2026 09:57 AM",
+    "briefing": "A newly identified Android malware called **RedHook** is making the rounds, and it's worth being aware of. It uses a wireless debugging feature built into Android devices to gain deep access without needing a physical connection. If your staff use Android phones for work, ensure wireless debugging is turned off in developer settings \u2014 most people won't have it on, but it's worth checking.\n\nOn the AI front, OpenAI recently ran workshops for Canberra public servants, a reminder that AI tools are increasingly entering Australian workplaces. If your organisation uses AI platforms, make sure staff aren't entering sensitive student or organisational data into them.\n\n**Practical tip:** Check your Android phone's settings and confirm \"Wireless Debugging\" is disabled \u2014 go to Settings > Developer Options and turn it off.",
+    "generated": "13-07-2026 11:57 AM",
     "featured": {
-      "title": "Australia warns of global campaign targeting vulnerable CMS platforms - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWnJBcmtJOWs4NWRqbFpTUWlTN1FrX2V5b2w0dmZUN0VZZW4zdlZOQXVVdFZHQVlka1MwSEtySy0yYldaYll3a1hIbHh5bHBwWlhyV2x5OThTUGxWbktfLUNNWERqRUdxd1pmUUpSOG9tWWpKOTZORHN6YVdlZTZjMkxuQjJpeWlMN0VzcGNIcmJ6V1hjS1FJUnY0SnQ1OUJSSU5EVWRuc3NNWG1HdE5OUEdNQTY0ZkVw0gG-AUFVX3lxTE9kbFB4RUtNZ3FEREtxV09vSlZJZko1SVlzYzhoM1JIdFZoTXZ6QTJzR3N3aUt5WHJ5VUJabmVUUWI4R2JERVlacVpuN0E0ejJqUTV3QWVHMVJLY3E0TXlzX1JCWVNIaWlhdUx1d21RR3RRVVlyWm9BOVhiOUZSaHM4b2gybmo5azI3MjZFQnFTNUowQmVQR3N3Q2N3aW12UllLbkx4Zl9iVThISGZjaDZSVEg5MXNSelhBVnltQ0E?oc=5",
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "date": "12-07-2026 12:18 AM",
-      "quote": "Australian government warns of targeted attacks on vulnerable CMS platforms used by many local businesses."
+      "title": "OpenAI runs AI workshop for public servants in Canberra",
+      "link": "https://securitybrief.com.au/story/openai-runs-ai-workshop-for-public-servants-in-canberra",
+      "source": "Security Brief Australia",
+      "date": "13-07-2026 11:04 AM",
+      "quote": "Australian government agencies directly testing AI capability for public service delivery and policy work."
     }
   }
 }
