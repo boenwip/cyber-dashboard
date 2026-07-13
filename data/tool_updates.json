@@ -1,5 +1,5 @@
 {
-  "last_updated": "13-07-2026 03:34 PM",
+  "last_updated": "13-07-2026 06:52 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "13-07-2026 03:34 PM"
+      "date": "13-07-2026 06:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "13-07-2026 03:34 PM"
+      "date": "13-07-2026 06:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "13-07-2026 03:34 PM"
+      "date": "13-07-2026 06:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.204",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.204",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed hook events not streaming during SessionStart hooks in headless sessions, which could cause remote workers to be idle-reaped mid-hook</li>\n</ul>",
-      "date": "13-07-2026 03:34 PM"
+      "date": "13-07-2026 06:52 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.203",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.203",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a warning when your login is about to expire, so you can re-authenticate before background sessions are interrupted</li>\n<li>Added a grey \u23f8 badge to the footer w",
-      "date": "13-07-2026 03:34 PM"
+      "date": "13-07-2026 06:52 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,22 +91,6 @@
       "date": "10-07-2026 12:43 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "China Says It Has Found Security Vulnerabilities in Anthropic\u2019s Claude Code - WSJ",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhuNTk2eXJ6MFM2WmREY0pSNFN1REdpZXRFVU5FNElsTl9ZNFJ1YjFXQ084M19hN3FXWTFlY2ZDRnFLLWFXZGRybkhSa2hFbUtKRDJJUDR0QlNQcUZVZTVfOWRUUHRGenNleHFfcy1oS0NYVmN6QThLMjFBWF9qMDlwZ1hnNTE0cVAzNm1nNl9sOEVnM1Q0Vkg1WUNDQTlwUGVvWWsxRlVLVFNxS1ctVw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQQnhuNTk2eXJ6MFM2WmREY0pSNFN1REdpZXRFVU5FNElsTl9ZNFJ1YjFXQ084M19hN3FXWTFlY2ZDRnFLLWFXZGRybkhSa2hFbUtKRDJJUDR0QlNQcUZVZTVfOWRUUHRGenNleHFfcy",
-      "date": "09-07-2026 12:54 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "China issues 'backdoor' security alert over Anthropic's Claude Code - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmtuYVZDY0RoM0VTUW1Sa3poM1pYOHlYbVJwRk1lOXNPM1QwX25uMnlrdVUxUnlqSEhXZzlrWUxFQkRRa21HeEJWR1ZrY2UzeVUwdHBmcFR5bDR1OHNIQjRHNTZUYjd0NzJzZjNsQzdqNXRBUDZDdW1wekdXU1ZHcjNlbVVvM1NiSnJVQmppV2I3ZDNnSXIyZDBWMTZPQzhWTTRNUHo2WnZ0TG9RMzhmdjdBQnRzbUts?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQTmtuYVZDY0RoM0VTUW1Sa3poM1pYOHlYbVJwRk1lOXNPM1QwX25uMnlrdVUxUnlqSEhXZzlrWUxFQkRRa21HeEJWR1ZrY2UzeVUwdHBmcFR5bDR1OHNIQjRHNTZUYjd0NzJzZjNsQz",
-      "date": "09-07-2026 12:28 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
@@ -128,6 +112,14 @@
       "title": "Introducing Claude Sonnet 5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
+      "date": "30-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
       "date": "30-06-2026 05:00 PM"
     },
     {
@@ -201,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
       "date": "04-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Australia gets access to AI model \u2018too dangerous to release\u2019 - SMH.com.au",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2NZRlV5aHpkNmRwa2hWclFUaW92clQwUzZPU2lXOFloRWFMZEVia2VXOHVSYVNxdG9IQUt4em1kaDMzSGE3c3R2X0hLc1FhdTdYSEtRWUE4Sl9ROTBqOGdaNW43cFE4dzRad2tMMTdBb1AxY29odm9weU5raENZMnFUcXNsbmYxUEpkeTBsYm5CdnYtTnhKTFAxaFpOZ1VCMjdhSXl4SHlKMlE1TDJyVlJyaw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPR2NZRlV5aHpkNmRwa2hWclFUaW92clQwUzZPU2lXOFloRWFMZEVia2VXOHVSYVNxdG9IQUt4em1kaDMzSGE3c3R2X0hLc1FhdTdYSEtRWUE4Sl9ROTBqOGdaNW43cFE4dzRad2tMMT",
+      "date": "03-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
