@@ -1,5 +1,5 @@
 {
-  "last_updated": "14-07-2026 07:22 PM",
+  "last_updated": "15-07-2026 07:54 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.209",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed /model and other dialogs being blocked in <code>claude agents</code> background sessions (reverts an overly broad guard)</li>\n</ul>",
-      "date": "14-07-2026 07:22 PM"
+      "date": "15-07-2026 07:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.208",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added screen reader mode: opt-in plain-text rendering for screen reader users. Run <code>claude --ax-screen-reader</code>, set CLAUDE_AX_SCREEN_READER=1, or add \"axScr",
-      "date": "14-07-2026 07:22 PM"
+      "date": "15-07-2026 07:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.207",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.207",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Auto mode is now available without <code>CLAUDE_CODE_ENABLE_AUTO_MODE</code> opt-in on Bedrock, Vertex AI, and Foundry; disable via <code>disableAutoMode</code> in set",
-      "date": "14-07-2026 07:22 PM"
+      "date": "15-07-2026 07:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.206",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.206",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added directory path suggestions to <code>/cd</code>, matching <code>/add-dir</code> behavior</li>\n<li>Added a <code>/doctor</code> check that proposes trimming checke",
-      "date": "14-07-2026 07:22 PM"
+      "date": "15-07-2026 07:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.205",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.205",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added an auto mode rule that blocks tampering with session transcript files</li>\n<li>Fixed <code>--json-schema</code> silently producing unstructured output when the s",
-      "date": "14-07-2026 07:22 PM"
+      "date": "15-07-2026 07:54 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft ends support for Office on select devices as apps stop working - Telegraph and Argus",
+      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEN3SjdHSi01RV9udEZuX1hSNGJ3VEp3SW8zY0pRSDJfaXpGZ1pDZXFyZmJnal9uNE9LVHgxUkFTbXNuNmVCeHBOempyN1FoM2ItbEVTSGZiQ2lLNFVYZDVPLThBNEdLNF94NGlkTGFoRHRueWZZV3ZrWUZHOFBmaHlJVzM3QTAzTVozTjF4X2NYWGZJSnNndXdrV0ExbWdKRG85dlNnTGZFUVVoRVpGYXJwYTJkZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEN3SjdHSi01RV9udEZuX1hSNGJ3VEp3SW8zY0pRSDJfaXpGZ1pDZXFyZmJnal9uNE9LVHgxUkFTbXNuNmVCeHBOempyN1FoM2ItbEVTSGZiQ2lLNFVYZDVPLThBNEdLNF94NGlkTG",
+      "date": "14-07-2026 08:30 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -91,12 +99,28 @@
       "date": "10-07-2026 12:43 AM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI releases new voice models for more natural live conversations - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW8yZmpKTHV6VkU2bkVWeWVxakdVb2liMG84TTM3Unp3MW5jaVE2enN2eHBrTzVUZXBsaXdwOFV3?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW",
+      "date": "09-07-2026 03:00 AM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cUl6RWtnbl9EdzY0cHl6WWVkVG0xOVI3ZHdvblRfVndiVHkzeFFfMUIybThzbE85Vnp1RC01a9IBowFBVV95cUxPaDdzN09tU2ZVY2p3X1hCTk1pNThnZkl1aEZWZmlEWTFNTUViWGh1WkFVQUZteVdVNDBqdFhnSGdoN2E0c2ZRWmhoaldyMEpKdkhQaUl1UVdObDB2MjdBa0laN21wQmszNXMwWTZoQUxlZmtYaWNWWE44S055dHN2UldxTW1zN0ZBalFBX0g4eVJYQ01qNm5DVi1HWGtTanQyT2Vz?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cU",
       "date": "01-07-2026 09:38 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
+      "date": "01-07-2026 05:50 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -112,14 +136,6 @@
       "title": "Introducing Claude Sonnet 5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
-      "date": "30-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
       "date": "30-06-2026 05:00 PM"
     },
     {
@@ -147,28 +163,12 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
-      "date": "18-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
       "date": "17-06-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
-      "date": "15-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
