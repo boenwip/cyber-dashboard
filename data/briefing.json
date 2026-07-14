@@ -1,16 +1,16 @@
 {
-  "last_updated": "14-07-2026 05:05 PM",
+  "last_updated": "14-07-2026 07:22 PM",
   "count": 0,
   "items": {
     "date": "14 July 2026",
-    "briefing": "Developers and web teams should be aware that attackers have compromised a popular npm software package called Jscrambler, hiding malicious code designed to steal information from anyone using it. If your organisation uses third-party software packages or has developers building or maintaining websites and applications, it's worth checking with your tech team whether this affects any of your systems.\n\nSeparately, a new study highlights that many Australians face significant barriers breaking into the cyber security workforce, which may affect how organisations plan to fill security roles going forward.\n\n**Practical tip:** Ask your developers to audit any third-party software packages in use and verify they're running trusted, up-to-date versions.",
-    "generated": "14-07-2026 05:05 PM",
+    "briefing": "A widely used JavaScript security tool called Jscrambler has been compromised \u2014 hackers inserted malware into its npm software package that can steal information from affected systems. If your organisation uses JavaScript development tools or has a software development team, check with your IT provider to ensure this package has not been used in any systems or websites.\n\nA local study by CyberPath has also highlighted that many Australians face significant barriers when trying to enter the cybersecurity workforce, which may affect how organisations find and retain security talent going forward.\n\n**Tip:** Ask your IT team or provider to regularly audit any third-party software packages used in your systems \u2014 compromised tools can introduce threats without obvious warning signs.",
+    "generated": "14-07-2026 07:22 PM",
     "featured": {
       "title": "CyberPath study says barriers block cyber job entry",
       "link": "https://securitybrief.com.au/story/cyberpath-study-says-barriers-block-cyber-job-entry",
       "source": "Security Brief Australia",
       "date": "14-07-2026 02:06 PM",
-      "quote": "Certification barriers and unclear entry standards are blocking Australians from pursuing cybersecurity careers."
+      "quote": "Certification barriers prevent Australians from entering high-demand cybersecurity careers."
     }
   }
 }
