@@ -1,7 +1,29 @@
 {
-  "last_updated": "15-07-2026 07:05 PM",
+  "last_updated": "16-07-2026 07:55 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-46817",
+      "description": "Oracle E-Business Suite \u2014 Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks o",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-15",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
+      "vendor": "Oracle",
+      "product": "E-Business Suite",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2023-4346",
+      "description": "KNX Association KNX Protocol Connection Authorization Option 1 \u2014 KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without addition",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-15",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
+      "vendor": "KNX Association",
+      "product": "KNX Protocol Connection Authorization Option 1",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-56155",
       "description": "Microsoft Active Directory Federation Services \u2014 Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
       "vendor": "JoomShaper",
       "product": "SP Page Builder",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-55255",
-      "description": "Langflow Langflow \u2014 Langflow contains an authorization bypass through user-controlled key vulnerability which allows an authenticated attacker to execute any flow belonging to another user by specifying the victim's flow",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-07",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55255",
-      "vendor": "Langflow",
-      "product": "Langflow",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-56290",
-      "description": "Joomlack Page Builder \u2014 Joomlack Page Builder contains an improper access control vulnerability that could allow for remote code execution via unauthenticated arbitrary file upload.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-07",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56290",
-      "vendor": "Joomlack",
-      "product": "Page Builder",
       "ransomware": "Unknown"
     }
   ]

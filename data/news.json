@@ -1,42 +1,63 @@
 {
-  "last_updated": "15-07-2026 07:05 PM",
-  "count": 61,
+  "last_updated": "16-07-2026 07:55 AM",
+  "count": 57,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Tracebit says context bombs can derail AI cyber attacks",
-      "link": "https://securitybrief.com.au/story/tracebit-says-context-bombs-can-derail-ai-cyber-attacks",
-      "summary": "Tests on five models found a planted text string sharply reduced successful AI-led intrusions, cutting full compromise to 1% in an AWS range.",
-      "date": "15-07-2026 06:15 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Checkmarx launches autonomous agents to fix code flaws",
-      "link": "https://securitybrief.com.au/story/checkmarx-launches-autonomous-agents-to-fix-code-flaws",
-      "summary": "As AI coding speeds up, Checkmarx says its new agents can cut manual vulnerability fixes by up to 70% before code is committed.",
-      "date": "15-07-2026 06:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Phishing toolkits target Microsoft 365 MFA in surge",
-      "link": "https://securitybrief.com.au/story/phishing-toolkits-target-microsoft-365-mfa-in-surge",
-      "summary": "Account takeovers are becoming harder to stop as attackers use real-time code theft and fake login pages to bypass Microsoft 365 MFA.",
-      "date": "15-07-2026 05:45 PM",
+      "title": "Cloudera urges Australian firms to tighten AI governance",
+      "link": "https://securitybrief.com.au/story/cloudera-urges-australian-firms-to-tighten-ai-governance",
+      "summary": "Fewer than 5% of Australian organisations have scaled AI, leaving data leaks, bias and compliance failures as real risks for business leaders.",
+      "date": "16-07-2026 07:15 AM",
       "tags": [
         "AU Cyber",
-        "Scams"
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Identity Attacks Overtake Exploits as Top Ransomware Cause",
+      "link": "https://www.darkreading.com/identity-access-management-security/identity-attacks-overtake-exploits-top-ransomware-cause",
+      "summary": "Email attacks overtook exploits as the top ransomware root cause last year. Multifactor authentication (MFA) was deployed in 97% of credential-based attacks but failed to prevent compromise.",
+      "date": "16-07-2026 06:16 AM",
+      "tags": [
+        "AU Cyber",
+        "RTO / VET"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Direct"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Devolutions & Telegraph Ventures back Mizo in AI push",
+      "link": "https://securitybrief.com.au/story/devolutions-telegraph-ventures-back-mizo-in-ai-push",
+      "summary": "The minority stake should help Mizo speed up AI ticket automation for managed service providers seeking to cut frontline support costs and delays.",
+      "date": "16-07-2026 05:40 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Is 'Tech-xit' Imminent? UK Steps Up Sovereignty Push Amid AI Strife",
+      "link": "https://www.darkreading.com/cybersecurity-operations/tech-xit-uk-sovereignty-push-amid-ai-strife",
+      "summary": "The US government's restrictions on Anthropic and OpenAI frontier models have intensified calls in the UK and other countries to reduce their reliance on US tech companies, with significant cyber implications.",
+      "date": "16-07-2026 03:03 AM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -44,10 +65,53 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "SonicWall urges focus on patch speed over CVE count",
-      "link": "https://securitybrief.com.au/story/sonicwall-urges-focus-on-patch-speed-over-cve-count",
-      "summary": "The real risk lies in unpatched flaws, as attackers increasingly exploit fixes already available but not yet installed.",
-      "date": "15-07-2026 05:00 PM",
+      "title": "Valantor buys EyeLevel to launch visual intelligence",
+      "link": "https://securitybrief.com.au/story/valantor-buys-eyelevel-to-launch-visual-intelligence",
+      "summary": "Enterprises can now run AI on sensitive documents in private or air-gapped systems, reducing security and compliance risks.",
+      "date": "16-07-2026 02:30 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cast AI launches Kimchi Coding with production support",
+      "link": "https://securitybrief.com.au/story/cast-ai-launches-kimchi-coding-with-production-support",
+      "summary": "Enterprises can now run the coding agent with tighter spending caps, data sovereignty controls and production support to curb AI development costs.",
+      "date": "16-07-2026 02:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Podcast: We Are Living in a \u2018ChatGPT Flyer Pandemic\u2019",
+      "link": "https://www.404media.co/podcast-we-are-living-in-a-chatgpt-flyer-pandemic/",
+      "summary": "ChatGPT flyers are everywhere; how Waymo drove some kids to the cops; and a $3,000 suit that electrocutes your muscles.",
+      "date": "16-07-2026 01:58 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Claude Flaw Automatically Sends Malicious Prompts to AI Agents",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/claude-flaw-malicious-prompts-ai-agents",
+      "summary": "When combined with another exploit, the \"PromptFiction\" vulnerability, which has been fixed, could have enabled an end-to-end attack on a targeted system.",
+      "date": "16-07-2026 01:27 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -57,16 +121,29 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Industry welcomes Australia's new National Office of AI",
-      "link": "https://securitybrief.com.au/story/industry-welcomes-australia-s-new-national-office-of-ai",
-      "summary": "New oversight is set to shape AI rules, but businesses say success will hinge on practical guidance, skills and sustained investment.",
-      "date": "15-07-2026 04:23 PM",
+      "title": "1Password launches AI spend tracking in SaaS Manager",
+      "link": "https://securitybrief.com.au/story/1password-launches-ai-spend-tracking-in-saas-manager",
+      "summary": "Rising usage-based bills could now be easier to control, as 1Password's SaaS Manager adds dashboards, limits and alerts for AI spend.",
+      "date": "16-07-2026 01:15 AM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "2-Click Cursor Exploit Enables Dev Environment Takeover",
+      "link": "https://www.darkreading.com/application-security/2-click-cursor-exploit-dev-environment-takeover",
+      "summary": "Simple age-old bugs give bad actors access to developers' secrets and source code-rich environments.",
+      "date": "15-07-2026 11:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -222,19 +299,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQYXl1OWJ2c2x6VHluaXFhd2lTYTVsbW85a1FBMEEtOWdGWjZfX1EycGVCSXlZZU45UlUtRmtiVENJbFpIQ0ZPcE8ycGxBazMwbXBleGF3UmNXVFRseUVBa3hUTS1FdXNvV1hRR00zN0U2eTlldGNGQkRQeGExblZGa0liV2hQdkRURnljbUhIZkhDUXM0SFVMRkVwUjc5MV96YlVPSHZxWWhhNjk5U2dOcDdsRdIBuAFBVV95cUxQVDdoQTVKUXV1Tm5WVWJidnlOQ1lqd1ItcnhMS0wxdG1CSzJKYVFoNm92cEZlMXpRSXBrY2FTbnJRLVBXLTNpT21JemM0YXdZdmd3SmNCUm8yb1RjRG9UMHJialZUaWQxTjUyR29oU2dGY1Q4MGtqNzBWLTA0SE1ya1dfX3NfaEw4N0ZUUmFNNnhoMnV1ZzBnZHhOY09fMnpCZ1BTUTdYeko2TmlLT0lucUhNV0pubEJk?oc=5",
-      "summary": "OpenAI temporarily relaxes GPT-5.6 Sol usage limits BleepingComputer",
-      "date": "13-07-2026 10:44 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 4 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxNQXl4Z3E1Mm1TM2hEd2hVLVpJZ1JCNmg3a2tuQng0dTA5c29OcGZEbzJIcHBQVlBlYjI0c3daLWNfNU9yblA0bXdBa0VTZFpZMnFQYm13YVY4QlFkQ252bHpvYklhQkpWREVLOEpIYUdPX2w4Sl9aZzZNSjcxMk9vZGNVejBjenJqNTQ4ZzdNMzBxNHZkWVJnZ2NoVk5vMU8xWDJYMGcxTU9SQXFvZ3pBVmV4OHRYUUFsa3JKRDZWWmhzZ0VZbm1aVExaZmFBTGwyTGZLU284V2s4d3lCSExZRWNuenBraWNVcWFwQXg2eGQ2V2tOajYweV9fUG1ZeWUwSmt1S09ESmRXZmNTMnVZejJrN053ZG01TkhacV9ic3JvOFMtV28ycmtDMDljS29GWkY4UTRLZ05pY3NUbzJJcWVVVmV2VWVp?oc=5",
@@ -248,19 +312,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "RedHook Android malware now uses Wireless ADB for shell access - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZmV5cHBPM01aSFZpT2N1NnNEWTZtNTkzaXB0TGhQMkFqbVBmSTFIQ1B2V0J0ZFAwSHpjVkVWbnNhZXhjUmNyQ0FOcXhfLThNYmdDOWpOd1BuaVdyVnE3c3J4T183X1BOaUVvZU9kdmtzSncwUk5lQXY2b0xhMDhZOWJnZEhxVHJzU2IzRG1UMjdfRUhvclhjcDN3OTE2Y1N6YUhMbko5UFJSajJ2X1VF0gG0AUFVX3lxTFBjb3pIVzducjJleEpnalJLVmFKb1hZcUZsV0ZWZjNjaGZpaWNZTXlQYnJBOU5jX0FiQVpPTVJCbDkyQmFZcUs4Nzc3OVY3dTR2NGRWd0lyakRBQ3BZU0FyeHJ2YWZ4bS0yQ09Xcjc2Wm9Odl9vWGo3NzVabTV5aTE3UDh6cnNfLVNZWGtkblZETk84X1lEZFFmY3doN2lGVTJRU2c1N0lnSW8wVW5hOFpOV1piRA?oc=5",
-      "summary": "RedHook Android malware now uses Wireless ADB for shell access BleepingComputer",
-      "date": "13-07-2026 12:27 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -462,21 +513,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Former ransomware negotiator gets 4 years for BlackCat attacks - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZTVuN1U3MzV5QVA5OXI1dmNyUkhJRC1yTWttVTRRRWdSNWM4enZ3dmZhbGNBanhyNTdjWlhtVFpmMnBRRFp3MU1HOVZPeWxZTzJKYTdORXhDWFU4WUxaTmd4d2RlX3FoaURTUzNQb3lpRUpkanV3Skh1MVdocUdOMDE3bl8tVUJSdktNOFJkSVdWcTVMaDlpd3hSeHEtMGhFaEFVaGd5bDVhSWRWdUhPU1I0ZkV2SGfSAbwBQVVfeXFMTzUtdmVpeHBzRm1EUmVCVWtkQUZzMU1raDFZU2xab1JGNGQtRFFLRFNZTVlRMjhyNm1LUG5FSklIcWlNaVpyZ2hUTjNkaGIxN3JpaWN3MVlNVlNjNHBJSXB0Y2V2SmxzN0I3M2F0N0RaWGFkd01feHJ4R3hBempFZjEwbFdmOC10YTlYcU01QXJQWE9zMndhLUtVNVR4ODdHS0d6MVJWQlZLTTZvRENEb0tLSWVvUFRMdWlYUlk?oc=5",
-      "summary": "Former ransomware negotiator gets 4 years for BlackCat attacks BleepingComputer",
-      "date": "10-07-2026 06:17 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Iran's Cyber Crosshairs Focus Beyond Critical Infrastructure",
       "link": "https://www.darkreading.com/cyber-risk/iran-cyber-crosshairs-beyond-critical-infrastructure",
@@ -569,19 +605,6 @@
       "audience": [
         "SMB"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "We Are Living in a \u2018ChatGPT Flyer Pandemic\u2019",
-      "link": "https://www.404media.co/we-are-living-in-a-chatgpt-flyer-pandemic/",
-      "summary": "\"Hey if this is your flyer, I\u2019m not going, I\u2019m not donating, I\u2019m not sharing. Don\u2019t ask me.\"",
-      "date": "09-07-2026 12:05 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -732,19 +755,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Why pay monthly? Get access to ChatGPT, Claude & more for a one-time $70. - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeTBnWjJPak1PZ1dOV2hpS2ZZR2ZMbzdkcGhEZGFmaFhMUy1PLW1rNndwR3Z6VklqSWp3aU9YQnNEdnEwX1Y4UTZ3cG5jNjNEWXpnUVhtQUZ5TzBsRldGc19EVzV1Z0JWVnRwbzFsWVlILUVnb2JYTkZTVUFNRTdRUHRZMzMwY05oNVpzcmx6Vzl0ZG5QLU5SeVNuQkw3Qm5YMVN0OXJ1MjlNVEQxUndXdEhKWGJBcDR30gG-AUFVX3lxTE5SQUdPTVVMVkZiS0VFNUU0LVkzNFVVbjk3U2UyUUdTSWp2SUpuQUc3VzVBcHROT3lDblBBSi04dDFlUXJWZ3NrUHpLb1dYT3ZIUktvQWthVXFWNG5ISkNlMjFfNGsxNEJtWmYxLUU0RWhaNEJOcm1aSDF1emtSYk12RHJaSDZRTVhPWkYyVVhTdXFIcmpiVWVPdjVPckYzeV9NS0tqRm9ES2tuOWppQzEtVk9scHpEbjEwM1RBVEE?oc=5",
-      "summary": "Why pay monthly? Get access to ChatGPT, Claude & more for a one-time $70. BleepingComputer",
-      "date": "03-07-2026 05:00 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
       "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
@@ -811,63 +821,6 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Crafty Phishing Campaigns Auto-Adapt to Victim's Device, OS",
-      "link": "https://www.darkreading.com/application-security/phishing-campaigns-auto-adapt-victims-device-os",
-      "summary": "Attackers fingerprint victims through user-agent data to deliver OS-specific payloads, increasing compromise rates and campaign profitability.",
-      "date": "02-07-2026 06:31 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "And the Winner in Dominant Malware Delivery? ClickFix",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/winner-dominant-malware-delivery-clickfix",
-      "summary": "Researchers say the highly effective social engineering technique is no longer the exception for malware attacks \u2014 it's now the rule.",
-      "date": "02-07-2026 05:46 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "When Too Much Security Data Becomes the Risk",
-      "link": "https://www.darkreading.com/cyber-risk/too-much-security-data-risk",
-      "summary": "Rapid growth turned routine firewall logs into a security and budget liability. One CISO used artificial intelligence to filter what data truly belongs in the SIEM.",
-      "date": "02-07-2026 01:44 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Phantom Squatting': An Emerging AI-Driven Supply Chain Threat",
-      "link": "https://www.darkreading.com/endpoint-security/phantom-squatting-ai-driven-supply-chain-threat",
-      "summary": "LLMs consistently hallucinate Web domains for legitimate brands that attackers can register for malicious activity in a difficult-to-detect attack vector.",
-      "date": "02-07-2026 01:17 AM",
-      "tags": [
-        "EdTech",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
       "audience": [
         "Enterprise"
       ],
