@@ -1,7 +1,60 @@
 {
-  "last_updated": "15-07-2026 04:35 PM",
-  "count": 64,
+  "last_updated": "15-07-2026 07:05 PM",
+  "count": 61,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Tracebit says context bombs can derail AI cyber attacks",
+      "link": "https://securitybrief.com.au/story/tracebit-says-context-bombs-can-derail-ai-cyber-attacks",
+      "summary": "Tests on five models found a planted text string sharply reduced successful AI-led intrusions, cutting full compromise to 1% in an AWS range.",
+      "date": "15-07-2026 06:15 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Checkmarx launches autonomous agents to fix code flaws",
+      "link": "https://securitybrief.com.au/story/checkmarx-launches-autonomous-agents-to-fix-code-flaws",
+      "summary": "As AI coding speeds up, Checkmarx says its new agents can cut manual vulnerability fixes by up to 70% before code is committed.",
+      "date": "15-07-2026 06:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Phishing toolkits target Microsoft 365 MFA in surge",
+      "link": "https://securitybrief.com.au/story/phishing-toolkits-target-microsoft-365-mfa-in-surge",
+      "summary": "Account takeovers are becoming harder to stop as attackers use real-time code theft and fake login pages to bypass Microsoft 365 MFA.",
+      "date": "15-07-2026 05:45 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SonicWall urges focus on patch speed over CVE count",
+      "link": "https://securitybrief.com.au/story/sonicwall-urges-focus-on-patch-speed-over-cve-count",
+      "summary": "The real risk lies in unpatched flaws, as attackers increasingly exploit fixes already available but not yet installed.",
+      "date": "15-07-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Industry welcomes Australia's new National Office of AI",
@@ -21,78 +74,6 @@
       "link": "https://australiancybersecuritymagazine.com.au/acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition/?utm_source=rss&utm_medium=rss&utm_campaign=acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition&utm_source=rss&utm_medium=rss&utm_campaign=acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition",
       "summary": "The Australian Computer Society (ACS) has welcomed the Federal Government\u2019s intention to establish an Office of AI within the Department of the Prime Minister and Cabinet, describing it as an [...]",
       "date": "15-07-2026 02:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian Computer Society backs Office of AI plan",
-      "link": "https://securitybrief.com.au/story/australian-computer-society-backs-office-of-ai-plan",
-      "summary": "The proposed watchdog could shape AI regulation and skills policy as Australia tries to avoid fragmented oversight and a shortage of trained workers.",
-      "date": "15-07-2026 01:24 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point: Hackers are already in. Act accordingly",
-      "link": "https://securitybrief.com.au/story/check-point-hackers-are-already-in-act-accordingly",
-      "summary": "Hackers are exploiting vulnerabilities in hours or minutes, leaving many organisations compromised before defenders spot the breach.",
-      "date": "15-07-2026 11:31 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Sine launches Advanced ID Check for kiosk check-ins",
-      "link": "https://securitybrief.com.au/story/sine-launches-advanced-id-check-for-kiosk-check-ins",
-      "summary": "Busy reception desks will no longer need to inspect papers manually, as the kiosk adds timestamped identity checks for compliance-heavy sites.",
-      "date": "15-07-2026 11:23 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Google Cloud expands Claude support on Agent Platform",
-      "link": "https://securitybrief.com.au/story/google-cloud-expands-claude-support-on-agent-platform",
-      "summary": "The update gives enterprises managed access to Anthropic's models with built-in failover, data residency and compliance controls for production AI use.",
-      "date": "15-07-2026 11:15 AM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DigiCert wins Great Place To Work status in six countries",
-      "link": "https://securitybrief.com.au/story/digicert-wins-great-place-to-work-status-in-six-countries",
-      "summary": "The award could aid recruitment as the security company expands its certified workplaces across North America, Europe, Africa, Asia and Australia.",
-      "date": "15-07-2026 10:45 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -166,19 +147,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Hackers backdoor Jscrambler npm package with infostealer malware - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNUndkSWRVVmpSSjZjTjAtenZOV2V2UkVaSU9iaGZWWTZWV0tNVXZaRFlPUXlwYVJNOExBZmNJbnJqOXUzMEV4Q29QM20tZHVQZFlpMUM1YnRhbjVwb1lMVEYzUVdoaVhRR1dnLU1MVWdtQmNHU01wcDJpOE9zM243ZFVDQTAzcEkwSEMxNGFiXzhsQ0o2Mm5YMnlhRGpIc1RGSGpMZE5VNmF6V2s2MmdlSHhB0gG3AUFVX3lxTE9udGV2Tk5xOWVCeV9CRDlHdGUwNGZPSGZjanlMTzZXNUQyQzJ6N0ZaVnhOaF9XZUN2RjFEVkhpM2tVZFJpbDBKZTZ4YWpGdHNXNms3RVQxdTFPR011eTZkeENNbmd5Nk1VaWc0bzNxS3dSOHdHd0VjRVN3Vlo5bmZPbXBrQm1RcG1MSldaN1NjRFdmdC1Kal9nRE91d0pTaVlidlQ5ODk4MVVjMTBjMGg0RUtUcTkydw?oc=5",
-      "summary": "Hackers backdoor Jscrambler npm package with infostealer malware BleepingComputer",
-      "date": "14-07-2026 05:44 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -573,22 +541,6 @@
       ],
       "threat": "Critical",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Police arrests 5,800 suspects in global anti-fraud crackdown - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNWWlsSXAtMmpSTS1QZVZuckZQakMxMF9IdDNHcWgwOHFQd1g3Nld5RWZFdV9Md0tpQ3pOeFMzbWVyUmo1OEtYTmFtN3lHdWVjZjI2dEt6SFZiZklsYjg3bjNFZ1NSWGNLOHNmaG1nY2JpQTE4akJRakx5cHV4YldUS0xCVnlqYU1HdUdEVmNUOGNDdUdxWkRNQUtYTHZ5MVhtazhzb1BqX0tyTzhx0gGyAUFVX3lxTFBidG1yVk9sYUJxTllzRzViR0pvQ0JBVFIzd094OWs5Um5kNXJ3TWhkSF9qbWJQRUdaNlZOQTk5VXpsbFVRZ1lRQjB3a0pNNjk2SVg1VmpMVmVKMDFaZUluNmlLTkJQbHNIRDdpREhtei16bnNaWURJLTl4N2F3eFpjcVpZdHhjQlVNVVM2TjBUaEtRV0pnQ0F3RkFFbFktT2xIR3k3NDNhZUpQWkRqWWRPbGc?oc=5",
-      "summary": "Police arrests 5,800 suspects in global anti-fraud crackdown BleepingComputer",
-      "date": "09-07-2026 07:47 PM",
-      "tags": [
-        "Scams",
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
