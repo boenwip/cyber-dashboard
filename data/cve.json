@@ -1,7 +1,40 @@
 {
-  "last_updated": "16-07-2026 07:33 PM",
+  "last_updated": "17-07-2026 08:00 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-58644",
+      "description": "Microsoft SharePoint \u2014 Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-25089",
+      "description": "Fortinet FortiSandbox \u2014 Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
+      "vendor": "Fortinet",
+      "product": "FortiSandbox",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-39808",
+      "description": "Fortinet FortiSandbox \u2014 Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
+      "vendor": "Fortinet",
+      "product": "FortiSandbox",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-46817",
       "description": "Oracle E-Business Suite \u2014 Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks o",
@@ -77,39 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
       "vendor": "Cisco",
       "product": "IOS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-56291",
-      "description": "Balbooa Forms \u2014 Balbooa Forms contains an unrestricted upload of file with dangerous type vulnerability that allows an unauthenticated arbitrary file upload which could allow uploading of executable files leading to ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-10",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56291",
-      "vendor": "Balbooa",
-      "product": "Forms",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-48939",
-      "description": "iCagenda iCagenda \u2014 iCagenda contains an unrestricted upload of file with dangerous type vulnerability that allows the upload of arbitrary files in the file attachment feature, ultimately resulting in PHP code upload and",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-10",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48939",
-      "vendor": "iCagenda",
-      "product": "iCagenda",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-48908",
-      "description": "JoomShaper SP Page Builder \u2014 JoomShaper SP Page Builder contains an unrestricted upload of file with dangerous type vulnerability that allows unauthenticated users to upload arbitrary files, ultimately resulting in the upload and",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-07",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48908",
-      "vendor": "JoomShaper",
-      "product": "SP Page Builder",
       "ransomware": "Unknown"
     }
   ]

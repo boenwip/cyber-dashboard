@@ -1,60 +1,65 @@
 {
-  "last_updated": "16-07-2026 07:33 PM",
-  "count": 62,
+  "last_updated": "17-07-2026 08:00 AM",
+  "count": 56,
   "items": [
     {
-      "source": "Security Brief Australia",
-      "title": "WhatsApp GhostPairing attack gives intruders access",
-      "link": "https://securitybrief.com.au/story/whatsapp-ghostpairing-attack-gives-intruders-access",
-      "summary": "Attackers can stay inside WhatsApp accounts after a single fake device approval, exposing messages, calls and contacts without alerts.",
-      "date": "16-07-2026 06:30 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Targeted open source malware attacks on developers soar",
-      "link": "https://securitybrief.com.au/story/targeted-open-source-malware-attacks-on-developers-soar",
-      "summary": "Malicious package advisories jumped from 21 in 2023 to 1,576 in 2025, as attackers increasingly target developers before code reaches production.",
-      "date": "16-07-2026 06:15 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI use surges in global mobility, but governance lags",
-      "link": "https://securitybrief.com.au/story/ai-use-surges-in-global-mobility-but-governance-lags",
-      "summary": "The technology is spreading fast across mobility teams, but only 6% have embedded it into structured workflows and controls remain patchy.",
-      "date": "16-07-2026 05:45 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "OpenAI imposes passkey rule for high-risk ChatGPT users",
-      "link": "https://securitybrief.com.au/story/openai-imposes-passkey-rule-for-high-risk-chatgpt-users",
-      "summary": "Access to ChatGPT and GPT-5.6 is being tightened for some accounts as OpenAI moves to hardware-backed passkeys amid rising phishing risk.",
-      "date": "16-07-2026 05:30 PM",
+      "source": "Dark Reading",
+      "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
+      "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+      "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
+      "date": "17-07-2026 05:41 AM",
       "tags": [
         "AU Cyber",
+        "EdTech",
         "AI & Tools",
         "Scams"
       ],
-      "threat": "High",
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI visibility gap hits compliance teams, Drata finds",
+      "link": "https://securitybrief.com.au/story/ai-visibility-gap-hits-compliance-teams-drata-finds",
+      "summary": "Most IT and security teams cannot track AI use across their businesses, and Drata says the blind spot is already fuelling audit failures.",
+      "date": "17-07-2026 03:35 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI unveils GPT-Red to harden GPT-5.6 against attacks",
+      "link": "https://securitybrief.com.au/story/openai-unveils-gpt-red-to-harden-gpt-5-6-against-attacks",
+      "summary": "The new safety model slashes prompt-injection risks in GPT-5.6, as OpenAI says it found flaws faster than human testers and then fed fixes back into production.",
+      "date": "17-07-2026 02:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "DigiCert survey finds 81% of Australian organisations hit by AI security incidents or vulnerabilities",
+      "link": "https://australiancybersecuritymagazine.com.au/digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities",
+      "summary": "DigiCert research suggests AI-related security problems are already affecting many Australian enterprises, with 81% of surveyed organisations reporting either an AI-related incident or identifying AI-related vulnerabilities. The survey of Australian [...]",
+      "date": "16-07-2026 10:02 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -72,13 +77,13 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "AI day prompts focus on data, fraud & infrastructure",
-      "link": "https://securitybrief.com.au/story/ai-day-prompts-focus-on-data-fraud-infrastructure",
-      "summary": "Boards are being urged to fix data quality, fraud controls and infrastructure before AI adoption numbers start to matter.",
-      "date": "16-07-2026 04:30 PM",
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxQMW1Iek1KbFZNNmEyLUpSSU9Ja21SLThKQWl2bWY5UTlqcmtlRDlJRTAzMlAwdnhkTjFnYk9qNWtOZlRUc2N3SUQ2UUd6WjVLSkNYUjU3a2FrZUFGaHg0a2lkc3NDWTRhc3laYk5sdDR2UVc3dHRzN2ZfXzh6Vm5mVmU0cGY3TUltMDRuYUJmMGFxWTI4SVNMdEkyeXA4UE9pZzY5MkVyV0FSd3JYeHdqVDdPWnpWSGR2TDg2ZTRnbWU0ZzE0WjNtLXRnd21hNHQtTExQT18xbGd1Qk8tcS03NnVkZHE2U3lTdTVobE0ySUdRTVJCR0l2TEI5R2RsTElVcW5tdDFXZ3NOWEdtNS1qY2hVZDQ2SzFPOEVxY0RhVVdIR3g0Nk4wdjZqOXdORjNUa2dzaEdnWTU?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "16-07-2026 02:24 PM",
       "tags": [
-        "AI & Tools",
+        "AU Cyber",
         "Scams"
       ],
       "threat": "Advisory",
@@ -86,20 +91,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Experts urge action as Australia launches Office of AI",
-      "link": "https://securitybrief.com.au/story/experts-urge-action-as-australia-launches-office-of-ai",
-      "summary": "Industry experts say Australia's new Office of AI must quickly turn policy into practical governance as AI adoption accelerates.",
-      "date": "16-07-2026 04:16 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -120,22 +111,6 @@
       "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNWGJIVmc1MzlLNzdTd0w1REVXYjNSUEdsRGFLVFN2cW9CVVBlRVpWWDdNVHYtczVUd000RFQtY2Vtd21yYzltRFRvRWgxOENOV1pDaHRSYTVVa19ZTkdUZGxIRzFlbmphTWJIQVc2TUdWYXNzc1dOVzd2Wkx4LXNROF9ndExKWEYtWmxya0U0QjE1SXlha0hsV0xFbUZ0eU1nUWFQX1FHX05nU050VEFiMVljOGdSWUIxZWRHR0dfZEVqOEtJTGJqT0dZQmlSTWVtamJ2OEdhQVczbVNiYkNFdjJiR0ZsXzc4OGhCSU0zMy1nTXNIV0xwLW1SVC1aY212SkJzMnpmRGFiTnRZbDZGQ0hRN1cyaVR2aWNXdGF1SU5fblVzQ3VaUU1zRzBwV2JmRDhvZUFrZlNGcm9B?oc=5",
       "summary": "Browse news and alerts - page 5 Scamwatch",
       "date": "16-07-2026 12:54 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNbTUtZzRkVWpUMnc5R1ZYT05WV0lUc3MtMXprb1pCcXZFeFNwZXZITkhWLXNfRTJtVW5sU0lJOThWUkc1VWM5R0gwYUdVNzF4eDYtbGZEa2M5d0tpYkx4RWF0dlFkMUFJV1ZqaTdTb3NjRGhHaHdzN2pvT3JJb21VRnFKanBLUTVwRnprTVhCa2h4Yldvblp6eHBMT3Z2cjAwWjBaazNXcVAzWTBKamZOaFd5cmY3ZjYzTVB2ckNZYzVIZVd4c05COHRhMWp2QmQtQlhKaVFxRS1kOW14RWhOZ2hUTW44U016RWt0OVkyTkxLMzduVWh1aG5hNkhFRmNkY2wxRG43Z1RhVW8tUWhmSUN1VVlzbGpsZGQ5UnRkS0FLWGN2c01wd1pQMmdjajcteG84aEU3NVVsODJGSnFONjlBRlZMbjk5SjNoekY1dmJqRGhEel9ySzdsSUw?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "16-07-2026 11:05 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -259,6 +234,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxON0UyVG5Yb29udUJ0c1I1TjN1Y3dZd01FZkVKTTFRb05tbzVEWWVvR2dJeGxLWl9VdnFsaDRKWDFOSjQ1TEFJMlc0ek1RYy1HS1l0dWNnUHNDcTk1VWloSjM1dHdSajFkUndHNHR5ZHAtNHktcTJjai0xMG8welVHSl9MQS1WYkdOREp3aEtQZ0JQdWdkZ2lubmo5U293aUtJTGU4N3VKS2dPM0pMLVZpSm95bUk0aFVjNGdWaE1lLVpxcXlFU2lpT1dYS3BqWkw2M0lXNDZLN3BRTnJPWDM2ZEFqYkFiX096VjlwNVoxaG9DelM0eXpXN19MUlVRZFF0dzE0cG5GNEJLbDdBLVRlTTNB?oc=5",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
+      "date": "15-07-2026 09:05 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -506,22 +497,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQOUpjMG1abWViS1NUeWZERjRNU1E0a1JZUkJzN2JWT05CMGJOTUhYZE00RGxjVE5IQlAtZWZDTVZxYTJiZjA3T0xKUTVSMkVSSjl2dE5qSXZLUjBNWHBtX05aUDNNZkhXZV9DT3M1WU1yWHR2b0x5dkxfV1JRc2ttdURmSWMxby13bXZWSnprTlRCTVFzbG80OWpSU0xOXzU0aTZ4R3BtcUxDSlB3UHhERXNNelRTQmpaMUZfN1lzZnVNNHRwbXJHZkZUVHVqenJ0Vzl0UEZiY3lCZ0llaUl1YWl5NUI1V1JLSTVCek5JU2NROWZUWjUwLWdn?oc=5",
-      "summary": "Browse news and alerts - page 3 Scamwatch",
-      "date": "11-07-2026 11:20 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -837,62 +812,6 @@
         "SMB"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Apple Reverses Age-Old Patch Policy to Keep Up With AI",
-      "link": "https://www.darkreading.com/cybersecurity-operations/apple-patch-policy-ai",
-      "summary": "Expect more compressed patching cycles from Apple going forward, as attackers leverage artificial intelligence to reduce time to exploit.",
-      "date": "03-07-2026 05:31 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "FBI Seizes NetNut Proxy Platform, Popa Botnet",
-      "link": "https://krebsonsecurity.com/2026/07/fbi-seizes-netnut-proxy-platform-popa-botnet/",
-      "summary": "The Federal Bureau of Investigation (FBI) said today it worked with industry partners to seize hundreds of domains associated with NetNut, a sprawling residential proxy service operated by the publicly-traded Israeli company Alarum Technologies [NASDAQ: ALAR]. The action comes roughly two weeks afte",
-      "date": "03-07-2026 05:27 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Ransomware Thugs Masquerade as Interpol to Entice Small Biz",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-use-interpol-lure-target-small-businesses",
-      "summary": "The ransomware campaign relies on basic social engineering and stretches across multiple regions, including the US, Europe, Middle East, and elsewhere.",
-      "date": "03-07-2026 04:07 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Anthropic's AI Finds Bugs. IBM Bets $5B It Can Fix Them.",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-s-ai-finds-bugs-ibm-bets-5b-it-can-fix-them-",
-      "summary": "IBM and Red Hat assign 20,000 engineers to the new Project Lightwell service as Anthropic's Mythos findings ignite debate over how to secure the open source software supply chain.",
-      "date": "02-07-2026 10:33 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
     }
   ]
 }
