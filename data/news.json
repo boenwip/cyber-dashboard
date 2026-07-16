@@ -1,76 +1,101 @@
 {
-  "last_updated": "16-07-2026 11:50 AM",
-  "count": 58,
+  "last_updated": "16-07-2026 02:53 PM",
+  "count": 60,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Asia-Pacific executives hail AI's rapid business rise",
-      "link": "https://securitybrief.com.au/story/asia-pacific-executives-hail-ai-s-rapid-business-rise",
-      "summary": "AI is now embedded in reporting and operations across the region, but executives warn that governance, data sovereignty and shadow use lag behind.",
-      "date": "16-07-2026 11:30 AM",
+      "title": "Whatfix & JFrog split on enterprise AI trust & security",
+      "link": "https://securitybrief.com.au/story/whatfix-jfrog-split-on-enterprise-ai-trust-security",
+      "summary": "Enterprise AI adoption will hinge on trusted workflows and stronger security controls as vendors warn governance gaps could slow rollout.",
+      "date": "16-07-2026 01:30 PM",
       "tags": [
-        "Compliance"
+        "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "A/NZ tech leaders warn AI governance lags adoption",
-      "link": "https://securitybrief.com.au/story/a-nz-tech-leaders-warn-ai-governance-lags-adoption",
-      "summary": "Boards are rushing into AI deployments, but leaders say weak data governance and security gaps are now threatening trust and returns.",
-      "date": "16-07-2026 11:30 AM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Konica Minolta Australia named cloud print leader again",
-      "link": "https://securitybrief.com.au/story/konica-minolta-australia-named-cloud-print-leader-again",
-      "summary": "Cloud print is becoming a mainstream priority as most organisations balance rising costs, hybrid-work security risks and data-governance concerns.",
-      "date": "16-07-2026 11:08 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Google Cloud links Gemini Enterprise logs to BigQuery",
-      "link": "https://securitybrief.com.au/story/google-cloud-links-gemini-enterprise-logs-to-bigquery",
-      "summary": "The move could help IT teams track staff use, audit access and compliance risks across large Gemini Enterprise roll-outs without bespoke tools.",
-      "date": "16-07-2026 11:00 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
       "audience": [
         "Enterprise"
       ],
       "relevance": "Global"
     },
     {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Cybersecurity Across Disciplines: Why Every Profession Needs Cyber Capability",
+      "link": "https://australiancybersecuritymagazine.com.au/cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability/?utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability&utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability",
+      "summary": "By Faraz Khan During my international Fellowship on cybersecurity education, one lesson became increasingly clear: some of the most important cybersecurity decisions are made by people who do not work [...]",
+      "date": "16-07-2026 01:25 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
+    },
+    {
       "source": "Security Brief Australia",
-      "title": "Australian clinicians use AI to cut paperwork load",
-      "link": "https://securitybrief.com.au/story/australian-clinicians-use-ai-to-cut-paperwork-load",
-      "summary": "Paperwork is driving rapid adoption, with most Australian clinicians using AI daily and many doing so without formal guidance.",
-      "date": "16-07-2026 11:00 AM",
+      "title": "Bitdefender flags Windows bind links that blind EDR",
+      "link": "https://securitybrief.com.au/story/bitdefender-flags-windows-bind-links-that-blind-edr",
+      "summary": "Windows fleets could be left blind to malware once attackers gain admin rights, as Bitdefender says bind links can fool endpoint security tools.",
+      "date": "16-07-2026 12:50 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australia's tech leaders back Albanese's AI strategy",
+      "link": "https://securitybrief.com.au/story/australia-s-tech-leaders-back-albanese-s-ai-strategy",
+      "summary": "Executives said clearer rules could speed adoption, ease copyright disputes and help Australia turn AI into a commercial edge in mining and retail.",
+      "date": "16-07-2026 12:36 PM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Asia-Pacific firms warned over hidden AI risks at work",
+      "link": "https://securitybrief.com.au/story/asia-pacific-firms-warned-over-hidden-ai-risks-at-work",
+      "summary": "Most workers are using AI without approval, leaving Australian boards exposed to privacy breaches and unmanaged data flows.",
+      "date": "16-07-2026 12:30 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Macquarie to buy Sydney site for campus & data centre",
+      "link": "https://securitybrief.com.au/story/macquarie-to-buy-sydney-site-for-campus-data-centre",
+      "summary": "The Sydney project is set to add roughly 200 megawatts of capacity as demand from cloud and AI customers keeps rising.",
+      "date": "16-07-2026 12:12 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Tech leaders call for tighter AI governance & security",
+      "link": "https://securitybrief.com.au/story/tech-leaders-call-for-tighter-ai-governance-security",
+      "summary": "Rising AI costs and security gaps are pushing enterprises to tighten oversight as leaders demand clearer returns from deployments.",
+      "date": "16-07-2026 12:00 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Australian Cyber Security Magazine",
