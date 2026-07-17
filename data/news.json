@@ -1,7 +1,20 @@
 {
-  "last_updated": "17-07-2026 08:58 AM",
-  "count": 59,
+  "last_updated": "17-07-2026 10:06 AM",
+  "count": 58,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "GitLab 19.2 adds AI tools for security & workflows",
+      "link": "https://securitybrief.com.au/story/gitlab-19-2-adds-ai-tools-for-security-workflows",
+      "summary": "The update aims to cut review bottlenecks by auto-fixing vulnerable dependencies and surfacing code flaws scanners often miss.",
+      "date": "17-07-2026 09:50 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Australia leaders warn AI governance lags adoption",
@@ -73,19 +86,6 @@
         "Compliance"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "OpenAI unveils GPT-Red to harden GPT-5.6 against attacks",
-      "link": "https://securitybrief.com.au/story/openai-unveils-gpt-red-to-harden-gpt-5-6-against-attacks",
-      "summary": "The new safety model slashes prompt-injection risks in GPT-5.6, as OpenAI says it found flaws faster than human testers and then fed fixes back into production.",
-      "date": "17-07-2026 02:15 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -839,22 +839,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Aussies Face Reduced Cybercrime Risk, as Pressure Shifts to SMBs",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/aussies-face-reduced-cybercrime-risk-pressure-shifts-smbs",
-      "summary": "Improved institutional safeguards and stricter regulations have pushed the burdens of protection and risk reduction on to Australian businesses.",
-      "date": "03-07-2026 09:01 AM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
