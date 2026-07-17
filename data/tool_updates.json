@@ -1,5 +1,5 @@
 {
-  "last_updated": "17-07-2026 02:57 PM",
+  "last_updated": "17-07-2026 05:13 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.212",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/fork</code> now copies your conversation into a new background session (its own row in <code>claude agents</code>) while you keep working; the in-session subage",
-      "date": "17-07-2026 02:57 PM"
+      "date": "17-07-2026 05:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.211",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--forward-subagent-text</code> flag and <code>CLAUDE_CODE_FORWARD_SUBAGENT_TEXT</code> environment variable to include subagent text and thinking in stream",
-      "date": "17-07-2026 02:57 PM"
+      "date": "17-07-2026 05:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.210",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck</li>\n<li>Added a startup warning ",
-      "date": "17-07-2026 02:57 PM"
+      "date": "17-07-2026 05:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.209",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed /model and other dialogs being blocked in <code>claude agents</code> background sessions (reverts an overly broad guard)</li>\n</ul>",
-      "date": "17-07-2026 02:57 PM"
+      "date": "17-07-2026 05:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.208",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added screen reader mode: opt-in plain-text rendering for screen reader users. Run <code>claude --ax-screen-reader</code>, set CLAUDE_AX_SCREEN_READER=1, or add \"axScr",
-      "date": "17-07-2026 02:57 PM"
+      "date": "17-07-2026 05:13 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Flexes Its Muscles: Anthropic Launches Opus 4.8 with Superior Programming Capabilities and Unprecedented Honesty - \u0622\u064a-\u0641\u0648\u0646 \u0625\u0633\u0644\u0627\u0645",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVlEtYnYzWmFmN2xZclExeWZtdVhrZEgyQ015X0k4UklBUFo4S0JKdVpra1pINjh4eTlZMUNnNkliMURrNC16bTVTQ0V1SnY2SmdiWTRZLXMzV1M3MzhNVFJYcHdnTXZtLVd2VTBGMy05QUp5bUIxSjhyMnhmWmtzWWN6OGdSa3p3MTU4RHlkdkpmVEswZ2FaU0kxNXNXYzN1ZnJNZ3VkRlBWVU51d1VmaUcxMmxFMzJqLW1meTZ3NEJoYVpaUUJuaDI0NmFTUGprRTU1cHZmRnBIb21aR0lDTU0tVjMzWm1iNDhoUGk3SVdYY0xUc0pYanltTEJSZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxQVlEtYnYzWmFmN2xZclExeWZtdVhrZEgyQ015X0k4UklBUFo4S0JKdVpra1pINjh4eTlZMUNnNkliMURrNC16bTVTQ0V1SnY2SmdiWTRZLXMzV1M3MzhNVFJYcHdnTXZtLVd2VTBGMy",
+      "date": "15-07-2026 09:15 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -49,14 +57,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNjdHFzX1UwVlkzUVBPbEpzTFd0WWpKV1N0ak84S1NPVWFQdFNJcFMtWVNPbVd6YnhiTV9qcFZUcWVUMVFtcVk1SDI5ZXE0Vzk4bklaYUl0NXZ0aVhKY3hEQXE0MmhmV1QxRG9YYWhCem54NmRfOGFxcFQ1RFFnb01SbjhEeFE4S1RWQWlCMEVHTzMwQU14OWYzREY0VTcwekYwMUFDYUxYQzFQbGpHZTlpTjhCT0xrZkHSAb8BQVVfeXFMTlhMNmhOQnhBaXNxWmFpY2Ewc284V19tN0ZWV2lYZVJNRFF4aDhxSjdCOFRBS2twNzRpUFlWalhtVFI2ZDNUbUlrWUhFRkhXLTFFaXE2QnVLbU41Qkw3NVFFSjN0d2lRZUpteWZmMWdmN1Z3Qjl2c1JJRldmMHJXV05SUjh5RnhoYjNNTFQ0V3h4LW9wNzdXUk5qTWk2STVTZk9fRmwxQkNNMnBSWEgtcEVyRG52cmoybkhVa20xQzQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNjdHFzX1UwVlkzUVBPbEpzTFd0WWpKV1N0ak84S1NPVWFQdFNJcFMtWVNPbVd6YnhiTV9qcFZUcWVUMVFtcVk1SDI5ZXE0Vzk4bklaYUl0NXZ0aVhKY3hEQXE0MmhmV1QxRG9YYW",
       "date": "15-07-2026 04:01 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Claude Sonnet 5 vs Sonnet 4.6 vs Opus 4.8: Agentic Coding Benchmarks, API Pricing, and Cost-Performance Tradeoffs Compared - MarkTechPost",
-      "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUzFseXVOVVdlSnNtcFhVbnNhOGtSVHFDdDFkb25iZEw1Z2FTTWFzY3JXTXNVVWZVNHJDSjJHcUc4Nk1BYnFzVzhOSjhJeGMtNmp6R2dkMlpwTFJ0Z3ZjY1MyX0hHQ2s1TnRoZjBHbml6LXpTTUZlU1RCc3RxOERtYTJDZmFsczJJOWotelZGSHhGVnF1UlctU09hSHFIVG1uaVRpNG1aT0FKSFlWX0pMM25YSlh1M1ZXY3hMbjY1VVNfbkluYmxtQ3hFWC1mV21aQmJEWVFteXg1MDJDSEdfT1NtLUkzUEdpMU10ZzFGbm9QYTJ2OEZhQS1BYTl0MUE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxOUzFseXVOVVdlSnNtcFhVbnNhOGtSVHFDdDFkb25iZEw1Z2FTTWFzY3JXTXNVVWZVNHJDSjJHcUc4Nk1BYnFzVzhOSjhJeGMtNmp6R2dkMlpwTFJ0Z3ZjY1MyX0hHQ2s1TnRoZjBHbm",
-      "date": "14-07-2026 10:58 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -99,14 +99,6 @@
       "date": "10-07-2026 04:01 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT is now a partner for your most ambitious work - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ",
-      "date": "10-07-2026 03:08 AM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Desktop Update",
@@ -133,6 +125,22 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Anthropic finally, officially launches Claude Sonnet 5 - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1hVTNmV3ExUXk0eGtBV2FYaXhpVEtqQ0pjWEJOSVJQdmUwdzRFc0pza05KSDVaYmJPLU9jRUtmc2VOVXBodnoybjNiTkpDaHNwWVVnMV9LRU9sc001RG4ydW9JV0QzbW5zWW8zag?oc=",
+      "date": "01-07-2026 05:50 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI\u2019s personal finance features for ChatGPT expands to more customers - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TDdURkdrUzJIWlVKTE0yNmpFdEYtYi1wN1BMY0tuakl3T1hvanNPOGVxYzAxenYtVkJmb3c4TTVicw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOLTRTN2dra0Q2V1hHUmxZNmdUNGFCUW9zRnlMSkVHTTFwb1d1czhjWG1BRExjNi1tb3ZaOGNkN2Ywd1BkTUU2ZHhCUlpmU0VZam1vMzRIYVZrMmNXbGl2a0Y3RDVnNDJhbTF0RGp4TD",
+      "date": "30-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Introducing Claude Sonnet 5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
@@ -155,14 +163,6 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
-      "date": "18-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
@@ -179,12 +179,12 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 05:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5\" target=\"_blank\">",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
