@@ -1,5 +1,5 @@
 {
-  "last_updated": "17-07-2026 12:48 PM",
+  "last_updated": "17-07-2026 02:57 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.212",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/fork</code> now copies your conversation into a new background session (its own row in <code>claude agents</code>) while you keep working; the in-session subage",
-      "date": "17-07-2026 12:48 PM"
+      "date": "17-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.211",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--forward-subagent-text</code> flag and <code>CLAUDE_CODE_FORWARD_SUBAGENT_TEXT</code> environment variable to include subagent text and thinking in stream",
-      "date": "17-07-2026 12:48 PM"
+      "date": "17-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.210",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck</li>\n<li>Added a startup warning ",
-      "date": "17-07-2026 12:48 PM"
+      "date": "17-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.209",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed /model and other dialogs being blocked in <code>claude agents</code> background sessions (reverts an overly broad guard)</li>\n</ul>",
-      "date": "17-07-2026 12:48 PM"
+      "date": "17-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.208",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.208",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added screen reader mode: opt-in plain-text rendering for screen reader users. Run <code>claude --ax-screen-reader</code>, set CLAUDE_AX_SCREEN_READER=1, or add \"axScr",
-      "date": "17-07-2026 12:48 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s updated AI-powered coding tools suite now in PHL - BusinessWorld Online",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdFp1V083S1g1UTZuN2dqTHVpdnJzSS00d2tkRTVHMk1oUkVfR0dGS0VVYWRWWEh4Y0FzclpjS2sxZ0xIamFvcVJMVGE3cHJBM1VNVU1HUXpINGtOQmVKNmd4cE9jSnBzR2lBZnRVX3EwZXNyNnBaVGpwa29ISk01MW41NUs5V3dibGhRNHlGMG4taEUwSlVEODBOWFR5bWtwRm14Y2VoZjZ2cEgzLVhn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxOdFp1V083S1g1UTZuN2dqTHVpdnJzSS00d2tkRTVHMk1oUkVfR0dGS0VVYWRWWEh4Y0FzclpjS2sxZ0xIamFvcVJMVGE3cHJBM1VNVU1HUXpINGtOQmVKNmd4cE9jSnBzR2lBZnRVX3",
-      "date": "16-07-2026 02:04 AM"
+      "date": "17-07-2026 02:57 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -115,14 +107,6 @@
       "date": "10-07-2026 03:08 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI unveils ChatGPT Work agent, GPT-5.6 models now available - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQV285bnM3dGNiLVJUNFQ1N3Q5UXFpeDJkMjlfNUNDQ0xkNjJvZTl6dWtTTGM1aWhuQzlMaWdiakFVTXpsVHgyRll4Rm1MRkpYeUhXV01wb0x3RDBRdlIwZzRVTUdIVEl3VDBKb1lKNzdoaENtM2FXWG1qOFRUeEJ2SXVuaUZ3UTFGbnNmaHZ2aUVHQVR0ZTNpYjk3Yw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxQV285bnM3dGNiLVJUNFQ1N3Q5UXFpeDJkMjlfNUNDQ0xkNjJvZTl6dWtTTGM1aWhuQzlMaWdiakFVTXpsVHgyRll4Rm1MRkpYeUhXV01wb0x3RDBRdlIwZzRVTUdIVEl3VDBKb1lKNz",
-      "date": "10-07-2026 02:45 AM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Desktop Update",
@@ -171,6 +155,14 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
+      "date": "18-06-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
@@ -181,7 +173,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "15-06-2026 05:00 PM"
@@ -233,6 +225,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
       "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
       "date": "29-05-2026 05:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
