@@ -1,5 +1,5 @@
 {
-  "last_updated": "18-07-2026 12:39 PM",
+  "last_updated": "18-07-2026 07:28 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.214",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed single-segment <code>dir/**</code> allow rules like <code>Edit(src/**)</code> auto-approving writes to nested <code>dir/</code> directories anywhere in the tree ",
-      "date": "18-07-2026 12:39 PM"
+      "date": "18-07-2026 07:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.212",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/fork</code> now copies your conversation into a new background session (its own row in <code>claude agents</code>) while you keep working; the in-session subage",
-      "date": "18-07-2026 12:39 PM"
+      "date": "18-07-2026 07:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.211",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>--forward-subagent-text</code> flag and <code>CLAUDE_CODE_FORWARD_SUBAGENT_TEXT</code> environment variable to include subagent text and thinking in stream",
-      "date": "18-07-2026 12:39 PM"
+      "date": "18-07-2026 07:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.210",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.210",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added a live elapsed-time counter to the collapsed tool summary line so long-running tool calls visibly tick instead of looking stuck</li>\n<li>Added a startup warning ",
-      "date": "18-07-2026 12:39 PM"
+      "date": "18-07-2026 07:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.209",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.209",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed /model and other dialogs being blocked in <code>claude agents</code> background sessions (reverts an overly broad guard)</li>\n</ul>",
-      "date": "18-07-2026 12:39 PM"
+      "date": "18-07-2026 07:28 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -65,14 +65,6 @@
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNjdHFzX1UwVlkzUVBPbEpzTFd0WWpKV1N0ak84S1NPVWFQdFNJcFMtWVNPbVd6YnhiTV9qcFZUcWVUMVFtcVk1SDI5ZXE0Vzk4bklaYUl0NXZ0aVhKY3hEQXE0MmhmV1QxRG9YYWhCem54NmRfOGFxcFQ1RFFnb01SbjhEeFE4S1RWQWlCMEVHTzMwQU14OWYzREY0VTcwekYwMUFDYUxYQzFQbGpHZTlpTjhCT0xrZkHSAb8BQVVfeXFMTlhMNmhOQnhBaXNxWmFpY2Ewc284V19tN0ZWV2lYZVJNRFF4aDhxSjdCOFRBS2twNzRpUFlWalhtVFI2ZDNUbUlrWUhFRkhXLTFFaXE2QnVLbU41Qkw3NVFFSjN0d2lRZUpteWZmMWdmN1Z3Qjl2c1JJRldmMHJXV05SUjh5RnhoYjNNTFQ0V3h4LW9wNzdXUk5qTWk2STVTZk9fRmwxQkNNMnBSWEgtcEVyRG52cmoybkhVa20xQzQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxQYTNjdHFzX1UwVlkzUVBPbEpzTFd0WWpKV1N0ak84S1NPVWFQdFNJcFMtWVNPbVd6YnhiTV9qcFZUcWVUMVFtcVk1SDI5ZXE0Vzk4bklaYUl0NXZ0aVhKY3hEQXE0MmhmV1QxRG9YYW",
       "date": "15-07-2026 04:01 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "How Claude's values vary by model and language - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE42R0NZbVlVSHl5WnhDQkFkTkVnN2pSMW5RQ3cxUDJNVWl4cVp3U1VFNVg0OVpzUmpjcnZ0aTN6WXIwY2YtaVdodENnSmdjanJMY21LM0ItOURxSFhsQ185UmdjejNzQTNRMDZiZUJpSjEwdVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE42R0NZbVlVSHl5WnhDQkFkTkVnN2pSMW5RQ3cxUDJNVWl4cVp3U1VFNVg0OVpzUmpjcnZ0aTN6WXIwY2YtaVdodENnSmdjanJMY21LM0ItOURxSFhsQ185UmdjejNzQTNRMDZiZUJpSj",
-      "date": "14-07-2026 03:25 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -139,6 +131,14 @@
       "date": "01-07-2026 09:38 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Sonnet 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
+      "date": "30-06-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
@@ -153,6 +153,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "I'm excited about ChatGPT's memory upgrade - but I'm quickly seeing a downside - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRGZGcHB3VlJvSU9nLV9XNjFaUkxxT0xWd29GY2c?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd21rT193MlZoNktpSkp5a0lnLUJVcnFSRmFVdzhCbk5yb0FYREZiOXNyUVNLZ29GOUhtS3dDSzBuQ0hPRzJ3SmlQZVRMd0ZHUXVHVU1IZ3NnbUVCNVZEOFJNVTA1M0dibGVRVnpLRG",
+      "date": "18-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -227,14 +235,6 @@
       "date": "29-05-2026 05:00 AM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
-      "date": "28-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
@@ -243,20 +243,20 @@
       "date": "14-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI releases GPT-5.5 Instant, a new default model for ChatGPT - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241MExzSU9oeDRPTlVobEpUSnNrb09OQkZzTGo0UVhFQ1dLQVFVS09mZlpFeURIWEJ2dkk?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmdrS2FJU0s3NDdOSDZ3T0Q0Ny1JUzdzUXllNWlUblhZVnBMWklVZlpTMTRJci1QX1JRSnNSVWtkSjVGcFQxRkczcE92VFZfY3I3RkZsbjBGQkE0YzlkSnE1TnpCUVVwVVc4X241ME",
-      "date": "05-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
       "date": "22-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out AI 2.0 with new conversational interface, integrated creative workflows - marketech apac",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQzZ2eWIzZFhjSWFMVkFqaTFrdEEtdTNxYkhiZy1GMHhhVVJCRTBWUkFlNG5sY3NGVEhtSE1zcktCMTRRR0RsOTk5UkRyYXc?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPNUNnQll3a3RLN293b0RyajdaQjljVlBhRWlJQlhRQ2gtMm1yWTJVblpMcXRMUDU4X0tuc25jcDQ3SUNVcXpzeVljQWJsdDEzbVFBOTVPV2x5YnlwRDJCTHBMaU9yc0RLSW1DNW4wQz",
+      "date": "20-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
