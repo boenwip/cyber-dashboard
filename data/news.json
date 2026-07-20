@@ -1,7 +1,87 @@
 {
-  "last_updated": "20-07-2026 06:43 PM",
-  "count": 59,
+  "last_updated": "21-07-2026 07:57 AM",
+  "count": 60,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+      "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
+      "date": "21-07-2026 07:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
+      "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
+      "summary": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages; but cost and human-in-the-loop viability remain open questions.",
+      "date": "21-07-2026 06:26 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "CISOs Feel the Heat Over AI Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
+      "summary": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+      "date": "21-07-2026 05:07 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "date": "21-07-2026 04:30 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Recast bundles endpoint management & patching tools",
+      "link": "https://securitybrief.com.au/story/recast-bundles-endpoint-management-patching-tools",
+      "summary": "Rising vulnerability volumes are pushing IT teams to treat patching as a constant task, and not a periodic maintenance job.",
+      "date": "21-07-2026 01:15 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "BRG appoints Avram Lum to cyber practice in Sydney",
+      "link": "https://securitybrief.com.au/story/brg-appoints-avram-lum-to-cyber-practice-in-sydney",
+      "summary": "His arrival strengthens BRG's Australian cyber offering as demand rises for breach response and cross-border investigations across Asia-Pacific.",
+      "date": "20-07-2026 06:31 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "FPT launches MediSight AI framework for healthcare",
@@ -89,32 +169,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Australians turn to AI for money advice, survey finds",
-      "link": "https://securitybrief.com.au/story/australians-turn-to-ai-for-money-advice-survey-finds",
-      "summary": "Trust remains a hurdle as younger Australians increasingly use AI to research investments, superannuation and retirement planning, a survey shows.",
-      "date": "20-07-2026 03:41 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Orro launches managed secure browser service in Australia",
-      "link": "https://securitybrief.com.au/story/orro-launches-managed-secure-browser-service-in-australia",
-      "summary": "Browser security gaps are exposing Australian firms to data leaks as staff copy, upload and share information in everyday work tabs.",
-      "date": "20-07-2026 03:41 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
       "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
@@ -144,7 +198,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Gold Eagle Clearinghouse Targets Security Gap, but How Is Unclear",
+      "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
       "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
       "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
       "date": "17-07-2026 11:00 PM",
@@ -801,48 +855,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'BusySnake' Infostealer Slithers Into Critical Infrastructure Networks",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/busysnake-infostealer-critical-infrastructure-networks",
-      "summary": "A threat group researchers call \"Armored Likho\" has gained access to government agencies and electrical power entities in Russia, Brazil, and Kazakhstan.",
-      "date": "07-07-2026 07:37 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "CitrixBleed-ing Again? NetScaler Vulnerability Under Attack",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/citrixbleed-ing-again-netscaler-vulnerability-under-attack",
-      "summary": "Attackers wasted little time targeting the latest memory disclosure flaw in Citrix's NetScaler products, after researchers published a proof-of-concept exploit (PoC).",
-      "date": "07-07-2026 07:17 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "JadePuffer: The First Complete LLM-Driven Ransomware Attack",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/jadepuffer-first-complete-llm-driven-ransomware-attack",
-      "summary": "An \"agentic threat actor\" successfully exploited a Langflow flaw to steal data from a production database server and encrypt other systems.",
-      "date": "07-07-2026 02:36 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Critical",
       "audience": [],
       "relevance": "Global"
     }
