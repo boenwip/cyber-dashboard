@@ -1,7 +1,51 @@
 {
-  "last_updated": "21-07-2026 08:17 PM",
+  "last_updated": "22-07-2026 08:01 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-60137",
+      "description": "WordPress Core \u2014 WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
+      "vendor": "WordPress",
+      "product": "Core",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-63030",
+      "description": "WordPress Core \u2014 WordPress Core contains an interpretation conflict vulnerability that could allow an attacker to perform SQL Injection and achieve Remote Code Execution. This vulnerability can be chained with CVE-202",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63030",
+      "vendor": "WordPress",
+      "product": "Core",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-0770",
+      "description": "Langflow Langflow \u2014 Langflow contains an inclusion of functionality from untrusted control sphere vulnerability that allows remote attackers to execute arbitrary code on affected installations. ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0770",
+      "vendor": "Langflow",
+      "product": "Langflow",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2021-27137",
+      "description": "DD-WRT DD-WRT \u2014 DD-WRT contains a stack-based buffer overflow vulnerability that could allow an unauthenticated attacker to overflow an internal buffer used by UPnP and trigger a code execution vulnerability.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-27137",
+      "vendor": "DD-WRT",
+      "product": "DD-WRT",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-58644",
       "description": "Microsoft SharePoint \u2014 Microsoft SharePoint contains a deserialization of untrusted data vulnerability that allows an unauthorized attacker to execute code over a network.",
@@ -66,50 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
       "vendor": "Microsoft",
       "product": "Active Directory Federation Services",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-56164",
-      "description": "Microsoft SharePoint Server \u2014 Microsoft SharePoint contains a missing authentication for critical function vulnerability that allows an unauthorized attacker to elevate privileges over a network.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-14",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56164",
-      "vendor": "Microsoft",
-      "product": "SharePoint Server",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-15409",
-      "description": "SonicWall SMA1000 Appliances \u2014 SonicWall SMA1000 Appliances contain a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to potentially cause the appliance to make requests to unintended lo",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-14",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15409",
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-15410",
-      "description": "SonicWall SMA1000 Appliances \u2014 SonicWall SMA1000 Appliances contain a code injection vulnerability which in specific conditions could potentially enable a remote authenticated attacker as administrator to execute arbitrary OS comma",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-14",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-15410",
-      "vendor": "SonicWall",
-      "product": "SMA1000 Appliances",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2008-4128",
-      "description": "Cisco IOS \u2014 Cisco IOS 12.4 contains multiple cross-site forgery vulnerabilities that allows remote attackers to execute arbitrary commands via (1) a certain \"show privilege\" command to the /level/15/exec/- URI, a",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-13",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2008-4128",
-      "vendor": "Cisco",
-      "product": "IOS",
       "ransomware": "Unknown"
     }
   ]
