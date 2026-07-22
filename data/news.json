@@ -1,7 +1,101 @@
 {
-  "last_updated": "22-07-2026 10:01 AM",
-  "count": 61,
+  "last_updated": "22-07-2026 11:51 AM",
+  "count": 64,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Macquarie Government launches Azure practice for agencies",
+      "link": "https://securitybrief.com.au/story/macquarie-government-launches-azure-practice-for-agencies",
+      "summary": "Australian agencies can now tap managed Azure services as Macquarie Government broadens its cloud offer amid pressure to modernise securely and cut costs.",
+      "date": "22-07-2026 11:47 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "RFID testing system lifts yield at Australian coal mines",
+      "link": "https://securitybrief.com.au/story/rfid-testing-system-lifts-yield-at-australian-coal-mines",
+      "summary": "Australian coal producers using the RFID system have seen average yield gains of 6%, while lab turnaround has shrunk from weeks to minutes.",
+      "date": "22-07-2026 11:42 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cisco launches Antares AI models for code flaw pinpointing",
+      "link": "https://securitybrief.com.au/story/cisco-launches-antares-ai-models-for-code-flaw-pinpointing",
+      "summary": "Security teams could cut hours from patching work as open-weight Antares models narrow flaws to the relevant code segment.",
+      "date": "22-07-2026 11:40 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ubuntu snap-confine flaw can give attackers root access",
+      "link": "https://securitybrief.com.au/story/ubuntu-snap-confine-flaw-can-give-attackers-root-access",
+      "summary": "A race condition in Ubuntu's snap-confine could let a local user seize root on default desktop installs, prompting urgent patching.",
+      "date": "22-07-2026 11:25 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Denodo 9.5 adds metric views for AI data governance",
+      "link": "https://securitybrief.com.au/story/denodo-9-5-adds-metric-views-for-ai-data-governance",
+      "summary": "Metric views and a broader knowledge graph aim to keep AI tools, dashboards and business users aligned on trusted data definitions.",
+      "date": "22-07-2026 11:15 AM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike warns of malware targeting AI coding tools",
+      "link": "https://securitybrief.com.au/story/crowdstrike-warns-of-malware-targeting-ai-coding-tools",
+      "summary": "Developers using AI assistants could face stolen credentials and poisoned repositories as the worm hides inside normal coding workflows.",
+      "date": "22-07-2026 11:14 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "2026 holiday predictions: The evolving customer journey",
+      "link": "https://securitybrief.com.au/story/2026-holiday-predictions-the-evolving-customer-journey",
+      "summary": "Rising fraud, shipping costs and AI-driven shopping are set to squeeze retailers' margins this holiday season unless customer data improves.",
+      "date": "22-07-2026 11:00 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "KnowBe4 launches AI video builder for ANZ training",
@@ -48,21 +142,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "ATO tax debts lift insolvency risk for Australian firms",
-      "link": "https://securitybrief.com.au/story/ato-tax-debts-lift-insolvency-risk-for-australian-firms",
-      "summary": "More than 35,000 Australian businesses now face heightened failure risk as ATO debts above AUD $100,000 coincide with rising defaults.",
-      "date": "22-07-2026 09:25 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Macquarie Government launches Microsoft Azure practice for state and federal agencies",
       "link": "https://australiancybersecuritymagazine.com.au/macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies/?utm_source=rss&utm_medium=rss&utm_campaign=macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies&utm_source=rss&utm_medium=rss&utm_campaign=macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies",
@@ -73,34 +152,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia, New Zealand D2D connections to top 1.5m",
-      "link": "https://securitybrief.com.au/story/australia-new-zealand-d2d-connections-to-top-1-5m",
-      "summary": "Remote users and field workers in Australia and New Zealand are set to drive low-earth orbit satellite mobile connections past 1.5 million by 2027.",
-      "date": "22-07-2026 08:53 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SCX.ai launches AUD $40m ASX float for AI infrastructure",
-      "link": "https://securitybrief.com.au/story/scx-ai-launches-aud-40m-asx-float-for-ai-infrastructure",
-      "summary": "The Australian AI infrastructure provider is betting on onshore data control as it seeks AUD $40 million from investors in a fully underwritten float.",
-      "date": "22-07-2026 08:52 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
       "relevance": "AU General"
     },
     {
@@ -851,24 +902,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Telstra mobile outage disrupts services across Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/telstra-mobile-outage-disrupts-services-across-australia/?utm_source=rss&utm_medium=rss&utm_campaign=telstra-mobile-outage-disrupts-services-across-australia&utm_source=rss&utm_medium=rss&utm_campaign=telstra-mobile-outage-disrupts-services-across-australia",
-      "summary": "A major outage on Telstra&#8217;s mobile network has disrupted voice and data services across Australia, affecting millions of customers, businesses, transport operators and organisations that rely on Australia&#8217;s largest telecommunications [...]",
-      "date": "08-07-2026 10:51 AM",
-      "tags": [
-        "AU Cyber",
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra",
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
