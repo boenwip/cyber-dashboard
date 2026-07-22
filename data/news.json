@@ -1,7 +1,76 @@
 {
-  "last_updated": "22-07-2026 11:51 AM",
-  "count": 64,
+  "last_updated": "22-07-2026 03:12 PM",
+  "count": 63,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "URSYS launches secure Layer 2 Starlink for remote sites",
+      "link": "https://securitybrief.com.au/story/ursys-launches-secure-layer-2-starlink-for-remote-sites",
+      "summary": "Remote Australian operators can now keep Starlink traffic off the public internet, easing security concerns for critical systems and SCADA links.",
+      "date": "22-07-2026 02:56 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Acronis says frontier AI is speeding cyber attacks",
+      "link": "https://securitybrief.com.au/story/acronis-says-frontier-ai-is-speeding-cyber-attacks",
+      "summary": "Frontier AI is lowering the bar for cybercrime, with attackers using it to scale phishing, malware and reconnaissance more quickly.",
+      "date": "22-07-2026 01:00 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Macquarie launches Azure cloud practice for government",
+      "link": "https://securitybrief.com.au/story/macquarie-launches-azure-cloud-practice-for-government",
+      "summary": "Australian agencies can now access a sovereign Azure option as Macquarie Government adds public cloud and AI services under tighter security rules.",
+      "date": "22-07-2026 01:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Check Point CTO on AI's double-edged sword",
+      "link": "https://securitybrief.com.au/story/check-point-cto-on-ai-s-double-edged-sword",
+      "summary": "AI is shrinking the gap between vulnerability disclosure and real-world exploitation to hours, forcing security teams to adapt fast.",
+      "date": "22-07-2026 12:56 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google launches CodeMender to scan & fix vulnerabilities",
+      "link": "https://securitybrief.com.au/story/google-launches-codemender-to-scan-fix-vulnerabilities",
+      "summary": "Developers may get patched code faster as Google's preview agent scans repositories, tests exploits and drafts fixes for review.",
+      "date": "22-07-2026 12:45 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Macquarie Government launches Azure practice for agencies",
@@ -53,93 +122,6 @@
       "threat": "High",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Denodo 9.5 adds metric views for AI data governance",
-      "link": "https://securitybrief.com.au/story/denodo-9-5-adds-metric-views-for-ai-data-governance",
-      "summary": "Metric views and a broader knowledge graph aim to keep AI tools, dashboards and business users aligned on trusted data definitions.",
-      "date": "22-07-2026 11:15 AM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike warns of malware targeting AI coding tools",
-      "link": "https://securitybrief.com.au/story/crowdstrike-warns-of-malware-targeting-ai-coding-tools",
-      "summary": "Developers using AI assistants could face stolen credentials and poisoned repositories as the worm hides inside normal coding workflows.",
-      "date": "22-07-2026 11:14 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "2026 holiday predictions: The evolving customer journey",
-      "link": "https://securitybrief.com.au/story/2026-holiday-predictions-the-evolving-customer-journey",
-      "summary": "Rising fraud, shipping costs and AI-driven shopping are set to squeeze retailers' margins this holiday season unless customer data improves.",
-      "date": "22-07-2026 11:00 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "KnowBe4 launches AI video builder for ANZ training",
-      "link": "https://securitybrief.com.au/story/knowbe4-launches-ai-video-builder-for-anz-training",
-      "summary": "The new tool lets security teams in Australia and New Zealand update phishing training faster as AI-driven attacks become more personalised.",
-      "date": "22-07-2026 09:47 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Lampion malware campaign targets users in Portugal",
-      "link": "https://securitybrief.com.au/story/lampion-malware-campaign-targets-users-in-portugal",
-      "summary": "Acronis said 94.6% of detections were in Portugal as the banking trojan used phishing lures and layered evasion to infect victims.",
-      "date": "22-07-2026 09:30 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Professor Iain Murray named WA tech achiever of year",
-      "link": "https://securitybrief.com.au/story/professor-iain-murray-named-wa-tech-achiever-of-year",
-      "summary": "A blind employment pathway he founded has helped lift job prospects for graduates, as Professor Iain Murray won Western Australia's top tech honour.",
-      "date": "22-07-2026 09:30 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",

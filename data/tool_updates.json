@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-07-2026 11:51 AM",
+  "last_updated": "22-07-2026 03:12 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "22-07-2026 11:51 AM"
+      "date": "22-07-2026 03:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "22-07-2026 11:51 AM"
+      "date": "22-07-2026 03:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.215",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude no longer runs the <code>/verify</code> and <code>/code-review</code> skills on its own; invoke them with <code>/verify</code> or <code>/code-review</code> when",
-      "date": "22-07-2026 11:51 AM"
+      "date": "22-07-2026 03:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.214",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed single-segment <code>dir/**</code> allow rules like <code>Edit(src/**)</code> auto-approving writes to nested <code>dir/</code> directories anywhere in the tree ",
-      "date": "22-07-2026 11:51 AM"
+      "date": "22-07-2026 03:12 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.212",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li><code>/fork</code> now copies your conversation into a new background session (its own row in <code>claude agents</code>) while you keep working; the in-session subage",
-      "date": "22-07-2026 11:51 AM"
+      "date": "22-07-2026 03:12 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "The Fed rang the alarm about Anthropic's Mythos AI model \u2014 but had to go months without it - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOejZuVHE3NHBKYnY4N0VFS0U3M3JXd3pQeEJBemUyQ21BRTF6U3Vvc2JWVXdQQkdlUDVPYnN0OUZJRnpUNVh4NkhTUTRNT3NyTlhwaTJ1YmpBcm1PSUF5MUZhNjU0SnlLZ3VwdWR4X1MzalF1UDRjcWszR0daUmVtV01ibDQ1MWxBaVFfTWhJWmVpZ9IBlwFBVV95cUxPSmNOa05qbkpGTjB1YkFBZE5rNEZaMFcteW81SlRldGFvckpHRE0tdVI3RHlEa1FSWDVFSnRNbnNLSTBjQlRJSWpJZTZOSEhwU09lb1paM051X2k3ZzcyWXNPYTRrai1tRHdFSndVbS15MUlVWXNFQWtFZGNwM0ZIUVcxTmdPNUVWY2FrS0RWajJucGpDSk9v?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOejZuVHE3NHBKYnY4N0VFS0U3M3JXd3pQeEJBemUyQ21BRTF6U3Vvc2JWVXdQQkdlUDVPYnN0OUZJRnpUNVh4NkhTUTRNT3NyTlhwaTJ1YmpBcm1PSUF5MUZhNjU0SnlLZ3VwdWR4X1",
+      "date": "22-07-2026 08:05 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,6 +123,14 @@
       "date": "10-07-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Using Office 365 on an Older Mac or iPhone? Say Goodbye to Editing Features Next Week - CNET",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORFpGUjZEa095R3djMGZ1MW9NVUtkVnRhU1A3bEdNTElOT3pKWGctb1RGNzgtUEx3ZVk5QlphbEphbTZIeHFXdHlZWFc4a3pINUptX0w5OGZNYngxanZHWFRadkpPMUNwazNaTVhZQWR6WXZQWHI5NW5mT2hzMHpMM3J3dHk1LWlCaVlOMk1jX1h1ZXJINmxab05jZ3BuWmZ6LU5qOWp3eFFDQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxORFpGUjZEa095R3djMGZ1MW9NVUtkVnRhU1A3bEdNTElOT3pKWGctb1RGNzgtUEx3ZVk5QlphbEphbTZIeHFXdHlZWFc4a3pINUptX0w5OGZNYngxanZHWFRadkpPMUNwazNaTVhZQW",
+      "date": "06-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Introducing Claude Sonnet 5 - Anthropic",
@@ -153,22 +169,6 @@
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know - Ubergizmo",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdn",
-      "date": "10-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
