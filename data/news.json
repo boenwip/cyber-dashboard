@@ -1,7 +1,79 @@
 {
-  "last_updated": "22-07-2026 08:16 PM",
-  "count": 63,
+  "last_updated": "23-07-2026 08:01 AM",
+  "count": 59,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Are Learning to Live Off the AI Toolchain",
+      "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+      "summary": "Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.",
+      "date": "23-07-2026 07:29 AM",
+      "tags": [
+        "AU Cyber",
+        "Education",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+      "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+      "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
+      "date": "23-07-2026 05:42 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
+      "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
+      "summary": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
+      "date": "23-07-2026 01:53 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI & Hugging Face probe AI cyber security incident",
+      "link": "https://securitybrief.com.au/story/openai-hugging-face-probe-ai-cyber-security-incident",
+      "summary": "The episode has sharpened concerns that advanced AI systems can uncover and exploit real-world security flaws during testing, even in restricted environments.",
+      "date": "23-07-2026 01:15 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "EU Financial Institutions Leak Data Through Cookie Trackers",
+      "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers",
+      "summary": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+      "date": "22-07-2026 09:30 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Expel warns of cyber gang targeting certificate trust",
@@ -13,6 +85,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxQaUpDdUlaeGhYdU9jeW5TYlF6STltSGFyd3llb21BQ3ZwQWkxOUExMnlwVDdabVdSakVkMlJKMVVhSHRFa3BxcVBzX3l0TER4anJLYi0yUmhmNV93dF85WGVudm13X19ZbGJZWlBxcllwVVRnYXNTNWpQbWdKYUNkV1JsNVdEcmN5N3ktMHlESW95Q3J4LWN0QWY1UWllOHFPUndVVEU0M3dYOHhIazJqb2FLbXRRNFlGQXR3eENpMHRWNHFDU3B5ZVQ3NC1UVmItNjJ6bngxQU9yS0w4WHFMZ3Z2ampwQ0dKWDJXdDNScXlNZW8zaGtfQkk5Y2hUa2NvSnd3VC04VC1zVDRqTVp4aFNXSkE0c1BQZDF2LWZFMXdDX3B3WHRiaXlVNlpCam40QWRCSVdaUFdHTzY1M0hOWUZTUkx6TDVUSW16QTJ6YVh2bzNmSmNSaWNCS0FXSjA?oc=5",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "date": "22-07-2026 05:16 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -75,46 +163,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Acronis says frontier AI is speeding cyber attacks",
-      "link": "https://securitybrief.com.au/story/acronis-says-frontier-ai-is-speeding-cyber-attacks",
-      "summary": "Frontier AI is lowering the bar for cybercrime, with attackers using it to scale phishing, malware and reconnaissance more quickly.",
-      "date": "22-07-2026 01:00 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Macquarie launches Azure cloud practice for government",
-      "link": "https://securitybrief.com.au/story/macquarie-launches-azure-cloud-practice-for-government",
-      "summary": "Australian agencies can now access a sovereign Azure option as Macquarie Government adds public cloud and AI services under tighter security rules.",
-      "date": "22-07-2026 01:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point CTO on AI's double-edged sword",
-      "link": "https://securitybrief.com.au/story/check-point-cto-on-ai-s-double-edged-sword",
-      "summary": "AI is shrinking the gap between vulnerability disclosure and real-world exploitation to hours, forcing security teams to adapt fast.",
-      "date": "22-07-2026 12:56 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Macquarie Government launches Microsoft Azure practice for state and federal agencies",
       "link": "https://australiancybersecuritymagazine.com.au/macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies/?utm_source=rss&utm_medium=rss&utm_campaign=macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies&utm_source=rss&utm_medium=rss&utm_campaign=macquarie-government-launches-microsoft-azure-practice-for-state-and-federal-agencies",
@@ -129,7 +177,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Ransomware Is Accelerating, But It's Not Because of AI",
+      "title": "Ransomware Is Accelerating, but It's Not Because of AI",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
       "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
       "date": "22-07-2026 07:48 AM",
@@ -293,6 +341,22 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaHVILUJMc0pHSFhGWUxFZ0JGaGtyWUtnaVpxUDRrNHgzMkRzM210MlZGSFdJbkVZM0NIci1jUWxhWDVTMHZ1MnB3cTJVYWluY1RLU3lHNU1oYVJ3V2dWLXI5bTRWbVJoRXlfS3RYWEU5aHNGb09kdFBoVTRrM2ZreUtRdkVHcjUxV3diNVdZMkZGZkN2YWEzbS1pZkhZLUFFNXFNY2tJeTNTQTlLTTlTRVl1a2QtcVpjRENmNmFfdkxKWTFTSWszaGxLMElra2VDQnd5dnVxSFhtZmhKcVV2Y1RUeFlmQTNrLTJ2aQ?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "20-07-2026 04:49 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
       "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
@@ -380,22 +444,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxNOFNlYVFyNHZVcDJ3WnVqSnRXR1JHV2EtSTVtcjFBRXJfbjZHaDg4TVhVUzdkdFBlTmhqdUZjQThPbzlFam9SaVdJamVCak5KTGNMYjF1RGZHdE5HdmN2NVJUXzBXdENtRDFXbFpndTF6eVo0VUdVUXJxOHZZclN2VFFyXzhSWFBNOVN3M3NsUFRaemZveXp3eDdsamNvMWVIU1ZfbjItY19DX1ZzQU9QbFl0VHdYaFNoRTJQS0hlcVdfaEl1YXRUdXJpb1M2TzdhUHBWVFY1MXBOYURFa2VnVGY0aHVuTUNQSEVnM2pUV2E4ZDZRZWw3NXJFUVZBN21Ed3p0Z2hZeWowM01mUkZHYUZPTDB6YTJaTXBvSUtVbUFjdzNnSloxbTRrSVZXajFxcGJlN2wyejdENzVWZjdpTjgzaHdhanlpODM1Yi1yZHpuNE1qd2hYMlB1blY?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "16-07-2026 07:38 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Police Disrupt a \u20ac140M Cyber Fraud Ring in Spain",
       "link": "https://www.darkreading.com/threat-intelligence/police-disrupt-140m-euro-cyber-fraud-ring-spain",
@@ -422,22 +470,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Sector"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxNWGJIVmc1MzlLNzdTd0w1REVXYjNSUEdsRGFLVFN2cW9CVVBlRVpWWDdNVHYtczVUd000RFQtY2Vtd21yYzltRFRvRWgxOENOV1pDaHRSYTVVa19ZTkdUZGxIRzFlbmphTWJIQVc2TUdWYXNzc1dOVzd2Wkx4LXNROF9ndExKWEYtWmxya0U0QjE1SXlha0hsV0xFbUZ0eU1nUWFQX1FHX05nU050VEFiMVljOGdSWUIxZWRHR0dfZEVqOEtJTGJqT0dZQmlSTWVtamJ2OEdhQVczbVNiYkNFdjJiR0ZsXzc4OGhCSU0zMy1nTXNIV0xwLW1SVC1aY212SkJzMnpmRGFiTnRZbDZGQ0hRN1cyaVR2aWNXdGF1SU5fblVzQ3VaUU1zRzBwV2JmRDhvZUFrZlNGcm9B?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "16-07-2026 12:54 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -571,22 +603,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxON0UyVG5Yb29udUJ0c1I1TjN1Y3dZd01FZkVKTTFRb05tbzVEWWVvR2dJeGxLWl9VdnFsaDRKWDFOSjQ1TEFJMlc0ek1RYy1HS1l0dWNnUHNDcTk1VWloSjM1dHdSajFkUndHNHR5ZHAtNHktcTJjai0xMG8welVHSl9MQS1WYkdOREp3aEtQZ0JQdWdkZ2lubmo5U293aUtJTGU4N3VKS2dPM0pMLVZpSm95bUk0aFVjNGdWaE1lLVpxcXlFU2lpT1dYS3BqWkw2M0lXNDZLN3BRTnJPWDM2ZEFqYkFiX096VjlwNVoxaG9DelM0eXpXN19MUlVRZFF0dzE0cG5GNEJLbDdBLVRlTTNB?oc=5",
-      "summary": "Browse news and alerts - page 3 Scamwatch",
-      "date": "15-07-2026 09:05 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "ACS welcomes planned Office of AI, calls for focus on skills and recognition",
       "link": "https://australiancybersecuritymagazine.com.au/acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition/?utm_source=rss&utm_medium=rss&utm_campaign=acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition&utm_source=rss&utm_medium=rss&utm_campaign=acs-welcomes-planned-office-of-ai-calls-for-focus-on-skills-and-recognition",
@@ -682,19 +698,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "Podcast: Liberation, Eroticism, and Sex in Public (with Angela Jones)",
-      "link": "https://www.404media.co/sex-in-public-with-angela-jones/",
-      "summary": "This week we\u2019re joined by Dr. Angela Jones, who asks these questions and much more in their new book, Sex in Public.",
-      "date": "14-07-2026 05:23 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -833,63 +836,6 @@
       ],
       "threat": "Critical",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Lone Attacker Uses AI to Breach AWS Cloud Environment in 72 Hours",
-      "link": "https://www.darkreading.com/cloud-security/lone-attacker-ai-breach-aws-cloud-environment",
-      "summary": "The attacker exploited AI workflows, chained cloud weaknesses, and stolen credentials to extort a large Amazon customer.",
-      "date": "09-07-2026 06:32 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Vidar Infostealer Hammers SMBs via Malvertising Campaign",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/vidar-infostealer-smb-malvertising-campaign",
-      "summary": "A financially motivated operation uses lures of cracked or pirated software to deliver a two-for-one malware combo for data theft and cryptomining.",
-      "date": "09-07-2026 02:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Troy Hunt Blog",
-      "title": "Weekly Update 511: Live from my Riad in Marrakech",
-      "link": "https://www.troyhunt.com/weekly-update-511/",
-      "summary": "How&apos;s this for a location?! I mean, last week was nice with Scott in Mallorca, but Marrakech is, well, wow &#x1f62e; Anyway, about those data breaches... This week I&apos;m talking about the futility of attempting to remove piss from a pool, yet here we are, with",
-      "date": "08-07-2026 11:54 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Felons, Fraudsters Flog Offensive Cybersecurity Startup",
-      "link": "https://krebsonsecurity.com/2026/07/felons-fraudsters-flog-offensive-cybersecurity-startup/",
-      "summary": "A cybersecurity startup dangling millions of dollars to acquire zero-day security vulnerabilities in popular software is run by a pair of far-right conspiracy theorists and convicted felons whose most recent ventures included fake intelligence companies and a now-defunct AI-based lobbying platform t",
-      "date": "08-07-2026 10:31 PM",
-      "tags": [
-        "Scams",
-        "Good News"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     }
   ]

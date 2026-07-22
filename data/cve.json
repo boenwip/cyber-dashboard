@@ -1,7 +1,29 @@
 {
-  "last_updated": "22-07-2026 08:17 PM",
+  "last_updated": "23-07-2026 08:01 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-16232",
+      "description": "Check Point SmartConsole \u2014 Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with ful",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-22",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
+      "vendor": "Check Point",
+      "product": "SmartConsole",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-50522",
+      "description": "Microsoft SharePoint \u2014 Microsoft SharePoint contains a deserialization of untrusted data vulnerability which could allow an unauthorized attacker to execute code over a network.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-22",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
+      "vendor": "Microsoft",
+      "product": "SharePoint",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-60137",
       "description": "WordPress Core \u2014 WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated ",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
       "vendor": "Oracle",
       "product": "E-Business Suite",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2023-4346",
-      "description": "KNX Association KNX Protocol Connection Authorization Option 1 \u2014 KNX Association KNX Protocol Connection Authorization Option 1 contains an overly restrictive account lockout mechanism vulnerability that could allow an attacker to purge all devices without addition",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-15",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-4346",
-      "vendor": "KNX Association",
-      "product": "KNX Protocol Connection Authorization Option 1",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-56155",
-      "description": "Microsoft Active Directory Federation Services \u2014 Microsoft Active Directory Federation Services contains an insufficient granularity of access control vulnerability that allows an authorized attacker to elevate privileges locally.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-14",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-56155",
-      "vendor": "Microsoft",
-      "product": "Active Directory Federation Services",
       "ransomware": "Unknown"
     }
   ]
