@@ -1,6 +1,6 @@
 {
-  "last_updated": "24-07-2026 08:01 AM",
-  "count": 35,
+  "last_updated": "24-07-2026 08:58 AM",
+  "count": 34,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "24-07-2026 08:01 AM"
+      "date": "24-07-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "24-07-2026 08:01 AM"
+      "date": "24-07-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "24-07-2026 08:01 AM"
+      "date": "24-07-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.215",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude no longer runs the <code>/verify</code> and <code>/code-review</code> skills on its own; invoke them with <code>/verify</code> or <code>/code-review</code> when",
-      "date": "24-07-2026 08:01 AM"
+      "date": "24-07-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.214",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed single-segment <code>dir/**</code> allow rules like <code>Edit(src/**)</code> auto-approving writes to nested <code>dir/</code> directories anywhere in the tree ",
-      "date": "24-07-2026 08:01 AM"
+      "date": "24-07-2026 08:58 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-for-android-update_01442971646.html",
+      "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 150 (150.0.7871.186)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available",
+      "date": "24-07-2026 06:26 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_01320465736.html",
+      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 150.0.7871.186/.187 fo",
+      "date": "24-07-2026 06:23 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -77,34 +93,10 @@
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-for-android-update_01811258361.html",
-      "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 151 (151.0.7922.47) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chro",
-      "date": "23-07-2026 07:00 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
       "title": "Early Stable Update for Desktop",
       "link": "http://chromereleases.googleblog.com/2026/07/early-stable-update-for-desktop_01571975877.html",
       "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666",
       "date": "23-07-2026 02:19 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update_01312092039.html",
-      "summary": "<p>The Beta channel has been updated to 151.0.7922.47 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/151.0",
-      "date": "23-07-2026 02:13 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_0944709803.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 151 (151.0.7922.47) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>Yo",
-      "date": "22-07-2026 10:43 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
