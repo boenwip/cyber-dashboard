@@ -1,14 +1,22 @@
 {
-  "last_updated": "24-07-2026 08:20 PM",
+  "last_updated": "25-07-2026 03:39 AM",
   "count": 34,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.219",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
+      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
+      "date": "25-07-2026 03:39 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "24-07-2026 08:20 PM"
+      "date": "25-07-2026 03:39 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "24-07-2026 08:20 PM"
+      "date": "25-07-2026 03:39 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "24-07-2026 08:20 PM"
+      "date": "25-07-2026 03:39 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,31 +40,39 @@
       "title": "v2.1.215",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude no longer runs the <code>/verify</code> and <code>/code-review</code> skills on its own; invoke them with <code>/verify</code> or <code>/code-review</code> when",
-      "date": "24-07-2026 08:20 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.214",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed single-segment <code>dir/**</code> allow rules like <code>Edit(src/**)</code> auto-approving writes to nested <code>dir/</code> directories anywhere in the tree ",
-      "date": "24-07-2026 08:20 PM"
+      "date": "25-07-2026 03:39 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Upgrades Claude Voice Mode With Sonnet - Dataconomy",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNExhNkpmcHNVTWg4SVNCcGVDb0dIbXRwbVdlQjdFNDhMYUNIQm5XV3pKbGg0Zm8zQjNrRG1kdHJwOGI3cFpmaFNWcHJyNGV0emR3VzhGenRzRlFJMVpjSUJsSnl6eGwydmpvSkEwcW1jUmZBUjYwc3hpY3J1TjRpcFU1ZEZhVGdxSjdR?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxPNExhNkpmcHNVTWg4SVNCcGVDb0dIbXRwbVdlQjdFNDhMYUNIQm5XV3pKbGg0Zm8zQjNrRG1kdHJwOGI3cFpmaFNWcHJyNGV0emR3VzhGenRzRlFJMVpjSUJsSnl6eGwydmpvSkEwcW",
-      "date": "24-07-2026 07:37 PM"
+      "title": "Anthropic upgrades Claude with new Opus 5 model, details here - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeS1xc0pYVDJNdWF5ZE5qaUJ1QlpOVERNa2JGV053dHZPcWI3YzRDMEREODQ5NVlBaGs1WThZX3VYR0VZa0lCbnREakxuYnBiSDR2ZW02WU1yeHE4SEx1N0RzcTR2aDN3bkNWRUloSXltVHRYTFE2aVhLa3FTNjFMMEJhbUJCMkgxWXhwdDFackNfRU52bkkw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNeS1xc0pYVDJNdWF5ZE5qaUJ1QlpOVERNa2JGV053dHZPcWI3YzRDMEREODQ5NVlBaGs1WThZX3VYR0VZa0lCbnREakxuYnBiSDR2ZW02WU1yeHE4SEx1N0RzcTR2aDN3bkNWRUloSX",
+      "date": "25-07-2026 03:16 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Adds Model Choice to Claude Voice Mode For All Users - SQ Magazine",
-      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1QSlZsSldpc0JHWXhES21SMHhFMzFjWVY5SGdUcEpFTWZUQWRBYWxzZWxIclh3bG9GMTFWZTdoZ1hCYzdCa3p1YTVsMjR2Y3J2TjI1X1VJZDhNOEtqVmNOYlVSS1BXSFdfMWtucQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMibEFVX3lxTE1QSlZsSldpc0JHWXhES21SMHhFMzFjWVY5SGdUcEpFTWZUQWRBYWxzZWxIclh3bG9GMTFWZTdoZ1hCYzdCa3p1YTVsMjR2Y3J2TjI1X1VJZDhNOEtqVmNOYlVSS1BXSFdfMWtucQ?oc=",
-      "date": "24-07-2026 04:41 PM"
+      "title": "Introducing Claude Opus 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5\" target=\"_blank\">Introduci",
+      "date": "25-07-2026 03:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTnVLOVhBNldFVU1jYTI3RC1ZZS1B0gGHAUFVX3lxTE9SLWl6OUtCMHkwTDg1QXhpR2tyRHBpbzUzYmVUdHFPUTcxUTRRN19KcDlZd0dPVmM2d05QSkxaRnl4M3BGVzJrNUlscjJtclJZSlVqUXoyTy1wU0gwODE4VTltQTJzNVYyODJ0T3RuMG5ZdzlDR3lUQlBWOXE1RE1laGZTaU1BOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTn",
+      "date": "25-07-2026 03:00 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_01296661467.html",
+      "summary": "<p>The Dev channel has been updated to 152.0.7967.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7",
+      "date": "25-07-2026 12:28 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,14 +131,6 @@
       "date": "23-07-2026 11:23 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/07/early-stable-update-for-desktop_01571975877.html",
-      "summary": "<p>&nbsp;<span style=\"color: #666666; font-family: arial; font-size: 13pt; vertical-align: baseline;\">The Stable channel has been updated to </span><span style=\"background-color: white; color: #666666",
-      "date": "23-07-2026 02:19 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Patch Tuesday for July 2026 \u2014 Snort rules and prominent vulnerabilities - Cisco Talos Blog",
@@ -153,14 +161,6 @@
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORFpGUjZEa095R3djMGZ1MW9NVUtkVnRhU1A3bEdNTElOT3pKWGctb1RGNzgtUEx3ZVk5QlphbEphbTZIeHFXdHlZWFc4a3pINUptX0w5OGZNYngxanZHWFRadkpPMUNwazNaTVhZQWR6WXZQWHI5NW5mT2hzMHpMM3J3dHk1LWlCaVlOMk1jX1h1ZXJINmxab05jZ3BuWmZ6LU5qOWp3eFFDQQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxORFpGUjZEa095R3djMGZ1MW9NVUtkVnRhU1A3bEdNTElOT3pKWGctb1RGNzgtUEx3ZVk5QlphbEphbTZIeHFXdHlZWFc4a3pINUptX0w5OGZNYngxanZHWFRadkpPMUNwazNaTVhZQW",
       "date": "06-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Sonnet 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5\" target=\"_blank\">Intro",
-      "date": "30-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
