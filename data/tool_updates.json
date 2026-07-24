@@ -1,5 +1,5 @@
 {
-  "last_updated": "24-07-2026 08:58 AM",
+  "last_updated": "24-07-2026 10:06 AM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "24-07-2026 08:58 AM"
+      "date": "24-07-2026 10:06 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "24-07-2026 08:58 AM"
+      "date": "24-07-2026 10:06 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "24-07-2026 08:58 AM"
+      "date": "24-07-2026 10:06 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.215",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.215",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Claude no longer runs the <code>/verify</code> and <code>/code-review</code> skills on its own; invoke them with <code>/verify</code> or <code>/code-review</code> when",
-      "date": "24-07-2026 08:58 AM"
+      "date": "24-07-2026 10:06 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.214",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.214",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed single-segment <code>dir/**</code> allow rules like <code>Edit(src/**)</code> auto-approving writes to nested <code>dir/</code> directories anywhere in the tree ",
-      "date": "24-07-2026 08:58 AM"
+      "date": "24-07-2026 10:06 AM"
     },
     {
       "source": "Google Chrome Releases",
