@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-07-2026 12:48 PM",
+  "last_updated": "25-07-2026 07:50 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "25-07-2026 12:48 PM"
+      "date": "25-07-2026 07:50 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "25-07-2026 12:48 PM"
+      "date": "25-07-2026 07:50 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "25-07-2026 12:48 PM"
+      "date": "25-07-2026 07:50 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "25-07-2026 12:48 PM"
+      "date": "25-07-2026 07:50 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "25-07-2026 12:48 PM"
+      "date": "25-07-2026 07:50 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -48,7 +48,7 @@
       "title": "Anthropic releases new model, Opus 5 - Axios",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBd0pLTktMWnd3bV9meUlYZjZMLTVGTDZCNzlXWHBHUXlNRWtkMTVyck5HaFVtYzd1ODZJVGpUWXhlOW4zemxURU1jZldrblRaT19DRVJMN3hZTG1CcTZVczgwb3JadjZJcmFsM1JBLXp2WUdHbExV?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBBd0pLTktMWnd3bV9meUlYZjZMLTVGTDZCNzlXWHBHUXlNRWtkMTVyck5HaFVtYzd1ODZJVGpUWXhlOW4zemxURU1jZldrblRaT19DRVJMN3hZTG1CcTZVczgwb3JadjZJcmFsM1JBLX",
-      "date": "25-07-2026 03:41 AM"
+      "date": "25-07-2026 03:42 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -81,6 +81,14 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_01296661467.html",
       "summary": "<p>The Dev channel has been updated to 152.0.7967.2 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7",
       "date": "25-07-2026 12:28 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVG",
+      "date": "24-07-2026 11:36 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -145,14 +153,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ",
       "date": "09-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI releases new voice models for more natural live conversations - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW8yZmpKTHV6VkU2bkVWeWVxakdVb2liMG84TTM3Unp3MW5jaVE2enN2eHBrTzVUZXBsaXdwOFV3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW",
-      "date": "08-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
