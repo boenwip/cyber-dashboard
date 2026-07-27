@@ -1,5 +1,5 @@
 {
-  "last_updated": "28-07-2026 08:02 AM",
+  "last_updated": "28-07-2026 09:04 AM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "28-07-2026 08:02 AM"
+      "date": "28-07-2026 09:04 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "28-07-2026 08:02 AM"
+      "date": "28-07-2026 09:04 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "28-07-2026 08:02 AM"
+      "date": "28-07-2026 09:04 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "28-07-2026 08:02 AM"
+      "date": "28-07-2026 09:04 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "28-07-2026 08:02 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 5 AI model on all platforms - verdict.co.uk",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBEQ2lIRkFKLWpWQUg1RHNoQWNKcWI5Y1VsUHVjalRZOUZQeC00VlNDQ0EtVXVzM0xBWVR5R0ZpODJVYndmZkxhYXRnSEZVNlpsbURWTkFWblU2azVFaHIwREFiMC00V0hrU3dVOTlLQ0JvQQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTFBEQ2lIRkFKLWpWQUg1RHNoQWNKcWI5Y1VsUHVjalRZOUZQeC00VlNDQ0EtVXVzM0xBWVR5R0ZpODJVYndmZkxhYXRnSEZVNlpsbURWTkFWblU2azVFaHIwREFiMC00V0hrU3dVOTlLQ0",
-      "date": "27-07-2026 03:28 PM"
+      "date": "28-07-2026 09:04 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -57,6 +49,14 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwanRQVXpNdlBfbkZwaTBOMGxmNGVLSEY1RnRWX1FmMzFzaHViVTlWTVZiSzNEMTBTTjlSdHVJZ251c1NGemMwcDg1ZEdNeldLS0NjR3MyMVJn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwan",
       "date": "25-07-2026 08:08 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic rolls out Opus 5 AI model in efficiency upgrade - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1RuSzYtNnpnN0M4VlpzeWp4azFmbWVyQTNlSXVfSlY5UTU2RGVsQ19ucGd2VlFEMGFEMG5J?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1",
+      "date": "25-07-2026 03:02 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
