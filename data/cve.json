@@ -1,7 +1,29 @@
 {
-  "last_updated": "27-07-2026 08:14 PM",
+  "last_updated": "28-07-2026 08:02 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2025-68686",
+      "description": "Fortinet FortiOS \u2014 Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic l",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
+      "vendor": "Fortinet",
+      "product": "FortiOS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-16812",
+      "description": "Arista VeloCloud Orchestrator \u2014 Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful ex",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
+      "vendor": "Arista",
+      "product": "VeloCloud Orchestrator",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-16232",
       "description": "Check Point SmartConsole \u2014 Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with ful",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
       "vendor": "Fortinet",
       "product": "FortiSandbox",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-39808",
-      "description": "Fortinet FortiSandbox \u2014 Fortinet FortiSandbox contains an OS command injection vulnerability that could allow an unauthenticated attacker to execute unauthorized code or commands via crafted HTTP requests.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-16",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-39808",
-      "vendor": "Fortinet",
-      "product": "FortiSandbox",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-46817",
-      "description": "Oracle E-Business Suite \u2014 Oracle E-Business Suite contains an improper privilege management vulnerability that allows an unauthenticated attacker with network access via HTTP to compromise Oracle Payments. Successful attacks o",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-15",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-46817",
-      "vendor": "Oracle",
-      "product": "E-Business Suite",
       "ransomware": "Unknown"
     }
   ]
