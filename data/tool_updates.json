@@ -1,6 +1,6 @@
 {
-  "last_updated": "28-07-2026 11:47 AM",
-  "count": 29,
+  "last_updated": "28-07-2026 02:57 PM",
+  "count": 34,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "28-07-2026 11:47 AM"
+      "date": "28-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "28-07-2026 11:47 AM"
+      "date": "28-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "28-07-2026 11:47 AM"
+      "date": "28-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "28-07-2026 11:47 AM"
+      "date": "28-07-2026 02:57 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,23 +40,15 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "28-07-2026 11:47 AM"
+      "date": "28-07-2026 02:57 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic's Claude Opus 5 delivers near-Fable 5 performance at half the token price - the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwanRQVXpNdlBfbkZwaTBOMGxmNGVLSEY1RnRWX1FmMzFzaHViVTlWTVZiSzNEMTBTTjlSdHVJZ251c1NGemMwcDg1ZEdNeldLS0NjR3MyMVJn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQU1hBN3ZoX2tqWFhrQWJNNVZxZHZHVDhHVHljMW9rSHpleVVvUXNZaG9yeU5lckdlbEZLMnFxUkQwdi11VTJkaVRKOGhQUnJLTk9LN0FLY0tBQ2l4WWc4Nkd6LThqLUJQR3JrRVNwan",
-      "date": "25-07-2026 08:08 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic rolls out Opus 5 AI model in efficiency upgrade - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1RuSzYtNnpnN0M4VlpzeWp4azFmbWVyQTNlSXVfSlY5UTU2RGVsQ19ucGd2VlFEMGFEMG5J?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiowFBVV95cUxQbGtoSHNwQ0pjZ09saEozUGlWRVZ1ZG03ZC1Xc2UzNnZQSXRsQjkyWlBFVlM4QmM5WmtKVGhJbUZydG9UWEllUzgwbW90b0k1elZyQnpaV3VTNGZiNG5YWDdyNXFVTHhhTHN6TWpUU1",
-      "date": "25-07-2026 03:02 AM"
+      "title": "Anthropic releases new model, Opus 5 - Axios",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBd0pLTktMWnd3bV9meUlYZjZMLTVGTDZCNzlXWHBHUXlNRWtkMTVyck5HaFVtYzd1ODZJVGpUWXhlOW4zemxURU1jZldrblRaT19DRVJMN3hZTG1CcTZVczgwb3JadjZJcmFsM1JBLXp2WUdHbExV?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMid0FVX3lxTFBBd0pLTktMWnd3bV9meUlYZjZMLTVGTDZCNzlXWHBHUXlNRWtkMTVyck5HaFVtYzd1ODZJVGpUWXhlOW4zemxURU1jZldrblRaT19DRVJMN3hZTG1CcTZVczgwb3JadjZJcmFsM1JBLX",
+      "date": "25-07-2026 03:19 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -109,14 +101,6 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
-      "date": "24-07-2026 05:43 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "OpenAI updating ChatGPT desktop app with GPT Voice for talking through work - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUY1cGM4S2JDTHBSWWV0UUkxYnc2MXRWcmdMU0thNkNDUGtDMFJmdDZfc2NJOFRkd2JpdXdsSnpyVnFrWGJ6WS1sa2xIb1FrUmN6Q3ZLX21BdDFldWs2NDhGeGhTM0FhVUFmVmJQaHd6LWRNdWFnRkFFVGd1ZHJYOVJkUjA1NzAxMmpfRzdDWnp6SzMxb3dlZXEtSzBwOHM0bkNBNGpiYjVPUHM?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUY1cGM4S2JDTHBSWWV0UUkxYnc2MXRWcmdMU0thNkNDUGtDMFJmdDZfc2NJOFRkd2JpdXdsSnpyVnFrWGJ6WS1sa2xIb1FrUmN6Q3ZLX21BdDFldWs2NDhGeGhTM0FhVUFmVmJQaH",
@@ -137,6 +121,14 @@
       "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_0889767341.html",
       "summary": "<p>Hi everyone! We've just released Chrome Dev 152 (152.0.7965.2) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
       "date": "24-07-2026 02:58 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
+      "date": "24-07-2026 01:18 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -171,6 +163,14 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
+      "date": "25-06-2026 11:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
@@ -179,12 +179,60 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
+      "date": "17-06-2026 01:00 AM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing Microsoft Scout: Your always-on personal agent",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "summary": "<p>Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "date": "03-06-2026 04:00 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
+      "date": "03-06-2026 03:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
+      "date": "29-05-2026 05:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing Microsoft 365 Business with Copilot: The new standard for small business",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/05/28/introducing-microsoft-365-business-with-copilot-the-new-standard-for-small-business/",
+      "summary": "<p>On\u202fJuly 1, we're introducing new Microsoft 365 SKUs with Copilot built-in, designed to fit into the way small businesses already work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/micro",
+      "date": "29-05-2026 05:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -208,14 +256,6 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
       "date": "16-04-2026 05:00 PM"
     },
     {
