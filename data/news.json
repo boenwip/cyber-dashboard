@@ -1,7 +1,60 @@
 {
-  "last_updated": "28-07-2026 08:26 PM",
-  "count": 68,
+  "last_updated": "29-07-2026 07:59 AM",
+  "count": 66,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
+      "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
+      "summary": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
+      "date": "29-07-2026 06:27 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
+      "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
+      "date": "29-07-2026 06:05 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "\u2018The Government Hopes To Set a Precedent\u2019: An Interview With the Man Charged for Allegedly Wiping His GrapheneOS Phone",
+      "link": "https://www.404media.co/the-government-hopes-to-set-a-precedent-an-interview-with-the-man-charged-for-allegedly-wiping-his-grapheneos-phone/",
+      "summary": "The U.S. government has charged Samuel Tunick with allegedly typing in a passcode to wipe his phone before officers could search it. \u201cI hope people understand that the charges against me are meant to intimidate people,\u201d he said.",
+      "date": "29-07-2026 03:27 AM",
+      "tags": [
+        "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
+      "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+      "date": "29-07-2026 02:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Ransomware attacks speed up as hackers use AI tools",
@@ -100,22 +153,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Oracle, Ingram Micro strike Australian distribution deal",
-      "link": "https://securitybrief.com.au/story/oracle-ingram-micro-strike-australian-distribution-deal",
-      "summary": "Australian enterprises will gain wider access to Oracle's cloud and AI tools as demand for multicloud infrastructure and data security rises.",
-      "date": "28-07-2026 01:04 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "404 Media",
       "title": "Person Opposing Data Center Arrested for Clapping at City Meeting",
       "link": "https://www.404media.co/person-opposing-data-center-arrested-for-clapping-at-city-meeting/",
@@ -143,6 +180,22 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 4 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPWkZ0eks0VzYxTmU4WWMwT3pRZEpTNHoyQWFWMENxajZReC1VSUdlcG42c19wcVJvWjhhX1pjU25ERTZZUmtfTGkxRkFESGVQYjFCSDNnazB2UlotM29oNE4xNm5BNUJsajJNdl92SnNVTm5tODRRZzY4eUEzc3NzZldtV1VaVEVJOHRycHJVcXpCNVJyeV9oblZfLVpFdXdSZFZkUjVaTU4xckFDVWhaQzE0bzBIOHFQNnI1NUlCc0t1YVNfdTBILTNsSV93M3NxS1NCVElna252S0JnWHdCZUFLeUhZdG4xRnQ2T1lVMjlpQjdmVEJoZkVKREpzZlVnb21teXVFLWNnWUwwb21tUzFER2MyX3dEdUk3ZndqN0hpUTZnMnpJVG5TT19BM201OVBFbHhMWGczNEtxSVE?oc=5",
+      "summary": "Browse news and alerts - page 4 Scamwatch",
+      "date": "27-07-2026 06:33 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 7 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNWXJwMDdRandlX2lWZzNjdmNBaXM2bkp5RlROaVZzbGV0RHpUR1ZCN1NFU25qVG0tNW45NXBvQW91Y2VCaXVfNm4xVlYyT3AyNm5Id3ZWZVd6Z1BwUmxQcHVsc1pvRHZJR0xTMFlVOFo0VFhxMEJKM2xMTEZjSmd1YjFwZmV2R2lyc01fbTM3Rnp5OUdwV1VfMGt4YWdsQlBCQkhoUEJYMTZrWmUwTGdCbWZoVHRDbFhmVDk0TXRwRHpkVEczSXgwUThteURhVU5UQmxMSWJYX3dlSm1LYnpyX2lPeUpCQ1hVMVo3RDVIdmJIc1A2MHhpRzRjS0ZxQnpPWnhyejhrSERxRjAwbjRzWFVXQjhJYzExUEQtbi15OHdoQQ?oc=5",
       "summary": "Browse news and alerts - page 7 Scamwatch",
@@ -163,6 +216,22 @@
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNX3lNeFFWUjZkdUN2cTNYN0Z2VldMemhwUEc2TDZKdS11U0kyUXF3MkNxSmpqV3JYM3NoOWpRbmNHYlZ4UTllUjdSMUZvVXFFay1iNXVCcHprNE5SY2E2Q3VlRHh2a0JHMWV4Z2FUYjBINGtkOGpJaFVqdXU2QnhacXNyMWE1MXRsWGFCVk82d3JKYXh3VS13dTA5aEtVWTFDVUwzSFF4cHROOUxOZW1vLVRTVGJJNnZPS3JFNEt0WUQ0Y01Rc0RweE81M3N6bFJLM0s2ZGM4MGYxMjJtZDBNRlVoVVdkRXJsSUNPb1F2VWZDTnM1c2RObEZTd2NaQjBqNWxCR082UW11WGl5X0wwSVFMQ2hUbmZYNVh0czgzdUQ5SlJYOGxialluNGo1Z24wa1R5RG5LVUlsTGcxZEE?oc=5",
       "summary": "Browse news and alerts Scamwatch",
       "date": "27-07-2026 09:06 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 6 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNWmRiOUFLT2xtb1NaajNnQXdwd1c2dm5sNmtkYnFuRW1pb0pSQ3lqTEZLOW5ULXNXaXFDRUdvajNSWC12Y2pQTHFWWHRLMFpXMldHV0dwSWxzcGtvMW9xY0ttM0huWWxFM0hkcE5xaXBkN05YRmZha0Q0SC1kVWVma3JiMVVHVTJrcnJ4NDlVLW1HMVhXbXBYR2Z0bnc4b0xjYWxENU9Cbld6cldyWUxyVWVHOFljM292X2hGNXhNbmdYSzJaX0pFUGgweGpsVHA5ZHJsS1RiZkwydzYyY3A4NG96TWFDMk5uallqVGxqbVU3THdFUm1zdzg4UGdjeTFuSWJOdWxvOU8wWjY1ekYwOC1LbzBnTHk4eHhSeGI3U0tHa3g0NWVRX3JSdXZTRlYtaEIzMXJuMDlpMjR1Nnc?oc=5",
+      "summary": "Browse news and alerts - page 6 Scamwatch",
+      "date": "27-07-2026 09:03 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -223,22 +292,6 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 6 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOMU9MX0Y5d2hjVURfWXc2LUtLSXZReVZNcUU2Q2NCSndRWkxYZkx1Tm90TVF4MDh3ZXJvdDk1TjRnYXYxRkpfalYtdXV5dkI3VEhpSlBLdVc5djRUaEJVTmsxQXNTbGYtWlpaeHJvU0NScWI1Qlk3NlpwMjB3T2d2SnFBbU1RVG5EQ3JEQ2NLT2lMM01mQkR3R2d0bEhYOG42TW05NTlxMGlycXdJV0dnT2ZkTmtsQy1qNG9qOGM4MkxXZmNNcWhyT0hwdzFXMzQxUWhxenZUZFE2R0VleUNaRzJscUJ6aVdudDVncWhlb0ozVDJxRXBHek1DNGZ1b29qNUxnT0tUV1B6bXA3WTgtZ3FQNk9vS0dVVTBBU0c2MWlLVndvNzRTZVR1X1FuOC1abXBQNEVaNkxlRmNtR1Bv?oc=5",
-      "summary": "Browse news and alerts - page 6 Scamwatch",
-      "date": "27-07-2026 07:24 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 10 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxNWFV6M3JVOUFoR3BlLUhWOTBpTVBVY3lmM2N1LU9iSFRjbnZDUTVON0JIM0RYaldHMDhYd1laMk4xUTRuUlluYUQ5c3pYakNzMll5emVmWnFfV3NXbm5HSVpLRXZxZWFKb3h1Q2diQlpTTGxTcjdzSkdRLU1ZSGtnSEFCVzNUUk11RkRNYUVBMmItUG1yOGxTSUVWenV6cXdWejJEOGhtMFlBZ3FWeTZPSlg1QXFjMm5IeXplQ2VhYktwRFpTd0hEeVJMVWdqZENyY3E5TU1xQzNWQzQ3c0RnSGZpV01qUHZnblZhRlc4Nl9LX01ndHRyd3ZsZTZVNEp1M0YzUDR0ZlpDeXlYY0NmdDJFMFREZkxk?oc=5",
       "summary": "Browse news and alerts - page 10 Scamwatch",
@@ -255,10 +308,10 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxOQV92YTYxRWI0V0NVNTdLTUtiUU00cFItdUZ1SXFkMXNzMkR1TTNodkk4a2EtM3RrcjZpVXhRT2ZkSGpkN1VWLUFOckZ5TTZ4WU5Ob3EtSWg2aGlaUU1QdEwyYVAyeUcyUElEVE5OUUJKYVh3RkJMbkZIVmNxNExPV0RWejlDTlFjVlJHRWpGb1RjdG5tSFo2RnFWX2hfeXBFd0pUTGM0bVpuOE5IbzBnQU92NWpnRnhQMDhkUXRaSTAyUzI0ZEVsMDgxcEM4dHVQcngtWmMweTU3SVplcXZSX1FUVVlzVHV1NWdHV244dlBfUDZyTTl3akRZRzRaSWJSRkZjak1sa3M0Qmc3OTFHOVB1ZzhLUXpzb3RWYkdtSWs?oc=5",
-      "summary": "Browse news and alerts - page 4 Scamwatch",
-      "date": "27-07-2026 06:59 AM",
+      "title": "Browse news and alerts - page 14 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObnAtZE81emlSOGNiSHAzY2xIRGJXM1ZBdmVaV1JWMWd0NDlmVDlTTEdjOHE0WTl4S1pWMGVORFhzd3NUVHRkSXlHSEU2VE5JUV9XbnBHcG8yZUpqSUZ4cldzXzlibGhhT3BudWExNWNKTXhPU2wwQV9iamFmU1hlYTNKLWU0ZXJ2Q18tVjhVbnNoMHU4eUFjYmNmTEZwdjN6TFpCakR2Um9NNFI1Wkd1YS1pUUZ1OXAtbEpYU3hXLVRQdjNuNzFVSFQ1R2FrbkpuTkdSTlgtcDJOVFVCWUlZWmRIb3pPcDVWX2FSV2JkNUJkR2c5RXBkYU1xQlMtb25lSkpPeENtRWpBN2NDcUswY3l3Yk5mQ3JPbEZicDVCNzY?oc=5",
+      "summary": "Browse news and alerts - page 14 Scamwatch",
+      "date": "27-07-2026 05:05 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -271,10 +324,10 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 14 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObnAtZE81emlSOGNiSHAzY2xIRGJXM1ZBdmVaV1JWMWd0NDlmVDlTTEdjOHE0WTl4S1pWMGVORFhzd3NUVHRkSXlHSEU2VE5JUV9XbnBHcG8yZUpqSUZ4cldzXzlibGhhT3BudWExNWNKTXhPU2wwQV9iamFmU1hlYTNKLWU0ZXJ2Q18tVjhVbnNoMHU4eUFjYmNmTEZwdjN6TFpCakR2Um9NNFI1Wkd1YS1pUUZ1OXAtbEpYU3hXLVRQdjNuNzFVSFQ1R2FrbkpuTkdSTlgtcDJOVFVCWUlZWmRIb3pPcDVWX2FSV2JkNUJkR2c5RXBkYU1xQlMtb25lSkpPeENtRWpBN2NDcUswY3l3Yk5mQ3JPbEZicDVCNzY?oc=5",
-      "summary": "Browse news and alerts - page 14 Scamwatch",
-      "date": "27-07-2026 05:05 AM",
+      "title": "Browse news and alerts - page 16 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxQZ3Nwc3YtZ2RLNGMyU1BiTkdLVU5tc3hoY25rY2luanNtSUpSbDFRTlZkQmY1RndrVDRtRjEwU2hHM0MtTlJ5TVJ5MU11TGpIajNsNW9KZWpQTnhRdnVKQlMzNmFwWXIxS0h6ZkpHLXpVUXd1aGdwOG9uTXpSUUxmdV9KQl9SU215dUhtUTJYZFJkQUJ6MFJKTVNVU0h5empXVGpPNmdMVnVBSlBhdVcxY1Y4MDlyZktFbUZzYTNEcmE4UmttLXNDQS1XOV9ka1kxa0hUV2VFY3NVUTN1NkhRODB0UnhaUW5wSzVUVjl4eElLYnk0M2k0NDdZQzlleHZqUjVQVEU5Q0NtcEloQnFndnRHVmh0WHZvU0pDOGpPeHdlUzc5VE9NcXpMWlJlMV9qNk1FaC1HQlpvSEh6M1loTEhXTnlFZW1SUi02VmEta0Jsc3lXMm5GajNZVHIxUWdESHNYS3pQSFpjZ195cmRMWWE1MnBUeUZtRXVVNWEtcWVtcWtBbjdmek5uZ2p5ZTJ1YUhmQmkwWE92bTVU?oc=5",
+      "summary": "Browse news and alerts - page 16 Scamwatch",
+      "date": "27-07-2026 04:39 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -341,21 +394,6 @@
       "date": "26-07-2026 05:24 PM",
       "tags": [
         "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Business scams Information for businesses - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA0N2UzaVlOZFhuaS0zN1kxMHloczVHamhJaEpBb3lVWU90UVpiSGF3TklNZTc2aXBiMm5BSGNSNzdibjNxbWhCczNFQWZrVlBsdHloNjhpRnZ1NzRVVGxsN2JJNWZuTGRLTi1DSlJMeFBwMU53Z1NKRWRn?oc=5",
-      "summary": "Business scams Information for businesses Scamwatch",
-      "date": "25-07-2026 05:47 AM",
-      "tags": [
         "Scams"
       ],
       "threat": "Advisory",
@@ -625,19 +663,6 @@
         "Compliance"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Critical wp2shell WordPress flaws exploited to install webshells - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRzcxMGpXRGlhUUhDaW5JNmJYdFVSZkw0VmZMQXNHRlYtQjFVNFZ4VzNFNnpKODRFVU5FTFlHZ1N1WmJhb1kxb0pSbFV5NmZyLWVYWnJSeVEwRmhOY1NSQUVqQXE0bmpnMm1jd2tZY1BudUhHYmhNRkNkejJTU3RDam9JeDFaODF3MGlMVG02YnFVNkdjVnhobHlUTG1wY25Fckk1dHNiaTZVQk45NGNfamRB0gG3AUFVX3lxTFBoaGFyczYydml2M1pWRDdvUzBYbHdmRTdHa2RMdVFlTWVscTJMNzdKOTdxRVVMaTJuM3k5ZDQzelZFdmlPbEZEeVl0MEI4VU1Cc3BodVgyRktVY0VwV2RvNkxjRXRDYUFPZDF2WEdFZkNDa2ZoZ0tHcllscm5RSFBDOGRLUkpEUTFPbVNXTEZ0cW1iTUJlN0RWSHI1Rm82c2ZzWXdxQUZFb2Zta1cwRjZCaXFtS0J0SQ?oc=5",
-      "summary": "Critical wp2shell WordPress flaws exploited to install webshells BleepingComputer",
-      "date": "22-07-2026 02:41 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
       "audience": [],
       "relevance": "Global"
     },
@@ -922,59 +947,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Records Are Made to Be Broken: Patch Tuesday Raises Triage Stakes",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/records-broken-patch-tuesday-raises-triage-stakes",
-      "summary": "Three of the 622 CVEs for which Microsoft issued patches this week are zero-days; there are more than 60 critical vulnerabilities.",
-      "date": "15-07-2026 07:50 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Microsoft Patches a Record 570 Security Flaws",
-      "link": "https://krebsonsecurity.com/2026/07/microsoft-patches-a-record-570-security-flaws/",
-      "summary": "Microsoft Corp. today released software updates to plug at least 570 security holes in its Windows operating systems and other software, almost triple the number of vulnerabilities the software giant fixed in its record-smashing Patch Tuesday release last month. Microsoft attributed the burgeoning p",
-      "date": "15-07-2026 05:22 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Frontier AI: The Genie's Out of the Bottle, but Where's the Rulebook?",
-      "link": "https://www.darkreading.com/cybersecurity-operations/frontier-ai-genie-out-of-bottle-where-rulebook",
-      "summary": "Cutting-edge artificial intelligence models are deploying with more independence and less human oversight. Several state governments are trying to legislate transparency in their use.",
-      "date": "15-07-2026 02:02 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Cursor IDE Auto-Executes Malicious Code in Poisoned Repos",
-      "link": "https://www.darkreading.com/application-security/cursor-ide-malicious-code-poisoned-repos",
-      "summary": "Researchers reported the vulnerability to Cursor in December, but it still remains in the popular AI coding platform and can be exploited in poisoned repository attacks.",
-      "date": "14-07-2026 11:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
