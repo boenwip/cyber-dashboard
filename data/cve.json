@@ -1,7 +1,18 @@
 {
-  "last_updated": "29-07-2026 09:00 PM",
+  "last_updated": "30-07-2026 07:56 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-20316",
+      "description": "Cisco Secure Firewall Management Center (FMC) \u2014 Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-07-29",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
+      "vendor": "Cisco",
+      "product": "Secure Firewall Management Center (FMC)",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2025-68686",
       "description": "Fortinet FortiOS \u2014 Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic l",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-58644",
       "vendor": "Microsoft",
       "product": "SharePoint",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-25089",
-      "description": "Fortinet FortiSandbox \u2014 Fortinet FortiSandbox, FortiSandbox Cloud, and FortiSandbox PaaS contain an OS command injection vulnerability that allows an unauthenticated attacker to execute unauthorized commands via specifically",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-16",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-25089",
-      "vendor": "Fortinet",
-      "product": "FortiSandbox",
       "ransomware": "Unknown"
     }
   ]
