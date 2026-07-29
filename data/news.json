@@ -1,13 +1,41 @@
 {
-  "last_updated": "29-07-2026 09:01 AM",
-  "count": 67,
+  "last_updated": "29-07-2026 10:57 AM",
+  "count": 62,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Australian firms race to appoint chief AI officers",
-      "link": "https://securitybrief.com.au/story/australian-firms-race-to-appoint-chief-ai-officers",
-      "summary": "Almost half of Australian organisations now have AI chiefs, with the role set to become a permanent fixture as governance concerns grow.",
-      "date": "29-07-2026 09:00 AM",
+      "title": "Best Buy adopts Google Cloud federation for developers",
+      "link": "https://securitybrief.com.au/story/best-buy-adopts-google-cloud-federation-for-developers",
+      "summary": "Developers at Best Buy can now log into Google Cloud with Microsoft Entra ID, cutting key rotation and sharpening audit trails.",
+      "date": "29-07-2026 10:45 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "BlueVoyant launches Microsoft 365 E7 readiness bundle",
+      "link": "https://securitybrief.com.au/story/bluevoyant-launches-microsoft-365-e7-readiness-bundle",
+      "summary": "Organisations adopting Microsoft's top security tier are being offered a single bundle to cover data protection, identity controls and AI agent oversight.",
+      "date": "29-07-2026 09:31 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Acronis unveils Cyber Frame to simplify cyber resilience",
+      "link": "https://securitybrief.com.au/story/acronis-unveils-cyber-frame-to-simplify-cyber-resilience",
+      "summary": "Managed service providers in Australia could cut complexity as Acronis bundles virtualisation, backup, recovery and security into Cyber Frame.",
+      "date": "29-07-2026 09:30 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -19,29 +47,16 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Dell PowerStore joins Nutanix Cloud Platform in APJ",
-      "link": "https://securitybrief.com.au/story/dell-powerstore-joins-nutanix-cloud-platform-in-apj",
-      "summary": "Nutanix customers can now scale storage independently of compute, as Dell PowerStore arrives on the cloud platform with Prism-based management.",
-      "date": "29-07-2026 08:42 AM",
+      "title": "ANZ SMEs back AI in cyber security, but trust lags",
+      "link": "https://securitybrief.com.au/story/anz-smes-back-ai-in-cyber-security-but-trust-lags",
+      "summary": "Despite near-universal uptake, most ANZ SMEs still distrust AI to make cyber security decisions as incidents continue to disrupt work.",
+      "date": "29-07-2026 09:06 AM",
       "tags": [
-        "Compliance"
+        "AU Cyber"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Ping Identity adds MyChart fraud tools to Epic Toolbox",
-      "link": "https://securitybrief.com.au/story/ping-identity-adds-mychart-fraud-tools-to-epic-toolbox",
-      "summary": "Healthcare providers can cut fraud and account takeover risks on MyChart, while keeping patient sign-ups and recovery simple.",
-      "date": "29-07-2026 08:15 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Medium",
       "audience": [
-        "Consumer"
+        "SMB"
       ],
       "relevance": "Global"
     },
@@ -97,75 +112,6 @@
       "threat": "High",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Ransomware attacks speed up as hackers use AI tools",
-      "link": "https://securitybrief.com.au/story/ransomware-attacks-speed-up-as-hackers-use-ai-tools",
-      "summary": "Manufacturers faced the heaviest ransomware pressure as AI tools and faster intrusions left defenders with less time to react.",
-      "date": "28-07-2026 05:30 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Dropzone AI featured on All Access with Andy Garcia",
-      "link": "https://securitybrief.com.au/story/dropzone-ai-featured-on-all-access-with-andy-garcia",
-      "summary": "Security operations teams could ease alert backlogs as the company's TV appearance spotlights AI tools that may boost speed and accuracy.",
-      "date": "28-07-2026 05:30 PM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cisco outlines enterprise approach to scaling AI adoption",
-      "link": "https://securitybrief.com.au/story/cisco-outlines-enterprise-approach-to-scaling-ai-adoption",
-      "summary": "Cisco has detailed how it scaled enterprise AI adoption by focusing on trusted data, secure platforms and AI-native workflows.",
-      "date": "28-07-2026 05:30 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Vertiv backs ANZ partners as AI infrastructure demand grows",
-      "link": "https://securitybrief.com.au/story/vertiv-backs-anz-partners-as-ai-infrastructure-demand-grows",
-      "summary": "Rising demand for AI-ready power and cooling systems is reshaping channel work in Australia and New Zealand as customers move into deployment.",
-      "date": "28-07-2026 05:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian customer service still leans on phone calls",
-      "link": "https://securitybrief.com.au/story/australian-customer-service-still-leans-on-phone-calls",
-      "summary": "Longer waits and higher costs are weighing on Australian contact centres as most customer queries still arrive by phone, research shows.",
-      "date": "28-07-2026 02:56 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "404 Media",
@@ -945,22 +891,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Australian critical infrastructure urged to tighten router security after Russian cyber warning",
-      "link": "https://australiancybersecuritymagazine.com.au/australian-critical-infrastructure-urged-to-tighten-router-security-after-russian-cyber-warning/?utm_source=rss&utm_medium=rss&utm_campaign=australian-critical-infrastructure-urged-to-tighten-router-security-after-russian-cyber-warning&utm_source=rss&utm_medium=rss&utm_campaign=australian-critical-infrastructure-urged-to-tighten-router-security-after-russian-cyber-warning",
-      "summary": "Australia\u2019s critical infrastructure operators have been urged to review the security of routers, firewalls and other network infrastructure after the Australian Signals Directorate\u2019s Australian Cyber Security Centre (ASD\u2019s ACSC) joined [...]",
-      "date": "15-07-2026 09:46 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
       "relevance": "AU General"
     }
   ]
