@@ -1,34 +1,133 @@
 {
-  "last_updated": "30-07-2026 07:59 PM",
-  "count": 59,
+  "last_updated": "31-07-2026 08:02 AM",
+  "count": 63,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "AI boosts nation-state cyberattacks, TrendAI warns",
-      "link": "https://securitybrief.com.au/story/ai-boosts-nation-state-cyberattacks-trendai-warns",
-      "summary": "Defenders in Australia and New Zealand face faster, more adaptive intrusions as state-backed hackers use generative AI to scout and spread.",
-      "date": "30-07-2026 01:19 PM",
+      "title": "Contrast launches CVE Shield to block exploit attacks",
+      "link": "https://securitybrief.com.au/story/contrast-launches-cve-shield-to-block-exploit-attacks",
+      "summary": "The tool aims to give security teams breathing room as AI systems can now churn out working exploits faster than patch cycles can react.",
+      "date": "31-07-2026 08:00 AM",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Rimini Street launches AI governance service for firms",
+      "link": "https://securitybrief.com.au/story/rimini-street-launches-ai-governance-service-for-firms",
+      "summary": "The service targets firms struggling to control AI agents as they move from pilots into production and face growing security and compliance risks.",
+      "date": "31-07-2026 08:00 AM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
+      "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks",
+      "summary": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
+      "date": "31-07-2026 07:16 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Harnesses Burst With Potential Exploit Opps",
+      "link": "https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps",
+      "summary": "A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.",
+      "date": "31-07-2026 05:40 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "BreachLock report flags AI, cloud & web logic risks",
+      "link": "https://securitybrief.com.au/story/breachlock-report-flags-ai-cloud-web-logic-risks",
+      "summary": "Cloud audits produced the highest critical finding rate, while every AI system tested showed vulnerabilities and web logic flaws rose sharply.",
+      "date": "31-07-2026 04:37 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Read This Before You Buy That TV Streaming Stick",
+      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
+      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also r",
+      "date": "31-07-2026 02:49 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "System administrators face growing security burden",
+      "link": "https://securitybrief.com.au/story/system-administrators-face-growing-security-burden",
+      "summary": "Cloud, AI and hybrid work are pushing system administrators into frontline risk management as phishing threats become harder to spot.",
+      "date": "31-07-2026 02:25 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "AU General"
     },
     {
       "source": "Security Brief Australia",
-      "title": "OpenAI launches ChatGPT for researchers in Australia",
-      "link": "https://securitybrief.com.au/story/openai-launches-chatgpt-for-researchers-in-australia",
-      "summary": "Free access to ChatGPT will reach 10,000 Australian researchers first, as OpenAI targets science and maths work at universities.",
-      "date": "30-07-2026 01:15 PM",
+      "title": "Entersekt appoints Clare Conway as Chief Executive Officer",
+      "link": "https://securitybrief.com.au/story/entersekt-appoints-clare-conway-as-chief-executive-officer",
+      "summary": "The financial authentication firm is shifting to a new executive structure as it expands internationally and tackles rising fraud and scam activity.",
+      "date": "31-07-2026 01:29 AM",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "Scams"
       ],
       "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Claude Mythos \u2014 Hype vs. Reality: What Security Teams Need to Know",
+      "link": "https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality",
+      "summary": "In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?",
+      "date": "31-07-2026 01:28 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
       "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -50,7 +149,7 @@
       "source": "Dark Reading",
       "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
       "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
-      "summary": "OpenAI revealed rogue AI models compromised more services than initially disclosed, including a Modal customer environment and others.",
+      "summary": "OpenAI's goal-seeking agent compromised a Modal customer environment and others during its sandbox escape.",
       "date": "30-07-2026 05:48 AM",
       "tags": [
         "AU Cyber",
@@ -88,7 +187,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "title": "Hugging Face Hack: Lessons for Cyber Defenders",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
       "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
       "date": "30-07-2026 03:35 AM",
@@ -196,6 +295,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPbDBoM2VTU2liVllPODNDdmVIanMzUks4Yk1tWDk0STd0YWt1bnhDbFZ2cmtiTW1qVk1MY2lBRVFPaXhLSmpnc3BoRm92NXZqWFNFT2FSVlVlQ0tsRldxaTAyZDhmOEVSenFzNTNrNUlsblBjOTZYbFdEaVF4eWtaM0hUMUJrOFVIR0hmWEFEbmFldnh3RlVGVjBSQkhlYjFhZWFaZEloLXpwbnJuSlFrVXhDZ3V4X3BPWjZyM3VYd3lQQ0pncnVjUXFWTi02MUVUM0JlRGhQUVpuUEI1ZFZOeHZhSnlDMWNnMi1adnBycUdMZ3NwUTZYV0gwTQ?oc=5",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "date": "29-07-2026 03:06 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -371,22 +486,6 @@
       "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxQZ3Nwc3YtZ2RLNGMyU1BiTkdLVU5tc3hoY25rY2luanNtSUpSbDFRTlZkQmY1RndrVDRtRjEwU2hHM0MtTlJ5TVJ5MU11TGpIajNsNW9KZWpQTnhRdnVKQlMzNmFwWXIxS0h6ZkpHLXpVUXd1aGdwOG9uTXpSUUxmdV9KQl9SU215dUhtUTJYZFJkQUJ6MFJKTVNVU0h5empXVGpPNmdMVnVBSlBhdVcxY1Y4MDlyZktFbUZzYTNEcmE4UmttLXNDQS1XOV9ka1kxa0hUV2VFY3NVUTN1NkhRODB0UnhaUW5wSzVUVjl4eElLYnk0M2k0NDdZQzlleHZqUjVQVEU5Q0NtcEloQnFndnRHVmh0WHZvU0pDOGpPeHdlUzc5VE9NcXpMWlJlMV9qNk1FaC1HQlpvSEh6M1loTEhXTnlFZW1SUi02VmEta0Jsc3lXMm5GajNZVHIxUWdESHNYS3pQSFpjZ195cmRMWWE1MnBUeUZtRXVVNWEtcWVtcWtBbjdmek5uZ2p5ZTJ1YUhmQmkwWE92bTVU?oc=5",
       "summary": "Browse news and alerts - page 16 Scamwatch",
       "date": "27-07-2026 04:39 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOZ1JXcXlWYkJwYmVGcWtiS1pRWFZmQ1dmMkhXZVZqY0t3Sm02WjFkcUpLaVVjd0ROQzNjMzNzQ2VkempKRXNnb1A5Vzl2RmJwcVJ2Y3VuVEF4OEVuS1VINldNcWZYWklrUlBZNjg1VW5wWEd5SENmRzhETWtjdEJTTWlub01CWXRSTWVFTWZWVk5PbElibzc1eDM3U3YtZnA0RWwxanVGNG1RbVZkNGo3MW04bW5FcFUteGd2SXRrMVU2bDRaSHZqTlpaMldackptTGxJdDVJNHJjRGdpUjhXNGtacTdCdnVMQmNPSG1nQkJPd1ZrZ3NDUTVHdkJ2Y2hnaFVSTFdKX1pYQXNVVkxPemNqQ01HTFFUbEg2Qm5YNG5jT1FKY2NBMzVWcklXSHJmT0ZCQTRVRVFabmJsdEF3?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "27-07-2026 04:31 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -804,52 +903,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Agentic AI: Taming the Unpredictable",
-      "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
-      "summary": "Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.",
-      "date": "17-07-2026 06:57 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
-      "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
-      "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
-      "date": "17-07-2026 05:41 AM",
-      "tags": [
-        "AU Cyber",
-        "EdTech",
-        "AI & Tools",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "DigiCert survey finds 81% of Australian organisations hit by AI security incidents or vulnerabilities",
-      "link": "https://australiancybersecuritymagazine.com.au/digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities",
-      "summary": "DigiCert research suggests AI-related security problems are already affecting many Australian enterprises, with 81% of surveyed organisations reporting either an AI-related incident or identifying AI-related vulnerabilities. The survey of Australian [...]",
-      "date": "16-07-2026 10:02 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
