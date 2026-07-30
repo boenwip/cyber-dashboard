@@ -1,16 +1,73 @@
 {
-  "last_updated": "30-07-2026 11:42 AM",
-  "count": 29,
+  "last_updated": "30-07-2026 02:50 PM",
+  "count": 59,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Logokit phishing kit builds real-time fake login pages",
-      "link": "https://securitybrief.com.au/story/logokit-phishing-kit-builds-real-time-fake-login-pages",
-      "summary": "Victims can be tricked more easily as Logokit now tailors fake login pages in real time, sending stolen credentials to Telegram bots.",
-      "date": "30-07-2026 09:16 AM",
+      "title": "AI boosts nation-state cyberattacks, TrendAI warns",
+      "link": "https://securitybrief.com.au/story/ai-boosts-nation-state-cyberattacks-trendai-warns",
+      "summary": "Defenders in Australia and New Zealand face faster, more adaptive intrusions as state-backed hackers use generative AI to scout and spread.",
+      "date": "30-07-2026 01:19 PM",
       "tags": [
         "AU Cyber",
-        "Scams"
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI launches ChatGPT for researchers in Australia",
+      "link": "https://securitybrief.com.au/story/openai-launches-chatgpt-for-researchers-in-australia",
+      "summary": "Free access to ChatGPT will reach 10,000 Australian researchers first, as OpenAI targets science and maths work at universities.",
+      "date": "30-07-2026 01:15 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Flying Eagle' Full-Service Mobile RAT Builder Wings Across China",
+      "link": "https://www.darkreading.com/endpoint-security/flying-eagle-mobile-rat-builder-china",
+      "summary": "A premium-grade malware-as-a-service offering takes flight with multiple threat groups, building infostealers that drain victims' bank accounts.",
+      "date": "30-07-2026 10:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "OpenAI's Rogue Model Claims More Victims Beyond Hugging Face",
+      "link": "https://www.darkreading.com/application-security/openai-rogue-model-claims-more-victims-beyond-hugging-face",
+      "summary": "OpenAI revealed rogue AI models compromised more services than initially disclosed, including a Modal customer environment and others.",
+      "date": "30-07-2026 05:48 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Who's Liable When AI Agents Escape? Hugging Face Breach Raises Hard Questions",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/liable-ai-agents-escape-hugging-face-breach-questions",
+      "summary": "Dark Reading walks through the many twists and turns in the bizarre story of how OpenAI's agent AI system broke out of its sandbox and decided to target Hugging Face, and what CISOs should be aware of.",
+      "date": "30-07-2026 03:43 AM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -30,10 +87,36 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "Hugging Face Hack Lessons for Cyber Defenders",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hugging-face-hack-lessons-cyber-defenders",
+      "summary": "Dark Reading Confidential Episode 20: Expert Rich Mogull reflects on lessons cyber teams should pull from the OpenAI agent's attack on Hugging Face.",
+      "date": "30-07-2026 03:35 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Patch-Resistant 'RufRoot' Flaw Can Unleash Malicious AI Agent Swarms",
+      "link": "https://www.darkreading.com/cyber-risk/patch-resistant-rufroot-flaw-malicious-ai-agent-swarms",
+      "summary": "The vulnerability in the AI hosting platform Ruflo allows an unauthenticated attacker to take over the system and corrupt memory, so bad behavior can persist after patching.",
+      "date": "30-07-2026 12:40 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 4 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQNmFDMlVaWUctb2JsTHlVNF9uRkpMQkl6aW54WWowdkZ6Z25BXzVwX0xlcVFJRnAzSkp5SE5LM3ZQdElsbGY3NmlGT1d6TkR6TmR2SDlSWVExeXllRmxHSVhUOEhLcnpDa3ZxNUdYQi0tTGxocDVZcElhSGoyODNEQ1RKZEJ0WVBna0FEcG1NVktCWEp5N3RRWVB0UmtTRUtpYnRQVWlRM09mOVNiZHNyNHZBaS1iXzZFSUxfUXA1RnVabThOVmtjVkctRjhXUGd5cHdDYTFR?oc=5",
-      "summary": "Browse news and alerts - page 4 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 4 Scamwatch",
       "date": "29-07-2026 07:02 PM",
       "tags": [
         "AU Cyber",
@@ -76,6 +159,33 @@
       "relevance": "AU General"
     },
     {
+      "source": "Dark Reading",
+      "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
+      "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
+      "summary": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
+      "date": "29-07-2026 06:27 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
+      "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
+      "date": "29-07-2026 06:05 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "404 Media",
       "title": "\u2018The Government Hopes To Set a Precedent\u2019: An Interview With the Man Charged for Allegedly Wiping His GrapheneOS Phone",
       "link": "https://www.404media.co/the-government-hopes-to-set-a-precedent-an-interview-with-the-man-charged-for-allegedly-wiping-his-grapheneos-phone/",
@@ -85,6 +195,19 @@
         "Good News"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
+      "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
+      "date": "29-07-2026 02:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
       "audience": [],
       "relevance": "Global"
     },
@@ -102,10 +225,23 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
+      "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
+      "summary": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
+      "date": "28-07-2026 06:33 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 7 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 7 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNWXJwMDdRandlX2lWZzNjdmNBaXM2bkp5RlROaVZzbGV0RHpUR1ZCN1NFU25qVG0tNW45NXBvQW91Y2VCaXVfNm4xVlYyT3AyNm5Id3ZWZVd6Z1BwUmxQcHVsc1pvRHZJR0xTMFlVOFo0VFhxMEJKM2xMTEZjSmd1YjFwZmV2R2lyc01fbTM3Rnp5OUdwV1VfMGt4YWdsQlBCQkhoUEJYMTZrWmUwTGdCbWZoVHRDbFhmVDk0TXRwRHpkVEczSXgwUThteURhVU5UQmxMSWJYX3dlSm1LYnpyX2lPeUpCQ1hVMVo3RDVIdmJIc1A2MHhpRzRjS0ZxQnpPWnhyejhrSERxRjAwbjRzWFVXQjhJYzExUEQtbi15OHdoQQ?oc=5",
-      "summary": "Browse news and alerts - page 7 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 7 Scamwatch",
       "date": "27-07-2026 09:18 AM",
       "tags": [
         "AU Cyber",
@@ -119,9 +255,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - scamwatch.gov.au",
+      "title": "Browse news and alerts - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNX3lNeFFWUjZkdUN2cTNYN0Z2VldMemhwUEc2TDZKdS11U0kyUXF3MkNxSmpqV3JYM3NoOWpRbmNHYlZ4UTllUjdSMUZvVXFFay1iNXVCcHprNE5SY2E2Q3VlRHh2a0JHMWV4Z2FUYjBINGtkOGpJaFVqdXU2QnhacXNyMWE1MXRsWGFCVk82d3JKYXh3VS13dTA5aEtVWTFDVUwzSFF4cHROOUxOZW1vLVRTVGJJNnZPS3JFNEt0WUQ0Y01Rc0RweE81M3N6bFJLM0s2ZGM4MGYxMjJtZDBNRlVoVVdkRXJsSUNPb1F2VWZDTnM1c2RObEZTd2NaQjBqNWxCR082UW11WGl5X0wwSVFMQ2hUbmZYNVh0czgzdUQ5SlJYOGxialluNGo1Z24wa1R5RG5LVUlsTGcxZEE?oc=5",
-      "summary": "Browse news and alerts scamwatch.gov.au",
+      "summary": "Browse news and alerts Scamwatch",
       "date": "27-07-2026 09:06 AM",
       "tags": [
         "AU Cyber",
@@ -135,9 +271,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 6 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 6 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNWmRiOUFLT2xtb1NaajNnQXdwd1c2dm5sNmtkYnFuRW1pb0pSQ3lqTEZLOW5ULXNXaXFDRUdvajNSWC12Y2pQTHFWWHRLMFpXMldHV0dwSWxzcGtvMW9xY0ttM0huWWxFM0hkcE5xaXBkN05YRmZha0Q0SC1kVWVma3JiMVVHVTJrcnJ4NDlVLW1HMVhXbXBYR2Z0bnc4b0xjYWxENU9Cbld6cldyWUxyVWVHOFljM292X2hGNXhNbmdYSzJaX0pFUGgweGpsVHA5ZHJsS1RiZkwydzYyY3A4NG96TWFDMk5uallqVGxqbVU3THdFUm1zdzg4UGdjeTFuSWJOdWxvOU8wWjY1ekYwOC1LbzBnTHk4eHhSeGI3U0tHa3g0NWVRX3JSdXZTRlYtaEIzMXJuMDlpMjR1Nnc?oc=5",
-      "summary": "Browse news and alerts - page 6 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 6 Scamwatch",
       "date": "27-07-2026 09:03 AM",
       "tags": [
         "AU Cyber",
@@ -151,9 +287,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNT29MQVIyeUdNMDdyaFNOOWlMeGRqQzFCQ2NOdmxNOW5DRmRUQVpnNmJpTWFlVmVJOWNzaVQ2Y0oxQkpKaV9uc05LQXV0SFJIT3RKVVdzNGo0Sk9ialQzY3l5NEJoa2Y5SzdRS2M2VHdDWk5nT0UxUnZMM2trdnEzTHMwMlNXanlpVE91OXpPWC1HdlI1T1lqckZXUE5FQmM4RDdNc3BhOTFvZVppVk1ZUDNfZnU1UDdPT2s2VDNXSWo0RkNQUUkzUEQwcUtCVmhtM2huVHN6OEVic1UxWGNoZEJMZTVMT0lXOXlSOVdWQXliRGgycW9qaFd3?oc=5",
-      "summary": "Browse news and alerts - page 3 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
       "date": "27-07-2026 08:24 AM",
       "tags": [
         "AU Cyber",
@@ -167,9 +303,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNcXNRVkFTSW1OMTNLS1hkM0VPOC1uT0FVWXNwVThHSUpvMjB3Sjg0THRxOXhSVzR6YnBpX2o2elZsZ3JVc1A1T3RjbVd2VUhGLWtFaVJNTTczWkVrZnBFdm54cV9aZTA4VEVhNk96UUxzb3AwZ3BtcUpZS2h0M1BybGNnQWFoZlVrYmJWVW1TODFCT0ZKTjdtVkcyWk1ieFZ6UFJrMVpiWS13WlJkc0MwY3VmXzY3OUF3OGxUZXVDU0VXc2lvdDZzeDl2WklsOU9fVDhLMmdSRmhqR1EyeVBjVDhoRWVWRmxaeTAwSGpqT0ZoZWlGbjFON09yRk9uZjJoQkRvZk5ZN2RtcjN3NGpGV3BLR2FkM3NoeU12Q052MUhyV2dxMENOY0twbG1MbDZ5eEh0M0dkcEkxSkI5WGc?oc=5",
-      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
       "date": "27-07-2026 07:31 AM",
       "tags": [
         "AU Cyber",
@@ -183,9 +319,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 12 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 12 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxNUEFUWVo2ZTRMQUsxSExDT3F6b3hycnJmTkl1TGVtN2JDMmlOYVNybjJMbjdycW1SYk02TG45N1I4MVBZcEhqZG1feWdqeUpMN2FlYVRFMVMyWWpWa1BSdklKc2VxYW9NYURLWnhlUW5xUjdyVmR6QXlGUlBoNEhJY3lDNGFsaGxtNV9PNGFRYWxnRkFSa3BsRFNOeUJfNFNaRVdmbHZQeENFdkUyWklsNlU2aC1zNGlaYm55TGEtdXNCYjBYby10WUV1OVdzeU1nOWxfRUpXeWlvNEl1TTVzTjcwbmpaRFR6UjdXZ3NiZDdhT1NfVFFRblFhNXRWMkcwOVAxUldjNi0zUlRDRFluV3pCeHBjaXNkaTBwYnJlQ3BxSGs?oc=5",
-      "summary": "Browse news and alerts - page 12 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 12 Scamwatch",
       "date": "27-07-2026 07:25 AM",
       "tags": [
         "AU Cyber",
@@ -199,9 +335,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 10 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 10 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQY0lBQjFDRlVSR0R6bkwyOFZ5THZjQ2tSOFYySHNUdjgzU1ZWYWl3YmRBMWtiY1hCaVYyZlh2X3c5UXNZZVdFNG50ekUwUTR2OHBxQmVCd3k2LURHN1RIbVZrUnBOZTI1Mm9kcDMtcWs4QXlrUGxxQW1GbWdZVllqWW5Hc05Pcm9md1Z5TFhTUENxQTFiZ1J6bkFpUHhaVVJkZEFoWDZUT3NOZ1BhYThzRTlGSjdMRkR2bFRDTDZlMk1WMnBaLUE3RGZmSDdtemVGS1paU3NxVzhESGJVVE9nQl94VWxxYUNVWjZhRURKUkdyVGhJeTJWdFJMSU5BX0xNQkd5VGhDSnNrelVnYjhZMkw2VjJKdVl6ZUh1cEVoM0VWdnBnOXA1TnFMQkpwSy1hNDlEMDJWNDc4dVlyRUE?oc=5",
-      "summary": "Browse news and alerts - page 10 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 10 Scamwatch",
       "date": "27-07-2026 07:21 AM",
       "tags": [
         "AU Cyber",
@@ -215,9 +351,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 14 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 14 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxObnAtZE81emlSOGNiSHAzY2xIRGJXM1ZBdmVaV1JWMWd0NDlmVDlTTEdjOHE0WTl4S1pWMGVORFhzd3NUVHRkSXlHSEU2VE5JUV9XbnBHcG8yZUpqSUZ4cldzXzlibGhhT3BudWExNWNKTXhPU2wwQV9iamFmU1hlYTNKLWU0ZXJ2Q18tVjhVbnNoMHU4eUFjYmNmTEZwdjN6TFpCakR2Um9NNFI1Wkd1YS1pUUZ1OXAtbEpYU3hXLVRQdjNuNzFVSFQ1R2FrbkpuTkdSTlgtcDJOVFVCWUlZWmRIb3pPcDVWX2FSV2JkNUJkR2c5RXBkYU1xQlMtb25lSkpPeENtRWpBN2NDcUswY3l3Yk5mQ3JPbEZicDVCNzY?oc=5",
-      "summary": "Browse news and alerts - page 14 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 14 Scamwatch",
       "date": "27-07-2026 05:05 AM",
       "tags": [
         "AU Cyber",
@@ -231,9 +367,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 16 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 16 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMinANBVV95cUxQZ3Nwc3YtZ2RLNGMyU1BiTkdLVU5tc3hoY25rY2luanNtSUpSbDFRTlZkQmY1RndrVDRtRjEwU2hHM0MtTlJ5TVJ5MU11TGpIajNsNW9KZWpQTnhRdnVKQlMzNmFwWXIxS0h6ZkpHLXpVUXd1aGdwOG9uTXpSUUxmdV9KQl9SU215dUhtUTJYZFJkQUJ6MFJKTVNVU0h5empXVGpPNmdMVnVBSlBhdVcxY1Y4MDlyZktFbUZzYTNEcmE4UmttLXNDQS1XOV9ka1kxa0hUV2VFY3NVUTN1NkhRODB0UnhaUW5wSzVUVjl4eElLYnk0M2k0NDdZQzlleHZqUjVQVEU5Q0NtcEloQnFndnRHVmh0WHZvU0pDOGpPeHdlUzc5VE9NcXpMWlJlMV9qNk1FaC1HQlpvSEh6M1loTEhXTnlFZW1SUi02VmEta0Jsc3lXMm5GajNZVHIxUWdESHNYS3pQSFpjZ195cmRMWWE1MnBUeUZtRXVVNWEtcWVtcWtBbjdmek5uZ2p5ZTJ1YUhmQmkwWE92bTVU?oc=5",
-      "summary": "Browse news and alerts - page 16 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 16 Scamwatch",
       "date": "27-07-2026 04:39 AM",
       "tags": [
         "AU Cyber",
@@ -247,9 +383,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOZ1JXcXlWYkJwYmVGcWtiS1pRWFZmQ1dmMkhXZVZqY0t3Sm02WjFkcUpLaVVjd0ROQzNjMzNzQ2VkempKRXNnb1A5Vzl2RmJwcVJ2Y3VuVEF4OEVuS1VINldNcWZYWklrUlBZNjg1VW5wWEd5SENmRzhETWtjdEJTTWlub01CWXRSTWVFTWZWVk5PbElibzc1eDM3U3YtZnA0RWwxanVGNG1RbVZkNGo3MW04bW5FcFUteGd2SXRrMVU2bDRaSHZqTlpaMldackptTGxJdDVJNHJjRGdpUjhXNGtacTdCdnVMQmNPSG1nQkJPd1ZrZ3NDUTVHdkJ2Y2hnaFVSTFdKX1pYQXNVVkxPemNqQ01HTFFUbEg2Qm5YNG5jT1FKY2NBMzVWcklXSHJmT0ZCQTRVRVFabmJsdEF3?oc=5",
-      "summary": "Browse news and alerts - page 5 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
       "date": "27-07-2026 04:31 AM",
       "tags": [
         "AU Cyber",
@@ -263,9 +399,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 9 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 9 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOZzJFb1F5Rmd5RmpYc2xVclF1OEtaWXAyUVliaUt4U2xxdEZZaGdQbDFLcFhvSDZDSE9NQjNqRXR5NnB1STN1Q1V2ZGFQaDUwaGFiQlRpM2xndjFyUFpiQndqdUZBSDJNWFlzWHJIMEpWVFU1cEUySnctWWZpdXFhaU5jczJSVUZXTXBhSFpQaW9FOEZqZ0tuaWFuSmdPVWQzTzhjTVk0dEEzZG8yMy05X2NVUHhTV1MzSnRJSXF3YnFPdFNSel8yaUJSTzU3YkFSYmFUS2ZzVHlYYXB0YUJaNG4zY2pPb0s4WTJ2RU5jMzdNS0lzSFVmanlxbl9KRlFDTFNxMTBwT2Jzc3ZZcU5wMVIxZ1pOLWUwR01HUE92VQ?oc=5",
-      "summary": "Browse news and alerts - page 9 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 9 Scamwatch",
       "date": "27-07-2026 12:40 AM",
       "tags": [
         "AU Cyber",
@@ -295,9 +431,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 8 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxOcHJwOHB0VWdmM2xpUjZXVWdlRHZzdThfTDFPRW9KektCUzlDeG5aZ1BIWGJLMnVSWHBMYzlwWnY2NDRJZnZCTUZONWs1cEhsb2VNeVlvbm91RFVfb0RxVWRScnJTWlN5dHVsLUJkOWJPQ3ZaM1psRWFqb21MYkRaVkFiZFRuVGU4ajdpV1pNTlZSckhfZnNfZ2Nsalo2dHFHWDZzNmxGNU5MZTRnUFRqX1Ixbi1kN0lSU2tXUmpBd3V6djFwV29pR0NIZHRmMkZDTjN6WkxzQS1lSTdQMzg5SzJFXzRTV1lfU3hSM0NvU1g2UkVRVW10SEtBXzZ5ZFNFN2xRTXdxT3hBU0pKVzBSZGgyQVVOZVpyNUtoWE9R?oc=5",
-      "summary": "Browse news and alerts - page 8 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 8 Scamwatch",
       "date": "26-07-2026 05:24 PM",
       "tags": [
         "AU Cyber",
@@ -307,6 +443,32 @@
       "audience": [
         "Consumer"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Escape Artists: 'Incorrigible' AI Models Resist Rehabilitation",
+      "link": "https://www.darkreading.com/cybersecurity-operations/incorrigible-ai-models-resist-rehabilitation",
+      "summary": "The hacking of Hugging Face by a rogue OpenAI agent is significant, but unsurprising \u2014 and preventing the next AI model escape will be difficult, at best.",
+      "date": "25-07-2026 05:45 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
+      "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
+      "summary": "Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.",
+      "date": "24-07-2026 10:48 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -320,6 +482,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
+      "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
+      "date": "24-07-2026 07:23 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -351,6 +529,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Dark Reading",
+      "title": "Agentic AI Challenges Progress in Confidential Computing",
+      "link": "https://www.darkreading.com/endpoint-security/agentic-ai-challenges-progress-in-confidential-computing",
+      "summary": "Core issues that slowed down adoption of secure data vaults are being resolved by technology, but artificial intelligence poses new ones. Experts have some answers.",
+      "date": "23-07-2026 09:17 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "Origin Energy confirms customer data breach after unauthorised access",
       "link": "https://australiancybersecuritymagazine.com.au/origin-energy-confirms-customer-data-breach-after-unauthorised-access/?utm_source=rss&utm_medium=rss&utm_campaign=origin-energy-confirms-customer-data-breach-after-unauthorised-access&utm_source=rss&utm_medium=rss&utm_campaign=origin-energy-confirms-customer-data-breach-after-unauthorised-access",
@@ -362,6 +553,90 @@
       "threat": "Advisory",
       "audience": [
         "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
+      "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
+      "date": "23-07-2026 11:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
+      "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
+      "summary": "Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.",
+      "date": "23-07-2026 09:50 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Are Learning to Live Off the AI Toolchain",
+      "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
+      "summary": "Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.",
+      "date": "23-07-2026 07:29 AM",
+      "tags": [
+        "AU Cyber",
+        "Education",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
+      "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
+      "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
+      "date": "23-07-2026 05:42 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "When AI Attacks: OpenAI Models Autonomously Hack Hugging Face",
+      "link": "https://www.darkreading.com/cyber-risk/openai-models-autonomously-hack-hugging-face",
+      "summary": "Advanced LLMs escaped their sandboxes while attempting to achieve a non-malicious benchmark test objective.",
+      "date": "23-07-2026 01:53 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "EU Financial Institutions Leak Data Through Cookie Trackers",
+      "link": "https://www.darkreading.com/data-privacy/eu-financial-institutions-cookie-trackers",
+      "summary": "European and US banks inadvertently transmitted customer data to ad platforms via tracking pixels, raising serious compliance, security, and privacy concerns.",
+      "date": "22-07-2026 09:30 PM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
         "Consumer"
       ],
       "relevance": "Global"
@@ -395,6 +670,46 @@
       "relevance": "AU General"
     },
     {
+      "source": "Dark Reading",
+      "title": "Ransomware Is Accelerating, but It's Not Because of AI",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-is-accelerating-not-ai",
+      "summary": "Researchers pointed to fragmentation of the ransomware ecosystem, the emergence of new attackers, and expansion of attacks on less defended organizations.",
+      "date": "22-07-2026 07:48 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Using LLMs to Find &amp; Prioritize Vulnerabilities Is No Easy Task",
+      "link": "https://www.darkreading.com/application-security/finding-and-prioritizing-vulnerabilities-no-easy-task",
+      "summary": "The latest large language models have high false-positive rates and fail to take into account the context of scans, leading to more work for AppSec professionals.",
+      "date": "22-07-2026 07:27 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
+      "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
+      "summary": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
+      "date": "22-07-2026 04:38 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "Veeam appoints Philip Goldie as Vice President for Australia and New Zealand",
       "link": "https://australiancybersecuritymagazine.com.au/veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand/?utm_source=rss&utm_medium=rss&utm_campaign=veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand&utm_source=rss&utm_medium=rss&utm_campaign=veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand",
@@ -411,6 +726,117 @@
       "relevance": "AU General"
     },
     {
+      "source": "Dark Reading",
+      "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
+      "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
+      "date": "21-07-2026 07:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
+      "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
+      "summary": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.",
+      "date": "21-07-2026 06:26 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "CISOs Feel the Heat Over AI Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/cisos-feel-heat-ai-risk",
+      "summary": "Job pressures have increased as companies run headlong into AI adoption, causing 26% of top security executives to consider leaving their position.",
+      "date": "21-07-2026 05:07 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Combo Up Evasion Tactics for BEC Phishing",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-combo-evasion-tactics-bec-phishing",
+      "summary": "\"The TFF Trap\" uses fileless techniques and loaders with low detection rates to deploy various RATs and stealers, including Agent Tesla, Remcos, XWorm, and Best Private Logger.",
+      "date": "21-07-2026 04:30 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Inc Ransomware Exploits SonicWall SMA Zero-Days",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/inc-ransomware-exploits-sonicwall-sma-zero-days",
+      "summary": "When chained together, the two vulnerabilities allow threat actors to gain root-level capabilities on SonicWall's mobile access appliances.",
+      "date": "18-07-2026 06:01 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Gold Eagle Clearinghouse Targets Security Gap, But How Is Unclear",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/gold-eagle-clearinghouse-targets-security-gap",
+      "summary": "The White House launched Gold Eagle to coordinate vulnerability response in a new AI world, but multiple questions linger over how it's being implemented.",
+      "date": "17-07-2026 11:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Agentic AI: Taming the Unpredictable",
+      "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-untamable-ask-the-right-security-questions",
+      "summary": "Agentic artificial intelligence is creating enough risks for organizations to demand a security reframe.",
+      "date": "17-07-2026 06:57 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "1M+ Emails Use Hidden Text to Dupe AI Security Filters",
+      "link": "https://www.darkreading.com/threat-intelligence/1m-emails-hidden-text-dupe-ai-security-filters",
+      "summary": "Artificial intelligence and LLMs can be surprisingly ineffective against text salting, allowing phishing emails to slide right into your inbox.",
+      "date": "17-07-2026 05:41 AM",
+      "tags": [
+        "AU Cyber",
+        "EdTech",
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "DigiCert survey finds 81% of Australian organisations hit by AI security incidents or vulnerabilities",
       "link": "https://australiancybersecuritymagazine.com.au/digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=digicert-survey-finds-81-of-australian-organisations-hit-by-ai-security-incidents-or-vulnerabilities",
@@ -424,19 +850,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Cybersecurity Across Disciplines: Why Every Profession Needs Cyber Capability",
-      "link": "https://australiancybersecuritymagazine.com.au/cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability/?utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability&utm_source=rss&utm_medium=rss&utm_campaign=cybersecurity-across-disciplines-why-every-profession-needs-cyber-capability",
-      "summary": "By Faraz Khan During my international Fellowship on cybersecurity education, one lesson became increasingly clear: some of the most important cybersecurity decisions are made by people who do not work [...]",
-      "date": "16-07-2026 01:25 PM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     }
   ]
 }
