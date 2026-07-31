@@ -1,5 +1,5 @@
 {
-  "last_updated": "31-07-2026 08:41 PM",
+  "last_updated": "01-08-2026 03:40 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "31-07-2026 08:41 PM"
+      "date": "01-08-2026 03:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "31-07-2026 08:41 PM"
+      "date": "01-08-2026 03:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "31-07-2026 08:41 PM"
+      "date": "01-08-2026 03:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "31-07-2026 08:41 PM"
+      "date": "01-08-2026 03:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "31-07-2026 08:41 PM"
+      "date": "01-08-2026 03:40 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-desktop-update_062534187.html",
+      "summary": "<p>The Dev channel has been updated to 153.0.7979.3 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0.7",
+      "date": "01-08-2026 01:43 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for_02055466180.html",
+      "summary": "<p><span style=\"font-family: Roboto, sans-serif; font-size: 13pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS&nbsp; version </span><span style=\"background-color: ",
+      "date": "31-07-2026 09:20 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -61,42 +77,26 @@
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-desktop-update_01933553911.html",
-      "summary": "<p>The Chrome team is excited to announce the promotion of Chrome 152 to the Beta channel for Windows, Mac and Linux. Chrome 152.0.7977.8 contains our usual under-the-hood performance and stability tw",
-      "date": "31-07-2026 12:28 AM"
+      "title": "Chrome Beta for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-ios-update_0466681406.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.11) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
+      "date": "31-07-2026 08:13 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/07/chrome-for-android-update_01846374933.html",
-      "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.71)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available ",
-      "date": "30-07-2026 08:00 AM"
+      "title": "Chrome Beta for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-beta-for-android-update_015820283.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.8) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>You",
+      "date": "31-07-2026 05:28 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/07/stable-channel-update-for-desktop_0887107924.html",
-      "summary": "<p>&nbsp;<span face=\"Roboto, sans-serif\" style=\"color: #666666;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 151.0.7922.71/.7",
-      "date": "30-07-2026 07:16 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/07/beta-channel-update-for-chromeos_0335730725.html",
-      "summary": "<p><span face=\"Arial, sans-serif\" style=\"white-space: pre-wrap;\">The Beta channel is being updated to OS version 16733.33.0 (Browser version 151.0.7922.56) for most ChromeOS devices.</span></p><span i",
-      "date": "29-07-2026 05:02 PM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "http://chromereleases.googleblog.com/2026/07/long-term-support-channel-update-for_030076835.html",
-      "summary": "<p><span style=\"font-family: Roboto, sans-serif; font-size: 12pt; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;\">A new LTS-144&nbsp; version </span><span style=\"background-col",
-      "date": "29-07-2026 10:19 AM"
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/07/chrome-dev-for-android-update_01641604455.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Dev 153 (153.0.7978.2) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "date": "31-07-2026 03:58 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -141,18 +141,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI Debuts ChatGPT Work Agent and New GPT-5.6 Models - MacRumors",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRGh5eDg0WEdUc1RqQWNHVlRSTW13d3NnS0tJMFJYRzVWaFpfLWRWbFVPS0JfX0xzU3Y2U0tVUUxQd1piNDJJTDdPcEV1OHpacXhxU0JsUUY5OGd2dl9xNTNWQ3YxTGNT?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRGh5eDg0WEdUc1RqQWNHVlRSTW13d3NnS0tJMFJYRzVWaFpfLWRWbFVPS0JfX0xzU3Y2U0tVUUxQd1piNDJJTDdPcEV1OHpacXhxU0JsUUY5OGd2dl9xNTNWQ3YxTGNT?oc=5\" tar",
+      "title": "ChatGPT is now a partner for your most ambitious work - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ",
       "date": "09-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI releases new voice models for more natural live conversations - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW8yZmpKTHV6VkU2bkVWeWVxakdVb2liMG84TTM3Unp3MW5jaVE2enN2eHBrTzVUZXBsaXdwOFV3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNWGFnMjFvVFZQejlWdFNQQkdmQ2U3T24xeHd4bFhZWFhBanlnOUxKVzZiei1ubmJTYU9XREU0N2taTjZnbUZBbUw4Q3VkMDZFcmxUT1NlemZobWY5QmR2QVR5LVEyVnhOQ2NSa2dqdW",
-      "date": "08-07-2026 05:00 PM"
+      "title": "OpenAI Debuts ChatGPT Work Agent and New GPT-5.6 Models - MacRumors",
+      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRGh5eDg0WEdUc1RqQWNHVlRSTW13d3NnS0tJMFJYRzVWaFpfLWRWbFVPS0JfX0xzU3Y2U0tVUUxQd1piNDJJTDdPcEV1OHpacXhxU0JsUUY5OGd2dl9xNTNWQ3YxTGNT?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiaEFVX3lxTFBqRGh5eDg0WEdUc1RqQWNHVlRSTW13d3NnS0tJMFJYRzVWaFpfLWRWbFVPS0JfX0xzU3Y2U0tVUUxQd1piNDJJTDdPcEV1OHpacXhxU0JsUUY5OGd2dl9xNTNWQ3YxTGNT?oc=5\" tar",
+      "date": "09-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
