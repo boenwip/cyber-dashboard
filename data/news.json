@@ -1,7 +1,53 @@
 {
-  "last_updated": "31-07-2026 09:10 AM",
-  "count": 63,
+  "last_updated": "31-07-2026 11:05 AM",
+  "count": 66,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Google Cloud adds group IAM auth to AlloyDB preview",
+      "link": "https://securitybrief.com.au/story/google-cloud-adds-group-iam-auth-to-alloydb-preview",
+      "summary": "Large enterprises can now manage AlloyDB permissions through Google Groups, reducing shared credentials and tightening audit trails in preview.",
+      "date": "31-07-2026 11:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "KnowBe4 launches vishing simulations for staff training",
+      "link": "https://securitybrief.com.au/story/knowbe4-launches-vishing-simulations-for-staff-training",
+      "summary": "Employees now face more realistic phone-based fraud tests as security teams can simulate vishing using local caller IDs and AI voices.",
+      "date": "31-07-2026 10:20 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACMA takes Optus to Federal Court over September 2025 Triple Zero outage",
+      "link": "https://australiancybersecuritymagazine.com.au/acma-takes-optus-to-federal-court-over-september-2025-triple-zero-outage/?utm_source=rss&utm_medium=rss&utm_campaign=acma-takes-optus-to-federal-court-over-september-2025-triple-zero-outage&utm_source=rss&utm_medium=rss&utm_campaign=acma-takes-optus-to-federal-court-over-september-2025-triple-zero-outage",
+      "summary": "The Australian Communications and Media Authority has commenced Federal Court proceedings against Optus Mobile Pty Limited, alleging the telecommunications provider breached its legal obligations during the September 2025 network outage [...]",
+      "date": "31-07-2026 09:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra",
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Contrast launches CVE Shield to block exploit attacks",
@@ -58,19 +104,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "BreachLock report flags AI, cloud & web logic risks",
-      "link": "https://securitybrief.com.au/story/breachlock-report-flags-ai-cloud-web-logic-risks",
-      "summary": "Cloud audits produced the highest critical finding rate, while every AI system tested showed vulnerabilities and web logic flaws rose sharply.",
-      "date": "31-07-2026 04:37 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Krebs on Security",
       "title": "Read This Before You Buy That TV Streaming Stick",
       "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
@@ -80,37 +113,6 @@
         "Scams"
       ],
       "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "System administrators face growing security burden",
-      "link": "https://securitybrief.com.au/story/system-administrators-face-growing-security-burden",
-      "summary": "Cloud, AI and hybrid work are pushing system administrators into frontline risk management as phishing threats become harder to spot.",
-      "date": "31-07-2026 02:25 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Entersekt appoints Clare Conway as Chief Executive Officer",
-      "link": "https://securitybrief.com.au/story/entersekt-appoints-clare-conway-as-chief-executive-officer",
-      "summary": "The financial authentication firm is shifting to a new executive structure as it expands internationally and tackles rising fraud and scam activity.",
-      "date": "31-07-2026 01:29 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
       "audience": [
         "Consumer"
       ],
@@ -208,6 +210,19 @@
         "AU Cyber"
       ],
       "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Microsoft faces competition probe over Copilot subscription price hike - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTDFpZElHSERXRVJsMVBRWE5HU3NISTM4bWp4bTN3ZFVYOGhwOGkweUZZSlN4VEJRRzlpRlc0M3M4blRYU2UtdEJUMnpfcWFIRDVQblFRc3pOenRmUTU0ZnNoOGQ1cDBRMUJkeUt6SXJ6VDUwSG9pazk1MV9aMUlON1lReTNLVG9memZxRVZvQ0tsZTA3d0F1dmduU0NsSG44UHZIMGJVYUxuWGd1azZvMndielMwRERabWZ5YUEwU1J6VGdW?oc=5",
+      "summary": "Microsoft faces competition probe over Copilot subscription price hike theregister.com",
+      "date": "29-07-2026 10:45 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -558,6 +573,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Dev accidentally commits Copilot binary to FreeBSD ports repo - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNVkkxODI5emI3RmN2ZVpqX0Jpb2M5N0NHWEJ6QUphb3FLSXRLZzljbkJQTWcyT2tKS2VhZzZkVTFtZk8xdmN3amhvYjhVQTdkWTNFWXBmRmhZWXRxYW05NlBneC1Ddl9wSG40eGU5dVk4Yjk5WnBoRmZ2SnF6RUswVWEybTVrc2JEXzhOeTZMNTdnRGh3SG5kT2dWb25OcnVXcUhiRVJ3WkxBOGZ3V1llVTJLd0JibWhhdGFVelJ3?oc=5",
+      "summary": "Dev accidentally commits Copilot binary to FreeBSD ports repo theregister.com",
+      "date": "25-07-2026 03:03 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
       "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
@@ -807,6 +835,19 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "OVH reveals semi-secret plan to fix critical Januscape hypervisor bug with mass reboots \u2013 and an Australian crash-test dummy - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZ08zcU9MVDdJNmZTZDVaSEltcmxaSWY1UFU4QUJnejNFOHltRU8yTnRWUnBSSk1VLXJGZV85N1JRcGRfeHRUNnVzckJvWFVocURuR29NeEVpMnYzbFFwVXVhUk9RbkRabTJkSzg0bVl2cjZDeTdhdHpsOGNXRXoyZF82T3k1a3hGaXFER2ZhVTJmb2lWVEYtU3BtRTV5MlgwSVBUQVUxOExoVDI2SlFheWRTWlAtNTJ0R3Iyd19CNHVHVjU4RERaNFBMcGdPN2hTYVNBd2lmMEZKM0o0R042RzhoZzlUd0FCcDBvd0tJVFBBRGx5NmRDSWg1VzJWNVplVm5YUEs3bHpTMzZ6cW8xam9B?oc=5",
+      "summary": "OVH reveals semi-secret plan to fix critical Januscape hypervisor bug with mass reboots \u2013 and an Australian crash-test dummy theregister.com",
+      "date": "21-07-2026 05:00 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
