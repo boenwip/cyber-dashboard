@@ -1,5 +1,5 @@
 {
-  "last_updated": "03-08-2026 07:52 AM",
+  "last_updated": "03-08-2026 08:58 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "03-08-2026 07:52 AM"
+      "date": "03-08-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "03-08-2026 07:52 AM"
+      "date": "03-08-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.218",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Changed <code>/code-review</code> to run as a background subagent, so review work no longer fills your conversation and keeps stacked slash commands as its review targ",
-      "date": "03-08-2026 07:52 AM"
+      "date": "03-08-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.217",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added emoji shortcode autocomplete in the prompt input: type <code>:heart:</code> to insert \u2764\ufe0f, or <code>:hea</code> for suggestions \u2014 disable with the <code>emojiComp",
-      "date": "03-08-2026 07:52 AM"
+      "date": "03-08-2026 08:58 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.216",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.216",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added <code>sandbox.filesystem.disabled</code> setting to skip filesystem isolation while keeping network egress control</li>\n<li>Fixed a slowdown in long sessions whe",
-      "date": "03-08-2026 07:52 AM"
+      "date": "03-08-2026 08:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -61,7 +61,15 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Investigating three real-world incidents in our cybersecurity evaluations - anthropic.com",
+      "title": "Anthropic's AI hacked three companies during tests, highlighting growing security risks - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FyTjVjNWQzY2dYblVWRlNJdGJwYkVuVVlXbkhBNURXR2VYenltaUVUR2I0emloLVB5S0dBTnpwUDJ0Q013dU1DQmZrLVhPeXcxY09pb0hyS3R4Q0ZFa2x4Y3Y5bzNJMGdtOVZZWE5iMFpjNmNLNjNOZlNKRnlBcmdRVW1NTUdrX1VYRk1nYjBKM3JCa3IwUENVbHRQNW44b25HRk91MUxNVVlDNXNxYTJWNjhLMHo0SzVqY203Yw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNQ0FyTjVjNWQzY2dYblVWRlNJdGJwYkVuVVlXbkhBNURXR2VYenltaUVUR2I0emloLVB5S0dBTnpwUDJ0Q013dU1DQmZrLVhPeXcxY09pb0hyS3R4Q0ZFa2x4Y3Y5bzNJMGdtOVZZWE",
+      "date": "31-07-2026 09:13 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQT",
       "date": "31-07-2026 09:03 AM"
@@ -91,14 +99,6 @@
       "date": "31-07-2026 03:58 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "How to try Claude Opus 4.8, the 'honest' Anthropic AI - Mashable",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE03M1pjaGtYNGI1S3hoSkpvOWlqZW9YV3lwQmQ4WERWbzZ1MkE1ZmkwR2NrTnNBOW1MX3JuMU44QzFzeGdCWEYzUkxWSkZkN3hXWmF2cnQ4cnVxZ3B2bm9XWHZ3?oc=5\" target=\"_bl",
-      "date": "31-07-2026 01:00 AM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "The next measure of AI momentum is work transformed",
@@ -113,6 +113,22 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oaEpUNWFfWkpwTGVESFEtX1ZxLW1nWFVVdGFBdHFwY0R1MmsyaU9ST1dlVG9ZSUZCNU5vUGVuTlZ4TjI2NmJhVFJFam1fMlBWS2c5OGFOQXZGd0dINWZndUc1VERDX0MySVppdjRNRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTE1oaEpUNWFfWkpwTGVESFEtX1ZxLW1nWFVVdGFBdHFwY0R1MmsyaU9ST1dlVG9ZSUZCNU5vUGVuTlZ4TjI2NmJhVFJFam1fMlBWS2c5OGFOQXZGd0dINWZndUc1VERDX0MySVppdjRNRQ",
       "date": "29-07-2026 04:28 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "An Anthropic Claude AI Model Finds Flaws in Tough-to-Crack Encryption Algorithms - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMUZ6UGlFUVFUZk51VFBqdW9TcThwY21DVDRvVkhVRWJSNnM2LUtBQm52MC1TcVhyS1hXMWpmRVhNNkM0cVk4WFVsWG1nRVR0bVJnTHk4eWxMZU5SQUtVRVlzaHVPMHZ3bHlSLXRHRlFjSUQ1Ylo2V3JMOUlnNUh4b2dBVzhBOFFzN0RtcHJhdE1fUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxPMUZ6UGlFUVFUZk51VFBqdW9TcThwY21DVDRvVkhVRWJSNnM2LUtBQm52MC1TcVhyS1hXMWpmRVhNNkM0cVk4WFVsWG1nRVR0bVJnTHk4eWxMZU5SQUtVRVlzaHVPMHZ3bHlSLXRHRl",
+      "date": "29-07-2026 03:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Microsoft's new AI model beats Mythos on security benchmark - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5\" targe",
+      "date": "29-07-2026 02:59 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -165,7 +181,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Your Microsoft Store Office apps are losing security updates this year - pcworld.com",
+      "title": "Your Microsoft Store Office apps are losing security updates this year - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1",
       "date": "30-06-2026 05:00 PM"
@@ -203,14 +219,6 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
@@ -235,14 +243,6 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
-      "date": "29-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
@@ -261,7 +261,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
       "date": "16-04-2026 05:00 PM"
