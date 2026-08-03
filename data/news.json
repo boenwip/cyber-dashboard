@@ -1,13 +1,56 @@
 {
-  "last_updated": "03-08-2026 08:58 AM",
-  "count": 60,
+  "last_updated": "03-08-2026 10:05 AM",
+  "count": 59,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Google expands AI infrastructure with Lustre & C4N",
+      "link": "https://securitybrief.com.au/story/google-expands-ai-infrastructure-with-lustre-c4n",
+      "summary": "The upgrades are aimed at easing bottlenecks for large AI and machine learning deployments, with clusters now scaling to 15,000 nodes.",
+      "date": "03-08-2026 09:56 AM",
+      "tags": [
+        "Education",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Infoblox warns cybercrime is becoming industrialised",
+      "link": "https://securitybrief.com.au/story/infoblox-warns-cybercrime-is-becoming-industrialised",
+      "summary": "Nearly 25 per cent of newly observed domains were high-risk, underscoring how AI and rented infrastructure are making attacks harder to detect.",
+      "date": "03-08-2026 09:30 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 6 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMnc4RHIwTDl4bWs0MlhjVkJ3a24xV09vSE13QzlpNWlaVm5rRGwxQklLaWEwOG5pTS04NGZhT0xJU0Y2bF91eEZaczRDSjVfbWVHbWFOS0g0Z1BwdHRlRkdKWnYtUFJjTHBnTHdoZ2tNRWJNMDYwZ2lGUzJrVlJUTUxDSU02d25ONml4RkhJakg1azZSVE5BQTlJZjBXblJjQ0puR21wR1NKRURaX3dCSnRDOUcwM0F5Q1JfMWdiNHV6T3Z3a3FCenJfeWZXdXFSSHpfZ1FVNzVRY2V4dDNVMGsyTWpkd3VDMnBXTmVyQWw5eTl5QkdTNmlR?oc=5",
       "summary": "Browse news and alerts - page 6 Scamwatch",
       "date": "02-08-2026 04:18 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 8 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQWR5dlZuWE9DWTBndGpZRWF6VnJ1RkxhbllydWJnRWNGb1NvZFcteGEzVkJiSHFLRGZyNGxfYTFKbVVBN1FHUmtPOVA3UHk3Z0FIbjhGQU15eXlhR0JzQ2hKVzBpUF9SZnB3bm9hQUdyNDI0RDVrQ2U0MVpLNXl6aUljbGJ4VUlyVVZuNXlPV0tYcW1qS1RYSkdNSUM0bWhTb25MWE5QODJPQ2pvSkpsSjZxUVFWenYyczdaSnZWd01rajBXMExuUi02YWx1SzFTeDFjMUR4OWd6MVczaFNEOVF4SDZPdzQ4RUhIOE9sNmNYV2NTRmdYV0x3?oc=5",
+      "summary": "Browse news and alerts - page 8 Scamwatch",
+      "date": "02-08-2026 03:35 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -135,36 +178,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Doppel honeypot spots Japanese phishing on day one",
-      "link": "https://securitybrief.com.au/story/doppel-honeypot-spots-japanese-phishing-on-day-one",
-      "summary": "Thousands of hostile emails exposed a gap in global threat intelligence, with Japanese phishing attempts landing on Doppel's honeypot on day one.",
-      "date": "01-08-2026 01:30 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Schellman finds AI governance gap amid regulatory pressure",
-      "link": "https://securitybrief.com.au/story/schellman-finds-ai-governance-gap-amid-regulatory-pressure",
-      "summary": "Most firms are still unprepared for AI scrutiny, with a Schellman survey finding governance programmes lag far behind audit confidence.",
-      "date": "01-08-2026 01:15 AM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -478,38 +491,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxQM2pCZ3VxUG9mMEZGRkRCYXdPWUw4WWVZaXdzUjdhMVNUQ21OQWhJYTBHMmR5dEsyMFN2ZDl5WE5sNGdzWXdpZzItQWM1R3p6MUxpMzZJU05COEZtdG1CalBMYzVnQ3Q4S2IzNnMxODBfUzc1WlktUFhtNWM2bl92Y1Izc1I1UXU3ZzJhMHBYNVRUb1NHR2FQZFIyaXhvX2ktZGpTdzBYVkktM3ZONk1ZY21qUTQtOG5xb2tlejdiRnRTN0t6dTFTbExJS2t3UUFKLVZCOVpWdjEtcjBvNXh5V3RKb04zbHltLVZsajlJbEVqak9ZdkFWWi1LTGkzejhwQW9MeGljajZ4T1cwS2duM1RMWmpRUmtnRk5NeThZTWhhQ2tSbGJyWGVGT1dWMUdpSHVtUFp5NHZvaUFtQ2VYa3JIU3BIcWR3Z3BTdHVCZw?oc=5",
-      "summary": "Browse news and alerts - page 8 Scamwatch",
-      "date": "27-07-2026 08:32 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 7 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxNWXJwMDdRandlX2lWZzNjdmNBaXM2bkp5RlROaVZzbGV0RHpUR1ZCN1NFU25qVG0tNW45NXBvQW91Y2VCaXVfNm4xVlYyT3AyNm5Id3ZWZVd6Z1BwUmxQcHVsc1pvRHZJR0xTMFlVOFo0VFhxMEJKM2xMTEZjSmd1YjFwZmV2R2lyc01fbTM3Rnp5OUdwV1VfMGt4YWdsQlBCQkhoUEJYMTZrWmUwTGdCbWZoVHRDbFhmVDk0TXRwRHpkVEczSXgwUThteURhVU5UQmxMSWJYX3dlSm1LYnpyX2lPeUpCQ1hVMVo3RDVIdmJIc1A2MHhpRzRjS0ZxQnpPWnhyejhrSERxRjAwbjRzWFVXQjhJYzExUEQtbi15OHdoQQ?oc=5",
-      "summary": "Browse news and alerts - page 7 Scamwatch",
-      "date": "27-07-2026 09:18 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
