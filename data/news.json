@@ -1,7 +1,91 @@
 {
-  "last_updated": "03-08-2026 07:26 PM",
-  "count": 59,
+  "last_updated": "04-08-2026 08:04 AM",
+  "count": 57,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Qualys launches InstaScan for faster vulnerability detection",
+      "link": "https://securitybrief.com.au/story/qualys-launches-instascan-for-faster-vulnerability-detection",
+      "summary": "Security teams could spot newly disclosed flaws within minutes as rising CVE volumes and faster attacks squeeze response windows.",
+      "date": "04-08-2026 08:04 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
+      "summary": "Over the weekend, the vendor discovered another vector of authentication bypass CVE-2026-18577 that gives attackers administrator access.",
+      "date": "04-08-2026 07:21 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic: AI Attacks Result of Security Gaps, Not Model Issues",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-ai-issues-result-security-gaps",
+      "summary": "Last month's incidents in which Claude breached real-world systems derived from over-permissioning, especially with Internet access.",
+      "date": "04-08-2026 06:31 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "\u2018Own the Narrative\u2019: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
+      "link": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
+      "summary": "\"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\"",
+      "date": "04-08-2026 03:13 AM",
+      "tags": [
+        "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic says Claude models accessed real systems in tests",
+      "link": "https://securitybrief.com.au/story/anthropic-says-claude-models-accessed-real-systems-in-tests",
+      "summary": "Misconfigured test setups let three Claude models touch live systems, exposing production data and credentials during security exercises.",
+      "date": "04-08-2026 02:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Doppel names Hideki Ushigome as Japan Country Manager",
+      "link": "https://securitybrief.com.au/story/doppel-names-hideki-ushigome-as-japan-country-manager",
+      "summary": "AI-driven phishing is heightening risks for Japanese organisations as Doppel expands locally and bolsters its response with a seasoned cybersecurity executive.",
+      "date": "04-08-2026 01:10 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "CrowdStrike says AI is now central to cyberattacks",
@@ -14,78 +98,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "BlackFog reports 40% rise in undisclosed ransomware",
-      "link": "https://securitybrief.com.au/story/blackfog-reports-40-rise-in-undisclosed-ransomware",
-      "summary": "Undisclosed attacks now dominate ransomware activity, with 2,027 incidents logged in the quarter and data theft reported in 97% of disclosed cases.",
-      "date": "03-08-2026 06:15 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Rimini Street launches AI governance service for firms",
-      "link": "https://securitybrief.com.au/story/rimini-street-launches-ai-governance-service-for-firms-5c8e7dad-a224-4248-a631-aac9ceb63876",
-      "summary": "The service targets firms struggling to monitor autonomous AI agents, as enterprises face wider security, compliance and cost risks.",
-      "date": "03-08-2026 05:15 PM",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike report: AI is rewriting rules of cybersecurity",
-      "link": "https://securitybrief.com.au/story/crowdstrike-report-ai-is-rewriting-rules-of-cybersecurity",
-      "summary": "Organisations now have just 48 hours to patch most flaws, as AI helps attackers weaponise vulnerabilities far faster than before.",
-      "date": "03-08-2026 05:02 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Workplace safety market set to hit USD $42.96 billion",
-      "link": "https://securitybrief.com.au/story/workplace-safety-market-set-to-hit-usd-42-96-billion",
-      "summary": "Employers are boosting spending on digital tools and training as safety moves from compliance to a driver of productivity and retention.",
-      "date": "03-08-2026 03:04 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Elula's Sweeper wins work as regulators tighten scrutiny",
-      "link": "https://securitybrief.com.au/story/elula-s-sweeper-wins-work-as-regulators-tighten-scrutiny",
-      "summary": "As scrutiny intensifies, the AI tool is helping firms spot billing and compliance errors sooner, reducing fines, remediation costs and customer harm.",
-      "date": "03-08-2026 02:59 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -101,6 +113,22 @@
         "Enterprise"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNcGd4c3F0UkYtWUNtUnVfZWpXbVJLVENabHZCNXVGN1BQbWM4YzZOM18wc2xSV05ZVHdyUzJtOVRkYi1BWGU2bHI0VW55cUx5VFVxaml4QVo5VGNpbmVDdlVoRnFpQW1GeUhiR3JrcjgtNjNreTJBYXBvdURmTVd1Y2FHTXlFRC1lLU5KcnFWVjI4QWFEWXFwOThxWTA1dk1IdFZ5Y05kdjZ0V2pmRDdrMlRsNTBrR21aTzRZM3I5cF9ERHl4dHR0N3UxaGF2NHFZYk9tYkt3?oc=5",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "date": "03-08-2026 10:38 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -124,22 +152,6 @@
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPQWR5dlZuWE9DWTBndGpZRWF6VnJ1RkxhbllydWJnRWNGb1NvZFcteGEzVkJiSHFLRGZyNGxfYTFKbVVBN1FHUmtPOVA3UHk3Z0FIbjhGQU15eXlhR0JzQ2hKVzBpUF9SZnB3bm9hQUdyNDI0RDVrQ2U0MVpLNXl6aUljbGJ4VUlyVVZuNXlPV0tYcW1qS1RYSkdNSUM0bWhTb25MWE5QODJPQ2pvSkpsSjZxUVFWenYyczdaSnZWd01rajBXMExuUi02YWx1SzFTeDFjMUR4OWd6MVczaFNEOVF4SDZPdzQ4RUhIOE9sNmNYV2NTRmdYV0x3?oc=5",
       "summary": "Browse news and alerts - page 8 Scamwatch",
       "date": "02-08-2026 03:35 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOVlZYRzJVcFhXNC1QbFUwUHlFNHFKcHJ2SlRPWXZ4YXVycEx2ME5CWWVWNXJJNklpTmM3MFA3M2Z0bm8xUEw0Z2FYQi1Zd3RCdUpCUTAtOUVCNVd3WlVPRW9FYlpsLXNISTI1LTFjZUF1Rk51blZ2Wm1JN3oxT3BoUGZ1TFRzTFZDaEZ2eUFZbTVzZUgtTE1kSkh6ZExWaGhsbFBiQlhPcmFlajBqcklYczBYQ2Ywa1UyUFBCbGRtMy0zM3BZd1lpRjRWOHMyaGFRc3piVk1lZ0NsdlIzaExVZ0xMblp3ZWdyMWJ6ODRnVkdza2RNLTNNcEo0WHlZcjk1Z1Y1QnFHd1JQajRRR3hUUW0xNnRrRW9keEtweTZ4c2gxUjkzMVloeXVRNDRmRHdEaTBGcUxVVQ?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
-      "date": "01-08-2026 11:20 PM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -196,6 +208,22 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxONDVLVjg0eFFFN2xBNkJxUGgzRDBFZ0oxUktKblhSaW82R25UVUhrb21WX2RPU0ZLSk9ITjF0OGpyN1hrNjR2eks5ZXI4ZVY3RUZ2YTdvQWhCY3NDbXU5SG5jOUFVZkduNGs2NlRzeUdqOHI0aEZFa2pHbzBYZmNNdlIyVXloVmpkR2R5d2plYnJqTDJLbFN3SFFISFhqRnBnSnhkN3R5ZEg1WVdVWmcwd1RjaFlnZjB3dEhfaVZUUllONW92RFlvUmNoSnRjUW03eWZrTEhMYWVTOS1UMFFBMkZKaGlXYTFhYXFydlhaalhxYWpqeEQxWmhJMTFfVEd0bkFHdjhNclpMbHAyWjkxU1BwWmlwS25uc0IxUGhwUWpJZzZTSXMwcmp4d2xseFRKWXdxQkktSV9NdGwxQTVv?oc=5",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
+      "date": "01-08-2026 12:32 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Interpol Leverages Global System to Curtail Fraud Payments",
       "link": "https://www.darkreading.com/cybersecurity-operations/interpol-leverages-global-system-curtail-fraud-payments",
@@ -204,6 +232,22 @@
       "tags": [
         "Scams",
         "Good News"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 10 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNaG1xS1B0ejZkNDNWSE9iRXozVGxiVDhyREFYTUJQLXdyeEZLaW9XckZmUjRaRlVPd0pTV3c3eXFTeTM4TERzV1BDVl9haUo0cG5YMHEwMExrWExuRXdRWHhvZ056aWdibWFQaEE4aXNZTUg3N2lWbnlmek91N0NJU01ucXU3WVZnNi1NLTVjRnB5RWRxdkdUcUtJdGNQMnFHQ0tsVVRMTksyQW1RblNJR21MQzVLaTh2Nzd3OTRVYV9JYllublJHT2Uyblc2OVM3ekgzMXptUVN3d1NCY2Q4R2dvalZFanNwV2M3bXVxOXBvNDI0bHM1bTBnaw?oc=5",
+      "summary": "Browse news and alerts - page 10 Scamwatch",
+      "date": "31-07-2026 11:12 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
       ],
       "threat": "Advisory",
       "audience": [
@@ -233,22 +277,6 @@
       "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOWhNczhnMGJxd00zV3Jod3UzNmd5djFPcWRlMnhacHMydmRDOV9hc2stZWs1VHJzNE9XZFFVVXRVMGExTUpDa3ZnNHplV3c5S0Mtc2x6M3Nwb0tPc0wtblctM3RIZGFZaVUzNjdheDBLN0Z6REVkZDNYOTgtNmZEaHVURDdhVkpFbDVlOGVkWGk3OGU5SWhfeUR5eWtIUktXNkVxYVAtQVp1ZU8wNGllcVFjLVF1bkNjbzI0Qk14aGdOWjNLdjBpeTByTGU4ODdEVDFhdmR2LXE4RHExOWhfVDd2SkNCMldVMU42enhvdEZXTXdaMktNMmNrdjU?oc=5",
       "summary": "Browse news and alerts - page 14 Scamwatch",
       "date": "31-07-2026 07:07 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxOc3lXRGtIU2c5N1huR1NrY1M1UGVlTGY1SjZWajRVNG9ZMTRFS1Vma1J3VWIwUVBpYUgwYmRFdTJJVnVKTlZyQXFuSXh6REZJWXhveGZFb1EzcEJKMk82M0hJcnluejdkbHdENnJGM3JrV0ZhWlU5aThrUGYxUWM5Vkd1M0V6dzR0c0kxVWM4dDZSQkJDSExReHc5d21LZ2VCNWh6c3pPR1Z6a01UOTk0UEViNnlBUWxHS0dfS3RrSnBNbnRYOExGMkxBdENkNGhMemNJa19md2txQzBRMlBIMWtiZ21NbmNGMzFoakVTVjU3OFNsNW1nWHY5V08tRC1CTW03MGZvSnBVN19WbEQyN1FObERxVWVHQlNfVk9oWXAtdw?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "31-07-2026 06:50 PM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -507,22 +535,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 10 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNWXFaRVh5MjdvMHpKWFNfSTBCbFc2TEFHeUwwNTZIY0xPT041MDI3VU90TDY3aTBlWGEyWDFVS1Fkdnpad1JDak5Db0RkdW1uSEc2bllzWVIxU005cFBPSDd4WGJoS1d1alRIVTBjY19UbVloYXJDU3Myb1VZWFdXaTg0NWotTlRlU3J6Y29nSjhpUlNjd1VEdHNfWUhiaExDbmxjazhfUzBJc214Q2tlaEQ0NWhLdUZUUV9FaWxHRGhUTGsyOEZpeWtQM2ptNGQ3WmRETFRNeTVDOGZsU3BqbzVCazdPNmZHNFVuVlUyVWRrRUt5OTctNmpPaXVoYTlSdmRlUnRZWjlqVWk2dFB2U1ZVY3ZFS19YNm9FZmtVaw?oc=5",
-      "summary": "Browse news and alerts - page 10 Scamwatch",
-      "date": "27-07-2026 03:22 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -798,19 +810,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Dark Reading",
-      "title": "Hacker Turns AI Jailbreaks Into Offensive Attack Platform",
-      "link": "https://www.darkreading.com/cyber-risk/hacker-ai-jailbreaks-offensive-attack-platform",
-      "summary": "A Russian-speaking actor, \"Trim,\" dismantled publicly available frontier models and integrated them with offensive security tools.",
-      "date": "22-07-2026 04:38 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Veeam appoints Philip Goldie as Vice President for Australia and New Zealand",
       "link": "https://australiancybersecuritymagazine.com.au/veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand/?utm_source=rss&utm_medium=rss&utm_campaign=veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand&utm_source=rss&utm_medium=rss&utm_campaign=veeam-appoints-philip-goldie-as-vice-president-for-australia-and-new-zealand",
@@ -825,33 +824,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'WP2Shell' Opens Millions of WordPress Sites to Remote Takeover",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/wp2shell-millions-wordpress-sites-remote-takeover",
-      "summary": "Barely three days after disclosure, attackers are widely chaining together CVE-2026-60137 and CVE-2026-63030 to lob exploit attempts against one of the largest attack surfaces on the Internet.",
-      "date": "21-07-2026 07:38 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Remediating Vulnerabilities With LLMs: Inside Ivanti's Automation Push",
-      "link": "https://www.darkreading.com/cybersecurity-operations/remediating-vulnerabilities-llms-ivanti-automation",
-      "summary": "Ivanti CSO Daniel Spicer says frontier models have shown surprising effectiveness in early stages, but cost and human-in-the-loop viability remain open questions.",
-      "date": "21-07-2026 06:26 AM",
-      "tags": [
-        "EdTech",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
