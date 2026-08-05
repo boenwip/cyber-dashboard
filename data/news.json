@@ -1,7 +1,124 @@
 {
-  "last_updated": "05-08-2026 08:27 PM",
-  "count": 52,
+  "last_updated": "06-08-2026 08:08 AM",
+  "count": 53,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Flaws in Google APK for Python Unlock Agent-to-Agent Attack",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/flaws-google-apk-python-agent-to-agent-attack",
+      "summary": "Google has fixed the issues, which exploited a trust boundary between two AI agents with different privilege levels to trigger automation that could compromise the supply chain.",
+      "date": "06-08-2026 04:03 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
+      "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
+      "summary": "Organized crime is convincingly scamming at scale, making billions thanks to AI-enabled voice cloning, deepfake real-time video overlays, LLM-driven persona management, and automated translation.",
+      "date": "06-08-2026 03:57 AM",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "TrustScale launches Argus to tackle AI hallucinations",
+      "link": "https://securitybrief.com.au/story/trustscale-launches-argus-to-tackle-ai-hallucinations",
+      "summary": "Businesses using generative AI face growing exposure to costly errors as the new tool checks claims against source evidence in real time.",
+      "date": "06-08-2026 02:30 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Linux Foundation seeks AI security incident sharing rules",
+      "link": "https://securitybrief.com.au/story/linux-foundation-seeks-ai-security-incident-sharing-rules",
+      "summary": "A proposed framework could help firms share AI security failures confidentially, as concern grows over agentic systems that act across corporate tools.",
+      "date": "06-08-2026 02:15 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Newgen named notable vendor in Forrester archiving report",
+      "link": "https://securitybrief.com.au/story/newgen-named-notable-vendor-in-forrester-archiving-report",
+      "summary": "AI tools are making archived records more valuable, as Forrester's latest landscape places Newgen among 26 vendors in a mature market.",
+      "date": "06-08-2026 01:45 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Autonomous AI agents could drive 90% of fraud by 2028",
+      "link": "https://securitybrief.com.au/story/autonomous-ai-agents-could-drive-90-of-fraud-by-2028",
+      "summary": "Scam losses are rising faster than human fraudsters alone can explain, with AI-enabled cases in the US already topping USD $900 million.",
+      "date": "06-08-2026 01:15 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AvePoint launches AI data classification & recovery",
+      "link": "https://securitybrief.com.au/story/avepoint-launches-ai-data-classification-recovery",
+      "summary": "Pressure is mounting on businesses to secure AI data and recover faster after cyber incidents, as static labels and ad hoc restoration prove too slow.",
+      "date": "05-08-2026 11:18 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "NTT DATA launches AI insurance platform for carriers",
+      "link": "https://securitybrief.com.au/story/ntt-data-launches-ai-insurance-platform-for-carriers",
+      "summary": "Insurers could speed up claims and underwriting while keeping audit trails intact, as NTT Data targets regulated workflows with new AI tools.",
+      "date": "05-08-2026 10:00 PM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Ethyca launches Astralis to govern enterprise AI data",
@@ -45,19 +162,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "SAP Concur warns of travel expense compliance risks",
-      "link": "https://securitybrief.com.au/story/sap-concur-warns-of-travel-expense-compliance-risks",
-      "summary": "Half of business travellers admit bending expense rules, as unapproved AI use and weak approvals add to finance teams' compliance worries.",
-      "date": "05-08-2026 05:00 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #847 -- Oops! Claude's accidental hacking spree",
       "link": "https://risky.biz/RB847/",
@@ -74,23 +178,10 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Ruby O'Rourke launches SAFE for child safety in Australia",
-      "link": "https://securitybrief.com.au/story/ruby-o-rourke-launches-safe-for-child-safety-in-australia",
-      "summary": "Rising scrutiny of child care providers is driving demand for earlier risk detection, as the platform logs everyday observations into patterns.",
-      "date": "05-08-2026 02:54 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts - bleepingcomputer.com",
+      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN0FFaTNRdmNGT3BjVTgwZzNBS1hQZGdnN3E3cHlRc2NGTG5QU1FsMGhMUDBNbGVzMnJYaXBTOGVteGZ2bEhrdlpCcDRiOHFLQjA3dDJJZW1JdTI2a1FZdWJCSC1SZTQyeWNUMGw0UFlWdVZqVzRoeU1oaFVSQ0RZQURwSFNvV2FfVU80bnBmQkdjQy03RUxsUDFpdVdVOTJxVFo5azdXZURjMXRER0FaOVVfUlhhQdIBuwFBVV95cUxNbklZX2FBOUdnS1dnWVVtWDBvN1lzRXRZRTZiNl9UQVJXa1loVlVfa3NaYlM2dU1QYnZUbmRHMWhFTnRlRXhtbm9tR0dlUEpPbDItWnJpR0YzT3ZvdjFERUdRVlN3N21BajhXaWlwRmlpb2g5UG0xMXVJYzFFdHpqaWl2bVVyYWNTRFVnWmdEXzZIMTZHbnNhd0diZjF1bDljUDNzTmVKT2I4Y3AwcDRBLU1DRURlVHNoRnQ4?oc=5",
-      "summary": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts bleepingcomputer.com",
+      "summary": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts BleepingComputer",
       "date": "05-08-2026 07:45 AM",
       "tags": [
         "AU Cyber",
@@ -204,22 +295,6 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOekVQUGJGQlkyeHdSZllhUGNIVlllS1d4RXpyY1ppVERkNC04bDVPWlBOdll2RDBQNU5LT2FsSnVlVUhHVVU5Z3BYTEJHemlQX0xTV1hteDk2dWphVW53Q2ROWkFyRXRvZ1lPQ0FhVU1qYmdoMEJlTk9Vc3lIaVVLRUR5ZnlfdklvaVF6TDBmOEM3TV9hb2NjSEY0SmtGMVcwcG51WXNwOG5CSEVzY2pqU2dQZkN0bnZ1aklOUkVRWkQ5VXo3dXVUS18xejVrUjV0QWtRMlc5eXE0ZHJVWWFiU2Nic0d0em10N2xEWEJMbXpqdGRkUVUxeQ?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "02-08-2026 05:31 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 6 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPMnc4RHIwTDl4bWs0MlhjVkJ3a24xV09vSE13QzlpNWlaVm5rRGwxQklLaWEwOG5pTS04NGZhT0xJU0Y2bF91eEZaczRDSjVfbWVHbWFOS0g0Z1BwdHRlRkdKWnYtUFJjTHBnTHdoZ2tNRWJNMDYwZ2lGUzJrVlJUTUxDSU02d25ONml4RkhJakg1azZSVE5BQTlJZjBXblJjQ0puR21wR1NKRURaX3dCSnRDOUcwM0F5Q1JfMWdiNHV6T3Z3a3FCenJfeWZXdXFSSHpfZ1FVNzVRY2V4dDNVMGsyTWpkd3VDMnBXTmVyQWw5eTl5QkdTNmlR?oc=5",
       "summary": "Browse news and alerts - page 6 Scamwatch",
@@ -251,6 +326,22 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxOVlZYRzJVcFhXNC1QbFUwUHlFNHFKcHJ2SlRPWXZ4YXVycEx2ME5CWWVWNXJJNklpTmM3MFA3M2Z0bm8xUEw0Z2FYQi1Zd3RCdUpCUTAtOUVCNVd3WlVPRW9FYlpsLXNISTI1LTFjZUF1Rk51blZ2Wm1JN3oxT3BoUGZ1TFRzTFZDaEZ2eUFZbTVzZUgtTE1kSkh6ZExWaGhsbFBiQlhPcmFlajBqcklYczBYQ2Ywa1UyUFBCbGRtMy0zM3BZd1lpRjRWOHMyaGFRc3piVk1lZ0NsdlIzaExVZ0xMblp3ZWdyMWJ6ODRnVkdza2RNLTNNcEo0WHlZcjk1Z1Y1QnFHd1JQajRRR3hUUW0xNnRrRW9keEtweTZ4c2gxUjkzMVloeXVRNDRmRHdEaTBGcUxVVQ?oc=5",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
+      "date": "01-08-2026 11:20 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "404 Media",
       "title": "We Need to Quarantine Aliens on the Moon, Scientists Propose",
       "link": "https://www.404media.co/we-need-to-quarantine-aliens-on-the-moon-scientists-propose/",
@@ -261,6 +352,22 @@
       ],
       "threat": "Advisory",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxNM21qdzhQNWxSWWR1NkVxTTlVY3FxeE5NQThHamF0X0g3NFUtdWthTjFsTGZWeVRvWEZiR3dPSFlVX00tV0tPZFR1OGU2Zjl1VmpzWERjMVRPcjJ0ZmdxTFdydkM1cDR6RGFqbXFOajlFbk44LUFkWm5lcjE1aXM1UVpVRnFQaDRHVUJrUDdoRVZlZlZHX2EyZHdaRDc4Mms3d2UxeWRGanF2TGt2YTRUNVc3S1FPc09TSklPVDdPb1hkWFVaUzJxMzUydm52U2RUVXQ3eWR2OG1uMUxGdzdINU9SVW1hZG90TjR2b1BmX09MeElsX2huVFhwYTRpaFRWYWFDazViZi16ZnA2OXJHNHFVVkNGbm03Nm9hajdSWW1NbXNXUFlxSXZPdHRKYnFHQnMxaU5iQ2JDbEMyZGIw?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "01-08-2026 05:25 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -285,22 +392,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPT1NZdFhUZFltOEwyMTNSaFY4ZjVYeDJSTTNCZk9odURVMEFqZmVNNmxYWVdNejhnc19jMEZjeFBpZlMxbWwyZWhzUmR4RFFzT0pLZG1ueVN3TXJHWVFyV1dhUjRJTUZzOEVRWEN2WnhzVlJKVm5VdGxDNHEyUUE5NGxSTHMyUUp6V0FuR2JwM1dEbDVYU1Y2REJJbFdwb01lOEpqNzNZaDROWkJqLVBFRmFZUUlNUW5TMVVueWRnV1d2c3NTWktuMnRuOEtRSThQdmNZdldzY1R0aG1Lc005bGZybDQ3akRkQXR2bHR1NGxLdVNxTzM0V2lySHJ2dDdWM0l4YnRoLWRIaDQ3ZHVEdGhpNW5LNkRYNVBpLUp6SQ?oc=5",
       "summary": "Browse news and alerts - page 4 Scamwatch",
       "date": "01-08-2026 02:08 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxONDVLVjg0eFFFN2xBNkJxUGgzRDBFZ0oxUktKblhSaW82R25UVUhrb21WX2RPU0ZLSk9ITjF0OGpyN1hrNjR2eks5ZXI4ZVY3RUZ2YTdvQWhCY3NDbXU5SG5jOUFVZkduNGs2NlRzeUdqOHI0aEZFa2pHbzBYZmNNdlIyVXloVmpkR2R5d2plYnJqTDJLbFN3SFFISFhqRnBnSnhkN3R5ZEg1WVdVWmcwd1RjaFlnZjB3dEhfaVZUUllONW92RFlvUmNoSnRjUW03eWZrTEhMYWVTOS1UMFFBMkZKaGlXYTFhYXFydlhaalhxYWpqeEQxWmhJMTFfVEd0bkFHdjhNclpMbHAyWjkxU1BwWmlwS25uc0IxUGhwUWpJZzZTSXMwcmp4d2xseFRKWXdxQkktSV9NdGwxQTVv?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
-      "date": "01-08-2026 12:32 AM",
       "tags": [
         "AU Cyber",
         "Scams"
@@ -469,19 +560,6 @@
       "date": "30-07-2026 03:43 AM",
       "tags": [
         "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "\u201cClapping Is a First Amendment Right:\u201d An Interview With the Person Arrested for Clapping at a Data Center Meeting",
-      "link": "https://www.404media.co/clapping-is-a-first-amendment-right-an-interview-with-the-person-arrested-for-clapping-at-a-data-center-meeting/",
-      "summary": "\"I have a right to speak. I'm here to speak. I have a right to clap, and if you want me out, you're going to have to drag me out.\"",
-      "date": "30-07-2026 03:42 AM",
-      "tags": [
-        "Good News"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -685,9 +763,9 @@
     },
     {
       "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Australian energy provider Origin says data breach exposes client data - bleepingcomputer.com",
+      "title": "Australian energy provider Origin says data breach exposes client data - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNWFpfeUc3OHJvb3YyYXBVRHJOa3ZHdm1VNGJZeFVENFJiRWVkWHdsbjkxVGVNTmxEZ2FuM21zTnRHb3FyZE5ZRU9EcGRIdFJJbk9wdktrSFlhcjgtRlNqa3M0UzB6RUhMUXM4Q0EybVlFai1uMkhsd0Rnbk00a2x0VXFialBjVUlhVzdHeFd3NE1WeWNUM0phWmVPajZjSk5fUHhmdG45VXdXQlRXblFtNU9zTzktd1FHWmfSAb8BQVVfeXFMTUYtbnYzSWxFelJ0aDM5dDZxQW52QURnZ3pPN3Y0RXpVM08wdm8wbm1jVVI3MmZyN3l1bXJEYkVicGlIN3ZGS3NBMDZFV1hRNzd6X2IzT2s2blhhMjZvX2I1RGVJcS1aclJfVWFoZGlCbjZjQTZaWE96a2JqX2p6a3NDNHUyS2FFRFN2dTQ3WGFLbUREYUR4bjZ5dk1UWGpwXzdrZkZsUkNKT1JEay15RUVGeS03bnJkTnNMcDZncTQ?oc=5",
-      "summary": "Australian energy provider Origin says data breach exposes client data bleepingcomputer.com",
+      "summary": "Australian energy provider Origin says data breach exposes client data BleepingComputer",
       "date": "23-07-2026 05:00 PM",
       "tags": [
         "AU Cyber"
@@ -697,60 +775,6 @@
         "Critical Infra"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Ransomware Attack Puts a Chill on Japanese Frozen-Food Chain",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ransomware-attack-japanese-frozen-food-chain",
-      "summary": "A cyberattack on a food and logistics firm disrupts the supply of frozen food to thousands of clients, including major franchises like Kentucky Fried Chicken.",
-      "date": "23-07-2026 11:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Flaws in Passkey Implementation Show Old Attacks Still Work",
-      "link": "https://www.darkreading.com/identity-access-management-security/flaws-passkeys-implementation-old-attacks-work",
-      "summary": "Ahead of Black Hat USA, researchers find exploitable flaws in how Microsoft handles passkeys that could allow attackers to impersonate privileged users.",
-      "date": "23-07-2026 09:50 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Attackers Are Learning to Live Off the AI Toolchain",
-      "link": "https://www.darkreading.com/cyber-risk/attackers-live-off-ai-toolchain",
-      "summary": "Sandworm_Mode is an early example of malware that exploits trusted AI tools and workflows to make malicious activity virtually indistinguishable from normal activity.",
-      "date": "23-07-2026 07:29 AM",
-      "tags": [
-        "AU Cyber",
-        "Education",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Fake Bahrain Alert App Deploys Android Surveillance Malware",
-      "link": "https://www.darkreading.com/mobile-security/fake-bahrain-alert-apps-android-surveillance-malware",
-      "summary": "A malicious application delivers four-stage Android spyware via phony Google Play sites, exploiting civilian fear during Iranian missile strikes.",
-      "date": "23-07-2026 05:42 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

@@ -1,7 +1,18 @@
 {
-  "last_updated": "05-08-2026 08:27 PM",
+  "last_updated": "06-08-2026 08:09 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-63077",
+      "description": "JetBrains TeamCity \u2014 JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-05",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
+      "vendor": "JetBrains",
+      "product": "TeamCity",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-18556",
       "description": "N-able N-central \u2014 N-able N-central contains an authentication bypass using an alternate path or channel that allows for authentication bypass.",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-50522",
       "vendor": "Microsoft",
       "product": "SharePoint",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-60137",
-      "description": "WordPress Core \u2014 WordPress Core contains a SQL injection vulnerability when a plugin or theme passes untrusted input to the parameter. This vulnerability can be chained with CVE-2026-63030 to allow an unauthenticated ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-21",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60137",
-      "vendor": "WordPress",
-      "product": "Core",
       "ransomware": "Unknown"
     }
   ]
