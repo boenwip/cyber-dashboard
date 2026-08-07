@@ -1,17 +1,18 @@
 {
-  "last_updated": "06-08-2026 08:30 PM",
-  "count": 44,
+  "last_updated": "07-08-2026 11:00 AM",
+  "count": 49,
   "items": [
     {
-      "source": "Security Brief Australia",
-      "title": "FPT named OpenAI Select Partner for enterprise AI push",
-      "link": "https://securitybrief.com.au/story/fpt-named-openai-select-partner-for-enterprise-ai-push",
-      "summary": "The partnership could speed enterprise adoption of OpenAI tools as FPT adds frontier models to cybersecurity, software development and workflow systems.",
-      "date": "06-08-2026 05:00 PM",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Barracuda warns calendar invites are being used for phishing via .ics files",
+      "link": "https://australiancybersecuritymagazine.com.au/barracuda-warns-calendar-invites-are-being-used-for-phishing-via-ics-files/?utm_source=rss&utm_medium=rss&utm_campaign=barracuda-warns-calendar-invites-are-being-used-for-phishing-via-ics-files&utm_source=rss&utm_medium=rss&utm_campaign=barracuda-warns-calendar-invites-are-being-used-for-phishing-via-ics-files",
+      "summary": "Barracuda researchers are warning organisations to treat calendar invitations as a phishing risk, as attackers increasingly abuse iCalendar (.ics) files to bypass controls that focus primarily on email bodies and [...]",
+      "date": "07-08-2026 10:12 AM",
       "tags": [
-        "AI & Tools"
+        "AU Cyber",
+        "Scams"
       ],
-      "threat": "Advisory",
+      "threat": "Medium",
       "audience": [
         "Enterprise"
       ],
@@ -19,10 +20,26 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "RiskProfiler launches KnyX Autonomous Investigations",
-      "link": "https://securitybrief.com.au/story/riskprofiler-launches-knyx-autonomous-investigations",
-      "summary": "Security teams can now automate repetitive threat triage and response as AI agents assess alerts, gather evidence and act under policy controls.",
-      "date": "06-08-2026 01:15 PM",
+      "title": "Bitdefender partners Digimune to sell consumer security",
+      "link": "https://securitybrief.com.au/story/bitdefender-partners-digimune-to-sell-consumer-security",
+      "summary": "Australian households gain local access to Bitdefender's antivirus, VPN and identity tools as scams, ransomware and mobile malware persist.",
+      "date": "07-08-2026 08:30 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "The Vulnerability Was Never Unknown. It Was Assigned.",
+      "link": "https://australiancybersecuritymagazine.com.au/the-vulnerability-was-never-unknown-it-was-assigned/?utm_source=rss&utm_medium=rss&utm_campaign=the-vulnerability-was-never-unknown-it-was-assigned&utm_source=rss&utm_medium=rss&utm_campaign=the-vulnerability-was-never-unknown-it-was-assigned",
+      "summary": "By Amit Shingala, CEO, Motadata Read the public accounts of breaches that began with a known software flaw and the same pattern repeats. The CVE had been disclosed months earlier. [...]",
+      "date": "07-08-2026 08:02 AM",
       "tags": [
         "AU Cyber"
       ],
@@ -31,22 +48,102 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "SAS Innovate: New era of scams requires novel solutions",
-      "link": "https://securitybrief.com.au/story/sas-innovate-new-era-of-scams-requires-novel-solutions",
-      "summary": "Australians are losing billions as AI-driven fraud pushes banks, telcos and platforms to share scam data faster and stop payments earlier.",
-      "date": "06-08-2026 10:39 AM",
+      "source": "Dark Reading",
+      "title": "The Coordination Gap: How Attackers Are Outpacing Law Enforcement",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/coordination-gap-attackers-outpacing-law-enforcement",
+      "summary": "The fight against cybercrime continues because threat actors have adapted their strategies to avoid deterrents, but law enforcement still operates in silos.",
+      "date": "07-08-2026 07:42 AM",
+      "tags": [
+        "AU Cyber",
+        "Good News"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Researcher Claims Control of ChatGPT Secure Sandbox",
+      "link": "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox",
+      "summary": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
+      "date": "07-08-2026 06:38 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
+      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
+      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
+      "date": "07-08-2026 03:00 AM",
       "tags": [
         "AU Cyber",
         "Scams"
       ],
-      "threat": "Advisory",
+      "threat": "Medium",
       "audience": [
-        "Critical Infra",
-        "Enterprise",
         "Consumer"
       ],
-      "relevance": "AU General"
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Scientists Designed a Virtual Alien Lifeform to Hunt for Extraterrestrials",
+      "link": "https://www.404media.co/scientists-designed-a-virtual-alien-lifeform-to-hunt-for-extraterrestrials/",
+      "summary": "A model of a microbe cell revealed that methane-producing organisms could potentially emerge on a wide variety of exoplanets, which can inform the search for extraterrestrial life.",
+      "date": "07-08-2026 02:49 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Bloomberg adds AI surveillance for insider dealing",
+      "link": "https://securitybrief.com.au/story/bloomberg-adds-ai-surveillance-for-insider-dealing",
+      "summary": "Compliance teams could see fewer false alarms as the new models target suspicious messages tied to insider dealing and personal trading.",
+      "date": "07-08-2026 02:37 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Supercharged security: Cyber risk in the age of frontier AI",
+      "link": "https://securitybrief.com.au/story/supercharged-security-cyber-risk-in-the-age-of-frontier-ai",
+      "summary": "Hong Kong saw a record 15,877 cyber incidents in 2025 as AI speeds attacks and shortens the window to exploit software flaws.",
+      "date": "07-08-2026 01:57 AM",
+      "tags": [
+        "AU Cyber",
+        "Good News"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Menlo expands AI agent security for Copilot & Gemini",
+      "link": "https://securitybrief.com.au/story/menlo-expands-ai-agent-security-for-copilot-gemini",
+      "summary": "Prompt-injection attacks and data leaks are the main risks as businesses connect Copilot and Gemini to email, files and internal tools.",
+      "date": "07-08-2026 01:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -620,35 +717,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Default Azure Automation Setting Enables Cross-Tenant Identity Takeover",
-      "link": "https://www.darkreading.com/cloud-security/default-azure-automation-setting-cross-tenant-identity-takeover",
-      "summary": "Microsoft addresses a public-by-default configuration and chain of code flaws in Azure Automation that could have let attackers seize another tenant's identity and access others' data, credentials, and cloud workloads.",
-      "date": "24-07-2026 10:48 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Russian Hackers Exploit Zimbra Zero-Day Against US, Ukraine Targets",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-hackers-zimbra-zero-day-us-ukraine-targets",
-      "summary": "A state-sponsored threat group, dubbed \"Laundry Bear,\" sends \"half-click\" phishing emails that require a victim only to open or preview the message.",
-      "date": "24-07-2026 07:23 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     }
   ]

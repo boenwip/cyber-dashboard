@@ -1,6 +1,6 @@
 {
-  "last_updated": "06-08-2026 08:30 PM",
-  "count": 35,
+  "last_updated": "07-08-2026 11:00 AM",
+  "count": 29,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.223",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added owner wildcard entries (<code>\"owner/*\"</code>) to the <code>strictKnownMarketplaces</code> and <code>blockedMarketplaces</code> managed settings for allowing or",
-      "date": "06-08-2026 08:30 PM"
+      "date": "07-08-2026 11:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.222",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash",
-      "date": "06-08-2026 08:30 PM"
+      "date": "07-08-2026 11:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.221",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with <code>Ctr",
-      "date": "06-08-2026 08:30 PM"
+      "date": "07-08-2026 11:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "06-08-2026 08:30 PM"
+      "date": "07-08-2026 11:00 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,70 +40,46 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "06-08-2026 08:30 PM"
+      "date": "07-08-2026 11:00 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update.html",
-      "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.83)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available ",
-      "date": "06-08-2026 06:00 AM"
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_02088977225.html",
+      "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.108)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available",
+      "date": "07-08-2026 09:00 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-desktop-update_022334811.html",
-      "summary": "<p>The Beta channel has been updated to 152.0.7977.30 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/152.0",
-      "date": "06-08-2026 02:28 AM"
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_01193673229.html",
+      "summary": "<p><span face=\"Roboto, sans-serif\" style=\"color: #666666; font-size: 17px;\"><span color=\"rgba(0, 0, 0, 0.87)\" style=\"font-family: arial; font-size: large;\">The Stable channel has been updated to 151.0",
+      "date": "07-08-2026 06:16 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-ios-update.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.29) for iOS; it'll become available on App Store in the next few days.</p><p>You can see a partial list of the changes in the <a href=\"h",
-      "date": "06-08-2026 12:28 AM"
+      "title": "Chrome Stable for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-stable-for-ios-update_0591688991.html",
+      "summary": "<p>Hi everyone! We've just released Chrome Stable 151 (151.0.7922.112) for iOS; it'll become available on App Store in the next few hours.</p><p>This release includes stability and performance improve",
+      "date": "07-08-2026 03:58 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-android-update.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Beta 152 (152.0.7977.30) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.beta\">Google Play</a>.</p><p>Yo",
-      "date": "05-08-2026 10:58 PM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos.html",
-      "summary": "<p><span face=\"Arial, sans-serif\" style=\"white-space: pre-wrap;\">The Beta channel is being updated to OS version 16733.40.0 (Browser version 151.0.7922.104) for most ChromeOS devices.</span></p><span ",
-      "date": "05-08-2026 08:52 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "The next measure of AI momentum is work transformed",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-      "summary": "<p>In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.</p>\n<p>The post <a href=\"https://",
-      "date": "30-07-2026 11:00 PM"
+      "title": "Extended Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/08/extended-stable-update-for-desktop.html",
+      "summary": "<p><span style=\"color: #666666; font-family: arial; font-size: large; vertical-align: baseline;\">The Extended Stable channel has been updated to 150.0.7871.224</span><span color=\"rgba(0, 0, 0, 0.87)\" ",
+      "date": "07-08-2026 03:24 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - techcrunch.com",
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVG",
-      "date": "24-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5\" target=\"_blank\">Introduci",
       "date": "24-07-2026 05:00 PM"
     },
     {
@@ -115,9 +91,17 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
+      "date": "23-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic updates Claude voice mode with more capable models - techcrunch.com",
+      "title": "Anthropic updates Claude voice mode with more capable models - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPTlo0bXJZb1JaV0MteE1fQkhUNU1uRjlpN2lxcmd5aVM0eTZfbjMwYldQWXdxU2EzLWhOcXdnQkh5WnJmTzRoZEk1c3laczdESFpOQmUwRkl6SmJVTHhVYVdqS1AyTFpSVkhIdkNTMFNPQUJVNzJITU9hQzBrQnJ1cjY0cjZ0aG9VVEdCTVl6R0NjcmtSbFM0M3ZhWQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPTlo0bXJZb1JaV0MteE1fQkhUNU1uRjlpN2lxcmd5aVM0eTZfbjMwYldQWXdxU2EzLWhOcXdnQkh5WnJmTzRoZEk1c3laczdESFpOQmUwRkl6SmJVTHhVYVdqS1AyTFpSVkhIdkNTMF",
       "date": "23-07-2026 05:00 PM"
@@ -125,18 +109,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "ChatGPT is now a partner for your most ambitious work - OpenAI",
+      "title": "ChatGPT is now a partner for your most ambitious work - openai.com",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ",
       "date": "09-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
-      "date": "08-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -155,28 +131,12 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
-      "date": "25-06-2026 11:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot Cowork is now generally available",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
-      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
-      "date": "17-06-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -197,26 +157,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - infoworld.com",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
       "date": "03-06-2026 05:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing Microsoft Scout: Your always-on personal agent",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "summary": "<p>Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/",
-      "date": "03-06-2026 04:00 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Announcing the new Work IQ APIs",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-      "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
-      "date": "03-06-2026 03:00 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - itbrief.com.au",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
+      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -245,7 +197,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
+      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - microsoft.com",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
       "date": "22-04-2026 05:00 PM"
@@ -261,7 +213,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
+      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - afr.com",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
       "date": "16-04-2026 05:00 PM"

@@ -1,5 +1,5 @@
 {
-  "last_updated": "06-08-2026 08:30 PM",
+  "last_updated": "07-08-2026 11:00 AM",
   "count": 10,
   "items": [
     {
@@ -26,7 +26,7 @@
     },
     {
       "id": "CVE-2026-34486",
-      "description": "Apache Tomcat \u2014 Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor.",
+      "description": "Apache Tomcat \u2014 Apache Tomcat contains a missing encryption of sensitive data vulnerability that allows the bypass of the EncryptInterceptor. This vulnerability can be chained with CVE\u20112025\u201124813.",
       "score": null,
       "severity": "HIGH",
       "published": "2026-08-04",
