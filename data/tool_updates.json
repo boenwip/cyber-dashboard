@@ -1,5 +1,5 @@
 {
-  "last_updated": "07-08-2026 06:48 PM",
+  "last_updated": "07-08-2026 07:01 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.224",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added self-hosted environments: <code>claude self-hosted-runner</code> turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions",
-      "date": "07-08-2026 06:48 PM"
+      "date": "07-08-2026 07:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.223",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added owner wildcard entries (<code>\"owner/*\"</code>) to the <code>strictKnownMarketplaces</code> and <code>blockedMarketplaces</code> managed settings for allowing or",
-      "date": "07-08-2026 06:48 PM"
+      "date": "07-08-2026 07:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.222",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash",
-      "date": "07-08-2026 06:48 PM"
+      "date": "07-08-2026 07:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.221",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with <code>Ctr",
-      "date": "07-08-2026 06:48 PM"
+      "date": "07-08-2026 07:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-08-2026 06:48 PM"
+      "date": "07-08-2026 07:01 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -99,6 +99,14 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
+      "date": "23-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic updates Claude voice mode with more capable models - TechCrunch",
@@ -115,14 +123,6 @@
       "date": "09-07-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
-      "date": "08-07-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
@@ -133,7 +133,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Your Microsoft Store Office apps are losing security updates this year - PCWorld",
+      "title": "Your Microsoft Store Office apps are losing security updates this year - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1",
       "date": "30-06-2026 05:00 PM"
@@ -213,7 +213,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - futurumgroup.com",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
       "date": "28-05-2026 05:00 PM"
@@ -261,7 +261,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
+      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - cmswire.com",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVj",
       "date": "16-04-2026 05:00 PM"
