@@ -1,6 +1,6 @@
 {
-  "last_updated": "07-08-2026 12:11 PM",
-  "count": 29,
+  "last_updated": "07-08-2026 12:45 PM",
+  "count": 34,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.223",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added owner wildcard entries (<code>\"owner/*\"</code>) to the <code>strictKnownMarketplaces</code> and <code>blockedMarketplaces</code> managed settings for allowing or",
-      "date": "07-08-2026 12:11 PM"
+      "date": "07-08-2026 12:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.222",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash",
-      "date": "07-08-2026 12:11 PM"
+      "date": "07-08-2026 12:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.221",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with <code>Ctr",
-      "date": "07-08-2026 12:11 PM"
+      "date": "07-08-2026 12:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-08-2026 12:11 PM"
+      "date": "07-08-2026 12:45 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.219",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added Claude Opus 5 (<code>claude-opus-5</code>), now the default Opus model \u2014 1M context, fast mode at $10/$50 per Mtok</li>\n<li>Added <code>sandbox.network.strictAll",
-      "date": "07-08-2026 12:11 PM"
+      "date": "07-08-2026 12:45 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -75,6 +75,14 @@
       "date": "07-08-2026 03:24 AM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "The next measure of AI momentum is work transformed",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "summary": "<p>In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.</p>\n<p>The post <a href=\"https://",
+      "date": "30-07-2026 11:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
@@ -85,10 +93,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs - cnbc.com",
+      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs - CNBC",
       "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTnVLOVhBNldFVU1jYTI3RC1ZZS1B0gGHAUFVX3lxTE9SLWl6OUtCMHkwTDg1QXhpR2tyRHBpbzUzYmVUdHFPUTcxUTRRN19KcDlZd0dPVmM2d05QSkxaRnl4M3BGVzJrNUlscjJtclJZSlVqUXoyTy1wU0gwODE4VTltQTJzNVYyODJ0T3RuMG5ZdzlDR3lUQlBWOXE1RE1laGZTaU1BOA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTn",
       "date": "24-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
+      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -107,14 +123,6 @@
       "date": "09-07-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
-      "date": "08-07-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
@@ -131,12 +139,28 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
+      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
+      "date": "25-06-2026 11:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
+      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
+      "date": "17-06-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -161,6 +185,22 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
       "date": "03-06-2026 05:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing Microsoft Scout: Your always-on personal agent",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
+      "summary": "<p>Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "date": "03-06-2026 04:00 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
+      "date": "03-06-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -221,7 +261,7 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - cmswire.com",
+      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVj",
       "date": "16-04-2026 05:00 PM"
