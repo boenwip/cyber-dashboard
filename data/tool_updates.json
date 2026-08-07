@@ -1,5 +1,5 @@
 {
-  "last_updated": "07-08-2026 02:35 PM",
+  "last_updated": "07-08-2026 04:05 PM",
   "count": 34,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.224",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added self-hosted environments: <code>claude self-hosted-runner</code> turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions",
-      "date": "07-08-2026 02:35 PM"
+      "date": "07-08-2026 04:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.223",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added owner wildcard entries (<code>\"owner/*\"</code>) to the <code>strictKnownMarketplaces</code> and <code>blockedMarketplaces</code> managed settings for allowing or",
-      "date": "07-08-2026 02:35 PM"
+      "date": "07-08-2026 04:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.222",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash",
-      "date": "07-08-2026 02:35 PM"
+      "date": "07-08-2026 04:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.221",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>[VSCode] Added Focus view: a chat-menu toggle that hides tool activity behind an expandable per-turn summary with a live running-tool indicator, toggled with <code>Ctr",
-      "date": "07-08-2026 02:35 PM"
+      "date": "07-08-2026 04:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.220",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "07-08-2026 02:35 PM"
+      "date": "07-08-2026 04:05 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -99,14 +99,6 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
-      "date": "23-07-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic updates Claude voice mode with more capable models - TechCrunch",
@@ -121,6 +113,14 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMib0FVX3lxTFBRV1RrNVpYNC1zaXV0RjE5dS1ESDhLc0IyT2g2bzlZM2l0cTdUdkFHUXhfTm5VeHhOWUFCczkxRnIxaWp2S3NJbmhmSlZXZEdaVUJfTkthOXAzbTVnbnhtVkFtdktGMGhUbkxEdUw1WQ",
       "date": "09-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing GPT-Live - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
+      "date": "08-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -149,7 +149,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - computerworld.com",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
       "date": "21-06-2026 05:00 PM"
@@ -173,7 +173,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
       "date": "15-06-2026 05:00 PM"
