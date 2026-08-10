@@ -1,7 +1,89 @@
 {
-  "last_updated": "10-08-2026 07:55 PM",
-  "count": 63,
+  "last_updated": "11-08-2026 07:37 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
+      "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
+      "date": "11-08-2026 07:02 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "The Patch Gap: Why Defenders Need to Think in Chains, Not Checklists",
+      "link": "https://www.darkreading.com/cybersecurity-operations/patch-gap-defenders-chains-not-checklists",
+      "summary": "It's time to turn from CVSS-backed patching to choke-point patching focused on breaking chains to critical assets.",
+      "date": "11-08-2026 03:56 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
+      "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are spreading far and wide to organized cybercrime groups.",
+      "date": "11-08-2026 03:09 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
+      "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk",
+      "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
+      "date": "11-08-2026 02:25 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI says Astra may hit critical cyber threshold",
+      "link": "https://securitybrief.com.au/story/openai-says-astra-may-hit-critical-cyber-threshold",
+      "summary": "Tighter safeguards and pauses on internal work follow early tests that left OpenAI unable to rule out critical cyber capabilities in Astra.",
+      "date": "11-08-2026 02:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ClassCover expands into Ireland with \u20ac3m investment",
+      "link": "https://securitybrief.com.au/story/classcover-expands-into-ireland-with-3m-investment",
+      "summary": "The booking platform hopes to ease schools' scramble for substitute staff as it targets 2,000 Irish schools and 20 jobs.",
+      "date": "10-08-2026 08:37 PM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Sector"
+    },
     {
       "source": "Security Brief Australia",
       "title": "PDQ adds ticketing integrations & Mac vulnerability tools",
@@ -90,63 +172,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Teletrac Navman names Sharma as VP Product Management",
-      "link": "https://securitybrief.com.au/story/teletrac-navman-names-sharma-as-vp-product-management",
-      "summary": "The hire comes as the fleet software group expands AI and compliance tools to help operators manage mixed-energy vehicles and tighter regulation.",
-      "date": "10-08-2026 11:55 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Arrival of Vinted a \u2018gamechanger\u2019 for shopping secondhand in Australia - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUk9CYTBRNjc2WFZoVk5MeVR5enhIZnRrYUdJQTJ3b3JXT0ZhRERrUWlhWXhUeGVIcTN0ay1PbDZNeWZNVjBYZG1VeEp5b3M4eVZUSy1iQXdVY3VQN19WckR6YmNOTEZ2VUV3T0tuSFViR19OU2R4amdDaEJLclQxRlJsZUJ5d2NKRHdvWUtaOWpSMXpvQmlqUUp5SXBMNzRu?oc=5",
-      "summary": "Arrival of Vinted a \u2018gamechanger\u2019 for shopping secondhand in Australia theguardian.com",
-      "date": "10-08-2026 11:51 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Reolink expands into Bunnings stores across Australasia",
-      "link": "https://securitybrief.com.au/story/reolink-expands-into-bunnings-stores-across-australasia",
-      "summary": "A larger share of Australasian households will now find Reolink's security cameras and doorbells at Bunnings' 195 stores, including 178 in Australia.",
-      "date": "10-08-2026 11:04 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Ecommerce fraud pressure rises 33% as AI fuels attacks",
-      "link": "https://securitybrief.com.au/story/ecommerce-fraud-pressure-rises-33-as-ai-fuels-attacks",
-      "summary": "Account takeover and card-testing attacks surged as AI lowered the cost and speed of scams, raising pressure on online retailers.",
-      "date": "10-08-2026 10:45 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 Bleeping Computer AU",
       "title": "South Australia Police here! - Introductions - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcVk5d0hmakxNS1hQY2p2S09MWkJnQXZ3dUsxMkh3SDIxeGI5elEtR3RscVc3Q09HYVJva1U1TkdqclJPX213QU5RQm12bHRDeDNFLVZsUVRObGE1NVhkaTExM2h2VGFONEVCMkVBZ1pOdmxvbWtIby1oRDRueW9XaWZIbw?oc=5",
@@ -158,34 +183,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "\u2018Watch The Odyssey for free online\u2019: scam targets film fans with fake streaming sites - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNR2FrTkI1d1FjLWFjamlHcVNXbGUxLXowVEdqQ2hSX0VsZnVmMUxSbll3QW5HWXNnWlNoTWRDT3VSdXdGWGJNbzY3MkxjVWNpODF2UmhCTVl6MngtMnJxMlgzYmdrVmFDY282WnRzSDgtVnZrUFNoci03VlM0ZXFRQnM2Vlp1bS1JVm02LUstUTFROXYzRVRMVjJ1aGNTVXhCRklTWk11UTQzOFhfbE5iQTM1VHBQZw?oc=5",
-      "summary": "\u2018Watch The Odyssey for free online\u2019: scam targets film fans with fake streaming sites theguardian.com",
-      "date": "09-08-2026 05:01 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY1dJNXVXYnpmS0U2OFQtSDhFcURicFNyMGFMVGVjdTAtQWJmc21hcUU3dGJaNnBMeVMySHVhTGZmRF9xUko1c2JJS3haRjlTaWtVV3QtelExODdVTGtfNThUb0RrS2JFN3pqWEJoUkkwSHpoSWJaemNFam1zbXFwUkJnbFRjRFZV?oc=5",
-      "summary": "OpenAI to pause some work on AI model Astra due to security concerns | AI (artificial intelligence) theguardian.com",
-      "date": "09-08-2026 02:51 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -230,19 +227,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "The White House\u2019s plan to vet potentially dangerous AI is cloaked in secrecy | AI (artificial intelligence) - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA5UlBMaGtXenRldEhCZ1RTc0xIYlloVFdSQWlnV3IxWmI5UTlpT0hiTnR2cElIbGlTbzR1WGxZTmEtMGxkM2RicjRDN3BaVjJpZzBXdGNiVkVUWmtyRENVSFFpdTFlSzNGVmZyQnZ5WWctS28?oc=5",
-      "summary": "The White House\u2019s plan to vet potentially dangerous AI is cloaked in secrecy | AI (artificial intelligence) theguardian.com",
-      "date": "08-08-2026 01:20 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -517,19 +501,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "OpenAI pays $3.2m to settle claims it discriminated against US workers - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVGdBZ3owUlBRekJPSW5BTUFnREdjbFFlSVRFUklkbl94b05ua2kwdlBHMEc0U2ZHdzJZQzVSRE5icVlPRVFQVVdfTHAtem5UY3VpVU9Ta3hrVW5YZFFfS2hLRTAyR3hVOWVqV3JQTEhSXy1hVm9CWEpYRXNVNWlGVXhZS0VxeU1UM0dJWmJXSklmU0tLeUNpRW1R?oc=5",
-      "summary": "OpenAI pays $3.2m to settle claims it discriminated against US workers theguardian.com",
-      "date": "05-08-2026 10:58 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 Bleeping Computer AU",
       "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts - BleepingComputer",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN0FFaTNRdmNGT3BjVTgwZzNBS1hQZGdnN3E3cHlRc2NGTG5QU1FsMGhMUDBNbGVzMnJYaXBTOGVteGZ2bEhrdlpCcDRiOHFLQjA3dDJJZW1JdTI2a1FZdWJCSC1SZTQyeWNUMGw0UFlWdVZqVzRoeU1oaFVSQ0RZQURwSFNvV2FfVU80bnBmQkdjQy03RUxsUDFpdVdVOTJxVFo5azdXZURjMXRER0FaOVVfUlhhQdIBuwFBVV95cUxNbklZX2FBOUdnS1dnWVVtWDBvN1lzRXRZRTZiNl9UQVJXa1loVlVfa3NaYlM2dU1QYnZUbmRHMWhFTnRlRXhtbm9tR0dlUEpPbDItWnJpR0YzT3ZvdjFERUdRVlN3N21BajhXaWlwRmlpb2g5UG0xMXVJYzFFdHpqaWl2bVVyYWNTRFVnWmdEXzZIMTZHbnNhd0diZjF1bDljUDNzTmVKT2I4Y3AwcDRBLU1DRURlVHNoRnQ4?oc=5",
@@ -573,19 +544,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of \u2018privacy nightmare\u2019 - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOY3JaY0J5QjVQNkYzZDhDdzRVUUtET2IyU3haY0QtZDRpVFY2NDF4WUhWOElLWGc5YkdwTXRVNW5ncm9xc0dnZWtkMmJvbHQ2NXlyMlBFaW5CYy1ydDdkNnZ3RFBKUXMtbUdObm9lam1VRGVsdHhoekF4WFppSWpaZGF2SjZQSHRNSXV5UlZieVpsZElsOG5tWm1ualdpZ0Nibnl6MFRlMF9aWVpw?oc=5",
-      "summary": "Kmart sells out of low-cost rival to Meta camera glasses across Australia amid warnings of \u2018privacy nightmare\u2019 theguardian.com",
-      "date": "04-08-2026 02:20 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Attackers Exploit N-able Patch Bypass Flaw on RMM Servers",
       "link": "https://www.darkreading.com/vulnerabilities-threats/attackers-exploit-n-able-patch-bypass-flaw",
@@ -612,34 +570,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "\u2018Own the Narrative\u2019: Leaked Flock Guide Shows How It Teaches Cops to Promote Its Tech",
-      "link": "https://www.404media.co/own-the-narrative-leaked-flock-guide-shows-how-it-teaches-cops-to-promote-its-tech/",
-      "summary": "\"This document shows a coordinated effort from Flock Safety to compel law enforcement agencies to convince our elected leaders to represent their interests as a company rather than the interests of concerned citizens.\"",
-      "date": "04-08-2026 03:13 AM",
-      "tags": [
-        "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "\u2018You owe parking fees\u2019: experts warn of fake RingGo text scam - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTHdwZGczOFN6a2lfalBHMm5zOEh2VElwTDJDeWg4Zl81RTdWX19YcEtIMFVTX3VlSVRjSTJhWWZJelBnbUVxWm14LUZpamlfUzlsTjdVVEVJVUxiSEo5NXdxUnR5MnhfWGlXV3JpNUpaRkxkN3ZSNVh3S2JPTFV1Zl9Nemw3QXpsampreEpQNENycW9FeFE?oc=5",
-      "summary": "\u2018You owe parking fees\u2019: experts warn of fake RingGo text scam theguardian.com",
-      "date": "03-08-2026 11:52 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -742,19 +672,6 @@
         "AI & Tools"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "Anthropic\u2019s AI Claude hacked into three organizations during cybersecurity test - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNmpPbElvVm1iS3RySHgyeGxYYjRuaFB4elhBWjdaX2lQdUZIbURlVXhCTENnSnBmTmNMR2t1RkYteVhtUGlsOGVURU1YdzZmS0M4a1AydFpXOHM0ckstVVJVWUp6TWFrSVhudGVmdHI2Z0xzdmFMV1Izd0pQVUlVUw?oc=5",
-      "summary": "Anthropic\u2019s AI Claude hacked into three organizations during cybersecurity test theguardian.com",
-      "date": "30-07-2026 05:00 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -894,19 +811,6 @@
         "AU Cyber"
       ],
       "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "FBI: Breaking Affiliate Trust Sped Along LockBit's Takedown",
-      "link": "https://www.darkreading.com/cybersecurity-operations/fbi-breaking-affiliate-trust-lockbit-takedown",
-      "summary": "An FBI agent explains how the mulitnational law-enforcement Operation Cronos was successful in disrupting the largest ransomware group of its time.",
-      "date": "28-07-2026 06:33 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     }
