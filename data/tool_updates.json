@@ -1,5 +1,5 @@
 {
-  "last_updated": "10-08-2026 11:04 AM",
+  "last_updated": "10-08-2026 01:23 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.226",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "10-08-2026 11:04 AM"
+      "date": "10-08-2026 01:23 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.225",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the",
-      "date": "10-08-2026 11:04 AM"
+      "date": "10-08-2026 01:23 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.224",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added self-hosted environments: <code>claude self-hosted-runner</code> turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions",
-      "date": "10-08-2026 11:04 AM"
+      "date": "10-08-2026 01:23 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.223",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.223",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added owner wildcard entries (<code>\"owner/*\"</code>) to the <code>strictKnownMarketplaces</code> and <code>blockedMarketplaces</code> managed settings for allowing or",
-      "date": "10-08-2026 11:04 AM"
+      "date": "10-08-2026 01:23 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.222",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.222",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed worktree-isolated sessions and their subagents being able to run destructive git commands against the main checkout; isolation now applies to file edits and Bash",
-      "date": "10-08-2026 11:04 AM"
+      "date": "10-08-2026 01:23 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -83,14 +83,6 @@
       "date": "07-08-2026 06:16 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's AI model tried to trick humans into poisoning code during safety testing - Politico",
-      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFh4R2tCZU4wRFJjSmhLWUJKclduSFFBaVdCbW9LTnE5R3U5NGxXcDV2QWtJX3ZDZkpnU0k0cmNLd3o5ZXFWelJIZHZpNTFMS2t2MVIwRXUwSUliczZlLXRtWXFwQjFLOVRkc0piUjJVSUFSdDdfSWtra3RlVU45SmtjZVhLdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQUFh4R2tCZU4wRFJjSmhLWUJKclduSFFBaVdCbW9LTnE5R3U5NGxXcDV2QWtJX3ZDZkpnU0k0cmNLd3o5ZXFWelJIZHZpNTFMS2t2MVIwRXUwSUliczZlLXRtWXFwQjFLOVRkc0piUj",
-      "date": "05-08-2026 01:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "The next measure of AI momentum is work transformed",
@@ -112,6 +104,14 @@
       "title": "Introducing Claude Opus 5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5\" target=\"_blank\">Introduci",
+      "date": "24-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic's new AI model rivals Fable 5 and is cheaper as businesses fret about costs - CNBC",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTnVLOVhBNldFVU1jYTI3RC1ZZS1B0gGHAUFVX3lxTE9SLWl6OUtCMHkwTDg1QXhpR2tyRHBpbzUzYmVUdHFPUTcxUTRRN19KcDlZd0dPVmM2d05QSkxaRnl4M3BGVzJrNUlscjJtclJZSlVqUXoyTy1wU0gwODE4VTltQTJzNVYyODJ0T3RuMG5ZdzlDR3lUQlBWOXE1RE1laGZTaU1BOA?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxNX0dWcGxxaVZCeDd0ejF4ZjQ4RExpVkduWG9JVlR3WlM0QUNiSmZpUHR2dWxicEY3WF9fMlhvWU1VY1BWZ3pBZ1NTTWc0ZFp3TmVaTTl0eXNHOVQ1MzJWa2hCaDlpcXRIX20tNEIwTn",
       "date": "24-07-2026 05:00 PM"
     },
     {
@@ -189,7 +189,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
       "date": "15-06-2026 05:00 PM"
