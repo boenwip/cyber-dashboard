@@ -1,7 +1,48 @@
 {
-  "last_updated": "11-08-2026 07:27 PM",
-  "count": 61,
+  "last_updated": "12-08-2026 07:41 AM",
+  "count": 57,
   "items": [
+    {
+      "source": "Krebs on Security",
+      "title": "Microsoft Plugs Nearly 400 Security Holes",
+      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
+      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
+      "date": "12-08-2026 07:28 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Gunra Ransomware Gang Exploits Fortinet Flaws, Bypasses MFA",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/gunra-ransomware-gang-fortinet-flaws-bypasses-mfa",
+      "summary": "The ransomware-as-a-service operation is finding success against critical infrastructure targets with leaked Conti code and old flaws in firewalls and VPN appliances.",
+      "date": "12-08-2026 07:16 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI expands Daybreak with specialist cyber model",
+      "link": "https://securitybrief.com.au/story/openai-expands-daybreak-with-specialist-cyber-model",
+      "summary": "Approved defenders will gain broader access to cyber tools as the new tiered Daybreak programme adds GPT-5.6-Cyber for advanced security work.",
+      "date": "12-08-2026 01:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "NeuShield adds exfiltration protection to Data Sentinel",
@@ -93,45 +134,6 @@
       "date": "11-08-2026 09:25 AM",
       "tags": [
         "Good News"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia urged to ban smart glasses over covert filming",
-      "link": "https://securitybrief.com.au/story/australia-urged-to-ban-smart-glasses-over-covert-filming",
-      "summary": "Privacy advocates say covert recording risks in changing rooms and beaches make the devices a public safety issue, not a novelty.",
-      "date": "11-08-2026 09:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Fujitsu launches Uvance Wayfinders consulting in Oceania",
-      "link": "https://securitybrief.com.au/story/fujitsu-launches-uvance-wayfinders-consulting-in-oceania",
-      "summary": "Pressure is mounting on advisers in Australia and New Zealand as Fujitsu moves to tie strategy to delivery and win more transformation work.",
-      "date": "11-08-2026 08:42 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DigiCert named leader in Frost trust ecosystem radar",
-      "link": "https://securitybrief.com.au/story/digicert-named-leader-in-frost-trust-ecosystem-radar",
-      "summary": "Demand is rising for auditable identity checks and document integrity as AI-generated content and tighter rules reshape online trust.",
-      "date": "11-08-2026 08:36 AM",
-      "tags": [
-        "Compliance"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -565,20 +567,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPN0FFaTNRdmNGT3BjVTgwZzNBS1hQZGdnN3E3cHlRc2NGTG5QU1FsMGhMUDBNbGVzMnJYaXBTOGVteGZ2bEhrdlpCcDRiOHFLQjA3dDJJZW1JdTI2a1FZdWJCSC1SZTQyeWNUMGw0UFlWdVZqVzRoeU1oaFVSQ0RZQURwSFNvV2FfVU80bnBmQkdjQy03RUxsUDFpdVdVOTJxVFo5azdXZURjMXRER0FaOVVfUlhhQdIBuwFBVV95cUxNbklZX2FBOUdnS1dnWVVtWDBvN1lzRXRZRTZiNl9UQVJXa1loVlVfa3NaYlM2dU1QYnZUbmRHMWhFTnRlRXhtbm9tR0dlUEpPbDItWnJpR0YzT3ZvdjFERUdRVlN3N21BajhXaWlwRmlpb2g5UG0xMXVJYzFFdHpqaWl2bVVyYWNTRFVnWmdEXzZIMTZHbnNhd0diZjF1bDljUDNzTmVKT2I4Y3AwcDRBLU1DRURlVHNoRnQ4?oc=5",
-      "summary": "Phishing service spoofs RingCentral to steal Microsoft 365 accounts BleepingComputer",
-      "date": "05-08-2026 07:45 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
       "title": "Gambling and betting scams - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFA2aFpDbFR3V25Dbk5lZ3l3REdjMTBkQUxfanNjTUROdnRaUTdtU1UyUkJESnNXV2tjTUQzajYyZldkNzlBQS1fcTJST183ajdCZ2kyN25vYUVhMDhNNVVpVlhfMnk4Vk5Fc25pLUlGTEcyejZwRy1kTzVB?oc=5",
@@ -837,46 +825,6 @@
         "SMB"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "When AI Agents Escape Sandboxes, Old Security Rules Apply",
-      "link": "https://www.darkreading.com/application-security/ai-agents-escape-sandboxes-old-security-rules-apply",
-      "summary": "OpenAI's recent AI agent sandbox escape proves traditional security principles matter more than ever: limit access, isolate execution, log everything.",
-      "date": "29-07-2026 06:27 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Stronger AI Safety Requires Peeking Inside the 'Black Box'",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/stronger-ai-safety-requires-peeking-inside-black-box",
-      "summary": "Researchers propose focusing on identification of certain cognitive elements in LLMs that indicate when AI systems may take an unwanted action.",
-      "date": "29-07-2026 06:05 AM",
-      "tags": [
-        "EdTech",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Certighost' Flaw Haunts Microsoft Active Directory Certificates",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/certighost-flaw-microsoft-active-directory-certificates",
-      "summary": "Microsoft patched a high-severity vulnerability earlier this month that allows a threat actor to escalate privileges and compromise an AD environment.",
-      "date": "29-07-2026 02:38 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

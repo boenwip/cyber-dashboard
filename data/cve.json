@@ -1,7 +1,40 @@
 {
-  "last_updated": "11-08-2026 07:27 PM",
+  "last_updated": "12-08-2026 07:41 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-20349",
+      "description": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  \u2014 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause t",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20349",
+      "vendor": "Cisco",
+      "product": "Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) ",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-68820",
+      "description": "Microsoft Windows Ancillary Function Driver for WinSock  \u2014 Microsoft Windows Ancillary Function Driver for WinSock contains a use-after-free vulnerability that allows an authorized attacker to elevate privileges locally.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
+      "vendor": "Microsoft",
+      "product": "Windows Ancillary Function Driver for WinSock ",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-72898",
+      "description": "Metabase Metabase \u2014 Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
+      "vendor": "Metabase",
+      "product": "Metabase",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-8037",
       "description": "Progress LoadMaster \u2014 Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in mul",
@@ -77,39 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
       "vendor": "Cisco",
       "product": "Secure Firewall Management Center (FMC)",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-68686",
-      "description": "Fortinet FortiOS \u2014 Fortinet FortiOS contains an exposure of sensitive information to an unauthorized actor vulnerability. This may allow a remote unauthenticated attacker to bypass the patch developed for the symbolic l",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-68686",
-      "vendor": "Fortinet",
-      "product": "FortiOS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-16812",
-      "description": "Arista VeloCloud Orchestrator \u2014 Arista VeloCloud Orchestrator On-Prem contains an OS command injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful ex",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16812",
-      "vendor": "Arista",
-      "product": "VeloCloud Orchestrator",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-16232",
-      "description": "Check Point SmartConsole \u2014 Check Point SmartConsole contains an improper authentication vulnerability which could allow an unauthenticated remote attacker to obtain an application login token and use it to authenticate with ful",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-22",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-16232",
-      "vendor": "Check Point",
-      "product": "SmartConsole",
       "ransomware": "Unknown"
     }
   ]
