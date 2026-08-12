@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-08-2026 03:25 PM",
+  "last_updated": "12-08-2026 04:51 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.228",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error</li>\n<li>Fixed <code>git</code> / Git",
-      "date": "12-08-2026 03:25 PM"
+      "date": "12-08-2026 04:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.227",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users ",
-      "date": "12-08-2026 03:25 PM"
+      "date": "12-08-2026 04:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.226",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.226",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Bug fixes and reliability improvements</li>\n</ul>",
-      "date": "12-08-2026 03:25 PM"
+      "date": "12-08-2026 04:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.225",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the",
-      "date": "12-08-2026 03:25 PM"
+      "date": "12-08-2026 04:51 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.224",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.224",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added self-hosted environments: <code>claude self-hosted-runner</code> turns your own machines or containers into a place Claude Code web, mobile, and desktop sessions",
-      "date": "12-08-2026 03:25 PM"
+      "date": "12-08-2026 04:51 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0633903601.html",
+      "summary": "<p>&nbsp;&nbsp;&nbsp;Hi, everyone! We've just released <b>Chrome 151 (151.0.7922.137)</b> for Android. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chrome\">available",
+      "date": "12-08-2026 02:05 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -61,7 +69,7 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Claude will apply invisible watermarks to AI text and images - theverge.com",
+      "title": "Claude will apply invisible watermarks to AI text and images - The Verge",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVlXWHJVOVhXbkRUbmdqZzhmY1BvOWNkelROTjhVaWlycnFlQmNqQ1g2UXJzdEM5MmlPd0N6UkZpa2JmVm5veE9uZnlCMWRGY0RMY2hZVFBpc1hFQVJVZVgtNFpvbnJXUGxaWkZwdi16d2g0M3lnc1Q4SzlKb1VGX1VVVkNuZlFpYWdtaHlJRVJZRmxRbVZ1YUNEcWFZUjh6TmdLTzhZU3k0QQ?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPSVlXWHJVOVhXbkRUbmdqZzhmY1BvOWNkelROTjhVaWlycnFlQmNqQ1g2UXJzdEM5MmlPd0N6UkZpa2JmVm5veE9uZnlCMWRGY0RMY2hZVFBpc1hFQVJVZVgtNFpvbnJXUGxaWkZwdi",
       "date": "11-08-2026 10:22 PM"
@@ -107,14 +115,6 @@
       "date": "08-08-2026 09:28 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/08/dev-channel-update-for-chromeos.html",
-      "summary": "<p><span color=\"rgba(0, 0, 0, 0.87)\">The ChromeOS Dev channel is being updated to OS version </span><span color=\"rgba(0, 0, 0, 0.87)\">16765.12.0</span><span color=\"rgba(0, 0, 0, 0.87)\"> (Browser versi",
-      "date": "08-08-2026 09:05 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "What\u2019s new in Power Platform: July/August 2026 feature update - Microsoft",
@@ -149,7 +149,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Your Microsoft Store Office apps are losing security updates this year - PCWorld",
+      "title": "Your Microsoft Store Office apps are losing security updates this year - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1",
       "date": "30-06-2026 05:00 PM"
@@ -197,7 +197,7 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - infoworld.com",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
       "date": "03-06-2026 05:00 PM"
