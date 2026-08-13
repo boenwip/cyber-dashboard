@@ -1,7 +1,105 @@
 {
-  "last_updated": "13-08-2026 07:38 PM",
-  "count": 63,
+  "last_updated": "14-08-2026 07:40 AM",
+  "count": 58,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Global Threat Campaign Hits Critical VMware vCenter Flaw",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/global-threat-campaign-critical-vmware-vcenter-flaw",
+      "summary": "Exploitation against CVE-2026\u201359310 began earlier this month, and patching the vulnerability may not be enough to fully mitigate the threat.",
+      "date": "14-08-2026 06:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Why You Need Phone Validation in Your Customer Data Toolkit",
+      "link": "https://securitybrief.com.au/story/why-you-need-phone-validation-in-your-customer-data-toolkit",
+      "summary": "Invalid customer phone numbers can drive up costs, disrupt messages and weaken fraud checks across marketing and support systems.",
+      "date": "14-08-2026 05:30 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI-driven cybercrime surges at scale, Flashpoint warns",
+      "link": "https://securitybrief.com.au/story/ai-driven-cybercrime-surges-at-scale-flashpoint-warns",
+      "summary": "Stolen credentials and AI-generated phishing are accelerating attacks, as Flashpoint tracked 22 million illicit discussions and 7.4 million infected hosts.",
+      "date": "14-08-2026 03:55 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ransomware victim numbers flat as active groups hit record",
+      "link": "https://securitybrief.com.au/story/ransomware-victim-numbers-flat-as-active-groups-hit-record",
+      "summary": "More groups are now driving attacks, leaving victim numbers flat even as ransomware operations reached a record 93 active crews in the quarter.",
+      "date": "14-08-2026 03:38 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cyberattacks & ransomware surge in July, Check Point",
+      "link": "https://securitybrief.com.au/story/cyberattacks-ransomware-surge-in-july-check-point",
+      "summary": "Ransomware victims jumped 49% in July as organisations also endured 2,336 weekly cyberattacks and widening AI data exposure.",
+      "date": "14-08-2026 03:19 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ubitquity releases ShieldBreak Windows Defender patch",
+      "link": "https://securitybrief.com.au/story/ubitquity-releases-shieldbreak-windows-defender-patch",
+      "summary": "A Windows Defender zero-day is leaving organisations exposed to SYSTEM-level takeover until Microsoft issues an official fix.",
+      "date": "14-08-2026 02:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "NIST seeks input to modernise vulnerability database",
+      "link": "https://securitybrief.com.au/story/nist-seeks-input-to-modernise-vulnerability-database",
+      "summary": "Security teams could gain more useful risk signals as NIST weighs changes to the National Vulnerability Database amid surging flaw volumes and AI use.",
+      "date": "14-08-2026 01:15 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Searchlight Cyber launches pre-emptive threat platform",
@@ -41,100 +139,6 @@
       "audience": [
         "Enterprise"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Quest wins IRAP status for Australian government sales",
-      "link": "https://securitybrief.com.au/story/quest-wins-irap-status-for-australian-government-sales",
-      "summary": "Australian agencies could now buy Quest's security and data platforms without repeating lengthy internal reviews, after independent PROTECTED-level assessment.",
-      "date": "13-08-2026 03:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australia's tech workforce nears 1 million amid AI",
-      "link": "https://securitybrief.com.au/story/australia-s-tech-workforce-nears-1-million-amid-ai",
-      "summary": "Technical roles are still expanding across Australia even as employers adopt AI, with regional jobs growing faster and early-career hiring holding up.",
-      "date": "13-08-2026 03:00 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Verifone brings biometric payment devices to Australia",
-      "link": "https://securitybrief.com.au/story/verifone-brings-biometric-payment-devices-to-australia",
-      "summary": "Australian shoppers will soon be able to verify payments with a face or palm as merchants trial optional biometrics alongside cards, phones and PINs.",
-      "date": "13-08-2026 12:08 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian logistics workers eye exit amid labour strain",
-      "link": "https://securitybrief.com.au/story/australian-logistics-workers-eye-exit-amid-labour-strain",
-      "summary": "Long hours, compliance pressure and mental strain are prompting many Australian logistics staff to consider quitting within five years.",
-      "date": "13-08-2026 11:43 AM",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Wiz names Accenture top partner in Australian awards",
-      "link": "https://securitybrief.com.au/story/wiz-names-accenture-top-partner-in-australian-awards",
-      "summary": "Accenture's double win underlines Wiz's push to deepen its Australian channel as customers seek help securing cloud and AI projects.",
-      "date": "13-08-2026 11:10 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SAP names Rachel Hunter ANZ Head of AI amid growing adoption",
-      "link": "https://securitybrief.com.au/story/sap-names-rachel-hunter-anz-head-of-ai-amid-growing-adoption",
-      "summary": "AI use in Australia and New Zealand is shifting from pilots to routine finance and marketing tasks, SAP said in a regional review.",
-      "date": "13-08-2026 10:45 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Security chiefs more worried than staff over AI governance",
-      "link": "https://securitybrief.com.au/story/security-chiefs-more-worried-than-staff-over-ai-governance",
-      "summary": "Senior security leaders are increasingly focused on how AI vendors handle sensitive data, as adoption in security operations becomes routine.",
-      "date": "13-08-2026 10:19 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -270,12 +274,12 @@
       "source": "Dark Reading",
       "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
       "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
-      "summary": "Security experts say prioritization should be the main focus for the August updates, not the massive CVE volume.",
+      "summary": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
       "date": "12-08-2026 07:42 AM",
       "tags": [
         "AU Cyber"
       ],
-      "threat": "Advisory",
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -668,22 +672,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQMExSQnNULWhzQTV4VGVJV1VqRDEtZ3ZBZmRoVGVxR1VyYW9SQm9ERUlsaWhrbzV0LWRhTUN0dGFBVHB1RUFMU2FkbzhCbURBa2NET005V0RnT1Y4S3hJMjR5VV9oeWhFT3Z3UVplTHVodUFZWnZCNmVObkw3b3pCeWN2V0JtQTRSOWJ2cVBQVlZKZlZNa3hiS1ctSzVqUXFiNGhvNFduRVRTOGpRem50WlVmaDJCNzdNTlUzaWF6cm9NelpsUnhOazR1TE9ha2FLcFltYnpYLUs1Z1pPUHlVamZrWk9DV2FVRnE0WGhwZXRhN1hycUtlc2NVYlFlQ2JXcFJGdkpySkk3TlkyYmhPTThWMzNKZVU?oc=5",
-      "summary": "Browse news and alerts - page 4 Scamwatch",
-      "date": "07-08-2026 01:54 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "AI Sends Global Crime Syndicates Into Fraud Nirvana",
       "link": "https://www.darkreading.com/threat-intelligence/ai-global-crime-syndicates-fraud-nirvana",
@@ -851,62 +839,6 @@
         "Enterprise"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Minnesota Water Utility Attacks Expose Sector's Cyber-Risks",
-      "link": "https://www.darkreading.com/ics-ot-security/minnesota-water-utility-attacks-expose-sector-cyber-risks",
-      "summary": "A likely Iran-backed actor targeted more than 30 community water systems in Minnesota in a sobering reminder of rising threats to US critical infrastructure.",
-      "date": "31-07-2026 07:16 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Harnesses Burst With Potential Exploit Opps",
-      "link": "https://www.darkreading.com/application-security/ai-harnesses-potential-exploit-opps",
-      "summary": "A myriad of software makes up the typical AI harness, and trust issues between the components can create concerning attack vectors.",
-      "date": "31-07-2026 05:40 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Read This Before You Buy That TV Streaming Stick",
-      "link": "https://krebsonsecurity.com/2026/07/read-this-before-you-buy-that-tv-streaming-stick/",
-      "summary": "Security experts have been sounding the alarm for years about the risks of using generic TV boxes that promise unlimited content streaming for a one-time fee, warning that they secretly rent the user's Internet connection out to strangers. But a groundbreaking new analysis finds these devices also r",
-      "date": "31-07-2026 02:49 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Claude Mythos \u2014 Hype vs. Reality: What Security Teams Need to Know",
-      "link": "https://www.darkreading.com/cybersecurity-operations/claude-mythos-hype-vs-reality",
-      "summary": "In this edition of Reporters' Notebook, our journalists discuss the ins and outs of Anthropic's Claude Mythos rollout. How seriously should we take its risks? How big of a deal is it?",
-      "date": "31-07-2026 01:28 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
