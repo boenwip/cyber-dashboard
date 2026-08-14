@@ -1,5 +1,5 @@
 {
-  "last_updated": "14-08-2026 07:33 PM",
+  "last_updated": "15-08-2026 02:55 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagent forking is now on by default: a <code>subagent_type: \"fork\"</code> subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in ",
-      "date": "14-08-2026 07:33 PM"
+      "date": "15-08-2026 02:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack</li>\n</ul>",
-      "date": "14-08-2026 07:33 PM"
+      "date": "15-08-2026 02:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.229",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Documented <code>claude remote-control --continue</code> for resuming the most recent Remote Control session</li>\n<li>Added server-supplied Claude Code hook support fo",
-      "date": "14-08-2026 07:33 PM"
+      "date": "15-08-2026 02:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.228",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error</li>\n<li>Fixed <code>git</code> / Git",
-      "date": "14-08-2026 07:33 PM"
+      "date": "15-08-2026 02:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.227",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users ",
-      "date": "14-08-2026 07:33 PM"
+      "date": "15-08-2026 02:55 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Market for AI watermark removal tools emerges after Anthropic\u2019s Claude update - SC Media",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkxPREVfTVBCSkxWUlJWcVZTQ1JMNHN0eHF0YWVoc0NReGdTd2NPaEpmS0loaExNcXprMlk2SFBETjNWTnRDczVPcE1SaW9XMC01OGNIeDNRQlVLLVd3OXZDbVNYTmk5Z2hzYVZrZ3lGNUV6ZWZ3UjFScnE1QXBsanNnTDZBS3VRWElBYXZNZnJlVHdSUWdoazNyVnBaQ2hjYXo5X3QyNEpyQQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQkxPREVfTVBCSkxWUlJWcVZTQ1JMNHN0eHF0YWVoc0NReGdTd2NPaEpmS0loaExNcXprMlk2SFBETjNWTnRDczVPcE1SaW9XMC01OGNIeDNRQlVLLVd3OXZDbVNYTmk5Z2hzYVZrZ3",
+      "date": "14-08-2026 08:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -107,6 +115,14 @@
       "date": "13-08-2026 07:11 AM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft August 2026 Patch Tuesday fixes 400 flaws, 3 zero-days - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPRmJ1SFJHRlJhRkZSNmNYUllLYXBQeDhzZVdYRzF5UzJfTVoyQW9FSU9oVm5BRkM4MVMtb2V5UmFsSEZHaVVnNGlYaVFrYzU2Sy1mSnhjUXIyb3h5SWFRcVNKY2ZCRkpueXphdVdUTGpTbDlIcW5VM1VWeUxwSG8zc3J4UFl6Q29mN1RvM29ZU3Zvc096bzRBSzRpYmNXQlhwWjZkcXQ4b1hlWmhyc1pIZXRR0gG3AUFVX3lxTE5Tc2ZSZlRDT094eVM4em1sRGNDaFZYcE5yQXk2bldURDVYbzVfSWJXcmRKRVNHbkZwTzJ6X1BZNkc1Si1WdFFMdWFoc0RPbXI4MWNWU3d1RXFIRUpQUXpzVGs2ejNPRHpEMkw5RFNzdXd5R05xWWd0MTFzRTZJZFRxYTJvVGRFX1g1aGRDdHRqd3hKVjEtaDJhRTFZX25idTU2WHMteUtHbmZ1R1NfLVhnTUJoSllmRQ?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxPRmJ1SFJHRlJhRkZSNmNYUllLYXBQeDhzZVdYRzF5UzJfTVoyQW9FSU9oVm5BRkM4MVMtb2V5UmFsSEZHaVVnNGlYaVFrYzU2Sy1mSnhjUXIyb3h5SWFRcVNKY2ZCRkpueXphdVdUTG",
+      "date": "12-08-2026 04:08 AM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI - ZDNET",
@@ -121,14 +137,6 @@
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1phYk54dWNkRjNpSXdCaUNFYVg2MS1IeDlSNUJUak1DaFEtbVFjbmtaemRacG1RMWVRV1IyVTQtWFFXVzZTZjc2UGJDanJrT29GUlhsaTh0ak9DMXEwYkpRb2tnbUlBWVhSZHhtOGpOeXZZSThCMG1jWVRFV05hVWxfaUNiZXJ2ZnZwQ1VxSUhfWGtxYjBPMW1oZW40N0Jy?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1phYk54dWNkRjNpSXdCaUNFYVg2MS1IeDlSNUJUak1DaFEtbVFjbmtaemRacG1RMWVRV1IyVTQtWFFXVzZTZjc2UGJDanJrT29GUlhsaTh0ak9DMXEwYkpRb2tnbUlBWVhSZHhtOG",
       "date": "11-08-2026 10:13 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic pledges to embed watermarks to help discern AI slop in sop to EU - The Register",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdldQVElvS0hkUGQxa0RUU05PMjhpcDF6N1ctNkdIMndla1RucExRNGN3UFY2QXQ4Wmd1cWhGZ1JnOWRpUnA3aU5RN1FueFZLcDIzVmpERDBqcVZpckNRSDM1RDN2eGI2TEI0ck90WWdwQjBBWWdmQzZFcU0zRm9aU3RHbC1ySVhMeXZyT0dUSXBsYnppdDNybFVHX0lnbHhxWmN6WmNuc25Kb2RXeTVQbU5aVlVqT1lmMWhUaUgtRHNWQVNOcmJlUWVvMA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOdldQVElvS0hkUGQxa0RUU05PMjhpcDF6N1ctNkdIMndla1RucExRNGN3UFY2QXQ4Wmd1cWhGZ1JnOWRpUnA3aU5RN1FueFZLcDIzVmpERDBqcVZpckNRSDM1RDN2eGI2TEI0ck90WW",
-      "date": "11-08-2026 10:27 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -165,10 +173,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
-      "date": "08-07-2026 05:00 PM"
+      "title": "Launching Health in ChatGPT - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
+      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -195,14 +203,6 @@
       "date": "17-06-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
@@ -225,6 +225,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
       "date": "03-06-2026 03:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - futurumgroup.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcH",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -253,14 +261,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
@@ -277,7 +277,7 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Testing ads in ChatGPT - OpenAI",
+      "title": "Testing ads in ChatGPT - openai.com",
       "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5\" target=\"_blank\">Tes",
       "date": "09-02-2026 06:00 PM"
