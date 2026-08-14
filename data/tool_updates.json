@@ -1,5 +1,5 @@
 {
-  "last_updated": "14-08-2026 09:43 AM",
+  "last_updated": "14-08-2026 11:12 AM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagent forking is now on by default: a <code>subagent_type: \"fork\"</code> subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in ",
-      "date": "14-08-2026 09:43 AM"
+      "date": "14-08-2026 11:12 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack</li>\n</ul>",
-      "date": "14-08-2026 09:43 AM"
+      "date": "14-08-2026 11:12 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.229",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Documented <code>claude remote-control --continue</code> for resuming the most recent Remote Control session</li>\n<li>Added server-supplied Claude Code hook support fo",
-      "date": "14-08-2026 09:43 AM"
+      "date": "14-08-2026 11:12 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.228",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.228",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed interactive sessions that could stop redrawing entirely, while the process kept running, after a rare internal layout error</li>\n<li>Fixed <code>git</code> / Git",
-      "date": "14-08-2026 09:43 AM"
+      "date": "14-08-2026 11:12 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.227",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.227",
       "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed feature flags being evaluated without the user's subscription tier when a session started with an expired login token, which could wrongly prompt Max plan users ",
-      "date": "14-08-2026 09:43 AM"
+      "date": "14-08-2026 11:12 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,20 +115,28 @@
       "date": "11-08-2026 10:13 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "8 New Features in Microsoft 365 Copilot: Real-Time Editing Arrives - Geeky Gadgets",
-      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1BczlBQUZGSnJVN0lYTURQWllqTFpxdDg4ckFhUGFRcTI5UnhZUnlsNTVFUi14d2p2WkxmNGJ3VzJMejJFbUJtdmxDWFF3VmpaYUV5ZTNncUlSNEFoenR2bXRieG9jbU1JcDFEODdyV3JGUWd1V005SVBkeVVZdw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1BczlBQUZGSnJVN0lYTURQWllqTFpxdDg4ckFhUGFRcTI5UnhZUnlsNTVFUi14d2p2WkxmNGJ3VzJMejJFbUJtdmxDWFF3VmpaYUV5ZTNncUlSNEFoenR2bXRieG9jbU1JcDFEODdyV3",
-      "date": "11-08-2026 06:45 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic pledges to embed watermarks to help discern AI slop in sop to EU - The Register",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOdldQVElvS0hkUGQxa0RUU05PMjhpcDF6N1ctNkdIMndla1RucExRNGN3UFY2QXQ4Wmd1cWhGZ1JnOWRpUnA3aU5RN1FueFZLcDIzVmpERDBqcVZpckNRSDM1RDN2eGI2TEI0ck90WWdwQjBBWWdmQzZFcU0zRm9aU3RHbC1ySVhMeXZyT0dUSXBsYnppdDNybFVHX0lnbHhxWmN6WmNuc25Kb2RXeTVQbU5aVlVqT1lmMWhUaUgtRHNWQVNOcmJlUWVvMA?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxOdldQVElvS0hkUGQxa0RUU05PMjhpcDF6N1ctNkdIMndla1RucExRNGN3UFY2QXQ4Wmd1cWhGZ1JnOWRpUnA3aU5RN1FueFZLcDIzVmpERDBqcVZpckNRSDM1RDN2eGI2TEI0ck90WW",
       "date": "11-08-2026 10:27 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Learning more about Claude's mathematical capabilities - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hN2tYeFF6SEtkVVhzVURqcHVqZ0VPVExEUnlFX21BcmNLaFhqT1BEU25IVS15akdoYVZ3djRLc3B5OXIyRnNxZkcxQUd4TEhXaUlpZzNwZlhuUVk?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hN2tYeFF6SEtkVVhzVURqcHVqZ0VPVExEUnlFX21BcmNLaFhqT1BEU25IVS15akdoYVZ3djRLc3B5OXIyRnNxZkcxQUd4TEhXaUlpZzNwZlhuUVk?oc=5\" target=\"_blank\">Lear",
+      "date": "11-08-2026 03:52 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5\" target=\"_blank\"",
+      "date": "10-08-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -144,14 +152,6 @@
       "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVG",
-      "date": "24-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5\" target=\"_blank\">Introduci",
       "date": "24-07-2026 05:00 PM"
     },
     {
@@ -189,7 +189,7 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
       "date": "15-06-2026 05:00 PM"
