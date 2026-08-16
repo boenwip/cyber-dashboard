@@ -408,9 +408,7 @@ function loadBriefing() {
         // Render paragraph breaks for readability
         var paras = item.briefing.split(/\n\n+/);
         textEl.innerHTML = paras.map(function(p) {
-          var safe = p.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,' ');
-          safe = safe.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-          return '<p style="margin:0 0 12px 0;">' + safe + '</p>';
+          return '<p style="margin:0 0 12px 0;">' + p.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,' ') + '</p>';
         }).join('');
         if (dateEl && item.date) dateEl.textContent = item.date;
       } else {

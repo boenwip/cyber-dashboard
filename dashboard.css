@@ -48,7 +48,7 @@
 
 .tracker-body {
   display: grid;
-  grid-template-columns: minmax(220px, 1fr) minmax(240px, 1fr) minmax(300px, 420px);
+  grid-template-columns: 1fr minmax(300px, 420px);
   align-items: stretch;
 }
 .tracker-col {
@@ -88,14 +88,6 @@
 }
 .count-num.visible { opacity: 1; }
 .count-sub { font-size: 13px; color: var(--text-2); margin-top: 8px; line-height: 1.55; }
-.count-methodology {
-  display: inline-block;
-  font-size: 11px;
-  color: var(--text-4);
-  text-decoration: none;
-  margin-top: 8px;
-}
-.count-methodology:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 .count-voice {
   font-size: 14px;
   color: var(--text-2);
@@ -105,14 +97,17 @@
   line-height: 1.8;
   border-left: 2px solid var(--accent-b);
   padding-left: 14px;
+  max-width: 560px;
 }
 
 /* Featured story card */
 .featured-story {
+  margin-top: 20px;
   padding: 14px 16px;
   background: var(--surface2);
   border: 0.5px solid var(--border2);
   border-radius: 8px;
+  max-width: 560px;
 }
 .fs-label {
   font-size: 10px;
@@ -146,35 +141,35 @@
   margin-top: 5px;
 }
 
-/* Stats list — sits inside the hero column, under the counter */
+/* Stats strip */
 .tracker-stats {
-  margin-top: 22px;
-  padding-top: 18px;
+  padding: 8px 28px;
   border-top: 0.5px solid var(--border);
+  background: var(--surface2);
   display: flex;
-  flex-direction: column;
+  align-items: stretch;
 }
 .ts-item {
+  flex: 1;
   display: flex;
-  align-items: baseline;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 9px 0;
-  border-bottom: 0.5px solid var(--border);
+  flex-direction: column;
+  gap: 4px;
+  padding: 14px 20px;
+  border-right: 0.5px solid var(--border);
 }
-.ts-item:last-of-type { border-bottom: none; }
+.ts-item:first-child { padding-left: 0; }
 .ts-n {
   font-family: var(--mono);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   color: var(--accent);
   line-height: 1;
-  flex-shrink: 0;
 }
 .ts-n--high { color: var(--high); }
 .ts-n--med  { color: var(--med); }
-.ts-l { font-size: 11px; color: var(--text-3); line-height: 1.4; text-align: right; }
+.ts-l { font-size: 11px; color: var(--text-3); line-height: 1.4; }
 .ts-link {
+  margin-left: auto;
   font-size: 12px;
   font-weight: 500;
   color: var(--accent);
@@ -184,8 +179,8 @@
   border: 0.5px solid var(--accent-b);
   background: var(--accent-dim);
   white-space: nowrap;
-  align-self: flex-start;
-  margin-top: 14px;
+  flex-shrink: 0;
+  align-self: center;
 }
 .ts-link:hover { opacity: 0.8; }
 
@@ -640,17 +635,23 @@ body.threat-map-open .layout { display: none !important; }
   .tracker-body { grid-template-columns: 1fr; }
   .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; max-height: none; }
   .cve-feed { max-height: 180px; }
-  .tracker-header, .tracker-crime,
+  .tracker-stats { flex-wrap: wrap; }
+  .ts-item { min-width: 40%; }
+  .tracker-header, .tracker-stats, .tracker-crime,
   .active-filter-bar, .article, .threat-map-header { padding-left: 20px; padding-right: 20px; }
   .tracker-col { padding: 18px 20px; }
-  .tracker-col--story { border-right: none; border-bottom: 0.5px solid var(--border); }
-  .tracker-col--hero { border-right: none; border-bottom: 0.5px solid var(--border); }
+  .ts-item:first-child { padding-left: 0; }
 }
 @media (max-width: 768px) {
   .tracker-col--cve { display: none; }
+  .tracker-stats { flex-direction: column; gap: 0; padding: 0 20px; }
+  .ts-item { border-right: none; border-bottom: 0.5px solid var(--border); padding: 12px 0; }
+  .ts-item:first-child { padding-left: 0; }
+  .ts-link { margin-left: 0; margin-top: 12px; align-self: flex-start; }
   .layout { grid-template-columns: 1fr; }
   .sidebar { display: none; }
   #articles-container { height: auto; max-height: 70vh; }
+  .count-voice { max-width: 100%; }
 }
 @media (max-width: 480px) {
   .count-num { font-size: 36px; }
