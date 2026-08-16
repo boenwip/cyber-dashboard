@@ -97,12 +97,49 @@ function initSearch() {
   });
 }
 
+// ── REFERENCE PAGE TABS (OWASP / Essential Eight / Glossary) ──
+function initRefTabs() {
+  var tabs   = document.querySelectorAll('.ref-tab-btn');
+  var panels = document.querySelectorAll('.ref-panel');
+  if (!tabs.length) return;
+
+  function activate(tabId) {
+    tabs.forEach(function(t) {
+      var on = t.dataset.tab === tabId;
+      t.classList.toggle('ref-tab-btn--active', on);
+      t.setAttribute('aria-selected', on ? 'true' : 'false');
+    });
+    panels.forEach(function(p) {
+      p.classList.toggle('ref-panel--active', p.id === 'panel-' + tabId);
+    });
+    history.replaceState(null, '', '#' + tabId);
+  }
+
+  tabs.forEach(function(btn) {
+    btn.addEventListener('click', function() { activate(btn.dataset.tab); });
+  });
+
+  var glossaryLink = document.getElementById('wotd-glossary-link');
+  if (glossaryLink) {
+    glossaryLink.addEventListener('click', function(e) {
+      e.preventDefault();
+      activate('glossary');
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+
+  var hash = location.hash.replace('#', '');
+  var valid = ['owasp-web','owasp-api','owasp-llm','e8','glossary'];
+  if (hash && valid.indexOf(hash) !== -1) activate(hash);
+}
+
 document.addEventListener('DOMContentLoaded', function() {
   if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
   renderAlpha(DEFINITIONS);
   renderDefs();
   initSearch();
   renderWotd(DEFINITIONS);
+  initRefTabs();
 
   document.querySelectorAll('.def-lvl-btn').forEach(function(btn) {
     btn.addEventListener('click', function() { filterLevel(btn.dataset.level, btn); });

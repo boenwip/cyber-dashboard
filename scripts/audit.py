@@ -25,26 +25,38 @@ def load(path):
         return ''
 
 # ── LOAD ALL FILES ──────────────────────────────────────────
-idx      = load('index.html')
-shard_css = load('shared.css')
-dash_css  = load('dashboard.css')
-shard_js  = load('shared.js')
-dash_js   = load('dashboard.js')
-defs_html = load('definitions.html')
-defs_js   = load('definitions-page.js')
-res_html  = load('resources.html')
-res_js    = load('resources.js')
-aig_html  = load('ai-guide.html')
-aig_js    = load('ai-guide.js')
-py_script = load('scripts/fetch_cyber_news.py')
-workflow  = load('.github/workflows/fetch_news.yml')
+idx         = load('index.html')
+shard_css   = load('shared.css')
+dash_css    = load('dashboard.css')
+shard_js    = load('shared.js')
+dash_js     = load('dashboard.js')
+defs_html   = load('definitions.html')     # redirect stub -> reference.html#glossary
+defs_js     = load('definitions-page.js')  # reference.html's page script
+defsdata_js = load('definitions.js')       # shared term data, used by index + reference
+defs_css    = load('definitions.css')
+ref_html    = load('reference.html')
+ref_css     = load('reference.css')
+res_html    = load('resources.html')
+res_css     = load('resources.css')
+res_js      = load('resources.js')
+aig_html    = load('ai-guide.html')
+aig_css     = load('ai-guide.css')
+aig_js      = load('ai-guide.js')
+src_html    = load('sources.html')
+src_css     = load('sources.css')
+py_script   = load('scripts/fetch_cyber_news.py')
+workflow    = load('.github/workflows/fetch_news.yml')
 
-all_html = [('index.html', idx), ('definitions.html', defs_html),
-            ('resources.html', res_html), ('ai-guide.html', aig_html)]
+all_html = [('index.html', idx), ('reference.html', ref_html),
+            ('resources.html', res_html), ('ai-guide.html', aig_html),
+            ('sources.html', src_html)]
 all_js_files = [('shared.js', shard_js), ('dashboard.js', dash_js),
-                ('definitions-page.js', defs_js), ('resources.js', res_js),
-                ('ai-guide.js', aig_js)]
-all_css_files = [('shared.css', shard_css), ('dashboard.css', dash_css)]
+                ('definitions-page.js', defs_js), ('definitions.js', defsdata_js),
+                ('resources.js', res_js), ('ai-guide.js', aig_js)]
+all_css_files = [('shared.css', shard_css), ('dashboard.css', dash_css),
+                  ('reference.css', ref_css), ('definitions.css', defs_css),
+                  ('resources.css', res_css), ('ai-guide.css', aig_css),
+                  ('sources.css', src_css)]
 
 results = []
 
@@ -58,7 +70,7 @@ tests = [
     ("Wotd def not showing Loading",       'wotd-def">Loading' not in idx),
     ("Scam callout hidden by default",     'scam-callout' in idx),
     ("Briefing hides on fail",             "display = 'none'" in dash_js),
-    ("51+ definitions",                    load('definitions.js').count("short:") >= 51),
+    ("51+ definitions",                    defsdata_js.count("short:") >= 51),
     ("briefing.json exists",               os.path.exists(os.path.join(ROOT, 'data/briefing.json'))),
     ("news.json exists",                   os.path.exists(os.path.join(ROOT, 'data/news.json'))),
     ("cve.json exists",                    os.path.exists(os.path.join(ROOT, 'data/cve.json'))),
@@ -92,13 +104,29 @@ for name, h in all_html:
         results.append((label, r))
         print(f"  {'✓' if r else '✗'} {label}")
 
-# Script load order in index.html
-sp = [(m.start(), m.group(1)) for m in re.finditer(r'<script src="([^"]+)"', idx)]
-order = [s[1] for s in sorted(sp)]
-if 'shared.js' in order and 'dashboard.js' in order:
-    r = check("shared.js before dashboard.js", order.index('shared.js') < order.index('dashboard.js'))
-    results.append(("shared.js before dashboard.js", r))
-    print(f"  {'✓' if r else '✗'} shared.js before dashboard.js")
+# Script load order — shared.js must load before any page-specific script
+for name, h in all_html:
+    sp = [(m.start(), m.group(1)) for m in re.finditer(r'<script src="([^"]+)"', h)]
+    order = [s[1] for s in sorted(sp)]
+    if order:
+        r = check(f"{name}: shared.js loads first", order[0] == 'shared.js')
+        results.append((f"{name}: shared.js first", r))
+        print(f"  {'✓' if r else '✗'} {name}: shared.js loads first")
+
+# ── PASS 2b: DEFINITIONS.HTML REDIRECT ──────────────────────
+# definitions.html is an intentional redirect stub (see docs/DECISIONS.md) —
+# reference.html now owns the full glossary page, so this checks the
+# redirect itself rather than full-page structure.
+print("\n── PASS 2b: DEFINITIONS.HTML REDIRECT")
+redirect_tests = [
+    ("definitions.html: redirects to reference.html#glossary", 'url=reference.html#glossary' in defs_html),
+    ("definitions.html: has canonical link",                   'rel="canonical"' in defs_html),
+    ("definitions.html: ends </html>",                         defs_html.strip().endswith('</html>')),
+]
+for label, cond in redirect_tests:
+    r = check(label, cond)
+    results.append((label, r))
+    print(f"  {'✓' if r else '✗'} {label}")
 
 # ── PASS 3: CSS ─────────────────────────────────────────────
 print("\n── PASS 3: CSS")
@@ -109,8 +137,8 @@ for name, css in all_css_files:
     print(f"  {'✓' if r else '✗'} {name}: braces balanced ({o}/{c})")
 
 extra_css = [
-    ("Dark yellow accent #f5c842",         '#f5c842' in shard_css),
-    ("Light navy #0D3B66",                 '#0D3B66' in shard_css),
+    ("Dark yellow accent #f8ce2a",         '#f8ce2a' in shard_css),
+    ("Light amber accent #c85200",         '#c85200' in shard_css),
     ("Reduced motion respected",           'prefers-reduced-motion' in shard_css),
     ("Mobile 768px breakpoint",            'max-width: 768px' in shard_css),
     ("Article hover feedback",             'border-left-color' in dash_css),
@@ -181,7 +209,7 @@ for label, cond in py_tests:
 
 # ── PASS 6: SECURITY ─────────────────────────────────────────
 print("\n── PASS 6: SECURITY")
-all_content = idx + defs_html + res_html + aig_html + shard_js + dash_js
+all_content = idx + ref_html + res_html + aig_html + src_html + defs_html + shard_js + dash_js
 sec_tests = [
     ("No API keys in HTML or JS",          'sk-ant' not in all_content),
     ("No iframe in dashboard",             'iframe' not in idx),
