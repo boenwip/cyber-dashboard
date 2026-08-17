@@ -1,7 +1,18 @@
 {
-  "last_updated": "17-08-2026 06:33 PM",
+  "last_updated": "18-08-2026 07:21 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2025-62593",
+      "description": "Ray-Project Ray \u2014 Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Fire",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-17",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
+      "vendor": "Ray-Project",
+      "product": "Ray",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-20349",
       "description": "Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD)  \u2014 Cisco Secure Firewall Adaptive Security Appliance (ASA) and Secure Firewall Threat Defense (FTD) contain a heap inspection vulnerability that could allow an unauthenticated, remote attacker to cause t",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-18577",
       "vendor": "N-able",
       "product": "N-central",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-20316",
-      "description": "Cisco Secure Firewall Management Center (FMC) \u2014 Cisco Secure Firewall Management Center (FMC) formerly known as Firepower Management Center contains a use of hard-coded password vulnerability that could allow an unauthenticated, remote attacker to ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-07-29",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20316",
-      "vendor": "Cisco",
-      "product": "Secure Firewall Management Center (FMC)",
       "ransomware": "Unknown"
     }
   ]
