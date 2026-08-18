@@ -648,10 +648,16 @@ body.threat-map-open .layout { display: none !important; }
   .tracker-col--hero { border-right: none; border-bottom: 0.5px solid var(--border); }
 }
 @media (max-width: 768px) {
-  .tracker-col--cve { display: none; }
   .layout { grid-template-columns: 1fr; }
-  .sidebar { display: none; }
-  #articles-container { height: auto; max-height: 70vh; }
+  .sidebar {
+    min-width: 0;
+    position: static;
+    max-height: none;
+    overflow-y: visible;
+    border-left: none;
+    border-top: 0.5px solid var(--border);
+  }
+  .tools-scroll { overflow-y: visible; }
 }
 @media (max-width: 480px) {
   .count-num { font-size: 36px; }
