@@ -15,9 +15,12 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | Page | What's on it |
 |---|---|
 | **Dashboard** | Live threat tracker · CVE panel · AI briefing · scam alert · news feed · tool updates |
-| **Definitions** | 51 cyber security terms explained in plain English — beginner to intermediate |
+| **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
 | **Resources** | Breach checker · report links · learning resources · security tools |
 | **AI Guide** | Prompt library for everyday work tasks · AI safety rules · per-tool safety ratings |
+| **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
+
+`definitions.html` is a redirect stub to `reference.html#glossary` — kept for old links, not a real page.
 
 ---
 
@@ -39,7 +42,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **Breach checker** — Email breach lookup via HaveIBeenPwned. Read-only, not stored, not logged. Falls back to the HIBP site directly if the API blocks browser requests.
 
-**Two themes** — Dark (yellow on near-black) and light (navy on warm parchment). Persisted via localStorage.
+**Two themes** — Dark (yellow on warm near-black) and light (amber on warm parchment). Persisted via localStorage.
 
 ---
 
@@ -48,20 +51,30 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 ```
 pseudosec/
 ├── index.html              # Dashboard
-├── definitions.html        # Glossary
+├── reference.html          # OWASP Top 10s, Essential Eight, glossary (tabbed)
 ├── resources.html          # Breach checker + links
 ├── ai-guide.html           # Prompt library + AI safety
-├── shared.css              # Design system
-├── shared.js               # Theme, nav, date utils, word of the day
+├── sources.html            # Sources & methodology
+├── definitions.html        # Redirect stub -> reference.html#glossary
+├── shared.css/js           # Design system, theme, nav, date utils, word of the day
 ├── dashboard.css/js        # Dashboard
-├── definitions.css/js      # Glossary styles, search, filter, render
+├── reference.css           # Reference page styles
+├── definitions.css/js      # Glossary data + render (reused by reference.html)
+├── definitions-page.js     # Reference page's tab/glossary controller
 ├── resources.css/js        # Breach checker
 ├── ai-guide.css/js         # Prompt library
-├── fetch_cyber_news.py     # RSS aggregation, tool updates, CVEs + AI briefing
-├── briefing.json           # AI briefing (auto-generated)
-├── news.json               # Feed (auto-generated)
-├── tool_updates.json       # Tool updates (auto-generated)
-├── cve.json                # CVE feed (auto-generated)
+├── sources.css             # Sources page styles
+├── assets/
+│   └── pseudosec.png       # Logo
+├── scripts/
+│   ├── fetch_cyber_news.py # RSS aggregation, tool updates, CVEs + AI briefing
+│   └── audit.py            # Automated pre-ship checks (147 checks)
+├── data/
+│   ├── briefing.json       # AI briefing (auto-generated)
+│   ├── news.json           # Feed (auto-generated)
+│   ├── tool_updates.json   # Tool updates (auto-generated)
+│   └── cve.json            # CVE feed (auto-generated)
+├── docs/                   # CHANGELOG, DECISIONS, REVIEW, this file
 └── .github/workflows/
     └── fetch_news.yml      # GitHub Actions schedule
 ```
@@ -88,7 +101,7 @@ The AI briefing requires `ANTHROPIC_API_KEY` set as a GitHub Actions secret. Wit
 
 ```bash
 pip install feedparser
-python3 fetch_cyber_news.py
+python3 scripts/fetch_cyber_news.py
 python3 -m http.server 8000
 ```
 
@@ -96,7 +109,7 @@ Open `http://localhost:8000/index.html`. For the AI briefing:
 
 ```bash
 export ANTHROPIC_API_KEY=your_key_here
-python3 fetch_cyber_news.py
+python3 scripts/fetch_cyber_news.py
 ```
 
 ---
@@ -104,10 +117,10 @@ python3 fetch_cyber_news.py
 ## Audit
 
 ```bash
-python3 audit.py
+python3 scripts/audit.py
 ```
 
-114 checks across content integrity, HTML structure, CSS, JavaScript, Python, and workflow configuration. Run before committing.
+147 checks across content integrity, HTML structure, CSS, JavaScript, Python, security, and content quality. Run before committing.
 
 ---
 
@@ -115,12 +128,12 @@ python3 audit.py
 
 | | Dark | Light |
 |---|---|---|
-| Background | `#0d0f14` | `#f4f1eb` |
-| Accent | `#f5c842` yellow | `#0D3B66` navy |
+| Background | `#0f0d0b` | `#f4f1eb` |
+| Accent | `#f8ce2a` yellow | `#c85200` amber |
 | Critical | `#e07878` | `#b83a3a` |
 | High | `#d4a84a` | `#8a6020` |
 
-Fonts: Inter (body + headings) · Hack (technical/terminal data). WCAG AA contrast throughout.
+Fonts: Inter (body) · Space Grotesk (headings) · Hack (technical/terminal data). WCAG AA contrast throughout.
 
 ---
 

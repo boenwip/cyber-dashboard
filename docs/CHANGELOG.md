@@ -47,7 +47,7 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 **Light theme accent** — initially navy (`#0D3B66`) on warm parchment (`#f4f1eb`); revised to amber (`#c85200`) with warm brown text (`#1a1208`) — navy on the warm cream background created a hot/cold clash against the logo's warm palette.
 
-**IBM Plex Mono added** — used for all technical content: CVE IDs, timestamps, stat numbers, source labels, code elements. Distinguishes data from prose.
+**IBM Plex Mono added** — used for all technical content: CVE IDs, timestamps, stat numbers, source labels, code elements. Distinguishes data from prose. Replaced by Hack (commit `85b06f3`, 2026-05-12, "Inter + Hack font system") — headings moved to Space Grotesk in the same font pass, Fraunces removed entirely.
 
 **Logo** — transparent PNG, 44px height in header. Black background removed programmatically.
 
@@ -79,7 +79,7 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 **Blocklist tightened:** added tabloid and clickbait domain blocklist. Murdoch/News Corp, Nine Entertainment, Seven West Media, vocal.media, buzzfeed, ladbible, loyaltylobby excluded.
 
-**7-day feed window** — articles older than 7 days excluded from feed display. 30-day window for storage in `news.json`.
+**7-day feed window** — articles older than 7 days excluded from feed display (JS-side, `dashboard.js`). Storage window in `news.json` (Python-side) was originally 90 days, then reduced — currently 14 days (commit `280e02d`, 2026-05-12, "shrink news.json"), not 30.
 
 ### Bug fixes
 
@@ -149,11 +149,11 @@ Zone 2 — Tools: Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva
 | CISA KEV over CIRCL/NIST NVD | CIRCL returned 1999 CVEs; NVD rate-limits aggressively; CISA KEV is curated and current |
 | Yellow accent on dark theme | Matches brand logo; distinctive in the space; high contrast |
 | Amber #c85200 on light theme | Initial navy #0D3B66 clashed (hot/cold) against warm parchment background and logo; amber coheres with the yellow/orange brand palette |
-| IBM Plex Mono for technical text | Differentiates data from prose; gives dashboard aesthetic |
-| Fraunces for display text | Editorial quality; distinctive; works at both large and small sizes |
+| Hack for technical text (was IBM Plex Mono) | Differentiates data from prose; gives dashboard aesthetic |
+| Space Grotesk for headings (Fraunces removed) | Adds character to headings without competing with the logo; geometric, modern |
 | Clickable tags over filter bar | More intuitive; less visual noise; filters are contextual |
 | AI briefing server-side only | API key never exposed to browser; cost controlled |
 | `--force-with-lease` in workflow | Prevents push rejection without the safety risk of `--force` |
 | Removed "Good News" topic tag | Was matching unrelated articles (power price rises); no reliable signal |
 | Removed Schneier on Security | US-focused; no Australian content relevance |
-| 7-day feed window | Keeps feed urgent and current; 30-day storage window for history |
+| 7-day feed display window | Keeps feed urgent and current; 14-day storage window in `news.json` for history |
