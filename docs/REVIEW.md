@@ -137,7 +137,7 @@ Then work through the human lenses.
 - [ ] The briefing button is hidden if no briefing is available
 
 **Cross-theme**
-- [ ] Dark theme: yellow accent (`#f8ce2a`) on near-black (`#0d0f14`)
+- [ ] Dark theme: yellow accent (`#f8ce2a`) on warm near-black (`#0f0d0b`)
 - [ ] Light theme: amber (`#c85200`) on warm parchment (`#f4f1eb`)
 - [ ] All text meets contrast ratios in both themes
 - [ ] Theme preference persists across page navigation

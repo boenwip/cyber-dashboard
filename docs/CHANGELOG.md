@@ -43,9 +43,9 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 - `--text-3` tertiary (4.8:1 — WCAG AA minimum)
 - `--text-4` disabled/decorative only
 
-**Dark theme accent** — changed from slate blue (`#7E9DC4`) to yellow (`#f5c842`). Matches brand logo.
+**Dark theme accent** — changed from slate blue (`#7E9DC4`) to yellow (`#f8ce2a`). Matches brand logo. Dark background later warmed from cold `#0d0f14` to `#0f0d0b` so it wouldn't fight the warm yellow/orange logo.
 
-**Light theme accent** — changed to navy (`#0D3B66`) on warm parchment (`#f4f1eb`).
+**Light theme accent** — initially navy (`#0D3B66`) on warm parchment (`#f4f1eb`); revised to amber (`#c85200`) with warm brown text (`#1a1208`) — navy on the warm cream background created a hot/cold clash against the logo's warm palette.
 
 **IBM Plex Mono added** — used for all technical content: CVE IDs, timestamps, stat numbers, source labels, code elements. Distinguishes data from prose.
 
@@ -148,7 +148,7 @@ Zone 2 — Tools: Google Workspace, Chrome, Asana, Zoom, ChatGPT, Canva
 | GitHub Pages over Netlify/Vercel | Free, simple, already using GitHub Actions |
 | CISA KEV over CIRCL/NIST NVD | CIRCL returned 1999 CVEs; NVD rate-limits aggressively; CISA KEV is curated and current |
 | Yellow accent on dark theme | Matches brand logo; distinctive in the space; high contrast |
-| Navy #0D3B66 on light theme | Requested by project owner; professional, readable |
+| Amber #c85200 on light theme | Initial navy #0D3B66 clashed (hot/cold) against warm parchment background and logo; amber coheres with the yellow/orange brand palette |
 | IBM Plex Mono for technical text | Differentiates data from prose; gives dashboard aesthetic |
 | Fraunces for display text | Editorial quality; distinctive; works at both large and small sizes |
 | Clickable tags over filter bar | More intuitive; less visual noise; filters are contextual |
