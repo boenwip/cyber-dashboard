@@ -14,7 +14,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 | Page | What's on it |
 |---|---|
-| **Dashboard** | Live threat tracker · CVE panel · AI briefing · scam alert · news feed · tool updates |
+| **Dashboard** | Live threat tracker · CVE panel · today's story · scam alert · news feed · tool updates |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
 | **Resources** | Breach checker · report links · learning resources · security tools |
 | **AI Guide** | Prompt library for everyday work tasks · AI safety rules · per-tool safety ratings |
@@ -30,7 +30,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **CVE panel** — 10 most recently added entries from the CISA Known Exploited Vulnerabilities catalog. Actively exploited only — not CVSS-scored CVEs from 1999. Ransomware-linked CVEs flagged with ⚠.
 
-**AI daily briefing** — Plain English summary of the day's top Australian cyber stories, generated via the Anthropic API and saved as static JSON. Runs server-side in GitHub Actions — no API key exposed to the browser. Deduplicates clustered stories before summarising. Opens as a floating panel from the header — hides the button gracefully if no briefing is available.
+**Today's Story** — Whichever recent article is being covered by the most distinct sources right now, picked algorithmically by clustering articles on shared significant title words — not an AI's subjective pick. Falls back to the most recent article on a quiet news day. Shows the article's own summary plus a "Covered by N sources" note when more than one outlet has it. Hidden gracefully if nothing qualifies.
 
 **Scam of the week** — The most recent ScamWatch article, surfaced automatically. Hidden if nothing recent.
 
@@ -93,7 +93,7 @@ GitHub Actions runs the fetch pipeline on a schedule and commits updated JSON ba
 
 The workflow uses `--force-with-lease` — prevents push rejections when a local push races with an Actions commit, without the safety risk of `--force`.
 
-The AI briefing requires `ANTHROPIC_API_KEY` set as a GitHub Actions secret. Without it, the briefing step is skipped gracefully.
+`generate_briefing()` still runs server-side and requires `ANTHROPIC_API_KEY` (skipped gracefully without it), but its output isn't currently shown in the UI — "Today's Story" doesn't need it. `select_trending_article()` (which does drive the UI) needs no API key at all.
 
 ---
 

@@ -521,7 +521,8 @@ def strip_html(text):
     import re as _re
     text = _re.sub(r'<[^>]+>', '', text)
     text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>') \
-               .replace('&nbsp;', ' ').replace('&#39;', "'").replace('&quot;', '"')
+               .replace('&nbsp;', ' ').replace('&#39;', "'").replace('&apos;', "'") \
+               .replace('&quot;', '"')
     return ' '.join(text.split()).strip()
 
 
@@ -977,62 +978,70 @@ Write the briefing now. No title, no sign-off — just 1-2 short paragraphs."""
 
     return None
 
-def generate_featured_article(articles):
-    """Use AI to select the most notable article and write a one-sentence pull quote."""
-    import os, re as _re
-    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
-    if not api_key or not articles:
+TRENDING_STOPWORDS = {
+    'the', 'a', 'an', 'to', 'of', 'in', 'on', 'for', 'and', 'or', 'is', 'are',
+    'with', 'at', 'by', 'from', 'as', 'after', 'over', 'amid', 'how', 'why',
+    'what', 'its', 'it', 'this', 'that', 'than', 'into', 'more', 'still',
+    'be', 'has', 'have', 'was', 'were', 'will', 'not', 'but', 'their',
+}
+
+
+def select_trending_article(articles):
+    """Pick whichever recent story is being covered by the most distinct sources right
+    now — a real cross-source signal instead of an AI's subjective pick. No API key
+    needed.
+
+    Different outlets almost never use near-identical headlines for the same event,
+    so this can't reuse deduplicate()'s strict substring matching (that stays as-is —
+    it's tuned for feed correctness, not topic clustering). Instead, group articles by
+    shared significant title words: two articles from different sources count as the
+    same story if they share at least half the meaningful words in the shorter title.
+
+    Falls back to the single most recent article if nothing today clears that bar
+    (quiet news day, or every outlet phrased it differently).
+    """
+    if not articles:
         return None
 
-    candidates = articles[:15]
-    numbered = '\n'.join([
-        '{}: [{}] {} — {}'.format(i, a.get('source', ''), a.get('title', ''), a.get('summary', '')[:100])
-        for i, a in enumerate(candidates)
-    ])
-    prompt = (
-        'From these recent cybersecurity articles, pick the single most significant or interesting story for an Australian audience.\n\n'
-        + numbered
-        + '\n\nReturn ONLY valid JSON:\n{"index": <number 0-'
-        + str(len(candidates) - 1)
-        + '>, "quote": "<one plain-English sentence, max 18 words, explaining why this story matters>"}'
-    )
-    payload = json.dumps({
-        'model': 'claude-haiku-4-5-20251001',
-        'max_tokens': 100,
-        'messages': [{'role': 'user', 'content': prompt}]
-    }).encode()
-    req = urllib.request.Request(
-        'https://api.anthropic.com/v1/messages',
-        data=payload,
-        headers={
-            'x-api-key': api_key,
-            'anthropic-version': '2023-06-01',
-            'content-type': 'application/json'
-        },
-        method='POST'
-    )
-    try:
-        resp = urllib.request.urlopen(req, timeout=20)
-        result = json.loads(resp.read().decode())
-        text = result.get('content', [{}])[0].get('text', '').strip()
-        match = _re.search(r'\{[^}]+\}', text, _re.DOTALL)
-        if match:
-            data = json.loads(match.group())
-            idx = int(data.get('index', 0))
-            quote = str(data.get('quote', '')).strip()
-            if 0 <= idx < len(candidates) and quote:
-                a = candidates[idx]
-                print('    Featured: {}...'.format(a.get('title', '')[:60]))
-                return {
-                    'title':  a.get('title', ''),
-                    'link':   a.get('link', ''),
-                    'source': a.get('source', ''),
-                    'date':   a.get('date', ''),
-                    'quote':  quote,
-                }
-    except Exception as e:
-        print('    Featured article selection failed: {}'.format(e))
-    return None
+    candidates = articles[:40]
+    word_sets = []
+    for a in candidates:
+        words = set(w.strip('.,:;\'"()') for w in (a.get('title') or '').lower().split())
+        word_sets.append(words - TRENDING_STOPWORDS)
+
+    best_idx, best_count = 0, 1
+    for i, a in enumerate(candidates):
+        if not word_sets[i]:
+            continue
+        cluster_sources = {a.get('source', '')}
+        for j, b in enumerate(candidates):
+            if i == j or not word_sets[j] or b.get('source', '') in cluster_sources:
+                continue
+            overlap = len(word_sets[i] & word_sets[j]) / max(len(word_sets[i]), len(word_sets[j]))
+            if overlap >= 0.5:
+                cluster_sources.add(b.get('source', ''))
+        if len(cluster_sources) > best_count:
+            best_idx, best_count = i, len(cluster_sources)
+
+    best = candidates[best_idx] if best_count > 1 else articles[0]
+    source_count = best_count if best_count > 1 else 1
+
+    summary = best.get('summary', '') or ''
+    if len(summary) > 140:
+        summary = summary[:140].rstrip() + '…'
+
+    print('    Featured: {}... ({} source{})'.format(
+        best.get('title', '')[:60], source_count, '' if source_count == 1 else 's'
+    ))
+
+    return {
+        'title':        best.get('title', ''),
+        'link':         best.get('link', ''),
+        'source':       best.get('source', ''),
+        'date':         best.get('date', ''),
+        'summary':      summary,
+        'source_count': source_count,
+    }
 
 
 if __name__ == "__main__":
@@ -1056,7 +1065,7 @@ if __name__ == "__main__":
     briefing_text = generate_briefing(news_list)
 
     print("\n=== Selecting featured article ===")
-    featured = generate_featured_article(news_list)
+    featured = select_trending_article(news_list)
 
     briefing_data = {
         'date':      datetime.datetime.now(AEST).strftime('%d %B %Y'),

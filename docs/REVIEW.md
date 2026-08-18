@@ -52,7 +52,7 @@ Then work through the human lenses.
 - [ ] Are the statistics accurate and sourced?
 - [ ] Does the live tracker convey urgency and relevance?
 - [ ] Is the value proposition clear without needing to scroll?
-- [ ] Does the AI briefing (when present) read as credible and useful?
+- [ ] Does "Today's Story" (when present) read as credible and relevant?
 - [ ] Are all four pages reachable from the navigation?
 - [ ] Does the site look like something that required real effort to build?
 - [ ] Is there no obvious placeholder content ("Coming soon", "Lorem ipsum", etc.)?
@@ -134,7 +134,7 @@ Then work through the human lenses.
 - [ ] No panel shows "Loading..." permanently — all panels hide gracefully if data is absent
 - [ ] The word of the day either shows a real term or is hidden — never shows "—" or "Loading..."
 - [ ] The scam callout is hidden until it has real content
-- [ ] The "Today's Briefing" section stays hidden if no briefing is available
+- [ ] The "Today's Story" card stays hidden if no featured article is available
 
 **Cross-theme**
 - [ ] Dark theme: yellow accent (`#f8ce2a`) on warm near-black (`#0f0d0b`)

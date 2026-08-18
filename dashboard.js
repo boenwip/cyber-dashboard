@@ -354,27 +354,26 @@ function renderScamOfWeek(articles) {
 }
 
 // ── FEATURED STORY ─────────────────────────────────────────
+// Selected server-side by cross-source coverage (scripts/fetch_cyber_news.py),
+// not by AI — see select_trending_article().
 function renderFeaturedStory(f) {
   var el = document.getElementById('featured-story');
-  if (!el || !f || !f.quote) return;
-  var title  = (f.title  || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  var quote  = (f.quote  || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  var source = (f.source || '').replace(/^Google News\s*[—\-]\s*/i, '').replace(/</g, '&lt;');
-  var href   = (f.link && f.link.indexOf('http') === 0) ? f.link : '#';
+  if (!el || !f || !f.title) return;
+  var title   = (f.title   || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  var summary = (f.summary || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  var source  = (f.source  || '').replace(/^Google News\s*[—\-]\s*/i, '').replace(/</g, '&lt;');
+  var href    = (f.link && f.link.indexOf('http') === 0) ? f.link : '#';
+  var count   = parseInt(f.source_count, 10) || 1;
+  var meta    = source + (count > 1 ? (source ? ' · ' : '') + 'Covered by ' + count + ' sources' : '');
   el.innerHTML =
     '<div class="fs-label">Today\'s story</div>' +
-    '<p class="fs-quote">' + quote + '</p>' +
+    (summary ? '<p class="fs-quote">' + summary + '</p>' : '') +
     '<a class="fs-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + title + ' ↗</a>' +
-    (source ? '<div class="fs-source">' + source + '</div>' : '');
+    (meta ? '<div class="fs-source">' + meta + '</div>' : '');
   el.hidden = false;
 }
 
-// ── AI BRIEFING ────────────────────────────────────────────
-function loadBriefing() {
-  var textEl    = document.getElementById('briefing-text');
-  var dateEl    = document.getElementById('briefing-date');
-  var sectionEl = document.getElementById('briefing-section');
-  if (!textEl) return;
+function loadFeaturedStory() {
   fetch('data/briefing.json?t=' + Date.now(), { cache: 'no-cache' })
     .then(function(r) {
       if (!r.ok) throw new Error('HTTP ' + r.status);
@@ -384,17 +383,6 @@ function loadBriefing() {
       var item = (data.items && typeof data.items === 'object' && !Array.isArray(data.items))
         ? data.items : data;
       if (item.featured) renderFeaturedStory(item.featured);
-      if (item.briefing) {
-        // Render paragraph breaks for readability
-        var paras = item.briefing.split(/\n\n+/);
-        textEl.innerHTML = paras.map(function(p) {
-          var safe = p.replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/\n/g,' ');
-          safe = safe.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
-          return '<p style="margin:0 0 12px 0;">' + safe + '</p>';
-        }).join('');
-        if (dateEl && item.date) dateEl.textContent = item.date;
-        if (sectionEl) sectionEl.hidden = false;
-      }
     })
     .catch(function() {});
 }
@@ -462,7 +450,7 @@ document.addEventListener('DOMContentLoaded', function() {
   initWotd();
   initBlurb();
   initTip();
-  loadBriefing();
+  loadFeaturedStory();
   loadData();
 
   // Static button listeners — replaces inline onclick attributes

@@ -1,5 +1,5 @@
 {
-  "last_updated": "18-08-2026 06:44 PM",
+  "last_updated": "18-08-2026 08:46 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "18-08-2026 06:44 PM"
+      "date": "18-08-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "18-08-2026 06:44 PM"
+      "date": "18-08-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "18-08-2026 06:44 PM"
+      "date": "18-08-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "18-08-2026 06:44 PM"
+      "date": "18-08-2026 08:46 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.229",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
       "summary": "What's changed Documented claude remote-control --continue for resuming the most recent Remote Control session Added server-supplied Claude Code hook support for self-hosted runner sessions, matching ",
-      "date": "18-08-2026 06:44 PM"
+      "date": "18-08-2026 08:46 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -73,6 +73,14 @@
       "link": "http://workspaceupdates.googleblog.com/2026/08/enhanced-external-sharing-insights-now-available-in-Drive-Inventory-Reporting.html",
       "summary": "Administrators using Drive Inventory Reporting in Google BigQuery can now access granular external sharing fields designed to simplify complex permission structures. By automatically consolidating dir",
       "date": "18-08-2026 03:34 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDhaNEwwSzdEUkZjTjdIb1JyTkl4T2JMZ2V1REVTaEhvd3owenhXallWRk5UOGltM3d0d3dqelFNV1hjbHljTDBYc0xVbWJCZTZIQWc1aHUwZFA0ZVlXZlozUGZBNEdJQmhhR3BpRmdSZHFnaF93X3V0aVp6ZnVPQnY5T3BXamdHcG1ZVHdGeGRjNUk?oc=5",
+      "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? The Guardian",
+      "date": "18-08-2026 03:11 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -161,14 +169,6 @@
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0318651269.html",
       "summary": "Hello Everyone! We've just released Chrome 152 (152.0.7977.42) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
       "date": "13-08-2026 09:09 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI ZDNET",
-      "date": "11-08-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
