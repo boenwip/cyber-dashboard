@@ -134,7 +134,7 @@ Then work through the human lenses.
 - [ ] No panel shows "Loading..." permanently — all panels hide gracefully if data is absent
 - [ ] The word of the day either shows a real term or is hidden — never shows "—" or "Loading..."
 - [ ] The scam callout is hidden until it has real content
-- [ ] The briefing button is hidden if no briefing is available
+- [ ] The "Today's Briefing" section stays hidden if no briefing is available
 
 **Cross-theme**
 - [ ] Dark theme: yellow accent (`#f8ce2a`) on warm near-black (`#0f0d0b`)

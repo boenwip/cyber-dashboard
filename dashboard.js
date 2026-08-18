@@ -370,28 +370,10 @@ function renderFeaturedStory(f) {
 }
 
 // ── AI BRIEFING ────────────────────────────────────────────
-function toggleBriefing() {
-  var popup    = document.getElementById('briefing-popup');
-  var backdrop = document.getElementById('briefing-backdrop');
-  var btn      = document.getElementById('briefing-btn');
-  if (!popup) return;
-  var isOpen = popup.classList.contains('briefing-popup--open');
-  if (isOpen) {
-    popup.classList.remove('briefing-popup--open');
-    if (backdrop) backdrop.classList.remove('briefing-backdrop--open');
-    if (btn) btn.setAttribute('aria-expanded', 'false');
-    popup.setAttribute('aria-hidden', 'true');
-  } else {
-    popup.classList.add('briefing-popup--open');
-    if (backdrop) backdrop.classList.add('briefing-backdrop--open');
-    if (btn) btn.setAttribute('aria-expanded', 'true');
-    popup.setAttribute('aria-hidden', 'false');
-  }
-}
-
 function loadBriefing() {
-  var textEl = document.getElementById('briefing-text');
-  var dateEl = document.getElementById('briefing-date');
+  var textEl    = document.getElementById('briefing-text');
+  var dateEl    = document.getElementById('briefing-date');
+  var sectionEl = document.getElementById('briefing-section');
   if (!textEl) return;
   fetch('data/briefing.json?t=' + Date.now(), { cache: 'no-cache' })
     .then(function(r) {
@@ -411,15 +393,10 @@ function loadBriefing() {
           return '<p style="margin:0 0 12px 0;">' + safe + '</p>';
         }).join('');
         if (dateEl && item.date) dateEl.textContent = item.date;
-      } else {
-        var btn = document.getElementById('briefing-btn');
-        if (btn) btn.style.display = 'none';
+        if (sectionEl) sectionEl.hidden = false;
       }
     })
-    .catch(function() {
-      var btn = document.getElementById('briefing-btn');
-      if (btn) btn.style.display = 'none';
-    });
+    .catch(function() {});
 }
 
 // ── WORD OF THE DAY ────────────────────────────────────────
@@ -486,15 +463,6 @@ document.addEventListener('DOMContentLoaded', function() {
   loadData();
 
   // Static button listeners — replaces inline onclick attributes
-  var briefingBtn = document.getElementById('briefing-btn');
-  if (briefingBtn) briefingBtn.addEventListener('click', toggleBriefing);
-
-  var briefingClose = document.querySelector('.briefing-popup-close');
-  if (briefingClose) briefingClose.addEventListener('click', toggleBriefing);
-
-  var briefingBackdrop = document.getElementById('briefing-backdrop');
-  if (briefingBackdrop) briefingBackdrop.addEventListener('click', toggleBriefing);
-
   var threatMapBtn = document.getElementById('threat-map-btn');
   if (threatMapBtn) threatMapBtn.addEventListener('click', toggleThreatMap);
 

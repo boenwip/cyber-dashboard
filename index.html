@@ -26,7 +26,6 @@
     <img src="assets/pseudosec.png" alt="pseudosec.">
   </a>
   <div class="hdr-right">
-    <button class="hdr-btn" id="briefing-btn" aria-expanded="false" aria-label="Open AI briefing">Briefing</button>
     <button class="hdr-btn" id="threat-map-btn">🌐 Threat Intel</button>
     <a href="https://www.cyber.gov.au" target="_blank" rel="noopener" class="hdr-btn" id="acsc-link">🛡 ACSC</a>
     <div class="hdr-meta hdr-updated" id="last-updated" aria-live="polite"></div>
@@ -35,28 +34,6 @@
     <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
   </div>
 </header>
-
-<!-- WORD OF THE DAY -->
-<div class="wotd-strip" id="wotd-strip" aria-label="Word of the day">
-  <span class="wotd-label">Word of the day</span>
-  <span class="wotd-term" id="wotd-term">—</span>
-  <span class="wotd-sep">—</span>
-  <span class="wotd-def" id="wotd-def"></span>
-  <a href="reference.html#glossary" class="wotd-more">Full glossary ↗</a>
-</div>
-
-<!-- AI BRIEFING POPUP -->
-<div class="briefing-popup" id="briefing-popup" aria-hidden="true" role="dialog" aria-modal="true" aria-label="AI Briefing">
-  <div class="briefing-popup-hdr">
-    <span class="briefing-popup-label">AI Briefing</span>
-    <span class="briefing-popup-date" id="briefing-date"></span>
-    <button class="briefing-popup-close" aria-label="Close briefing">✕</button>
-  </div>
-  <div class="briefing-popup-body" id="briefing-text">
-    <span class="briefing-loading">Loading today's briefing...</span>
-  </div>
-</div>
-<div class="briefing-backdrop" id="briefing-backdrop" aria-hidden="true"></div>
 
 <!-- SCAM OF THE WEEK -->
 <div class="scam-callout" id="scam-callout" style="display:none;" aria-label="Scam alert">
@@ -130,6 +107,15 @@
   </div>
 </section>
 
+<!-- AI BRIEFING -->
+<section class="briefing-section" id="briefing-section" hidden aria-label="Today's briefing">
+  <div class="briefing-hdr">
+    <span class="briefing-label">Today's Briefing</span>
+    <span class="briefing-date" id="briefing-date"></span>
+  </div>
+  <div class="briefing-body" id="briefing-text"></div>
+</section>
+
 <!-- TAG FILTERS: click tags on articles to filter — toggleTagFilter() in dashboard.js -->
 <!-- ACTIVE FILTER BAR (hidden by default, shown when filters active) -->
 <div class="active-filter-bar" id="active-filter-bar" style="display:none;" role="status" aria-live="polite">
@@ -157,6 +143,15 @@
       </div>
     </div>
   </aside>
+</div>
+
+<!-- WORD OF THE DAY -->
+<div class="wotd-strip wotd-strip--ambient" id="wotd-strip" aria-label="Word of the day">
+  <span class="wotd-label">Word of the day</span>
+  <span class="wotd-term" id="wotd-term">—</span>
+  <span class="wotd-sep">—</span>
+  <span class="wotd-def" id="wotd-def"></span>
+  <a href="reference.html#glossary" class="wotd-more">Full glossary ↗</a>
 </div>
 
 <!-- THREAT INTEL PANEL (toggled) -->

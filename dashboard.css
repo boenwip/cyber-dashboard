@@ -147,6 +147,39 @@
   margin-top: 5px;
 }
 
+/* ── AI BRIEFING (inline section, below the tracker) ── */
+.briefing-section {
+  max-width: 1480px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px 40px 24px;
+  border-bottom: 0.5px solid var(--border);
+}
+.briefing-hdr {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.briefing-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.10em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+.briefing-date {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-4);
+}
+.briefing-body {
+  font-size: 14px;
+  color: var(--text-2);
+  line-height: 1.8;
+  max-width: 780px;
+}
+
 /* Stats list — sits inside the hero column, under the counter */
 .tracker-stats {
   margin-top: 22px;
@@ -546,8 +579,19 @@
 body.threat-map-open .wotd-strip,
 body.threat-map-open #scam-callout,
 body.threat-map-open .tracker,
+body.threat-map-open .briefing-section,
 body.threat-map-open .active-filter-bar,
 body.threat-map-open .layout { display: none !important; }
+
+/* ── WORD OF THE DAY — ambient sign-off at the bottom of the homepage ── */
+.wotd-strip--ambient {
+  background: transparent;
+  border-bottom: none;
+  border-top: 0.5px solid var(--border);
+  padding: 14px 40px;
+}
+.wotd-strip--ambient .wotd-label,
+.wotd-strip--ambient .wotd-term { color: var(--text-4); }
 
 /* ── THREAT INTEL PANEL ── */
 .threat-map-section {
@@ -641,7 +685,7 @@ body.threat-map-open .layout { display: none !important; }
   .tracker-body { grid-template-columns: 1fr; }
   .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; max-height: none; }
   .cve-feed { max-height: 180px; }
-  .tracker-header, .tracker-crime,
+  .tracker-header, .tracker-crime, .briefing-section,
   .active-filter-bar, .article, .threat-map-header { padding-left: 20px; padding-right: 20px; }
   .tracker-col { padding: 18px 20px; }
   .tracker-col--story { border-right: none; border-bottom: 0.5px solid var(--border); }

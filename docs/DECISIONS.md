@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-08-18
+
+### Homepage — AI briefing moved from header popup to inline section
+**Decision:** Removed the "Briefing" header button and the fixed-position `.briefing-popup`/`.briefing-backdrop` modal entirely. The full plain-English briefing paragraph now renders as a `<section class="briefing-section">` in the page flow, directly after the tracker and before the news feed — hidden by default, shown only once `briefing.json` loads successfully.
+**Why:** `TODO.md`'s homepage UX brief ranks "Today's briefing — the 'so what'" as the #2 priority, right after the live tracker. It was previously the least visible thing on the page — a small button among three others in the header, requiring a click to reveal a modal. Promoting it to always-visible content matches its stated priority; removing the popup also declutters the header by one button.
+
+### Homepage — Word of the Day demoted to an ambient footer element
+**Decision:** Moved the `.wotd-strip` block from directly under the header (page position #1) to just above the footer (last, position #5), and added a `.wotd-strip--ambient` modifier in `dashboard.css` (index.html only) that drops its background tint and mutes the label/term colour to `var(--text-4)`.
+**Why:** The brief explicitly ranks Word of the Day #4 — "ambient, educational, low pressure" — but it was rendering as the first, most visually prominent thing on the page (full-width, accent-coloured, its own background block), ahead of the tracker itself. Repositioning and muting it matches the stated hierarchy without removing the feature. Scoped to index.html only — Word of the Day still leads on Reference/Resources/AI Guide/Sources, where there's no competing hero content to rank it against.
+
+---
+
 ## Session: 2026-05-20 (continued)
 
 ### Reference page — tab default
