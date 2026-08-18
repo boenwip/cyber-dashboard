@@ -60,7 +60,7 @@
   <!-- ── OWASP WEB ── -->
   <div class="ref-panel ref-panel--active" id="panel-owasp-web" role="tabpanel">
     <div class="ref-panel-intro">
-      <p>The OWASP Top 10 for Web Applications (2021) — the ten most critical security risks facing web applications, ordered by how commonly they occur and how much damage they cause. If you build or buy web software, these are the gaps attackers look for first.</p>
+      <p>The OWASP Top 10 for Web Applications (2025) — the ten most critical security risks facing web applications, ordered by how commonly they occur and how much damage they cause. If you build or buy web software, these are the gaps attackers look for first. Updated from the 2021 edition following a 2026 review of 175,000+ CVEs.</p>
       <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">owasp.org/www-project-top-ten ↗</a>
     </div>
     <ol class="owasp-list">
@@ -69,49 +69,49 @@
           <span class="owasp-num">A01</span>
           <span class="owasp-name">Broken Access Control</span>
         </div>
-        <p class="owasp-desc">When a system doesn't properly check whether a user has permission to see or do something. An employee accesses another person's files. A regular user reaches admin functions. A customer changes an ID in a URL to view someone else's order. The #1 risk — found in over 94% of tested applications.</p>
+        <p class="owasp-desc">When a system doesn't properly check whether a user has permission to see or do something. An employee accesses another person's files. A regular user reaches admin functions. A customer changes an ID in a URL to view someone else's order. The #1 risk for five editions running — tested for in 94% of applications (that's testing coverage, not a claim that 94% of apps are vulnerable). Server-Side Request Forgery was folded into this category in 2025.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A02</span>
-          <span class="owasp-name">Cryptographic Failures</span>
+          <span class="owasp-name">Security Misconfiguration</span>
         </div>
-        <p class="owasp-desc">Sensitive data — passwords, credit cards, health records — transmitted or stored without proper encryption, or protected using outdated algorithms an attacker can crack. The problem isn't always "no encryption" — it's often encryption done badly. Previously called "Sensitive Data Exposure."</p>
+        <p class="owasp-desc">Default passwords left in. Unnecessary features turned on. Verbose error messages exposing system details. Cloud storage set to public. Permissions too broad. Not a clever exploit, just things not configured correctly — 90% of applications had some form of misconfiguration in testing. Jumped from #5 to #2 in the 2025 ranking.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A03</span>
-          <span class="owasp-name">Injection</span>
+          <span class="owasp-name">Software Supply Chain Failures</span>
         </div>
-        <p class="owasp-desc">Attackers trick an application into running malicious code by slipping it into user input — a search box, a login form, a URL parameter. SQL injection (accessing or destroying databases), command injection (running system commands), and cross-site scripting (XSS) all fall here. Classic, common, and still devastating.</p>
+        <p class="owasp-desc">Compromises anywhere in how software is built, packaged, and delivered — not just outdated libraries, but the pipelines and processes that produce them. A malicious commit slipped into a popular open-source package, a compromised build server, a self-replicating worm that infects other packages as it spreads. New for 2025, expanding on the old "Vulnerable and Outdated Components" category — and already the category with the highest reported incidence rate.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A04</span>
-          <span class="owasp-name">Insecure Design</span>
+          <span class="owasp-name">Cryptographic Failures</span>
         </div>
-        <p class="owasp-desc">Security wasn't part of the design — it was bolted on later, or not at all. No threat modelling, no secure design patterns, no security requirements set before development began. You can patch implementation bugs, but you can't patch a fundamentally broken architecture. New in 2021 — acknowledges that the root cause is often design, not code.</p>
+        <p class="owasp-desc">Sensitive data — passwords, credit cards, health records — transmitted or stored without proper encryption, or protected using outdated algorithms an attacker can crack. The problem isn't always "no encryption" — it's often encryption done badly. Previously called "Sensitive Data Exposure." Down two places in the 2025 ranking, but still a serious risk.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A05</span>
-          <span class="owasp-name">Security Misconfiguration</span>
+          <span class="owasp-name">Injection</span>
         </div>
-        <p class="owasp-desc">Default passwords left in. Unnecessary features turned on. Verbose error messages exposing system details. Cloud storage set to public. Permissions too broad. This is the most common gap — not a clever exploit, just things not configured correctly. 90% of applications had some form of misconfiguration in testing.</p>
+        <p class="owasp-desc">Attackers trick an application into running malicious code by slipping it into user input — a search box, a login form, a URL parameter. SQL injection (accessing or destroying databases), command injection (running system commands), and cross-site scripting (XSS) all fall here. Classic, common, and still devastating — though supply chain and misconfiguration risks overtook it in the 2025 ranking.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A06</span>
-          <span class="owasp-name">Vulnerable and Outdated Components</span>
+          <span class="owasp-name">Insecure Design</span>
         </div>
-        <p class="owasp-desc">Using libraries, frameworks, plugins, or operating systems with known vulnerabilities. Modern applications are mostly composed of third-party code — if that code has a known CVE and you haven't updated, attackers know exactly where to look. The Log4Shell vulnerability in 2021 is a defining example of this category.</p>
+        <p class="owasp-desc">Security wasn't part of the design — it was bolted on later, or not at all. No threat modelling, no secure design patterns, no security requirements set before development began. You can patch implementation bugs, but you can't patch a fundamentally broken architecture.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A07</span>
-          <span class="owasp-name">Identification and Authentication Failures</span>
+          <span class="owasp-name">Authentication Failures</span>
         </div>
-        <p class="owasp-desc">Weak login systems: no multi-factor authentication, common passwords allowed, no lockout after failed attempts, session tokens that don't expire, passwords stored in plain text. When authentication can be bypassed or brute-forced, everything behind the login screen is exposed.</p>
+        <p class="owasp-desc">Weak login systems: no multi-factor authentication, common passwords allowed, no lockout after failed attempts, session tokens that don't expire, passwords stored in plain text. When authentication can be bypassed or brute-forced, everything behind the login screen is exposed. Renamed from "Identification and Authentication Failures" in 2025 — same risk, tighter name.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
@@ -123,16 +123,16 @@
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A09</span>
-          <span class="owasp-name">Security Logging and Monitoring Failures</span>
+          <span class="owasp-name">Security Logging and Alerting Failures</span>
         </div>
-        <p class="owasp-desc">Insufficient logging, logs that aren't monitored, no alerts when attacks happen, logs that can be tampered with. The average time to detect a breach is over 200 days. You can't respond to an incident you don't know about — and without logs, you can't even prove what happened after the fact.</p>
+        <p class="owasp-desc">Insufficient logging, logs that aren't monitored, no alerts when attacks happen, logs that can be tampered with. The average time to detect a breach is over 200 days. You can't respond to an incident you don't know about — and without logs, you can't even prove what happened after the fact. Renamed from "Security Logging and Monitoring Failures" in 2025.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A10</span>
-          <span class="owasp-name">Server-Side Request Forgery (SSRF)</span>
+          <span class="owasp-name">Mishandling of Exceptional Conditions</span>
         </div>
-        <p class="owasp-desc">Tricking a server into making requests to internal systems or services the attacker shouldn't be able to reach directly. In cloud environments, this can expose instance metadata services containing credentials. Increasingly dangerous as more infrastructure moves to cloud architectures. New in 2021, added based on industry survey data before exploitation rates caught up.</p>
+        <p class="owasp-desc">What happens when things go wrong in ways the code didn't expect — an error handled badly, a system that fails open instead of closed, a logic gap that only shows up in an edge case. Attackers deliberately trigger unusual conditions to find the gaps developers didn't plan for. New for 2025, replacing Server-Side Request Forgery, which has been folded into Broken Access Control (A01).</p>
       </li>
     </ol>
   </div>
@@ -399,7 +399,7 @@
 
 <footer class="site-footer">
   <span>pseudosec. · Australian Cyber Intelligence · <a href="sources.html">Sources &amp; Methodology</a></span>
-  <span>OWASP Web 2021 · OWASP API 2023 · OWASP LLM 2025 · Essential Eight · Glossary</span>
+  <span>OWASP Web 2025 · OWASP API 2023 · OWASP LLM 2025 · Essential Eight · Glossary</span>
 </footer>
 
 <script src="shared.js"></script>

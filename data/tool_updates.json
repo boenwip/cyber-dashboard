@@ -1,5 +1,5 @@
 {
-  "last_updated": "18-08-2026 03:00 PM",
+  "last_updated": "18-08-2026 03:20 PM",
   "count": 35,
   "items": [
     {
@@ -7,47 +7,47 @@
       "tool": "Claude",
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added the optional <code>CLAUDE_CODE_PROJECT_DIR_NAME</code> environment variable: hosts that give each session its own config directory can choose a short name for th",
-      "date": "18-08-2026 03:00 PM"
+      "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
+      "date": "18-08-2026 03:20 PM"
     },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Added GitLab merge request URL support to the <code>--worktree</code> flag and the <code>claude agents</code> view (where MRs display as <code>!N</code>)</li>\n<li>Adde",
-      "date": "18-08-2026 03:00 PM"
+      "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
+      "date": "18-08-2026 03:20 PM"
     },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Subagent forking is now on by default: a <code>subagent_type: \"fork\"</code> subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in ",
-      "date": "18-08-2026 03:00 PM"
+      "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
+      "date": "18-08-2026 03:20 PM"
     },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack</li>\n</ul>",
-      "date": "18-08-2026 03:00 PM"
+      "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
+      "date": "18-08-2026 03:20 PM"
     },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.229",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
-      "summary": "<h2>What's changed</h2>\n<ul>\n<li>Documented <code>claude remote-control --continue</code> for resuming the most recent Remote Control session</li>\n<li>Added server-supplied Claude Code hook support fo",
-      "date": "18-08-2026 03:00 PM"
+      "summary": "What's changed Documented claude remote-control --continue for resuming the most recent Remote Control session Added server-supplied Claude Code hook support for self-hosted runner sessions, matching ",
+      "date": "18-08-2026 03:20 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5\" ",
+      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" Axios",
       "date": "15-08-2026 08:35 AM"
     },
     {
@@ -55,7 +55,7 @@
       "tool": "Google Chrome",
       "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
       "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos_0940907690.html",
-      "summary": "<p><span>The Beta channel is being updated to OS version 16765.19.0 (Browser version 152.0.7977.39) for most ChromeOS devices.</span></p><span id=\"docs-internal-guid-c1ba22c3-7fff-ee9a-d166-2f57ca700f",
+      "summary": "The Beta channel is being updated to OS version 16765.19.0 (Browser version 152.0.7977.39) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisi",
       "date": "15-08-2026 05:39 AM"
     },
     {
@@ -63,7 +63,7 @@
       "tool": "Claude",
       "title": "How Claude's text watermarking works - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5\" target=\"_bl",
+      "summary": "How Claude's text watermarking works Anthropic",
       "date": "15-08-2026 05:22 AM"
     },
     {
@@ -71,7 +71,7 @@
       "tool": "AI Tools",
       "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9San",
+      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
       "date": "14-08-2026 06:13 AM"
     },
     {
@@ -79,7 +79,7 @@
       "tool": "Google Chrome",
       "title": "Chrome Dev for Desktop Update",
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_01778645098.html",
-      "summary": "<p>The Dev channel has been updated to 153.0.8003.0 for Windows, Mac and Linux.</p><p>A partial list of changes is available in the <a href=\"https://chromium.googlesource.com/chromium/src/+log/153.0.7",
+      "summary": "The Dev channel has been updated to 153.0.8003.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
       "date": "14-08-2026 04:28 AM"
     },
     {
@@ -87,7 +87,7 @@
       "tool": "Canva",
       "title": "Bring your spreadsheet data to life with Sheets canvas - blog.google",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVkxwYzJ5NnUtdVJaeDJLNWEzclZXSDhOQmVzNjhlcjR4bUFmMmhaTUhibTI5WFJrdzR4TWx4TmlXNjBjeWZiSXJfVndXUUJiQjVsVTNlcXE0d2YtZTdGaHRvSk9ZWUxrMGJvY2lrcnhRZ0swZnBZSlBnSWR0OU5UajI0U2FhdnNCWW1MU0JCaERjQ2MxWDg5YWxuVGxDY0JUWFZoNHRKZ2Z5aTA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQVkxwYzJ5NnUtdVJaeDJLNWEzclZXSDhOQmVzNjhlcjR4bUFmMmhaTUhibTI5WFJrdzR4TWx4TmlXNjBjeWZiSXJfVndXUUJiQjVsVTNlcXE0d2YtZTdGaHRvSk9ZWUxrMGJvY2lrcn",
+      "summary": "Bring your spreadsheet data to life with Sheets canvas blog.google",
       "date": "14-08-2026 03:30 AM"
     },
     {
@@ -95,7 +95,7 @@
       "tool": "Google Chrome",
       "title": "Chrome Dev for Android Update",
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_01485542639.html",
-      "summary": "<p>Hi everyone! We've just released Chrome Dev 153 (153.0.8003.0) for Android. It's now available on <a href=\"https://play.google.com/store/apps/details?id=com.chrome.dev\">Google Play</a>.</p><p>You c",
+      "summary": "Hi everyone! We've just released Chrome Dev 153 (153.0.8003.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
       "date": "14-08-2026 03:13 AM"
     },
     {
@@ -103,7 +103,7 @@
       "tool": "Google Chrome",
       "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
       "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-chromeos.html",
-      "summary": "<p><span style=\"font-family: Arial, sans-serif; white-space: pre-wrap;\">M-151, ChromeOS version 16733.48.0 (Browser version 151.0.7922.141) has rolled out to ChromeOS devices on the Stable channel.&nb",
+      "summary": "M-151, ChromeOS version 16733.48.0 (Browser version 151.0.7922.141) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways:File ",
       "date": "14-08-2026 01:18 AM"
     },
     {
@@ -111,7 +111,7 @@
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "14-08-2026 12:58 AM"
     },
     {
@@ -119,7 +119,7 @@
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0318651269.html",
-      "summary": "<p>&nbsp;Hello Everyone! We've just released Chrome 152 (152.0.7977.42) for Android to a small percentage of users. It'll become <a href=\"https://play.google.com/store/apps/details?id=com.android.chro",
+      "summary": "Hello Everyone! We've just released Chrome 152 (152.0.7977.42) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
       "date": "13-08-2026 09:09 AM"
     },
     {
@@ -127,7 +127,7 @@
       "tool": "Claude",
       "title": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI - ZDNET",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5\" targe",
+      "summary": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI ZDNET",
       "date": "11-08-2026 11:00 PM"
     },
     {
@@ -135,7 +135,7 @@
       "tool": "Microsoft 365",
       "title": "The Best Office Suites We've Tested for 2026 - PCMag",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5\" target=\"_blank\"",
+      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
       "date": "10-08-2026 05:00 PM"
     },
     {
@@ -143,7 +143,7 @@
       "tool": "Microsoft 365",
       "title": "The next measure of AI momentum is work transformed",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-      "summary": "<p>In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter.</p>\n<p>The post <a href=\"https://",
+      "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
     },
     {
@@ -151,23 +151,15 @@
       "tool": "AI Tools",
       "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVG",
+      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
       "date": "24-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - openai.com",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5\" target=\"_blank\">Launching H",
-      "date": "23-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - openai.com",
+      "title": "Introducing GPT-Live - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5\" target=\"_blank\">Intro",
+      "summary": "Introducing GPT-Live OpenAI",
       "date": "08-07-2026 05:00 PM"
     },
     {
@@ -175,7 +167,7 @@
       "tool": "Microsoft 365",
       "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "<p>Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/co",
+      "summary": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft",
       "date": "25-06-2026 11:00 PM"
     },
     {
@@ -183,7 +175,7 @@
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50Uk",
+      "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "21-06-2026 05:00 PM"
     },
     {
@@ -191,7 +183,7 @@
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
-      "summary": "<p>Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we\u00a0have shipped.</p>\n<p>The post ",
+      "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Co",
       "date": "17-06-2026 01:00 AM"
     },
     {
@@ -199,7 +191,7 @@
       "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWU",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -207,7 +199,7 @@
       "tool": "Claude",
       "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSG",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -215,7 +207,7 @@
       "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNF",
+      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
     },
     {
@@ -223,7 +215,7 @@
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft Scout: Your always-on personal agent",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "summary": "<p>Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/blog/",
+      "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
       "date": "03-06-2026 04:00 AM"
     },
     {
@@ -231,7 +223,7 @@
       "tool": "Microsoft 365",
       "title": "Announcing the new Work IQ APIs",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-      "summary": "<p>Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your\u00a0organizations.</p>\n<p>The post <a href=\"https://www.microsoft.com/en-us/microsoft-365/bl",
+      "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blo",
       "date": "03-06-2026 03:00 AM"
     },
     {
@@ -239,15 +231,23 @@
       "tool": "Claude",
       "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaH",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
       "date": "29-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZMw?oc=5",
+      "summary": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount Decrypt",
+      "date": "14-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVl",
+      "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
       "date": "22-04-2026 05:00 PM"
     },
     {
@@ -255,15 +255,7 @@
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLT",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRD",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -271,7 +263,15 @@
       "tool": "Canva",
       "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUj",
+      "summary": "Canva AI 2.0 introduces a new interface and fundamental changes Campaign Indonesia",
+      "date": "16-04-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
+      "summary": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System CMSWire",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -279,7 +279,7 @@
       "tool": "Canva",
       "title": "Canva releases first major update to its free Affinity software - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RW",
+      "summary": "Canva releases first major update to its free Affinity software CG Channel",
       "date": "18-03-2026 05:00 PM"
     }
   ]

@@ -235,8 +235,9 @@ def load_json(path):
     except Exception:
         return []
 
-news_items = load_json('data/news.json')
-cve_items  = load_json('data/cve.json')
+news_items  = load_json('data/news.json')
+cve_items   = load_json('data/cve.json')
+tool_items  = load_json('data/tool_updates.json')
 
 html_pattern = __import__('re').compile(r'<[a-zA-Z]')
 flagged_sources = []
@@ -247,22 +248,27 @@ for a in (news_items if isinstance(news_items, list) else []):
     if html_pattern.search(summary):
         html_summaries.append(a.get('title', '')[:60])
 
+for a in (tool_items if isinstance(tool_items, list) else []):
+    summary = a.get('summary', '')
+    if html_pattern.search(summary):
+        html_summaries.append(a.get('title', '')[:60])
+
 cq_tests = [
     ("news.json has articles",             len(news_items) > 0),
     ("cve.json has CVEs",                  len(cve_items) > 0),
-    ("No HTML in article summaries",       len(html_summaries) == 0),  # warn: stale data clears on next fetch
+    ("No HTML in article/tool summaries",  len(html_summaries) == 0),  # warn: stale data clears on next fetch
     ("news.json has 10+ articles",         len(news_items) >= 10),
     ("All articles have titles",           all(a.get('title') for a in (news_items if isinstance(news_items, list) else []))),
     ("All articles have links",            all(a.get('link') for a in (news_items if isinstance(news_items, list) else []))),
     ("All CVEs have IDs",                  all(c.get('id') for c in (cve_items if isinstance(cve_items, list) else []))),
 ]
 for label, cond in cq_tests:
-    r = check(label, cond, warn=(label in ("news.json has 10+ articles", "No HTML in article summaries")))
+    r = check(label, cond, warn=(label in ("news.json has 10+ articles", "No HTML in article/tool summaries")))
     results.append((label, r))
     print(f"  {'✓' if r else '✗'} {label}")
 
 if html_summaries:
-    print(f"  ⚠ HTML found in summaries ({len(html_summaries)} articles) — strip_html() may not be running")
+    print(f"  ⚠ HTML found in summaries ({len(html_summaries)} items) — strip_html() may not be running")
     for t in html_summaries[:3]:
         print(f"    • {t}")
 

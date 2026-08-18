@@ -197,7 +197,7 @@ NEWS_FEEDS = [
     },
     {
         "name": "Google News — Privacy & Compliance AU",
-        "url": "https://news.google.com/rss/search?q=site:abc.net.au+OR+site:theguardian.com+privacy+act+australia&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=(site:abc.net.au+OR+site:theguardian.com)+privacy+act+australia&hl=en-AU&gl=AU&ceid=AU:en"
     },
 ]
 
@@ -269,11 +269,11 @@ TOPIC_TAG_RULES = [
     {
         "tag": "AU Cyber",
         "keywords": [
-            "australia", "australian", "acsc", "asd", "cyber.gov",
-            "auscert", "critical infrastructure", "ransomware",
+            "acsc", "asd", "cyber.gov", "auscert",
+            "critical infrastructure", "ransomware",
             "phishing", "data breach", "vulnerability", "cve",
-            "malware", "threat actor", "exploit", "patch",
-            "incident", "compromise", "advisory", "alert",
+            "malware", "threat actor", "exploit", "security patch",
+            "security incident", "compromise", "security advisory",
             "cyber attack", "cyberwarfare", "cybercrime",
         ]
     },
@@ -363,15 +363,6 @@ TOPIC_TAG_RULES = [
             "data protection", "information security policy",
             "ism", "essential eight", "iso 27001", "soc 2",
             "audit", "data governance", "data sovereignty",
-        ]
-    },
-    {
-        "tag": "Good News",
-        "keywords": [
-            "arrested", "charged", "convicted", "sentenced",
-            "disrupted", "taken down", "seized", "shut down",
-            "law enforcement", "crackdown", "busted",
-            "positive outcome", "security milestone",
         ]
     },
 ]
@@ -813,7 +804,7 @@ def fetch_tool_updates():
             if title_key:
                 seen_titles.add(title_key)
             link    = entry.get("link", "")
-            summary = entry.get("summary", "")
+            summary = strip_html(entry.get("summary", ""))
             date    = parse_date(entry)
 
             all_updates.append({

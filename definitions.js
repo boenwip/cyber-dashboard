@@ -259,7 +259,7 @@ var DEFINITIONS = [
   {
     term: "Essential Eight",
     short: "The ACSC's eight baseline security controls every Australian organisation should implement.",
-    full: "The Essential Eight is the Australian Signals Directorate's (ASD) prioritised set of mitigation strategies to protect against cyber threats. The eight controls are: application control, patch applications, configure Microsoft Office macro settings, user application hardening, restrict admin privileges, patch operating systems, multi-factor authentication, and regular backups. Organisations are assessed against three maturity levels. Government entities and critical infrastructure operators are required to achieve Maturity Level Two.",
+    full: "The Essential Eight is the Australian Signals Directorate's (ASD) prioritised set of mitigation strategies to protect against cyber threats. The eight controls are: application control, patch applications, configure Microsoft Office macro settings, user application hardening, restrict admin privileges, patch operating systems, multi-factor authentication, and regular backups. Organisations are assessed against three maturity levels. Non-corporate Commonwealth government entities are required to achieve Maturity Level Two under the Protective Security Policy Framework; ACSC recommends the same target for all other Australian organisations.",
     example: "An organisation implements all Essential Eight controls. When ransomware arrives via email, application control blocks it from executing, and recent backups mean no ransom payment is needed.",
     level: "intermediate"
   },
