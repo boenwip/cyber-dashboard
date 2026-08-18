@@ -4,6 +4,49 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-19 (AEST)
+
+### Prior-run follow-up — all 5 items resolved
+Checked every item flagged "needs human attention" in the 2026-08-18 entry against the current codebase. All resolved:
+- Featured-story misattribution (the $2.18B quote) — structurally fixed. `select_trending_article()` in `scripts/fetch_cyber_news.py` replaced the AI pull-quote with the article's own RSS summary; `data/briefing.json`'s `featured` field now has no `quote` field at all, just `summary`. No AI-generated quote left to misattribute.
+- OWASP Web Top 10 staleness — fixed. `reference.html` now presents the 2025 edition as current, explicitly notes "Updated from the 2021 edition following a 2026 review."
+- OWASP A01 "94%" stat — fixed. Copy now reads "tested for in 94% of applications (that's testing coverage, not a claim that 94% of apps are vulnerable)."
+- Essential Eight ML2 wording mismatch — fixed. `definitions.js` now correctly says "non-corporate Commonwealth government entities are required to achieve Maturity Level Two," matching `reference.html`.
+- iview TV listing / noise leak — not currently reproducible. The Google News queries that produced it (Privacy & Compliance AU, ABC Tech, etc.) returned zero approved-source results this run, so nothing to check; query wording itself is unchanged in `fetch_cyber_news.py`, so this could resurface — not a guaranteed fix, just currently quiet.
+
+### 1. Fact cross-reference of AI briefing (`data/briefing.json`, generated 19-08-2026 07:19 AM)
+- **"CoSnitch" Copilot claim** — supported. WebSearch (Varonis report via Dark Reading) confirms the meta-hacking/social-engineering technique and that Microsoft shipped a patch 18-08-2026. Briefing's framing ("reminder to be cautious about what information AI tools can access") does not overstate the source.
+- **"TwinLoot" claim** — supported. WebSearch (Ontinue Cyber Defense Center research, also covered by Computerworld/CSO Online) confirms a Python-based malware framework running its C2 entirely through Microsoft 365/Azure services (SharePoint dead-drop, Teams TURN relay, headless Edge). Briefing's plain-English translation ("running malicious activity entirely through Microsoft's own cloud services, making it harder for security tools to detect") is accurate and not dramatized.
+- **🚩 Troy Hunt ransomware claim — unconfirmed, low confidence.** Briefing says Troy Hunt's "latest update also highlights ongoing ransomware risks for **Australian organisations**." The underlying article (`news.json`: "Weekly Update 517: Cyber Ransoms") is about ransomware/extortion economics generally (teenage threat actors, can't spend the money without getting caught) — its own RSS summary has no Australia-specific framing. WebSearch could not locate Update 517's full text (too recent to be indexed), so this can't be fully confirmed or refuted this run. Possible mild overreach in specificity — worth a human spot-check against the actual post.
+- Rest of the briefing (ACSC reporting advice, general tip) is generic sound practice, not a factual claim requiring verification.
+
+### 2. Paywall spot-check
+**Not performed — 2nd consecutive run.** Tested `darkreading.com` and `securitybrief.com.au` via WebFetch this run; both returned `EGRESS_BLOCKED` from the network proxy (same failure mode as 2026-08-18, now confirmed not a one-off). No source can be marked paywalled without direct evidence, so none was.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample (previous run checked CVE, Zero Trust, Vishing, Essential Eight, Secure Password): **Business Email Compromise, Multi-Factor Authentication, Credential Stuffing, SQL Injection, Man-in-the-Middle Attack, SIEM**.
+- **🚩 Business Email Compromise entry overstates ACSC losses.** `definitions.js` says BEC "cost Australian businesses hundreds of millions of dollars in FY2024–25." WebSearch (two independent queries, consistent result citing the ACSC Annual Cyber Threat Report 2024-25) puts actual self-reported BEC losses at **just over $98 million**, average $64,000/report. "Hundreds of millions" overstates the real figure by roughly 2–3x — a real "appeal with truth" issue, not just rounding. Recommend correcting to "nearly $100 million" or similar.
+- MFA, Credential Stuffing, SQL Injection, Man-in-the-Middle Attack, SIEM — all checked, factually sound and appropriately simplified for a lay reader. No issues found.
+
+### 5. Value and dual-audience readability
+Sampled current `news.json` (40 items, smaller pool than last run — several Google News queries returned nothing) and the briefing. Reads well for both audiences: technical items (CoSnitch, TwinLoot, VMware vCenter flaw, Fortinet/MFA bypass, Metabase zero-day) carry enough plain-English context for a lay reader while staying substantive for a professional. No filler/clickbait spotted in this run's sample (the previously-flagged iview listing and RecordPoint PR piece aren't present — see prior-run follow-up above).
+
+### 6. Source-credibility / blocklist adherence
+All 7 distinct sources currently live in `data/news.json` — Dark Reading, Australian Cyber Security Magazine, 404 Media, Risky Business, Krebs on Security, Troy Hunt Blog, Google News — ScamWatch — checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked again — see item 2/3).
+
+### Needs human attention (priority order)
+1. **Business Email Compromise glossary entry overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry).
+2. **Egress to publisher domains has now failed for 2 consecutive runs** (this run + 2026-08-18) — paywall and dead-source checks (checklist items 2 & 3) are structurally impossible under the current sandbox network policy. Worth checking whether this agent's environment can be given egress to the approved-domain list, since WebSearch alone can't substitute for a direct fetch (no truncation/paywall-wall visibility).
+3. **Troy Hunt "Australian organisations" framing in the briefing is unconfirmed** — the source article's own summary doesn't obviously support the Australia-specific framing; too recent to verify via search this run. Low-confidence flag, worth a quick human read of the actual post.
+
+---
+
 ## 2026-08-18 (AEST)
 
 ### Environment note (read first)
