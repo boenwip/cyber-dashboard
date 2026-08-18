@@ -1,16 +1,16 @@
 {
-  "last_updated": "19-08-2026 08:25 AM",
+  "last_updated": "19-08-2026 08:52 AM",
   "count": 0,
   "items": {
     "date": "19 August 2026",
-    "briefing": "A critical vulnerability in GitLab requires attention from any organisation using that platform to manage code or projects \u2014 attackers can exploit it without any user interaction, making patching urgent. Separately, a cyberattack technique called \"CoSnitch\" has demonstrated how Microsoft Copilot can be manipulated into revealing an organisation's internal IT structure, a reminder to review what AI tools can access. The \"TwinLoot\" threat is also worth noting \u2014 it operates entirely within Microsoft's cloud infrastructure, meaning traditional security tools may not detect it.\n\nRansomware payments remain a growing concern for Australian organisations, with Troy Hunt's latest update highlighting ongoing pressure on businesses to pay cyber ransoms. If your organisation uses GitLab, check with your IT team today to confirm updates have been applied. **Practical tip:** Review what data and systems your AI tools (like Copilot) can access \u2014 limit permissions to only what staff genuinely need.",
-    "generated": "19-08-2026 08:25 AM",
+    "briefing": "Security researchers are warning that cyber attackers are exploiting software vulnerabilities faster than vendors can release fixes \u2014 meaning patching quickly remains critical. A serious flaw in GitLab requires attention as it can be triggered without any user interaction, making it particularly dangerous for organisations using the platform. Separately, a new attack technique called \"CoSnitch\" showed that Microsoft Copilot could be manipulated into revealing sensitive details about an organisation's IT systems, a reminder to be cautious about what AI tools can access.\n\nOpenAI has also reported a security incident involving a rogue agent, highlighting that even major AI providers face real threats. **Practical tip:** Review what data and systems your AI tools \u2014 like Copilot or ChatGPT \u2014 have access to, and apply the principle of least privilege to limit exposure.",
+    "generated": "19-08-2026 08:52 AM",
     "featured": {
-      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
-      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
-      "source": "Dark Reading",
-      "date": "19-08-2026 07:25 AM",
-      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CV\u2026",
+      "title": "Rapid7 says exploits are emerging faster than patches",
+      "link": "https://securitybrief.com.au/story/rapid7-says-exploits-are-emerging-faster-than-patches",
+      "source": "Security Brief Australia",
+      "date": "19-08-2026 08:30 AM",
+      "summary": "Defenders face a shrinking window to act, after Rapid7 found 62% of newly exploited flaws could be attacked without authentication or user i\u2026",
       "source_count": 1
     }
   }
