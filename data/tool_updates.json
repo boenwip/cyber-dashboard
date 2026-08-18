@@ -1,6 +1,6 @@
 {
-  "last_updated": "19-08-2026 07:19 AM",
-  "count": 39,
+  "last_updated": "19-08-2026 08:25 AM",
+  "count": 34,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "19-08-2026 07:19 AM"
+      "date": "19-08-2026 08:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "19-08-2026 07:19 AM"
+      "date": "19-08-2026 08:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "19-08-2026 07:19 AM"
+      "date": "19-08-2026 08:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "19-08-2026 07:19 AM"
+      "date": "19-08-2026 08:25 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "19-08-2026 07:19 AM"
+      "date": "19-08-2026 08:25 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -165,18 +165,10 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "14-08-2026 12:58 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "The next measure of AI momentum is work transformed",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-      "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
-      "date": "30-07-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -203,14 +195,6 @@
       "date": "01-07-2026 05:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
-      "summary": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft",
-      "date": "25-06-2026 11:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
@@ -219,19 +203,11 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot Cowork is now generally available",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
-      "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Co",
-      "date": "17-06-2026 01:00 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -249,22 +225,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing Microsoft Scout: Your always-on personal agent",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
-      "date": "03-06-2026 04:00 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Announcing the new Work IQ APIs",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
-      "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blo",
-      "date": "03-06-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -293,9 +253,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -309,9 +269,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
+      "title": "Canva releases first major update to its free Affinity software - cgchannel.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
+      "summary": "Canva releases first major update to its free Affinity software cgchannel.com",
       "date": "18-03-2026 05:00 PM"
     }
   ]

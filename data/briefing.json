@@ -1,16 +1,16 @@
 {
-  "last_updated": "19-08-2026 07:19 AM",
+  "last_updated": "19-08-2026 08:25 AM",
   "count": 0,
   "items": {
     "date": "19 August 2026",
-    "briefing": "Two emerging threats are worth noting this week. A technique called \"CoSnitch\" has shown that Microsoft Copilot can be manipulated into revealing sensitive details about an organisation's IT systems \u2014 a reminder to be cautious about what information AI tools can access. Separately, a campaign called \"TwinLoot\" is running malicious activity entirely through Microsoft's own cloud services, making it harder for security tools to detect. Organisations using Microsoft 365 should ensure access controls and monitoring are properly configured.\n\nTroy Hunt's latest update also highlights ongoing ransomware risks for Australian organisations. If your workplace is ever targeted, avoid paying ransoms where possible and report incidents to the Australian Cyber Security Centre (cyber.gov.au). **Tip:** Regularly review which apps and AI tools have access to your organisation's data, and remove any that aren't genuinely needed.",
-    "generated": "19-08-2026 07:19 AM",
+    "briefing": "A critical vulnerability in GitLab requires attention from any organisation using that platform to manage code or projects \u2014 attackers can exploit it without any user interaction, making patching urgent. Separately, a cyberattack technique called \"CoSnitch\" has demonstrated how Microsoft Copilot can be manipulated into revealing an organisation's internal IT structure, a reminder to review what AI tools can access. The \"TwinLoot\" threat is also worth noting \u2014 it operates entirely within Microsoft's cloud infrastructure, meaning traditional security tools may not detect it.\n\nRansomware payments remain a growing concern for Australian organisations, with Troy Hunt's latest update highlighting ongoing pressure on businesses to pay cyber ransoms. If your organisation uses GitLab, check with your IT team today to confirm updates have been applied. **Practical tip:** Review what data and systems your AI tools (like Copilot) can access \u2014 limit permissions to only what staff genuinely need.",
+    "generated": "19-08-2026 08:25 AM",
     "featured": {
-      "title": "'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
+      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
+      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
       "source": "Dark Reading",
-      "date": "19-08-2026 06:17 AM",
-      "summary": "Researchers discovered a \"meta-hacking\" technique that can manipulate the AI service into revealing its own security weaknesses.",
+      "date": "19-08-2026 07:25 AM",
+      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CV\u2026",
       "source_count": 1
     }
   }
