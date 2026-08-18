@@ -1,14 +1,22 @@
 {
-  "last_updated": "18-08-2026 08:46 PM",
-  "count": 40,
+  "last_updated": "19-08-2026 07:19 AM",
+  "count": 39,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.235",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
+      "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
+      "date": "19-08-2026 07:19 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "18-08-2026 08:46 PM"
+      "date": "19-08-2026 07:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "18-08-2026 08:46 PM"
+      "date": "19-08-2026 07:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "18-08-2026 08:46 PM"
+      "date": "19-08-2026 07:19 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,47 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "18-08-2026 08:46 PM"
+      "date": "19-08-2026 07:19 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.229",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
-      "summary": "What's changed Documented claude remote-control --continue for resuming the most recent Remote Control session Added server-supplied Claude Code hook support for self-hosted runner sessions, matching ",
-      "date": "18-08-2026 08:46 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos_0777129908.html",
+      "summary": "The Beta channel is being updated to OS version 16765.24.0 (Browser version 152.0.7977.51) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisi",
+      "date": "19-08-2026 06:05 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/08/extended-stable-update-for-desktop_01726425345.html",
+      "summary": "The Extended Stable channel has been updated to 150.0.7871.250 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log. Interes",
+      "date": "19-08-2026 05:28 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0826575033.html",
+      "summary": "The Stable channel has been updated to 151.0.7922.169/.170 for Windows and Mac and 151.0.7922.169 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is ava",
+      "date": "19-08-2026 05:11 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Managing unsolicited event invitations with user blocking in Google Calendar",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/managing-unsolicited-event-invitations-with-user-blocking-in-Google-Calendar.html",
+      "summary": "You can now protect your calendar from repeated calendar spam and unwanted invitations. When you block a user in Google Calendar, the current event is automatically removed and you no longer receive n",
+      "date": "19-08-2026 04:25 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "AFI FEST Presented by Canva 2026 Festival Passes Now On Sale - American Film Institute",
+      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOdTNMVGFweHpXQW5OekM2X2tXYlYxOGUta2xucUdvS3lDbTQ4dGFiY0lSWEVxSnZqb3BsWjhXU2gyLXVHR25abko1VlZERE03Tk5rSW9McnhQcm9CUkp6ZXBEcVdOZFAwUU9CenZLbk1NNmNyTDE0TVY1N2I1cGg3clF6UXdCQVRWTWpFYmxmbw?oc=5",
+      "summary": "AFI FEST Presented by Canva 2026 Festival Passes Now On Sale American Film Institute",
+      "date": "19-08-2026 04:08 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -80,7 +120,7 @@
       "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDhaNEwwSzdEUkZjTjdIb1JyTkl4T2JMZ2V1REVTaEhvd3owenhXallWRk5UOGltM3d0d3dqelFNV1hjbHljTDBYc0xVbWJCZTZIQWc1aHUwZFA0ZVlXZlozUGZBNEdJQmhhR3BpRmdSZHFnaF93X3V0aVp6ZnVPQnY5T3BXamdHcG1ZVHdGeGRjNUk?oc=5",
       "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? The Guardian",
-      "date": "18-08-2026 03:11 AM"
+      "date": "18-08-2026 02:52 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -89,22 +129,6 @@
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
       "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" Axios",
       "date": "15-08-2026 08:35 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - August 14, 2026",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-14-2026.html",
-      "summary": "Improved file importing in Google Sheets with tables and linked pivot tablesWe\u2019re introducing two key improvements in Google Sheets that preserve formatting and linked data when converting files from ",
-      "date": "15-08-2026 05:41 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos_0940907690.html",
-      "summary": "The Beta channel is being updated to OS version 16765.19.0 (Browser version 152.0.7977.39) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisi",
-      "date": "15-08-2026 05:39 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -139,44 +163,12 @@
       "date": "14-08-2026 03:30 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_01485542639.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 153 (153.0.8003.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
-      "date": "14-08-2026 03:13 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-chromeos.html",
-      "summary": "M-151, ChromeOS version 16733.48.0 (Browser version 151.0.7922.141) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways:File ",
-      "date": "14-08-2026 01:18 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "14-08-2026 12:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0318651269.html",
-      "summary": "Hello Everyone! We've just released Chrome 152 (152.0.7977.42) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
-      "date": "13-08-2026 09:09 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
-      "date": "10-08-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -201,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
       "summary": "Launching Health in ChatGPT OpenAI",
       "date": "23-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cUl6RWtnbl9EdzY0cHl6WWVkVG0xOVI3ZHdvblRfVndiVHkzeFFfMUIybThzbE85Vnp1RC01a9IBowFBVV95cUxPaDdzN09tU2ZVY2p3X1hCTk1pNThnZkl1aEZWZmlEWTFNTUViWGh1WkFVQUZteVdVNDBqdFhnSGdoN2E0c2ZRWmhoaldyMEpKdkhQaUl1UVdObDB2MjdBa0laN21wQmszNXMwWTZoQUxlZmtYaWNWWE44S055dHN2UldxTW1zN0ZBalFBX0g4eVJYQ01qNm5DVi1HWGtTanQyT2Vz?oc=5",
+      "summary": "Here are all the new features added to Microsoft 365 Copilot in June 2026 Neowin",
+      "date": "01-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -304,14 +304,6 @@
       "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
       "summary": "Canva AI 2.0 introduces a new interface and fundamental changes Campaign Indonesia",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
-      "summary": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System CMSWire",
       "date": "16-04-2026 05:00 PM"
     },
     {

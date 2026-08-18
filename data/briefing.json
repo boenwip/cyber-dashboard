@@ -1,16 +1,16 @@
 {
-  "last_updated": "18-08-2026 08:46 PM",
+  "last_updated": "19-08-2026 07:19 AM",
   "count": 0,
   "items": {
-    "date": "18 August 2026",
-    "briefing": "",
-    "generated": "18-08-2026 08:46 PM",
+    "date": "19 August 2026",
+    "briefing": "Two emerging threats are worth noting this week. A technique called \"CoSnitch\" has shown that Microsoft Copilot can be manipulated into revealing sensitive details about an organisation's IT systems \u2014 a reminder to be cautious about what information AI tools can access. Separately, a campaign called \"TwinLoot\" is running malicious activity entirely through Microsoft's own cloud services, making it harder for security tools to detect. Organisations using Microsoft 365 should ensure access controls and monitoring are properly configured.\n\nTroy Hunt's latest update also highlights ongoing ransomware risks for Australian organisations. If your workplace is ever targeted, avoid paying ransoms where possible and report incidents to the Australian Cyber Security Centre (cyber.gov.au). **Tip:** Regularly review which apps and AI tools have access to your organisation's data, and remove any that aren't genuinely needed.",
+    "generated": "19-08-2026 07:19 AM",
     "featured": {
-      "title": "Weekly Update 517: Cyber Ransoms",
-      "link": "https://www.troyhunt.com/weekly-update-517/",
-      "source": "Troy Hunt Blog",
-      "date": "18-08-2026 01:44 PM",
-      "summary": "The current ransomware situation is a bit of a kludge (deep breath): a lot of ransomware (which often doesn't even involve \"ware\", it's just\u2026",
+      "title": "'CoSnitch' Attack Tricked Copilot into Mapping Out Architecture",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
+      "source": "Dark Reading",
+      "date": "19-08-2026 06:17 AM",
+      "summary": "Researchers discovered a \"meta-hacking\" technique that can manipulate the AI service into revealing its own security weaknesses.",
       "source_count": 1
     }
   }
