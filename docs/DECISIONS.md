@@ -15,6 +15,10 @@ Format: decision → why. Newest first within each session.
 **Decision:** Moved the `.wotd-strip` block from directly under the header (page position #1) to just above the footer (last, position #5), and added a `.wotd-strip--ambient` modifier in `dashboard.css` (index.html only) that drops its background tint and mutes the label/term colour to `var(--text-4)`.
 **Why:** The brief explicitly ranks Word of the Day #4 — "ambient, educational, low pressure" — but it was rendering as the first, most visually prominent thing on the page (full-width, accent-coloured, its own background block), ahead of the tracker itself. Repositioning and muting it matches the stated hierarchy without removing the feature. Scoped to index.html only — Word of the Day still leads on Reference/Resources/AI Guide/Sources, where there's no competing hero content to rank it against.
 
+### Tracker — Stats list changed from 5 stacked rows to a 2-column tile grid
+**Decision:** `.tracker-stats` now wraps the five FY24-25 stats in a `.ts-grid` (2 columns, 3 rows) instead of a single-column flex list. Each `.ts-item` stacks its value above its label instead of the two sitting side-by-side across the full column width.
+**Why:** User feedback: the hero column's 5 full-width rows made it the tallest of the three tracker columns, and since `.tracker-body` uses `align-items: stretch`, that height got imposed on the story column too — producing a large dead gap between the "Today's Story" card and the `count-voice` quote pinned to the bottom. Cutting the stat list from 5 rows to 3 shrinks the stretch target directly, which closes the gap in the story column as a side effect — same fix, two symptoms. All five stats stay fully visible; nothing was removed.
+
 ---
 
 ## Session: 2026-05-20 (continued)
