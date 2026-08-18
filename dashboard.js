@@ -435,7 +435,10 @@ async function loadData() {
     var data2 = await res2.json();
     allTools  = Array.isArray(data2.items) ? data2.items : [];
     renderTools();
-  } catch(e) {}
+  } catch(e) {
+    var toolsEl = document.getElementById('tools-container');
+    if (toolsEl) toolsEl.innerHTML = '<div class="sb-empty">Tool updates unavailable.</div>';
+  }
 
   // 3. CVE feed
   try {
