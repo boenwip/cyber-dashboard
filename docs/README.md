@@ -36,9 +36,9 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **Word of the day** — Deterministic daily rotation through 51 cyber security definitions. Same term for everyone on the same AEST day.
 
-**News feed** — Up to 30 articles from the last 7 days, sorted by date. Click any tag on an article to filter — active filters shown in a slim bar with one-click clear. Estimated reading time shown per article. Sources: ACSC, ScamWatch, AU Cyber Security Magazine, Security Brief AU, iTnews, ABC Technology, CyberDaily AU, Troy Hunt Blog, Risky Business, Dark Reading, 404 Media, Google News (AU-filtered). Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait farms blocked automatically.
+**News feed** — Up to 30 articles from the last 7 days, sorted by date. Click any tag on an article to filter — active filters shown in a slim bar with one-click clear. Estimated reading time shown per article. Sources: ACSC, ScamWatch, AU Cyber Security Magazine, Security Brief AU, iTnews, Troy Hunt Blog, Krebs on Security, Risky Business, Dark Reading, 404 Media, Google News (AU-filtered). Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait farms blocked automatically.
 
-**Tool updates** — Changelog-style sidebar tracking releases and updates for Google Workspace, Chrome, Asana, Zoom, AI Tools, Canva, Claude, and Microsoft 365. Each tool group displays its brand icon via Simple Icons CDN.
+**Tool updates** — Changelog-style sidebar tracking releases and updates for Google Workspace, Chrome, AI Tools, Canva, Claude, and Microsoft 365. Each tool group displays its brand icon via Simple Icons CDN.
 
 **Breach checker** — Email breach lookup via HaveIBeenPwned. Read-only, not stored, not logged. Falls back to the HIBP site directly if the API blocks browser requests.
 

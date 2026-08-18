@@ -1,6 +1,6 @@
 {
-  "last_updated": "18-08-2026 06:42 PM",
-  "count": 35,
+  "last_updated": "18-08-2026 06:44 PM",
+  "count": 40,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "18-08-2026 06:42 PM"
+      "date": "18-08-2026 06:44 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "18-08-2026 06:42 PM"
+      "date": "18-08-2026 06:44 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "18-08-2026 06:42 PM"
+      "date": "18-08-2026 06:44 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "18-08-2026 06:42 PM"
+      "date": "18-08-2026 06:44 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,55 @@
       "title": "v2.1.229",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.229",
       "summary": "What's changed Documented claude remote-control --continue for resuming the most recent Remote Control session Added server-supplied Claude Code hook support for self-hosted runner sessions, matching ",
-      "date": "18-08-2026 06:42 PM"
+      "date": "18-08-2026 06:44 PM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Use Gemini to help manage Google Workspace for your organization",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/use-gemini-to-help-manage-google-Workspace-for-your-organization.html",
+      "summary": "We are introducing Admin Assist, bringing two new Gemini-powered capabilities to the Google Admin Console: the Sidepanel and Search Overviews. Designed to simplify complex administrative workflows and",
+      "date": "18-08-2026 07:27 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Make a copy of a notebook in Gemini Notebook",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/make-copy-of-notebook-in-gemini-notebook.html",
+      "summary": "Gemini Notebook users can now copy entire notebooks, including all associated sources and studio items, if they have copy permission for that notebook. This capability allows users to build upon exist",
+      "date": "18-08-2026 07:23 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "New enterprise security controls for Workspace Studio enable expanded collaboration use cases",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/new-enterprise-security-controls-for-Workspace-Studio-enable-expanded-collaboration-use-cases.html",
+      "summary": "Workspace Studio enables users to boost their productivity with custom, no-code agentic automation. Today, we are adding a new set of enterprise security controls to enable additional collaboration us",
+      "date": "18-08-2026 07:14 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Enhanced external sharing insights now available in Drive Inventory Reporting",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/enhanced-external-sharing-insights-now-available-in-Drive-Inventory-Reporting.html",
+      "summary": "Administrators using Drive Inventory Reporting in Google BigQuery can now access granular external sharing fields designed to simplify complex permission structures. By automatically consolidating dir",
+      "date": "18-08-2026 03:34 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - axios.com",
+      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
-      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" axios.com",
+      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" Axios",
       "date": "15-08-2026 08:35 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - August 14, 2026",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-14-2026.html",
+      "summary": "Improved file importing in Google Sheets with tables and linked pivot tablesWe\u2019re introducing two key improvements in Google Sheets that preserve formatting and linked data when converting files from ",
+      "date": "15-08-2026 05:41 AM"
     },
     {
       "source": "Google Chrome Releases",

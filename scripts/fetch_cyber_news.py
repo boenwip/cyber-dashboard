@@ -135,10 +135,6 @@ NEWS_FEEDS = [
     },
     # ── Australian Cyber & Tech News (direct RSS — always trusted) ──
     {
-        "name": "CyberDaily AU",
-        "url": "https://www.cyberdaily.au/feed"
-    },
-    {
         "name": "Australian Cyber Security Magazine",
         "url": "https://australiancybersecuritymagazine.com.au/feed"
     },
@@ -149,10 +145,6 @@ NEWS_FEEDS = [
     {
         "name": "iTnews",
         "url": "https://www.itnews.com.au/RSS/rss.ashx"
-    },
-    {
-        "name": "ABC News — Technology",
-        "url": "https://www.abc.net.au/news/science-environment/technology/rss.xml"
     },
     {
         "name": "Troy Hunt Blog",
@@ -210,7 +202,7 @@ TOOL_FEEDS = [
     {
         "name": "Google Workspace Updates",
         "tool": "Google Workspace",
-        "url": "https://workspace.google.com/blog/feed"
+        "url": "https://workspaceupdates.googleblog.com/feeds/posts/default"
     },
     {
         "name": "Google Chrome Releases",
@@ -226,16 +218,6 @@ TOOL_FEEDS = [
         "name": "Google News — Microsoft 365",
         "tool": "Microsoft 365",
         "url": "https://news.google.com/rss/search?q=Microsoft+365+Word+Excel+update+feature+2026&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Asana Product News",
-        "tool": "Asana",
-        "url": "https://blog.asana.com/category/product/feed"
-    },
-    {
-        "name": "Zoom Blog",
-        "tool": "Zoom",
-        "url": "https://blog.zoom.us/feed/"
     },
     {
         "name": "Google News — ChatGPT Updates",
@@ -572,7 +554,7 @@ def fetch_feed(url):
     try:
         req = urllib.request.Request(
             url,
-            headers={"User-Agent": "cyber-dashboard/1.0 (github.com/boenwip/cyber-dashboard)"}
+            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
         )
         with urllib.request.urlopen(req, timeout=10) as response:
             data = response.read()
@@ -841,7 +823,7 @@ def fetch_cves():
     for url in sources:
         try:
             req = urllib.request.Request(url, headers={
-                'User-Agent': 'cyber-dashboard/1.0 (github.com/boenwip/cyber-dashboard)',
+                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
                 'Accept': 'application/json'
             })
             resp = urllib.request.urlopen(req, timeout=10)
