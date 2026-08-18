@@ -13,7 +13,7 @@ Format: decision → why. Newest first within each session.
 
 ### Reference page — tab structure
 **Decision:** Five tabs: OWASP Web | OWASP API | OWASP LLM | Essential Eight | Glossary. Glossary tab reuses all existing definitions JS/CSS. Hash-based tab navigation (`reference.html#e8` etc.).
-**Why:** Consolidates all reference/educational content in one destination. Definitions page kept as-is (backward compat); nav updated to point to Reference everywhere.
+**Why:** Consolidates all reference/educational content in one destination. Definitions page kept as-is initially (backward compat); superseded the same day (commit `3e33bf8`, 2026-05-20) — `definitions.html` is now a meta-refresh redirect to `reference.html#glossary` since Reference fully replaced it. Nav updated to point to Reference everywhere.
 
 ### AI Guide — situation categories
 **Decision:** Five situation categories replace the old activity-based ones: Staying Safe | Everyday Work | Writing & Comms | Understanding Something | Your Day-to-Day.
@@ -68,7 +68,7 @@ Format: decision → why. Newest first within each session.
 **Why:** Definitions alone is thin. Grouping all reference/educational content in one place gives users a single destination for "I need to understand something."
 
 ### OWASP scope — All three Top 10 lists
-**Decision:** Include OWASP Web Top 10 (2021), API Top 10, and LLM Top 10.
+**Decision:** Include OWASP Web Top 10 (2021 edition at the time; updated to the 2025 edition once it superseded 2021), API Top 10, and LLM Top 10.
 **Why:** Site assists people using AI, so LLM Top 10 is directly relevant. API Top 10 rounds out the reference for developers and IT professionals.
 
 ### Featured story — AI-picked, stored in briefing.json
@@ -128,7 +128,7 @@ Format: decision → why. Newest first within each session.
 **Why:** Root was cluttered with a mix of HTML, CSS, JS, JSON, Python. Subfolders make the project navigable and separate concerns.
 
 ### Threat map — Replaced iframe with Threat Intel panel
-**Decision:** Removed `cyberattackmap.net` iframe (unreliable, CSP issues). Replaced with 4-card curated Threat Intel panel linking to Cloudflare Radar, CISA KEV, ASD Advisories, Shodan.
+**Decision:** Removed `cyberattackmap.net` iframe (unreliable, CSP issues). Replaced with 4-card curated Threat Intel panel linking to Cloudflare Radar, CISA KEV, ASD Advisories, Scamwatch Alerts.
 **Why:** The external embed was flaky and blocked by CSP. Curated links are more reliable and more actionable. Cloudflare Radar embed can be swapped in later when the user retrieves the embed code.
 
 ### Header — 3-column CSS grid
@@ -139,8 +139,11 @@ Format: decision → why. Newest first within each session.
 
 ## Pending decisions (open)
 
-- **AI Guide tab names** — situation-based categories needed (current activity-based categories to be replaced)
-- **AI Guide audience toggle** — "Everyone / Security-focused" toggle confirmed in concept, design TBD
-- **Sidebar empty space** — Essential Eight removed, nothing replaced it yet. Could be stats, a "did you know" panel, or left as breathing room for Tool Updates
 - **Cloudflare Radar embed** — user to retrieve embed code from Radar UI; swap into Threat Intel panel
 - **Light mode** — still some rough edges, needs another pass
+
+## Resolved since last update
+
+- **AI Guide tab names** — done. Situation-based categories shipped: Staying Safe | Everyday Work | Writing & Comms | Understanding Something | Your Day-to-Day (`ai-guide.js`).
+- **AI Guide audience toggle** — done. "Everyone / Security & IT" segmented control shipped (commit `3e33bf8`, 2026-05-20); 'pro' prompts hidden by default, revealed in Security & IT mode.
+- **Sidebar empty space** — filled with a "Tip of the day" panel above Tool Updates.
