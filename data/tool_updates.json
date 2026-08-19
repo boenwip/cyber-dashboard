@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-08-2026 10:43 AM",
+  "last_updated": "19-08-2026 12:13 PM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "19-08-2026 10:43 AM"
+      "date": "19-08-2026 12:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "19-08-2026 10:43 AM"
+      "date": "19-08-2026 12:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "19-08-2026 10:43 AM"
+      "date": "19-08-2026 12:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "19-08-2026 10:43 AM"
+      "date": "19-08-2026 12:13 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "19-08-2026 10:43 AM"
+      "date": "19-08-2026 12:13 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0145056186.html",
+      "summary": "Hi, everyone! We've just released Chrome 151 (151.0.7922.169) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Y",
+      "date": "19-08-2026 09:00 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -125,9 +133,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
+      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - axios.com",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
-      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" Axios",
+      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" axios.com",
       "date": "15-08-2026 08:35 AM"
     },
     {
@@ -145,14 +153,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
       "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
       "date": "14-08-2026 06:13 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_01778645098.html",
-      "summary": "The Dev channel has been updated to 153.0.8003.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
-      "date": "14-08-2026 04:28 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -197,9 +197,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - Neowin",
+      "title": "Here are all the new features added to Microsoft 365 Copilot in June 2026 - neowin.net",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cUl6RWtnbl9EdzY0cHl6WWVkVG0xOVI3ZHdvblRfVndiVHkzeFFfMUIybThzbE85Vnp1RC01a9IBowFBVV95cUxPaDdzN09tU2ZVY2p3X1hCTk1pNThnZkl1aEZWZmlEWTFNTUViWGh1WkFVQUZteVdVNDBqdFhnSGdoN2E0c2ZRWmhoaldyMEpKdkhQaUl1UVdObDB2MjdBa0laN21wQmszNXMwWTZoQUxlZmtYaWNWWE44S055dHN2UldxTW1zN0ZBalFBX0g4eVJYQ01qNm5DVi1HWGtTanQyT2Vz?oc=5",
-      "summary": "Here are all the new features added to Microsoft 365 Copilot in June 2026 Neowin",
+      "summary": "Here are all the new features added to Microsoft 365 Copilot in June 2026 neowin.net",
       "date": "01-07-2026 05:00 PM"
     },
     {
