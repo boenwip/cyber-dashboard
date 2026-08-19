@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-08-2026 03:33 PM",
+  "last_updated": "19-08-2026 04:28 PM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "19-08-2026 03:33 PM"
+      "date": "19-08-2026 04:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "19-08-2026 03:33 PM"
+      "date": "19-08-2026 04:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "19-08-2026 03:33 PM"
+      "date": "19-08-2026 04:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "19-08-2026 03:33 PM"
+      "date": "19-08-2026 04:28 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "19-08-2026 03:33 PM"
+      "date": "19-08-2026 04:28 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -147,14 +147,6 @@
       "date": "15-08-2026 05:22 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
-      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
-      "date": "14-08-2026 06:13 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Bring your spreadsheet data to life with Sheets canvas - blog.google",
@@ -189,9 +181,17 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
+      "title": "Launching Health in ChatGPT - openai.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
+      "summary": "Launching Health in ChatGPT openai.com",
+      "date": "23-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI updating ChatGPT desktop app with GPT Voice for talking through work - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUY1cGM4S2JDTHBSWWV0UUkxYnc2MXRWcmdMU0thNkNDUGtDMFJmdDZfc2NJOFRkd2JpdXdsSnpyVnFrWGJ6WS1sa2xIb1FrUmN6Q3ZLX21BdDFldWs2NDhGeGhTM0FhVUFmVmJQaHd6LWRNdWFnRkFFVGd1ZHJYOVJkUjA1NzAxMmpfRzdDWnp6SzMxb3dlZXEtSzBwOHM0bkNBNGpiYjVPUHM?oc=5",
+      "summary": "OpenAI updating ChatGPT desktop app with GPT Voice for talking through work 9to5Mac",
       "date": "23-07-2026 05:00 PM"
     },
     {
@@ -229,17 +229,17 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
       "date": "15-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -309,9 +309,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
+      "title": "Canva releases first major update to its free Affinity software - cgchannel.com",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
+      "summary": "Canva releases first major update to its free Affinity software cgchannel.com",
       "date": "18-03-2026 05:00 PM"
     }
   ]
