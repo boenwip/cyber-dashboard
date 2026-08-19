@@ -1,7 +1,18 @@
 {
-  "last_updated": "19-08-2026 06:40 PM",
+  "last_updated": "20-08-2026 07:21 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-64849",
+      "description": "MLflow MLflow \u2014 MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-19",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
+      "vendor": "MLflow",
+      "product": "MLflow",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-33824",
       "description": "Microsoft Internet Key Exchange (IKE) Service Extensions \u2014 Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
       "vendor": "Progress",
       "product": "LoadMaster",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-63077",
-      "description": "JetBrains TeamCity \u2014 JetBrains TeamCity contains a deserialization of untrusted data vulnerability that could allow unauthenticated remote code execution via the agent polling protocol.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-05",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-63077",
-      "vendor": "JetBrains",
-      "product": "TeamCity",
       "ransomware": "Unknown"
     }
   ]
