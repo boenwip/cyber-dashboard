@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-08-2026 05:20 PM",
+  "last_updated": "19-08-2026 06:00 PM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "19-08-2026 05:20 PM"
+      "date": "19-08-2026 06:00 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "19-08-2026 05:20 PM"
+      "date": "19-08-2026 06:00 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "19-08-2026 05:20 PM"
+      "date": "19-08-2026 06:00 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.232",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.232",
       "summary": "What's changed Subagent forking is now on by default: a subagent_type: \"fork\" subagent inherits the full conversation and prompt cache, and non-teammate agent spawns in interactive sessions now run in",
-      "date": "19-08-2026 05:20 PM"
+      "date": "19-08-2026 06:00 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.231",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.231",
       "summary": "What's changed Fixed MCP OAuth sign-in failing with a redirect URI mismatch for servers that use a pre-registered OAuth client, such as Slack",
-      "date": "19-08-2026 05:20 PM"
+      "date": "19-08-2026 06:00 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,6 +91,14 @@
       "date": "19-08-2026 04:08 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDhaNEwwSzdEUkZjTjdIb1JyTkl4T2JMZ2V1REVTaEhvd3owenhXallWRk5UOGltM3d0d3dqelFNV1hjbHljTDBYc0xVbWJCZTZIQWc1aHUwZFA0ZVlXZlozUGZBNEdJQmhhR3BpRmdSZHFnaF93X3V0aVp6ZnVPQnY5T3BXamdHcG1ZVHdGeGRjNUk?oc=5",
+      "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? The Guardian",
+      "date": "18-08-2026 09:18 PM"
+    },
+    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Use Gemini to help manage Google Workspace for your organization",
@@ -121,14 +129,6 @@
       "link": "http://workspaceupdates.googleblog.com/2026/08/enhanced-external-sharing-insights-now-available-in-Drive-Inventory-Reporting.html",
       "summary": "Administrators using Drive Inventory Reporting in Google BigQuery can now access granular external sharing fields designed to simplify complex permission structures. By automatically consolidating dir",
       "date": "18-08-2026 03:34 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDhaNEwwSzdEUkZjTjdIb1JyTkl4T2JMZ2V1REVTaEhvd3owenhXallWRk5UOGltM3d0d3dqelFNV1hjbHljTDBYc0xVbWJCZTZIQWc1aHUwZFA0ZVlXZlozUGZBNEdJQmhhR3BpRmdSZHFnaF93X3V0aVp6ZnVPQnY5T3BXamdHcG1ZVHdGeGRjNUk?oc=5",
-      "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? The Guardian",
-      "date": "18-08-2026 02:52 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -229,9 +229,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -293,9 +293,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "16-04-2026 05:00 PM"
     },
     {
