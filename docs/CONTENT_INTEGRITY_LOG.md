@@ -4,6 +4,53 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-20 (AEST)
+
+### Prior-run follow-up
+- **Business Email Compromise "hundreds of millions" overstatement (flagged 2026-08-19)** — still unfixed. `definitions.js` line 87 is unchanged; still needs the ~$98M correction. Carrying forward.
+- **Troy Hunt "Australian organisations" framing (flagged 2026-08-19)** — moot this run. Today's `briefing.json` no longer references Troy Hunt/Weekly Update 517 at all (briefing content has fully rotated to different stories), so nothing left to check on that specific claim.
+- **Egress block (flagged 2026-08-18, 2026-08-19)** — still in effect, see item 2/3 below.
+
+### 1. Fact cross-reference of AI briefing (`data/briefing.json`, generated 20-08-2026 07:21 AM)
+Checked all three factual claims in `briefing` against their `news.json` source articles and independent WebSearch:
+- **"Kriminal" AI platform claim** — supported. WebSearch (SiliconANGLE/ThreatDown, 19-08-2026) confirms Kriminal is a real guardrail-free AI service offering social engineering/OSINT/cybercrime assistance (it's actually a jailbroken wrapper around xAI's Grok rather than its own model, but the briefing doesn't claim otherwise — no overstatement).
+- **"73% of ransomware victims are mid-market"** — supported. WebSearch confirms Black Kite's "Mid-Market Is the Routine Target" report (published 18-08-2026), 73% of ransomware victims in North America/Europe are mid-market ($10M–$1B revenue), matching the Security Brief Australia source article exactly.
+- **Clop/Windchill exploit claim** — supported. WebSearch (The Hacker News, BleepingComputer) confirms CVE-2026-12569, a real PTC Windchill flaw (CVSS 9.3) exploited by a Clop-linked custom web shell, matching the source article.
+- **Featured story** (`featured.summary`, the Kriminal article) — matches its Dark Reading source, no misattribution.
+- No dramatization or unsupported claims found in this run's briefing — a clean result, unlike the two prior runs.
+
+### 2. Paywall spot-check
+**Not performed — 3rd consecutive run.** Retested with different targets this run: `krebsonsecurity.com`, `troyhunt.com`, and (as a control, non-publisher) `en.wikipedia.org` — all three returned `EGRESS_BLOCKED` from the network proxy. The Wikipedia control confirms this is a blanket egress policy block, not something specific to publisher domains — so rotating to different sources each run will not resolve it. Per the agent proxy's own guidance, did not retry further or attempt workarounds.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample (previous two runs covered BEC, MFA, Credential Stuffing, SQL Injection, MITM, SIEM, CVE, Zero Trust, Vishing, Essential Eight, Secure Password): **Ransomware, Two-Factor Authentication, Zero-Day, Botnet, DDoS, Zero Trust** (re-checked Zero Trust's specific "mandated for federal agencies" claim, not previously verified).
+- **Ransomware entry's "ACSC recorded ransomware as the most disruptive cybercrime type in FY2024–25"** — supported. WebSearch confirms ACSC's Annual Cyber Threat Report 2024-25 describes ransomware as the most disruptive cybercrime threat, consistent with the entry.
+- **Zero Trust entry's "Australian government has mandated Zero Trust architecture for federal agencies"** — supported. WebSearch confirms the Protective Security Policy Framework (PSPF) 2025 Annual Release formally mandates zero trust principles for government agencies.
+- Two-Factor Authentication, Zero-Day, Botnet, DDoS — general/definitional content, no specific factual claims requiring external verification; all accurate and appropriately simplified.
+- No issues found in this sample.
+
+### 5. Value and dual-audience readability
+Sampled current `news.json` (51 items):
+- **🚩 Noise leak recurs in "Google News — Privacy & Compliance AU" query.** *"Inquiry finds Catholic school discriminated against staff over sexual orientation - abc.net.au"* (tagged "Education") has zero privacy/compliance/cyber content — it's an employment discrimination story picked up by the broad `privacy act australia` query. This is the same root cause flagged 2026-08-18 (the iview TV listing) and noted as "not currently reproducible" on 2026-08-19 — it has now reproduced with a different example, confirming the query itself still needs tightening by a human.
+- Borderline filler (not wrong, just thin): *"Daon wins Frost & Sullivan recognition for biometric model"* — a vendor-award piece with a security angle bolted on, similar to the previously-flagged RecordPoint appointment piece. Low value to either audience.
+- Otherwise reads well for both audiences this run — CoSnitch, TwinLoot, Metabase SQL zero-day, Fortinet/MFA bypass, and the Kriminal/mid-market ransomware/Clop briefing items all carry plain-English context for lay readers while staying substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 10 distinct sources currently live in `data/news.json` (Dark Reading, Security Brief Australia, Google News — Privacy & Compliance AU, Google News — ABC Tech, Australian Cyber Security Magazine, Dark Reading, 404 Media, Troy Hunt Blog, Google News — ScamWatch, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry). Flagged 2026-08-19, still unfixed.
+2. **"Google News — Privacy & Compliance AU" query keeps leaking off-topic content** — 3rd occurrence across 3 runs (iview TV listing → quiet → Catholic school discrimination story). The `(site:abc.net.au OR site:theguardian.com) privacy act australia` query in `scripts/fetch_cyber_news.py` is too broad and needs tightening by a human — this agent won't touch matching logic per its remit.
+3. **Egress to publisher/reference domains has now failed for 3 consecutive runs** (2026-08-18, -19, -20), confirmed this run to be a blanket proxy policy block (a Wikipedia control also failed) rather than a publisher-specific issue. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy — worth a one-time human decision on whether to grant this agent's environment egress to the approved-domain list, since this will keep recurring every run otherwise.
+
+---
+
 ## 2026-08-19 (AEST)
 
 ### Prior-run follow-up — all 5 items resolved
