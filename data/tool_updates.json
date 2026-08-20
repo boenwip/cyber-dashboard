@@ -1,5 +1,5 @@
 {
-  "last_updated": "20-08-2026 02:05 PM",
+  "last_updated": "20-08-2026 03:01 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.237",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
       "summary": "What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doin",
-      "date": "20-08-2026 02:05 PM"
+      "date": "20-08-2026 03:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.236",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
       "summary": "What's changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL) Ad",
-      "date": "20-08-2026 02:05 PM"
+      "date": "20-08-2026 03:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "20-08-2026 02:05 PM"
+      "date": "20-08-2026 03:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.234",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.234",
       "summary": "What's changed Added the optional CLAUDE_CODE_PROJECT_DIR_NAME environment variable: hosts that give each session its own config directory can choose a short name for the per-project transcript direct",
-      "date": "20-08-2026 02:05 PM"
+      "date": "20-08-2026 03:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.233",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.233",
       "summary": "What's changed Added GitLab merge request URL support to the --worktree flag and the claude agents view (where MRs display as !N) Added an opt-in forward_user_identity apps gateway setting on Anthropi",
-      "date": "20-08-2026 02:05 PM"
+      "date": "20-08-2026 03:01 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -139,11 +139,19 @@
       "date": "18-08-2026 07:23 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canvas introduces updates for fall 2026 - Nebraska Today",
+      "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwaDkwaUVYa0wzd0pDd01YS1hvb3JWMUxXYUkyaWhHTWlEZ1RxenBaSHNpNHhlUTFndnVDeklOOEhsOVFWY1dQZE5lR1dzbFN2WWhsOTN0aXltdjZuT2d3VlR2Y0tqMnRTMV94N0V1U1E2OGs0OXpF?oc=5",
+      "summary": "Canvas introduces updates for fall 2026 Nebraska Today",
+      "date": "17-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - axios.com",
+      "title": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" - Axios",
       "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9WbTFuU3NVRExHd2I4UXlsdFBfdFl6dFBOZEE1dHhPenVYTEtqZ1FnQXcwZFU0MHNxY1ZYQnZrcl93cmY2clNhR25LZXVVNXdhejFVWkRVSlRJREZQV3NpNUI4dDZ4YklTVlE?oc=5",
-      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" axios.com",
+      "summary": "Anthropic sees AI risks rising, no plan to release stronger \"Model 2\" Axios",
       "date": "15-08-2026 08:35 AM"
     },
     {
@@ -304,14 +312,6 @@
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
-      "summary": "Canva AI 2.0 introduces a new interface and fundamental changes Campaign Indonesia",
       "date": "16-04-2026 05:00 PM"
     },
     {
