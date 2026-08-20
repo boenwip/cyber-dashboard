@@ -1,7 +1,76 @@
 {
-  "last_updated": "20-08-2026 07:03 PM",
+  "last_updated": "21-08-2026 07:23 AM",
   "count": 47,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Money and Mindset: The Two Biggest Roadblocks to Cyber Policing",
+      "link": "https://www.darkreading.com/cybersecurity-operations/money-and-mindset-the-two-biggest-roadblocks-to-cyber-policing",
+      "summary": "Law enforcement training is not keeping pace with the volume and rapid evolution of cybercrimes, though officers really only need to learn the basics, but focus and budgets hinder progress.",
+      "date": "21-08-2026 03:32 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "The hidden security risk in document redaction",
+      "link": "https://securitybrief.com.au/story/the-hidden-security-risk-in-document-redaction",
+      "summary": "Unredacted archive copies can expose personal data long after extraction, increasing compliance risk for firms using AI and high-volume document workflows.",
+      "date": "21-08-2026 01:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "High",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Strike Graph launches Atlas AI adviser for compliance",
+      "link": "https://securitybrief.com.au/story/strike-graph-launches-atlas-ai-adviser-for-compliance",
+      "summary": "Compliance teams may gain a new way to spot gaps between audits, as Strike Graph's Atlas uses AI to recommend remedial action with human approval.",
+      "date": "21-08-2026 01:00 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Pakistan's Transparent Tribe Refreshes Toolset for Afghan Cyberattacks",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/pakistan-transparent-tribe-afghan-cyberattacks",
+      "summary": "A nation-state threat actor is picking on immature organizations run by the Taliban, but failing against more prepared government agencies in India.",
+      "date": "21-08-2026 12:59 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Grandoreiro' Malware Resurfaces With Mexico Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/grandoreiro-resurfaces-mexico-campaign",
+      "summary": "The banking Trojan, post-law enforcement takedown, is sprucing itself up with features that make detection and analysis harder.",
+      "date": "20-08-2026 11:30 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Merchants face internal fraud blind spot, report warns",
@@ -31,32 +100,6 @@
         "Critical Infra",
         "Enterprise"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Professional services face highest cyber intrusion volume",
-      "link": "https://securitybrief.com.au/story/professional-services-face-highest-cyber-intrusion-volume",
-      "summary": "Firms in law, consulting and accountancy are being hit hardest, with attackers exploiting old flaws to reach sensitive client data and networks.",
-      "date": "20-08-2026 05:09 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Semperis launches global tour for cyber war documentary",
-      "link": "https://securitybrief.com.au/story/semperis-launches-global-tour-for-cyber-war-documentary",
-      "summary": "The documentary's global rollout will take its account of cyber attacks on vital services to more than 30 cities, including Sydney.",
-      "date": "20-08-2026 02:46 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -105,7 +148,7 @@
       "source": "Dark Reading",
       "title": "SilkParasite Threatens Central Asian Orgs With Flurry of RATs",
       "link": "https://www.darkreading.com/threat-intelligence/silkparasite-central-asian-orgs-flurry-rats",
-      "summary": "A spear-phishing campaign by a Chinese-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by China's APTs.",
+      "summary": "A spear-phishing campaign by a China-nexus group linked to FamousSparrow provides insight into geopolitical, technical, and strategic global moves by the country's APTs.",
       "date": "20-08-2026 02:58 AM",
       "tags": [
         "AU Cyber",
@@ -615,48 +658,6 @@
       ],
       "threat": "Medium",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "D\u00e9j\u00e0 Vu? Meta's AI Escapes Testing Lab in Hacking Joyride",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/meta-ai-escapes-lab-hacking-joyride",
-      "summary": "In the span of three weeks, OpenAI, Anthropic, and Meta have all disclosed AI agent sandbox escape events affecting real organizations.",
-      "date": "07-08-2026 06:39 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Researcher Claims Control of ChatGPT Secure Sandbox",
-      "link": "https://www.darkreading.com/cloud-security/researcher-claims-control-chatgpt-secure-sandbox",
-      "summary": "A researcher demonstrated a proof-of-concept attack chain that provided C2-style influence over ChatGPT's isolated sandbox during a session at Black Hat USA 2026.",
-      "date": "07-08-2026 06:38 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Canadian Man Pleads Guilty in Snowflake Extortions",
-      "link": "https://krebsonsecurity.com/2026/08/canadian-man-pleads-guilty-in-snowflake-extortions/",
-      "summary": "A 26-year-old Canadian man once described as one of the most consequential cybercrime threat actors of 2024 has pleaded guilty to computer fraud and conspiracy to hack and extort more than 165 organizations that used the cloud data storage provider Snowflake. Connor Riley Moucka, of Kitchener, Ontar",
-      "date": "07-08-2026 03:00 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     }
   ]

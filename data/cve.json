@@ -1,7 +1,29 @@
 {
-  "last_updated": "20-08-2026 07:03 PM",
+  "last_updated": "21-08-2026 07:23 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-72530",
+      "description": "TrueConf Server \u2014 TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the iso",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-20",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
+      "vendor": "TrueConf",
+      "product": "Server",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-72529",
+      "description": "TrueConf Server \u2014 TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary scr",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-20",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
+      "vendor": "TrueConf",
+      "product": "Server",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-64849",
       "description": "MLflow MLflow \u2014 MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-68820",
       "vendor": "Microsoft",
       "product": "Windows Ancillary Function Driver for WinSock ",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-72898",
-      "description": "Metabase Metabase \u2014 Metabase contains a SQL Injection vulnerability that allows an unauthenticated remote attacker to inject arbitrary SQL into the Metabase application database, which can give them administrator access ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-11",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72898",
-      "vendor": "Metabase",
-      "product": "Metabase",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-8037",
-      "description": "Progress LoadMaster \u2014 Progress LoadMaster contains a command injection vulnerability that allows an un-authenticated attacker to execute arbitrary commands on the LoadMaster appliance by exploiting unsanitized input in mul",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-07",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8037",
-      "vendor": "Progress",
-      "product": "LoadMaster",
       "ransomware": "Unknown"
     }
   ]
