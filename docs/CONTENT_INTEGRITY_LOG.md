@@ -4,6 +4,55 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-21 (AEST)
+
+### Prior-run follow-up
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19, -20)** — still unfixed. `definitions.js` "Business Email Compromise" entry unchanged. 3rd consecutive carry-forward.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18, -19, -20)** — not reproduced this run; the query returned zero results in today's fetch (source not present in current `data/news.json` at all — only 8 distinct sources live, see item 6). Query itself is still unchanged in `scripts/fetch_cyber_news.py`, so this remains a dormant risk, not a fix.
+- **Egress block (flagged 2026-08-18, -19, -20)** — still in effect, confirmed again this run, see item 2/3.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 21-08-2026 07:23 AM)
+`briefing` field (`select_trending_article()`'s output is not AI-generated per the 2026-08-18 decision, but the `briefing` paragraph itself still is). Checked all three factual claims against their `news.json` source articles and independent WebSearch:
+- **Quest Apartment Hotels data breach** — supported. WebSearch (ABC News, Cyber Daily, The Register, Australian Cyber Security Magazine) confirms a real breach disclosed ~19-08-2026, traced to a third-party database vulnerability, 1.5M+ potentially affected records. Briefing's framing ("your data can be exposed even when the organisation you deal with directly has done nothing wrong") is accurate to what's known — no overstatement.
+- **Merchant internal fraud blind spot claim** — supported. WebSearch confirms the Chargebacks911 2026 Chargeback Field Report: ~1 in 4 merchants has experienced employee-initiated fraud, fewer than 4 in 10 of those actively monitor for it. Briefing's plain-English gloss ("staff with access to financial systems pose a real risk that is often overlooked") matches, not dramatized.
+- **Document redaction risk claim** — supported. WebSearch confirms visual-only redaction (black boxes, highlighting) in PDFs/Word docs does not remove underlying text/metadata and is recoverable — a widely-documented 2026 issue. Briefing's practical tip is accurate guidance, not overstated.
+- **Featured story** (`featured.summary`, the "Money and Mindset" Dark Reading policing article, `source_count: 1`) — summary is a direct truncation of the article's own `news.json` RSS summary (matches verbatim up to the 140-char cutoff). No misattribution — consistent with `select_trending_article()` no longer using an AI-written quote (per 2026-08-18 decision).
+- No dramatization, misattribution, or unsupported claims found in this run's briefing — clean result, 2nd clean run in a row.
+
+### 2. Paywall spot-check
+**Not performed — 4th consecutive run.** Tested `en.wikipedia.org` (control, non-publisher) and `securitybrief.com.au` (an allowlisted source not yet paywall-tested in this log's history) via WebFetch this run; both returned `EGRESS_BLOCKED`. Confirms the blanket proxy policy block persists unchanged from the prior three runs — not narrowing to specific domains, not resolved.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample (previous four runs covered BEC, MFA, Credential Stuffing, SQL Injection, MITM, SIEM, CVE, Zero Trust, Vishing, Essential Eight, Secure Password, Ransomware, Two-Factor Authentication, Zero-Day, Botnet, DDoS, and OWASP A01): **Patch** (Essential Eight patching timeframe claim), **Incident Response** (ACSC hotline number), **Identity Theft** (IDCARE hotline number), plus fresh OWASP entries **A02 Security Misconfiguration** and **A03 Software Supply Chain Failures** in `reference.html`.
+- **Patch entry's "48 hours for critical vulnerabilities and two weeks for others"** — supported. WebSearch confirms Essential Eight patch timeframes: 48 hours when a working exploit exists, two weeks otherwise (for internet-facing services / ML2+). Accurate, appropriately simplified.
+- **Incident Response entry's "1300 CYBER1"** — supported. WebSearch confirms this is the correct, current ACSC 24/7 Cyber Security Hotline number (1300 292 371).
+- **Identity Theft entry's "IDCARE (1800 595 160)"** — supported. WebSearch confirms this is IDCARE's correct current contact number.
+- **`reference.html` OWASP A02 "90% of applications had some form of misconfiguration"** — supported. WebSearch found this exact figure cited by an independent OWASP Top 10:2025 secondary source (alongside a higher 100%/3.00%-incidence variant cited elsewhere) — site's figure is a real, sourced statistic, not fabricated.
+- **`reference.html` OWASP A03 "Software Supply Chain Failures... already the category with the highest reported incidence rate"** — supported. WebSearch confirms A03 is new for 2025 and independently reported to have the highest incidence rate (5.19%) of any 2025 category.
+- No issues found in this sample.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (47 items, generated 21-08-2026 07:23 AM) and the briefing:
+- No off-topic noise this run (Privacy & Compliance AU query absent — see prior-run follow-up above).
+- Borderline filler (not wrong, just thin, same recurring pattern as previously-flagged RecordPoint/Daon pieces): *"Strike Graph launches Atlas AI adviser for compliance"* — a vendor product-launch piece with a compliance angle. Low value to either audience but not inaccurate.
+- Otherwise reads well for both audiences — Quest Apartment Hotels breach, merchant fraud blind spot, document redaction risk, N-able N-central active exploitation warning, and the Kriminal/CoSnitch/TwinLoot items all carry plain-English framing for lay readers while remaining substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Dark Reading, Security Brief Australia, Australian Cyber Security Magazine, 404 Media, Troy Hunt Blog, Google News — ScamWatch, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry). Flagged 2026-08-19, unfixed for 3 consecutive runs now.
+2. **Egress to publisher/reference domains has now failed for 4 consecutive runs** (2026-08-18 through -21), confirmed again this run via a Wikipedia control plus an allowlisted publisher, both `EGRESS_BLOCKED`. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list, since WebSearch cannot substitute for direct observation of paywalls/dead feeds.
+3. **"Google News — Privacy & Compliance AU" query** — dormant this run (no results), but the overly broad `(site:abc.net.au OR site:theguardian.com) privacy act australia` query in `scripts/fetch_cyber_news.py` is still unchanged and will likely leak off-topic content again when it next returns results. Still needs tightening by a human.
+
+---
+
 ## 2026-08-20 (AEST)
 
 ### Prior-run follow-up
