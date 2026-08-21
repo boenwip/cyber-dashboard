@@ -4,6 +4,53 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-22 (AEST)
+
+### Prior-run follow-up
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -21)** — still unfixed. `definitions.js` line 87 ("Business Email Compromise" entry) unchanged. 4th consecutive carry-forward.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -21)** — still dormant this run; the query is absent from today's `data/news.json` sources again (see item 6). Query itself unchanged in `scripts/fetch_cyber_news.py` — still a live risk, not a fix.
+- **Egress block (flagged 2026-08-18 through -21)** — still in effect, confirmed again this run, see item 2/3.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 22-08-2026 07:19 AM)
+Checked both factual claims in `briefing` against their `news.json` source articles and independent WebSearch:
+- **Home batteries / rooftop battery cybersecurity compliance claim** — supported. WebSearch confirms the Cyber Security (Security Standards for Smart Devices) Rules 2025 took effect 4 March 2026 and bring home batteries/smart inverters into scope for mandatory baseline security requirements (no default passwords, vulnerability disclosure process, disclosed update lifespan); compromised inverters can manipulate grid power output. Briefing's framing ("connected hardware potentially creating vulnerabilities in broader networks") is a fair gloss, not dramatized.
+- **GitLab / OpenAI "stronger controls around AI agent activity" claim** — supported. WebSearch confirms GitLab 19.3 shipped a Secrets Manager, AI spending caps, and a Dedicated AI Gateway for agentic workflows, matching the `news.json` source article. OpenAI's controls (referenced in the featured story) follow the Hugging Face incident per the Dark Reading source.
+- **Featured story** (`featured.summary`, the "OpenAI Adds Controls" Dark Reading piece, `source_count: 1`) — verified as a verbatim 140-char truncation of the article's own `news.json` RSS summary. No misattribution.
+- No dramatization, misattribution, or unsupported claims found — 3rd clean run in a row.
+
+### 2. Paywall spot-check
+**Not performed — 5th consecutive run.** Tested `en.wikipedia.org` (control) and `securitybrief.com.au` (allowlisted source) via WebFetch this run; both returned `EGRESS_BLOCKED`. Same blanket proxy policy block as the prior four runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample: **Data Breach** glossary entry, plus `reference.html`'s OWASP Web Top 10 **A04–A10** (Cryptographic Failures, Injection, Insecure Design, Authentication Failures, Software/Data Integrity Failures, Security Logging and Alerting Failures, Mishandling of Exceptional Conditions).
+- **Data Breach entry's NDB/OAIC claim** — supported. WebSearch (OAIC) confirms the Notifiable Data Breaches scheme requires reporting of "eligible" (significant) breaches to the OAIC — matches the entry's wording exactly.
+- **`reference.html` A04–A10 category names, rankings, and rename notes** — all verified against the official OWASP Top 10:2025 list (finalised January 2026). Names match exactly (including the two new 2025 categories and three renames the site correctly flags). A04's "down two places" (was A02:2021) and A05's "supply chain and misconfiguration risks overtook it" (A02/A03:2025 now rank above A05 Injection) both check out against the official ordering.
+- **Minor note, not urgent:** A09's "average time to detect a breach is over 200 days" is trending stale — IBM's most recent (2025) Cost of a Data Breach Report puts pure identification time at 181 days (down from ~204 in earlier years); the combined identify+contain figure is 241 days. The site's claim isn't fabricated (it matches older-vintage figures widely still cited) but "over 200 days" for *detection alone* is now arguably a touch high. Low-severity, worth a wording tweak next time this section is touched, not a standalone fix.
+- No other issues found in this sample.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (45 items, generated 22-08-2026 07:19 AM) and the briefing:
+- Reads well for both audiences this run — home batteries, N-able N-central active exploitation, Quest Apartment Hotels breach, and the AI-agent-controls cluster (GitLab/OpenAI/CUSTODY framework) all carry plain-English framing for lay readers while staying substantive for professionals.
+- **Minor tagging quibble:** *"Google adds Antigravity to Gemini Enterprise subscriptions"* is tagged "Compliance" — it's a product-feature rollout (coding agent, pooled budgets, audit logs) with only a light compliance angle; "AI & Tools" would fit better. Not inaccurate, just a borderline auto-tag — not something this agent edits.
+- No off-topic noise or clickbait spotted in this run's sample.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Dark Reading, Security Brief Australia, Australian Cyber Security Magazine, 404 Media, Troy Hunt Blog, Google News — ScamWatch, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry, line 87). Flagged 2026-08-19, unfixed for 4 consecutive runs now.
+2. **Egress to publisher/reference domains has now failed for 5 consecutive runs** (2026-08-18 through -22), reconfirmed this run via a Wikipedia control plus an allowlisted publisher, both `EGRESS_BLOCKED`. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+3. **"Google News — Privacy & Compliance AU" query** — still dormant (no results this run either), but the overly broad query in `scripts/fetch_cyber_news.py` is unchanged and will likely leak off-topic content again when it next returns results.
+4. Minor: A09 (Security Logging and Alerting Failures) "over 200 days" detection-time stat in `reference.html` is trending stale against the latest (2025) IBM figures — low priority wording tweak.
+
+---
+
 ## 2026-08-21 (AEST)
 
 ### Prior-run follow-up
