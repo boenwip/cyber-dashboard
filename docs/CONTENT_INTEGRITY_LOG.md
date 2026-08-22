@@ -4,6 +4,66 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-23 (AEST)
+
+### 🚩 New this run: "Today's Story" is currently showing non-content on the live homepage
+`data/briefing.json`'s `featured` field (generated 23-08-2026 07:17 AM) is:
+- title: *"Browse news and alerts - Scamwatch"*
+- summary: *"Browse news and alerts Scamwatch"*
+- link: a Google News redirect to Scamwatch's generic site-wide "browse" listing page, not a specific alert/article
+
+Root cause: the "Google News — ScamWatch" query (`site:scamwatch.gov.au`) returned two non-article "browse" pages today — *"Browse news and alerts - Scamwatch"* and *"Browse news and alerts - page 19 - Scamwatch"* — as the two most recent items in `data/news.json` (positions 1 and 2, dated 22-08-2026). `select_trending_article()` in `scripts/fetch_cyber_news.py` has no filter against this and picked the most recent as the fallback featured story (no article cleared the cross-source clustering bar, `source_count: 1`), so it flowed straight into `briefing.json` and is now rendering as "Today's Story" on `index.html` via `renderFeaturedStory()` in `dashboard.js`, which also has no such filter.
+**Notably, `dashboard.js`'s `renderScamOfWeek()` (the Scam Callout, a separate homepage element) already has a `GENERIC = ['browse news', 'news and alerts', 'alerts and news']` title guard for exactly this pattern** (`dashboard.js` line ~319) — so the Scam Callout correctly skipped both junk items and fell through to a real article. The Featured Story path (`select_trending_article()` server-side, and `renderFeaturedStory()` client-side) has no equivalent guard. This is a straightforward fix — mirror the existing `GENERIC` title filter into `select_trending_article()` (or `renderFeaturedStory()`) — but per this agent's remit, matching/selection logic is a human edit, not something this agent will touch directly.
+**Impact:** live right now — anyone visiting the homepage sees a meaningless "Today's story" with a summary that's just a repeated page label, linking to a generic listing page rather than a real story. Fails REVIEW.md Lens 2's "Does 'Today's Story' read as credible and relevant?" fail condition.
+**Recommend:** add the same `GENERIC`-title exclusion used in `renderScamOfWeek()` to `select_trending_article()` in `scripts/fetch_cyber_news.py`, so junk "browse"/listing pages from any Google News query are excluded from featured-story candidacy, not just from the scam callout.
+
+### Prior-run follow-up
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -22)** — still unfixed. `definitions.js` line 87 ("Business Email Compromise" entry) unchanged. 5th consecutive carry-forward.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -22)** — still dormant this run; the query is absent from today's `data/news.json` sources again. Query itself unchanged in `scripts/fetch_cyber_news.py` — still a live risk, not a fix.
+- **Egress block (flagged 2026-08-18 through -22)** — still in effect, confirmed again this run, see item 2/3.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 23-08-2026 07:17 AM)
+Checked the two factual claims in `briefing` against their `news.json` source articles and independent WebSearch:
+- **Home batteries / rooftop battery cybersecurity compliance claim** — supported, consistent with yesterday's already-verified claim (same underlying Security Standards for Smart Devices Rules 2025 story, "Australia's home batteries are now a cybersecurity compliance issue," Security Brief Australia). Briefing's framing is a fair, non-dramatized gloss.
+- **Scamwatch alerts / impersonation caution claim** — generic advisory language ("scammers continue to target individuals... impersonating trusted organisations"), not a specific verifiable factual claim. Consistent with general sound practice, nothing to overstate.
+- **Featured story** — see the 🚩 item above; not a fact-accuracy problem (nothing is misattributed — the "quote" is literally the source's own title/label) but a value/credibility problem, flagged separately.
+- No dramatization or misattribution found in the `briefing` paragraph itself this run.
+
+### 2. Paywall spot-check
+**Not performed — 6th consecutive run.** Tested `en.wikipedia.org` (control), `itnews.com.au` (allowlisted source, not yet tested in this log), and `cyber.gov.au` (government RSS feed) via WebFetch this run; all three returned `EGRESS_BLOCKED`.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to fresh content not previously checked in this log: **OWASP API Top 10 (full list, `reference.html`)**, **OWASP LLM Top 10 (full list, `reference.html`)**, and **Essential Eight (full 8-strategy descriptions, `reference.html`)**.
+- **OWASP API Top 10 "(2023)" labelling** — supported. WebSearch confirms 2023 remains the current, latest published edition as of August 2026 — no newer edition to flag as stale. Category names/order (API1–API10) match the official OWASP API Security Top 10 2023 list.
+- **OWASP LLM Top 10 "(2025)" category names and order** — supported. WebSearch confirms the site's LLM01–LLM10 order and names (Prompt Injection → Sensitive Information Disclosure → Supply Chain → Data and Model Poisoning → Improper Output Handling → Excessive Agency → System Prompt Leakage → Vector and Embedding Weaknesses → Misinformation → Unbounded Consumption) match the official 2025 edition.
+- **Essential Eight — "ACSC recommends all Australian organisations implement these at Maturity Level 2 as a minimum"** — supported, and correctly distinct from the separate (already-fixed, per 2026-08-19 entry) legal-mandate wording used elsewhere for non-corporate Commonwealth entities. WebSearch confirms ML2 is ACSC's recommended baseline for the broader market, while being a specific legal mandate only for a narrower government subset — the site's two different framings (recommendation here vs. mandate in `definitions.js`) are each individually accurate for their context.
+- The 8 strategy descriptions and "Prevents:" lines were spot-checked for accuracy against ASD's published strategy descriptions — no inaccuracies found.
+- No issues found in this sample.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (47 items, generated 23-08-2026 07:16 AM) and the briefing:
+- Aside from the featured-story issue above, the sample reads well for both audiences — home batteries, N-able N-central active exploitation (ACSC high alert, correctly Critical), Quest Apartment Hotels breach, ASIC's deepfake investment scam warning, and the AI-agent-controls cluster (GitLab/OpenAI/CUSTODY framework/Antigravity) all carry plain-English framing for lay readers while staying substantive for professionals.
+- **Recurring minor tagging quibble (same as 2026-08-22):** *"Google adds Antigravity to Gemini Enterprise subscriptions"* is tagged "Compliance" — still a product-feature rollout with only a light compliance angle; "AI & Tools" would fit better. Not inaccurate, just a borderline auto-tag.
+- No off-topic noise or clickbait spotted beyond the featured-story issue.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Google News — ScamWatch, Dark Reading, Security Brief Australia, Australian Cyber Security Magazine, 404 Media, Troy Hunt Blog, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **🚩 New: "Today's Story" featured section is currently showing non-content** ("Browse news and alerts - Scamwatch") on the live homepage, because `select_trending_article()` in `scripts/fetch_cyber_news.py` lacks the `GENERIC` title guard that `dashboard.js`'s `renderScamOfWeek()` already has for this exact pattern. Recommend porting that filter. Live impact, highest priority this run.
+2. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry, line 87). Flagged 2026-08-19, unfixed for 5 consecutive runs now.
+3. **Egress to publisher/reference domains has now failed for 6 consecutive runs** (2026-08-18 through -23), reconfirmed this run via a Wikipedia control plus two allowlisted/government domains, all `EGRESS_BLOCKED`. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+4. **"Google News — Privacy & Compliance AU" query** — still dormant (no results this run either), but the overly broad query in `scripts/fetch_cyber_news.py` is unchanged and will likely leak off-topic content again when it next returns results.
+5. Minor: A09 (Security Logging and Alerting Failures) "over 200 days" detection-time stat in `reference.html` is trending stale against the latest (2025) IBM figures (per 2026-08-22 entry) — low priority wording tweak, not re-verified this run (rotated sample elsewhere).
+
+---
+
 ## 2026-08-22 (AEST)
 
 ### Prior-run follow-up
