@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-08-2026 07:19 AM",
+  "last_updated": "22-08-2026 11:18 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.239",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
       "summary": "What's changed Cost estimates (/cost, status line, --max-budget-usd) now include the 1.1\u00d7 US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedroc",
-      "date": "22-08-2026 07:19 AM"
+      "date": "22-08-2026 11:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.238",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
       "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (\"classic\") is unchanged Plugin marke",
-      "date": "22-08-2026 07:19 AM"
+      "date": "22-08-2026 11:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.237",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
       "summary": "What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doin",
-      "date": "22-08-2026 07:19 AM"
+      "date": "22-08-2026 11:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.236",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.236",
       "summary": "What's changed Added ANTHROPIC_DEFAULT_MODEL environment variable: sets the model new sessions start on, while a /model pick still overrides it and persists across restarts (unlike ANTHROPIC_MODEL) Ad",
-      "date": "22-08-2026 07:19 AM"
+      "date": "22-08-2026 11:18 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.235",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.235",
       "summary": "What's changed Added an optional spellcheck setting that underlines misspelled words in the prompt input as you type, using your installed aspell, hunspell, or ispell Fixed whole-prompt-cache invalida",
-      "date": "22-08-2026 07:19 AM"
+      "date": "22-08-2026 11:18 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -153,6 +153,14 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "14-08-2026 12:58 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
+      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
+      "date": "12-08-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -269,10 +277,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Banks, telcos briefed on threat of 'dangerous' AI model - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQalRTWHlkUjNKOE94SzNhM2hkQlFaNW9vZ21PRTB5aEhtZVNxM213dm04SURMX29MWUNYSXdmXzVqMHZHWlVFOWM2M0IwUENlcjVLTVBvcDBab0JwQzRSMjNqVkU0WlRyNkNSQ3prbEt3NVBsbkZWaTQ0Rzk0WWt4TnVlSEhDc0Uwc0VLaWlwNXp1TVlIU3FuSFVZRy1fTVZVZEozaUxnUFZCU3M?oc=5",
-      "summary": "Banks, telcos briefed on threat of 'dangerous' AI model ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "date": "19-05-2026 05:00 PM"
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "Introducing Claude Opus 4.8 Anthropic",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -304,14 +312,6 @@
       "title": "Canva AI 2.0 introduces a new interface and fundamental changes - Campaign Indonesia",
       "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTZEdDFRUDhmYmtCcnFjRXhZQ19neHA0ekdaV0d6VGNyQVdHMkE2NkJLdklvSk82a1dXR2JsQU5PZkxzeHZXMURmLWs0Z2NGYWtacHd6N0t4X0NnVk4xaFVzbXZxVXg1bURqQjQtUjIycUFMc1oyWFo5ZFFUUnV0bmxmNTlrSS0zZkVsX2tRSkpaUURkTnlJYkVuZ2tpbU9OZkozRnZXcXRsNkVncVRv?oc=5",
       "summary": "Canva AI 2.0 introduces a new interface and fundamental changes Campaign Indonesia",
-      "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
-      "summary": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System CMSWire",
       "date": "16-04-2026 05:00 PM"
     },
     {
