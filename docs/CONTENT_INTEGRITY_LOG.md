@@ -4,6 +4,63 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-24 (AEST)
+
+### 🚩 Escalation: "Today's Story" junk-featured-story bug is worse, not fixed — 2nd consecutive day live
+Flagged 2026-08-23 as new; still unfixed and has gotten measurably worse overnight. `data/briefing.json`'s `featured` field (generated 24-08-2026 07:17 AM) is again a Google News "browse" listing page, not a real article:
+- title: *"Browse news and alerts - page 9 - Scamwatch"*
+- summary: *"Browse news and alerts - page 9 Scamwatch"*
+- link: generic Scamwatch site-wide listing page, not a specific alert
+
+Root cause unchanged from yesterday: `select_trending_article()` in `scripts/fetch_cyber_news.py` has no filter against Google News' generic "browse/listing" page titles, unlike `dashboard.js`'s `renderScamOfWeek()`, which already has a `GENERIC` title guard for this exact pattern (line ~319). **What's new/worse this run:** `data/news.json` now contains **7** of these junk "Browse news and alerts..." items (up from 2 yesterday) — positions 1, and five more scattered through the top ~20 — all from the "Google News — ScamWatch" query. The junk is compounding day over day because nothing purges or filters it at the source, and it's now the single largest visible cluster from one source in the feed.
+**Impact:** live right now — homepage "Today's Story" again shows a meaningless listing-page title/summary, 2nd day running. Still fails REVIEW.md Lens 2 ("Does 'Today's Story' read as credible and relevant?").
+**Recommend (unchanged, now higher priority given it's compounding):** port the existing `GENERIC` title-exclusion list from `renderScamOfWeek()` into `select_trending_article()` (and ideally into the general news-ingest filter itself, e.g. `is_blocked()`/title keyword check in `fetch_cyber_news.py`, so these listing pages stop accumulating in `news.json` at all, not just get excluded from the one downstream feature). Matching/selection-logic edit — human, not this agent, per remit.
+
+### Prior-run follow-up
+- **"Today's Story" junk-featured-story bug (flagged 2026-08-23)** — NOT fixed, worse. See escalation above.
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -23)** — still unfixed. `definitions.js` line 87 ("Business Email Compromise" entry) unchanged. 6th consecutive carry-forward.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -23)** — still dormant this run; query unchanged in `scripts/fetch_cyber_news.py`.
+- **Egress block (flagged 2026-08-18 through -23)** — still in effect, confirmed again this run (item 2/3).
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 24-08-2026 07:17 AM)
+Two factual claims in `briefing`, checked against `news.json` source articles and independent WebSearch:
+- **Home batteries / rooftop battery cybersecurity compliance claim** — supported, same underlying story as the last two runs (Security Standards for Smart Devices Rules 2025, Security Brief Australia). Fair, non-dramatized gloss, consistent wording to prior verified runs.
+- **OpenAI new user controls claim** — supported, consistent with 2026-08-22's already-verified GitLab/OpenAI AI-agent-controls story (Dark Reading). No overstatement.
+- **Featured story** — see escalation above; a credibility/value problem, not a fact-accuracy one (nothing is misattributed, the "quote" is literally the junk page's own title).
+- No dramatization or misattribution found in the `briefing` paragraph itself this run.
+
+### 2. Paywall spot-check
+**Not performed — 7th consecutive run.** Tested `en.wikipedia.org` (control, non-publisher) via WebFetch this run; returned `EGRESS_BLOCKED`. Same blanket proxy policy block as all prior runs since 2026-08-18.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample not previously logged: **Phishing, Social Engineering, VPN, Firewall, Encryption, Smishing, Vishing, Insider Threat** (`definitions.js`).
+- **Vishing entry's "ATO's impersonation scam hotline (1800 008 540)"** — supported. WebSearch (ato.gov.au, Scamwatch) confirms this is the correct, current ATO number for reporting impersonation scam calls.
+- Phishing, Social Engineering, VPN, Firewall, Encryption, Smishing, Insider Threat — all definitional/general content with no specific verifiable numeric claims; reviewed for accuracy and appropriate lay simplification. No issues found.
+- No issues found in this sample.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (53 items, generated 24-08-2026 07:17 AM) and the briefing:
+- Aside from the compounding featured-story/junk-item issue above (now 7 of 53 items, ~13% of the feed, are non-content), the remaining real articles read well for both audiences — Troy Hunt's HIBP Sri Lanka onboarding item and the home-battery/OpenAI stories carry plain-English framing for lay readers while staying substantive for professionals.
+- Worth noting for the human fixing the featured-story bug: since the junk items are now ~13% of the stored feed, a fix at the ingest/blocklist level (not just the featured-story picker) would also clean up feed density generally.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Google News — ScamWatch, Troy Hunt Blog, Dark Reading, Security Brief Australia, Australian Cyber Security Magazine, 404 Media, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3). The featured-story bug is a matching/selection-logic issue, not a source removal — outside this agent's auto-PR remit regardless of egress.
+
+### Needs human attention (priority order)
+1. **🚩 Escalating: "Today's Story" featured section showing non-content, 2nd consecutive day, junk volume tripled overnight (2 → 7 items).** `select_trending_article()` in `scripts/fetch_cyber_news.py` needs the same `GENERIC` title guard already present in `dashboard.js`'s `renderScamOfWeek()`; recommend also applying it at ingest (`fetch_cyber_news.py`'s `is_blocked()`/title filtering) so junk listing pages stop accumulating in `data/news.json` itself. Live homepage impact, highest priority.
+2. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, line 87). Flagged 2026-08-19, unfixed for 6 consecutive runs now.
+3. **Egress to publisher/reference domains has now failed for 7 consecutive runs** (2026-08-18 through -24), reconfirmed via Wikipedia control, `EGRESS_BLOCKED`. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+4. **"Google News — Privacy & Compliance AU" query** — still dormant, but the overly broad query in `scripts/fetch_cyber_news.py` is unchanged and will likely leak off-topic content again when it next returns results.
+5. Minor: A09 "over 200 days" detection-time stat in `reference.html` is trending stale against 2025 IBM figures (flagged 2026-08-22) — low priority wording tweak, not re-verified this run (rotated sample elsewhere).
+
+---
+
 ## 2026-08-23 (AEST)
 
 ### 🚩 New this run: "Today's Story" is currently showing non-content on the live homepage
