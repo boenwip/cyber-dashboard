@@ -1,47 +1,45 @@
 {
-  "last_updated": "24-08-2026 07:11 PM",
-  "count": 54,
+  "last_updated": "25-08-2026 07:23 AM",
+  "count": 60,
   "items": [
     {
-      "source": "Security Brief Australia",
-      "title": "PEXA flags drop in scam confidence among homebuyers",
-      "link": "https://securitybrief.com.au/story/pexa-flags-drop-in-scam-confidence-among-homebuyers",
-      "summary": "Fewer Australians can spot property settlement scams, with confidence in identifying them falling to 41% as AI voice fraud worries grow.",
-      "date": "24-08-2026 05:50 PM",
+      "source": "Dark Reading",
+      "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
+      "link": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+      "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
+      "date": "25-08-2026 06:51 AM",
       "tags": [
-        "Scams"
+        "AU Cyber"
       ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
-      "title": "Cross-border checkout has a data quality problem",
-      "link": "https://securitybrief.com.au/story/cross-border-checkout-has-a-data-quality-problem",
-      "summary": "Poor data at checkout is fuelling cost surprises, missed deliveries and fraud fears that are turning many cross-border shoppers away.",
-      "date": "24-08-2026 02:00 PM",
+      "title": "Zywave reports say AI reshapes insurance & HR markets",
+      "link": "https://securitybrief.com.au/story/zywave-reports-say-ai-reshapes-insurance-hr-markets",
+      "summary": "Insurers and employers are tightening AI oversight as new risks, compliance demands and workplace changes reshape underwriting, benefits and HR planning.",
+      "date": "25-08-2026 04:45 AM",
       "tags": [
-        "Scams"
+        "Compliance"
       ],
-      "threat": "Advisory",
+      "threat": "Medium",
       "audience": [
-        "Consumer"
+        "Enterprise"
       ],
       "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
-      "title": "TrendAI adopts Claude Opus 5 for vulnerability triage",
-      "link": "https://securitybrief.com.au/story/trendai-adopts-claude-opus-5-for-vulnerability-triage",
-      "summary": "Security teams could cut exposure faster as the model helps rank exploitable flaws and apply temporary defences before vendor fixes arrive.",
-      "date": "24-08-2026 01:20 PM",
+      "title": "Noah Labs AI touts governed software agents for defence",
+      "link": "https://securitybrief.com.au/story/noah-labs-ai-touts-governed-software-agents-for-defence",
+      "summary": "Governed agents could speed urgent fixes in defence systems while keeping air-gapped code changes auditable, approved and traceable.",
+      "date": "25-08-2026 02:30 AM",
       "tags": [
-        "AU Cyber"
+        "Compliance"
       ],
-      "threat": "Medium",
+      "threat": "High",
       "audience": [
         "Critical Infra"
       ],
@@ -49,19 +47,159 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Australian finance teams warned over payment scam risks",
-      "link": "https://securitybrief.com.au/story/australian-finance-teams-warned-over-payment-scam-risks",
-      "summary": "Finance teams are being urged to tighten checks as scammers exploit weak controls, with mid-sized firms, charities and public bodies most exposed.",
-      "date": "24-08-2026 11:13 AM",
+      "title": "Cisco report says AI is reshaping cybersecurity jobs",
+      "link": "https://securitybrief.com.au/story/cisco-report-says-ai-is-reshaping-cybersecurity-jobs",
+      "summary": "Routine cyber tasks are being automated, while employers face higher demand for staff who can judge risk, oversee AI tools and respond to incidents.",
+      "date": "25-08-2026 02:30 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "NCC Group named in Forrester cyber response report",
+      "link": "https://securitybrief.com.au/story/ncc-group-named-in-forrester-cyber-response-report",
+      "summary": "Clients now want help across the full cyber attack lifecycle, as Forrester says incident response is moving beyond containment and forensics.",
+      "date": "25-08-2026 02:15 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google Cloud urges stronger cyber basics amid AI attacks",
+      "link": "https://securitybrief.com.au/story/google-cloud-urges-stronger-cyber-basics-amid-ai-attacks",
+      "summary": "As attackers use AI to speed up phishing and malware, companies are being told that multi-factor authentication and patching matter more than ever.",
+      "date": "25-08-2026 02:00 AM",
       "tags": [
         "AU Cyber",
         "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Public exploit code targets Cudy router flaw chain",
+      "link": "https://securitybrief.com.au/story/public-exploit-code-targets-cudy-router-flaw-chain",
+      "summary": "Patching is urgent for Cudy WR3000 rev 2.0 routers, as public code shows how two flaws can let attackers gain root command execution.",
+      "date": "25-08-2026 01:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "UltraViolet Cyber names Andrew Park as security chief",
+      "link": "https://securitybrief.com.au/story/ultraviolet-cyber-names-andrew-park-as-security-chief",
+      "summary": "The appointment gives UltraViolet Cyber a CISO who knows its operations from the client side and will steer AI governance and internal security.",
+      "date": "25-08-2026 01:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Iranian-linked cyber attack exposes UK energy flaws",
+      "link": "https://securitybrief.com.au/story/iranian-linked-cyber-attack-exposes-uk-energy-flaws",
+      "summary": "Small operators across Britain's power network may share the same weak points after the outage, experts warn, despite no grid-wide disruption.",
+      "date": "25-08-2026 01:04 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Tricky 'SynkLoader' Multitool May Herald Ransomware",
+      "link": "https://www.darkreading.com/threat-intelligence/tricky-synkloader-multitool-ransomware",
+      "summary": "An advanced, multilingual malware family brings back a trick from yesteryear \u2014 screen hijacking \u2014 for effective password theft, along with a slew of novel features.",
+      "date": "25-08-2026 01:02 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "ToxicPanda Banking Trojan Matures Into Enterprise Threat",
+      "link": "https://www.darkreading.com/mobile-security/toxicpanda-banking-trojan-matures-enterprise-threat",
+      "summary": "The latest version of the Android malware has new features that expand its global reach and put more than users' financial applications at risk.",
+      "date": "25-08-2026 12:34 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "The Vulnerability Gap: Why Discovery Is Outrunning Repair",
+      "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-gap-why-discovery-is-outrunning-repair",
+      "summary": "AI is discovering more vulnerabilities, faster, and under a tightening regulatory environment, making this an all-hands-on-deck moment for the cybersecurity community.",
+      "date": "25-08-2026 12:00 AM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
       ],
       "threat": "Medium",
       "audience": [
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOUTNVVURnczdCUUp2b044SWNRMzZveHh6ZWxPZ05sWk1NV0Z5cE11Tjd1ZGtQVTdkNUZJR19yRGxqemFWN2J3VjExZ2NtdE83QzdYX2xMOUFNMldiY00xTXVLWklfZHNpZlVxcnFzeUtnM0FzeVF5ZGQ5OTFtZFRpczdoRll6c0ZtSDlPS2hZbGhwdHp2QWk2NW8zNDFSZHVIVlJOdk1pNWcxdkxRV2wwaFJKb09wdlByMW44WW5KWXBPNk9HVHZIREFrOEtFbEt6c2NqRW5Eb0cxbm1NYlIybDR5ZzU1T3NUdVJoVUxhWXN5elJfZk0tUUNsYnJYWDBNSmZIX2hiWVZkRnJkNFF5NVZnMmFUbmVXSldiQVlpbnpJYWpiaG5xTFZrXzNzYktDWi0wcjJWanZSYVpGdUFHWVQyQkJSbnl4MVdvUFZScG9XdllWRGl3VHU4T1U?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "24-08-2026 01:23 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 6 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxPS0l2N0Y0WkxlMEc0ZEM5SWhMVmZUSFh0eTRpMElqWDlYNV91dVhsaEt4dEZhS2pCVlZwTF82TmRONDFVdTg3QnplT0lBQThfQk1jTWZEWEdsbHZ0dDV3b0xSUDAxSU52UzFhQjJfQW56T2ZDUC1MeDZHdFpUZFM5UDNTVFZOVFpsTERLTWgxNVE0WVdPSEVFcE5FT0dDS1BGak9CWU02bW43c2N6LTZadlRuXzVBd3BvMVhSZWZ2SG5LVDdVdG5QQmx6cC12NUItdWlOUjhzRDE2TVhwdlVuWVk3c25hZVNQOVJYbkV4cl8tTmNUdkw5RUJtc0dnYzhhY0VFVktPc2w4ZDgzeU9ETHYwekNIc3BLNnVJYmMxMA?oc=5",
+      "summary": "Browse news and alerts - page 6 Scamwatch",
+      "date": "24-08-2026 07:50 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -84,21 +222,6 @@
       "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUm9sUGhOVVQ1ekNXcFplLW1IWl9ENUVvVDE0aUNRbzdZQUdMemJOdGs2YzluMktZWE1xaTFPZGtKTGpZcEtzbjZDQ3A2dUVtbHkyNWVITS03a2R6bUFaSy1zam9VWERGcGhvSFkweHZqVlA1cUxSVVZ6SVpBcEk2TjgyV1Vhd3FFODFWd3RqVHZ0NWFPX3doY2JTa21ocENZYnNTZjZtSGFiTm9lSV9UREpZbFVxUWxQY0xBOHgwT3owa2hnblJnQ1doSnFWMWlhazY1MTRteEZWOWJCWjRVWEpoNDNlNi0zaEJwQkV2OTBOdGpTVVBBNDlR?oc=5",
       "summary": "Browse news and alerts - page 9 Scamwatch",
       "date": "24-08-2026 12:11 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPSUhZeWlqd2dxQmo4NnVEa3IzVllxNzgxaldRR0dVTVZJNEJ2YjF2RlZYeUczZDZERTdaRmpkWnRuOThSUjE4Vk5VNS1wbngwbGNnOHB2b0RCODlnMG9meEpBN0MzRjJqYzlab255Sm9hR2RrdVRub0R6RmZBeG5NMG9QQlVJcmtPV2tYSG5HY0psWHk0YlVBWlEwaklIT2ZueGpubGk5cnRKREM0bk85MWM4MTc1dUVmUlBmejRQMFpOWEV2aGQxZmJYNVJpSDFibkJZZGdkY1ZCU2xjaDNQOXNSenJLNl9DcHFmRHJlaWxBdlhhU0FjQmZR?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "23-08-2026 09:07 PM",
       "tags": [
         "Scams"
       ],
@@ -215,7 +338,7 @@
       "source": "Dark Reading",
       "title": "OpenAI Adds Controls That Should've Been There Already",
       "link": "https://www.darkreading.com/application-security/openai-adds-controls-already",
-      "summary": "The new AI security controls follow the Hugging Face incident last month, though many of these additions perhaps should have been in place prior to the frontier models escaping.",
+      "summary": "The new AI security controls follow the Hugging Face incident last month, though experts say many of these additions should have been in place prior to the frontier models escaping.",
       "date": "21-08-2026 11:30 PM",
       "tags": [
         "AI & Tools"
@@ -724,47 +847,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Metabase SQL Zero-Day Attacks Could Have Wide Blast Radius",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/metabase-sql-zero-day-attacks-wide-blast-radius",
-      "summary": "The maximum-severity vulnerability, which still has no CVE, allows malicious, remote administrator access to the business-analytics platform and its downstream users.",
-      "date": "11-08-2026 07:02 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Coruna, DarkSword iOS Exploits Proliferate Globally",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/coruna-darksword-ios-exploits-proliferate-globally",
-      "summary": "Sophisticated iPhone exploit chains previously limited to nation-states are spreading far and wide to organized cybercrime groups.",
-      "date": "11-08-2026 03:09 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Outdated Cybercrime Laws Put Security Researchers at Risk",
-      "link": "https://www.darkreading.com/application-security/outdated-cybercrime-laws-security-researchers-risk",
-      "summary": "A public policy expert mapped global cybercrime laws to develop a five-point framework for protecting ethical hackers and good-faith security research.",
-      "date": "11-08-2026 02:25 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
