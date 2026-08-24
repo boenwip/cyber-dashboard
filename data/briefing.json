@@ -1,16 +1,16 @@
 {
-  "last_updated": "25-08-2026 07:24 AM",
+  "last_updated": "25-08-2026 08:28 AM",
   "count": 0,
   "items": {
     "date": "25 August 2026",
-    "briefing": "Google Cloud is warning organisations that as AI-based attacks increase, getting the basics right matters more than ever \u2014 things like patching systems, strong passwords, and access controls. Separately, a new malware technique called WordlistLoader is hiding malicious code inside ordinary-looking text files, making it harder for standard security tools to detect threats. Publicly available exploit code has also been released targeting flaws in Cudy routers, meaning attackers can easily attempt these attacks.\n\nEnsure your office routers and networking equipment are running the latest firmware updates, and remind staff to be cautious opening unexpected text or document files, even if they look harmless.",
-    "generated": "25-08-2026 07:24 AM",
+    "briefing": "Two vulnerabilities are in the spotlight today. A flaw in Zimbra email software is being actively exploited, and attackers are moving fast \u2014 organisations using Zimbra should apply any available patches immediately. Separately, publicly available exploit code now targets weaknesses in Cudy routers, meaning less-skilled attackers can easily use it. Check whether your organisation uses either of these products. Google Cloud is also urging all organisations to strengthen basic cyber hygiene, especially as AI-powered attacks become more common.\n\nA new malware threat called WordlistLoader hides inside what appear to be ordinary text files, making it harder to spot. Staff should be cautious about opening unexpected files, even if they look harmless.\n\n**Tip:** If you receive an unexpected file \u2014 even a plain text document \u2014 don't open it unless you've confirmed it's legitimate with the sender.",
+    "generated": "25-08-2026 08:28 AM",
     "featured": {
-      "title": "Foul Language: WordlistLoader Disguises Malware as Ordinary Text",
-      "link": "https://www.darkreading.com/data-privacy/wordlistloader-disguises-malware-ordinary-text",
+      "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
       "source": "Dark Reading",
-      "date": "25-08-2026 06:51 AM",
-      "summary": "ClickFix-style threat campaigns are using a new trick to evade detection and deliver Amatera, an increasingly prevalent infostealer.",
+      "date": "25-08-2026 07:46 AM",
+      "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a\u2026",
       "source_count": 1
     }
   }
