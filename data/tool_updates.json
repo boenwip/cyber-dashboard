@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-08-2026 08:28 AM",
+  "last_updated": "25-08-2026 08:55 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.241",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 08:28 AM"
+      "date": "25-08-2026 08:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.240",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 08:28 AM"
+      "date": "25-08-2026 08:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.239",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
       "summary": "What's changed Cost estimates (/cost, status line, --max-budget-usd) now include the 1.1\u00d7 US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedroc",
-      "date": "25-08-2026 08:28 AM"
+      "date": "25-08-2026 08:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.238",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
       "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (\"classic\") is unchanged Plugin marke",
-      "date": "25-08-2026 08:28 AM"
+      "date": "25-08-2026 08:55 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.237",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
       "summary": "What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doin",
-      "date": "25-08-2026 08:28 AM"
+      "date": "25-08-2026 08:55 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Generate interactive simulations and models in the Gemini app",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/generate-interactive-simulations-and-models-in-the-Gemini-app.html",
+      "summary": "Gemini can transform your questions and complex topics into custom, interactive visualizations \u2014 directly within your Gemini app chat.Previously, responses were largely text with static diagrams. Now,",
+      "date": "25-08-2026 03:51 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -123,28 +131,12 @@
       "date": "21-08-2026 03:05 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Allowlisted Domains API now generally available",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/allowlisted-domains-api-now-generally-available.html",
-      "summary": "The Google Workspace Allowlisted Domains API is now generally available. Previously, administrators had to manage their allowlisted domains list manually through the Google Workspace Admin console. Wi",
-      "date": "21-08-2026 03:01 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
       "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
       "date": "20-08-2026 04:11 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "How Claude's text watermarking works - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
-      "summary": "How Claude's text watermarking works Anthropic",
-      "date": "14-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -281,6 +273,14 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
       "summary": "Introducing Claude Opus 4.8 Anthropic",
       "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Banks, telcos briefed on threat of 'dangerous' AI model - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQalRTWHlkUjNKOE94SzNhM2hkQlFaNW9vZ21PRTB5aEhtZVNxM213dm04SURMX29MWUNYSXdmXzVqMHZHWlVFOWM2M0IwUENlcjVLTVBvcDBab0JwQzRSMjNqVkU0WlRyNkNSQ3prbEt3NVBsbkZWaTQ0Rzk0WWt4TnVlSEhDc0Uwc0VLaWlwNXp1TVlIU3FuSFVZRy1fTVZVZEozaUxnUFZCU3M?oc=5",
+      "summary": "Banks, telcos briefed on threat of 'dangerous' AI model ABC News & Headlines \u2013 Australian Broadcasting Corporation",
+      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
