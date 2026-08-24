@@ -1,14 +1,22 @@
 {
-  "last_updated": "25-08-2026 09:24 AM",
+  "last_updated": "25-08-2026 09:48 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.243",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
+      "summary": "What's changed Added a Loops breakdown to /usage: per-loop run count, total tokens, tokens per run, and last run, so runaway or chatty /loop tasks are easy to spot Added modelPicker setting: curate th",
+      "date": "25-08-2026 09:48 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.241",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 09:24 AM"
+      "date": "25-08-2026 09:48 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.240",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 09:24 AM"
+      "date": "25-08-2026 09:48 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.239",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
       "summary": "What's changed Cost estimates (/cost, status line, --max-budget-usd) now include the 1.1\u00d7 US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedroc",
-      "date": "25-08-2026 09:24 AM"
+      "date": "25-08-2026 09:48 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,7 @@
       "title": "v2.1.238",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
       "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (\"classic\") is unchanged Plugin marke",
-      "date": "25-08-2026 09:24 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.237",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
-      "summary": "What's changed Fixed prompt caching for sessions using an LLM gateway or custom base URL Added a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doin",
-      "date": "25-08-2026 09:24 AM"
+      "date": "25-08-2026 09:48 AM"
     },
     {
       "source": "Google Workspace Updates",
