@@ -4,6 +4,59 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-25 (AEST)
+
+### Prior-run follow-up
+- **"Today's Story" junk-featured-story bug (flagged 2026-08-23, escalated 2026-08-24)** — code still unfixed (`select_trending_article()` in `scripts/fetch_cyber_news.py` has no `GENERIC` title guard, verified by reading the current source). Today's `featured` field in `briefing.json` happens to be a real article (Dark Reading's "Foul Language: WordlistLoader...") — but only because nothing cleared the cross-source clustering bar today, so the function fell through to `articles[0]` (today's single most recent item), which happened not to be junk. **This is luck, not a fix.** Meanwhile the underlying junk keeps compounding at the ingest level: `data/news.json` now has **10** "Browse news and alerts..." non-articles (up from 7 yesterday, 2 the day before) — 17% of the 60-item feed. The next day the most recent article happens to be a junk listing page, "Today's Story" breaks again. Still recommend porting the `GENERIC` guard from `dashboard.js`'s `renderScamOfWeek()` into `select_trending_article()`, and ideally into ingest-level filtering in `fetch_cyber_news.py` so these stop accumulating in `news.json` at all.
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -24)** — still unfixed. `definitions.js` line 87 unchanged. 7th consecutive carry-forward.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -24)** — still dormant this run; query unchanged, source absent from today's `data/news.json`.
+- **Egress block (flagged 2026-08-18 through -24)** — still in effect, confirmed again this run (item 2/3).
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 25-08-2026 07:24 AM)
+Three factual claims in `briefing`, checked against `news.json` source articles and independent WebSearch:
+- **WordlistLoader/Amatera malware claim** — supported. Independently corroborated (The Hacker News, Gen Digital) — shellcode hidden as plain-English wordlists via ClickFix-style lures, delivering the Amatera infostealer. Briefing's framing matches.
+- **Google Cloud "cyber basics" warning claim** — supported. Corroborated via Google Cloud's own Cloud CISO Perspectives blog (CISO Chris Betz) and independent AU tech press. Not exaggerated or misattributed.
+- **Cudy router exploit claim** — briefing text is a faithful restatement of its cited source (Security Brief Australia, whose own headline is "Public exploit code targets Cudy router flaw chain" — this is the source's framing, not an AI embellishment). Independent verification found a real, matching CVE (CVE-2025-9589, Cudy WR3000 rev 2.0, OS command injection via MQTT sync_command) but could not independently corroborate "flaw chain" (multiple flaws) or that public PoC exploit code has actually been published — no PoC repo found via search. Not flagging as an AI dramatization (briefing didn't add anything beyond its source), but worth a human sanity-check of the source article itself if it's ever surfaced more prominently (e.g. as a featured story).
+- No dramatization or misattribution introduced by the briefing generator itself this run.
+
+### 2. Paywall spot-check
+**Not performed — 8th consecutive run.** Tested `en.wikipedia.org` (control) and `securitybrief.com.au` (allowlisted source) via WebFetch this run; both returned `EGRESS_BLOCKED`. Checked proxy status (`__agentproxy/status`) — reports `recentRelayFailures: []`, i.e. this is a policy block, not a proxy malfunction to retry.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample: **Darknet, OSINT, Supply Chain Attack, Man-in-the-Middle Attack, SQL Injection, Brute Force Attack, Endpoint, Least Privilege, Threat Intelligence, Vulnerability, Dark Web Monitoring, Backup, Honeypot, Whaling, API Security, Threat Hunting** (`definitions.js`), with independent WebSearch verification on the specific numeric/named claims:
+- **🚩 Supply Chain Attack entry overstates SolarWinds scale.** Entry says "The 2020 SolarWinds attack compromised thousands of organisations worldwide via a software update." WebSearch (CISA advisory AA20-352A, independent secondary sources) confirms ~18,000 organisations *downloaded* the trojanised Orion update, but only roughly 100–250 were actually *further compromised* via follow-on C2 activity — the entry conflates "downloaded" with "compromised," overstating real impact by roughly two orders of magnitude. Recommend rewording to distinguish "~18,000 downloaded the compromised update" from "a much smaller number were actively targeted/compromised."
+- **🚩 Brute Force Attack entry's "billions of years" password-cracking claim is outdated/overstated.** Entry says "A 12-character random password takes billions of years to brute force." Per the current Hive Systems 2026 Password Table, a fully-random 12-character password (mixed case/numbers/symbols) is now estimated around ~3,000 years to crack offline with modern GPU rigs — not billions. Modern cracking hardware has closed this gap significantly since older estimates (which is where "billions of years" likely originated). Not fabricated, but a stale figure that now overstates password strength by roughly six orders of magnitude — worth updating.
+- **Backup entry's ACSC "3-2-1 rule" claim** — supported. WebSearch confirms ACSC/ASD advisories (e.g. the LockBit 3.0 Ransomware Profile on cyber.gov.au) explicitly recommend the 3-2-1 backup strategy, correctly attributed.
+- Darknet, OSINT, Man-in-the-Middle Attack, SQL Injection, Endpoint, Least Privilege, Threat Intelligence, Vulnerability, Dark Web Monitoring, Honeypot, Whaling, API Security, Threat Hunting — general/definitional content, reviewed for accuracy and lay-appropriate simplification, no issues found.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (60 items, generated 25-08-2026 07:23 AM) and the briefing:
+- Junk listing-page volume continues to grow (10/60 = 17%, see prior-run follow-up) — same issue as previous two days, worth reiterating to whoever fixes it that it's now a feed-density problem, not just a featured-story problem.
+- **New minor finding:** 404 Media's *"Anthropic's Text Watermarking Proves AI Companies Do Not Care at All About Writing"* is an opinion/editorial piece about AI writing quality with no cyber security content, tagged "AI & Tools" purely on keyword match ("anthropic", "ai"). It's an off-topic, editorializing headline that doesn't serve either audience on a cyber security dashboard — low-value noise from an otherwise-trusted direct-RSS source (so it bypasses the Google News allowlist check entirely). Not a source-credibility issue (404 Media itself is fine, per the allowlist), just a single article that's a poor topical fit — a human editorial call, not something for this agent to touch.
+- Otherwise reads well for both audiences — the WordlistLoader, N-able N-central active-exploitation alert, Quest Apartment Hotels breach, and ASIC deepfake investment-scam warning items all carry plain-English framing for lay readers while remaining substantive for professionals.
+- Recurring minor tagging quibble (same pattern flagged previously): "Zywave reports say AI reshapes insurance & HR markets" and "Noah Labs AI touts governed software agents for defence" are both tagged only "Compliance" — arguably also fit "AI & Tools." Not inaccurate, borderline auto-tag.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Dark Reading, Google News — ScamWatch, Australian Cyber Security Magazine, Security Brief Australia, Troy Hunt Blog, 404 Media, Risky Business, Krebs on Security) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **"Today's Story" junk-listing-page bug is still unfixed and still compounding** — `select_trending_article()` in `scripts/fetch_cyber_news.py` needs the `GENERIC` title guard already present in `dashboard.js`'s `renderScamOfWeek()`; junk items in `data/news.json` have grown 3 days running (2 → 7 → 10). Today's "Today's Story" happens to be fine by luck, not because anything was fixed — this will break again the next day the most recent article is junk.
+2. **NEW: Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude** — "thousands... compromised" vs. the real ~100–250 further-compromised figure (18,000 merely downloaded the update). `definitions.js`, "Supply Chain Attack" entry.
+3. **NEW: Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated** — current benchmarks put a 12-character random password around ~3,000 years to crack, not billions. `definitions.js`, "Brute Force Attack" entry.
+4. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, line 87). Flagged 2026-08-19, unfixed for 7 consecutive runs now.
+5. **Egress to publisher/reference domains has now failed for 8 consecutive runs** (2026-08-18 through -25), reconfirmed via Wikipedia control. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy — this is now a standing structural gap, not a transient issue. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+6. **"Google News — Privacy & Compliance AU" query** — still dormant, unchanged query in `scripts/fetch_cyber_news.py`, will likely leak off-topic content again when it next returns results.
+7. Minor: 404 Media's off-topic AI-writing opinion piece slipping through the "AI & Tools" tag keyword match (see item 5) — editorial/relevance filtering call, not a source-credibility issue.
+8. Minor (carried forward, unchanged): A09 "over 200 days" detection-time stat in `reference.html` is trending stale against 2025 IBM figures (flagged 2026-08-22) — low priority wording tweak.
+
+---
+
 ## 2026-08-24 (AEST)
 
 ### 🚩 Escalation: "Today's Story" junk-featured-story bug is worse, not fixed — 2nd consecutive day live
