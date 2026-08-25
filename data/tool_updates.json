@@ -1,14 +1,22 @@
 {
-  "last_updated": "25-08-2026 03:02 PM",
+  "last_updated": "25-08-2026 03:55 PM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.245",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
+      "summary": "What's changed Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
+      "date": "25-08-2026 03:55 PM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.243",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
       "summary": "chore: Update CHANGELOG.md and feed.xml",
-      "date": "25-08-2026 03:02 PM"
+      "date": "25-08-2026 03:55 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.241",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 03:02 PM"
+      "date": "25-08-2026 03:55 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.240",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 03:02 PM"
+      "date": "25-08-2026 03:55 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.239",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
       "summary": "What's changed Cost estimates (/cost, status line, --max-budget-usd) now include the 1.1\u00d7 US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedroc",
-      "date": "25-08-2026 03:02 PM"
+      "date": "25-08-2026 03:55 PM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.238",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
-      "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (\"classic\") is unchanged Plugin marke",
-      "date": "25-08-2026 03:02 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for_0238450619.html",
+      "summary": "A new LTC version 150.0.7871.252 (Platform Version: 16700.62.0), is being rolled out for most ChromeOS devices. If you have devices in the LTC channel, they will be updated to this version. The LTS ch",
+      "date": "25-08-2026 01:47 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -107,14 +115,6 @@
       "date": "21-08-2026 06:43 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-desktop_0404570826.html",
-      "summary": "The Stable channel has been updated to 151.0.7922.173/.174 for Windows and Mac and 151.0.7922.173 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is ava",
-      "date": "21-08-2026 06:22 AM"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Record presentations in Google Slides with Google Vids",
@@ -144,7 +144,7 @@
       "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
       "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections OpenAI",
-      "date": "18-08-2026 09:08 PM"
+      "date": "18-08-2026 09:11 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
