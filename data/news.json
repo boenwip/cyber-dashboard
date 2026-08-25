@@ -1,7 +1,36 @@
 {
-  "last_updated": "26-08-2026 07:23 AM",
-  "count": 55,
+  "last_updated": "26-08-2026 08:29 AM",
+  "count": 54,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Netcraft appoints Darren Lee to board for growth push",
+      "link": "https://securitybrief.com.au/story/netcraft-appoints-darren-lee-to-board-for-growth-push",
+      "summary": "The cybersecurity company is seeking board-level expertise as it expands brand protection services amid rising AI-driven phishing and fraud risks.",
+      "date": "26-08-2026 08:13 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Troy Hunt Blog",
+      "title": "A Cautionary Tale About Data Breach Claims, Verification and Carhartt",
+      "link": "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/",
+      "summary": "You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: &#x1f6a8;Cyber",
+      "date": "26-08-2026 07:51 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Dark Reading",
       "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
@@ -116,21 +145,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI fuels targeted scams against Australian small firms",
-      "link": "https://securitybrief.com.au/story/ai-fuels-targeted-scams-against-australian-small-firms",
-      "summary": "Targeted fraud is inflicting bigger losses on small firms as AI helps criminals forge convincing invoices and impersonations in Australia.",
-      "date": "25-08-2026 12:00 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -747,32 +761,6 @@
         "AU Cyber"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft's Patch Tuesday Deluge Continues With August Updates",
-      "link": "https://www.darkreading.com/application-security/microsofts-patch-tuesday-deluge-continues",
-      "summary": "The most concerning bug in the batch is CVE-2026-62878 (CVSS: 9.8), a remote code execution (RCE) vulnerability in Windows DNS Server that requires no user interaction.",
-      "date": "12-08-2026 07:42 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Microsoft Plugs Nearly 400 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/08/microsoft-plugs-nearly-400-security-holes/",
-      "summary": "Microsoft today released updates to remedy at least 398 security vulnerabilities in its Windows operating systems and supported software, including one weakness that is already being actively exploited and two others that were publicly detailed prior to today.",
-      "date": "12-08-2026 07:28 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
       "audience": [],
       "relevance": "Global"
     }
