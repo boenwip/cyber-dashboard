@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-08-2026 12:14 PM",
+  "last_updated": "25-08-2026 01:24 PM",
   "count": 35,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.243",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
       "summary": "What's changed Added a Loops breakdown to /usage: per-loop run count, total tokens, tokens per run, and last run, so runaway or chatty /loop tasks are easy to spot Added modelPicker setting: curate th",
-      "date": "25-08-2026 12:14 PM"
+      "date": "25-08-2026 01:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.241",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 12:14 PM"
+      "date": "25-08-2026 01:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.240",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "25-08-2026 12:14 PM"
+      "date": "25-08-2026 01:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.239",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.239",
       "summary": "What's changed Cost estimates (/cost, status line, --max-budget-usd) now include the 1.1\u00d7 US-only-inference premium for data-residency workspaces Added the one-time fullscreen renderer offer on Bedroc",
-      "date": "25-08-2026 12:14 PM"
+      "date": "25-08-2026 01:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.238",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.238",
       "summary": "What's changed Added a keybindingFlavor setting: set it to \"readline\" to make Ctrl+W in the prompt delete back to the previous whitespace, as in Bash; the default (\"classic\") is unchanged Plugin marke",
-      "date": "25-08-2026 12:14 PM"
+      "date": "25-08-2026 01:24 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -139,6 +139,22 @@
       "date": "20-08-2026 04:11 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
+      "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections OpenAI",
+      "date": "18-08-2026 09:08 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "How Claude's text watermarking works - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8xMjZ5Ynd3TkptcUFtRGZxalN0VUxKTWRxSktRTkhsa1llV0w0OUphLXRYWDkyaGJvendtY0drMTRCTWV1QjJxeVc5MzFxb2NXQVpXRWhRZDY3eC1Zak5QZWV3?oc=5",
+      "summary": "How Claude's text watermarking works Anthropic",
+      "date": "14-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
@@ -203,14 +219,6 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
-      "date": "04-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
@@ -233,14 +241,6 @@
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
       "summary": "Introducing Claude Opus 4.8 Anthropic",
       "date": "28-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Banks, telcos briefed on threat of 'dangerous' AI model - ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQalRTWHlkUjNKOE94SzNhM2hkQlFaNW9vZ21PRTB5aEhtZVNxM213dm04SURMX29MWUNYSXdmXzVqMHZHWlVFOWM2M0IwUENlcjVLTVBvcDBab0JwQzRSMjNqVkU0WlRyNkNSQ3prbEt3NVBsbkZWaTQ0Rzk0WWt4TnVlSEhDc0Uwc0VLaWlwNXp1TVlIU3FuSFVZRy1fTVZVZEozaUxnUFZCU3M?oc=5",
-      "summary": "Banks, telcos briefed on threat of 'dangerous' AI model ABC News & Headlines \u2013 Australian Broadcasting Corporation",
-      "date": "19-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
