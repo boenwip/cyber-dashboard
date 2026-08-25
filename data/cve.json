@@ -1,7 +1,18 @@
 {
-  "last_updated": "25-08-2026 06:31 PM",
+  "last_updated": "26-08-2026 07:23 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-60004",
+      "description": "Gitea Gitea \u2014 Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-25",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
+      "vendor": "Gitea",
+      "product": "Gitea",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-21962",
       "description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in \u2014 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data ",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
       "vendor": "Apple",
       "product": "macOS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-62593",
-      "description": "Ray-Project Ray \u2014 Ray-Project Ray contains a code injection vulnerability that could allow remote code execution. Developers using Ray as a development tool may be exposed to this vulnerability exploitable through Fire",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-17",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-62593",
-      "vendor": "Ray-Project",
-      "product": "Ray",
       "ransomware": "Unknown"
     }
   ]
