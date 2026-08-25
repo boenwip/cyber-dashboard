@@ -1,16 +1,16 @@
 {
-  "last_updated": "25-08-2026 09:48 AM",
+  "last_updated": "25-08-2026 10:44 AM",
   "count": 0,
   "items": {
     "date": "25 August 2026",
-    "briefing": "Two threats are worth your attention today. A flaw in Zimbra email software is being actively exploited, meaning attackers are taking advantage of it right now \u2014 if your organisation uses Zimbra, patching needs to happen urgently, not at the next scheduled maintenance window. Separately, a new malware strain called WordlistLoader hides itself inside plain text files, so staff should be cautious about opening unexpected text attachments, even ones that look harmless.\n\nThere are also reports of a maturing banking trojan, ToxicPanda, now targeting business environments, which could pose risks to staff accessing financial systems. **Practical tip:** Never open unexpected file attachments \u2014 even plain text files \u2014 without first confirming the sender through a separate channel.",
-    "generated": "25-08-2026 09:48 AM",
+    "briefing": "Australian organisations using JetBrains TeamCity servers should act immediately \u2014 the Australian Cyber Security Centre has confirmed these servers are being actively targeted by attackers right now. If your organisation uses TeamCity for software development or build automation, ensure it is patched and check with your IT team urgently. Separately, a banking trojan called ToxicPanda, previously focused on individuals, has matured into a threat targeting businesses, meaning staff should be extra cautious about unexpected banking or financial system prompts.\n\n**Practical tip:** If you use TeamCity, contact your IT support today to confirm it has the latest security updates applied.",
+    "generated": "25-08-2026 10:44 AM",
     "featured": {
-      "title": "Exploited Zimbra Flaw Highlights Shrinking Window to Patch",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/zimbra-flaw-exploitation-shrinking-window-patch",
-      "source": "Dark Reading",
-      "date": "25-08-2026 07:46 AM",
-      "summary": "CISA has issued a three-day deadline for agencies to patch a Zimbra security vulnerability, CVE-2026-73570, which allows full takeover of a\u2026",
+      "title": "ACSC warns of active exploitation of TeamCity servers in Australia",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-active-exploitation-of-teamcity-servers-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-active-exploitation-of-teamcity-servers-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-active-exploitation-of-teamcity-servers-in-australia",
+      "source": "Australian Cyber Security Magazine",
+      "date": "25-08-2026 10:05 AM",
+      "summary": "The Australian Cyber Security Centre (ACSC) has issued a high-severity alert warning that it has observed active exploitation of a vulnerabi\u2026",
       "source_count": 1
     }
   }
