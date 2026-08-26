@@ -1,5 +1,5 @@
 {
-  "last_updated": "26-08-2026 05:38 PM",
+  "last_updated": "26-08-2026 06:33 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.246",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
       "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main)), since they also match options inserted before the subcommand Added an Auto mo",
-      "date": "26-08-2026 05:38 PM"
+      "date": "26-08-2026 06:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.245",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
       "summary": "What's changed Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
-      "date": "26-08-2026 05:38 PM"
+      "date": "26-08-2026 06:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.243",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
       "summary": "chore: Update CHANGELOG.md and feed.xml",
-      "date": "26-08-2026 05:38 PM"
+      "date": "26-08-2026 06:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.241",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "26-08-2026 05:38 PM"
+      "date": "26-08-2026 06:32 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.240",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.240",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "26-08-2026 05:38 PM"
+      "date": "26-08-2026 06:32 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/08/beta-channel-update-for-chromeos_01207828433.html",
+      "summary": "The Beta channel is being updated to OS version 16765.31.0 (Browser version 152.0.7977.63) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisi",
+      "date": "26-08-2026 03:14 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -99,6 +107,14 @@
       "date": "26-08-2026 03:02 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Claude's Memory Now Works Across Both Chats And Cowork Sessions - Engadget",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQengyRWJPQVVFa0pFeEllNnRQVXd0QVBMa0RHblVXWnNsOG1yQnJ6bWVjQUpnRGlDWWRhNDRWT3UzbmRKT3lsWV9YcFc2Rk9uTGM1SVJfTlU5aENOcmRnQ0VFSkJtaERtc19LVGlVdHFyTDhZRGFTR21RRDFwLWRtTHdMUDRCVkw2RllZclExLVFHcEV5SmYta2F1dw?oc=5",
+      "summary": "Claude's Memory Now Works Across Both Chats And Cowork Sessions Engadget",
+      "date": "26-08-2026 03:00 AM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Stable for iOS Update",
@@ -137,14 +153,6 @@
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_02124749902.html",
       "summary": "The Dev channel has been updated to 154.0.8013.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
       "date": "22-08-2026 02:43 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_038920912.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 154 (154.0.8013.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
-      "date": "22-08-2026 12:58 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -232,14 +240,6 @@
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
     },
     {
