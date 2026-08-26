@@ -1,7 +1,35 @@
 {
-  "last_updated": "26-08-2026 09:31 AM",
-  "count": 54,
+  "last_updated": "26-08-2026 10:46 AM",
+  "count": 53,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian executives trust AI despite audit error findings",
+      "link": "https://securitybrief.com.au/story/australian-executives-trust-ai-despite-audit-error-findings",
+      "summary": "Despite audit findings of errors, most executives still trust AI output, even as poor data quality is blocking wider use in Australia.",
+      "date": "26-08-2026 10:30 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Citrix launches dual-boot UniconOS for Windows recovery",
+      "link": "https://securitybrief.com.au/story/citrix-launches-dual-boot-uniconos-for-windows-recovery",
+      "summary": "Organisations can restore access to apps within minutes after ransomware or failed updates, without relying on spare hardware or reimaging.",
+      "date": "26-08-2026 10:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "AIBUILD launches AI verifier to fight scam messages",
@@ -44,37 +72,6 @@
         "Scams"
       ],
       "threat": "Advisory",
-      "audience": [
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian firms unready for AI cyber attacks, Elastic",
-      "link": "https://securitybrief.com.au/story/australian-firms-unready-for-ai-cyber-attacks-elastic",
-      "summary": "Most Australian organisations still rely on manual processes, leaving them exposed to AI-automated cyber attacks, according to an Elastic survey.",
-      "date": "26-08-2026 08:47 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SAS named Forrester leader in financial crime tools",
-      "link": "https://securitybrief.com.au/story/sas-named-forrester-leader-in-financial-crime-tools",
-      "summary": "Banks could gain better fraud and anti-money laundering oversight as Forrester's top current-offering score highlighted SAS's integrated approach.",
-      "date": "26-08-2026 08:43 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "High",
       "audience": [
         "Enterprise",
         "Consumer"
@@ -757,21 +754,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Recorded Future\u2019s Insikt Group reports 44% rise in high-impact CVEs in July",
-      "link": "https://australiancybersecuritymagazine.com.au/recorded-futures-insikt-group-reports-44-rise-in-high-impact-cves-in-july/?utm_source=rss&utm_medium=rss&utm_campaign=recorded-futures-insikt-group-reports-44-rise-in-high-impact-cves-in-july&utm_source=rss&utm_medium=rss&utm_campaign=recorded-futures-insikt-group-reports-44-rise-in-high-impact-cves-in-july",
-      "summary": "Recorded Future\u2019s Insikt Group has released its CVE report for July 2026, identifying 85 high-impact vulnerabilities that it says Australia and New Zealand organisations should prioritise for remediation. The group [...]",
-      "date": "12-08-2026 09:49 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
