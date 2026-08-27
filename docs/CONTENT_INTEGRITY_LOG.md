@@ -4,6 +4,72 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-28 (AEST)
+
+### 🚩 Escalation: "Today's Story" bug + 404 Media keyword-leak bug combined to feature a non-cybersecurity podcast as today's live homepage story
+Two previously-flagged, still-unfixed bugs compounded today into the worst outcome either has produced so far. `data/briefing.json`'s `featured` field (generated 28-08-2026 03:16 AM) is:
+- title: *"The Tragedy and Ecstasy of AI Companions (with Bridget Todd)"*
+- source: 404 Media — a podcast/audiobook piece about people using AI chatbots for romantic/emotional connection
+- summary (verbatim from the source RSS): *"...Bridget Jones and Michael Amato unpack how real people are using chatbots to seek connection, in an era when tech companies are constantly trying to **exploit** our innermost worlds."*
+
+Root cause, traced end to end: the article matched the "AU Cyber" topic tag in `fetch_cyber_news.py` on the single word **"exploit"** — used here in its ordinary sense ("exploit our innermost worlds"), not as a security term — with no other AU-Cyber keyword present anywhere in the title or summary. That false-positive tag is what let it into the topic-tagged pool at all (this is the same structural gap as the already-flagged 404 Media leaks — direct-RSS sources bypass `APPROVED_DOMAINS` and get tagged by loose keyword match with no relevance gate). From there, `select_trending_article()`'s fallback (no cluster cleared the cross-source bar today, so it fell through to `articles[0]`, the single most recent item) picked it — the same no-substance-filter gap flagged 2026-08-23 through -27, previously producing junk Scamwatch listing pages and, yesterday, a CIO personnel-hire announcement. Today it's an off-topic AI-relationships podcast, actively misleading as "Today's Story" on a cyber security dashboard.
+**Impact:** live right now. Fails REVIEW.md Lens 2 ("Does 'Today's Story' read as credible and relevant?") more severely than any prior instance — this isn't just low-value, it has no cyber security content at all.
+**Also newly observed this run:** three more 404 Media items beyond the already-flagged carryover are tagged into topic categories with no real fit — *"Businesses Go Viral for Making Signs Without AI"* (Education/AI & Tools — a story about physical signage, not AI or cyber), *"Florida 'Deputy of the Year' Used Flock to Stalk Ex..."* (Compliance — a domestic-violence/police-misconduct story), *"A Student Said He Was a Hobby Plane Spotter..."* (Education — an alleged-espionage story, no cyber content). The known carryover item, *"ICE Wants the Country's Voter Data"* (tagged Scams), is also still present. This confirms the 404 Media keyword-leak gap (flagged 2026-08-25, -26, -27) is broader than the two items previously tracked — it's a standing pattern for this source, not a couple of one-offs.
+**Recommend (unchanged from prior runs, now higher priority given today's severity):** (1) port the `GENERIC` junk-listing-page guard from `dashboard.js`'s `renderScamOfWeek()` into `select_trending_article()`, (2) add a minimum-substance/relevance check to the fallback path so it can't surface an `articles[0]` pick with only one weak keyword match, and (3) add article-level relevance filtering for direct-RSS sources (starting with 404 Media) rather than trusting the whole domain — a single keyword hit like "exploit" in its everyday sense is not a valid signal on its own. All three are matching/tagging-logic edits — human, not this agent, per remit.
+
+### Prior-run follow-up
+- **"Today's Story" fallback bug (flagged 2026-08-23, escalated 2026-08-24, -27)** — still unfixed, see escalation above; today is the most severe instance yet (zero cyber-security content vs. yesterday's tangential personnel-hire pick).
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -27)** — still unfixed. `definitions.js` line 87 unchanged, re-read directly this run. 10th consecutive carry-forward.
+- **Supply Chain Attack SolarWinds overstatement (flagged 2026-08-25 through -27)** — still unfixed. `definitions.js` "Supply Chain Attack" entry (line 164) re-read directly this run, unchanged ("thousands of organisations worldwide" compromised — actual ~18,000 downloaded, ~100–250 further compromised).
+- **Brute Force Attack "billions of years" stale claim (flagged 2026-08-25 through -27)** — still unfixed. `definitions.js` "Brute Force Attack" entry (line 185) re-read directly this run, unchanged.
+- **404 Media off-topic tagging leak (flagged 2026-08-25 through -27)** — still live; see escalation above for today's expanded finding.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -27)** — still dormant this run; source absent from today's `data/news.json`.
+- **Egress block (flagged 2026-08-18 through -27)** — still in effect, confirmed again this run (`en.wikipedia.org` → `EGRESS_BLOCKED`, explicit error type), 11th consecutive run blocked.
+- **A09 "over 200 days" detection-time staleness (flagged 2026-08-22)** — re-checked directly in `reference.html` line 128, still unfixed, unchanged wording.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 28-08-2026 03:16 AM)
+Four factual claims in `briefing`, checked against their `news.json` source articles and independent WebSearch:
+- **"Two alleged members of the hacking group 'TeamPCP' have been arrested in Australia"** — supported. Matches its Krebs on Security source and is precisely corroborated independently (BleepingComputer, ABC News, The Hacker News, CyberScoop, Help Net Security): two WA men (Louis Michael Gaebler, 23; Ruben Ian Thomson, 21) charged in Perth Magistrates Court 27 Aug 2026 over the March 2026 Trivy/Checkmarx KICS/LiteLLM supply-chain compromises. No dramatization — briefing's wording is a fair, brief gloss.
+- **Carhartt breach "affecting nearly 13 million accounts"** — supported and precisely corroborated. Matches its Bleeping Computer AU source ("12.9 million accounts"); independent sources (The Register, Cybernews, HIBP) confirm Troy Hunt personally verified 12,933,413 authentic accounts after excluding duplicates/synthetic records from ShinyHunters' inflated claim. "Nearly 13 million" is an accurate rounding, not an overstatement. (Note: `news.json` also carries Troy Hunt's own "A Cautionary Tale About Data Breach Claims, Verification and Carhartt" piece on this exact verification process — briefing's claim is consistent with, not contradicted by, that source.)
+- **⚠️ "July also saw record ransomware attacks globally" — imprecise, drops a material qualifier present in its own source.** Source (Security Brief Australia, "NCC Group logs record July ransomware cases as AI rises") reports 894 cases in July, a 22% surge. Independent verification (NCC Group's own Monthly Threat Pulse, ComputerWeekly, Futurum) confirms 894 is a **2026 year-to-date peak**, but explicitly *not* an all-time record — the actual monthly record is 1,099 attacks in February 2025, meaning July 2026 sits about 19% below the all-time high. The briefing's flat "record ransomware attacks globally" (no "for 2026" or "this year" qualifier) reads to a lay audience as an all-time-high claim, which is inaccurate; the source's own headline says "record July" (ambiguous, but at minimum month-scoped), and the underlying data is unambiguous that it isn't a global record. Minor but real dramatization-by-omission — worth a wording tweak (e.g. "a 2026 high" or "the highest monthly total this year") next time briefing prompts/output are reviewed.
+- **Reco study — "four in five AI tools used in workplaces lack proper IT oversight"** — supported and precise. Matches its Security Brief Australia source; independently corroborated (Infosecurity Magazine, GlobeNewswire, vmblog) via Reco's "State of Agent Security 2026" report: only 20% of AI tools observed had IT/security approval. No overstatement.
+
+### 2. Paywall spot-check
+**Not performed — 11th consecutive run.** Tested `en.wikipedia.org` (control, non-publisher) via WebFetch this run; got `EGRESS_BLOCKED` (explicit error type from the fetch tool). Same blanket policy block as every run since 2026-08-18. WebSearch (a separate mechanism) continues to work and was used for all fact-checking above.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample not recently logged: **Ransomware, Multi-Factor Authentication, Credential Stuffing, SIEM** (`definitions.js`).
+- **Ransomware entry's "ACSC recorded ransomware as the most disruptive cybercrime type in FY2024–25"** — supported. WebSearch (cyber.gov.au Annual Cyber Threat Report 2024–25, ASD's own release) confirms ransomware is described as the most disruptive cybercrime threat in that report (138 ransomware incidents responded to by ASD's ACSC in FY2024–25).
+- Multi-Factor Authentication, Credential Stuffing, SIEM — general/definitional content with no specific numeric or attributable claims requiring external verification; reviewed for accuracy and lay-appropriate simplification. No issues found.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (61 items, generated 28-08-2026 03:16 AM) and the briefing:
+- Junk "Browse news and alerts..." listing-page count is **10/61 (16%)** — flat vs. recent runs, still a live feed-density problem, still unfixed.
+- New finding on 404 Media topical leakage — see escalation above; this is now the dominant readability/value issue this run, not the listing-page junk.
+- Otherwise reads well for both audiences — the TeamPCP arrests, Carhartt breach verification saga, NCC Group ransomware trend, and Reco AI-oversight findings all carry plain-English framing for lay readers while remaining substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 9 distinct sources currently live in `data/news.json` (Dark Reading, Google News — ScamWatch, 404 Media, Google News — Bleeping Computer AU, Australian Cyber Security Magazine, Security Brief Australia, Troy Hunt Blog, Krebs on Security, Risky Business) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3). Today's main finding is tagging/selection logic, not a source removal — outside this agent's auto-PR remit regardless of egress.
+
+### Needs human attention (priority order)
+1. **🚩 "Today's Story" is live right now showing a non-cybersecurity AI-companionship podcast, the most severe instance yet of a bug open since 2026-08-23.** Root cause is now fully traced: a single false-positive "exploit" keyword match tagged an off-topic 404 Media article as "AU Cyber," and `select_trending_article()`'s substance-free fallback then picked it as the homepage's featured story. Needs (a) the `GENERIC` listing-page guard ported from `renderScamOfWeek()`, (b) a minimum-relevance check on the fallback pick, and (c) article-level relevance filtering for direct-RSS sources (not just domain-level trust). See full detail above.
+2. **Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude** (`definitions.js`, "Supply Chain Attack" entry) — flagged 2026-08-25, unfixed for 4 consecutive runs.
+3. **Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated** (`definitions.js`, "Brute Force Attack" entry) — flagged 2026-08-25, unfixed for 4 consecutive runs. Current benchmarks (Hive Systems 2026) put a 12-character random password around ~3,000 years to crack, not billions.
+4. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, line 87). Flagged 2026-08-19, unfixed for 10 consecutive runs now.
+5. **Egress to publisher/reference domains has now failed for 11 consecutive runs** (2026-08-18 through -28), reconfirmed via Wikipedia control (`EGRESS_BLOCKED`). Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+6. **NEW, minor: today's briefing paragraph dropped a material qualifier from its own source** — "record ransomware attacks globally" should read as a 2026 (year-to-date) high, not an all-time record; the real all-time monthly record (Feb 2025, 1,099 cases) is higher than July 2026's 894. Worth a tweak to briefing-generation prompt guidance to preserve scoping qualifiers ("this year," "for July") rather than dropping them.
+7. **Direct-RSS sources (404 Media) leaking off-topic content via loose keyword tag matching — now confirmed as a standing pattern, not isolated items.** Five distinct off-topic 404 Media articles observed across this week's runs (voter-data/ICE story, AI-watermarking opinion piece, AI-companionship podcast, sign-making story, Florida police-misconduct story, plane-spotter espionage story). Worth an article-level relevance filter for direct-RSS sources, not just domain-level trust — flagged 2026-08-25, escalating.
+8. **"Google News — Privacy & Compliance AU" query** — still dormant, unchanged query in `scripts/fetch_cyber_news.py`, will likely leak off-topic content again when it next returns results.
+9. Minor (carried forward, unchanged): A09 "over 200 days" detection-time stat in `reference.html` line 128 is trending stale against 2025 IBM figures (flagged 2026-08-22) — low priority wording tweak.
+
+---
+
 ## 2026-08-27 (AEST)
 
 ### Prior-run follow-up
