@@ -1,7 +1,73 @@
 {
-  "last_updated": "26-08-2026 06:33 PM",
+  "last_updated": "27-08-2026 10:24 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2021-23758",
+      "description": "Ajax.NET Professional Ajax.NET Professional \u2014 Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-o",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
+      "vendor": "Ajax.NET Professional",
+      "product": "Ajax.NET Professional",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2015-3246",
+      "description": "Red Hat Libuser \u2014 Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
+      "vendor": "Red Hat",
+      "product": "Libuser",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2015-5287",
+      "description": "Red Hat Automatic Bug Reporting Tool \u2014 Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
+      "vendor": "Red Hat",
+      "product": "Automatic Bug Reporting Tool",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2022-0995",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-8452",
+      "description": "Citrix NetScaler ADC and NetScaler Gateway \u2014 Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
+      "vendor": "Citrix",
+      "product": "NetScaler ADC and NetScaler Gateway",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2019-1068",
+      "description": "Microsoft SQL Server \u2014 Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-26",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
+      "vendor": "Microsoft",
+      "product": "SQL Server",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-60004",
       "description": "Gitea Gitea \u2014 Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell",
@@ -44,72 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
       "vendor": "TrueConf",
       "product": "Server",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-72529",
-      "description": "TrueConf Server \u2014 TrueConf Server contains a missing authentication for critical function vulnerability which could allow a remote unauthorized attacker with network access via port 4307/TCP to execute an arbitrary scr",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72529",
-      "vendor": "TrueConf",
-      "product": "Server",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-64849",
-      "description": "MLflow MLflow \u2014 MLflow contains a server-side request forgery vulnerability that can allow attackers to reach internal or cloud metadata services and receive response_status and response_body.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-19",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-64849",
-      "vendor": "MLflow",
-      "product": "MLflow",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-33824",
-      "description": "Microsoft Internet Key Exchange (IKE) Service Extensions \u2014 Microsoft Internet Key Exchange (IKE) Service Extensions contains a double free vulnerability that could enable remote code execution.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-18",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-33824",
-      "vendor": "Microsoft",
-      "product": "Internet Key Exchange (IKE) Service Extensions",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-59310",
-      "description": "Broadcom VMware vCenter \u2014 Broadcom VMware vCenter contains a path traversal vulnerability which could allow a threat actor with network access to vCenter to execute arbitrary code.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-18",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59310",
-      "vendor": "Broadcom",
-      "product": "VMware vCenter",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-55040",
-      "description": "Microsoft SharePoint \u2014 Microsoft SharePoint contains a weak authentication vulnerability which allows an unauthorized attacker to bypass a security feature over a network.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-18",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-55040",
-      "vendor": "Microsoft",
-      "product": "SharePoint",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-65400",
-      "description": "Apple macOS \u2014 Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-18",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
-      "vendor": "Apple",
-      "product": "macOS",
       "ransomware": "Unknown"
     }
   ]
