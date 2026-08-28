@@ -1,14 +1,22 @@
 {
-  "last_updated": "28-08-2026 08:10 PM",
+  "last_updated": "29-08-2026 06:17 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.251",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
+      "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
+      "date": "29-08-2026 06:17 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.250",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "28-08-2026 08:10 PM"
+      "date": "29-08-2026 06:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.248",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
       "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1): removes the built-in tools that run commands or code and WebFetch (unless named in --tools), keeps file tools inside the working direct",
-      "date": "28-08-2026 08:10 PM"
+      "date": "29-08-2026 06:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.247",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
       "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setti",
-      "date": "28-08-2026 08:10 PM"
+      "date": "29-08-2026 06:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,23 @@
       "title": "v2.1.246",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
       "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main)), since they also match options inserted before the subcommand Added an Auto mo",
-      "date": "28-08-2026 08:10 PM"
+      "date": "29-08-2026 06:17 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.245",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
-      "summary": "What's changed Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
-      "date": "28-08-2026 08:10 PM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Preview client-side encrypted PDF and image files directly in Google Drive, now available in beta",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/preview-client-side-encrypted-pdf-and-image-files-directly-in-Google-Drive-now-available-in-beta.html",
+      "summary": "Client-side encryption (CSE) provides organizations control over access to their confidential data, with customer controlled encryption keys and data that is indecipherable to third-parties, including",
+      "date": "29-08-2026 05:49 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Suppress email responses to calendar invitations and updates",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/suppress-email-responses-to-calendar-invitations-and-updates.html",
+      "summary": "We\u2019re introducing a new per-event setting in Google Calendar that allows meeting organizers or their delegates to decide whether or not to receive RSVP emails and automatic responses, such as out-of-o",
+      "date": "29-08-2026 04:24 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -107,36 +123,20 @@
       "date": "26-08-2026 05:55 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Preserve and reuse grouped pivot table fields in Google Sheets",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/preserve-and-reuse-grouped-pivot-table-fields-in-Google-Sheets.html",
-      "summary": "Google Sheets now supports grouped field persistence for pivot tables. When you create custom groupings or work with grouped date, time, or numeric fields, these fields are now retained directly in th",
-      "date": "26-08-2026 04:14 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Introducing data import for Microsoft OneDrive: An easier, faster, and higher-fidelity migration to Google Workspace",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/introducing-data-import-for-microsoft-OneDrive-An-easier-faster-and-higher-fidelity-migration-to-Google-Workspace.html",
-      "summary": "For enterprise organizations, migrating files along with their permissions to a new platform can feel daunting and risk interrupting daily business operations. To help simplify this transition, we are",
-      "date": "26-08-2026 04:11 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic update unifies memory feature across Claude Cowork and chat - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOU1JFWEdLa0JuamFsa0tsaGtDQ0NkWUpKWXBMZzJQX3JRYzRQZlFFZUVINWdLZGdFajYtZkpsYWgzOHlLRkttajl1ZDljMU1mWm1QVHpseFVTMWU5ZEZTTWhYcGViXy16M3N4NEhwTkJHblNTdXo5VUkxdFJ1N2RkWG50Qy1oUWVudXMtc3poTU5lN0pqUXQzTWkwcUswWDBzcUUw?oc=5",
-      "summary": "Anthropic update unifies memory feature across Claude Cowork and chat 9to5Mac",
-      "date": "26-08-2026 03:20 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
       "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
       "date": "20-08-2026 04:11 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
+      "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections OpenAI",
+      "date": "18-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -152,6 +152,14 @@
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "date": "13-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
+      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
       "date": "13-08-2026 05:00 PM"
     },
     {
@@ -171,6 +179,14 @@
       "date": "11-08-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic says it will watermark text generated by its AI models - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1phYk54dWNkRjNpSXdCaUNFYVg2MS1IeDlSNUJUak1DaFEtbVFjbmtaemRacG1RMWVRV1IyVTQtWFFXVzZTZjc2UGJDanJrT29GUlhsaTh0ak9DMXEwYkpRb2tnbUlBWVhSZHhtOGpOeXZZSThCMG1jWVRFV05hVWxfaUNiZXJ2ZnZwQ1VxSUhfWGtxYjBPMW1oZW40N0Jy?oc=5",
+      "summary": "Anthropic says it will watermark text generated by its AI models TechCrunch",
+      "date": "11-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "The Best Office Suites We've Tested for 2026 - PCMag",
@@ -185,22 +201,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
-      "date": "24-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
-      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
