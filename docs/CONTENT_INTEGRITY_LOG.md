@@ -4,6 +4,66 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-29 (AEST)
+
+### Prior-run follow-up
+- **🚩 "Today's Story" AI-companionship-podcast escalation (flagged 2026-08-23, worst instance 2026-08-28)** — did NOT recur today. Today's `featured` (generated 29-08-2026 06:17 AM) is *"Nasuni acquires DryvIQ to boost file data governance"* (Security Brief Australia) — a real, on-topic, accurately-summarised article (verified below). This is luck, not a fix: `select_trending_article()` still has no `GENERIC`/relevance guard on its `articles[0]` fallback (re-read `scripts/fetch_cyber_news.py` this run, unchanged), it simply landed on a decent article this time because the day's most recent item happened to be a real cyber/data-governance story. The false-positive "exploit" tagging bug that caused yesterday's incident is also unchanged — the same 404 Media AI-companions podcast item is still present in today's `data/news.json` (position 6), still tagged "AU Cyber."
+- **404 Media off-topic tagging leak (flagged 2026-08-25 through -28)** — still live, same pattern. Today's `data/news.json` carries 5 off-topic 404 Media items: the AI-companions podcast (AU Cyber), "Businesses Go Viral for Making Signs Without AI" (Education/AI & Tools), "Florida 'Deputy of the Year'..." (Compliance), "A Student... Hobby Plane Spotter" (Education), "ICE Wants the Country's Voter Data" (Scams). No new items beyond yesterday's list; carrying forward without re-detailing (see 2026-08-28 entry for full description).
+- **BEC "hundreds of millions" overstatement (flagged 2026-08-19 through -28)** — still unfixed. `definitions.js` line 87 re-read this run, unchanged. 11th consecutive carry-forward.
+- **Supply Chain Attack SolarWinds overstatement (flagged 2026-08-25 through -28)** — still unfixed. `definitions.js` "Supply Chain Attack" entry re-read this run, unchanged.
+- **Brute Force Attack "billions of years" stale claim (flagged 2026-08-25 through -28)** — still unfixed. `definitions.js` "Brute Force Attack" entry re-read this run, unchanged.
+- **Junk "Browse news and alerts..." listing pages** — still 9/56 (16%) of today's feed (positions 15, 16, 18, 19, 22, 24, 26, 33, 34), flat vs. yesterday. Ingest-level filter still not applied.
+- **"Google News — Privacy & Compliance AU" query noise leak (flagged 2026-08-18 through -28)** — still dormant this run; source absent from today's `data/news.json`.
+- **Egress block (flagged 2026-08-18 through -28)** — still in effect, confirmed again this run, 12th consecutive run blocked.
+- **A09 "over 200 days" detection-time staleness (flagged 2026-08-22)** — re-checked directly in `reference.html` line 128, still unfixed, unchanged wording.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 29-08-2026 06:17 AM)
+Clean run — all four checked claims supported, no dramatization or misattribution:
+- **"Bitdefender warns of school scams across Asia-Pacific"** — supported. Matches its Security Brief Australia source and independently corroborated (ITBrief AU, Bitdefender's own Aug 2026 Back-to-School Scam Report): a real Bitdefender Labs report on back-to-school SMS/email scam campaigns (fake grants, scholarships, free laptops, delivery notifications) targeting Asia-Pacific families, students, and teachers.
+- **"Abnormal AI adds email controls & phishing training"** — supported. Matches its Security Brief Australia source and independently corroborated (SecurityBrief UK, Help Net Security): Abnormal AI announced Email DLP outbound-data-loss rules and an upgraded adaptive AI Phishing Coach, GA from 31 Aug 2026.
+- **Featured story — "Nasuni acquires DryvIQ to boost file data governance"** — supported and precisely corroborated. Matches its Security Brief Australia source; independently verified (PR Newswire, Futurum Group): real acquisition announced 27 Aug 2026, description of AI-ready content classification/PII-PHI-PCI detection and compliance-risk reduction matches actual reporting. No misattribution.
+- Briefing's practical tip (verify unexpected school-fee emails via the school's official website, not the email's own contact details) is sound, standard advice — no issues.
+
+### 2. Paywall spot-check
+**Not performed — 12th consecutive run.** Tested `en.wikipedia.org` (control) and `darkreading.com` (allowlisted source, dominant in today's feed at 27/56 items — worth checking given its weight) via WebFetch this run; both returned `EGRESS_BLOCKED`. Checked proxy status (`__agentproxy/status`) — `recentRelayFailures: []`, confirming policy block, not a transient fault.
+
+### 3. Dead source check
+**Not performed**, same reason as above. Could not confirm the Nasuni/DryvIQ article link or any other today resolves live.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample: **Data Breach, Password Manager, Patch, Incident Response, Identity Theft, Essential Eight** (`definitions.js`).
+- **🚩 NEW: Patch entry's Essential Eight timeframe claim is stale/inaccurate.** Entry states: "The ACSC's Essential Eight recommends patching operating systems within 48 hours for critical vulnerabilities and two weeks for others." WebSearch against ASD's own Essential Eight Maturity Model changes page (cyber.gov.au) confirms: since the November 2023 maturity model revision, the non-critical patching timeframe for workstations and non-internet-facing servers/devices is **one month**, not two weeks. The 48-hour rule is also narrower in scope than stated — it applies specifically to internet-facing servers/services and network devices with a vendor-critical rating or a working exploit, tied to Maturity Level Two/Three, not as a blanket "operating systems" rule. The entry conflates and understates the real timeframe by 2x on the routine-patching side and overstates the 48-hour rule's scope. Recommend rewording to distinguish internet-facing/critical (48 hours) from routine/non-internet-facing (one month), and noting it varies by maturity level.
+- Incident Response's "1300 CYBER1" (ACSC Hotline) — confirmed accurate and current (cyber.gov.au).
+- Identity Theft's "IDCARE (1800 595 160)" — confirmed accurate and current (idcare.org, ato.gov.au).
+- Essential Eight entry's own wording (the tabbed description, not the Patch entry's timeframe claim) — general/structural description, no numeric timeframe claims, no issues found.
+- Data Breach, Password Manager — general/definitional content with no specific numeric claims requiring verification beyond what's already been confirmed in prior runs (Bitwarden/1Password/Dashlane are simply real products). No issues found.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (56 items, generated 29-08-2026 06:17 AM) and the briefing:
+- Featured story is a genuine improvement over yesterday's escalation — real, on-topic, credible (see item 1) — though this reflects the day's article pool, not a code fix; the underlying fallback-logic gap is unchanged (see prior-run follow-up).
+- Junk listing-page count holds at 9/56 (16%), same standing feed-density issue, unfixed.
+- 404 Media off-topic leakage unchanged (5 items, see prior-run follow-up) — still a live but already-fully-documented pattern.
+- Otherwise reads well for both audiences — the TeamPCP arrest follow-up, Carhartt breach verification piece, ACSC TeamCity/N-able N-central active-exploitation warnings, Quest Apartment Hotels breach, and the Bitdefender school-scam/Abnormal AI items all carry plain-English framing for lay readers while remaining substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 9 distinct sources currently live in `data/news.json` (Dark Reading, Google News — ScamWatch, 404 Media, Australian Cyber Security Magazine, Security Brief Australia, Troy Hunt Blog, Krebs on Security, Risky Business, Google News — Bleeping Computer AU) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **"Today's Story" fallback logic still has no relevance/substance guard** — didn't misfire today only because the article pool happened to include a real, on-topic story. `select_trending_article()` in `scripts/fetch_cyber_news.py` still needs the `GENERIC` guard, a minimum-relevance check on its fallback, and article-level relevance filtering for direct-RSS sources (all three recommended 2026-08-23 through -28, most urgent after yesterday's severe instance). This will recur the next time the most recent article is junk or off-topic.
+2. **NEW: Patch glossary entry's Essential Eight patching-timeframe claim is stale/inaccurate** (`definitions.js`, "Patch" entry) — "two weeks for others" should be "one month" per ASD's November 2023 Essential Eight Maturity Model revision; the 48-hour rule's scope (internet-facing/critical only) is also overstated as a blanket rule. See item 4 for full detail and source.
+3. **Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude** (`definitions.js`, "Supply Chain Attack" entry) — flagged 2026-08-25, unfixed for 5 consecutive runs.
+4. **Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated** (`definitions.js`, "Brute Force Attack" entry) — flagged 2026-08-25, unfixed for 5 consecutive runs.
+5. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, line 87). Flagged 2026-08-19, unfixed for 11 consecutive runs now.
+6. **Egress to publisher/reference domains has now failed for 12 consecutive runs** (2026-08-18 through -29), reconfirmed via Wikipedia control (`EGRESS_BLOCKED`, `recentRelayFailures: []`). Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+7. **Direct-RSS sources (404 Media) leaking off-topic content via loose keyword tag matching** — still a standing pattern (5 items today), unchanged since 2026-08-28's escalation. See that entry for full detail and the recommended article-level relevance filter.
+8. **"Google News — Privacy & Compliance AU" query** — still dormant, unchanged query in `scripts/fetch_cyber_news.py`, will likely leak off-topic content again when it next returns results.
+9. Minor (carried forward, unchanged): A09 "over 200 days" detection-time stat in `reference.html` line 128 is trending stale against 2025 IBM figures (flagged 2026-08-22) — low priority wording tweak.
+
+---
+
 ## 2026-08-28 (AEST)
 
 ### 🚩 Escalation: "Today's Story" bug + 404 Media keyword-leak bug combined to feature a non-cybersecurity podcast as today's live homepage story
