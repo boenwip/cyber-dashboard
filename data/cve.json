@@ -1,7 +1,40 @@
 {
-  "last_updated": "28-08-2026 03:16 AM",
+  "last_updated": "28-08-2026 03:04 PM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2023-49105",
+      "description": "ownCloud ownCloud \u2014 ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
+      "vendor": "ownCloud",
+      "product": "ownCloud",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-53362",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-66384",
+      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-27",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2021-23758",
       "description": "Ajax.NET Professional Ajax.NET Professional \u2014 Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-o",
@@ -77,39 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
       "vendor": "Gitea",
       "product": "Gitea",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-21962",
-      "description": "Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in \u2014 Oracle HTTP Server and Oracle Weblogic Server Proxy Plug-in contain an improper access control vulnerability that can result in unauthorized creation, deletion or modification access to critical data ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-24",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-21962",
-      "vendor": "Oracle",
-      "product": "HTTP Server and Oracle Weblogic Server Proxy Plug-in",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-73570",
-      "description": "Synacor Zimbra Collaboration Suite (ZCS) \u2014 Zimbra Collaboration Suite (ZCS) contains an OS command injection vulnerability which could allow an unauthenticated attacker to send specially crafted SMTP requests that may result in execution of ar",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-21",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-73570",
-      "vendor": "Synacor",
-      "product": "Zimbra Collaboration Suite (ZCS)",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-72530",
-      "description": "TrueConf Server \u2014 TrueConf Server contains a code injection vulnerability that could allow an unauthorized remote attacker with network access via port 4307/TCP to use a specially crafted script to break out of the iso",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-20",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-72530",
-      "vendor": "TrueConf",
-      "product": "Server",
       "ransomware": "Unknown"
     }
   ]

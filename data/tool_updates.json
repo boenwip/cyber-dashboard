@@ -1,14 +1,30 @@
 {
-  "last_updated": "28-08-2026 03:16 AM",
+  "last_updated": "28-08-2026 03:04 PM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.250",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
+      "summary": "What's changed Bug fixes and reliability improvements",
+      "date": "28-08-2026 03:04 PM"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.248",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
+      "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1): removes the built-in tools that run commands or code and WebFetch (unless named in --tools), keeps file tools inside the working direct",
+      "date": "28-08-2026 03:04 PM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.247",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
       "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setti",
-      "date": "28-08-2026 03:16 AM"
+      "date": "28-08-2026 03:04 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +32,7 @@
       "title": "v2.1.246",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
       "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main)), since they also match options inserted before the subcommand Added an Auto mo",
-      "date": "28-08-2026 03:16 AM"
+      "date": "28-08-2026 03:04 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,31 +40,55 @@
       "title": "v2.1.245",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.245",
       "summary": "What's changed Fixed a crash on startup on Linux distributions that ship glibc 2.44 (for example Arch Linux, CachyOS and Fedora Rawhide)",
-      "date": "28-08-2026 03:16 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.243",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.243",
-      "summary": "chore: Update CHANGELOG.md and feed.xml",
-      "date": "28-08-2026 03:16 AM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.241",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "28-08-2026 03:16 AM"
+      "date": "28-08-2026 03:04 PM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/08/stable-channel-update-for-chromeos_0131656799.html",
-      "summary": "M-151, ChromeOS version 16733.57.0 (Browser version 151.0.7922.221) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways:File ",
-      "date": "27-08-2026 07:13 AM"
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for_0697002765.html",
+      "summary": "A new LTS-144 version 144.0.7559.261(Platform Version: 16503.94.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including:516715010 High CVE-2026-76033",
+      "date": "28-08-2026 10:46 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_0280487438.html",
+      "summary": "Hello Everyone! We've just released Chrome 153 (153.0.8010.18) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
+      "date": "28-08-2026 06:30 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Improving Google Calendar\u2019s interoperability with third-party video conferencing solutions",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/improving-google-calendars-interoperability-with-third-party-video-conferencing-solutions.html",
+      "summary": "We are introducing improvements to Google Calendar that make it easier to join third-party video meetings, including Microsoft Teams, Zoom, and Cisco Webex, when collaborating across different calenda",
+      "date": "28-08-2026 04:01 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-android-update_01136221689.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 153 (153.0.8010.18) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, c",
+      "date": "28-08-2026 01:58 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-android-update_0673698024.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 154 (154.0.8025.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
+      "date": "28-08-2026 01:28 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_0109060563.html",
+      "summary": "The Dev channel has been updated to 154.0.8025.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
+      "date": "28-08-2026 12:28 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -57,38 +97,6 @@
       "link": "http://workspaceupdates.googleblog.com/2026/08/google-classroom-now-supports-context-Aware-Access-controls.html",
       "summary": "We\u2019re excited to introduce the ability to specify Context-Aware Access policies to control access to Google Classroom. This update allows Google Workspace administrators to set granular security param",
       "date": "27-08-2026 04:55 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/08/early-stable-update-for-desktop_0935803414.html",
-      "summary": "The Stable channel has been updated to 153.0.8010.12/.13 for Windows and Mac as part of our early stable release to a small percentage of users. A full list of changes in this build is available in th",
-      "date": "27-08-2026 03:14 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-desktop-update_0284053918.html",
-      "summary": "The Beta channel has been updated to 153.0.8010.12 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find",
-      "date": "27-08-2026 02:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-for-android-update_01012845874.html",
-      "summary": "Hi, everyone! We've just released Chrome 152 (152.0.7977.64) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Yo",
-      "date": "27-08-2026 02:43 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/08/chrome-beta-for-ios-update_0704888729.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 153 (153.0.8010.16) for iOS; it'll become available on App Store in the next few days.You can see a partial list of the changes in the Git log. If you find",
-      "date": "27-08-2026 01:43 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -115,14 +123,6 @@
       "date": "26-08-2026 04:11 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Introducing data import for Microsoft Teams: An easier, faster, and higher-fidelity migration to Google Workspace",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/introducing-data-import-for-microsoft-Teams-An-easier-faster-and-higher-fidelity-migration-to-Google-Workspace.html",
-      "summary": "For enterprise organizations, migrating communication history and collaboration channels to a new platform can feel daunting and risk interrupting daily business operations. To make this transition sm",
-      "date": "26-08-2026 04:08 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic update unifies memory feature across Claude Cowork and chat - 9to5Mac",
@@ -131,20 +131,20 @@
       "date": "26-08-2026 03:20 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Claude's Memory Now Works Across Both Chats And Cowork Sessions - Engadget",
-      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQengyRWJPQVVFa0pFeEllNnRQVXd0QVBMa0RHblVXWnNsOG1yQnJ6bWVjQUpnRGlDWWRhNDRWT3UzbmRKT3lsWV9YcFc2Rk9uTGM1SVJfTlU5aENOcmRnQ0VFSkJtaERtc19LVGlVdHFyTDhZRGFTR21RRDFwLWRtTHdMUDRCVkw2RllZclExLVFHcEV5SmYta2F1dw?oc=5",
-      "summary": "Claude's Memory Now Works Across Both Chats And Cowork Sessions Engadget",
-      "date": "26-08-2026 03:00 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
       "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
       "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
       "date": "20-08-2026 04:11 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
+      "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections OpenAI",
+      "date": "18-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -169,6 +169,14 @@
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
       "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
       "date": "12-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
+      "summary": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI ZDNET",
+      "date": "11-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -249,14 +257,6 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
       "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
-      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
