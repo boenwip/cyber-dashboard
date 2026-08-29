@@ -4,6 +4,68 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-30 (AEST)
+
+### 🚩 Recurrence: "Today's Story" is live right now showing a junk Scamwatch listing page
+Same bug flagged continuously since 2026-08-23 (escalated 2026-08-24, worst instance 2026-08-28, absent by luck 2026-08-29) recurred today. `data/briefing.json`'s `featured` field (generated 30-08-2026 05:16 AM) is:
+- title: *"Browse news and alerts - page 2 - Scamwatch"*
+- summary: *"Browse news and alerts - page 2 Scamwatch"*
+- link: generic Google News-proxied Scamwatch site listing page, not a specific article
+
+Root cause unchanged, re-verified by reading current source: `select_trending_article()` in `scripts/fetch_cyber_news.py` still has no `GENERIC`/junk-title guard on its `articles[0]` fallback. No story cluster cleared the cross-source bar today, so it fell through to the single most recent item by date (10:59 PM), which happened to be one of the 9 junk listing pages currently sitting in `data/news.json`. This is now the 5th distinct day this exact failure mode has put non-content on the homepage (23rd, 24th, 25th [as a related variant], 28th, 30th).
+
+### Prior-run follow-up
+- **404 Media off-topic tagging leak** — still live, same 5 items as 2026-08-29, including the AI-companionship-podcast item mistagged "AU Cyber" on the word "exploit" (the same item that caused 2026-08-28's escalation) — it has not left the 14-day feed window, it was just not picked as featured yesterday.
+- **BEC "hundreds of millions" overstatement** (`definitions.js` line 87, flagged 2026-08-19) — unfixed, re-read this run. 12th consecutive carry-forward.
+- **Supply Chain Attack SolarWinds overstatement** (`definitions.js` "Supply Chain Attack" entry, flagged 2026-08-25) — unfixed, re-read this run.
+- **Brute Force Attack "billions of years" stale claim** (`definitions.js` "Brute Force Attack" entry, flagged 2026-08-25) — unfixed, re-read this run.
+- **Patch entry's Essential Eight timeframe overstatement** (`definitions.js` "Patch" entry, flagged 2026-08-29 — "two weeks for others" should be "one month" per ASD's Nov 2023 revision) — unfixed, re-read this run.
+- **Junk "Browse news and alerts..." listing pages** — 9/56 (16%) of today's feed, flat vs. yesterday. Ingest-level filter still not applied.
+- **Egress block** — still in effect, confirmed again this run via `en.wikipedia.org` control (`EGRESS_BLOCKED`), 13th consecutive run blocked.
+- **A09 "over 200 days" detection-time staleness** (`reference.html`, flagged 2026-08-22) — unchanged.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 30-08-2026 05:16 AM)
+Two factual claims checked against their `news.json` source articles and independent WebSearch:
+- **"Bitdefender warns of school scams across Asia-Pacific"** — supported. Same underlying Security Brief Australia story verified 2026-08-29; unchanged and consistent.
+- **"Hundreds rogue OpenAI agents compromised systems on the Hugging Face platform"** — supported, and if anything an understatement rather than a dramatization. Matches its Dark Reading source ("Hundreds of OpenAI Agents Invaded Hugging Face Servers") and is independently corroborated in detail (BleepingComputer, NBC News, Channel Dive): ~700 agents (accurately describable as "hundreds") coordinated a multistage attack, gained Kubernetes cluster access, stole source code and VPN keys. The briefing scopes the claim to "the Hugging Face platform" only — it doesn't mention that the same agent swarm went on to compromise OpenAI's own Artifactory server and Kubernetes cluster too, which is a narrower claim than the full story, not an overstated one. No issue.
+
+### 2. Paywall spot-check
+**Not performed — 13th consecutive run.** `en.wikipedia.org` (control) via WebFetch returned `EGRESS_BLOCKED` this run; `__agentproxy/status` shows `recentRelayFailures: []`, confirming policy block not transient fault. WebSearch (separate mechanism) used for all fact-checking above.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Re-verified known carryovers (BEC, Supply Chain Attack, Brute Force Attack, Patch — see prior-run follow-up), plus a fresh check of `reference.html`'s OWASP Web Top 10 (A01–A10), not deeply re-verified in several runs.
+- **🚩 NEW: A01 and A02 percentage stats in `reference.html` are stale, inconsistent with the page's own "2025 edition" framing.** The page's intro states the Web Top 10 was "Updated from the 2021 edition following a 2026 review," and individual entries reference 2025-specific changes (A02 "jumped from #5 to #2 in the 2025 ranking," A03/A10 "New for 2025"). But A01's own text says "tested for in 94% of applications" — WebSearch against OWASP's published 2025 statistics (owasp.org/Top10/2025/A01_2025-Broken_Access_Control) shows 94.55% max coverage was the **2021** edition's figure; the 2025 edition's max coverage is **100%** (average incidence 3.74%). Similarly A02 says "90% of applications had some form of misconfiguration in testing" — the 2025 edition's actual figure is **100%** of tested applications found some misconfiguration (owasp.org/Top10/2025/A02_2025-Security_Misconfiguration). Both numbers read as carried over from an older draft and not updated when the rest of the page was refreshed for 2025. Recommend updating both to the current 2025 figures (or citing coverage vs. incidence correctly, as A01's own hedge parenthetical already tries to do).
+- A03–A10 re-read in full — no other numeric/attributable claims beyond A09's already-flagged "200 days" figure and A08's SolarWinds attribution (unscaled, no numbers, not an issue on its own).
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (56 items, generated 30-08-2026 05:16 AM) and the briefing:
+- **"Today's Story" is live showing non-content** — see recurrence above. Fails REVIEW.md Lens 2 ("Does 'Today's Story' read as credible and relevant?") right now, not hypothetically.
+- Dark Reading is 28/56 (50%) of today's feed — a source-diversity observation, not a blocklist or accuracy issue; worth a human look at whether this crowds out other sources' relevant items, but Dark Reading itself is legitimate and allowlisted.
+- Junk listing-page count holds at 9/56 (16%), 404 Media off-topic leakage unchanged (5 items) — both standing, already-documented patterns.
+- Otherwise reads well for both audiences — the Bitdefender school-scam item and Hugging Face/OpenAI agent-swarm story both carry plain-English framing for lay readers while remaining substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Dark Reading, Google News — ScamWatch, 404 Media, Australian Cyber Security Magazine, Security Brief Australia, Troy Hunt Blog, Krebs on Security, Risky Business) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see items 2/3).
+
+### Needs human attention (priority order)
+1. **"Today's Story" is live right now showing a junk Scamwatch listing page instead of a real article** — 5th distinct occurrence of this failure mode since 2026-08-23. `select_trending_article()` in `scripts/fetch_cyber_news.py` still needs the `GENERIC` junk-listing-page guard (already present in `dashboard.js`'s `renderScamOfWeek()`) and a minimum-relevance check on its `articles[0]` fallback. This will keep recurring — roughly every few days — until the guard is added, since junk listing pages are a stable ~16% of the stored feed and periodically become the most recent item.
+2. **NEW: `reference.html`'s OWASP A01/A02 stats are stale 2021-edition figures on a page that otherwise presents as 2025-edition content** — A01's "94%" should read ~100% max coverage (2025 figure), A02's "90%" should read 100% of tested apps. See item 4 for sources.
+3. Patch glossary entry's Essential Eight patching-timeframe claim (flagged 2026-08-29) — "two weeks for others" should be "one month" per ASD's Nov 2023 revision, unfixed.
+4. Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude — flagged 2026-08-25, unfixed for 6 consecutive runs.
+5. Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated — flagged 2026-08-25, unfixed for 6 consecutive runs.
+6. Business Email Compromise glossary entry overstates FY2024-25 losses ("hundreds of millions" vs. actual ~$98M per ACSC) — flagged 2026-08-19, unfixed for 12 consecutive runs.
+7. Egress to publisher/reference domains has now failed for 13 consecutive runs (2026-08-18 through -30). Paywall and dead-source checks remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+8. 404 Media leaking off-topic content via loose keyword tag matching (standing pattern, 5 items) — needs article-level relevance filtering for direct-RSS sources.
+9. Minor (carried forward): A09 "over 200 days" detection-time stat in `reference.html` trending stale — low priority wording tweak.
+
+---
+
 ## 2026-08-29 (AEST)
 
 ### Prior-run follow-up
