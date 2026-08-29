@@ -1,5 +1,5 @@
 {
-  "last_updated": "29-08-2026 06:17 AM",
+  "last_updated": "29-08-2026 10:27 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "29-08-2026 06:17 AM"
+      "date": "29-08-2026 10:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.250",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "29-08-2026 06:17 AM"
+      "date": "29-08-2026 10:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.248",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
       "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1): removes the built-in tools that run commands or code and WebFetch (unless named in --tools), keeps file tools inside the working direct",
-      "date": "29-08-2026 06:17 AM"
+      "date": "29-08-2026 10:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.247",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
       "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setti",
-      "date": "29-08-2026 06:17 AM"
+      "date": "29-08-2026 10:27 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,31 @@
       "title": "v2.1.246",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
       "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main)), since they also match options inserted before the subcommand Added an Auto mo",
-      "date": "29-08-2026 06:17 AM"
+      "date": "29-08-2026 10:27 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "All the news about Anthropic\u2019s new AI fight with the White House - The Verge",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPV1RuSTdSd3FnNGgtNDZLVXNFTG56WDdjY1pxeFQ1UkxWVEZpNEpDR3BabFNvdThzdFEtbGQwRmZ3VnNkbGpsYlJhWG01X0VtTW1GQ1QtYXFBWVZhcXN2ZHFsNEVYZ0pLUTFRMWwtNEJWSEQxOVUxZ2tMOGQwNVlLSDAyV3Z4VnRabjNPQXViZmt6d1NST2FWaDRrUkEwdw?oc=5",
+      "summary": "All the news about Anthropic\u2019s new AI fight with the White House The Verge",
+      "date": "29-08-2026 08:53 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - August 28, 2026",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-28-2026.html",
+      "summary": "Now available: A refreshed user interface for Google Meet hardware touch controllers on Neat and Poly devicesOn August 26, 2026, we are officially launching our updated user interface for Neat touch c",
+      "date": "29-08-2026 08:08 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gemini-based data classification in Google Drive is now available in open beta",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/gemini-based-data-classification-in-Google-Drive-is-now-available-in-open-beta.html",
+      "summary": "Gemini-powered AI classification in Google Drive is now available in open beta.By automating file identification and labeling across Drive, AI classification helps organizations enforce granular data ",
+      "date": "29-08-2026 07:51 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -83,6 +107,14 @@
       "date": "28-08-2026 04:01 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Previewing the Model Hardware Standard - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
+      "summary": "Previewing the Model Hardware Standard Anthropic",
+      "date": "28-08-2026 03:58 AM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Android Update",
@@ -105,22 +137,6 @@
       "link": "http://chromereleases.googleblog.com/2026/08/chrome-dev-for-desktop-update_0109060563.html",
       "summary": "The Dev channel has been updated to 154.0.8025.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
       "date": "28-08-2026 12:28 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Classroom now supports Context-Aware Access controls",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/google-classroom-now-supports-context-Aware-Access-controls.html",
-      "summary": "We\u2019re excited to introduce the ability to specify Context-Aware Access policies to control access to Google Classroom. This update allows Google Workspace administrators to set granular security param",
-      "date": "27-08-2026 04:55 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Control \u201cTake notes for me\u201d directly from Google Meet hardware touch controllers",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/control-take-notes-for-me-directly-from-Google-Meet-hardware-touch-controllers.html",
-      "summary": "On August 31, 2026, we\u2019ll start rolling out the ability to start, stop, and manage the \u201cTake notes for me\u201d feature directly from the Google Meet Hardware touch controller for eligible meetings. This e",
-      "date": "26-08-2026 05:55 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -171,22 +187,6 @@
       "date": "12-08-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "Nvidia's open Nemotron 3.5 Lightning model is all about specialized, local agentic AI ZDNET",
-      "date": "11-08-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic says it will watermark text generated by its AI models - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ1phYk54dWNkRjNpSXdCaUNFYVg2MS1IeDlSNUJUak1DaFEtbVFjbmtaemRacG1RMWVRV1IyVTQtWFFXVzZTZjc2UGJDanJrT29GUlhsaTh0ak9DMXEwYkpRb2tnbUlBWVhSZHhtOGpOeXZZSThCMG1jWVRFV05hVWxfaUNiZXJ2ZnZwQ1VxSUhfWGtxYjBPMW1oZW40N0Jy?oc=5",
-      "summary": "Anthropic says it will watermark text generated by its AI models TechCrunch",
-      "date": "11-08-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "The Best Office Suites We've Tested for 2026 - PCMag",
@@ -205,10 +205,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "08-07-2026 05:00 PM"
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
+      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
+      "date": "24-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
