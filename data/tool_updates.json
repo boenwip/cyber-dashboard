@@ -1,5 +1,5 @@
 {
-  "last_updated": "29-08-2026 10:27 AM",
+  "last_updated": "29-08-2026 01:02 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "29-08-2026 10:27 AM"
+      "date": "29-08-2026 01:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.250",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "29-08-2026 10:27 AM"
+      "date": "29-08-2026 01:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.248",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
       "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1): removes the built-in tools that run commands or code and WebFetch (unless named in --tools), keeps file tools inside the working direct",
-      "date": "29-08-2026 10:27 AM"
+      "date": "29-08-2026 01:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.247",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
       "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setti",
-      "date": "29-08-2026 10:27 AM"
+      "date": "29-08-2026 01:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.246",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.246",
       "summary": "What's changed Added a startup warning for Bash allow rules with a wildcard before the subcommand (e.g. Bash(git * main)), since they also match options inserted before the subcommand Added an Auto mo",
-      "date": "29-08-2026 10:27 AM"
+      "date": "29-08-2026 01:02 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
