@@ -4,6 +4,34 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-08-30 (AEST) — second run this day (08:58 feed)
+
+A new pipeline run landed (`data/news.json`/`briefing.json` generated 30-08-2026 08:58 AM) after this morning's 05:16 run was already logged below. Re-ran the checklist against the newer data; no human fixes had landed on any previously-flagged item between the two runs.
+
+### Prior-run follow-up (all still unfixed, re-read directly this run)
+- **"Today's Story" recurring junk-listing bug** — recurred again in this 08:58 generation: `featured` is once more *"Browse news and alerts - page 2 - Scamwatch"* (same junk item as the 05:16 run, since the underlying `data/news.json` didn't change enough to alter the pick). 6th distinct day this failure mode has surfaced since 2026-08-23. `select_trending_article()` still has no `GENERIC`/relevance guard.
+- BEC "hundreds of millions" (`definitions.js` line 87) — unchanged, re-read.
+- Supply Chain Attack SolarWinds overstatement (`definitions.js` line 164) — unchanged, re-read.
+- Brute Force Attack "billions of years" (`definitions.js` line 185) — unchanged, re-read.
+- Patch entry's "two weeks for others" Essential Eight timeframe (`definitions.js` line 108) — unchanged, re-read.
+- OWASP A01 "94%" / A02 "90%" stale 2021-edition stats (`reference.html` lines 72, 79, flagged this morning) — unchanged, re-read.
+- A09 "over 200 days" (`reference.html` line 128) — unchanged, re-read.
+- Egress block — still in effect: `en.wikipedia.org` via WebFetch returned `EGRESS_BLOCKED` again this run; `__agentproxy/status` shows `recentRelayFailures: []` (policy block, not transient). 14th consecutive run blocked. Paywall and dead-source checks (items 2/3) not performed, same reason.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 30-08-2026 08:58 AM)
+Briefing text is materially the same Bitdefender school-scams-across-Asia-Pacific item already verified this morning and on prior days. Re-confirmed via fresh WebSearch this run: consistent with Bitdefender's own Aug 2026 Back-to-School Scam Report and its Security Brief Australia source (fake grants/scholarships/free laptops/AI-subscription lures targeting APAC students, parents, teachers). No dramatization or misattribution.
+
+### 5. Value and dual-audience readability / 6. Blocklist adherence
+`data/news.json` now 55 items: 8 junk "Browse news and alerts..." listing pages (~15%, flat vs. this morning's 9/56). Dark Reading remains the largest single source (28/55, ~51%). Checked all 8 distinct source domains present against `BLOCKED_DOMAINS` — **no blocked domain leak.** No new readability issues beyond the already-documented junk-listing and "Today's Story" problems.
+
+### PRs opened this run
+None — no new direct evidence gathered (egress still blocked).
+
+### Needs human attention
+No new items — see the fuller priority list in the 05:16 entry immediately below, all of which still stands unchanged.
+
+---
+
 ## 2026-08-30 (AEST)
 
 ### 🚩 Recurrence: "Today's Story" is live right now showing a junk Scamwatch listing page
