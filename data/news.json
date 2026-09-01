@@ -1,43 +1,31 @@
 {
-  "last_updated": "01-09-2026 11:03 AM",
-  "count": 55,
+  "last_updated": "01-09-2026 12:47 PM",
+  "count": 53,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "SentinelOne launches AI security monitoring in Sydney",
-      "link": "https://securitybrief.com.au/story/sentinelone-launches-ai-security-monitoring-in-sydney",
-      "summary": "Local hosting in Sydney eases compliance worries for Australian firms using AI tools that may expose prompts, code and credentials.",
-      "date": "01-09-2026 10:54 AM",
+      "title": "PhishByte warns of rising BEC scams hitting Australian firms",
+      "link": "https://securitybrief.com.au/story/phishbyte-warns-of-rising-bec-scams-hitting-australian-firms",
+      "summary": "Australian firms are being urged to tighten payment checks as email impersonation scams drive AUD $166.8 million in losses.",
+      "date": "01-09-2026 12:30 PM",
       "tags": [
-        "AI & Tools",
-        "Compliance"
+        "Scams"
       ],
       "threat": "Advisory",
-      "audience": [],
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "AU General"
     },
     {
       "source": "Security Brief Australia",
-      "title": "KnowBe4 launches Google Workspace email security Defend",
-      "link": "https://securitybrief.com.au/story/knowbe4-launches-google-workspace-email-security-defend",
-      "summary": "For Google Workspace users, the new Defend release adds phishing detection, AI verdicts and employee coaching against business email compromise.",
-      "date": "01-09-2026 10:14 AM",
+      "title": "Netpoleon ANZ expands Cofense phishing defence pact",
+      "link": "https://securitybrief.com.au/story/netpoleon-anz-expands-cofense-phishing-defence-pact",
+      "summary": "Rising AI-driven phishing attacks are pushing ANZ organisations towards post-perimeter defences, as Netpoleon widens Cofense access through its channel network.",
+      "date": "01-09-2026 12:20 PM",
       "tags": [
         "AU Cyber",
         "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Biza.io launches openfeed for consented banking data",
-      "link": "https://securitybrief.com.au/story/biza-io-launches-openfeed-for-consented-banking-data",
-      "summary": "Businesses can now tap customer-approved bank and energy data in hours, as Biza.io's new feed cuts integration costs and compliance hurdles.",
-      "date": "01-09-2026 10:14 AM",
-      "tags": [
-        "Compliance"
       ],
       "threat": "Advisory",
       "audience": [
@@ -48,17 +36,48 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Proofpoint expands APJ data security amid AI risks",
-      "link": "https://securitybrief.com.au/story/proofpoint-expands-apj-data-security-amid-ai-risks",
-      "summary": "Businesses in APJ face tighter local hosting rules as AI adoption drives new data loss and compliance pressures.",
-      "date": "01-09-2026 10:08 AM",
+      "title": "Red Hat sets out hybrid AI path for ANZ enterprises",
+      "link": "https://securitybrief.com.au/story/red-hat-sets-out-hybrid-ai-path-for-anz-enterprises",
+      "summary": "Enterprises in Australia and New Zealand are being pushed to balance AI adoption with tighter control over cost, security and data sovereignty.",
+      "date": "01-09-2026 12:20 PM",
       "tags": [
         "AI & Tools",
         "Compliance"
       ],
-      "threat": "Medium",
-      "audience": [],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike launches Falcon IQ to automate AI defence",
+      "link": "https://securitybrief.com.au/story/crowdstrike-launches-falcon-iq-to-automate-ai-defence",
+      "summary": "Customers will get real-time remediation tracking as CrowdStrike adds automation and new data links to its AI defence coalition.",
+      "date": "01-09-2026 11:43 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
       "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SentinelOne brings Prompt Security to AWS Sydney for AI sovereignty",
+      "link": "https://securitybrief.com.au/story/sentinelone-brings-prompt-security-to-aws-sydney-for-ai-sovereignty",
+      "summary": "Local hosting in Sydney eases compliance worries for Australian firms using AI tools that may expose prompts, code and credentials.",
+      "date": "01-09-2026 10:54 AM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -71,19 +90,6 @@
         "AI & Tools"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQld2RWtFcDZKTFdOekJMY2NCclRFeWJnN1I0NUVrZHBzUXY4Z2t5Z2FZdEZmTmQtTkg2REtlWVZhcVhYSTViNG4zZzlzOVlPa09vVXVkV1g4ZWNScWNwdzllVm5ndUgzQzBjcUdJdTFGWndWcUp1aFY3MTNzVWY2YVN5M1dYRFpQbG9hLWZINlo1bHVqamxLN1VYWHJPREJQMEE?oc=5",
-      "summary": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs theguardian.com",
-      "date": "01-09-2026 04:15 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -160,19 +166,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlJhNzBFNUxUMW8xOWpySlkza2EyMENZSjBEQmJGc1Rrc2wtaXg0c0E0dGhqN092LXNqVHRRX0tyWUdHYi1rWmE5eGo2bWUtMS1KRmx0TUhxZ2JWdkUxNEVEaFdwUnJWN19hWkY1dmUzX0xsTm1CcjdvT2U5VGFmY3JJVUFGX2JEcHdNTVhMbnB0NVhEaEJRaEotaVBtQzJvbTJqa3lvcTVucGpjX1BQaGJ3?oc=5",
-      "summary": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules theguardian.com",
-      "date": "29-08-2026 01:19 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -323,19 +316,6 @@
         "Education"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeDNua1VDVWkwRFBlcWpMa2dfSXZDemVBZHJjTHh6cW9IUng0RUJoNjI0YU1lSThrMUVObVF2aC05WjdMZURuUHJPdDBvZnJqUFc4U2luQ1hhNzllWjY2RVBSRG9HU2FiOEg5bmpGMkNyWFVJaGlWaFlOWUZEWmduNWRIOG1WV1BfSl9DOWZNMGpRN05kdC1kdW1qVVNNdlh2bldjbjV5VXZ5UlJJTENjemlNZ1FwVEU1UUR3YlVsbHh2VFZveEtrQ3B0eWUybG40Rk9GVg?oc=5",
-      "summary": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm theguardian.com",
-      "date": "27-08-2026 05:00 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
