@@ -1,17 +1,74 @@
 {
-  "last_updated": "01-09-2026 11:35 PM",
-  "count": 53,
+  "last_updated": "02-09-2026 08:58 AM",
+  "count": 59,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "AI helped build Gryxa malware operation, report says",
-      "link": "https://securitybrief.com.au/story/ai-helped-build-gryxa-malware-operation-report-says",
-      "summary": "ReliaQuest says a single operator may have used a commercial AI coding agent to build malware, a console and update pipeline across 324 hosts.",
-      "date": "01-09-2026 05:00 PM",
+      "title": "OneAdvanced launches AI risk platform in Australia",
+      "link": "https://securitybrief.com.au/story/oneadvanced-launches-ai-risk-platform-in-australia",
+      "summary": "Organisations facing tougher compliance checks in Australia and New Zealand can now swap spreadsheet risk logs for AI-guided assessments and reports.",
+      "date": "02-09-2026 08:51 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise",
+        "SMB"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
+      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
+      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
+      "date": "02-09-2026 08:40 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
+      "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
+      "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
+      "date": "02-09-2026 07:03 AM",
       "tags": [
         "AU Cyber"
       ],
-      "threat": "Advisory",
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Critical Langflow Flaw Exploited as Attacks on AI Platform Rise",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
+      "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
+      "date": "02-09-2026 06:48 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
+      "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
+      "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
+      "date": "02-09-2026 06:13 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
       "audience": [
         "Consumer"
       ],
@@ -19,38 +76,38 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Broadcom adds AI security tools to VMware Tanzu Platform",
-      "link": "https://securitybrief.com.au/story/broadcom-adds-ai-security-tools-to-vmware-tanzu-platform",
-      "summary": "Enterprises running AI agents in private clouds are getting stricter controls as Broadcom seeks to curb data leakage, prompt injection and compliance risk.",
-      "date": "01-09-2026 04:09 PM",
+      "title": "AI-generated cyber attacks to hit firms soon, warn experts",
+      "link": "https://securitybrief.com.au/story/ai-generated-cyber-attacks-to-hit-firms-soon-warn-experts",
+      "summary": "Many firms lack the capacity to fix existing flaws fast enough, leaving them exposed as AI-generated attacks scale up, experts warn.",
+      "date": "02-09-2026 04:40 AM",
       "tags": [
-        "Compliance"
+        "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Stakk swings to AUD $1.07 million operating profit",
-      "link": "https://securitybrief.com.au/story/stakk-swings-to-aud-1-07-million-operating-profit",
-      "summary": "The turnaround was driven by surging customer receipts and cash inflows, though auditors still expect to flag a going-concern uncertainty.",
-      "date": "01-09-2026 02:01 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
-      "title": "Commvault links recovery actions into CrowdStrike SOAR",
-      "link": "https://securitybrief.com.au/story/commvault-links-recovery-actions-into-crowdstrike-soar",
-      "summary": "Joint users can now automate cyber recovery steps during incidents, cutting handoffs and helping preserve clean backup points for ransomware response.",
-      "date": "01-09-2026 12:51 PM",
+      "title": "CISA warns of persistent software flaws in exploits",
+      "link": "https://securitybrief.com.au/story/cisa-warns-of-persistent-software-flaws-in-exploits",
+      "summary": "Known exploited flaws are still being driven by decades-old coding mistakes, leaving critical infrastructure exposed to faster-rising ransomware risk.",
+      "date": "02-09-2026 04:18 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
+      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
+      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
+      "date": "01-09-2026 11:56 PM",
       "tags": [
         "AU Cyber"
       ],
@@ -59,11 +116,11 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQld2RWtFcDZKTFdOekJMY2NCclRFeWJnN1I0NUVrZHBzUXY4Z2t5Z2FZdEZmTmQtTkg2REtlWVZhcVhYSTViNG4zZzlzOVlPa09vVXVkV1g4ZWNScWNwdzllVm5ndUgzQzBjcUdJdTFGWndWcUp1aFY3MTNzVWY2YVN5M1dYRFpQbG9hLWZINlo1bHVqamxLN1VYWHJPREJQMEE?oc=5",
-      "summary": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs theguardian.com",
-      "date": "01-09-2026 11:30 AM",
+      "source": "Google News \u2014 The Register AU",
+      "title": "AI adoption at work is broad but shallow - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1lxZFc4T2U5NjZ5SjVsTThyVjZKT3h6cWZIWmVCYkZ2ZDFNUllaQ2FpVE5VZ3Q1eTNxNERZVm9SX3dkWThlV1JzYXpfNVZqalNXNnlvaUVkNHlFZVV4SnV0NlFaMmNqNlRCdEwyVlNGczg0blRoN2Zia3R0LVdteFpHY0xJS1UxU3pnSy1UZ0V5SFhrZk1lbVppTUZRUQ?oc=5",
+      "summary": "AI adoption at work is broad but shallow theregister.com",
+      "date": "01-09-2026 09:43 AM",
       "tags": [
         "AI & Tools"
       ],
@@ -86,6 +143,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN1hMT0x4YUIyMzZtejc1VUR5Zkk5S040aEFfYTM1QmpCRU91N3JBbFNlOUNEdVpBTGNTTXN3UTUyeWxTS2N1NjlrWFlBTVZsNWtrZHJNeXNNM3hvVWdlU0pKTjN4Y2QtamR5dUJmUnJoTzIxbDFEVzZoaG5sV2t2dFFWUktyY3ZObGJZRy1BLVQ2Y0o4bkJibUNtR0lRTm5SV0pWek1jRXo4X1pFdDRYN0lXSWk5Z2xfai1tNldENS1OUVY5elZvUDR1enpOQTVEUWc?oc=5",
+      "summary": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines theregister.com",
+      "date": "01-09-2026 04:26 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "AI Model Rules Are Not Security Controls",
       "link": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
@@ -98,6 +168,19 @@
       "audience": [
         "Critical Infra"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Anthropic cracks down on hijacked user accounts mining AI tokens - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSWZGZXJ5Vm4wZ2pJbjBtZmZiZHBTSkdneUpWb2lPTmllSHlHZUtFYWFXTFlmNjBaOGtIc0VUcVNkYXZTeWRiaHlZNDM2alY4ZkJLY2U0Nk43NnNDZlJsTnRFM0locFlDRFFvZXNhX3FGSWV6anExNE83VkVwNnFsWmNIWlJsVy10d3pGclpjMTV4VVVBQlF1c0JIM0hBMDY2X3NWQXV3TjAyNUZQUFRKWXhIb01Wa3RRSnY3LQ?oc=5",
+      "summary": "Anthropic cracks down on hijacked user accounts mining AI tokens theregister.com",
+      "date": "01-09-2026 02:03 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -161,19 +244,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlJhNzBFNUxUMW8xOWpySlkza2EyMENZSjBEQmJGc1Rrc2wtaXg0c0E0dGhqN092LXNqVHRRX0tyWUdHYi1rWmE5eGo2bWUtMS1KRmx0TUhxZ2JWdkUxNEVEaFdwUnJWN19hWkY1dmUzX0xsTm1CcjdvT2U5VGFmY3JJVUFGX2JEcHdNTVhMbnB0NVhEaEJRaEotaVBtQzJvbTJqa3lvcTVucGpjX1BQaGJ3?oc=5",
-      "summary": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules theguardian.com",
-      "date": "29-08-2026 01:19 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Hundreds of OpenAI Agents Invaded Hugging Face Servers",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/hundreds-openai-agents-invaded-hugging-face-servers",
@@ -213,6 +283,45 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Pentagon blacklisted Anthropic over Claude powers it didn't have - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2VuajY2UHhkRnZZUnZ0OHNnT3drYUljQVFDckxYSjJwU0ZJMEN3ZmhEbkxuaW1qQXdCZ1Q0T0dWUjNsUnZiLTdZbVJKd2NJRzdiTUl6LXltaVlLdXNRT2N6aWNRZjBpeUk2Uk9vRnEzRU1aZnhXUlZZQnlPTDZXekdXV3NMeWVQWElhTjQycmI3ZmswZ3FzdEFWWjBkRXB3ejB0RXZrTVNzQmYteXdHSENzOGdydzVBTTdQag?oc=5",
+      "summary": "Pentagon blacklisted Anthropic over Claude powers it didn't have theregister.com",
+      "date": "28-08-2026 10:31 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "CISA: Most exploited vulnerabilities should have been eradicated decades ago - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdkhnelcyWkl2ZU5UWmRuSV96d3ZTSlJ6MXVhbkdSZURJVGNMMDNDdkZ6OWRialppTTlwM3dYVVY4WEtjTWxwZm1uc2o3Q3JZU0Jmd1ZHeGdqWjQ1NktPWlEwWnh3NHFaTW1ZcHprY0RDSUtENjBjdnZ1eWI5azZ4VzNaNzZqN0dTNURITjNIbTNjcnkweDIxZDVsM1RnVmNwakhGdFpBNWJTZW1lSVVscDhxOG9oZEg5RG1WdXhYMm56bUlxRTdpU2pmWQ?oc=5",
+      "summary": "CISA: Most exploited vulnerabilities should have been eradicated decades ago theregister.com",
+      "date": "28-08-2026 09:29 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Anthropic proposes plumbing spec to link AI agents to lab kit and robots - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON185dUN4WDJvU1pnSmpZRHlzWVVRWUllWVVWYWs4U0MxVXBUaWpPdEpicV9fLU5pdWVPb3hXNFFTZWpRV1FqMlZ3TENZblRTUWxlR0RPWWFwREZGNmR4NDQ2X2JJVmNnQ0VDejVXN09jZXphREp0bXZ5eWNTTllJczRTUVZGVVVYQzc5RnI1REtnMVZXdW1VTndkbmcwZkZmQkROU2xpVUdfSGVSTGdhb1JtRVoxeW9KVU1OdjNUb2FUSmtjRi1LbQ?oc=5",
+      "summary": "Anthropic proposes plumbing spec to link AI agents to lab kit and robots theregister.com",
+      "date": "28-08-2026 09:22 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
       "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
@@ -240,6 +349,19 @@
         "Consumer"
       ],
       "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2UxQ2tHeVF6RE5mUG00NVUyY1c1MmdFTmlxTWd0dnpFeVJFR1NkTGptV1QwOGdsem53TFhYNkNiRTNNcWVOSXpkdFJrRG13QTZ6bVBzU0RkTjN2aDA2TFRQQXhoRC0talRsd09reTNvLXExVmx4Z0RNeG5NYTVSZE4yVjBKcmNwZV9mY3JKVHJjOEY5YjA2MHctN21sLS1Nb3FIM3R2dGhDdkpzSU9GaHpqV2FsQXdQVjQwbGVQallwdUpmeXMwMVBB?oc=5",
+      "summary": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims theregister.com",
+      "date": "28-08-2026 01:25 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
     },
     {
       "source": "404 Media",
@@ -299,6 +421,32 @@
       "relevance": "AU General"
     },
     {
+      "source": "Google News \u2014 The Register AU",
+      "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbHhETXJBNHU1V2RuLWQ0cjA4Y19OdWtpMUh0bXRRRl9QU1VsRjZaM1M4dzZEenJrTm5tak1ma1FtczlSZ1dfMktCT3JGYWc2OFJQbU93cTJRbHBrYnJNUTBfSXpOLVpuRE90XzRXd25yQkd6OHVPNy1HX21JRmg0TDVBMElvOGhOeDR4N2FRUHJNdm1LM0tic29SWWRXS3piUloxS0VFanNnamFzUG5IUEdQZG1Td2hSZ0tpTEREM1B4bWhoNHJpSDdoTzFTNnlKeW1jODJ6YjBZcEwtcnQycHdB?oc=5",
+      "summary": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year theregister.com",
+      "date": "27-08-2026 03:21 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 The Register AU",
+      "title": "OpenAI explains how its naughty AI agents attacked Hugging Face - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVTZ5R0pwd2xEeUN3VWVmcW95OTZMc1BJU3NoM2h6ZTFhQ2ZuZ0dPX0ZTUjB2QWN4ZlRlT0RzT3FCbG9nbkpEU1hYcnd2MEN3TlNpMGNNQnZvYjJlTW1Wdl9kWHE3WUIyTzZnMEFJbi11enRTUnBhWmlGbHBDcDlSeEFCaDdndVhOLVNHdlpfeklNWVYwWW9EcmhZQkY2bTBNTXNFTVpZNGprVC1BYWlHU2xMamxGcGhLUm1R?oc=5",
+      "summary": "OpenAI explains how its naughty AI agents attacked Hugging Face theregister.com",
+      "date": "27-08-2026 09:45 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Dark Caracal Adds New Malware to Cyber Espionage Arsenal",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/dark-caracal-adds-new-malware-cyber-espionage-arsenal",
@@ -321,19 +469,6 @@
         "Education"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Guardian AU Cyber",
-      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeDNua1VDVWkwRFBlcWpMa2dfSXZDemVBZHJjTHh6cW9IUng0RUJoNjI0YU1lSThrMUVObVF2aC05WjdMZURuUHJPdDBvZnJqUFc4U2luQ1hhNzllWjY2RVBSRG9HU2FiOEg5bmpGMkNyWFVJaGlWaFlOWUZEWmduNWRIOG1WV1BfSl9DOWZNMGpRN05kdC1kdW1qVVNNdlh2bldjbjV5VXZ5UlJJTENjemlNZ1FwVEU1UUR3YlVsbHh2VFZveEtrQ3B0eWUybG40Rk9GVg?oc=5",
-      "summary": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm theguardian.com",
-      "date": "27-08-2026 05:00 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -412,21 +547,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQOXY4MkZEa1lCa1JHcnBsejBXNldWVXRNXzJ5VlJwSmlsTFR3RklVc2Q5WDVIVU0yNDZRU1QyYng2SnlHVHdLcHFUNG5KN2FmNmNmMzUzQUZxV2RLNl8tLVJBQm9fY3JuZlVJZXhac0N6bERnWEM5bzQ0cndxTDlnRWlWOHkyTkN3LXdhRWJUWE43WVdPQ19yRGRIbVp1RG1mR056a2hFQkxsSjJjempya3BiOUI3OUtfQjFTQXlhbVVvMWZNME52YTl6UHZGdTROaWVURURBckJCZjBNTHVuQjdYTEtvS0tTS0hqRElpV0hnREdtdmZ3czVCeFFqbHRNbTE5QTM4YzlDeGU5YjdNWUlaVG1yUS1TTzE0OFB3?oc=5",
-      "summary": "Browse news and alerts - page 3 Scamwatch",
-      "date": "26-08-2026 07:22 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
       "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
@@ -442,25 +562,10 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 9 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOYzJZRDRXZWZ4VXhfbjNnSUdMZkZ3Tm5veVdkNWI2akVpRDg2LU5ZTkFSRkJYZ1dkTU9OQ0FIcUtYTkRmWFJqSncxUVduSm94dU1Jd3dqZzRKV05fRXVoUUtZeFU2c01mTzZOVDZqLWs4V2RwRWsyS2JiLWVaTFhOTVBGX0ppd3cxUnF4b0M1b0c5WFhCR09iM0s3OFYyZG91X0ZXRmkwa3g4bzZmOUFMNXhiaW5fZDhQMzNLNkc2Z1cxR2NjcEg5QzNfX3NYYVNaMXZ0T3kxam9hd19QSlhpVThwWnBzaXZIdjlUWF84WHJDU3JQaDhaaVdMTG1XQUFtNW9GTFZnVlN4R1R6dmhlU214T1gtNmJZTmN3bUVKMA?oc=5",
-      "summary": "Browse news and alerts - page 9 Scamwatch",
-      "date": "26-08-2026 05:17 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 6 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPMFJqNTZrcWNpUE5PWUlYNnpVeFp4UTJLdFRtNi1heHhBa2pYUGNHbUhSZHdlMWYyTWg1Zjl5QmF2bndZdXVuLVlfRWQ1VG5GRUVmUEhSQTVrc1MxQm4zb1gzLW84WEZKME5QNk5EVWcxRnl0MjhOYTc3X0s5eE93NGUyUF9TVkF2eHRaQ1IxQ1pZWWg3VktEZGs0RzVXMzhGZnlDWlZsZkhBamJPbjMtZUhycTVUc3dRZVBGS0hJVG1pMGVWZm5YaXFGVG9iLUZjal9FeXVCbXh6UjN4b2tjeTZGUVBjUVdsMGJtQ0lVSkVrczlYUFNlNTZXSW5ESVhXcUpsallHY1ByT1JkeW1iVGpPby1rekg4cU9CYU0yTlJHcV9tVWNNWEQybjJQdVB4dFAwb2ZTSQ?oc=5",
-      "summary": "Browse news and alerts - page 6 Scamwatch",
-      "date": "26-08-2026 01:43 AM",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQeGl5azFXQWFrSnNHZE1QV0FfUkpqdVJVQU1SNk1uclZnd2hYSzdERU01QnRWdXB2Q0JJWE9sQnhwdnhjZWEwNS0yQTYwbVF5cDNsQXdjQWE2dlNET18xWjlrV21PaFROMXQ1QTBWVFdITFg4YWN5YXY3dWd1QUo5TFpBNk10TXdXUjd6c0hQUnNFRDhBdWN1YXY1bm9lM19xNi1tVkhiUVI5eW5URUFNZnBVQU03ZE1OU2pWMUNidllJLWxpaG5OS252cUhVUXFLRzBVZ2EweUMyN1ozS1I4cE11YUVDRGdXSjFrQWhGVklQMXkzd0taN2o3S2o1R0NZSmVsUWtHMjdJc2FRX2puQjJsTS0wamszVlRHeWxlNTZXT2RyUTlndkh3T0hVN0N5ZWhqQm9ZaTJlR0hSTjMtYkJmcEdZM1FJYlJ5bFNhdmZXc2NkLV9jSWEwOERaUlIzQUNQeW1NMzdTZ1R5QmFJRnZlWlRFTlRwQU4xNzFR?oc=5",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
+      "date": "25-08-2026 12:55 PM",
       "tags": [
         "Scams"
       ],
@@ -721,32 +826,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Critical GitLab Zero-Click Flaw Poses Mitigation Challenges",
-      "link": "https://www.darkreading.com/application-security/critical-gitlab-zero-click-flaw-mitigation-challenges",
-      "summary": "A lack of technical details could make it hard for organizations running self-managed GitLab versions to detect potential exploitation of CVE-2026-19478.",
-      "date": "19-08-2026 07:25 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'CoSnitch' Attack Tricked Copilot Into Mapping Out Architecture",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/cosnitch-attack-copilot-mapping-out-architecture",
-      "summary": "Researchers discovered a \"meta-hacking\" technique that can manipulate the AI service into revealing its own security weaknesses.",
-      "date": "19-08-2026 06:17 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
