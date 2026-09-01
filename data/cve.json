@@ -1,7 +1,29 @@
 {
-  "last_updated": "31-08-2026 07:06 PM",
+  "last_updated": "01-09-2026 10:20 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-82078",
+      "description": "PaperCut NG/MF \u2014 PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpa",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-31",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82078",
+      "vendor": "PaperCut",
+      "product": "NG/MF",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-81578",
+      "description": "PaperCut NG/MF \u2014 PaperCut NG/MF contains a missing authentication for critical function vulnerability which allows an unauthenticated remote attacker to modify certain system configurations. This vulnerability can be ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-08-31",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
+      "vendor": "PaperCut",
+      "product": "NG/MF",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2023-49105",
       "description": "ownCloud ownCloud \u2014 ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
       "vendor": "Citrix",
       "product": "NetScaler ADC and NetScaler Gateway",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2019-1068",
-      "description": "Microsoft SQL Server \u2014 Microsoft SQL Server contains a remote code execution vulnerability that could allow an attacker to execute code in the context of the SQL Server Database Engine service account.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2019-1068",
-      "vendor": "Microsoft",
-      "product": "SQL Server",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-60004",
-      "description": "Gitea Gitea \u2014 Gitea contains a code injection vulnerability that allows an attacker with repository write access to send a malicious patch to the diffpatch API endpoint to plant an executable Git hook and run shell",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-25",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-60004",
-      "vendor": "Gitea",
-      "product": "Gitea",
       "ransomware": "Unknown"
     }
   ]

@@ -1,28 +1,16 @@
 {
-  "last_updated": "31-08-2026 07:06 PM",
-  "count": 54,
+  "last_updated": "01-09-2026 10:20 AM",
+  "count": 52,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Minimum viable company: Recover faster when systems go dark",
-      "link": "https://securitybrief.com.au/story/minimum-viable-company-recover-faster-when-systems-go-dark",
-      "summary": "Focusing on the right systems first can cut recovery time and help firms avoid reintroducing risk after a cyber attack.",
-      "date": "31-08-2026 12:00 PM",
+      "title": "KnowBe4 launches Google Workspace email security Defend",
+      "link": "https://securitybrief.com.au/story/knowbe4-launches-google-workspace-email-security-defend",
+      "summary": "For Google Workspace users, the new Defend release adds phishing detection, AI verdicts and employee coaching against business email compromise.",
+      "date": "01-09-2026 10:14 AM",
       "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Microsoft 365 readiness gaps worry MSPs as AI demand grows",
-      "link": "https://securitybrief.com.au/story/microsoft-365-readiness-gaps-worry-msps-as-ai-demand-grows",
-      "summary": "Only 3% of MSPs said every client tenant is Copilot-ready, despite AI governance becoming the fastest-growing request.",
-      "date": "31-08-2026 11:30 AM",
-      "tags": [
-        "AI & Tools"
+        "AU Cyber",
+        "Scams"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -30,19 +18,90 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Datadog targets enterprise risk with AI and automation",
-      "link": "https://securitybrief.com.au/story/datadog-targets-enterprise-risk-with-ai-and-automation",
-      "summary": "Australian enterprises are under pressure to tame AI-driven complexity, compliance risk and rising technology costs as Datadog broadens its platform.",
-      "date": "31-08-2026 09:03 AM",
+      "title": "Biza.io launches openfeed for consented banking data",
+      "link": "https://securitybrief.com.au/story/biza-io-launches-openfeed-for-consented-banking-data",
+      "summary": "Businesses can now tap customer-approved bank and energy data in hours, as Biza.io's new feed cuts integration costs and compliance hurdles.",
+      "date": "01-09-2026 10:14 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra",
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Proofpoint expands APJ data security amid AI risks",
+      "link": "https://securitybrief.com.au/story/proofpoint-expands-apj-data-security-amid-ai-risks",
+      "summary": "Businesses in APJ face tighter local hosting rules as AI adoption drives new data loss and compliance pressures.",
+      "date": "01-09-2026 10:08 AM",
       "tags": [
         "AI & Tools",
         "Compliance"
       ],
       "threat": "Medium",
-      "audience": [
-        "Enterprise"
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI gives criminals speed boost, but basic security failures persist",
+      "link": "https://securitybrief.com.au/story/ai-gives-criminals-speed-boost-but-basic-security-failures-persist",
+      "summary": "Australian firms still face email compromise and poor security hygiene, even as AI helps criminals move faster and hide harder.",
+      "date": "01-09-2026 09:13 AM",
+      "tags": [
+        "AU Cyber"
       ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
+      "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
+      "date": "01-09-2026 07:08 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Model Rules Are Not Security Controls",
+      "link": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
+      "summary": "OpenAI's Hugging Face attack postmortem shows agents don't care about rules \u2014 they need strong controls.",
+      "date": "01-09-2026 03:34 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "How Cyber Sleuths Tracked a Nigerian Scammer to His Doorstep",
+      "link": "https://www.404media.co/how-cyber-sleuths-tracked-a-nigerian-scammer-to-his-doorstep/",
+      "summary": "Erin West and Paul Raffile went to Nigeria to track down a scammer. They found much more than just his identity.",
+      "date": "31-08-2026 10:21 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -65,21 +124,6 @@
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOMWRITjZIelpjOXlwRmg1Mnk5UmRzQmQ2SUZQZ2FDS2F5UkZkNzJEcHpRTDFZd1BneURiSVktaXgxWHZJcGlFdHd0Qm04OU4wd0pXSVpMTWx4RDFHU3A2UUwzaERvNEZIaElOeHB0MEVIdDJhSk51QUowS1Y2XzdaNzVQNWlWWDNRQlNmeXY1eGpYTkxKVFFtYXUtOXc4SjU3U2RPaFJZcGhzY3BvYllhUW0xWFhXc2RJT3lBYnVoSVkyc2N5QWEwUFR4cjNQMC0wNThQWEZ3RzVWd19OREFUX05OQjcxazVkSFhNcG1vMU5iM3FCal9YV21IczZyeWFJWW9NX1BfTURQNUszSWs3VnFOT2EtckxOREh6cHpnY0hwVEd1d285dVhVTkxDSDFnZlQ0bVlCWng2UUQzVTlB?oc=5",
       "summary": "Browse news and alerts - page 2 Scamwatch",
       "date": "29-08-2026 10:59 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPTmMzOWE1TWFhZkVzN2N5QTE4RzlMUHVBWFZYb2ZteDdURmpYRmdsRVRiYmVRUEdRci1SdWtKUk8yYTkyS2tRNVJObEpJZFVtTjZ5QkFtWXltN1E2QUVubHZVWWdwR0c4OW9KWkZzaG9wa3l2LUVjVmYxUGpKbVdwWnA1SHVjSUR2YnloVUxZUmlOaFFXUnkyN3RvWlV0QjlKZ1NvY2lTaHVKNDJ6ZmlaaHg0RUVsR2ZLZnNfLWoxZlMwa25lN2FDUjBfTGlRQmZWRWVRRExuOEZxUlBZVnJMM0FfVmZEX3ZCcDk3OG1MVHNENkVMTnF0V1k3NWZ4Q3ZEZjJlNWtmUkJOenphUVFEdDRnajFIckV2YjJUVkFn?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
-      "date": "29-08-2026 09:42 PM",
       "tags": [
         "Scams"
       ],
@@ -118,21 +162,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Nasuni acquires DryvIQ to boost file data governance",
-      "link": "https://securitybrief.com.au/story/nasuni-acquires-dryviq-to-boost-file-data-governance",
-      "summary": "The deal gives enterprises one platform to classify and govern unstructured files before using them in AI systems, reducing compliance risk.",
-      "date": "29-08-2026 02:16 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Defining an AI Kill Switch Is Hard, but Necessary",
       "link": "https://www.darkreading.com/cybersecurity-operations/defining-ai-kill-switch-hard-but-necessary",
@@ -149,7 +178,7 @@
       "source": "Dark Reading",
       "title": "The Vulnpocalypse Is Repricing the Bug Bounty Economy",
       "link": "https://www.darkreading.com/vulnerabilities-threats/vulnpocalypse-repricing-bug-bounty-economy",
-      "summary": "The surge of AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
+      "summary": "The surge in AI-powered vulnerability reports is driving down bug bounty prices, and that could spell trouble for independent researchers.",
       "date": "28-08-2026 11:00 PM",
       "tags": [
         "AU Cyber"
@@ -700,60 +729,6 @@
       "link": "https://www.troyhunt.com/weekly-update-517/",
       "summary": "The current ransomware situation is a bit of a kludge (deep breath): a lot of ransomware (which often doesn't even involve \"ware\", it's just extortion) is carried out by kids who successfully make a truckload of money but can't spend it without",
       "date": "18-08-2026 01:44 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Video Call Exploit Chains Two Flaws in Unisoc Modems",
-      "link": "https://www.darkreading.com/mobile-security/video-call-exploit-chains-two-flaws-unisoc-modems",
-      "summary": "Researchers found that by combining two vulnerabilities, they could take over an Android device by delivering a payload and getting the victim to answer their phone.",
-      "date": "18-08-2026 07:37 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Turf War' Between Claude Agents Leads to Self-Replicating Malware",
-      "link": "https://www.darkreading.com/threat-intelligence/turf-war-claude-agents-self-replicating-malware",
-      "summary": "Three testing models with the same goal but different directives engaged in \"increasingly aggressive\" territorial attacks on one another, according to Anthropic.",
-      "date": "18-08-2026 06:26 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Hugging Face Breach Raises Big Questions About AI Security Controls",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/adam-shostack-talks-hugging-face-phantom-b",
-      "summary": "Adam Shostack, president of Shostack & Associates and an affiliate professor at the University of Washington, talks with the Dark Reading News Desk about why he was \"blown away\" by OpenAI's revelations regarding the Hugging Face attack.",
-      "date": "18-08-2026 05:22 AM",
-      "tags": [
-        "Education",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Linux Botnet Evooo1Bot Expands Mirai Capabilities Well Beyond DDoS",
-      "link": "https://www.darkreading.com/cyber-risk/linux-botnet-evooo1bot-mirai-capabilities-beyond-ddos",
-      "summary": "The botnet adds exploitation modules, credential theft, and reverse SOCKS relays to turn compromised devices into persistent attacker infrastructure.",
-      "date": "18-08-2026 01:44 AM",
       "tags": [
         "AU Cyber"
       ],
