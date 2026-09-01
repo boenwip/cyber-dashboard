@@ -1,7 +1,38 @@
 {
-  "last_updated": "02-09-2026 08:58 AM",
-  "count": 59,
+  "last_updated": "02-09-2026 09:52 AM",
+  "count": 50,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Cohesity adds managed clean room to HCLTech VaultNXT",
+      "link": "https://securitybrief.com.au/story/cohesity-adds-managed-clean-room-to-hcltech-vaultnxt",
+      "summary": "Organisations hit by ransomware will gain a secure, auditable recovery environment as HCLTech expands VaultNXT with Cohesity's clean room service.",
+      "date": "02-09-2026 09:49 AM",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ping Identity launches controls for personal AI agents",
+      "link": "https://securitybrief.com.au/story/ping-identity-launches-controls-for-personal-ai-agents",
+      "summary": "Businesses using personal AI agents in the workplace now face tighter access checks, as Ping aims to stop unsanctioned actions and improve audit trails.",
+      "date": "02-09-2026 09:20 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "OneAdvanced launches AI risk platform in Australia",
@@ -75,34 +106,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "AI-generated cyber attacks to hit firms soon, warn experts",
-      "link": "https://securitybrief.com.au/story/ai-generated-cyber-attacks-to-hit-firms-soon-warn-experts",
-      "summary": "Many firms lack the capacity to fix existing flaws fast enough, leaving them exposed as AI-generated attacks scale up, experts warn.",
-      "date": "02-09-2026 04:40 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CISA warns of persistent software flaws in exploits",
-      "link": "https://securitybrief.com.au/story/cisa-warns-of-persistent-software-flaws-in-exploits",
-      "summary": "Known exploited flaws are still being driven by decades-old coding mistakes, leaving critical infrastructure exposed to faster-rising ransomware risk.",
-      "date": "02-09-2026 04:18 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
       "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
@@ -116,16 +119,18 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 The Register AU",
-      "title": "AI adoption at work is broad but shallow - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOY1lxZFc4T2U5NjZ5SjVsTThyVjZKT3h6cWZIWmVCYkZ2ZDFNUllaQ2FpVE5VZ3Q1eTNxNERZVm9SX3dkWThlV1JzYXpfNVZqalNXNnlvaUVkNHlFZVV4SnV0NlFaMmNqNlRCdEwyVlNGczg0blRoN2Zia3R0LVdteFpHY0xJS1UxU3pnSy1UZ0V5SFhrZk1lbVppTUZRUQ?oc=5",
-      "summary": "AI adoption at work is broad but shallow theregister.com",
-      "date": "01-09-2026 09:43 AM",
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPT2VubXNWcE5JaWdNaDRFNTdsYjFWa3ktSUxiNnh5LUxtdUhCeldHYUxMYlpsUm50bHB4ZnBEZC00RFpyTlp5NU9aLXVySWpVSkp3VHJVX3ktVUZPcE9DZ0JDVFNGQTIzLS1mYjRZbU45THZjMjlUamxKcFp6Uko1eVZ3Tm1KUHUySFdMZFFxZlYweTRQWnZwZUNwYjFfdUJLSVZuZ05PT2syVGZvQ0hzYVpnNk1hZGNicHFkQmQ3V2RxV1ktSnpZOHNNUjhzRGNJQW9PQTZfQkxrMlFzdUFMZ0pRRFBxcFdxREtYcHhkcUp1cXhFMFFSb2x1cjY2Vk9neFVwMGFfbE9JS2ZKcWh3WlMwTFdBY0MtTkVxWmdqajNhRFRxNEFsRmlaN1MzRy16cV9TaDRSTlk1cHl3?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "01-09-2026 03:43 PM",
       "tags": [
-        "AI & Tools"
+        "Scams"
       ],
       "threat": "Advisory",
-      "audience": [],
+      "audience": [
+        "Consumer"
+      ],
       "relevance": "Global"
     },
     {
@@ -139,19 +144,6 @@
         "AI & Tools"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPN1hMT0x4YUIyMzZtejc1VUR5Zkk5S040aEFfYTM1QmpCRU91N3JBbFNlOUNEdVpBTGNTTXN3UTUyeWxTS2N1NjlrWFlBTVZsNWtrZHJNeXNNM3hvVWdlU0pKTjN4Y2QtamR5dUJmUnJoTzIxbDFEVzZoaG5sV2t2dFFWUktyY3ZObGJZRy1BLVQ2Y0o4bkJibUNtR0lRTm5SV0pWek1jRXo4X1pFdDRYN0lXSWk5Z2xfai1tNldENS1OUVY5elZvUDR1enpOQTVEUWc?oc=5",
-      "summary": "Attack hides malware in PNGs and drops custom reverse tunnel on victims' machines theregister.com",
-      "date": "01-09-2026 04:26 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -171,39 +163,11 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Anthropic cracks down on hijacked user accounts mining AI tokens - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSWZGZXJ5Vm4wZ2pJbjBtZmZiZHBTSkdneUpWb2lPTmllSHlHZUtFYWFXTFlmNjBaOGtIc0VUcVNkYXZTeWRiaHlZNDM2alY4ZkJLY2U0Nk43NnNDZlJsTnRFM0locFlDRFFvZXNhX3FGSWV6anExNE83VkVwNnFsWmNIWlJsVy10d3pGclpjMTV4VVVBQlF1c0JIM0hBMDY2X3NWQXV3TjAyNUZQUFRKWXhIb01Wa3RRSnY3LQ?oc=5",
-      "summary": "Anthropic cracks down on hijacked user accounts mining AI tokens theregister.com",
-      "date": "01-09-2026 02:03 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "404 Media",
       "title": "How Cyber Sleuths Tracked a Nigerian Scammer to His Doorstep",
       "link": "https://www.404media.co/how-cyber-sleuths-tracked-a-nigerian-scammer-to-his-doorstep/",
       "summary": "Erin West and Paul Raffile went to Nigeria to track down a scammer. They found much more than just his identity.",
       "date": "31-08-2026 10:21 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNdnQ5V1BScXJ4bFdTNmJqOTVOZUQ4UVd0d0hSY0dUd2doTzY3bWJ1ZkZPR25OX3FTWHNZSGdBemNSU0xSQTNfLWZPUm1VbG1uaDV2TFg4bjJ1NUw1cjdyNFdrNmNmeUV6NmMtZW5SQzRIS0Y2MzZfa3I3WWJwa0hjd01HU3Axc0R3NHdpYnJ6UnU1Q3hkbExZN2VYSGpjNVExck03YWZjUlFVaG5sdC1NenYxbnE1dXAyMmNCWVZFekR4UkZhaXFJb3NEUGxyRWR1cXMxemlEZ3FsMTRpQ25Id1dkaDM3Ti0wdnNoRVY3SEMwQVBYTElDbnYxcTEzNE1oQmxhMV85SW53YVZWOFlCNG1wQTZTdGNZTW5pUDRRUlVzLUtwRXdiZVJjdnR2UUhuWENvTGtiTS1WQkZ4MmlES0NaeTlTVUdvX2NHMFRQTUJtUFpLSTZF?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "31-08-2026 03:53 AM",
       "tags": [
         "Scams"
       ],
@@ -283,45 +247,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Pentagon blacklisted Anthropic over Claude powers it didn't have - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPS2VuajY2UHhkRnZZUnZ0OHNnT3drYUljQVFDckxYSjJwU0ZJMEN3ZmhEbkxuaW1qQXdCZ1Q0T0dWUjNsUnZiLTdZbVJKd2NJRzdiTUl6LXltaVlLdXNRT2N6aWNRZjBpeUk2Uk9vRnEzRU1aZnhXUlZZQnlPTDZXekdXV3NMeWVQWElhTjQycmI3ZmswZ3FzdEFWWjBkRXB3ejB0RXZrTVNzQmYteXdHSENzOGdydzVBTTdQag?oc=5",
-      "summary": "Pentagon blacklisted Anthropic over Claude powers it didn't have theregister.com",
-      "date": "28-08-2026 10:31 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "CISA: Most exploited vulnerabilities should have been eradicated decades ago - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPdkhnelcyWkl2ZU5UWmRuSV96d3ZTSlJ6MXVhbkdSZURJVGNMMDNDdkZ6OWRialppTTlwM3dYVVY4WEtjTWxwZm1uc2o3Q3JZU0Jmd1ZHeGdqWjQ1NktPWlEwWnh3NHFaTW1ZcHprY0RDSUtENjBjdnZ1eWI5azZ4VzNaNzZqN0dTNURITjNIbTNjcnkweDIxZDVsM1RnVmNwakhGdFpBNWJTZW1lSVVscDhxOG9oZEg5RG1WdXhYMm56bUlxRTdpU2pmWQ?oc=5",
-      "summary": "CISA: Most exploited vulnerabilities should have been eradicated decades ago theregister.com",
-      "date": "28-08-2026 09:29 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Anthropic proposes plumbing spec to link AI agents to lab kit and robots - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxON185dUN4WDJvU1pnSmpZRHlzWVVRWUllWVVWYWs4U0MxVXBUaWpPdEpicV9fLU5pdWVPb3hXNFFTZWpRV1FqMlZ3TENZblRTUWxlR0RPWWFwREZGNmR4NDQ2X2JJVmNnQ0VDejVXN09jZXphREp0bXZ5eWNTTllJczRTUVZGVVVYQzc5RnI1REtnMVZXdW1VTndkbmcwZkZmQkROU2xpVUdfSGVSTGdhb1JtRVoxeW9KVU1OdjNUb2FUSmtjRi1LbQ?oc=5",
-      "summary": "Anthropic proposes plumbing spec to link AI agents to lab kit and robots theregister.com",
-      "date": "28-08-2026 09:22 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
       "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
@@ -349,19 +274,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOT2UxQ2tHeVF6RE5mUG00NVUyY1c1MmdFTmlxTWd0dnpFeVJFR1NkTGptV1QwOGdsem53TFhYNkNiRTNNcWVOSXpkdFJrRG13QTZ6bVBzU0RkTjN2aDA2TFRQQXhoRC0talRsd09reTNvLXExVmx4Z0RNeG5NYTVSZE4yVjBKcmNwZV9mY3JKVHJjOEY5YjA2MHctN21sLS1Nb3FIM3R2dGhDdkpzSU9GaHpqV2FsQXdQVjQwbGVQallwdUpmeXMwMVBB?oc=5",
-      "summary": "ATF responds to 'major' cybersecurity incident after ransomware gang's claims theregister.com",
-      "date": "28-08-2026 01:25 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     },
     {
       "source": "404 Media",
@@ -419,32 +331,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQbHhETXJBNHU1V2RuLWQ0cjA4Y19OdWtpMUh0bXRRRl9QU1VsRjZaM1M4dzZEenJrTm5tak1ma1FtczlSZ1dfMktCT3JGYWc2OFJQbU93cTJRbHBrYnJNUTBfSXpOLVpuRE90XzRXd25yQkd6OHVPNy1HX21JRmg0TDVBMElvOGhOeDR4N2FRUHJNdm1LM0tic29SWWRXS3piUloxS0VFanNnamFzUG5IUEdQZG1Td2hSZ0tpTEREM1B4bWhoNHJpSDdoTzFTNnlKeW1jODJ6YjBZcEwtcnQycHdB?oc=5",
-      "summary": "Nutanix built $20m AI cluster to reduce use of Copilot and Claude, expects ROI in a year theregister.com",
-      "date": "27-08-2026 03:21 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "OpenAI explains how its naughty AI agents attacked Hugging Face - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOVTZ5R0pwd2xEeUN3VWVmcW95OTZMc1BJU3NoM2h6ZTFhQ2ZuZ0dPX0ZTUjB2QWN4ZlRlT0RzT3FCbG9nbkpEU1hYcnd2MEN3TlNpMGNNQnZvYjJlTW1Wdl9kWHE3WUIyTzZnMEFJbi11enRTUnBhWmlGbHBDcDlSeEFCaDdndVhOLVNHdlpfeklNWVYwWW9EcmhZQkY2bTBNTXNFTVpZNGprVC1BYWlHU2xMamxGcGhLUm1R?oc=5",
-      "summary": "OpenAI explains how its naughty AI agents attacked Hugging Face theregister.com",
-      "date": "27-08-2026 09:45 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
