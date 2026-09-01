@@ -4,6 +4,72 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-02 (AEST)
+
+No log entries were recorded for 2026-08-31 or 2026-09-01 (gap in this agent's own run history — cause unknown, not investigated this run since it's outside the content-integrity remit). Data pipeline itself kept running normally throughout (`data/news.json`/`briefing.json` last generated 01-09-2026 11:35 PM). Treating this as a fresh full pass rather than assuming continuity with 2026-08-30.
+
+### Prior-run follow-up (all still unfixed, re-read directly this run)
+- **BEC "hundreds of millions" overstatement** (`definitions.js` line 87) — unchanged, re-read.
+- **Supply Chain Attack SolarWinds overstatement** (`definitions.js` line 164, also echoed in `reference.html` line 121's OWASP A08 description: "The SolarWinds attack is the defining real-world example") — unchanged, re-read.
+- **Brute Force Attack "billions of years" stale claim** (`definitions.js` line 185) — unchanged, re-read.
+- **Patch entry's "two weeks for others" Essential Eight timeframe** (`definitions.js` line 108) — unchanged, re-read.
+- **OWASP A01 "94%" / A02 "90%" stale 2021-edition stats** (`reference.html` lines 72, 79) — unchanged, re-read.
+- **A09 "over 200 days" detection-time staleness** (`reference.html` line 128) — unchanged, re-read.
+- **"Today's Story" fallback has no `GENERIC`/relevance guard** — `select_trending_article()` in `scripts/fetch_cyber_news.py` still unchanged (grepped for `GENERIC`: only present in `dashboard.js`'s `renderScamOfWeek()`, still absent from the Python fallback). Not live-broken today (see item 1 below) — today's pick is fine by luck, same as most days.
+- **404 Media off-topic tagging leak** — still live. Today's `data/news.json` carries the same standing pattern: *"The Tragedy and Ecstasy of AI Companions..."* still tagged "AU Cyber" on the word "exploit," plus *"Businesses Go Viral for Making Signs Without AI"* (Education/AI & Tools), *"Florida 'Deputy of the Year'..."* (Compliance), *"A Student... Hobby Plane Spotter"* (Education) — none have real cyber security content.
+- **Egress block** — still in effect. `en.wikipedia.org` and `www.darkreading.com` (an allowlisted source itself) both returned `EGRESS_BLOCKED` via WebFetch this run; `__agentproxy/status` shows a fresh `connect_rejected` / "gateway answered 403 to CONNECT (policy denial or upstream failure)" entry for the Wikipedia control, confirming a policy block, not a transient fault. Paywall and dead-source checks (items 2/3) not performed, same reason as every run since 2026-08-18.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 01-09-2026 11:35 PM)
+Two factual claims checked against their `news.json` source articles and independent WebSearch:
+- **"Australians using Anthropic's AI tools... targeted by infostealer malware... steal login sessions and account credentials... hijack your AI account without needing your password"** — supported. Matches its Dark Reading source ("Anthropic Users Hit by Infostealer Attacks, Session Thefts" — "A threat actor used a variety of infostealers to collect session information and access Claude accounts"). Independently and precisely corroborated (BleepingComputer, SecurityWeek, Help Net Security, Malwarebytes): Vidar, Lumma, StealC, RedLine, Acreed (Windows) and Atomic Stealer (Mac) infostealers stole browser session cookies, letting attackers bypass MFA and hijack already-authenticated Claude sessions; Anthropic is signing out affected users and refunding unauthorized charges. Briefing's "hijack your AI account without needing your password" is an accurate plain-English gloss of session/cookie theft, not a dramatization.
+  - **⚠️ Minor issue: the briefing's own practical tip is not actually protective against the attack it describes.** Tip reads: *"If you use any AI platform for work, enable multi-factor authentication on your account and log out of sessions when you're finished."* Independent sources are explicit that this exact attack **bypasses MFA** — the malware steals already-authenticated session cookies from the victim's own device, so MFA on the account doesn't stop it (MFA only protects the login step, not a hijacked live session). The "log out of sessions when finished" half is sound advice; the MFA half, as framed here, could give a lay reader false confidence against precisely the threat just described. The actual defence for this specific threat is keeping the device itself free of infostealer malware (avoid pirated software/cracked installers, keep AV current) — not an account-side control. Worth a wording tweak next time briefing-generation prompt guidance is reviewed (e.g. drop the MFA line for this story, or add "note: this attack can bypass MFA — the real fix is keeping your device malware-free").
+- **"Gryxa" AI-built malware operation claim (featured story)** — supported and precise. Matches its Security Brief Australia source ("ReliaQuest says a single operator may have used a commercial AI coding agent to build malware, a console and update pipeline across 324 hosts"). Independently corroborated in detail (ReliaQuest's own Threat Spotlight blog, CyberPress, GBHackers, Cybersecurity News): a financially motivated actor's toolkit and management console were substantially AI-coded (a commercial coding agent appears as co-author on most commits in the actor's public repo), console showed 324 listed hosts (69 online at analysis time — ReliaQuest itself cautions not every listed host is a confirmed victim), and a surviving component reports back on defenders' removal attempts. Briefing/featured summary doesn't overstate this — if anything it's a conservative gloss.
+
+### 2. Paywall spot-check
+**Not performed.** Egress blocked — see prior-run follow-up above for this run's direct evidence (`en.wikipedia.org`, `www.darkreading.com` both `EGRESS_BLOCKED`).
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh, previously-unchecked sample: **SQL Injection, Endpoint, Least Privilege, Threat Intelligence, Vulnerability, Dark Web Monitoring, CVE, Smishing, Identity Theft, Botnet, DDoS, Essential Eight, Secure Password, Honeypot, Whaling, Backup** (`definitions.js`, 15 entries — the full remainder of the glossary not yet covered by this log's rotation history).
+- All 15 re-read in full. No inaccuracies found — general/definitional content, appropriately simplified for a lay reader without being wrong.
+- **Essential Eight entry's specific claim spot-checked and confirmed accurate:** "Non-corporate Commonwealth government entities are required to achieve Maturity Level Two under the Protective Security Policy Framework" — verified via WebSearch against the PSPF's own policy amendment page: this has been mandated since 1 July 2022, assessed as the lowest maturity reached across all eight strategies (not an average). No issue.
+- Dark Web Monitoring's "HaveIBeenPwned (run by Australian Troy Hunt)" — confirmed accurate.
+- Also re-read `reference.html`'s full OWASP Web (A01–A10), API (API1–API10), and LLM (LLM01–LLM10) tab content plus the Essential Eight tab's own descriptions (distinct from the `definitions.js` "Essential Eight" glossary entry) in full this run. Only the already-flagged A01/A02/A09 stats are stale; every other entry across all three OWASP lists and the Essential Eight tab reads as accurate and appropriately simplified — no new issues found.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (53 items, generated 01-09-2026 11:35 PM) and the briefing:
+- **"Today's Story" is live and healthy right now** — *"AI helped build Gryxa malware operation, report says"* (Security Brief Australia), a real, on-topic, precisely-verified article (see item 1). Not a fix (the underlying fallback logic gap is unchanged, see prior-run follow-up) — today's pick just happens to be good.
+- Junk "Browse news and alerts..." listing-page count: 7/53 (13%) — in the same standing range as recent runs, still unfixed at ingest.
+- Dark Reading remains the largest single source (25/53, ~47%) — a source-diversity observation, not an accuracy or blocklist issue.
+- 404 Media off-topic leakage unchanged (4 items this run, see prior-run follow-up).
+- Otherwise reads well for both audiences — the Gryxa/AI-built-malware story and the Anthropic session-hijacking briefing both carry plain-English framing accessible to non-technical readers while remaining substantive and technically accurate for security professionals (aside from the MFA-tip nuance flagged in item 1).
+
+### 6. Source-credibility / blocklist adherence
+All 9 distinct sources currently live in `data/news.json` (Dark Reading, Google News — ScamWatch, 404 Media, Australian Cyber Security Magazine, Security Brief Australia, Google News — Guardian AU Cyber, Troy Hunt Blog, Krebs on Security, Risky Business) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### New coverage this run
+`ai-guide.js` (prompt library) read and checked in full for the first time in this log's history — no prior entry had reviewed it. All 40 prompts and the per-tool data-handling badges (`TOOL_INFO`) reviewed: prompt content is accurate, appropriately scoped, and well-hedged (e.g. Claude/Copilot/Zoom "safe by default" claims are correctly qualified with "check settings" / plan-tier caveats rather than stated as unconditional). No issues found.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see items 2/3).
+
+### Needs human attention (priority order)
+1. **"Today's Story" fallback logic still has no relevance/substance guard** — fine today by luck only, per every prior run's note. `select_trending_article()` in `scripts/fetch_cyber_news.py` still needs the `GENERIC` junk-listing-page guard already present in `dashboard.js`'s `renderScamOfWeek()`, ideally ported to ingest-level filtering too so junk stops accumulating in `data/news.json` at all (currently 7/53, 13%).
+2. **NEW, minor: today's briefing's practical tip doesn't match the threat it describes** — recommends MFA against a session-cookie-theft attack that independent sources confirm bypasses MFA entirely. See item 1 for full detail; worth a note in briefing-generation prompt guidance to sanity-check that "practical tip" actually mitigates the specific attack vector described, not just security advice in general.
+3. Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude (`definitions.js` line 164) — flagged 2026-08-25, still unfixed.
+4. Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated (`definitions.js` line 185) — flagged 2026-08-25, still unfixed.
+5. Business Email Compromise glossary entry overstates FY2024-25 losses ("hundreds of millions" vs. actual ~$98M per ACSC, `definitions.js` line 87) — flagged 2026-08-19, still unfixed.
+6. Patch glossary entry's Essential Eight patching-timeframe claim is stale ("two weeks for others" should be "one month" per ASD's Nov 2023 revision, `definitions.js` line 108) — flagged 2026-08-29, still unfixed.
+7. `reference.html`'s OWASP A01/A02 stats are stale 2021-edition figures on an otherwise-2025-edition page (A01 "94%" → ~100% max coverage; A02 "90%" → 100% of tested apps found some misconfiguration) — flagged 2026-08-30, still unfixed.
+8. Egress to publisher/reference domains remains blocked (policy-level, confirmed again this run via Wikipedia and Dark Reading controls). Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy — this has now spanned every run since 2026-08-18. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+9. 404 Media leaking off-topic content via loose keyword tag matching (standing pattern, 4 items this run) — needs article-level relevance filtering for direct-RSS sources.
+10. Minor (carried forward): A09 "over 200 days" detection-time stat in `reference.html` trending stale — low priority wording tweak.
+11. **Housekeeping:** this log has no recorded entries for 2026-08-31 or 2026-09-01 — worth a human check on whether this agent's own scheduled run was skipped those two days, separate from the content-accuracy items above.
+
+---
+
 ## 2026-08-30 (AEST) — second run this day (08:58 feed)
 
 A new pipeline run landed (`data/news.json`/`briefing.json` generated 30-08-2026 08:58 AM) after this morning's 05:16 run was already logged below. Re-ran the checklist against the newer data; no human fixes had landed on any previously-flagged item between the two runs.
