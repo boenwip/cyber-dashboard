@@ -1,15 +1,15 @@
 {
-  "last_updated": "01-09-2026 12:47 PM",
-  "count": 53,
+  "last_updated": "01-09-2026 06:08 PM",
+  "count": 50,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "PhishByte warns of rising BEC scams hitting Australian firms",
-      "link": "https://securitybrief.com.au/story/phishbyte-warns-of-rising-bec-scams-hitting-australian-firms",
-      "summary": "Australian firms are being urged to tighten payment checks as email impersonation scams drive AUD $166.8 million in losses.",
-      "date": "01-09-2026 12:30 PM",
+      "title": "AI helped build Gryxa malware operation, report says",
+      "link": "https://securitybrief.com.au/story/ai-helped-build-gryxa-malware-operation-report-says",
+      "summary": "ReliaQuest says a single operator may have used a commercial AI coding agent to build malware, a console and update pipeline across 324 hosts.",
+      "date": "01-09-2026 05:00 PM",
       "tags": [
-        "Scams"
+        "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [
@@ -19,65 +19,31 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Netpoleon ANZ expands Cofense phishing defence pact",
-      "link": "https://securitybrief.com.au/story/netpoleon-anz-expands-cofense-phishing-defence-pact",
-      "summary": "Rising AI-driven phishing attacks are pushing ANZ organisations towards post-perimeter defences, as Netpoleon widens Cofense access through its channel network.",
-      "date": "01-09-2026 12:20 PM",
+      "title": "Broadcom adds AI security tools to VMware Tanzu Platform",
+      "link": "https://securitybrief.com.au/story/broadcom-adds-ai-security-tools-to-vmware-tanzu-platform",
+      "summary": "Enterprises running AI agents in private clouds are getting stricter controls as Broadcom seeks to curb data leakage, prompt injection and compliance risk.",
+      "date": "01-09-2026 04:09 PM",
       "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra",
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Red Hat sets out hybrid AI path for ANZ enterprises",
-      "link": "https://securitybrief.com.au/story/red-hat-sets-out-hybrid-ai-path-for-anz-enterprises",
-      "summary": "Enterprises in Australia and New Zealand are being pushed to balance AI adoption with tighter control over cost, security and data sovereignty.",
-      "date": "01-09-2026 12:20 PM",
-      "tags": [
-        "AI & Tools",
         "Compliance"
       ],
-      "threat": "Advisory",
+      "threat": "Medium",
       "audience": [
         "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike launches Falcon IQ to automate AI defence",
-      "link": "https://securitybrief.com.au/story/crowdstrike-launches-falcon-iq-to-automate-ai-defence",
-      "summary": "Customers will get real-time remediation tracking as CrowdStrike adds automation and new data links to its AI defence coalition.",
-      "date": "01-09-2026 11:43 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra"
       ],
       "relevance": "Global"
     },
     {
       "source": "Security Brief Australia",
-      "title": "SentinelOne brings Prompt Security to AWS Sydney for AI sovereignty",
-      "link": "https://securitybrief.com.au/story/sentinelone-brings-prompt-security-to-aws-sydney-for-ai-sovereignty",
-      "summary": "Local hosting in Sydney eases compliance worries for Australian firms using AI tools that may expose prompts, code and credentials.",
-      "date": "01-09-2026 10:54 AM",
+      "title": "Stakk swings to AUD $1.07 million operating profit",
+      "link": "https://securitybrief.com.au/story/stakk-swings-to-aud-1-07-million-operating-profit",
+      "summary": "The turnaround was driven by surging customer receipts and cash inflows, though auditors still expect to flag a going-concern uncertainty.",
+      "date": "01-09-2026 02:01 PM",
       "tags": [
-        "AI & Tools",
         "Compliance"
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
     },
     {
       "source": "Dark Reading",
@@ -394,6 +360,21 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxQOXY4MkZEa1lCa1JHcnBsejBXNldWVXRNXzJ5VlJwSmlsTFR3RklVc2Q5WDVIVU0yNDZRU1QyYng2SnlHVHdLcHFUNG5KN2FmNmNmMzUzQUZxV2RLNl8tLVJBQm9fY3JuZlVJZXhac0N6bERnWEM5bzQ0cndxTDlnRWlWOHkyTkN3LXdhRWJUWE43WVdPQ19yRGRIbVp1RG1mR056a2hFQkxsSjJjempya3BiOUI3OUtfQjFTQXlhbVVvMWZNME52YTl6UHZGdTROaWVURURBckJCZjBNTHVuQjdYTEtvS0tTS0hqRElpV0hnREdtdmZ3czVCeFFqbHRNbTE5QTM4YzlDeGU5YjdNWUlaVG1yUS1TTzE0OFB3?oc=5",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
+      "date": "26-08-2026 07:22 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
       "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
@@ -428,21 +409,6 @@
       "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxPMFJqNTZrcWNpUE5PWUlYNnpVeFp4UTJLdFRtNi1heHhBa2pYUGNHbUhSZHdlMWYyTWg1Zjl5QmF2bndZdXVuLVlfRWQ1VG5GRUVmUEhSQTVrc1MxQm4zb1gzLW84WEZKME5QNk5EVWcxRnl0MjhOYTc3X0s5eE93NGUyUF9TVkF2eHRaQ1IxQ1pZWWg3VktEZGs0RzVXMzhGZnlDWlZsZkhBamJPbjMtZUhycTVUc3dRZVBGS0hJVG1pMGVWZm5YaXFGVG9iLUZjal9FeXVCbXh6UjN4b2tjeTZGUVBjUVdsMGJtQ0lVSkVrczlYUFNlNTZXSW5ESVhXcUpsallHY1ByT1JkeW1iVGpPby1rekg4cU9CYU0yTlJHcV9tVWNNWEQybjJQdVB4dFAwb2ZTSQ?oc=5",
       "summary": "Browse news and alerts - page 6 Scamwatch",
       "date": "26-08-2026 01:43 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxQeGl5azFXQWFrSnNHZE1QV0FfUkpqdVJVQU1SNk1uclZnd2hYSzdERU01QnRWdXB2Q0JJWE9sQnhwdnhjZWEwNS0yQTYwbVF5cDNsQXdjQWE2dlNET18xWjlrV21PaFROMXQ1QTBWVFdITFg4YWN5YXY3dWd1QUo5TFpBNk10TXdXUjd6c0hQUnNFRDhBdWN1YXY1bm9lM19xNi1tVkhiUVI5eW5URUFNZnBVQU03ZE1OU2pWMUNidllJLWxpaG5OS252cUhVUXFLRzBVZ2EweUMyN1ozS1I4cE11YUVDRGdXSjFrQWhGVklQMXkzd0taN2o3S2o1R0NZSmVsUWtHMjdJc2FRX2puQjJsTS0wamszVlRHeWxlNTZXT2RyUTlndkh3T0hVN0N5ZWhqQm9ZaTJlR0hSTjMtYkJmcEdZM1FJYlJ5bFNhdmZXc2NkLV9jSWEwOERaUlIzQUNQeW1NMzdTZ1R5QmFJRnZlWlRFTlRwQU4xNzFR?oc=5",
-      "summary": "Browse news and alerts - page 3 Scamwatch",
-      "date": "25-08-2026 12:55 PM",
       "tags": [
         "Scams"
       ],
@@ -740,19 +706,6 @@
         "AU Cyber"
       ],
       "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Troy Hunt Blog",
-      "title": "Weekly Update 517: Cyber Ransoms",
-      "link": "https://www.troyhunt.com/weekly-update-517/",
-      "summary": "The current ransomware situation is a bit of a kludge (deep breath): a lot of ransomware (which often doesn't even involve \"ware\", it's just extortion) is carried out by kids who successfully make a truckload of money but can't spend it without",
-      "date": "18-08-2026 01:44 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     }
