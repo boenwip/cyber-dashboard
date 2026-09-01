@@ -1,5 +1,5 @@
 {
-  "last_updated": "01-09-2026 10:20 AM",
+  "last_updated": "01-09-2026 11:03 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "01-09-2026 10:20 AM"
+      "date": "01-09-2026 11:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "01-09-2026 10:20 AM"
+      "date": "01-09-2026 11:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.250",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "01-09-2026 10:20 AM"
+      "date": "01-09-2026 11:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.248",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.248",
       "summary": "What's changed Added --restricted (or CLAUDE_CODE_RESTRICTED=1): removes the built-in tools that run commands or code and WebFetch (unless named in --tools), keeps file tools inside the working direct",
-      "date": "01-09-2026 10:20 AM"
+      "date": "01-09-2026 11:03 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.247",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.247",
       "summary": "What's changed Added the SendFeedback tool: when something goes wrong in a session, Claude can draft a feedback report for you to review and send from /feedback (turn off with the feedbackDrafts setti",
-      "date": "01-09-2026 10:20 AM"
+      "date": "01-09-2026 11:03 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -157,9 +157,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? | Anthropic - The Guardian",
+      "title": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? | Anthropic - theguardian.com",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNdDhaNEwwSzdEUkZjTjdIb1JyTkl4T2JMZ2V1REVTaEhvd3owenhXallWRk5UOGltM3d0d3dqelFNV1hjbHljTDBYc0xVbWJCZTZIQWc1aHUwZFA0ZVlXZlozUGZBNEdJQmhhR3BpRmdSZHFnaF93X3V0aVp6ZnVPQnY5T3BXamdHcG1ZVHdGeGRjNUk?oc=5",
-      "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? | Anthropic The Guardian",
+      "summary": "Claude to start watermarking AI-generated text \u2013 but will it make quality worse? | Anthropic theguardian.com",
       "date": "18-08-2026 05:00 PM"
     },
     {
@@ -253,18 +253,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
       "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
-      "summary": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO Memeburn",
-      "date": "11-06-2026 04:42 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -299,6 +291,14 @@
       "date": "28-05-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
+      "summary": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount Decrypt",
+      "date": "14-05-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
@@ -309,9 +309,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
+      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - afr.com",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "Canva places a make-or-break bet on AI future \u2013 and its IPO AFR",
+      "summary": "Canva places a make-or-break bet on AI future \u2013 and its IPO afr.com",
       "date": "16-04-2026 05:00 PM"
     },
     {
