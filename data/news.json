@@ -1,6 +1,6 @@
 {
-  "last_updated": "01-09-2026 06:08 PM",
-  "count": 50,
+  "last_updated": "01-09-2026 11:35 PM",
+  "count": 53,
   "items": [
     {
       "source": "Security Brief Australia",
@@ -40,6 +40,32 @@
       "date": "01-09-2026 02:01 PM",
       "tags": [
         "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Commvault links recovery actions into CrowdStrike SOAR",
+      "link": "https://securitybrief.com.au/story/commvault-links-recovery-actions-into-crowdstrike-soar",
+      "summary": "Joint users can now automate cyber recovery steps during incidents, cutting handoffs and helping preserve clean backup points for ransomware response.",
+      "date": "01-09-2026 12:51 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQld2RWtFcDZKTFdOekJMY2NCclRFeWJnN1I0NUVrZHBzUXY4Z2t5Z2FZdEZmTmQtTkg2REtlWVZhcVhYSTViNG4zZzlzOVlPa09vVXVkV1g4ZWNScWNwdzllVm5ndUgzQzBjcUdJdTFGWndWcUp1aFY3MTNzVWY2YVN5M1dYRFpQbG9hLWZINlo1bHVqamxLN1VYWHJPREJQMEE?oc=5",
+      "summary": "Anthropic sued over alleged theft of \u2018tens of thousands\u2019 of songs theguardian.com",
+      "date": "01-09-2026 11:30 AM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -132,6 +158,19 @@
       "audience": [
         "Consumer"
       ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPSlJhNzBFNUxUMW8xOWpySlkza2EyMENZSjBEQmJGc1Rrc2wtaXg0c0E0dGhqN092LXNqVHRRX0tyWUdHYi1rWmE5eGo2bWUtMS1KRmx0TUhxZ2JWdkUxNEVEaFdwUnJWN19hWkY1dmUzX0xsTm1CcjdvT2U5VGFmY3JJVUFGX2JEcHdNTVhMbnB0NVhEaEJRaEotaVBtQzJvbTJqa3lvcTVucGpjX1BQaGJ3?oc=5",
+      "summary": "Pentagon\u2019s blacklisting of Anthropic was unlawful, US judge rules theguardian.com",
+      "date": "29-08-2026 01:19 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
       "relevance": "Global"
     },
     {
@@ -282,6 +321,19 @@
         "Education"
       ],
       "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOeDNua1VDVWkwRFBlcWpMa2dfSXZDemVBZHJjTHh6cW9IUng0RUJoNjI0YU1lSThrMUVObVF2aC05WjdMZURuUHJPdDBvZnJqUFc4U2luQ1hhNzllWjY2RVBSRG9HU2FiOEg5bmpGMkNyWFVJaGlWaFlOWUZEWmduNWRIOG1WV1BfSl9DOWZNMGpRN05kdC1kdW1qVVNNdlh2bldjbjV5VXZ5UlJJTENjemlNZ1FwVEU1UUR3YlVsbHh2VFZveEtrQ3B0eWUybG40Rk9GVg?oc=5",
+      "summary": "OpenAI staff observed warning signs before AI agent hacking crusade caused global alarm theguardian.com",
+      "date": "27-08-2026 05:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -691,19 +743,6 @@
       "date": "19-08-2026 06:17 AM",
       "tags": [
         "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Silent 'TwinLoot' Cyber Threat Operates Entirely From Microsoft's Cloud",
-      "link": "https://www.darkreading.com/cloud-security/silent-twinloot-threat-operates-microsoft-cloud",
-      "summary": "The Python-based malware framework takes living-off-the-land tactics to a new heights of stealth, with a modular implant that steals credentials and achieves persistence.",
-      "date": "18-08-2026 11:00 PM",
-      "tags": [
-        "AU Cyber"
       ],
       "threat": "Medium",
       "audience": [],
