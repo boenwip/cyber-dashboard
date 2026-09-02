@@ -1,5 +1,5 @@
 {
-  "last_updated": "02-09-2026 09:52 AM",
+  "last_updated": "02-09-2026 12:08 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "02-09-2026 09:52 AM"
+      "date": "02-09-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "02-09-2026 09:52 AM"
+      "date": "02-09-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "02-09-2026 09:52 AM"
+      "date": "02-09-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "02-09-2026 09:52 AM"
+      "date": "02-09-2026 12:08 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.250",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "02-09-2026 09:52 AM"
+      "date": "02-09-2026 12:08 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases new models, cuts agent costs - Axios",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2phY0R2b1N5eTVJRXNMM21ubUlFYUhaWjZCY0VDb3pFMXJsSWlxOWhsQ0RXRmVVM0RTejN0OVp4TEtVRm02SlRydW5yS2YzV1dtbVNGeVZocDNaeTIwYzNVSnBST1hSbGZvR25Ba3IwaWowTklveUhyZHo0M21HSEI3V1Mtbk1kdkgwYWwtamt5UzYtenZfVQ?oc=5",
+      "summary": "Anthropic releases new models, cuts agent costs Axios",
+      "date": "02-09-2026 07:57 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 - Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNzNjakdGQU81Q1lfSjNNVXg3dkZqNWs3OFNnWnRNX3R5LWZJQ2dpRUhKS3JOSzBvZmhVLWdhTVlJckFQODU4RVFlY0lIMUItY0huaVFRWnZlVWRBd2dGVkR4V1p1WHRKZTJKVk5DeERMX0tnX0VGbHZWWk1yZmVrTmpLcFdCMlRpMVozS2Z4RjhMNVhmS0hEc0FMZXNzOTBHZDNUaWc1MEluWnU2TXJkc1laajlHYzJwMFJHUFE3SDhIbk5uTlEzbUM4RdIB0AFBVV95cUxNbWRGZ3NRQTlaVXU0UkZvam1GWHV5NG5YT1VKMHNkc1RvUUF2cW5pbXVDVFdDWmdpaU1VeVVHQXRlVkU3LXM3M1pndHhZMDRkYXdpTTZfSDA2bEFhSkxiTmFKc3VkdzV5QVlFZUlLTFg0dlUyOHdRUkdreU1IcXI2OFdYS1dfVzM3RFcyeTBKRTQ4aHlWZXNjODFoM3J1aHEwVHliX25QbzBVNENQalFkZ1dDMlVzZ29yM2JWcTBSTlZZYlNPdVFLVGlMYWRBeUxh?oc=5",
+      "summary": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 Firstpost",
+      "date": "02-09-2026 05:38 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -53,9 +69,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": ":Claude: Fable 5.1 and Mythos 5.1 - anthropic.com",
+      "title": ":Claude: Fable 5.1 and Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": ":Claude: Fable 5.1 and Mythos 5.1 anthropic.com",
+      "summary": ":Claude: Fable 5.1 and Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
     },
     {
@@ -91,6 +107,14 @@
       "date": "02-09-2026 01:13 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic gives update on Claude breaking into companies and hacking their systems - The Times of India",
+      "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNR01VbmpGTERZRzFucVBzaVppRk5yNTZKT0Vad0RTSl92dTNGdnMwR21BeUNQVG9fTE9IOFpXdDdkNVZoOGQ1S3NSQ2lIQUliN3Vlb2lnbDA4ejdud3ltVGpNNlpmZFdXLWphREVob0cyVjhfZ28zLThuWFhPRnFqOGNfazVuRTVnZVlTLW13a2RyUi1YMmRkampTdVZ2SjVfWDAwN1oyRkVoazNSTEQxaXJwVC11TDJCd0tVbFZZSkpqRHdSQ2JUb1AtUTViWjN5LVR5MWk5ckh3dlZwTVFBeGxxcjY4dXFHTURhcW9vX1hXc3A4S1c0UtIB_gFBVV95cUxQQmdpOE16eUtyQndRX0xIZmF1V1pkV0o4NDd2bUxES3Nid01hNU1yNkd6dU1EbHRXWnE5QU85TlFJVzVXVHZqS3hrNlYyZmYxZHZhSnVmdTRDQ2lpZWNiTkw0TFhLT2E0S19rZHdFS3p6QWVDLTc0WnA1SHdreTVWb0JGWGdJYjJXamxseEJuazRBS3JaeUlwMDJXZFYwLXlPQnpWdEp4X3U0cWRrUGpuQkFWSFhZX1hmSHhCU01QX1NOUF9oVmZYNXRqcGhiVG9SUm1xRGFFbGZybTZfa0RXMmU2Q19hSVJIX2ZDemtWZ0xrellMRmNZemRzMnRlZw?oc=5",
+      "summary": "Anthropic gives update on Claude breaking into companies and hacking their systems The Times of India",
+      "date": "01-09-2026 09:47 PM"
+    },
+    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Google Workspace Weekly Recap - August 28, 2026",
@@ -123,14 +147,6 @@
       "date": "28-08-2026 06:30 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Previewing the Model Hardware Standard - anthropic.com",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9mMzRTNjJiRFhsYnZYMlBtQlNxTWZrRE5VVzF4TnZoel9UdXJSalpXUkE4M1NXN3pNTXdIWW84U0dONmN3bUFKcGwzZGh4SEdCZTFQaEk0TDJZNjF2ZVRFTUhTYTB5MzV5dV9xX1lvWXNMejFUYUlMZGxISQ?oc=5",
-      "summary": "Previewing the Model Hardware Standard anthropic.com",
-      "date": "28-08-2026 03:58 AM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Android Update",
@@ -155,19 +171,11 @@
       "date": "20-08-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing ChatGPT for Teens: Built for learning, backed by protections - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA0cUR0RW5xRGlscjVXNFNha1UtNnd1NVQ0dS12UFptZGd5OGVWSHBzZXpvRlM2LS1ja1dYZnR0X2ZFdjRVSXlHckhRRWQ3UnlZcGtrN1l3?oc=5",
-      "summary": "Introducing ChatGPT for Teens: Built for learning, backed by protections OpenAI",
-      "date": "18-08-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
-      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "13-08-2026 05:00 PM"
     },
     {
@@ -201,14 +209,6 @@
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQMWRVMEVHZmFweTBUelJ0NjNWNmRYOGc2NkI1dG01SS0xQlplVDd0NlpLeDMxZWZxYU9LUy02X1hHSWN6TDA2UDFrZW9DVFMtSDUwZU9KWXQ2VHpCWUwwV1BEdUVRWFRzUm1TbFI1cUl6RWtnbl9EdzY0cHl6WWVkVG0xOVI3ZHdvblRfVndiVHkzeFFfMUIybThzbE85Vnp1RC01a9IBowFBVV95cUxPaDdzN09tU2ZVY2p3X1hCTk1pNThnZkl1aEZWZmlEWTFNTUViWGh1WkFVQUZteVdVNDBqdFhnSGdoN2E0c2ZRWmhoaldyMEpKdkhQaUl1UVdObDB2MjdBa0laN21wQmszNXMwWTZoQUxlZmtYaWNWWE44S055dHN2UldxTW1zN0ZBalFBX0g4eVJYQ01qNm5DVi1HWGtTanQyT2Vz?oc=5",
       "summary": "Here are all the new features added to Microsoft 365 Copilot in June 2026 Neowin",
       "date": "01-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Your Microsoft Store Office apps are losing security updates this year - pcworld.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
-      "summary": "Your Microsoft Store Office apps are losing security updates this year pcworld.com",
-      "date": "30-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -251,12 +251,20 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
-      "date": "15-06-2026 05:00 PM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "date": "04-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
+      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
+      "date": "03-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -273,14 +281,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
       "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blo",
       "date": "03-06-2026 03:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
-      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -309,9 +309,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva places a make-or-break bet on AI future \u2013 and its IPO - AFR",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZkRHSms5MG5qNmNPMWo4VHhaaS15dGlTazZDOHJlRGJmaUlzcTBwN0dkVEEtWGdMMWRzNHlTMFpTOWE3bm8yRUJRUjdOLUtjdURqb2RQaVJzTnZKZ3lKek51V3BsdndpWHltZ3RSRDJGc0tjUTVPaV9vVTNRRkdOdlZwZUJrLXd2d1dhUUg0RmxsMHR3MlVjM2Rncnp3LVYweHBqR0YzOA?oc=5",
-      "summary": "Canva places a make-or-break bet on AI future \u2013 and its IPO AFR",
+      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
+      "summary": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System CMSWire",
       "date": "16-04-2026 05:00 PM"
     },
     {

@@ -1,7 +1,48 @@
 {
-  "last_updated": "02-09-2026 09:52 AM",
-  "count": 50,
+  "last_updated": "02-09-2026 12:08 PM",
+  "count": 49,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Microsoft revamps responsible AI rules amid agentic risks",
+      "link": "https://securitybrief.com.au/story/microsoft-revamps-responsible-ai-rules-amid-agentic-risks",
+      "summary": "Faster agentic AI adoption is forcing tighter oversight, with new controls on permissions, monitoring and cyber-risk systems.",
+      "date": "02-09-2026 11:38 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
+      "summary": "Threat actors exploited commodity in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
+      "date": "02-09-2026 11:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Actuaries Institute and UTS HTI publish AI risk management guidance for financial services",
+      "link": "https://australiancybersecuritymagazine.com.au/actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services/?utm_source=rss&utm_medium=rss&utm_campaign=actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services&utm_source=rss&utm_medium=rss&utm_campaign=actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services",
+      "summary": "The Actuaries Institute and the University of Technology Sydney\u2019s Human Technology Institute (HTI) have released a practical guidance resource aimed at improving how financial services organisations manage risks associated with [...]",
+      "date": "02-09-2026 10:12 AM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Sector"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Cohesity adds managed clean room to HCLTech VaultNXT",
@@ -17,37 +58,6 @@
         "Enterprise"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Ping Identity launches controls for personal AI agents",
-      "link": "https://securitybrief.com.au/story/ping-identity-launches-controls-for-personal-ai-agents",
-      "summary": "Businesses using personal AI agents in the workplace now face tighter access checks, as Ping aims to stop unsanctioned actions and improve audit trails.",
-      "date": "02-09-2026 09:20 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "OneAdvanced launches AI risk platform in Australia",
-      "link": "https://securitybrief.com.au/story/oneadvanced-launches-ai-risk-platform-in-australia",
-      "summary": "Organisations facing tougher compliance checks in Australia and New Zealand can now swap spreadsheet risk logs for AI-guided assessments and reports.",
-      "date": "02-09-2026 08:51 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise",
-        "SMB"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Krebs on Security",
@@ -681,37 +691,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ASIC warns scammers are using AI to create deepfake investment scam networks",
-      "link": "https://australiancybersecuritymagazine.com.au/asic-warns-scammers-are-using-ai-to-create-deepfake-investment-scam-networks/?utm_source=rss&utm_medium=rss&utm_campaign=asic-warns-scammers-are-using-ai-to-create-deepfake-investment-scam-networks&utm_source=rss&utm_medium=rss&utm_campaign=asic-warns-scammers-are-using-ai-to-create-deepfake-investment-scam-networks",
-      "summary": "ASIC has warned Australians that a quick online search is no longer a reliable way to verify investment opportunities, as scammers use generative AI to create networks of deepfake websites [...]",
-      "date": "19-08-2026 11:10 AM",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "China-Linked Hacker Shows AI Capabilities in APAC Attack",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/china-linked-hacker-ai-capabilities-apac-attack",
-      "summary": "In the first purported \"near-autonomous\" attack on a nation-state, a Chinese-language operator used a complex AI framework to target and compromise government agencies, likely in Taiwan.",
-      "date": "19-08-2026 11:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     }
   ]
 }
