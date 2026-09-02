@@ -4,6 +4,53 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-02 (AEST) — second run this day (22:11 feed)
+
+Second pass today, against the newest pipeline run (`data/news.json`/`briefing.json` generated 02-09-2026 10:11 PM, following the 22:11 AEST feed commit). This morning's run (below) already completed a full glossary/OWASP/E8 rotation and confirmed the standing backlog unchanged — `git diff` confirms zero changes to `definitions.js`, `reference.html`, or `scripts/fetch_cyber_news.py` since that log commit, so items 4 below are re-confirmed by direct grep rather than fully re-read line-by-line.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 02-09-2026 10:11 PM)
+Three claims checked against `news.json` source articles and independent WebSearch:
+- **"Ransomware groups are increasingly recruiting insiders"** — supported. Matches its Dark Reading source ("Stronger Security Drives Ransomware Groups to Recruit From Within") and independently corroborated (BlackFog, Automation.com, Cyble): insider recruitment (e.g. LockBit-style ransom-note solicitations) is a real, growing RaaS tactic. No dramatization.
+- **"New AI risk management guidance... published locally by the Actuaries Institute and UTS"** — supported and precise. Matches its Australian Cyber Security Magazine source; independently corroborated (Financial Standard, ITBrief AU): real joint publication, framework for AI risk in financial services. No issue.
+- **Featured story ("Boomi launches AI agent control plane for enterprises")** — RSS-summary verbatim truncation, no invented claims. On-topic, real, source_count 1 (fallback pick, not a cluster) — but substantive, so no live "Today's Story" failure today (root-cause fallback gap is still unfixed, see backlog item 1 below; today's pick is fine by luck, same pattern as most days).
+- **⚠️ NEW issue: "A US-based service has been found selling over 153 million driver's licence records" mischaracterises the seller's origin.** The underlying Krebs on Security source (matched in `news.json`) describes "a new identity theft service launched on the dark web" selling scans "from people in the United States and Canada" — it does **not** call the service itself US-based. Independent WebSearch corroboration (multiple outlets reporting on the same "Nexus" dark-web listing, tied to an apparent breach at Louisiana-based ID-verification firm IDScan.net) indicates the service surfaced on a Russian-language cybercrime forum — the US connection belongs to the *breached source company* and the *victims*, not the seller. Direct WebFetch verification against the primary/independent articles was attempted but blocked by network egress (krebsonsecurity.com, malwarebytes.com, 9to5mac.com — all `EGRESS_BLOCKED`; see item 2), so this rests on WebSearch synthesis rather than a directly-read primary source — flagging with that caveat rather than asserting it as fully confirmed. Still, "US-based service" appears to be an unsupported inference added during briefing generation, not something present in its own cited source. Worth a check next time briefing-generation prompt guidance is reviewed: geographic/attribution claims about *who* is doing something should stick to what the source article actually says, not be inferred from the nationality of the victims or a related company.
+
+### 2. Paywall spot-check
+**Not performed.** Egress still blocked — tested `krebsonsecurity.com`, `www.malwarebytes.com`, and `9to5mac.com` via WebFetch this run (all three returned `EGRESS_BLOCKED`); `__agentproxy/status` shows `recentRelayFailures: []`, confirming a policy-level block, not a transient fault. Same standing condition as every run since 2026-08-18.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+No re-read this run — this morning's entry (below) already completed the full rotation. Directly grepped the four standing `definitions.js` issues and four standing `reference.html` issues to confirm wording is byte-for-byte unchanged (lines 87, 108, 164, 185 and 72, 79, 121, 128 respectively) — matches `git diff` showing no edits to either file since this morning. No new spot-check performed.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (49 items, generated 02-09-2026 10:11 PM):
+- Junk "Browse news and alerts..." listing-page count: 4/49 (~8%) — lower than the recent 13–18% range (natural feed churn, not a fix — ingest-level filter is still absent).
+- 404 Media (5 items): 4 are the same standing off-topic pattern (AI-companions podcast still tagged "AU Cyber" on "exploit," sign-making story, Florida deputy-misconduct story, plane-spotter story) — unchanged. One item this run is genuinely on-topic and correctly tagged ("How Cyber Sleuths Tracked a Nigerian Scammer to His Doorstep," tagged Scams).
+- "Today's Story" is live and healthy right now (Boomi piece, see item 1) — not a fix, today's pick is just good.
+- Otherwise reads well for both audiences — insider-ransomware-recruitment and AI-risk-guidance items both carry plain-English framing while staying substantive.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources in today's feed (Dark Reading, Australian Cyber Security Magazine, 404 Media, Google News — ScamWatch, Security Brief Australia, Risky Business, Krebs on Security, Troy Hunt Blog) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked).
+
+### Needs human attention (priority order)
+1. **NEW, minor: today's briefing mischaracterises the 153M-drivers-licence dark-web seller as "US-based"** — its own cited source doesn't make that claim; independent reporting (WebSearch only, direct WebFetch blocked) points to a Russian-language cybercrime forum instead. The US connection is the breached company/victims, not the seller. See item 1 for full detail and caveats.
+2. **"Today's Story" fallback logic still has no relevance/substance guard** — fine today and this morning by luck only; `select_trending_article()` in `scripts/fetch_cyber_news.py` unchanged. Carried forward from every prior run since 2026-08-23.
+3. Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude (`definitions.js` line 164) — flagged 2026-08-25, still unfixed.
+4. Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated (`definitions.js` line 185) — flagged 2026-08-25, still unfixed.
+5. Business Email Compromise glossary entry overstates FY2024-25 losses (`definitions.js` line 87) — flagged 2026-08-19, still unfixed.
+6. Patch glossary entry's Essential Eight patching-timeframe claim is stale (`definitions.js` line 108) — flagged 2026-08-29, still unfixed.
+7. `reference.html`'s OWASP A01/A02 stats are stale 2021-edition figures (lines 72, 79) — flagged 2026-08-30, still unfixed.
+8. Egress to publisher/reference domains remains blocked — now spans every run since 2026-08-18 (over two weeks), reconfirmed again this run against three separate domains. Paywall and dead-source checks remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+9. 404 Media leaking off-topic content via loose keyword tag matching (standing pattern, 4/5 items this run) — needs article-level relevance filtering for direct-RSS sources.
+10. Minor (carried forward): A09 "over 200 days" detection-time stat in `reference.html` (line 128) trending stale — low priority wording tweak.
+
+---
+
 ## 2026-09-02 (AEST)
 
 No log entries were recorded for 2026-08-31 or 2026-09-01 (gap in this agent's own run history — cause unknown, not investigated this run since it's outside the content-integrity remit). Data pipeline itself kept running normally throughout (`data/news.json`/`briefing.json` last generated 01-09-2026 11:35 PM). Treating this as a fresh full pass rather than assuming continuity with 2026-08-30.
