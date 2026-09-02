@@ -1,14 +1,22 @@
 {
-  "last_updated": "02-09-2026 10:11 PM",
+  "last_updated": "03-09-2026 08:57 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.259",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
+      "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
+      "date": "03-09-2026 08:57 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "02-09-2026 10:11 PM"
+      "date": "03-09-2026 08:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "02-09-2026 10:11 PM"
+      "date": "03-09-2026 08:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "02-09-2026 10:11 PM"
+      "date": "03-09-2026 08:57 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,23 +40,79 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "02-09-2026 10:11 PM"
+      "date": "03-09-2026 08:57 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.250",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.250",
-      "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "02-09-2026 10:11 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos.html",
+      "summary": "M-151, ChromeOS version 16733.60.0 (Browser version 151.0.7922.222) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways:File ",
+      "date": "03-09-2026 07:25 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "New built-in interoperability between Google Meet and Microsoft Teams on Android (AOSP) devices, now in Early Preview",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/new-built-in-interoperability-between-Google-Meet-and-Microsoft-Teams-on-Android-AOSP-devices-now-in-Early-Preview.html",
+      "summary": "We\u2019re introducing video conferencing device interoperability between Google Meet and Microsoft Teams, which will allow you to:Join Microsoft Teams meetings from Android (AOSP)-based Google Meet hardwa",
+      "date": "03-09-2026 03:50 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Turn Google Docs, PDFs, and Word files into video summaries in Google Vids",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/turn-google-docs-pdfs-and-word-files-into-video-summaries-in-Google-Vids.html",
+      "summary": "Google Vids now allows you to transform static Google Docs, PDFs, and Word files into engaging video summaries. This new feature leverages AI to generate scripts and narration while providing custom v",
+      "date": "03-09-2026 03:23 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-desktop-update.html",
+      "summary": "The Chrome team is excited to announce the promotion of Chrome 154 to the Beta channel for Windows, Mac and Linux. Chrome 154.0.8037.0 contains our usual under-the-hood performance and stability tweak",
+      "date": "03-09-2026 02:28 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Custom instructions for Gemini in Workspace now available in more apps",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/custom-instructions-for-gemini-in-Workspace-now-available-in-more-apps.html",
+      "summary": "Earlier this year, we introduced the ability for Workspace users to set persistent custom instructions for Gemini in Google Docs. We're now expanding support for these custom instructions to additiona",
+      "date": "03-09-2026 02:22 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Automate Drive, Gmail, and Google Chat actions with new steps in Workspace Studio",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/automate-drive-gmail-and-google-chat-actions-with-new-steps-in-Workspace-Studio.html",
+      "summary": "To help teams automate everyday work and seamlessly connect tasks across Google Workspace, we are introducing four new automation steps in Workspace Studio Flows: Move Drive file, Copy Drive file, Sen",
+      "date": "03-09-2026 02:18 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-ios-update.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 154 (154.0.8037.0) for iOS; it'll become available on App Store in the next few days.You can see a partial list of the changes in the Git log. If you find ",
+      "date": "02-09-2026 11:43 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 154 (154.0.8037.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, ch",
+      "date": "02-09-2026 10:43 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% - TechSpot",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ1hDMFFILVc1WnBnWFRqVlZjU0IxYVRNaHRVVEE3NzlSX2F2T2ljZTE1ZUlVRVdGMXVYbVV1ZWY1Um9oREZyX0dQeUtpM3FKNWU3Q01KeVhMbjI0Sm50NGs2d0VzUjVqZjdfVWliTmtxNUd5WFNRUEZyNGJBSEVkYnhuVjQ1NV9YTEpZRkZ3Tm5Ld0tkcW1Ib0doY254alZMRnc?oc=5",
-      "summary": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% TechSpot",
-      "date": "02-09-2026 04:07 PM"
+      "title": "Anthropic's New Claude Fable 5.1 and Mythos 5.1 Update: What's New? - Blockchain Council",
+      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT185anNsLUsxU0hSdlZidGFZYVkwbWxmTDlqWHV2YjJYYTIyaVhQQmRKSFhfOUlIMkJmQU1wUzNiVUVJeE1iVkRSMTNELWFtQ3M1YVhraExwSW9xRUNZMmxQNGFYQS1MZUpMWDRmaFZ5X1Y4YWRtaVc3QkZCVmNkLU1ZYnNPNFI0a0sxS2NKRXFHSjdzeV95UFVfNnR6Y1E3?oc=5",
+      "summary": "Anthropic's New Claude Fable 5.1 and Mythos 5.1 Update: What's New? Blockchain Council",
+      "date": "02-09-2026 07:49 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -67,22 +131,6 @@
       "date": "02-09-2026 09:00 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/09/beta-channel-update-for-chromeos.html",
-      "summary": "The Beta channel is being updated to OS version 16765.38.0 (Browser version 152.0.7977.74) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugVisi",
-      "date": "02-09-2026 08:18 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop.html",
-      "summary": "The Stable channel has been updated to 152.0.7977.75/.76 for Windows and Mac and 152.0.7977.75 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is availa",
-      "date": "02-09-2026 06:53 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
@@ -93,18 +141,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 - firstpost.com",
+      "title": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 - Firstpost",
       "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNzNjakdGQU81Q1lfSjNNVXg3dkZqNWs3OFNnWnRNX3R5LWZJQ2dpRUhKS3JOSzBvZmhVLWdhTVlJckFQODU4RVFlY0lIMUItY0huaVFRWnZlVWRBd2dGVkR4V1p1WHRKZTJKVk5DeERMX0tnX0VGbHZWWk1yZmVrTmpLcFdCMlRpMVozS2Z4RjhMNVhmS0hEc0FMZXNzOTBHZDNUaWc1MEluWnU2TXJkc1laajlHYzJwMFJHUFE3SDhIbk5uTlEzbUM4RdIB0AFBVV95cUxNbWRGZ3NRQTlaVXU0UkZvam1GWHV5NG5YT1VKMHNkc1RvUUF2cW5pbXVDVFdDWmdpaU1VeVVHQXRlVkU3LXM3M1pndHhZMDRkYXdpTTZfSDA2bEFhSkxiTmFKc3VkdzV5QVlFZUlLTFg0dlUyOHdRUkdreU1IcXI2OFdYS1dfVzM3RFcyeTBKRTQ4aHlWZXNjODFoM3J1aHEwVHliX25QbzBVNENQalFkZ1dDMlVzZ29yM2JWcTBSTlZZYlNPdVFLVGlMYWRBeUxh?oc=5",
-      "summary": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 firstpost.com",
+      "summary": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 Firstpost",
       "date": "02-09-2026 05:38 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": ":Claude: Fable 5.1 and Mythos 5.1 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": ":Claude: Fable 5.1 and Mythos 5.1 Anthropic",
-      "date": "02-09-2026 04:01 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -115,30 +155,6 @@
       "date": "02-09-2026 02:03 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Transitioning Google Meet room hardware to focus on Android (AOSP), ongoing ChromeOS support unchanged and up to September 2030",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/transitioning-google-meet-room-hardware-to-focus-on-Android-AOSP-ongoing-ChromeOS-support-unchanged-and-up-to-September-2030.html",
-      "summary": "We're transitioning our Google Meet hardware portfolio from ChromeOS to Android to deliver features faster, broaden device choices, and increase flexibility. We're working closely with hardware partne",
-      "date": "02-09-2026 01:34 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Add co-presenters in Google Meet with one click",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/add-co-presenters-in-google-meet-with-one-click.html",
-      "summary": "Previously, adding a co-presenter in Google Meet required multiple manual steps. Now, Gemini will intelligently suggest a co-presenter in the Ask Gemini in Meet panel, and with just one click, a user ",
-      "date": "02-09-2026 01:28 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Stable for iOS Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update.html",
-      "summary": "Hi everyone! We've just released Chrome Stable 153 (153.0.8010.24) for iOS; it'll become available on App Store in the next few hours.This release includes stability and performance improvements. You ",
-      "date": "02-09-2026 01:13 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Improving our alignment and security practices - Anthropic",
@@ -147,36 +163,20 @@
       "date": "01-09-2026 08:43 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - August 28, 2026",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/weekly-recap-08-28-2026.html",
-      "summary": "Now available: A refreshed user interface for Google Meet hardware touch controllers on Neat and Poly devicesOn August 26, 2026, we are officially launching our updated user interface for Neat touch c",
-      "date": "29-08-2026 08:08 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Gemini-based data classification in Google Drive is now available in open beta",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/gemini-based-data-classification-in-Google-Drive-is-now-available-in-open-beta.html",
-      "summary": "Gemini-powered AI classification in Google Drive is now available in open beta.By automating file identification and labeling across Drive, AI classification helps organizations enforce granular data ",
-      "date": "29-08-2026 07:51 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "http://chromereleases.googleblog.com/2026/08/long-term-support-channel-update-for_0697002765.html",
-      "summary": "A new LTS-144 version 144.0.7559.261(Platform Version: 16503.94.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including:516715010 High CVE-2026-76033",
-      "date": "28-08-2026 10:46 AM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
+      "summary": "OpenAI makes ChatGPT less 'human' for teens in new safety update BBC",
+      "date": "18-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
-      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
-      "date": "13-08-2026 05:00 PM"
+      "title": "ChatGPT: What's Free In 2026 And What Isn't? - Engadget",
+      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5ET0VxQzlFb0cyWUE3TXpDM3RTZWYyNmNfSm1mLUJLMUZNWlZlN3l0UEhRcm5rYklhTWlCcUJ1b2N5Ym1Xc0hrT0hia2FzYXo5bWZRR0pCNDZpcFpjUkJYTlJ6S1RLOWJjRTZsMQ?oc=5",
+      "summary": "ChatGPT: What's Free In 2026 And What Isn't? Engadget",
+      "date": "12-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -185,6 +185,14 @@
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
       "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
       "date": "12-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI makes major upgrades for free and paid ChatGPT users. Here's what they are - Axios",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9YNDQ0UTI4Rkl6V0FCWGhicUVOZzEtQTYzQ2hoMFhVaU51enIzektWNHhxajhaWGJWRm1jSExSLWt4X1NZYjJsbk8wWDZNekZvdWt3XzlfdWlfYmVwZGs4aXoxWmZIVlFEbXI5ZzRwdl9MRy1wX09yWkE3VQ?oc=5",
+      "summary": "OpenAI makes major upgrades for free and paid ChatGPT users. Here's what they are Axios",
+      "date": "06-08-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -197,10 +205,26 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
-      "date": "24-07-2026 05:00 PM"
+      "title": "Why teens deserve access to safe AI - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBtQWV2Si04ekxFTXhlaExTV0lpT245S0stWE1rSkxvVzM4ZzhNaktzY1VMMFhGQnlfYkNOUnNIVHF2eVp4a2lYOGhqUk56SXk2Uy01eUl4b2FLMlZFc0FTT3Z0ZWZfbnFNTGc?oc=5",
+      "summary": "Why teens deserve access to safe AI OpenAI",
+      "date": "16-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft Patch Tuesday for July 2026 \u2014 Snort rules and prominent vulnerabilities - blog.talosintelligence.com",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mZjBJTDZ2c1JQaGIzSVlZdjlkUlBCWEcxcUI1SVZtSXFTLW5NVXp0Mm0xUzVPdUVwaUNEeDVCMkNxeUY4Rl84TjBCeFkyeVZ1ZWh6OV91Wi1jYVdwMDhKQ2p6bFZLa1hqT242a1dzV1ZuTHhMSVpKMA?oc=5",
+      "summary": "Microsoft Patch Tuesday for July 2026 \u2014 Snort rules and prominent vulnerabilities blog.talosintelligence.com",
+      "date": "14-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI unveils long-awaited \"super app\" as rivalry with Anthropic intensifies - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wemJKWTFORXd6YmVORDljMUFEUGZmMlllRmlfX0lSRGpicmFuRmQ2NFNwV0hNWnhrZmZsamZGMXYyM1JGemZ0ODBnaXo0anRwZk81RzA3ZmY2VkZMYnVld2dHQV9FUFNEYjd3Sy1HNmUtdnRIbkx6Mnc0ZDVfQQ?oc=5",
+      "summary": "OpenAI unveils long-awaited \"super app\" as rivalry with Anthropic intensifies Reuters",
+      "date": "09-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -237,14 +261,6 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Copilot Cowork is now generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
-      "summary": "Copilot Cowork is now generally available Microsoft",
-      "date": "16-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
@@ -257,14 +273,6 @@
       "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMGlYMFlOMkg0YkZBVEUzNXotU2xNNWVGYmJZekc4bWZ3U3pvUmpfUnhTazNLUTQ1V211TnZfVlZGNkdFR1J1bG96eExwdXljSUI5R3dvWDNJdGMtMzZCN3ZpZUVYaTVYbWRyMnFTdnEtczJqTHlWLTBVZkFReVFrYmZFZE9ueDRz?oc=5",
       "summary": "Microsoft Office 2019 For Mac Is About To Lose Key Features: What Users Need to Know Ubergizmo",
       "date": "10-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
-      "date": "03-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -283,6 +291,14 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "29-05-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -291,19 +307,11 @@
       "date": "28-05-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
-      "summary": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount Decrypt",
-      "date": "14-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "title": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System - CMSWire",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWkdSVWp5OTU2ckNncmtJVzJBY0wzMXhUYU5VcWpzcEVjOUt4VE40MnBiTGxOTzJKUTN0T28xQWtQd1FxejNBN2pXbC1sU04yUVBSWmpDNnhBVl9VVHJaemNlQnM5dWxmMTYzZGtCVjBGVzJNbld4ZE5GbWh2ZEticDJWdTBlVmF2?oc=5",
+      "summary": "Canva AI 2.0 Turns the Design Platform Into an Agentic Creative System CMSWire",
       "date": "16-04-2026 05:00 PM"
     },
     {
@@ -313,14 +321,6 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "Canva releases first major update to its free Affinity software CG Channel",
       "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "An update on our mental health-related work - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1tV3ozN3lKTjJySlFtZUVHWmJleUhHZ2lHZ2ZoTnNHc0lfNTRPYk9CZEVkd0ZEcTVXYU9IT0VyeWJlcmtQenhwX1ZKeUo4ZGlWRTVhNmlVOERXNG8tQlpRQi1ZVDVHYWN0LVpaSUpfaw?oc=5",
-      "summary": "An update on our mental health-related work OpenAI",
-      "date": "27-02-2026 06:00 PM"
     }
   ]
 }

@@ -1,7 +1,84 @@
 {
-  "last_updated": "02-09-2026 10:11 PM",
+  "last_updated": "03-09-2026 08:57 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-59822",
+      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an ar",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
+      "vendor": "BerriAI",
+      "product": "LiteLLM",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-48710",
+      "description": "Kludex Starlette \u2014 Kludex Starlette contains a HTTP request/response smuggling vulnerability that could allow attackers to inject paths into the host part, prepending the actual path leading to issues such as authentica",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-48710",
+      "vendor": "Kludex",
+      "product": "Starlette",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-49869",
+      "description": "Kestra Kestra OSS \u2014 Kestra OSS contains an OS command injection vulnerability that could allow an unauthenticated remote attacker to create and execute arbitrary workflows without credentials.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-49869",
+      "vendor": "Kestra",
+      "product": "Kestra OSS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-82329",
+      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an improper authentication vulnerability that under default configuration can allow an unauthenticated attacker with network access to obtain administrative privileges. ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-82329",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-9586",
+      "description": "Sangoma Switchvox \u2014 Sangoma Switchvox contains a SQL injection vulnerability which allows an unauthenticated remote attacker to execute arbitrary SQL statements against the backend PostgreSQL database using a single craf",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-9586",
+      "vendor": "Sangoma",
+      "product": "Switchvox",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-83548",
+      "description": "SonicWall SMA1000 Appliances \u2014 SonicWall SMA1000 Appliances contains a server-side request forgery vulnerability that could allow a remote unauthenticated attacker to gain unauthorized access to sensitive functionality and perform ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-83548",
+      "vendor": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-83549",
+      "description": "SonicWall SMA1000 Appliances \u2014 SonicWall SMA1000 Appliances contains an OS command injection vulnerability that could enable a remote authenticated attacker as administrator to execute arbitrary OS commands, resulting in remote cod",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-02",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-83549",
+      "vendor": "SonicWall",
+      "product": "SMA1000 Appliances",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-82078",
       "description": "PaperCut NG/MF \u2014 PaperCut NG/MF contains an unsafe reflection vulnerability that allows an attacker to manipulate system configuration parameters and execute arbitrary Java bytecode residing on the application classpa",
@@ -33,83 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
       "vendor": "ownCloud",
       "product": "ownCloud",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-53362",
-      "description": "Linux Kernel \u2014 Linux Kernel contains an unspecified vulnerability that can allow for privilege escalation via IPv6 networking subsystem. This vulnerability can impact multiple products, including but not limited to ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53362",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-66384",
-      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an improper limitation of a pathname to a restricted directory vulnerability. This can allow an authenticated user to write data outside the intended Docker cache path under",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-66384",
-      "vendor": "JFrog",
-      "product": "Artifactory",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2021-23758",
-      "description": "Ajax.NET Professional Ajax.NET Professional \u2014 Ajax.NET Professional (AjaxPro) contains a deserialization of untrusted data vulnerability that could allow for remote code execution via arbitrary .NET classes. The impacted product(s) could be end-o",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2021-23758",
-      "vendor": "Ajax.NET Professional",
-      "product": "Ajax.NET Professional",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2015-3246",
-      "description": "Red Hat Libuser \u2014 Red Hat libuser contains a race condition vulnerability that allows authenticated local users to corrupt the /etc/passwd file to cause a denial of service or privilege escalation. ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-3246",
-      "vendor": "Red Hat",
-      "product": "Libuser",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2015-5287",
-      "description": "Red Hat Automatic Bug Reporting Tool \u2014 Red Hat Automatic Bug Reporting Tool (ABRT) contains a privilege escalation vulnerability that could allow local users with certain permissions to gain privileges via a symlink attack on a file with a",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-5287",
-      "vendor": "Red Hat",
-      "product": "Automatic Bug Reporting Tool",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2022-0995",
-      "description": "Linux Kernel \u2014 Linux Kernel contains an out-of-bounds memory write vulnerability which could allow a local user to gain privileged access or cause a denial of service on the system.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2022-0995",
-      "vendor": "Linux",
-      "product": "Kernel",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-8452",
-      "description": "Citrix NetScaler ADC and NetScaler Gateway \u2014 Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability which could lead to denial of service. ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-26",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-8452",
-      "vendor": "Citrix",
-      "product": "NetScaler ADC and NetScaler Gateway",
       "ransomware": "Unknown"
     }
   ]
