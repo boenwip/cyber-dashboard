@@ -1,5 +1,5 @@
 {
-  "last_updated": "03-09-2026 12:14 PM",
+  "last_updated": "03-09-2026 05:17 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "03-09-2026 12:14 PM"
+      "date": "03-09-2026 05:17 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "03-09-2026 12:14 PM"
+      "date": "03-09-2026 05:17 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "03-09-2026 12:14 PM"
+      "date": "03-09-2026 05:17 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "03-09-2026 12:14 PM"
+      "date": "03-09-2026 05:17 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.251",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.251",
       "summary": "What's changed Added PreModelSwitch and PostModelSwitch hook events (block, confirm, or annotate a model switch); SessionStart resume hooks now receive session staleness and the estimated re-cache cos",
-      "date": "03-09-2026 12:14 PM"
+      "date": "03-09-2026 05:17 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -109,14 +109,6 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic's New Claude Fable 5.1 and Mythos 5.1 Update: What's New? - Blockchain Council",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOT185anNsLUsxU0hSdlZidGFZYVkwbWxmTDlqWHV2YjJYYTIyaVhQQmRKSFhfOUlIMkJmQU1wUzNiVUVJeE1iVkRSMTNELWFtQ3M1YVhraExwSW9xRUNZMmxQNGFYQS1MZUpMWDRmaFZ5X1Y4YWRtaVc3QkZCVmNkLU1ZYnNPNFI0a0sxS2NKRXFHSjdzeV95UFVfNnR6Y1E3?oc=5",
-      "summary": "Anthropic's New Claude Fable 5.1 and Mythos 5.1 Update: What's New? Blockchain Council",
-      "date": "02-09-2026 07:49 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% - TechSpot",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ1hDMFFILVc1WnBnWFRqVlZjU0IxYVRNaHRVVEE3NzlSX2F2T2ljZTE1ZUlVRVdGMXVYbVV1ZWY1Um9oREZyX0dQeUtpM3FKNWU3Q01KeVhMbjI0Sm50NGs2d0VzUjVqZjdfVWliTmtxNUd5WFNRUEZyNGJBSEVkYnhuVjQ1NV9YTEpZRkZ3Tm5Ld0tkcW1Ib0doY254alZMRnc?oc=5",
       "summary": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% TechSpot",
@@ -149,10 +141,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads - VentureBeat",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaWthd1kzYVd1aVdMV05kS1JTUFFCRGdhalRUOXlyUE5nVVJPMURrSGZ1SzdBMkw2eG5CLTJQZnRPSEp5QzR3T0x1SG9TRlFGa0h3NUVDNVZ6b0U2VGJhcHJPZ2g1MnptckE5dUd1dnZ3REpyMXg3RnQ1eHJCME1JTEhiVVVteFMyTVlWaW56RDZMc2ozV3NtZzc4ODk1NW10MGM4dUNBX0VBLUhPcjR1YW1BUTBjdC1vTHB1cUpyVTFsdmpZRFlnV0RQQQ?oc=5",
-      "summary": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads VentureBeat",
-      "date": "02-09-2026 04:41 AM"
+      "title": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 - Firstpost",
+      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPNzNjakdGQU81Q1lfSjNNVXg3dkZqNWs3OFNnWnRNX3R5LWZJQ2dpRUhKS3JOSzBvZmhVLWdhTVlJckFQODU4RVFlY0lIMUItY0huaVFRWnZlVWRBd2dGVkR4V1p1WHRKZTJKVk5DeERMX0tnX0VGbHZWWk1yZmVrTmpLcFdCMlRpMVozS2Z4RjhMNVhmS0hEc0FMZXNzOTBHZDNUaWc1MEluWnU2TXJkc1laajlHYzJwMFJHUFE3SDhIbk5uTlEzbUM4RdIB0AFBVV95cUxNbWRGZ3NRQTlaVXU0UkZvam1GWHV5NG5YT1VKMHNkc1RvUUF2cW5pbXVDVFdDWmdpaU1VeVVHQXRlVkU3LXM3M1pndHhZMDRkYXdpTTZfSDA2bEFhSkxiTmFKc3VkdzV5QVlFZUlLTFg0dlUyOHdRUkdreU1IcXI2OFdYS1dfVzM3RFcyeTBKRTQ4aHlWZXNjODFoM3J1aHEwVHliX25QbzBVNENQalFkZ1dDMlVzZ29yM2JWcTBSTlZZYlNPdVFLVGlMYWRBeUxh?oc=5",
+      "summary": "Anthropic bets on lower costs and stronger coding with Claude Fable 5.1 and Mythos 5.1 Firstpost",
+      "date": "02-09-2026 05:38 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -171,12 +163,12 @@
       "date": "02-09-2026 02:03 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT For IPhone Adds Quick Photo Access With New Long Press Feature - Dataconomy",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNR2JlcF81TTJaUG03UlJoV0cyaTR1czBpSm94ci1BT1NPTUZNVDg3YWpweWVBWjVXUjBCSGVkY1YtUUtoZlotNmRmZnNweXVkU0VGT1c5UFRZOVZ5WXJQaVJLeEtzbzVtU3hGOXVqY0tBX0x2bkt1WW91S3NPQXVwd0x2LUJ0NzFYMmlHSzltU21jZExOMFE?oc=5",
-      "summary": "ChatGPT For IPhone Adds Quick Photo Access With New Long Press Feature Dataconomy",
-      "date": "25-08-2026 01:11 AM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Improving our alignment and security practices - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
+      "summary": "Improving our alignment and security practices Anthropic",
+      "date": "01-09-2026 08:43 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -203,6 +195,14 @@
       "date": "30-07-2026 11:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "Launching Health in ChatGPT openai.com",
+      "date": "23-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft Patch Tuesday for July 2026 \u2014 Snort rules and prominent vulnerabilities - Cisco Talos Blog",
@@ -219,28 +219,20 @@
       "date": "25-06-2026 11:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "Microsoft 365: A guide to the updates Computerworld",
-      "date": "21-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft Office to Enter Read-Only Mode for Millions of Apple Users Unless They Upgrade - finance.biggo.com",
-      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4zbUJBV3lkQlNFbGFEbDVXMGxOQlRXS0xhamJOV0hQSG5HTmk4Nk9EYi1oYVJOOUVXaUJUZ3FRYWVwbDI2SFJDY0VJekk0a3duZDgwYzlQYktPV0xKRXFZeFk2Vi1qUlR0ZlAxSjdGUnNTNWpmd3c?oc=5",
-      "summary": "Microsoft Office to Enter Read-Only Mode for Millions of Apple Users Unless They Upgrade finance.biggo.com",
-      "date": "20-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot Cowork is now generally available",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Co",
       "date": "17-06-2026 01:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Copilot Cowork is now generally available - Microsoft",
+      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNYl95X2hIN1lFYnFNM0EtVUtOWlJrQWp2Q25CWDFlR3VxdFF4dlZxY3FQX0V0emd5dFQ3UDZjWWRQNUpnR3VpNzRLUUpENXBvYVprQ1RhQkw0SkVwcmZDR0pHbFhQNVR5RHlhRjNuak5NWU9jclBXTkpVeXU0NUlMeHc0T3pMYXpuT1Z6azNNcjJlT294dzQyaUxFNHhTekNhQjNWOXppNA?oc=5",
+      "summary": "Copilot Cowork is now generally available Microsoft",
+      "date": "16-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -269,9 +261,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - infoworld.com",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
+      "summary": "OpenAI fixed a visibility problem; the governance problem remains. infoworld.com",
       "date": "03-06-2026 05:00 PM"
     },
     {
@@ -307,6 +299,14 @@
       "date": "17-04-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 explained: Office 365, rebranded and expanded - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFB1NVhnUUh0ck43dFJSZVl3RUhvVk01YldlYmQ2a2szcEp4NnRUMy1BbURzUzB0Y0V1RjRFdWktcG1FWmVMQjdqVDB1X0RZelA3WE5WREdBcXBaS01JRUVLQjFobm5tcG0yd2FaZ1JQMVZIT2s0NF9OYXJOWkdNTWM?oc=5",
+      "summary": "Microsoft 365 explained: Office 365, rebranded and expanded Computerworld",
+      "date": "03-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva releases first major update to its free Affinity software - CG Channel",
@@ -317,10 +317,10 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Health - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1NN182QVdKeERlaTBWeVNNdTlUY19MNGVZZ1VzeEVhY3FIU1d2SHRLejJpMENpbnFWclYyZTFkb2NWR21Lc1NCVkUwZXVIdGhHeUxTV3RyWkd5WnFIRnJUNFhB?oc=5",
-      "summary": "Introducing ChatGPT Health OpenAI",
-      "date": "07-01-2026 06:00 PM"
+      "title": "Testing ads in ChatGPT - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE4zUlNhZkVjeklPMVIwR0V4dWU2SEx5Z1B3VklwcTRmOFdWWkZRRjNhc1ppNG1tU1lwcm1wRk10MnI1Xy1MM01TVXN4SDVtQlRybWJ1MUFjdXRJZHk2?oc=5",
+      "summary": "Testing ads in ChatGPT openai.com",
+      "date": "09-02-2026 06:00 PM"
     }
   ]
 }
