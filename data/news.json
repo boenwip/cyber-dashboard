@@ -1,7 +1,95 @@
 {
-  "last_updated": "03-09-2026 09:54 AM",
-  "count": 51,
+  "last_updated": "03-09-2026 12:14 PM",
+  "count": 46,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike expands Anthropic & OpenAI ties, names Sekuro",
+      "link": "https://securitybrief.com.au/story/crowdstrike-expands-anthropic-openai-ties-names-sekuro",
+      "summary": "Falcon will be sold through Claude Marketplace and linked to Codex agents, as CrowdStrike widens its reach across enterprise AI buyers.",
+      "date": "03-09-2026 11:54 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SEON partners Exist Software Labs on fraud tools in Asia",
+      "link": "https://securitybrief.com.au/story/seon-partners-exist-software-labs-on-fraud-tools-in-asia",
+      "summary": "The deal gives banks and fintechs in the Philippines and Southeast Asia wider access to fraud checks as online transactions surge.",
+      "date": "03-09-2026 11:30 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Nutanix adds Azure Virtual Desktop support for AHV",
+      "link": "https://securitybrief.com.au/story/nutanix-adds-azure-virtual-desktop-support-for-ahv",
+      "summary": "Organisations can now keep desktop workloads on premises while still using Microsoft's cloud control plane, easing compliance and latency concerns.",
+      "date": "03-09-2026 11:09 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Yubico expands OpenAI partnership to Australia as hardware-backed passkey mandate begins",
+      "link": "https://australiancybersecuritymagazine.com.au/yubico-expands-openai-partnership-to-australia-as-hardware-backed-passkey-mandate-begins/?utm_source=rss&utm_medium=rss&utm_campaign=yubico-expands-openai-partnership-to-australia-as-hardware-backed-passkey-mandate-begins&utm_source=rss&utm_medium=rss&utm_campaign=yubico-expands-openai-partnership-to-australia-as-hardware-backed-passkey-mandate-begins",
+      "summary": "Yubico has expanded its partnership with OpenAI into Australia and nine other countries as OpenAI begins requiring hardware-backed passkeys for members of its Trusted Access for Cyber (TAC) program. OpenAI\u2019s [...]",
+      "date": "03-09-2026 11:04 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Claroty named leader & customer favourite by Forrester",
+      "link": "https://securitybrief.com.au/story/claroty-named-leader-customer-favourite-by-forrester",
+      "summary": "Forrester's top ranking comes as industrial operators face rising ransomware and espionage threats across connected critical infrastructure.",
+      "date": "03-09-2026 10:11 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Yubico expands OpenAI passkey partnership to Australia",
+      "link": "https://securitybrief.com.au/story/yubico-expands-openai-passkey-partnership-to-australia",
+      "summary": "Australian users of OpenAI's security programme will now need hardware-backed passkeys, as older sign-in methods are disabled for higher-risk accounts.",
+      "date": "03-09-2026 09:55 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Dark Reading",
       "title": "AI\u2019s Vulnerability Surge May Be More Manageable Than First Feared",
@@ -57,34 +145,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "AI closes vulnerability window as zero-day exploits surge",
-      "link": "https://securitybrief.com.au/story/ai-closes-vulnerability-window-as-zero-day-exploits-surge",
-      "summary": "Machine-speed discovery is shrinking defenders' lead time, as AI now uncovers obscure flaws and turns them into exploits before patches land.",
-      "date": "03-09-2026 01:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "OLD PRINCES HIGHWAY, MONARTO (Fire Alarm) - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNWlMN0dwODN2V3pSaHVqOXhXT2pSeDZyRy0zWUxqYkwxb0l3c3pCT0EtZnFDc2ZnbUg5ZEtmNXI1eUdlWHR0c0JkbDdVQlR5TU93UjRTaE1VQklEclcyV1RFbWViajJ3YTlTcVN6XzQtaDl0RGxGbG56Uzh0cmVGSS1Sc3drVU5M?oc=5",
-      "summary": "OLD PRINCES HIGHWAY, MONARTO (Fire Alarm) abc.net.au",
-      "date": "02-09-2026 11:39 PM",
-      "tags": [
-        "RTO / VET"
-      ],
-      "threat": "High",
-      "audience": [
-        "SMB"
-      ],
-      "relevance": "Direct"
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #851 -- Agents are just ones and zeros, and tigers are just atoms",
       "link": "https://risky.biz/RB851/",
@@ -131,21 +191,6 @@
       "relevance": "Sector"
     },
     {
-      "source": "Krebs on Security",
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
-      "date": "02-09-2026 08:40 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
       "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
@@ -185,19 +230,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Chanel Contos says consent education 'not an attack' on men and boys - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRjlWYTdkZlhnVWJCNWZiUnVzSEJtdnRydGllcFRkeVoxazhwVU5hUDUwazhyNm8wNXkyUlgwQW9Rb3J4cUJ4LURuWWs2QlYweG16bFZVRnZQc0xLbWIxdHRXaE90NFhOaUdUNU1xWFViaUo4N25Qb2ZaUHBPdERobVdyRDBhSmxVWUp5ZEQ2UEZFTlk?oc=5",
-      "summary": "Chanel Contos says consent education 'not an attack' on men and boys abc.net.au",
-      "date": "02-09-2026 04:43 AM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     },
     {
       "source": "Dark Reading",
@@ -242,32 +274,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "What privacy act changes could mean for you - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWEtWXzd2bzJFZ2FJOVRWdmhmaExoV3Zjb29HSF9LYld2Z1gtaXc2ODM3RUdHbGxzYVpQX1ZSRWhQa3BRdXktbkxnQTEzamdycXVheWlpRlFFYklFSmVQczVVNWNTWWpaS0xnWkVWbzk0T3JQVFRQQ0RNTHhBQmItNDRvNkVMN1A3SFpoZ1RJckI3U3VuRlVhSUE3UHZWZzY2N1RzS0dobjlEZFhNZUpNZGxyTXIwdVE?oc=5",
-      "summary": "What privacy act changes could mean for you abc.net.au",
-      "date": "01-09-2026 06:50 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "US-Venezuela oil deal met with scepticism - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUnJyUS1EVWUwYktGa0ZZU1QyelppWUM3SzlyODJJQWFWa1FtbXM5RHhhZ29WR1RtOEpCQks2YzZ1LS1CeDdxS3MtUk5RRWpNSGVwcFB5cFZ5cmRwT2pLbGtzOGJkZU5NSEN4ejZ2Z1AyMlNOMC1wZVlBRnhpVHZFdzFuV3FZdnlkeWdUZ0hOeUNJNWc?oc=5",
-      "summary": "US-Venezuela oil deal met with scepticism abc.net.au",
-      "date": "01-09-2026 06:15 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "AI Model Rules Are Not Security Controls",
       "link": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
@@ -288,34 +294,6 @@
       "link": "https://www.404media.co/how-cyber-sleuths-tracked-a-nigerian-scammer-to-his-doorstep/",
       "summary": "Erin West and Paul Raffile went to Nigeria to track down a scammer. They found much more than just his identity.",
       "date": "31-08-2026 10:21 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Proposed changes to privacy laws unveiled - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQMV84dmh3V2hGbnpBSDFjOGNUWng3cTFWSzdQaW5STmYydnBWQS1PakFSVFVQN2I0YVNwc2R6aEVlV0J5ZU50YWpaalV3LVJVcHhDN0pVeGJEMnQtZzJDZTh1eEJVOHZMak1WbkFCLWJzOGFuS0pXRS1uUlhubFZSaEdNc0Q2am9ZT1Q5RGdkbUVRWEN2VFNveVhVU3hPbEVqeGFN?oc=5",
-      "summary": "Proposed changes to privacy laws unveiled abc.net.au",
-      "date": "31-08-2026 01:25 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOMWRITjZIelpjOXlwRmg1Mnk5UmRzQmQ2SUZQZ2FDS2F5UkZkNzJEcHpRTDFZd1BneURiSVktaXgxWHZJcGlFdHd0Qm04OU4wd0pXSVpMTWx4RDFHU3A2UUwzaERvNEZIaElOeHB0MEVIdDJhSk51QUowS1Y2XzdaNzVQNWlWWDNRQlNmeXY1eGpYTkxKVFFtYXUtOXc4SjU3U2RPaFJZcGhzY3BvYllhUW0xWFhXc2RJT3lBYnVoSVkyc2N5QWEwUFR4cjNQMC0wNThQWEZ3RzVWd19OREFUX05OQjcxazVkSFhNcG1vMU5iM3FCal9YV21IczZyeWFJWW9NX1BfTURQNUszSWs3VnFOT2EtckxOREh6cHpnY0hwVEd1d285dVhVTkxDSDFnZlQ0bVlCWng2UUQzVTlB?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
-      "date": "29-08-2026 10:59 PM",
       "tags": [
         "Scams"
       ],
@@ -405,21 +383,6 @@
       "threat": "Advisory",
       "audience": [
         "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Two Alleged \u2018TeamPCP\u2019 Hackers Arrested in Australia",
-      "link": "https://krebsonsecurity.com/2026/08/two-alleged-teampcp-hackers-arrested-in-australia/",
-      "summary": "Authorities in Australia have arrested two men believed to be members of TeamPCP, a prolific cybercrime and data extortion group blamed for perpetrating the longest running spree of software supply chain attacks ever. In a statement released today, the Australian Federal Police (AFP) said two unname",
-      "date": "27-08-2026 09:04 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "High",
-      "audience": [
-        "Enterprise"
       ],
       "relevance": "AU General"
     },
@@ -686,34 +649,6 @@
         "Enterprise"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Quest Apartment Hotels confirms customer data breach linked to third-party vulnerability",
-      "link": "https://australiancybersecuritymagazine.com.au/quest-apartment-hotels-confirms-customer-data-breach-linked-to-third-party-vulnerability/?utm_source=rss&utm_medium=rss&utm_campaign=quest-apartment-hotels-confirms-customer-data-breach-linked-to-third-party-vulnerability&utm_source=rss&utm_medium=rss&utm_campaign=quest-apartment-hotels-confirms-customer-data-breach-linked-to-third-party-vulnerability",
-      "summary": "Quest Apartment Hotels has confirmed a data breach involving customer information after unauthorised access was detected in a database system, with the incident traced to a vulnerability involving a third-party [...]",
-      "date": "20-08-2026 11:59 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC warns of active exploitation targeting N-able N-central in Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-active-exploitation-targeting-n-able-n-central-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-active-exploitation-targeting-n-able-n-central-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-active-exploitation-targeting-n-able-n-central-in-australia",
-      "summary": "The Australian Cyber Security Centre (ACSC) has issued a high alert warning that it is aware of active exploitation in Australia of vulnerabilities affecting N-able N-central, a remote monitoring and [...]",
-      "date": "20-08-2026 10:02 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "AU General"
     }
   ]
 }
