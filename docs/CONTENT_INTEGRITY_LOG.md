@@ -4,6 +4,54 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-03 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json` generated 03-09-2026 10:11 PM, following the 22:11 AEST feed commit).
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 03-09-2026 10:11 PM)
+Two factual claims plus the featured story checked against their `news.json` source articles and independent WebSearch:
+- **"SonicWall reporting education is now the hardest-hit industry for cyber attacks"** — supported. Matches its Dark Reading/Security Brief Australia source ("Education hit hardest by cyber attacks, SonicWall says"). Independently corroborated (Intelligent CISO, PR Newswire): SonicWall's H1 2026 report found education has the highest per-device intrusion-prevention hit rate (81,879 hits/device) of any tracked sector, plus the highest per-device malware rate. No overstatement.
+- **🚩 CONFIRMED, significant: "Cambodia job lures deploy SparkRAT" claim is fabricated — not supported by its own source or independent reporting.** Briefing says: *"a malware campaign linked to fake job lures from Cambodia is spreading a harmful program called SparkRAT — Australians should be cautious about unsolicited job offers or links received online,"* with the practical tip telling readers to "verify job offers... before clicking any links." The cited `news.json` source (Security Brief Australia, "Cambodia lures deploy SparkRAT in stealthy malware campaign") says only that attackers "hid SparkRAT inside Cambodian-themed files" — no mention of jobs anywhere. Independent corroboration (Acronis's own research post via WebSearch, The Hacker News) confirms the actual lure themes were **Cambodian government notices, public health announcements, dental examination records, real estate documents, and promotional offers** — not job offers or recruitment lures at all. This is a clear hallucination introduced during briefing generation: a specific, concrete-sounding attribution ("fake job lures") invented wholesale, not present in the source and contradicted by independent reporting. It's also actively unhelpful as written — a reader who takes the briefing's own advice ("watch out for job offers") is being steered away from the actual threat (opening unexpected Cambodia-themed file attachments/archives), which is a real "appeal with truth" failure, not just an omission. Direct WebFetch of the primary Acronis/Hacker News reporting was attempted for full confirmation but blocked by egress (see item 2) — resting on WebSearch synthesis of those sources plus the `news.json` source's own text, which is unambiguous on its own already (no job-related wording anywhere in title or summary).
+- **Featured story ("Altimetrik wins AWS generative AI specialisation")** — accurate to its Security Brief Australia source (RSS-summary paraphrase, no invented claims), but it's a vendor-award/partnership PR piece with no real news value to either audience — a plain, non-lucky manifestation of the standing "Today's Story has no relevance/substance guard" issue (source_count 1, i.e. the fallback path with nothing to cluster against, picked whatever was newest regardless of substance). Unlike most prior runs where the fallback happened to land on something substantive, today it visibly didn't.
+
+### 2. Paywall spot-check
+**Not performed.** Egress still blocked — tested `risky.biz` and `www.itnews.com.au` via WebFetch this run (both new domains for this rotation, not tested in recent prior runs); both returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, consistent with a standing policy-level block rather than a transient fault. Same condition as every run since 2026-08-18 (now ~2.5 weeks).
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+No fresh rotation this run (full glossary + all three OWASP lists + Essential Eight were already fully re-read as of the 2026-09-02 morning entry). Directly re-read the standing flagged passages to confirm they're still unchanged:
+- `definitions.js` — Business Email Compromise ("hundreds of millions" FY2024-25 loss claim), Patch ("two weeks for others" Essential Eight timeframe), Supply Chain Attack ("thousands of organisations worldwide" SolarWinds claim), Brute Force Attack ("billions of years" claim) — all four unchanged, byte-for-byte same wording as last run.
+- `reference.html` — OWASP A01 "94%" / A02 "90%" (stale 2021-edition stats on the 2025-edition page), A08 SolarWinds echo, A09 "over 200 days" detection-time stat — all unchanged.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (51 items, generated 03-09-2026 10:11 PM):
+- Junk "Browse news and alerts..." listing-page count: 2/51 (~4%) — improved from the recent 8–18% range, still not fixed at ingest (still present at all).
+- 404 Media (2 items): one on-topic and well-written ("How Cyber Sleuths Tracked a Nigerian Scammer to His Doorstep," correctly tagged Scams), one off-topic (the same standing "Tragedy and Ecstasy of AI Companions" podcast item, still mistagged "AU Cyber" — this exact article has now recurred across multiple runs uncleared from the 14-day storage window).
+- **Security Brief Australia is trending vendor-PR-heavy this run** (9 of 51 items): alongside genuine news (SonicWall education report, Cambodia/SparkRAT, ACSC/TeamCity), it also carries several vendor-announcement pieces with a security angle bolted on — "Altimetrik wins AWS generative AI specialisation," "Jazz launches data loss prevention app on CrowdStrike," "Okta & Deloitte join forces on AI identity controls," "Synology launches first Australia symposium on AI data," "JFrog launches AI-era security tools." None are individually false, but this pattern (worth watching, not yet a blocklist case) skews the feed toward press-release content and is what fed today's weak featured-story pick (see item 1).
+- Otherwise reads well for both audiences — the ransomware insider-recruitment, Anthropic session-hijacking follow-up, and TeamCity exploitation items all carry plain-English framing while staying substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` (Security Brief Australia, Australian Cyber Security Magazine, Dark Reading, Risky Business, Krebs on Security, Google News — ScamWatch, 404 Media, Troy Hunt Blog) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked).
+
+### Needs human attention (priority order)
+1. **NEW, significant: today's live briefing fabricates "fake job lures" as the vector for the Cambodia/SparkRAT malware campaign** — its own cited source and independent reporting both describe the actual lures as government notices, health announcements, dental records, real estate documents, and promotional offers, with no job-related theme at all. The briefing's practical tip ("verify job offers before clicking links") is consequently pointed at the wrong threat. Currently live in `data/briefing.json`. Recommend either editing/removing that briefing item or, longer-term, adding a generation-time check that flags specific nouns/themes (job, employer, recruiter, etc.) not present in the source article before they're asserted as fact. See item 1 above for full detail.
+2. **"Today's Story" fallback logic still has no relevance/substance guard** — today is a clear, non-lucky demonstration: it picked a vendor-partnership PR piece ("Altimetrik wins AWS generative AI specialisation") with zero real news value. `select_trending_article()` in `scripts/fetch_cyber_news.py` unchanged. Carried forward from every prior run since 2026-08-23, now with a concrete bad-pick example to point to.
+3. Supply Chain Attack glossary entry overstates SolarWinds impact by ~2 orders of magnitude (`definitions.js` line 164) — flagged 2026-08-25, still unfixed.
+4. Brute Force Attack glossary entry's "billions of years" password-cracking claim is outdated (`definitions.js` line 185) — flagged 2026-08-25, still unfixed.
+5. Business Email Compromise glossary entry overstates FY2024-25 losses (`definitions.js` line 87) — flagged 2026-08-19, still unfixed.
+6. Patch glossary entry's Essential Eight patching-timeframe claim is stale (`definitions.js` line 108) — flagged 2026-08-29, still unfixed.
+7. `reference.html`'s OWASP A01/A02 stats are stale 2021-edition figures (lines 72, 79) — flagged 2026-08-30, still unfixed.
+8. Egress to publisher/reference domains remains blocked — now spans every run since 2026-08-18 (~2.5 weeks), reconfirmed again this run against two more domains (risky.biz, itnews.com.au). Paywall and dead-source checks remain structurally impossible under the current sandbox network policy. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain list.
+9. Security Brief Australia trending vendor-PR-heavy this run (9/51, several press-release-style items) — not a blocklist issue, but worth a human eye on whether it needs tighter relevance filtering; it's also what produced today's weak featured-story pick (item 2).
+10. Minor (carried forward): A09 "over 200 days" detection-time stat in `reference.html` trending stale — low priority wording tweak.
+
+---
+
 ## 2026-09-02 (AEST) — second run this day (22:11 feed)
 
 Second pass today, against the newest pipeline run (`data/news.json`/`briefing.json` generated 02-09-2026 10:11 PM, following the 22:11 AEST feed commit). This morning's run (below) already completed a full glossary/OWASP/E8 rotation and confirmed the standing backlog unchanged — `git diff` confirms zero changes to `definitions.js`, `reference.html`, or `scripts/fetch_cyber_news.py` since that log commit, so items 4 below are re-confirmed by direct grep rather than fully re-read line-by-line.
