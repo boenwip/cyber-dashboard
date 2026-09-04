@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-09-2026 01:28 PM",
+  "last_updated": "04-09-2026 05:20 PM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "04-09-2026 01:28 PM"
+      "date": "04-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "04-09-2026 01:28 PM"
+      "date": "04-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "04-09-2026 01:28 PM"
+      "date": "04-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "04-09-2026 01:28 PM"
+      "date": "04-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "04-09-2026 01:28 PM"
+      "date": "04-09-2026 05:20 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva rolls out 100Canva rolls out 100+ Visual Suite upgrades with AI charts, full-page Docs and auto notes Visual Suite upgrades with AI charts, full-page Docs and auto notes to - Storyboard18",
+      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQklENUhGRUJPcm03MWk3MllnQXpKMF90MlM0Qm5Mc3o1MnNyVzc2Smc5SVhldVNIeWlnLXhtQklWUXh2VkJJRWt2VXVmUlREY0FiOWVPdUZweW43UUVVZzJYa192S0tROVhwbWRUeW9fQVcxb3A5UjBaZ0NmeXBOZF9sX0dtTmZURmluamxhbmV6b2dGRjdYZzRqcGRqY1c5clNtT1I0WGg2b3doNmNsT3FVejhkWHpmc2VKQ1otcFlnM2ttMDF2bUpyZU5kazNRTUlFUWhB0gHbAUFVX3lxTE1WVjAwWmY2cXU1cy1Ham9kbkV2NHU1SjFaY1VEU2c3WkNjYXFGd3dITGw4Q2laRkNlWFJVREtuczM2X0hYY2NPMnVMM1QxNWFscGlmS2x1MkVRNk00cXkyR1lVSWc2ZGQwRi1OR2ZLdnRNeXoybURsOUpKT0FOUXpTZW0teUtkUFZhWDYzWnM3RWNlTzFjOFBiblJIdll4XzVzZjNSdndZNXhQd2k1T09jWnpHSk9RbnFza3QzdHhiMVhsSHo1OE5jZThiMmhjems0ZWFWZ0RkV3pxdw?oc=5",
+      "summary": "Canva rolls out 100Canva rolls out 100+ Visual Suite upgrades with AI charts, full-page Docs and auto notes Visual Suite upgrades with AI charts, full-page Docs and auto notes to Storyboard18",
+      "date": "04-09-2026 01:31 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -57,6 +65,14 @@
       "link": "http://workspaceupdates.googleblog.com/2026/08/introducing-comprehensive-audit-logs-for-Gemini-Notebook-in-the-Workspace-Admin-console.html",
       "summary": "Google Workspace administrators can now access comprehensive audit logs for Gemini Notebook in the Admin console, providing greater insights into how the application is used across their organizations",
       "date": "04-09-2026 07:48 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week - CNET",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWHRXVzkwUHFULVpUV1VqNFhsNWg5NzRNU1hndzZXN3RoUzJ6NUdqTUpzMnFkdUUzOHBBeERudk5IR1FZYWozWkoyeFpwbDJGR25tNDhFZ1N0anhpNjJaWVg3LVZKUldZYVQwcjBoejhKWmhjb2pFMmVNNDdUX0tjQVdtbUlyYXFXS2lWQ0FURVpZdFJSUTI4bUVRWm9kX25HanIyWjlLaUk3c0pqcUFFQ0lXTWFKU3BBV3BLemxwOUR5STUxenpXWU9nZG0?oc=5",
+      "summary": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week CNET",
+      "date": "04-09-2026 07:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -77,17 +93,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva expands AI push with 100+ Visual Suite upgrades - Fortune India",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNLWM4VHpydnhTdjFwZmU1NHE3N3ZsVHlZTGptWmdORVhqZDVQVHhHQ1JDcldZRU15ZDhxX2FOYlVKZ1RJN0w2UG5Va3RzMGs4Smx0d3p6di12d0N4X2p1aG53UnFtMlNsbll5YmprX1VBRm9XeFNSVWJNVTJfMjZfYWR4WGthcTVNOTRvSl8yMEJRd2RlSmlqaDdFdlJBcWhE0gGuAUFVX3lxTFBETTk0VXhucjc4YnVBdnh0emxUYk0yUzhjMHpYV09JcHU0VWFwX1AxWjdDYVJFbGwxRVM0czFXVU9nbW1xUm5ZaWRHYVFRMVZHMFY4UjJjYWx5UzgtLTgxaVc2YmcwZ0g5YTZYYXBZOTJyVDRUOXMzejE4RHVwN0ppQmxRZHc4UkxPV2dCU0lmU0d2S2lCZzcwbmFZdzhCQUxWTnlvOUJ6NHc5MTh1Zw?oc=5",
-      "summary": "Canva expands AI push with 100+ Visual Suite upgrades Fortune India",
-      "date": "04-09-2026 02:37 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva\u2019s 100 feature milestone stitches Docs and more deeper into the workplace | Business News - hindustantimes.com",
+      "title": "Canva\u2019s 100 feature milestone stitches Docs and more deeper into the workplace | Business News - Hindustan Times",
       "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNNE9Cam5WWmZOb2kzN09sZ3J3SkpVdWk4VGt1Znk0TEVWWTZ5REhvQWFfcWRfVWZTcGxzQTZrVjVUcjV3X21mcEE3QzNDaG40ekY0QURoU0FHOEdHeWJKTHV2ZldSNFIyOF8zZUFBUVhBbDk5dHhHLWZqNDRuVHVXbzVfc1M0QjFlUE0xVllSelNTaEtiZnZnRjRtY3doSlJYQlYwbXc0MkNxQU1qOHNqSXZ3YXh1SDhPTGktbGdoaVkzczlVcjFJbFEyREhvVW93anA2bdIB2gFBVV95cUxNZ3hQRmt2VmlNMTRUWjBjZEhIU2JibGxnclcydFBnU1dackxyVGpEYzhIZ0tmcGJ1eE1YRUpyQWF4UTFXejB4Rm9DMXBWaGlXQk9PNlRsRlpiTk1XMlE5Y1VFMjNicmpmbmlxeUFvZXA5MnJFNFA4cXpnNENyQTd6TmdsMWd1bUJiNThVYU10U0o0YkV4UnFXd2UtT0t4WjdJczBtM2gxZ2c3X2tMZmd6REFBdjg3X3pzS2pTZ2hnak1ZeHhBNm5OT1BZaDZFeWRyWEpScklDaVlEQQ?oc=5",
-      "summary": "Canva\u2019s 100 feature milestone stitches Docs and more deeper into the workplace | Business News hindustantimes.com",
+      "summary": "Canva\u2019s 100 feature milestone stitches Docs and more deeper into the workplace | Business News Hindustan Times",
       "date": "04-09-2026 02:10 AM"
     },
     {
@@ -141,42 +149,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic AI Models Slash Costs by Up to 45% With Fable 5.1 - The Cryptonomist",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DMmlyaXMwQzRPYThsbVE0bXZLOWY5OExxeWt1MWJNTG96RTBxZTE1MmJmOFBfaFpJbW9rNk5mUGk5d0FxMUJGdzlqbDR3dkFHVjlOc3gtc3JFQmtlN0t1bThZcDhoX0ktVGtORmI1eXVnbnJVQXFHaG54aw?oc=5",
-      "summary": "Anthropic AI Models Slash Costs by Up to 45% With Fable 5.1 The Cryptonomist",
-      "date": "02-09-2026 11:36 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% - TechSpot",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ1hDMFFILVc1WnBnWFRqVlZjU0IxYVRNaHRVVEE3NzlSX2F2T2ljZTE1ZUlVRVdGMXVYbVV1ZWY1Um9oREZyX0dQeUtpM3FKNWU3Q01KeVhMbjI0Sm50NGs2d0VzUjVqZjdfVWliTmtxNUd5WFNRUEZyNGJBSEVkYnhuVjQ1NV9YTEpZRkZ3Tm5Ld0tkcW1Ib0doY254alZMRnc?oc=5",
-      "summary": "Anthropic releases Claude Fable 5.1, cuts cached token pricing by 75% TechSpot",
-      "date": "02-09-2026 04:07 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnp1eXc3c2lFVmFzbDZLb3p6aU5JN0lqS2F6SDROdGhyVWV4VU1zOHotLXNmQkhxUUNvbHFicUZxcnBYTzBETkdKZ0ViMUlUS2paTkY5TmZZSzcwM29KRE44UWRIcU5CMldPRUR6U3o1R3RxSlRhQW95VHNqYnYyMjNoY2RuZDV3VjV6NmVEQzg0N1B6bEhvSDM4d0ZOUmxjV2owcmZRdm5mUEVNMG9WT0xxYw?oc=5",
-      "summary": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less the-decoder.com",
-      "date": "02-09-2026 06:33 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads - venturebeat.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOaWthd1kzYVd1aVdMV05kS1JTUFFCRGdhalRUOXlyUE5nVVJPMURrSGZ1SzdBMkw2eG5CLTJQZnRPSEp5QzR3T0x1SG9TRlFGa0h3NUVDNVZ6b0U2VGJhcHJPZ2g1MnptckE5dUd1dnZ3REpyMXg3RnQ1eHJCME1JTEhiVVVteFMyTVlWaW56RDZMc2ozV3NtZzc4ODk1NW10MGM4dUNBX0VBLUhPcjR1YW1BUTBjdC1vTHB1cUpyVTFsdmpZRFlnV0RQQQ?oc=5",
-      "summary": "Anthropic's Claude Fable 5.1 and Mythos 5.1 arrive with a 75% cost reduction for Fable cache reads venturebeat.com",
-      "date": "02-09-2026 04:41 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
       "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Improving our alignment and security practices - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
+      "summary": "Improving our alignment and security practices Anthropic",
+      "date": "01-09-2026 08:43 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -235,12 +219,28 @@
       "date": "30-06-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Sonnet 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE94UjQ1SEhHSWRtZUVlMlZDdHJBbDU1aEFlbzJpV3A1V19NVF9sLVNnbjlkSEcwMV9vZTBUZ0dGdUFybWhHRmRkUVlyVzFTdWo3aFlIaU5wbzlOZw?oc=5",
+      "summary": "Introducing Claude Sonnet 5 Anthropic",
+      "date": "30-06-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/25/copilot-in-excel-built-for-the-era-of-frontier-finance/",
       "summary": "Plenty of AI tools claim to be built for finance; Microsoft 365 Copilot in Excel is proving it in practice. The post Copilot in Excel: Built for the era of Frontier Finance appeared first on Microsoft",
       "date": "25-06-2026 11:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
+      "summary": "Microsoft 365: A guide to the updates Computerworld",
+      "date": "21-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -283,6 +283,22 @@
       "date": "03-06-2026 03:00 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "Introducing Claude Opus 4.8 Anthropic",
+      "date": "28-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week - MarketingProfs",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdlJpU2J3TkxEZUY0cWFldkthQnVXMVhqMEJsUm5hSFR6WVk5VlZkejRTU1luVWxsdGZEYnJOdkxISTlWQ2pnSFhBOHh2YWp0WkVyX0czUFllbDVOSkhRSnZSbkhfSWh6dzFOTVozNDlWbFFLZ1hqZVN4SHVnWTVqMG5sVnI1d0UxU0xQVExJYTUyalhyaG9LUXhXNzNUVVJwQUpLYUM4RGJ6YzY4cUlEWQ?oc=5",
+      "summary": "Artificial Intelligence - AI Update, April 24, 2026: AI News and Views From the Past Week MarketingProfs",
+      "date": "24-04-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
@@ -291,28 +307,12 @@
       "date": "22-04-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRC1ieG41ZEx5Mnh5dFN0QkFUVG54R2JmdnV6TWk1UWtXamw0TTA1d0hfZTR1ZjhGNGtfQV96REQtOGFYNGxmb3E0QTVqUFRxOWxzNHFvRkozOU5sc0RqSHVWQ1hRcnA0enVzeWFJSmJMcUZab2ZzaUZTQWdFcThTNEZ2N0hDR2k2Z2VKZWVkZG1nejFyTXhpODhsRDJabEhINmhrMndGYmrSAa4BQVVfeXFMTlM0a3RLa21CU19pdFQ2aEs2SVo5Z2dSSkRwcXhoRUFnbGh5TDZ5OGhYbW5KWmktbHdHMDNiaTlLM2hKRkFGeGxuOWlHT1RYSXZoTGVPd1lFSV9aR2dYc3hyOVh0VjlGOVdBcVdHVGQyQy1lZ1ZsSDI3Y1QwN1JFNEt6emlMMjFvWlozUHgzeHRWeHlra01SVEtxay1XNEg4QkNFSlJFa09CX3VveFB3?oc=5",
-      "summary": "OpenAI revamps shopping experience in ChatGPT after struggling with Instant Checkout offering CNBC",
-      "date": "24-03-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
-      "date": "18-03-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? - computerworld.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
-      "summary": "Google Workspace vs. Microsoft 365: What\u2019s the best office suite for business? computerworld.com",
-      "date": "04-03-2026 06:00 PM"
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "date": "16-04-2026 05:00 PM"
     }
   ]
 }
