@@ -4,6 +4,53 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-05 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json` generated 05-09-2026 04:53 AM, following the 04:53 AEST feed commit). `git log --since="2026-09-01"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, or `scripts/fetch_cyber_news.py` since the last full log entry — the entire standing backlog below is unchanged, not re-detailed line-by-line.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 05-09-2026 04:53 AM)
+Three briefing claims plus the featured story checked against `news.json` sources and independent WebSearch:
+- **"ACSC has warned of critical vulnerabilities in Citrix NetScaler ADC and NetScaler Gateway"** — supported and precise. Matches its Australian Cyber Security Magazine source; independently corroborated (cyber.gov.au's own alert, The Hacker News, NCSC UK): CVE-2026-19489 (memory overflow) and CVE-2026-19490 (auth bypass), patches released 19 Aug 2026, ACSC alert dated 4 Sep 2026. No overstatement.
+- **"Privacy reform... organisations — including RTOs — should start reviewing how they collect and store personal data"** — checked whether "RTO" was an invented specific. It isn't: `scripts/fetch_cyber_news.py`'s `generate_briefing()` prompt explicitly frames the briefing as being written "for Australian staff at a registered training organisation" — RTOs are the site's own stated audience, not a hallucinated detail. No issue.
+- **Featured story ("Check Point expands OpenAI Daybreak use in security")** — accurate, verbatim-scoped RSS paraphrase. Independently corroborated in detail (Check Point's own blog, CNBC, ITBrief AU): real product integration across exposure management, Keystone, and vulnerability research workflows. Substantive, on-topic — "Today's Story" is healthy today (source_count 1, still the fallback path, good by luck not by fix — see item 5).
+- **⚠️ NEW: "many Australian businesses lack proper immutable backups" overstates the geographic scope of its own cited source.** The `news.json` source (Security Brief Australia, "Immutable backup gap leaves firms exposed to ransomware") summary says only "most organisations" — no Australia-specific claim. Independent WebSearch confirms the underlying Omdia/Object First research surveyed 700 respondents in the **US, UK, Ireland, France, and DACH** — Australia is not part of the surveyed population. This is the same failure class flagged 2026-09-02 (Krebs "US-based" seller claim not supported by its source) — the briefing generator adding a geographic specifier not present in, and not supported by, its source article. Second confirmed instance of this specific pattern in 3 days; worth a targeted prompt-guidance fix ("don't add or narrow geographic scope beyond what the source states") rather than treating each instance as a one-off.
+
+### 2. Paywall spot-check
+**Not performed.** Egress still blocked — tested `securitybrief.com.au`, `australiancybersecuritymagazine.com.au`, and `troyhunt.com` via WebFetch this run (three new domains for this rotation); all three returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, consistent with a standing policy-level block, not a transient fault. Same condition as every run since 2026-08-18 — now roughly 18 days / 20+ runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample not recently covered by this log: **Zero-Day, Firewall, Encryption, Zero Trust, Vishing, Insider Threat, SIEM, Evil Twin Attack, Digital Footprint, Air Gap** (`definitions.js`, 10 entries).
+- All 10 re-read in full. No inaccuracies found.
+- **Zero Trust's "Australian government has mandated Zero Trust architecture for federal agencies" spot-checked and confirmed accurate** — PSPF Annual Release 2025 formally mandates zero trust principles for federal agencies (archTIS, govtechreview.com.au, iTnews).
+- **Vishing's ATO impersonation hotline number (1800 008 540) confirmed current and correct** (ato.gov.au).
+- Re-confirmed via direct grep (not full re-read, given zero file changes since 2026-09-01) that all five standing `definitions.js`/`reference.html` issues are byte-for-byte unchanged: BEC "hundreds of millions" (line 87), Patch "two weeks for others" (line 108), Supply Chain "thousands of organisations worldwide" (line 164), Brute Force "billions of years" (line 185), OWASP A01 "94%"/A02 "90%" (reference.html lines 72, 79).
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (49 items, generated 05-09-2026 04:53 AM):
+- Junk "Browse news and alerts..." listing-page count: 4/49 (~8%), within the recent range, still unfixed at ingest.
+- **404 Media down to 1 item this run, and it's on-topic and well-tagged** ("How Cyber Sleuths Tracked a Nigerian Scammer to His Doorstep," tagged Scams) — an improvement over recent runs' 4-5 off-topic items, but this reflects the day's RSS output, not a code fix; the loose keyword-tagging gap in `fetch_cyber_news.py` is unchanged.
+- **Scam callout would resolve correctly today** — all 4 ScamWatch-sourced items in the feed are junk listing pages, but `renderScamOfWeek()`'s existing `GENERIC` guard (dashboard.js) would fall through to the one real Scams-tagged 404 Media article above rather than showing junk. Confirms that guard works as designed — it's specifically `select_trending_article()` (Python, "Today's Story") that still lacks the equivalent guard.
+- Otherwise reads well for both audiences — the Citrix/NetScaler and Check Point items carry plain-English framing while staying substantive for professionals.
+
+### 6. Source-credibility / blocklist adherence
+All 9 distinct sources in today's feed (Dark Reading, Australian Cyber Security Magazine, Google News — ScamWatch, Security Brief Australia, Google News — ASQA/RTO, Risky Business, Krebs on Security, Troy Hunt Blog, 404 Media) checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked).
+
+### Needs human attention (priority order)
+1. **Egress to publisher/reference domains has now been blocked for ~18 days / 20+ consecutive runs** (2026-08-18 through today), reconfirmed against three more domains this run. Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy every single run. This is the single highest-value fix available — recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+2. **NEW pattern: this is the 2nd confirmed instance in 3 days of the AI briefing adding geographic specificity not present in or supported by its cited source** (Omdia "Australian businesses" today; Krebs "US-based service" on 2026-09-02). Recommend adding an explicit instruction to `generate_briefing()`'s prompt in `scripts/fetch_cyber_news.py`: don't state or narrow the geography of who's affected/responsible beyond what the source article itself says.
+3. **"Today's Story" fallback logic still has no relevance/substance guard** — healthy today by luck only (see item 5); `select_trending_article()` unchanged. The equivalent guard already exists and works in `dashboard.js`'s `renderScamOfWeek()` (confirmed working today) — porting the same `GENERIC`-keyword pattern into the Python fallback is a small, well-precedented fix. Carried forward from every run since 2026-08-23.
+4. Five glossary/OWASP items are now unfixed for 1–2.5+ weeks with zero code changes to `definitions.js` or `reference.html` in that window: Supply Chain Attack SolarWinds overstatement (line 164, flagged 2026-08-25), Brute Force Attack "billions of years" (line 185, flagged 2026-08-25), Business Email Compromise loss overstatement (line 87, flagged 2026-08-19 — now the oldest open item, ~17 days), Patch entry's stale Essential Eight timeframe (line 108, flagged 2026-08-29), OWASP A01/A02 stale 2021-edition stats (reference.html lines 72/79, flagged 2026-08-30). All are small, well-sourced text edits — none require design or architectural judgement.
+5. Minor (carried forward): A09 "over 200 days" detection-time stat in `reference.html` trending stale — low priority wording tweak.
+6. Minor (carried forward): 404 Media's loose keyword tag matching remains a standing leak risk even though today's sample happened to be clean (1/1 on-topic) — needs article-level relevance filtering, not source-level trust, whenever volume picks back up.
+
+---
+
 ## 2026-09-03 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json` generated 03-09-2026 10:11 PM, following the 22:11 AEST feed commit).
