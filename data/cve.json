@@ -1,7 +1,18 @@
 {
-  "last_updated": "04-09-2026 10:34 PM",
+  "last_updated": "05-09-2026 04:53 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-85046",
+      "description": "Google Chromium V8 \u2014 Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-04",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
+      "vendor": "Google",
+      "product": "Chromium V8",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-59822",
       "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an ar",
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81578",
       "vendor": "PaperCut",
       "product": "NG/MF",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2023-49105",
-      "description": "ownCloud ownCloud \u2014 ownCloud contains an improper authentication vulnerability that allows an attacker to access, modify, or delete any file without authentication if the username of a victim is known, and the victim has",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-08-27",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-49105",
-      "vendor": "ownCloud",
-      "product": "ownCloud",
       "ransomware": "Unknown"
     }
   ]

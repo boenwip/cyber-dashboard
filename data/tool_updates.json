@@ -1,5 +1,5 @@
 {
-  "last_updated": "04-09-2026 10:34 PM",
+  "last_updated": "05-09-2026 04:53 AM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "04-09-2026 10:34 PM"
+      "date": "05-09-2026 04:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "04-09-2026 10:34 PM"
+      "date": "05-09-2026 04:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "04-09-2026 10:34 PM"
+      "date": "05-09-2026 04:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "04-09-2026 10:34 PM"
+      "date": "05-09-2026 04:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.252",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
       "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "04-09-2026 10:34 PM"
+      "date": "05-09-2026 04:53 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update.html",
+      "summary": "The Dev channel has been updated to 155.0.8040.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
+      "date": "05-09-2026 02:58 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8040.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
+      "date": "04-09-2026 11:28 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -115,30 +131,6 @@
       "date": "04-09-2026 06:14 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01882797386.html",
-      "summary": "The Stable channel has been updated to 152.0.7977.82/.83 for Windows and Mac and 152.0.7977.82 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is availa",
-      "date": "04-09-2026 04:56 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Brin",
-      "date": "04-09-2026 01:00 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos.html",
-      "summary": "M-151, ChromeOS version 16733.60.0 (Browser version 151.0.7922.222) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways:File ",
-      "date": "03-09-2026 07:25 AM"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "New built-in interoperability between Google Meet and Microsoft Teams on Android (AOSP) devices, now in Early Preview",
@@ -205,9 +197,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5mac.com",
+      "title": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRVR5S3BQTldIMlBEWnpPZDRfcWQwQXAzRlR5SF85dHhuTEdzVGZsSVNkLXpnNUtKdkVxV2J0Q0dBeWpUZFlCWHFOTHZWRlpoOFdGSHJaSlhjTi12aVJkeDJTMXRQUFVWOWRqNV9SanFiQUtIbTBUT1BDMm1PZHJCZGdadlR5M01CZTN0V0x0VDBOSEFkaDl6UzZwZmZxRWRvVXZFQnFlaw?oc=5",
-      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5mac.com",
+      "summary": "ChatGPT for Mac adds opt-in Computer History feature, replacing Chronicle 9to5Mac",
       "date": "13-08-2026 05:00 PM"
     },
     {
@@ -229,9 +221,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - techcrunch.com",
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app techcrunch.com",
+      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
       "date": "24-07-2026 05:00 PM"
     },
     {
@@ -277,9 +269,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -297,6 +289,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
       "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
       "date": "03-06-2026 04:00 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Announcing the new Work IQ APIs",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/announcing-the-new-work-iq-apis/",
+      "summary": "Work IQ is a new intelligence layer for Microsoft 365, designed to understand how work gets done across your organizations. The post Announcing the new Work IQ APIs appeared first on Microsoft 365 Blo",
+      "date": "03-06-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
