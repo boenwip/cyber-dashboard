@@ -1,14 +1,22 @@
 {
-  "last_updated": "05-09-2026 04:53 AM",
+  "last_updated": "05-09-2026 08:45 AM",
   "count": 39,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.261",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
+      "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
+      "date": "05-09-2026 08:45 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "05-09-2026 04:53 AM"
+      "date": "05-09-2026 08:45 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "05-09-2026 04:53 AM"
+      "date": "05-09-2026 08:45 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "05-09-2026 04:53 AM"
+      "date": "05-09-2026 08:45 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.257",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.257",
       "summary": "What's changed Added Claude Fable 5.1 (claude-fable-5-1), now the default Fable model \u2014 1M context, $10/$50 per Mtok with $0.25/Mtok cache reads Added \"Time format\" (timeFormat) and timeZone settings:",
-      "date": "05-09-2026 04:53 AM"
+      "date": "05-09-2026 08:45 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.252",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.252",
-      "summary": "What's changed Fixed Bash commands failing with \"task output swap refused (tasks dir moved or linked)\" on some Macs Fixed \"always allow\" not saving in a project that has no .claude/settings.local.json",
-      "date": "05-09-2026 04:53 AM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - September 4, 2026",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-04-2026.html",
+      "summary": "Add co-presenters in Google Meet with one clickPreviously, adding a co-presenter in Google Meet required multiple manual steps. Now, Gemini will intelligently suggest a co-presenter in the Ask Gemini ",
+      "date": "05-09-2026 05:08 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -61,9 +69,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Expands Its Productivity Bet with 100+ Visual Suite Upgrades - Gadget Pilipinas",
+      "title": "Canva Expands Its Productivity Bet with 100+ Visual Suite Upgrades - gadgetpilipinas.net",
       "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9kTnBTNm1qcXVmZjYwcGRoZ1l1cGV0anZsejltbGJfMmdwRnhxUzBRV0RhQkZSLWlwelpCcTdzLVRfVjdfdE1ZT3RHY29ORHJIcHp1TVoybWxid1FwOFhzNnJrTGJfOEN0Q2ZxNE5yaWNreE5MOXFn?oc=5",
-      "summary": "Canva Expands Its Productivity Bet with 100+ Visual Suite Upgrades Gadget Pilipinas",
+      "summary": "Canva Expands Its Productivity Bet with 100+ Visual Suite Upgrades gadgetpilipinas.net",
       "date": "04-09-2026 08:37 PM"
     },
     {
@@ -77,9 +85,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2ONLINE",
+      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2online.in",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZF9VbHE2aVA4bVByVHVTU1NIRkFjdmJpSnlzSUJRRk0tXzY0dFRXRG15X2V1QlExMmNBaHhjbXRreHVxbDVVZzVfLWk2d2lJOVgwNEcxei1Ga01Bd2ZDU1lWZTRuSzlhMDlld1BsdDBDbm94SFd4MnVYTHU0UkNDNzdsQzJ5YXNDa3hTZGd5RWdLR3FjOGVUeHJ1emRhbTkzRmc?oc=5",
-      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2ONLINE",
+      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2online.in",
       "date": "04-09-2026 06:37 PM"
     },
     {
@@ -155,14 +163,6 @@
       "date": "03-09-2026 02:22 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Automate Drive, Gmail, and Google Chat actions with new steps in Workspace Studio",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/automate-drive-gmail-and-google-chat-actions-with-new-steps-in-Workspace-Studio.html",
-      "summary": "To help teams automate everyday work and seamlessly connect tasks across Google Workspace, we are introducing four new automation steps in Workspace Studio Flows: Move Drive file, Copy Drive file, Sen",
-      "date": "03-09-2026 02:18 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
@@ -193,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
       "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
       "date": "31-08-2026 08:34 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "date": "13-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -235,14 +243,6 @@
       "date": "23-07-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Your Microsoft Store Office apps are losing security updates this year - PCWorld",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPcDFUM0FmWGhSTzB0SHUwd01rZlF1ZnZJdG9RQld0a1BpZ0NmVmdERTlhR3VjZURjUXdUaG52UFROQ3N4cEVCWTY2SU5SaXdtTy1SLUFwOGRMNjh5eV9iY1piUWZ1djJwWkJhbmZFU1FuQVUzODlWbXVOVWtNT0NTQWVVd3NvclpXQ1pMam92QndLTllXVlU0dDlWVHVONTZKYmxCM3hIRm52ZmVpMWpsdkZiMA?oc=5",
-      "summary": "Your Microsoft Store Office apps are losing security updates this year PCWorld",
-      "date": "30-06-2026 05:00 PM"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
@@ -269,9 +269,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
       "date": "15-06-2026 05:00 PM"
     },
     {
