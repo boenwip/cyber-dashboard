@@ -4,6 +4,47 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-06 (AEST) — second run this day (08:37 feed)
+
+Second pass today, against the newest pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 06-09-2026 08:37 AM, following that feed commit). `git log --since="2026-09-05"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, or `scripts/fetch_cyber_news.py` since the 03:59 entry logged earlier today — the standing backlog is unchanged, not re-detailed line-by-line where already covered this morning.
+
+**Note:** as of this run's wall-clock time, no newer `chore: update feeds` commit has landed since 08:37 AM 06-09 — worth a human glance at whether the scheduled GitHub Actions pipeline run is still firing on schedule. Not diagnosed further here (outside this agent's remit).
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 06-09-2026 08:37 AM)
+Same underlying article pool and briefing claims as this morning's 03:59 run (Citrix/NetScaler ACSC warning, "Phantom Deal" fake M&A scam, backup-gap claim, privacy reform) — all four still map to their same `news.json` source articles, confirmed present. Not re-verifying each from scratch a second time today; spot-re-checked the backup claim only, since its exact wording can drift run to run: today reads "many organisations lack proper backup protections, leaving them exposed if ransomware strikes" — still carries no Australia-specific framing, re-confirmed via fresh WebSearch that the underlying Omdia/Object First study population is US/UK/Ireland/France/DACH (700 respondents), not Australia. No overstatement.
+
+**🚨 Recurrence, same day: "Today's Story" is still showing the identical junk Scamwatch listing page.** `featured` in this 08:37 generation is still `{"title": "Browse news and alerts - page 2 - Scamwatch", "summary": "Browse news and alerts - page 2 Scamwatch", "source_count": 1, ...}` — the same failure mode flagged as newly "urgent" in this morning's 03:59 entry is confirmed still live on the homepage in this later generation too, not a one-off. No new information beyond what was already escalated this morning; root cause and recommended fix unchanged (see 03:59 entry).
+
+### 2. Paywall spot-check
+**Not performed.** Tested `cyberdaily.au` and `zdnet.com` via WebFetch this run (both new domains for rotation) — both returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, confirming a policy-level block, not a transient fault. Same standing condition since 2026-08-18 (now ~20 days).
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+No fresh rotation this run — a full rotation (Phishing, Social Engineering, OSINT, Whaling, API Security) and a direct re-read of the OWASP A01/A02 backlog item (retracted as a log error, see 03:59 entry) already happened this morning. Grepped the four standing `definitions.js` issues directly to confirm byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87), Patch "two weeks for others" (line 108), Supply Chain Attack "thousands of organisations worldwide" (line 164), Brute Force Attack "billions of years" (line 185). Matches `git log` showing no commits to `definitions.js` or `reference.html` since.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (56 items, generated 06-09-2026 08:37 AM):
+- Junk "Browse news and alerts..." listing-page count: 13/56 (~23%) — consistent with this morning's 15/64 (~23%), same root cause (the "Google News — ScamWatch" query returning Scamwatch's own pagination pages rather than articles).
+- Source distribution: Dark Reading 27/56 (48%), Google News — ScamWatch 13/56, Australian Cyber Security Magazine 6, Security Brief Australia 3, Risky Business 2, Krebs on Security 2, Troy Hunt Blog 2, 404 Media 1.
+- No new readability issues found beyond the already-documented junk-listing and "Today's Story" problems.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 56 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py` (Murdoch/News Corp, Nine, Seven West, tabloid/clickbait domains). **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked).
+
+### Needs human attention (priority order)
+1. **"Today's Story" junk-listing bug confirmed still live in this later generation too** — same escalation as the 03:59 entry today (urgent, not theoretical): `select_trending_article()` in `scripts/fetch_cyber_news.py` has no junk/relevance filter, and porting `dashboard.js`'s existing `renderScamOfWeek()` `GENERIC`-keyword guard remains the recommended fix. No new escalation warranted — same live issue, not a new occurrence.
+2. "Google News — ScamWatch" query quality remains degraded (~23% of the whole feed is junk listing pages, up from ~4% on 09-03) — direct cause of #1. Needs a human look at tightening the query or filtering title patterns like "Browse news and alerts."
+3. Four standing glossary/OWASP.js issues remain unfixed, all small well-sourced text edits: Business Email Compromise loss overstatement (line 87, flagged 2026-08-19), Supply Chain Attack SolarWinds overstatement (line 164, flagged 2026-08-25), Brute Force Attack "billions of years" (line 185, flagged 2026-08-25), Patch entry's Essential Eight timeframe (line 108, flagged 2026-08-29).
+4. Egress to publisher/reference domains remains blocked — now ~20 days / 22+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run.
+5. **New observation, unconfirmed:** no feed-update commit has landed since 06-09-2026 08:37 AM as of this run's wall-clock time — worth a check on whether the scheduled pipeline is still running on schedule. Not investigated further (outside this agent's remit).
+
+---
+
 ## 2026-09-06 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json` generated 06-09-2026 03:59 AM). `git log --since="2026-09-05"` shows only automated `chore: update feeds` commits — no changes to `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, or `scripts/fetch_cyber_news.py`.
