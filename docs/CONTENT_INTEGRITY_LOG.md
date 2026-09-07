@@ -4,6 +4,53 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-07 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 07-09-2026 11:36 PM). `git log --since="2026-09-06"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — full standing backlog carried forward, not re-detailed line-by-line where unchanged.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 07-09-2026 11:36 PM)
+- **Mathspace data breach ("over one million people")** — supported and precise. Matches its `news.json` source (Google News — Bleeping Computer AU) and independently corroborated in detail via WebSearch (BleepingComputer, cybersecuritynews.com): 1,079,819 people (students/staff/parents, AU & NZ only) affected via a compromised internal Metabase reporting system; no passwords, tokens, or academic records exposed. Briefing's framing and practical tip (go direct to Mathspace's own site, don't click email links) match the real incident with no overstatement.
+- **"MrBeast tops impersonation scams" (Malwarebytes)** — supported. Matches its Security Brief Australia source and independently corroborated: Malwarebytes' 3-month global study found MrBeast is the most-impersonated public figure (~30% of person-impersonation scam cases), ahead of Elon Musk and Donald Trump. Briefing's "almost always scams" framing is accurate, not dramatized.
+- No hallucination or misattribution found in this run's briefing — both claims map cleanly to source and independent reporting.
+
+### 2. Paywall spot-check
+**Not performed.** Tested `securitybrief.com.au` and `www.itnews.com.au` via WebFetch this run (rotating to domains not recently tried) — both returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, consistent with a standing policy-level block, not a transient fault. Same condition every run since 2026-08-18 — now ~20 days / 25+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample not yet covered in this log: **Data Breach, Password Manager, Spear Phishing, Attack Surface, Penetration Testing, Man-in-the-Middle Attack, SQL Injection, Botnet, Threat Modelling** (`definitions.js`). All 9 read in full — factually sound, appropriately simplified, no inaccuracies found.
+
+Re-confirmed by direct read (not carried forward blind) that the four standing issues are byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87, ~19 days open), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164), Brute Force Attack "billions of years" claim (line 185).
+
+**Verified OWASP Web Top 10 (2025) content against the actual official list, not just internal consistency.** WebSearch of `owasp.org/Top10/2025/` confirms the site's full A01–A10 list (Broken Access Control, Security Misconfiguration, Software Supply Chain Failures, Cryptographic Failures, Injection, Insecure Design, Authentication Failures, Software/Data Integrity Failures, Security Logging & Alerting Failures, Mishandling of Exceptional Conditions) matches the real OWASP Top 10:2025 exactly, category-for-category. Confirms the 2026-09-06 correction was right.
+
+**Retracting a standing "minor" flag: A09's "average time to detect a breach is over 200 days" is NOT stale.** WebSearch of IBM's 2026 Cost of a Data Breach Report gives 247 days average (183 to detect + 64 to contain) — "over 200 days" remains accurate and, if anything, conservative. Removing this from the backlog below; it was carried forward across several entries without a fresh check.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (60 items, generated 07-09-2026 11:36 PM):
+- **Junk "Browse news and alerts — page N — Scamwatch" listing-page count: 15/60 (25%)** — still present, consistent with the worsening trend logged since 09-03 (~4% → ~23%). Same root cause, same unfixed query (`Google News — ScamWatch`, `site:scamwatch.gov.au`). Not re-escalating as new; carried forward at existing priority.
+- **"Today's Story" is healthy today** — `featured` is the real Mathspace breach story (`source_count: 1`, i.e. still the no-cluster fallback path, but today it landed on a substantive, on-topic article rather than a junk listing page). This is the fallback happening to work, not a fix: `select_trending_article()` still has no junk/relevance guard (unchanged from every prior run since 2026-08-23), so the same failure mode (a "Browse news and alerts" title becoming the homepage's featured headline) can recur on a day the pool skews junkier.
+- Sampled Dark Reading items this run (27/60, 45% of the feed) — all genuinely security-relevant, including the AI-adjacent ones (AI kill switches, AI model evaluator credential theft, LLM poisoning in OpenClaw) — no general AI-industry filler spotted in today's sample.
+- Substantive items (Mathspace breach, MrBeast impersonation, SonicWall SMA zero-days, Zimbra flaw) read well for both audiences with adequate plain-English framing.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 60 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py` and the CHANGELOG blocklist. All 9 distinct sources (Dark Reading, Google News — ScamWatch, Australian Cyber Security Magazine, Security Brief Australia, Risky Business, Krebs on Security, Google News — Bleeping Computer AU, 404 Media, Troy Hunt Blog). **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked).
+
+### Needs human attention (priority order)
+1. Four standing `definitions.js` text-accuracy issues remain unfixed, all small well-sourced edits: Business Email Compromise loss overstatement (line 87, flagged 2026-08-19 — now ~19 days, oldest open item), Supply Chain Attack SolarWinds overstatement (line 164, flagged 2026-08-25), Brute Force Attack "billions of years" (line 185, flagged 2026-08-25), Patch entry's Essential Eight timeframe (line 108, flagged 2026-08-29).
+2. "Google News — ScamWatch" query quality remains degraded — 25% of today's feed is junk Scamwatch pagination-page listings, not real articles. Needs a human look at tightening the query or filtering title patterns like "Browse news and alerts" in `scripts/fetch_cyber_news.py`.
+3. `select_trending_article()` still has no junk/relevance guard — healthy today by luck (see item 5), not by fix. The precedented fix (porting `dashboard.js`'s `renderScamOfWeek()` `GENERIC`-keyword guard into the Python selector) remains recommended since 2026-08-23.
+4. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05 after two confirmed instances). Not manifesting as an error this run, but the underlying prompt gap is unchanged.
+5. Egress to publisher/reference domains remains blocked — now ~20 days / 25+ consecutive runs. Paywall and dead-source checks (items 2 & 3) remain structurally impossible every run. This is the single highest-value fix available — recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+6. **Retraction:** the "A09 '200 days' stat trending stale" item carried in recent backlogs is dropped — verified accurate against IBM's 2026 Cost of a Data Breach Report (247 days average). No action needed.
+
+---
+
 ## 2026-09-06 (AEST) — second run this day (08:37 feed)
 
 Second pass today, against the newest pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 06-09-2026 08:37 AM, following that feed commit). `git log --since="2026-09-05"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, or `scripts/fetch_cyber_news.py` since the 03:59 entry logged earlier today — the standing backlog is unchanged, not re-detailed line-by-line where already covered this morning.
