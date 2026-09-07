@@ -1,5 +1,5 @@
 {
-  "last_updated": "07-09-2026 11:36 PM",
+  "last_updated": "08-09-2026 09:15 AM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "07-09-2026 11:36 PM"
+      "date": "08-09-2026 09:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.261",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
       "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
-      "date": "07-09-2026 11:36 PM"
+      "date": "08-09-2026 09:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "07-09-2026 11:36 PM"
+      "date": "08-09-2026 09:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "07-09-2026 11:36 PM"
+      "date": "08-09-2026 09:15 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "07-09-2026 11:36 PM"
+      "date": "08-09-2026 09:15 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva expands its productivity bet with 100+ Visual Suite upgrades - varindia.com",
+      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNR0piVTQ2dUkyQmhjbzZodWJ1bVZadE1XN0tLV0RkSWp3RklXS3lQUkFoWWpreUdpNVhDdXM3MWEtY2ZueHlpakNqTTBWNDBDQlhYQ05DazZkSzFDVFpzcU94OWp3Nm5PcmZKcTNuVWhDdTR2Z0lWMGx4YmpJV3ppTm5GTGg5QVA4bTRIOEtzMkpnNjRVOEExb0NkTQ?oc=5",
+      "summary": "Canva expands its productivity bet with 100+ Visual Suite upgrades varindia.com",
+      "date": "07-09-2026 05:16 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -83,14 +91,6 @@
       "date": "04-09-2026 06:37 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva announces new Visual Suite features as Presentations crosses 100 mn monthly users - The Indian Express",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQajNwVDAyUC13bjJYUkR0UWdPWDBmTnpkNVpiREhYbDNYRjJ0b2JGNDVxSjE1NkE5Uk0xOWpRbHFzeUtlb2lJNXRNelhRYjROeFpiT3kwMWRmV0JTWVdVSVZ5b2pURDZzWndIQ09LQ2RMTzNQaHp5elhxai1ZZTk4MGtIZ3pYOXlSZUJCb1I0ai1GbzZ1c1ZBQzlVYnpRclpQNVpOZlRncTlHeDhMZFVEeHdtZ2loMG8yWThNeGN5N2VxSWNrRzM5Q2lidHRlY3lTZFpCY2Jyemg5UdIB4AFBVV95cUxQcUgtQlVjaEllUW8yb3NDZUxLNm9sd2NOZXdEcUNhUEI5dGVPYTlxaFZjV2M5ZkpUaTZELVltNFdwN0Z3MkhUYm4zaXRuODl1OGdteVFHWEQ0bURiNnRnZldlR3Nsa1E2YjBVNzJzQTRZU0MwVFFGVFNZWXFoYjk1TGtleGo1RDBtZ1VrMS1KVE43dm92WTJpR0NCQTA0VVFZWjYyMjBkTkhrTGxYd1RrakYwdi1rc3lSbTloTmd2bmRSVnpIRFpRRV9oODlkeWoycjdpWWd4SWdtY1NVYjN4OA?oc=5",
-      "summary": "Canva announces new Visual Suite features as Presentations crosses 100 mn monthly users The Indian Express",
-      "date": "04-09-2026 05:54 PM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
@@ -105,14 +105,6 @@
       "link": "http://workspaceupdates.googleblog.com/2026/08/introducing-comprehensive-audit-logs-for-Gemini-Notebook-in-the-Workspace-Admin-console.html",
       "summary": "Google Workspace administrators can now access comprehensive audit logs for Gemini Notebook in the Admin console, providing greater insights into how the application is used across their organizations",
       "date": "04-09-2026 07:48 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week - CNET",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPWHRXVzkwUHFULVpUV1VqNFhsNWg5NzRNU1hndzZXN3RoUzJ6NUdqTUpzMnFkdUUzOHBBeERudk5IR1FZYWozWkoyeFpwbDJGR25tNDhFZ1N0anhpNjJaWVg3LVZKUldZYVQwcjBoejhKWmhjb2pFMmVNNDdUX0tjQVdtbUlyYXFXS2lWQ0FURVpZdFJSUTI4bUVRWm9kX25HanIyWjlLaUk3c0pqcUFFQ0lXTWFKU3BBV3BLemxwOUR5STUxenpXWU9nZG0?oc=5",
-      "summary": "GPT-6 Stole the Show, but Anthropic, Meta and Google Also Had New AI Models This Week CNET",
-      "date": "04-09-2026 07:10 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -157,18 +149,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - ZDNET",
+      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - zdnet.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters ZDNET",
+      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters zdnet.com",
       "date": "03-09-2026 01:02 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnp1eXc3c2lFVmFzbDZLb3p6aU5JN0lqS2F6SDROdGhyVWV4VU1zOHotLXNmQkhxUUNvbHFicUZxcnBYTzBETkdKZ0ViMUlUS2paTkY5TmZZSzcwM29KRE44UWRIcU5CMldPRUR6U3o1R3RxSlRhQW95VHNqYnYyMjNoY2RuZDV3VjV6NmVEQzg0N1B6bEhvSDM4d0ZOUmxjV2owcmZRdm5mUEVNMG9WT0xxYw?oc=5",
-      "summary": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less the-decoder.com",
-      "date": "02-09-2026 06:33 AM"
+      "title": "Anthropic AI Models Slash Costs by Up to 45% With Fable 5.1 - The Cryptonomist",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5DMmlyaXMwQzRPYThsbVE0bXZLOWY5OExxeWt1MWJNTG96RTBxZTE1MmJmOFBfaFpJbW9rNk5mUGk5d0FxMUJGdzlqbDR3dkFHVjlOc3gtc3JFQmtlN0t1bThZcDhoX0ktVGtORmI1eXVnbnJVQXFHaG54aw?oc=5",
+      "summary": "Anthropic AI Models Slash Costs by Up to 45% With Fable 5.1 The Cryptonomist",
+      "date": "02-09-2026 11:36 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -185,6 +177,14 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "13-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
+      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
+      "date": "12-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -229,9 +229,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - computerworld.com",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "Microsoft 365: A guide to the updates computerworld.com",
+      "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "21-06-2026 05:00 PM"
     },
     {
@@ -248,6 +248,14 @@
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall University",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall University",
+      "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -301,18 +309,10 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
       "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
-      "date": "18-03-2026 05:00 PM"
     }
   ]
 }
