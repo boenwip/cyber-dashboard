@@ -1,5 +1,5 @@
 {
-  "last_updated": "08-09-2026 12:15 PM",
+  "last_updated": "08-09-2026 05:20 PM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "08-09-2026 12:15 PM"
+      "date": "08-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.261",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
       "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
-      "date": "08-09-2026 12:15 PM"
+      "date": "08-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "08-09-2026 12:15 PM"
+      "date": "08-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "08-09-2026 12:15 PM"
+      "date": "08-09-2026 05:20 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.258",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
       "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "08-09-2026 12:15 PM"
+      "date": "08-09-2026 05:20 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -53,9 +53,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva moves beyond design as workplace productivity use surges - InsiderPH",
+      "title": "Canva moves beyond design as workplace productivity use surges - insiderph.com",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGtud1JyZmZJWXgtenhuRWZjdVp3TVlGdnU2Q0EtWGhpc0tDS3JLc3dUVVY5U3dwbzVVNXk4Wlc1UGxDTHpkQXVqdFc1ZzhXQ2pqUnRjX2pzYnJFeng1YjRTUTNjMXIyM1lfTVlNa2pSdlFkMTVCTDlELVNQZXpadkRRdTIxcFo5bG1mOQ?oc=5",
-      "summary": "Canva moves beyond design as workplace productivity use surges InsiderPH",
+      "summary": "Canva moves beyond design as workplace productivity use surges insiderph.com",
       "date": "06-09-2026 09:03 AM"
     },
     {
@@ -171,6 +171,14 @@
       "date": "02-09-2026 04:01 AM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT can now send texts for you with new Apple Messages plug-in - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNT0xTb2FDbkVPSXdPNDRzZGVIa1pKYXRnNHJqX2ZkemVKUFpHbEtFcWt6bV9hYkVUY29adHdRS2RQLThKa2c3bGc3NzJOWkNfb25FOU1UdlVnRDFCRUhZUUJjZEFUNUw3bllZdXZyVHJjMXVwOFFrcTctX2dtbjFncVVwY09kdXpsWHpyUGp5c3RZRjN6Y0ZTOHRNaXZVS2V3WkE?oc=5",
+      "summary": "ChatGPT can now send texts for you with new Apple Messages plug-in TechCrunch",
+      "date": "20-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
@@ -201,14 +209,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
-      "date": "24-07-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -253,9 +253,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
     },
     {
@@ -269,9 +269,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - infoworld.com",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. infoworld.com",
+      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
     },
     {
@@ -301,9 +301,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - microsoft.com",
+      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available microsoft.com",
+      "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
       "date": "22-04-2026 05:00 PM"
     },
     {
