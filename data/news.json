@@ -1,7 +1,129 @@
 {
-  "last_updated": "08-09-2026 10:13 PM",
-  "count": 54,
+  "last_updated": "09-09-2026 09:08 AM",
+  "count": 56,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI & UNSW Sydney launch ChatGPT Edu for 80,000",
+      "link": "https://securitybrief.com.au/story/openai-unsw-sydney-launch-chatgpt-edu-for-80-000",
+      "summary": "The deal gives 80,000 students and staff access to ChatGPT Edu as universities race to embed artificial intelligence in teaching and research.",
+      "date": "09-09-2026 08:38 AM",
+      "tags": [
+        "Education",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
+      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
+      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many o",
+      "date": "09-09-2026 07:44 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Patch Tuesday Sets Another Record With 974 CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
+      "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+      "date": "09-09-2026 07:26 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
+      "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
+      "date": "09-09-2026 07:03 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
+      "summary": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki was a \u201chack\u201d that the company did not disclose.",
+      "date": "09-09-2026 06:36 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Channel 5 Gave Hunter Biden a List of Its Subscribers\u2019 Emails for Some Reason",
+      "link": "https://www.404media.co/channel-5-gave-hunter-biden-a-list-of-its-subscribers-emails-for-some-reason/",
+      "summary": "A data protection lawyer told 404 Media the sharing was likely illegal, and Channel 5\u2019s own privacy policy explicitly says it won't give subscribers\u2019 emails away to people for marketing purposes.",
+      "date": "09-09-2026 04:28 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ransomware attacks rise as backup recovery worsens",
+      "link": "https://securitybrief.com.au/story/ransomware-attacks-rise-as-backup-recovery-worsens",
+      "summary": "Only 39% of organisations recovered at least three-quarters of their data after ransomware, as outages and data loss worsened.",
+      "date": "09-09-2026 03:43 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
+      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
+      "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
+      "date": "09-09-2026 03:25 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenAI scientist urges slowdown on AI race amid safety fears",
+      "link": "https://securitybrief.com.au/story/openai-scientist-urges-slowdown-on-ai-race-amid-safety-fears",
+      "summary": "Rising cyber and alignment risks could force AI labs to slow development, as OpenAI's chief scientist warns safety checks are lagging.",
+      "date": "09-09-2026 01:00 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Pronto adds AI tools to Xi ERP as it marks 50 years",
@@ -12,60 +134,6 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Weaponizing trust: How AI and social engineering bypass personal security boundaries",
-      "link": "https://securitybrief.com.au/story/weaponizing-trust-how-ai-and-social-engineering-bypass-personal-security-boundaries",
-      "summary": "Scammers are draining older adults' savings through romance, friendship and fake AI trading pitches on social media before withdrawals are blocked.",
-      "date": "08-09-2026 12:40 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Avetta adds Epigroup, Unimarket & Wakata partnerships",
-      "link": "https://securitybrief.com.au/story/avetta-adds-epigroup-unimarket-wakata-partnerships",
-      "summary": "The tie-ups will let clients fold safety, procurement and field compliance checks into existing workflows, speeding supplier decisions.",
-      "date": "08-09-2026 10:59 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Estha launches private AI workforce on Mac for business",
-      "link": "https://securitybrief.com.au/story/estha-launches-private-ai-workforce-on-mac-for-business",
-      "summary": "Smaller firms may keep sensitive documents off external AI services as Estha's Mac software runs office tasks locally on Apple Silicon.",
-      "date": "08-09-2026 10:30 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Tenable & OpenAI launch AI inspector for cyber agents",
-      "link": "https://securitybrief.com.au/story/tenable-openai-launch-ai-inspector-for-cyber-agents",
-      "summary": "Businesses using agentic AI in security operations could face less deployment risk as Tenable and OpenAI add pre-release checks for community tools.",
-      "date": "08-09-2026 10:01 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -204,21 +272,6 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxPbXhYWG9zeTlYd1RrWG5Rb25OenJrWVB1cEppcVRhYTJ4X3lvcHdHZ2VpWXlVN3VNUGZMVEZHSGpseFJfYWVLTFJ6a3pETkZXNlQxM2xhdFJsUms3TDRHcUlJTVJLbTRVbUNxRlJRSHVxQlp1RlBIN3FHNF9lYWdVQUo4NTJRN2Zod2cyckJ0RXVuZ3AzbmdIcDBfXy1mZjVYVm51dncxMkplaTR3eHk2aTIzVDBlWF9YNmFrMkpYbzRXLWdUdF80aUJqRHpyUzhmU0NsV1NDSnRqTkNPTXRlTEN4b0llRU5zVFRNU2wwM0sxTHlES09reXJDVEZjeEF3NGE2NUlzbG5YSm44d3pnbTVWZlFOVi00QmNfOENIa3FSMmRWWWhvdGV4a3ZVOU56UVJJUDNYMl9ZSnpxZ21YTw?oc=5",
-      "summary": "Browse news and alerts Scamwatch",
-      "date": "05-09-2026 08:10 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
       "title": "Browse news and alerts - page 14 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNMXBGOVh0TFJBd1k3c3p1TVdrTHFLRW1ncHM2T3llOUs1cUY5alBIbkR6bndYSmw4Q3Y3Tk9fWjQzYzVuN1lOWm95cXQwcVJod2JuVTlpd2RxYTQtOXV3WVp4N2gyZUhlQk5vLUFOTHNvVmxmOWxPdlBoNWVZRXJDUGloX0YzcG4tWDE4OEpucnU1ZmRPT2FsbnptdkJUZXg1Zm1fdVBUNHlKaXdqVEk0NkVTNGVQdEFCdkhWczBZS1JkaHdwb0l3NE1YUzB0WkRBaFIzMUhnR1c5Mk5mUHlSc0lqM3hoSEUwaFNWVm1OcDFmVG9TQ09DcW5vNFN2Q0NvbDRLSzlnVlIybUF1Z0JrQXRuRFlKd1dzWGdMM2hNRUxQUmtjbTN1eWJSYXdycm1ac1ZtY1pjMm9aNXQtaF82eUtKaGgzcjZnRE9YalNSLXY0amp3RzlzZEZuVkFNTEZETF9WVllsYzZoWE1UMHR4U2EwankwZlJzT2J2azN3?oc=5",
       "summary": "Browse news and alerts - page 14 Scamwatch",
@@ -238,6 +291,21 @@
       "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQOEVNczJQeXdFcmNjNHpoM3dwcUIxVEdUN19FeERYWFlhMUtZVVJ5LVFheVc4ejUweTRUalhlcnliZk9hVUFUNXQ5dUJNSGJHLVBVQUVsbkJUNlFJX1NMTVc1WTRSMHlvYzVDdHRPRWZ4WVhzZWhZRVhOOElkNWdKOFBzUXNUbzJQWDFsN1hMbEFxemVFUVowejJzeEE5Nmx0NkhoSE1KTnRNRERUbDNmWjhkU254TUFjRWJVN2lNQVJ5YzJ6NUZmMWoyU3FENDRGaXJkMUJfRkszNVhGNUt4YW8zc09uaUxoQ2NTX1V2ZUdqTV9ENl82WXF0bXZ0ZDM0cGtWNHk2MXdHa2JjNTZmTDBjLXB6Szdnczg5bzFPbkg2dWZqOVFENngyWnlzck9LZm1IZ0ZoeVg3dw?oc=5",
       "summary": "Browse news and alerts - page 8 Scamwatch",
       "date": "05-09-2026 06:30 AM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ScamWatch",
+      "title": "Browse news and alerts - Scamwatch",
+      "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSVBRb2lpNnZMaWZDZERZR05HZGN5RDlQbDZkU2tMYlphRnhsQ2VrSTk1MlVkNXpOSVRJNkhEdVNCa0t5X2xmdUdrZ0xLMFVrN3lURVlWc040Tm1rXzdKQnJvWk1zZ0ZzeE45b200eHl5aGgtWW1ONWowYi1ldEp3ZEpfU1RMOWl5V2dnb3BGbnVFRk4xWldQcDBVd0k1dGdzWHdOdkoxeVB2SkhVR2I1TXBOc0xPbTJ0Ym51Y0x3ZEJIODhFRFY4MEJ2MnNjTXdKc3p6MTRwVzIzNlhCU1g2bWkydWVHTzZuUTFpX2k4S2xjTkFqSi1meUVoOA?oc=5",
+      "summary": "Browse news and alerts Scamwatch",
+      "date": "05-09-2026 06:29 AM",
       "tags": [
         "Scams"
       ],
@@ -281,21 +349,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOcTZkckJhSlFGVXZ0Ny1PdjBLWHdRSXlvVVFkblN5VDVRbVZjSXJkejJTVTYtejJZcDZ0bmhtVnRxVHdScGR0ZnlzVERVUEVQU2NhVnFvekQzNk5yaGFjb3FHTHR3UTJwc0ZUcFhsbkNlZjFEaVRRSURoRHhtX3RXZ1RMWElpQmVVY2pxOWtDNk5GNjZ5bTZFMGIybUtyOGppM2puMW5aR3pHeURPZ3VJc29leS02OGN0bDhSdXo0MWJYZW42UFVqQnpXLUktbXpEaURDX05CaXR3X3Uyckl6Z0o0cjFJOE5VNzZPVGxlNkh3YWtySllfOFdOR3NyUlF0M21pZjgxYlRZdkJJWFNDSHJhLUZTeG1QdXdFQ2ZvTFdCcUY0bHN1Q3cteGdQLWdpYmVhOGNITGdJVzdZS1RBaWVsbUNjRzltUFdmVTEtMzZUbEN0WkVKTmM3YzY?oc=5",
       "summary": "Browse news and alerts - page 10 Scamwatch",
       "date": "04-09-2026 10:29 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 16 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxQdU5lUk9KOURLd0x3U0NhMzJrVzNqX2dXOFhfeFlpUjZROHpBanhIZXppTHBjVGpEbXVobVZxbWxEdEpoZGZhTW1nV2xKREtJWFRwVWVua1ZkYm1sNTZBelBucmpvejc0anlERGtORnJwNUx2QUtVdUJueS03Y01FVzhrY0c2Y2c2dGJ2LWdwVGVLQWJEMzNYdDZVbHlkUmZmZ1cwejhxeHVIOW1hTzJNSkxxcWRFQlR6QXNJR18tc2thUzllbFdCVWpWZkdBQ0dsMUZsTHZ2YUZMNnlxNGdmYUdERGZRZWtRNjVlQjFsZF84VFFnSjJwVDhOWmFZZkVnMGFoR3pJLWRSc1R6aUZJOE5UM3FkTTFGNXNPWGprTUxHY2pXaTVZbXRFOV9adUZ4RHczalJjRjAwZ1hIOEhyY1I3djFhcWdndjcxNklzbjRYdUFQVjk0d0lFNTVkM0h5TXFoNFdsRG5nNFZuNHRoZnc3UHMtV0RxTks4RE1KVkJ4M29OTXg4XzBhX3ZrWVBFaGJvS2tDQkpfSFlqbEFkNFE2dkFiS2ppTVJrcS1B?oc=5",
-      "summary": "Browse news and alerts - page 16 Scamwatch",
-      "date": "04-09-2026 07:09 PM",
       "tags": [
         "Scams"
       ],
@@ -745,33 +798,6 @@
         "Consumer"
       ],
       "relevance": "AU General"
-    },
-    {
-      "source": "Troy Hunt Blog",
-      "title": "A Cautionary Tale About Data Breach Claims, Verification and Carhartt",
-      "link": "https://www.troyhunt.com/a-cautionary-tale-about-data-breach-claims-verification-and-carhartt/",
-      "summary": "You're not going to believe this, but turns out you can't always take criminals at their word. Actually, I'll walk that back a bit as it may not even be the cybercrime guys who got this wrong, but it all starts here: &#x1f6a8;Cyber",
-      "date": "26-08-2026 07:51 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Finding Nemo(Claw): Networking Issue Allows for LLM Poisoning in OpenClaw",
-      "link": "https://www.darkreading.com/cyber-risk/nemo-claw-networking-llm-poisoning-openclaw",
-      "summary": "Attackers can exploit a security bug in Nvidia's tool to gain unauthenticated access to the local model server through the Ollama API, paving the way for persistent AI agent corruption.",
-      "date": "26-08-2026 05:50 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }

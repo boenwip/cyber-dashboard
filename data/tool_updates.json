@@ -1,14 +1,22 @@
 {
-  "last_updated": "08-09-2026 10:13 PM",
+  "last_updated": "09-09-2026 09:08 AM",
   "count": 39,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.265",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
+      "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
+      "date": "09-09-2026 09:08 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "08-09-2026 10:13 PM"
+      "date": "09-09-2026 09:08 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.261",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
       "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
-      "date": "08-09-2026 10:13 PM"
+      "date": "09-09-2026 09:08 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.260",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
       "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "08-09-2026 10:13 PM"
+      "date": "09-09-2026 09:08 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,23 +40,55 @@
       "title": "v2.1.259",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.259",
       "summary": "What's changed Added managedMcpServers managed setting: organizations can provide HTTP/SSE MCP servers to every user (same entry shape as .mcp.json); entries that name a command to run are skipped Add",
-      "date": "08-09-2026 10:13 PM"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.258",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.258",
-      "summary": "What's changed Fixed Claude Code failing to launch on macOS 12 (Monterey), a regression introduced in 2.1.255 Fixed remote and scheduled sessions failing with \"user messages must have non-empty conten",
-      "date": "08-09-2026 10:13 PM"
+      "date": "09-09-2026 09:08 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva expands its productivity bet with 100+ Visual Suite upgrades - Manila Bulletin",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOalV0cDV4ZmdfUW1qNjJJdUxCV1hHX1MtOHFuZE9HWktkVkFhSVl6Z19lekxZSXE4NUV1RVRCR2p4NlY0S0h5MzYyUUpvczZNcEkwYkRZZjkxNmZJOWFuU3dTcXM4QV8xdG43Nm5WYU83RmVyZ1dCdWhxdzBxTnh5WkNZYVVPSVhILXdlNnZFaWJfZlR0ZC1xLTlB?oc=5",
-      "summary": "Canva expands its productivity bet with 100+ Visual Suite upgrades Manila Bulletin",
-      "date": "08-09-2026 10:32 AM"
+      "title": "AFI names six recipients of 2026-27 Canva Fellowship - Reel 360 News",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVZQT0VKSmZQWlN1amxlZDRrSy1yRjdaOWJwZWhKWW00MlE3VkJRcU9PUWpkSTR3eFhMZThwUWVNVmhfWmsyNTNZdmFXdTFDaVFxNWF4eGlvR1hya2p2Tm5jSFcxaWlqTkZwSWhUQkRIOTU1UWk0THpHMW96LWtVcjdfN1pDenhT?oc=5",
+      "summary": "AFI names six recipients of 2026-27 Canva Fellowship Reel 360 News",
+      "date": "09-09-2026 05:46 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Pick up where you left off with persistent drafts in Google Chat",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/pick-up-where-you-left-off-with-persistent-drafts-in-Google-Chat.html",
+      "summary": "We are introducing persistent drafts in Google Chat. Unsent messages are now automatically saved so you can finish and send later, and are also synchronized across your devices, allowing you to start ",
+      "date": "09-09-2026 04:25 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Context-aware access controls are available for Gemini Enterprise in the Admin console",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/context-aware-access-controls-are-available-for-Gemini-Enterprise-in-the-Admin-console.html",
+      "summary": "To help organizations elevate their security posture, we are introducing context-aware access (CAA) policies in the Admin console for Gemini Enterprise. Google Workspace administrators can select gran",
+      "date": "09-09-2026 03:50 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Introducing the new 1Password App for Google Chat",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/introducing-new-1password-app-for-Google-Chat.html",
+      "summary": "The new 1Password SaaS Manager integration for Google Chat helps teams streamline IT and HR processes by bringing notifications, actions and approvals directly within Chat.With this integration, teams",
+      "date": "09-09-2026 02:02 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Use custom web fonts in Google Sheets charts",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/use-custom-web-fonts-in-google-sheets-charts.html",
+      "summary": "Google Sheets now supports the full Google Fonts web font library directly within charts. Users can now select \u201cMore fonts\u201d from any font dropdown inside the chart editor sidebar to search, add, and a",
+      "date": "09-09-2026 01:05 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Which Microsoft Office Version Should You Buy in 2026? The Complete Buyer\u2019s Guide - nerdbot",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYXJlb0JqSWNzaTUxSHNOSkU2c1h3REJueGZFSWRlbEpJVlFRUTNkSXJrZ3JtZWp1MDFFYUV4T0daTFVIV0tuWVNPLTJndi1yZFZJM2NUcXE4c095QlhjQXZxTUtlVHMxemxzNGZTUzVteWdHZDZadE9Uc0N1R1FfQ0ljT3ZGUmtlVkxJUnUwNjQ3dG94UXdLR1ZidGRBaS1yLUFUVEhUdnlEMFN1RmRJSw?oc=5",
+      "summary": "Which Microsoft Office Version Should You Buy in 2026? The Complete Buyer\u2019s Guide nerdbot",
+      "date": "08-09-2026 06:50 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -65,6 +105,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGtud1JyZmZJWXgtenhuRWZjdVp3TVlGdnU2Q0EtWGhpc0tDS3JLc3dUVVY5U3dwbzVVNXk4Wlc1UGxDTHpkQXVqdFc1ZzhXQ2pqUnRjX2pzYnJFeng1YjRTUTNjMXIyM1lfTVlNa2pSdlFkMTVCTDlELVNQZXpadkRRdTIxcFo5bG1mOQ?oc=5",
       "summary": "Canva moves beyond design as workplace productivity use surges InsiderPH",
       "date": "06-09-2026 09:03 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Microsoft is adding an AI-powered Canvas to Excel that turns workbook data into interactive dashboards - Windows Latest",
+      "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPT3lBOXdLT19EWjQ2bm1RaGNXelhnSlVyS3RYejBBeTVjTmRVZVN4TXVFX3BSVUFvQklNVzFGeWtnRi1YVUZJcmdwZmhLemFHTVNRcW9FOVJ3NXA3UEpqcUhYRWRkZlFESW5sT3AtY2YxVmczYXpfNVlCWndJRnoxdjJUMS1RUEpadVJVYmNRQ0hIV2U0ekM0M0pDTmlIZFdaUnRlajcta0JlNEVNNEppUlY3WXc1S2UyNnl1ZE40dkdBMHFnamhUS1REdEVVdlpvekJrcTdTc2EwRGdk?oc=5",
+      "summary": "Microsoft is adding an AI-powered Canvas to Excel that turns workbook data into interactive dashboards Windows Latest",
+      "date": "05-09-2026 11:39 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -99,20 +147,20 @@
       "date": "04-09-2026 06:37 PM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva announces new Visual Suite features as Presentations crosses 100 mn monthly users - The Indian Express",
+      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQajNwVDAyUC13bjJYUkR0UWdPWDBmTnpkNVpiREhYbDNYRjJ0b2JGNDVxSjE1NkE5Uk0xOWpRbHFzeUtlb2lJNXRNelhRYjROeFpiT3kwMWRmV0JTWVdVSVZ5b2pURDZzWndIQ09LQ2RMTzNQaHp5elhxai1ZZTk4MGtIZ3pYOXlSZUJCb1I0ai1GbzZ1c1ZBQzlVYnpRclpQNVpOZlRncTlHeDhMZFVEeHdtZ2loMG8yWThNeGN5N2VxSWNrRzM5Q2lidHRlY3lTZFpCY2Jyemg5UdIB4AFBVV95cUxQcUgtQlVjaEllUW8yb3NDZUxLNm9sd2NOZXdEcUNhUEI5dGVPYTlxaFZjV2M5ZkpUaTZELVltNFdwN0Z3MkhUYm4zaXRuODl1OGdteVFHWEQ0bURiNnRnZldlR3Nsa1E2YjBVNzJzQTRZU0MwVFFGVFNZWXFoYjk1TGtleGo1RDBtZ1VrMS1KVE43dm92WTJpR0NCQTA0VVFZWjYyMjBkTkhrTGxYd1RrakYwdi1rc3lSbTloTmd2bmRSVnpIRFpRRV9oODlkeWoycjdpWWd4SWdtY1NVYjN4OA?oc=5",
+      "summary": "Canva announces new Visual Suite features as Presentations crosses 100 mn monthly users The Indian Express",
+      "date": "04-09-2026 05:54 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
       "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_0758867545.html",
       "summary": "Hello Everyone! We've just released Chrome 153 (153.0.8010.27) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
       "date": "04-09-2026 08:00 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Introducing comprehensive audit logs for Gemini Notebook in the Workspace Admin console",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/introducing-comprehensive-audit-logs-for-Gemini-Notebook-in-the-Workspace-Admin-console.html",
-      "summary": "Google Workspace administrators can now access comprehensive audit logs for Gemini Notebook in the Admin console, providing greater insights into how the application is used across their organizations",
-      "date": "04-09-2026 07:48 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -131,35 +179,11 @@
       "date": "04-09-2026 01:00 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "New built-in interoperability between Google Meet and Microsoft Teams on Android (AOSP) devices, now in Early Preview",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/new-built-in-interoperability-between-Google-Meet-and-Microsoft-Teams-on-Android-AOSP-devices-now-in-Early-Preview.html",
-      "summary": "We\u2019re introducing video conferencing device interoperability between Google Meet and Microsoft Teams, which will allow you to:Join Microsoft Teams meetings from Android (AOSP)-based Google Meet hardwa",
-      "date": "03-09-2026 03:50 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Turn Google Docs, PDFs, and Word files into video summaries in Google Vids",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/turn-google-docs-pdfs-and-word-files-into-video-summaries-in-Google-Vids.html",
-      "summary": "Google Vids now allows you to transform static Google Docs, PDFs, and Word files into engaging video summaries. This new feature leverages AI to generate scripts and narration while providing custom v",
-      "date": "03-09-2026 03:23 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Custom instructions for Gemini in Workspace now available in more apps",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/custom-instructions-for-gemini-in-Workspace-now-available-in-more-apps.html",
-      "summary": "Earlier this year, we introduced the ability for Workspace users to set persistent custom instructions for Gemini in Google Docs. We're now expanding support for these custom instructions to additiona",
-      "date": "03-09-2026 02:22 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - ZDNET",
+      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - zdnet.com",
       "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters ZDNET",
+      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters zdnet.com",
       "date": "03-09-2026 01:02 AM"
     },
     {
@@ -187,14 +211,6 @@
       "date": "13-08-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
-      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
-      "date": "12-08-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "The Best Office Suites We've Tested for 2026 - PCMag",
@@ -213,9 +229,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - openai.com",
+      "title": "Launching Health in ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT openai.com",
+      "summary": "Launching Health in ChatGPT OpenAI",
       "date": "23-07-2026 05:00 PM"
     },
     {
@@ -243,14 +259,6 @@
       "date": "17-06-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
@@ -261,9 +269,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - openai.com",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT openai.com",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
       "date": "04-06-2026 05:00 PM"
     },
     {
@@ -305,14 +313,6 @@
       "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
       "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
       "date": "22-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "16-04-2026 05:00 PM"
     }
   ]
 }
