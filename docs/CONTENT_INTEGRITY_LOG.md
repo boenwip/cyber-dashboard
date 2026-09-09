@@ -4,6 +4,57 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-09 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 09-09-2026 10:26 PM — 4th run today). `git log --since="2026-09-08"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — standing backlog carried forward, not re-detailed line-by-line where unchanged.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 09-09-2026 10:26 PM)
+Three briefing claims plus the featured story checked against their `news.json` source articles and independent WebSearch:
+- **"Microsoft's largest ever Patch Tuesday, fixing nearly 1,000 vulnerabilities — two actively exploited"** — supported and precise. Matches three separate `news.json` sources (Krebs "Microsoft Plugs Nearly 1,000 Security Holes," Dark Reading "Patch Tuesday Sets Another Record With 974 CVEs," Australian Cyber Security Magazine/Rapid7 "999 vulnerabilities... 974 affecting Microsoft"). Independently corroborated via WebSearch (SecurityWeek, CyberScoop, TheHackerNews, SecurityAffairs): 974 CVEs, two actively-exploited zero-days (CVE-2026-81963, CVE-2026-85880), Microsoft's largest single patch batch ever. No overstatement.
+- **"Accidental AI data exposure is now the second most common AI-related security incident in Australia and New Zealand"** — supported and precise. Matches its `news.json` source (Australian Cyber Security Magazine, same headline) verbatim. Independently corroborated via WebSearch: the underlying Netskope Threat Labs ANZ 2026 report — "downstream" AI data-policy violations (AI systems surfacing info to unauthorised users) are the 2nd most common AI security incident type, at 666/10,000 AI security alerts among orgs with governance controls. No overstatement.
+- **"Google warns attackers are increasingly using AI agents to carry out attacks faster and at greater scale"** — supported. Matches its `news.json` source (Security Brief Australia, "Google warns cyber attackers are moving to agentic AI" — attackers "compressing intrusions into hours"). Consistent with the same underlying Google threat-intel trend already independently verified in this log on 2026-09-08 (six-months-to-automated-attacks item). No new claim beyond what the source states.
+- No hallucination or misattribution found in this run's briefing content — all three claims map cleanly to source and independent reporting.
+- **Featured story ("Coder launches Agent Relay for Cursor in private preview")** — factually accurate to its Security Brief Australia source and independently corroborated in detail (Coder's own blog, TheNewStack, TheNextWeb, HPCwire): real product launch (Agent Relay, SpaceXAI as launch partner) letting regulated enterprises run Cursor's cloud coding agents on their own infrastructure. Not a hallucination. **But it is another vendor product-announcement pick (`source_count: 1`, no-cluster fallback), same standing failure mode logged repeatedly since 2026-08-23** — joins 2026-09-03's "Altimetrik," 2026-09-06's Scamwatch pagination picks, and 2026-09-08's "Pronto adds AI tools" as another concrete instance of `select_trending_article()` having no relevance/PR guard. Not misleading to a reader, but still fails the "Today's Story" premise (a real news story, not a product launch).
+
+### 2. Paywall spot-check
+**Not performed.** Tested `krebsonsecurity.com` and `securitybrief.com.au` via WebFetch this run (both new domains for this rotation) — both returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, consistent with a standing policy-level block, not a transient fault. Same condition every run since 2026-08-18 — now ~22 days / 27+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to a fresh sample not yet covered in this log's recent rotations: **Multi-Factor Authentication, Darknet, Endpoint, Least Privilege, Threat Intelligence, Vulnerability, Dark Web Monitoring, CVE, Smishing, Identity Theft, DDoS, Essential Eight (glossary entry), Secure Password, Honeypot** (`definitions.js`). All 14 read in full — factually sound, appropriately simplified, no inaccuracies found. Two specific claims spot-checked against authoritative sources:
+- **Identity Theft entry's "IDCARE (1800 595 160)" confirmed current and correct** — matches IDCARE's own published hotline (8am–5pm AEST weekdays).
+- **Essential Eight entry's "Non-corporate Commonwealth government entities are required to achieve Maturity Level Two under the PSPF" confirmed accurate** — matches PSPF Policy 10 (mandated since 1 July 2022, reconfirmed under PSPF Release 2026).
+- Vulnerability entry's CVE-2021-41773 Apache path-traversal example checked — real, correctly described.
+
+Re-confirmed by direct read (not carried forward blind) that the four standing issues are byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87, ~21 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164), Brute Force Attack "billions of years" claim (line 185).
+
+No fresh OWASP/Essential Eight (`reference.html`) re-check this run (fully verified against the live 2025-edition source on 2026-09-07); zero commits to `reference.html` since.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (57 items, generated 09-09-2026 10:26 PM):
+- **Junk "Browse news and alerts — page N — Scamwatch" listing-page count: 13/57 (~23%)** — all 13 dated 04–05 Sept, still aging inside the 14-day storage window; no fresh junk added by today's four pipeline runs. Stable rather than worsening today, but still unfixed at ingest (same root cause: the "Google News — ScamWatch" `site:scamwatch.gov.au` query).
+- **"Today's Story" is another vendor-PR pick, not junk but not real news either** — see item 1.
+- **404 Media's "Channel 5 Gave Hunter Biden a List of Its Subscribers' Emails for Some Reason" (tagged Compliance via "data protection" keyword match)** — a real story about an alleged illegal data-sharing/privacy breach, so the tag isn't wrong, but it's UK-broadcaster/US-political-adjacent with negligible practical value to either an AU cyber professional or a lay RTO staffer. A milder instance of the standing "404 Media loose keyword tagging" pattern (logged since 2026-08-25) rather than a new issue.
+- Dark Reading remains the largest source (25/57, 44%) — sampled titles stay genuinely security-relevant (SonicWall/Langflow/ClickFix, Brazilian govt server compromise, Philippines nuclear agency old-flaw exploitation, AI-security-angle pieces on kill switches and credential theft) with no general AI-industry filler spotted this run.
+- Substantive items (Patch Tuesday record, Mathspace breach still in-window, Citrix/NetScaler advisory, TeamPCP arrests) read well for both audiences with adequate plain-English framing.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 57 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py` and the CHANGELOG blocklist. Sources present: Dark Reading, Google News — ScamWatch, Australian Cyber Security Magazine, Security Brief Australia, Krebs on Security, Risky Business, 404 Media, Google News — Bleeping Computer AU. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked).
+
+### Needs human attention (priority order)
+1. Four standing `definitions.js` text-accuracy issues remain unfixed, all small well-sourced edits: Business Email Compromise loss overstatement (line 87, flagged 2026-08-19 — now ~21 days, oldest open item), Supply Chain Attack SolarWinds overstatement (line 164, flagged 2026-08-25), Brute Force Attack "billions of years" (line 185, flagged 2026-08-25), Patch entry's Essential Eight timeframe (line 108, flagged 2026-08-29).
+2. "Google News — ScamWatch" query quality remains degraded (~23% of the feed is junk Scamwatch pagination-page listings, unchanged from yesterday — the same 13 items aging through the 14-day window rather than new junk arriving). Needs a human look at tightening the query or filtering title patterns like "Browse news and alerts" in `scripts/fetch_cyber_news.py`.
+3. `select_trending_article()` still has no junk/relevance/PR-vs-news guard — today's concrete example is another vendor product announcement ("Coder launches Agent Relay for Cursor"), the fourth such instance logged since 2026-09-03 alone. The precedented fix (porting `dashboard.js`'s `renderScamOfWeek()` `GENERIC`-keyword guard into the Python selector, extended to also exclude vendor-announcement/press-release framing) remains recommended since 2026-08-23.
+4. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05). Not manifesting as an error this run.
+5. Egress to publisher/reference domains remains blocked — now ~22 days / 27+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+
+---
+
 ## 2026-09-08 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 08-09-2026 10:13 PM). `git log --since="2026-09-07"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — standing backlog carried forward, not re-detailed line-by-line where unchanged.
