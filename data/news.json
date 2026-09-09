@@ -1,7 +1,89 @@
 {
-  "last_updated": "09-09-2026 12:18 PM",
-  "count": 56,
+  "last_updated": "09-09-2026 05:29 PM",
+  "count": 58,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "SentinelOne adds OpenAI GPT-5.6-Cyber to AI services",
+      "link": "https://securitybrief.com.au/story/sentinelone-adds-openai-gpt-5-6-cyber-to-ai-services",
+      "summary": "Security teams could cut manual triage as the new service ranks code and intrusion risks by real-world exploitability, not alert volume.",
+      "date": "09-09-2026 04:52 PM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Grace Chung named grand winner in Women in AI awards",
+      "link": "https://securitybrief.com.au/story/grace-chung-named-grand-winner-in-women-in-ai-awards",
+      "summary": "Recognition for more than 50 finalists highlighted women's growing influence in Asia-Pacific artificial intelligence as Grace Chung took the top prize.",
+      "date": "09-09-2026 04:08 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google warns cyber attackers are moving to agentic AI",
+      "link": "https://securitybrief.com.au/story/google-warns-cyber-attackers-are-moving-to-agentic-ai",
+      "summary": "Attackers are compressing intrusions into hours, leaving defenders less time to spot and stop credential-harvesting campaigns.",
+      "date": "09-09-2026 03:48 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #852 -- Cyber Command wants to buy shells",
+      "link": "https://risky.biz/RB852/",
+      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Robby Winchester from SpecterOps to talk through the week\u2019s news, including: ID verification company IDScan was breached and 153m driver licenses wound up for sale online. Cue the barrage of lawsuits The US government plan",
+      "date": "09-09-2026 03:32 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "AI data exposure ranks second among AI security incidents in Australia and New Zealand",
+      "link": "https://australiancybersecuritymagazine.com.au/ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand/?utm_source=rss&utm_medium=rss&utm_campaign=ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand&utm_source=rss&utm_medium=rss&utm_campaign=ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand",
+      "summary": "AI systems revealing sensitive information to unauthorised users has become the second most common type of AI-related security incident inside organisations in Australia and New Zealand, according to a new [...]",
+      "date": "09-09-2026 01:25 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Governance controls are crucial for AI adoption and modernisation",
+      "link": "https://securitybrief.com.au/story/governance-controls-are-crucial-for-ai-adoption-and-modernisation",
+      "summary": "Trusted partners and tighter guardrails are becoming essential as AI agents expand the attack surface and put data sovereignty on the line.",
+      "date": "09-09-2026 12:35 PM",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Cameras evolve as physical security becomes part of IT stack",
@@ -25,59 +107,6 @@
         "AU Cyber"
       ],
       "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Okta appoints Sunil Kedaraji as APJ Partner Vice President",
-      "link": "https://securitybrief.com.au/story/okta-appoints-sunil-kedaraji-as-apj-partner-vice-president",
-      "summary": "The hire signals Okta's push to widen its channel reach in APJ as AI adoption raises demand for tighter identity controls.",
-      "date": "09-09-2026 09:30 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "TeamViewer adds approved AI fixes to remote support",
-      "link": "https://securitybrief.com.au/story/teamviewer-adds-approved-ai-fixes-to-remote-support",
-      "summary": "The new feature lets technicians approve AI-led repairs in live support sessions, aiming to speed fixes while keeping an audit trail.",
-      "date": "09-09-2026 09:13 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Microsoft Patch Tuesday hits 999 flaws with two exploited",
-      "link": "https://securitybrief.com.au/story/microsoft-patch-tuesday-hits-999-flaws-with-two-exploited",
-      "summary": "Patch management teams face a record burden as Microsoft's latest monthly release spans 999 flaws, including two under active attack.",
-      "date": "09-09-2026 09:11 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "OpenAI & UNSW Sydney launch ChatGPT Edu for 80,000",
-      "link": "https://securitybrief.com.au/story/openai-unsw-sydney-launch-chatgpt-edu-for-80-000",
-      "summary": "The deal gives 80,000 students and staff access to ChatGPT Edu as universities race to embed artificial intelligence in teaching and research.",
-      "date": "09-09-2026 08:38 AM",
-      "tags": [
-        "Education",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -176,9 +205,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxON0VFeE5xQkgxZndMU0prZF80aGhhZDhvaHVXT3E3Sk9wenlmbFp4VzhvZThXdm1HdmctZGJXWm5laGxmcHpid0x4dXVZdHd3X0VwSGs2a3U1aWVlN3pGMHdJQmpMLU9kT2FsQ0tFalczUmg1azE5NlE4VmtYUXVkSU1abUswVTZnQWFUamN1b0xCOEY4a0UzMWpfcV9lblBDRkZLVzlDaGloUk5SM1BnbjF2RFVtS1N3dVNDenhOTzF4WEQwbmpxem5BNEY4eWQtYk1nbUZKX3NVd3R6NTkyZkIwOXBLZU42S0lnMm9mamxJT241ZFdfaDVpTlFmZzFndzFzamRwY1JCUVl4SVdHTVZkU1VXVzdHa2dZQnJNU1VvcHNzeVhpS01Ic096MHlyV0x3RWtsOXhKeU0?oc=5",
-      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
       "date": "05-09-2026 09:33 PM",
       "tags": [
         "Scams"
@@ -191,9 +220,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 7 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 7 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxNa25ZV1I3NThyN09fNnhMZHhHbXlXOTdEcFE1WFh4bWJ5Y09MZjJrX1IyNEZ2SW83UUN4by1SN1pNb25SWmlqVWR2N0RwRFJxOFBGM2VsdFpBNlAzN3RkT2ZldWR4djNKaEJsZzBmTHB6WGpyU1V1QUpXZWNVMDlrdXZfMEJHd2dYeHUwNFpNWlZkS3BNaTR0UTVRWEVTUzJnWFlJVnhzb1gydjh2TjZ1X0d3WnNkQXJRQU4tS0VRcDdjb1JNeTcySEsyVEI2VVJFV3J6eklTdHE5Y21jRWFXYU1SS0hYQU0wZXAyWXVDQnltMVE3ZGZUUnJTLW1UbmpJczNuOGQxSTRQMTFTdEpzN2o4dDRpTzhMRmtDTjREdjFWelR3VWJlSERWOWZhYXA2ck4xeFpJdUpTSVBxc0pKOExhcjVMM1lmM0ctbDNneUExcjNmUDFzLW5MazFfRXRBSEQzNkQ3bl9yV2pTZC1YTTRoQzhqZktlRmtCVWE1UUtpUnFqbnVhUlNwNnFYZEF3SjZJZHluZTJfRjkxY1BRSzJSaEJYa19KcHl4NA?oc=5",
-      "summary": "Browse news and alerts - page 7 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 7 Scamwatch",
       "date": "05-09-2026 08:23 PM",
       "tags": [
         "Scams"
@@ -206,9 +235,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 6 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 6 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxQVjVtSUdDazlLYUYxUlI4QTZ3VkpWenhGdHNwLXAwTFZsOGFzTFVyRjFfWkY4VUx1a294UFpjU1ktZ2c3UW9XYUgxUW94eUJneE5raTlDMUs0bjhZVEhLanljTEVFelFZYzZFMkQ5dUhMaHZxSmtDUFlhMm8tTG16Mm8yMklSM05CVEZtZ0V3MC05ajk5c2ktOG8zbkpRZmNnLWRQNTVlVUJiT0hFS1lHd0d0RC0wbmpnNFZid0RXN0hWV2hxYU1aLWZycFFiLVpKdW10VmpqanRhaHgxWldkSkNmYUE1TlBQNGtocmxjSFRyX3ZLak1qMEtGemgxWTViajJONGl4aFBhNXF4ZW1CbDU4ZDBWUmhVOXpxUGJseHVvRmZmNnlTcGtpNTN6aU4yeEl1NjZvYW1mb1pFV3c?oc=5",
-      "summary": "Browse news and alerts - page 6 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 6 Scamwatch",
       "date": "05-09-2026 07:53 PM",
       "tags": [
         "Scams"
@@ -221,9 +250,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 3 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 3 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPV2w0TzBrbU9wWWdTVDZzNHFQRkNHcTJaTnp3a3FqbzdIMk9fNVFybl9hQ3hVVFY2MEpld2dDaGwtMnJ6RlVZVS1pUkdXRlRjX2ZsUjRyY3ZncjhtblJlSDB6VG9sZEhrdVBzT0Fyamx4aU1pLUg0bHNPMWZKMVN3MHhkVktwOGE0dldaSEJqNkJKOVhRTVlZNzBKQ0pBWkdOUEFMRzRrTFNENm1xei1menJHWGk4VXB1NTBKSzctZ1BwcTE0dGRNelUyZzBHT2Exb1VRWjA0TnM0Nk5pMFhaZGpNQVNNWFM4dWF3WF81Q0hKbVJ1TFJXcGVXcV9YclRnVnZEREsyaGhIenpFZnNvNUg2dGk4VnlCYUN2NjZPb2RBcktCQjJjV0VJU1JCU2VLZkZhbE9naEdOTng4c1NJ?oc=5",
-      "summary": "Browse news and alerts - page 3 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 3 Scamwatch",
       "date": "05-09-2026 04:48 PM",
       "tags": [
         "Scams"
@@ -236,9 +265,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 9 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 9 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxNWWtHX0NtczNUbUM4cmRMbGNWbk9xRl82S1llaFd2bWZnMDdCWEJqSElFV0NZdng4bDVKQVVPSjh2aGpIM0w1dTNXYnVYbS1PdUtkdDJDdVlzWHVaS2NLTUR2Wk44a2JORlFaZnFNSVhwVnQ4dGZmMUxNT05hZ1Z3RE52MkptWklMazcxMkt3NUZKaXRMUjRCRjhmSklSY1JVbVQ5M2s1eEFlVGVKUTJvS1RSYXpjVFpxYmR4OGhTUzJOZmNYVk4xd3RzbnNKRllGZkFUUGFSNG41QzQ4Vy01SFZZQlVZQm4xUXpmZG9HODJ6bjh6eE5Rbmg3eHZQR1BtZXl4ZDJkUlpQOC13LVozTW5ZbU5TdlJTZUJiYklHVU1ZcE5jOG03WlQwV2FXZl9BR1liTk5fR0swdw?oc=5",
-      "summary": "Browse news and alerts - page 9 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 9 Scamwatch",
       "date": "05-09-2026 02:41 PM",
       "tags": [
         "Scams"
@@ -251,9 +280,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 11 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 11 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQWnJ5SU0wS19NVmpHSXlRckJJYUJOc0JXc2xteFI3d1c0SWxQdU5VUTdIU3R1SXQ1c0pXTFNRM1NNWWo3R21FX0tETEFHZEVTblJVNHk2NVdBWUpkRG9XdjhnQ1B1WmRFM0NON08yZlliN25zTjl2c1pDcXl0cTRESzdfRTREQWV6WHZzeDk5M3RXbzdDbVhuMWp3Vm55Tld3NFFHQTRNTWdNWGFMbmUxX2xIdWhTSl9PNWMxRjhMWWlpUDI1YjFRWkc4MjFtVDM2YlhsUmJZdXYwRXpwaEQ1NDQ0VEJQcmZXb180QjdaVGxJMk9KSHRHamdQTUVUa3duSlNsT3dyRlF5bHEzVjNxMTM1cTN4LUxpMEw2WnQ2OUY?oc=5",
-      "summary": "Browse news and alerts - page 11 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 11 Scamwatch",
       "date": "05-09-2026 02:19 PM",
       "tags": [
         "Scams"
@@ -266,9 +295,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 13 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 13 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMirgNBVV95cUxOLXZrSGFMNkhBal90Ul9PT2VsbXhreUNuaVJTaE5vSUhqYXVsWHZPX2JaYll0WVRRei1yRXBnWDI4MHF6RGh6VktXaWo5S0FOTVEtNDh0U0h1Z2NqVTFRcWZYYWNSZExsTE94czBLM3Zhd0RYV0RuZlJKWVotVjRBa0FQMm9mTlhpYkc0eW9FaGlLWEx0bTI3QXhhOS1mTGE1ZDRmRDNCRzFYU0Fqam5IYTRxODRvUDBUUUszcjYtcHVJSzRRWGNWMXpvZWprOHlEMFRVZEZKQkZqdkpwaDdaRENJUEJZLW1vemZZUnF3US15QVVsX2c5cThHdWFUN2lrOGpFeHFaenphYmt2dXRQXzdIV2xqOUIya3kwQUUzR3RRYlNBUEwyR2pwbnhqcEktUkhNN05vZFdQM0pZVW5TUlZIQlRVT3pRalFUa3JaZkRxS2xENFNYcW9neWdxZk1DbkJheHAxZnRCOWthZmYxYlVta1BueEFQNkg3cUE1clVPUnlWSjY3UDllc012TWl4T3pTTEJub3RYdEE5TFhkM3pCbmZJU21yUzdFN0Fn?oc=5",
-      "summary": "Browse news and alerts - page 13 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 13 Scamwatch",
       "date": "05-09-2026 01:50 PM",
       "tags": [
         "Scams"
@@ -281,9 +310,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 14 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 14 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi_gJBVV95cUxNMXBGOVh0TFJBd1k3c3p1TVdrTHFLRW1ncHM2T3llOUs1cUY5alBIbkR6bndYSmw4Q3Y3Tk9fWjQzYzVuN1lOWm95cXQwcVJod2JuVTlpd2RxYTQtOXV3WVp4N2gyZUhlQk5vLUFOTHNvVmxmOWxPdlBoNWVZRXJDUGloX0YzcG4tWDE4OEpucnU1ZmRPT2FsbnptdkJUZXg1Zm1fdVBUNHlKaXdqVEk0NkVTNGVQdEFCdkhWczBZS1JkaHdwb0l3NE1YUzB0WkRBaFIzMUhnR1c5Mk5mUHlSc0lqM3hoSEUwaFNWVm1OcDFmVG9TQ09DcW5vNFN2Q0NvbDRLSzlnVlIybUF1Z0JrQXRuRFlKd1dzWGdMM2hNRUxQUmtjbTN1eWJSYXdycm1ac1ZtY1pjMm9aNXQtaF82eUtKaGgzcjZnRE9YalNSLXY0amp3RzlzZEZuVkFNTEZETF9WVllsYzZoWE1UMHR4U2EwankwZlJzT2J2azN3?oc=5",
-      "summary": "Browse news and alerts - page 14 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 14 Scamwatch",
       "date": "05-09-2026 07:50 AM",
       "tags": [
         "Scams"
@@ -296,9 +325,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPU2hfSk9xN0EyaExQNU5aTzViWFc3UzNRd1Q2M0l4RDNkOTNqak5NSnVpc3pkZ2ZjclAzMklaOFhWQmNKMjJ5NjZXOE9UZWNCUElWRjdRNkZZZjh6ZDI4YTF5bHpIXzcxRVF3Z3lrVGJONTIxcV9kZjVkRjFBcmhCVjhHTUZEN21pbTIxd2pBT2F5bmpjRFNvSHpvRWJUeVl1X2hCUEJYUVltV1VvYmlpbDBWNFlfb1d2bDNvd29VdTRScTh0M3BLWXU0dEcwbkxJelE2X1p6RVF1NVpYRlNEd0tEQVdVZk5NYmI2RnFiOHdoNjRoZmZYNVA3VUlZeTlKenNqcTJ3VGZicmZQSHRySmlqa2N1d19EMHdmRlhaZlR6OC1kT0I1QWhkWG9sRnA1b0YzY0hRRDRzQmF3dWc?oc=5",
-      "summary": "Browse news and alerts - page 5 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
       "date": "05-09-2026 06:51 AM",
       "tags": [
         "Scams"
@@ -311,9 +340,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 8 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxQOEVNczJQeXdFcmNjNHpoM3dwcUIxVEdUN19FeERYWFlhMUtZVVJ5LVFheVc4ejUweTRUalhlcnliZk9hVUFUNXQ5dUJNSGJHLVBVQUVsbkJUNlFJX1NMTVc1WTRSMHlvYzVDdHRPRWZ4WVhzZWhZRVhOOElkNWdKOFBzUXNUbzJQWDFsN1hMbEFxemVFUVowejJzeEE5Nmx0NkhoSE1KTnRNRERUbDNmWjhkU254TUFjRWJVN2lNQVJ5YzJ6NUZmMWoyU3FENDRGaXJkMUJfRkszNVhGNUt4YW8zc09uaUxoQ2NTX1V2ZUdqTV9ENl82WXF0bXZ0ZDM0cGtWNHk2MXdHa2JjNTZmTDBjLXB6Szdnczg5bzFPbkg2dWZqOVFENngyWnlzck9LZm1IZ0ZoeVg3dw?oc=5",
-      "summary": "Browse news and alerts - page 8 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 8 Scamwatch",
       "date": "05-09-2026 06:30 AM",
       "tags": [
         "Scams"
@@ -326,9 +355,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - scamwatch.gov.au",
+      "title": "Browse news and alerts - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSVBRb2lpNnZMaWZDZERZR05HZGN5RDlQbDZkU2tMYlphRnhsQ2VrSTk1MlVkNXpOSVRJNkhEdVNCa0t5X2xmdUdrZ0xLMFVrN3lURVlWc040Tm1rXzdKQnJvWk1zZ0ZzeE45b200eHl5aGgtWW1ONWowYi1ldEp3ZEpfU1RMOWl5V2dnb3BGbnVFRk4xWldQcDBVd0k1dGdzWHdOdkoxeVB2SkhVR2I1TXBOc0xPbTJ0Ym51Y0x3ZEJIODhFRFY4MEJ2MnNjTXdKc3p6MTRwVzIzNlhCU1g2bWkydWVHTzZuUTFpX2k4S2xjTkFqSi1meUVoOA?oc=5",
-      "summary": "Browse news and alerts scamwatch.gov.au",
+      "summary": "Browse news and alerts Scamwatch",
       "date": "05-09-2026 06:29 AM",
       "tags": [
         "Scams"
@@ -354,9 +383,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 10 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 10 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxOcTZkckJhSlFGVXZ0Ny1PdjBLWHdRSXlvVVFkblN5VDVRbVZjSXJkejJTVTYtejJZcDZ0bmhtVnRxVHdScGR0ZnlzVERVUEVQU2NhVnFvekQzNk5yaGFjb3FHTHR3UTJwc0ZUcFhsbkNlZjFEaVRRSURoRHhtX3RXZ1RMWElpQmVVY2pxOWtDNk5GNjZ5bTZFMGIybUtyOGppM2puMW5aR3pHeURPZ3VJc29leS02OGN0bDhSdXo0MWJYZW42UFVqQnpXLUktbXpEaURDX05CaXR3X3Uyckl6Z0o0cjFJOE5VNzZPVGxlNkh3YWtySllfOFdOR3NyUlF0M21pZjgxYlRZdkJJWFNDSHJhLUZTeG1QdXdFQ2ZvTFdCcUY0bHN1Q3cteGdQLWdpYmVhOGNITGdJVzdZS1RBaWVsbUNjRzltUFdmVTEtMzZUbEN0WkVKTmM3YzY?oc=5",
-      "summary": "Browse news and alerts - page 10 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 10 Scamwatch",
       "date": "04-09-2026 10:29 PM",
       "tags": [
         "Scams"
@@ -369,9 +398,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 4 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMilAJBVV95cUxNd3ljTld2SXFOcnJuX2dvZDJZUWpsV0Fia0VUOURPYTQ5Vzl4VG5RY0YwZ2FUd0FlNzFwWUJ5NzV6ZEtla3dNMUEtR0IwaGpBbWRXaGJKNVVpdXB6czQ5amt0cGVPSldrQWJMWEpNWFg4ZGl6QjZVWlEtb1l1WHNwZzFWUDRpeXBVODdQN0lqU2dhUHBjaGpSZTdJSFN5X0dUVmdEckp5U0ZnbWlzQzlIaUxzTG1Qdl8wRElpd1FHbkpOTzlRQmpzOVpSSVhMOFlJa01zeWxGV0g0bmQzNHRsRHlydG8yM0h2RVZsTldFQ1k0T0w2LXBNcHJhQ2hfMWFnVTRfZTFJVjlnNzFnaVYtdEFWZXc?oc=5",
-      "summary": "Browse news and alerts - page 4 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 4 Scamwatch",
       "date": "04-09-2026 06:58 PM",
       "tags": [
         "Scams"
