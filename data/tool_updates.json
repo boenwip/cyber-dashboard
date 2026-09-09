@@ -1,14 +1,22 @@
 {
-  "last_updated": "09-09-2026 10:26 PM",
+  "last_updated": "10-09-2026 08:53 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.267",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
+      "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
+      "date": "10-09-2026 08:53 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "09-09-2026 10:26 PM"
+      "date": "10-09-2026 08:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "09-09-2026 10:26 PM"
+      "date": "10-09-2026 08:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "09-09-2026 10:26 PM"
+      "date": "10-09-2026 08:53 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,39 +40,71 @@
       "title": "v2.1.261",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
       "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
-      "date": "09-09-2026 10:26 PM"
+      "date": "10-09-2026 08:53 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.260",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.260",
-      "summary": "What's changed Added a diff panel that opens beside the conversation in fullscreen mode and shows your uncommitted changes as Claude edits; toggle it with /diff Added a likely cause for prompt-cache m",
-      "date": "09-09-2026 10:26 PM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Create and edit calculated fields in Google Sheets pivot tables with an improved editor",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/create-and-edit-calculated-fields-in-Google-Sheets-pivot-tables-with-an-improved-editor.html",
+      "summary": "We are introducing a new, dedicated formula editor dialog for creating and editing calculated fields within pivot tables in Google Sheets. This update streamlines how you build custom formulas and der",
+      "date": "10-09-2026 05:59 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-chromeos_0586661566.html",
-      "summary": "The Stable channel is being updated to OS version 16765.41.0 (Browser version 152.0.7977.113) for most ChromeOS devices.If you find new issues, please let us know one of the following ways:File a bugV",
-      "date": "09-09-2026 08:31 AM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Automatic room check-in for Google Meet available on mobile devices",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/automatic-room-check-in-for-google-meet-available-on-mobile-devices.html",
+      "summary": "In January 2026, we introduced Automatic room check-in for Google Meet available on mobile to organizations on the Rapid Release track enrolled in Early Preview Rooms. We\u2019re excited to announce that t",
+      "date": "10-09-2026 05:15 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01729269728.html",
-      "summary": "Hi, everyone! We've just released Chrome 153 (153.0.8010.36) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements. Yo",
-      "date": "09-09-2026 08:13 AM"
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01390050711.html",
+      "summary": "Hello Everyone! We've just released Chrome 154 (154.0.8037.21) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
+      "date": "10-09-2026 04:10 AM"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0808145027.html",
-      "summary": "The Chrome team is delighted to announce the promotion of Chrome 153 to the stable channel for Windows, Mac and Linux. This will roll out over the coming days/weeks.Chrome 153.0.8010.36 (Linux) 153.0.",
-      "date": "09-09-2026 07:24 AM"
+      "title": "Early Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01157104879.html",
+      "summary": "The Stable channel has been updated to 154.0.8037.17/.18 for Windows. Mac is coming shortly , as part of our early stable release to a small percentage of users. A full list of changes in this build i",
+      "date": "10-09-2026 03:50 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Create content, schedule events, and coordinate tasks across Workspace regardless of what app you are in",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/create-content-schedule-events-and-coordinate-tasks-across-Workspace-regardless-of-what-app-you-are-in.html",
+      "summary": "Completing a single task shouldn't mean breaking your focus or switching apps. To keep you in the flow of work, Gemini can tackle complex tasks behind the scenes, working as an intelligent orchestrato",
+      "date": "10-09-2026 03:42 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-desktop-update_01651646069.html",
+      "summary": "The Beta channel has been updated to 154.0.8037.17 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find",
+      "date": "10-09-2026 03:28 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop.html",
+      "summary": "The Extended Stable channel has been updated to 152.0.7977.120 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log. Interes",
+      "date": "10-09-2026 02:57 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_0636230366.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 154 (154.0.8037.21) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, c",
+      "date": "10-09-2026 12:43 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -72,7 +112,7 @@
       "title": "Introducing ChatGPT Images 2.5 - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
       "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "09-09-2026 04:40 AM"
+      "date": "09-09-2026 04:35 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -107,22 +147,6 @@
       "date": "09-09-2026 03:00 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Introducing the new 1Password App for Google Chat",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/introducing-new-1password-app-for-Google-Chat.html",
-      "summary": "The new 1Password SaaS Manager integration for Google Chat helps teams streamline IT and HR processes by bringing notifications, actions and approvals directly within Chat.With this integration, teams",
-      "date": "09-09-2026 02:02 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Use custom web fonts in Google Sheets charts",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/use-custom-web-fonts-in-google-sheets-charts.html",
-      "summary": "Google Sheets now supports the full Google Fonts web font library directly within charts. Users can now select \u201cMore fonts\u201d from any font dropdown inside the chart editor sidebar to search, add, and a",
-      "date": "09-09-2026 01:05 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Which Microsoft Office Version Should You Buy in 2026? The Complete Buyer\u2019s Guide - nerdbot",
@@ -147,35 +171,11 @@
       "date": "06-09-2026 09:03 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - September 4, 2026",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-04-2026.html",
-      "summary": "Add co-presenters in Google Meet with one clickPreviously, adding a co-presenter in Google Meet required multiple manual steps. Now, Gemini will intelligently suggest a co-presenter in the Ask Gemini ",
-      "date": "05-09-2026 05:08 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update.html",
-      "summary": "The Dev channel has been updated to 155.0.8040.2 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
-      "date": "05-09-2026 02:58 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8040.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
-      "date": "04-09-2026 11:28 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2online.in",
+      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2ONLINE",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZF9VbHE2aVA4bVByVHVTU1NIRkFjdmJpSnlzSUJRRk0tXzY0dFRXRG15X2V1QlExMmNBaHhjbXRreHVxbDVVZzVfLWk2d2lJOVgwNEcxei1Ga01Bd2ZDU1lWZTRuSzlhMDlld1BsdDBDbm94SFd4MnVYTHU0UkNDNzdsQzJ5YXNDa3hTZGd5RWdLR3FjOGVUeHJ1emRhbTkzRmc?oc=5",
-      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2online.in",
+      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2ONLINE",
       "date": "04-09-2026 06:37 PM"
     },
     {
@@ -189,9 +189,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - anthropic.com",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 anthropic.com",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
     },
     {
@@ -200,7 +200,7 @@
       "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
       "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
-      "date": "31-08-2026 08:34 PM"
+      "date": "31-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -267,6 +267,14 @@
       "date": "17-06-2026 01:00 AM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
+      "date": "15-06-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
@@ -305,14 +313,6 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
       "summary": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount Decrypt",
       "date": "14-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - microsoft.com",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available microsoft.com",
-      "date": "22-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
