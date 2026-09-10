@@ -1,21 +1,75 @@
 {
-  "last_updated": "10-09-2026 10:18 PM",
-  "count": 61,
+  "last_updated": "11-09-2026 08:54 AM",
+  "count": 66,
   "items": [
     {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Structure Fire | Fire - Building Fire - Graham St, Shepparton - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZVRnaXpJRWluYlV1empKNFR4VUN1RW43M3VnTmVKQ3dmMHZoMXVkVU91Z1VzQmlqNDd4TlJfWk9BQmVpdkd4a2R3Y09QNWpGc1NpV0R2TWllLWZKLTJPaHpjMl80QXV5RUJRZ1l1X1c2MF9iSlNQcW8xNHFYVXpEZngxak55OFdZ?oc=5",
-      "summary": "Structure Fire | Fire - Building Fire - Graham St, Shepparton abc.net.au",
-      "date": "10-09-2026 07:26 PM",
+      "source": "Security Brief Australia",
+      "title": "OpenSSL funds six Australian students for Prague conference",
+      "link": "https://securitybrief.com.au/story/openssl-funds-six-australian-students-for-prague-conference",
+      "summary": "Six university students will gain rare access to global cryptography work as travel, hotel and registration costs are covered for Prague.",
+      "date": "11-09-2026 08:30 AM",
       "tags": [
-        "RTO / VET"
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
+      "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
+      "summary": "Threat actors are leveraging Microsoft's Graph API to identify lucrative targets, then passing their access to extortion groups like ShinyHunters.",
+      "date": "11-09-2026 06:36 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Nightmare-Eclipse Strikes Again With 'ShieldCrash' Windows Exploit",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/nightmare-eclipse-strikes-again-shieldcrash-windows-exploit",
+      "summary": "The disgruntled researcher continued their vendetta against Microsoft by publishing yet another zero-day exploit for Windows Defender.",
+      "date": "11-09-2026 01:29 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Privacy & Compliance AU",
+      "title": "Australia has recognised the state of Palestine. Now we must act to protect what settler terrorism is tearing to shreds - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOdXlLdlNoSFE2QzMwS0JnOUQ3TjIzZDVnZ2lMeklSSnYxazE5X2FoYmxlNE1FYTBMa3ZGN2xGcnlDdVByeElFM2hhQ1hCaFdyUUpnNndmVWNEeU9JMXJPYUltVjg4cktvbHVJdjdYdjVDUTYwbWxUMWdYdklZWGdacTFKQndSM2pwNk9BYk1obm0zb3N6OVZnVWNKY05TNzZyOFRjbS0xU09jQQ?oc=5",
+      "summary": "Australia has recognised the state of Palestine. Now we must act to protect what settler terrorism is tearing to shreds theguardian.com",
+      "date": "11-09-2026 12:36 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Saloons, school and specialty coffee: NWSL players enjoy new era of side hustles - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlclRQd3B0djFtaVZlMFNZY3h2S1ZCZ2tYT1FOcjFZSVZDVzFZa3Y0VzB4dnNkQkJxTU5MdDJtU0ptMGxMSFpmTDlPNTBHUHpDa3dmYzZzMHdHMS1GZEV2eVlSbXRPakNwT2Z1Y0VPSVhZaDZfM3hBNDN6VnlsUnc?oc=5",
+      "summary": "Saloons, school and specialty coffee: NWSL players enjoy new era of side hustles theguardian.com",
+      "date": "10-09-2026 08:00 PM",
+      "tags": [
+        "Education"
       ],
       "threat": "Advisory",
       "audience": [
         "SMB"
       ],
-      "relevance": "Direct"
+      "relevance": "Sector"
     },
     {
       "source": "Security Brief Australia",
@@ -65,43 +119,13 @@
       "source": "Dark Reading",
       "title": "EU Cyber Resilience Act to Enforce New Reporting Requirements",
       "link": "https://www.darkreading.com/cybersecurity-operations/eu-cyber-resilience-act-reporting-requirements",
-      "summary": "Starting Friday, businesses operating in the EU will have just 24 hours to notify the government any time they discover serious product security incidents.",
+      "summary": "Starting Friday, European organizations will have just 24 hours to notify the EU government any time they discover serious product security incidents.",
       "date": "10-09-2026 05:00 PM",
       "tags": [
         "AU Cyber"
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Barracuda spots blob URL phishing in Microsoft browser",
-      "link": "https://securitybrief.com.au/story/barracuda-spots-blob-url-phishing-in-microsoft-browser",
-      "summary": "Security teams may miss the attack because it leaves no persistent phishing site, instead building fake Microsoft login pages inside the browser.",
-      "date": "10-09-2026 12:51 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point warns of rising cyber attacks & AI risk",
-      "link": "https://securitybrief.com.au/story/check-point-warns-of-rising-cyber-attacks-ai-risk",
-      "summary": "Organisations faced 2,422 cyber attacks a week in August as ransomware and phishing intensified, while AI use created fresh data exposure risks.",
-      "date": "10-09-2026 11:58 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
       "relevance": "Global"
     },
     {
@@ -118,36 +142,25 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Rocket launches z/Assurance for IBM Z risk & compliance",
-      "link": "https://securitybrief.com.au/story/rocket-launches-z-assurance-for-ibm-z-risk-compliance",
-      "summary": "Only 24% of IT leaders feel highly confident about tackling mainframe vulnerabilities next year, as new AI and quantum risks mount.",
-      "date": "10-09-2026 10:46 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "Push to save teacher-librarians as student reading levels decline - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOVG9KcTByTHZ2LTZzMGw2UjJFZElaQ2hVZVV6VE5seXIyUW55M1dEd21LZmh6WW1FdENqRFdrSnVVeWczT3NUZDBPRHdkbVdhNkZxeFNRcDNjYV85TFRRbmRNS3VLRWZjTkJtcXNnMjJIT3NBTVMweV9lRXV0Q1NmRjV5SUtzcEJESkF1NlJsNzNwaWlxbHZrODhyWkxjMm41MUZ6eDNR?oc=5",
-      "summary": "Push to save teacher-librarians as student reading levels decline abc.net.au",
-      "date": "10-09-2026 07:23 AM",
+      "title": "Jacqui Lambie calls Pauline Hanson an \u2018angry little woman\u2019 after One Nation cartoon calling Andrew Hastie a traitor - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcHdoRWs2bklvX1pKSFpmM1JoVGpuQzZvQkM1SmM3VzNNRmF0NDBpMm5qZnByNktiSHhEQWY4Zm9DMDNCekFKS25FM1FURnBySWJCSmY1SzVWdEp1NDRRRlE4cWhxcnJoZ0ZRbUcyYzhNZzZWWTRweG1PYzZ5eFRrUmZ5eFNRQXpybklMLUthVWVhUmlEWVkzSkwwLUxqaHZyR2o1LVd3aDdvVGx2LXdCSE1RT1lYT2tiLVg3RFM5ZWttTE0wX0VvWmJid00zSzI0dy10azlNQ095cGlzck9hRGhSTTB1RUV6alB4bkZRR3BSMDBWMWx5LWYtaWw?oc=5",
+      "summary": "Jacqui Lambie calls Pauline Hanson an \u2018angry little woman\u2019 after One Nation cartoon calling Andrew Hastie a traitor theguardian.com",
+      "date": "10-09-2026 11:29 AM",
       "tags": [
-        "Education"
+        "RTO / VET"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
+      "audience": [
+        "SMB"
+      ],
+      "relevance": "Direct"
     },
     {
       "source": "Dark Reading",
       "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
       "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-      "summary": "An analysis of Project Glasswing findings shows only a fraction have reached disclosure, and an even smaller number have been fixed.",
+      "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
       "date": "10-09-2026 07:19 AM",
       "tags": [
         "AU Cyber"
@@ -179,6 +192,19 @@
         "AU Cyber"
       ],
       "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Anthropic researchers say AI could cause human extinction by 2030 - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSVlEaEpsMXNNdTNyNTY5VzZyTDVfQkFyNTJTTTNyZkM1amhPQnZtRFpCdFU1X245b1lSUEQ4Y0Zqa0x5Nkgzb3NjX1BxX1BlcUo1LThfUDNyVXpGd08wTFJ1cE4tb19SSnlXMERDc2tMUDZfN3VjZm02QjVQMmVmelVYYnhRV3pEQ2pqSXRVUlpSRGhwemdr?oc=5",
+      "summary": "Anthropic researchers say AI could cause human extinction by 2030 theguardian.com",
+      "date": "10-09-2026 01:53 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -250,10 +276,23 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "OpenAI claims to have solved maths problem that stumped humans for decades - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRktSM0hpSXlkVHhtQi1saTdsMERvYURwXzhrZk5xQzBTTGdBYVAtR2Q2NnBraDBfcDg5TmJmRnFQbkpTekt6dHNCOXBXQTVySkdBUlN4a0ItdWk2MjU4dkdSM2twLUFEN3BKUXdIVm5WbUJ6RG5oNzNBOFVnRGhnNURQR0ZDWWVTQjhhMjhkQ3RrUUFUV2tVSVFqdUJUNWRCLVB1SU4zeEYxZ1l1aFhRaEhnczhaejZ3M0RQU2pXNA?oc=5",
+      "summary": "OpenAI claims to have solved maths problem that stumped humans for decades theguardian.com",
+      "date": "09-09-2026 07:39 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Patch Tuesday Sets Another Record With 974 CVEs",
       "link": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
-      "summary": "Attackers are actively exploiting two of the vulnerabilities and another 58 are more likely to be exploited, according to Microsoft.",
+      "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
       "date": "09-09-2026 07:26 AM",
       "tags": [
         "AU Cyber"
@@ -280,7 +319,7 @@
       "source": "Dark Reading",
       "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
-      "summary": "Researchers and OpenAI disagree on whether the earlier incident involving DseWiki, which the company did not disclose, was a \u201chack.\"",
+      "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a \u201chack.\"",
       "date": "09-09-2026 06:36 AM",
       "tags": [
         "AI & Tools"
@@ -317,6 +356,19 @@
       "relevance": "Global"
     },
     {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "OpenAI releases new AI agent \u2013 after admitting one went rogue - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA3V0NZQmphR3B4eVV6dWM3Rm9Xb0RBUDhNZ2trT2RONml2Q0dsV0VQRlN3ZGQyVTlHSWJ0SGphX1h4MldQSnp1R05DQWVjV0JXbUVPR05XcEViTWtMaWprUWdYX1QwaEdUek9mdlJvR1dnZ1RBWWJPcHc2ek55ZlU?oc=5",
+      "summary": "OpenAI releases new AI agent \u2013 after admitting one went rogue theguardian.com",
+      "date": "09-09-2026 01:05 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
       "source": "Dark Reading",
       "title": "Cybercriminals Hack Brazilian Government Servers to Host Phishing Sites",
       "link": "https://www.darkreading.com/threat-intelligence/cybercriminals-hack-brazilian-government-servers-host-phishing-sites",
@@ -343,6 +395,19 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "\u2018Gigantic spaceship\u2019: University of Bristol\u2019s flagship \u00a3500m campus opens - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcE1idGU3WGdfTzZ1TlE5SWdZZjYwa1RRTGhlenI3cVF1c3dWNGphdzNCUDBlSHhLY0RyRW03SklNYm45RlE1c2h3TGxmOUpTV1JGQmhKcXREbS0xZ3dodElpMVV2NGRZRlhTaUR1TjRPTmd0MjNsWTZNcENRVXQyVHAwX2s3b0NudzhsM2NTT3p3VV9vVWU5MTlzaXM?oc=5",
+      "summary": "\u2018Gigantic spaceship\u2019: University of Bristol\u2019s flagship \u00a3500m campus opens theguardian.com",
+      "date": "07-09-2026 09:01 AM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
     },
     {
       "source": "Google News \u2014 ScamWatch",
@@ -483,7 +548,7 @@
       "source": "Dark Reading",
       "title": "Companies Have 6 Months to Prepare for Automated Attacks",
       "link": "https://www.darkreading.com/cybersecurity-operations/companies-six-months-prepare-automated-attacks",
-      "summary": "Frontier AI models have already demonstrated they can autonomously \u2014 and in some cases, inadvertently \u2014 conduct end-to-end compromises, but the situation will become more urgent very soon.",
+      "summary": "Frontier AI models have already demonstrated they can autonomously \u2014 and in some cases, inadvertently \u2014 conduct end-to-end compromises, but researchers warn the situation will become more urgent very soon.",
       "date": "05-09-2026 01:57 AM",
       "tags": [
         "AU Cyber"
@@ -521,19 +586,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 Privacy & Compliance AU",
-      "title": "What Australia's Privacy Act reforms mean for the tech you use - abc.net.au",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNThiWjRNM2p1V2RZdDBEaEFrUk5sLURQOVBlMC1xSk5udFkxNDR5U2oyaDZMQ3VYNWh4V0UwSDBxd09XZjcxWlUwWFZHNHRhT3pTM1RJZ25MVjlyM2FkbGNLVVF1VG9JOENqNk8zZUZuYVB4M2NpNUoxaGZfLVVoM2dMc0xySjdYMmdxV1RPNUZYdE1BNDJjUERFZkY0cWNPSVdXc0FaX0d1VVQ3STg2LUl0Nlp1SEFQZkJiMnBSQVo?oc=5",
-      "summary": "What Australia's Privacy Act reforms mean for the tech you use abc.net.au",
-      "date": "04-09-2026 05:30 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -590,6 +642,32 @@
       "date": "04-09-2026 05:42 AM",
       "tags": [
         "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "OpenAI hails \u2018new era of artificial general intelligence\u2019 with Astra model release - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb3FfMUQ1dXBYcXVnWUlNVW5kd01IM2VnNW9FdTQtemgxamtIYnRLVWNlS1FkZVdlam1HYXJFRmpITnNTTlhtSi1NNXMzREVxVnhlTXh4MUFfNTREYWxieXNUYkV4MzFhT0EySm4zbkFISHFyQURHVDBKWEZaNDZiQmRKU1pPbG5xOXR5WExVVFJxOVlvbm84eVZMQ0ctT1oyaWRCWVlR?oc=5",
+      "summary": "OpenAI hails \u2018new era of artificial general intelligence\u2019 with Astra model release theguardian.com",
+      "date": "04-09-2026 04:24 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 Guardian AU Cyber",
+      "title": "Trump administration sides with OpenAI in lawsuit against New York Times - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTm1LUjVYZDhGWjNwdUdfc0ZpZHlhMzJubGpjWm5wc3Iyd0JpZWJOdmpIVTd5M0N3MEM0YlJmZmNXX0NuaF8yR3VIVjRiSWR6UmhRSDNjaVlrTWZtVTJHc2x0WHNpaWVsX1hCYlpiUl9TZTNsWkRheUhLdzZCUk1kSWNQZ21Hcks5WVE?oc=5",
+      "summary": "Trump administration sides with OpenAI in lawsuit against New York Times theguardian.com",
+      "date": "03-09-2026 09:23 PM",
+      "tags": [
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -840,20 +918,6 @@
       "date": "28-08-2026 11:00 PM",
       "tags": [
         "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Agentic AI Risks, CVE Program Concerns Permeate Black Hat USA 2026",
-      "link": "https://www.darkreading.com/cybersecurity-operations/agentic-ai-risks-cve-program-concerns-black-hat-usa-2026",
-      "summary": "This installment of the Reporters' Notebook video series discusses the topics that dominated the cybersecurity conference, such as AI's effects on vulnerability reporting and security research.",
-      "date": "28-08-2026 03:25 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ],
       "threat": "Medium",
       "audience": [],

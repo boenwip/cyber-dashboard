@@ -1,14 +1,22 @@
 {
-  "last_updated": "10-09-2026 10:18 PM",
+  "last_updated": "11-09-2026 08:54 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.268",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
+      "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
+      "date": "11-09-2026 08:54 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "10-09-2026 10:18 PM"
+      "date": "11-09-2026 08:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "10-09-2026 10:18 PM"
+      "date": "11-09-2026 08:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "10-09-2026 10:18 PM"
+      "date": "11-09-2026 08:54 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,47 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "10-09-2026 10:18 PM"
+      "date": "11-09-2026 08:54 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.261",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.261",
-      "summary": "What's changed Added an \"Organization policy\" line to /status and claude doctor that says why your organization's policy could not be loaded, such as a proxy not passing the endpoint through Added bas",
-      "date": "10-09-2026 10:18 PM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gemini in Google Sheets is now available on Android devices",
+      "link": "http://workspaceupdates.googleblog.com/2026/08/gemini-in-google-sheets-is-now-available-on-Android-devices.html",
+      "summary": "Building upon the power of Gemini in Sheets on the web, we\u2019re excited to announce that you can now use Gemini in Google Sheets on your Android device to quickly analyze and understand your data while ",
+      "date": "11-09-2026 04:32 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Manage external sharing for Gemini Notebook in the Admin console",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/manage-external-sharing-for-gemini-notebook-in-the-Admin-console.html",
+      "summary": "Google Workspace administrators can now enable external sharing for Gemini Notebook using granular controls in the Admin console. Previously, administrators only had a single high-level toggle to turn",
+      "date": "11-09-2026 04:27 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Doubled cell limits in Google Sheets now generally available",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/doubled-cell-limits-in-google-sheets-now-generally-available.html",
+      "summary": "We\u2019re committed to continuously improving Sheets to ensure it is a powerful, responsive, and scalable spreadsheet tool for your needs. To that end, we\u2019ve increased the cell limit in Google Sheets from",
+      "date": "11-09-2026 04:21 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update_01644394249.html",
+      "summary": "The Dev channel has been updated to 155.0.8048.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
+      "date": "11-09-2026 02:13 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_02129170922.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8048.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
+      "date": "11-09-2026 12:28 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -75,14 +115,6 @@
       "date": "10-09-2026 03:50 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Create content, schedule events, and coordinate tasks across Workspace regardless of what app you are in",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/create-content-schedule-events-and-coordinate-tasks-across-Workspace-regardless-of-what-app-you-are-in.html",
-      "summary": "Completing a single task shouldn't mean breaking your focus or switching apps. To keep you in the flow of work, Gemini can tackle complex tasks behind the scenes, working as an intelligent orchestrato",
-      "date": "10-09-2026 03:42 AM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Beta for Desktop Update",
@@ -91,44 +123,20 @@
       "date": "10-09-2026 03:28 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop.html",
-      "summary": "The Extended Stable channel has been updated to 152.0.7977.120 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log. Interes",
-      "date": "10-09-2026 02:57 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_0636230366.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 154 (154.0.8037.21) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, c",
-      "date": "10-09-2026 12:43 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Pick up where you left off with persistent drafts in Google Chat",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/pick-up-where-you-left-off-with-persistent-drafts-in-Google-Chat.html",
-      "summary": "We are introducing persistent drafts in Google Chat. Unsent messages are now automatically saved so you can finish and send later, and are also synchronized across your devices, allowing you to start ",
-      "date": "09-09-2026 04:25 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Context-aware access controls are available for Gemini Enterprise in the Admin console",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/context-aware-access-controls-are-available-for-Gemini-Enterprise-in-the-Admin-console.html",
-      "summary": "To help organizations elevate their security posture, we are introducing context-aware access (CAA) policies in the Admin console for Gemini Enterprise. Google Workspace administrators can select gran",
-      "date": "09-09-2026 03:50 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
       "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
-      "date": "09-09-2026 03:47 AM"
+      "date": "09-09-2026 03:48 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "American Film Institute Reveals 2026-2027 Canva Fellowship Recipients - variety.com",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQXBqMEVMaUEtV18zN09iaTJxbFQ3TW0yeWdXMkZzcFFod2dHczUzb0ZGREsxRzB1MTJwb01LQjJ1QzRaMXBOVFNKdmJwY3hxOGwwdldqc3N0SGNObXVjRk5zWTZlM010bXNCNGtFeXloMERMNGUzczJCNDFTenFsOUVtTm1WVVgwcDhPakJUb1c?oc=5",
+      "summary": "American Film Institute Reveals 2026-2027 Canva Fellowship Recipients variety.com",
+      "date": "09-09-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -137,14 +145,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYXJlb0JqSWNzaTUxSHNOSkU2c1h3REJueGZFSWRlbEpJVlFRUTNkSXJrZ3JtZWp1MDFFYUV4T0daTFVIV0tuWVNPLTJndi1yZFZJM2NUcXE4c095QlhjQXZxTUtlVHMxemxzNGZTUzVteWdHZDZadE9Uc0N1R1FfQ0ljT3ZGUmtlVkxJUnUwNjQ3dG94UXdLR1ZidGRBaS1yLUFUVEhUdnlEMFN1RmRJSw?oc=5",
       "summary": "Which Microsoft Office Version Should You Buy in 2026? The Complete Buyer\u2019s Guide nerdbot.com",
       "date": "08-09-2026 06:50 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - CNBC",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGE4Q2Q0VHRjb2tCbGpsemp2Ql9uSW1zdXdRVDVOUFgxdXhXcTBOTlFHamp5bkQzN1Foam44WWFlNXZTWGVpdXdWMEhqMTBVbklsR2YtdE83Wkd5SG12WjF5akVSeUF2RE9SRjZPQ01mTEtnRzNEc1hjRHJIQ1V0aUw1MHNzSDVsTFHSAY8BQVVfeXFMTVdCNVVRWEpVQ1RLcDVsQ3VhVmtWQlZMek91OVJWSExlQWxLOEpoUm8xenRUb1d2YTJxbUhRRUNjUFBkbFpHVUlXUnNsalUtVk1sUlBmSTFLOEZhbTM0cHM4azJmdUVYLXJwRlUxaV9Wd1BBa3h0Z3p1MzAwdEp1ajljZG1xdTZVeTVZR3RDRkk?oc=5",
-      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace CNBC",
-      "date": "06-09-2026 10:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -179,11 +179,27 @@
       "date": "02-09-2026 04:01 AM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
+      "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
+      "date": "31-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI launches ChatGPT for Teens with new safety features - bbc.com",
+      "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - tradingview.com",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
+      "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features tradingview.com",
+      "date": "19-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI launches ChatGPT for Teens with new safety features - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
-      "summary": "OpenAI launches ChatGPT for Teens with new safety features bbc.com",
+      "summary": "OpenAI launches ChatGPT for Teens with new safety features BBC",
       "date": "18-08-2026 05:00 PM"
     },
     {
@@ -193,14 +209,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "13-08-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
-      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
-      "date": "12-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -225,22 +233,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
       "summary": "Investigating three real-world incidents in our cybersecurity evaluations Anthropic",
       "date": "30-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
-      "date": "24-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "08-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -273,6 +265,14 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
       "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -317,9 +317,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
       "date": "16-04-2026 05:00 PM"
     }
   ]

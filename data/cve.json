@@ -1,7 +1,29 @@
 {
-  "last_updated": "10-09-2026 10:18 PM",
+  "last_updated": "11-09-2026 08:54 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-86060",
+      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escala",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-10",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
+      "vendor": "MikroTik",
+      "product": "RouterOS",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-67277",
+      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-10",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
+      "vendor": "MikroTik",
+      "product": "RouterOS",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-19490",
       "description": "Citrix NetScaler \u2014 Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
       "vendor": "Microsoft",
       "product": "Windows",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-85046",
-      "description": "Google Chromium V8 \u2014 Google Chromium V8 contains a type confusion vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple ",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-04",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85046",
-      "vendor": "Google",
-      "product": "Chromium V8",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-59822",
-      "description": "BerriAI LiteLLM \u2014 BerriAI LiteLLM contains an improper authentication vulnerability in the MCP Streamable HTTP endpoint that could allow an unauthenticated attacker to establish an authenticated MCP session using an ar",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-02",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-59822",
-      "vendor": "BerriAI",
-      "product": "LiteLLM",
       "ransomware": "Unknown"
     }
   ]
