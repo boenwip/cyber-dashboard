@@ -4,6 +4,59 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-12 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 12-09-2026 05:01 AM — commit `587306a`, current live HEAD of `main`). `git log --since="2026-09-10"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — standing backlog carried forward, not re-detailed line-by-line where unchanged.
+
+**"Today's Story" is healthy today.** `briefing.json`'s `featured` is the real Mathspace breach story (Australian Cyber Security Magazine, `source_count: 3` — a genuine cross-source cluster, not the no-cluster fallback). No recurrence of the fire-story / junk-listing failure flagged 2026-09-10 and 2026-09-06. The underlying gap (`select_trending_article()` has no relevance/junk guard on its fallback path) is unchanged and unfixed — today is healthy by real clustering, not by a fix.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 12-09-2026 05:01 AM)
+Two briefing claims checked against their `news.json` source articles and independent WebSearch:
+- **"Mathspace... data breach affecting over one million students, parents, and teachers"** — supported and precise. Matches its `news.json` sources (Australian Cyber Security Magazine, Security Brief Australia, Google News — Bleeping Computer AU, all present) and independently corroborated in detail (BleepingComputer, Cyber Daily, Help Net Security, ABC News, cybersecuritynews.com): 1,079,819 people across Australia and New Zealand, via a compromised self-hosted Metabase instance; passwords/SSO tokens not exposed. No overstatement — briefing correctly notes only non-credential fields without inventing exposed-password detail.
+- **"AI-powered scams are also becoming harder to detect... artificial intelligence making fraudulent messages and calls increasingly convincing"** — supported. Matches its `news.json` source (Dark Reading, "Why AI Is So Good at Scamming Humans") and independently corroborated (multiple August/September 2026 industry reports: Experian, Vectra, the 2026 International AI Safety Report) describing the same trend — AI removing the usual tells (spelling/grammar errors) and scaling personalised messaging. General claim, not a specific fabricated statistic; not dramatized beyond the source.
+- No hallucination or misattribution found in this run's briefing content.
+
+### 2. Paywall spot-check
+**Not performed.** Tested `404media.co` and `risky.biz` via WebFetch this run (two domains not recently tried in this rotation) — both returned `EGRESS_BLOCKED`. `__agentproxy/status` shows `recentRelayFailures: []`, consistent with a standing policy-level block, not a transient fault. Same condition every run since 2026-08-18 — now ~25 days / 32+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Last entry (2026-09-10) completed a full rotation of all 51 `definitions.js` entries; restarting from the top of the file this run per that entry's note: **Phishing, Ransomware, Two-Factor Authentication, Malware, Social Engineering** (the first 5 entries in file order).
+- **Ransomware's "ACSC recorded ransomware as the most disruptive cybercrime type in FY2024–25"** — re-confirmed accurate (already verified 2026-09-08 against the ACSC/ASD Annual Cyber Threat Report 2024-25; re-checked again this run via WebSearch, same result: ransomware continues to be described as the most disruptive threat, 138 incidents responded to).
+- **Social Engineering's "Most data breaches begin with some form of social engineering"** — supported. WebSearch of current industry reporting (Verizon 2025 DBIR, KnowBe4, Secureframe) consistently puts the "human element" (social engineering + human error) at 60-98% of breaches depending on methodology, and social engineering specifically as a leading initial-access vector. Reasonable, not overstated.
+- **⚠️ NEW, minor: Phishing's "It remains the number one attack method used against Australians"** is imprecise. WebSearch of the ACSC/ASD Annual Cyber Threat Report 2024-25 shows the most *reported cybercrime types* were identity fraud, online shopping fraud, and online banking fraud — not "phishing" as its own reported category. Phishing is still widely cited (including by ACSC) as a top *initial-access/delivery* vector for many of those crime types, so the claim isn't fabricated, but "number one attack method" conflates delivery vector with reported crime type in a way a precise reader could catch out. Low severity — this is the same class of soft generalisation as the existing standing issues, not a fabrication. Adding to the backlog rather than treating as urgent.
+- 2FA and Malware entries: general descriptions, no falsifiable statistics beyond the standard, well-established explanations. No issues.
+
+Re-confirmed by direct read (not carried forward blind) that the four standing issues are byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87, now ~24 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164), Brute Force Attack "billions of years" claim (line 185).
+
+No fresh OWASP/Essential Eight (`reference.html`) re-check this run (fully verified against the live 2025-edition source on 2026-09-07); zero commits to `reference.html` since.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (64 items, generated 12-09-2026 05:01 AM):
+- **Junk "Browse news and alerts — page N — Scamwatch" listing-page count: 10/64 (~15.6%)** — down from 2026-09-10's range, still the same unfixed root cause (the "Google News — ScamWatch" `site:scamwatch.gov.au` query). Not worsening; not fixed either.
+- **NEW, minor: a single garbled-title item from a different query.** `Google News — ASQA / RTO` (query: `site:asqa.gov.au OR site:iteca.edu.au`) returned one item today titled `"- emailv6.comms.asqa.gov.au"` (summary: `"emailv6.comms.asqa.gov.au"`), tagged `RTO / VET` / `relevance: Direct`. This looks like a mis-parsed email-newsletter subject line, not a real headline — a lay reader would see it as gibberish in the feed, though it did not become "Today's Story" and is a single item out of 64. Same general failure class (Google News proxy queries occasionally return non-article junk) as the long-standing ScamWatch pagination issue, but from a different query and a first-seen instance for this specific source — flagging as a new, low-priority observation rather than folding into the ScamWatch item.
+- Dark Reading remains the largest source (30/64, ~47%) — sampled titles stay genuinely security-relevant (CISA outage guidance, Patch Tuesday record, SonicWall/Langflow exploitation, ClickFix campaigns, AI-security-angle pieces on agents/credential theft) with no general AI-industry filler spotted this run.
+- Substantive items (Mathspace breach, Proofpoint CISO resourcing-gap report, Adobe Commerce/Magento critical advisory still in-window, Citrix/NetScaler advisory) read well for both audiences with adequate plain-English framing.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 64 article links in `data/news.json` against the `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py` and the CHANGELOG blocklist (Murdoch/News Corp, Nine, Seven West, tabloid/clickbait domains). Sources present: Dark Reading, Security Brief Australia, 404 Media, Australian Cyber Security Magazine, Google News — ASQA / RTO, Krebs on Security, Risky Business, Google News — Bleeping Computer AU, Google News — ScamWatch. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked).
+
+### Needs human attention (priority order)
+1. Four standing `definitions.js` text-accuracy issues remain unfixed, all small well-sourced edits: Business Email Compromise loss overstatement (line 87, flagged 2026-08-19 — now ~24 days, oldest open item), Supply Chain Attack SolarWinds overstatement (line 164, flagged 2026-08-25), Brute Force Attack "billions of years" (line 185, flagged 2026-08-25), Patch entry's Essential Eight timeframe (line 108, flagged 2026-08-29).
+2. **NEW, minor:** Phishing entry's "number one attack method used against Australians" conflates delivery vector with ACSC's reported crime-type ranking — worth a small wording tweak (e.g. "one of the most common ways attacks begin") alongside the other four standing glossary edits, not urgent on its own.
+3. `select_trending_article()` still has no junk/relevance guard on its no-cluster fallback — healthy today by real cross-source clustering (Mathspace, `source_count: 3`), not by a fix. The precedented fix (porting `dashboard.js`'s `renderScamOfWeek()` `GENERIC`-keyword guard into the Python selector) remains recommended since 2026-08-23; this is the mechanism that produced the building-fire "Today's Story" on 2026-09-10 and the Scamwatch-pagination "Today's Story" on 2026-09-06, and will recur on the next quiet/junk-skewed news day.
+4. "Google News — ScamWatch" query quality remains degraded (~16% of the feed is junk Scamwatch pagination-page listings). Needs a human look at tightening the query or filtering title patterns like "Browse news and alerts" in `scripts/fetch_cyber_news.py`.
+5. **NEW, minor:** `Google News — ASQA / RTO` query produced one garbled non-article title this run (`"- emailv6.comms.asqa.gov.au"`) — same general class of issue as #4 (Google News proxy returning non-article content) but a different query; worth a human glance if it recurs, not urgent as a single instance.
+6. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05). Not manifesting as an error this run.
+7. Egress to publisher/reference domains remains blocked — now ~25 days / 32+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+
+---
+
 ## 2026-09-10 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 10-09-2026 10:18 PM — commit `4c36bc9`, the current live HEAD of `main`). `git log --since="2026-09-07"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — standing backlog carried forward, not re-detailed line-by-line where unchanged.
