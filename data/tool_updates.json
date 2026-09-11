@@ -1,5 +1,5 @@
 {
-  "last_updated": "11-09-2026 05:23 PM",
+  "last_updated": "11-09-2026 10:16 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.268",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
       "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "11-09-2026 05:23 PM"
+      "date": "11-09-2026 10:16 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "11-09-2026 05:23 PM"
+      "date": "11-09-2026 10:16 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "11-09-2026 05:23 PM"
+      "date": "11-09-2026 10:16 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "11-09-2026 05:23 PM"
+      "date": "11-09-2026 10:16 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "11-09-2026 05:23 PM"
+      "date": "11-09-2026 10:16 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -173,18 +173,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
-      "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
-      "date": "31-08-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
-      "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
-      "date": "19-08-2026 05:00 PM"
+      "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnp1eXc3c2lFVmFzbDZLb3p6aU5JN0lqS2F6SDROdGhyVWV4VU1zOHotLXNmQkhxUUNvbHFicUZxcnBYTzBETkdKZ0ViMUlUS2paTkY5TmZZSzcwM29KRE44UWRIcU5CMldPRUR6U3o1R3RxSlRhQW95VHNqYnYyMjNoY2RuZDV3VjV6NmVEQzg0N1B6bEhvSDM4d0ZOUmxjV2owcmZRdm5mUEVNMG9WT0xxYw?oc=5",
+      "summary": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less the-decoder.com",
+      "date": "01-09-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -229,10 +221,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "08-07-2026 05:00 PM"
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
+      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
+      "date": "24-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "Launching Health in ChatGPT OpenAI",
+      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -245,9 +245,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - computerworld.com",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "Microsoft 365: A guide to the updates computerworld.com",
+      "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "21-06-2026 05:00 PM"
     },
     {
@@ -261,10 +261,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -289,14 +297,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
       "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
       "date": "29-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount - Decrypt",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc08teC1wUlF5VDB2WXpDbWVPMVNQbXBrR0E2RVEwR1BadkUwSGZ0amhqbVE5WTRjc0x0U2pjekZuUDdpZjBlMjlnTmtLLURZLWpLOG42U0FiZC1DSkltaGJuaF9jNlNEUmxXXy1zNTFQTVRvNm1XU0U0NDNyaDlwSWR1MnpmLXBlNHNZM9IBlAFBVV95cUxOM0JMVkpxUEM1ZjBXODkxRkh0N0FhRXBLWEdfc1dwZkhLeDFMUkRxc2Y3U3hEQjBPVGNRbWd0MTR3VDNIMXJtSngwNWVpMWpJM09IZnI5bENQWjBNdVptOEtiZm1sS0hpY2d2QVRDSENjZ2plZk9iVnNQR2ZYXzk3V2cwdF9xNUhDRWtUOWMtQ3haWEt3?oc=5",
-      "summary": "OpenAI Pushes New ChatGPT Safety Features as Lawsuits Mount Decrypt",
-      "date": "14-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
