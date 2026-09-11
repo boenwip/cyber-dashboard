@@ -1,5 +1,5 @@
 {
-  "last_updated": "11-09-2026 10:40 PM",
+  "last_updated": "12-09-2026 05:01 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.268",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
       "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "11-09-2026 10:40 PM"
+      "date": "12-09-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "11-09-2026 10:40 PM"
+      "date": "12-09-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "11-09-2026 10:40 PM"
+      "date": "12-09-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "11-09-2026 10:40 PM"
+      "date": "12-09-2026 05:01 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,23 @@
       "title": "v2.1.263",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.263",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "11-09-2026 10:40 PM"
+      "date": "12-09-2026 05:01 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Seamlessly import your team and data from Microsoft to Google Workspace during setup",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/seamlessly-import-your-team-and-data-from-Microsoft-to-Google-Workspace-during-setup.html",
+      "summary": "We\u2019re excited to announce the GA release of a new, simplified way for small businesses to import their users and their business data from Microsoft while setting up Google Workspace with our data impo",
+      "date": "12-09-2026 01:44 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "The Gemini desktop app is now available for Windows",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html",
+      "summary": "Today, we\u2019re launching the Gemini desktop app for Windows 10 and 11. This new application is designed to operate seamlessly alongside users\u2019 favorite tools, providing instant assistance without disrup",
+      "date": "12-09-2026 01:06 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -91,22 +107,6 @@
       "date": "11-09-2026 12:28 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Create and edit calculated fields in Google Sheets pivot tables with an improved editor",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/create-and-edit-calculated-fields-in-Google-Sheets-pivot-tables-with-an-improved-editor.html",
-      "summary": "We are introducing a new, dedicated formula editor dialog for creating and editing calculated fields within pivot tables in Google Sheets. This update streamlines how you build custom formulas and der",
-      "date": "10-09-2026 05:59 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Automatic room check-in for Google Meet available on mobile devices",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/automatic-room-check-in-for-google-meet-available-on-mobile-devices.html",
-      "summary": "In January 2026, we introduced Automatic room check-in for Google Meet available on mobile to organizations on the Rapid Release track enrolled in Early Preview Rooms. We\u2019re excited to announce that t",
-      "date": "10-09-2026 05:15 AM"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
@@ -121,6 +121,30 @@
       "link": "http://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01157104879.html",
       "summary": "The Stable channel has been updated to 154.0.8037.17/.18 for Windows. Mac is coming shortly , as part of our early stable release to a small percentage of users. A full list of changes in this build i",
       "date": "10-09-2026 03:50 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.5 - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
+      "summary": "Introducing ChatGPT Images 2.5 openai.com",
+      "date": "09-09-2026 04:35 AM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
+      "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
+      "date": "09-09-2026 04:33 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "American Film Institute Reveals 2026-2027 Canva Fellowship Recipients - Variety",
+      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQXBqMEVMaUEtV18zN09iaTJxbFQ3TW0yeWdXMkZzcFFod2dHczUzb0ZGREsxRzB1MTJwb01LQjJ1QzRaMXBOVFNKdmJwY3hxOGwwdldqc3N0SGNObXVjRk5zWTZlM010bXNCNGtFeXloMERMNGUzczJCNDFTenFsOUVtTm1WVVgwcDhPakJUb1c?oc=5",
+      "summary": "American Film Institute Reveals 2026-2027 Canva Fellowship Recipients Variety",
+      "date": "09-09-2026 03:00 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -141,14 +165,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva moves beyond design as workplace productivity use surges - InsiderPH",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGtud1JyZmZJWXgtenhuRWZjdVp3TVlGdnU2Q0EtWGhpc0tDS3JLc3dUVVY5U3dwbzVVNXk4Wlc1UGxDTHpkQXVqdFc1ZzhXQ2pqUnRjX2pzYnJFeng1YjRTUTNjMXIyM1lfTVlNa2pSdlFkMTVCTDlELVNQZXpadkRRdTIxcFo5bG1mOQ?oc=5",
-      "summary": "Canva moves beyond design as workplace productivity use surges InsiderPH",
-      "date": "06-09-2026 09:03 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2ONLINE",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZF9VbHE2aVA4bVByVHVTU1NIRkFjdmJpSnlzSUJRRk0tXzY0dFRXRG15X2V1QlExMmNBaHhjbXRreHVxbDVVZzVfLWk2d2lJOVgwNEcxei1Ga01Bd2ZDU1lWZTRuSzlhMDlld1BsdDBDbm94SFd4MnVYTHU0UkNDNzdsQzJ5YXNDa3hTZGd5RWdLR3FjOGVUeHJ1emRhbTkzRmc?oc=5",
       "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2ONLINE",
@@ -161,6 +177,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
       "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Brin",
       "date": "04-09-2026 01:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - ZDNET",
+      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
+      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters ZDNET",
+      "date": "03-09-2026 01:02 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -179,19 +203,35 @@
       "date": "01-09-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
+      "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
+      "date": "31-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI launches ChatGPT for Teens with new safety features - bbc.com",
+      "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
+      "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
+      "date": "19-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI launches ChatGPT for Teens with new safety features - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
-      "summary": "OpenAI launches ChatGPT for Teens with new safety features bbc.com",
+      "summary": "OpenAI launches ChatGPT for Teens with new safety features BBC",
       "date": "18-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "13-08-2026 05:00 PM"
     },
     {
@@ -203,28 +243,20 @@
       "date": "12-08-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
+      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
+      "date": "10-08-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "The next measure of AI momentum is work transformed",
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
-      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
-      "date": "24-07-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
-      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -251,30 +283,6 @@
       "date": "17-06-2026 01:00 AM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
-      "date": "04-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
@@ -289,14 +297,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
       "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
       "date": "03-06-2026 04:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
-      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",

@@ -1,7 +1,40 @@
 {
-  "last_updated": "11-09-2026 10:40 PM",
+  "last_updated": "12-09-2026 05:01 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-84869",
+      "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sess",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-84869",
+      "vendor": "ConnectWise",
+      "product": "ScreenConnect",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-42016",
+      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-42018",
+      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially expos",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-11",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
+      "vendor": "JFrog",
+      "product": "Artifactory",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-86060",
       "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escala",
@@ -77,39 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-75650",
       "vendor": "Adobe",
       "product": "Commerce and Magento",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-81963",
-      "description": "Microsoft Windows \u2014 Microsoft Windows Update Stack contains a link following vulnerability that allows a local attacker to escalate privileges locally up to SYSTEM.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-81963",
-      "vendor": "Microsoft",
-      "product": "Windows",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-86218",
-      "description": "N-able N-central \u2014 N-able N-central contains a static code injection vulnerability that could allow for pre-authentication remote code execution.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86218",
-      "vendor": "N-able",
-      "product": "N-central",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-85880",
-      "description": "Microsoft Windows \u2014 Microsoft Windows Advanced Local Procedure Call contains a heap-based buffer overflow vulnerability that allows an attacker to elevate privileges locally.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-08",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85880",
-      "vendor": "Microsoft",
-      "product": "Windows",
       "ransomware": "Unknown"
     }
   ]
