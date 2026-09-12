@@ -1,5 +1,5 @@
 {
-  "last_updated": "12-09-2026 10:01 PM",
+  "last_updated": "13-09-2026 04:11 AM",
   "count": 39,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "12-09-2026 10:01 PM"
+      "date": "13-09-2026 04:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.268",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
       "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "12-09-2026 10:01 PM"
+      "date": "13-09-2026 04:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "12-09-2026 10:01 PM"
+      "date": "13-09-2026 04:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "12-09-2026 10:01 PM"
+      "date": "13-09-2026 04:11 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "12-09-2026 10:01 PM"
+      "date": "13-09-2026 04:11 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -117,9 +117,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic discloses fourth AI hacking incident missed in earlier review - reuters.com",
+      "title": "Anthropic discloses fourth AI hacking incident missed in earlier review - Reuters",
       "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaU1ZZ0ZRWnBaSnRlakoxVTU1SE9aZTEySkNZU2N2eU5XWG9remJKT29feUVoNlhhQVpfWnNFd1NKZ0xnb3lobTExTXE5dXZud0tCbGVLMzR4Y0NFRkRRUUlnWUllbjVTcXBWeHJzMDJVamFBQjJveC1PNThKSGUzNlRfUlVEVkJPbHhtendZdXdsSmdva0RvT3NidFdSb3BWSmd6R1lFb1NxYXdjR0xKeVVnZWY4c3JlbHlycFhkcXlmQ1Jv?oc=5",
-      "summary": "Anthropic discloses fourth AI hacking incident missed in earlier review reuters.com",
+      "summary": "Anthropic discloses fourth AI hacking incident missed in earlier review Reuters",
       "date": "10-09-2026 03:50 PM"
     },
     {
@@ -141,14 +141,6 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "09-09-2026 04:35 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
       "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
@@ -163,19 +155,11 @@
       "date": "08-09-2026 06:50 PM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - cnbc.com",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGE4Q2Q0VHRjb2tCbGpsemp2Ql9uSW1zdXdRVDVOUFgxdXhXcTBOTlFHamp5bkQzN1Foam44WWFlNXZTWGVpdXdWMEhqMTBVbklsR2YtdE83Wkd5SG12WjF5akVSeUF2RE9SRjZPQ01mTEtnRzNEc1hjRHJIQ1V0aUw1MHNzSDVsTFHSAY8BQVVfeXFMTVdCNVVRWEpVQ1RLcDVsQ3VhVmtWQlZMek91OVJWSExlQWxLOEpoUm8xenRUb1d2YTJxbUhRRUNjUFBkbFpHVUlXUnNsalUtVk1sUlBmSTFLOEZhbTM0cHM4azJmdUVYLXJwRlUxaV9Wd1BBa3h0Z3p1MzAwdEp1ajljZG1xdTZVeTVZR3RDRkk?oc=5",
-      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace cnbc.com",
-      "date": "06-09-2026 10:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2ONLINE",
+      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2online.in",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZF9VbHE2aVA4bVByVHVTU1NIRkFjdmJpSnlzSUJRRk0tXzY0dFRXRG15X2V1QlExMmNBaHhjbXRreHVxbDVVZzVfLWk2d2lJOVgwNEcxei1Ga01Bd2ZDU1lWZTRuSzlhMDlld1BsdDBDbm94SFd4MnVYTHU0UkNDNzdsQzJ5YXNDa3hTZGd5RWdLR3FjOGVUeHJ1emRhbTkzRmc?oc=5",
-      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2ONLINE",
+      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2online.in",
       "date": "04-09-2026 06:37 PM"
     },
     {
@@ -185,14 +169,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
       "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Brin",
       "date": "04-09-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features - TradingView",
-      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPWDFhVnRlamJsU2tpSlBVLVJGX3FsSGRncXNveks1dGYwYWJmWGJsRnhzR3lSQmFWLWdfV0ZzbVRWOFBRY1JYQ1FOOURkOWFLb0ZUN3FmNFB6T19ubDdnSFI5WU1FZzE0aEF4R0tUR2lieUFCNjR6SHhNMFV0VVJpUmR0YWVscDRLaFFnRVBJUi1uNWtnN2NjWFpmT3pGZVNveDhoU1hTS1lPc29fTGI4ZVpOWGNMT3NNOHFaajNqMGxfbXdoLXFEY2Jaaks2M1BvS3RFeTdwNjJ3cVhvXzlsWUhoT0ViNGljY2JzaQ?oc=5",
-      "summary": "OpenAI rolls out Sunspot refresh for ChatGPT Android beta with new personalization features TradingView",
-      "date": "19-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -235,6 +211,22 @@
       "date": "30-07-2026 11:00 PM"
     },
     {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Investigating three real-world incidents in our cybersecurity evaluations - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE4zdnpHN3VXRHJaYjZ1T01TOUZqaXJHa1VoZC1TTUZaRkk4dnhfdkhHT2xpTUpwVXZfYTFSZHE4Vk5icGh2RmF5aHhKcDlicWJ5Sy1SalVLOGhXVlhVcFJGbFBqSG4xSG5KaWh5dnlWQTQ1NUR4THQxM05nanBUVTg?oc=5",
+      "summary": "Investigating three real-world incidents in our cybersecurity evaluations Anthropic",
+      "date": "30-07-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPQ2ZGQ2VYN19sTzYzdHREdUJ0RFM2eGczR2FhRFdweHZZa0tjSC1mMWxVbjEtWmh5WjFpNDBnemszbFFZOWE0STJRSmdWNlk3UXdEOUE3SWlRV1VYYmNuWm42eXBGcnlmWlotYUxWVGhkb0tKSk51amZGUWFhdWpsdjVNRmNuclQ2OFAzUl9vUXRyZjRYV3JaZw?oc=5",
+      "summary": "OpenAI\u2019s new voice mode makes it to the ChatGPT desktop app TechCrunch",
+      "date": "24-07-2026 05:00 PM"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Copilot in Excel:\u00a0Built for the era of\u00a0Frontier\u00a0Finance",
@@ -257,6 +249,22 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
       "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Co",
       "date": "17-06-2026 01:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
+      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
+      "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -289,14 +297,6 @@
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
       "summary": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design The Futurum Group",
       "date": "28-05-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPbWJKRVNIMGU2R1EwV0RGOFNVZENnUVlCcHl0TEcxU0YwbzY2dWg4QUFPYnJpNzQ2bjA2eXBqSTU3S0lZaVZkX3k1MXhrd0FJQXFWekNsbW5rRFRTVlZua0J6LTBBTTJxRU9oNFVVVlJXX3VhQmstMjk2V0s5eVlXT2p3R0RhLW9McUdnbk1PXzRHOTVGeWNham1yN2JJWmpTS1R2Q3VzSjZGbFNmQmFybU94N1Q4WWhqdndTQ29QU19iWUlpNk04aUQ5M0g0R1N6eGV3QnVsN0ZCV24ydFE?oc=5",
-      "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
-      "date": "22-04-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
