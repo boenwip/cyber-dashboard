@@ -1,6 +1,6 @@
 {
-  "last_updated": "12-09-2026 01:40 PM",
-  "count": 40,
+  "last_updated": "12-09-2026 10:01 PM",
+  "count": 39,
   "items": [
     {
       "source": "Claude Code Releases",
@@ -8,7 +8,7 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "12-09-2026 01:40 PM"
+      "date": "12-09-2026 10:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.268",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
       "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "12-09-2026 01:40 PM"
+      "date": "12-09-2026 10:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "12-09-2026 01:40 PM"
+      "date": "12-09-2026 10:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.266",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
       "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "12-09-2026 01:40 PM"
+      "date": "12-09-2026 10:01 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.265",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.265",
       "summary": "What's changed Added user.email and user.groups to the telemetry Claude Desktop and Cowork send through a Claude apps gateway, matching terminal sessions Added support for pointing --plugin-dir at a f",
-      "date": "12-09-2026 01:40 PM"
+      "date": "12-09-2026 10:01 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_0889074137.html",
+      "summary": "A new LTC version 150.0.7871.253 (Platform Version: 16700.63.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including:501892500 High CVE-2026-79195 Us",
+      "date": "12-09-2026 04:48 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -67,14 +75,6 @@
       "date": "12-09-2026 01:06 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "http://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for.html",
-      "summary": "A new LTS-144 version 144.0.7559.262(Platform Version: 16503.95.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including:497869284 Medium CVE-2026-790",
-      "date": "11-09-2026 12:29 PM"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Gemini in Google Sheets is now available on Android devices",
@@ -93,9 +93,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Detecting and countering misuse of AI: September 2026 - anthropic.com",
+      "title": "Detecting and countering misuse of AI: September 2026 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
-      "summary": "Detecting and countering misuse of AI: September 2026 anthropic.com",
+      "summary": "Detecting and countering misuse of AI: September 2026 Anthropic",
       "date": "11-09-2026 03:10 AM"
     },
     {
@@ -117,9 +117,17 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "An alignment assessment of recent cybersecurity incidents - anthropic.com",
+      "title": "Anthropic discloses fourth AI hacking incident missed in earlier review - reuters.com",
+      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOaU1ZZ0ZRWnBaSnRlakoxVTU1SE9aZTEySkNZU2N2eU5XWG9remJKT29feUVoNlhhQVpfWnNFd1NKZ0xnb3lobTExTXE5dXZud0tCbGVLMzR4Y0NFRkRRUUlnWUllbjVTcXBWeHJzMDJVamFBQjJveC1PNThKSGUzNlRfUlVEVkJPbHhtendZdXdsSmdva0RvT3NidFdSb3BWSmd6R1lFb1NxYXdjR0xKeVVnZWY4c3JlbHlycFhkcXlmQ1Jv?oc=5",
+      "summary": "Anthropic discloses fourth AI hacking incident missed in earlier review reuters.com",
+      "date": "10-09-2026 03:50 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "An alignment assessment of recent cybersecurity incidents - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOFZuQXh2LWp1d0NoNDQ2cHdrTktoZ0dIdDUyeEVrSGVyWDBzT3dsV3lhelR6RXhtYy03MTNSYVlya2hSZm1MMHVkZVFMeEt4RDFJM0Z2TW9SRlFDYTM5eGhxU2YzTWNJOU8yWWktWjU5Y0FUeDdLV0lfdnJ2SW9uZE0zOFFXZw?oc=5",
-      "summary": "An alignment assessment of recent cybersecurity incidents anthropic.com",
+      "summary": "An alignment assessment of recent cybersecurity incidents Anthropic",
       "date": "10-09-2026 05:13 AM"
     },
     {
@@ -131,20 +139,12 @@
       "date": "10-09-2026 04:10 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01157104879.html",
-      "summary": "The Stable channel has been updated to 154.0.8037.17/.18 for Windows. Mac is coming shortly , as part of our early stable release to a small percentage of users. A full list of changes in this build i",
-      "date": "10-09-2026 03:50 AM"
-    },
-    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Introducing ChatGPT Images 2.5 - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
       "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "09-09-2026 04:40 AM"
+      "date": "09-09-2026 04:35 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -163,19 +163,11 @@
       "date": "08-09-2026 06:50 PM"
     },
     {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva expands its productivity bet with 100+ Visual Suite upgrades - Manila Bulletin",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOalV0cDV4ZmdfUW1qNjJJdUxCV1hHX1MtOHFuZE9HWktkVkFhSVl6Z19lekxZSXE4NUV1RVRCR2p4NlY0S0h5MzYyUUpvczZNcEkwYkRZZjkxNmZJOWFuU3dTcXM4QV8xdG43Nm5WYU83RmVyZ1dCdWhxdzBxTnh5WkNZYVVPSVhILXdlNnZFaWJfZlR0ZC1xLTlB?oc=5",
-      "summary": "Canva expands its productivity bet with 100+ Visual Suite upgrades Manila Bulletin",
-      "date": "08-09-2026 10:32 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - CNBC",
+      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - cnbc.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGE4Q2Q0VHRjb2tCbGpsemp2Ql9uSW1zdXdRVDVOUFgxdXhXcTBOTlFHamp5bkQzN1Foam44WWFlNXZTWGVpdXdWMEhqMTBVbklsR2YtdE83Wkd5SG12WjF5akVSeUF2RE9SRjZPQ01mTEtnRzNEc1hjRHJIQ1V0aUw1MHNzSDVsTFHSAY8BQVVfeXFMTVdCNVVRWEpVQ1RLcDVsQ3VhVmtWQlZMek91OVJWSExlQWxLOEpoUm8xenRUb1d2YTJxbUhRRUNjUFBkbFpHVUlXUnNsalUtVk1sUlBmSTFLOEZhbTM0cHM4azJmdUVYLXJwRlUxaV9Wd1BBa3h0Z3p1MzAwdEp1ajljZG1xdTZVeTVZR3RDRkk?oc=5",
-      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace CNBC",
+      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace cnbc.com",
       "date": "06-09-2026 10:00 PM"
     },
     {
@@ -193,22 +185,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
       "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026: Brin",
       "date": "04-09-2026 01:00 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - anthropic.com",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 anthropic.com",
-      "date": "02-09-2026 04:01 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
-      "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
-      "date": "31-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -297,6 +273,22 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
       "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
       "date": "03-06-2026 04:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "29-05-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
+      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
+      "summary": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design The Futurum Group",
+      "date": "28-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
