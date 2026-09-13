@@ -4,6 +4,52 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-13 (AEST) — second run this day (08:48 feed)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 13-09-2026 08:48 AM — commit `f58493c`, current live HEAD of `main`). `git diff --stat` against the prior log commit (`be5a3b0`) confirms zero changes outside `data/` — only one feed run since the earlier entry today.
+
+**"Today's Story" is still healthy.** `briefing.json`'s `featured` remains the same real Mathspace breach cluster (`source_count: 3`, Australian Cyber Security Magazine), cross-checked directly against `news.json` this run: all three contributing sources (Australian Cyber Security Magazine, Security Brief Australia, Google News — Bleeping Computer AU) are present with matching headlines. Briefing text is materially unchanged from the prior entry.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 13-09-2026 08:48 AM)
+Same two claims as the prior entry (Mathspace breach scale; AI making scams harder to detect), both independently verified in detail on 2026-09-12 and re-confirmed unchanged on the first 2026-09-13 run. Re-verified this run that the `news.json` source articles cited above still exist and still match (see above) — no drift, no new claim introduced. No hallucination or misattribution found.
+
+### 2. Paywall spot-check
+**Not performed.** Tested two more rotation domains not yet tried in this log: `theregister.com` and `www.bleepingcomputer.com` — both returned `EGRESS_BLOCKED`. `__agentproxy/status` again shows `recentRelayFailures: []` (policy-level block, not transient). WebSearch confirmed still functional (used below). Same condition every run since 2026-08-18 — now ~26 days / 34+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Continuing the full-file rotation: this run covers entries 12–17 — **Business Email Compromise, Multi-Factor Authentication, Spear Phishing, Patch, Credential Stuffing, Threat Actor**.
+- **Business Email Compromise** (line 87) and **Patch** (line 108) are the two standing known-issue entries — re-read in full this run, confirmed byte-identical to previous flags (BEC's "hundreds of millions of dollars" overstatement; Patch's Essential Eight "two weeks for others" timeframe claim). No new drift.
+- **Multi-Factor Authentication**'s "most effective defence against account takeover" is a standard, well-supported industry claim (Microsoft/Google research consistently puts MFA blocking the large majority of automated account-takeover attempts); ACSC does recommend MFA on critical accounts. No issue.
+- **Spear Phishing, Credential Stuffing, Threat Actor**: general/definitional claims, no specific falsifiable statistics — all read as accurate and standard for a dual-audience glossary. No issues found.
+- No fresh OWASP/Essential Eight (`reference.html`) re-check — fully verified against the live 2025-edition source on 2026-09-07; zero commits since (confirmed via `git diff --stat` above).
+
+### 5. Value and dual-audience readability
+Re-sampled current `data/news.json` (61 items, generated 13-09-2026 08:48 AM):
+- **Escalating: `Google News — ASQA / RTO` garbled title now a 3rd consecutive run.** `"- emailv6.comms.asqa.gov.au"` is still present, identical to the last two entries. Three runs in a row is a clear pattern, not noise — reinforcing yesterday's recommendation for a title-quality filter on this query.
+- **404 Media's off-topic nuclear-data-centre town-hall story remains in the feed** (still within the 14-day storage window, same item flagged yesterday — aging through, not newly re-introduced). Root cause (no positive cyber-relevance filter on 404 Media's whole-site feed) unchanged.
+- **ScamWatch pagination junk: 7/61 (~11.5%)** — same range as yesterday, not worsening.
+- Dark Reading remains the largest source (28/61, ~46%); no filler spotted on a fresh title scan this run.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 61 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py`. Sources present: Dark Reading, Australian Cyber Security Magazine, Google News — ScamWatch, Security Brief Australia, 404 Media, Google News — ASQA / RTO, Risky Business, Krebs on Security, Google News — Bleeping Computer AU. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked — confirmed again on two more domains, see §2).
+
+### Needs human attention (priority order)
+1. **Escalating: `Google News — ASQA / RTO` garbled title (`"- emailv6.comms.asqa.gov.au"`) has now recurred for a 3rd consecutive run** — clearly a recurring parsing failure on this query, not a one-off. Recommend a filter for mis-parsed email-newsletter-subject titles.
+2. 404 Media's whole-site RSS feed still has no positive cyber-relevance filter (off-topic nuclear-data-centre story still in-window from yesterday's finding). Recommend a topical keyword gate for whole-site feeds like 404 Media in `scripts/fetch_cyber_news.py`.
+3. Four standing `definitions.js` text-accuracy issues remain unfixed (all small, well-sourced edits, unchanged since 2026-09-12): Business Email Compromise loss overstatement (line 87, oldest, ~25 days open), Supply Chain Attack SolarWinds overstatement (line 164), Brute Force Attack "billions of years" (line 185), Patch entry's Essential Eight timeframe (line 108). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12 (line ~10).
+4. `select_trending_article()` still has no junk/relevance guard on its no-cluster fallback (recommended fix since 2026-08-23) — not manifesting today (healthy real cluster) but still a live risk on the next quiet/junk-skewed news day.
+5. "Google News — ScamWatch" query quality remains degraded (~11.5% of the feed is junk pagination listings). Needs tightening in `scripts/fetch_cyber_news.py`.
+6. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05). Not manifesting as an error this run.
+7. Egress to publisher/reference domains remains blocked — now ~26 days / 34+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+
+---
+
 ## 2026-09-13 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 13-09-2026 04:11 AM — commit `aefe7b1`, current live HEAD of `main`). `git log --since="2026-09-10"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the 2026-09-12 entry — only feed data has been regenerated (4 feed runs since then: 08:57, 13:40, 22:01, 04:11 AEST).
