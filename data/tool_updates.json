@@ -1,14 +1,22 @@
 {
-  "last_updated": "15-09-2026 01:08 AM",
-  "count": 39,
+  "last_updated": "15-09-2026 09:40 AM",
+  "count": 38,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.271",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
+      "summary": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Adde",
+      "date": "15-09-2026 09:40 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.270",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
       "summary": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
-      "date": "15-09-2026 01:08 AM"
+      "date": "15-09-2026 09:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "15-09-2026 01:08 AM"
+      "date": "15-09-2026 09:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.268",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
       "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "15-09-2026 01:08 AM"
+      "date": "15-09-2026 09:40 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.267",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.267",
       "summary": "What's changed Added maxEffortLevel setting (top-level or per model under modelSettings): caps the effort level on every provider, including Bedrock, Vertex and Foundry; users can still pick a lower l",
-      "date": "15-09-2026 01:08 AM"
+      "date": "15-09-2026 09:40 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.266",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.266",
-      "summary": "What's changed Fixed a 2.1.265 regression affecting LLM-gateway and proxy setups: the undocumented CLAUDE_CODE_USE_GATEWAY environment variable, previously ignored unless ANTHROPIC_BASE_URL and ANTHRO",
-      "date": "15-09-2026 01:08 AM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_0255795644.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8056.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
+      "date": "15-09-2026 03:13 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -115,28 +123,28 @@
       "date": "11-09-2026 02:13 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_02129170922.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8048.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
-      "date": "11-09-2026 12:28 AM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
+      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
+      "date": "09-09-2026 04:40 AM"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01390050711.html",
-      "summary": "Hello Everyone! We've just released Chrome 154 (154.0.8037.21) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details about",
-      "date": "10-09-2026 04:10 AM"
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
+      "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
+      "date": "09-09-2026 04:33 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - cnbc.com",
+      "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - CNBC",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGE4Q2Q0VHRjb2tCbGpsemp2Ql9uSW1zdXdRVDVOUFgxdXhXcTBOTlFHamp5bkQzN1Foam44WWFlNXZTWGVpdXdWMEhqMTBVbklsR2YtdE83Wkd5SG12WjF5akVSeUF2RE9SRjZPQ01mTEtnRzNEc1hjRHJIQ1V0aUw1MHNzSDVsTFHSAY8BQVVfeXFMTVdCNVVRWEpVQ1RLcDVsQ3VhVmtWQlZMek91OVJWSExlQWxLOEpoUm8xenRUb1d2YTJxbUhRRUNjUFBkbFpHVUlXUnNsalUtVk1sUlBmSTFLOEZhbTM0cHM4azJmdUVYLXJwRlUxaV9Wd1BBa3h0Z3p1MzAwdEp1ajljZG1xdTZVeTVZR3RDRkk?oc=5",
-      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace cnbc.com",
-      "date": "06-09-2026 10:00 PM"
+      "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace CNBC",
+      "date": "06-09-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -157,26 +165,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic just upgraded Fable and Mythos \u2013 why that matters - ZDNET",
-      "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1ZbVc4OUF4UDljUWlLcS1VdTdGMVFnR0pkWjI1LTV1UlRaUVQxS1RZSmg3NTRCX3FBMlRnc0JTSFAxYWxTSm5RZ2ExckVjMklnNGlnQlhDZVY4TGpWTjFFQmk0TF9jUQ?oc=5",
-      "summary": "Anthropic just upgraded Fable and Mythos \u2013 why that matters ZDNET",
-      "date": "02-09-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
       "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
       "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Rumored to Prep 2 New Claude Models [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
-      "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
-      "date": "31-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -205,9 +197,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "title": "The Best Office Suites We've Tested for 2026 - pcmag.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
+      "summary": "The Best Office Suites We've Tested for 2026 pcmag.com",
       "date": "10-08-2026 05:00 PM"
     },
     {
@@ -217,14 +209,6 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
-      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -259,12 +243,12 @@
       "date": "15-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
-      "date": "03-06-2026 05:00 PM"
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
+      "date": "15-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -273,6 +257,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
       "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
       "date": "03-06-2026 04:00 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",

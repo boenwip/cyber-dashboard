@@ -1,7 +1,92 @@
 {
-  "last_updated": "15-09-2026 01:07 AM",
-  "count": 57,
+  "last_updated": "15-09-2026 09:40 AM",
+  "count": 55,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Probe Group wins ISO 42001 AI certification across brands",
+      "link": "https://securitybrief.com.au/story/probe-group-wins-iso-42001-ai-certification-across-brands",
+      "summary": "Clients in regulated sectors may benefit from lower AI compliance risk after Probe Group completed independent certification across all its brands.",
+      "date": "15-09-2026 09:30 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'Sandworm' Chains Cisco Vulnerabilities to Deploy Cyclops Blink",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/sandworm-chains-cisco-vulnerabilities-cyclops-blink",
+      "summary": "The notorious Russian threat group is spreading an upgraded version of the botnet malware, which the FBI disrupted in 2022.",
+      "date": "15-09-2026 07:37 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Maximum Severity GitLab Flaw Puts Supply Chains at Risk",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/maximum-severity-gitlab-flaw-supply-chains-risk",
+      "summary": "CVE-2026-85706 is a path traversal vulnerability with a 10 out of 10 CVSS score, affecting both GitLab Community Edition and Enterprise Edition instances.",
+      "date": "15-09-2026 06:19 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic CEO: Time to Shift From Improving to Controlling AI",
+      "link": "https://www.darkreading.com/cyber-risk/anthropic-ceo-shift-from-improving-to-controlling-ai",
+      "summary": "Dario Amodei says it's time to slow the pace of frontier AI improvements so that security and risk prevention efforts can catch up. What does this mean for enterprises?",
+      "date": "15-09-2026 02:41 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "OpenMatter adds secure AI & data tools to platform",
+      "link": "https://securitybrief.com.au/story/openmatter-adds-secure-ai-data-tools-to-platform",
+      "summary": "Enterprises handling sensitive data can now use OpenMatter's platform to manage AI models, protect secrets and run privacy-preserving machine learning.",
+      "date": "15-09-2026 02:22 AM",
+      "tags": [
+        "Education",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "404 Media",
+      "title": "Cops Search Thousands of Flock Cameras for Reasons of \u2018LMAO,\u2019 \u2018IDK,\u2019 \u2018Hehe,\u2019 and \u2018asdfg\u2019",
+      "link": "https://www.404media.co/cops-search-thousands-of-flock-cameras-for-reasons-of-lmao-idk-hehe-and-asdfg/",
+      "summary": "The EFF found cops writing \u201cidiot,\u201d \u201cWEIRD KID,\u201d \"blah,\" \"leave me alone,\" and button mashing in Flock's 'reason' box.",
+      "date": "15-09-2026 01:51 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "404 Media",
       "title": "Inside \u2018Project Lily\u2019: The Humans Reading Your ChatGPT Chats",
@@ -16,64 +101,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Openmarkets & Ondo eye tokenised finance in Australia",
-      "link": "https://securitybrief.com.au/story/openmarkets-ondo-eye-tokenised-finance-in-australia",
-      "summary": "Eligible Australian investors could soon gain access to tokenised products as Openmarkets and Ondo test new offerings within local regulations.",
-      "date": "14-09-2026 02:48 PM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "University of Sydney gives campus-wide ChatGPT Edu access",
-      "link": "https://securitybrief.com.au/story/university-of-sydney-gives-campus-wide-chatgpt-edu-access",
-      "summary": "The deal will give more than 70,000 students and staff institution-backed AI access, alongside safeguards and AUD $1 million for sustainability research.",
-      "date": "14-09-2026 11:23 AM",
-      "tags": [
-        "Education",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point named Gartner leader in hybrid mesh firewall",
-      "link": "https://securitybrief.com.au/story/check-point-named-gartner-leader-in-hybrid-mesh-firewall",
-      "summary": "The ranking bolsters its pitch that enterprises need centralised controls as AI adoption widens attack surfaces across cloud and on-premise networks.",
-      "date": "14-09-2026 10:35 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Savira launches free privacy tools for small firms",
-      "link": "https://securitybrief.com.au/story/savira-launches-free-privacy-tools-for-small-firms",
-      "summary": "More than 100,000 small businesses are now in privacy regulators' sights as tougher rules push demand for cheaper compliance tools.",
-      "date": "14-09-2026 10:34 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "SMB",
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -404,19 +431,6 @@
       "relevance": "Global"
     },
     {
-      "source": "404 Media",
-      "title": "Channel 5 Gave Hunter Biden a List of Its Subscribers\u2019 Emails for Some Reason",
-      "link": "https://www.404media.co/channel-5-gave-hunter-biden-a-list-of-its-subscribers-emails-for-some-reason/",
-      "summary": "A data protection lawyer told 404 Media the sharing was likely illegal, and Channel 5\u2019s own privacy policy explicitly says it won't give subscribers\u2019 emails away to people for marketing purposes.",
-      "date": "09-09-2026 04:28 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
       "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
@@ -446,23 +460,10 @@
       "relevance": "Sector"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Mathspace discloses data breach affecting over 1 million people - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMzQtZTBCV2VkN1RBUXUxMUpNZ195cVJISXo2T3pQUzF4ZjlEQXNVTFRPNGtPTkFsOGdNd3dwWWU1RVVLMGFSQVZjRXBEckVlSmdCNGI3RzV2UUMta1h3Y1N1emJzcHFyTTRFZks4dnZsQnlzMTVDb1d4Z2JFLVhmeUFWbVZkcWlnNkRxQ0RVTFREQm1UVlpnZmhaYkpZUXBlc3Z1RFowcUpXX01sUjZyb9IBtgFBVV95cUxQRkdBYmt3cnJjTUw2QXBVbVFWaDhIX1NuOGExQmp2aVBVWEY3clJyVDhlSDN1VnZqeWxtbjRGeWNkWG04QmcwdjA4TFFQeUx0NXRrN0tjbHpuVEpzSWFGZzQ0MkNtS3ZLRk90WXc3WExZREtpMF9rM3Y3OWZCTjJZNU1HRFJsaHlBTW4yMTNrZElMOHlzQjVPV0ZsRTBIbXNkdnNyclNxRE1JcU94WnZ3U3BQSEhfZw?oc=5",
-      "summary": "Mathspace discloses data breach affecting over 1 million people BleepingComputer",
-      "date": "07-09-2026 11:05 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
+      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOdVVBNkM1WUlPRFcxcHhJdGpSYTZFQlBoMUMwSzA2ZkV6WFhxM2FDekhSaG9JcmQxeGZrd1NxMy1mSUJFM3RBQXV4Rl9ObWpYS3oycHNpZmIyM2tGRS1WdFh1WGpVVExCTi1NNUVYcm1lMHA3TFFEbFNMLXd1OW44a1Z0d28wNWZZNDM5dlpoN25OWHhfUFpMNDVWT2U3dnRxaTNSRF9mY1k5bmMwN1JXVzVGcXhnYnFvbWo3VXNUa1NiejBadzVIOTNyc1JoUmRORTk1Uldkdml4a3ZndFE0aWIwZDdkTjRRRXlwZlZiRnZ0dEwzamM3OU5UMEMwT3FOcFlVd0J3RjVFeXpuYVViby1Odmxmd0ZRcEdicWhpNnFzVEFuZWxRLV9oODQtZm1XYXJuR2VfZzM5N01ZMlJYTU9rYTVveHdUX1lPRkZSNVNuTUt2SElDZGtuR1ZSUQ?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
+      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
       "date": "05-09-2026 07:30 PM",
       "tags": [
         "Scams"
@@ -475,9 +476,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "title": "Browse news and alerts - page 5 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPXzJiZjlQam1QcUVMTjVyS2lrSnpZV2x4U1BicC16dXFRZnlmVEhKa2ZPbkZoSl9COTZDMFNZakVlMEo1SDJTem1uR2owcmR4TnJsWGU1ZWpRTjg0eGd3cTQ5YWlrT0w3VTZxZ1FnSXVIcXltZlZ5RGUxRVZMY1BQT3RBc3dMVEx2VVpELThSSGt2QnRHN282ZEdhSlVkV0lPNzUxWld1eFphRVBMVVY3NXEzLUxHX2Mzd3hFaDE0V1haOGZ4XzZSc3JEc3BSVjZGUmU1Q0pHOGIteEZIMGlXQVF4LWFqcWVtTGt2UnFtQ0pialdBYzNjckpYWQ?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "summary": "Browse news and alerts - page 5 scamwatch.gov.au",
       "date": "05-09-2026 06:37 AM",
       "tags": [
         "Scams"
@@ -503,9 +504,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - Scamwatch",
+      "title": "Browse news and alerts - page 8 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVk9TZDJqbWVhMUhQeDM2SVNnd05PVUY1a25NMFRGSmlCLUVHY1AwUGk5dkNjUXFmTDRsNDFBWkNKVEhrVWpQX1RaZjF3UW9KNTh4cEZkX1VuSzJTX0FwNWVjUW5NbGg5NXBoVk5vbjZ4RVBrSWtOVXVSVC0zekZGV3VkZmNCMTVMRnhzVTA1cS1nR1lCaVVrV2JTOHFkb3ZBUWg1Vm5lV0JQNktPbnZSZlp6ai1GYUVxeW53cGpYT2tYa2ZzSll4Rk1FbFZkaEJqZXJTOURFM3k4WjhaSUVja0V1QkN4MndLUG14X1BCeGpkOWZFaU81YUstOUtQa2h2bTB4bERPQ0U0ODc1VUpXbEl5dTZaS0VsVk9wRnNieEFuVmhTdmRQdHp1elcwWHZvQzUzZHhKbHdFTE9YLU4tOGdpdUIwWXIwOTkyOG1iVQ?oc=5",
-      "summary": "Browse news and alerts - page 8 Scamwatch",
+      "summary": "Browse news and alerts - page 8 scamwatch.gov.au",
       "date": "04-09-2026 07:18 PM",
       "tags": [
         "Scams"
@@ -518,9 +519,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 7 - Scamwatch",
+      "title": "Browse news and alerts - page 7 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxOR1pTZkVva2V6ZzBTajhNaFZrUW9VOVVrQnc2b2luV2Y2RGRBaGVGcWRYRXNhOFlmU19CRFdPUjRlQ24wNC1PbDM2anU0VTBLeS1lVVYzeG12b001QVJITkduVmNwODdWdkhUT3Z2NXhKaHJEeVZNYmJicFN1blVHaFdfTTFQX3pWRll5SlV1cTZPQVRaTkRNRmFpQnliQjBSMldETG9kZDhxUF94M3VkaUxGbm9uanMwSmdMMFhIUWlfSVFJaXMtRzMxU3JzcXJsWUFaNkFGRmNIS2R5OHZpWHJXVVctZ2cwblgzWHg3c2F6YzBZRTloSTdxOHFRdEltR2xOT0lrNkg5QXY5UTJxUUZ1TTdiX2hicnFuVUtYandrd0NhbzQ2LVQtTDZoNFJmS21EUENxaUxVSnpFdVEw?oc=5",
-      "summary": "Browse news and alerts - page 7 Scamwatch",
+      "summary": "Browse news and alerts - page 7 scamwatch.gov.au",
       "date": "04-09-2026 05:35 PM",
       "tags": [
         "Scams"
@@ -771,35 +772,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Anthropic Users Hit by Infostealer Attacks, Session Thefts",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-users-infostealer-attacks-session-thefts",
-      "summary": "A threat actor used a variety of infostealers to collect session information and access Claude accounts belonging to an unknown number of users.",
-      "date": "01-09-2026 07:08 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Model Rules Are Not Security Controls",
-      "link": "https://www.darkreading.com/cyber-risk/model-knowing-rules-is-not-security-control",
-      "summary": "OpenAI's Hugging Face attack postmortem shows agents don't care about rules \u2014 they need strong controls.",
-      "date": "01-09-2026 03:34 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Critical Infra"
-      ],
       "relevance": "Global"
     }
   ]
