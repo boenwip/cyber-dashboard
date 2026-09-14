@@ -4,6 +4,61 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-14 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 15-09-2026 01:07–01:08 AM AEST — commit `dcf3b44`, current live HEAD of `main`). `git log --since="2026-09-13"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — `git diff --stat` against the prior log commit (`709ae8e`) shows changes only in `data/`.
+
+### 🚩 NEW, significant: today's AI briefing misleadingly links two unrelated ChatGPT stories
+`data/briefing.json`'s `briefing` field opens: *"With the University of Sydney rolling out campus-wide ChatGPT access, and AI tools becoming common in workplaces like ours, it's worth knowing that human reviewers may read your ChatGPT conversations as part of quality and safety checks — as reported this week."* This sentence draws on two separate `news.json` source articles that are about different, unrelated things:
+- Security Brief Australia, *"University of Sydney gives campus-wide ChatGPT Edu access"* (14-09-2026) — a licensing deal for **ChatGPT Edu**, the institutional/enterprise product tier.
+- 404 Media, *"Inside 'Project Lily': The Humans Reading Your ChatGPT Chats"* (15-09-2026) — leaked internal documents showing OpenAI contractors reading **consumer ChatGPT** prompts to train the model.
+
+Independently verified both via WebSearch: the University of Sydney's own announcement (sydney.edu.au, itbrief.com.au) states the ChatGPT Edu deal comes with privacy safeguards, explicitly including that **university data will not be used to train models** — the opposite data-handling regime from what Project Lily describes (contractors reviewing prompts precisely to improve/train the model). Project Lily's reporting is about the consumer product; nothing in either source article ties the human-review practice to ChatGPT Edu or to the Sydney deal specifically. The briefing's "with X... it's worth knowing Y... as reported this week" construction implies a reader at Sydney (or anywhere using an institutional AI rollout) should now worry their own conversations are subject to the same human review — a claim neither cited source supports and one the university's own stated safeguards contradict. This isn't a fabricated statistic, but it is a misattribution/false-implication of the kind the "appeal with truth" brand line exists to catch: two independently-true stories stitched into a false causal/contextual link. Recommend a human either rewrite this section to treat the two stories separately, or add explicit guidance to `generate_briefing()`'s prompt against implying a connection between distinct source articles that isn't stated in either.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 15-09-2026 01:08 AM)
+- **University of Sydney / Project Lily conflation** — see flag above. CONFIRMED, significant.
+- **Featured story (Mathspace breach, `source_count: 2`)** — same real cluster verified in exhaustive detail on 2026-09-07/09-12; re-verified this run that both cited sources (Australian Cyber Security Magazine, Google News — Bleeping Computer AU) are still present in `news.json` with matching headlines. `source_count` correctly dropped from 3→2 as Security Brief Australia's contributing article aged out of the 14-day window — no error, just a real count change tracked correctly by the pipeline.
+- **"AI is also being used increasingly by scammers to craft convincing, personalised messages"** — general, well-supported claim consistent with the same AI-scam trend independently verified in this log across multiple prior entries (2026-09-08, 2026-09-12). Not dramatized.
+- No other hallucination or misattribution found.
+
+### 2. Paywall spot-check
+**Not performed.** Tested two more rotation domains not yet tried in this log: `troyhunt.com` and `itnews.com.au` (both direct-RSS sources configured in `fetch_cyber_news.py` but currently absent from `news.json`'s live 14-day window — checking whether their feeds are simply quiet or actually dead was the goal) — both returned `EGRESS_BLOCKED`. `__agentproxy/status` again shows `recentRelayFailures: []` (policy-level block, not transient). WebSearch confirmed still functional (used above). Same condition every run since 2026-08-18 — now ~27 days / 35+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above. Note: Troy Hunt Blog and iTnews are both configured direct-RSS feeds with zero items in the current 57-item/14-day `news.json` window — worth a human check on whether these feeds are simply not publishing AU-relevant content lately or have gone stale, since this agent cannot verify feed liveness while egress is blocked.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Continuing the full-file rotation: this run covers entries 18–23 — **Incident Response, Attack Surface, Penetration Testing, Darknet, OSINT, Supply Chain Attack**.
+- **Supply Chain Attack** (line 164) is a standing known issue — re-read in full, confirmed byte-identical to previous flags ("2020 SolarWinds attack compromised thousands of organisations worldwide" conflates the ~18,000 orgs that received the backdoored update with the much smaller number actually further exploited). No new drift.
+- Incident Response, Attack Surface, Penetration Testing, Darknet, OSINT: general/definitional claims, no new falsifiable statistics — all read as accurate and standard for a dual-audience glossary. No issues found.
+- Also re-confirmed by direct read (not carried forward blind) that the other three standing issues are byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87, now ~26 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Brute Force Attack "billions of years" (line 185).
+- No fresh OWASP/Essential Eight (`reference.html`) re-check — fully verified against the live 2025-edition source on 2026-09-07; zero commits since (confirmed via `git diff --stat` above).
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (57 items, generated 15-09-2026 01:07 AM):
+- **`Google News — ASQA / RTO` garbled title still present** — `"- emailv6.comms.asqa.gov.au"`, same 11-09-2026 dated item flagged in the last three entries, aging through the 14-day storage window rather than a freshly-pulled recurrence today. Root cause and recommendation unchanged from prior entries.
+- **404 Media's off-topic nuclear-data-centre town-hall story remains in the feed**, still aging through the 14-day window (same item flagged 2026-09-09, mistagged "Education"). Root cause (no positive cyber-relevance filter on 404 Media's whole-site feed) unchanged.
+- **ScamWatch pagination junk down to 4/57 (~7%)** — improved from the ~11–28% range seen across the last two weeks (all 4 items are still 100% junk "Browse news and alerts — page N" listings when present, but fewer of them survived into today's window). Root cause (the `site:scamwatch.gov.au` Google News query with no article-vs-listing filter) still unfixed.
+- Dark Reading remains the largest source (29/57, ~51%); sampled titles (CISA outage guidance, AI-scam-sophistication piece, Indonesia banking-app-cloning campaign, BYOD/Microsoft 365 voice-phishing) are genuinely security-relevant and readable for both audiences.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 57 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py`. Sources present: Dark Reading, Australian Cyber Security Magazine, Security Brief Australia, 404 Media, Google News — ScamWatch, Risky Business, Krebs on Security, Google News — ASQA / RTO, Google News — Bleeping Computer AU. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked — confirmed again on two more domains, see §2).
+
+### Needs human attention (priority order)
+1. **NEW, significant: today's live AI briefing misleadingly links the University of Sydney's ChatGPT Edu rollout to OpenAI's unrelated "Project Lily" human-review reporting**, implying a privacy risk the university's own stated ChatGPT Edu safeguards (no training on university data) contradict. See top item above for full detail and sources. Recommend editing the live briefing text and adding a "don't imply a connection between distinct source articles beyond what either states" instruction to `generate_briefing()`'s prompt.
+2. Four standing `definitions.js` text-accuracy issues remain unfixed (all small, well-sourced edits, unchanged since 2026-09-12): Business Email Compromise loss overstatement (line 87, oldest, ~26 days open), Supply Chain Attack SolarWinds overstatement (line 164), Brute Force Attack "billions of years" (line 185), Patch entry's Essential Eight timeframe (line 108). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12 (line ~10).
+3. `Google News — ASQA / RTO` garbled title (`"- emailv6.comms.asqa.gov.au"`) is still aging through the feed window — recommend a filter for mis-parsed email-newsletter-subject titles from this query so a fresh instance doesn't recur.
+4. 404 Media's whole-site RSS feed still has no positive cyber-relevance filter (off-topic nuclear-data-centre story still in-window). Recommend a topical keyword gate for whole-site feeds like 404 Media in `scripts/fetch_cyber_news.py`.
+5. `select_trending_article()` still has no junk/relevance guard on its no-cluster fallback (recommended fix since 2026-08-23) — not manifesting today (healthy real cluster, `source_count: 2`) but still a live risk on the next quiet/junk-skewed news day.
+6. **NEW observation:** Troy Hunt Blog and iTnews — both configured direct-RSS sources in `fetch_cyber_news.py` — have zero items in the current 57-item news window. Worth a human check on whether these feeds are still live; this agent cannot verify while egress to publisher domains remains blocked (see #8).
+7. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05). Not manifesting as an error this run.
+8. Egress to publisher/reference domains remains blocked — now ~27 days / 35+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+
+---
+
 ## 2026-09-13 (AEST) — second run this day (08:48 feed)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 13-09-2026 08:48 AM — commit `f58493c`, current live HEAD of `main`). `git diff --stat` against the prior log commit (`be5a3b0`) confirms zero changes outside `data/` — only one feed run since the earlier entry today.
