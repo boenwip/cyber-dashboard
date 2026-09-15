@@ -1,14 +1,22 @@
 {
-  "last_updated": "15-09-2026 11:43 PM",
-  "count": 38,
+  "last_updated": "16-09-2026 09:22 AM",
+  "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.273",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
+      "summary": "What's changed Added x-claude-code-request-class, x-claude-code-agent-type, x-claude-code-prev-tool-durations, x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gate",
+      "date": "16-09-2026 09:22 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.272",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "15-09-2026 11:43 PM"
+      "date": "16-09-2026 09:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.271",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
       "summary": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Adde",
-      "date": "15-09-2026 11:43 PM"
+      "date": "16-09-2026 09:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.270",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
       "summary": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
-      "date": "15-09-2026 11:43 PM"
+      "date": "16-09-2026 09:22 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,71 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "15-09-2026 11:43 PM"
+      "date": "16-09-2026 09:22 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.268",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.268",
-      "summary": "What's changed Added to the Claude apps gateway: with pricing: set in gateway.yaml, signed-in Claude Code clients receive the same rates through managed settings, so /cost and telemetry match the spen",
-      "date": "15-09-2026 11:43 PM"
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_01936140552.html",
+      "summary": "The Extended Stable channel has been updated to 152.0.7977.130 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log. Interes",
+      "date": "16-09-2026 06:29 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "http://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_0541751186.html",
+      "summary": "The Stable channel has been updated to 153.0.8010.47/.48 for Windows and Mac and 153.0.8010.47 for Linux, which will roll out over the coming days/weeks. A full list of changes in this build is availa",
+      "date": "16-09-2026 06:13 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Connect to Google Meet hardware with room codes now generally available",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/connect-to-google-meet-hardware-with-room-codes-now-generally-available.html",
+      "summary": "Google Meet users can now connect to nearby conference room hardware by entering a 5-character room code on their personal device. Building on the recent Connect Room launch that uses proximity-based ",
+      "date": "16-09-2026 05:53 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Connect to more tools with Gemini in Google Workspace",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/connect-to-more-tools-with-gemini-in-Google-Workspace.html",
+      "summary": "Users will now be able to use Gemini in Workspace to directly interact with Asana, Atlassian Rovo, HubSpot, Intuit Mailchimp, Intuit Quickbooks, Monday, and Salesforce through Model Context Protocol (",
+      "date": "16-09-2026 05:50 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
+      "summary": "Canva releases Affinity 3.3 CG Channel",
+      "date": "16-09-2026 05:04 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gmail Search\u2019s AI Overviews now available globally",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/gmail-searchs-ai-overviews-now-available-globally.html",
+      "summary": "We recently announced the launch of AI Overviews in Gmail search which allows users to ask natural language questions in Gmail\u2019s search bar and get concise summaries and answers without digging throug",
+      "date": "16-09-2026 03:08 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Set up sharing boundaries for Google Drive with unified data protection rules",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/set-up-sharing-boundaries-for-google-Drive-with-unified-data-protection-rules.html",
+      "summary": "We\u2019re introducing a new capability that allows Google Workspace administrators to configure audience sharing and sensitivity-based data conditions in a single, unified rule. This unified rule flow hel",
+      "date": "16-09-2026 02:52 AM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Stable for iOS Update",
+      "link": "http://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update_0403227505.html",
+      "summary": "Hi everyone! We've just released Chrome Stable 154 (154.0.8037.41) for iOS; it'll become available on App Store in the next few hours.This release includes stability and performance improvements. You ",
+      "date": "16-09-2026 01:58 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -75,60 +139,12 @@
       "date": "12-09-2026 05:19 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Seamlessly import your team and data from Microsoft to Google Workspace during setup",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/seamlessly-import-your-team-and-data-from-Microsoft-to-Google-Workspace-during-setup.html",
-      "summary": "We\u2019re excited to announce the GA release of a new, simplified way for small businesses to import their users and their business data from Microsoft while setting up Google Workspace with our data impo",
-      "date": "12-09-2026 01:44 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "The Gemini desktop app is now available for Windows",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/the-gemini-desktop-app-is-now-available-for-Windows.html",
-      "summary": "Today, we\u2019re launching the Gemini desktop app for Windows 10 and 11. This new application is designed to operate seamlessly alongside users\u2019 favorite tools, providing instant assistance without disrup",
-      "date": "12-09-2026 01:06 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Gemini in Google Sheets is now available on Android devices",
-      "link": "http://workspaceupdates.googleblog.com/2026/08/gemini-in-google-sheets-is-now-available-on-Android-devices.html",
-      "summary": "Building upon the power of Gemini in Sheets on the web, we\u2019re excited to announce that you can now use Gemini in Google Sheets on your Android device to quickly analyze and understand your data while ",
-      "date": "11-09-2026 04:32 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Manage external sharing for Gemini Notebook in the Admin console",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/manage-external-sharing-for-gemini-notebook-in-the-Admin-console.html",
-      "summary": "Google Workspace administrators can now enable external sharing for Gemini Notebook using granular controls in the Admin console. Previously, administrators only had a single high-level toggle to turn",
-      "date": "11-09-2026 04:27 AM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing ChatGPT for Financial Services - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55RjB3U1pjRUtMSUlGaGhvX0ptWFVkYlg5Rk1Fd3AtYVBEZm5UQmpVQmc1Yi1WRkFqbEVrOVFrQ2FpMVNCTDRDZDNsY1k5VHhBS1FQSjhaM2Y1aVliOC1XSW1HLW8wY1RfZWJFMDE3N3Zmdw?oc=5",
-      "summary": "Introducing ChatGPT for Financial Services OpenAI",
-      "date": "11-09-2026 03:43 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Detecting and countering misuse of AI: September 2026 - anthropic.com",
+      "title": "Detecting and countering misuse of AI: September 2026 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
-      "summary": "Detecting and countering misuse of AI: September 2026 anthropic.com",
+      "summary": "Detecting and countering misuse of AI: September 2026 Anthropic",
       "date": "11-09-2026 03:10 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update_01644394249.html",
-      "summary": "The Dev channel has been updated to 155.0.8048.0 for Windows, Mac and Linux.A partial list of changes is available in the Git log. Interested in switching release channels? Find out how. If you find a",
-      "date": "11-09-2026 02:13 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -165,9 +181,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Improving our alignment and security practices - anthropic.com",
+      "title": "Improving our alignment and security practices - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
-      "summary": "Improving our alignment and security practices anthropic.com",
+      "summary": "Improving our alignment and security practices Anthropic",
       "date": "31-08-2026 05:00 PM"
     },
     {
@@ -177,6 +193,14 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5mX2w5TlhGVEdRV0lxY195MWVjakx1UDBDeFdTNWNFSTFSN3IySUVORUc0Q0RkSVY4WG5BVEhCRFQtYWRUcDd4bVJQemNfTmtUcWZhczhzN1pYTDR1eUVWVVV0cDdhU3dwSENXSDJRLTVkdw?oc=5",
       "summary": "Anthropic Rumored to Prep 2 New Claude Models [2026] shattered.io",
       "date": "31-08-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI launches ChatGPT for Teens with new safety features - bbc.com",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
+      "summary": "OpenAI launches ChatGPT for Teens with new safety features bbc.com",
+      "date": "18-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -197,9 +221,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - pcmag.com",
+      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 pcmag.com",
+      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
       "date": "10-08-2026 05:00 PM"
     },
     {
@@ -209,6 +233,14 @@
       "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
       "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
       "date": "30-07-2026 11:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "Launching Health in ChatGPT OpenAI",
+      "date": "23-07-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -237,18 +269,10 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - shu.edu",
+      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 shu.edu",
+      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
       "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
-      "date": "03-06-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -269,9 +293,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - futurumgroup.com",
+      "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
       "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
-      "summary": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design futurumgroup.com",
+      "summary": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design The Futurum Group",
       "date": "28-05-2026 05:00 PM"
     },
     {
@@ -293,18 +317,10 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "16-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
-      "date": "18-03-2026 05:00 PM"
     }
   ]
 }

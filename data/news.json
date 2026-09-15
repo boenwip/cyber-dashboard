@@ -1,7 +1,79 @@
 {
-  "last_updated": "15-09-2026 11:43 PM",
-  "count": 60,
+  "last_updated": "16-09-2026 09:22 AM",
+  "count": 55,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "UTS picks Nexon for AUD $20 million network overhaul",
+      "link": "https://securitybrief.com.au/story/uts-picks-nexon-for-aud-20-million-network-overhaul",
+      "summary": "The university's campus-wide upgrade will bring Wi-Fi 7 and AI-ready security to more than 18 months of work across every site.",
+      "date": "16-09-2026 08:00 AM",
+      "tags": [
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Beyond the campus perimeter: Why university cyber defence hinges on identity security",
+      "link": "https://securitybrief.com.au/story/beyond-the-campus-perimeter-why-university-cyber-defence-hinges-on-identity-security",
+      "summary": "The sector faces mounting breach and compliance risk as unmanaged devices, shared logins and stale access undermine campus defences.",
+      "date": "16-09-2026 08:00 AM",
+      "tags": [
+        "Education",
+        "Compliance"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Sector"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
+      "link": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
+      "summary": "You can't make an omelet without breaking a few eggs, and you can't patch nearly 1,000 CVEs without a few glitches.",
+      "date": "16-09-2026 06:16 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI\u2013Hugging Face Incident",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
+      "summary": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, ",
+      "date": "16-09-2026 05:27 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "VectraRAT Can Hack Windows Enterprises for $250 per Month",
+      "link": "https://www.darkreading.com/endpoint-security/vectrarat-hack-windows-enterprises",
+      "summary": "The full-service malware-as-a-service (MaaS) platform offers a Windows implant, command-and-control (C2) infrastructure, and an operator panel for comprehensive remote access.",
+      "date": "16-09-2026 02:45 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "SonicWall cloud secure edge expands global network with three new points of presence",
@@ -30,9 +102,9 @@
     },
     {
       "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks - BleepingComputer",
+      "title": "Cisco patches Secure Email Gateway zero-day exploited in attacks - bleepingcomputer.com",
       "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVDBDTmg3NVg4V3RtSV9TWE9aeVItVHZrUDNRUHFxb1VnTEdvX0xJME11U3hTWjZVTG5NcU5lZ3BuY1hDSk93ZERUZlE2cWFEd1RucHlUd1g1bkpwVF8xU2plQlpES3VMTGxUYzIzWUl5VFRpck4xbnNaVlZqM3ZkSVU0VEZyb21QMXFkMk9SSWFaWERIa19uN2x1SXZNcXo5TjRsaXQ3SEdub2JHNmswYW5zVDAycGJ40gG-AUFVX3lxTE9YU2xtUE03anRrRDBxaG1rbExHTUNkdV9NaHJzdTVYU2pRRmthTXVwTHJyVVpvWjNta00xbUhvcl9wZjZocW9INnRxSm0tdWtPSjd3NkFIV3BwQmJNVHlSaHFQcnkyb183bl9aMUxiTFpvUVBXTjFqU1d3VUtpQmhsWl85eG0xanFWOHJ2cENXR1JQV1FQRzhJS0FabUxrWWVQM01IVXR1VmZXaHRMSWJoeERmNkJJQWNLR19uTXc?oc=5",
-      "summary": "Cisco patches Secure Email Gateway zero-day exploited in attacks BleepingComputer",
+      "summary": "Cisco patches Secure Email Gateway zero-day exploited in attacks bleepingcomputer.com",
       "date": "15-09-2026 05:31 PM",
       "tags": [
         "AU Cyber"
@@ -126,21 +198,6 @@
         "Consumer"
       ],
       "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Big AI sets out its terms for regulatory capture and calls it \u2018Pace the frontier\u2019 - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQjNIWGxsTFpUNjVMUnN1NkJjdncweS1HZnBpYTVHMmhHdGxMbjVSQW1qd2RQWEd1OUt1bjBDc2JQRzhuMnZkT2JMbVZFTEF0cjdzdFZBZUhOaTZGY2JOX3pKaXQtOHlFZDFrMHg1VnRCdGE0dVlDWWJON1hYTHBSdGxkMVZwQUltX0tIeGItMEhmXzZLWmhvRmZPcmptejF3U3ZwVHR6YmhTc09maGw0LV9NQ3MzNjl0VVljSUc3VE5MYkRMc3JyS1o2ZW9HR0RRNEE?oc=5",
-      "summary": "Big AI sets out its terms for regulatory capture and calls it \u2018Pace the frontier\u2019 theregister.com",
-      "date": "14-09-2026 11:15 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
     },
     {
       "source": "Dark Reading",
@@ -325,19 +382,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Google News \u2014 The Register AU",
-      "title": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNX3lTVW1TSUludDhJYWRnbTdscDNYQ1RpcHM2Mml0TFlvWW5sMnZ2bUU1bl96c09nTEU3eW1RWFkzQWhhWjVrNUo3amF4THY2SDJqdHN0WlBkam45N3R6Q2JIZ0RraW93bG96WXVPeDQ2Wi1kaUQxWHM5QWp4MDZRNzFpOHBDS2d0SHk1Zm9QLWFXeTFmVGViU3dTaEFNejk1MDc5RkxmY2VvWXZPRnNlYmxUSjhDY3FfeHRjc1Ata1ItUHBfa2ltRkJuTzQ3dmZ0UnpwZGJ4OUFXR3NmaExOZQ?oc=5",
-      "summary": "Novel Blue Moon kit targeting Chrome and Windows reflects new reality of AI-driven exploits theregister.com",
-      "date": "10-09-2026 08:28 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
       "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
@@ -356,32 +400,6 @@
       "link": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
       "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
       "date": "10-09-2026 05:47 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "First \u2018Take It Down Act\u2019 Sentencing Puts Man Behind Bars for 15 Years",
-      "link": "https://www.404media.co/first-take-it-down-act-sentencing-case/",
-      "summary": "James Strahler was sentenced to 15 years in prison for \u201ccybercrimes that included both real and AI-generated sexually explicit images and threats of violence to numerous victims.\u201d",
-      "date": "10-09-2026 01:57 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "'Tell Everyone:' A Man Died by Suicide After Talking to ChatGPT. His Former Partner Wants to Warn the World About AI",
-      "link": "https://www.404media.co/austin-gordon-chatgpt-suicide-openai-lawsuit/",
-      "summary": "After allegedly becoming emotionally reliant on ChatGPT, Austin died at 40 years old, leaving behind family and friends who loved him. Megan wants everyone to know what happened.",
-      "date": "10-09-2026 12:00 AM",
       "tags": [
         "AI & Tools"
       ],
@@ -513,23 +531,10 @@
       "relevance": "Sector"
     },
     {
-      "source": "Google News \u2014 Bleeping Computer AU",
-      "title": "Mathspace discloses data breach affecting over 1 million people - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMzQtZTBCV2VkN1RBUXUxMUpNZ195cVJISXo2T3pQUzF4ZjlEQXNVTFRPNGtPTkFsOGdNd3dwWWU1RVVLMGFSQVZjRXBEckVlSmdCNGI3RzV2UUMta1h3Y1N1emJzcHFyTTRFZks4dnZsQnlzMTVDb1d4Z2JFLVhmeUFWbVZkcWlnNkRxQ0RVTFREQm1UVlpnZmhaYkpZUXBlc3Z1RFowcUpXX01sUjZyb9IBtgFBVV95cUxQRkdBYmt3cnJjTUw2QXBVbVFWaDhIX1NuOGExQmp2aVBVWEY3clJyVDhlSDN1VnZqeWxtbjRGeWNkWG04QmcwdjA4TFFQeUx0NXRrN0tjbHpuVEpzSWFGZzQ0MkNtS3ZLRk90WXc3WExZREtpMF9rM3Y3OWZCTjJZNU1HRFJsaHlBTW4yMTNrZElMOHlzQjVPV0ZsRTBIbXNkdnNyclNxRE1JcU94WnZ3U3BQSEhfZw?oc=5",
-      "summary": "Mathspace discloses data breach affecting over 1 million people BleepingComputer",
-      "date": "07-09-2026 11:05 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOdVVBNkM1WUlPRFcxcHhJdGpSYTZFQlBoMUMwSzA2ZkV6WFhxM2FDekhSaG9JcmQxeGZrd1NxMy1mSUJFM3RBQXV4Rl9ObWpYS3oycHNpZmIyM2tGRS1WdFh1WGpVVExCTi1NNUVYcm1lMHA3TFFEbFNMLXd1OW44a1Z0d28wNWZZNDM5dlpoN25OWHhfUFpMNDVWT2U3dnRxaTNSRF9mY1k5bmMwN1JXVzVGcXhnYnFvbWo3VXNUa1NiejBadzVIOTNyc1JoUmRORTk1Uldkdml4a3ZndFE0aWIwZDdkTjRRRXlwZlZiRnZ0dEwzamM3OU5UMEMwT3FOcFlVd0J3RjVFeXpuYVViby1Odmxmd0ZRcEdicWhpNnFzVEFuZWxRLV9oODQtZm1XYXJuR2VfZzM5N01ZMlJYTU9rYTVveHdUX1lPRkZSNVNuTUt2SElDZGtuR1ZSUQ?oc=5",
-      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
       "date": "05-09-2026 07:30 PM",
       "tags": [
         "Scams"
@@ -542,9 +547,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 4 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPY011ZXBjUTM4N2lHZGFoZ3Nkdkt1UDN4VG9LVWRGNnpnTDBXNUhmMzFxV0p2V2lQVmdhYTgtN0FDMTY0Y0lvU1Z6ZWdZQWptWnRnX0pMMXB1WnF0OHdWV2pCcDNLX3FmTVlmUHo5R19rTmVja3VtbnhFLW1md1NMclRaZVVBTmdhdjNzQkNySEtqSUFhN2VMNWstTFRCM1dGblVWYXZXaWFob1FDMTROUVhEYzFiMllRYkVWYW1Ia2ZTUHJvSG9VTXBnM0xjM2RFWkF2LV9tMkVSZWxBemtiVHpBMFdqT3h0ZU9JNURPdzN3Wm82ZzFyUDN3NWJrOTBmVW1HWGRja1I0TUpCcGxBa1ZiR2hhU05TWEZwUl9jZUJpZw?oc=5",
-      "summary": "Browse news and alerts - page 4 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 4 Scamwatch",
       "date": "05-09-2026 02:56 PM",
       "tags": [
         "Scams"
@@ -557,9 +562,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 5 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPXzJiZjlQam1QcUVMTjVyS2lrSnpZV2x4U1BicC16dXFRZnlmVEhKa2ZPbkZoSl9COTZDMFNZakVlMEo1SDJTem1uR2owcmR4TnJsWGU1ZWpRTjg0eGd3cTQ5YWlrT0w3VTZxZ1FnSXVIcXltZlZ5RGUxRVZMY1BQT3RBc3dMVEx2VVpELThSSGt2QnRHN282ZEdhSlVkV0lPNzUxWld1eFphRVBMVVY3NXEzLUxHX2Mzd3hFaDE0V1haOGZ4XzZSc3JEc3BSVjZGUmU1Q0pHOGIteEZIMGlXQVF4LWFqcWVtTGt2UnFtQ0pialdBYzNjckpYWQ?oc=5",
-      "summary": "Browse news and alerts - page 5 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 5 Scamwatch",
       "date": "05-09-2026 06:37 AM",
       "tags": [
         "Scams"
@@ -585,9 +590,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 8 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVk9TZDJqbWVhMUhQeDM2SVNnd05PVUY1a25NMFRGSmlCLUVHY1AwUGk5dkNjUXFmTDRsNDFBWkNKVEhrVWpQX1RaZjF3UW9KNTh4cEZkX1VuSzJTX0FwNWVjUW5NbGg5NXBoVk5vbjZ4RVBrSWtOVXVSVC0zekZGV3VkZmNCMTVMRnhzVTA1cS1nR1lCaVVrV2JTOHFkb3ZBUWg1Vm5lV0JQNktPbnZSZlp6ai1GYUVxeW53cGpYT2tYa2ZzSll4Rk1FbFZkaEJqZXJTOURFM3k4WjhaSUVja0V1QkN4MndLUG14X1BCeGpkOWZFaU81YUstOUtQa2h2bTB4bERPQ0U0ODc1VUpXbEl5dTZaS0VsVk9wRnNieEFuVmhTdmRQdHp1elcwWHZvQzUzZHhKbHdFTE9YLU4tOGdpdUIwWXIwOTkyOG1iVQ?oc=5",
-      "summary": "Browse news and alerts - page 8 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 8 Scamwatch",
       "date": "04-09-2026 07:18 PM",
       "tags": [
         "Scams"
@@ -770,75 +775,6 @@
         "Enterprise"
       ],
       "relevance": "Sector"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "link": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
-      "summary": "A new identity theft service launched on the dark web this week is selling digital scans of more than 153 million drivers licenses from people in the United States and Canada. Based on interviews with individuals whose licenses are available for purchase on this service, it appears to be siphoning i",
-      "date": "02-09-2026 08:40 AM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Stronger Security Drives Ransomware Groups to Recruit From Within",
-      "link": "https://www.darkreading.com/cyber-risk/stronger-security-drives-ransomware-groups-to-recruit-from-within",
-      "summary": "Some security researchers have observed an uptick in insider-assisted ransomware attacks, but malicious insiders pose other threats that cost companies millions.",
-      "date": "02-09-2026 07:03 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Critical Langflow Vulnerability Exploited as Attacks on AI Platform Rise",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/critical-langflow-flaw-exploited-attacks-rise",
-      "summary": "The attacks targeting CVE-2026-0768 are the latest threat against the low-code AI development platform, which is receiving more attention from adversaries this year.",
-      "date": "02-09-2026 06:48 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Model Evaluator METR Hit by Credential Theft, Probing",
-      "link": "https://www.darkreading.com/identity-access-management-security/ai-model-evaluator-metr-credential-theft-probing",
-      "summary": "In one attack, threat actors stole an API key that ultimately led to the consumption of $600,000 in public AI model credits for the security nonprofit.",
-      "date": "02-09-2026 06:13 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "ClickFix Campaign Compromises 31 Orgs, Abuses Polygon Blockchain",
-      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaign-comprises-31-orgs-abuses-polygon-blockchain",
-      "summary": "The campaign uses EtherHiding to dynamically update its command-and-control server, abusing the blockchain as an attacker-controlled address book.",
-      "date": "01-09-2026 11:56 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
