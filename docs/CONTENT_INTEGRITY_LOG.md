@@ -4,6 +4,56 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-15 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 15-09-2026 11:43 PM AEST — commit `b233aa0`, current live HEAD of `main`). `git log --since="2026-09-14"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry (`f30c683`) — five feed-only runs since then (09:40, 10:23, 12:38, 18:13, 23:43 AEST).
+
+**"Today's Story" is still healthy.** `briefing.json`'s `featured` remains the same real Mathspace breach cluster (Australian Cyber Security Magazine, `source_count: 2`), consistent with 2026-09-14's entry — verified again that both contributing sources are present in `news.json` with matching headlines.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 15-09-2026 11:43 PM)
+Three claims in the `briefing` field checked against their `news.json` source articles and independent WebSearch:
+- **"IT professionals consider password sharing the top security lapse... 65%"** — supported and precise. Matches its `news.json` source (Security Brief Australia, "IT pros say password sharing is top security lapse," itself syndicating a SolarWinds THWACK community survey). Independently corroborated via WebSearch (itbrief.asia carrying the same figure). No overstatement.
+- **"New research from OneTrust highlights significant gaps in AI governance locally, as adoption outpaces policy and oversight frameworks"** — supported. Matches its `news.json` source (Australian Cyber Security Magazine, same headline). Independently corroborated via WebSearch (OneTrust's own 2026 AI-Ready Governance Report, SMBtech, GlobeNewswire): 37% of AU respondents describe governance as "defined but slow and manual," 21% "reactive and fragmented" — highest of surveyed countries; 87% encourage AI agent use vs only 47% with clear governance. Briefing's framing is a fair plain-English summary, not dramatized.
+- **"Cisco has released a patch for a critical vulnerability in its Secure Email Gateway product that is actively being exploited"** — supported and precise. Matches its `news.json` source (Google News — Bleeping Computer AU) and today's `data/cve.json` (`CVE-2026-76461`, Cisco Secure Email Gateway). Independently corroborated via WebSearch: CVE-2026-76461, CVSS 9.8, unauthenticated root RCE via SQL injection in email parsing, added to CISA KEV with a 17 Sept federal patch deadline. No overstatement — if anything the briefing's "ensure your IT team applies the update promptly" undersells the CISA urgency slightly, but this is advice framing for a lay audience, not a factual misstatement.
+- No hallucination or misattribution found in this run's briefing content — all three claims map cleanly to `news.json` sources and independent reporting, and the two-story "with X... it's worth knowing Y" construction that caused 2026-09-14's flagged issue is not repeated in this structure (the password-sharing and OneTrust items are kept as genuinely separate, unlinked sentences).
+
+### 2. Paywall spot-check
+**Not performed.** Tested `www.darkreading.com`, `www.troyhunt.com`, and `www.itnews.com.au` via WebFetch this run — all three returned `EGRESS_BLOCKED`. `__agentproxy/status` again shows `recentRelayFailures: []` (policy-level block, not transient). WebSearch confirmed still functional (used above). Same condition every run since 2026-08-18 — now ~28 days / 36+ consecutive runs.
+
+### 3. Dead source check
+**Not performed**, same reason as above. Troy Hunt Blog and iTnews (both configured direct-RSS feeds in `fetch_cyber_news.py`) remain absent from today's 60-item `news.json` window — this agent still cannot determine whether their feeds are quiet or dead while egress to publisher domains stays blocked.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Continuing the full-file rotation: this run covers entries 24–29 — **Man-in-the-Middle Attack, SQL Injection, Brute Force Attack, Endpoint, Least Privilege, Threat Intelligence**.
+- Man-in-the-Middle Attack, SQL Injection, Endpoint, Least Privilege, Threat Intelligence: general/definitional claims, no new falsifiable statistics — all read as accurate and standard for a dual-audience glossary. No issues found.
+- **Brute Force Attack** (line 185) is one of the four standing known issues — re-read in full, confirmed byte-identical to previous flags ("a 12-character random password takes billions of years to brute force" — true only under specific hash/hardware assumptions the entry doesn't state). No new drift.
+- Re-confirmed by direct read (not carried forward blind) that the other three standing issues are byte-for-byte unchanged: Business Email Compromise "hundreds of millions" (line 87, now ~27 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164).
+- No fresh OWASP/Essential Eight (`reference.html`) re-check — fully verified against the live 2025-edition source on 2026-09-07; zero commits since (confirmed via `git log` above).
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (60 items, generated 15-09-2026 11:43 PM):
+- **`Google News — ASQA / RTO` garbled title still present** — `"- emailv6.comms.asqa.gov.au"`, same 11-09-2026 dated item flagged in the last four entries, aging through the 14-day storage window (no fresh recurrence today).
+- **404 Media's off-topic nuclear-data-centre town-hall story remains in the feed**, still aging through the window, unchanged root cause (no positive cyber-relevance filter on 404 Media's whole-site feed).
+- **ScamWatch pagination junk down to 4/60 (~6.7%)** — continuing the improvement trend from 2026-09-14 (4/57, ~7%), same unfixed root cause (`site:scamwatch.gov.au` query has no article-vs-listing filter).
+- Dark Reading remains the largest source (30/60, 50%); sampled new titles since the last run (Cisco SEG zero-day, GitLab max-severity path traversal, Sandworm/Cyclops Blink, Anthropic CEO on AI pacing) are genuinely security-relevant and readable for both audiences. 404 Media's "Cops Search Thousands of Flock Cameras" (tagged `AU Cyber`, actually a US surveillance-misuse story) is a loose-tagging instance consistent with the standing pattern (logged since 2026-08-25) rather than a new issue — the story itself has genuine privacy/surveillance relevance, not filler.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 60 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py` (30 entries) by parsing each link's domain in Python. Domains present: `www.404media.co`, `securitybrief.com.au`, `news.google.com`, `krebsonsecurity.com`, `australiancybersecuritymagazine.com.au`, `www.darkreading.com`, `risky.biz`. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (egress blocked — confirmed again on three domains, see §2).
+
+### Needs human attention (priority order)
+1. Four standing `definitions.js` text-accuracy issues remain unfixed (all small, well-sourced edits, unchanged since 2026-09-12): Business Email Compromise loss overstatement (line 87, oldest, ~27 days open), Supply Chain Attack SolarWinds overstatement (line 164), Brute Force Attack "billions of years" (line 185), Patch entry's Essential Eight timeframe (line 108). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12 (line ~10).
+2. `Google News — ASQA / RTO` garbled title (`"- emailv6.comms.asqa.gov.au"`) is still aging through the feed window — recommend a filter for mis-parsed email-newsletter-subject titles from this query so a fresh instance doesn't recur.
+3. 404 Media's whole-site RSS feed still has no positive cyber-relevance filter (off-topic nuclear-data-centre story still in-window) and its keyword-based auto-tagging is loose (today's Flock-cameras story tagged `AU Cyber` despite being US-only). Recommend a topical keyword gate for whole-site feeds like 404 Media in `scripts/fetch_cyber_news.py`.
+4. `select_trending_article()` still has no junk/relevance guard on its no-cluster fallback (recommended fix since 2026-08-23) — not manifesting today (healthy real cluster, `source_count: 2`) but still a live risk on the next quiet/junk-skewed news day.
+5. Troy Hunt Blog and iTnews — both configured direct-RSS sources in `fetch_cyber_news.py` — remain absent from the live news window across multiple runs now. Worth a human check on whether these feeds are still live; this agent cannot verify while egress to publisher domains remains blocked (see #7).
+6. `generate_briefing()`'s prompt still has no explicit instruction against adding/narrowing geographic scope beyond what the source article states (recommended 2026-09-05). Not manifesting as an error this run.
+7. Egress to publisher/reference domains remains blocked — now ~28 days / 36+ consecutive runs. Paywall and dead-source checks remain structurally impossible every run. Recommend a one-time human decision on granting this agent's environment egress to the approved-domain allowlist.
+
+---
+
 ## 2026-09-14 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 15-09-2026 01:07–01:08 AM AEST — commit `dcf3b44`, current live HEAD of `main`). `git log --since="2026-09-13"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry — `git diff --stat` against the prior log commit (`709ae8e`) shows changes only in `data/`.
