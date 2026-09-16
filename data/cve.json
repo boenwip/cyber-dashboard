@@ -1,7 +1,40 @@
 {
-  "last_updated": "16-09-2026 11:37 PM",
+  "last_updated": "17-09-2026 09:30 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-58704",
+      "description": "Google Pixel \u2014 Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
+      "vendor": "Google",
+      "product": "Pixel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-76460",
+      "description": "Cisco Identity Services Engine \u2014 Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker t",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
+      "vendor": "Cisco",
+      "product": "Identity Services Engine",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-87886",
+      "description": "Acronis Backup \u2014 Acronis Backup plugin for cPanel & WHM and extension for Plesk contains an incorrect default permissions vulnerability that could allow for privilege escalation.",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-16",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87886",
+      "vendor": "Acronis",
+      "product": "Backup",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-76461",
       "description": "Cisco Secure Email Gateway \u2014 Cisco AsyncOS software for Cisco Secure Email Gateway (SEG) contains a SQL injection vulnerability that could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileg",
@@ -15,7 +48,7 @@
     },
     {
       "id": "CVE-2026-84869",
-      "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to file transfer and execution through an active remote sess",
+      "description": "ConnectWise ScreenConnect \u2014 ConnectWise ScreenConnect contains both an improper privilege management and missing authorization vulnerability that may allow an attacker to transfer and execute files through an active remote sessi",
       "score": null,
       "severity": "HIGH",
       "published": "2026-09-11",
@@ -26,7 +59,7 @@
     },
     {
       "id": "CVE-2026-42016",
-      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an incorrect authorization vulnerability that allows leads to privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
+      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token\u2019s scope.",
       "score": null,
       "severity": "HIGH",
       "published": "2026-09-11",
@@ -59,7 +92,7 @@
     },
     {
       "id": "CVE-2026-86060",
-      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacked to change the trusted RouterOS policy mask, leading to privilege escala",
+      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escala",
       "score": null,
       "severity": "HIGH",
       "published": "2026-09-10",
@@ -70,46 +103,13 @@
     },
     {
       "id": "CVE-2026-67277",
-      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains a missing authenticaion for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
+      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
       "score": null,
       "severity": "HIGH",
       "published": "2026-09-10",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
       "vendor": "MikroTik",
       "product": "RouterOS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-19490",
-      "description": "Citrix NetScaler \u2014 Citrix NetScaler ADC and NetScaler Gateway contain an authentication-bypass vulnerability involving an alternate path or channel. When the NetScaler appliance is configured as an AAA virtual server or",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-19490",
-      "vendor": "Citrix",
-      "product": "NetScaler",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2025-25249",
-      "description": "Fortinet Multiple Products \u2014 Fortinet FortiOS, FortiSwitchManager, and FortiSASE contain a heap-based buffer overflow vulnerability that allows an attacker to execute unauthorized code or commands via specially crafted packets.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-25249",
-      "vendor": "Fortinet",
-      "product": "Multiple Products",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-87491",
-      "description": "Google Chromium V8 \u2014 Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect mul",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-09",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
-      "vendor": "Google",
-      "product": "Chromium V8",
       "ransomware": "Unknown"
     }
   ]

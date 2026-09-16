@@ -1,75 +1,72 @@
 {
-  "last_updated": "16-09-2026 11:36 PM",
-  "count": 58,
+  "last_updated": "17-09-2026 09:30 AM",
+  "count": 51,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Shufti launches bank account verification in 70 nations",
-      "link": "https://securitybrief.com.au/story/shufti-launches-bank-account-verification-in-70-nations",
-      "summary": "Businesses can now confirm account ownership before sending payments, with Shufti's tool covering more than 70 countries and easing fraud checks.",
-      "date": "16-09-2026 05:54 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Asia Pacific remitters prefer fraud checks over speed",
-      "link": "https://securitybrief.com.au/story/asia-pacific-remitters-prefer-fraud-checks-over-speed",
-      "summary": "Consumers across Asia Pacific are willing to wait longer for transfers if it reduces scam losses, Visa's survey of 45,000 people found.",
-      "date": "16-09-2026 04:53 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Containment 'Essential' for cyber resilience in the model driven era",
-      "link": "https://securitybrief.com.au/story/containment-essential-for-cyber-resilience-in-the-model-driven-era",
-      "summary": "Australian firms could face faster breaches as model-driven attackers shrink exploit times to hours, making containment and zero trust vital.",
-      "date": "16-09-2026 03:32 PM",
+      "title": "AI speeds up cyber attacks on ageing systems, experts warn",
+      "link": "https://securitybrief.com.au/story/ai-speeds-up-cyber-attacks-on-ageing-systems-experts-warn",
+      "summary": "Ageing technology is leaving critical services exposed as AI lets attackers exploit known weaknesses at machine speed, experts say.",
+      "date": "17-09-2026 09:15 AM",
       "tags": [
         "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "PhishByte warns AI phishing has outpaced detection",
+      "link": "https://securitybrief.com.au/story/phishbyte-warns-ai-phishing-has-outpaced-detection",
+      "summary": "Traditional email filters are failing as AI-crafted scams now look legitimate enough to fool staff and drive up fraud losses.",
+      "date": "17-09-2026 08:30 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Akuity launches control plane for AI software delivery",
+      "link": "https://securitybrief.com.au/story/akuity-launches-control-plane-for-ai-software-delivery",
+      "summary": "Engineering teams face a governance gap as AI agents begin handling production changes, prompting tighter controls over access, audits and permissions.",
+      "date": "17-09-2026 06:36 AM",
+      "tags": [
+        "Compliance"
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "AU General"
+      "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Tanium tests Anthropic AI for code vulnerabilities",
-      "link": "https://securitybrief.com.au/story/tanium-tests-anthropic-ai-for-code-vulnerabilities",
-      "summary": "By probing its own production code, Tanium is aiming to catch flaws before attackers can exploit software used by thousands of organisations.",
-      "date": "16-09-2026 03:22 PM",
+      "source": "Krebs on Security",
+      "title": "Data Broker Radaris Loses Domains in Privacy Fight",
+      "link": "https://krebsonsecurity.com/2026/09/data-broker-radaris-loses-domains-in-privacy-fight/",
+      "summary": "The consumer data broker Radaris.com has long had a reputation for ignoring requests to remove personal information from its vast empire of people-search services online. That reputation caught up with the company recently in a lawsuit alleging Radaris violated a New Jersey privacy law that provides",
+      "date": "17-09-2026 04:14 AM",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "Compliance"
       ],
-      "threat": "Medium",
+      "threat": "Advisory",
       "audience": [
-        "Enterprise"
+        "Consumer"
       ],
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike links PhantomRaven malware to bug bounty hunter",
-      "link": "https://securitybrief.com.au/story/crowdstrike-links-phantomraven-malware-to-bug-bounty-hunter",
-      "summary": "The stealer's use of typosquatted npm packages has raised fears that bug bounty channels are being abused to monetise stolen developer data.",
-      "date": "16-09-2026 03:13 PM",
+      "source": "404 Media",
+      "title": "Podcast: Humans Are Reading Your ChatGPT Conversations",
+      "link": "https://www.404media.co/podcast-humans-are-reading-your-chatgpt-conversations/",
+      "summary": "The contractors reading real ChatGPT users' prompts; the big out-and-back-in around Automattic; and a16z thinks enshittification isn't real.",
+      "date": "17-09-2026 12:19 AM",
       "tags": [
-        "AU Cyber"
+        "AI & Tools"
       ],
       "threat": "Advisory",
       "audience": [],
@@ -102,35 +99,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Okta expands identity governance & access security",
-      "link": "https://securitybrief.com.au/story/okta-expands-identity-governance-access-security",
-      "summary": "Security teams face tighter control over cloud and AI access as Okta adds automation to cut manual reviews and curb credential abuse.",
-      "date": "16-09-2026 10:52 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Infoblox warns of scam gambling risks in ANZ traffic",
-      "link": "https://securitybrief.com.au/story/infoblox-warns-of-scam-gambling-risks-in-anz-traffic",
-      "summary": "Security teams in Australia and New Zealand face hidden fraud and malware risks from gambling sites that can mask illegal deposits and scam withdrawals.",
-      "date": "16-09-2026 10:51 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
       "source": "Dark Reading",
       "title": "Microsoft Issues Emergency Fixes After Massive Patch Tuesday",
       "link": "https://www.darkreading.com/application-security/microsoft-emergency-fixes-patch-tuesday",
@@ -145,15 +113,14 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Black Hat USA 2026 | The 'Breaking' News: The OpenAI\u2013Hugging Face Incident",
+      "title": "Black Hat USA 2026 | OpenAI's Deep Dive Into Hugging Face Incident",
       "link": "https://www.darkreading.com/vulnerabilities-threats/bhusa26huggingfacetalk",
-      "summary": "The 'Breaking' News: The OpenAI\u2013Hugging Face Incident - A Technical Reconstruction and Its Implications for AI At this Black Hat USA 2026 talk, OpenAI security engineers and researchers will reconstruct the OpenAI-Hugging Face incident and examine its implications for AI security, cyber resilience, ",
+      "summary": "At Black Hat USA, OpenAI engineers reconstruct the Hugging Face incident and explore lessons learned about AI safeguards and cyber resilience.",
       "date": "16-09-2026 05:27 AM",
       "tags": [
-        "AU Cyber",
         "AI & Tools"
       ],
-      "threat": "Critical",
+      "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
     },
@@ -618,9 +585,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - Scamwatch",
+      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMi3gJBVV95cUxOdVVBNkM1WUlPRFcxcHhJdGpSYTZFQlBoMUMwSzA2ZkV6WFhxM2FDekhSaG9JcmQxeGZrd1NxMy1mSUJFM3RBQXV4Rl9ObWpYS3oycHNpZmIyM2tGRS1WdFh1WGpVVExCTi1NNUVYcm1lMHA3TFFEbFNMLXd1OW44a1Z0d28wNWZZNDM5dlpoN25OWHhfUFpMNDVWT2U3dnRxaTNSRF9mY1k5bmMwN1JXVzVGcXhnYnFvbWo3VXNUa1NiejBadzVIOTNyc1JoUmRORTk1Uldkdml4a3ZndFE0aWIwZDdkTjRRRXlwZlZiRnZ0dEwzamM3OU5UMEMwT3FOcFlVd0J3RjVFeXpuYVViby1Odmxmd0ZRcEdicWhpNnFzVEFuZWxRLV9oODQtZm1XYXJuR2VfZzM5N01ZMlJYTU9rYTVveHdUX1lPRkZSNVNuTUt2SElDZGtuR1ZSUQ?oc=5",
-      "summary": "Browse news and alerts - page 2 Scamwatch",
+      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
       "date": "05-09-2026 07:30 PM",
       "tags": [
         "Scams"
@@ -633,9 +600,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 4 - Scamwatch",
+      "title": "Browse news and alerts - page 4 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMiogJBVV95cUxPY011ZXBjUTM4N2lHZGFoZ3Nkdkt1UDN4VG9LVWRGNnpnTDBXNUhmMzFxV0p2V2lQVmdhYTgtN0FDMTY0Y0lvU1Z6ZWdZQWptWnRnX0pMMXB1WnF0OHdWV2pCcDNLX3FmTVlmUHo5R19rTmVja3VtbnhFLW1md1NMclRaZVVBTmdhdjNzQkNySEtqSUFhN2VMNWstTFRCM1dGblVWYXZXaWFob1FDMTROUVhEYzFiMllRYkVWYW1Ia2ZTUHJvSG9VTXBnM0xjM2RFWkF2LV9tMkVSZWxBemtiVHpBMFdqT3h0ZU9JNURPdzN3Wm82ZzFyUDN3NWJrOTBmVW1HWGRja1I0TUpCcGxBa1ZiR2hhU05TWEZwUl9jZUJpZw?oc=5",
-      "summary": "Browse news and alerts - page 4 Scamwatch",
+      "summary": "Browse news and alerts - page 4 scamwatch.gov.au",
       "date": "05-09-2026 02:56 PM",
       "tags": [
         "Scams"
@@ -648,9 +615,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 5 - Scamwatch",
+      "title": "Browse news and alerts - page 5 - scamwatch.gov.au",
       "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPXzJiZjlQam1QcUVMTjVyS2lrSnpZV2x4U1BicC16dXFRZnlmVEhKa2ZPbkZoSl9COTZDMFNZakVlMEo1SDJTem1uR2owcmR4TnJsWGU1ZWpRTjg0eGd3cTQ5YWlrT0w3VTZxZ1FnSXVIcXltZlZ5RGUxRVZMY1BQT3RBc3dMVEx2VVpELThSSGt2QnRHN282ZEdhSlVkV0lPNzUxWld1eFphRVBMVVY3NXEzLUxHX2Mzd3hFaDE0V1haOGZ4XzZSc3JEc3BSVjZGUmU1Q0pHOGIteEZIMGlXQVF4LWFqcWVtTGt2UnFtQ0pialdBYzNjckpYWQ?oc=5",
-      "summary": "Browse news and alerts - page 5 Scamwatch",
+      "summary": "Browse news and alerts - page 5 scamwatch.gov.au",
       "date": "05-09-2026 06:37 AM",
       "tags": [
         "Scams"
@@ -672,21 +639,6 @@
       ],
       "threat": "High",
       "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 8 - Scamwatch",
-      "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxNVk9TZDJqbWVhMUhQeDM2SVNnd05PVUY1a25NMFRGSmlCLUVHY1AwUGk5dkNjUXFmTDRsNDFBWkNKVEhrVWpQX1RaZjF3UW9KNTh4cEZkX1VuSzJTX0FwNWVjUW5NbGg5NXBoVk5vbjZ4RVBrSWtOVXVSVC0zekZGV3VkZmNCMTVMRnhzVTA1cS1nR1lCaVVrV2JTOHFkb3ZBUWg1Vm5lV0JQNktPbnZSZlp6ai1GYUVxeW53cGpYT2tYa2ZzSll4Rk1FbFZkaEJqZXJTOURFM3k4WjhaSUVja0V1QkN4MndLUG14X1BCeGpkOWZFaU81YUstOUtQa2h2bTB4bERPQ0U0ODc1VUpXbEl5dTZaS0VsVk9wRnNieEFuVmhTdmRQdHp1elcwWHZvQzUzZHhKbHdFTE9YLU4tOGdpdUIwWXIwOTkyOG1iVQ?oc=5",
-      "summary": "Browse news and alerts - page 8 Scamwatch",
-      "date": "04-09-2026 07:18 PM",
-      "tags": [
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
       "relevance": "Global"
     },
     {
@@ -761,60 +713,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI's Vulnerability Surge May Be More Manageable Than First Feared",
-      "link": "https://www.darkreading.com/application-security/ai-vulnerability-surge-manageable-than-first-feared",
-      "summary": "New research suggests the coming Vulnpocalypse may not be so overwhelming for enterprise security teams \u2014 if they have the right strategies.",
-      "date": "03-09-2026 07:14 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "SonicWall SMA 1000 Zero-Days Enable Unauthenticated RCE",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/sonicwall-sma-1000-zero-days-unauthenticated-rce",
-      "summary": "The exploitation activity follows attacks earlier this summer on two other zero-day vulnerabilities in the vendor's edge devices.",
-      "date": "03-09-2026 06:43 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Gives Cybercriminals a Dangerous Time Advantage",
-      "link": "https://www.darkreading.com/threat-intelligence/ai-gives-cybercriminals-dangerous-time-advantage",
-      "summary": "Former cybercriminal Brett Johnson provides a look inside the mind of a threat actor and discusses where AI provides the most value for attackers.",
-      "date": "03-09-2026 05:46 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Threat Gang 'Springs' Vishing Attacks on Microsoft Teams Users",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/threat-gang-springs-vishing-attacks-microsoft-teams-users",
-      "summary": "The \"Spring Ring\" operation aims to compromise users of the collaboration suite to remotely access their sessions, spread malware, and even take over infrastructure.",
-      "date": "03-09-2026 02:51 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
