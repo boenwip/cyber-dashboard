@@ -1,5 +1,5 @@
 {
-  "last_updated": "16-09-2026 06:07 PM",
+  "last_updated": "16-09-2026 11:37 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.273",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
       "summary": "What's changed Added x-claude-code-request-class, x-claude-code-agent-type, x-claude-code-prev-tool-durations, x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gate",
-      "date": "16-09-2026 06:07 PM"
+      "date": "16-09-2026 11:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.272",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "16-09-2026 06:07 PM"
+      "date": "16-09-2026 11:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.271",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
       "summary": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Adde",
-      "date": "16-09-2026 06:07 PM"
+      "date": "16-09-2026 11:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.270",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
       "summary": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
-      "date": "16-09-2026 06:07 PM"
+      "date": "16-09-2026 11:36 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "16-09-2026 06:07 PM"
+      "date": "16-09-2026 11:36 PM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Data regions support for Google Apps Script now generally available",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/data-regions-support-for-google-apps-script-now-generally-available.html",
+      "summary": "Data regions are critical for helping organizations meet internal compliance, legal, regulatory, and data sovereignty obligations by controlling the geographic location of covered data at rest and thr",
+      "date": "16-09-2026 07:21 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -115,20 +123,20 @@
       "date": "16-09-2026 01:58 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features - Creative Boom",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
+      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features Creative Boom",
+      "date": "15-09-2026 09:00 PM"
+    },
+    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome Dev for Android Update",
       "link": "http://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_0255795644.html",
       "summary": "Hi everyone! We've just released Chrome Dev 155 (155.0.8056.0) for Android. It's now available on Google Play.You can see a partial list of the changes in the Git log. For details on new features, che",
       "date": "15-09-2026 03:13 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - September 11, 2026",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-11-2026.html",
-      "summary": "Use custom web fonts in Google Sheets chartsGoogle Sheets now supports the full Google Fonts web font library directly within charts. Users can now select \u201cMore fonts\u201d from any font dropdown inside th",
-      "date": "12-09-2026 05:19 AM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
@@ -141,18 +149,26 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Detecting and countering misuse of AI: September 2026 - anthropic.com",
+      "title": "Detecting and countering misuse of AI: September 2026 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBBeTNVQy1tcnZPVW9SM3drbmxGN1UxRktiY3JfLW9rMDdIMm9SOUd3b3RJNHpSRXVzS1JKckctcFUyZHpNTVE3aEtWVFhka3o3UmlLUzk1ZEs3dUhyVmRJYVctb0IyN1JuNDB6N0hZdTR2TWJTVXc?oc=5",
-      "summary": "Detecting and countering misuse of AI: September 2026 anthropic.com",
+      "summary": "Detecting and countering misuse of AI: September 2026 Anthropic",
       "date": "11-09-2026 03:10 AM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
-      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
-      "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
-      "date": "09-09-2026 04:33 AM"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community to",
+      "date": "11-09-2026 02:00 AM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Build apps in Copilot Cowork and Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "summary": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared fi",
+      "date": "11-09-2026 01:00 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -171,20 +187,28 @@
       "date": "08-09-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
+      "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
+      "date": "08-09-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva moves beyond design as workplace productivity use surges - InsiderPH",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNbGtud1JyZmZJWXgtenhuRWZjdVp3TVlGdnU2Q0EtWGhpc0tDS3JLc3dUVVY5U3dwbzVVNXk4Wlc1UGxDTHpkQXVqdFc1ZzhXQ2pqUnRjX2pzYnJFeng1YjRTUTNjMXIyM1lfTVlNa2pSdlFkMTVCTDlELVNQZXpadkRRdTIxcFo5bG1mOQ?oc=5",
+      "summary": "Canva moves beyond design as workplace productivity use surges InsiderPH",
+      "date": "06-09-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace - CNBC",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNVGE4Q2Q0VHRjb2tCbGpsemp2Ql9uSW1zdXdRVDVOUFgxdXhXcTBOTlFHamp5bkQzN1Foam44WWFlNXZTWGVpdXdWMEhqMTBVbklsR2YtdE83Wkd5SG12WjF5akVSeUF2RE9SRjZPQ01mTEtnRzNEc1hjRHJIQ1V0aUw1MHNzSDVsTFHSAY8BQVVfeXFMTVdCNVVRWEpVQ1RLcDVsQ3VhVmtWQlZMek91OVJWSExlQWxLOEpoUm8xenRUb1d2YTJxbUhRRUNjUFBkbFpHVUlXUnNsalUtVk1sUlBmSTFLOEZhbTM0cHM4azJmdUVYLXJwRlUxaV9Wd1BBa3h0Z3p1MzAwdEp1ajljZG1xdTZVeTVZR3RDRkk?oc=5",
       "summary": "\u2018Model fatigue\u2019 sets in as AI labs race to roll out new versions at frenetic pace CNBC",
       "date": "06-09-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva expands Docs, Sheets and Whiteboards with new tools - t2ONLINE",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZF9VbHE2aVA4bVByVHVTU1NIRkFjdmJpSnlzSUJRRk0tXzY0dFRXRG15X2V1QlExMmNBaHhjbXRreHVxbDVVZzVfLWk2d2lJOVgwNEcxei1Ga01Bd2ZDU1lWZTRuSzlhMDlld1BsdDBDbm94SFd4MnVYTHU0UkNDNzdsQzJ5YXNDa3hTZGd5RWdLR3FjOGVUeHJ1emRhbTkzRmc?oc=5",
-      "summary": "Canva expands Docs, Sheets and Whiteboards with new tools t2ONLINE",
-      "date": "04-09-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -197,9 +221,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - anthropic.com",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 anthropic.com",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
     },
     {
@@ -211,20 +235,20 @@
       "date": "31-08-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
+      "summary": "OpenAI makes ChatGPT less 'human' for teens in new safety update BBC",
+      "date": "18-08-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "13-08-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
-      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
-      "date": "12-08-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
@@ -259,36 +283,12 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Copilot Cowork is now generally available",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/16/copilot-cowork-is-now-generally-available/",
-      "summary": "Cowork is the fastest growing feature in the history of our Frontier program, and Cowork has among the highest user satisfaction of any Copilot or agent experience we have shipped. The post Copilot Co",
-      "date": "17-06-2026 01:00 AM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
       "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
       "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
       "date": "15-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
-      "date": "03-06-2026 05:00 PM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing Microsoft Scout: Your always-on personal agent",
-      "link": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/06/02/introducing-microsoft-scout-your-always-on-personal-agent/",
-      "summary": "Microsoft Scout is integrated across the Microsoft 365 apps you use every day, keeping it grounded in your flow of work. The post Introducing Microsoft Scout: Your always-on personal agent appeared fi",
-      "date": "03-06-2026 04:00 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
