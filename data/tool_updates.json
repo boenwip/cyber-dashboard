@@ -1,5 +1,5 @@
 {
-  "last_updated": "16-09-2026 09:22 AM",
+  "last_updated": "16-09-2026 10:02 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.273",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.273",
       "summary": "What's changed Added x-claude-code-request-class, x-claude-code-agent-type, x-claude-code-prev-tool-durations, x-claude-code-compaction and x-claude-code-context-compacted request headers for LLM gate",
-      "date": "16-09-2026 09:22 AM"
+      "date": "16-09-2026 10:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.272",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.272",
       "summary": "What's changed Bug fixes and reliability improvements",
-      "date": "16-09-2026 09:22 AM"
+      "date": "16-09-2026 10:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.271",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.271",
       "summary": "What's changed Added fast mode in Claude Code Remote sessions (cloud and self-hosted runners): the host's fast-mode setting or /fast typed in the session applies where your organization allows it Adde",
-      "date": "16-09-2026 09:22 AM"
+      "date": "16-09-2026 10:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.270",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.270",
       "summary": "What's changed Fixed read-only git commands in Bash unexpectedly asking for permission after a session had been running for a while (regression in 2.1.269)",
-      "date": "16-09-2026 09:22 AM"
+      "date": "16-09-2026 10:02 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.269",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.269",
       "summary": "What's changed Added claude plugin eval: run a plugin's eval suite against Claude Code and get scored, reproducible results (JSON + HTML report); see claude plugin eval --help Added /output-style [nam",
-      "date": "16-09-2026 09:22 AM"
+      "date": "16-09-2026 10:02 AM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
+      "date": "16-09-2026 09:15 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -73,14 +81,6 @@
       "link": "http://workspaceupdates.googleblog.com/2026/09/connect-to-more-tools-with-gemini-in-Google-Workspace.html",
       "summary": "Users will now be able to use Gemini in Workspace to directly interact with Asana, Atlassian Rovo, HubSpot, Intuit Mailchimp, Intuit Quickbooks, Monday, and Salesforce through Model Context Protocol (",
       "date": "16-09-2026 05:50 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases Affinity 3.3 - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
-      "summary": "Canva releases Affinity 3.3 CG Channel",
-      "date": "16-09-2026 05:04 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -181,6 +181,14 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
+      "date": "02-09-2026 04:01 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
       "title": "Improving our alignment and security practices - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00LWY0NEplRlIyRFlGZENXb0VQc0ZNb3BuSjlZeTB3OWdqWEh5eEFxbzJMa0hFTkhrYy03NjZ5MGdsMnNKbHJsXzVpVENSb014eXdXaEkzOXFHWUVRa1U3TXhpVWZCb0FJaHFqWTJhLW9JbGtYWGc?oc=5",
       "summary": "Improving our alignment and security practices Anthropic",
@@ -197,9 +205,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI launches ChatGPT for Teens with new safety features - bbc.com",
+      "title": "OpenAI launches ChatGPT for Teens with new safety features - BBC",
       "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
-      "summary": "OpenAI launches ChatGPT for Teens with new safety features bbc.com",
+      "summary": "OpenAI launches ChatGPT for Teens with new safety features BBC",
       "date": "18-08-2026 05:00 PM"
     },
     {
@@ -283,14 +291,6 @@
       "date": "03-06-2026 04:00 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
-      "date": "29-05-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "Canva\u2019s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
@@ -317,9 +317,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - forbes.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI forbes.com",
       "date": "16-04-2026 05:00 PM"
     }
   ]
