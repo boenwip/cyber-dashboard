@@ -1,7 +1,62 @@
 {
-  "last_updated": "16-09-2026 10:02 AM",
+  "last_updated": "16-09-2026 12:32 PM",
   "count": 55,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Cyber Op Targets South Korean Media &amp; Automotive Sectors",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/cyber-south-korean-media-automotive",
+      "summary": "A likely North Korean advanced persistent threat (APT) group used a previously undocumented Linux espionage toolkit to compromise load balancers, gain access to communications, and further exploit networks.",
+      "date": "16-09-2026 11:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Okta expands identity governance & access security",
+      "link": "https://securitybrief.com.au/story/okta-expands-identity-governance-access-security",
+      "summary": "Security teams face tighter control over cloud and AI access as Okta adds automation to cut manual reviews and curb credential abuse.",
+      "date": "16-09-2026 10:52 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Infoblox warns of scam gambling risks in ANZ traffic",
+      "link": "https://securitybrief.com.au/story/infoblox-warns-of-scam-gambling-risks-in-anz-traffic",
+      "summary": "Security teams in Australia and New Zealand face hidden fraud and malware risks from gambling sites that can mask illegal deposits and scam withdrawals.",
+      "date": "16-09-2026 10:51 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Geotab wins approval for Smart OBM integration in Australia",
+      "link": "https://securitybrief.com.au/story/geotab-wins-approval-for-smart-obm-integration-in-australia",
+      "summary": "Heavy haulage fleets can now manage telematics and certified mass data on one platform, easing access to restricted routes and compliance burdens.",
+      "date": "16-09-2026 10:03 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Secure Code Warrior launches Citizen AI training programme",
@@ -40,22 +95,6 @@
       ],
       "threat": "Advisory",
       "audience": [],
-      "relevance": "Sector"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Beyond the campus perimeter: Why university cyber defence hinges on identity security",
-      "link": "https://securitybrief.com.au/story/beyond-the-campus-perimeter-why-university-cyber-defence-hinges-on-identity-security",
-      "summary": "The sector faces mounting breach and compliance risk as unmanaged devices, shared logins and stale access undermine campus defences.",
-      "date": "16-09-2026 08:00 AM",
-      "tags": [
-        "Education",
-        "Compliance"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra"
-      ],
       "relevance": "Sector"
     },
     {
@@ -730,52 +769,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #851 -- Agents are just ones and zeros, and tigers are just atoms",
-      "link": "https://risky.biz/RB851/",
-      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host The Grugq to talk through the week\u2019s news, including: Two alleged TeamPCP hackers got arrested in Australia The White House has a plan to boost security for water facilities, but we can\u2019t see it working OpenAI keeps the ol",
-      "date": "02-09-2026 12:22 PM",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra",
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Old, Unpatched Flaws Give Attackers Access to Philippines Nuclear Agency",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/old-unpatched-flaws-attackers-philippines-nuclear-agency",
-      "summary": "Threat actors exploited commodity vulnerabilities in ownCloud to gain initial access, resulting in stolen reactor databases, personnel records, and credential stores.",
-      "date": "02-09-2026 11:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Actuaries Institute and UTS HTI publish AI risk management guidance for financial services",
-      "link": "https://australiancybersecuritymagazine.com.au/actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services/?utm_source=rss&utm_medium=rss&utm_campaign=actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services&utm_source=rss&utm_medium=rss&utm_campaign=actuaries-institute-and-uts-hti-publish-ai-risk-management-guidance-for-financial-services",
-      "summary": "The Actuaries Institute and the University of Technology Sydney\u2019s Human Technology Institute (HTI) have released a practical guidance resource aimed at improving how financial services organisations manage risks associated with [...]",
-      "date": "02-09-2026 10:12 AM",
-      "tags": [
-        "Education"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Sector"
     }
   ]
 }
