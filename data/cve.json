@@ -1,5 +1,5 @@
 {
-  "last_updated": "19-09-2026 04:55 AM",
+  "last_updated": "19-09-2026 08:58 AM",
   "count": 10,
   "items": [
     {
@@ -20,6 +20,17 @@
       "severity": "HIGH",
       "published": "2026-09-18",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2025-39682",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an improper check for unusual or exceptional conditions vulnerability in the TLS receive path which allows a zero-length record retrieved from the rx_list to bypass the intended ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-18",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
       "vendor": "Linux",
       "product": "Kernel",
       "ransomware": "Unknown"
@@ -99,17 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
       "vendor": "JFrog",
       "product": "Artifactory",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-85706",
-      "description": "GitLab Community Edition and Enterprise Edition \u2014 GitLab Community Edition and Enterprise Edition contains a path traversal vulnerability that allows an unauthenticated user to read arbitrary files due to an improper path confinement and missing auth",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-11",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
-      "vendor": "GitLab",
-      "product": "Community Edition and Enterprise Edition",
       "ransomware": "Unknown"
     }
   ]
