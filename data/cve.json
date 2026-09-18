@@ -1,7 +1,29 @@
 {
-  "last_updated": "18-09-2026 10:47 PM",
+  "last_updated": "19-09-2026 04:55 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2025-39964",
+      "description": "Linux Kernel \u2014 Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-18",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-39964",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-53266",
+      "description": "Linux Kernel \u2014 Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment bac",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-18",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
+      "vendor": "Linux",
+      "product": "Kernel",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-58704",
       "description": "Google Pixel \u2014 Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-85706",
       "vendor": "GitLab",
       "product": "Community Edition and Enterprise Edition",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-86060",
-      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains an improper neutralization of argument delimiters in a command vulnerability which allows an attacker to change the trusted RouterOS policy mask, leading to privilege escala",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-10",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86060",
-      "vendor": "MikroTik",
-      "product": "RouterOS",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-67277",
-      "description": "MikroTik RouterOS \u2014 MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-10",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
-      "vendor": "MikroTik",
-      "product": "RouterOS",
       "ransomware": "Unknown"
     }
   ]
