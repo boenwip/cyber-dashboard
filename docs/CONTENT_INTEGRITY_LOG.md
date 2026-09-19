@@ -4,6 +4,55 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-19 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 20-09-2026 04:28 AM AEST — commit `60fc1ed`, current live HEAD of `main`). `git log --since="2026-09-18"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry (`e961ac0`) — feed-only runs since then.
+
+### 🚩 ESCALATION: the "Locally, a bank..." fabrication flagged yesterday has recurred today, worse
+Yesterday's entry (2026-09-18) flagged `briefing.json`'s reuse of the Security Brief Australia "Bank blocks confidential data leaks to public AI tools" story (source: an unnamed **"regional investment bank"**, pipeline-tagged `relevance: Global`) with an invented "Locally, a bank..." framing. Today's briefing reuses the *same underlying story* (still in `news.json`, still tagged `Global`) and escalates the fabrication: *"Australian banks are already responding, with at least one institution blocking staff from sharing confidential information with public AI tools like ChatGPT."* This asserts a plural, explicitly Australian actor ("Australian banks... at least one institution") where yesterday's text at least stayed at "a bank." Independently re-verified via WebSearch: this is an eScan Enterprise DLP vendor case study/press release, syndicated identically across `cfotech.news`, `openpr.com`, `indiatechnologynews.in` and others — none name a country, and nothing supports "Australian." This is now a two-day-running, worsening pattern on a live, public-facing page — no longer a one-off. Recommend treating this as higher priority than a routine wording note: the underlying prompt for `generate_briefing()` needs an explicit instruction not to add or infer geographic scope beyond what the source states, and ideally a check for whether the same source article is being reused across consecutive briefings without new framing.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 20-09-2026 04:28 AM)
+Four claims checked against their `news.json` source articles and independent WebSearch:
+- **"Google has warned that AI is increasingly being used by cybercriminals to make attacks faster and more sophisticated"** — supported, matches its `news.json` source (Security Brief Australia, "Google warns AI is reshaping cyber attacks & defences"). Fair summary, not dramatized.
+- **"a real-world incident where an AI agent compromised a Spanish organisation and altered personal data"** — supported, matches its `news.json` source (Dark Reading, "AI Agent Breaches Spanish Organization, Modifies Personal Data"); independently corroborated 2026-09-18 against Bleeping Computer/SecurityWeek/The Register coverage of Spain's AEPD notification.
+- **"Australian banks are already responding, with at least one institution blocking staff from sharing confidential information with public AI tools like ChatGPT"** — see escalation flag above. **CONFIRMED, worsening fabrication.**
+- **"Cisco has also disclosed a zero-day vulnerability in its products that attackers could exploit remotely"** — supported and, if anything, understated. Matches its `news.json` source (Dark Reading, CVE-2026-76460 in Cisco ISE). Independently verified via WebSearch (TheHackerNews, SecurityWeek, Rescana): unauthenticated remote attacker, CVSS 10.0, root-level command execution, actively exploited and added to CISA KEV on 2026-09-16. Briefing's plain-English phrasing doesn't overstate; it's actually more conservative than the source facts warrant.
+- No other hallucination found.
+
+### 2. Paywall spot-check
+**Not performed.** Tested `www.troyhunt.com/rss/` and `www.itnews.com.au/RSS/rss.ashx` via WebFetch this run — both returned `EGRESS_BLOCKED`. Same structural block reported continuously since 2026-08-18 (now ~32 days). `WebSearch` continues to work (used above and in §3), consistent with the capability split first identified 2026-09-18: search works, direct-fetch to publisher domains does not.
+
+### 3. Dead source check
+**Not performed directly** (WebFetch blocked, see above). Troy Hunt Blog and iTnews remain absent from today's 47-item `news.json` window (confirmed via domain listing — only `australiancybersecuritymagazine.com.au`, `krebsonsecurity.com`, `news.google.com`, `risky.biz`, `securitybrief.com.au`, `www.404media.co`, `www.darkreading.com` present). No new WebSearch check run today — both sources were independently confirmed still actively publishing as of 2026-09-18, and nothing suggests that's changed in 24 hours. Standing recommendation unchanged: this looks like a pipeline-side feed/parsing issue, not source death — see prior entries for detail.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Rotated to the final segment of the glossary — entries 48–51: **Evil Twin Attack, Digital Footprint, Air Gap, Threat Modelling**. All four are general/definitional (no disputable statistics or claims requiring external verification) and accurately, appropriately described for a dual-audience glossary. No issues found. **This completes a full rotation through all 51 `definitions.js` entries** (1–51 covered across recent runs) — next run restarts the cycle from entry 1, which is also a natural point to re-verify the long-standing issues below are still accurately described rather than just checking they're untouched.
+- Re-confirmed via `git log` (zero commits to `definitions.js` since 2026-09-18) that all five standing issues are unchanged: Business Email Compromise "hundreds of millions" (line 87, ~31 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164), Brute Force Attack "billions of years" claim (line 185), Vulnerability's wrong Apache version for CVE-2021-41773 (line 214, should read 2.4.49 not 2.4.48). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12.
+- No fresh OWASP/Essential Eight (`reference.html`) re-check needed — fully verified against the live 2025-edition source on 2026-09-07; zero commits since.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (47 items, generated 20-09-2026 04:28 AM):
+- **`Google News — ASQA / RTO` garbled title still present** — `"- emailv6.comms.asqa.gov.au"`, the same 11-09-2026-dated item flagged across many prior entries, still aging through the 14-day storage window (should self-resolve ~25-09).
+- **404 Media's US civil-liberties/DHS activist story remains in-window** (flagged new 2026-09-18, tagged `Education`/`Sector`) — same standing root cause: 404 Media's whole-site feed has no positive cyber-relevance filter.
+- Rest of the sample (Cisco ISE zero-day, Google AI-threats piece, Spanish AI-agent breach, Radaris domain story, Mathspace breach, Patch Tuesday coverage) reads well for both a security professional and a lay reader, jargon explained in context.
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 47 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list (30 entries) in `scripts/fetch_cyber_news.py` by parsing each link's domain in Python. Domains present: `www.darkreading.com`, `securitybrief.com.au`, `www.404media.co`, `krebsonsecurity.com`, `risky.biz`, `australiancybersecuritymagazine.com.au`, `news.google.com`. **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered this run (WebFetch egress blocked — confirmed again on two domains, see §2).
+
+### Needs human attention (priority order)
+1. **ESCALATED: the AI briefing's Australia-scope fabrication for the "regional investment bank" story has now occurred two days running, and got more specific/wrong the second time** ("Locally, a bank..." on 09-18 → "Australian banks are already responding, with at least one institution..." on 09-19). Recommend this move up from "wording tweak" to an actual prompt-engineering fix for `generate_briefing()`: (a) explicit instruction not to add/infer geographic scope beyond the source, (b) a check against re-summarising the same source article with escalated framing across consecutive runs.
+2. Five standing `definitions.js` text-accuracy issues remain unfixed (all small, well-sourced edits, unchanged since last confirmed): Business Email Compromise loss overstatement (line 87, oldest, ~31 days open), Supply Chain Attack SolarWinds overstatement (line 164), Brute Force Attack "billions of years" (line 185), Patch entry's Essential Eight timeframe (line 108), Vulnerability's wrong Apache version for CVE-2021-41773 (line 214 — "2.4.48" should read "2.4.49"). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12.
+3. `Google News — ASQA / RTO` garbled title still aging through the feed window (should self-resolve ~25-09) — recommend a filter for mis-parsed email-newsletter-subject titles from this query so a fresh instance doesn't recur.
+4. 404 Media's whole-site RSS feed still has no positive cyber-relevance filter (DHS/activist story still in-window) — recommend a topical keyword gate for whole-site feeds like 404 Media in `scripts/fetch_cyber_news.py`.
+5. Egress to publisher/reference domains remains blocked via WebFetch (~32 days running) — paywall and true dead-source-link checks remain structurally impossible. WebSearch continues to work as a partial substitute for fact-checking and general liveness, but cannot confirm paywalls or resolve individual article URLs.
+6. Troy Hunt Blog and iTnews — both configured direct-RSS sources — remain absent from the live news window across many runs; both independently confirmed still actively publishing (2026-09-18). Worth a human check of the two feed URLs directly for a pipeline-side parsing/fetch failure.
+7. `select_trending_article()` still has no junk/relevance guard on its no-cluster fallback (recommended since 2026-08-23) — not manifesting today, still a live risk on a quiet/junk-skewed news day.
+
+---
+
 ## 2026-09-18 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 19-09-2026 04:55 AM AEST — commit `e961ac0`, current live HEAD of `main`). `git log --since="2026-09-17"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry (`6039e60`) — five feed-only runs since then.
