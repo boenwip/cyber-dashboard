@@ -1,5 +1,5 @@
 {
-  "last_updated": "20-09-2026 04:28 AM",
+  "last_updated": "20-09-2026 08:37 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "20-09-2026 04:28 AM"
+      "date": "20-09-2026 08:37 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "20-09-2026 04:28 AM"
+      "date": "20-09-2026 08:37 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "20-09-2026 04:28 AM"
+      "date": "20-09-2026 08:37 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.275",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
       "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+ent",
-      "date": "20-09-2026 04:28 AM"
+      "date": "20-09-2026 08:37 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,15 +40,7 @@
       "title": "v2.1.274",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
       "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn",
-      "date": "20-09-2026 04:28 AM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic says its model Claude is helping to build the next version of itself - AP News",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
-      "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
-      "date": "20-09-2026 04:21 AM"
+      "date": "20-09-2026 08:37 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -81,6 +73,14 @@
       "link": "http://workspaceupdates.googleblog.com/2026/09/new-back-to-school-features-and-learning-tools-available-in-Gemini-Notebook.html",
       "summary": "We\u2019re introducing several updates to Gemini Notebook that give users a more personalized and powerful learning experience.Audio recorder: Users can now use a new audio recorder in the Gemini Notebook ",
       "date": "19-09-2026 01:25 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic says its model Claude is helping to build the next version of itself - AP News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
+      "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
+      "date": "18-09-2026 11:55 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -141,14 +141,6 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Academy Award\u00ae Winner Si\u00e2n Heder\u2019s BEING HEUMANN to Close AFI FEST 2026 Presented by Canva - American Film Institute",
-      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQ3B3NWVjN0t2M1lmSDZHbUlwblJ1dmNDMUZzb19hY3FBTHgzQ2x0UDVZaTdxU0NqY1lwdGtWd3FRWEtfa3lYZXFlVFpQREZoeE56MFpYTU9KN0Fhc3Z6N01JNDdhajhTamRRU0NwY3F6UEZPX3ZOemxiVXBNVkFyb1l1UnhOOG9jcW5JSEFZSVJfS3h1Q3Vld3IydlRpdVF0RXpucURBb0V3NTdGbkx6Vjk1Nk0?oc=5",
-      "summary": "Academy Award\u00ae Winner Si\u00e2n Heder\u2019s BEING HEUMANN to Close AFI FEST 2026 Presented by Canva American Film Institute",
-      "date": "17-09-2026 03:32 AM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
       "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
       "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
@@ -163,11 +155,19 @@
       "date": "16-09-2026 01:00 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features - Creative Boom",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
+      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features Creative Boom",
+      "date": "15-09-2026 09:00 PM"
+    },
+    {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup - etvbharat.com",
+      "title": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup - ETV Bharat",
       "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTEQ4NHk0NzFsUEZpelRwVkFfT0FTMnF3U2FqYnd1SUZRNzd6cmlxRFFpWjJpSWdKTkMwdzNFMUp2ZzhzWHVJRE1RcFZVdWhPSGQ1WWNITVQ4ZGNmeTBOSEhkRzRYcHRqcWhXbXFSVmo5QUQ4ZHVGT0RRSnA5eXRTaUI5N1VmM25JS0NwN3YxeHpRd0I5cVI0UEpHbFprRXcyQzJ0MnRHUVhFalMtVnlHYldUSUNmQ21jMDVRNS1TQUdmRnptWkowb2F30gHPAUFVX3lxTFBIRnhDc1BmZkY1Q1k2OWFGM293aUJBRTNWWEFHcnhhMnJTMUNfcVY1cVd4QktUU0dMcS1iZGJJQzVBSEdCUDd5akhVZDdqd1hoMDVCcGVoeUh5RFM4WFdRdy02QnRZcFNqeU8xbXNkaVRobU93UXpXQlFxUlNjZ09BOFpYOHJ4S3dPVlVPMEZtYWstWVF0OW14WTFrSWppNFZLQVVQMHdPLWFUOXhOU0ZBekpGR1J0MXk5c21OQ2NHd3BQMEZYYlZ3aGNtYXdHbw?oc=5",
-      "summary": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup etvbharat.com",
+      "summary": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup ETV Bharat",
       "date": "14-09-2026 02:37 PM"
     },
     {
@@ -189,17 +189,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "08-09-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT Images gets better at faces, pets and edits - Axios",
+      "title": "ChatGPT Images gets better at faces, pets and edits - axios.com",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLWhFc0pLS2xfRDI5U2VRTkNMeHFsMDJRZXgxZVhjYS1wVHVlOVljd0ZpaEg5bnRBYUNKUFdKYXN0QmxJblBDQTRoakQ4UWtTT1dybU9GQUh5VF80ZVo3cnR4VkZVTkdyVHk2cGRKLUJxcnY1aS0yY1RfYi1nOUNjc21sUlNOVmJnUVE?oc=5",
-      "summary": "ChatGPT Images gets better at faces, pets and edits Axios",
+      "summary": "ChatGPT Images gets better at faces, pets and edits axios.com",
       "date": "08-09-2026 05:00 PM"
     },
     {
@@ -267,6 +259,14 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "Launching Health in ChatGPT OpenAI",
+      "date": "23-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
@@ -293,9 +293,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - itbrief.com.au",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains itbrief.com.au",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
       "date": "29-05-2026 05:00 PM"
     },
     {
