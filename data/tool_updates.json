@@ -1,5 +1,5 @@
 {
-  "last_updated": "21-09-2026 06:24 PM",
+  "last_updated": "22-09-2026 09:47 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "21-09-2026 06:24 PM"
+      "date": "22-09-2026 09:47 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "21-09-2026 06:24 PM"
+      "date": "22-09-2026 09:47 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "21-09-2026 06:24 PM"
+      "date": "22-09-2026 09:47 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.275",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
       "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+ent",
-      "date": "21-09-2026 06:24 PM"
+      "date": "22-09-2026 09:47 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,31 @@
       "title": "v2.1.274",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
       "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn",
-      "date": "21-09-2026 06:24 PM"
+      "date": "22-09-2026 09:47 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "New manual calculation setting in Google Sheets",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/new-manual-calculation-setting-in-Google-Sheets.html",
+      "summary": "We\u2019re introducing a new manual calculation setting in Google Sheets to give you precise control over when formulas and other references update. The new manual calculation setting allows editors of com",
+      "date": "22-09-2026 04:54 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Use AI to supercharge your financial analysis with Workday for Google Sheets",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/use-ai-to-supercharge-your-financial-analysis-with-Workday-for-Google-Sheets.html",
+      "summary": "Workday for Google Sheets is a new add-on available in the Google Workspace Marketplace that connects Workday Adaptive Planning directly to Google Sheets and Slides. Deeply integrated with the AI-powe",
+      "date": "22-09-2026 03:18 AM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic Weighs New Model as GPT-6 Astra Hits 13% [2026] - shattered.io",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUXB1UTdZcDJzOGM5UmxFbVU3ZnJQQS0yYkliZGFPNnY2NTgzYlZ6RnppdjJCLXJiWW43MXRZazZyZi1iZ283bFpQNHFCc1ZCZGl4OVBIX2dZWTdrODg3UnNrX3M1SnVtb3lna0paWHE1enRRM3JBQ1k2Z3llV2o3M2p3?oc=5",
+      "summary": "Anthropic Weighs New Model as GPT-6 Astra Hits 13% [2026] shattered.io",
+      "date": "21-09-2026 08:53 PM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -48,7 +72,7 @@
       "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
       "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say Reuters",
-      "date": "19-09-2026 10:14 AM"
+      "date": "20-09-2026 05:02 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -88,7 +112,7 @@
       "title": "Anthropic says its model Claude is helping to build the next version of itself - AP News",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
       "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
-      "date": "18-09-2026 12:18 PM"
+      "date": "18-09-2026 11:55 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -123,30 +147,6 @@
       "date": "18-09-2026 06:03 AM"
     },
     {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "How Claude is uplifting biomolecular modeling - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5PbzNJUlpWVXZ6VzVsNU13YVBoQUNmTDNEUG83cTFoZk1oU0ZQMFJCWFhqNTFZSGVZWkg3RjBRNktiaXZjd1ZoNTRLM3NpS2V4a3lVUXRJVXFDbXVwRmhfdDlPSy04ZVBzUHB3aHFEUjRtcHVzd0dvN0NYMA?oc=5",
-      "summary": "How Claude is uplifting biomolecular modeling Anthropic",
-      "date": "18-09-2026 05:28 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Automate workflows with custom starters and steps, third-party integrations, and webhooks in Workspace Studio",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/automate-workflows-with-custom-starters-and-steps-third-party-integrations-and-webhooks-in-Workspace-Studio.html",
-      "summary": "To expand the capabilities of Workspace Studio and help teams build powerful, custom automations, we are introducing four new features for flows in Workspace Studio: custom starters, custom steps, thi",
-      "date": "18-09-2026 03:42 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Introducing Expert Intelligence in Gemini Notebook",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/introducing-expert-intelligence-in-Gemini-Notebook.html",
-      "summary": "We\u2019re introducing Expert Intelligence, a cross Google initiative that helps users engage with trusted sources through Google AI products, starting with Gemini Notebook. Featuring more than 100,000 boo",
-      "date": "18-09-2026 02:21 AM"
-    },
-    {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
       "title": "What\u2019s new in Power Platform: September 2026 feature update - Microsoft",
@@ -157,9 +157,17 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - cgchannel.com",
+      "title": "Massive Canva update adds 100 features to new ProSuite - Creative Bloq",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalh0clpuN1NzMHk0Nm14UmlMMlJqX3VBUU84elhrZDNkWUNoS1NaY0oxbHRGXzdvbHNVNWkwdVl2Ym5kcUwyaUtYSUNQSG1QaUszV0tiZ01KUWxUMkdBMjZOMDJzb3J5c1RhUGMyZFRGNy1RUGU5ZS01dUkwMGNocDFaWFRtckcxN2dpSVFEeGJuczVpQlJ0WFEwZ3dLSWVDZEZwb2ZZdFI0STBfWnpzdU1NR3JRMkU?oc=5",
+      "summary": "Massive Canva update adds 100 features to new ProSuite Creative Bloq",
+      "date": "17-09-2026 08:39 PM"
+    },
+    {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
-      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite cgchannel.com",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
       "date": "16-09-2026 09:20 AM"
     },
     {
@@ -177,6 +185,14 @@
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
       "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features Creative Boom",
       "date": "15-09-2026 09:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1lBZVk1OWVnMXVqVXdEamtNMDBMdF9SNGlyZ2pRQkFIakVmeGU5dHl3S21aSnNick9GM3g3WGtoNHpHX1JYTFZEYUdfUjNZYVhxcllCMXZfQm4xeC0wUkNVbDJub3E1OUZlR0toQzk4dG1jMEw1SWdnYnNUa1VrN1J5NHc0d0VIanJoZGZod2ZJUDRrQ20yUHZzSkdUUWVVV1BvTkVxM0xzZjlvdnd0R3FxZzJSNE1DWVdWZFBHRdIBxAFBVV95cUxNa3o3QmVETHllV2VORXlUdHFGLWRLYnBFampDS2JnY1QwTE1nZmEtVDhjeEpubngydzlUN2liSlZ1RTVSN2RqT2tLa1A1VnE0bUdHN1NkbUFJanJ6WjBOdGVWa19PZWtMU1BiTzZEU1dUSUFFczFGMzRtZE91N1Zub1d0Rkg4T05SaU1WZFpQRk54YTg3RVRRdjRQRS1ZcnBSXzEtMXc3aGlMVXEyUDFPRV9LNG1yRFRHWUNnMV9rTEh5dGsy?oc=5",
+      "summary": "Microsoft confirms KB5002914 Excel update breaks copy and paste BleepingComputer",
+      "date": "15-09-2026 06:40 PM"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -197,9 +213,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
+      "title": "Introducing ChatGPT Images 2.5 - openai.com",
       "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
+      "summary": "Introducing ChatGPT Images 2.5 openai.com",
       "date": "08-09-2026 05:00 PM"
     },
     {
@@ -267,27 +283,19 @@
       "date": "21-06-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What\u2019s New in Microsoft 365 \u2013 June 2026 - Seton Hall",
-      "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40TXZvcW13a0VjVmpEQTAyWkNfTFlzSW5FOVljbFFmUEw5TlZKa190NWowNno4R0ZNRlRfR3Q5NUhDb3BSbFpnMFAyNzFUc0VCR3VHeFByTjVrbDh5dW9nQ0lYV1dHVm9ZTG9DSU1SWUs?oc=5",
-      "summary": "What\u2019s New in Microsoft 365 \u2013 June 2026 Seton Hall",
-      "date": "15-06-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
       "date": "15-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - openai.com",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT openai.com",
       "date": "04-06-2026 05:00 PM"
     },
     {
@@ -313,14 +321,6 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
       "summary": "Copilot\u2019s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
       "date": "22-04-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "16-04-2026 05:00 PM"
     }
   ]
 }

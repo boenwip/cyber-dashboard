@@ -1,7 +1,18 @@
 {
-  "last_updated": "21-09-2026 06:24 PM",
+  "last_updated": "22-09-2026 09:47 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-7273",
+      "description": "Zyxel GS1900 Series Switches \u2014 Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-21",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
+      "vendor": "Zyxel",
+      "product": "GS1900 Series Switches",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2025-39964",
       "description": "Linux Kernel \u2014 Linux Kernel contains a race condition vulnerability which allows concurrent writes to the same AF_ALG socket causing data to be unpredictably interleaved and creating inconsistencies in the socket's ",
@@ -97,17 +108,6 @@
       "severity": "HIGH",
       "published": "2026-09-11",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
-      "vendor": "JFrog",
-      "product": "Artifactory",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-42018",
-      "description": "JFrog Artifactory \u2014 JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially expos",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-11",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
       "vendor": "JFrog",
       "product": "Artifactory",
       "ransomware": "Unknown"
