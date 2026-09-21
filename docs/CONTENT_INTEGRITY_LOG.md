@@ -4,6 +4,48 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-21 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json` generated 21-09-2026 06:24 PM AEST — commit `4adc07c`, current live HEAD of `main`). `git log --since="2026-09-20 18:24"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry (`12c449b`) — four feed-only runs since then.
+
+### Prior-run follow-up: yesterday's severe fabrication issues did NOT recur
+Yesterday's entry flagged two fabrications in `briefing.json`: the 3rd-consecutive-day "Australian bank" claim and a wholly invented "Australia joined the Global Signal Exchange" claim. Today's briefing content has fully rotated (new topics, new featured story) and no longer references either the eScan/bank story or the Global Signal Exchange/Japan story at all — the specific fabricated sentences are no longer live. This is natural content rotation, not a confirmed prompt fix, so it isn't being marked resolved — just noting it's not currently on the live page. Recommend the human item from yesterday (fix `generate_briefing()`'s prompt handling of ambiguous-origin/tangential source stories) stays open regardless, since nothing structural changed.
+
+### 1. Fact cross-reference of AI content (`data/briefing.json`, generated 21-09-2026 06:24 PM)
+Three factual claims checked against their `news.json` source articles and independent WebSearch:
+- **"84% of Australians believe AI will make cybercrime worse"** — supported. Matches its `news.json` source (Australian Cyber Security Magazine, "Survey finds 84% of Australians expect AI to increase cybercrime") exactly. Independently corroborated via WebSearch: Sekuro/Women in Digital's "Cybercrime Victimisation in Australia" report (nationally representative survey, n=2,003) found 84% of Australians believe AI will increase the cybercrime rate. Accurate, not dramatized.
+- **"a newly discovered security flaw in Cisco products relates to weaknesses in how systems verify user identity"** — supported. Matches its `news.json` source (Dark Reading, "Cisco Zero-Day Highlights API Endpoint Authentication Issues," CVE-2026-76460). Independently corroborated via WebSearch (SecurityWeek, BleepingComputer, The Hacker News, Help Net Security): a maximum-severity (CVSS 10.0) authentication-bypass zero-day in Cisco ISE, actively exploited, added to CISA's KEV catalog 16-09-2026. The briefing's plain-English gloss ("weaknesses in how systems verify user identity") is an accurate, if conservative, simplification of "authentication bypass" — if anything it understates severity by omitting the active-exploitation/max-CVSS detail, which is the safe direction to round in, not an overstatement.
+- **Featured story** ("Virtual IT Group launches security services in ANZ") — `featured.summary` matches its `news.json` source (Security Brief Australia) verbatim, `source_count: 1`, no embellishment.
+- No dramatization, misattribution, or unsupported claims found in today's briefing — a clean result.
+
+### 2. Paywall spot-check
+**Not performed.** Tested `www.404media.co` and `www.scamwatch.gov.au` via WebFetch this run, plus `en.wikipedia.org` as a non-publisher control — all three returned `EGRESS_BLOCKED`. Same structural block reported continuously since 2026-08-18 (now ~34 days / 40+ consecutive runs). `WebSearch` continues to work (used above).
+
+### 3. Dead source check
+**Not performed directly** (WebFetch blocked, see above). All 8 distinct sources in today's 44-item `news.json` are actively producing content within the last few days (`404 Media`, `Australian Cyber Security Magazine`, `Dark Reading`, `Google News — ASQA / RTO`, `Google News — ScamWatch`, `Krebs on Security`, `Risky Business`, `Security Brief Australia`) — no source shows a multi-day gap suggesting a dead feed. No direct liveness check possible while egress stays blocked.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Continuing the full-file rotation (restarted at entry 1 on 2026-09-20, which covered entries 1–6): this run covers entries 7–11 — **Data Breach, Password Manager, Zero-Day, Firewall, Encryption**. All five are general/definitional with no disputable statistics — Data Breach's reference to the OAIC's Notifiable Data Breaches scheme, Password Manager's tool recommendations (Bitwarden, 1Password, Dashlane), and the standard Zero-Day/Firewall/Encryption definitions are all accurate and appropriately simplified for a lay reader. No issues found.
+- Re-confirmed via `git log` (zero commits to `definitions.js` since 2026-09-18) that the five standing issues are unchanged: Business Email Compromise "hundreds of millions" (line 87, ~33 days open, oldest), Patch "two weeks for others" Essential Eight timeframe (line 108), Supply Chain Attack "thousands of organisations worldwide" SolarWinds claim (line 164), Brute Force Attack "billions of years" claim (line 185), Vulnerability's wrong Apache version for CVE-2021-41773 (line 214, should read 2.4.49 not 2.4.48). Plus the minor Phishing "number one attack method" wording flagged 2026-09-12.
+
+### 5. Value and dual-audience readability
+Sampled current `news.json` (44 items) and the briefing — reads well for both audiences (Cisco zero-day, 84% AI survey, Virtual IT Group launch all carry plain-English context while staying substantive). Two standing, previously-documented issues, both still present, neither new or worsening:
+- **Junk "Browse news and alerts — page N — Scamwatch" listing-page**: 1/44 (~2%) this run — the long-running `site:scamwatch.gov.au` query issue (flagged in every entry since 2026-09-03), currently near its lowest-ever share. Item is dated 19-09-2026, within the 7-day JS display window (`dashboard.js` line 180's `sevenDaysAgo` filter), so it is currently live on the dashboard feed, tagged "Scams"/Consumer. Same unfixed root cause, not re-escalating as new.
+- **`Google News — ASQA / RTO` garbled title**: `"- emailv6.comms.asqa.gov.au"`, still the same 11-09-2026-dated instance flagged across many prior entries. Now outside the 7-day display window (not currently live), still aging through the 14-day storage window — should self-resolve ~25-09 unless refreshed by a new instance first.
+
+### 6. Source-credibility / blocklist adherence
+All 8 distinct sources currently live in `data/news.json` checked against `BLOCKED_DOMAINS` and the CHANGELOG blocklist. **No blocked domain present.** Clean. (Noted in passing: `Google News — ASQA / RTO` is an intentional source per `fetch_cyber_news.py`'s own tagging-rule comments — "How directly applicable is this to your RTO context?" — i.e. deliberate VET/RTO-sector coverage, not a leak.)
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see item 2/3).
+
+### Needs human attention (priority order)
+1. **Business Email Compromise glossary entry still overstates FY2024-25 losses** — "hundreds of millions" vs. actual ~$98M per ACSC (`definitions.js`, "Business Email Compromise" entry). Flagged 2026-08-19, unfixed for ~33 days / many consecutive runs now — this is the oldest open item in this log.
+2. **Egress to publisher/reference domains has now failed for 34+ consecutive days.** Paywall and dead-source checks (items 2 & 3) remain structurally impossible under the current sandbox network policy. Standing recommendation unchanged: a one-time human decision on granting this agent's environment egress to the approved-domain list, or accepting that these two checklist items can only ever be WebSearch-substituted going forward.
+3. **`Google News — ScamWatch` and `Google News — ASQA / RTO` queries keep producing non-article junk** (pagination-listing pages and a garbled email-newsletter-subject title respectively) — both long-flagged, low-impact this run (1 item each), but the root cause (no article-vs-listing/mis-parse filter on these two queries in `scripts/fetch_cyber_news.py`) is still unfixed.
+
+---
+
 ## 2026-09-20 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 20-09-2026 08:37 AM AEST — commit `a8a5ab8`, current live HEAD of `main`). `git log --since="2026-09-19"` confirms zero commits touching `definitions.js`, `reference.html`, `ai-guide.js`, `index.html`, `dashboard.js`, or `scripts/fetch_cyber_news.py` since the last log entry (`0a78541`) — one feed-only run since then.
