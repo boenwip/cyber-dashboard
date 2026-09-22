@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-09-2026 06:05 PM",
+  "last_updated": "22-09-2026 11:31 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "22-09-2026 06:05 PM"
+      "date": "22-09-2026 11:31 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "22-09-2026 06:05 PM"
+      "date": "22-09-2026 11:31 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "22-09-2026 06:05 PM"
+      "date": "22-09-2026 11:31 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.275",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
       "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+ent",
-      "date": "22-09-2026 06:05 PM"
+      "date": "22-09-2026 11:31 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.274",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
       "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn",
-      "date": "22-09-2026 06:05 PM"
+      "date": "22-09-2026 11:31 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -69,9 +69,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - reuters.com",
+      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
-      "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say reuters.com",
+      "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say Reuters",
       "date": "19-09-2026 10:14 AM"
     },
     {
@@ -173,17 +173,17 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features - Creative Boom",
+      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - Creative Boom",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
-      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than new 100 features Creative Boom",
+      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features Creative Boom",
       "date": "15-09-2026 09:00 PM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste - BleepingComputer",
+      "title": "Microsoft confirms KB5002914 Excel update breaks copy and paste - bleepingcomputer.com",
       "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa1lBZVk1OWVnMXVqVXdEamtNMDBMdF9SNGlyZ2pRQkFIakVmeGU5dHl3S21aSnNick9GM3g3WGtoNHpHX1JYTFZEYUdfUjNZYVhxcllCMXZfQm4xeC0wUkNVbDJub3E1OUZlR0toQzk4dG1jMEw1SWdnYnNUa1VrN1J5NHc0d0VIanJoZGZod2ZJUDRrQ20yUHZzSkdUUWVVV1BvTkVxM0xzZjlvdnd0R3FxZzJSNE1DWVdWZFBHRdIBxAFBVV95cUxNa3o3QmVETHllV2VORXlUdHFGLWRLYnBFampDS2JnY1QwTE1nZmEtVDhjeEpubngydzlUN2liSlZ1RTVSN2RqT2tLa1A1VnE0bUdHN1NkbUFJanJ6WjBOdGVWa19PZWtMU1BiTzZEU1dUSUFFczFGMzRtZE91N1Zub1d0Rkg4T05SaU1WZFpQRk54YTg3RVRRdjRQRS1ZcnBSXzEtMXc3aGlMVXEyUDFPRV9LNG1yRFRHWUNnMV9rTEh5dGsy?oc=5",
-      "summary": "Microsoft confirms KB5002914 Excel update breaks copy and paste BleepingComputer",
+      "summary": "Microsoft confirms KB5002914 Excel update breaks copy and paste bleepingcomputer.com",
       "date": "15-09-2026 06:40 PM"
     },
     {
@@ -213,9 +213,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - techrepublic.com",
+      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
-      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams techrepublic.com",
+      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
       "date": "08-09-2026 05:00 PM"
     },
     {
@@ -229,17 +229,17 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - anthropic.com",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 anthropic.com",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
       "date": "02-09-2026 04:01 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "14-08-2026 12:58 AM"
     },
     {
@@ -267,14 +267,6 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "08-07-2026 05:00 PM"
-    },
-    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
@@ -285,10 +277,18 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - The Conversation",
+      "title": "Why the US government shut down Anthropic\u2019s latest Claude AI model - theconversation.com",
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model The Conversation",
+      "summary": "Why the US government shut down Anthropic\u2019s latest Claude AI model theconversation.com",
       "date": "15-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
+      "date": "04-06-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
