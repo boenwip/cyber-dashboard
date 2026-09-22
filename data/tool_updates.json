@@ -1,5 +1,5 @@
 {
-  "last_updated": "22-09-2026 12:34 PM",
+  "last_updated": "22-09-2026 06:05 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "22-09-2026 12:34 PM"
+      "date": "22-09-2026 06:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "22-09-2026 12:34 PM"
+      "date": "22-09-2026 06:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "22-09-2026 12:34 PM"
+      "date": "22-09-2026 06:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.275",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.275",
       "summary": "What's changed Added the signed-in account to Claude apps gateway sign-in: when the gateway names it, you confirm it before the credential is saved, and /status shows it Added a send-now key (ctrl+ent",
-      "date": "22-09-2026 12:34 PM"
+      "date": "22-09-2026 06:05 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.274",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.274",
       "summary": "What's changed Added a visible warning when memory usage is critical, with steps to free memory or restart safely Added CLAUDE_CODE_MCP_STARTUP_WAIT_MS to bound how long the first non-interactive turn",
-      "date": "22-09-2026 12:34 PM"
+      "date": "22-09-2026 06:05 PM"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "http://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_01751285105.html",
+      "summary": "A new LTC version 150.0.7871.255 (Platform Version: 16700.65.0), is being rolled out for most ChromeOS devices. If you have devices in the LTC channel, they will be updated to this version. The LTS ch",
+      "date": "22-09-2026 02:42 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -61,18 +69,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Weighs New Model as GPT-6 Astra Hits 13% [2026] - shattered.io",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNUXB1UTdZcDJzOGM5UmxFbVU3ZnJQQS0yYkliZGFPNnY2NTgzYlZ6RnppdjJCLXJiWW43MXRZazZyZi1iZ283bFpQNHFCc1ZCZGl4OVBIX2dZWTdrODg3UnNrX3M1SnVtb3lna0paWHE1enRRM3JBQ1k2Z3llV2o3M2p3?oc=5",
-      "summary": "Anthropic Weighs New Model as GPT-6 Astra Hits 13% [2026] shattered.io",
-      "date": "21-09-2026 08:53 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
+      "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - reuters.com",
       "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
-      "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say Reuters",
-      "date": "20-09-2026 05:02 AM"
+      "summary": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say reuters.com",
+      "date": "19-09-2026 10:14 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -137,14 +137,6 @@
       "link": "http://workspaceupdates.googleblog.com/2026/09/notebooks-in-gemini-dedicated-workspace-for-focused-organized-work-now-for-schools-and-organizations.html",
       "summary": "In April, we announced notebooks in Gemini as a dedicated, focused space for individual users to organize their projects and conversations. Now, students of all ages, educators, and professionals can ",
       "date": "18-09-2026 06:07 AM"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "http://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_0130771745.html",
-      "summary": "The Extended Stable channel has been updated to 152.0.7977.134 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log. Interes",
-      "date": "18-09-2026 06:03 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -221,9 +213,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
+      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - techrepublic.com",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
-      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
+      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams techrepublic.com",
       "date": "08-09-2026 05:00 PM"
     },
     {
@@ -237,17 +229,17 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - anthropic.com",
       "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 anthropic.com",
       "date": "02-09-2026 04:01 AM"
     },
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "14-08-2026 12:58 AM"
     },
     {
@@ -275,11 +267,19 @@
       "date": "24-07-2026 05:00 PM"
     },
     {
+      "source": "Google News \u2014 ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing GPT-Live - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
+      "summary": "Introducing GPT-Live OpenAI",
+      "date": "08-07-2026 05:00 PM"
+    },
+    {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft 365: A guide to the updates - computerworld.com",
+      "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
-      "summary": "Microsoft 365: A guide to the updates computerworld.com",
+      "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "21-06-2026 05:00 PM"
     },
     {
@@ -293,18 +293,18 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
-      "date": "04-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 ChatGPT Updates",
-      "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
