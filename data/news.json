@@ -1,7 +1,149 @@
 {
-  "last_updated": "22-09-2026 11:31 PM",
+  "last_updated": "23-09-2026 09:26 AM",
   "count": 50,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Zscaler takes zero trust beyond the corporate network",
+      "link": "https://securitybrief.com.au/story/zscaler-takes-zero-trust-beyond-the-corporate-network",
+      "summary": "Critical infrastructure operators are using cellular links to secure distributed assets as outages and spoofing raise the stakes for resilience.",
+      "date": "23-09-2026 09:13 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Critical Infra",
+        "Enterprise",
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Akira exploits two-year-old SonicWall flaw, ThreatDown says",
+      "link": "https://securitybrief.com.au/story/akira-exploits-two-year-old-sonicwall-flaw-threatdown-says",
+      "summary": "Thousands of exposed SonicWall devices still give Akira ransomware a route in, as patched systems with old credentials remain a live risk.",
+      "date": "23-09-2026 09:00 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Younger Australian parents most anxious over AI use",
+      "link": "https://securitybrief.com.au/story/younger-australian-parents-most-anxious-over-ai-use",
+      "summary": "Younger parents are driving AI adoption at home, but many say privacy, safety and the risk of falling behind are fuelling anxiety.",
+      "date": "23-09-2026 08:45 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Okta-led alliance unveils blueprint for AI agent security",
+      "link": "https://securitybrief.com.au/story/okta-led-alliance-unveils-blueprint-for-ai-agent-security",
+      "summary": "With Fortune 500 firms expected to deploy vast armies of agents, the alliance aims to curb access risks as AI tools spread across business systems.",
+      "date": "23-09-2026 08:18 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cohesity launches Agent Resilience for AI recovery",
+      "link": "https://securitybrief.com.au/story/cohesity-launches-agent-resilience-for-ai-recovery",
+      "summary": "The new feature targets a growing gap in AI governance, after Cohesity found 56% of organisations feel unprepared for agent mishaps.",
+      "date": "23-09-2026 08:15 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "STAT builds compliance setup in under a month with Orca",
+      "link": "https://securitybrief.com.au/story/stat-builds-compliance-setup-in-under-a-month-with-orca",
+      "summary": "Enterprise partners now face far less due diligence, after the health tech platform cut questionnaire length from 50 questions to single digits in weeks.",
+      "date": "23-09-2026 08:15 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Keepit tops USD $100 million ARR on AI truth cloud",
+      "link": "https://securitybrief.com.au/story/keepit-tops-usd-100-million-arr-on-ai-truth-cloud",
+      "summary": "The milestone underlines rising demand for independent backup as firms seek reliable records for AI-driven systems and compliance.",
+      "date": "23-09-2026 07:48 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
+      "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
+      "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
+      "date": "23-09-2026 07:12 AM",
+      "tags": [
+        "EdTech",
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
+      "link": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
+      "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
+      "date": "23-09-2026 06:02 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+      "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+      "date": "23-09-2026 03:32 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "404 Media",
       "title": "People Training OpenAI\u2019s AI Fired for Using AI to Train the AI",
@@ -27,82 +169,6 @@
       "threat": "Medium",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Workiva: The secret compliance and reporting arms race",
-      "link": "https://securitybrief.com.au/story/workiva-the-secret-compliance-and-reporting-arms-race",
-      "summary": "Driven by improved tooling, finance teams are meeting higher standards as regulators and analysts scrutinise disclosures faster.",
-      "date": "22-09-2026 10:18 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "High",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Dragos buys NetRise & runZero to boost xOT security",
-      "link": "https://securitybrief.com.au/story/dragos-buys-netrise-runzero-to-boost-xot-security",
-      "summary": "Critical infrastructure operators gain broader visibility across devices, firmware and cloud systems as Dragos folds two specialist tools into its platform.",
-      "date": "22-09-2026 09:39 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Rockwell joins Anthropic's Project Glasswing programme",
-      "link": "https://securitybrief.com.au/story/rockwell-joins-anthropic-s-project-glasswing-programme",
-      "summary": "Industrial control systems could be patched faster as Rockwell tests controlled access to Claude Mythos 5 to spot flaws before attackers exploit them.",
-      "date": "22-09-2026 09:38 AM",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Critical Infra"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DigiCert launches AI Trust Manager for agent control",
-      "link": "https://securitybrief.com.au/story/digicert-launches-ai-trust-manager-for-agent-control",
-      "summary": "Australian organisations are facing rising AI security incidents, and the new tool aims to close governance gaps as agents spread across systems.",
-      "date": "22-09-2026 09:37 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "University of Sydney offers free ChatGPT Edu to all",
-      "link": "https://securitybrief.com.au/story/university-of-sydney-offers-free-chatgpt-edu-to-all",
-      "summary": "Students and staff will gain free access as the university pairs the rollout with AUD $1 million for research into AI's environmental impact.",
-      "date": "22-09-2026 09:30 AM",
-      "tags": [
-        "Education",
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Sector"
     },
     {
       "source": "Dark Reading",
@@ -162,9 +228,9 @@
     },
     {
       "source": "Google News \u2014 ScamWatch",
-      "title": "Browse news and alerts - page 2 - scamwatch.gov.au",
+      "title": "Browse news and alerts - page 2 - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOaV8yYzFpX0NZUWxyY2tuR1VTRklJMWhMT3VSU25RcVdpTDFNUEdmZExUbzdGSGktNC05N0xja2JycXVoQW8tbnYzWEowYkN6QUlvLUd4ellXOGtfUDBQTmNLMENMaURuQ0J6bkFnQWdmVEJWZGJJcE9lMlIzLVhlX2g5bXZ2ZnhyTzYwcUZISk5vd0s4RkljNVhHMUZCVzJzcXY3Rld2WGptODRwX01jZEZneFhJc3RyeHVvb293THZPQ0lSRURIRDNWWU1VRFhnWHRCLU1wVUhYSDlmRHdfdDNDSWtPMXhmbldXUlpPUlRPT2d1R1A2cWZrOXRZT1Rta0lBQ1R2SHJacE1MQ1o2d0h1SQ?oc=5",
-      "summary": "Browse news and alerts - page 2 scamwatch.gov.au",
+      "summary": "Browse news and alerts - page 2 Scamwatch",
       "date": "19-09-2026 11:47 AM",
       "tags": [
         "Scams"
@@ -630,73 +696,6 @@
         "AU Cyber"
       ],
       "threat": "High",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Microsoft Plugs Nearly 1,000 Security Holes",
-      "link": "https://krebsonsecurity.com/2026/09/microsoft-plugs-nearly-1000-security-holes/",
-      "summary": "Microsoft Corp. today issued updates to plug at least 974 security holes in its Windows operating systems and other software, by far its biggest single patch batch ever. Microsoft says artificial intelligence is helping to speed the discovery of vulnerabilities, but security experts warn that many o",
-      "date": "09-09-2026 07:44 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Patch Tuesday Sets Another Record With 974 CVEs",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/patch-tuesday-another-record-974-cves",
-      "summary": "Attackers are actively exploiting two of the vulnerabilities, and another 58 are more likely to be exploited, according to Microsoft.",
-      "date": "09-09-2026 07:26 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Attackers Use Multi-Hop Google Redirects for Phishing Campaign",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/attackers-multi-hop-google-redirects-phishing-campaign",
-      "summary": "Threat actors are abusing multiple Google services to evade detection, ultimately harvesting credentials or installing ScreenConnect remote access.",
-      "date": "09-09-2026 07:03 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "OpenAI Agents Took Over Wiki Site Before Hugging Face Attack",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agents-wiki-site-hugging-face-attack",
-      "summary": "Researchers and OpenAI disagree on whether an earlier incident involving DseWiki, which the company did not disclose, was a \u201chack.\"",
-      "date": "09-09-2026 06:36 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "ClickFix Campaigns Abuse Legitimate Services for Persistent Access",
-      "link": "https://www.darkreading.com/endpoint-security/clickfix-campaigns-legitimate-services-persistent-access",
-      "summary": "Two separate attacks demonstrate how threat actors are finding new ways to compromise organizations by using the popular social engineering tactic.",
-      "date": "09-09-2026 03:25 AM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     }
