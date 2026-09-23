@@ -1,7 +1,121 @@
 {
-  "last_updated": "23-09-2026 12:34 PM",
-  "count": 47,
+  "last_updated": "23-09-2026 06:08 PM",
+  "count": 48,
   "items": [
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #854 -- We're Jevpilled",
+      "link": "https://risky.biz/RB854/",
+      "summary": "THE RISKY BUSINESS WEEKLY SHOW IS NOW ON HIATUS FOR TWO WEEKS AND WILL RETURN OCTOBER 14 On this week\u2019s show Patrick Gray and James Wilson are joined by Adam Boileau to talk through the week\u2019s news, including: Google\u2019s Gemini finally did some crimes OpenAI admits more agents did silly things because",
+      "date": "23-09-2026 04:08 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Troy Hunt Blog",
+      "title": "Weekly Update 522: Live From Oslo with Scott Helme",
+      "link": "https://www.troyhunt.com/weekly-update-522/",
+      "summary": "Heads up: the first 7 mins is a bit quiet until we worked out the external mic was misbehaving - sorry! But get through that and have a listen to Scott's experiences with how Report URI is identifying malware-infected machines within orgs, all due to CSP reporting. It&",
+      "date": "23-09-2026 03:18 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Palo Alto launches continuous AI defence for clients",
+      "link": "https://securitybrief.com.au/story/palo-alto-launches-continuous-ai-defence-for-clients",
+      "summary": "Attackers are exploiting AI faster than many defences can respond, prompting a shift to continuous testing for hidden exposures.",
+      "date": "23-09-2026 03:06 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Critical Infra"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Proofpoint launches AI security against trusted attacks",
+      "link": "https://securitybrief.com.au/story/proofpoint-launches-ai-security-against-trusted-attacks",
+      "summary": "Targeted phishing and payment fraud are getting harder to spot as attackers mimic routine business workflows and trusted contacts.",
+      "date": "23-09-2026 02:29 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Proofpoint launches AI security system for data risk",
+      "link": "https://securitybrief.com.au/story/proofpoint-launches-ai-security-system-for-data-risk",
+      "summary": "As AI tools gain access to sensitive systems, Proofpoint says separate data and oversight products no longer catch the full risk.",
+      "date": "23-09-2026 01:25 PM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cloudflare & Microsoft disrupt EvilTokens phishing service",
+      "link": "https://securitybrief.com.au/story/cloudflare-microsoft-disrupt-eviltokens-phishing-service",
+      "summary": "More than 12,000 inboxes were exposed as the kit used to bypass multi-factor authentication and sustain account access was taken offline.",
+      "date": "23-09-2026 01:24 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Cloudflare, Microsoft dismantle AI-powered MFA phishing ring targeting Australia",
+      "link": "https://australiancybersecuritymagazine.com.au/cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia/?utm_source=rss&utm_medium=rss&utm_campaign=cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia&utm_source=rss&utm_medium=rss&utm_campaign=cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia",
+      "summary": "Cloudflare and Microsoft say they have taken part in a coordinated effort with law enforcement partners to disrupt \u201cEvilTokens\u201d, a phishing-as-a-service operation designed to bypass multi-factor authentication (MFA) and facilitate [...]",
+      "date": "23-09-2026 01:22 PM",
+      "tags": [
+        "AU Cyber",
+        "Scams",
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Just 4% of Australian organisations regularly test response to AI cyber incidents",
+      "link": "https://australiancybersecuritymagazine.com.au/just-4-of-australian-organisations-regularly-test-response-to-ai-cyber-incidents/?utm_source=rss&utm_medium=rss&utm_campaign=just-4-of-australian-organisations-regularly-test-response-to-ai-cyber-incidents&utm_source=rss&utm_medium=rss&utm_campaign=just-4-of-australian-organisations-regularly-test-response-to-ai-cyber-incidents",
+      "summary": "Just four percent of Australian organisations regularly conduct exercises to test their response to AI-related cybersecurity incidents, according to new research from ISACA. The 2026 State of Cybersecurity report, based [...]",
+      "date": "23-09-2026 12:43 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Barracuda launches AI Data Security for smaller firms",
@@ -12,64 +126,6 @@
         "AI & Tools"
       ],
       "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "WatchGuard warns of shift to targeted cyberattacks",
-      "link": "https://securitybrief.com.au/story/watchguard-warns-of-shift-to-targeted-cyberattacks",
-      "summary": "Attackers are increasingly using tailored malware and credential abuse as network alerts drop, WatchGuard says, raising hidden-risk concerns.",
-      "date": "23-09-2026 10:12 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cloudera named leader in Asia Pacific sovereign AI",
-      "link": "https://securitybrief.com.au/story/cloudera-named-leader-in-asia-pacific-sovereign-ai",
-      "summary": "The recognition comes as nearly 92% of Asia Pacific enterprises say data governance and compliance have delayed or cancelled AI projects.",
-      "date": "23-09-2026 10:05 AM",
-      "tags": [
-        "Compliance"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Zscaler takes zero trust beyond the corporate network",
-      "link": "https://securitybrief.com.au/story/zscaler-takes-zero-trust-beyond-the-corporate-network",
-      "summary": "Critical infrastructure operators are using cellular links to secure distributed assets as outages and spoofing raise the stakes for resilience.",
-      "date": "23-09-2026 09:13 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Critical",
-      "audience": [
-        "Critical Infra",
-        "Enterprise",
-        "Consumer"
-      ],
-      "relevance": "AU General"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Akira exploits two-year-old SonicWall flaw, ThreatDown says",
-      "link": "https://securitybrief.com.au/story/akira-exploits-two-year-old-sonicwall-flaw-threatdown-says",
-      "summary": "Thousands of exposed SonicWall devices still give Akira ransomware a route in, as patched systems with old credentials remain a live risk.",
-      "date": "23-09-2026 09:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
       "audience": [],
       "relevance": "Global"
     },
@@ -525,19 +581,6 @@
       "relevance": "Global"
     },
     {
-      "source": "Google News \u2014 ASQA / RTO",
-      "title": "- emailv6.comms.asqa.gov.au",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxQYXl4czFsS3ZvY1FNSEc0ZUZ1U3o1SUVQSnZHNG9ISnZsRFlhRTJvQzA3NTRIZkJaYTIzakpabWNiWU9BOEdkSUtVX25uZEJJVG1xWldNSzNDQ3hyd3lCY01OZWdpMUF6QzRmV3NsZVl0MVA1TzBMYVZwOFhJcWhRbzhreFFTN1Q2WkZET1B2OE9FbWVvTVlLMWttWHNCanhKVGhtandnTzdBTmE0a0tCS3JRUUgyUzlSaXhuMnR6MmplVUh6NC1BUVMxYkxFSFBWVE1hSGtMV0t4YXlnY3NIVzJIUXhuZXJ3YkprM3kwdFgyOUNoYklLNlpRSVA?oc=5",
-      "summary": "emailv6.comms.asqa.gov.au",
-      "date": "11-09-2026 09:06 AM",
-      "tags": [
-        "RTO / VET"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Direct"
-    },
-    {
       "source": "Dark Reading",
       "title": "Voice Callers Exploit BYOD to Reach Microsoft 365, Corporate Data",
       "link": "https://www.darkreading.com/threat-intelligence/voice-callers-exploit-byod-microsoft-365-corporate-data",
@@ -629,34 +672,6 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #852 -- Cyber Command wants to buy shells",
-      "link": "https://risky.biz/RB852/",
-      "summary": "On this week\u2019s show Patrick Gray and James Wilson are joined by guest co-host Robby Winchester from SpecterOps to talk through the week\u2019s news, including: ID verification company IDScan was breached and 153m driver licenses wound up for sale online. Cue the barrage of lawsuits The US government plan",
-      "date": "09-09-2026 03:32 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "AI data exposure ranks second among AI security incidents in Australia and New Zealand",
-      "link": "https://australiancybersecuritymagazine.com.au/ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand/?utm_source=rss&utm_medium=rss&utm_campaign=ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand&utm_source=rss&utm_medium=rss&utm_campaign=ai-data-exposure-ranks-second-among-ai-security-incidents-in-australia-and-new-zealand",
-      "summary": "AI systems revealing sensitive information to unauthorised users has become the second most common type of AI-related security incident inside organisations in Australia and New Zealand, according to a new [...]",
-      "date": "09-09-2026 01:25 PM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "AU General"
     }
   ]
 }

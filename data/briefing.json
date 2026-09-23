@@ -1,17 +1,17 @@
 {
-  "last_updated": "23-09-2026 12:34 PM",
+  "last_updated": "23-09-2026 06:08 PM",
   "count": 0,
   "items": {
     "date": "23 September 2026",
-    "briefing": "Security firm WatchGuard is warning that cybercriminals are shifting away from mass attacks toward more targeted campaigns, meaning Australian businesses of all sizes could be in the crosshairs. Separately, the Akira ransomware group is actively exploiting a vulnerability in SonicWall devices that has existed for two years \u2014 if your organisation uses SonicWall, check with your IT team that it has been patched. Microsoft has also disrupted a phishing service called EvilTokens, which was tricking users into handing over account access through fake device login prompts.\n\n**Practical tip:** If you receive an unexpected login request or device approval prompt \u2014 even from a service you trust \u2014 do not approve it without confirming it's legitimate with your IT team first.",
-    "generated": "23-09-2026 12:34 PM",
+    "briefing": "Cloudflare and Microsoft have jointly dismantled a sophisticated phishing service called EvilTokens that was specifically targeting Australian organisations. The operation used AI to bypass multi-factor authentication (MFA), meaning even staff with MFA enabled could have had their accounts compromised. Separately, new research reveals that only 4% of Australian organisations regularly test their response to AI-related cyber incidents \u2014 a concerning gap given how rapidly AI-powered threats are evolving.\n\nThese two stories together highlight a clear message: having security measures in place isn't enough if they aren't regularly tested. **Practical tip:** Check with your IT team whether your organisation has a tested plan for responding to phishing attacks, including those that can bypass MFA.",
+    "generated": "23-09-2026 06:08 PM",
     "featured": {
-      "title": "Barracuda launches AI Data Security for smaller firms",
-      "link": "https://securitybrief.com.au/story/barracuda-launches-ai-data-security-for-smaller-firms",
+      "title": "Cloudflare & Microsoft disrupt EvilTokens phishing service",
+      "link": "https://securitybrief.com.au/story/cloudflare-microsoft-disrupt-eviltokens-phishing-service",
       "source": "Security Brief Australia",
-      "date": "23-09-2026 12:05 PM",
-      "summary": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governanc\u2026",
-      "source_count": 1
+      "date": "23-09-2026 01:24 PM",
+      "summary": "More than 12,000 inboxes were exposed as the kit used to bypass multi-factor authentication and sustain account access was taken offline.",
+      "source_count": 2
     }
   }
 }
