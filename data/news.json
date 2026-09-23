@@ -1,7 +1,66 @@
 {
-  "last_updated": "23-09-2026 11:45 PM",
-  "count": 49,
+  "last_updated": "24-09-2026 09:24 AM",
+  "count": 47,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian firms lag on AI cyber risk understanding",
+      "link": "https://securitybrief.com.au/story/australian-firms-lag-on-ai-cyber-risk-understanding",
+      "summary": "Only 20% of Australian organisations say they fully understand AI cyber risks, leaving boards exposed as phishing and deepfakes grow more credible.",
+      "date": "24-09-2026 08:45 AM",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "404 Media",
+      "title": "FBI Hack Exposed FBI\u2019s Own Hacking Unit",
+      "link": "https://www.404media.co/fbi-hack-exposed-fbis-own-hacking-unit-remote-operations-shinyhunters/",
+      "summary": "The FBI's Remote Operations Unit (ROU) is a highly secretive team of hackers making exploits and tools to break into target\u2019s devices. Some of its members just got exposed.",
+      "date": "24-09-2026 08:15 AM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI agent breached Australian Medicare statistics portal, Prime Minister says",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says",
+      "summary": "An artificial intelligence agent developed by OpenAI gained unauthorised access to an Australian Government Medicare statistics portal and viewed public and non-public files, Prime Minister Anthony Albanese has revealed. The [...]",
+      "date": "24-09-2026 07:44 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
+      "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
+      "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
+      "date": "24-09-2026 12:47 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ],
+      "threat": "Medium",
+      "audience": [],
+      "relevance": "Global"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Corsearch names Nicholas Langeveld as Chief Revenue Officer",
@@ -56,49 +115,6 @@
       "audience": [
         "Critical Infra"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Proofpoint launches AI security against trusted attacks",
-      "link": "https://securitybrief.com.au/story/proofpoint-launches-ai-security-against-trusted-attacks",
-      "summary": "Targeted phishing and payment fraud are getting harder to spot as attackers mimic routine business workflows and trusted contacts.",
-      "date": "23-09-2026 02:29 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [
-        "Consumer"
-      ],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Proofpoint launches AI security system for data risk",
-      "link": "https://securitybrief.com.au/story/proofpoint-launches-ai-security-system-for-data-risk",
-      "summary": "As AI tools gain access to sensitive systems, Proofpoint says separate data and oversight products no longer catch the full risk.",
-      "date": "23-09-2026 01:25 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cloudflare & Microsoft disrupt EvilTokens phishing service",
-      "link": "https://securitybrief.com.au/story/cloudflare-microsoft-disrupt-eviltokens-phishing-service",
-      "summary": "More than 12,000 inboxes were exposed as the kit used to bypass multi-factor authentication and sustain account access was taken offline.",
-      "date": "23-09-2026 01:24 PM",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -367,19 +383,6 @@
       "audience": [
         "Consumer"
       ],
-      "relevance": "Global"
-    },
-    {
-      "source": "404 Media",
-      "title": "Podcast: Humans Are Reading Your ChatGPT Conversations",
-      "link": "https://www.404media.co/podcast-humans-are-reading-your-chatgpt-conversations/",
-      "summary": "The contractors reading real ChatGPT users' prompts; the big out-and-back-in around Automattic; and a16z thinks enshittification isn't real.",
-      "date": "17-09-2026 12:19 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
       "relevance": "Global"
     },
     {
@@ -663,32 +666,6 @@
       "threat": "Critical",
       "audience": [],
       "relevance": "AU General"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Mythos Vulnerability Firehose Hits a Human Bottleneck",
-      "link": "https://www.darkreading.com/application-security/mythos-vulnerability-firehose-hits-human-bottleneck",
-      "summary": "An analysis of Project Glasswing findings shows only a fraction of the bugs it has discovered have reached disclosure, and an even smaller number have been fixed.",
-      "date": "10-09-2026 07:19 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "US Government Accuses Chinese AI Firms of Distilling Frontier Models",
-      "link": "https://www.darkreading.com/application-security/us-government-chinese-ai-firms-distilling-frontier-models",
-      "summary": "US agencies claim Chinese companies covertly extracted billions of tokens from OpenAI, Anthropic, Google Gemini, and SpaceX's Grok to reduce development costs.",
-      "date": "10-09-2026 05:47 AM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
     }
   ]
 }
