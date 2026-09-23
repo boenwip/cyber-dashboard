@@ -1,7 +1,22 @@
 {
-  "last_updated": "23-09-2026 06:08 PM",
-  "count": 48,
+  "last_updated": "23-09-2026 11:45 PM",
+  "count": 49,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Corsearch names Nicholas Langeveld as Chief Revenue Officer",
+      "link": "https://securitybrief.com.au/story/corsearch-names-nicholas-langeveld-as-chief-revenue-officer",
+      "summary": "Pressure on brands from counterfeits and online fraud is driving Corsearch's commercial reset as Nicholas Langeveld takes over revenue leadership.",
+      "date": "23-09-2026 06:30 PM",
+      "tags": [
+        "Scams"
+      ],
+      "threat": "Advisory",
+      "audience": [
+        "Consumer"
+      ],
+      "relevance": "Global"
+    },
     {
       "source": "Risky Business",
       "title": "Risky Business #854 -- We're Jevpilled",
@@ -117,19 +132,6 @@
       "relevance": "AU General"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Barracuda launches AI Data Security for smaller firms",
-      "link": "https://securitybrief.com.au/story/barracuda-launches-ai-data-security-for-smaller-firms",
-      "summary": "Smaller businesses and MSPs are being offered controls to stop staff sending sensitive data into generative AI tools, amid growing governance gaps.",
-      "date": "23-09-2026 12:05 PM",
-      "tags": [
-        "AI & Tools"
-      ],
-      "threat": "Advisory",
-      "audience": [],
-      "relevance": "Global"
-    },
-    {
       "source": "Dark Reading",
       "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
       "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
@@ -159,18 +161,18 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
-      "summary": "Threat actors stole 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
-      "date": "23-09-2026 03:32 AM",
+      "title": "Deception by Design: CISA's Guide to Tricking Cybercriminals",
+      "link": "https://www.darkreading.com/cybersecurity-operations/deception-by-design-cisa-s-guide-to-tricking-cybercriminals",
+      "summary": "The Cybersecurity and Infrastructure Security Agency (CISA) is going old school to help organizations with limited resources set traps for hackers.",
+      "date": "23-09-2026 05:59 AM",
       "tags": [
-        "AU Cyber"
+        "Education"
       ],
-      "threat": "High",
+      "threat": "Advisory",
       "audience": [
-        "Enterprise"
+        "SMB"
       ],
-      "relevance": "Global"
+      "relevance": "Sector"
     },
     {
       "source": "404 Media",
@@ -196,6 +198,21 @@
       ],
       "threat": "Medium",
       "audience": [],
+      "relevance": "Global"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Shai-Hulud Attack Nips Cyber-Firm CrowdSec's GitHub Data",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/shai-hulud-attack-cyber-firm-crowdsec-github-data",
+      "summary": "Threat actors stole the contents of 170 private repositories using an OAuth token stolen from a former employee's computer through the TanStack npm supply chain attack.",
+      "date": "22-09-2026 08:22 PM",
+      "tags": [
+        "AU Cyber"
+      ],
+      "threat": "High",
+      "audience": [
+        "Enterprise"
+      ],
       "relevance": "Global"
     },
     {
