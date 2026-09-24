@@ -1,5 +1,5 @@
 {
-  "last_updated": "24-09-2026 10:17 AM",
+  "last_updated": "24-09-2026 12:24 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.281",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
       "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_rol",
-      "date": "24-09-2026 10:17 AM"
+      "date": "24-09-2026 12:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.280",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 (claude-opus-5-5), now the default Opus model \u2014 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the w",
-      "date": "24-09-2026 10:17 AM"
+      "date": "24-09-2026 12:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "24-09-2026 10:17 AM"
+      "date": "24-09-2026 12:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "24-09-2026 10:17 AM"
+      "date": "24-09-2026 12:24 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "24-09-2026 10:17 AM"
+      "date": "24-09-2026 12:24 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -141,9 +141,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Opus 5.5 - anthropic.com",
+      "title": "Introducing Claude Opus 5.5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
-      "summary": "Introducing Claude Opus 5.5 anthropic.com",
+      "summary": "Introducing Claude Opus 5.5 Anthropic",
       "date": "23-09-2026 09:25 AM"
     },
     {
@@ -161,14 +161,6 @@
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5",
       "summary": "Anthropic unveils Claude Opus 5.5 Reuters",
       "date": "23-09-2026 03:22 AM"
-    },
-    {
-      "source": "Google News \u2014 Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft fixes broken copy and paste for Excel 2016 users - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVEk5akRIRlFiY0J3bnRMZjNac2RaazBjVkpVSDk2NzFWNjRVeERtcXlJeWkwWXBxdVZjSEhLdFpsX3hneXhjMjlzVVhKa2tHZ2ZwNmpEb2J6cG90TTJiSHFPcWZmT0JQaFU1Y013aW5lTE55Q1p1d0F5VFE3VzNtMnk3NWhCYUZ3dE1PcHZxOVJBcktxTV9mUnQtVXBXa1oxXzF5Tk90YkRubXfSAbABQVVfeXFMTzNqXzhwc1ktcFpud3ZqNm9GOXByWlgxSHNhY3dkU1NfcFVHNlAyUVdleWhSbnB4cjg3TTFhcDdSRVU0OEE2bDVIQm5vQnljemx2bTZBREcwQjREeTc2TVRvdi1ZSTJTQ3pwSUNtVjZtWWdqNWZrd2E0aGF5Znh2SWN6cFNSRUNJampyUjZTeDN6cjZjV3MwM1JhQnd3Zk84S09hQlM0b05UUDlVQVhxX3M?oc=5",
-      "summary": "Microsoft fixes broken copy and paste for Excel 2016 users BleepingComputer",
-      "date": "18-09-2026 05:35 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -257,6 +249,14 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
       "date": "14-08-2026 12:58 AM"
+    },
+    {
+      "source": "Google News \u2014 Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
+      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
+      "date": "10-08-2026 05:00 PM"
     },
     {
       "source": "Microsoft 365 Blog",
