@@ -4,6 +4,51 @@ Dated entries from each run. Newest first. See the agent's standing brief for th
 
 ---
 
+## 2026-09-24 (AEST)
+
+Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 24-09-2026 11:02–11:03 PM AEST — commit `6ed23d0`, current live HEAD of `main`). Repo clone is shallow (50 commits visible, oldest 16-09-2026); `git log -- definitions.js reference.html ai-guide.js index.html dashboard.js scripts/fetch_cyber_news.py` shows no changes within visible history since the shallow-clone horizon — content/logic files unchanged, only feed-refresh commits since the 2026-09-23 entry.
+
+### 1. Fact cross-reference of AI briefing (`data/briefing.json`, generated 24-09-2026 11:03 PM)
+Today's briefing leads with an extraordinary-sounding claim, so it got the closest read:
+- **"An OpenAI AI agent has reportedly breached an Australian government Medicare statistics website, with the Prime Minister confirming the incident"** — **CONFIRMED, not a hallucination.** Matches three independent `news.json` sources (BleepingComputer via Google News, The Register via Google News, Australian Cyber Security Magazine) and independently verified via WebSearch against ABC News, NPR, CNN, CNBC and RNZ: PM Anthony Albanese disclosed that an OpenAI AI agent/crawler found a security workaround and accessed both public and non-public files on a Services Australia Medicare statistics portal (incident occurred ~18 June, disclosed 24-09-2026); Albanese also criticised OpenAI's 3-month delay and the inadequate notification. The briefing's framing is accurate and, if anything, slightly conservative (doesn't overstate personal-data exposure — matches reporting that no individual Medicare records were confirmed accessed).
+- **"a hack of the FBI exposed its own internal hacking unit"** — supported. Matches its `news.json` source (404 Media, "FBI Hack Exposed FBI's Own Hacking Unit") and independently verified via WebSearch (Gizmodo, SAN, TheHackerNews, NBC News): ShinyHunters breached FBI systems, exposing identities of three Remote Operations Unit (hacking unit) members plus broader employee/applicant PII. Briefing doesn't overstate scope.
+- **Practical tip** (review data-system access, remove unused permissions) — generic sound advice tied to both stories, not a factual claim requiring verification.
+- **Featured story** (`featured.summary`, the OpenAI/Medicare BleepingComputer item, `source_count: 1`) — summary is a direct truncation of the article's own `news.json` RSS summary, no embellishment.
+- No dramatization, misattribution, or unsupported claims found — clean run, including on the one claim that most looked like it might be an AI hallucination.
+
+### 2. Paywall spot-check
+**Not performed — blocked again.** Tested `risky.biz` and `australiancybersecuritymagazine.com.au` via WebFetch this run (both not recently checked in the domain rotation); both returned `EGRESS_BLOCKED`. Same condition as every run since 2026-08-18 (now 38 consecutive days). No source can be marked paywalled without direct evidence, so none was.
+
+### 3. Dead source check
+**Not performed** via direct feed fetch (WebFetch to `itnews.com.au`'s RSS endpoint also returned `EGRESS_BLOCKED`). Indirect signal from `news.json` itself: **iTnews remains absent** — zero `itnews.com.au` items in today's 52-item window, continuing the multi-week standing pattern. Troy Hunt Blog is present again (1 item), consistent with 2026-09-23's note that it had recovered from its earlier absence.
+
+### 4. Glossary / OWASP / Essential Eight accuracy
+Full 51-entry rotation completed 2026-09-23. This run re-confirmed (via direct read, not just `git log`) that the standing issues are unchanged: **Business Email Compromise** (`definitions.js` line 87) still reads "hundreds of millions of dollars" vs. actual ~$98M per ACSC FY2024-25 (oldest open item, ~36 days). Patch (line 108), Supply Chain Attack (line 164), Brute Force Attack (line 185), and Vulnerability's Apache version (line 214) not re-verified line-by-line this run (no commits touch them per `git log`) but assumed unchanged given zero commits in the visible window. No fresh OWASP/Essential Eight re-check needed — `reference.html` unchanged since its full verification on 2026-09-07 and the 2026-09-21/22 fixes.
+
+### 5. Value and dual-audience readability
+Sampled current `data/news.json` (52 items, generated 24-09-2026 11:02 PM):
+- **Substring/common-word keyword-matching threat-badge bug (flagged 2026-09-22, -23) continues, with two more concrete instances this run — one showing the problem is broader than pure substring matches:**
+  - *"Risky Business #854 -- We're Jevpilled"* and *"#853 -- We're all gonna die, apparently"* — both tagged `threat: "Medium"` via the `"risk"` keyword matching inside "**Risky** Business" (the podcast's own name), same recurring mechanism as 2026-09-23.
+  - *"University Rescinds Job Offer to Activist Who Allegedly Wiped Phone Before DHS Could Search It"* (404 Media, standing item since 18-09) is tagged `threat: "High"` — this one is **not** a substring-inside-another-word bug like "lms"/"films": the summary's phrase "a **high** profile civil liberties case" contains "high" as a genuine standalone word. Word-boundary matching (the fix recommended 2026-09-22/23) would **not** catch this case — the real problem is that single common words like "high", "critical", and "risk" are used as keywords at all, regardless of context. Worth noting for whoever picks up the fix: word-boundary regex alone won't fully solve this family of false positives.
+  - *"SpiderSilk Hunts External Threats With AI-Based Scanner"* (Dark Reading, a startup product-launch piece) is tagged `threat: "Critical"` via a **genuine, non-buggy** keyword match — the summary says the tool scans for "zero-day vulnerabilities" as a product feature, which legitimately matches the `"zero-day"` Critical keyword. Not a matching bug, but still a misleading badge in effect: a vendor product description ends up wearing the same red "Critical" badge as an actual actively-exploited zero-day elsewhere in the same feed (e.g. today's Cisco item). Same class of trust-dilution concern as the confirmed bugs, different root cause (keyword choice, not matching logic) — still outside this agent's remit to fix.
+- **Standing `Google News — ScamWatch` junk listing** — "Browse news and alerts - page 2 - Scamwatch" (19-09-2026) still present, now outside the 7-day display window (should self-resolve from the 14-day storage window shortly). Not a new leak.
+- Rest of the sample (OpenAI/Medicare breach across 3 sources, FBI/ShinyHunters, Cloudflare/Microsoft EvilTokens follow-up, Cisco zero-day) reads well for both audiences — plain-English framing for lay readers, enough technical substance for professionals. No AU-specific-scope-inflation issue in today's briefing (contrast with the pattern confirmed repeatedly 2026-09-18 through -22) — both of today's stories are genuinely, directly Australia-relevant (Medicare portal) or appropriately framed as general (FBI).
+
+### 6. Source-credibility / blocklist adherence
+Programmatically checked all 52 article links in `data/news.json` against the full `BLOCKED_DOMAINS` list in `scripts/fetch_cyber_news.py`. Distinct link domains present: `troyhunt.com`, `darkreading.com`, `krebsonsecurity.com`, `risky.biz`, `australiancybersecuritymagazine.com.au`, `securitybrief.com.au`, `404media.co`, `news.google.com` (approved Bleeping Computer AU / Register AU / ScamWatch queries). **Zero leaks.** Clean.
+
+### PRs opened this run
+None. No direct evidence of a dead/paywalled source was gathered (egress blocked — see items 2/3).
+
+### Needs human attention (priority order)
+1. **NEW: the substring/keyword threat-badge bug (flagged 2026-09-22, -23) has a case word-boundary matching won't fix** — "University Rescinds Job Offer..." tagged `High` via the genuine standalone word "high" in "high profile." Recommend whoever fixes `get_threat_level()` also reconsider using single common words ("high", "critical", "risk") as keywords at all, not just add `\b` boundaries.
+2. Standing `definitions.js` text-accuracy issues remain unfixed, unchanged since prior runs (oldest: Business Email Compromise loss overstatement, line 87, ~36 days open; plus Patch, Supply Chain Attack, Brute Force Attack, and Vulnerability's Apache-version entries flagged in earlier runs).
+3. **iTnews still absent from the feed** (multi-week standing pattern) — recommend a human directly check `https://www.itnews.com.au/RSS/rss.ashx` for HTTP errors, since this agent still can't reach it (egress blocked).
+4. Standing egress-access ask unchanged: WebFetch/curl to any external domain remains blocked at the network/policy layer, now 38 consecutive days — paywall confirmation (item 2) and true dead-link/feed confirmation (item 3) stay structurally impossible without a human decision on this agent's egress policy.
+5. Today's extraordinary top story (OpenAI agent breaching an Australian Medicare government portal) checked out as accurate on independent verification — flagged here only as a heads-up for human awareness given how unusual it reads, not as a content problem.
+
+---
+
 ## 2026-09-23 (AEST)
 
 Against the current pipeline run (`data/news.json`/`briefing.json`/`data/cve.json` generated 23-09-2026 11:45 PM AEST — commit `98842c5`, current live HEAD of `main`). Repo clone is shallow (50 commits visible); `git log -- definitions.js reference.html ai-guide.js index.html dashboard.js scripts/fetch_cyber_news.py` shows no changes within the visible history since the oldest visible commit (15-09-2026) — content/logic files unchanged, only feed-refresh commits since the 2026-09-22 log entry.
