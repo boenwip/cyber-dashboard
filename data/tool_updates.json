@@ -1,5 +1,5 @@
 {
-  "last_updated": "24-09-2026 09:25 AM",
+  "last_updated": "24-09-2026 10:17 AM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.281",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
       "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_rol",
-      "date": "24-09-2026 09:25 AM"
+      "date": "24-09-2026 10:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.280",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 (claude-opus-5-5), now the default Opus model \u2014 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the w",
-      "date": "24-09-2026 09:25 AM"
+      "date": "24-09-2026 10:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "24-09-2026 09:25 AM"
+      "date": "24-09-2026 10:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "24-09-2026 09:25 AM"
+      "date": "24-09-2026 10:17 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,15 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "24-09-2026 09:25 AM"
+      "date": "24-09-2026 10:17 AM"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Assign temporary administrator roles in the Google Admin console",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/assign-temporary-administrator-roles-in-the-Google-Admin-console.html",
+      "summary": "Admins can now assign administrator roles to users, groups, or service accounts for a defined period of time. Once the expiration time is reached, the access granted by the role is automatically revok",
+      "date": "24-09-2026 07:23 AM"
     },
     {
       "source": "Google Chrome Releases",
@@ -133,18 +141,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
+      "title": "Introducing Claude Opus 5.5 - anthropic.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
-      "summary": "Introducing Claude Opus 5.5 Anthropic",
+      "summary": "Introducing Claude Opus 5.5 anthropic.com",
       "date": "23-09-2026 09:25 AM"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "New Google Meet 'Take notes for me' settings for admins and end users take effect September 29th",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/new-google-meet-take-notes-for-me-settings-for-admins-and-end-users-take-effect-September-29th.html",
-      "summary": "Previously, we announced new admin and end user settings for Google Meet \u2018Take notes for me\u2019 pre-configuration. These settings will begin to take effect September 29th.Below is the previously communic",
-      "date": "23-09-2026 06:06 AM"
     },
     {
       "source": "Google News \u2014 Claude Updates",
@@ -205,9 +205,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - Creative Boom",
+      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - creativeboom.com",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
-      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features Creative Boom",
+      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features creativeboom.com",
       "date": "15-09-2026 05:00 PM"
     },
     {
@@ -237,9 +237,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - techrepublic.com",
+      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
-      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams techrepublic.com",
+      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
       "date": "08-09-2026 05:00 PM"
     },
     {
