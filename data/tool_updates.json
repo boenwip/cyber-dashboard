@@ -1,14 +1,22 @@
 {
-  "last_updated": "24-09-2026 11:03 PM",
+  "last_updated": "25-09-2026 09:44 AM",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.282",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
+      "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and /status and claude doc",
+      "date": "25-09-2026 09:44 AM"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.281",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
       "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_rol",
-      "date": "24-09-2026 11:02 PM"
+      "date": "25-09-2026 09:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +24,7 @@
       "title": "v2.1.280",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 (claude-opus-5-5), now the default Opus model \u2014 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the w",
-      "date": "24-09-2026 11:02 PM"
+      "date": "25-09-2026 09:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +32,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "24-09-2026 11:02 PM"
+      "date": "25-09-2026 09:44 AM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,15 +40,15 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "24-09-2026 11:02 PM"
+      "date": "25-09-2026 09:44 AM"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.276",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
-      "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "24-09-2026 11:02 PM"
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Now in beta: Import and convert your PowerPoint files to client-side encrypted Slides",
+      "link": "http://workspaceupdates.googleblog.com/2026/09/now-in-beta-import-and-convert-your.html",
+      "summary": "Eligible customers can now import PowerPoint files as client-side encrypted (CSE) Slides, allowing users to access and edit content. This enables interoperability with Microsoft Office, with this laun",
+      "date": "25-09-2026 04:06 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -117,33 +125,17 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI - The Independent",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmVUNGx6WjhGNjgtazJjNDFiREo2azFvTXd3YTlLT1RSVjNPSjk3WVlSZTc5Q0VjcTNEUkx6WUNYc012OWp0RkxIU0tYamNucVd6VDhmU096cHp2bzlNQUd6dEIyV1N1Y0FlUEZ1Nk1qUHVwVTJuWlQ4MFdpdUFvVVp3cjN0MFozWHFKcUVVdUhRQU0?oc=5",
-      "summary": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI The Independent",
+      "title": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI - Yahoo Finance Australia",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMTQ5ZERLaG5BUndHREtWYndNcjVaRWZrVzBiNUxLZ0o1VGFSLVdURGlZNXJDY0xHcFlvM1ZXSkY0OW9lWkFlQ0p2WHQxQVZ4VHIyM1g3YlNHS2pINkhVRGFhZ3B0YTlSamQ1eG1wZm5SSlRpTzFzc01fRmxHdWg2WWhXbDB0VGRpdFpQM280azF5UQ?oc=5",
+      "summary": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI Yahoo Finance Australia",
       "date": "24-09-2026 02:09 AM"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Occupancy counting now available for Google Meet on Logitech room hardware",
-      "link": "http://workspaceupdates.googleblog.com/2026/09/occupancy-counting-now-available-for-Google-Meet-on-Logitech-room-hardware.html",
-      "summary": "Occupancy counting is now available for Android-based Logitech Gen 2 room hardware (starting with Logitech Rally Board 65) to help measure how meeting rooms are used. This feature brings the same occu",
-      "date": "24-09-2026 12:14 AM"
-    },
-    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic Launches Claude Opus 5.5 - ForkLog",
-      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5aTDZON2lidmJ5ZjZ3MHM4aTdOWUtGSFkwTUpUUGtjaVdMRDY3NEZSaS10dVlBRjZJTjlHU2h5REZ4RDdBTU8yOU5JdWxWOEYzU3ZKRGNDZkpCd3d0OXhRRGVuUThWNlp4TkE?oc=5",
-      "summary": "Anthropic Launches Claude Opus 5.5 ForkLog",
-      "date": "23-09-2026 04:40 PM"
-    },
-    {
-      "source": "Google News \u2014 Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
+      "title": "Introducing Claude Opus 5.5 - anthropic.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
-      "summary": "Introducing Claude Opus 5.5 Anthropic",
+      "summary": "Introducing Claude Opus 5.5 anthropic.com",
       "date": "23-09-2026 09:25 AM"
     },
     {
@@ -189,9 +181,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - cgchannel.com",
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
-      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite cgchannel.com",
       "date": "15-09-2026 05:00 PM"
     },
     {
@@ -245,9 +237,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "14-08-2026 12:58 AM"
     },
     {
@@ -313,6 +305,14 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
+    },
+    {
+      "source": "Google News \u2014 Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "29-05-2026 05:00 PM"
     },
     {
       "source": "Google News \u2014 Canva Updates",

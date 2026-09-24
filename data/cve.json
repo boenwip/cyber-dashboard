@@ -1,7 +1,29 @@
 {
-  "last_updated": "24-09-2026 11:03 PM",
+  "last_updated": "25-09-2026 09:44 AM",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-5430",
+      "description": "WSO2 Multiple Products \u2014 WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution. ",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-24",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
+      "vendor": "WSO2",
+      "product": "Multiple Products",
+      "ransomware": "Unknown"
+    },
+    {
+      "id": "CVE-2026-71362",
+      "description": "Adobe Commerce and Magento  \u2014 Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user",
+      "score": null,
+      "severity": "HIGH",
+      "published": "2026-09-24",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
+      "vendor": "Adobe",
+      "product": "Commerce and Magento ",
+      "ransomware": "Unknown"
+    },
     {
       "id": "CVE-2026-93952",
       "description": "Arista VeloCloud Orchestrator \u2014 Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Su",
@@ -88,28 +110,6 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-39682",
       "vendor": "Linux",
       "product": "Kernel",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-58704",
-      "description": "Google Pixel \u2014 Google Pixel devices contain an improper authorization vulnerability in the cellular modem. A logic error may allow an attacker to bypass permission checks and escalate privileges.",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-16",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-58704",
-      "vendor": "Google",
-      "product": "Pixel",
-      "ransomware": "Unknown"
-    },
-    {
-      "id": "CVE-2026-76460",
-      "description": "Cisco Identity Services Engine \u2014 Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) contain an incorrect use of privileged APIs vulnerability that could allow an unauthenticated, remote attacker t",
-      "score": null,
-      "severity": "HIGH",
-      "published": "2026-09-16",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76460",
-      "vendor": "Cisco",
-      "product": "Identity Services Engine",
       "ransomware": "Unknown"
     }
   ]
