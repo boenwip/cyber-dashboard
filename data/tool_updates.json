@@ -1,5 +1,5 @@
 {
-  "last_updated": "24-09-2026 05:42 PM",
+  "last_updated": "24-09-2026 11:03 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.281",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
       "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_rol",
-      "date": "24-09-2026 05:42 PM"
+      "date": "24-09-2026 11:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.280",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 (claude-opus-5-5), now the default Opus model \u2014 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the w",
-      "date": "24-09-2026 05:42 PM"
+      "date": "24-09-2026 11:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "24-09-2026 05:42 PM"
+      "date": "24-09-2026 11:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "24-09-2026 05:42 PM"
+      "date": "24-09-2026 11:02 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.276",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.276",
       "summary": "What's changed Fixed every request failing with 400 \u2026 Input tag 'advisor_20260301' when ANTHROPIC_BASE_URL points at a proxy or gateway (2.1.275 regression)",
-      "date": "24-09-2026 05:42 PM"
+      "date": "24-09-2026 11:02 PM"
     },
     {
       "source": "Google Workspace Updates",
@@ -117,18 +117,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI - independent.co.uk",
+      "title": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI - The Independent",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmVUNGx6WjhGNjgtazJjNDFiREo2azFvTXd3YTlLT1RSVjNPSjk3WVlSZTc5Q0VjcTNEUkx6WUNYc012OWp0RkxIU0tYamNucVd6VDhmU096cHp2bzlNQUd6dEIyV1N1Y0FlUEZ1Nk1qUHVwVTJuWlQ4MFdpdUFvVVp3cjN0MFozWHFKcUVVdUhRQU0?oc=5",
-      "summary": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI independent.co.uk",
+      "summary": "Anthropic launches new update to Claude \u2013 after telling the world to slow down AI The Independent",
       "date": "24-09-2026 02:09 AM"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Building the system for AI at work",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft 365 Blog.",
-      "date": "24-09-2026 01:00 AM"
     },
     {
       "source": "Google Workspace Updates",
@@ -165,9 +157,9 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic unveils Claude Opus 5.5 - reuters.com",
+      "title": "Anthropic unveils Claude Opus 5.5 - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5",
-      "summary": "Anthropic unveils Claude Opus 5.5 reuters.com",
+      "summary": "Anthropic unveils Claude Opus 5.5 Reuters",
       "date": "23-09-2026 03:22 AM"
     },
     {
@@ -265,6 +257,14 @@
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
       "summary": "The Best Office Suites We've Tested for 2026 PCMag",
       "date": "10-08-2026 05:00 PM"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "The next measure of AI momentum is work transformed",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
+      "summary": "In yesterday\u2019s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI mome",
+      "date": "30-07-2026 11:00 PM"
     },
     {
       "source": "Google News \u2014 ChatGPT Updates",
