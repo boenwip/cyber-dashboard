@@ -6,8 +6,7 @@
 /* ── LAYOUT CONTAINERS ── */
 .tracker,
 .active-filter-bar,
-.layout,
-.threat-map-section {
+.layout {
   max-width: 1480px;
   margin: 0 auto;
   width: 100%;
@@ -59,6 +58,10 @@
   flex-direction: column;
 }
 .tracker-col:last-child { border-right: none; }
+/* Section labels are h2/h3 for screen-reader navigation but keep label styling */
+.tracker-title, .cve-title, .tracker-crime-label, .sb-tip-label, .sb-hdr, .tool-name {
+  font-family: inherit;
+}
 .tracker-col--cve {
   display: flex;
   flex-direction: column;
@@ -215,6 +218,7 @@
 }
 .cve-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 .cve-feed {
+  list-style: none;
   flex: 1;
   overflow-y: auto;
   min-height: 0;
@@ -228,7 +232,6 @@
   border-bottom: 0.5px solid var(--border);
   text-decoration: none;
 }
-.cve-item:last-child { border-bottom: none; }
 .cve-id-row {
   display: flex;
   align-items: center;
@@ -241,10 +244,9 @@
   font-size: 12px;
   color: var(--accent);
 }
-.cve-sev { font-size: 10px; font-weight: 700; }
-.cve-sev--critical { color: var(--crit); }
-.cve-sev--high     { color: var(--high); }
-.cve-ransomware    { font-size: 10px; color: var(--crit); }
+.cve-feed > li:last-child .cve-item { border-bottom: none; }
+.cve-name { font-size: 11px; color: var(--text-2); }
+.cve-ransomware { font-size: 11px; font-weight: 600; color: var(--crit); }
 .cve-desc { font-size: 12px; color: var(--text-3); line-height: 1.5; }
 .cve-date { font-size: 11px; color: var(--text-4); margin-top: 3px; font-family: var(--mono); }
 
@@ -262,23 +264,27 @@
   color: var(--text-3);
   margin-bottom: 12px;
 }
-.tracker-crime-note { font-size: 12px; color: var(--text-3); font-style: italic; line-height: 1.6; margin-top: 8px; }
-.tracker-crime-note strong { font-style: normal; color: var(--text-2); }
+.tracker-crime-note { font-size: 12px; color: var(--text-3); line-height: 1.6; margin-top: 8px; }
 
-/* ── CRIME CHART BAR (shared by tracker-crime) ── */
-.bar-wrap {
-  display: flex;
-  height: 14px;
-  border-radius: 8px;
-  overflow: hidden;
-  gap: 2px;
-  margin-bottom: 12px;
-  background: var(--surface3);
+/* Crime types: one hue, each bar a share of all reports (not a stacked whole) */
+.crime-groups { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 40px; }
+.crime-group figcaption {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-2);
+  margin-bottom: 6px;
 }
-.bar-seg { height: 100%; transition: width 1.2s cubic-bezier(0.4,0,0.2,1); border-radius: 3px; }
-.legend { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
-.legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--text-2); }
-.legend-dot { width: 10px; height: 10px; border-radius: 2px; flex-shrink: 0; }
+.crime-row {
+  display: grid;
+  grid-template-columns: minmax(150px, 220px) 1fr 36px;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 5px;
+}
+.crime-name { font-size: 12px; color: var(--text-2); }
+.crime-track { height: 8px; background: var(--surface3); border-radius: 4px; overflow: hidden; }
+.crime-bar { display: block; height: 100%; background: var(--accent); border-radius: 4px; }
+.crime-pct { font-family: var(--mono); font-size: 12px; color: var(--text); text-align: right; }
 .chart-link { color: var(--accent); text-decoration: none; }
 .chart-link:hover { text-decoration: underline; text-underline-offset: 3px; }
 
@@ -342,22 +348,43 @@
 .no-results { padding: 40px; text-align: center; color: var(--text-3); }
 .no-results-icon { font-size: 24px; opacity: 0.3; margin-bottom: 8px; }
 .no-results p { font-size: 14px; margin-top: 6px; }
+.no-results-clear {
+  margin-top: 8px;
+  background: transparent;
+  border: 0.5px solid var(--border2);
+  color: var(--accent);
+  padding: 6px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 13px;
+}
+.visually-hidden {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
 
-/* Articles — clickable tags replace filter bar */
+/* Articles — the title link stretches over the whole card; tag buttons sit above it */
 .article {
-  display: block;
   padding: 16px 40px;
   border-bottom: 0.5px solid var(--border);
-  text-decoration: none;
-  color: inherit;
   border-left: 2px solid transparent;
   transition: background 0.12s, border-left-color 0.12s;
   position: relative;
 }
-.article:hover {
+.article:hover,
+.article:focus-within {
   background: var(--surface);
   border-left-color: var(--accent);
 }
+.article--official { border-left-color: var(--high); }
+.art-link { color: inherit; text-decoration: none; }
+.art-link::after { content: ''; position: absolute; inset: 0; }
+.art-link:focus-visible { outline: none; }
+.article:has(.art-link:focus-visible) { outline: 2px solid var(--accent); outline-offset: -2px; }
 .art-meta {
   display: flex;
   align-items: center;
@@ -379,11 +406,8 @@
   color: var(--text-3);
   font-family: var(--mono);
 }
-.art-reading-time {
-  font-size: 11px;
-  color: var(--text-4);
-}
 .art-title {
+  font-family: inherit;
   font-size: 17px;
   font-weight: 400;
   color: var(--text);
@@ -402,10 +426,13 @@
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
-.art-tags { margin-top: 8px; display: flex; gap: 5px; flex-wrap: wrap; align-items: center; }
+.art-tags { margin-top: 8px; display: flex; gap: 5px; flex-wrap: wrap; align-items: center; position: relative; z-index: 1; }
 
 /* Tags — clickable */
 .tag {
+  font-family: inherit;
+  line-height: 1.5;
+  background: transparent;
   font-size: 11px;
   padding: 2px 8px;
   border-radius: 4px;
@@ -418,9 +445,6 @@
 .tag:hover { opacity: 0.75; transform: scale(0.97); }
 .tag.tag--active { box-shadow: 0 0 0 1.5px var(--accent); }
 .tag-cyber    { background: var(--tag-cyber-bg);   border-color: var(--tag-cyber-b);   color: var(--tag-cyber-c); }
-.tag-rto      { background: var(--tag-rto-bg);     border-color: var(--tag-rto-b);     color: var(--tag-rto-c); }
-.tag-edu      { background: var(--tag-edu-bg);     border-color: var(--tag-edu-b);     color: var(--tag-edu-c); }
-.tag-edtech   { background: var(--tag-edtech-bg);  border-color: var(--tag-edtech-b);  color: var(--tag-edtech-c); }
 .tag-ai       { background: var(--tag-ai-bg);      border-color: var(--tag-ai-b);      color: var(--tag-ai-c); }
 .tag-scam     { background: var(--tag-scam-bg);    border-color: var(--tag-scam-b);    color: var(--tag-scam-c); }
 .tag-comp     { background: var(--tag-comp-bg);    border-color: var(--tag-comp-b);    color: var(--tag-comp-c); }
@@ -431,7 +455,8 @@
 .t-critical { color: var(--crit); }
 .t-high     { color: var(--high); }
 .t-medium   { color: var(--med); }
-.t-advisory { color: var(--text-4); }
+.t-advisory { color: var(--adv); }
+.threat-badge { border-color: currentColor; }
 
 /* ── SIDEBAR ── */
 .sidebar {
@@ -462,6 +487,18 @@
   color: var(--accent);
   margin-bottom: 10px;
 }
+.sb-links { list-style: none; border-bottom: 0.5px solid var(--border); }
+.sb-links a {
+  display: block;
+  padding: 9px 20px;
+  border-top: 0.5px solid var(--border);
+  text-decoration: none;
+}
+.sb-links li:first-child a { border-top: none; }
+.sb-links a:hover { background: var(--surface2); }
+.sb-link-name { display: block; font-size: 13px; color: var(--accent); }
+.sb-link-desc { display: block; font-size: 12px; color: var(--text-3); line-height: 1.45; }
+
 .sb-tip-text {
   font-size: 13px;
   color: var(--text-2);
@@ -489,8 +526,10 @@
 }
 .sb-empty { padding: 20px; font-size: 13px; color: var(--text-3); font-style: italic; }
 
-.tool-group { }
+.tool-list { list-style: none; }
 .tool-name {
+  display: flex;
+  align-items: center;
   padding: 10px 20px 5px;
   font-size: 10px;
   font-weight: 600;
@@ -519,21 +558,25 @@
   display: block;
 }
 .tool-item-date {
+  display: block;
   font-size: 11px;
   color: var(--text-3);
   margin-top: 3px;
   font-family: var(--mono);
 }
 
-/* ── TOOL BRAND ICONS ── */
-.tool-icon {
-  width: 14px;
-  height: 14px;
-  border-radius: 2px;
-  margin-right: 7px;
-  vertical-align: middle;
-  object-fit: contain;
-  display: inline-block;
+/* ── TOOL MONOGRAM (no third-party logo host) ── */
+.tool-mono {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  margin-right: 8px;
+  display: inline-grid;
+  place-items: center;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--bg);
+  background: var(--text-3);
   flex-shrink: 0;
 }
 
@@ -543,13 +586,6 @@
   color: var(--text-4);
   font-family: var(--mono);
 }
-
-/* ── THREAT MAP OPEN — hide all dashboard content except header ── */
-body.threat-map-open .wotd-strip,
-body.threat-map-open #scam-callout,
-body.threat-map-open .tracker,
-body.threat-map-open .active-filter-bar,
-body.threat-map-open .layout { display: none !important; }
 
 /* ── WORD OF THE DAY — ambient sign-off at the bottom of the homepage ── */
 .wotd-strip--ambient {
@@ -561,100 +597,17 @@ body.threat-map-open .layout { display: none !important; }
 .wotd-strip--ambient .wotd-label,
 .wotd-strip--ambient .wotd-term { color: var(--text-4); }
 
-/* ── THREAT INTEL PANEL ── */
-.threat-map-section {
-  border-top: 0.5px solid var(--border);
-}
-.threat-map-header {
-  padding: 10px 40px;
-  background: var(--surface);
-  border-bottom: 0.5px solid var(--border);
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-.threat-map-title { font-size: 13px; font-weight: 500; color: var(--text); }
-.threat-map-note  { font-size: 12px; color: var(--text-3); font-style: italic; }
-.threat-map-close {
-  margin-left: auto;
-  font-family: inherit;
-  font-size: 12px;
-  padding: 5px 14px;
-  border: 0.5px solid var(--border2);
-  border-radius: 20px;
-  background: transparent;
-  color: var(--text-3);
-  cursor: pointer;
-}
-.threat-map-close:hover { color: var(--crit); border-color: var(--crit); }
-.threat-intel-grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 0;
-  background: var(--bg);
-}
-.threat-intel-card {
-  display: flex;
-  gap: 14px;
-  padding: 24px 28px;
-  border-right: 0.5px solid var(--border);
-  border-bottom: 0.5px solid var(--border);
-  text-decoration: none;
-  color: inherit;
-  transition: background 0.12s;
-  align-items: flex-start;
-}
-.threat-intel-card:last-child { border-right: none; }
-.threat-intel-card:hover { background: var(--surface); }
-.tic-logo {
-  flex-shrink: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2px;
-}
-.tic-body { flex: 1; min-width: 0; }
-.tic-name {
-  font-size: 13px;
-  font-weight: 600;
-  color: var(--text);
-  line-height: 1.4;
-  margin-bottom: 6px;
-}
-.tic-desc {
-  font-size: 12px;
-  color: var(--text-3);
-  line-height: 1.6;
-  margin-bottom: 8px;
-}
-.tic-link {
-  font-size: 11px;
-  font-weight: 500;
-  color: var(--accent);
-  font-family: var(--mono);
-}
-@media (max-width: 900px) {
-  .threat-intel-grid { grid-template-columns: repeat(2, 1fr); }
-  .threat-intel-card:nth-child(2) { border-right: none; }
-}
-@media (max-width: 600px) {
-  .threat-intel-grid { grid-template-columns: 1fr; }
-  .threat-intel-card { border-right: none; }
-}
-
 /* ── RESPONSIVE ── */
 @media (max-width: 960px) {
-  #acsc-link, #threat-map-btn { display: none; }
+  #acsc-link { display: none; }
 }
 @media (max-width: 900px) {
   .tracker-body { grid-template-columns: 1fr; }
   .tracker-col--cve { border-right: none; border-top: 0.5px solid var(--border); min-height: 0; max-height: none; }
   .cve-feed { max-height: 180px; }
   .tracker-header, .tracker-crime,
-  .active-filter-bar, .article, .threat-map-header { padding-left: 20px; padding-right: 20px; }
+  .active-filter-bar, .article { padding-left: 20px; padding-right: 20px; }
+  .crime-groups { grid-template-columns: 1fr; }
   .tracker-col { padding: 18px 20px; }
   .tracker-col--story { border-right: none; border-bottom: 0.5px solid var(--border); }
   .tracker-col--hero { border-right: none; border-bottom: 0.5px solid var(--border); }
@@ -674,4 +627,5 @@ body.threat-map-open .layout { display: none !important; }
 @media (max-width: 480px) {
   .count-num { font-size: 36px; }
   .art-title { font-size: 15px; }
+  .crime-row { grid-template-columns: minmax(120px, 1fr) 1fr 36px; }
 }

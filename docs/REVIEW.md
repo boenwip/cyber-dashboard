@@ -15,10 +15,11 @@ Before any `git push`:
 3. All items must be ✓ or N/A before committing
 4. If something fails, fix it, re-run the automated audit, then re-check
 
-For code changes, run the automated audit first:
+For code changes, run the automated checks first (CI runs the same on every push/PR):
 
 ```bash
-python3 audit.py
+python3 -m pytest tests
+python3 scripts/audit.py
 ```
 
 Then work through the human lenses.
@@ -38,7 +39,7 @@ Then work through the human lenses.
 - [ ] Is the mobile layout usable on a phone?
 - [ ] Are all external links opening in a new tab?
 - [ ] Is the word of the day showing a real term, not a dash?
-- [ ] Is the scam callout either hidden or showing real content (never showing "—")?
+- [ ] Are the ACSC alert and scam callouts either hidden or showing real content?
 
 **Fail conditions:** anything that would make a non-technical person think the site is broken.
 
@@ -49,7 +50,7 @@ Then work through the human lenses.
 *Imagine someone evaluating this as a product or portfolio piece. They spend 30 seconds on it.*
 
 - [ ] Does the branding look intentional and consistent across all pages?
-- [ ] Are the statistics accurate and sourced?
+- [ ] Are the statistics accurate, sourced, and labelled with the right measure (e.g. per individual vs overall)?
 - [ ] Does the live tracker convey urgency and relevance?
 - [ ] Is the value proposition clear without needing to scroll?
 - [ ] Does "Today's Story" (when present) read as credible and relevant?
@@ -67,24 +68,22 @@ Then work through the human lenses.
 *Code quality, correctness, and maintainability.*
 
 **HTML**
-- [ ] All pages have DOCTYPE, lang="en", meta description, favicon
-- [ ] No inline `<style>` or `<script>` blocks
-- [ ] All external links have `rel="noopener noreferrer"` and `target="_blank"`
-- [ ] ARIA labels on interactive elements
-- [ ] `aria-live` on dynamic content regions
+- [ ] All pages have DOCTYPE, lang="en", meta description, canonical, favicon (audit checks)
+- [ ] The only inline script is the `<head>` theme snippet, and its hash is in the CSP (audit checks)
+- [ ] All external links have `rel="noopener noreferrer"` and `target="_blank"` (audit checks)
+- [ ] Interactive things are real `<button>`s / `<a>`s — no clickable spans, no buttons inside links
+- [ ] `aria-live` only on regions that change because of the user — never on something that updates on a timer
 - [ ] Scripts loaded at end of body, in correct order (shared.js → definitions.js → page.js)
 
 **CSS**
-- [ ] All CSS files have balanced braces (run `audit.py` to verify)
-- [ ] No hardcoded pixel values that should be CSS variables
+- [ ] No `@import` or third-party URLs (audit checks)
+- [ ] Colours come from theme tokens, so they work in both themes
 - [ ] No dead selectors referencing removed elements
 - [ ] Mobile breakpoints tested at 768px and 480px
 
 **JavaScript**
-- [ ] No backticks (GitHub Pages truncation risk)
-- [ ] All braces and parens balanced
-- [ ] All dynamic content HTML-escaped before insertion (`replace(/</g,'&lt;')`)
-- [ ] All external `href` values validated (`indexOf('http') === 0`)
+- [ ] Every value from `data/*.json` goes through `esc()` (text) or `safeUrl()` (links) before it reaches an HTML string
+- [ ] Prefer `textContent` over `innerHTML` when there is no markup
 - [ ] `DOMContentLoaded` wraps all init calls
 - [ ] No `eval()`, no `document.write()`
 - [ ] Graceful error handling on all `fetch()` calls
@@ -92,9 +91,9 @@ Then work through the human lenses.
 
 **Python**
 - [ ] Syntax valid (`python3 -c "import ast; ast.parse(open('fetch_cyber_news.py').read())"`)
-- [ ] All timestamps use AEST offset (`datetime.timezone(datetime.timedelta(hours=10))`)
-- [ ] No bare `datetime.datetime.now()` for displayed timestamps
-- [ ] API key loaded from environment, never hardcoded
+- [ ] Stored dates are ISO 8601 UTC — never a fixed +10 offset (Sydney has daylight saving)
+- [ ] Feed text is stored as plain text (`strip_html()`), never HTML
+- [ ] New filtering/tagging behaviour has a test in `tests/`
 - [ ] All HTTP requests have timeout and User-Agent set
 
 **Fail conditions:** any syntax error, unbalanced brackets, or security issue.
@@ -109,7 +108,7 @@ Then work through the human lenses.
 - [ ] The most important information is visually dominant — not buried
 - [ ] Section labels are visually subordinate to their content
 - [ ] Font sizes create a clear hierarchy (display → heading → body → meta)
-- [ ] Colour is used to convey meaning consistently (red = critical, amber = high, green = safe)
+- [ ] Severity colours only appear where a real source gave a severity (ACSC alerts) — never guessed
 
 **Spacing and layout**
 - [ ] Consistent horizontal padding throughout (40px desktop, 20px mobile)
@@ -122,13 +121,12 @@ Then work through the human lenses.
 - [ ] Tags on articles respond visibly when clicked
 - [ ] Active filters are visible and dismissible with one click
 - [ ] The theme toggle is reachable and labelled
-- [ ] The threat map toggle shows/hides cleanly
 
 **Typography**
 - [ ] Body text is readable at current size (no smaller than 13px for secondary text)
 - [ ] Monospace font (Hack) used only for technical content — CVE IDs, timestamps, stats
 - [ ] Inter used consistently for all body text, headings, and UI labels
-- [ ] No text is invisible against its background (WCAG AA: 4.5:1 minimum)
+- [ ] Text tokens meet WCAG AA 4.5:1 on every surface (audit checks)
 
 **Empty and loading states**
 - [ ] No panel shows "Loading..." permanently — all panels hide gracefully if data is absent
@@ -151,30 +149,24 @@ Then work through the human lenses.
 *Security, deployment integrity, and automation reliability.*
 
 **Secrets and credentials**
-- [ ] No API keys in any HTML, CSS, JS, or committed files
-- [ ] `ANTHROPIC_API_KEY` loaded from GitHub Actions secret only
-- [ ] No sensitive information in git history
+- [ ] No secrets in any committed file (the pipeline needs none)
+- [ ] Workflows declare least-privilege `permissions:` and pin actions to commit SHAs
 
 **Content security**
-- [ ] All user-facing dynamic content is HTML-escaped
-- [ ] iframe has `sandbox`, `loading="lazy"`, `referrerpolicy="no-referrer"`
-- [ ] No `eval()` in any JavaScript
+- [ ] CSP has no `'unsafe-inline'` in `script-src` and no duplicate directives (audit checks)
+- [ ] No new third-party hosts — if one is truly needed, add it to the CSP deliberately
+- [ ] No `eval()` in any JavaScript (audit checks)
 
 **Deployment**
-- [ ] `shared.css` and `shared.js` are committed to the repo (not just local)
-- [ ] `pseudosec.png` is committed to the repo
-- [ ] All new files referenced in HTML are committed
-- [ ] `briefing.json` exists in repo (even if placeholder)
-- [ ] Workflow file uses `--force-with-lease`
-- [ ] Workflow adds `briefing.json` to committed files
+- [ ] All files referenced in HTML exist (audit checks local links and assets)
+- [ ] The fetch workflow rebases and pushes — never force-pushes
 - [ ] GitHub Pages source is set to root of `main` branch
 
 **JSON data files**
 - [ ] `news.json` is present and not empty
 - [ ] `cve.json` is present and not empty
 - [ ] `tool_updates.json` is present and not empty
-- [ ] `briefing.json` is present (placeholder acceptable)
-- [ ] Timestamps in all JSON files are in AEST, not UTC
+- [ ] Dates in all JSON files are ISO 8601 UTC (audit checks)
 
 **Fail conditions:** any exposed secret, missing file, or broken deployment.
 
@@ -185,10 +177,11 @@ Then work through the human lenses.
 Run before every ship:
 
 ```bash
-python3 audit.py
+python3 -m pytest tests
+python3 scripts/audit.py
 ```
 
-This checks: braces balanced, dollar signs present, script load order, noopener, ARIA, backticks, XSS escaping, logo transparency, and Python syntax. All checks must pass before proceeding to human lenses.
+`tests/` covers the pipeline (blocklist, ACSC handling, tagging, sanitising, dates, KEV). `audit.py` covers the site (local links, CSP and inline-script hash, no third-party hosts, AA contrast from the real tokens, data schema). Both must pass before the human lenses.
 
 ---
 

@@ -1,22 +1,29 @@
 # fetch_cyber_news.py
 # -------------------------------------------------------
-# Fetches news from RSS feeds, tags each article,
-# and saves two separate JSON files:
-#   - news.json         (Zone 1: Cyber & Sector news)
-#   - tool_updates.json (Zone 2: Tool product updates)
+# Fetches news from RSS feeds, tags each article, and saves:
+#   - data/news.json         (Zone 1: Cyber & Sector news)
+#   - data/tool_updates.json (Zone 2: Tool product updates)
+#   - data/cve.json          (CISA Known Exploited Vulnerabilities)
+#   - data/briefing.json     (Featured "Today's Story")
+# All dates are stored as ISO 8601 UTC; the browser formats them
+# in Australia/Sydney time.
 #
 # HOW TO RUN:
 #   1. Install required library (only once):
 #      pip install feedparser
-#   2. Run:
-#      python fetch_cyber_news.py
+#   2. Run from the repo root:
+#      python scripts/fetch_cyber_news.py
 # -------------------------------------------------------
 
 import feedparser
 import json
 import datetime
+import email.utils
+import html
+import re
 import urllib.request
 import urllib.error
+import urllib.parse
 import socket
 
 
@@ -71,20 +78,23 @@ BLOCKED_TITLE_KEYWORDS = [
     "bachelor", "bachelorette", "reality tv", "kardashian", "taylor swift",
 ]
 
+def host_matches(link, domains):
+    """True if the link's hostname is one of `domains` or a subdomain of one.
+    Matching on the parsed hostname (not a substring of the URL) matters:
+    "news.com.au" must not match "itnews.com.au"."""
+    try:
+        host = (urllib.parse.urlparse(link).hostname or "").lower()
+    except ValueError:
+        return False
+    return any(host == d or host.endswith("." + d) for d in domains)
+
+
 def is_blocked(link, title=""):
     """Return True if the article should be excluded based on source domain or title keywords."""
-    if not link:
-        return False
-    link_lower = link.lower()
-    for domain in BLOCKED_DOMAINS:
-        if domain in link_lower:
-            return True
-    # Block irrelevant title content regardless of source
+    if link and host_matches(link, BLOCKED_DOMAINS):
+        return True
     title_lower = title.lower()
-    for kw in BLOCKED_TITLE_KEYWORDS:
-        if kw in title_lower:
-            return True
-    return False
+    return any(kw in title_lower for kw in BLOCKED_TITLE_KEYWORDS)
 
 
 # -------------------------------------------------------
@@ -101,7 +111,7 @@ def is_blocked(link, title=""):
 APPROVED_DOMAINS = {
     # Government / authoritative
     "scamwatch.gov.au", "cyber.gov.au", "asd.gov.au", "cisa.gov",
-    "asqa.gov.au", "employment.gov.au", "education.gov.au",
+    "oaic.gov.au", "accc.gov.au",
     # Specialist AU cyber / tech press
     "cyberdaily.au", "australiancybersecuritymagazine.com.au",
     "securitybrief.com.au", "itnews.com.au", "zdnet.com",
@@ -113,21 +123,22 @@ APPROVED_DOMAINS = {
     "darkreading.com", "404media.co", "theregister.com",
     "arstechnica.com", "wired.com", "bleepingcomputer.com",
     "threatpost.com", "securityweek.com", "infosecurity-magazine.com",
-    # Education / VET sector
-    "tafequensland.edu.au", "tafensw.edu.au", "iteca.edu.au",
-    "ncver.edu.au", "skillsignited.gov.au",
 }
 
 
 NEWS_FEEDS = [
     # ── Government & Official ──
+    # "official": always included and tagged AU Cyber, whatever the keywords say.
+    # These are the only items that carry a threat level (see official_threat()).
     {
         "name": "ACSC Alerts",
-        "url": "https://www.cyber.gov.au/rss/alerts"
+        "url": "https://www.cyber.gov.au/rss/alerts",
+        "official": True,
     },
     {
         "name": "ACSC Advisories",
-        "url": "https://www.cyber.gov.au/rss/advisories"
+        "url": "https://www.cyber.gov.au/rss/advisories",
+        "official": True,
     },
     {
         "name": "Google News — ScamWatch",
@@ -182,10 +193,6 @@ NEWS_FEEDS = [
     {
         "name": "Google News — The Register AU",
         "url": "https://news.google.com/rss/search?q=site:theregister.com+australia&hl=en-AU&gl=AU&ceid=AU:en"
-    },
-    {
-        "name": "Google News — ASQA / RTO",
-        "url": "https://news.google.com/rss/search?q=site:asqa.gov.au+OR+site:iteca.edu.au&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — Privacy & Compliance AU",
@@ -253,67 +260,10 @@ TOPIC_TAG_RULES = [
         "keywords": [
             "acsc", "asd", "cyber.gov", "auscert",
             "critical infrastructure", "ransomware",
-            "phishing", "data breach", "vulnerability", "cve",
+            "phishing", "data breach", "vulnerability", "vulnerabilities", "cve",
             "malware", "threat actor", "exploit", "security patch",
             "security incident", "compromise", "security advisory",
             "cyber attack", "cyberwarfare", "cybercrime",
-        ]
-    },
-    {
-        "tag": "RTO / VET",
-        "keywords": [
-            # Core sector identifiers
-            "rto", "vet sector", "vocational education", "vocational training",
-            "asqa", "tafe", "tafe queensland", "tafe nsw", "tafe sa",
-            "tafe victoria", "tafe wa", "tafe tasmania",
-            "training provider", "registered training organisation",
-            "independent training provider", "private training",
-            # Qualifications and frameworks
-            "apprentice", "traineeship", "qualification",
-            "certificate iii", "certificate iv", "diploma",
-            "advanced diploma", "aqf", "australian qualifications framework",
-            "training package", "unit of competency", "competency based",
-            "nationally recognised training", "nrt",
-            # Regulatory and policy
-            "standards for rtos", "2025 standards", "vet quality framework",
-            "national training", "vet quality", "training organisation",
-            "skills australia", "jobs and skills australia",
-            "department of employment", "jobs and skills",
-            "ncver", "national centre for vocational education",
-            "iteca", "independent tertiary education",
-            "training.gov.au", "skills insight",
-            # Funding and policy
-            "fee-free tafe", "fee free tafe", "vet funding",
-            "skills reform", "skills minister", "skills shortage australia",
-            "workforce development", "workforce skills",
-            "apprenticeship incentive", "traineeship incentive",
-            "vet student loans", "vsl",
-            # International students in VET
-            "cricos", "international student", "student visa",
-            "esos", "education services overseas",
-            # Sector issues
-            "vet provider", "college registration", "rto registration",
-            "rto compliance", "rto audit", "asqa audit",
-            "rto cancellation", "rto deregistration",
-            "fake qualification", "certificate fraud",
-        ]
-    },
-    {
-        "tag": "Education",
-        "keywords": [
-            "education", "school", "university", "student",
-            "teacher", "learning", "campus", "higher education",
-            "k-12", "classroom", "curriculum",
-        ]
-    },
-    {
-        "tag": "EdTech",
-        "keywords": [
-            "edtech", "learning management", "lms", "canvas", "moodle",
-            "online learning", "e-learning", "elearning", "digital learning",
-            "learning platform", "virtual classroom", "learning technology",
-            "instructional technology", "digital education",
-            "ai in education", "ai in training", "generative ai learning",
         ]
     },
     {
@@ -351,179 +301,94 @@ TOPIC_TAG_RULES = [
 
 
 # -------------------------------------------------------
-# TAGGING RULES — THREAT LEVEL
-# First match wins (most severe first)
+# THREAT LEVEL — official sources only
+# ACSC alert titles carry their own severity ("CRITICAL ALERT: ...",
+# "HIGH ALERT: ..."). Every other article gets no threat level: guessing
+# severity from words like "critical" or "risk" in a headline mislabels
+# product launches and podcasts as critical threats.
 # -------------------------------------------------------
 
-THREAT_LEVEL_RULES = [
-    {
-        "level": "Critical",
-        "keywords": [
-            "critical", "high alert", "active exploitation",
-            "actively exploited", "patch immediately", "zero-day",
-            "zero day", "emergency", "ransomware attack",
-            "data breach confirmed", "systems compromised",
-        ]
-    },
-    {
-        "level": "High",
-        "keywords": [
-            "high", "urgent", "severe", "significant vulnerability",
-            "strongly recommended", "targeted attack", "nation state",
-            "state-sponsored", "supply chain attack",
-        ]
-    },
-    {
-        "level": "Medium",
-        "keywords": [
-            "medium", "moderate", "warning", "risk", "threat",
-            "vulnerability", "exposure", "weaknesses", "flaw",
-        ]
-    },
-    {
-        "level": "Advisory",
-        "keywords": [
-            "advisory", "guidance", "awareness", "recommended practice",
-            "best practice", "reminder", "update", "information",
-        ]
-    },
-]
+ACSC_PREFIX = re.compile(r"^\s*(CRITICAL|HIGH|MEDIUM|MODERATE|LOW)\s+ALERT\s*[:\-–]\s*", re.I)
+
+
+def official_threat(title):
+    """Return (threat_level, title_without_prefix) for an ACSC alert/advisory."""
+    m = ACSC_PREFIX.match(title)
+    if not m:
+        return "Advisory", title
+    level = m.group(1).capitalize()
+    if level == "Moderate":
+        level = "Medium"
+    return level, title[m.end():].strip()
 
 
 # -------------------------------------------------------
-# TAGGING RULES — AUDIENCE
-# An article can match multiple audience tags
+# HELPER: Dates
+# Stored as ISO 8601 UTC ("2026-09-25T00:05:00Z"). The browser formats them
+# in Australia/Sydney time, so daylight saving is handled correctly.
 # -------------------------------------------------------
 
-AUDIENCE_RULES = [
-    {
-        "audience": "Critical Infra",
-        "keywords": [
-            "critical infrastructure", "energy", "power grid", "water",
-            "hospital", "health system", "transport", "telecommunications",
-            "telco", "defence", "government network", "operational technology",
-            "ot security", "scada", "industrial control",
-        ]
-    },
-    {
-        "audience": "Enterprise",
-        "keywords": [
-            "enterprise", "corporate", "organisation", "corporation",
-            "asx", "listed company", "financial services", "bank",
-            "insurance", "qantas", "optus", "medibank", "telstra",
-            "supply chain", "third party", "managed service",
-        ]
-    },
-    {
-        "audience": "SMB",
-        "keywords": [
-            "small business", "medium business", "smb", "sme",
-            "rto", "tafe", "training provider", "school", "charity",
-            "not-for-profit", "local government", "council",
-        ]
-    },
-    {
-        "audience": "Consumer",
-        "keywords": [
-            "consumer", "personal", "individual", "customer data",
-            "scam", "fraud", "identity theft", "credit card",
-            "bank account", "mygovid", "mygov", "medicare",
-            "tax office", "ato", "social media", "phishing email",
-        ]
-    },
-]
+def iso_utc(dt):
+    return dt.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-# -------------------------------------------------------
-# TAGGING RULES — RELEVANCE
-# How directly applicable is this to your RTO context?
-# First match wins (most specific to least specific)
-# Falls back to "Global" if nothing matches
-# -------------------------------------------------------
+def now_iso():
+    return iso_utc(datetime.datetime.now(datetime.timezone.utc))
 
-RELEVANCE_RULES = [
-    {
-        "relevance": "Direct",
-        "keywords": [
-            "rto", "asqa", "tafe", "registered training",
-            "training provider", "vet sector", "vocational",
-            "training organisation", "2025 standards",
-            "training package", "national training",
-            "apprentice", "traineeship", "iteca",
-            "ncver", "training.gov.au", "skills insight",
-            "fee-free tafe", "fee free tafe", "vet funding",
-            "certificate iii", "certificate iv",
-            "aqf", "cricos", "esos", "vet student loans",
-            "rto compliance", "rto audit", "rto registration",
-            "competency based", "nationally recognised training",
-            "skills reform", "jobs and skills australia",
-        ]
-    },
-    {
-        "relevance": "Sector",
-        "keywords": [
-            "education", "school", "university", "campus",
-            "student data", "learning management", "edtech",
-            "higher education", "skills australia",
-        ]
-    },
-    {
-        "relevance": "AU General",
-        "keywords": [
-            "australia", "australian", "acsc", "asd",
-            "auscert", "medibank", "optus", "telstra", "qantas",
-            "mygovid", "mygov", "ato", "medicare",
-            "critical infrastructure",
-        ]
-    },
-]
-
-
-# -------------------------------------------------------
-# HELPER: Parse a date from an RSS entry
-# RSS feeds use inconsistent date formats, so we try
-# a few approaches and fall back gracefully
-# Date formatted as DD-MM-YYYY HH:MM AM/PM (AEST)
-# -------------------------------------------------------
 
 def parse_date(entry):
-    """Parse feed entry date, always return as AEST formatted string DD-MM-YYYY HH:MM AM/PM"""
-    AEST_OFFSET = datetime.timezone(datetime.timedelta(hours=10))
+    """Return the entry's publish/update time as ISO 8601 UTC, or "" if unknown."""
+    for key in ("published_parsed", "updated_parsed"):
+        parsed = entry.get(key)
+        if parsed:
+            try:
+                return iso_utc(datetime.datetime(*parsed[:6], tzinfo=datetime.timezone.utc))
+            except (TypeError, ValueError):
+                pass
+    for key in ("published", "updated"):
+        raw = entry.get(key)
+        if raw:
+            try:
+                dt = email.utils.parsedate_to_datetime(raw)
+                if dt.tzinfo is None:
+                    dt = dt.replace(tzinfo=datetime.timezone.utc)
+                return iso_utc(dt)
+            except (TypeError, ValueError):
+                pass
+    return ""
 
-    if hasattr(entry, "published_parsed") and entry.published_parsed:
-        try:
-            # published_parsed is UTC — convert to AEST
-            dt_utc = datetime.datetime(*entry.published_parsed[:6], tzinfo=datetime.timezone.utc)
-            dt_aest = dt_utc.astimezone(AEST_OFFSET)
-            return dt_aest.strftime("%d-%m-%Y %I:%M %p")
-        except Exception:
-            pass
 
-    if hasattr(entry, "published") and entry.published:
-        try:
-            # Try to parse the raw string and convert
-            import email.utils
-            parsed = email.utils.parsedate_to_datetime(entry.published)
-            dt_aest = parsed.astimezone(AEST_OFFSET)
-            return dt_aest.strftime("%d-%m-%Y %I:%M %p")
-        except Exception:
-            return entry.published
-
-    return datetime.datetime.now(AEST_OFFSET).strftime("%d-%m-%Y %I:%M %p")
+def parse_iso(value):
+    """Parse our ISO format back to an aware datetime; None if missing/invalid."""
+    try:
+        return datetime.datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+    except (TypeError, ValueError):
+        return None
 
 
 # -------------------------------------------------------
-# HELPER: Strip HTML tags from a string (for Google News summaries)
+# HELPER: Convert feed HTML to plain text
+# Output is plain text only. Entities are decoded exactly once, after tags
+# are removed, and the browser escapes everything on render, so no markup
+# from a feed can reach the page as HTML.
 # -------------------------------------------------------
 
 def strip_html(text):
-    """Remove HTML tags and decode common entities."""
-    import re as _re
-    text = _re.sub(r'<[^>]+>', '', text)
-    text = text.replace('&amp;', '&').replace('&lt;', '<').replace('&gt;', '>') \
-               .replace('&nbsp;', ' ').replace('&#39;', "'").replace('&apos;', "'") \
-               .replace('&quot;', '"')
-    return ' '.join(text.split()).strip()
+    text = re.sub(r"<[^>]*>", " ", text or "")
+    text = html.unescape(text)
+    return " ".join(text.split())
+
+
+def https_link(link):
+    """Feeds (e.g. Blogger) often publish http:// links; the site only renders https."""
+    link = (link or "").strip()
+    return "https://" + link[7:] if link.lower().startswith("http://") else link
+
+
+def truncate(text, limit):
+    if len(text) <= limit:
+        return text
+    return text[:limit].rsplit(" ", 1)[0].rstrip(" ,.;:") + "…"
 
 
 # -------------------------------------------------------
@@ -551,12 +416,12 @@ def is_approved_gnews(title, source_name):
 # HELPER: Fetch a feed safely with timeout + User-Agent
 # -------------------------------------------------------
 
+USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
+
+
 def fetch_feed(url):
     try:
-        req = urllib.request.Request(
-            url,
-            headers={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"}
-        )
+        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
         with urllib.request.urlopen(req, timeout=10) as response:
             data = response.read()
         return feedparser.parse(data)
@@ -569,113 +434,48 @@ def fetch_feed(url):
 
 
 # -------------------------------------------------------
-# HELPER: Get topic tags (can match multiple)
+# HELPER: Tagging
 # -------------------------------------------------------
+
+def _keyword_regex(keywords):
+    # Whole-word/phrase matching: "ism" must not match "tourism", "ato" must
+    # not match "senator". An optional trailing "s" lets "scam" match "scams";
+    # irregular plurals ("vulnerabilities") need their own entry.
+    alts = "|".join(re.escape(k.lower()) for k in sorted(keywords, key=len, reverse=True))
+    return re.compile(r"(?<![a-z0-9])(?:" + alts + r")s?(?![a-z0-9])")
+
+
+for _rule in TOPIC_TAG_RULES:
+    _rule["regex"] = _keyword_regex(_rule["keywords"])
+
 
 def get_topic_tags(combined):
-    tags = []
-    for rule in TOPIC_TAG_RULES:
-        for keyword in rule["keywords"]:
-            if keyword.lower() in combined:
-                tags.append(rule["tag"])
-                break
-    return tags
-
-
-# -------------------------------------------------------
-# HELPER: Get threat level (first match wins)
-# -------------------------------------------------------
-
-def get_threat_level(combined):
-    for rule in THREAT_LEVEL_RULES:
-        for keyword in rule["keywords"]:
-            if keyword.lower() in combined:
-                return rule["level"]
-    return "Advisory"
-
-
-# -------------------------------------------------------
-# HELPER: Get audience tags (can match multiple)
-# -------------------------------------------------------
-
-def get_audience_tags(combined):
-    audiences = []
-    for rule in AUDIENCE_RULES:
-        for keyword in rule["keywords"]:
-            if keyword.lower() in combined:
-                audiences.append(rule["audience"])
-                break
-    return audiences
-
-
-# -------------------------------------------------------
-# HELPER: Get relevance level (first match wins)
-# Falls back to "Global" if nothing matches
-# -------------------------------------------------------
-
-def get_relevance(combined):
-    for rule in RELEVANCE_RULES:
-        for keyword in rule["keywords"]:
-            if keyword.lower() in combined:
-                return rule["relevance"]
-    return "Global"
+    return [rule["tag"] for rule in TOPIC_TAG_RULES if rule["regex"].search(combined)]
 
 
 # -------------------------------------------------------
 # HELPER: Filter out articles older than N days
-# Keeps your feed current and removes stale Google News results
+# Undated articles are kept (sorted last) rather than silently dropped.
 # -------------------------------------------------------
 
 def filter_old_articles(articles, days=30):
-    import email.utils
-    AEST = datetime.timezone(datetime.timedelta(hours=10))
-    cutoff = datetime.datetime.now(AEST).replace(tzinfo=None) - datetime.timedelta(days=days)
-    filtered = []
+    cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=days)
+    kept = []
     for article in articles:
-        kept = False
-        date_str = article.get("date", "")
+        dt = parse_iso(article.get("date", ""))
+        if dt is None or dt >= cutoff:
+            kept.append(article)
+    return kept
 
-        # Try our formatted DD-MM-YYYY HH:MM AM/PM
-        try:
-            dt = datetime.datetime.strptime(date_str, "%d-%m-%Y %I:%M %p")
-            if dt >= cutoff:
-                filtered.append(article)
-            kept = True
-        except ValueError:
-            pass
 
-        if not kept:
-            # Try raw RSS date string e.g. "Mon, 21 Apr 2025 08:00:00 +0000"
-            try:
-                parsed = email.utils.parsedate(date_str)
-                if parsed:
-                    dt = datetime.datetime(*parsed[:6])
-                    if dt >= cutoff:
-                        filtered.append(article)
-                    kept = True
-            except Exception:
-                pass
-
-        if not kept:
-            # Can't parse date at all — keep it
-            filtered.append(article)
-
-    return filtered
+def sort_newest_first(items):
+    # ISO 8601 UTC strings sort chronologically; "" (undated) sorts last.
+    return sorted(items, key=lambda a: a.get("date") or "", reverse=True)
 
 
 # -------------------------------------------------------
 # HELPER: Deduplicate articles by title similarity
 # -------------------------------------------------------
-
-def _parse_date_for_sort(date_str):
-    """Parse formatted date string for sort key; returns datetime.min on any failure."""
-    if not date_str:
-        return datetime.datetime.min
-    try:
-        return datetime.datetime.strptime(date_str, '%d-%m-%Y %I:%M %p')
-    except (ValueError, TypeError):
-        return datetime.datetime.min
-
 
 def deduplicate(articles):
     seen_titles = []
@@ -704,67 +504,71 @@ def deduplicate(articles):
 # FETCH ZONE 1: News articles
 # -------------------------------------------------------
 
+# Celebrity/entertainment content that slips through topic matching
+TITLE_BLOCKLIST = [
+    "rebel wilson", "kardashian", "celebrity", "actor", "actress",
+    "nude photo", "leaked photo", "snapchat hack celebrity",
+    "reality tv", "influencer", "tiktok star", "youtube star",
+]
+
+# Index/listing pages that Google News returns for site: queries
+LISTING_PAGE = re.compile(r"\b(browse news|news and alerts|alerts and news)\b|\bpage \d+\b", re.I)
+
+
+def build_article(feed, entry):
+    """Turn one feed entry into an article dict, or None if it should be skipped."""
+    title = strip_html(entry.get("title", ""))
+    summary = strip_html(entry.get("summary", ""))
+    link = https_link(entry.get("link", ""))
+    official = feed.get("official", False)
+
+    if not title or title.lower().startswith("sponsored"):
+        return None
+    if is_blocked(link, title):
+        return None
+    if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(title, feed["name"]):
+        return None
+    if any(term in title.lower() for term in TITLE_BLOCKLIST) or LISTING_PAGE.search(title):
+        return None
+
+    combined = (title + " " + summary).lower()
+    topic_tags = get_topic_tags(combined)
+    threat = None
+    if official:
+        threat, title = official_threat(title)
+        if "AU Cyber" not in topic_tags:
+            topic_tags.insert(0, "AU Cyber")
+    if not topic_tags:
+        return None
+
+    article = {
+        "source":    feed["name"],
+        "title":     title,
+        "link":      link,
+        "summary":   truncate(summary, 300),
+        "date":      parse_date(entry),
+        "tags":      topic_tags,
+    }
+    if official:
+        article["official"] = True
+        article["threat"] = threat
+    return article
+
+
 def fetch_news():
     all_articles = []
 
     for feed in NEWS_FEEDS:
         print(f"  Fetching: {feed['name']}...")
         parsed = fetch_feed(feed["url"])
-
-        is_gnews = feed["url"].startswith("https://news.google.com")
-
         for entry in parsed.entries:
-            title    = entry.get("title", "")
-            summary  = strip_html(entry.get("summary", ""))
-            link     = entry.get("link", "")
-            date     = parse_date(entry)
-
-            combined = (title + " " + summary).lower()
-
-            topic_tags = get_topic_tags(combined)
-            threat     = get_threat_level(combined)
-            audiences  = get_audience_tags(combined)
-            relevance  = get_relevance(combined)
-
-            # Skip sponsored content
-            if title.lower().startswith("sponsored"):
-                continue
-
-            # Skip blocked sources
-            if is_blocked(link, title):
-                continue
-
-            # For Google News proxy feeds, only accept approved publishers
-            if is_gnews and not is_approved_gnews(title, feed["name"]):
-                continue
-
-            # Skip celebrity/entertainment content that slips through
-            TITLE_BLOCKLIST = [
-                "rebel wilson", "kardashian", "celebrity", "actor", "actress",
-                "nude photo", "leaked photo", "snapchat hack celebrity",
-                "reality tv", "influencer", "tiktok star", "youtube star",
-            ]
-            if any(term in title.lower() for term in TITLE_BLOCKLIST):
-                continue
-
-            if topic_tags:
-                all_articles.append({
-                    "source":    feed["name"],
-                    "title":     title,
-                    "link":      link,
-                    "summary":   summary[:300],
-                    "date":      date,
-                    "tags":      topic_tags,
-                    "threat":    threat,
-                    "audience":  audiences,
-                    "relevance": relevance,
-                })
+            article = build_article(feed, entry)
+            if article:
+                all_articles.append(article)
 
     all_articles = deduplicate(all_articles)
     all_articles = filter_old_articles(all_articles, days=14)
-    all_articles.sort(key=lambda a: _parse_date_for_sort(a.get('date', '')), reverse=True)
-
-    return all_articles
+    return sort_newest_first(all_articles)
 
 
 # -------------------------------------------------------
@@ -780,203 +584,75 @@ def fetch_tool_updates():
         parsed = fetch_feed(feed["url"])
 
         for entry in parsed.entries[:5]:
-            title   = entry.get("title", "")
-            title_key = title.lower().strip()
-            if title_key in seen_titles:
+            title = strip_html(entry.get("title", ""))
+            title_key = title.lower()
+            if not title or title_key in seen_titles:
                 continue
-            if title_key:
-                seen_titles.add(title_key)
-            link    = entry.get("link", "")
-            summary = strip_html(entry.get("summary", ""))
-            date    = parse_date(entry)
+            seen_titles.add(title_key)
 
             all_updates.append({
                 "source":  feed["name"],
                 "tool":    feed["tool"],
                 "title":   title,
-                "link":    link,
-                "summary": summary[:200],
-                "date":    date,
+                "link":    https_link(entry.get("link", "")),
+                "summary": truncate(strip_html(entry.get("summary", "")), 200),
+                "date":    parse_date(entry),
             })
 
-    all_updates.sort(key=lambda a: _parse_date_for_sort(a.get('date', '')), reverse=True)
-
-    return all_updates
+    return sort_newest_first(all_updates)
 
 
 # -------------------------------------------------------
-# SAVE to JSON
+# FETCH: CISA Known Exploited Vulnerabilities
+# KEV has no severity score, so none is invented here. What it does have
+# (ransomware use, and CISA's remediation deadline) is passed through as-is.
 # -------------------------------------------------------
 
-def fetch_cves():
-    """Fetch 4 most recently added CVEs from CISA Known Exploited Vulnerabilities catalog.
-    Primary: CISA KEV JSON (authoritative, no key required)
-    Fallback: GitHub mirror of same data
-    """
-    AEST = datetime.timezone(datetime.timedelta(hours=10))
-    cves = []
+KEV_SOURCES = [
+    "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+    "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
+]
 
-    sources = [
-        "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
-        "https://raw.githubusercontent.com/cisagov/kev-data/main/known_exploited_vulnerabilities.json",
-    ]
 
-    for url in sources:
+def kev_item(v):
+    cve_id = v.get("cveID", "")
+    vendor = (v.get("vendorProject") or "").strip()
+    product = (v.get("product") or "").strip()
+    desc = (v.get("shortDescription") or v.get("vulnerabilityName") or "").strip()
+    return {
+        "id":          cve_id,
+        "name":        " ".join(x for x in (vendor, product) if x),
+        "description": truncate(desc, 200),
+        "date_added":  v.get("dateAdded", ""),
+        "due_date":    v.get("dueDate", ""),
+        "ransomware":  v.get("knownRansomwareCampaignUse", "Unknown"),
+        "link":        "https://nvd.nist.gov/vuln/detail/" + cve_id,
+    }
+
+
+def fetch_cves(limit=10):
+    """Return the `limit` most recently added entries in the CISA KEV catalog."""
+    for url in KEV_SOURCES:
         try:
-            req = urllib.request.Request(url, headers={
-                'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36',
-                'Accept': 'application/json'
-            })
-            resp = urllib.request.urlopen(req, timeout=10)
-            data = json.loads(resp.read().decode())
-            vulns = data.get('vulnerabilities', [])
-
-            # Sort by dateAdded descending — most recently added first
-            vulns.sort(key=lambda x: x.get('dateAdded', '0000-00-00'), reverse=True)
-
-            for v in vulns[:10]:
-                try:
-                    cve_id = v.get('cveID', '')
-                    name = v.get('vulnerabilityName', '')
-                    desc = v.get('shortDescription', '') or name
-                    vendor = v.get('vendorProject', '')
-                    product = v.get('product', '')
-                    date_added = v.get('dateAdded', '')
-                    ransomware = v.get('knownRansomwareCampaignUse', 'Unknown')
-                    link = 'https://nvd.nist.gov/vuln/detail/' + cve_id
-
-                    # Build concise description
-                    full_desc = desc[:200] if desc else name
-                    if vendor and product:
-                        full_desc = vendor + ' ' + product + ' — ' + full_desc
-
-                    cves.append({
-                        'id': cve_id,
-                        'description': full_desc,
-                        'score': None,
-                        'severity': 'CRITICAL' if ransomware == 'Known' else 'HIGH',
-                        'published': date_added,
-                        'link': link,
-                        'vendor': vendor,
-                        'product': product,
-                        'ransomware': ransomware,
-                    })
-                except Exception:
-                    continue
-
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT, "Accept": "application/json"})
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                data = json.loads(resp.read().decode("utf-8"))
+            vulns = data.get("vulnerabilities", [])
+            vulns.sort(key=lambda x: x.get("dateAdded", ""), reverse=True)
+            cves = [kev_item(v) for v in vulns[:limit] if v.get("cveID")]
             if cves:
                 print(f"    Fetched {len(cves)} CVEs from CISA KEV")
                 return cves
-
         except Exception as e:
             print(f"    KEV source failed ({url[:50]}): {e}")
-            continue
 
     print("    All CVE sources failed")
     return []
 
 
-def save_json(data, filename):
-    if isinstance(data, list):
-        count = len(data)
-    elif isinstance(data, dict) and isinstance(data.get('items'), list):
-        count = len(data['items'])
-    else:
-        count = 0
-    output = {
-        "last_updated": datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=10))).strftime("%d-%m-%Y %I:%M %p"),
-        "count":        count,
-        "items":        data,
-    }
-    with open(filename, "w") as f:
-        json.dump(output, f, indent=2)
-    print(f"  Saved {count} items to {filename}")
-
-
 # -------------------------------------------------------
-# RUN
+# FEATURED STORY
 # -------------------------------------------------------
-
-
-def generate_briefing(articles):
-    """Generate AI daily briefing using Anthropic API. Requires ANTHROPIC_API_KEY env var."""
-    import os, json, urllib.request, urllib.error, datetime
-
-    api_key = os.environ.get('ANTHROPIC_API_KEY', '')
-    if not api_key:
-        print("    No ANTHROPIC_API_KEY — skipping briefing generation")
-        return None
-
-    AEST = datetime.timezone(datetime.timedelta(hours=10))
-    today = datetime.datetime.now(AEST).strftime('%d %B %Y')
-
-    # Get most recent articles, deduplicated by topic cluster
-    # articles already sorted chronologically by fetch_news() — preserve that order
-    recent = [a for a in articles if a.get('date')]
-
-    # Simple dedup — skip articles whose title is 80%+ similar to one already included
-    seen_words = []
-    deduped = []
-    for a in recent[:40]:
-        words = set((a.get('title') or '').lower().split())
-        if not words: continue
-        is_dup = any(len(words & s) / max(len(words), len(s)) > 0.7 for s in seen_words)
-        if not is_dup:
-            deduped.append(a)
-            seen_words.append(words)
-        if len(deduped) >= 8:
-            break
-
-    if not deduped:
-        return None
-
-    articles_text = '\n'.join([
-        f"- [{a.get('source','')}] {a.get('title','')} ({a.get('date','')})"
-        for a in deduped
-    ])
-
-    prompt = f"""You are writing a daily cyber security briefing for Australian staff at a registered training organisation. Today is {today} AEST.
-
-Based on the following recent articles, write a 1-2 paragraph plain English briefing (80-100 words maximum).
-- Focus only on what is directly relevant to Australian organisations or individuals
-- Use clear, non-technical language suitable for non-security professionals
-- Do not repeat the same story twice
-- Do not make up or embellish facts
-- End with one short practical tip
-
-Articles:
-{articles_text}
-
-Write the briefing now. No title, no sign-off — just 1-2 short paragraphs."""
-
-    payload = json.dumps({
-        "model": "claude-sonnet-4-6",
-        "max_tokens": 200,
-        "messages": [{"role": "user", "content": prompt}]
-    }).encode()
-
-    req = urllib.request.Request(
-        "https://api.anthropic.com/v1/messages",
-        data=payload,
-        headers={
-            "x-api-key": api_key,
-            "anthropic-version": "2023-06-01",
-            "content-type": "application/json"
-        },
-        method="POST"
-    )
-
-    try:
-        resp = urllib.request.urlopen(req, timeout=30)
-        result = json.loads(resp.read().decode())
-        briefing_text = result.get("content", [{}])[0].get("text", "").strip()
-        if briefing_text:
-            print(f"    AI briefing generated ({len(briefing_text)} chars)")
-            return briefing_text
-    except Exception as e:
-        print(f"    Briefing generation failed: {e}")
-
-    return None
 
 TRENDING_STOPWORDS = {
     'the', 'a', 'an', 'to', 'of', 'in', 'on', 'for', 'and', 'or', 'is', 'are',
@@ -1026,10 +702,6 @@ def select_trending_article(articles):
     best = candidates[best_idx] if best_count > 1 else articles[0]
     source_count = best_count if best_count > 1 else 1
 
-    summary = best.get('summary', '') or ''
-    if len(summary) > 140:
-        summary = summary[:140].rstrip() + '…'
-
     print('    Featured: {}... ({} source{})'.format(
         best.get('title', '')[:60], source_count, '' if source_count == 1 else 's'
     ))
@@ -1039,9 +711,39 @@ def select_trending_article(articles):
         'link':         best.get('link', ''),
         'source':       best.get('source', ''),
         'date':         best.get('date', ''),
-        'summary':      summary,
+        'summary':      truncate(best.get('summary', '') or '', 140),
         'source_count': source_count,
     }
+
+
+# -------------------------------------------------------
+# SAVE to JSON
+# -------------------------------------------------------
+
+def save_json(data, filename):
+    count = len(data) if isinstance(data, list) else 0
+    output = {
+        "last_updated": now_iso(),
+        "count":        count,
+        "items":        data,
+    }
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(output, f, indent=2, ensure_ascii=False)
+        f.write("\n")
+    print(f"  Saved {count} items to {filename}")
+
+
+# -------------------------------------------------------
+# RUN
+# -------------------------------------------------------
+
+def print_breakdown(label, values, order=None):
+    counts = {}
+    for v in values:
+        counts[v] = counts.get(v, 0) + 1
+    print(f"\n--- {label} ---")
+    for key in (order or counts):
+        print(f"  {key}: {counts.get(key, 0)} articles")
 
 
 if __name__ == "__main__":
@@ -1050,66 +752,17 @@ if __name__ == "__main__":
     save_json(news, "data/news.json")
 
     print("\n=== Fetching tool updates (Zone 2) ===")
-    tools = fetch_tool_updates()
-    save_json(tools, "data/tool_updates.json")
+    save_json(fetch_tool_updates(), "data/tool_updates.json")
 
     print("\n=== Fetching CVEs ===")
-    cves = fetch_cves()
-    if isinstance(cves, dict):
-        cves = cves.get('items', [])
-    save_json(cves, 'data/cve.json')
-
-    print("\n=== Generating AI briefing ===")
-    AEST = datetime.timezone(datetime.timedelta(hours=10))
-    news_list = news if isinstance(news, list) else (news.get('items', []) if isinstance(news, dict) else [])
-    briefing_text = generate_briefing(news_list)
+    save_json(fetch_cves(), "data/cve.json")
 
     print("\n=== Selecting featured article ===")
-    featured = select_trending_article(news_list)
-
-    briefing_data = {
-        'date':      datetime.datetime.now(AEST).strftime('%d %B %Y'),
-        'briefing':  briefing_text or '',
-        'generated': datetime.datetime.now(AEST).strftime('%d-%m-%Y %I:%M %p')
-    }
+    featured = select_trending_article(news)
     if featured:
-        briefing_data['featured'] = featured
-    if briefing_text or featured:
-        save_json(briefing_data, 'data/briefing.json')
-        print("  Briefing saved to data/briefing.json")
-    else:
-        print("  Briefing skipped (no API key or no articles)")
+        save_json({"featured": featured}, "data/briefing.json")
 
-    print("\n--- Tag breakdown ---")
-    tag_counts = {}
-    for article in news:
-        for tag in article["tags"]:
-            tag_counts[tag] = tag_counts.get(tag, 0) + 1
-    for tag, count in tag_counts.items():
-        print(f"  {tag}: {count} articles")
-
-    print("\n--- Threat level breakdown ---")
-    threat_counts = {}
-    for article in news:
-        t = article["threat"]
-        threat_counts[t] = threat_counts.get(t, 0) + 1
-    for level in ["Critical", "High", "Medium", "Advisory"]:
-        print(f"  {level}: {threat_counts.get(level, 0)} articles")
-
-    print("\n--- Audience breakdown ---")
-    audience_counts = {}
-    for article in news:
-        for a in article["audience"]:
-            audience_counts[a] = audience_counts.get(a, 0) + 1
-    for audience, count in audience_counts.items():
-        print(f"  {audience}: {count} articles")
-
-    print("\n--- Relevance breakdown ---")
-    relevance_counts = {}
-    for article in news:
-        r = article.get("relevance", "Global")
-        relevance_counts[r] = relevance_counts.get(r, 0) + 1
-    for level in ["Direct", "Sector", "AU General", "Global"]:
-        print(f"  {level}: {relevance_counts.get(level, 0)} articles")
-
+    print_breakdown("Tag breakdown", [t for a in news for t in a["tags"]])
+    print_breakdown("Official threat levels", [a["threat"] for a in news if a.get("official")],
+                    ["Critical", "High", "Medium", "Low", "Advisory"])
     print("\nDone!")

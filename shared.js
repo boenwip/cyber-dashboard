@@ -1,103 +1,96 @@
 /**
  * shared.js — pseudosec.
- * Theme, nav active state, date utilities, word of the day
- * Load before page-specific scripts.
+ * Theme toggle, nav, escaping, date utilities, word of the day.
+ * Load before page-specific scripts. The initial theme is applied by a
+ * tiny inline script in each page's <head> so there is no flash.
  */
 
-// ── THEME — apply before paint to avoid flash ──────────────
-(function() {
-  try {
-    var t = localStorage.getItem('csi-theme') || 'dark';
-    document.documentElement.setAttribute('data-theme', t);
-  } catch(e) {
-    document.documentElement.setAttribute('data-theme', 'dark');
-  }
-})();
+// ── THEME ──────────────────────────────────────────────────
+function currentTheme() {
+  return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
+}
+
+function syncThemeButton() {
+  var btn = document.getElementById('theme-btn');
+  if (btn) btn.textContent = currentTheme() === 'dark' ? '☀' : '☽';
+}
 
 function toggleTheme() {
-  var cur = document.documentElement.getAttribute('data-theme');
-  var next = cur === 'dark' ? 'light' : 'dark';
+  var next = currentTheme() === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', next);
-  localStorage.setItem('csi-theme', next);
-  var btn = document.getElementById('theme-btn');
-  if (btn) btn.textContent = next === 'dark' ? '\u2600' : '\u263D';
+  try { localStorage.setItem('csi-theme', next); } catch (e) {}
+  syncThemeButton();
 }
 
 // ── NAV ACTIVE STATE ────────────────────────────────────────
 function markActiveNav() {
-  var path = window.location.pathname;
-  var page = path.split('/').pop() || 'index.html';
+  var page = window.location.pathname.split('/').pop() || 'index.html';
   document.querySelectorAll('.nav-link').forEach(function(link) {
     var href = (link.getAttribute('href') || '').split('/').pop();
-    var active = href === page ||
-      (page === '' && href === 'index.html') ||
-      (page === 'dashboard.html' && href === 'index.html');
-    if (active) link.classList.add('nav-link--active');
-    else link.classList.remove('nav-link--active');
+    var active = href === page;
+    link.classList.toggle('nav-link--active', active);
+    if (active) link.setAttribute('aria-current', 'page');
+    else link.removeAttribute('aria-current');
   });
-  var btn = document.getElementById('theme-btn');
-  if (btn) {
-    var saved = localStorage.getItem('csi-theme') || 'dark';
-    btn.textContent = saved === 'dark' ? '\u2600' : '\u263D';
+}
+
+// ── ESCAPING ────────────────────────────────────────────────
+// Every value from data/*.json goes through esc() (text) or safeUrl() (links)
+// before it is placed in an HTML string. Feed content is untrusted.
+function esc(value) {
+  return String(value == null ? '' : value)
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+// Returns an escaped absolute https URL, or '' if the value isn't one.
+function safeUrl(value) {
+  try {
+    var u = new URL(String(value || ''));
+    return u.protocol === 'https:' ? esc(u.href) : '';
+  } catch (e) {
+    return '';
   }
 }
 
-// ── DATE UTILITIES ──────────────────────────────────────────
-function parseArticleDate(dateStr) {
-  if (!dateStr) return new Date(0);
-  try {
-    var m = dateStr.match(/(\d{2})-(\d{2})-(\d{4})\s+(\d{1,2}):(\d{2})\s+(AM|PM)/i);
-    if (m) {
-      var h = parseInt(m[4]);
-      if (m[6].toUpperCase() === 'PM' && h !== 12) h += 12;
-      if (m[6].toUpperCase() === 'AM' && h === 12) h = 0;
-      var iso = m[3]+'-'+m[2]+'-'+m[1]+'T'+(h<10?'0':'')+h+':'+m[5]+':00+10:00';
-      var d = new Date(iso);
-      return isNaN(d) ? new Date(0) : d;
-    }
-  } catch(e) {}
-  return new Date(0);
+// ── DATES ───────────────────────────────────────────────────
+// Data files store ISO 8601 UTC. Display is always Sydney time, so
+// daylight saving (AEDT) is handled by the browser.
+var SYDNEY = 'Australia/Sydney';
+
+function parseDate(value) {
+  if (!value) return null;
+  var d = new Date(value);
+  return isNaN(d) ? null : d;
 }
 
-function formatDateAEST(s) {
-  if (!s) return '';
-  if (/^\d{2}-\d{2}-\d{4}/.test(s)) return s;
-  try {
-    var d = new Date(s);
-    if (isNaN(d)) return s;
-    return d.toLocaleString('en-AU', {
-      timeZone: 'Australia/Sydney',
-      day: '2-digit', month: '2-digit', year: 'numeric',
-      hour: 'numeric', minute: '2-digit', hour12: true
-    });
-  } catch(e) { return s; }
+function formatDate(value, withTime) {
+  var d = parseDate(value);
+  if (!d) return '';
+  var opts = { timeZone: SYDNEY, day: 'numeric', month: 'short' };
+  if (withTime) { opts.hour = 'numeric'; opts.minute = '2-digit'; }
+  return d.toLocaleString('en-AU', opts);
 }
 
-// ── READING TIME ────────────────────────────────────────────
-function readingTime(text) {
-  if (!text) return '';
-  var words = text.trim().split(/\s+/).length;
-  var mins = Math.max(1, Math.ceil(words / 220));
-  return mins + ' min read';
+// Whole days since 1970-01-01 in Sydney's calendar. Every daily rotation
+// (word, tip, blurb) uses this so they all change at Sydney midnight.
+function sydneyDayNumber() {
+  var parts = new Intl.DateTimeFormat('en-CA', {
+    timeZone: SYDNEY, year: 'numeric', month: '2-digit', day: '2-digit'
+  }).format(new Date()).split('-');
+  return Math.floor(Date.UTC(+parts[0], +parts[1] - 1, +parts[2]) / 86400000);
+}
+
+function pickForToday(list) {
+  return list && list.length ? list[sydneyDayNumber() % list.length] : null;
 }
 
 // ── WORD OF THE DAY ─────────────────────────────────────────
-// Deterministic daily pick — same for all users on the same AEST day
-function getWordOfTheDay(terms) {
-  if (!terms || !terms.length) return null;
-  try {
-    // Use UTC+10 offset for AEST — simple, reliable, no locale dependency
-    var nowUtc = Date.now() + (10 * 60 * 60 * 1000);
-    var dayNum = Math.floor(nowUtc / 86400000);
-    return terms[dayNum % terms.length];
-  } catch(e) {
-    return terms[0];
-  }
-}
-
 function renderWotd(terms) {
-  if (!terms || !terms.length) return;
-  var term = getWordOfTheDay(terms);
+  var term = pickForToday(terms);
   if (!term) return;
   var termEl = document.getElementById('wotd-term');
   var defEl  = document.getElementById('wotd-def');
@@ -105,47 +98,6 @@ function renderWotd(terms) {
   if (defEl)  defEl.textContent  = term.short || '';
   var strip = document.getElementById('wotd-strip');
   if (strip) strip.style.opacity = '1';
-}
-
-// ── WEATHER WIDGET ──────────────────────────────────────────
-function weatherIcon(code) {
-  if (!code && code !== 0) return '&#x2601;';
-  if (code === 0) return '&#x2600;';
-  if (code <= 2)  return '&#x26C5;';
-  if (code <= 3)  return '&#x2601;';
-  if (code <= 48) return '&#x1F32B;';
-  if (code <= 67) return '&#x1F327;';
-  if (code <= 77) return '&#x2744;';
-  if (code <= 82) return '&#x1F326;';
-  if (code <= 99) return '&#x26C8;';
-  return '&#x2601;';
-}
-
-function initWeather() {
-  var widget = document.getElementById('weather-widget');
-  if (!widget || !navigator.geolocation) return;
-  navigator.geolocation.getCurrentPosition(
-    function(pos) {
-      var lat = pos.coords.latitude.toFixed(4);
-      var lon = pos.coords.longitude.toFixed(4);
-      var url = 'https://api.open-meteo.com/v1/forecast?' +
-        'latitude=' + lat + '&longitude=' + lon +
-        '&current=temperature_2m,weather_code&temperature_unit=celsius&timezone=auto';
-      fetch(url)
-        .then(function(r) { return r.json(); })
-        .then(function(data) {
-          var cur = data && data.current;
-          if (!cur || cur.temperature_2m === undefined) return;
-          var icon = weatherIcon(cur.weather_code);
-          widget.innerHTML = '<span class="weather-icon">' + icon + '</span>' +
-            '<span class="weather-temp">' + Math.round(cur.temperature_2m) + '&#176;</span>';
-          widget.style.display = 'flex';
-        })
-        .catch(function() {});
-    },
-    function() {},
-    { timeout: 8000, maximumAge: 600000 }
-  );
 }
 
 // ── MOBILE NAV ──────────────────────────────────────────────
@@ -162,7 +114,7 @@ function initMobileNav() {
   function closeNav() {
     nav.classList.remove('site-nav--open');
     toggle.setAttribute('aria-expanded', 'false');
-    toggle.innerHTML = '&#9776;';
+    toggle.textContent = '☰';
   }
 
   toggle.addEventListener('click', function() {
@@ -179,13 +131,20 @@ function initMobileNav() {
       closeNav();
     }
   });
+
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && nav.classList.contains('site-nav--open')) {
+      closeNav();
+      toggle.focus();
+    }
+  });
 }
 
 // ── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
   markActiveNav();
+  syncThemeButton();
   var themeBtn = document.getElementById('theme-btn');
   if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
-  initWeather();
   initMobileNav();
 });

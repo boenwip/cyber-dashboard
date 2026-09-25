@@ -232,7 +232,11 @@
 }
 .ag-tool-name { font-size: 14px; font-weight: 600; color: var(--text); }
 .ag-tool-desc { font-size: 13px; color: var(--text-3); line-height: 1.6; flex: 1; }
-.ag-tool-safe { font-size: 12px; color: var(--text-3); padding-top: 4px; border-top: 0.5px solid var(--border); }
+.ag-tool-safe { font-size: 12px; color: var(--text-3); padding-top: 4px; border-top: 0.5px solid var(--border); line-height: 1.5; }
+.ag-tool-safe + .ag-tool-safe { border-top: none; padding-top: 0; }
+.ag-tool-policy { font-size: 12px; color: var(--accent); text-decoration: none; margin-top: auto; padding-top: 4px; }
+.ag-tool-policy:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ag-tools-note { font-size: 13px; color: var(--text-3); line-height: 1.6; margin-bottom: 14px; max-width: 760px; }
 
 @media (max-width: 900px) {
   .ag-prompt-grid { grid-template-columns: 1fr; }

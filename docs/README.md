@@ -6,7 +6,7 @@
 
 ---
 
-PseudoSec is a cyber security dashboard built for Australians — whether you're a security professional, an IT admin, a small business owner, or just someone who wants to know what's actually happening in the threat landscape without wading through tabloid tech journalism. It pulls from 20+ curated sources, filters out the rubbish, tags everything by topic and threat level, and refreshes automatically throughout the day. No ads. No accounts. No tracking.
+PseudoSec is a cyber security dashboard built for Australians — whether you're a security professional, an IT admin, a small business owner, or just someone who wants to know what's actually happening in the threat landscape without wading through tabloid tech journalism. It pulls from ACSC, CISA and a curated set of security news feeds, filters out the rubbish, tags everything by topic, and refreshes automatically throughout the day. No ads. No accounts. No tracking.
 
 ---
 
@@ -14,10 +14,10 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 | Page | What's on it |
 |---|---|
-| **Dashboard** | Live threat tracker · CVE panel · today's story · scam alert · news feed · tool updates |
+| **Dashboard** | ACSC alert banner · scam alert · cybercrime estimate · exploited CVEs · today's story · news feed · tool updates |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
-| **Resources** | Breach checker · report links · learning resources · security tools |
-| **AI Guide** | Prompt library for everyday work tasks · AI safety rules · per-tool safety ratings |
+| **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
+| **AI Guide** | Prompt library for everyday work tasks · AI safety rules · per-tool data/training summary by plan |
 | **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
 
 `definitions.html` is a redirect stub to `reference.html#glossary` — kept for old links, not a real page.
@@ -26,23 +26,25 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ## Features
 
-**Live cybercrime tracker** — Counts estimated FY2025–26 cybercrime reports in real time, projected from the ACSC rate of 84,700 reports/year. Alongside: avg business loss ($80,850 ↑50%), avg individual loss ($36,633), significant incidents, and hotline calls. All sourced from the ACSC Annual Cyber Threat Report 2024–25.
+**ACSC alert banner** — The newest ACSC Critical or High alert from the last 14 days, shown above everything else. ACSC items are the only ones with a threat level, taken from the ACSC's own title ("CRITICAL ALERT: …").
 
-**CVE panel** — 10 most recently added entries from the CISA Known Exploited Vulnerabilities catalog. Actively exploited only — not CVSS-scored CVEs from 1999. Ransomware-linked CVEs flagged with ⚠.
+**Cybercrime estimate** — Projects the yearly cybercrime-report rate from ASD's latest Annual Cyber Threat Report across the current financial year (rolls over each 1 July), with that report's headline statistics and top reported crime types for individuals and businesses. Every figure lives in `data/annual_report.json` — see [New annual report](#new-annual-report).
 
-**Today's Story** — Whichever recent article is being covered by the most distinct sources right now, picked algorithmically by clustering articles on shared significant title words — not an AI's subjective pick. Falls back to the most recent article on a quiet news day. Shows the article's own summary plus a "Covered by N sources" note when more than one outlet has it. Hidden gracefully if nothing qualifies.
+**CVE panel** — The 10 most recently added entries in the CISA Known Exploited Vulnerabilities catalog, with ransomware use and CISA's fix-by date. KEV has no severity score, so none is shown.
 
-**Scam of the week** — The most recent ScamWatch article, surfaced automatically. Hidden if nothing recent.
+**Today's Story** — Whichever recent article is being covered by the most distinct sources right now, picked by clustering articles on shared significant title words — not by AI. Falls back to the most recent article on a quiet news day.
 
-**Word of the day** — Deterministic daily rotation through 51 cyber security definitions. Same term for everyone on the same AEST day.
+**Scam alert** — The most recent Scamwatch item, surfaced automatically. Hidden if nothing recent.
 
-**News feed** — Up to 30 articles from the last 7 days, sorted by date. Click any tag on an article to filter — active filters shown in a slim bar with one-click clear. Estimated reading time shown per article. Sources: ACSC, ScamWatch, AU Cyber Security Magazine, Security Brief AU, iTnews, Troy Hunt Blog, Krebs on Security, Risky Business, Dark Reading, 404 Media, Google News (AU-filtered). Murdoch/News Corp, Nine Entertainment, Seven West Media, and clickbait farms blocked automatically.
+**Word of the day / tip / blurb** — Deterministic daily rotations that all change at Sydney midnight.
 
-**Tool updates** — Changelog-style sidebar tracking releases and updates for Google Workspace, Chrome, AI Tools, Canva, Claude, and Microsoft 365. Each tool group displays its brand icon via Simple Icons CDN.
+**News feed** — Up to 30 articles from the last 7 days, newest first. Click any tag to filter (AU Cyber, AI & Tools, Scams, Compliance). Sources: ACSC, Scamwatch (via Google News), AU Cyber Security Magazine, Security Brief AU, iTnews, Troy Hunt, Krebs on Security, Risky Business, Dark Reading, 404 Media, plus site-scoped Google News searches (Guardian, ABC, BleepingComputer, The Register). News Corp, Nine, Seven West Media and clickbait farms are blocked by hostname.
 
-**Breach checker** — Email breach lookup via HaveIBeenPwned. Read-only, not stored, not logged. Falls back to the HIBP site directly if the API blocks browser requests.
+**Tool updates** — Recent releases for Google Workspace, Chrome, Microsoft 365, Canva, Claude and AI tools, grouped by tool.
 
-**Two themes** — Dark (yellow on warm near-black) and light (amber on warm parchment). Persisted via localStorage.
+**Breach check** — Links to HaveIBeenPwned. (HIBP's email-search API needs a paid key sent from a server, so an in-page checker can't work on a static site.)
+
+**Two themes** — Dark and light; follows the OS setting until you choose, then remembers your choice.
 
 ---
 
@@ -56,44 +58,58 @@ pseudosec/
 ├── ai-guide.html           # Prompt library + AI safety
 ├── sources.html            # Sources & methodology
 ├── definitions.html        # Redirect stub -> reference.html#glossary
-├── shared.css/js           # Design system, theme, nav, date utils, word of the day
+├── shared.css/js           # Design system, theme, nav, esc()/safeUrl(), Sydney-time dates, daily rotations
 ├── dashboard.css/js        # Dashboard
 ├── reference.css           # Reference page styles
 ├── definitions.css/js      # Glossary data + render (reused by reference.html)
 ├── definitions-page.js     # Reference page's tab/glossary controller
-├── resources.css/js        # Breach checker
+├── resources.css           # Resources page
 ├── ai-guide.css/js         # Prompt library
 ├── sources.css             # Sources page styles
 ├── assets/
-│   └── pseudosec.png       # Logo
+│   ├── pseudosec.png       # Logo
+│   └── fonts/              # Self-hosted Inter, Space Grotesk, Hack (woff2)
 ├── scripts/
-│   ├── fetch_cyber_news.py # RSS aggregation, tool updates, CVEs + AI briefing
-│   └── audit.py            # Automated pre-ship checks (147 checks)
+│   ├── fetch_cyber_news.py # RSS aggregation, tool updates, CVEs, featured story
+│   ├── check_annual_report.py # Detects a newly published ASD annual report
+│   └── audit.py            # Site checks: links, CSP, contrast, data schema
+├── tests/
+│   └── test_fetch.py       # Pipeline regression tests (pytest)
 ├── data/
-│   ├── briefing.json       # AI briefing (auto-generated)
+│   ├── annual_report.json  # ASD annual report figures (hand-maintained)
+│   ├── briefing.json       # Featured story (auto-generated)
 │   ├── news.json           # Feed (auto-generated)
 │   ├── tool_updates.json   # Tool updates (auto-generated)
 │   └── cve.json            # CVE feed (auto-generated)
 ├── docs/                   # CHANGELOG, DECISIONS, REVIEW, this file
 └── .github/workflows/
-    └── fetch_news.yml      # GitHub Actions schedule
+    ├── fetch_news.yml      # Scheduled fetch → tests → commit
+    ├── annual_report_watch.yml # Daily: opens an issue when a new ASD report is out
+    └── ci.yml              # Tests + audit on push/PR
 ```
 
 ---
 
 ## Automation
 
-GitHub Actions runs the fetch pipeline on a schedule and commits updated JSON back to the repo. GitHub Pages serves everything statically — no server, no database.
+GitHub Actions runs the fetch pipeline on a schedule and commits updated JSON back to the repo. GitHub Pages serves everything statically — no server, no database, no API keys.
 
-| Window | Schedule |
+| Window (Sydney time, AEST or AEDT) | Schedule |
 |---|---|
-| Weekdays (8am–6:30pm AEST) | Every 30 minutes |
-| Daily morning | Once at 7am AEST |
+| Weekdays 8am–6:30pm | Every 30 minutes |
 | Weekends | Every 8 hours |
 
-The workflow uses `--force-with-lease` — prevents push rejections when a local push races with an Actions commit, without the safety risk of `--force`.
+The job runs the pipeline tests before fetching, uses least-privilege `permissions: contents: write`, pins actions to commit SHAs, and rebases onto any newer commit instead of force-pushing. All dates in `data/*.json` are ISO 8601 UTC; the browser formats them in Sydney time.
 
-`generate_briefing()` still runs server-side and requires `ANTHROPIC_API_KEY` (skipped gracefully without it), but its output isn't currently shown in the UI — "Today's Story" doesn't need it. `select_trending_article()` (which does drive the UI) needs no API key at all.
+---
+
+## New annual report
+
+ASD publishes its Annual Cyber Threat Report each year (the 2024–25 edition came out in October 2025). `annual_report_watch.yml` checks daily and opens a GitHub issue with a checklist when the next one appears. To update:
+
+1. Edit `data/annual_report.json` — title, FY, URL, yearly report count, interval, stats and crime types. It's the only place these figures live; the dashboard renders from it.
+2. Check glossary entries that quote the previous year (search for the old FY).
+3. Run `python3 scripts/audit.py` (it validates the file) and look at the dashboard.
 
 ---
 
@@ -105,22 +121,19 @@ python3 scripts/fetch_cyber_news.py
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/index.html`. For the AI briefing:
-
-```bash
-export ANTHROPIC_API_KEY=your_key_here
-python3 scripts/fetch_cyber_news.py
-```
+Open `http://localhost:8000/index.html`.
 
 ---
 
-## Audit
+## Checks
 
 ```bash
-python3 scripts/audit.py
+pip install feedparser pytest
+python3 -m pytest tests        # pipeline: blocklist, ACSC handling, tagging, sanitising, dates, KEV
+python3 scripts/audit.py       # site: local links, CSP + inline-script hash, no third-party hosts, AA contrast, data schema
 ```
 
-147 checks across content integrity, HTML structure, CSS, JavaScript, Python, security, and content quality. Run before committing.
+Both run in CI (`.github/workflows/ci.yml`) on every push and pull request.
 
 ---
 
@@ -133,10 +146,10 @@ python3 scripts/audit.py
 | Critical | `#e07878` | `#b83a3a` |
 | High | `#d4a84a` | `#8a6020` |
 
-Fonts: Inter (body) · Space Grotesk (headings) · Hack (technical/terminal data). WCAG AA contrast throughout.
+Fonts (self-hosted): Inter (body) · Space Grotesk (headings) · Hack (technical data). All four text tokens meet WCAG AA (4.5:1) on every surface in both themes — enforced by `audit.py`.
 
 ---
 
-**Tech:** Python · feedparser · Anthropic API · vanilla HTML/CSS/JS · GitHub Pages · GitHub Actions
+**Tech:** Python · feedparser · vanilla HTML/CSS/JS · GitHub Pages · GitHub Actions
 
 *Started as a personal news aggregator. Got out of hand.*
