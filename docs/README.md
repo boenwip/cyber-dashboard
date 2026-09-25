@@ -143,7 +143,7 @@ python3 -m pytest tests        # pipeline: blocklist, ACSC handling, tagging, sa
 python3 scripts/audit.py       # site: local links, CSP + inline-script hash, no third-party hosts, AA contrast, data schema
 ```
 
-Both run in CI (`.github/workflows/ci.yml`) on every push and pull request.
+Both run on every pull request (`ci.yml`) and before every deploy (`deploy.yml`).
 
 ---
 

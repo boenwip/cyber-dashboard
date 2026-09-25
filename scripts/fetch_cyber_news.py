@@ -356,14 +356,15 @@ def now_iso():
 def parse_date(entry):
     """Return the entry's publish/update time as ISO 8601 UTC, or "" if unknown."""
     for key in ("published_parsed", "updated_parsed"):
-        parsed = entry.get(key)
+        # feedparser warns when "updated*" is read but missing; check the raw dict first
+        parsed = dict.get(entry, key)
         if parsed:
             try:
                 return iso_utc(datetime.datetime(*parsed[:6], tzinfo=datetime.timezone.utc))
             except (TypeError, ValueError):
                 pass
     for key in ("published", "updated"):
-        raw = entry.get(key)
+        raw = dict.get(entry, key)
         if raw:
             try:
                 dt = email.utils.parsedate_to_datetime(raw)
@@ -413,19 +414,14 @@ def truncate(text, limit):
 # Google News RSS titles often end with "- Publisher Name"
 # -------------------------------------------------------
 
-def is_approved_gnews(title, source_name):
-    """For Google News proxy articles, approve only if publisher is in APPROVED_DOMAINS."""
+def is_approved_gnews(title):
+    """Google News appends the publisher to each headline ("… - bleepingcomputer.com",
+    "… - Scamwatch"). Approve only when that publisher is in APPROVED_DOMAINS."""
     title_lower = title.lower()
     for domain in APPROVED_DOMAINS:
-        # Check if domain name appears in the title suffix (e.g., "- abc.net.au")
-        name_part = domain.split('.')[0]  # e.g., "abc", "krebsonsecurity"
-        if name_part in title_lower.split()[-3:]:
+        name_part = domain.split('.')[0]  # e.g. "abc", "scamwatch"
+        if name_part in title_lower.split()[-3:] or domain in title_lower:
             return True
-        if domain in title_lower:
-            return True
-    # Also approve site:-scoped queries unconditionally — the query itself is the vetting
-    if 'site:' in source_name.lower():
-        return True
     return False
 
 
@@ -548,7 +544,7 @@ def build_article(feed, entry):
         return None
     if is_blocked(link, title):
         return None
-    if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(title, feed["name"]):
+    if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(title):
         return None
     if any(term in title.lower() for term in TITLE_BLOCKLIST) or LISTING_PAGE.search(title):
         return None

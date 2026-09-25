@@ -277,7 +277,7 @@ function renderList() {
   list.innerHTML = (t.filters ? '<div class="list-tools">' + t.filters.map(function (f) {
     return '<button type="button" data-filter="' + esc(f) + '" aria-pressed="' + (f === state.filter) + '">' + esc(f) + '</button>';
   }).join('') + '</div>' : '') + (items.length ? items.map(function (it, i) {
-    return '<button type="button" class="item" role="option" data-idx="' + i + '" aria-selected="' + (i === state.idx) + '">' +
+    return '<button type="button" class="item" data-idx="' + i + '"' + (i === state.idx ? ' aria-current="true"' : '') + '>' +
       '<span class="k"><span class="sev ' + (it.sev || '') + '"></span>' + esc(it.k) + '</span><span class="t">' + esc(it.t) + '</span></button>';
   }).join('') : '<p class="empty">' + esc(t.empty) + '</p>');
 }
@@ -313,7 +313,7 @@ function openExplore(cat, idx, panel) {
     explore.hidden = false;
     explore.style.viewTransitionName = 'stage';
   });
-  setTimeout(function () { var s = list.querySelector('[aria-selected="true"]') || tabs.querySelector('[aria-selected="true"]'); if (s) s.focus(); }, 360);
+  setTimeout(function () { var s = list.querySelector('[aria-current="true"]') || tabs.querySelector('[aria-selected="true"]'); if (s) s.focus(); }, 360);
 }
 
 function closeExplore() {
@@ -385,7 +385,7 @@ document.addEventListener('DOMContentLoaded', function () {
     var b = e.target.closest('[data-idx]');
     if (!b) return;
     state.idx = +b.dataset.idx;
-    list.querySelectorAll('.item').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+    list.querySelectorAll('.item').forEach(function (x) { if (x === b) x.setAttribute('aria-current', 'true'); else x.removeAttribute('aria-current'); });
     renderPane();
     if (matchMedia('(max-width: 960px)').matches) pane.scrollIntoView({ behavior: 'smooth', block: 'start' });
   });
