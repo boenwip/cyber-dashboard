@@ -1,5 +1,5 @@
 {
-  "last_updated": "25-09-2026 10:20 AM",
+  "last_updated": "25-09-2026 12:40 PM",
   "count": 40,
   "items": [
     {
@@ -8,7 +8,7 @@
       "title": "v2.1.282",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.282",
       "summary": "What's changed Added a maxProseWidth setting that caps the width of Claude's prose in wide terminals while tables and code blocks keep the full width Added a startup notice, and /status and claude doc",
-      "date": "25-09-2026 10:20 AM"
+      "date": "25-09-2026 12:40 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -16,7 +16,7 @@
       "title": "v2.1.281",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
       "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added assume_rol",
-      "date": "25-09-2026 10:20 AM"
+      "date": "25-09-2026 12:40 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -24,7 +24,7 @@
       "title": "v2.1.280",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.280",
       "summary": "What's changed Added Claude Opus 5.5 (claude-opus-5-5), now the default Opus model \u2014 1M context, $4/$20 per Mtok with $0.20/Mtok cache reads Added mouse support to more lists in fullscreen mode: the w",
-      "date": "25-09-2026 10:20 AM"
+      "date": "25-09-2026 12:40 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -32,7 +32,7 @@
       "title": "v2.1.278",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.278",
       "summary": "What's changed Changed auto mode for Claude API and Enterprise users, and on Bedrock, Vertex, Foundry and gateways, to default to the server-side classifier, which does not charge for classifier overh",
-      "date": "25-09-2026 10:20 AM"
+      "date": "25-09-2026 12:40 PM"
     },
     {
       "source": "Claude Code Releases",
@@ -40,7 +40,7 @@
       "title": "v2.1.277",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
       "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry) A",
-      "date": "25-09-2026 10:20 AM"
+      "date": "25-09-2026 12:40 PM"
     },
     {
       "source": "Google Chrome Releases",
@@ -147,6 +147,14 @@
       "date": "23-09-2026 09:25 AM"
     },
     {
+      "source": "Google News \u2014 Canva Updates",
+      "tool": "Canva",
+      "title": "World Premiere of THE MOSQUITO BOWL set for AFI FEST 2026 presented by Canva - American Film Institute",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPclZWQWRKbnRTczFVV2hIWGF2ZXd6UjBlYnRYOEh2bXJsUlNFTTZmT2xVaWhSZmVzSU5WY09ESkNxdHpCMzNOU0p3ellpTlhIdFU0bkV4QUJORG1jRDZSOXRpSHRsaWx4UDhrSlFFb19jaExxSm5lbjV1bzBCblhhRVlPdEJJelZVU0NhMDB5UmdmR1BydzdEcEN4U3N0aUJsVF9nRA?oc=5",
+      "summary": "World Premiere of THE MOSQUITO BOWL set for AFI FEST 2026 presented by Canva American Film Institute",
+      "date": "23-09-2026 06:27 AM"
+    },
+    {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
       "title": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price - VentureBeat",
@@ -165,10 +173,10 @@
     {
       "source": "Google News \u2014 Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic says its model Claude is helping to build the next version of itself - AP News",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
-      "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
-      "date": "18-09-2026 11:55 AM"
+      "title": "Anthropic\u2019s Claude Opus 5.5 Appears In Claude Code, Indicating Imminent Release, As Trump Renames AI To \u201cSuper Intelligence\u201d Or SI [Update: Released] - Wccftech",
+      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSFpjT1VBT1VaanU4X2ZsOUJIWnhKUUh3VmtndDhVdU91LTBEbEVWM0VlWW50S25xWmlZWktvbWdtZmF4czZyZ1JOTzg4ZjVSaWlrMmZrbUoxVEhHS0FxNzhwUEpEcnhlc2VqelFiTW82U1B6Z0taYWhiMm1DdHFGRkZTTEItN1dFYXVlcVZKUDIyc3hGQWNtOHVmUzVka0o5YWxtUXRLSW1VdXNQb0pEWURMVXE3VUF6SVVPaXdRN0JkT0FGNnZIQzc3UHBnaEo2elQ3ZTI2MjhVaVBIRmM2T9IB5gFBVV95cUxOT3MwV01weldCYXpzTUFQYlNpSHVwUWQ4OXJQbnRDZlY2bmtDblZfaGJoeXZJSDlTcGh2djRkYmEwa1lERERrRFJrVFR4X3VWeUo2OXgyN2tfUDhhTGpUUzhjQVhZVVBkOGpZMDBJUFo4T1lpVThqaGlUY1FwdW9GRlE4MDdmUG8zQUE2VWVzYXJMb0VrSGtGUW50TW92N3BsY1E1aFJOTGVHRUw4dGh1dTBSSU9rZWJXM0hQUW1yckFRZnh5RFlkNjJOaVgyVGE0aFFuY2cxLXk4WmlQXzRYaGxpOHVjUQ?oc=5",
+      "summary": "Anthropic\u2019s Claude Opus 5.5 Appears In Claude Code, Indicating Imminent Release, As Trump Renames AI To \u201cSuper Intelligence\u201d Or SI [Update: Released] Wccftech",
+      "date": "23-09-2026 02:50 AM"
     },
     {
       "source": "Google News \u2014 Canva Updates",
@@ -237,9 +245,9 @@
     {
       "source": "Google News \u2014 Canva Updates",
       "tool": "Canva",
-      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
+      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - techrepublic.com",
       "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
-      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
+      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams techrepublic.com",
       "date": "08-09-2026 05:00 PM"
     },
     {
@@ -253,9 +261,9 @@
     {
       "source": "Google News \u2014 Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "14-08-2026 12:58 AM"
     },
     {
@@ -277,9 +285,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - openai.com",
+      "title": "Launching Health in ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT openai.com",
+      "summary": "Launching Health in ChatGPT OpenAI",
       "date": "23-07-2026 05:00 PM"
     },
     {
@@ -301,9 +309,9 @@
     {
       "source": "Google News \u2014 ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - openai.com",
+      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT openai.com",
+      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
       "date": "04-06-2026 05:00 PM"
     },
     {
@@ -313,14 +321,6 @@
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
       "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
       "date": "03-06-2026 05:00 PM"
-    },
-    {
-      "source": "Google News \u2014 Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "16-04-2026 05:00 PM"
     }
   ]
 }

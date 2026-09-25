@@ -1,7 +1,49 @@
 {
-  "last_updated": "25-09-2026 10:20 AM",
-  "count": 43,
+  "last_updated": "25-09-2026 12:40 PM",
+  "count": 46,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "The Key AI Test Is Ensuring Regulation Keeps Pace With Ambition",
+      "link": "https://securitybrief.com.au/story/the-key-ai-test-is-ensuring-regulation-keeps-pace-with-ambition",
+      "summary": "Australia's AI rules may decide whether businesses gain protection without extra red tape that slows deployment and pushes investment offshore.",
+      "date": "25-09-2026 10:48 AM",
+      "tags": [
+        "Compliance"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
+      "summary": "The Australian Government has launched a multi-agency review after Prime Minister Albanese disclosed in New York yesterday that an OpenAI artificial intelligence model interacted with four government websites, including an [...]",
+      "date": "25-09-2026 10:42 AM",
+      "tags": [
+        "AI & Tools"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "AU General"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACSC warns Australian organisations about risks of AI misalignment",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-australian-organisations-about-risks-of-ai-misalignment/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment",
+      "summary": "The Australian Signals Directorate\u2019s Australian Cyber Security Centre (ACSC) has issued a \u201chigh alert\u201d warning to Australian organisations with public-facing websites or applications, citing instances where artificial intelligence (AI) agents [...]",
+      "date": "25-09-2026 10:41 AM",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "threat": "Critical",
+      "audience": [
+        "Enterprise"
+      ],
+      "relevance": "AU General"
+    },
     {
       "source": "Security Brief Australia",
       "title": "Ropes & Gray develops OpenAI tool for deal diligence",
@@ -284,6 +326,20 @@
       "threat": "Advisory",
       "audience": [],
       "relevance": "Global"
+    },
+    {
+      "source": "Google News \u2014 ASQA / RTO",
+      "title": "Education agent commission reporting - asqa.gov.au",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORU41b2lCS2J1Uk5HRUFsZHhKVFlwbkItdkpPUFVrVGRlMjViQTZmQWcwT24xWk5Lb29mbklTRUxwa3NnYzFZSkZTSlFtVGNUUkNucWd0bkFOc3k5RFJtNURGWDNjeGFiNi1LREdkRzRiVDdjbEdJamtER3otNlBCN202eHdpSjZv?oc=5",
+      "summary": "Education agent commission reporting asqa.gov.au",
+      "date": "21-09-2026 04:28 PM",
+      "tags": [
+        "RTO / VET",
+        "Education"
+      ],
+      "threat": "Advisory",
+      "audience": [],
+      "relevance": "Direct"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -596,21 +652,6 @@
         "SMB"
       ],
       "relevance": "Sector"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Indonesia Hit by Android Banking App-Cloning Campaign",
-      "link": "https://www.darkreading.com/mobile-security/indonesia-android-banking-app-cloning-campaign",
-      "summary": "The GoldFactory threat group exploits the Android Work Profile feature to deliver the Gigabud Trojan, while Mantax Otax spreads separately.",
-      "date": "11-09-2026 11:00 AM",
-      "tags": [
-        "AU Cyber"
-      ],
-      "threat": "Medium",
-      "audience": [
-        "Enterprise"
-      ],
-      "relevance": "Global"
     }
   ]
 }
