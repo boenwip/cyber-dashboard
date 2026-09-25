@@ -129,3 +129,62 @@ def test_word_groups_skip_same_outlet_series_titles():
     eps = [art("Risky Business #854 -- We're Jevpilled", "Risky Business"),
            art("Risky Business #853 -- We're all gonna die, apparently", "Risky Business")]
     assert st.word_groups(eps) == []
+
+
+# ── Same news from different outlets only ──────────────────
+
+def test_validate_keeps_one_article_per_outlet():
+    sources = ["iTnews", "iTnews", "ABC"]
+    assert st.validate_groups({"groups": [[0, 1, 2]]}, 3, sources) == [[0, 2]]
+
+
+def test_ai_same_outlet_pair_is_not_merged():
+    items = [art("Part one", "Australian Cyber Security Magazine"), art("Part two", "Australian Cyber Security Magazine")]
+    assert st.ai_groups(items, FakeClient({"groups": [[0, 1]]})) == []
+
+
+def test_prompt_keeps_follow_ups_separate():
+    assert "new development" in st.SYSTEM_PROMPT and "at most one article per source" in st.SYSTEM_PROMPT
+
+
+# ── Best reputation leads ──────────────────────────────────
+
+def test_best_reputation_leads_the_story():
+    items = [art("Story", "Security Brief Australia", summary="s" * 300),
+             art("Story", "Google News — ABC Tech", summary=""),
+             art("Story", "Dark Reading", summary="d" * 200)]
+    story = st.build_stories(items, [[0, 1, 2]])[0]
+    assert story["source"] == "Google News — ABC Tech"
+
+
+# ── Monthly spend cap ──────────────────────────────────────
+
+def test_spend_accumulates_and_budget_stops_calls(tmp_path, monkeypatch):
+    path = str(tmp_path / "groups.json")
+    monkeypatch.setattr(st, "MONTHLY_BUDGET_USD", 0.0002)       # one fake call costs 0.00015
+    first = FakeClient({"groups": [[0, 1, 2]]})
+    st.choose_groups(MEDICARE, first, path, month="2026-09")
+    assert json.load(open(path))["spend"] == {"month": "2026-09", "usd": 0.00015}
+    second = FakeClient({"groups": []})
+    st.choose_groups(MEDICARE + [art("new")], second, path, month="2026-09")   # changed set, still under cap
+    assert second.calls == 1
+    third = FakeClient({"groups": []})
+    groups, method = st.choose_groups(MEDICARE + [art("newer")], third, path, month="2026-09")
+    assert third.calls == 0 and method == "words"
+
+
+def test_spend_resets_each_month(tmp_path):
+    path = str(tmp_path / "groups.json")
+    json.dump({"spend": {"month": "2026-08", "usd": 99}}, open(path, "w"))
+    client = FakeClient({"groups": []})
+    st.choose_groups(MEDICARE, client, path, month="2026-09")
+    assert client.calls == 1
+
+
+def test_changing_the_rules_invalidates_the_cache(tmp_path, monkeypatch):
+    path = str(tmp_path / "groups.json")
+    st.choose_groups(MEDICARE, FakeClient({"groups": [[0, 1, 2]]}), path)
+    monkeypatch.setattr(st, "SYSTEM_PROMPT", st.SYSTEM_PROMPT + " (revised)")
+    again = FakeClient({"groups": [[0, 1, 2]]})
+    st.choose_groups(MEDICARE, again, path)
+    assert again.calls == 1

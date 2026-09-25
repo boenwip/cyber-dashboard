@@ -19,15 +19,21 @@ import os
 import re
 
 MODEL = "claude-haiku-4-5"
+# Haiku 4.5 pricing, USD per million tokens, used to track spend against the monthly cap
+PRICE_IN, PRICE_OUT = 1.00, 5.00
+MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "3"))
 GROUPS_FILE = "data/groups.json"
 
 SYSTEM_PROMPT = """You group news articles for an Australian cyber security news feed.
 
 Each line is one article: id | source | date | headline | first sentence.
 
-Put articles in the same group only when they report the same specific event: the same breach or incident, the same vulnerability, the same arrest or takedown, the same official alert, report or announcement. Follow-up coverage of the same incident belongs in the same group.
+Group articles only when different outlets are reporting the same news: the same event AND the same development of it (the same breach disclosure, the same vulnerability, the same arrest or takedown, the same official alert or report). Readers should lose nothing by seeing just one of them.
 
-Do not group articles that only share a topic, company, product, threat type or theme. Two different OpenAI stories, two different phishing campaigns or two different ransomware attacks are separate stories.
+Keep these separate:
+- A follow-up that reports a new development (a new review, new victims, new statements, a new official response) is a separate story from the original report.
+- Articles that only share a topic, company, product, threat type or theme. Two different OpenAI stories, two different phishing campaigns or two different ransomware attacks are separate stories.
+- Two articles from the same outlet are never the same story. A group may contain at most one article per source.
 
 Return only groups of two or more articles. Each id may appear in at most one group. When unsure, leave the articles ungrouped."""
 
@@ -55,17 +61,22 @@ def clean_title(title):
 
 # ── Validation ─────────────────────────────────────────────
 
-def validate_groups(raw, count):
-    """Keep only well-formed groups: integer ids in range, each used once, 2+ per group."""
+def validate_groups(raw, count, sources=None):
+    """Keep only well-formed groups: integer ids in range, each used once, at most one
+    article per source (when `sources` is given), 2+ per group."""
     if not isinstance(raw, dict) or not isinstance(raw.get("groups"), list):
         return None
     seen, groups = set(), []
     for g in raw["groups"]:
         if not isinstance(g, list):
             continue
-        ids = []
+        ids, outlets = [], set()
         for i in g:
             if isinstance(i, int) and not isinstance(i, bool) and 0 <= i < count and i not in seen and i not in ids:
+                outlet = sources[i] if sources else i
+                if outlet in outlets:
+                    continue          # same outlet twice: keep the first, leave the rest as their own stories
+                outlets.add(outlet)
                 ids.append(i)
         if len(ids) >= 2:
             seen.update(ids)
@@ -83,8 +94,9 @@ def article_lines(articles):
     )
 
 
-def ai_groups(articles, client=None):
-    """Return validated groups of article indices from Claude, or None if unavailable."""
+def ai_groups(articles, client=None, spend=None):
+    """Return validated groups of article indices from Claude, or None if unavailable.
+    `spend` (a dict) is updated with the call's estimated cost in USD."""
     if client is None:
         if not os.environ.get("ANTHROPIC_API_KEY"):
             print("    No ANTHROPIC_API_KEY — skipping AI grouping")
@@ -111,12 +123,16 @@ def ai_groups(articles, client=None):
         return None
     text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "")
     try:
-        groups = validate_groups(json.loads(text), len(articles))
+        groups = validate_groups(json.loads(text), len(articles), [outlet(a) for a in articles])
     except ValueError:
         groups = None
     usage = getattr(response, "usage", None)
     if usage is not None:
-        print(f"    AI grouping: {getattr(usage, 'input_tokens', '?')} in / {getattr(usage, 'output_tokens', '?')} out tokens")
+        tin, tout = getattr(usage, "input_tokens", 0) or 0, getattr(usage, "output_tokens", 0) or 0
+        cost = (tin * PRICE_IN + tout * PRICE_OUT) / 1_000_000
+        if spend is not None:
+            spend["usd"] = round(spend.get("usd", 0) + cost, 6)
+        print(f"    AI grouping: {tin} in / {tout} out tokens (~${cost:.4f})")
     return groups
 
 
@@ -156,7 +172,7 @@ def word_groups(articles):
     for i in range(len(articles)):
         best = None
         for c in clusters:
-            hits = sum(1 for j in c if articles[i].get("source") != articles[j].get("source")
+            hits = sum(1 for j in c if outlet(articles[i]) != outlet(articles[j])
                        and len(titles[i] & titles[j]) >= 2 and any(df[w] <= 3 for w in titles[i] & titles[j]))
             if hits and hits * 2 >= len(c) and (best is None or hits > best[1]):
                 best = (c, hits)
@@ -170,7 +186,9 @@ def word_groups(articles):
 # ── Cache (avoid a paid call when nothing changed) ─────────
 
 def fingerprint(articles):
-    return hashlib.sha256("\n".join(sorted(a.get("link", "") + a.get("title", "") for a in articles)).encode("utf-8")).hexdigest()
+    # Includes the grouping instructions, so changing the rules forces a fresh grouping
+    key = SYSTEM_PROMPT + "\n" + "\n".join(sorted(a.get("link", "") + a.get("title", "") for a in articles))
+    return hashlib.sha256(key.encode("utf-8")).hexdigest()
 
 
 def load_cache(path=GROUPS_FILE):
@@ -181,9 +199,10 @@ def load_cache(path=GROUPS_FILE):
         return {}
 
 
-def save_cache(fp, groups, method, articles, path=GROUPS_FILE):
+def save_cache(fp, groups, method, articles, path=GROUPS_FILE, spend=None):
     data = {"fingerprint": fp, "method": method,
-            "groups": [[articles[i].get("link", "") for i in g] for g in groups]}
+            "groups": [[articles[i].get("link", "") for i in g] for g in groups],
+            "spend": spend or {}}
     with open(path, "w", encoding="utf-8") as f:
         json.dump(data, f, indent=2)
         f.write("\n")
@@ -191,29 +210,65 @@ def save_cache(fp, groups, method, articles, path=GROUPS_FILE):
 
 def cached_groups(cache, articles):
     index = {a.get("link", ""): i for i, a in enumerate(articles)}
-    return [[index[l] for l in g if l in index] for g in cache.get("groups", []) if sum(l in index for l in g) >= 2]
+    raw = {"groups": [[index[l] for l in g if l in index] for g in cache.get("groups", [])]}
+    return validate_groups(raw, len(articles), [outlet(a) for a in articles]) or []
 
 
-def choose_groups(articles, client=None, cache_path=GROUPS_FILE):
+def month_spend(cache, month):
+    spend = cache.get("spend") or {}
+    return spend if spend.get("month") == month else {"month": month, "usd": 0.0}
+
+
+def choose_groups(articles, client=None, cache_path=GROUPS_FILE, month=None):
+    import datetime as dt
+    month = month or dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
     fp = fingerprint(articles)
     cache = load_cache(cache_path)
+    spend = month_spend(cache, month)
     if cache.get("fingerprint") == fp and cache.get("method") == "ai":
         print("    Articles unchanged since last run — reusing AI grouping")
+        save_cache(fp, cached_groups(cache, articles), "ai", articles, cache_path, spend)
         return cached_groups(cache, articles), "ai-cached"
-    groups = ai_groups(articles, client)
+    groups = None
+    if spend["usd"] >= MONTHLY_BUDGET_USD:
+        print(f"    Monthly AI budget reached (${spend['usd']:.2f} of ${MONTHLY_BUDGET_USD:.2f}) — using word matching")
+    else:
+        groups = ai_groups(articles, client, spend)
     method = "ai"
     if groups is None:
         groups, method = word_groups(articles), "words"
-    save_cache(fp, groups, method, articles, cache_path)
+    save_cache(fp, groups, method, articles, cache_path, spend)
     return groups, method
 
 
 # ── Build stories ──────────────────────────────────────────
 
+# Which outlet leads a story when several cover it: official sources first, then outlets
+# with strong editorial standards and original reporting, then specialist trade press.
+# (No traffic data is available from the feeds, so reputation is the signal.)
+REPUTATION = [
+    ("ACSC", 0), ("Scamwatch", 0), ("ScamWatch", 0),
+    ("ABC", 1), ("Guardian", 1), ("iTnews", 1), ("Krebs", 1), ("Troy Hunt", 1),
+    ("Bleeping", 2), ("Register", 2), ("Risky Business", 2), ("404 Media", 2), ("Dark Reading", 2),
+    ("Australian Cyber Security Magazine", 3), ("Security Brief", 3),
+]
+
+
+def outlet(a):
+    return a.get("source", "").replace("Google News — ", "")
+
+
+def reputation(a):
+    if a.get("official"):
+        return 0
+    name = outlet(a)
+    return next((tier for key, tier in REPUTATION if key.lower() in name.lower()), 4)
+
+
 def lead_rank(a):
-    """Which article represents the story: official first, then a direct feed with a real summary, then earliest."""
+    """Which article represents the story: best reputation, then a direct feed with a real summary, then earliest."""
     direct = not a.get("source", "").startswith("Google News")
-    return (0 if a.get("official") else 1, 0 if direct else 1, -len(a.get("summary", "")), a.get("date") or "9")
+    return (reputation(a), 0 if direct else 1, -len(a.get("summary", "")), a.get("date") or "9")
 
 
 def build_stories(articles, groups):

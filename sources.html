@@ -21,18 +21,20 @@
 <body>
 
 <header class="site-header">
+  <div class="hdr-left">
+    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="index.html" class="nav-link">Dashboard</a>
+      <a href="reference.html" class="nav-link">Reference</a>
+      <a href="resources.html" class="nav-link">Resources</a>
+      <a href="ai-guide.html" class="nav-link">AI Guide</a>
+    </nav>
+  </div>
   <a href="index.html" class="site-logo" aria-label="pseudosec. home">
     <img src="assets/pseudosec.png" alt="pseudosec." width="74" height="34">
   </a>
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html" class="nav-link">Dashboard</a>
-    <a href="reference.html" class="nav-link">Reference</a>
-    <a href="resources.html" class="nav-link">Resources</a>
-    <a href="ai-guide.html" class="nav-link">AI Guide</a>
-  </nav>
   <div class="hdr-right">
     <button type="button" class="icon-btn theme-btn" id="theme-btn" aria-label="Switch theme"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></button>
-    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
   </div>
 </header>
 
@@ -145,7 +147,7 @@
     <div class="src-limits">
       <div class="src-limit">
         <span class="src-limit-icon">i</span>
-        <span><strong>One entry per story.</strong> When several outlets cover the same event, an AI model (Claude Haiku, by Anthropic) is shown the week&rsquo;s headlines and first sentences and asked only which ones describe the same event. It writes nothing that appears on the site; its answer is checked before use, and the story is shown once with the other outlets listed underneath. If it&rsquo;s unavailable, a strict headline match is used instead. The story covered by the most outlets leads the news panel.</span>
+        <span><strong>One entry per story.</strong> When different outlets report the same news, it&rsquo;s shown once, led by the most reputable outlet (official sources first), with the others listed underneath. Follow-ups that add something new stay separate, and one outlet&rsquo;s articles are never merged together. An AI model (Claude Haiku, by Anthropic) is shown the week&rsquo;s headlines and first sentences and asked only which ones are the same news; it writes nothing that appears on the site, its answer is checked before use, and spending is capped at US$3 a month. Without it, a strict headline match is used instead.</span>
       </div>
       <div class="src-limit">
         <span class="src-limit-icon">i</span>

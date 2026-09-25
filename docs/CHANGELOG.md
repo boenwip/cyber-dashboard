@@ -21,7 +21,8 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 **Added**
 - New dashboard: bento overview whose panels open a split-view explorer; light/dark toggle; new soft visual style across all pages
-- One entry per story: coverage of the same event grouped by AI (Claude Haiku), with the other outlets listed
+- One entry per story: the same news from different outlets grouped by AI (Claude Haiku), led by the most reputable outlet; follow-ups stay separate; US$3/month cap
+- Centred logo; lighter phone layout with news near the top and a tap-through explorer
 - ACSC items via a Google News fallback when cyber.gov.au is unreachable from GitHub
 - ACSC Critical/High alert banner; CISA fix-by dates on CVEs
 - Theme follows the OS setting until chosen; no theme flash on load

@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-09-25 (later) — owner feedback on phone layout and grouping
+
+### Grouping — same news from different outlets only; best reputation leads
+**Decision:** The model is told to group only different outlets reporting the same news (the same development); follow-ups with something new stay separate. Code enforces at most one article per outlet per group. The lead is the most reputable outlet (official first), not the longest summary. Grouping spend is tracked per month and capped at US$3 in code; past the cap it falls back to word matching.
+**Why:** Owner: "Don't blend stories just because they look the same… pick the one with the best reputation." A live group had merged two articles from one outlet, including a follow-up, under the ACSC alert. Traffic data isn't available from the feeds, so reputation is the signal. Owner set the $3/month limit.
+
+### Layout — centred logo; lighter, reordered phone layout; tap-through explorer
+**Decision:** Logo centred in the header (nav or menu button left, theme toggle right). On phones: word of the day as a slim line at the top, then alert, news, estimate, exploited/scam as a pair, crime types, tip, tool updates last; tighter panels, no cue lines, 5 news items. The explorer shows the list, then the item full-width with a back button.
+**Why:** Owner feedback: news was too far down on phones, and the mobile version should be lighter and structured differently.
+
+---
+
 ## Session: 2026-09-25 — redesign and story grouping
 
 ### Dashboard — bento overview + split-view explorer

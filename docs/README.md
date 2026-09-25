@@ -26,7 +26,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ## Features
 
-**Layout** — The dashboard opens as a grid of panels, each showing one thing at a glance. Clicking a panel opens the explorer at that topic (ACSC alerts, exploited CVEs, news, scams, this year, tool updates, learn), with tabs to move between topics and a smooth transition back to the overview. Topics can be linked directly: `index.html#news`, `#alerts`, `#cve`, `#scams`, `#year`, `#tools`, `#learn`.
+**Layout** — The logo is centred in the header. The dashboard opens as a grid of panels, each showing one thing at a glance. Clicking a panel opens the explorer at that topic (ACSC alerts, exploited CVEs, news, scams, this year, tool updates, learn), with tabs to move between topics and a smooth transition back to the overview. On phones the panels are reordered and lighter (word of the day as a slim line, then the alert, news, the estimate, exploited/scam side by side, reference panels last), and the explorer is tap-through: list, then item, then back. Topics can be linked directly: `index.html#news`, `#alerts`, `#cve`, `#scams`, `#year`, `#tools`, `#learn`.
 
 **Official ACSC alert** — The newest ACSC alert from the last 14 days, Critical or High first. ACSC items are the only ones with a threat level, taken from ACSC's own title ("CRITICAL ALERT: …"). cyber.gov.au times out from GitHub's servers, so the pipeline falls back to a Google News search of ACSC's alerts section; those items are labelled "ACSC" with no level rather than a guessed one.
 
@@ -34,7 +34,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **CVE panel** — The 10 most recently added entries in the CISA Known Exploited Vulnerabilities catalog, with ransomware use and CISA's fix-by date. KEV has no severity score, so none is shown.
 
-**One entry per story** — Coverage of the same event by several outlets is grouped into one story, with the other outlets listed under it. Each refresh, Claude Haiku 4.5 is asked only which articles describe the same event (JSON-schema output, validated; it writes no site text; ~3,500 input tokens per call, skipped when nothing changed). Without a key or on failure, a strict headline match is used. The story covered by the most outlets leads the news panel.
+**One entry per story** — When different outlets report the same news, it's one story led by the most reputable outlet (official → ABC/Guardian/iTnews/Krebs/Troy Hunt → international trade press → Australian trade press), with the others listed under it. Follow-ups with a new development stay separate; one outlet's articles are never merged. Each refresh, Claude Haiku 4.5 is asked only which articles are the same news (JSON-schema output, validated, at most one article per outlet enforced in code; it writes no site text; ~3,500 input tokens per call, skipped when nothing changed). Spend is tracked per month on the `data` branch and capped at US$3 (`GROUPING_BUDGET_USD`); past the cap, or without a key, a strict headline match is used.
 
 **Scam to know** — The most recent Scamwatch item or scam headline.
 

@@ -287,9 +287,12 @@ function renderList() {
   }).join('') : '<p class="empty">' + esc(t.empty) + '</p>');
 }
 
+function narrow() { return matchMedia('(max-width: 960px)').matches; }
+
 function renderPane() {
   var it = visibleItems()[state.idx];
-  pane.innerHTML = it ? it.view() : '';
+  // On narrow screens the list and the item take turns; this button goes back to the list.
+  pane.innerHTML = it ? '<button type="button" class="pane-back" id="pane-back">All ' + esc(TOPICS[state.cat].label.toLowerCase()) + '</button>' + it.view() : '';
   sizeBars(pane);
   pane.scrollTop = 0;
 }
@@ -298,6 +301,7 @@ function show(cat, idx) {
   state.cat = TOPICS[cat] ? cat : 'news';
   state.filter = 'All';
   state.idx = Math.min(idx || 0, Math.max(0, TOPICS[state.cat].items.length - 1));
+  explore.classList.remove('show-item');
   renderTabs(); renderList(); renderPane();
   try { history.replaceState(null, '', '#' + state.cat); } catch (e) {}
 }
@@ -392,7 +396,18 @@ document.addEventListener('DOMContentLoaded', function () {
     state.idx = +b.dataset.idx;
     list.querySelectorAll('.item').forEach(function (x) { if (x === b) x.setAttribute('aria-current', 'true'); else x.removeAttribute('aria-current'); });
     renderPane();
-    if (matchMedia('(max-width: 960px)').matches) pane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    if (narrow()) {
+      explore.classList.add('show-item');
+      explore.scrollIntoView({ block: 'start' });
+      var back = document.getElementById('pane-back');
+      if (back) back.focus();
+    }
+  });
+  pane.addEventListener('click', function (e) {
+    if (!e.target.closest('#pane-back')) return;
+    explore.classList.remove('show-item');
+    var cur = list.querySelector('[aria-current="true"]');
+    if (cur) { cur.focus(); cur.scrollIntoView({ block: 'center' }); }
   });
   list.addEventListener('keydown', function (e) {
     if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
@@ -403,5 +418,9 @@ document.addEventListener('DOMContentLoaded', function () {
     var next = items[Math.max(0, Math.min(items.length - 1, i + (e.key === 'ArrowDown' ? 1 : -1)))];
     next.focus(); next.click();
   });
-  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeExplore(); });
+  document.addEventListener('keydown', function (e) {
+    if (e.key !== 'Escape') return;
+    if (explore.classList.contains('show-item')) explore.classList.remove('show-item');
+    else closeExplore();
+  });
 });
