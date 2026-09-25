@@ -84,7 +84,7 @@ var DEFINITIONS = [
   {
     term: "Business Email Compromise",
     short: "A scam where attackers impersonate executives or suppliers to fraudulently transfer money.",
-    full: "Business Email Compromise (BEC) is one of the most financially damaging cybercrimes. Attackers either hack into or spoof a business email account — often a CEO or financial controller — and instruct an employee to transfer funds urgently. The requests seem legitimate and often come with plausible context. BEC cost Australian businesses hundreds of millions of dollars in FY2024–25.",
+    full: "Business Email Compromise (BEC) is one of the most financially damaging cybercrimes. Attackers either hack into or spoof a business email account — often a CEO or financial controller — and instruct an employee to transfer funds urgently. The requests seem legitimate and often come with plausible context. In FY2024–25 BEC fraud with a financial loss made up 15% of cybercrime reports from Australian businesses, and large businesses' total BEC losses rose 138% (ASD Annual Cyber Threat Report 2024–25).",
     example: "An accounts payable officer receives an email appearing to come from the CEO's address: 'I'm in a meeting, can you urgently process this $85,000 payment to our new supplier — details attached.'",
     level: "beginner"
   },
@@ -105,7 +105,7 @@ var DEFINITIONS = [
   {
     term: "Patch",
     short: "A software update that fixes security vulnerabilities or bugs.",
-    full: "Patches are updates released by software vendors to fix known vulnerabilities. Unpatched systems are one of the leading causes of successful cyberattacks — attackers routinely scan the internet for systems running vulnerable software versions. The ACSC's Essential Eight recommends patching operating systems within 48 hours for critical vulnerabilities and two weeks for others.",
+    full: "Patches are updates released by software vendors to fix known vulnerabilities. Unpatched systems are one of the leading causes of successful cyberattacks — attackers routinely scan the internet for systems running vulnerable software versions. Under the Essential Eight, internet-facing systems should be patched within 48 hours when a vulnerability is critical or a working exploit exists, and within two weeks otherwise; other systems get longer windows depending on maturity level.",
     example: "Microsoft releases a patch for a critical Windows flaw on Patch Tuesday. Organisations that apply it quickly are protected; those that don't may be compromised within days.",
     level: "beginner"
   },
@@ -161,7 +161,7 @@ var DEFINITIONS = [
   {
     term: "Supply Chain Attack",
     short: "Attacking a target by first compromising a trusted third-party supplier or tool they use.",
-    full: "Supply chain attacks target the less-secure elements in an organisation's trusted relationships. Rather than attacking a well-defended target directly, criminals compromise a software vendor, managed service provider, or hardware supplier, then use that trusted access to reach the real target. The 2020 SolarWinds attack compromised thousands of organisations worldwide via a software update. Australia's healthcare and government sectors are frequently targeted via this method.",
+    full: "Supply chain attacks target the less-secure elements in an organisation's trusted relationships. Rather than attacking a well-defended target directly, criminals compromise a software vendor, managed service provider, or hardware supplier, then use that trusted access to reach the real target. In the 2020 SolarWinds attack, about 18,000 organisations installed a tampered software update; attackers then went after a much smaller set of high-value targets, including US government agencies. Australia's healthcare and government sectors are frequently targeted via this method.",
     example: "An accounting firm uses a popular bookkeeping plugin. Attackers compromise the plugin's update server and push malicious code to all 10,000 users simultaneously.",
     level: "intermediate"
   },
@@ -182,7 +182,7 @@ var DEFINITIONS = [
   {
     term: "Brute Force Attack",
     short: "Systematically trying every possible password combination until the correct one is found.",
-    full: "Brute force attacks use automated tools to guess passwords by trying every possible combination. Simple passwords can be cracked in seconds with modern hardware. Dictionary attacks use wordlists of common passwords. Credential stuffing uses known password lists. Defences include account lockouts, rate limiting, CAPTCHA, and strong passwords. A 12-character random password takes billions of years to brute force.",
+    full: "Brute force attacks use automated tools to guess passwords by trying every possible combination. Simple passwords can be cracked in seconds with modern hardware. Dictionary attacks use wordlists of common passwords. Credential stuffing uses known password lists. Defences include account lockouts, rate limiting, CAPTCHA, and strong passwords. Length matters most: a long, random, unique password (or passphrase) is impractical to brute force, especially when the site stores passwords with a slow hashing algorithm.",
     example: "An attacker runs software against a login page, trying 100,000 password combinations per second. The account has no lockout policy and is using 'Summer2024'.",
     level: "beginner"
   },
@@ -211,7 +211,7 @@ var DEFINITIONS = [
     term: "Vulnerability",
     short: "A weakness in software, hardware, or process that could be exploited by an attacker.",
     full: "A vulnerability is any weakness that could be exploited. It could be in software code (a bug that allows unexpected behaviour), hardware design, configuration (leaving default passwords), or process (no verification before resetting passwords). Vulnerabilities are assigned CVE numbers and scored by severity. The goal of security is to reduce vulnerabilities and ensure those that exist are mitigated before attackers can exploit them.",
-    example: "An unpatched web server runs Apache 2.4.48. A publicly known vulnerability (CVE-2021-41773) in that version allows attackers to read files outside the web root.",
+    example: "An unpatched web server runs Apache 2.4.49. A publicly known vulnerability (CVE-2021-41773) in that version allows attackers to read files outside the web root.",
     level: "intermediate"
   },
   {

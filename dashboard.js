@@ -1,59 +1,95 @@
 /**
  * dashboard.js — pseudosec. Dashboard
- * Requires: shared.js, definitions.js loaded first
+ * Requires: shared.js (esc, safeUrl, formatDate, pickForToday), definitions.js
  */
 
 // ── TRACKER ────────────────────────────────────────────────
-var FY_START  = new Date('2025-07-01T00:00:00+10:00');
+// Projection only: the latest ASD annual rate applied to the current
+// financial year. Every report figure comes from data/annual_report.json —
+// update that one file when a new Annual Cyber Threat Report is published.
+var REPORT = null;
 var SECS_YEAR = 365.25 * 24 * 3600;
 
-function getElapsed() {
-  var now   = new Date();
-  var start = FY_START > now ? new Date('2024-07-01T00:00:00+10:00') : FY_START;
-  return Math.max(0, (now - start) / 1000);
+// Australian financial year containing `now`: starts 1 July (AEST, no DST in July).
+function currentFyStart(now) {
+  var sydneyYear  = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, year: 'numeric' }).format(now);
+  var sydneyMonth = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, month: 'numeric' }).format(now);
+  var startYear = sydneyMonth >= 7 ? sydneyYear : sydneyYear - 1;
+  return { year: startYear, date: new Date(startYear + '-07-01T00:00:00+10:00') };
 }
 
-function fmt(n) { return Math.floor(n).toLocaleString('en-AU'); }
+function fyLabel(startYear) {
+  return 'FY ' + startYear + '–' + String(startYear + 1).slice(2);
+}
+
+function initTrackerLabels() {
+  var fy = currentFyStart(new Date());
+  var set = function(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; };
+  set('tracker-fy', fyLabel(fy.year));
+  set('count-label', 'Estimated cybercrime reports — ' + fyLabel(fy.year));
+  set('count-from', '1 July ' + fy.year);
+}
 
 function updateTracker() {
   var el = document.getElementById('main-count');
-  if (!el) return;
-  var e = getElapsed();
-  el.textContent = fmt(e * 84700 / SECS_YEAR);
+  if (!el || !REPORT) return;
+  var elapsed = Math.max(0, (Date.now() - currentFyStart(new Date()).date) / 1000);
+  el.textContent = Math.floor(elapsed * REPORT.reports_per_year / SECS_YEAR).toLocaleString('en-AU');
   el.classList.add('visible');
 }
 
-function initBarChart() {
-  setTimeout(function() {
-    var b = document.getElementById('b-ransom');
-    if (!b) return;
-    b.style.width = '11%';
-    document.getElementById('b-id').style.width    = '8%';
-    document.getElementById('b-shop').style.width  = '7%';
-    document.getElementById('b-bank').style.width  = '6%';
-    document.getElementById('b-other').style.width = '68%';
-  }, 500);
+// Stats grid + crime-type chart, both from data/annual_report.json.
+function renderReport(r) {
+  var set = function(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; };
+  var link = function(id) { var el = document.getElementById(id); if (el && safeUrl(r.url)) el.setAttribute('href', r.url); };
+  set('report-source', 'Source: ' + r.title);
+  var interval = document.getElementById('report-interval');
+  if (interval) interval.innerHTML = 'One report every <strong>' + esc(r.report_interval) + '</strong> · ';
+  link('report-link');
+  link('report-crime-link');
+
+  var stats = document.getElementById('report-stats');
+  if (stats && r.stats && r.stats.length) {
+    stats.innerHTML = r.stats.map(function(st) {
+      var tone = st.tone === 'high' ? ' ts-n--high' : st.tone === 'med' ? ' ts-n--med' : '';
+      return '<div class="ts-item"><span class="ts-n' + tone + '">' + esc(st.value) + '</span>' +
+        '<span class="ts-l">' + esc(st.label) + '</span></div>';
+    }).join('');
+    document.getElementById('report-stats-wrap').hidden = false;
+  }
+
+  var groups = document.getElementById('report-crime-groups');
+  if (groups && r.crime_types && r.crime_types.length) {
+    set('report-crime-title', 'Most reported cybercrime types — FY ' + r.fy);
+    set('report-crime-note', r.crime_types_note || '');
+    groups.innerHTML = r.crime_types.map(function(g) {
+      return '<figure class="crime-group"><figcaption>' + esc(g.group) + '</figcaption>' +
+        g.items.map(function(it) {
+          var pct = Math.max(0, Math.min(100, Number(it.pct) || 0));
+          return '<div class="crime-row"><span class="crime-name">' + esc(it.name) + '</span>' +
+            '<span class="crime-track"><span class="crime-bar" data-pct="' + pct + '"></span></span>' +
+            '<span class="crime-pct">' + pct + '%</span></div>';
+        }).join('') + '</figure>';
+    }).join('');
+    // Widths via CSSOM, so the CSP needn't allow inline style attributes.
+    groups.querySelectorAll('.crime-bar').forEach(function(bar) {
+      bar.style.width = bar.getAttribute('data-pct') + '%';
+    });
+    document.getElementById('report-crime').hidden = false;
+  }
 }
 
-// ── ROTATING BLURBS ────────────────────────────────────────
+// ── DAILY ROTATIONS ────────────────────────────────────────
 var BLURBS = [
   'From a $30 phishing text to a ransomware attack on a hospital — this counter catches all of it. Most of it isn\'t sophisticated. Most of it is preventable.',
   'The majority of these reports aren\'t headline events. They\'re opportunistic, automated, and aimed at ordinary Australians on an ordinary day.',
   'One number. Hundreds of types of crime. Everything from a compromised email to critical infrastructure — counted together.',
   'Behind every tick is someone navigating a system they didn\'t choose to become familiar with.',
-  'Not every cybercrime makes the news. Most never do. But every one of them is counted here.',
+  'Not every cybercrime makes the news. Most never do — and ASD says most are never reported at all.',
   'The scale isn\'t the whole story. A single report can represent a business that didn\'t survive it.',
   'Most victims don\'t realise something went wrong until weeks later. The counter doesn\'t wait.'
 ];
 
-function initBlurb() {
-  var el = document.getElementById('count-voice');
-  if (!el) return;
-  var day = Math.floor(Date.now() / 86400000);
-  el.textContent = BLURBS[day % BLURBS.length];
-}
-
-// ── SIDEBAR TIPS ───────────────────────────────────────────
 var TIPS = [
   'Enable multi-factor authentication on your email account first. It\'s the key to resetting everything else — if someone gets into your email, they can get into everything.',
   'Use a password manager. You only need to remember one strong password, and it handles the rest. Most phones and browsers have one built in for free.',
@@ -62,7 +98,7 @@ var TIPS = [
   'Keep your phone and computer updated. Most successful attacks exploit software that hasn\'t been patched. Updates are the simplest defence.',
   'Don\'t reuse passwords across accounts. If one site gets breached, attackers try your credentials everywhere. Different passwords mean one breach stays one breach.',
   'A real bank, telco, or government agency will never ask for your password, PIN, or one-time code over the phone. Hang up and call back on a number you find yourself.',
-  'Public Wi-Fi is fine for general browsing. Avoid logging into banking, email, or anything sensitive on it — those networks can be monitored.',
+  'On public Wi-Fi, stick to sites that use HTTPS and keep your device updated. For anything sensitive, your phone\'s mobile data is the safer choice.',
   'Lock your phone with a PIN, fingerprint, or face recognition. A swipe pattern can be lifted from the smudges on your screen.',
   'Back up your important files somewhere separate — an external drive or cloud service. Ransomware makes backups the difference between inconvenient and catastrophic.',
   'Be thoughtful about what you share on LinkedIn. Job titles, team structure, and project names help attackers craft convincing impersonation attempts.',
@@ -71,31 +107,18 @@ var TIPS = [
   'If something feels off about a call, email, or message, trust your gut. Hang up. Call back on a number you find independently. Legitimate organisations won\'t mind.'
 ];
 
-function initTip() {
-  var el = document.getElementById('sb-tip-text');
-  if (!el) return;
-  var day = Math.floor(Date.now() / 86400000);
-  el.textContent = TIPS[day % TIPS.length];
-}
-
-// ── STORY OF THE DAY ───────────────────────────────────────
-// ── THREAT MAP ─────────────────────────────────────────────
-function toggleThreatMap() {
-  var section = document.getElementById('threat-map-section');
-  if (!section) return;
-  var isHidden = section.hidden;
-  section.hidden = !isHidden;
-  document.body.classList.toggle('threat-map-open', isHidden);
-  var btn = document.getElementById('threat-map-btn');
-  if (btn) btn.textContent = isHidden ? '✕ Close' : '🌐 Threat Intel';
+function initRotations() {
+  var voice = document.getElementById('count-voice');
+  if (voice) voice.textContent = pickForToday(BLURBS);
+  var tip = document.getElementById('sb-tip-text');
+  if (tip) tip.textContent = pickForToday(TIPS);
+  if (typeof DEFINITIONS !== 'undefined') renderWotd(DEFINITIONS);
 }
 
 // ── DATA STATE ─────────────────────────────────────────────
 var allArticles = [];
-var allTools    = [];
 var activeFilters = { topic: [], threat: [] };
 
-// ── FILTER LOGIC ───────────────────────────────────────────
 function passesFilters(article) {
   var t = activeFilters.topic;
   var h = activeFilters.threat;
@@ -104,13 +127,11 @@ function passesFilters(article) {
   return true;
 }
 
-function toggleTagFilter(type, value) {
-  var idx = activeFilters[type].indexOf(value);
-  if (idx > -1) {
-    activeFilters[type].splice(idx, 1);
-  } else {
-    activeFilters[type].push(value);
-  }
+function toggleFilter(type, value) {
+  var list = activeFilters[type];
+  var idx = list.indexOf(value);
+  if (idx > -1) list.splice(idx, 1);
+  else list.push(value);
   updateFilterBar();
   renderArticles();
 }
@@ -123,53 +144,37 @@ function clearAllFilters() {
 
 function updateFilterBar() {
   var bar = document.getElementById('active-filter-bar');
-  var tagsContainer = document.getElementById('active-filter-tags');
-  if (!bar || !tagsContainer) return;
-  var all = activeFilters.topic.concat(activeFilters.threat);
-  if (!all.length) {
-    bar.style.display = 'none';
-    return;
-  }
-  bar.style.display = 'flex';
-  tagsContainer.innerHTML = all.map(function(v) {
-    return '<button class="active-filter-chip" data-remove-filter="' + v.replace(/"/g, '&quot;') + '" aria-label="Remove ' + v + ' filter">' +
-      v + ' ✕</button>';
+  var tags = document.getElementById('active-filter-tags');
+  if (!bar || !tags) return;
+  var chips = activeFilters.topic.map(function(v) { return ['topic', v]; })
+    .concat(activeFilters.threat.map(function(v) { return ['threat', v]; }));
+  bar.hidden = !chips.length;
+  tags.innerHTML = chips.map(function(c) {
+    return '<button type="button" class="active-filter-chip" data-filter-type="' + c[0] + '" data-filter-value="' + esc(c[1]) + '"' +
+      ' aria-label="Remove ' + esc(c[1]) + ' filter">' + esc(c[1]) + ' ✕</button>';
   }).join('');
-}
-
-function removeFilter(value) {
-  var ti = activeFilters.topic.indexOf(value);
-  if (ti > -1) activeFilters.topic.splice(ti, 1);
-  var hi = activeFilters.threat.indexOf(value);
-  if (hi > -1) activeFilters.threat.splice(hi, 1);
-  updateFilterBar();
-  renderArticles();
 }
 
 // ── TAG HELPERS ────────────────────────────────────────────
 var TAG_CLASS_MAP = {
   'AU Cyber':   'tag-cyber',
-  'RTO / VET':  'tag-rto',
-  'Education':  'tag-edu',
-  'EdTech':     'tag-edtech',
   'AI & Tools': 'tag-ai',
   'Scams':      'tag-scam',
-  'Compliance': 'tag-comp',
-  'Good News':  'tag-good'
+  'Compliance': 'tag-comp'
 };
 
-function tagClass(t)  { return 'tag ' + (TAG_CLASS_MAP[t] || ''); }
-function threatDot(t) {
-  if (t === 'Critical') return '● Critical';
-  if (t === 'High')     return '● High';
-  if (t === 'Medium')   return '● Medium';
-  return '● Advisory';
+// Threat levels exist only on official ACSC items (see scripts/fetch_cyber_news.py).
+var THREAT_CLASS = { Critical: 't-critical', High: 't-high', Medium: 't-medium', Low: 't-advisory', Advisory: 't-advisory' };
+
+function filterButton(type, value, cls, label) {
+  var pressed = activeFilters[type].indexOf(value) > -1;
+  return '<button type="button" class="' + cls + (pressed ? ' tag--active' : '') + '"' +
+    ' data-filter-type="' + type + '" data-filter-value="' + esc(value) + '"' +
+    ' aria-pressed="' + pressed + '" title="Filter by ' + esc(value) + '">' + label + '</button>';
 }
-function threatClass(t) {
-  if (t === 'Critical') return 'threat-badge t-critical';
-  if (t === 'High')     return 'threat-badge t-high';
-  if (t === 'Medium')   return 'threat-badge t-medium';
-  return 'threat-badge t-advisory';
+
+function cleanSource(source) {
+  return String(source || '').replace(/^Google News\s*[—-]\s*/i, '');
 }
 
 // ── RENDER ARTICLES ────────────────────────────────────────
@@ -177,316 +182,237 @@ function renderArticles() {
   var container = document.getElementById('articles-container');
   if (!container) return;
 
-  var sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+  var weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
   var filtered = allArticles
     .filter(passesFilters)
-    .filter(function(a) { return !a.date || parseArticleDate(a.date) >= sevenDaysAgo; })
-    .sort(function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); })
+    .filter(function(a) { var d = parseDate(a.date); return !d || d >= weekAgo; })
     .slice(0, 30);
 
   if (!filtered.length) {
     container.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div>' +
       '<p>No articles match the current filters.</p>' +
-      '<p style="margin-top:8px;"><button onclick="clearAllFilters()" style="background:transparent;border:0.5px solid var(--border2);color:var(--accent);padding:6px 14px;border-radius:20px;cursor:pointer;font-family:inherit;font-size:13px;">Clear filters</button></p></div>';
+      '<p><button type="button" class="no-results-clear" id="no-results-clear">Clear filters</button></p></div>';
     return;
   }
 
   container.innerHTML = filtered.map(function(a) {
-    // Security: sanitise title and summary
-    if (!a.title) return '';
-    if (a.title.toLowerCase().indexOf('sponsored') === 0) return '';
-    var title   = a.title.replace(/</g, '&lt;').replace(/>/g, '&gt;');
-    var summary = (a.summary || '').replace(/<[^>]+>/g, '').replace(/&nbsp;/g, ' ').trim();
-    if (summary.length < 80 || (a.source || '').toLowerCase().indexOf('google news') > -1) summary = '';
-    var href = (a.link && a.link.indexOf('http') === 0) ? a.link : '#';
+    var href = safeUrl(a.link);
+    var title = esc(a.title);
+    var summary = String(a.summary || '');
+    // Google News summaries just repeat the headline; very short ones add nothing.
+    if (summary.length < 80 || /google news/i.test(a.source || '')) summary = '';
 
-    // Reading time from title + summary words
-    var wordCount = (title + ' ' + summary).split(/\s+/).length;
-    var mins = Math.max(1, Math.ceil(wordCount / 220));
-    var readTime = mins + ' min read';
-
-    // Tags — clickable to filter (data attributes, handled via event delegation)
     var tags = (a.tags || []).map(function(t) {
-      var isActive = activeFilters.topic.indexOf(t) > -1;
-      var cls = tagClass(t) + (isActive ? ' tag--active' : '');
-      return '<span class="' + cls + '" ' +
-        'data-filter-topic="' + t.replace(/"/g, '&quot;') + '" ' +
-        'role="button" tabindex="0" aria-label="Filter by ' + t + '">' + t + '</span>';
+      return filterButton('topic', t, 'tag ' + (TAG_CLASS_MAP[t] || ''), esc(t));
     }).join('');
+    var threat = a.threat
+      ? filterButton('threat', a.threat, 'tag threat-badge ' + (THREAT_CLASS[a.threat] || 't-advisory'), '● ' + esc(a.official ? 'ACSC ' + a.threat : a.threat))
+      : '';
 
-    // Threat tag — clickable
-    var threatVal = a.threat || 'Advisory';
-    var isThActive = activeFilters.threat.indexOf(threatVal) > -1;
-    var threatBtn = '<span class="' + threatClass(a.threat) + (isThActive ? ' tag--active' : '') + '" ' +
-      'data-filter-threat="' + threatVal.replace(/"/g, '&quot;') + '" ' +
-      'role="button" tabindex="0" aria-label="Filter by ' + threatVal + ' threat">' + threatDot(a.threat) + '</span>';
-
-    var dateStr  = a.date ? formatDateAEST(a.date) : '';
-    var datePart = dateStr ? '<span class="dot">·</span><span class="art-date">' + dateStr + '</span>' : '';
-    var summaryPart = summary ? '<div class="art-summary">' + summary.substring(0, 240) + '</div>' : '';
-
-    return '<a class="article" href="' + href + '" target="_blank" rel="noopener noreferrer">' +
+    var date = formatDate(a.date, true);
+    return '<article class="article' + (a.official ? ' article--official' : '') + '">' +
       '<div class="art-meta">' +
-        '<span class="source">' + (a.source || '').replace(/</g,'&lt;') + '</span>' +
-        datePart +
-        '<span class="dot">·</span>' +
-        '<span class="art-reading-time">' + readTime + '</span>' +
+        '<span class="source">' + esc(cleanSource(a.source)) + '</span>' +
+        (date ? '<span class="dot" aria-hidden="true">·</span><time class="art-date" datetime="' + esc(a.date) + '">' + esc(date) + '</time>' : '') +
       '</div>' +
-      '<div class="art-title">' + title + '</div>' +
-      summaryPart +
-      '<div class="art-tags">' + tags + threatBtn + '</div>' +
-    '</a>';
+      '<h3 class="art-title">' +
+        (href ? '<a class="art-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + title + '</a>' : title) +
+      '</h3>' +
+      (summary ? '<p class="art-summary">' + esc(summary) + '</p>' : '') +
+      '<div class="art-tags">' + threat + tags + '</div>' +
+    '</article>';
   }).join('');
 }
 
 // ── RENDER CVE ─────────────────────────────────────────────
+// CISA KEV has no severity score, so none is shown. The fix-by date is the
+// deadline CISA sets for US federal agencies — a useful urgency signal.
 function renderCVE(items) {
   var el = document.getElementById('cve-feed');
   if (!el) return;
   if (!items || !items.length) {
-    el.innerHTML = '<div class="cve-loading">No CVE data available.</div>';
+    el.innerHTML = '<li class="cve-loading">No CVE data available.</li>';
     return;
   }
   el.innerHTML = items.slice(0, 10).map(function(c) {
-    var sev    = (c.severity || 'HIGH').toUpperCase();
-    var sevCls = sev === 'CRITICAL' ? 'cve-sev--critical' : 'cve-sev--high';
-    var ransom = c.ransomware === 'Known' ? '<span class="cve-ransomware">⚠ Ransomware</span>' : '';
-    var desc   = (c.description || '').substring(0, 120) + (c.description && c.description.length > 120 ? '…' : '');
-    var link   = c.link || 'https://nvd.nist.gov/vuln/detail/' + (c.id || '');
-    var added  = c.published ? c.published : '';
-    return '<a class="cve-item" href="' + link + '" target="_blank" rel="noopener noreferrer" role="listitem">' +
+    var href = safeUrl(c.link);
+    var ransom = c.ransomware === 'Known' ? '<span class="cve-ransomware">⚠ Used in ransomware</span>' : '';
+    var added = formatDate(c.date_added);
+    var due = formatDate(c.due_date);
+    var dates = [added ? 'Added ' + added : '', due ? 'CISA fix-by ' + due : ''].filter(Boolean).join(' · ');
+    var inner =
       '<div class="cve-id-row">' +
-        '<span class="cve-id">' + (c.id || '').replace(/</g,'&lt;') + '</span>' +
-        '<span class="cve-sev ' + sevCls + '">● ' + sev + '</span>' +
+        '<span class="cve-id">' + esc(c.id) + '</span>' +
+        (c.name ? '<span class="cve-name">' + esc(c.name) + '</span>' : '') +
         ransom +
       '</div>' +
-      '<div class="cve-desc">' + desc.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>' +
-      (added ? '<div class="cve-date">Added ' + added + '</div>' : '') +
-    '</a>';
+      '<div class="cve-desc">' + esc(c.description) + '</div>' +
+      (dates ? '<div class="cve-date">' + esc(dates) + '</div>' : '');
+    return '<li>' + (href
+      ? '<a class="cve-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>'
+      : '<div class="cve-item">' + inner + '</div>') + '</li>';
   }).join('');
 }
 
 // ── RENDER TOOLS ───────────────────────────────────────────
-var TOOL_ICON_MAP = {
-  'google-workspace': 'https://cdn.simpleicons.org/google/4285F4',
-  'google-chrome':    'https://cdn.simpleicons.org/googlechrome/4285F4',
-  'microsoft-365':    'https://cdn.simpleicons.org/microsoft/D83B01',
-  'ai-tools':         'https://cdn.simpleicons.org/openai/10A37F',
-  'canva':            'https://cdn.simpleicons.org/canva/00C4CC',
-  'claude':           'https://cdn.simpleicons.org/anthropic/CC785C',
-};
-
-function renderTools() {
+function renderTools(tools) {
   var el = document.getElementById('tools-container');
   if (!el) return;
-  if (!allTools.length) {
+  if (!tools.length) {
     el.innerHTML = '<div class="sb-empty">No tool updates available.</div>';
     return;
   }
   var grouped = {};
-  allTools.forEach(function(t) {
-    if (!grouped[t.tool]) grouped[t.tool] = [];
+  var order = [];
+  tools.forEach(function(t) {
+    if (!grouped[t.tool]) { grouped[t.tool] = []; order.push(t.tool); }
     grouped[t.tool].push(t);
   });
-  el.innerHTML = Object.entries(grouped).map(function(entry) {
-    var tool  = entry[0];
-    var items = entry[1].slice(0, 3);
-    var rows  = items.map(function(i) {
-      var title = (i.title || '');
+  el.innerHTML = order.map(function(tool) {
+    var rows = grouped[tool].slice(0, 3).map(function(i) {
+      var title = String(i.title || '');
       if (/^v\d+\.\d+/.test(title)) title = tool + ' ' + title;
       if (title.length > 80) title = title.substring(0, 77) + '…';
-      title = title.replace(/</g,'&lt;').replace(/>/g,'&gt;');
-      var href = (i.link && i.link.indexOf('http') === 0) ? i.link : '#';
-      return '<a class="tool-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' +
-        '<div class="tool-item-title">' + title + '</div>' +
-        (i.date ? '<div class="tool-item-date">' + i.date + '</div>' : '') +
-      '</a>';
+      var href = safeUrl(i.link);
+      var date = formatDate(i.date);
+      var inner = '<span class="tool-item-title">' + esc(title) + '</span>' +
+        (date ? '<span class="tool-item-date">' + esc(date) + '</span>' : '');
+      return '<li>' + (href
+        ? '<a class="tool-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>'
+        : '<div class="tool-item">' + inner + '</div>') + '</li>';
     }).join('');
-    var toolKey = tool.toLowerCase().replace(/[\s\/]+/g, '-').replace(/[^a-z0-9-]/g, '');
-    var iconUrl = TOOL_ICON_MAP[toolKey] || '';
-    var iconHtml = iconUrl
-      ? '<img src="' + iconUrl + '" class="tool-icon" alt="" aria-hidden="true" width="14" height="14">'
-      : '';
-    return '<div class="tool-group"><div class="tool-name" data-tool="' + toolKey + '">' +
-      iconHtml + tool.replace(/</g,'&lt;') + '</div>' + rows + '</div>';
+    return '<div class="tool-group">' +
+      '<h3 class="tool-name"><span class="tool-mono" aria-hidden="true">' + esc(tool.charAt(0)) + '</span>' + esc(tool) + '</h3>' +
+      '<ul class="tool-list">' + rows + '</ul></div>';
   }).join('');
 }
 
-// ── SCAM OF THE WEEK ───────────────────────────────────────
+// ── CALLOUTS ───────────────────────────────────────────────
+function showCallout(prefix, item, badgeText) {
+  var callout = document.getElementById(prefix + '-callout');
+  if (!callout || !item) return;
+  var titleEl = document.getElementById(prefix + '-title');
+  var metaEl  = document.getElementById(prefix + '-meta');
+  var linkEl  = document.getElementById(prefix + '-link');
+  var badgeEl = document.getElementById(prefix + '-badge');
+  if (titleEl) titleEl.textContent = item.title;
+  if (metaEl)  metaEl.textContent = [cleanSource(item.source), formatDate(item.date, true)].filter(Boolean).join(' · ');
+  if (badgeEl && badgeText) badgeEl.textContent = badgeText;
+  var href = safeUrl(item.link);
+  if (linkEl && href) linkEl.setAttribute('href', item.link);
+  callout.hidden = false;
+}
+
+// Most recent ACSC Critical/High alert from the last 14 days.
+function renderOfficialAlert(articles) {
+  var cutoff = Date.now() - 14 * 24 * 60 * 60 * 1000;
+  var alert = articles.filter(function(a) {
+    var d = parseDate(a.date);
+    return a.official && (a.threat === 'Critical' || a.threat === 'High') && d && d >= cutoff;
+  })[0];
+  if (!alert) return;
+  showCallout('official', alert, 'ACSC ' + alert.threat + ' alert');
+  var callout = document.getElementById('official-callout');
+  if (callout) callout.classList.toggle('is-critical', alert.threat === 'Critical');
+}
+
 function renderScamOfWeek(articles) {
-  var callout = document.getElementById('scam-callout');
-  if (!callout) return;
-  var GENERIC = ['browse news', 'news and alerts', 'alerts and news'];
-  function usable(a) {
-    var t = (a.title || '').toLowerCase();
-    return !GENERIC.some(function(g) { return t.indexOf(g) > -1; });
-  }
-  var byDate = function(a, b) { return parseArticleDate(b.date) - parseArticleDate(a.date); };
-  var scams = articles
-    .filter(function(a) {
-      return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title &&
-        a.source && a.source.toLowerCase().indexOf('scamwatch') > -1;
-    })
-    .filter(usable)
-    .sort(byDate);
-  if (!scams.length) {
-    scams = articles
-      .filter(function(a) {
-        return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title;
-      })
-      .filter(usable)
-      .sort(byDate);
-  }
-  if (!scams.length) {
-    callout.style.display = 'none';
-    return;
-  }
-  var s = scams[0];
-  var titleEl = document.getElementById('scam-title');
-  var metaEl  = document.getElementById('scam-meta');
-  var linkEl  = document.getElementById('scam-link');
-  var cleanTitle = (s.title || '').replace(/\s*[-–|]\s*(Scamwatch|Scam\s+Watch|ACCC).*$/i, '').trim();
-  if (titleEl) titleEl.textContent = cleanTitle;
-  var src = (s.source || '').replace(/^Google News\s*[—-]\s*/i, '');
-  if (metaEl) metaEl.textContent = (src ? src + ' · ' : '') + (s.date || '');
-  if (linkEl && s.link && s.link.indexOf('http') === 0) linkEl.href = s.link;
-  callout.style.display = 'flex';
+  // Only items that are about scams: Scamwatch itself, or a headline that says "scam".
+  // (The Scams tag alone also catches enterprise phishing research.)
+  var scams = articles.filter(function(a) {
+    return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title &&
+      (/scamwatch/i.test(a.source || '') || /\bscam/i.test(a.title));
+  });
+  var fromScamwatch = scams.filter(function(a) { return /scamwatch/i.test(a.source || ''); });
+  var s = (fromScamwatch.length ? fromScamwatch : scams)[0];
+  if (!s) return;
+  showCallout('scam', {
+    title: String(s.title).replace(/\s*[-–|]\s*(Scamwatch|Scam\s+Watch|ACCC).*$/i, '').trim(),
+    source: s.source, date: s.date, link: s.link
+  });
 }
 
 // ── FEATURED STORY ─────────────────────────────────────────
-// Selected server-side by cross-source coverage (scripts/fetch_cyber_news.py),
-// not by AI — see select_trending_article().
+// Selected server-side by cross-source coverage, not by AI —
+// see select_trending_article() in scripts/fetch_cyber_news.py.
 function renderFeaturedStory(f) {
   var el = document.getElementById('featured-story');
   if (!el || !f || !f.title) return;
-  var title   = (f.title   || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  var summary = (f.summary || '').replace(/</g, '&lt;').replace(/>/g, '&gt;');
-  var source  = (f.source  || '').replace(/^Google News\s*[—\-]\s*/i, '').replace(/</g, '&lt;');
-  var href    = (f.link && f.link.indexOf('http') === 0) ? f.link : '#';
-  var count   = parseInt(f.source_count, 10) || 1;
-  var meta    = source + (count > 1 ? (source ? ' · ' : '') + 'Covered by ' + count + ' sources' : '');
+  var href = safeUrl(f.link);
+  var count = parseInt(f.source_count, 10) || 1;
+  var meta = [cleanSource(f.source), count > 1 ? 'Covered by ' + count + ' sources' : ''].filter(Boolean).join(' · ');
   el.innerHTML =
     '<div class="fs-label">Today\'s story</div>' +
-    (summary ? '<p class="fs-quote">' + summary + '</p>' : '') +
-    '<a class="fs-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + title + ' ↗</a>' +
-    (meta ? '<div class="fs-source">' + meta + '</div>' : '');
+    (f.summary ? '<p class="fs-quote">' + esc(f.summary) + '</p>' : '') +
+    (href ? '<a class="fs-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + esc(f.title) + ' ↗</a>'
+          : '<div class="fs-link">' + esc(f.title) + '</div>') +
+    (meta ? '<div class="fs-source">' + esc(meta) + '</div>' : '');
   el.hidden = false;
 }
 
-function loadFeaturedStory() {
-  fetch('data/briefing.json?t=' + Date.now(), { cache: 'no-cache' })
-    .then(function(r) {
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      return r.json();
-    })
-    .then(function(data) {
-      var item = (data.items && typeof data.items === 'object' && !Array.isArray(data.items))
-        ? data.items : data;
-      if (item.featured) renderFeaturedStory(item.featured);
-    })
-    .catch(function() {});
-}
-
-// ── WORD OF THE DAY ────────────────────────────────────────
-function initWotd() {
-  if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
-  renderWotd(DEFINITIONS);
-}
-
 // ── DATA LOAD ──────────────────────────────────────────────
-async function loadData() {
-  var luEl = document.getElementById('last-updated');
-  var fuEl = document.getElementById('footer-updated');
+function getJson(path) {
+  return fetch(path, { cache: 'no-cache' }).then(function(r) {
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    return r.json();
+  });
+}
 
-  // 1. News feed
-  try {
-    var res  = await fetch('data/news.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    var data = await res.json();
+function loadData() {
+  getJson('data/news.json').then(function(data) {
     allArticles = Array.isArray(data.items) ? data.items : [];
-    var ts = data.last_updated ? formatDateAEST(data.last_updated) : '';
-    if (luEl) { luEl.textContent = ts ? 'Updated ' + ts : ''; }
-    if (fuEl)   fuEl.textContent = ts ? 'Updated ' + ts : '';
+    var ts = formatDate(data.last_updated, true);
+    var lu = document.getElementById('last-updated');
+    var fu = document.getElementById('footer-updated');
+    if (lu) lu.textContent = ts ? 'Updated ' + ts : '';
+    if (fu) fu.textContent = ts ? 'Updated ' + ts : '';
     renderArticles();
+    renderOfficialAlert(allArticles);
     renderScamOfWeek(allArticles);
-  } catch(e) {
+  }).catch(function() {
     var c = document.getElementById('articles-container');
-    if (c) c.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div>' +
-      '<p>Could not load news feed. ' + (e.message || '') + '</p></div>';
-    if (luEl) luEl.textContent = 'Load failed';
-  }
+    if (c) c.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div><p>Could not load the news feed. Try refreshing.</p></div>';
+  });
 
-  // 2. Tool updates
-  try {
-    var res2  = await fetch('data/tool_updates.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res2.ok) throw new Error('HTTP ' + res2.status);
-    var data2 = await res2.json();
-    allTools  = Array.isArray(data2.items) ? data2.items : [];
-    renderTools();
-  } catch(e) {
-    var toolsEl = document.getElementById('tools-container');
-    if (toolsEl) toolsEl.innerHTML = '<div class="sb-empty">Tool updates unavailable.</div>';
-  }
+  getJson('data/tool_updates.json').then(function(data) {
+    renderTools(Array.isArray(data.items) ? data.items : []);
+  }).catch(function() {
+    var el = document.getElementById('tools-container');
+    if (el) el.innerHTML = '<div class="sb-empty">Tool updates unavailable.</div>';
+  });
 
-  // 3. CVE feed
-  try {
-    var res3  = await fetch('data/cve.json?t=' + Date.now(), { cache: 'no-cache' });
-    if (!res3.ok) throw new Error('HTTP ' + res3.status);
-    var data3 = await res3.json();
-    var cveItems = Array.isArray(data3.items) ? data3.items
-      : (data3.items && Array.isArray(data3.items.items)) ? data3.items.items : [];
-    renderCVE(cveItems);
-  } catch(e) {
-    var cveEl = document.getElementById('cve-feed');
-    if (cveEl) cveEl.innerHTML = '<div class="cve-loading">CVE data unavailable.</div>';
-  }
+  getJson('data/cve.json').then(function(data) {
+    renderCVE(Array.isArray(data.items) ? data.items : []);
+  }).catch(function() {
+    var el = document.getElementById('cve-feed');
+    if (el) el.innerHTML = '<li class="cve-loading">CVE data unavailable.</li>';
+  });
+
+  getJson('data/annual_report.json').then(function(data) {
+    REPORT = data;
+    renderReport(data);
+    updateTracker();
+  }).catch(function() {});
+
+  getJson('data/briefing.json').then(function(data) {
+    if (data.items && data.items.featured) renderFeaturedStory(data.items.featured);
+  }).catch(function() {});
 }
 
 // ── INIT ───────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
-  updateTracker();
+  initTrackerLabels();
   setInterval(updateTracker, 6000);
-  initBarChart();
-  initWotd();
-  initBlurb();
-  initTip();
-  loadFeaturedStory();
+  initRotations();
   loadData();
 
-  // Static button listeners — replaces inline onclick attributes
-  var threatMapBtn = document.getElementById('threat-map-btn');
-  if (threatMapBtn) threatMapBtn.addEventListener('click', toggleThreatMap);
+  var clearBtn = document.getElementById('clear-filters-btn');
+  if (clearBtn) clearBtn.addEventListener('click', clearAllFilters);
 
-  var threatMapClose = document.querySelector('.threat-map-close');
-  if (threatMapClose) threatMapClose.addEventListener('click', toggleThreatMap);
-
-  var clearFiltersBtn = document.querySelector('.clear-filters-btn');
-  if (clearFiltersBtn) clearFiltersBtn.addEventListener('click', clearAllFilters);
-
-  // Event delegation — article tag filters
-  var feed = document.getElementById('articles-container');
-  if (feed) {
-    feed.addEventListener('click', function(e) {
-      var el = e.target.closest('[data-filter-topic]');
-      if (el) { e.preventDefault(); toggleTagFilter('topic', el.dataset.filterTopic); return; }
-      el = e.target.closest('[data-filter-threat]');
-      if (el) { e.preventDefault(); toggleTagFilter('threat', el.dataset.filterThreat); }
-    });
-    feed.addEventListener('keydown', function(e) {
-      if (e.key !== 'Enter' && e.key !== ' ') return;
-      var el = e.target.closest('[data-filter-topic]');
-      if (el) { e.preventDefault(); toggleTagFilter('topic', el.dataset.filterTopic); return; }
-      el = e.target.closest('[data-filter-threat]');
-      if (el) { e.preventDefault(); toggleTagFilter('threat', el.dataset.filterThreat); }
-    });
-  }
-
-  // Event delegation — active filter chips
-  var filterTags = document.getElementById('active-filter-tags');
-  if (filterTags) {
-    filterTags.addEventListener('click', function(e) {
-      var chip = e.target.closest('[data-remove-filter]');
-      if (chip) removeFilter(chip.dataset.removeFilter);
-    });
-  }
+  // One delegated handler for every filter button (article tags + active chips).
+  document.addEventListener('click', function(e) {
+    if (e.target.closest('#no-results-clear')) { clearAllFilters(); return; }
+    var btn = e.target.closest('[data-filter-type]');
+    if (btn) toggleFilter(btn.getAttribute('data-filter-type'), btn.getAttribute('data-filter-value'));
+  });
 });

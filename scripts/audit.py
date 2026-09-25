@@ -1,297 +1,240 @@
 #!/usr/bin/env python3
 """
-audit.py — pseudosec. pre-ship audit
-Run from the project root: python3 scripts/audit.py
+audit.py — pseudosec. pre-ship checks. Run from anywhere:  python scripts/audit.py
+
+Checks real properties of the site rather than the presence of strings:
+  HTML   every local link/asset exists; external links open safely; CSP present,
+         no inline handlers/javascript: URLs, inline script hash allowed by CSP
+  Assets no third-party hosts for scripts, styles or fonts
+  CSS    text colour tokens meet WCAG AA (4.5:1) on every surface, both themes
+  Data   data/*.json is valid, dates are ISO 8601 UTC, links are https, text has no markup
+Exit code is non-zero if anything fails. Pipeline logic is covered by tests/ (pytest).
 """
-import re, ast, os, sys
+import base64
+import hashlib
+import json
+import os
+import re
+import sys
+from html.parser import HTMLParser
+from urllib.parse import urlparse
 
-ROOT = os.path.join(os.path.dirname(__file__), '..')
+ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+PAGES = ["index.html", "reference.html", "resources.html", "ai-guide.html", "sources.html"]
+ISO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 
-errors = []
-warnings = []
+failures = []
 
-def check(label, condition, warn=False):
-    result = bool(condition)
-    marker = "✓" if result else ("⚠" if warn else "✗")
-    if not result:
-        (warnings if warn else errors).append(label)
-    return result
 
-def load(path):
-    try:
-        return open(os.path.join(ROOT, path)).read()
-    except FileNotFoundError:
-        errors.append(f"FILE MISSING: {path}")
-        return ''
+def check(label, ok, detail=""):
+    print(("  ✓ " if ok else "  ✗ ") + label + ("" if ok else ("  — " + detail if detail else "")))
+    if not ok:
+        failures.append(label)
 
-# ── LOAD ALL FILES ──────────────────────────────────────────
-idx         = load('index.html')
-shard_css   = load('shared.css')
-dash_css    = load('dashboard.css')
-shard_js    = load('shared.js')
-dash_js     = load('dashboard.js')
-defs_html   = load('definitions.html')     # redirect stub -> reference.html#glossary
-defs_js     = load('definitions-page.js')  # reference.html's page script
-defsdata_js = load('definitions.js')       # shared term data, used by index + reference
-defs_css    = load('definitions.css')
-ref_html    = load('reference.html')
-ref_css     = load('reference.css')
-res_html    = load('resources.html')
-res_css     = load('resources.css')
-res_js      = load('resources.js')
-aig_html    = load('ai-guide.html')
-aig_css     = load('ai-guide.css')
-aig_js      = load('ai-guide.js')
-src_html    = load('sources.html')
-src_css     = load('sources.css')
-py_script   = load('scripts/fetch_cyber_news.py')
-workflow    = load('.github/workflows/fetch_news.yml')
 
-all_html = [('index.html', idx), ('reference.html', ref_html),
-            ('resources.html', res_html), ('ai-guide.html', aig_html),
-            ('sources.html', src_html)]
-all_js_files = [('shared.js', shard_js), ('dashboard.js', dash_js),
-                ('definitions-page.js', defs_js), ('definitions.js', defsdata_js),
-                ('resources.js', res_js), ('ai-guide.js', aig_js)]
-all_css_files = [('shared.css', shard_css), ('dashboard.css', dash_css),
-                  ('reference.css', ref_css), ('definitions.css', defs_css),
-                  ('resources.css', res_css), ('ai-guide.css', aig_css),
-                  ('sources.css', src_css)]
+def read(path):
+    with open(os.path.join(ROOT, path), encoding="utf-8") as f:
+        return f.read()
 
-results = []
 
-# ── PASS 1: CONTENT INTEGRITY ───────────────────────────────
-print("\n── PASS 1: CONTENT INTEGRITY")
-tests = [
-    ("$80,850 present in index",           '$80,850' in idx),
-    ("$36,633 present in index",           '$36,633' in idx),
-    ("No stripped dollar sign (0,850)",    not re.search(r'(?<!\d)(?<!\$)0,850', idx)),
-    ("No stripped dollar sign (6,633)",    not re.search(r'(?<!\d)(?<!\$)(?<!3)6,633', idx)),
-    ("Wotd def not showing Loading",       'wotd-def">Loading' not in idx),
-    ("Scam callout hidden by default",     'scam-callout' in idx),
-    ("Briefing hides on fail",             "display = 'none'" in dash_js),
-    ("51+ definitions",                    defsdata_js.count("short:") >= 51),
-    ("briefing.json exists",               os.path.exists(os.path.join(ROOT, 'data/briefing.json'))),
-    ("news.json exists",                   os.path.exists(os.path.join(ROOT, 'data/news.json'))),
-    ("cve.json exists",                    os.path.exists(os.path.join(ROOT, 'data/cve.json'))),
-    ("tool_updates.json exists",           os.path.exists(os.path.join(ROOT, 'data/tool_updates.json'))),
-    ("pseudosec.png exists",               os.path.exists(os.path.join(ROOT, 'assets/pseudosec.png'))),
-]
-for label, cond in tests:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+class Page(HTMLParser):
+    def __init__(self):
+        super().__init__()
+        self.tags = []           # (tag, attrs dict)
+        self.inline_scripts = []
+        self._in_script = False
 
-# ── PASS 2: HTML STRUCTURE ──────────────────────────────────
-print("\n── PASS 2: HTML STRUCTURE")
-for name, h in all_html:
-    tests = [
-        (f"{name}: ends </html>",          h.strip().endswith('</html>')),
-        (f"{name}: has DOCTYPE",           '<!DOCTYPE html>' in h),
-        (f"{name}: lang=en",               'lang="en"' in h),
-        (f"{name}: meta description",      'meta name="description"' in h),
-        (f"{name}: favicon",               'rel="icon"' in h),
-        (f"{name}: no inline style",       '<style>' not in h),
-        (f"{name}: no inline script",      '<script>' not in h),
-        (f"{name}: loads shared.css",      'shared.css' in h),
-        (f"{name}: loads shared.js",       'shared.js' in h),
-        (f"{name}: 4+ nav links",          h.count('nav-link') >= 4),
-        (f"{name}: logo present",          'assets/pseudosec.png' in h),
-        (f"{name}: noopener on externals", 'rel="noopener' in h or h.count('target="_blank"') == 0),
-    ]
-    for label, cond in tests:
-        r = check(label, cond)
-        results.append((label, r))
-        print(f"  {'✓' if r else '✗'} {label}")
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        self.tags.append((tag, a))
+        self._in_script = tag == "script" and "src" not in a
 
-# Script load order — shared.js must load before any page-specific script
-for name, h in all_html:
-    sp = [(m.start(), m.group(1)) for m in re.finditer(r'<script src="([^"]+)"', h)]
-    order = [s[1] for s in sorted(sp)]
-    if order:
-        r = check(f"{name}: shared.js loads first", order[0] == 'shared.js')
-        results.append((f"{name}: shared.js first", r))
-        print(f"  {'✓' if r else '✗'} {name}: shared.js loads first")
+    def handle_endtag(self, tag):
+        if tag == "script":
+            self._in_script = False
 
-# ── PASS 2b: DEFINITIONS.HTML REDIRECT ──────────────────────
-# definitions.html is an intentional redirect stub (see docs/DECISIONS.md) —
-# reference.html now owns the full glossary page, so this checks the
-# redirect itself rather than full-page structure.
-print("\n── PASS 2b: DEFINITIONS.HTML REDIRECT")
-redirect_tests = [
-    ("definitions.html: redirects to reference.html#glossary", 'url=reference.html#glossary' in defs_html),
-    ("definitions.html: has canonical link",                   'rel="canonical"' in defs_html),
-    ("definitions.html: ends </html>",                         defs_html.strip().endswith('</html>')),
-]
-for label, cond in redirect_tests:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+    def handle_data(self, data):
+        if self._in_script and data.strip():
+            self.inline_scripts.append(data)
 
-# ── PASS 3: CSS ─────────────────────────────────────────────
-print("\n── PASS 3: CSS")
-for name, css in all_css_files:
-    o, c = css.count('{'), css.count('}')
-    r = check(f"{name}: braces balanced ({o}/{c})", o == c)
-    results.append((f"{name}: braces", r))
-    print(f"  {'✓' if r else '✗'} {name}: braces balanced ({o}/{c})")
 
-extra_css = [
-    ("Dark yellow accent #f8ce2a",         '#f8ce2a' in shard_css),
-    ("Light amber accent #c85200",         '#c85200' in shard_css),
-    ("Reduced motion respected",           'prefers-reduced-motion' in shard_css),
-    ("Mobile 768px breakpoint",            'max-width: 768px' in shard_css),
-    ("Article hover feedback",             'border-left-color' in dash_css),
-    ("Count fade-in defined",              'count-num.visible' in dash_css),
-    ("Logo height set",                    'site-logo img' in shard_css),
-]
-for label, cond in extra_css:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+def local_target(url):
+    """Return a repo-relative path for a local URL, or None for external/anchor/data URLs."""
+    if not url or url.startswith(("#", "data:", "mailto:", "tel:")):
+        return None
+    p = urlparse(url)
+    if p.scheme or p.netloc:
+        return None
+    return p.path or None
 
-# ── PASS 4: JAVASCRIPT ──────────────────────────────────────
-print("\n── PASS 4: JAVASCRIPT")
-for name, js in all_js_files:
-    tests = [
-        (f"{name}: braces balanced", js.count('{') == js.count('}')),
-        (f"{name}: parens balanced", js.count('(') == js.count(')')),
-        (f"{name}: no backticks",    '`' not in js),
-    ]
-    for label, cond in tests:
-        r = check(label, cond)
-        results.append((label, r))
-        print(f"  {'✓' if r else '✗'} {label}")
 
-extra_js = [
-    ("XSS: titles HTML-escaped",           "replace(/</g,'&lt;')" in dash_js),
-    ("href validated (http check)",        "indexOf('http') === 0" in dash_js),
-    ("DOMContentLoaded wraps init",        'DOMContentLoaded' in dash_js),
-    ("No eval() in any JS",                all('eval(' not in js for _, js in all_js_files)),
-    ("No document.write() in any JS",      all('document.write(' not in js for _, js in all_js_files)),
-    ("WOTD calc uses UTC offset",          'nowUtc' in shard_js),
-    ("HIBP email validation",              r'/^[^\s@]+@[^\s@]+\.[^\s@]+$/' in res_js),
-    ("Clipboard fallback present",         'execCommand' in aig_js),
-    ("Search debounced",                   'clearTimeout' in defs_js),
-]
-for label, cond in extra_js:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+# ── HTML ────────────────────────────────────────────────────
+print("\n── HTML")
+for page in PAGES:
+    src = read(page)
+    doc = Page()
+    doc.feed(src)
+    tags = doc.tags
 
-# ── PASS 5: PYTHON & WORKFLOW ────────────────────────────────
-print("\n── PASS 5: PYTHON & WORKFLOW")
-py_valid = True
-try:
-    ast.parse(py_script)
-except SyntaxError as e:
-    py_valid = False
-    errors.append(f"Python syntax error: {e}")
+    html_tag = next((a for t, a in tags if t == "html"), {})
+    check(page + ": <html lang>", bool(html_tag.get("lang")))
+    metas = [a for t, a in tags if t == "meta"]
+    check(page + ": meta description", any(m.get("name") == "description" and m.get("content") for m in metas))
+    check(page + ": canonical link", any(t == "link" and a.get("rel") == "canonical" for t, a in tags))
 
-py_tests = [
-    ("Python syntax valid",                py_valid),
-    ("No bare datetime.now() for display", py_script.count('datetime.now()') <= 1),
-    ("AEST offset used",                   'hours=10' in py_script),
-    ("API key from environment",           'os.environ.get' in py_script),
-    ("API key not hardcoded",              'sk-ant' not in py_script),
-    ("CISA KEV source present",            'cisa.gov' in py_script),
-    ("No Schneier feed",                   'schneier.com' not in py_script),
-    ("30-day article window",              'days=30' in py_script),
-    ("Briefing list-safe",                 'isinstance(news, list)' in py_script),
-    ("Workflow force-with-lease",          'force-with-lease' in workflow),
-    ("Workflow API key secret",            'secrets.ANTHROPIC_API_KEY' in workflow),
-    ("Workflow commits briefing.json",     'data/briefing.json' in workflow),
-]
-for label, cond in py_tests:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+    csp = next((m.get("content", "") for m in metas if m.get("http-equiv", "").lower() == "content-security-policy"), "")
+    check(page + ": CSP meta present", bool(csp))
+    directives = [d.strip().split()[0] for d in csp.split(";") if d.strip()]
+    check(page + ": CSP has no duplicate directives", len(directives) == len(set(directives)), str(directives))
+    script_src = next((d for d in csp.split(";") if d.strip().startswith("script-src")), "")
+    check(page + ": CSP script-src has no 'unsafe-inline'", "'unsafe-inline'" not in script_src)
+    check(page + ": CSP style-src has no 'unsafe-inline'", "'unsafe-inline'" not in
+          next((d for d in csp.split(";") if d.strip().startswith("style-src")), ""))
+    inline_styles = [t for t, a in tags if "style" in a] + (["<style>"] if "<style" in src else [])
+    check(page + ": no inline style attributes or <style> blocks", not inline_styles, str(inline_styles[:3]))
+    for body in doc.inline_scripts:
+        digest = base64.b64encode(hashlib.sha256(body.encode("utf-8")).digest()).decode()
+        check(page + ": inline script hash allowed by CSP", ("'sha256-%s'" % digest) in script_src)
 
-# ── PASS 6: SECURITY ─────────────────────────────────────────
-print("\n── PASS 6: SECURITY")
-all_content = idx + ref_html + res_html + aig_html + src_html + defs_html + shard_js + dash_js
-sec_tests = [
-    ("No API keys in HTML or JS",          'sk-ant' not in all_content),
-    ("No iframe in dashboard",             'iframe' not in idx),
-    ("CSP frame-src none",                 "frame-src 'none'" in idx),
-    ("ARIA live on dynamic content",       'aria-live' in idx),
-    ("role=feed on article list",          'role="feed"' in idx),
-    ("HIBP uses HTTPS",                    'https://haveibeenpwned' in res_js),
-]
-for label, cond in sec_tests:
-    r = check(label, cond)
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+    handlers = [(t, k) for t, a in tags for k in a if k.startswith("on")]
+    check(page + ": no inline event handlers", not handlers, str(handlers[:3]))
+    js_urls = [a.get("href") for t, a in tags if (a.get("href") or "").lower().startswith("javascript:")]
+    check(page + ": no javascript: URLs", not js_urls)
 
-# ── PASS 7: CONTENT QUALITY ──────────────────────────────────
-print("\n── PASS 7: CONTENT QUALITY")
-import json as _json
+    unsafe_blank = [a.get("href") for t, a in tags
+                    if a.get("target") == "_blank" and not {"noopener", "noreferrer"} <= set((a.get("rel") or "").split())]
+    check(page + ': target=_blank links have rel="noopener noreferrer"', not unsafe_blank, str(unsafe_blank[:3]))
+
+    missing = []
+    for t, a in tags:
+        for attr in ("href", "src"):
+            path = local_target(a.get(attr))
+            if path and not os.path.exists(os.path.join(ROOT, path)):
+                missing.append(path)
+    check(page + ": all local links and assets exist", not missing, str(missing[:5]))
+
+    third_party = [a.get("src") or a.get("href") for t, a in tags
+                   if (t == "script" and urlparse(a.get("src", "")).netloc)
+                   or (t == "link" and a.get("rel") == "stylesheet" and urlparse(a.get("href", "")).netloc)]
+    check(page + ": no third-party scripts or stylesheets", not third_party, str(third_party))
+
+    ids = [a["id"] for t, a in tags if "id" in a]
+    dupes = sorted({i for i in ids if ids.count(i) > 1})
+    check(page + ": no duplicate ids", not dupes, str(dupes))
+
+# ── CSS ─────────────────────────────────────────────────────
+print("\n── CSS")
+css_files = sorted(f for f in os.listdir(ROOT) if f.endswith(".css"))
+for name in css_files:
+    css = read(name)
+    check(name + ": no @import", "@import" not in css)
+    check(name + ": no external url()", not re.search(r"url\(\s*['\"]?https?:", css))
+    check(name + ": braces balanced", css.count("{") == css.count("}"))
+
+shared = read("shared.css")
+
+
+def theme_tokens(selector_pattern):
+    block = re.search(selector_pattern + r"\s*\{(.*?)\n\}", shared, re.S).group(1)
+    return dict(re.findall(r"--([\w-]+):\s*(#[0-9a-fA-F]{6})", block))
+
+
+def luminance(hex_colour):
+    c = [int(hex_colour[i:i + 2], 16) / 255 for i in (1, 3, 5)]
+    c = [x / 12.92 if x <= 0.03928 else ((x + 0.055) / 1.055) ** 2.4 for x in c]
+    return 0.2126 * c[0] + 0.7152 * c[1] + 0.0722 * c[2]
+
+
+def contrast(a, b):
+    la, lb = sorted((luminance(a), luminance(b)), reverse=True)
+    return (la + 0.05) / (lb + 0.05)
+
+
+for theme, pattern in (("dark", r':root, :root\[data-theme="dark"\]'), ("light", r':root\[data-theme="light"\]')):
+    tok = theme_tokens(pattern)
+    for text in ("text", "text-2", "text-3", "text-4"):
+        for surface in ("bg", "surface", "surface2"):
+            ratio = contrast(tok[text], tok[surface])
+            check("%s: --%s on --%s ≥ 4.5:1" % (theme, text, surface), ratio >= 4.5, "%.2f:1" % ratio)
+
+# ── JAVASCRIPT ──────────────────────────────────────────────
+print("\n── JavaScript")
+js_files = sorted(f for f in os.listdir(ROOT) if f.endswith(".js"))
+for name in js_files:
+    js = read(name)
+    check(name + ": no eval / new Function / document.write",
+          not re.search(r"\beval\(|new Function\(|document\.write\(", js))
+for name in js_files + css_files + PAGES:
+    check(name + ": no stray control characters", not re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", read(name)))
+check("dashboard.js renders feed data through esc()/safeUrl()",
+      "esc(" in read("dashboard.js") and "safeUrl(" in read("dashboard.js"))
+
+# ── DATA ────────────────────────────────────────────────────
+print("\n── Data")
+
 
 def load_json(path):
     try:
-        with open(os.path.join(ROOT, path)) as f:
-            data = _json.load(f)
-        return data.get('items', data) if isinstance(data, dict) else data
-    except Exception:
-        return []
+        return json.loads(read(path))
+    except (OSError, ValueError) as e:
+        check(path + ": valid JSON", False, str(e))
+        return None
 
-news_items  = load_json('data/news.json')
-cve_items   = load_json('data/cve.json')
-tool_items  = load_json('data/tool_updates.json')
 
-html_pattern = __import__('re').compile(r'<[a-zA-Z]')
-flagged_sources = []
-html_summaries  = []
+def check_items(path, items, date_keys, text_keys, link_key="link"):
+    bad_dates = [i.get(k) for i in items for k in date_keys if i.get(k) and not ISO.match(i[k])]
+    check(path + ": dates are ISO 8601 UTC", not bad_dates, str(bad_dates[:3]))
+    bad_links = [i.get(link_key) for i in items if i.get(link_key) and not i[link_key].startswith("https://")]
+    check(path + ": links are https", not bad_links, str(bad_links[:3]))
+    markup = [i.get(k) for i in items for k in text_keys if re.search(r"<[a-zA-Z/!]", i.get(k) or "")]
+    check(path + ": text fields contain no markup", not markup, str(markup[:2]))
 
-for a in (news_items if isinstance(news_items, list) else []):
-    summary = a.get('summary', '')
-    if html_pattern.search(summary):
-        html_summaries.append(a.get('title', '')[:60])
 
-for a in (tool_items if isinstance(tool_items, list) else []):
-    summary = a.get('summary', '')
-    if html_pattern.search(summary):
-        html_summaries.append(a.get('title', '')[:60])
+news = load_json("data/news.json")
+if news:
+    items = news.get("items", [])
+    check("data/news.json: has articles", len(items) > 0)
+    check("data/news.json: last_updated is ISO", bool(ISO.match(news.get("last_updated", ""))))
+    check_items("data/news.json", items, ["date"], ["title", "summary", "source"])
+    invented = [i["title"] for i in items if i.get("threat") and not i.get("official")]
+    check("data/news.json: only official items carry a threat level", not invented, str(invented[:2]))
 
-cq_tests = [
-    ("news.json has articles",             len(news_items) > 0),
-    ("cve.json has CVEs",                  len(cve_items) > 0),
-    ("No HTML in article/tool summaries",  len(html_summaries) == 0),  # warn: stale data clears on next fetch
-    ("news.json has 10+ articles",         len(news_items) >= 10),
-    ("All articles have titles",           all(a.get('title') for a in (news_items if isinstance(news_items, list) else []))),
-    ("All articles have links",            all(a.get('link') for a in (news_items if isinstance(news_items, list) else []))),
-    ("All CVEs have IDs",                  all(c.get('id') for c in (cve_items if isinstance(cve_items, list) else []))),
-]
-for label, cond in cq_tests:
-    r = check(label, cond, warn=(label in ("news.json has 10+ articles", "No HTML in article/tool summaries")))
-    results.append((label, r))
-    print(f"  {'✓' if r else '✗'} {label}")
+tools = load_json("data/tool_updates.json")
+if tools:
+    check_items("data/tool_updates.json", tools.get("items", []), ["date"], ["title", "summary"])
 
-if html_summaries:
-    print(f"  ⚠ HTML found in summaries ({len(html_summaries)} items) — strip_html() may not be running")
-    for t in html_summaries[:3]:
-        print(f"    • {t}")
+cve = load_json("data/cve.json")
+if cve:
+    items = cve.get("items", [])
+    check("data/cve.json: has CVEs", len(items) > 0)
+    check("data/cve.json: every CVE has an id", all(re.match(r"^CVE-\d{4}-\d+$", i.get("id", "")) for i in items))
+    check("data/cve.json: no invented severity", not any("severity" in i for i in items))
+    check_items("data/cve.json", items, [], ["description", "name"])
 
-# ── SUMMARY ──────────────────────────────────────────────────
-passed = sum(1 for _, r in results if r)
-total  = len(results)
+report = load_json("data/annual_report.json")
+if report:
+    check("data/annual_report.json: required fields",
+          all(report.get(k) for k in ("title", "fy", "fy_slug", "url", "reports_per_year", "report_interval", "stats", "crime_types")))
+    check("data/annual_report.json: fy_slug is YYYY-YYYY", bool(re.match(r"^\d{4}-\d{4}$", report.get("fy_slug", ""))))
+    check("data/annual_report.json: url is https on cyber.gov.au",
+          urlparse(report.get("url", "")).scheme == "https" and urlparse(report.get("url", "")).hostname == "www.cyber.gov.au")
+    check("data/annual_report.json: reports_per_year is a positive number",
+          isinstance(report.get("reports_per_year"), (int, float)) and report["reports_per_year"] > 0)
+    check("data/annual_report.json: every stat has value + label",
+          all(s.get("value") and s.get("label") for s in report.get("stats", [])))
+    pcts = [i.get("pct") for g in report.get("crime_types", []) for i in g.get("items", [])]
+    check("data/annual_report.json: crime-type percentages are 0–100",
+          bool(pcts) and all(isinstance(p, (int, float)) and 0 <= p <= 100 for p in pcts))
 
-print(f"\n{'='*50}")
-print(f"RESULTS: {passed}/{total} checks passed")
+briefing = load_json("data/briefing.json")
+if briefing:
+    featured = (briefing.get("items") or {}).get("featured")
+    if featured:
+        check_items("data/briefing.json", [featured], ["date"], ["title", "summary"])
 
-if errors:
-    print(f"\n✗ ERRORS ({len(errors)}) — fix before shipping:")
-    for e in errors:
-        print(f"  • {e}")
-
-if warnings:
-    print(f"\n⚠ WARNINGS ({len(warnings)}):")
-    for w in warnings:
-        print(f"  • {w}")
-
-if not errors:
-    print("\n✓ AUDIT PASSED — proceed to human review lenses")
-    sys.exit(0)
-else:
-    print("\n✗ AUDIT FAILED — do not ship until errors are resolved")
+# ── RESULT ──────────────────────────────────────────────────
+print("\n" + "=" * 50)
+if failures:
+    print("✗ %d check(s) failed" % len(failures))
     sys.exit(1)
+print("✓ All checks passed")

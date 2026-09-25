@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="pseudosec. AI Guide — practical AI prompts for everyday work, staying safe online, and getting the most from AI tools without sharing sensitive information.">
 <meta property="og:title" content="AI Guide — pseudosec.">
 <meta property="og:description" content="Situation-based AI prompts for everyday Australians — staying safe, writing emails, understanding things, and getting on with your day.">
-<meta property="og:image" content="assets/pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
+<meta property="og:image" content="https://boenwip.github.io/cyber-dashboard/assets/pseudosec.png">
+<meta property="og:url" content="https://boenwip.github.io/cyber-dashboard/ai-guide.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-4T8dZb51ux2/CYCRqV2+LkNw+u0nLUwpxgkb6lLkzOQ='; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <title>AI Guide — pseudosec.</title>
+<link rel="canonical" href="https://boenwip.github.io/cyber-dashboard/ai-guide.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
+<script>try{var t=localStorage.getItem('csi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="stylesheet" href="shared.css">
 <link rel="stylesheet" href="ai-guide.css">
 </head>
@@ -26,7 +31,6 @@
     <img src="assets/pseudosec.png" alt="pseudosec.">
   </a>
   <div class="hdr-right">
-    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
     <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
     <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
   </div>
@@ -49,36 +53,49 @@
     <div class="ag-tool-filter" id="tool-filter-bar"></div>
     <div class="ag-tool-safety-badge" id="tool-safety-badge" hidden></div>
 
+    <p class="ag-tools-note">Whether your chats train the AI depends on your <strong>plan</strong>, not just the tool. Work plans generally keep your data out of training; personal plans often don’t unless you change a setting. Summary checked September 2026 — vendors change these policies, so confirm in your own settings.</p>
     <div class="ag-tools-grid">
       <div class="ag-tool-card">
         <div class="ag-tool-name">Claude (Anthropic)</div>
-        <div class="ag-tool-desc">Strong at long documents, analysis, coding, and nuanced writing. Data not used for training by default on claude.ai.</div>
-        <div class="ag-tool-safe">🟢 Safer for work use — no training on your data by default</div>
+        <div class="ag-tool-desc">Strong at long documents, analysis, coding, and nuanced writing.</div>
+        <div class="ag-tool-safe">🟢 Team, Enterprise &amp; API: not used to train models</div>
+        <div class="ag-tool-safe">🟡 Free, Pro &amp; Max: used for training while “Help improve Claude” is on — check Settings → Privacy</div>
+        <a class="ag-tool-policy" href="https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training" target="_blank" rel="noopener noreferrer">Anthropic: is my data used for training? ↗</a>
       </div>
       <div class="ag-tool-card">
         <div class="ag-tool-name">ChatGPT (OpenAI)</div>
-        <div class="ag-tool-desc">The most widely used AI tool. Free tier may use your conversations for training — check settings. Team and Enterprise plans are data-isolated.</div>
-        <div class="ag-tool-safe">🟡 Check your data settings before sharing work content</div>
+        <div class="ag-tool-desc">The most widely used AI tool.</div>
+        <div class="ag-tool-safe">🟢 Business, Enterprise &amp; Edu: not used to train models by default</div>
+        <div class="ag-tool-safe">🟡 Free, Plus &amp; Pro: used for training unless you turn off “Improve the model for everyone” in Data Controls</div>
+        <a class="ag-tool-policy" href="https://help.openai.com/en/articles/7730893-data-controls-faq" target="_blank" rel="noopener noreferrer">OpenAI: data controls FAQ ↗</a>
       </div>
       <div class="ag-tool-card">
         <div class="ag-tool-name">Microsoft Copilot</div>
-        <div class="ag-tool-desc">Built into Microsoft 365. If your organisation has Copilot licensed, your data stays within your Microsoft tenant. Tight integration with Word, Excel, Teams.</div>
-        <div class="ag-tool-safe">🟢 Safe for org-licensed users — data stays in your tenant</div>
+        <div class="ag-tool-desc">Built into Microsoft 365 — Word, Excel, Outlook and Teams.</div>
+        <div class="ag-tool-safe">🟢 Microsoft 365 Copilot with a work account: enterprise data protection, not used to train models</div>
+        <div class="ag-tool-safe">🟡 Personal Copilot app: check the model-training setting in Copilot’s privacy settings</div>
+        <a class="ag-tool-policy" href="https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection" target="_blank" rel="noopener noreferrer">Microsoft: enterprise data protection ↗</a>
       </div>
       <div class="ag-tool-card">
         <div class="ag-tool-name">Google Gemini</div>
-        <div class="ag-tool-desc">Integrated into Google Workspace. Business and Enterprise plans include data protection. Personal Google accounts may use data for model improvement.</div>
-        <div class="ag-tool-safe">🟡 Safe on Workspace Business+ — check personal account settings</div>
+        <div class="ag-tool-desc">Built into Google Workspace — Gmail, Docs and Drive.</div>
+        <div class="ag-tool-safe">🟢 Workspace business &amp; education accounts: not used to train models or reviewed by people</div>
+        <div class="ag-tool-safe">🟡 Personal Google accounts: with Gemini activity on, chats can be reviewed and used to improve Google’s AI</div>
+        <a class="ag-tool-policy" href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">Google: Gemini Apps privacy hub ↗</a>
       </div>
       <div class="ag-tool-card">
         <div class="ag-tool-name">Canva AI Features</div>
-        <div class="ag-tool-desc">Magic Write, AI image generation, and design tools. Do not upload images or text containing client or personal information.</div>
-        <div class="ag-tool-safe">🟡 Safe for public-facing design work — not sensitive content</div>
+        <div class="ag-tool-desc">Magic Write, AI image generation, and design tools.</div>
+        <div class="ag-tool-safe">🟡 Good for public-facing design work — keep client and personal information out</div>
+        <div class="ag-tool-safe">🟡 Check whether your content can be used for AI training in Canva’s privacy settings</div>
+        <a class="ag-tool-policy" href="https://www.canva.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">Canva: privacy policy ↗</a>
       </div>
       <div class="ag-tool-card">
         <div class="ag-tool-name">Zoom AI Companion</div>
-        <div class="ag-tool-desc">Summarises meetings and generates action items. Your organisation's Zoom admin must enable it. Meeting data stays within your account when configured correctly.</div>
-        <div class="ag-tool-safe">🟢 Safe when enabled and configured by your org admin</div>
+        <div class="ag-tool-desc">Summarises meetings and generates action items. Your Zoom admin must enable it.</div>
+        <div class="ag-tool-safe">🟢 Zoom says it doesn’t use your meeting audio, video, chat or files to train AI models</div>
+        <div class="ag-tool-safe">🟡 Summaries are shared with participants — agree when it’s on before discussing anything sensitive</div>
+        <a class="ag-tool-policy" href="https://www.zoom.com/en/trust/privacy/" target="_blank" rel="noopener noreferrer">Zoom: privacy ↗</a>
       </div>
     </div>
   </section>
@@ -138,7 +155,7 @@
 
 <footer class="site-footer">
   <span>pseudosec. · Australian Cyber Intelligence · <a href="sources.html">Sources &amp; Methodology</a></span>
-  <span>AI guidance updated May 2026</span>
+  <span>AI tool privacy summary checked September 2026</span>
 </footer>
 
 <script src="shared.js"></script>

@@ -1,0 +1,35 @@
+{
+  "_comment": "Hand-maintained. The ONLY place annual-report figures live — the dashboard tracker, stats and crime chart all render from this file. When ASD publishes a new Annual Cyber Threat Report (the 'annual report watch' workflow opens an issue), update every value here from the new report and check the page. The fy/fy_slug values also tell the watcher which report comes next.",
+  "title": "ASD Annual Cyber Threat Report 2024–25",
+  "fy": "2024–25",
+  "fy_slug": "2024-2025",
+  "url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025",
+  "reports_per_year": 84700,
+  "report_interval": "6 minutes",
+  "stats": [
+    { "value": "1,200+",  "label": "↑ 11% cyber security incidents ASD responded to" },
+    { "value": "$80,850", "label": "↑ 50% avg cost per business cybercrime report", "tone": "high" },
+    { "value": "$33,000", "label": "↑ 8% avg cost per individual cybercrime report", "tone": "med" },
+    { "value": "42,500+", "label": "↑ 16% calls to the Cyber Security Hotline" },
+    { "value": "334M",    "label": "↑ 307% malicious domains blocked (AUPDNS)" }
+  ],
+  "crime_types": [
+    {
+      "group": "Individuals",
+      "items": [
+        { "name": "Identity fraud",        "pct": 30 },
+        { "name": "Online shopping fraud", "pct": 13 },
+        { "name": "Online banking fraud",  "pct": 10 }
+      ]
+    },
+    {
+      "group": "Businesses",
+      "items": [
+        { "name": "Email compromise (no financial loss)", "pct": 19 },
+        { "name": "Business email compromise fraud",      "pct": 15 },
+        { "name": "Identity fraud",                       "pct": 11 }
+      ]
+    }
+  ],
+  "crime_types_note": "Share of self-reported cybercrime reports to ReportCyber. A report can include more than one type, so figures don't add to 100%."
+}

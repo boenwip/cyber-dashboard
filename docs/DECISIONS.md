@@ -5,6 +5,57 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-09-25 — full review (security, UI, accuracy)
+
+### Pipeline — official ACSC items always included; threat levels only from ACSC
+**Decision:** ACSC alert/advisory feeds are flagged `official`, always kept and tagged AU Cyber. Their threat level comes from the ACSC title prefix ("CRITICAL ALERT:" → Critical). All other articles get no threat level. Keyword matching uses whole-word regexes.
+**Why:** The keyword gate was dropping real ACSC alerts (e.g. "HIGH ALERT: Risks of AI misalignment…" matched no keyword) while keyword-guessed severity put red Critical badges on product launches ("SpiderSilk Hunts External Threats…"). A security site can't show guessed severity.
+
+### Pipeline — blocklist matches hostnames
+**Decision:** `is_blocked()` parses the hostname and matches the domain or its subdomains.
+**Why:** Substring matching made the blocked `news.com.au` match `itnews.com.au`, so every iTnews article was silently dropped for weeks.
+
+### Pipeline — no invented CVE severity; KEV fields passed through
+**Decision:** Removed `severity` (previously "CRITICAL if ransomware else HIGH"). The panel shows ransomware use and CISA's fix-by date instead.
+**Why:** KEV has no severity score; the label was fabricated.
+
+### Pipeline — AI briefing removed
+**Decision:** Deleted `generate_briefing()` and the `ANTHROPIC_API_KEY` dependency. `briefing.json` now holds only the featured story.
+**Why:** Its output hadn't been shown anywhere since 2026-08-18, but it still called the API on every run.
+
+### Data — ISO 8601 UTC dates; plain-text summaries
+**Decision:** All stored dates are ISO UTC and formatted in the browser with `Australia/Sydney`. Feed text is stored as plain text (tags stripped, entities decoded once) and escaped on render via `esc()`/`safeUrl()`.
+**Why:** The fixed +10 offset was an hour wrong during AEDT. The old strip-then-decode order could turn `&lt;img onerror…` into live markup after truncation.
+
+### Dashboard — tracker follows the current financial year
+**Decision:** The FY start is computed from today's date; labels are generated. Stats corrected against the ASD report PDF: individual average is $33,000 (↑8%) — $36,633 is the overall average. The crime chart shows top-3 types for individuals and businesses as separate bars.
+**Why:** The tracker was still counting from 1 July 2025 in September 2026 (about 104k "FY 2025–26" reports, above the annual total). The old stacked bar mixed ransomware-share-of-incidents with report shares and added an "Other" slice to figures that overlap.
+
+### Dashboard — threat intel panel → sidebar links; weather widget removed
+**Decision:** The toggle that hid the whole dashboard to show four links is gone; the links sit permanently in the sidebar. The geolocation weather widget is removed from every page.
+**Why:** A permission prompt on page load contradicts "no tracking" and has nothing to do with the site.
+
+### Resources — breach checker replaced with a link to HIBP
+**Why:** HIBP's email API requires a paid key sent server-side (returns 401 with no CORS header), so the in-page checker could never succeed.
+
+### Security — strict CSP, self-hosted fonts, no third-party assets
+**Decision:** `script-src 'self'` plus the hash of the one `<head>` theme snippet (no `'unsafe-inline'`); fonts self-hosted; tool icons are CSS monograms. Duplicate `frame-src` (which still allowed cyberattackmap.net) removed.
+**Why:** Three of the six Simple Icons URLs had started returning 404, and the Google Fonts/jsDelivr import chain blocked rendering and sent visitor IPs to third parties.
+
+### Tooling — tests and a real audit in CI
+**Decision:** `tests/test_fetch.py` (pytest) and a rewritten `scripts/audit.py` run in `ci.yml` and before every scheduled fetch.
+**Why:** The old audit checked for strings (147/147 passed while all the above were broken) and enforced a false "no backticks" rule.
+
+### Owner decisions (2026-09-25)
+- **Audience: anyone.** Removed the RTO/VET, EdTech and Education tags, the ASQA/ITECA feed, VET domains from the Google News allowlist, and the unused `audience`/`relevance` fields. Topic tags are now AU Cyber, AI & Tools, Scams, Compliance.
+- **Domain: none for now.** Canonical, OG and sitemap URLs use `https://boenwip.github.io/cyber-dashboard/`. If a domain is added later: `CNAME` file + DNS, then update those URLs.
+- **Annual report figures: update when ASD publishes.** All figures moved to `data/annual_report.json` (the dashboard renders from it; audit validates it). `annual_report_watch.yml` checks daily for the next report and opens one issue with the update checklist.
+
+### Still open
+- **Data commits:** Data refreshes add ~25 commits a weekday to `main`. Moving to an Actions-based Pages deploy would keep them out of history.
+
+---
+
 ## Session: 2026-08-18
 
 ### Homepage — AI briefing moved from header popup to inline section
@@ -168,7 +219,6 @@ Format: decision → why. Newest first within each session.
 
 ## Pending decisions (open)
 
-- **Cloudflare Radar embed** — user to retrieve embed code from Radar UI; swap into Threat Intel panel
 - **Light mode** — still some rough edges, needs another pass
 
 ## Resolved since last update

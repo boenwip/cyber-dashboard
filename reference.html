@@ -1,15 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="pseudosec. Reference — OWASP Top 10, Essential Eight, and cyber security glossary in plain English for Australian organisations.">
 <meta property="og:title" content="Cyber Security Reference — pseudosec.">
 <meta property="og:description" content="OWASP Web, API and LLM Top 10 lists, Essential Eight controls, and a full glossary — all in plain English.">
-<meta property="og:image" content="assets/pseudosec.png">
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdn.jsdelivr.net; font-src https://fonts.gstatic.com https://cdn.jsdelivr.net; img-src 'self' data:; connect-src 'self' https://api.open-meteo.com; object-src 'none'; base-uri 'self'">
+<meta property="og:image" content="https://boenwip.github.io/cyber-dashboard/assets/pseudosec.png">
+<meta property="og:url" content="https://boenwip.github.io/cyber-dashboard/reference.html">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-4T8dZb51ux2/CYCRqV2+LkNw+u0nLUwpxgkb6lLkzOQ='; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <title>Reference — pseudosec.</title>
+<link rel="canonical" href="https://boenwip.github.io/cyber-dashboard/reference.html">
 <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
+<script>try{var t=localStorage.getItem('csi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="stylesheet" href="shared.css">
 <link rel="stylesheet" href="definitions.css">
 <link rel="stylesheet" href="reference.css">
@@ -27,7 +32,6 @@
     <img src="assets/pseudosec.png" alt="pseudosec.">
   </a>
   <div class="hdr-right">
-    <div class="weather-widget" id="weather-widget" title="Local weather" aria-label="Local weather"></div>
     <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
     <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
   </div>
@@ -39,7 +43,7 @@
   <span class="wotd-term" id="wotd-term">—</span>
   <span class="wotd-sep">—</span>
   <span class="wotd-def" id="wotd-def">Loading...</span>
-  <a href="javascript:void(0)" class="wotd-more" id="wotd-glossary-link">Full glossary ↗</a>
+  <a href="#glossary" class="wotd-more" id="wotd-glossary-link">Full glossary ↗</a>
 </div>
 
 <div class="page-wrap">
@@ -61,7 +65,7 @@
   <div class="ref-panel ref-panel--active" id="panel-owasp-web" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP Top 10 for Web Applications (2025) — the ten most critical security risks facing web applications, ordered by how commonly they occur and how much damage they cause. If you build or buy web software, these are the gaps attackers look for first. Updated from the 2021 edition following a 2026 review of 175,000+ CVEs.</p>
-      <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener">owasp.org/www-project-top-ten ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">owasp.org/www-project-top-ten ↗</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -69,7 +73,7 @@
           <span class="owasp-num">A01</span>
           <span class="owasp-name">Broken Access Control</span>
         </div>
-        <p class="owasp-desc">When a system doesn't properly check whether a user has permission to see or do something. An employee accesses another person's files. A regular user reaches admin functions. A customer changes an ID in a URL to view someone else's order. The #1 risk for five editions running — tested for in 94% of applications (that's testing coverage, not a claim that 94% of apps are vulnerable). Server-Side Request Forgery was folded into this category in 2025.</p>
+        <p class="owasp-desc">When a system doesn't properly check whether a user has permission to see or do something. An employee accesses another person's files. A regular user reaches admin functions. A customer changes an ID in a URL to view someone else's order. The #1 risk in both the 2021 and 2025 editions — tested for in 94% of applications (that's testing coverage, not a claim that 94% of apps are vulnerable). Server-Side Request Forgery was folded into this category in 2025.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
@@ -116,16 +120,16 @@
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A08</span>
-          <span class="owasp-name">Software and Data Integrity Failures</span>
+          <span class="owasp-name">Software or Data Integrity Failures</span>
         </div>
-        <p class="owasp-desc">Trusting code or data from untrusted sources without verification. Includes supply chain attacks — a malicious package slipped into your build pipeline, auto-updates delivered without integrity checks, CI/CD pipelines without security controls. The SolarWinds attack is the defining real-world example.</p>
+        <p class="owasp-desc">Trusting code or data without checking it hasn't been tampered with. Auto-updates installed without verifying their signature, untrusted data deserialised straight into objects, build pipelines that accept unverified artifacts, security decisions based on data the user can modify. Where A03 is about compromised suppliers, A08 is about failing to verify integrity at the point you use the code or data. Renamed from "Software <em>and</em> Data Integrity Failures" in 2025.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">A09</span>
           <span class="owasp-name">Security Logging and Alerting Failures</span>
         </div>
-        <p class="owasp-desc">Insufficient logging, logs that aren't monitored, no alerts when attacks happen, logs that can be tampered with. The average time to detect a breach is over 200 days. You can't respond to an incident you don't know about — and without logs, you can't even prove what happened after the fact. Renamed from "Security Logging and Monitoring Failures" in 2025.</p>
+        <p class="owasp-desc">Insufficient logging, logs that aren't monitored, no alerts when attacks happen, logs that can be tampered with. IBM's 2025 Cost of a Data Breach report puts the average time to identify a breach at 181 days. You can't respond to an incident you don't know about — and without logs, you can't even prove what happened after the fact. Renamed from "Security Logging and Monitoring Failures" in 2025.</p>
       </li>
       <li class="owasp-item">
         <div class="owasp-item-header">
@@ -141,7 +145,7 @@
   <div class="ref-panel" id="panel-owasp-api" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP API Security Top 10 (2023) — the ten most critical risks specific to APIs (Application Programming Interfaces). APIs are the backbone of modern software — mobile apps, web apps, and third-party integrations all rely on them. They're also a major and often underprotected attack surface.</p>
-      <a class="ref-ext-link" href="https://owasp.org/API-Security/" target="_blank" rel="noopener">owasp.org/API-Security ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/API-Security/" target="_blank" rel="noopener noreferrer">owasp.org/API-Security ↗</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -221,7 +225,7 @@
   <div class="ref-panel" id="panel-owasp-llm" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP Top 10 for Large Language Model Applications (2025) — the ten most critical risks when building or using AI applications. As AI tools move from experimental to operational across Australian organisations, these are the risks that security teams and IT leaders need to understand.</p>
-      <a class="ref-ext-link" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener">owasp.org LLM Project ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener noreferrer">owasp.org LLM Project ↗</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -241,7 +245,7 @@
       <li class="owasp-item">
         <div class="owasp-item-header">
           <span class="owasp-num">LLM03</span>
-          <span class="owasp-name">Supply Chain Vulnerabilities</span>
+          <span class="owasp-name">Supply Chain</span>
         </div>
         <p class="owasp-desc">Risks in the models, datasets, plugins, and integrations you rely on to build AI applications. A poisoned training dataset, a compromised model weight, a malicious plugin in an AI marketplace — these affect every application built on top of them. You inherit the security posture of every component in your AI stack.</p>
       </li>
@@ -301,7 +305,7 @@
   <div class="ref-panel" id="panel-e8" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The Essential Eight — the Australian Signals Directorate's baseline cyber security controls for Australian organisations. Not a compliance checkbox — a prioritised set of mitigations designed to prevent the most common attacks. ACSC recommends all Australian organisations implement these at Maturity Level 2 as a minimum.</p>
-      <a class="ref-ext-link" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener">cyber.gov.au Essential Eight ↗</a>
+      <a class="ref-ext-link" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener noreferrer">cyber.gov.au Essential Eight ↗</a>
     </div>
     <div class="e8-grid">
       <div class="e8-card">
@@ -309,7 +313,7 @@
           <span class="e8-num">1</span>
           <span class="e8-title">Application Control</span>
         </div>
-        <p class="e8-desc">Only allow approved applications to run on your systems. Executables, scripts, libraries — if they're not on the approved list, they don't run. Stops malware and unauthorised software before it can execute. ACSC's single highest-priority mitigation — prevents the vast majority of malware incidents.</p>
+        <p class="e8-desc">Only allow approved applications to run on your systems. Executables, scripts, libraries — if they're not on the approved list, they don't run. Stops malware and unauthorised software before it can execute. One of the most effective controls against malware — unapproved programs, including most ransomware, simply can't run.</p>
         <div class="e8-prevents">Prevents: malware execution, ransomware, unauthorised software</div>
       </div>
       <div class="e8-card">
@@ -333,7 +337,7 @@
           <span class="e8-num">4</span>
           <span class="e8-title">User Application Hardening</span>
         </div>
-        <p class="e8-desc">Block high-risk features in the applications your people use every day. Disable Flash (effectively dead, still occasionally exploited), Java in browsers, and ads from untrusted sources. Configure browsers and email clients to block scripts and content that users don't need. Reduces the attack surface of your most-used software.</p>
+        <p class="e8-desc">Block high-risk features in the applications your people use every day. Stop web browsers processing Java and web ads from the internet, remove Internet Explorer 11, block Office and PDF software from launching other programs, and switch off legacy components like .NET Framework 3.5 and PowerShell 2.0. Reduces the attack surface of your most-used software.</p>
         <div class="e8-prevents">Prevents: drive-by downloads, malvertising, browser-based exploits</div>
       </div>
       <div class="e8-card">

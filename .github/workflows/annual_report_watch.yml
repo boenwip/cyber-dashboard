@@ -1,0 +1,61 @@
+name: Annual report watch
+
+# Daily check for the next ASD Annual Cyber Threat Report. When it appears,
+# opens one GitHub issue with the update checklist (never a duplicate).
+on:
+  schedule:
+    - cron: '0 23 * * *'   # 9–10am Sydney
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: '3.12'
+
+      - name: Look for the next report
+        id: check
+        run: |
+          set +e
+          python scripts/check_annual_report.py | tee result.txt
+          code=${PIPESTATUS[0]}
+          set -e
+          if [ "$code" = "10" ]; then
+            echo "published=true" >> "$GITHUB_OUTPUT"
+            echo "url=$(grep '^PUBLISHED: ' result.txt | sed 's/^PUBLISHED: //')" >> "$GITHUB_OUTPUT"
+          elif [ "$code" != "0" ]; then
+            exit "$code"
+          fi
+
+      - name: Open update issue
+        if: steps.check.outputs.published == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          REPORT_URL: ${{ steps.check.outputs.url }}
+        run: |
+          slug=$(python -c "import json;s=json.load(open('data/annual_report.json'))['fy_slug'].split('-');print('%d-%d'%(int(s[0])+1,int(s[1])+1))")
+          title="New ASD Annual Cyber Threat Report published ($slug)"
+          if [ -n "$(gh issue list --state all --search "\"$title\" in:title" --json number --jq '.[].number')" ]; then
+            echo "Issue already exists"; exit 0
+          fi
+          body=$(printf '%s\n' \
+            "ASD has published the $slug Annual Cyber Threat Report: $REPORT_URL" \
+            "" \
+            "Update \`data/annual_report.json\` from the new report (it is the only place these figures live):" \
+            "" \
+            "- [ ] \`title\`, \`fy\`, \`fy_slug\`, \`url\`" \
+            "- [ ] \`reports_per_year\` and \`report_interval\` (cybercrime reports to ReportCyber)" \
+            "- [ ] \`stats\`: incidents responded to, avg cost per business report, avg cost per individual report, hotline calls, malicious domains blocked — check each label still matches the measure" \
+            "- [ ] \`crime_types\`: top self-reported types for individuals and businesses" \
+            "- [ ] Glossary/tips that quote the old report (search the repo for the old FY)" \
+            "- [ ] Run \`python scripts/audit.py\` and check the dashboard")
+          gh issue create --title "$title" --body "$body"

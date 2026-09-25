@@ -4,6 +4,33 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## September 2026 — Review fixes
+
+**Fixed**
+- Tracker rolls over each 1 July (it was still counting FY2025–26 in FY2026–27)
+- iTnews no longer blocked (hostname-based blocklist); ACSC alerts no longer dropped
+- Threat badges only on ACSC items, from ACSC's own severity; no invented CVE severity
+- Stored-XSS path through feed summaries; every render now escapes via `esc()`/`safeUrl()`
+- CSP: no `'unsafe-inline'` scripts, duplicate `frame-src` removed
+- Dates correct during daylight saving (ISO UTC stored, Sydney time displayed)
+- Tracker stats and crime chart corrected against the ASD 2024–25 report
+- AI tool privacy summary corrected (Claude consumer plans train unless opted out; ChatGPT Plus too)
+- OWASP A01/A08/A09, LLM03, Essential Eight app hardening, and five glossary entries corrected
+- Text contrast meets WCAG AA in both themes; counter no longer announced every 6 seconds
+- Broken tool icons (3 of 6 returned 404) replaced
+
+**Added**
+- ACSC Critical/High alert banner; CISA fix-by dates on CVEs
+- Theme follows the OS setting until chosen; no theme flash on load
+- Pipeline tests, a rewritten audit, and a CI workflow
+- `data/annual_report.json`: single source for all ASD report figures, plus a daily watcher that opens an issue when the next report is published
+
+**Removed**
+- RTO/VET, EdTech and Education targeting (site is for anyone); unused audience/relevance fields
+- Unused AI briefing generation (and the API key), weather widget, non-working breach checker, threat-intel toggle, reading time, robots.txt (ignored under a sub-path)
+
+---
+
 ## May 2026 — Multi-page rebuild
 
 ### Architecture

@@ -3,23 +3,27 @@
  * Design tokens, typography, nav, footer — imported by all pages
  */
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
-@import url('https://cdn.jsdelivr.net/npm/hack-font@3.3.0/build/web/hack.css');
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap');
+/* Self-hosted fonts (assets/fonts, licences in assets/fonts/README.md) —
+   no third-party requests and no render-blocking import chain. */
+@font-face { font-family: 'Inter'; src: url('assets/fonts/inter-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Space Grotesk'; src: url('assets/fonts/space-grotesk-latin-wght-normal.woff2') format('woff2'); font-weight: 300 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Hack'; src: url('assets/fonts/hack-regular-subset.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Hack'; src: url('assets/fonts/hack-bold-subset.woff2') format('woff2'); font-weight: 700; font-style: normal; font-display: swap; }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+[hidden] { display: none !important; }
 html { scroll-behavior: smooth; }
 
-/* ── DARK THEME ── */
-:root[data-theme="dark"] {
+/* ── DARK THEME (also the no-JS default) ── */
+:root, :root[data-theme="dark"] {
   --bg:         #0f0d0b;
   --surface:    #161310;
   --surface2:   #1d1914;
   --surface3:   #25211a;
   --text:       #f0ede6;
   --text-2:     #c8c4bc;
-  --text-3:     #8a8680;   /* tertiary  —  4.8:1 AA min on --bg */
-  --text-4:     #55524e;
+  --text-3:     #8a8680;   /* tertiary   — 5.4:1 on --bg */
+  --text-4:     #85817b;   /* quaternary — 4.5:1+ on every surface (AA) */
   --accent:     #f8ce2a;
   --accent-dim: rgba(248,206,42,0.10);
   --accent-b:   rgba(248,206,42,0.28);
@@ -37,12 +41,9 @@ html { scroll-behavior: smooth; }
   --mono:       'Hack', monospace;
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --tag-cyber-bg:rgba(127,168,212,0.12); --tag-cyber-c:#9dc0e0; --tag-cyber-b:rgba(127,168,212,0.22);
-  --tag-rto-bg:rgba(165,130,215,0.12);   --tag-rto-c:#c090f0;   --tag-rto-b:rgba(165,130,215,0.22);
   --tag-ai-bg:rgba(90,173,150,0.12);     --tag-ai-c:#70c8b0;    --tag-ai-b:rgba(90,173,150,0.22);
   --tag-scam-bg:rgba(224,120,120,0.12);  --tag-scam-c:#f09090;  --tag-scam-b:rgba(224,120,120,0.22);
   --tag-comp-bg:rgba(212,168,74,0.12);   --tag-comp-c:#e8c870;  --tag-comp-b:rgba(212,168,74,0.22);
-  --tag-edu-bg:rgba(90,173,150,0.12);    --tag-edu-c:#70c8b0;   --tag-edu-b:rgba(90,173,150,0.22);
-  --tag-edtech-bg:rgba(165,130,215,0.12);--tag-edtech-c:#c090f0;--tag-edtech-b:rgba(165,130,215,0.22);
 }
 
 /* ── LIGHT THEME ── */
@@ -56,7 +57,7 @@ html { scroll-behavior: smooth; }
   --text:       #1a1208;
   --text-2:     #2d1e0e;
   --text-3:     #6b5040;
-  --text-4:     #9a8070;
+  --text-4:     #7b5f4e;   /* 4.5:1+ on every surface (AA) */
   --accent:     #c85200;
   --accent-dim: rgba(200,82,0,0.08);
   --accent-b:   rgba(200,82,0,0.22);
@@ -72,12 +73,9 @@ html { scroll-behavior: smooth; }
   --mono:       'Hack', monospace;
   --font-display: 'Space Grotesk', 'Inter', sans-serif;
   --tag-cyber-bg:rgba(13,59,102,0.08);   --tag-cyber-c:#0D3B66; --tag-cyber-b:rgba(13,59,102,0.20);
-  --tag-rto-bg:rgba(100,60,160,0.08);    --tag-rto-c:#502090;   --tag-rto-b:rgba(100,60,160,0.20);
   --tag-ai-bg:rgba(42,122,98,0.08);      --tag-ai-c:#1a6048;    --tag-ai-b:rgba(42,122,98,0.20);
   --tag-scam-bg:rgba(184,58,58,0.08);    --tag-scam-c:#901818;  --tag-scam-b:rgba(184,58,58,0.20);
   --tag-comp-bg:rgba(138,96,32,0.08);    --tag-comp-c:#6a4808;  --tag-comp-b:rgba(138,96,32,0.20);
-  --tag-edu-bg:rgba(42,122,98,0.08);     --tag-edu-c:#1a6048;   --tag-edu-b:rgba(42,122,98,0.20);
-  --tag-edtech-bg:rgba(100,60,160,0.08); --tag-edtech-c:#502090;--tag-edtech-b:rgba(100,60,160,0.20);
 }
 
 /* ── MOTION ── */
@@ -250,22 +248,16 @@ h1, h2, h3, h4 {
 }
 .scam-link:hover { text-decoration: underline; }
 
-/* ── WEATHER WIDGET ── */
-.weather-widget {
-  display: none;
-  align-items: center;
-  gap: 5px;
-  font-size: 12px;
-  color: var(--text-3);
-  padding: 5px 11px;
-  border: 0.5px solid var(--border2);
-  border-radius: 20px;
-  background: transparent;
-  cursor: default;
-  white-space: nowrap;
-}
-.weather-icon { font-size: 15px; line-height: 1; }
-.weather-temp { font-family: var(--mono); }
+/* ── OFFICIAL ALERT CALLOUT (ACSC) — same shape as the scam callout ── */
+.scam-callout--official { border-left-color: var(--high); background: rgba(212,168,74,0.06); }
+.scam-callout--official.is-critical { border-left-color: var(--crit); background: rgba(224,120,120,0.05); }
+.scam-callout--official .scam-badge,
+.scam-callout--official .scam-link { color: var(--high); }
+.scam-callout--official.is-critical .scam-badge,
+.scam-callout--official.is-critical .scam-link { color: var(--crit); }
+
+/* ── FOCUS ── */
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
 
 /* ── FOOTER ── */
 .site-footer {
@@ -297,7 +289,6 @@ h1, h2, h3, h4 {
 /* ── RESPONSIVE ── */
 @media (max-width: 1100px) {
   .site-header { padding: 0 24px; }
-  .weather-widget { display: none !important; }
 }
 @media (max-width: 900px) {
   .site-header { padding: 0 20px; }

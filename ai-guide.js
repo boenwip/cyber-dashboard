@@ -13,13 +13,15 @@ var TOOLS = [
   { id: 'zoom',    label: 'Zoom' },
 ];
 
+// Training-data policy depends on the plan, not just the tool. Keep in sync
+// with the tool cards in ai-guide.html (checked September 2026).
 var TOOL_INFO = {
-  claude:  { safe: '🟢 No training on your data by default on claude.ai. Enterprise plan for full isolation.' },
-  chatgpt: { safe: '🟡 Free tier may train on your conversations — check settings. Team/Enterprise plans are isolated.' },
-  copilot: { safe: '🟢 Safe for org-licensed Microsoft 365 users. Data stays within your tenant.' },
-  gemini:  { safe: '🟡 Safe on Workspace Business+ plans. Personal Google accounts may use data for improvement.' },
-  canva:   { safe: '🟡 Safe for public-facing design work. Do not upload images or text with client or personal data.' },
-  zoom:    { safe: '🟢 Safe when AI Companion is enabled and configured by your org admin.' },
+  claude:  { safe: 'Claude: Team, Enterprise and API data is not used for training. Free, Pro and Max chats are, while "Help improve Claude" is on.' },
+  chatgpt: { safe: 'ChatGPT: Business, Enterprise and Edu are not used for training by default. Free, Plus and Pro are, unless you turn it off in Data Controls.' },
+  copilot: { safe: 'Copilot: Microsoft 365 Copilot on a work account has enterprise data protection. On the personal app, check the model-training setting.' },
+  gemini:  { safe: 'Gemini: Workspace business and education accounts are not used for training. Personal accounts with Gemini activity on can be.' },
+  canva:   { safe: 'Canva: fine for public-facing design work. Keep client and personal information out, and check your AI privacy settings.' },
+  zoom:    { safe: 'Zoom: says meeting content is not used to train AI. Summaries go to participants, so agree when AI Companion is on.' },
 };
 
 var CATS = [
