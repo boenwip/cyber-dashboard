@@ -1,419 +1,402 @@
 /**
  * dashboard.js — pseudosec. Dashboard
- * Requires: shared.js (esc, safeUrl, formatDate, pickForToday), definitions.js
+ * A bento overview whose panels open a split-view explorer (list + detail).
+ * Requires: shared.js (esc, safeUrl, formatDate, parseDate, pickForToday, renderWotd, SYDNEY),
+ *           definitions.js (DEFINITIONS)
  */
 
-// ── TRACKER ────────────────────────────────────────────────
-// Projection only: the latest ASD annual rate applied to the current
-// financial year. Every report figure comes from data/annual_report.json —
-// update that one file when a new Annual Cyber Threat Report is published.
-var REPORT = null;
-var SECS_YEAR = 365.25 * 24 * 3600;
+var DAY = 24 * 60 * 60 * 1000;
+var D = { news: [], cve: [], tools: [], report: null, featured: null };
 
-// Australian financial year containing `now`: starts 1 July (AEST, no DST in July).
-function currentFyStart(now) {
-  var sydneyYear  = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, year: 'numeric' }).format(now);
-  var sydneyMonth = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, month: 'numeric' }).format(now);
-  var startYear = sydneyMonth >= 7 ? sydneyYear : sydneyYear - 1;
-  return { year: startYear, date: new Date(startYear + '-07-01T00:00:00+10:00') };
-}
-
-function fyLabel(startYear) {
-  return 'FY ' + startYear + '–' + String(startYear + 1).slice(2);
-}
-
-function initTrackerLabels() {
-  var fy = currentFyStart(new Date());
-  var set = function(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; };
-  set('tracker-fy', fyLabel(fy.year));
-  set('count-label', 'Estimated cybercrime reports — ' + fyLabel(fy.year));
-  set('count-from', '1 July ' + fy.year);
+// ── FINANCIAL YEAR TRACKER ─────────────────────────────────
+// Projection only: the latest ASD annual rate (data/annual_report.json)
+// applied from 1 July of the current Australian financial year.
+function currentFy(now) {
+  var year = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, year: 'numeric' }).format(now);
+  var month = +new Intl.DateTimeFormat('en-AU', { timeZone: SYDNEY, month: 'numeric' }).format(now);
+  var start = month >= 7 ? year : year - 1;
+  return {
+    year: start,
+    start: new Date(start + '-07-01T00:00:00+10:00'),
+    end: new Date((start + 1) + '-07-01T00:00:00+10:00'),
+    label: 'FY ' + start + '–' + String(start + 1).slice(2)
+  };
 }
 
 function updateTracker() {
   var el = document.getElementById('main-count');
-  if (!el || !REPORT) return;
-  var elapsed = Math.max(0, (Date.now() - currentFyStart(new Date()).date) / 1000);
-  el.textContent = Math.floor(elapsed * REPORT.reports_per_year / SECS_YEAR).toLocaleString('en-AU');
-  el.classList.add('visible');
+  if (!el || !D.report) return;
+  var fy = currentFy(new Date());
+  var secs = Math.max(0, (Date.now() - fy.start) / 1000);
+  el.textContent = Math.floor(secs * D.report.reports_per_year / (365.25 * 86400)).toLocaleString('en-AU');
 }
 
-// Stats grid + crime-type chart, both from data/annual_report.json.
-function renderReport(r) {
-  var set = function(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; };
-  var link = function(id) { var el = document.getElementById(id); if (el && safeUrl(r.url)) el.setAttribute('href', r.url); };
-  set('report-source', 'Source: ' + r.title);
-  var interval = document.getElementById('report-interval');
-  if (interval) interval.innerHTML = 'One report every <strong>' + esc(r.report_interval) + '</strong> · ';
-  link('report-link');
-  link('report-crime-link');
-
-  var stats = document.getElementById('report-stats');
-  if (stats && r.stats && r.stats.length) {
-    stats.innerHTML = r.stats.map(function(st) {
-      var tone = st.tone === 'high' ? ' ts-n--high' : st.tone === 'med' ? ' ts-n--med' : '';
-      return '<div class="ts-item"><span class="ts-n' + tone + '">' + esc(st.value) + '</span>' +
-        '<span class="ts-l">' + esc(st.label) + '</span></div>';
-    }).join('');
-    document.getElementById('report-stats-wrap').hidden = false;
-  }
-
-  var groups = document.getElementById('report-crime-groups');
-  if (groups && r.crime_types && r.crime_types.length) {
-    set('report-crime-title', 'Most reported cybercrime types — FY ' + r.fy);
-    set('report-crime-note', r.crime_types_note || '');
-    groups.innerHTML = r.crime_types.map(function(g) {
-      return '<figure class="crime-group"><figcaption>' + esc(g.group) + '</figcaption>' +
-        g.items.map(function(it) {
-          var pct = Math.max(0, Math.min(100, Number(it.pct) || 0));
-          return '<div class="crime-row"><span class="crime-name">' + esc(it.name) + '</span>' +
-            '<span class="crime-track"><span class="crime-bar" data-pct="' + pct + '"></span></span>' +
-            '<span class="crime-pct">' + pct + '%</span></div>';
-        }).join('') + '</figure>';
-    }).join('');
-    // Widths via CSSOM, so the CSP needn't allow inline style attributes.
-    groups.querySelectorAll('.crime-bar').forEach(function(bar) {
-      bar.style.width = bar.getAttribute('data-pct') + '%';
-    });
-    document.getElementById('report-crime').hidden = false;
-  }
+function renderTracker() {
+  var fy = currentFy(new Date());
+  var days = Math.round((fy.end - fy.start) / DAY);
+  var day = Math.min(days, Math.floor((Date.now() - fy.start) / DAY) + 1);
+  var pct = (day / days * 100).toFixed(1) + '%';
+  setText('fy-label', fy.label);
+  setText('fy-day', 'Day ' + day + ' of ' + days);
+  document.getElementById('fy-fill').style.width = pct;
+  document.getElementById('fy-here').style.left = pct;
+  if (D.report) setText('report-interval', 'One report every ' + D.report.report_interval + ', at last year\'s rate.');
+  updateTracker();
 }
 
-// ── DAILY ROTATIONS ────────────────────────────────────────
-var BLURBS = [
-  'From a $30 phishing text to a ransomware attack on a hospital — this counter catches all of it. Most of it isn\'t sophisticated. Most of it is preventable.',
-  'The majority of these reports aren\'t headline events. They\'re opportunistic, automated, and aimed at ordinary Australians on an ordinary day.',
-  'One number. Hundreds of types of crime. Everything from a compromised email to critical infrastructure — counted together.',
-  'Behind every tick is someone navigating a system they didn\'t choose to become familiar with.',
-  'Not every cybercrime makes the news. Most never do — and ASD says most are never reported at all.',
-  'The scale isn\'t the whole story. A single report can represent a business that didn\'t survive it.',
-  'Most victims don\'t realise something went wrong until weeks later. The counter doesn\'t wait.'
-];
+// ── HELPERS ────────────────────────────────────────────────
+function setText(id, text) { var el = document.getElementById(id); if (el) el.textContent = text; }
+
+var SHORT_SOURCE = {
+  'Australian Cyber Security Magazine': 'AU Cyber Security Mag',
+  'Security Brief Australia': 'Security Brief',
+  'Bleeping Computer AU': 'BleepingComputer',
+  'Guardian AU Cyber': 'The Guardian',
+  'The Register AU': 'The Register',
+  'ABC Tech': 'ABC',
+  'Privacy & Compliance AU': 'Google News',
+  'ACSC (via Google News)': 'ACSC'
+};
+function sourceName(s) {
+  var name = String(s || '').replace(/^Google News\s*[—-]\s*/i, '');
+  return SHORT_SOURCE[name] || name;
+}
+// Google News headlines end with the publisher ("… - bleepingcomputer.com", "… – BleepingComputer")
+function headline(t, source) {
+  var s = String(t || '').replace(/\s+[-–|]\s+(?:[\w.-]+\.(?:com|net|org|co|au)(?:\.au)?|The Guardian|The Register|ABC News|Cyber\.gov\.au)\s*$/i, '');
+  var pub = sourceName(source).toLowerCase().replace(/\s+/g, '');
+  var m = s.match(/^(.*\S)\s+[-–|]\s+([^-–|]{3,40})$/);
+  return m && pub && m[2].toLowerCase().replace(/\s+/g, '') === pub ? m[1] : s;
+}
+function when(item) { return parseDate(item.latest || item.date); }
+function within(item, days) { var d = when(item); return !!d && Date.now() - d < days * DAY; }
+
+var SEV = { Critical: 'crit', High: 'high', Advisory: 'adv' };
+function acscChip(threat) {
+  if (!threat) return '<span class="chip">ACSC</span>';
+  var label = threat === 'Advisory' ? 'ACSC advisory' : 'ACSC ' + threat.toLowerCase() + ' alert';
+  return '<span class="chip chip--' + (SEV[threat] || 'adv') + '">' + esc(label) + '</span>';
+}
 
 var TIPS = [
-  'Enable multi-factor authentication on your email account first. It\'s the key to resetting everything else — if someone gets into your email, they can get into everything.',
-  'Use a password manager. You only need to remember one strong password, and it handles the rest. Most phones and browsers have one built in for free.',
-  'Check if your details have been in a data breach at haveibeenpwned.com — it takes ten seconds and the results are often surprising.',
-  'Never click links in unexpected texts or emails. Go directly to the website by typing the address yourself. Scammers rely on you not doing this.',
-  'Keep your phone and computer updated. Most successful attacks exploit software that hasn\'t been patched. Updates are the simplest defence.',
-  'Don\'t reuse passwords across accounts. If one site gets breached, attackers try your credentials everywhere. Different passwords mean one breach stays one breach.',
-  'A real bank, telco, or government agency will never ask for your password, PIN, or one-time code over the phone. Hang up and call back on a number you find yourself.',
-  'On public Wi-Fi, stick to sites that use HTTPS and keep your device updated. For anything sensitive, your phone\'s mobile data is the safer choice.',
-  'Lock your phone with a PIN, fingerprint, or face recognition. A swipe pattern can be lifted from the smudges on your screen.',
-  'Back up your important files somewhere separate — an external drive or cloud service. Ransomware makes backups the difference between inconvenient and catastrophic.',
-  'Be thoughtful about what you share on LinkedIn. Job titles, team structure, and project names help attackers craft convincing impersonation attempts.',
-  'If you get an unexpected "verify your account" or "unusual login" email, don\'t click the link inside it. Open a new tab and log in directly.',
-  'Review which apps have access to your camera, microphone, and location. Revoke anything you don\'t recognise or no longer use.',
-  'If something feels off about a call, email, or message, trust your gut. Hang up. Call back on a number you find independently. Legitimate organisations won\'t mind.'
+  ['Start with your email', 'Turn on multi-factor authentication for your email first. It\'s where every password-reset link goes, so it\'s the key to everything else. An authenticator app or a passkey is stronger than text-message codes.'],
+  ['Use a password manager', 'You remember one strong passphrase and it creates and fills the rest. Most phones and browsers include one for free.'],
+  ['Hang up and call back', 'A bank, telco or government agency won\'t ask for your password, PIN or one-time code over the phone. Hang up and call back on a number you find yourself.'],
+  ['Check for breaches', 'See whether your email has appeared in a data breach at haveibeenpwned.com. If it has, change that password everywhere you used it.'],
+  ['Keep things updated', 'Most attacks use flaws that already have a fix. Turn on automatic updates for your phone, computer and browser.'],
+  ['Don\'t reuse passwords', 'If one site is breached, attackers try the same email and password everywhere else. A different password per site keeps one breach to one account.'],
+  ['Type the address yourself', 'Don\'t use links in unexpected texts or emails to log in. Open the app or type the website address yourself; scammers rely on you clicking.'],
+  ['Back up what matters', 'Keep a copy of important files somewhere separate, like an external drive or cloud storage. With a backup, ransomware is an inconvenience rather than a disaster.'],
+  ['Lock your phone', 'Use a PIN, fingerprint or face unlock. A swipe pattern can often be guessed from the smudges on your screen.'],
+  ['Trust your gut', 'If a call, email or message feels off, stop. Contact the organisation through details you find yourself. Legitimate organisations won\'t mind.']
 ];
 
-function initRotations() {
-  var voice = document.getElementById('count-voice');
-  if (voice) voice.textContent = pickForToday(BLURBS);
-  var tip = document.getElementById('sb-tip-text');
-  if (tip) tip.textContent = pickForToday(TIPS);
-  if (typeof DEFINITIONS !== 'undefined') renderWotd(DEFINITIONS);
-}
+// ── OVERVIEW PANELS ────────────────────────────────────────
+function officialItems() { return D.news.filter(function (s) { return s.official; }); }
 
-// ── DATA STATE ─────────────────────────────────────────────
-var allArticles = [];
-var activeFilters = { topic: [], threat: [] };
-
-function passesFilters(article) {
-  var t = activeFilters.topic;
-  var h = activeFilters.threat;
-  if (t.length && !t.some(function(v) { return (article.tags || []).indexOf(v) > -1; })) return false;
-  if (h.length && h.indexOf(article.threat) === -1) return false;
-  return true;
-}
-
-function toggleFilter(type, value) {
-  var list = activeFilters[type];
-  var idx = list.indexOf(value);
-  if (idx > -1) list.splice(idx, 1);
-  else list.push(value);
-  updateFilterBar();
-  renderArticles();
-}
-
-function clearAllFilters() {
-  activeFilters = { topic: [], threat: [] };
-  updateFilterBar();
-  renderArticles();
-}
-
-function updateFilterBar() {
-  var bar = document.getElementById('active-filter-bar');
-  var tags = document.getElementById('active-filter-tags');
-  if (!bar || !tags) return;
-  var chips = activeFilters.topic.map(function(v) { return ['topic', v]; })
-    .concat(activeFilters.threat.map(function(v) { return ['threat', v]; }));
-  bar.hidden = !chips.length;
-  tags.innerHTML = chips.map(function(c) {
-    return '<button type="button" class="active-filter-chip" data-filter-type="' + c[0] + '" data-filter-value="' + esc(c[1]) + '"' +
-      ' aria-label="Remove ' + esc(c[1]) + ' filter">' + esc(c[1]) + ' ✕</button>';
-  }).join('');
-}
-
-// ── TAG HELPERS ────────────────────────────────────────────
-var TAG_CLASS_MAP = {
-  'AU Cyber':   'tag-cyber',
-  'AI & Tools': 'tag-ai',
-  'Scams':      'tag-scam',
-  'Compliance': 'tag-comp'
-};
-
-// Threat levels exist only on official ACSC items (see scripts/fetch_cyber_news.py).
-var THREAT_CLASS = { Critical: 't-critical', High: 't-high', Medium: 't-medium', Low: 't-advisory', Advisory: 't-advisory' };
-
-function filterButton(type, value, cls, label) {
-  var pressed = activeFilters[type].indexOf(value) > -1;
-  return '<button type="button" class="' + cls + (pressed ? ' tag--active' : '') + '"' +
-    ' data-filter-type="' + type + '" data-filter-value="' + esc(value) + '"' +
-    ' aria-pressed="' + pressed + '" title="Filter by ' + esc(value) + '">' + label + '</button>';
-}
-
-function cleanSource(source) {
-  return String(source || '').replace(/^Google News\s*[—-]\s*/i, '');
-}
-
-// ── RENDER ARTICLES ────────────────────────────────────────
-function renderArticles() {
-  var container = document.getElementById('articles-container');
-  if (!container) return;
-
-  var weekAgo = Date.now() - 7 * 24 * 60 * 60 * 1000;
-  var filtered = allArticles
-    .filter(passesFilters)
-    .filter(function(a) { var d = parseDate(a.date); return !d || d >= weekAgo; })
-    .slice(0, 30);
-
-  if (!filtered.length) {
-    container.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div>' +
-      '<p>No articles match the current filters.</p>' +
-      '<p><button type="button" class="no-results-clear" id="no-results-clear">Clear filters</button></p></div>';
+function renderAlertPanel() {
+  var recent = officialItems().filter(function (s) { return within(s, 14); });
+  var alert = recent.filter(function (s) { return s.threat === 'Critical' || s.threat === 'High'; })[0] || recent[0];
+  if (!alert) {
+    setText('alert-title', 'No ACSC alerts in the last two weeks.');
+    document.getElementById('alert-chip').innerHTML = '';
     return;
   }
-
-  container.innerHTML = filtered.map(function(a) {
-    var href = safeUrl(a.link);
-    var title = esc(a.title);
-    var summary = String(a.summary || '');
-    // Google News summaries just repeat the headline; very short ones add nothing.
-    if (summary.length < 80 || /google news/i.test(a.source || '')) summary = '';
-
-    var tags = (a.tags || []).map(function(t) {
-      return filterButton('topic', t, 'tag ' + (TAG_CLASS_MAP[t] || ''), esc(t));
-    }).join('');
-    var threat = a.threat
-      ? filterButton('threat', a.threat, 'tag threat-badge ' + (THREAT_CLASS[a.threat] || 't-advisory'), '● ' + esc(a.official ? 'ACSC ' + a.threat : a.threat))
-      : a.official ? '<span class="tag threat-badge t-advisory">● ACSC</span>' : '';
-
-    var date = formatDate(a.date, true);
-    return '<article class="article' + (a.official ? ' article--official' : '') + '">' +
-      '<div class="art-meta">' +
-        '<span class="source">' + esc(cleanSource(a.source)) + '</span>' +
-        (a.coverage && a.coverage.length ? '<span class="dot" aria-hidden="true">·</span><span class="art-date">+' + a.coverage.length + ' more source' + (a.coverage.length > 1 ? 's' : '') + '</span>' : '') +
-        (date ? '<span class="dot" aria-hidden="true">·</span><time class="art-date" datetime="' + esc(a.date) + '">' + esc(date) + '</time>' : '') +
-      '</div>' +
-      '<h3 class="art-title">' +
-        (href ? '<a class="art-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + title + '</a>' : title) +
-      '</h3>' +
-      (summary ? '<p class="art-summary">' + esc(summary) + '</p>' : '') +
-      '<div class="art-tags">' + threat + tags + '</div>' +
-    '</article>';
-  }).join('');
+  setText('alert-title', headline(alert.title, alert.source));
+  setText('alert-meta', 'ACSC · ' + formatDate(alert.date));
+  document.getElementById('alert-chip').innerHTML = acscChip(alert.threat);
 }
 
-// ── RENDER CVE ─────────────────────────────────────────────
-// CISA KEV has no severity score, so none is shown. The fix-by date is the
-// deadline CISA sets for US federal agencies — a useful urgency signal.
-function renderCVE(items) {
-  var el = document.getElementById('cve-feed');
-  if (!el) return;
-  if (!items || !items.length) {
-    el.innerHTML = '<li class="cve-loading">No CVE data available.</li>';
-    return;
+function renderCvePanel() {
+  var week = D.cve.filter(function (c) { return c.date_added && Date.now() - parseDate(c.date_added + 'T00:00:00+10:00') < 7 * DAY; });
+  setText('cve-count', String(week.length || D.cve.length));
+  setText('cve-sub', week.length ? 'vulnerabilities added to CISA\'s list in the last 7 days' : 'recently added to CISA\'s list');
+}
+
+function scamStories() { return D.news.filter(function (s) { return (s.tags || []).indexOf('Scams') > -1; }); }
+
+function renderScamPanel() {
+  var pick = scamStories().filter(function (s) { return /scamwatch/i.test(s.source || '') || /\bscam/i.test(s.title || ''); })[0] || scamStories()[0];
+  setText('scam-title', pick ? headline(pick.title, pick.source) : 'No scam stories this week.');
+  setText('scam-src', pick ? sourceName(pick.source) : '');
+}
+
+function newsPreview() {
+  var week = D.news.filter(function (s) { return within(s, 7); });
+  var list = week.slice();
+  if (D.featured) {
+    var i = list.findIndex(function (s) { return s.link === D.featured.link; });
+    if (i > 0) list.unshift(list.splice(i, 1)[0]);
   }
-  el.innerHTML = items.slice(0, 10).map(function(c) {
-    var href = safeUrl(c.link);
-    var ransom = c.ransomware === 'Known' ? '<span class="cve-ransomware">⚠ Used in ransomware</span>' : '';
-    var added = formatDate(c.date_added);
-    var due = formatDate(c.due_date);
-    var dates = [added ? 'Added ' + added : '', due ? 'CISA fix-by ' + due : ''].filter(Boolean).join(' · ');
-    var inner =
-      '<div class="cve-id-row">' +
-        '<span class="cve-id">' + esc(c.id) + '</span>' +
-        (c.name ? '<span class="cve-name">' + esc(c.name) + '</span>' : '') +
-        ransom +
-      '</div>' +
-      '<div class="cve-desc">' + esc(c.description) + '</div>' +
-      (dates ? '<div class="cve-date">' + esc(dates) + '</div>' : '');
-    return '<li>' + (href
-      ? '<a class="cve-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>'
-      : '<div class="cve-item">' + inner + '</div>') + '</li>';
+  setText('news-count', week.length + ' stories this week');
+  document.getElementById('news-preview').innerHTML = list.slice(0, 7).map(function (s) {
+    var more = s.coverage && s.coverage.length ? '<span class="more">+' + s.coverage.length + ' more</span>' : '';
+    return '<span><span>' + esc(headline(s.title, s.source)) + '</span><span class="src">' + esc(sourceName(s.source)) + more + '</span></span>';
+  }).join('') || '<span class="small">No stories this week.</span>';
+}
+
+function renderCrimePanel() {
+  var group = D.report && D.report.crime_types && D.report.crime_types[0];
+  if (!group) return;
+  var el = document.getElementById('crime-bars');
+  el.innerHTML = group.items.map(function (it) {
+    return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
+  }).join('');
+  sizeBars(el);
+}
+
+function sizeBars(root) {
+  root.querySelectorAll('i[data-w]').forEach(function (i) { i.style.width = Math.min(100, +i.getAttribute('data-w')) + '%'; });
+}
+
+function renderToolsPanel() {
+  var seen = {}, rows = [];
+  D.tools.forEach(function (t) { if (!seen[t.tool] && rows.length < 3) { seen[t.tool] = 1; rows.push(t); } });
+  document.getElementById('tools-preview').innerHTML = rows.map(function (t) {
+    return '<span><b>' + esc(t.tool) + '</b><i>' + esc(t.title) + '</i></span>';
+  }).join('') || '<span class="small">No updates right now.</span>';
+}
+
+// ── EXPLORER TOPICS ────────────────────────────────────────
+function linkButton(url, label) {
+  var href = safeUrl(url);
+  return href ? '<a class="go" href="' + href + '" target="_blank" rel="noopener noreferrer">' + esc(label) + '</a>' : '';
+}
+
+function storyView(s) {
+  var cov = s.coverage || [];
+  return '<div class="meta">' + (s.official ? acscChip(s.threat) : '') + (s.tags || []).map(function (t) { return '<span class="chip">' + esc(t) + '</span>'; }).join('') + '</div>' +
+    '<h2>' + esc(headline(s.title, s.source)) + '</h2>' +
+    '<div class="meta"><span>' + esc(sourceName(s.source)) + '</span><span>' + esc(formatDate(s.date, true)) + '</span>' +
+      (cov.length ? '<span>Covered by ' + (cov.length + 1) + ' outlets</span>' : '') + '</div>' +
+    (s.summary && s.summary.length > 60 ? '<p class="body">' + esc(s.summary) + '</p>' : '') +
+    linkButton(s.link, 'Read on ' + sourceName(s.source)) +
+    (cov.length ? '<div class="coverage"><h3>Also covered by</h3>' + cov.map(function (c) {
+      var href = safeUrl(c.link);
+      var inner = esc(headline(c.title, c.source)) + '<span>' + esc(sourceName(c.source)) + ' · ' + esc(formatDate(c.date)) + '</span>';
+      return href ? '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>' : '<div>' + inner + '</div>';
+    }).join('') + '</div>' : '');
+}
+
+function storyItem(s) {
+  var cov = s.coverage && s.coverage.length ? ' · +' + s.coverage.length : '';
+  return { k: sourceName(s.source) + ' · ' + formatDate(s.latest || s.date) + cov, sev: s.official ? (SEV[s.threat] || '') : '', t: headline(s.title, s.source), tags: s.tags || [], view: function () { return storyView(s); } };
+}
+
+function buildTopics() {
+  var r = D.report;
+  var fy = currentFy(new Date());
+  var topics = {
+    alerts: { label: 'ACSC alerts', items: officialItems().map(function (s) {
+      var it = storyItem(s); it.k = (s.threat || 'ACSC') + ' · ' + formatDate(s.date); return it;
+    }), empty: 'No ACSC alerts or advisories in the last two weeks.' },
+    cve: { label: 'Exploited now', items: D.cve.map(function (c) {
+      return { k: c.id + ' · fix by ' + formatDate(c.due_date + 'T00:00:00+10:00'), sev: 'high', t: c.name || c.id, view: function () {
+        return '<span class="chip chip--high">Actively exploited</span><h2>' + esc(c.name || c.id) + '</h2>' +
+          '<div class="meta"><span>' + esc(c.id) + '</span>' + (c.ransomware === 'Known' ? '<span>Used in ransomware</span>' : '') + '</div>' +
+          '<p class="body">' + esc(c.description) + '</p>' +
+          '<div class="facts"><div><b>' + esc(formatDate(c.date_added + 'T00:00:00+10:00')) + '</b>added to CISA\'s list</div>' +
+          '<div><b>' + esc(formatDate(c.due_date + 'T00:00:00+10:00')) + '</b>CISA fix-by deadline</div>' +
+          '<div><b>' + (c.ransomware === 'Known' ? 'Yes' : 'Not known') + '</b>used in ransomware</div></div>' +
+          linkButton(c.link, 'Details on NVD') +
+          '<p class="aside">If your organisation runs this product, apply the vendor\'s fix now. The fix-by date is the deadline CISA sets for US federal agencies; it\'s a good guide to urgency anywhere.</p>';
+      } };
+    }), empty: 'CVE data is unavailable right now.' },
+    news: { label: 'News', filters: ['All', 'AU Cyber', 'AI & Tools', 'Scams', 'Compliance'], items: D.news.map(storyItem), empty: 'No stories match.' },
+    scams: { label: 'Scams', items: scamStories().map(storyItem), empty: 'No scam stories this week.' },
+    year: { label: 'This year', items: r ? [
+      { k: fy.label + ' · projection', t: 'Estimated cybercrime reports so far', view: function () {
+        return '<span class="chip">Estimate</span><h2>' + esc(document.getElementById('main-count').textContent) + ' estimated reports since 1 July</h2>' +
+          '<p class="body">A projection, not a live count. ASD received ' + esc(r.reports_per_year.toLocaleString('en-AU')) + ' cybercrime reports in FY' + esc(r.fy) +
+          ', about one every ' + esc(r.report_interval) + '. This spreads that rate across the current financial year. ASD notes that most cybercrime is never reported at all.</p>' +
+          '<div class="facts"><div><b>' + esc(document.getElementById('fy-day').textContent) + '</b>of the financial year</div><div><b>' +
+          esc(r.reports_per_year.toLocaleString('en-AU')) + '</b>reports in FY' + esc(r.fy) + '</div><div><b>' + esc(r.report_interval) + '</b>between reports</div></div>' +
+          '<p class="aside">Source: ' + esc(r.title) + '. <a href="sources.html#tracker-methodology">How the estimate works</a></p>';
+      } },
+      { k: 'FY' + r.fy + ' · ASD report', t: 'Headline figures', view: function () {
+        return '<span class="chip">FY' + esc(r.fy) + '</span><h2>Headline figures</h2><div class="facts">' + r.stats.map(function (s) {
+          return '<div><b>' + esc(s.value) + '</b>' + esc(s.label) + '</div>';
+        }).join('') + '</div>' + linkButton(r.url, 'Read the full report');
+      } },
+      { k: 'FY' + r.fy + ' · ASD report', t: 'The most reported types of cybercrime', view: function () {
+        return '<span class="chip">FY' + esc(r.fy) + '</span><h2>The most reported types of cybercrime</h2>' + r.crime_types.map(function (g) {
+          return '<div class="bars"><b>' + esc(g.group) + '</b>' + g.items.map(function (it) {
+            return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
+          }).join('') + '</div>';
+        }).join('') + '<p class="aside">' + esc(r.crime_types_note || '') + '</p>';
+      } }
+    ] : [], empty: 'Report figures are unavailable right now.' },
+    tools: { label: 'Tool updates', items: D.tools.map(function (t) {
+      return { k: t.tool + ' · ' + formatDate(t.date), t: t.title, view: function () {
+        return '<span class="chip">' + esc(t.tool) + '</span><h2>' + esc(t.title) + '</h2><div class="meta"><span>' + esc(t.source) + '</span><span>' + esc(formatDate(t.date, true)) + '</span></div>' +
+          (t.summary && t.summary.length > 40 ? '<p class="body">' + esc(t.summary) + '</p>' : '') + linkButton(t.link, 'Read the update');
+      } };
+    }), empty: 'No tool updates right now.' },
+    learn: { label: 'Learn', items: learnItems(), empty: '' }
+  };
+  return topics;
+}
+
+function learnItems() {
+  var today = pickForToday(TIPS);
+  var items = [{ k: 'Tip of the day', t: today[0], view: function () { return '<span class="chip">Tip of the day</span><h2>' + esc(today[0]) + '</h2><p class="body">' + esc(today[1]) + '</p>'; } }];
+  var term = typeof DEFINITIONS !== 'undefined' ? pickForToday(DEFINITIONS) : null;
+  if (term) items.push({ k: 'Word of the day', t: term.term, view: function () {
+    return '<span class="chip">Word of the day</span><h2>' + esc(term.term) + '</h2><p class="body">' + esc(term.full || term.short) + '</p>' +
+      (term.example ? '<p class="aside"><b>Example:</b> ' + esc(term.example) + '</p>' : '') +
+      '<a class="go" href="reference.html#glossary">Open the glossary</a>';
+  } });
+  TIPS.forEach(function (t) {
+    if (t !== today) items.push({ k: 'Tip', t: t[0], view: function () { return '<span class="chip">Tip</span><h2>' + esc(t[0]) + '</h2><p class="body">' + esc(t[1]) + '</p>'; } });
+  });
+  return items;
+}
+
+// ── EXPLORER ───────────────────────────────────────────────
+var ORDER = ['alerts', 'cve', 'news', 'scams', 'year', 'tools', 'learn'];
+var TOPICS = null;
+var state = { cat: 'news', idx: 0, filter: 'All' };
+var fromPanel = null;
+var overview, explore, tabs, list, pane;
+
+function visibleItems() {
+  var t = TOPICS[state.cat];
+  return t.items.filter(function (it) { return state.filter === 'All' || !it.tags || it.tags.indexOf(state.filter) > -1; });
+}
+
+function renderTabs() {
+  tabs.innerHTML = ORDER.map(function (id) {
+    var sel = id === state.cat;
+    return '<button type="button" role="tab" data-cat="' + id + '" aria-selected="' + sel + '" aria-controls="list">' +
+      esc(TOPICS[id].label) + '<span class="n">' + TOPICS[id].items.length + '</span></button>';
   }).join('');
 }
 
-// ── RENDER TOOLS ───────────────────────────────────────────
-function renderTools(tools) {
-  var el = document.getElementById('tools-container');
-  if (!el) return;
-  if (!tools.length) {
-    el.innerHTML = '<div class="sb-empty">No tool updates available.</div>';
-    return;
-  }
-  var grouped = {};
-  var order = [];
-  tools.forEach(function(t) {
-    if (!grouped[t.tool]) { grouped[t.tool] = []; order.push(t.tool); }
-    grouped[t.tool].push(t);
+function renderList() {
+  var t = TOPICS[state.cat], items = visibleItems();
+  list.innerHTML = (t.filters ? '<div class="list-tools">' + t.filters.map(function (f) {
+    return '<button type="button" data-filter="' + esc(f) + '" aria-pressed="' + (f === state.filter) + '">' + esc(f) + '</button>';
+  }).join('') + '</div>' : '') + (items.length ? items.map(function (it, i) {
+    return '<button type="button" class="item" role="option" data-idx="' + i + '" aria-selected="' + (i === state.idx) + '">' +
+      '<span class="k"><span class="sev ' + (it.sev || '') + '"></span>' + esc(it.k) + '</span><span class="t">' + esc(it.t) + '</span></button>';
+  }).join('') : '<p class="empty">' + esc(t.empty) + '</p>');
+}
+
+function renderPane() {
+  var it = visibleItems()[state.idx];
+  pane.innerHTML = it ? it.view() : '';
+  sizeBars(pane);
+  pane.scrollTop = 0;
+}
+
+function show(cat, idx) {
+  state.cat = TOPICS[cat] ? cat : 'news';
+  state.filter = 'All';
+  state.idx = Math.min(idx || 0, Math.max(0, TOPICS[state.cat].items.length - 1));
+  renderTabs(); renderList(); renderPane();
+  try { history.replaceState(null, '', '#' + state.cat); } catch (e) {}
+}
+
+function withTransition(fn) {
+  if (document.startViewTransition && !matchMedia('(prefers-reduced-motion: reduce)').matches) document.startViewTransition(fn);
+  else fn();
+}
+
+function openExplore(cat, idx, panel) {
+  if (!TOPICS) return;
+  fromPanel = panel || null;
+  if (panel) panel.style.viewTransitionName = 'stage';
+  withTransition(function () {
+    if (panel) panel.style.viewTransitionName = '';
+    show(cat, idx);
+    overview.hidden = true;
+    explore.hidden = false;
+    explore.style.viewTransitionName = 'stage';
   });
-  el.innerHTML = order.map(function(tool) {
-    var rows = grouped[tool].slice(0, 3).map(function(i) {
-      var title = String(i.title || '');
-      if (/^v\d+\.\d+/.test(title)) title = tool + ' ' + title;
-      if (title.length > 80) title = title.substring(0, 77) + '…';
-      var href = safeUrl(i.link);
-      var date = formatDate(i.date);
-      var inner = '<span class="tool-item-title">' + esc(title) + '</span>' +
-        (date ? '<span class="tool-item-date">' + esc(date) + '</span>' : '');
-      return '<li>' + (href
-        ? '<a class="tool-item" href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>'
-        : '<div class="tool-item">' + inner + '</div>') + '</li>';
-    }).join('');
-    return '<div class="tool-group">' +
-      '<h3 class="tool-name"><span class="tool-mono" aria-hidden="true">' + esc(tool.charAt(0)) + '</span>' + esc(tool) + '</h3>' +
-      '<ul class="tool-list">' + rows + '</ul></div>';
-  }).join('');
+  setTimeout(function () { var s = list.querySelector('[aria-selected="true"]') || tabs.querySelector('[aria-selected="true"]'); if (s) s.focus(); }, 360);
 }
 
-// ── CALLOUTS ───────────────────────────────────────────────
-function showCallout(prefix, item, badgeText) {
-  var callout = document.getElementById(prefix + '-callout');
-  if (!callout || !item) return;
-  var titleEl = document.getElementById(prefix + '-title');
-  var metaEl  = document.getElementById(prefix + '-meta');
-  var linkEl  = document.getElementById(prefix + '-link');
-  var badgeEl = document.getElementById(prefix + '-badge');
-  if (titleEl) titleEl.textContent = item.title;
-  if (metaEl)  metaEl.textContent = [cleanSource(item.source), formatDate(item.date, true)].filter(Boolean).join(' · ');
-  if (badgeEl && badgeText) badgeEl.textContent = badgeText;
-  var href = safeUrl(item.link);
-  if (linkEl && href) linkEl.setAttribute('href', item.link);
-  callout.hidden = false;
-}
-
-// Most recent ACSC Critical/High alert from the last 14 days.
-function renderOfficialAlert(articles) {
-  var cutoff = Date.now() - 14 * 24 * 60 * 60 * 1000;
-  var alert = articles.filter(function(a) {
-    var d = parseDate(a.date);
-    return a.official && (a.threat === 'Critical' || a.threat === 'High') && d && d >= cutoff;
-  })[0];
-  if (!alert) return;
-  showCallout('official', alert, 'ACSC ' + alert.threat + ' alert');
-  var callout = document.getElementById('official-callout');
-  if (callout) callout.classList.toggle('is-critical', alert.threat === 'Critical');
-}
-
-function renderScamOfWeek(articles) {
-  // Only items that are about scams: Scamwatch itself, or a headline that says "scam".
-  // (The Scams tag alone also catches enterprise phishing research.)
-  var scams = articles.filter(function(a) {
-    return (a.tags || []).indexOf('Scams') > -1 && a.link && a.title &&
-      (/scamwatch/i.test(a.source || '') || /\bscam/i.test(a.title));
+function closeExplore() {
+  if (explore.hidden) return;
+  withTransition(function () {
+    explore.hidden = true;
+    overview.hidden = false;
+    explore.style.viewTransitionName = '';
+    if (fromPanel) fromPanel.style.viewTransitionName = 'stage';
   });
-  var fromScamwatch = scams.filter(function(a) { return /scamwatch/i.test(a.source || ''); });
-  var s = (fromScamwatch.length ? fromScamwatch : scams)[0];
-  if (!s) return;
-  showCallout('scam', {
-    title: String(s.title).replace(/\s*[-–|]\s*(Scamwatch|Scam\s+Watch|ACCC).*$/i, '').trim(),
-    source: s.source, date: s.date, link: s.link
-  });
+  try { history.replaceState(null, '', location.pathname + location.search); } catch (e) {}
+  setTimeout(function () { if (fromPanel) { fromPanel.style.viewTransitionName = ''; fromPanel.focus(); } }, 360);
 }
 
-// ── FEATURED STORY ─────────────────────────────────────────
-// Selected server-side by cross-source coverage, not by AI —
-// see select_trending_article() in scripts/fetch_cyber_news.py.
-function renderFeaturedStory(f) {
-  var el = document.getElementById('featured-story');
-  if (!el || !f || !f.title) return;
-  var href = safeUrl(f.link);
-  var count = parseInt(f.source_count, 10) || 1;
-  var meta = [cleanSource(f.source), count > 1 ? 'Covered by ' + count + ' sources' : ''].filter(Boolean).join(' · ');
-  el.innerHTML =
-    '<div class="fs-label">Today\'s story</div>' +
-    (f.summary ? '<p class="fs-quote">' + esc(f.summary) + '</p>' : '') +
-    (href ? '<a class="fs-link" href="' + href + '" target="_blank" rel="noopener noreferrer">' + esc(f.title) + ' ↗</a>'
-          : '<div class="fs-link">' + esc(f.title) + '</div>') +
-    (meta ? '<div class="fs-source">' + esc(meta) + '</div>' : '');
-  el.hidden = false;
-}
-
-// ── DATA LOAD ──────────────────────────────────────────────
+// ── DATA ───────────────────────────────────────────────────
 function getJson(path) {
-  return fetch(path, { cache: 'no-cache' }).then(function(r) {
+  return fetch(path, { cache: 'no-cache' }).then(function (r) {
     if (!r.ok) throw new Error('HTTP ' + r.status);
     return r.json();
   });
 }
 
-function loadData() {
-  getJson('data/news.json').then(function(data) {
-    allArticles = Array.isArray(data.items) ? data.items : [];
-    var ts = formatDate(data.last_updated, true);
-    var lu = document.getElementById('last-updated');
-    var fu = document.getElementById('footer-updated');
-    if (lu) lu.textContent = ts ? 'Updated ' + ts : '';
-    if (fu) fu.textContent = ts ? 'Updated ' + ts : '';
-    renderArticles();
-    renderOfficialAlert(allArticles);
-    renderScamOfWeek(allArticles);
-  }).catch(function() {
-    var c = document.getElementById('articles-container');
-    if (c) c.innerHTML = '<div class="no-results"><div class="no-results-icon">—</div><p>Could not load the news feed. Try refreshing.</p></div>';
+function loadAll() {
+  var report = getJson('data/annual_report.json').then(function (d) { D.report = d; renderTracker(); renderCrimePanel(); })
+    .catch(function () { setText('report-interval', 'Report figures are unavailable right now.'); });
+  var news = getJson('data/news.json').then(function (d) {
+    D.news = Array.isArray(d.items) ? d.items : [];
+    var ts = formatDate(d.last_updated, true);
+    setText('last-updated', ts ? 'Updated ' + ts : '');
+    setText('footer-updated', ts ? 'Updated ' + ts : '');
+  }).catch(function () { D.news = []; setText('news-count', 'unavailable'); });
+  var featured = getJson('data/briefing.json').then(function (d) { D.featured = d.items && d.items.featured; }).catch(function () {});
+  var cve = getJson('data/cve.json').then(function (d) { D.cve = Array.isArray(d.items) ? d.items : []; renderCvePanel(); })
+    .catch(function () { setText('cve-sub', 'CVE data is unavailable right now.'); });
+  var tools = getJson('data/tool_updates.json').then(function (d) { D.tools = Array.isArray(d.items) ? d.items : []; renderToolsPanel(); })
+    .catch(function () { document.getElementById('tools-preview').innerHTML = '<span class="small">Unavailable right now.</span>'; });
+
+  Promise.all([news, featured]).then(function () { renderAlertPanel(); renderScamPanel(); newsPreview(); });
+  Promise.all([report, news, featured, cve, tools]).then(function () {
+    TOPICS = buildTopics();
+    var hash = location.hash.replace('#', '');
+    if (TOPICS[hash]) openExplore(hash, 0, null);
   });
-
-  getJson('data/tool_updates.json').then(function(data) {
-    renderTools(Array.isArray(data.items) ? data.items : []);
-  }).catch(function() {
-    var el = document.getElementById('tools-container');
-    if (el) el.innerHTML = '<div class="sb-empty">Tool updates unavailable.</div>';
-  });
-
-  getJson('data/cve.json').then(function(data) {
-    renderCVE(Array.isArray(data.items) ? data.items : []);
-  }).catch(function() {
-    var el = document.getElementById('cve-feed');
-    if (el) el.innerHTML = '<li class="cve-loading">CVE data unavailable.</li>';
-  });
-
-  getJson('data/annual_report.json').then(function(data) {
-    REPORT = data;
-    renderReport(data);
-    updateTracker();
-  }).catch(function() {});
-
-  getJson('data/briefing.json').then(function(data) {
-    if (data.items && data.items.featured) renderFeaturedStory(data.items.featured);
-  }).catch(function() {});
 }
 
 // ── INIT ───────────────────────────────────────────────────
-document.addEventListener('DOMContentLoaded', function() {
-  initTrackerLabels();
+document.addEventListener('DOMContentLoaded', function () {
+  overview = document.getElementById('overview');
+  explore = document.getElementById('explore');
+  tabs = document.getElementById('tabs');
+  list = document.getElementById('list');
+  pane = document.getElementById('pane');
+
+  renderTracker();
   setInterval(updateTracker, 6000);
-  initRotations();
-  loadData();
+  setText('tip-text', pickForToday(TIPS)[1]);
+  if (typeof DEFINITIONS !== 'undefined') renderWotd(DEFINITIONS);
+  loadAll();
 
-  var clearBtn = document.getElementById('clear-filters-btn');
-  if (clearBtn) clearBtn.addEventListener('click', clearAllFilters);
-
-  // One delegated handler for every filter button (article tags + active chips).
-  document.addEventListener('click', function(e) {
-    if (e.target.closest('#no-results-clear')) { clearAllFilters(); return; }
-    var btn = e.target.closest('[data-filter-type]');
-    if (btn) toggleFilter(btn.getAttribute('data-filter-type'), btn.getAttribute('data-filter-value'));
+  overview.addEventListener('click', function (e) {
+    var p = e.target.closest('.panel');
+    if (p) openExplore(p.dataset.go, +(p.dataset.pick || 0), p);
   });
+  document.getElementById('back').addEventListener('click', closeExplore);
+  tabs.addEventListener('click', function (e) { var b = e.target.closest('[data-cat]'); if (b) show(b.dataset.cat, 0); });
+  list.addEventListener('click', function (e) {
+    var f = e.target.closest('[data-filter]');
+    if (f) { state.filter = f.dataset.filter; state.idx = 0; renderList(); renderPane(); return; }
+    var b = e.target.closest('[data-idx]');
+    if (!b) return;
+    state.idx = +b.dataset.idx;
+    list.querySelectorAll('.item').forEach(function (x) { x.setAttribute('aria-selected', x === b ? 'true' : 'false'); });
+    renderPane();
+    if (matchMedia('(max-width: 960px)').matches) pane.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+  list.addEventListener('keydown', function (e) {
+    if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
+    var items = Array.prototype.slice.call(list.querySelectorAll('.item'));
+    var i = items.indexOf(document.activeElement);
+    if (i < 0) return;
+    e.preventDefault();
+    var next = items[Math.max(0, Math.min(items.length - 1, i + (e.key === 'ArrowDown' ? 1 : -1)))];
+    next.focus(); next.click();
+  });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeExplore(); });
 });

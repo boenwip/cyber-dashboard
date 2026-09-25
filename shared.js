@@ -10,9 +10,10 @@ function currentTheme() {
   return document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark';
 }
 
+// The button's icon is swapped by CSS; keep its label in step for screen readers.
 function syncThemeButton() {
   var btn = document.getElementById('theme-btn');
-  if (btn) btn.textContent = currentTheme() === 'dark' ? '☀' : '☽';
+  if (btn) btn.setAttribute('aria-label', currentTheme() === 'dark' ? 'Switch to light theme' : 'Switch to dark theme');
 }
 
 function toggleTheme() {
@@ -109,12 +110,12 @@ function initMobileNav() {
   function openNav() {
     nav.classList.add('site-nav--open');
     toggle.setAttribute('aria-expanded', 'true');
-    toggle.textContent = '✕';
+    toggle.setAttribute('aria-label', 'Close navigation');
   }
   function closeNav() {
     nav.classList.remove('site-nav--open');
     toggle.setAttribute('aria-expanded', 'false');
-    toggle.textContent = '☰';
+    toggle.setAttribute('aria-label', 'Open navigation');
   }
 
   toggle.addEventListener('click', function() {
@@ -127,7 +128,7 @@ function initMobileNav() {
 
   document.addEventListener('click', function(e) {
     if (nav.classList.contains('site-nav--open') &&
-        !nav.contains(e.target) && e.target !== toggle) {
+        !nav.contains(e.target) && !toggle.contains(e.target)) {
       closeNav();
     }
   });

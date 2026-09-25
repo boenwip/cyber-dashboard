@@ -22,18 +22,18 @@
 <body>
 
 <header class="site-header">
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html"     class="nav-link">Dashboard</a>
-    <a href="reference.html" class="nav-link nav-link--active">Reference</a>
-    <a href="resources.html" class="nav-link">Resources</a>
-    <a href="ai-guide.html"  class="nav-link">AI Guide</a>
-  </nav>
   <a href="index.html" class="site-logo" aria-label="pseudosec. home">
-    <img src="assets/pseudosec.png" alt="pseudosec.">
+    <img src="assets/pseudosec.png" alt="pseudosec." width="74" height="34">
   </a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-link">Dashboard</a>
+    <a href="reference.html" class="nav-link nav-link--active" aria-current="page">Reference</a>
+    <a href="resources.html" class="nav-link">Resources</a>
+    <a href="ai-guide.html" class="nav-link">AI Guide</a>
+  </nav>
   <div class="hdr-right">
-    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
+    <button type="button" class="icon-btn theme-btn" id="theme-btn" aria-label="Switch theme"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></button>
+    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
   </div>
 </header>
 
@@ -43,7 +43,7 @@
   <span class="wotd-term" id="wotd-term">—</span>
   <span class="wotd-sep">—</span>
   <span class="wotd-def" id="wotd-def">Loading...</span>
-  <a href="#glossary" class="wotd-more" id="wotd-glossary-link">Full glossary ↗</a>
+  <a href="#glossary" class="wotd-more" id="wotd-glossary-link">Full glossary</a>
 </div>
 
 <div class="page-wrap">
@@ -65,7 +65,7 @@
   <div class="ref-panel ref-panel--active" id="panel-owasp-web" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP Top 10 for Web Applications (2025) — the ten most critical security risks facing web applications, ordered by how commonly they occur and how much damage they cause. If you build or buy web software, these are the gaps attackers look for first. Updated from the 2021 edition following a 2026 review of 175,000+ CVEs.</p>
-      <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">owasp.org/www-project-top-ten ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-ten/" target="_blank" rel="noopener noreferrer">owasp.org/www-project-top-ten</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -145,7 +145,7 @@
   <div class="ref-panel" id="panel-owasp-api" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP API Security Top 10 (2023) — the ten most critical risks specific to APIs (Application Programming Interfaces). APIs are the backbone of modern software — mobile apps, web apps, and third-party integrations all rely on them. They're also a major and often underprotected attack surface.</p>
-      <a class="ref-ext-link" href="https://owasp.org/API-Security/" target="_blank" rel="noopener noreferrer">owasp.org/API-Security ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/API-Security/" target="_blank" rel="noopener noreferrer">owasp.org/API-Security</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -225,7 +225,7 @@
   <div class="ref-panel" id="panel-owasp-llm" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The OWASP Top 10 for Large Language Model Applications (2025) — the ten most critical risks when building or using AI applications. As AI tools move from experimental to operational across Australian organisations, these are the risks that security teams and IT leaders need to understand.</p>
-      <a class="ref-ext-link" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener noreferrer">owasp.org LLM Project ↗</a>
+      <a class="ref-ext-link" href="https://owasp.org/www-project-top-10-for-large-language-model-applications/" target="_blank" rel="noopener noreferrer">owasp.org LLM Project</a>
     </div>
     <ol class="owasp-list">
       <li class="owasp-item">
@@ -305,7 +305,7 @@
   <div class="ref-panel" id="panel-e8" role="tabpanel">
     <div class="ref-panel-intro">
       <p>The Essential Eight — the Australian Signals Directorate's baseline cyber security controls for Australian organisations. Not a compliance checkbox — a prioritised set of mitigations designed to prevent the most common attacks. ACSC recommends all Australian organisations implement these at Maturity Level 2 as a minimum.</p>
-      <a class="ref-ext-link" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener noreferrer">cyber.gov.au Essential Eight ↗</a>
+      <a class="ref-ext-link" href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener noreferrer">cyber.gov.au Essential Eight</a>
     </div>
     <div class="e8-grid">
       <div class="e8-card">

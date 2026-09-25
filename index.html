@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="pseudosec. — Australian cyber security at a glance. ACSC alerts, actively exploited vulnerabilities, scam alerts and security news, refreshed through the day.">
+<meta name="description" content="pseudosec. — Australian cyber security at a glance, for anyone: ACSC alerts, actively exploited vulnerabilities, scams and security news, one entry per story, refreshed through the day.">
 <meta property="og:title" content="pseudosec. — Australian Cyber Intelligence">
 <meta property="og:description" content="Australian cyber security at a glance — ACSC alerts, actively exploited vulnerabilities, scam alerts and security news.">
 <meta property="og:image" content="https://boenwip.github.io/cyber-dashboard/assets/pseudosec.png">
@@ -21,135 +21,103 @@
 <body>
 
 <header class="site-header">
+  <a href="index.html" class="site-logo" aria-label="pseudosec. home">
+    <img src="assets/pseudosec.png" alt="pseudosec." width="74" height="34">
+  </a>
   <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html"     class="nav-link nav-link--active">Dashboard</a>
+    <a href="index.html" class="nav-link nav-link--active" aria-current="page">Dashboard</a>
     <a href="reference.html" class="nav-link">Reference</a>
     <a href="resources.html" class="nav-link">Resources</a>
-    <a href="ai-guide.html"  class="nav-link">AI Guide</a>
+    <a href="ai-guide.html" class="nav-link">AI Guide</a>
   </nav>
-  <a href="index.html" class="site-logo" aria-label="pseudosec. home">
-    <img src="assets/pseudosec.png" alt="pseudosec.">
-  </a>
   <div class="hdr-right">
-    <a href="https://www.cyber.gov.au" target="_blank" rel="noopener noreferrer" class="hdr-btn" id="acsc-link">🛡 ACSC</a>
-    <div class="hdr-meta hdr-updated" id="last-updated"></div>
-    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
+    <span class="hdr-meta" id="last-updated"></span>
+    <button type="button" class="icon-btn theme-btn" id="theme-btn" aria-label="Switch theme"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></button>
+    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
   </div>
 </header>
 
-<!-- OFFICIAL ACSC ALERT (Critical/High, last 14 days) -->
-<div class="scam-callout scam-callout--official" id="official-callout" hidden>
-  <span class="scam-badge" id="official-badge">ACSC Alert</span>
-  <div class="scam-content">
-    <div class="scam-title" id="official-title"></div>
-    <div class="scam-meta" id="official-meta"></div>
-  </div>
-  <a class="scam-link" id="official-link" href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories" target="_blank" rel="noopener noreferrer">Read alert ↗</a>
-</div>
+<main class="dash" id="main">
+  <h1 class="visually-hidden">pseudosec. — Australian cyber security dashboard</h1>
 
-<!-- SCAM OF THE WEEK -->
-<div class="scam-callout" id="scam-callout" hidden>
-  <span class="scam-badge">
-    <svg class="scam-icon" width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true">
-      <path d="M6.5 1.5L11.5 10.5H1.5L6.5 1.5Z" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"/>
-      <line x1="6.5" y1="5.5" x2="6.5" y2="7.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
-      <circle cx="6.5" cy="9.2" r="0.6" fill="currentColor"/>
-    </svg>
-    Scam Alert
-  </span>
-  <div class="scam-content">
-    <div class="scam-title" id="scam-title"></div>
-    <div class="scam-meta" id="scam-meta"></div>
-  </div>
-  <a class="scam-link" id="scam-link" href="https://www.scamwatch.gov.au/news-and-alerts" target="_blank" rel="noopener noreferrer">Read more ↗</a>
-</div>
+  <!-- OVERVIEW: each panel opens the explorer at its topic -->
+  <div class="bento" id="overview">
+    <button type="button" class="panel p-count" data-go="year">
+      <span class="lbl"><span>Estimated cybercrime reports this financial year</span><em id="fy-label">FY</em></span>
+      <span class="big" id="main-count">—</span>
+      <span class="count-sub" id="report-interval"></span>
+      <span class="ruler" aria-hidden="true"><span class="fill" id="fy-fill"></span><span class="here" id="fy-here"></span></span>
+      <span class="fy-scale"><span>1 Jul</span><span id="fy-day"></span><span>30 Jun</span></span>
+      <span class="cue">How it's counted</span>
+    </button>
 
-<!-- TRACKER -->
-<section class="tracker" aria-labelledby="tracker-title">
-  <div class="tracker-header">
-    <h2 class="tracker-title" id="tracker-title"><span class="live-dot" aria-hidden="true"></span><span id="tracker-fy">Financial year</span> estimate</h2>
-    <div class="tracker-src" id="report-source">Source: ASD Annual Cyber Threat Report</div>
-  </div>
-  <div class="tracker-body">
-    <div class="tracker-col tracker-col--story">
-      <div id="featured-story" class="featured-story" hidden></div>
-      <p id="count-voice" class="count-voice">From a $30 phishing text to a ransomware attack on a hospital — this counter catches all of it. Most of it isn't sophisticated. Most of it is preventable.</p>
-    </div>
-    <div class="tracker-col tracker-col--hero">
-      <div class="count-label" id="count-label">Estimated cybercrime reports this financial year</div>
-      <div class="count-num" id="main-count">—</div>
-      <div class="count-sub"><span id="report-interval"></span>Counting from <span id="count-from">1 July</span></div>
-      <a href="sources.html#tracker-methodology" class="count-methodology">How this estimate is calculated ↗</a>
-      <div class="tracker-stats" id="report-stats-wrap" hidden>
-        <div class="ts-grid" id="report-stats"></div>
-        <a href="#" target="_blank" rel="noopener noreferrer" class="ts-link" id="report-link">Full report ↗</a>
-      </div>
-    </div>
-    <div class="tracker-col tracker-col--cve">
-      <div class="cve-header">
-        <h2 class="cve-title">Actively Exploited CVEs</h2>
-        <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer" class="cve-link">CISA KEV ↗</a>
-      </div>
-      <ul id="cve-feed" class="cve-feed">
-        <li class="cve-loading">Loading CVEs…</li>
-      </ul>
-    </div>
-  </div>
-  <div class="tracker-crime" id="report-crime" hidden>
-    <h2 class="tracker-crime-label" id="report-crime-title">Most reported cybercrime types</h2>
-    <div class="crime-groups" id="report-crime-groups"></div>
-    <p class="tracker-crime-note"><span id="report-crime-note"></span> <a href="#" target="_blank" rel="noopener noreferrer" class="chart-link" id="report-crime-link">Full breakdown ↗</a></p>
-  </div>
-</section>
+    <button type="button" class="panel p-alert" data-go="alerts">
+      <span class="lbl"><span>Official alert</span><em id="alert-meta">ACSC</em></span>
+      <span id="alert-chip"></span>
+      <span class="ttl" id="alert-title">Loading…</span>
+      <span class="cue">All ACSC alerts</span>
+    </button>
 
-<!-- ACTIVE FILTER BAR (hidden until a tag is selected) -->
-<div class="active-filter-bar" id="active-filter-bar" role="status" hidden>
-  <span class="active-filter-label">Filtered by</span>
-  <div class="active-filter-tags" id="active-filter-tags"></div>
-  <button type="button" class="clear-filters-btn" id="clear-filters-btn">Clear all ✕</button>
-</div>
+    <button type="button" class="panel p-cve" data-go="cve">
+      <span class="lbl"><span>Exploited this week</span></span>
+      <span class="mid" id="cve-count">—</span>
+      <span class="small" id="cve-sub">vulnerabilities added to CISA's list</span>
+      <span class="cue">See all</span>
+    </button>
 
-<!-- MAIN LAYOUT -->
-<div class="layout">
-  <main class="feed" aria-labelledby="feed-title">
-    <h2 class="visually-hidden" id="feed-title">Latest news</h2>
-    <div id="articles-container">
-      <div class="loading-msg">Loading articles…</div>
-    </div>
-  </main>
-  <aside class="sidebar" aria-label="Sidebar">
-    <div class="sb-tip">
-      <h2 class="sb-tip-label">Tip of the day</h2>
-      <p class="sb-tip-text" id="sb-tip-text"></p>
-    </div>
-    <h2 class="sb-hdr">Threat intel</h2>
-    <ul class="sb-links">
-      <li><a href="https://www.cyber.gov.au/about-us/view-all-content/alerts-and-advisories" target="_blank" rel="noopener noreferrer"><span class="sb-link-name">ASD alerts &amp; advisories ↗</span><span class="sb-link-desc">Official Australian threat advisories</span></a></li>
-      <li><a href="https://www.scamwatch.gov.au/news-and-alerts" target="_blank" rel="noopener noreferrer"><span class="sb-link-name">Scamwatch alerts ↗</span><span class="sb-link-desc">ACCC warnings on current scams</span></a></li>
-      <li><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer"><span class="sb-link-name">CISA KEV catalog ↗</span><span class="sb-link-desc">Every vulnerability confirmed exploited in the wild</span></a></li>
-      <li><a href="https://radar.cloudflare.com/security-and-attacks" target="_blank" rel="noopener noreferrer"><span class="sb-link-name">Cloudflare Radar ↗</span><span class="sb-link-desc">Global DDoS and attack traffic trends</span></a></li>
-    </ul>
-    <h2 class="sb-hdr">Tool Updates</h2>
-    <div class="tools-scroll">
-      <div id="tools-container">
-        <div class="sb-empty">Loading…</div>
-      </div>
-    </div>
-  </aside>
-</div>
+    <button type="button" class="panel p-scam" data-go="scams">
+      <span class="lbl"><span>Scam to know</span><em id="scam-src"></em></span>
+      <span class="ttl" id="scam-title">Loading…</span>
+      <span class="cue">Scams this week</span>
+    </button>
 
-<!-- WORD OF THE DAY -->
-<div class="wotd-strip wotd-strip--ambient" id="wotd-strip" aria-label="Word of the day">
-  <span class="wotd-label">Word of the day</span>
-  <span class="wotd-term" id="wotd-term"></span>
-  <span class="wotd-sep" aria-hidden="true">—</span>
-  <span class="wotd-def" id="wotd-def"></span>
-  <a href="reference.html#glossary" class="wotd-more">Full glossary ↗</a>
-</div>
+    <button type="button" class="panel p-news" data-go="news">
+      <span class="lbl"><span>Latest news</span><em id="news-count"></em></span>
+      <span class="nl" id="news-preview"><span class="small">Loading…</span></span>
+      <span class="cue">All stories</span>
+    </button>
+
+    <button type="button" class="panel p-crime" data-go="year" data-pick="2">
+      <span class="lbl"><span>Most reported · individuals</span></span>
+      <span class="bars" id="crime-bars"></span>
+      <span class="cue">Breakdown</span>
+    </button>
+
+    <button type="button" class="panel p-tip" data-go="learn">
+      <span class="lbl"><span>Tip of the day</span></span>
+      <span class="ttl" id="tip-text"></span>
+      <span class="cue">More tips</span>
+    </button>
+
+    <button type="button" class="panel p-tools" data-go="tools">
+      <span class="lbl"><span>Tool updates</span></span>
+      <span class="tl" id="tools-preview"><span class="small">Loading…</span></span>
+      <span class="cue">All updates</span>
+    </button>
+
+    <button type="button" class="panel p-wotd" data-go="learn" data-pick="1">
+      <span class="lbl"><span>Word of the day</span></span>
+      <span class="ttl"><b id="wotd-term"></b> <span id="wotd-def"></span></span>
+      <span class="cue">Glossary</span>
+    </button>
+  </div>
+
+  <!-- EXPLORER: list on the left, detail on the right -->
+  <section class="explore" id="explore" hidden aria-labelledby="explore-title">
+    <h2 class="visually-hidden" id="explore-title">Explore</h2>
+    <div class="ex-top">
+      <button type="button" class="back" id="back">Overview</button>
+      <div class="tabs" role="tablist" aria-label="Topics" id="tabs"></div>
+    </div>
+    <div class="split">
+      <div class="list" id="list" role="listbox" aria-label="Items"></div>
+      <article class="pane" id="pane" aria-live="polite"></article>
+    </div>
+  </section>
+</main>
 
 <footer class="site-footer">
-  <span>pseudosec. · Australian Cyber Intelligence · <a href="https://github.com/boenwip/cyber-dashboard" target="_blank" rel="noopener noreferrer">GitHub</a> · <a href="sources.html">Sources &amp; Methodology</a></span>
+  <span>pseudosec. · Australian cyber security, for anyone · <a href="sources.html">Sources &amp; methodology</a> · <a href="https://github.com/boenwip/cyber-dashboard" target="_blank" rel="noopener noreferrer">GitHub</a></span>
   <span id="footer-updated"></span>
 </footer>
 

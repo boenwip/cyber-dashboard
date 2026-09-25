@@ -5,6 +5,26 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-09-25 — redesign and story grouping
+
+### Dashboard — bento overview + split-view explorer
+**Decision:** The dashboard is a grid of panels; each opens an explorer (list left, detail right) at its topic, with tabs across topics, deep links (`#news` etc.) and a View Transitions animation (skipped under reduced motion). Replaces the tracker/feed/sidebar layout.
+**Why:** Owner picked this combination from three prototypes after rejecting the first three visual directions. It shows everything at a glance and gives each item a full view without leaving the page.
+
+### Visual style — soft, modern, not "AI-built"
+**Decision:** Host Grotesk + Spline Sans Mono, soft grey paper, white panels, ink active states, the logo's colours reduced to a butter tint and an orange accent. Removed emoji icons (28 on Resources), "↗" arrows, tiny letter-spaced capitals, hairline borders, accent rails and orange-tinted active pills. Light and dark themes with a header toggle.
+**Why:** Owner feedback that the site looked like many other Claude-built sites; references were Corekit, Podium and Metic. The removed patterns are the common tells of AI-generated design.
+
+### News — one entry per story (AI grouping)
+**Decision:** `scripts/stories.py` asks Claude Haiku 4.5, once per changed run, which articles report the same event; the answer is schema-validated and only groups — no generated text reaches the site. Cached on the `data` branch; falls back to a strict headline match that never pairs same-outlet items.
+**Why:** The Medicare/OpenAI incident appeared six times. Word-matching experiments either missed duplicates or merged unrelated stories (Salesbleed with an AI-chatbot campaign); a language model separates "same event" from "same topic". Owner approved the cost (~$0.004 per call, a few dollars a month at most) on the existing API key, billed separately from any Claude subscription. The Sources page discloses it.
+
+### Pipeline — ACSC unreachable from GitHub
+**Decision:** Direct ACSC feeds get one 20s attempt; on failure a Google News search of ACSC's alerts section is used, with no threat level (Google drops the prefix). The celebrity title filter no longer blocks "actor".
+**Why:** GitHub runs showed cyber.gov.au timing out every time, so no ACSC item had ever reached the live site; "threat actor" headlines (including an ACSC advisory) were being dropped. Restoring severities from GitHub would need a relay outside GitHub — not built.
+
+---
+
 ## Session: 2026-09-25 — AI Guide made tool-agnostic
 
 ### AI Guide — general prompts only

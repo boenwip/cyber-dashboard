@@ -113,7 +113,7 @@ Then work through the human lenses.
 **Spacing and layout**
 - [ ] Consistent horizontal padding throughout (40px desktop, 20px mobile)
 - [ ] Nothing feels edge-to-edge or cramped
-- [ ] The sidebar has enough width for tool titles to display without truncating
+- [ ] Bento panels and explorer work at 1300px, 960px and phone width
 - [ ] The CVE panel scrolls cleanly with max-height respected
 
 **Interaction design**
@@ -124,8 +124,8 @@ Then work through the human lenses.
 
 **Typography**
 - [ ] Body text is readable at current size (no smaller than 13px for secondary text)
-- [ ] Monospace font (Hack) used only for technical content — CVE IDs, timestamps, stats
-- [ ] Inter used consistently for all body text, headings, and UI labels
+- [ ] Spline Sans Mono only for small technical data (dates, IDs); Host Grotesk for everything else
+- [ ] No emoji icons, tiny letter-spaced capitals, hairline borders or accent rails
 - [ ] Text tokens meet WCAG AA 4.5:1 on every surface (audit checks)
 
 **Empty and loading states**
@@ -135,8 +135,7 @@ Then work through the human lenses.
 - [ ] The "Today's Story" card stays hidden if no featured article is available
 
 **Cross-theme**
-- [ ] Dark theme: yellow accent (`#f8ce2a`) on warm near-black (`#0f0d0b`)
-- [ ] Light theme: amber (`#c85200`) on warm parchment (`#f4f1eb`)
+- [ ] Light and dark themes both checked; the header toggle switches and remembers
 - [ ] All text meets contrast ratios in both themes
 - [ ] Theme preference persists across page navigation
 

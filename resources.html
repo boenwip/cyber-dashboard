@@ -21,18 +21,18 @@
 <body>
 
 <header class="site-header">
-  <nav class="site-nav" aria-label="Main navigation">
-    <a href="index.html"     class="nav-link">Dashboard</a>
-    <a href="reference.html" class="nav-link">Reference</a>
-    <a href="resources.html" class="nav-link nav-link--active">Resources</a>
-    <a href="ai-guide.html"  class="nav-link">AI Guide</a>
-  </nav>
   <a href="index.html" class="site-logo" aria-label="pseudosec. home">
-    <img src="assets/pseudosec.png" alt="pseudosec.">
+    <img src="assets/pseudosec.png" alt="pseudosec." width="74" height="34">
   </a>
+  <nav class="site-nav" aria-label="Main navigation">
+    <a href="index.html" class="nav-link">Dashboard</a>
+    <a href="reference.html" class="nav-link">Reference</a>
+    <a href="resources.html" class="nav-link nav-link--active" aria-current="page">Resources</a>
+    <a href="ai-guide.html" class="nav-link">AI Guide</a>
+  </nav>
   <div class="hdr-right">
-    <button class="theme-btn" id="theme-btn" title="Toggle light/dark mode" aria-label="Toggle colour theme">☀</button>
-    <button class="nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false">&#9776;</button>
+    <button type="button" class="icon-btn theme-btn" id="theme-btn" aria-label="Switch theme"><svg class="i-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2.5v2M12 19.5v2M4.6 4.6l1.4 1.4M18 18l1.4 1.4M2.5 12h2M19.5 12h2M4.6 19.4 6 18M18 6l1.4-1.4"/></svg><svg class="i-moon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z"/></svg></button>
+    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
   </div>
 </header>
 
@@ -46,7 +46,7 @@
   <section class="res-section" id="breach-checker">
     <h2 class="res-section-title">Has your email been in a data breach?</h2>
     <p class="res-section-sub">HaveIBeenPwned, run by Australian security researcher Troy Hunt, checks your email address against billions of leaked records. It's free and takes ten seconds. The check happens on their site, so your email is never sent to pseudosec.</p>
-    <a class="hibp-cta" href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer">Check on haveibeenpwned.com ↗</a>
+    <a class="hibp-cta" href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer">Check on haveibeenpwned.com</a>
     <p class="hibp-next">If you're in a breach: change that password (and anywhere you reused it), turn on multi-factor authentication, and be extra wary of emails that mention the breached service.</p>
   </section>
 
@@ -55,34 +55,29 @@
     <h2 class="res-section-title">Report a Scam or Cyber Incident</h2>
     <div class="res-grid res-grid--2">
       <a href="https://www.cyber.gov.au/report" target="_blank" rel="noopener noreferrer" class="res-card res-card--action">
-        <div class="res-card-icon">🛡</div>
         <div class="res-card-name">ACSC Report a Cyber Incident</div>
         <div class="res-card-desc">Australian Signals Directorate's reporting portal for cyber incidents affecting Australian organisations or individuals.</div>
-        <div class="res-card-link">cyber.gov.au/report ↗</div>
+        <div class="res-card-link">cyber.gov.au/report</div>
       </a>
       <a href="https://www.scamwatch.gov.au/report-a-scam" target="_blank" rel="noopener noreferrer" class="res-card res-card--action">
-        <div class="res-card-icon">⚠</div>
         <div class="res-card-name">ScamWatch — Report a Scam</div>
         <div class="res-card-desc">ACCC's ScamWatch collects reports from Australians. Your report helps protect others and informs national scam statistics.</div>
-        <div class="res-card-link">scamwatch.gov.au ↗</div>
+        <div class="res-card-link">scamwatch.gov.au</div>
       </a>
       <a href="https://www.idcare.org" target="_blank" rel="noopener noreferrer" class="res-card res-card--action">
-        <div class="res-card-icon">🪪</div>
         <div class="res-card-name">IDCARE — Identity Theft Support</div>
         <div class="res-card-desc">Australia and New Zealand's national identity & cyber support service. Free case managers help you respond to identity theft.</div>
-        <div class="res-card-link">idcare.org · 1800 595 160 ↗</div>
+        <div class="res-card-link">idcare.org · 1800 595 160</div>
       </a>
       <a href="tel:1300292371" class="res-card res-card--action">
-        <div class="res-card-icon">📞</div>
         <div class="res-card-name">ACSC Cyber Security Hotline</div>
         <div class="res-card-desc">24/7 hotline for Australians needing cyber security assistance. Free, confidential, government-run.</div>
         <div class="res-card-link">1300 CYBER1 (1300 292 371)</div>
       </a>
       <a href="https://www.accc.gov.au/consumers/consumer-protection/scams/national-anti-scam-centre" target="_blank" rel="noopener noreferrer" class="res-card res-card--action">
-        <div class="res-card-icon">🚨</div>
         <div class="res-card-name">National Anti-Scam Centre</div>
         <div class="res-card-desc">Launched in 2023, the NASC disrupts scam operations and coordinates responses across government and industry. Part of the ACCC — your report directly feeds national disruption efforts.</div>
-        <div class="res-card-link">accc.gov.au/nasc ↗</div>
+        <div class="res-card-link">accc.gov.au/nasc</div>
       </a>
     </div>
   </section>
@@ -92,37 +87,31 @@
     <h2 class="res-section-title">Learn</h2>
     <div class="res-grid res-grid--3">
       <a href="https://www.cyber.gov.au/learn-and-engage" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🇦🇺</div>
         <div class="res-card-name">ACSC Learn &amp; Engage</div>
         <div class="res-card-desc">Official Australian government cyber security guidance — for individuals, small businesses and large organisations.</div>
         <div class="res-card-tag">Australian Government</div>
       </a>
       <a href="https://www.cyberwarden.com.au" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🛡</div>
         <div class="res-card-name">Cyber Warden</div>
         <div class="res-card-desc">Free online training for Australian small business owners and their staff. Practical, no jargon, takes about 40 minutes.</div>
         <div class="res-card-tag">Free · Australian</div>
       </a>
       <a href="https://www.youtube.com/@NetworkChuck" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">▶</div>
         <div class="res-card-name">NetworkChuck</div>
         <div class="res-card-desc">High-energy YouTube channel covering networking and cyber security fundamentals. Excellent for visual learners starting out.</div>
         <div class="res-card-tag">YouTube · Beginner friendly</div>
       </a>
       <a href="https://www.youtube.com/@davidbombal" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">▶</div>
         <div class="res-card-name">David Bombal</div>
         <div class="res-card-desc">Deep technical content on ethical hacking, networking, and security certifications. Interviews with leading security researchers.</div>
         <div class="res-card-tag">YouTube · Intermediate</div>
       </a>
       <a href="https://www.youtube.com/@_JohnHammond" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">▶</div>
         <div class="res-card-name">John Hammond</div>
         <div class="res-card-desc">CTF walkthroughs, malware analysis, and real-world security research explained accessibly. Excellent for learning practical skills.</div>
         <div class="res-card-tag">YouTube · Practical</div>
       </a>
       <a href="https://risky.biz" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🎙</div>
         <div class="res-card-name">Risky Business Podcast</div>
         <div class="res-card-desc">Australian-run security podcast hosted by Patrick Gray. Weekly news and interviews — considered essential listening by practitioners globally.</div>
         <div class="res-card-tag">Podcast · Australian</div>
@@ -135,37 +124,31 @@
     <h2 class="res-section-title">Security Tools</h2>
     <div class="res-grid res-grid--3">
       <a href="https://haveibeenpwned.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🔍</div>
         <div class="res-card-name">HaveIBeenPwned</div>
         <div class="res-card-desc">Check if your email or phone number has appeared in a data breach. Free, run by Australian Troy Hunt (QLD). Trusted globally.</div>
         <div class="res-card-tag">Free · Australian-run</div>
       </a>
       <a href="https://www.virustotal.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🔬</div>
         <div class="res-card-name">VirusTotal</div>
         <div class="res-card-desc">Analyse suspicious files, URLs, and email attachments using 70+ antivirus engines simultaneously. Free for basic use.</div>
         <div class="res-card-tag">Free</div>
       </a>
       <a href="https://osintframework.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🕵</div>
         <div class="res-card-name">OSINT Framework</div>
         <div class="res-card-desc">Interactive map of open-source intelligence tools. Useful for understanding what information about you or your organisation is publicly visible.</div>
         <div class="res-card-tag">Free</div>
       </a>
       <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">📋</div>
         <div class="res-card-name">CISA KEV Catalog</div>
         <div class="res-card-desc">CISA's Known Exploited Vulnerabilities catalog — the definitive list of vulnerabilities being actively used in attacks right now.</div>
         <div class="res-card-tag">Free · Authoritative</div>
       </a>
       <a href="https://www.shodan.io" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🌐</div>
         <div class="res-card-name">Shodan</div>
         <div class="res-card-desc">Search engine for internet-connected devices. Security professionals use it to understand what their organisation exposes to the internet.</div>
         <div class="res-card-tag">Free basic · Intermediate</div>
       </a>
       <a href="https://mxtoolbox.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">📧</div>
         <div class="res-card-name">MXToolbox</div>
         <div class="res-card-desc">Check email security configuration — SPF, DKIM, DMARC. Find out if your domain is properly protected against email spoofing.</div>
         <div class="res-card-tag">Free</div>
@@ -179,37 +162,31 @@
     <p class="res-section-sub">Hands-on platforms for building real cyber security skills — from complete beginners to advanced practitioners. CTF (Capture the Flag) challenges let you practice in legal, safe environments.</p>
     <div class="res-grid res-grid--3">
       <a href="https://tryhackme.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🚩</div>
         <div class="res-card-name">TryHackMe</div>
         <div class="res-card-desc">Browser-based labs covering pentesting, blue teaming, and security fundamentals. Guided learning paths — great for beginners. No setup required.</div>
         <div class="res-card-tag">Free tier · Beginner friendly</div>
       </a>
       <a href="https://www.hackthebox.com" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">💻</div>
         <div class="res-card-name">Hack The Box</div>
         <div class="res-card-desc">Industry-standard practice platform with realistic machines, Sherlocks (blue team investigations), and enterprise training tracks.</div>
         <div class="res-card-tag">Free tier · Intermediate–Advanced</div>
       </a>
       <a href="https://picoctf.org" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🎓</div>
         <div class="res-card-name">picoCTF</div>
         <div class="res-card-desc">Beginner-friendly CTF platform from Carnegie Mellon University. Covers cryptography, forensics, web, and binary exploitation. Fully free.</div>
         <div class="res-card-tag">Free · Beginner</div>
       </a>
       <a href="https://ctftime.org" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🗓</div>
         <div class="res-card-name">CTFtime</div>
         <div class="res-card-desc">Global calendar of upcoming CTF competitions. Find events by difficulty and format — a good way to practise against real challenges with a team.</div>
         <div class="res-card-tag">Free · All levels</div>
       </a>
       <a href="https://cyberdefenders.org" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🔵</div>
         <div class="res-card-name">CyberDefenders</div>
         <div class="res-card-desc">Blue team focused labs: incident response, threat hunting, malware analysis, and SIEM investigations. Realistic SOC analyst scenarios.</div>
         <div class="res-card-tag">Free tier · Blue team · Intermediate</div>
       </a>
       <a href="https://www.malware-traffic-analysis.net" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🦠</div>
         <div class="res-card-name">Malware Traffic Analysis</div>
         <div class="res-card-desc">Free archive of real-world packet captures (PCAPs) for Wireshark practice. Used by security analysts to study malware behaviour and C2 traffic patterns.</div>
         <div class="res-card-tag">Free · Wireshark · Network analysis</div>
@@ -222,27 +199,22 @@
     <h2 class="res-section-title">Australian Organisations</h2>
     <div class="res-grid res-grid--3">
       <a href="https://www.cyber.gov.au" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🇦🇺</div>
         <div class="res-card-name">Australian Signals Directorate (ACSC)</div>
         <div class="res-card-desc">Australia's national cyber security authority. Advisories, guidance, incident reporting, and the Essential Eight framework.</div>
       </a>
       <a href="https://www.oaic.gov.au" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🔐</div>
         <div class="res-card-name">Office of the Australian Information Commissioner</div>
         <div class="res-card-desc">Oversight of Australia's Privacy Act and Notifiable Data Breaches scheme. Report and check breach notifications here.</div>
       </a>
       <a href="https://www.accc.gov.au/consumers/consumer-protection/scams" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">⚖</div>
         <div class="res-card-name">ACCC — Scams &amp; Fraud</div>
         <div class="res-card-desc">Australia's consumer watchdog. Tracks scam trends, publishes Scamwatch data, and takes enforcement action against operators.</div>
       </a>
       <a href="https://www.esafety.gov.au" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">🛡</div>
         <div class="res-card-name">eSafety Commissioner</div>
         <div class="res-card-desc">Australia's independent regulator for online safety. Handles complaints about cyberbullying, image-based abuse, and illegal online content. Provides support resources for individuals and educators.</div>
       </a>
       <a href="https://www.cyber.gov.au/resources-business-and-government/essential-cyber-security/essential-eight" target="_blank" rel="noopener noreferrer" class="res-card">
-        <div class="res-card-icon">8️⃣</div>
         <div class="res-card-name">Essential Eight Maturity Model</div>
         <div class="res-card-desc">ASD's framework for prioritising cyber security controls. Includes maturity level guidance and assessment tools for Australian businesses and government agencies.</div>
       </a>

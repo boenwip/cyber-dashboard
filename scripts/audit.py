@@ -150,7 +150,7 @@ def contrast(a, b):
     return (la + 0.05) / (lb + 0.05)
 
 
-for theme, pattern in (("dark", r':root, :root\[data-theme="dark"\]'), ("light", r':root\[data-theme="light"\]')):
+for theme, pattern in (("light", r':root, :root\[data-theme="light"\]'), ("dark", r':root\[data-theme="dark"\]')):
     tok = theme_tokens(pattern)
     for text in ("text", "text-2", "text-3", "text-4"):
         for surface in ("bg", "surface", "surface2"):

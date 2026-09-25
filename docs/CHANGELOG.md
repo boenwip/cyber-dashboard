@@ -20,6 +20,9 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 - Broken tool icons (3 of 6 returned 404) replaced
 
 **Added**
+- New dashboard: bento overview whose panels open a split-view explorer; light/dark toggle; new soft visual style across all pages
+- One entry per story: coverage of the same event grouped by AI (Claude Haiku), with the other outlets listed
+- ACSC items via a Google News fallback when cyber.gov.au is unreachable from GitHub
 - ACSC Critical/High alert banner; CISA fix-by dates on CVEs
 - Theme follows the OS setting until chosen; no theme flash on load
 - Pipeline tests, a rewritten audit, and a CI workflow
