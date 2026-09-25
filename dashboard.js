@@ -169,13 +169,18 @@ function storyView(s) {
     '<h2>' + esc(headline(s.title, s.source)) + '</h2>' +
     '<div class="meta"><span>' + esc(sourceName(s.source)) + '</span><span>' + esc(formatDate(s.date, true)) + '</span>' +
       (cov.length ? '<span>Covered by ' + (cov.length + 1) + ' outlets</span>' : '') + '</div>' +
-    (s.summary && s.summary.length > 60 ? '<p class="body">' + esc(s.summary) + '</p>' : '') +
+    (hasSummary(s) ? '<p class="body">' + esc(s.summary) + '</p>' : '') +
     linkButton(s.link, 'Read on ' + sourceName(s.source)) +
     (cov.length ? '<div class="coverage"><h3>Also covered by</h3>' + cov.map(function (c) {
       var href = safeUrl(c.link);
       var inner = esc(headline(c.title, c.source)) + '<span>' + esc(sourceName(c.source)) + ' · ' + esc(formatDate(c.date)) + '</span>';
       return href ? '<a href="' + href + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>' : '<div>' + inner + '</div>';
     }).join('') + '</div>' : '');
+}
+
+// Google News "summaries" only repeat the headline and publisher, so they're not shown.
+function hasSummary(s) {
+  return !!s.summary && s.summary.length > 60 && !/Google News/i.test(s.source || '');
 }
 
 function storyItem(s) {
