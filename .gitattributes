@@ -1,0 +1,4 @@
+# Keep line endings LF everywhere (the repo is LF; stops CRLF warnings on Windows checkouts)
+* text=auto eol=lf
+*.png binary
+*.woff2 binary
