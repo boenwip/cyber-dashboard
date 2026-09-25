@@ -164,3 +164,28 @@ def test_threat_actor_headlines_are_not_blocked():
     assert a is not None
     b = f.build_article(DIRECT, entry("Threat actor abuses iCloud calendars to spread malware"))
     assert b is not None
+
+
+# ── Whole pipeline (offline) ───────────────────────────────
+
+def test_main_runs_end_to_end_with_fallback_acsc_items(tmp_path, monkeypatch):
+    """Guards the summary/printing code at the end of main(), which crashed once on
+    ACSC fallback items that have no threat level."""
+    import json
+    (tmp_path / "data").mkdir()
+    monkeypatch.chdir(tmp_path)
+    monkeypatch.delenv("ANTHROPIC_API_KEY", raising=False)
+    now = f.now_iso()
+
+    def fake_fetch(url, timeout=10, retries=0):
+        if "cyber.gov.au/rss" in url:
+            return feedparser.FeedParserDict({"entries": []})          # direct ACSC unreachable
+        if url == f.ACSC_FALLBACK_FEED["url"]:
+            return feedparser.FeedParserDict({"entries": [entry("Risks of AI misalignment - Cyber.gov.au", published=now)]})
+        return feedparser.FeedParserDict({"entries": [entry("Ransomware hits a hospital", "ransomware attack", published=now)]})
+
+    monkeypatch.setattr(f, "fetch_feed", fake_fetch)
+    monkeypatch.setattr(f, "fetch_cves", lambda: [])
+    f.main()
+    news = json.load(open("data/news.json", encoding="utf-8"))["items"]
+    assert any(n.get("official") and "threat" not in n for n in news)

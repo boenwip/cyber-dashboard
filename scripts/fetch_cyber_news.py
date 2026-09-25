@@ -136,15 +136,13 @@ NEWS_FEEDS = [
         "name": "ACSC Alerts",
         "url": "https://www.cyber.gov.au/rss/alerts",
         "official": True,
-        "timeout": 30,
-        "retries": 1,
+        "timeout": 20,
     },
     {
         "name": "ACSC Advisories",
         "url": "https://www.cyber.gov.au/rss/advisories",
         "official": True,
-        "timeout": 30,
-        "retries": 1,
+        "timeout": 20,
     },
     {
         "name": "Google News — ScamWatch",
@@ -765,7 +763,7 @@ def print_breakdown(label, values, order=None):
         print(f"  {key}: {counts.get(key, 0)} articles")
 
 
-if __name__ == "__main__":
+def main():
     print("\n=== Fetching news feeds (Zone 1) ===")
     articles = fetch_news()
 
@@ -787,6 +785,10 @@ if __name__ == "__main__":
         save_json({"featured": featured}, "data/briefing.json")
 
     print_breakdown("Tag breakdown", [t for a in news for t in a["tags"]])
-    print_breakdown("Official threat levels", [a["threat"] for a in news if a.get("official")],
-                    ["Critical", "High", "Medium", "Low", "Advisory"])
+    print_breakdown("Official threat levels", [a.get("threat", "Not stated") for a in news if a.get("official")],
+                    ["Critical", "High", "Medium", "Low", "Advisory", "Not stated"])
     print("\nDone!")
+
+
+if __name__ == "__main__":
+    main()
