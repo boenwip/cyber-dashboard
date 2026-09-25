@@ -1,19 +1,25 @@
 # pseudosec. — Content Integrity Report
 
 Overwritten by the Content Integrity Agent on each run; past runs are in this file's git history.
-The previous append-only log (to 2026-09-24) is in git history as `docs/CONTENT_INTEGRITY_LOG.md` (last version: commit `c985a91`).
 
-## 2026-09-25 — handover after the full site review
+## 2026-09-25 (evening) — routine content check
+
+**Data snapshot reviewed:** `origin/data` commit `ed48349`, 2026-09-25 10:33:52 UTC (20:33 AEST) — same-day, current.
 
 **Needs attention**
-1. **Agent web access.** WebFetch/curl to external sites has been blocked in this agent's environment since 2026-08-18, so paywall and dead-source checks can only be approximated with WebSearch. Needs a decision on the routine's environment network settings.
 
-**Resolved on 2026-09-25 (don't re-flag)**
-- iTnews missing from the feed — blocklist matched `news.com.au` inside `itnews.com.au`; now matched by hostname.
-- Keyword-guessed threat badges (e.g. "Risky Business" → Medium, product launches → Critical) — only official ACSC items carry a threat level now, from ACSC's own title.
-- ACSC alerts silently dropped by the topic filter — official feeds are always included.
-- Glossary: Business Email Compromise figure, Patch timeframes, SolarWinds scale, brute-force "billions of years", Apache version (2.4.49) — corrected.
-- OWASP A01 "five editions", A08 name/scope, A09 detection time (IBM 2025: 181 days); LLM03 name; Essential Eight user-application hardening (no Flash) — corrected.
-- Tracker stats checked against the ASD 2024–25 report PDF: individual average is $33,000 (↑8%); $36,633 is the overall average. Crime chart now shows the report's top-3 types for individuals and businesses.
-- AI-generated briefing removed from the pipeline; no AI-written text remains on the site.
-- Audience is anyone (RTO/VET targeting removed). Live data now lives on the `data` branch, not `main`.
+1. **Grouping error: ACSC "AI misalignment" advisory paired with the wrong article; its real match left as an orphan duplicate.** `groups.json` group 2 merges ACSC's advisory *"Risks of AI misalignment to Australian organisations"* with Australian Cyber Security Magazine's *"OpenAI agent contacted four Australian government websites as Canberra launches security review"* — a follow-up to the separate Medicare/OpenAI breach story (group 1), not a report of the AI‑misalignment advisory. Meanwhile Australian Cyber Security Magazine's actual matching piece, *"ACSC warns Australian organisations about risks of AI misalignment"* (news.json item 3), sits ungrouped as its own one-outlet "story" — it should have been grouped with the ACSC advisory instead. Net effect: one story merges two different developments, and the correct pairing is missing from the feed as a near-duplicate. Method this run was `ai` (spend $0.0038, well under the $2 flag threshold), so this wasn't a cap fallback — worth a look at whether the "security review" follow-up is confusing the grouping model when it shares OpenAI/ACSC keywords with the advisory.
+2. **Topic-tag miss: security-risk story tagged only "AI & Tools", not "AU Cyber".** Dark Reading's *"More Than a Third of Industrial Orgs See Cybersecurity Risk as a Top Obstacle to Growth, Study Finds"* (news.json) is fundamentally about cybersecurity investment/risk, but only matched the "AI & Tools" keyword list ("ai adoption") — none of the "AU Cyber" tag's keywords (which require phrases like "cyber attack", "security incident") cover generic terms like "cybersecurity risk". It won't surface under the site's general cyber-security topic. Low-stakes but a real keyword-matching gap `scripts/fetch_cyber_news.py:274-295`.
+3. **Low-value/off-topic item in the current feed.** 404 Media's *"People Training OpenAI's AI Fired for Using AI to Train the AI"* has no security content at all — it's an AI-industry labour curiosity story. Marginal fit for a cyber security dashboard; candidate for tightening the AI & Tools feed criteria if this becomes a pattern.
+4. **Agent web access still blocked (carried forward, open since 2026-08-18 — now ~5.5 weeks).** WebFetch to news-source domains (tested `itnews.com.au`, `darkreading.com` this run) returns `EGRESS_BLOCKED` from the network egress proxy. Paywall/dead-link checks are still WebSearch-only approximations, not direct observation. Still needs an owner decision on this environment's network policy.
+
+**Resolved (don't re-flag)**
+- Everything listed as resolved in the 2026-09-25 (earlier) report — iTnews blocklist, keyword-guessed threat badges, dropped ACSC alerts, glossary/OWASP/Essential Eight corrections, tracker figures, AI briefing removal, audience/branch changes — all still holding on this snapshot; no regressions found.
+
+**Checked this run**
+1. **Grouping sanity** — reviewed all 4 `groups.json` entries against the merge/lead rules. 3 of 4 correct (right lead by reputation, no same-outlet pairs, genuinely same event); 1 mis-paired (finding #1 above). Spend $0.0038/month, method `ai` — normal.
+2. **Live data sanity** — snapshot is same-day (20:33 AEST). No ACSC item in this snapshot carries a threat-level prefix, so the prefix→level mapping couldn't be re-tested live this run (nothing to check against). Featured story (Medicare/OpenAI breach, 4 sources) is real and relevant. Scanned all 43 news items' sources — none from News Corp/Nine/Seven West Media or other blocked hostnames.
+3. **Value and readability** — sampled 8 current articles; found one low-relevance item (finding #3) and one tag miss (finding #2); the rest (QR-code subdomain hijacking, EvilTokens phishing takedown, DPRK job-scam warning, industrial cyber-risk study, fraud-email automation piece) read as accurate, on-topic and usable by both lay readers and professionals.
+4. **Reference accuracy** — spot-checked OWASP API Top 10 (API1, API2, API3, API4, API5, API10 names/order) against owasp.org via search — all correct. Cross-checked `data/annual_report.json` against the ASD 2024–25 report via search: $80,850 avg business cost (↑50%), 1,200+ incidents (↑11%), 42,500+ hotline calls (↑16%), 334M malicious domains blocked (↑307%), and the individual crime-type breakdown (identity fraud 30%, online shopping 13%, online banking 10%) all matched published figures exactly.
+5. **AI Guide safety** — confirmed all four `AU_HELP` contacts in `ai-guide.js` (ReportCyber, Scamwatch, IDCARE 1800 595 160, Australian Cyber Security Hotline 1300 292 371) are current via search. Spot-checked 3 prompts (MFA/passkeys, public Wi-Fi, strong passwords) — the passphrase guidance ("four or more random words, 15+ characters") still matches current ACSC advice; the other two delegate to the model for up-to-date specifics rather than hard-coding anything that could go stale — no issues found.
+6. **Source health** — WebFetch to news-source domains is still blocked (see finding #4), so checked via WebSearch instead: `securitybrief.com.au` and `404media.co` both return current (September 2026) articles with resolvable links; no paywall observed. Not enough to justify removing any source this run.
