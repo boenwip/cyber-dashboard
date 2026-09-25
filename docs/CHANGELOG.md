@@ -23,9 +23,11 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 - ACSC Critical/High alert banner; CISA fix-by dates on CVEs
 - Theme follows the OS setting until chosen; no theme flash on load
 - Pipeline tests, a rewritten audit, and a CI workflow
+- AI Guide: 47 tool-agnostic prompts rewritten for safety and accuracy, plus a "Writing your own prompt" guide
 - `data/annual_report.json`: single source for all ASD report figures, plus a daily watcher that opens an issue when the next report is published
 
 **Removed**
+- AI Guide tool filter, per-tool cards and Zoom/Copilot/Canva-specific prompts
 - RTO/VET, EdTech and Education targeting (site is for anyone); unused audience/relevance fields
 - Unused AI briefing generation (and the API key), weather widget, non-working breach checker, threat-intel toggle, reading time, robots.txt (ignored under a sub-path)
 

@@ -39,77 +39,23 @@
 <div class="page-wrap">
   <div class="page-hero">
     <h1 class="page-hero-title">AI <em>Guide</em></h1>
-    <p class="page-hero-sub">Ready-to-use prompts for everyday situations — staying safe, getting work done, and making sense of things. Copy, adapt, paste. No technical knowledge needed.</p>
+    <p class="page-hero-sub">Ready-to-use prompts for everyday situations — staying safe, getting work done, and making sense of things. They work in any AI chat tool. Copy, fill in the [brackets], paste.</p>
     <div class="ag-audience-toggle" id="audience-toggle" role="group" aria-label="Audience">
       <button class="ag-audience-btn ag-audience-btn--active" data-audience="all">Everyone</button>
       <button class="ag-audience-btn" data-audience="pro">Security &amp; IT</button>
     </div>
   </div>
 
-  <!-- ── TOOL SELECTOR ── -->
-  <section class="ag-section" id="tools">
-    <h2 class="ag-section-title">Which tool are you using?</h2>
-    <p class="ag-section-sub">Select your AI tool to filter prompts written for it. Most prompts work in any tool — pick one to see what's tailored, or leave on <em>All tools</em> to see everything.</p>
-    <div class="ag-tool-filter" id="tool-filter-bar"></div>
-    <div class="ag-tool-safety-badge" id="tool-safety-badge" hidden></div>
-
-    <p class="ag-tools-note">Whether your chats train the AI depends on your <strong>plan</strong>, not just the tool. Work plans generally keep your data out of training; personal plans often don’t unless you change a setting. Summary checked September 2026 — vendors change these policies, so confirm in your own settings.</p>
-    <div class="ag-tools-grid">
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Claude (Anthropic)</div>
-        <div class="ag-tool-desc">Strong at long documents, analysis, coding, and nuanced writing.</div>
-        <div class="ag-tool-safe">🟢 Team, Enterprise &amp; API: not used to train models</div>
-        <div class="ag-tool-safe">🟡 Free, Pro &amp; Max: used for training while “Help improve Claude” is on — check Settings → Privacy</div>
-        <a class="ag-tool-policy" href="https://privacy.claude.com/en/articles/10023580-is-my-data-used-for-model-training" target="_blank" rel="noopener noreferrer">Anthropic: is my data used for training? ↗</a>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">ChatGPT (OpenAI)</div>
-        <div class="ag-tool-desc">The most widely used AI tool.</div>
-        <div class="ag-tool-safe">🟢 Business, Enterprise &amp; Edu: not used to train models by default</div>
-        <div class="ag-tool-safe">🟡 Free, Plus &amp; Pro: used for training unless you turn off “Improve the model for everyone” in Data Controls</div>
-        <a class="ag-tool-policy" href="https://help.openai.com/en/articles/7730893-data-controls-faq" target="_blank" rel="noopener noreferrer">OpenAI: data controls FAQ ↗</a>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Microsoft Copilot</div>
-        <div class="ag-tool-desc">Built into Microsoft 365 — Word, Excel, Outlook and Teams.</div>
-        <div class="ag-tool-safe">🟢 Microsoft 365 Copilot with a work account: enterprise data protection, not used to train models</div>
-        <div class="ag-tool-safe">🟡 Personal Copilot app: check the model-training setting in Copilot’s privacy settings</div>
-        <a class="ag-tool-policy" href="https://learn.microsoft.com/en-us/copilot/microsoft-365/enterprise-data-protection" target="_blank" rel="noopener noreferrer">Microsoft: enterprise data protection ↗</a>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Google Gemini</div>
-        <div class="ag-tool-desc">Built into Google Workspace — Gmail, Docs and Drive.</div>
-        <div class="ag-tool-safe">🟢 Workspace business &amp; education accounts: not used to train models or reviewed by people</div>
-        <div class="ag-tool-safe">🟡 Personal Google accounts: with Gemini activity on, chats can be reviewed and used to improve Google’s AI</div>
-        <a class="ag-tool-policy" href="https://support.google.com/gemini/answer/13594961" target="_blank" rel="noopener noreferrer">Google: Gemini Apps privacy hub ↗</a>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Canva AI Features</div>
-        <div class="ag-tool-desc">Magic Write, AI image generation, and design tools.</div>
-        <div class="ag-tool-safe">🟡 Good for public-facing design work — keep client and personal information out</div>
-        <div class="ag-tool-safe">🟡 Check whether your content can be used for AI training in Canva’s privacy settings</div>
-        <a class="ag-tool-policy" href="https://www.canva.com/policies/privacy-policy/" target="_blank" rel="noopener noreferrer">Canva: privacy policy ↗</a>
-      </div>
-      <div class="ag-tool-card">
-        <div class="ag-tool-name">Zoom AI Companion</div>
-        <div class="ag-tool-desc">Summarises meetings and generates action items. Your Zoom admin must enable it.</div>
-        <div class="ag-tool-safe">🟢 Zoom says it doesn’t use your meeting audio, video, chat or files to train AI models</div>
-        <div class="ag-tool-safe">🟡 Summaries are shared with participants — agree when it’s on before discussing anything sensitive</div>
-        <a class="ag-tool-policy" href="https://www.zoom.com/en/trust/privacy/" target="_blank" rel="noopener noreferrer">Zoom: privacy ↗</a>
-      </div>
-    </div>
-  </section>
-
   <!-- ── SAFETY FIRST ── -->
   <section class="ag-section" id="safety">
     <h2 class="ag-section-title">What not to share with AI</h2>
-    <p class="ag-section-sub">AI tools send your input to external servers. Unless your organisation is on an enterprise-licensed, data-isolated plan, treat what you type like a public forum.</p>
+    <p class="ag-section-sub">What you type is sent to the AI provider's servers. Whether it can also be used to train their AI depends on your <strong>plan</strong>, not just the tool: work and business plans generally keep your data out of training, while free and personal plans often use it unless you switch off a setting (usually called something like "improve the model"). Check your settings — and unless your organisation has approved the tool for work data, treat what you type like a public forum.</p>
     <div class="ag-rules">
       <div class="ag-rule ag-rule--never">
         <span class="ag-rule-icon">✕</span>
         <div>
           <div class="ag-rule-title">Never enter client or personal information</div>
-          <div class="ag-rule-desc">Names, contact details, health records, Tax File Numbers, student or enrolment data — all protected under the Privacy Act and your organisation's obligations.</div>
+          <div class="ag-rule-desc">Names, contact details, health records, Tax File Numbers, customer records — protected under the Privacy Act and your organisation's obligations. Replace real details with placeholders like [NAME].</div>
         </div>
       </div>
       <div class="ag-rule ag-rule--never">
@@ -143,10 +89,23 @@
     </div>
   </section>
 
+  <!-- ── WRITE YOUR OWN ── -->
+  <section class="ag-section" id="how-to">
+    <h2 class="ag-section-title">Writing your own prompt</h2>
+    <p class="ag-section-sub">Every prompt below follows the same pattern. Use it for anything that isn't in the library.</p>
+    <ol class="ag-howto">
+      <li><strong>Set the scene.</strong> Who you are, what's happening, and who the result is for.</li>
+      <li><strong>Give it the facts.</strong> Paste the email, notes or text you're working from. AI can't know your situation, so without facts it fills gaps with plausible guesses.</li>
+      <li><strong>Say what you want back.</strong> Format, length and tone — e.g. "3 bullet points, under 150 words, friendly".</li>
+      <li><strong>Ask it to be honest.</strong> "Ask me questions if you need more detail" and "say if you're unsure" get better answers than letting it guess.</li>
+      <li><strong>Check before you rely on it.</strong> AI can be confidently wrong — verify facts, figures, phone numbers and anything legal, medical or financial with an official source.</li>
+    </ol>
+  </section>
+
   <!-- ── PROMPT LIBRARY ── -->
   <section class="ag-section" id="prompts">
     <h2 class="ag-section-title">Prompt Library</h2>
-    <p class="ag-section-sub">Copy any prompt and adapt it. Replace anything in [brackets] with your details. None of these require sharing sensitive information.</p>
+    <p class="ag-section-sub">Copy any prompt and replace the [brackets] with your details. None of them need sensitive information — where a prompt asks you to paste something, it says what to remove first.</p>
     <div class="ag-categories" id="cat-filter-bar"></div>
     <div class="ag-prompt-grid" id="prompt-grid"></div>
   </section>
@@ -155,7 +114,7 @@
 
 <footer class="site-footer">
   <span>pseudosec. · Australian Cyber Intelligence · <a href="sources.html">Sources &amp; Methodology</a></span>
-  <span>AI tool privacy summary checked September 2026</span>
+  <span>Prompts reviewed September 2026</span>
 </footer>
 
 <script src="shared.js"></script>

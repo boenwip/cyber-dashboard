@@ -5,7 +5,16 @@ Format: decision → why. Newest first within each session.
 
 ---
 
-## Session: 2026-09-25 — full review (security, UI, accuracy)
+## Session: 2026-09-25 — AI Guide made tool-agnostic
+
+### AI Guide — general prompts only
+**Decision:** Removed the tool selector, per-tool privacy cards and safety badge, and the Zoom/Word/Excel/Canva prompts (their useful ideas became general prompts: first draft, find patterns in data, plan a flyer/post; the Zoom summary merged into minutes). Per-tool privacy detail is replaced by one plan-based note in "What not to share". Added a five-step "Writing your own prompt" card.
+**Why:** Owner decision: the page should offer generally useful prompts for any LLM. Only 4 of 49 prompts were tool-specific, so the filter barely changed anything.
+
+### AI Guide — prompts rewritten against a review
+**Decision:** Scam checks give a Likely scam / Unclear / Likely genuine verdict and never "safe", ask for sender and link addresses, and use verified Australian contacts (ReportCyber, Scamwatch, IDCARE 1800 595 160, ACSC hotline 1300 292 371) with an instruction not to supply other phone numbers. Prompts that produce facts (status update, business case, self-assessment, minutes, notifications) must use only the user's input and mark gaps [NEEDS INPUT]. The log-analysis prompt tells users to replace IPs/hostnames/usernames first. The breach notification lists the NDB statement contents. The CVE prompt must not guess about unknown CVEs. Shared lines live in constants in ai-guide.js.
+**Why:** The old wording could falsely reassure people about scams, invite AI-invented phone numbers, produce made-up facts, and contradicted the page's own "don't paste system details" rule.
+
 
 ### Pipeline — official ACSC items always included; threat levels only from ACSC
 **Decision:** ACSC alert/advisory feeds are flagged `official`, always kept and tagged AU Cyber. Their threat level comes from the ACSC title prefix ("CRITICAL ALERT:" → Critical). All other articles get no threat level. Keyword matching uses whole-word regexes.

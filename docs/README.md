@@ -17,7 +17,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | **Dashboard** | ACSC alert banner · scam alert · cybercrime estimate · exploited CVEs · today's story · news feed · tool updates |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
 | **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
-| **AI Guide** | Prompt library for everyday work tasks · AI safety rules · per-tool data/training summary by plan |
+| **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
 | **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
 
 `definitions.html` is a redirect stub to `reference.html#glossary` — kept for old links, not a real page.
