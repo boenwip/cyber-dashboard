@@ -204,6 +204,8 @@ if news:
     check("data/news.json: has articles", len(items) > 0)
     check("data/news.json: last_updated is ISO", bool(ISO.match(news.get("last_updated", ""))))
     check_items("data/news.json", items, ["date"], ["title", "summary", "source"])
+    coverage = [c for i in items for c in i.get("coverage", [])]
+    check_items("data/news.json (coverage)", coverage, ["date"], ["title", "source"])
     invented = [i["title"] for i in items if i.get("threat") and not i.get("official")]
     check("data/news.json: only official items carry a threat level", not invented, str(invented[:2]))
 

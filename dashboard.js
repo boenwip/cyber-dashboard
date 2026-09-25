@@ -213,6 +213,7 @@ function renderArticles() {
     return '<article class="article' + (a.official ? ' article--official' : '') + '">' +
       '<div class="art-meta">' +
         '<span class="source">' + esc(cleanSource(a.source)) + '</span>' +
+        (a.coverage && a.coverage.length ? '<span class="dot" aria-hidden="true">·</span><span class="art-date">+' + a.coverage.length + ' more source' + (a.coverage.length > 1 ? 's' : '') + '</span>' : '') +
         (date ? '<span class="dot" aria-hidden="true">·</span><time class="art-date" datetime="' + esc(a.date) + '">' + esc(date) + '</time>' : '') +
       '</div>' +
       '<h3 class="art-title">' +

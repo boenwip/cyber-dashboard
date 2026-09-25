@@ -26,6 +26,8 @@ import urllib.error
 import urllib.parse
 import socket
 
+import stories
+
 
 # -------------------------------------------------------
 # SOURCE BLOCKLIST
@@ -692,65 +694,30 @@ def fetch_cves(limit=10):
 # FEATURED STORY
 # -------------------------------------------------------
 
-TRENDING_STOPWORDS = {
-    'the', 'a', 'an', 'to', 'of', 'in', 'on', 'for', 'and', 'or', 'is', 'are',
-    'with', 'at', 'by', 'from', 'as', 'after', 'over', 'amid', 'how', 'why',
-    'what', 'its', 'it', 'this', 'that', 'than', 'into', 'more', 'still',
-    'be', 'has', 'have', 'was', 'were', 'will', 'not', 'but', 'their',
-}
-
-
-def select_trending_article(articles):
-    """Pick whichever recent story is being covered by the most distinct sources right
-    now — a real cross-source signal instead of an AI's subjective pick. No API key
-    needed.
-
-    Different outlets almost never use near-identical headlines for the same event,
-    so this can't reuse deduplicate()'s strict substring matching (that stays as-is —
-    it's tuned for feed correctness, not topic clustering). Instead, group articles by
-    shared significant title words: two articles from different sources count as the
-    same story if they share at least half the meaningful words in the shorter title.
-
-    Falls back to the single most recent article if nothing today clears that bar
-    (quiet news day, or every outlet phrased it differently).
-    """
-    if not articles:
+def select_featured(items, days=3):
+    """Today's story: the recent story covered by the most distinct outlets (stories
+    are already grouped by stories.py). Falls back to the newest story on a quiet day."""
+    if not items:
         return None
+    import datetime as dt
+    cutoff = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=days)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
-    candidates = articles[:40]
-    word_sets = []
-    for a in candidates:
-        words = set(w.strip('.,:;\'"()') for w in (a.get('title') or '').lower().split())
-        word_sets.append(words - TRENDING_STOPWORDS)
+    def outlets(s):
+        return len({s.get("source", "")} | {c.get("source", "") for c in s.get("coverage", [])})
 
-    best_idx, best_count = 0, 1
-    for i, a in enumerate(candidates):
-        if not word_sets[i]:
-            continue
-        cluster_sources = {a.get('source', '')}
-        for j, b in enumerate(candidates):
-            if i == j or not word_sets[j] or b.get('source', '') in cluster_sources:
-                continue
-            overlap = len(word_sets[i] & word_sets[j]) / max(len(word_sets[i]), len(word_sets[j]))
-            if overlap >= 0.5:
-                cluster_sources.add(b.get('source', ''))
-        if len(cluster_sources) > best_count:
-            best_idx, best_count = i, len(cluster_sources)
-
-    best = candidates[best_idx] if best_count > 1 else articles[0]
-    source_count = best_count if best_count > 1 else 1
-
-    print('    Featured: {}... ({} source{})'.format(
-        best.get('title', '')[:60], source_count, '' if source_count == 1 else 's'
-    ))
-
+    recent = [s for s in items if (s.get("latest") or s.get("date") or "") >= cutoff] or items
+    best = max(recent, key=lambda s: (outlets(s), s.get("latest") or s.get("date") or ""))
+    if outlets(best) < 2:
+        best = items[0]
+    count = outlets(best)
+    print('    Featured: {}... ({} source{})'.format(best.get('title', '')[:60], count, '' if count == 1 else 's'))
     return {
         'title':        best.get('title', ''),
         'link':         best.get('link', ''),
         'source':       best.get('source', ''),
         'date':         best.get('date', ''),
         'summary':      truncate(best.get('summary', '') or '', 140),
-        'source_count': source_count,
+        'source_count': count,
     }
 
 
@@ -800,7 +767,12 @@ def print_breakdown(label, values, order=None):
 
 if __name__ == "__main__":
     print("\n=== Fetching news feeds (Zone 1) ===")
-    news = fetch_news()
+    articles = fetch_news()
+
+    print("\n=== Grouping coverage of the same story ===")
+    groups, method = stories.choose_groups(articles)
+    news = stories.build_stories(articles, groups)
+    print(f"    {len(articles)} articles -> {len(news)} stories ({method})")
     save_json(news, "data/news.json")
 
     print("\n=== Fetching tool updates (Zone 2) ===")
@@ -810,7 +782,7 @@ if __name__ == "__main__":
     save_json(fetch_cves(), "data/cve.json")
 
     print("\n=== Selecting featured article ===")
-    featured = select_trending_article(news)
+    featured = select_featured(news)
     if featured:
         save_json({"featured": featured}, "data/briefing.json")
 

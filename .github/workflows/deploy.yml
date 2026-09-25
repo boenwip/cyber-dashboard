@@ -43,7 +43,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install feedparser pytest
+        run: pip install feedparser anthropic pytest
 
       - name: Test pipeline
         run: python -m pytest -q tests
@@ -53,11 +53,15 @@ jobs:
         # than publishing an empty panel.
         run: |
           git fetch --depth=1 origin data:refs/remotes/origin/data
-          for f in news tool_updates cve briefing; do
+          for f in news tool_updates cve briefing groups; do
             git show "origin/data:data/$f.json" > "data/$f.json" || rm -f "data/$f.json"
           done
 
       - name: Fetch feeds
+        env:
+          # Used only to group coverage of the same story (scripts/stories.py);
+          # without it the pipeline falls back to headline word matching.
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python scripts/fetch_cyber_news.py
 
       - name: Audit
@@ -79,7 +83,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git worktree add ../snapshot origin/data
-          cp data/news.json data/tool_updates.json data/cve.json data/briefing.json ../snapshot/data/
+          cp data/news.json data/tool_updates.json data/cve.json data/briefing.json data/groups.json ../snapshot/data/
           cd ../snapshot
           git add data
           if git diff --staged --quiet; then echo "No data changes"; exit 0; fi
