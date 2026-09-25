@@ -134,11 +134,15 @@ NEWS_FEEDS = [
         "name": "ACSC Alerts",
         "url": "https://www.cyber.gov.au/rss/alerts",
         "official": True,
+        "timeout": 30,
+        "retries": 1,
     },
     {
         "name": "ACSC Advisories",
         "url": "https://www.cyber.gov.au/rss/advisories",
         "official": True,
+        "timeout": 30,
+        "retries": 1,
     },
     {
         "name": "Google News — ScamWatch",
@@ -204,6 +208,19 @@ NEWS_FEEDS = [
 # -------------------------------------------------------
 # ZONE 2: TOOL UPDATE FEEDS
 # -------------------------------------------------------
+
+# cyber.gov.au often times out from cloud/datacentre networks (it does from GitHub
+# Actions). When both direct ACSC feeds return nothing, this Google News search of
+# the ACSC alerts-and-advisories section is used instead. Google News drops ACSC's
+# "HIGH ALERT:" style prefixes, so these items are marked official with NO threat
+# level — the site shows them as ACSC items without inventing a severity.
+ACSC_FALLBACK_FEED = {
+    "name": "ACSC (via Google News)",
+    "url": "https://news.google.com/rss/search?q=site:cyber.gov.au/about-us/view-all-content/alerts-and-advisories&hl=en-AU&gl=AU&ceid=AU:en",
+    "official": True,
+    "severity_known": False,
+}
+
 
 TOOL_FEEDS = [
     {
@@ -419,18 +436,19 @@ def is_approved_gnews(title, source_name):
 USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
 
 
-def fetch_feed(url):
-    try:
-        req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
-        with urllib.request.urlopen(req, timeout=10) as response:
-            data = response.read()
-        return feedparser.parse(data)
-    except (urllib.error.URLError, socket.timeout) as e:
-        print(f"    Skipping (could not reach): {e}")
-        return feedparser.FeedParserDict({"entries": []})
-    except Exception as e:
-        print(f"    Skipping (unexpected error): {e}")
-        return feedparser.FeedParserDict({"entries": []})
+def fetch_feed(url, timeout=10, retries=0):
+    for attempt in range(retries + 1):
+        try:
+            req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+            with urllib.request.urlopen(req, timeout=timeout) as response:
+                data = response.read()
+            return feedparser.parse(data)
+        except (urllib.error.URLError, socket.timeout) as e:
+            print(f"    Could not reach (attempt {attempt + 1}/{retries + 1}): {e}")
+        except Exception as e:
+            print(f"    Skipping (unexpected error): {e}")
+            break
+    return feedparser.FeedParserDict({"entries": []})
 
 
 # -------------------------------------------------------
@@ -504,12 +522,16 @@ def deduplicate(articles):
 # FETCH ZONE 1: News articles
 # -------------------------------------------------------
 
-# Celebrity/entertainment content that slips through topic matching
+# Celebrity/entertainment content that slips through topic matching.
+# Deliberately no bare "actor": in security news it almost always means "threat actor".
 TITLE_BLOCKLIST = [
-    "rebel wilson", "kardashian", "celebrity", "actor", "actress",
+    "rebel wilson", "kardashian", "celebrity", "actress",
     "nude photo", "leaked photo", "snapchat hack celebrity",
     "reality tv", "influencer", "tiktok star", "youtube star",
 ]
+
+# Section index pages (not alerts) that the ACSC Google News fallback can return
+ACSC_INDEX_PAGES = {"alerts and advisories", "homepage | cyber.gov.au", "report", "report and recover"}
 
 # Index/listing pages that Google News returns for site: queries
 LISTING_PAGE = re.compile(r"\b(browse news|news and alerts|alerts and news)\b|\bpage \d+\b", re.I)
@@ -535,7 +557,12 @@ def build_article(feed, entry):
     topic_tags = get_topic_tags(combined)
     threat = None
     if official:
-        threat, title = official_threat(title)
+        if feed.get("severity_known", True):
+            threat, title = official_threat(title)
+        else:
+            title = re.sub(r"\s+[-\u2013|]\s+Cyber\.gov\.au$", "", title, flags=re.I)
+            if title.lower() in ACSC_INDEX_PAGES:
+                return None
         if "AU Cyber" not in topic_tags:
             topic_tags.insert(0, "AU Cyber")
     if not topic_tags:
@@ -551,20 +578,31 @@ def build_article(feed, entry):
     }
     if official:
         article["official"] = True
-        article["threat"] = threat
+        if threat:
+            article["threat"] = threat
     return article
 
 
 def fetch_news():
     all_articles = []
 
+    official_entries = 0
     for feed in NEWS_FEEDS:
         print(f"  Fetching: {feed['name']}...")
-        parsed = fetch_feed(feed["url"])
+        parsed = fetch_feed(feed["url"], feed.get("timeout", 10), feed.get("retries", 0))
+        if feed.get("official"):
+            official_entries += len(parsed.entries)
         for entry in parsed.entries:
             article = build_article(feed, entry)
             if article:
                 all_articles.append(article)
+
+    if not official_entries:
+        print(f"  Direct ACSC feeds unavailable — fetching: {ACSC_FALLBACK_FEED['name']}...")
+        for entry in fetch_feed(ACSC_FALLBACK_FEED["url"]).entries:
+            article = build_article(ACSC_FALLBACK_FEED, entry)
+            if article:
+                all_articles.insert(0, article)   # ahead of press coverage of the same alert in dedupe
 
     all_articles = deduplicate(all_articles)
     all_articles = filter_old_articles(all_articles, days=14)

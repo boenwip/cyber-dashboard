@@ -133,3 +133,34 @@ def test_empty_fetch_with_no_previous_file_still_saves(tmp_path):
     f.save_json([], path)
     import json
     assert json.load(open(path, encoding="utf-8"))["count"] == 0
+
+
+# ── ACSC fallback (Google News drops severity prefixes) ────
+
+def test_fallback_acsc_item_is_official_without_invented_severity():
+    a = f.build_article(f.ACSC_FALLBACK_FEED, entry("Risks of AI misalignment to Australian organisations - Cyber.gov.au"))
+    assert a["official"] is True
+    assert "threat" not in a
+    assert a["title"] == "Risks of AI misalignment to Australian organisations"
+    assert "AU Cyber" in a["tags"]
+
+
+def test_fallback_skips_section_index_pages():
+    assert f.build_article(f.ACSC_FALLBACK_FEED, entry("Alerts and advisories - Cyber.gov.au")) is None
+
+
+def test_fallback_used_only_when_direct_feeds_empty(monkeypatch):
+    calls = []
+    def fake_fetch(url, timeout=10, retries=0):
+        calls.append(url)
+        return feedparser.FeedParserDict({"entries": []})
+    monkeypatch.setattr(f, "fetch_feed", fake_fetch)
+    f.fetch_news()
+    assert calls[-1] == f.ACSC_FALLBACK_FEED["url"]
+
+
+def test_threat_actor_headlines_are_not_blocked():
+    a = f.build_article(ACSC, entry('North Korean "WaterPlum" cyber actor group targeting IT professionals'))
+    assert a is not None
+    b = f.build_article(DIRECT, entry("Threat actor abuses iCloud calendars to spread malware"))
+    assert b is not None

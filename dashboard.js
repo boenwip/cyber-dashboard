@@ -207,7 +207,7 @@ function renderArticles() {
     }).join('');
     var threat = a.threat
       ? filterButton('threat', a.threat, 'tag threat-badge ' + (THREAT_CLASS[a.threat] || 't-advisory'), '● ' + esc(a.official ? 'ACSC ' + a.threat : a.threat))
-      : '';
+      : a.official ? '<span class="tag threat-badge t-advisory">● ACSC</span>' : '';
 
     var date = formatDate(a.date, true);
     return '<article class="article' + (a.official ? ' article--official' : '') + '">' +
