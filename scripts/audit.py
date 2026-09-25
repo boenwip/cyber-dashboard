@@ -173,7 +173,15 @@ check("dashboard.js renders feed data through esc()/safeUrl()",
 print("\n── Data")
 
 
+GENERATED = {"data/news.json", "data/tool_updates.json", "data/cve.json", "data/briefing.json"}
+
+
 def load_json(path):
+    # Feed data is generated at deploy time and isn't in the repo; skip it when absent
+    # (e.g. on pull requests). Run scripts/fetch_cyber_news.py first to check it locally.
+    if path in GENERATED and not os.path.exists(os.path.join(ROOT, path)):
+        print("  – " + path + ": not generated here, skipped")
+        return None
     try:
         return json.loads(read(path))
     except (OSError, ValueError) as e:

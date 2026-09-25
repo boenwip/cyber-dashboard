@@ -116,3 +116,20 @@ def test_kev_item_has_no_invented_severity():
     assert item["due_date"] == "2026-10-15"
     assert item["ransomware"] == "Known"
     assert item["name"] == "WSO2 API Manager"
+
+
+# ── Saving ─────────────────────────────────────────────────
+
+def test_empty_fetch_keeps_previous_file(tmp_path):
+    path = str(tmp_path / "news.json")
+    f.save_json([{"title": "old"}], path)
+    f.save_json([], path)
+    import json
+    assert json.load(open(path, encoding="utf-8"))["items"] == [{"title": "old"}]
+
+
+def test_empty_fetch_with_no_previous_file_still_saves(tmp_path):
+    path = str(tmp_path / "cve.json")
+    f.save_json([], path)
+    import json
+    assert json.load(open(path, encoding="utf-8"))["count"] == 0

@@ -2,3 +2,9 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Feed data is generated at deploy time (snapshots live on the `data` branch)
+data/news.json
+data/tool_updates.json
+data/cve.json
+data/briefing.json

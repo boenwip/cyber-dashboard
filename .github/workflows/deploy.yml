@@ -1,0 +1,99 @@
+name: Build and deploy
+
+# Fetches the feeds, tests, audits and publishes the site to GitHub Pages.
+# Feed data is never committed to main: each run starts from the last snapshot
+# on the `data` branch, fetches fresh data, publishes it, and commits the new
+# snapshot back to `data` (a readable history of what was live, and what the
+# Content Integrity Agent reads).
+#
+# Cron is UTC. Windows cover Sydney time in both AEST (UTC+10) and AEDT (UTC+11):
+#   Weekdays 8am–6:30pm Sydney  → every 30 min, 21:00–08:30 UTC
+#   Weekends (Sat + Sun Sydney) → every 8 hours
+# GitHub runs schedules on a best-effort basis, so gaps can be longer.
+on:
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**']
+  schedule:
+    - cron: '0,30 21-23 * * 0-4'   # Mon–Fri early morning, Sydney
+    - cron: '0,30 0-8 * * 1-5'     # Mon–Fri daytime, Sydney
+    - cron: '0 */8 * * 6,0'        # Weekends
+  workflow_dispatch:
+
+permissions:
+  contents: write   # push the data snapshot to the `data` branch
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install feedparser pytest
+
+      - name: Test pipeline
+        run: python -m pytest -q tests
+
+      - name: Start from the last data snapshot
+        # If a feed fails this run, the pipeline keeps the previous file rather
+        # than publishing an empty panel.
+        run: |
+          git fetch --depth=1 origin data:refs/remotes/origin/data
+          for f in news tool_updates cve briefing; do
+            git show "origin/data:data/$f.json" > "data/$f.json" || rm -f "data/$f.json"
+          done
+
+      - name: Fetch feeds
+        run: python scripts/fetch_cyber_news.py
+
+      - name: Audit
+        run: python scripts/audit.py
+
+      - name: Assemble site
+        run: |
+          mkdir _site
+          cp *.html *.css *.js sitemap.xml _site/
+          cp -r assets data _site/
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+      - name: Save data snapshot to the data branch
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git worktree add ../snapshot origin/data
+          cp data/news.json data/tool_updates.json data/cve.json data/briefing.json ../snapshot/data/
+          cd ../snapshot
+          git add data
+          if git diff --staged --quiet; then echo "No data changes"; exit 0; fi
+          git commit -q -m "data: $(TZ='Australia/Sydney' date '+%d-%m-%Y %H:%M %Z')"
+          git push origin HEAD:data
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

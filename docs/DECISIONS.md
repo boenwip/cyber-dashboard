@@ -60,8 +60,9 @@ Format: decision → why. Newest first within each session.
 - **Domain: none for now.** Canonical, OG and sitemap URLs use `https://boenwip.github.io/cyber-dashboard/`. If a domain is added later: `CNAME` file + DNS, then update those URLs.
 - **Annual report figures: update when ASD publishes.** All figures moved to `data/annual_report.json` (the dashboard renders from it; audit validates it). `annual_report_watch.yml` checks daily for the next report and opens one issue with the update checklist.
 
-### Still open
-- **Data commits:** Data refreshes add ~25 commits a weekday to `main`. Moving to an Actions-based Pages deploy would keep them out of history.
+### Deploy from Actions; data snapshots on a `data` branch
+**Decision:** Pages now deploys from `deploy.yml` (source: GitHub Actions) instead of the `main` branch. Generated data files are no longer committed to `main`; each run seeds from the `data` branch, fetches, publishes, and commits the snapshot back to `data` (normal commits, no force-push). `save_json()` keeps the previous file when a fetch returns nothing.
+**Why:** Owner approved. Keeps `main` history to real changes (it was ~25 bot commits a weekday), makes every deploy tested and audited, and gives the Content Integrity Agent — whose web access is blocked — a git-readable record of what was live.
 
 ---
 

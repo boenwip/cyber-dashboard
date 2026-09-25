@@ -76,30 +76,36 @@ pseudosec/
 ├── tests/
 │   └── test_fetch.py       # Pipeline regression tests (pytest)
 ├── data/
-│   ├── annual_report.json  # ASD annual report figures (hand-maintained)
-│   ├── briefing.json       # Featured story (auto-generated)
-│   ├── news.json           # Feed (auto-generated)
-│   ├── tool_updates.json   # Tool updates (auto-generated)
-│   └── cve.json            # CVE feed (auto-generated)
+│   ├── annual_report.json  # ASD annual report figures (hand-maintained, committed)
+│   └── news/cve/tool_updates/briefing.json  # Generated at deploy time — not in main;
+│                                            # snapshots live on the `data` branch
 ├── docs/                   # CHANGELOG, DECISIONS, REVIEW, this file
 └── .github/workflows/
-    ├── fetch_news.yml      # Scheduled fetch → tests → commit
+    ├── deploy.yml          # Tests → fetch → audit → publish to Pages → data snapshot
     ├── annual_report_watch.yml # Daily: opens an issue when a new ASD report is out
-    └── ci.yml              # Tests + audit on push/PR
+    └── ci.yml              # Tests + audit on pull requests
 ```
 
 ---
 
 ## Automation
 
-GitHub Actions runs the fetch pipeline on a schedule and commits updated JSON back to the repo. GitHub Pages serves everything statically — no server, no database, no API keys.
+`deploy.yml` builds and publishes the site with GitHub Actions — no server, no database, no API keys, and no bot commits on `main`. Each run:
+
+1. runs the pipeline tests;
+2. starts from the latest data snapshot on the **`data` branch**;
+3. fetches the feeds (if a source returns nothing, the previous file is kept rather than blanking a panel);
+4. runs the audit and publishes the site to GitHub Pages;
+5. commits the new snapshot back to the `data` branch (a history of what was live).
+
+It runs on every push to `main` (except docs-only changes), on demand, and on this schedule:
 
 | Window (Sydney time, AEST or AEDT) | Schedule |
 |---|---|
 | Weekdays 8am–6:30pm | Every 30 minutes |
 | Weekends | Every 8 hours |
 
-The job runs the pipeline tests before fetching, uses least-privilege `permissions: contents: write`, pins actions to commit SHAs, and rebases onto any newer commit instead of force-pushing. All dates in `data/*.json` are ISO 8601 UTC; the browser formats them in Sydney time.
+GitHub runs schedules on a best-effort basis, so gaps can be longer. Actions are pinned to commit SHAs with least-privilege permissions. All dates in the data are ISO 8601 UTC; the browser shows them in Sydney time.
 
 ---
 
@@ -117,11 +123,11 @@ ASD publishes its Annual Cyber Threat Report each year (the 2024–25 edition ca
 
 ```bash
 pip install feedparser
-python3 scripts/fetch_cyber_news.py
+python3 scripts/fetch_cyber_news.py   # generates data/*.json (git-ignored)
 python3 -m http.server 8000
 ```
 
-Open `http://localhost:8000/index.html`.
+Open `http://localhost:8000/index.html`. To start from exactly what's live instead of fetching: `git fetch origin data && git checkout origin/data -- data && git restore --staged data`.
 
 ---
 

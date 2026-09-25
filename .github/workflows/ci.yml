@@ -1,9 +1,7 @@
 name: CI
 
+# Pull requests only — pushes to main are tested and audited by deploy.yml.
 on:
-  push:
-    branches: [main]
-    paths-ignore: ['data/**', 'docs/**']
   pull_request:
 
 permissions:

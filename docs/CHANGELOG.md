@@ -23,6 +23,7 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 - ACSC Critical/High alert banner; CISA fix-by dates on CVEs
 - Theme follows the OS setting until chosen; no theme flash on load
 - Pipeline tests, a rewritten audit, and a CI workflow
+- Deploys via GitHub Actions; feed data kept on a `data` branch instead of `main`; empty fetches keep the previous data
 - AI Guide: 47 tool-agnostic prompts rewritten for safety and accuracy, plus a "Writing your own prompt" guide
 - `data/annual_report.json`: single source for all ASD report figures, plus a daily watcher that opens an issue when the next report is published
 

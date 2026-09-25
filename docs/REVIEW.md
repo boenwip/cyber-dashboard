@@ -159,8 +159,8 @@ Then work through the human lenses.
 
 **Deployment**
 - [ ] All files referenced in HTML exist (audit checks local links and assets)
-- [ ] The fetch workflow rebases and pushes — never force-pushes
-- [ ] GitHub Pages source is set to root of `main` branch
+- [ ] New public files are copied into `_site` by the "Assemble site" step in `deploy.yml`
+- [ ] GitHub Pages source is set to **GitHub Actions**; the `data` branch is only written by `deploy.yml`
 
 **JSON data files**
 - [ ] `news.json` is present and not empty

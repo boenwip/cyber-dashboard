@@ -720,7 +720,21 @@ def select_trending_article(articles):
 # SAVE to JSON
 # -------------------------------------------------------
 
+def previous_count(filename):
+    try:
+        with open(filename, encoding="utf-8") as f:
+            items = json.load(f).get("items")
+        return len(items) if isinstance(items, list) else 0
+    except (OSError, ValueError, AttributeError):
+        return 0
+
+
 def save_json(data, filename):
+    # An outage upstream shouldn't blank a panel: if this run found nothing but the
+    # last saved file has items, keep that file (and its older last_updated).
+    if isinstance(data, list) and not data and previous_count(filename):
+        print(f"  Nothing fetched for {filename} — keeping the previous file")
+        return
     count = len(data) if isinstance(data, list) else 0
     output = {
         "last_updated": now_iso(),
