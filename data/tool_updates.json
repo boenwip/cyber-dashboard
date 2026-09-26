@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-09-25T10:33:50Z",
+  "last_updated": "2026-09-26T02:20:35Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "https://chromereleases.googleblog.com/2026/09/beta-channel-update-for-chromeos_02070773832.html",
+      "summary": "The Beta channel is being updated to OS version 16820.11.0 (Browser version 155.0.8059.18) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
+      "date": "2026-09-26T00:47:51Z"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.283",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.283",
+      "summary": "What's changed Added x-claude-code-prompt-id to the gateway hint headers so LLM gateways can group the requests that serve one user prompt; opt in with CLAUDE_CODE_GATEWAY_HINT_HEADERS=1 Added…",
+      "date": "2026-09-25T21:50:12Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - September 25, 2026",
+      "link": "https://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-25-2026.html",
+      "summary": "Use AI to supercharge your financial analysis with Workday for Google Sheets Use AI to supercharge your financial analysis with Workday for Google Sheets Google Sheets Rapid Release Scheduled Release…",
+      "date": "2026-09-25T19:00:43Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "AFI Announces I PLAY ROCKY and Brad Bird’s RAY GUNN as Red Carpet Galas at AFI FEST Presented by Canva - American Film Institute",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNVVJ2ekUxcldya205dTdvWGtZbExGVUE0WjBFR0VuVzJHX3U1SjFacmJHNHdybGRhVWd1NnpzbTlhbVVCcmxud1pUQXl6SjYyVlAzaC1BeWtQZ0NuNjA3Uks5RHhTUWpoMG9HcWdXTDE2UWxIRXZvc1ltckh6X1NPbS1Ec3JPV3lqN2xsdmdKZVI3RmR4cWQ0NVQxb0VrdjdyS0ZmOE9FVDdXYXJKWFpSN1dzckk1Q1dNbXRyTWJzcW4?oc=5",
+      "summary": "AFI Announces I PLAY ROCKY and Brad Bird’s RAY GUNN as Red Carpet Galas at AFI FEST Presented by Canva American Film Institute",
+      "date": "2026-09-25T18:05:12Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-dev-for-android-update_01781633042.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 156 (156.0.8072.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
+      "date": "2026-09-25T17:28:32Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "View up to three time zones in Google Calendar on the web",
+      "link": "https://workspaceupdates.googleblog.com/2026/09/view-up-to-three-time-zones-in-google-Calendar-on-the-web.html",
+      "summary": "We’re making it easier to schedule and coordinate meetings across global teams by expanding time zone support in Google Calendar on the web. You can now configure and display up to three time zones—a…",
+      "date": "2026-09-25T16:37:17Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-dev-for-desktop-update_01688222670.html",
+      "summary": "The Dev channel has been updated to 156.0.8072.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
+      "date": "2026-09-25T15:28:33Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing the new Copilot with Home, Code and Autopilot",
+      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
+      "date": "2026-09-25T12:07:25Z"
+    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -51,14 +115,6 @@
       "date": "2026-09-23T19:19:15Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01050350268.html",
-      "summary": "The Stable channel has been updated to 155.0.8059.12/.13 for Windows and Mac a s part of our early stable release to a small percentage of users. A full list of changes in this build is available in…",
-      "date": "2026-09-23T19:07:25Z"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Gemini Omni 1.1 Flash now in Vids with improved extension quality, 1080p, and duration control",
@@ -67,44 +123,20 @@
       "date": "2026-09-23T19:02:00Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Ground AI prompts in Google Docs on existing sources from Gemini Notebook",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/ground-ai-prompts-in-google-docs-on-existing-sources-from-Gemini-Notebook.html",
-      "summary": "We are introducing the ability to use Gemini Notebook as a context source in Google Docs. Building on our Workspace Intelligence foundation, this feature bridges the gap between deep research and…",
-      "date": "2026-09-23T18:26:49Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Seamlessly import your emails from any IMAP server to Google Workspace",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/seamlessly-import-your-emails-from-any-IMAP-server-to-Google-Workspace.html",
-      "summary": "We’re excited to announce the GA release of a new, simplified way for Workspace admins to import their past emails from any IMAP-based email provider while setting up Google Workspace. By using this…",
-      "date": "2026-09-23T18:07:20Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_01711682124.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 155 (155.0.8059.16) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
-      "date": "2026-09-23T17:43:32Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "https://chromereleases.googleblog.com/2026/09/chrome-beta-for-ios-update_0141601202.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 155 (155.0.8059.16) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you…",
-      "date": "2026-09-23T17:28:32Z"
-    },
-    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Anthropic launches new update to Claude – after telling the world to slow down AI - Yahoo Finance Australia",
       "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQMTQ5ZERLaG5BUndHREtWYndNcjVaRWZrVzBiNUxLZ0o1VGFSLVdURGlZNXJDY0xHcFlvM1ZXSkY0OW9lWkFlQ0p2WHQxQVZ4VHIyM1g3YlNHS2pINkhVRGFhZ3B0YTlSamQ1eG1wZm5SSlRpTzFzc01fRmxHdWg2WWhXbDB0VGRpdFpQM280azF5UQ?oc=5",
       "summary": "Anthropic launches new update to Claude – after telling the world to slow down AI Yahoo Finance Australia",
       "date": "2026-09-23T16:09:28Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Building the system for AI at work",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
+      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "date": "2026-09-23T15:00:00Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -117,26 +149,10 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price - venturebeat.com",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcml5V2NScmlDMmg0VXdZR3AyXzJlTHlzRnJ5S05mMHNxQ2ZjSmwwV2tVcWx5RXE4V3JJWWh3MXlKdXdlNno4MVAwaGdXcVVJYm9TNGx5bWgxZjM1dm1VR0ppRGNsRTVZc1UwVkJuRmIwLTFoYnJkUE9sU0taS3Z2dVd6X1VwMEc3SVlJNDhyWWtSMGdlRC01VGQ0bngtWDhLY2ZzSUU3SWFJcnNSRldWdnVHejRKdV9GOEhOUzNiUFFHQmd4Mko0ZjctT0k0STJzVm93?oc=5",
-      "summary": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price venturebeat.com",
-      "date": "2026-09-22T19:05:41Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic unveils Claude Opus 5.5 - reuters.com",
+      "title": "Anthropic unveils Claude Opus 5.5 - Reuters",
       "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQX2VINVptSExJdjU0WkQ0WDVkRUdsaHduYjB1Tk81TnBrZkVvalowQWh2NFJnYmZ1TkxtVTQyZHdVWDgzVmJtRE9SSjkzeW9DWDFleHNPU01LUWE1TUpCdktmTVVRZHNXWm9ack9CRmdQTU1XUHd0Y2lhaEZBWWJYQVNFYw?oc=5",
-      "summary": "Anthropic unveils Claude Opus 5.5 reuters.com",
+      "summary": "Anthropic unveils Claude Opus 5.5 Reuters",
       "date": "2026-09-22T17:22:35Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic’s Claude Opus 5.5 Appears In Claude Code, Indicating Imminent Release, As Trump Renames AI To “Super Intelligence” Or SI [Update: Released] - Wccftech",
-      "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSFpjT1VBT1VaanU4X2ZsOUJIWnhKUUh3VmtndDhVdU91LTBEbEVWM0VlWW50S25xWmlZWktvbWdtZmF4czZyZ1JOTzg4ZjVSaWlrMmZrbUoxVEhHS0FxNzhwUEpEcnhlc2VqelFiTW82U1B6Z0taYWhiMm1DdHFGRkZTTEItN1dFYXVlcVZKUDIyc3hGQWNtOHVmUzVka0o5YWxtUXRLSW1VdXNQb0pEWURMVXE3VUF6SVVPaXdRN0JkT0FGNnZIQzc3UHBnaEo2elQ3ZTI2MjhVaVBIRmM2T9IB5gFBVV95cUxOT3MwV01weldCYXpzTUFQYlNpSHVwUWQ4OXJQbnRDZlY2bmtDblZfaGJoeXZJSDlTcGh2djRkYmEwa1lERERrRFJrVFR4X3VWeUo2OXgyN2tfUDhhTGpUUzhjQVhZVVBkOGpZMDBJUFo4T1lpVThqaGlUY1FwdW9GRlE4MDdmUG8zQUE2VWVzYXJMb0VrSGtGUW50TW92N3BsY1E1aFJOTGVHRUw4dGh1dTBSSU9rZWJXM0hQUW1yckFRZnh5RFlkNjJOaVgyVGE0aFFuY2cxLXk4WmlQXzRYaGxpOHVjUQ?oc=5",
-      "summary": "Anthropic’s Claude Opus 5.5 Appears In Claude Code, Indicating Imminent Release, As Trump Renames AI To “Super Intelligence” Or SI [Update: Released] Wccftech",
-      "date": "2026-09-22T16:50:12Z"
     },
     {
       "source": "Claude Code Releases",
@@ -155,14 +171,6 @@
       "date": "2026-09-19T03:10:40Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.277",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.277",
-      "summary": "What's changed Added AGENTS.md support: in a project with no CLAUDE.md, Claude Code reads AGENTS.md instead; change it under \"Project instructions\" in /config (not yet on Bedrock, Vertex or Foundry)…",
-      "date": "2026-09-18T18:06:32Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Massive Canva update adds 100 features to new ProSuite - Creative Bloq",
@@ -176,7 +184,7 @@
       "title": "Microsoft confirms it accidentally broke copy and paste in Excel with a major security update you shouldn’t remove - Windows Latest",
       "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNS3VOYUYyU0R5b243YW5JYk5XNXBqM2xCUjloa3RHaFRKanQ3bzJTQklDdzlDOUlEelNFV05DWng2LUNvMWVtWEg0SUJFZnFUc3NXZl9RV2xJT1ZhLVY5UGZJSHJuM2R2WWhpNDJKVnZlOUdaZnc2UUJqaXlubll1M2Ixc1NwWDlLQmIzVW5BbTlRZWFzSDZ6YWVMb3VJN1ZzbWc1UVk1a2dfM3dQNnZSYTM1T0pyZ244UUxycFNoblZQemUwZWlsNGtTV3k2RDB4MkE?oc=5",
       "summary": "Microsoft confirms it accidentally broke copy and paste in Excel with a major security update you shouldn’t remove Windows Latest",
-      "date": "2026-09-17T02:06:08Z"
+      "date": "2026-09-17T07:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -197,18 +205,10 @@
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
-      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - creativeboom.com",
+      "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - Creative Boom",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
-      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features creativeboom.com",
+      "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features Creative Boom",
       "date": "2026-09-15T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup - ETV Bharat",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNTEQ4NHk0NzFsUEZpelRwVkFfT0FTMnF3U2FqYnd1SUZRNzd6cmlxRFFpWjJpSWdKTkMwdzNFMUp2ZzhzWHVJRE1RcFZVdWhPSGQ1WWNITVQ4ZGNmeTBOSEhkRzRYcHRqcWhXbXFSVmo5QUQ4ZHVGT0RRSnA5eXRTaUI5N1VmM25JS0NwN3YxeHpRd0I5cVI0UEpHbFprRXcyQzJ0MnRHUVhFalMtVnlHYldUSUNmQ21jMDVRNS1TQUdmRnptWkowb2F30gHPAUFVX3lxTFBIRnhDc1BmZkY1Q1k2OWFGM293aUJBRTNWWEFHcnhhMnJTMUNfcVY1cVd4QktUU0dMcS1iZGJJQzVBSEdCUDd5akhVZDdqd1hoMDVCcGVoeUh5RFM4WFdRdy02QnRZcFNqeU8xbXNkaVRobU93UXpXQlFxUlNjZ09BOFpYOHJ4S3dPVlVPMEZtYWstWVF0OW14WTFrSWppNFZLQVVQMHdPLWFUOXhOU0ZBekpGR1J0MXk5c21OQ2NHd3BQMEZYYlZ3aGNtYXdHbw?oc=5",
-      "summary": "OpenAI Adds Pets Feature To ChatGPT Desktop App: What Is It And How To Setup ETV Bharat",
-      "date": "2026-09-14T07:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -243,36 +243,20 @@
       "date": "2026-09-08T07:00:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
-      "date": "2026-09-03T15:00:00Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "2026-08-13T14:58:37Z"
     },
     {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "title": "The Best Office Suites We've Tested for 2026 - pcmag.com",
       "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
+      "summary": "The Best Office Suites We've Tested for 2026 pcmag.com",
       "date": "2026-08-10T07:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "The next measure of AI momentum is work transformed",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/07/30/the-next-measure-of-ai-momentum-is-work-transformed/",
-      "summary": "In yesterday’s earnings call, we shared that Microsoft 365 Copilot has surpassed 30 million paid seats, with net seat adds more than doubling quarter over quarter. The post The next measure of AI…",
-      "date": "2026-07-30T13:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -285,10 +269,10 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "2026-07-08T07:00:00Z"
+      "title": "Launching Health in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
+      "summary": "Launching Health in ChatGPT OpenAI",
+      "date": "2026-07-23T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -307,6 +291,22 @@
       "date": "2026-06-21T07:00:00Z"
     },
     {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Why the US government shut down Anthropic’s latest Claude AI model - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
+      "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
+      "date": "2026-06-15T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
+      "summary": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO Memeburn",
+      "date": "2026-06-11T06:42:27Z"
+    },
+    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
@@ -315,12 +315,12 @@
       "date": "2026-06-03T07:00:00Z"
     },
     {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "2026-04-16T07:00:00Z"
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "2026-05-29T07:00:00Z"
     }
   ]
 }
