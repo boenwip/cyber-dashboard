@@ -16,6 +16,7 @@ import json
 import os
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -44,7 +45,17 @@ def search_google_news(slug):
     query = 'site:cyber.gov.au "annual cyber threat report" %s' % start
     url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
         {"q": query, "hl": "en-AU", "gl": "AU", "ceid": "AU:en"})
-    _, xml = fetch(url)
+    # Google News sometimes answers GitHub's runners with a 503 (rate limiting);
+    # it usually clears within a minute.
+    for wait in (20, 60, None):
+        try:
+            _, xml = fetch(url)
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 503 or wait is None:
+                raise
+            print("Google News returned 503 — retrying in %ds" % wait)
+            time.sleep(wait)
     for item in ET.fromstring(xml).iter("item"):
         title = (item.findtext("title") or "").replace("–", "-").lower()
         if "annual cyber threat report" in title and (short in title or slug in title):
