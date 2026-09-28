@@ -9,15 +9,16 @@ name: Build and deploy
 # Cron is UTC. Windows cover Sydney time in both AEST (UTC+10) and AEDT (UTC+11):
 #   Weekdays 8am–6:30pm Sydney  → every 30 min, 21:00–08:30 UTC
 #   Weekends (Sat + Sun Sydney) → every 8 hours
-# GitHub runs schedules on a best-effort basis, so gaps can be longer.
+# GitHub runs schedules on a best-effort basis, so gaps can be longer. Minutes are
+# offset from :00/:30, when GitHub is busiest and most likely to drop scheduled runs.
 on:
   push:
     branches: [main]
     paths-ignore: ['docs/**']
   schedule:
-    - cron: '0,30 21-23 * * 0-4'   # Mon–Fri early morning, Sydney
-    - cron: '0,30 0-8 * * 1-5'     # Mon–Fri daytime, Sydney
-    - cron: '0 */8 * * 6,0'        # Weekends
+    - cron: '7,37 21-23 * * 0-4'   # Mon–Fri early morning, Sydney
+    - cron: '7,37 0-8 * * 1-5'     # Mon–Fri daytime, Sydney
+    - cron: '7 */8 * * 6,0'        # Weekends
   workflow_dispatch:
 
 permissions:

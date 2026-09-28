@@ -4,7 +4,7 @@ name: Annual report watch
 # opens one GitHub issue with the update checklist (never a duplicate).
 on:
   schedule:
-    - cron: '0 23 * * *'   # 9–10am Sydney
+    - cron: '13 23 * * *'  # 9–10am Sydney
   workflow_dispatch:
 
 permissions:
