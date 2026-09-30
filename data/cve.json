@@ -1,7 +1,16 @@
 {
-  "last_updated": "2026-09-29T11:32:38Z",
+  "last_updated": "2026-09-30T00:22:42Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-86950",
+      "name": "Apple Multiple Products",
+      "description": "Apple iOS, macOS, and iPadOS contain an out-of-bounds write vulnerability in CoreGraphics that may lead to arbitrary code execution.",
+      "date_added": "2026-09-29",
+      "due_date": "2026-10-02",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-86950"
+    },
     {
       "id": "CVE-2026-88772",
       "name": "Citrix NetScaler",
@@ -82,15 +91,6 @@
       "due_date": "2026-09-25",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127"
-    },
-    {
-      "id": "CVE-2026-93616",
-      "name": "Check Point Multiple Products",
-      "description": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an…",
-      "date_added": "2026-09-22",
-      "due_date": "2026-09-25",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616"
     }
   ]
 }
