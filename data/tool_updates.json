@@ -1,7 +1,79 @@
 {
-  "last_updated": "2026-09-30T11:20:59Z",
+  "last_updated": "2026-10-01T00:32:06Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Programmatic comment and suggestion support now available in the Google Docs, Sheets, and Slides APIs",
+      "link": "https://workspaceupdates.googleblog.com/2026/09/programmatic-comment-and-suggestion.html",
+      "summary": "Developers can now programmatically create, read, and manage comments across Google Docs, Sheets, and Slides using their respective developer APIs. In Google Docs, this update also introduces API…",
+      "date": "2026-09-30T21:26:19Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Customize the style of your captions in Google Vids",
+      "link": "https://workspaceupdates.googleblog.com/2026/09/customize-style-of-your-captions-in-Google-Vids.html",
+      "summary": "Captions in Google Vids are now fully customizable. Until now, captions came in a set style. You can now change their font and typography, where they sit on screen, and how they animate, so they…",
+      "date": "2026-09-30T19:53:44Z"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.286",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
+      "summary": "What's changed Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to…",
+      "date": "2026-09-30T19:10:13Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Early Stable Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/09/early-stable-update-for-desktop_01356833751.html",
+      "summary": "The Stable channel has been updated to 155.0.8059.26/.27 for Windows and Mac a s part of our early stable release to a small percentage of users. A full list of changes in this build is available in…",
+      "date": "2026-09-30T18:47:20Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01438056910.html",
+      "summary": "Hello Everyone! We've just released Chrome 155 (155.0.8059.30) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details…",
+      "date": "2026-09-30T18:10:24Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-beta-for-android-update_0961163892.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 156 (156.0.8078.4) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
+      "date": "2026-09-30T17:13:32Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for iOS Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-beta-for-ios-update_0537267869.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 156 (156.0.8078.3) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you…",
+      "date": "2026-09-30T16:28:33Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Stable for iOS Update",
+      "link": "https://chromereleases.googleblog.com/2026/09/chrome-stable-for-ios-update_0387577389.html",
+      "summary": "Hi everyone! We've just released Chrome Stable 155 (155.0.8059.24) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements…",
+      "date": "2026-09-30T16:13:32Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Introducing skills in the Gemini app and Workspace, plus what’s next for Gems",
+      "link": "https://workspaceupdates.googleblog.com/2026/09/skills-gemini-app-workspace.html",
+      "summary": "We recently introduced skills—reusable prompts that guide Gemini—in the Gemini app and Google Workspace . Over the coming weeks, skills will roll out to Workspace users and eventually replace Gems as…",
+      "date": "2026-09-30T16:11:32Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -9,30 +81,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
       "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session…",
       "date": "2026-09-29T19:27:30Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/09/chrome-for-android-update_01009014687.html",
-      "summary": "Hi, everyone! We've just released Chrome 154 (154.0.8037.92) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
-      "date": "2026-09-29T18:40:37Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/09/stable-channel-update-for-desktop_01807488085.html",
-      "summary": "The Stable channel has been updated to 154.0.8037.92/.93 for Windows and Mac and 154.0.8037.92 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
-      "date": "2026-09-29T18:38:51Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/09/extended-stable-update-for-desktop_01748636441.html",
-      "summary": "The Extended Stable channel has been updated to 152.0.7977.149 for Windows and Mac which will roll out over the coming days/weeks. A full list of changes in this build is available in the log…",
-      "date": "2026-09-29T18:38:45Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -51,12 +99,12 @@
       "date": "2026-09-29T16:03:00Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "https://chromereleases.googleblog.com/2026/09/long-term-support-channel-update-for_0425600799.html",
-      "summary": "A new LTS version 144.0.7559.264 (Platform Version: 16503.97.0 ), is being rolled out for most ChromeOS devices. This version includes selected security fixes including: 558036280 High CVE-2026-91737…",
-      "date": "2026-09-28T21:49:31Z"
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Is Claude Conscious? Inside Anthropic’s Quest to Instill Morality Into Its A.I. Models - The New York Times",
+      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5Oem5hSlF0RzhoVzdJVjhkREdkWlo0eWU4VDR3aVRsMXVzT3JuRlV1VGc4UVV2dkpKc28wdFAxY2VkczNXdmFzUWRPUzQ4bFBJVHZFWU8wYnV5RHdBdGpMcHR0aWdwcXBXZVotUHB4R1o2QXNGQV9vMA?oc=5",
+      "summary": "Is Claude Conscious? Inside Anthropic’s Quest to Instill Morality Into Its A.I. Models The New York Times",
+      "date": "2026-09-29T13:55:56Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -64,7 +112,7 @@
       "title": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it - Mashable",
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZmVllHd3ZISlAtUEZSa0xkaExzZ1RfNl9LU2dGZUdiU0xNb1FLZlNlMldSc2pFWnFVbEhPbDRKbG50bXlNVVRqcEpOUEl0VTdhZXpabFg0N29fbXVMYlM5TlVSU1hDZFU1NUxnd2N3SzNVb0dvMlRQbmJtSnVDcQ?oc=5",
       "summary": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it Mashable",
-      "date": "2026-09-28T19:16:24Z"
+      "date": "2026-09-28T19:20:57Z"
     },
     {
       "source": "Google News — Canva Updates",
@@ -73,6 +121,14 @@
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNNGotM2d6bGNNYlBNUXRnakFOcWpkVS0zdk5IbURLcTdoMEZGbC1iZXVZbDcyM3Y4Ny1XdnlURUZaYkJKeHNWNlljMGo3QVdkVEJocmVKTmJLeHRCZ1VSa1JMNnlxdGp0ZGNlUmpfLXZ4eXBMUl83ZDI4NC1zZ1dCc1l3WW5ETTNDNFVLQXNyZVd0Rm9vSVN4ZlU1NllQeE9aU01tdFYzUUx1V2JUcU9EZm5PV3lReEIxWEhnWUkxY2ZIRHZTazVPR3BQUkdmNzB1cWlz?oc=5",
       "summary": "Affinity update brings deeper RAW development, Mixed Light Correction and Motion Blur Reduction Camera Jabber",
       "date": "2026-09-28T19:00:00Z"
+    },
+    {
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The latest Microsoft Office 2024 Professional Plus suite is $39 in this limited-time deal - TechSpot",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02U3d5M09xTkFWTWRLOTVYdThSTUhxSW02RzJBd19fOHpHV1d4ZjUxOGg5bTFVV1ZPcUVwMlNtSEc2dHZXdmxTTWJyUzJTUDhOUFZvUnUySlNFUFNBNGIzNGpoS29CdEJKRHlGQ3BYT0VEVnhlcnc4djB2OEJFemc?oc=5",
+      "summary": "The latest Microsoft Office 2024 Professional Plus suite is $39 in this limited-time deal TechSpot",
+      "date": "2026-09-28T18:51:00Z"
     },
     {
       "source": "Claude Code Releases",
@@ -99,14 +155,6 @@
       "date": "2026-09-27T21:49:40Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "https://chromereleases.googleblog.com/2026/09/beta-channel-update-for-chromeos_02070773832.html",
-      "summary": "The Beta channel is being updated to OS version 16820.11.0 (Browser version 155.0.8059.18) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
-      "date": "2026-09-26T00:47:51Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.283",
@@ -121,14 +169,6 @@
       "link": "https://workspaceupdates.googleblog.com/2026/09/weekly-recap-09-25-2026.html",
       "summary": "Use AI to supercharge your financial analysis with Workday for Google Sheets Use AI to supercharge your financial analysis with Workday for Google Sheets Google Sheets Rapid Release Scheduled Release…",
       "date": "2026-09-25T19:00:43Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "View up to three time zones in Google Calendar on the web",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/view-up-to-three-time-zones-in-google-Calendar-on-the-web.html",
-      "summary": "We’re making it easier to schedule and coordinate meetings across global teams by expanding time zone support in Google Calendar on the web. You can now configure and display up to three time zones—a…",
-      "date": "2026-09-25T16:37:17Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -155,35 +195,11 @@
       "date": "2026-09-24T18:38:05Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Now in beta: Import and convert your PowerPoint files to client-side encrypted Slides",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/now-in-beta-import-and-convert-your.html",
-      "summary": "Eligible customers can now import PowerPoint files as client-side encrypted (CSE) Slides, allowing users to access and edit content. This enables interoperability with Microsoft Office, with this…",
-      "date": "2026-09-24T18:06:25Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Assign temporary administrator roles in the Google Admin console",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/assign-temporary-administrator-roles-in-the-Google-Admin-console.html",
-      "summary": "Admins can now assign administrator roles to users, groups, or service accounts for a defined period of time. Once the expiration time is reached, the access granted by the role is automatically…",
-      "date": "2026-09-23T21:23:09Z"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.281",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.281",
-      "summary": "What's changed Added Claude apps gateway support for newer Claude Desktop keys in desktop policy blocks, including blockReadsOutsideWorkingDirectories and disableBypassPermissionsMode Added…",
-      "date": "2026-09-23T19:19:15Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "ChatGPT mobile app gets voice-based agentic features - TechCrunch",
+      "title": "ChatGPT mobile app gets voice-based agentic features - techcrunch.com",
       "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNRlBtX3g3djVGVFllRFhGVGw1bDV6bnVvd0l0Uzk5NGRmbW1McDVWQVhZMV8zRUl4N0tseUlBSmpqUjhrSzB1aEtMU1pvT0NCNkRUeHZsWC1vOG00WGxvS3lpQTR3aHVBazgtU2NRd3hJWDY4Rl9uWlM0WWpqWTZPQTRVel9WOUlQbkF3enliQUM?oc=5",
-      "summary": "ChatGPT mobile app gets voice-based agentic features TechCrunch",
+      "summary": "ChatGPT mobile app gets voice-based agentic features techcrunch.com",
       "date": "2026-09-23T17:00:00Z"
     },
     {
@@ -197,9 +213,9 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
-      "title": "Introducing Claude Opus 5.5 - Anthropic",
+      "title": "Introducing Claude Opus 5.5 - anthropic.com",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
-      "summary": "Introducing Claude Opus 5.5 Anthropic",
+      "summary": "Introducing Claude Opus 5.5 anthropic.com",
       "date": "2026-09-22T07:00:00Z"
     },
     {
@@ -251,11 +267,19 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.5 - openai.com",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
+      "summary": "Introducing ChatGPT Images 2.5 openai.com",
+      "date": "2026-09-08T07:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
+      "title": "Microsoft is cutting off new Office features on Windows 10 soon - pcworld.com",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
-      "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
+      "summary": "Microsoft is cutting off new Office features on Windows 10 soon pcworld.com",
       "date": "2026-08-13T14:58:37Z"
     },
     {
@@ -269,26 +293,10 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
+      "title": "Launching Health in ChatGPT - openai.com",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
+      "summary": "Launching Health in ChatGPT openai.com",
       "date": "2026-07-23T07:00:00Z"
-    },
-    {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What Is the Latest Version of Microsoft Office in 2026? - Online Tech Tips",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1ZQYk44cUNXeEppVGlYMWZBdnBxLWtKUTZwQk5SbmN2VUtEZ1JpcTJlRzlBcVdaLW1xRzhUcV96WDFSVnNHaWZKN3BZUjJhQ1lyMDdDTWJXWERQZ3R5NS12UC1STXdyWGFyWFRFaHA2OFkzTjFoTnE5TFZ1NHAzSjh1M05UUXc?oc=5",
-      "summary": "What Is the Latest Version of Microsoft Office in 2026? Online Tech Tips",
-      "date": "2026-07-16T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing GPT-Live - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
-      "summary": "Introducing GPT-Live OpenAI",
-      "date": "2026-07-08T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -301,18 +309,10 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "OpenAI fixed a visibility problem; the governance problem remains. - InfoWorld",
+      "title": "OpenAI fixed a visibility problem; the governance problem remains. - infoworld.com",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbkdRcmRNRlI2YUNHMTZFYklZbnFOZTdad1RIZXFkT0MxU2NwTW1NcXZzTm0tNUNZWnl2VVNMZWJxYWlsRjk0ZGI1SzIzQjMwSDl5cjZGaEM3N3FtcjZuS3lCWWp1ZjhHWi1RRDByNFhtRGk5UzBhTUVncm1JaUdMR3QtSTRaZWZ4MmpqV1I0MFlNLWxxTmRMdFRFR1dJVEprLUJuUDRxWGxFR2xkU0dlRA?oc=5",
-      "summary": "OpenAI fixed a visibility problem; the governance problem remains. InfoWorld",
+      "summary": "OpenAI fixed a visibility problem; the governance problem remains. infoworld.com",
       "date": "2026-06-03T07:00:00Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
-      "date": "2026-05-29T07:00:00Z"
     },
     {
       "source": "Google News — Canva Updates",
