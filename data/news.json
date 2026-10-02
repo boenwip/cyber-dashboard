@@ -1,13 +1,33 @@
 {
-  "last_updated": "2026-10-02T00:43:11Z",
-  "count": 59,
+  "last_updated": "2026-10-02T05:24:29Z",
+  "count": 61,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Exabeam adds AI tools for agentic security operations",
-      "link": "https://securitybrief.com.au/story/exabeam-adds-ai-tools-for-agentic-security-operations",
-      "summary": "Security teams could cut investigation time from hours to minutes as Exabeam adds AI tools for triage, reporting and local deployment.",
-      "date": "2026-10-01T23:22:00Z",
+      "title": "TrendAI launches autonomous vulnerability discovery on AWS",
+      "link": "https://securitybrief.com.au/story/trendai-launches-autonomous-vulnerability-discovery-on-aws",
+      "summary": "The service keeps source code inside customers' AWS environments while using human review to cut false positives and verify fixes.",
+      "date": "2026-10-02T03:22:57Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Broadcom launches TrueSource to bolster open source security",
+      "link": "https://securitybrief.com.au/story/broadcom-launches-truesource-to-bolster-open-source-security",
+      "summary": "It widens Broadcom's support model beyond Spring, giving customers verified fixes for Java, Python, Node.js and data services as vulnerabilities surge.",
+      "date": "2026-10-02T03:11:21Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "KnowBe4 adds browser extension to curb shadow AI use",
+      "link": "https://securitybrief.com.au/story/knowbe4-adds-browser-extension-to-curb-shadow-ai-use",
+      "summary": "The browser add-on gives security teams real-time ways to warn or block staff from sending company data to unsanctioned AI tools.",
+      "date": "2026-10-02T02:04:05Z",
       "tags": [
         "AI & Tools"
       ]
@@ -23,29 +43,14 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "OpenAI takes on Meta with dots agent",
-      "link": "https://www.itnews.com.au/news/openai-takes-on-meta-with-dots-agent-629332?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "In autonomous AI push.",
-      "date": "2026-09-30T10:47:00Z",
+      "source": "Google News — Guardian AU Cyber",
+      "title": "California issues investigative subpoena to OpenAI over rogue agents’ hacking - theguardian.com",
+      "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZDRjNlRLem5OVV9vMEJTR09fbkliOXJTNVg4RXMwempEZk9Mc1RfNzVVTUUtbVNINDR3REJPVUtpYnpuc2xvV1lMOFd6ZEtZbVpVMjFZSUhBZE56NjNJWHJqbWQ1YVV6NTJWOE9vNW1ScGtfVHpMei1UM19hb2hwQlVrWEpLdjFBSHZYdC1rY1psX3FV?oc=5",
+      "summary": "California issues investigative subpoena to OpenAI over rogue agents’ hacking theguardian.com",
+      "date": "2026-10-01T19:01:00Z",
       "tags": [
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Google News — Guardian AU Cyber",
-          "title": "California issues investigative subpoena to OpenAI over rogue agents’ hacking - theguardian.com",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPZDRjNlRLem5OVV9vMEJTR09fbkliOXJTNVg4RXMwempEZk9Mc1RfNzVVTUUtbVNINDR3REJPVUtpYnpuc2xvV1lMOFd6ZEtZbVpVMjFZSUhBZE56NjNJWHJqbWQ1YVV6NTJWOE9vNW1ScGtfVHpMei1UM19hb2hwQlVrWEpLdjFBSHZYdC1rY1psX3FV?oc=5",
-          "date": "2026-10-01T19:01:00Z"
-        },
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "OpenAI pauses training of its most capable artificial intelligence models",
-          "link": "https://australiancybersecuritymagazine.com.au/openai-pauses-training-of-its-most-capable-artificial-intelligence-models/?utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models&utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models",
-          "date": "2026-10-01T00:54:05Z"
-        }
-      ],
-      "latest": "2026-10-01T19:01:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -58,32 +63,21 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "StackHawk launches Wingman to fix flaws in AI coding",
-      "link": "https://securitybrief.com.au/story/stackhawk-launches-wingman-to-fix-flaws-in-ai-coding-ef549c9a-889b-433f-a910-781b5d383b5b",
-      "summary": "The tool aims to close security gaps left by AI-written code before vulnerabilities reach security backlogs or pull requests.",
-      "date": "2026-10-01T07:15:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI pauses training of its most capable artificial intelligence models",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-pauses-training-of-its-most-capable-artificial-intelligence-models/?utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models&utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models",
+      "summary": "OpenAI has paused training of its most capable artificial intelligence models as the company investigates a growing number of incidents involving AI agents bypassing security controls and taking unintended actions [...]",
+      "date": "2026-10-01T00:54:05Z",
       "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "iManage links ChatGPT Enterprise to governed knowledge",
-      "link": "https://securitybrief.com.au/story/imanage-links-chatgpt-enterprise-to-governed-knowledge",
-      "summary": "Law firms can now use ChatGPT Enterprise to search governed iManage files without losing permissions, audit trails or version history.",
-      "date": "2026-10-01T07:00:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
+        "AI & Tools"
       ]
     },
     {
       "source": "ACSC (via Google News)",
-      "title": "Protect your organisations’ AI services",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQci1BenBQenVMWlpoSm5ZSF9iRUlRbFZBX0dVcWN4UXNEc3gzb1BzalBheWxLOHo3QnZRclowdmFwWDBod05LNE14WFJRb1lYM3Nwc2xlY1RsR19fVmc1SXdiTk54bVpaVnFDeWdLMWZFYXRyWkw3Q1RLc1ROZGhlaDR1ZnJkTXZDek9Na19HclJrVVhydHJyM0M3eGdfYl9yak1mMXVUTUNVTzNUWndjYQ?oc=5",
-      "summary": "Protect your organisations’ AI services Cyber.gov.au",
-      "date": "2026-09-28T06:09:29Z",
+      "title": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products",
+      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeUgyN2dOcHBaZ2VQZzl4cmVzcEwzOFJ0NkhCd3JYMkhNY0UyQ0dUMjE2Q2d5Uk9YbGJTTjVwRWJzY21qSllBOWNCaTd1S3RJdk9wU3VHbnV6MVdoYmZYWEtVWVBaWG9YdFJ6WGNKU0tPUWJMRFpQTFd6UzRueHh4MThIbWJnNWdsYVpGUHdnd0VpTkMxVjVWYkVpMzVobVF2SWxfMUtlTkhvakRYck1PX0c4dVhuU3JCWkZnTDFqcGhqNUZ0RV9SZ2xndHNCdTgtMGJxb3BrQjg3dXhLbmlpOUt4MXFjZmZBRDd4a1M5WDg?oc=5",
+      "summary": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products Cyber.gov.au",
+      "date": "2026-09-27T23:54:33Z",
       "tags": [
         "AU Cyber"
       ],
@@ -140,14 +134,23 @@
       ]
     },
     {
-      "source": "Google News — Guardian AU Cyber",
-      "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
-      "summary": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns theguardian.com",
-      "date": "2026-09-30T16:13:00Z",
+      "source": "iTnews",
+      "title": "OpenAI takes on Meta with dots agent",
+      "link": "https://www.itnews.com.au/news/openai-takes-on-meta-with-dots-agent-629332?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "In autonomous AI push.",
+      "date": "2026-09-30T10:47:00Z",
       "tags": [
         "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Google News — Guardian AU Cyber",
+          "title": "OpenAI announces ‘dots’ agent after scrapping launch of new AI model over safety concerns - theguardian.com",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUjJKXy1xWWNFX3hLZktkaW5tZ2Q3cHoyZ3FnTDRHM2hQSlFjRVJ5X253RUNmZTg5VjJtOUFnMlhpZHN5VU5meVFGTWRFbWprUnBrb3pnMjl1bjJIUWdjQ2ZXa0w5V2g0X3E4ODloa0FmTXc3MTlHMDBQZFh6LXpYbTUwbVBYcTZSMEh1MXRQbFdyRFdBbzhPbmFn?oc=5",
+          "date": "2026-09-30T16:13:00Z"
+        }
+      ],
+      "latest": "2026-09-30T16:13:00Z"
     },
     {
       "source": "Dark Reading",
@@ -231,22 +234,15 @@
       ]
     },
     {
-      "source": "ACSC (via Google News)",
-      "title": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products",
-      "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeUgyN2dOcHBaZ2VQZzl4cmVzcEwzOFJ0NkhCd3JYMkhNY0UyQ0dUMjE2Q2d5Uk9YbGJTTjVwRWJzY21qSllBOWNCaTd1S3RJdk9wU3VHbnV6MVdoYmZYWEtVWVBaWG9YdFJ6WGNKU0tPUWJMRFpQTFd6UzRueHh4MThIbWJnNWdsYVpGUHdnd0VpTkMxVjVWYkVpMzVobVF2SWxfMUtlTkhvakRYck1PX0c4dVhuU3JCWkZnTDFqcGhqNUZ0RV9SZ2xndHNCdTgtMGJxb3BrQjg3dXhLbmlpOUt4MXFjZmZBRDd4a1M5WDg?oc=5",
-      "summary": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products Cyber.gov.au",
-      "date": "2026-09-27T23:54:33Z",
+      "source": "Dark Reading",
+      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+      "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
+      "date": "2026-09-29T14:19:43Z",
       "tags": [
         "AU Cyber"
       ],
-      "official": true,
       "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-          "date": "2026-09-29T14:19:43Z"
-        },
         {
           "source": "Australian Cyber Security Magazine",
           "title": "ACSC warns of actively exploited vulnerabilities in Citrix NetScaler products",
@@ -284,9 +280,9 @@
         },
         {
           "source": "Australian Cyber Security Magazine",
-          "title": "OpenAI agent breached Australian Medicare statistics portal, Prime Minister says",
-          "link": "https://australiancybersecuritymagazine.com.au/openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says",
-          "date": "2026-09-23T21:44:09Z"
+          "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
+          "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
+          "date": "2026-09-25T00:42:58Z"
         }
       ],
       "latest": "2026-09-29T11:04:00Z"
@@ -358,6 +354,17 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Protect your organisations’ AI services",
+      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQci1BenBQenVMWlpoSm5ZSF9iRUlRbFZBX0dVcWN4UXNEc3gzb1BzalBheWxLOHo3QnZRclowdmFwWDBod05LNE14WFJRb1lYM3Nwc2xlY1RsR19fVmc1SXdiTk54bVpaVnFDeWdLMWZFYXRyWkw3Q1RLc1ROZGhlaDR1ZnJkTXZDek9Na19HclJrVVhydHJyM0M3eGdfYl9yak1mMXVUTUNVTzNUWndjYQ?oc=5",
+      "summary": "Protect your organisations’ AI services Cyber.gov.au",
+      "date": "2026-09-28T06:09:29Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "Researchers ‘get AI drunk’ to test chatbot cyber risks, UNSW study finds",
       "link": "https://australiancybersecuritymagazine.com.au/researchers-get-ai-drunk-to-test-chatbot-cyber-risks-unsw-study-finds/?utm_source=rss&utm_medium=rss&utm_campaign=researchers-get-ai-drunk-to-test-chatbot-cyber-risks-unsw-study-finds&utm_source=rss&utm_medium=rss&utm_campaign=researchers-get-ai-drunk-to-test-chatbot-cyber-risks-unsw-study-finds",
@@ -389,16 +396,6 @@
     },
     {
       "source": "Google News — Guardian AU Cyber",
-      "title": "OpenAI halts training of latest models as reports mount of AI agents going rogue - theguardian.com",
-      "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdWZCRDBDd0E2YnBTeGJZNXhZLURBOXlJZTR2dGhwY0c1bWlNX3N6MkhWcVRiSF9oNjJLWmJfY0Nwcy05SFB0RGJ2ckhaNjdueWFxMjdnWHhodFM1MEJkRXVnUzJZTTJidXdGckk1ZkI0RDZRNmVQQXYyTmxtbnJKZFdMNFRMbFhwcWY5RHdFeGpIY3prOVo1RWstRWhPVVRldXgyV1E1Q2FaOEZxSC1rTld2eFFHWnJTcXk2WmgxRG15a0ViblgzYzh3TQ?oc=5",
-      "summary": "OpenAI halts training of latest models as reports mount of AI agents going rogue theguardian.com",
-      "date": "2026-09-27T10:01:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Google News — Guardian AU Cyber",
       "title": "‘Mum, where did my Robux go?’ The Roblox scam targeting children - theguardian.com",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPYXhGa2dTOXMwSXBRZ2EyTzVod2Zlb1dDYnl3VEN3THBIS3FCemhiT0poTjV5bGpDd05FbDF2MG1GMHI0MHhkNXN5M1cxcDMyWUdvbGRlQmI2NHQtNGFDTUw1RWZERExsbGpBZ2h4WTVITGI1QVl4dUpBVlE3ZTJkWjNiUmVFT3Jxb0dWTFJvSDYxUGFZY3NkSzl3UkRpc0pwSUFVU0FFYXc1dw?oc=5",
       "summary": "‘Mum, where did my Robux go?’ The Roblox scam targeting children theguardian.com",
@@ -415,16 +412,7 @@
       "date": "2026-09-25T22:55:00Z",
       "tags": [
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
-          "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
-          "date": "2026-09-25T00:42:58Z"
-        }
-      ],
-      "latest": "2026-09-25T22:55:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -500,9 +488,9 @@
     },
     {
       "source": "Google News — Bleeping Computer AU",
-      "title": "OpenAI hacked Australian Medicare govt site, probed data providers - BleepingComputer",
+      "title": "OpenAI hacked Australian Medicare govt site, probed data providers - bleepingcomputer.com",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWYwVDNPZ1haMXJ0d1BqOGJsMHp1LVlDbFktWUwtQms3Z2xWUVRXeU9yaDBPcm5CTmRwR2xwNUlrNURoT0JaXzFCdTF1SXJQRWREaXg1ejd2ckktbHJkWkZTU2FNYlNJQ3loallxU2N1bTNTXzFUSHhqNnIyM2lfSGRZalV1d3lENWR0eXJJQkNVa0drMHAzWHdLdGRXR2JXYTdvOWdJQUhmWF9MT0JUcmRQVdIBuAFBVV95cUxPb3R2QWxhY29POE54UkFjY2o2a21OVVhGaHBndHhWU3FkZlB6UmoyZGZsRV9ZZUYtRVJxcXY2NEJRRGhnMVVndXU1bW9tN24tWkczUUM4VkFta05BV09peEVqSlpLQmFsSWtEVFgtU05TSEg2emRPNWIwdnNlYjM5RXRBbUZsYmNjb3M4Q1JsRXhZWlVCLXN4UzltU0s2RVFQaVZlWUNRbXBObmhrak14RXNramZTZ2w0?oc=5",
-      "summary": "OpenAI hacked Australian Medicare govt site, probed data providers BleepingComputer",
+      "summary": "OpenAI hacked Australian Medicare govt site, probed data providers bleepingcomputer.com",
       "date": "2026-09-24T09:38:53Z",
       "tags": [
         "AI & Tools"
@@ -538,6 +526,16 @@
         "AU Cyber"
       ],
       "official": true
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI agent breached Australian Medicare statistics portal, Prime Minister says",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says",
+      "summary": "An artificial intelligence agent developed by OpenAI gained unauthorised access to an Australian Government Medicare statistics portal and viewed public and non-public files, Prime Minister Anthony Albanese has revealed. The [...]",
+      "date": "2026-09-23T21:44:09Z",
+      "tags": [
+        "AI & Tools"
+      ]
     },
     {
       "source": "Dark Reading",
