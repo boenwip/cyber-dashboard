@@ -1,7 +1,25 @@
 {
-  "last_updated": "2026-10-02T11:18:43Z",
+  "last_updated": "2026-10-03T05:08:32Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-102490",
+      "name": "Zammad GmbH Zammad",
+      "description": "Zammad GmbH Zammad contains an improper privilege management vulnerability that can allow the local zammad user to escalate privileges to root. This vulnerability can be chained with CVE-2026-102489.",
+      "date_added": "2026-10-02",
+      "due_date": "2026-10-05",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102490"
+    },
+    {
+      "id": "CVE-2026-102489",
+      "name": "Zammad GmbH Zammad",
+      "description": "Zammad GmbH Zammad contains a session fixation vulnerability that can lead to remote code execution as the zammad user. This vulnerability can be chained with CVE-2026-102490.",
+      "date_added": "2026-10-02",
+      "due_date": "2026-10-05",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102489"
+    },
     {
       "id": "CVE-2026-104286",
       "name": "Fortinet FortiMail",
@@ -73,24 +91,6 @@
       "due_date": "2026-09-28",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902"
-    },
-    {
-      "id": "CVE-2026-5430",
-      "name": "WSO2 Multiple Products",
-      "description": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
-      "date_added": "2026-09-24",
-      "due_date": "2026-09-27",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430"
-    },
-    {
-      "id": "CVE-2026-71362",
-      "name": "Adobe Commerce and Magento",
-      "description": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any…",
-      "date_added": "2026-09-24",
-      "due_date": "2026-09-27",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362"
     }
   ]
 }
