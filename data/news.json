@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-10-04T23:57:44Z",
-  "count": 47,
+  "last_updated": "2026-10-05T05:24:24Z",
+  "count": 45,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "AI, quantum computing and the future of cyber threats",
+      "link": "https://securitybrief.com.au/story/ai-quantum-computing-and-the-future-of-cyber-threats",
+      "summary": "AI is already making cyber attacks faster and cheaper, while quantum computing could soon put trust in data and payments at risk.",
+      "date": "2026-10-05T03:39:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Onside acquires Assura to expand agriculture software",
@@ -33,10 +43,10 @@
       ],
       "coverage": [
         {
-          "source": "Australian Cyber Security Magazine",
-          "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
-          "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
-          "date": "2026-09-25T00:42:58Z"
+          "source": "Google News — The Register AU",
+          "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon - theregister.com",
+          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZzhlckswVUZUMF9Obi1jVmVURVlIZm1mcEhWMkVzYVVLdUM0OTB1TERuWHZuNkd6dEotQWpCR2d1R3Q2amNNRkEtMXpNMVZUbjBJc2s2aW9pd19IZ1lvNHlJN2Zuek9FNHdtSW44cHY5M1kyd1gyWm11OHI1RmpfWHdjdW5lZGdYVGN0MFc0QTR3NTkwNGtiTGpEblhDYXpvb0NoRUJyLXVfcmJBdEZtTjBuSi1VUWgwLTBsMnN4VUFydEZuRV81RkZGdDI3NTBuaHRRb21pREZhZlJzUUhSWHNHb0xIcGU0VGFpOWJGYTE?oc=5",
+          "date": "2026-09-29T02:13:51Z"
         }
       ],
       "latest": "2026-10-04T02:11:00Z"
@@ -72,26 +82,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Fraudulent hires get credentials before detection, HYPR",
-      "link": "https://securitybrief.com.au/story/fraudulent-hires-get-credentials-before-detection-hypr",
-      "summary": "Most fake hires are exposed only after getting system access, leaving companies vulnerable for days and often weeks before a fraud is spotted.",
-      "date": "2026-10-02T15:45:00Z",
-      "tags": [
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Sumo Logic adds AI tools to cut telemetry costs upstream",
-      "link": "https://securitybrief.com.au/story/sumo-logic-adds-ai-tools-to-cut-telemetry-costs-upstream",
-      "summary": "Rising telemetry volumes and AI use are pushing security teams to trim ingestion bills by filtering data before it reaches analytics systems.",
-      "date": "2026-10-02T15:25:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Vulnerability Backlogs Are an Ownership Problem",
       "link": "https://www.darkreading.com/cybersecurity-operations/vulnerability-backlogs-ownership-problem",
@@ -122,14 +112,23 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "OpenAI pauses training of its most capable artificial intelligence models",
-      "link": "https://australiancybersecuritymagazine.com.au/openai-pauses-training-of-its-most-capable-artificial-intelligence-models/?utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models&utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models",
-      "summary": "OpenAI has paused training of its most capable artificial intelligence models as the company investigates a growing number of incidents involving AI agents bypassing security controls and taking unintended actions [...]",
-      "date": "2026-10-01T00:54:05Z",
+      "source": "Google News — The Register AU",
+      "title": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought - theregister.com",
+      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQTDhvci1YRDNGUGt1ZVRmcHo4R2hKU3N3d2s5NEw1ZVN6NGc5azVoTkc4MWNkdTh5MjVZb3hDV3loWjNISjFuQkVqS2UxVzR6aFVENHJNb1JsWURacnJBcWRlTEh1Y0ZyYTNfakE2NW8yc3JhdEhQWGFUTFh3VHJnVmhWeXN0VFBDLXhkM3ZIdGhvQlAxZS1rdU5reFNnTGlOMlRub01RMC04dk95cTRtTDJ2aFNzdjI0LTVEendsWS11OUVobTR0Q0ExY0dwZGhERk51Z0ZHdWswRjFkZGV0eGpBZmlPWXF0YlJoRw?oc=5",
+      "summary": "OpenAI pauses some training amid allegations its rogue agents behaved more badly than first thought theregister.com",
+      "date": "2026-09-28T05:30:50Z",
       "tags": [
         "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "OpenAI pauses training of its most capable artificial intelligence models",
+          "link": "https://australiancybersecuritymagazine.com.au/openai-pauses-training-of-its-most-capable-artificial-intelligence-models/?utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models&utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models",
+          "date": "2026-10-01T00:54:05Z"
+        }
+      ],
+      "latest": "2026-10-01T00:54:05Z"
     },
     {
       "source": "ACSC (via Google News)",
@@ -310,14 +309,24 @@
       "summary": "Authorities in the Netherlands have arrested a 23-year-old convicted cybercriminal on suspicion of aiding in data thefts and extortions by the prolific hacker group ShinyHunters. In the days immediately following the suspect's arrest, remaining ShinyHunters members dramatically escalated their…",
       "date": "2026-09-28T15:08:57Z",
       "tags": [
-        "AU Cyber"
-      ]
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "What We Missed: Google Gemini Joins the AI Escape Party",
+          "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
+          "date": "2026-09-25T17:56:23Z"
+        }
+      ],
+      "latest": "2026-09-28T15:08:57Z"
     },
     {
       "source": "ACSC (via Google News)",
-      "title": "Protect your organisations’ AI services",
+      "title": "Protect your organisation's AI services",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQci1BenBQenVMWlpoSm5ZSF9iRUlRbFZBX0dVcWN4UXNEc3gzb1BzalBheWxLOHo3QnZRclowdmFwWDBod05LNE14WFJRb1lYM3Nwc2xlY1RsR19fVmc1SXdiTk54bVpaVnFDeWdLMWZFYXRyWkw3Q1RLc1ROZGhlaDR1ZnJkTXZDek9Na19HclJrVVhydHJyM0M3eGdfYl9yak1mMXVUTUNVTzNUWndjYQ?oc=5",
-      "summary": "Protect your organisations’ AI services Cyber.gov.au",
+      "summary": "Protect your organisation's AI services Cyber.gov.au",
       "date": "2026-09-28T06:09:29Z",
       "tags": [
         "AU Cyber"
@@ -346,22 +355,22 @@
     },
     {
       "source": "Dark Reading",
-      "title": "What We Missed: Google Gemini Joins the AI Escape Party",
-      "link": "https://www.darkreading.com/cyber-risk/what-we-missed-google-gemini-ai-escape-party",
-      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from Google Gemini models breaking containment to ShinyHunters ratting on TeamPCP hackers.",
-      "date": "2026-09-25T17:56:23Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
       "title": "Stopping IT Worker Scams Requires Revamped HR Process",
       "link": "https://www.darkreading.com/cyber-risk/stopping-it-worker-scams-revamped-hr-process",
       "summary": "Training human-resource managers in the latest tactics and warning signs goes a long way toward blunting the threat, but automated analysis can help even more.",
       "date": "2026-09-25T14:46:13Z",
       "tags": [
         "Scams"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
+      "summary": "The Australian Government has launched a multi-agency review after Prime Minister Albanese disclosed in New York yesterday that an OpenAI artificial intelligence model interacted with four government websites, including an [...]",
+      "date": "2026-09-25T00:42:58Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -416,6 +425,12 @@
         "AI & Tools"
       ],
       "coverage": [
+        {
+          "source": "Google News — The Register AU",
+          "title": "OpenAI agents ‘infiltrated Australian government website’ - theregister.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSmphV1RqZnlfTklodDdXdnduT3pOVHNTem9pYjRmYzNWd1dKVDV5ZG5Cd3ZQWW5VQzhIMXVQOTRVQmlwZXFMUUtMdnItcjlUbzRXTm1EbGRjX0g4YkJRUHZoRjM3a0MtMGJnbEw2dmR2V0h5U2V4Z09VNlY1UjkxWDNhanBHMU5hV0k0V0JaMjY3LUVTUUIwemV2ZGE3M3RnMWgtT01XOWZZb0NWd3RlUA?oc=5",
+          "date": "2026-09-24T07:00:00Z"
+        },
         {
           "source": "Australian Cyber Security Magazine",
           "title": "OpenAI agent breached Australian Medicare statistics portal, Prime Minister says",
@@ -514,17 +529,6 @@
       "summary": "Unbounded consumption is an issue that OWASP currently ranks sixth in its Top 10 for LLM Applications, and it could be an extremely costly one.",
       "date": "2026-09-21T21:39:59Z",
       "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Survey finds 84% of Australians expect AI to increase cybercrime",
-      "link": "https://australiancybersecuritymagazine.com.au/survey-finds-84-of-australians-expect-ai-to-increase-cybercrime/?utm_source=rss&utm_medium=rss&utm_campaign=survey-finds-84-of-australians-expect-ai-to-increase-cybercrime&utm_source=rss&utm_medium=rss&utm_campaign=survey-finds-84-of-australians-expect-ai-to-increase-cybercrime",
-      "summary": "New research from Sekuro and Women in Digital has found 84% of Australians believe artificial intelligence will increase the rate of cybercrime, as most respondents report already using AI tools. [...]",
-      "date": "2026-09-21T04:53:48Z",
-      "tags": [
-        "AU Cyber",
         "AI & Tools"
       ]
     }
