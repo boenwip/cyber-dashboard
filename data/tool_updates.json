@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-10-05T12:34:43Z",
+  "last_updated": "2026-10-06T01:45:02Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.290",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290",
+      "summary": "What's changed Added serverToolUses to the result of a mod's turn.step hook: the tool calls the API ran itself (the advisor), each with its id, name, input, start and end Added agentId to the…",
+      "date": "2026-10-05T23:33:17Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Use stock charts in Sheets to better visualize price movements",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/use-stock-charts-in-sheets-to-better-visualize-price-movements.html",
+      "summary": "Google Sheets now supports new types of stock charts, making it easier to visualize price movement over time. Stock charts condense several price points for each time period into a single marker, so…",
+      "date": "2026-10-05T20:42:28Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "https://chromereleases.googleblog.com/2026/10/beta-channel-update-for-chromeos.html",
+      "summary": "The Beta channel is being updated to OS version 16820.18.0 (Browser version 155.0.8059.31) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
+      "date": "2026-10-05T19:23:08Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Preview, edit and collaborate on Markdown (.md) files natively across Drive and Docs",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html",
+      "summary": "We are introducing the ability to view, edit, and collaborate on Markdown (.md or .markdown) files directly in Google Docs, as well as view rendered previews in Google Drive. Markdown is a standard…",
+      "date": "2026-10-05T18:15:32Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Secondary calendars will now follow the lifecycle of their owner",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/secondary-calendars-will-now-follow-the-lifecycle-of-their-owner.html",
+      "summary": "As announced earlier this year , we are now rolling out the secondary calendar lifecycle changes for non-personal Workspace accounts: secondary calendars will now follow the lifecycle of their owner…",
+      "date": "2026-10-05T17:16:27Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -59,28 +99,12 @@
       "date": "2026-10-02T04:02:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Fable 5.5: Rumors, Evidence and Live Updates - Kingy AI",
-      "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1YcWZvYVNTeHBQT0lEeWFVOExxaEswcG9DQlBmQzJLLW1QRkhQVkM1cWpmZDFIUkFzMWlUVW1fNDFSZTVxbTN2bVZQeFZlemRU?oc=5",
-      "summary": "Claude Fable 5.5: Rumors, Evidence and Live Updates Kingy AI",
-      "date": "2026-10-02T03:31:49Z"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
       "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update.html",
       "summary": "Hi, everyone! We've just released Chrome 154 (154.0.8037.126) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
       "date": "2026-10-02T02:25:42Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop.html",
-      "summary": "The Stable channel has been updated to 154.0.8037.97/.98 for Windows and Mac and 154.0.8037.97 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
-      "date": "2026-10-02T01:04:35Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -107,30 +131,6 @@
       "date": "2026-10-01T18:43:19Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Find your learning tools all in one place with the student hub in Gemini",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/find-your-learning-tools-all-in-one-place-with-the-student-hub-in-Gemini.html",
-      "summary": "We recently announced a new, dedicated hub in the Gemini app to help get students started with all of Gemini's learning tools. Initially available in personal accounts, the Gemini student hub is now…",
-      "date": "2026-10-01T16:22:17Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Simple setup option for Workspace Client-side encryption",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/simple-setup-option-for-workspace-client-side-encryption.html",
-      "summary": "We are introducing a new option which can make the initial setup of Google Workspace Client-side encryption (CSE) significantly easier and faster for admins. CSE now supports a simple setup path in…",
-      "date": "2026-10-01T16:03:07Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Programmatic comment and suggestion support now available in the Google Docs, Sheets, and Slides APIs",
-      "link": "https://workspaceupdates.googleblog.com/2026/09/programmatic-comment-and-suggestion.html",
-      "summary": "Developers can now programmatically create, read, and manage comments across Google Docs, Sheets, and Slides using their respective developer APIs. In Google Docs, this update also introduces API…",
-      "date": "2026-09-30T21:26:19Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in September 2026 - Neowin",
@@ -145,14 +145,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.286",
       "summary": "What's changed Added a count such as \"2 of 5\" to the permission prompt when several permission requests stack up Added mouse support for the \"N more\" rows of lists in fullscreen mode: click one to…",
       "date": "2026-09-30T19:10:13Z"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.285",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.285",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_WEB_FETCH environment variable to turn off the WebFetch tool Added claude --desktop to open the Claude desktop app on the current directory, or on a session…",
-      "date": "2026-09-29T19:27:30Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -195,14 +187,6 @@
       "date": "2026-09-28T18:51:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
-      "date": "2026-09-25T12:07:25Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog",
@@ -221,6 +205,14 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
+      "title": "Anthropic launches new update to Claude – after telling the world to slow down AI - The Independent",
+      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONmVUNGx6WjhGNjgtazJjNDFiREo2azFvTXd3YTlLT1RSVjNPSjk3WVlSZTc5Q0VjcTNEUkx6WUNYc012OWp0RkxIU0tYamNucVd6VDhmU096cHp2bzlNQUd6dEIyV1N1Y0FlUEZ1Nk1qUHVwVTJuWlQ4MFdpdUFvVVp3cjN0MFozWHFKcUVVdUhRQU0?oc=5",
+      "summary": "Anthropic launches new update to Claude – after telling the world to slow down AI The Independent",
+      "date": "2026-09-23T07:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
       "title": "Introducing Claude Opus 5.5 - Anthropic",
       "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9xbTN1a0tOdm9kT0JxbVBHMU9XYUhpUjd0MHNFYm8yd2pRMnhjdEYzdjF3ckZEY1V0a2ZQTXlyRUhteVozMlhDbVQ3Mm1KWlRYbUVF?oc=5",
       "summary": "Introducing Claude Opus 5.5 Anthropic",
@@ -235,12 +227,28 @@
       "date": "2026-09-22T07:00:00Z"
     },
     {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price - VentureBeat",
+      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQcml5V2NScmlDMmg0VXdZR3AyXzJlTHlzRnJ5S05mMHNxQ2ZjSmwwV2tVcWx5RXE4V3JJWWh3MXlKdXdlNno4MVAwaGdXcVVJYm9TNGx5bWgxZjM1dm1VR0ppRGNsRTVZc1UwVkJuRmIwLTFoYnJkUE9sU0taS3Z2dVd6X1VwMEc3SVlJNDhyWWtSMGdlRC01VGQ0bngtWDhLY2ZzSUU3SWFJcnNSRldWdnVHejRKdV9GOEhOUzNiUFFHQmd4Mko0ZjctT0k0STJzVm93?oc=5",
+      "summary": "Anthropic releases Claude Opus 5.5, beating Fable 5.1 on key agentic benchmarks at 60% cheaper API price VentureBeat",
+      "date": "2026-09-22T07:00:00Z"
+    },
+    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Affinity 3.3 shows that Canva is serious about taking on Adobe - Creative Bloq",
       "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdGJsdzhHNlRPT056R09mTFNoX004WlE1VDl1c0QyU2pMOFlBLWczMVV0QXpFZVBrYTdhQjJVakVoaEJXd3NjME1DOV9PQkQ2eFpORVp0ZkxVbXcyaXc3d0ZZcERXU1NvN3h1MmNIMFFJS3hZR1VHdklzOEFFZWxObzFueTJJWUN0X0U3SXpxUmJpQXNaWXBQMHNicDhkZmZrUDg2TEhFSmhoN0M2a3hrRjQzbDE?oc=5",
       "summary": "Affinity 3.3 shows that Canva is serious about taking on Adobe Creative Bloq",
       "date": "2026-09-21T07:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic says its model Claude is helping to build the next version of itself - AP News",
+      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTGVRMWttSER2aTljc2w3RjQ4WVNSQno4Z3FmaUVGSmllOXFKRzkzUmJXT2R6MHhZSzhaTVp2RTBXSzNJNzQ3YThfNmdWNUdEN0dNUXhwRWdxa0p0V2FFaGtlRHVHLUpmdDctWDg1N2ZnM2FWeVFZXzJOS2g5T05yYnZPYmJOMzdqeDAwUlNvMFV1TDc0MDhoVjVvVXhyRmRwQUVGdg?oc=5",
+      "summary": "Anthropic says its model Claude is helping to build the next version of itself AP News",
+      "date": "2026-09-17T07:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -275,6 +283,14 @@
       "date": "2026-09-08T07:00:00Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
+      "date": "2026-09-03T15:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
@@ -291,22 +307,6 @@
       "date": "2026-06-21T07:00:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Why the US government shut down Anthropic’s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
-      "date": "2026-06-15T07:00:00Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
-      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
-      "date": "2026-05-29T07:00:00Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
@@ -317,9 +317,9 @@
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - cgchannel.com",
+      "title": "Canva releases first major update to its free Affinity software - CG Channel",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software cgchannel.com",
+      "summary": "Canva releases first major update to its free Affinity software CG Channel",
       "date": "2026-03-18T07:00:00Z"
     }
   ]
