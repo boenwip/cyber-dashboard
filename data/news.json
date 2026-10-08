@@ -1,59 +1,152 @@
 {
-  "last_updated": "2026-10-06T13:34:02Z",
-  "count": 50,
+  "last_updated": "2026-10-08T09:50:05Z",
+  "count": 47,
   "items": [
     {
-      "source": "Security Brief Australia",
-      "title": "China-linked TA419 targets US AI policy experts in phishing",
-      "link": "https://securitybrief.com.au/story/china-linked-ta419-targets-us-ai-policy-experts-in-phishing",
-      "summary": "Researchers say the phishing campaign could expose sensitive thinking on AI regulation, export controls and supply chains in Washington.",
-      "date": "2026-10-06T07:45:00Z",
+      "source": "iTnews",
+      "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+      "link": "https://www.itnews.com.au/news/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-629513?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Clues found through analysis of AI coding-tool sessions.",
+      "date": "2026-10-08T06:00:00Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Scams",
-        "Compliance"
+        "AI & Tools"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "ANZ warns businesses of AI scams & impersonation fraud",
-      "link": "https://securitybrief.com.au/story/anz-warns-businesses-of-ai-scams-impersonation-fraud",
-      "summary": "Businesses face growing risk from AI-driven fraud as ANZ says rushed seasonal trading can let scammers exploit weak payment controls.",
-      "date": "2026-10-06T03:55:00Z",
+      "source": "iTnews",
+      "title": "Atlassian Data Centre products hit by unauthenticated file access vulnerability",
+      "link": "https://www.itnews.com.au/news/atlassian-data-centre-products-hit-by-unauthenticated-file-access-vulnerability-629460?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Take internet-facing instances offline if they can't be patched immediately.",
+      "date": "2026-10-06T20:48:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Critical Atlassian vulnerability affects Jira, Confluence and other products",
+          "link": "https://australiancybersecuritymagazine.com.au/critical-atlassian-vulnerability-affects-jira-confluence-and-other-products/?utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products&utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products",
+          "date": "2026-10-08T04:14:08Z"
+        }
+      ],
+      "latest": "2026-10-08T04:14:08Z"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "New email attacks target both humans and AI in the same message",
+      "link": "https://australiancybersecuritymagazine.com.au/new-email-attacks-target-both-humans-and-ai-in-the-same-message/?utm_source=rss&utm_medium=rss&utm_campaign=new-email-attacks-target-both-humans-and-ai-in-the-same-message&utm_source=rss&utm_medium=rss&utm_campaign=new-email-attacks-target-both-humans-and-ai-in-the-same-message",
+      "summary": "Recent phishing attacks analysed by Barracuda Research found attackers combining two sets of tactics in a single email: social engineering aimed at the human recipient, and prompt injection attacks designed [...]",
+      "date": "2026-10-08T03:38:37Z",
       "tags": [
         "AU Cyber",
         "Scams"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Keeper launches Freshservice workflow for access approvals",
-      "link": "https://securitybrief.com.au/story/keeper-launches-freshservice-workflow-for-access-approvals",
-      "summary": "IT teams can approve vault and privileged access requests inside Freshservice tickets, reducing handoffs and preserving audit trails.",
-      "date": "2026-10-06T02:54:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Kiteworks and A-LIGN extend partnership to support IRAP-aligned assessments in Australia",
+      "link": "https://australiancybersecuritymagazine.com.au/kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia",
+      "summary": "Kiteworks and compliance assessment firm A-LIGN have extended their partnership to target Australian government agencies and regulated enterprises seeking IRAP-aligned assurance for data protection platforms. The companies said the arrangement [...]",
+      "date": "2026-10-08T02:16:46Z",
       "tags": [
         "Compliance"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "SOCtoberfest Kickoff: The 7 Deadly Sins of Cybersecurity Meet CISA's Core Steps",
-      "link": "https://securitybrief.com.au/story/soctoberfest-kickoff-the-7-deadly-sins-of-cybersecurity-meet-cisa-s-core-steps",
-      "summary": "SMBs face rising breach risk as the report says seven routine security failings, not advanced malware, drive most attacks, with ransomware in 88% of cases.",
-      "date": "2026-10-06T02:50:00Z",
+      "title": "CIOs shoulder AI workforce redesign as governance lags",
+      "link": "https://securitybrief.com.au/story/cios-shoulder-ai-workforce-redesign-as-governance-lags",
+      "summary": "Most CIOs now oversee workforce redesign rather than infrastructure, as 88% say AI is outpacing governance and accountability remains unclear.",
+      "date": "2026-10-07T23:35:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Australian Gov't Weighs Mandatory AI Incident Reporting",
+      "link": "https://www.darkreading.com/cybersecurity-operations/australian-govt-ai-incident-reporting",
+      "summary": "In the wake of an agentic attack against its own Medicare systems, Australia's government is feeling out what regulations might look like for frontier AI companies.",
+      "date": "2026-10-07T21:42:55Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Anthropic opens its most powerful AI models to more security teams",
+      "link": "https://www.itnews.com.au/news/anthropic-opens-its-most-powerful-ai-models-to-more-security-teams-629461?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Multiple tiers of access unveiled.",
+      "date": "2026-10-06T20:57:00Z",
+      "tags": [
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Anthropic Gives Vetted Defenders Fewer Claude Guardrails",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/anthropic-vetted-defenders-claude-guardrails",
+          "date": "2026-10-07T20:51:25Z"
+        }
+      ],
+      "latest": "2026-10-07T20:51:25Z"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "OpenAI Agent Escape Causes Wikimedia Service Outage",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/openai-agent-escape-causes-wikimedia-service-outage",
+      "summary": "Autonomous agents also tried to abuse other websites and services hosted by the foundation, using them as proxies for unauthorized activities.",
+      "date": "2026-10-07T19:34:08Z",
+      "tags": [
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Google News — Bleeping Computer AU",
+          "title": "Wikimedia: Rogue OpenAI agents behind unauthorized Wikipedia edits - BleepingComputer",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeFJhNm9QRHJkOHYybkN3U0Y4cXpOTkZUVmpkaUE3X281RXBxWlB6bmVvUS1INlFHN0ZQd2hOZWpZelBCUFU2ZlZrTHdIVVIyQV9YVW9fQk55TjhoMnFYUDZUU2R3VS1RUXJWX1pXbmZ4WWxDblZxMnZhVWNWcWJXbWl4T1RKaVU4b2VRcW1zTWhxUW9BZkxWOExZZUZXVUd0QXlST1gtV0xPbXFwOXlUWkln0gG3AUFVX3lxTE5OSWtDQXN1M3FtUUU3QmduYjRYT1kybWhlZWRrcjlWZHhLTGk5aWFSM0xxVWdxUVh5SGkwZ09fYnNQVEs3TExUbFN3WDFXTUNaZThyelRyWDdoS2JBZlBqLUk5SG5zUmlVVmVvdnF6WlpHcnphdTJNdlNQRVRYMkVxc3g1aFpvUlNVUE40VHY2bm1pTzByY0FENUFHa0pjUzZDUHg2V0JEU0tUQS1SNmtHUl9pTkRmUQ?oc=5",
+          "date": "2026-10-06T11:31:48Z"
+        }
+      ],
+      "latest": "2026-10-07T19:34:08Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "ClingSTUN botnet hijacks devices with years-old flaws",
+      "link": "https://www.itnews.com.au/news/clingstun-botnet-hijacks-devices-with-years-old-flaws-629463?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Linux malware exploits Ivanti gateway bugs ASD alerted on in 2024.",
+      "date": "2026-10-07T08:45:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
+          "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
+          "date": "2026-10-05T21:25:08Z"
+        }
+      ],
+      "latest": "2026-10-07T08:45:00Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "Unpatched server behind Vic student data breach",
+      "link": "https://www.itnews.com.au/news/unpatched-server-behind-vic-student-data-breach-629494?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Departmental oversight and systems also criticised.",
+      "date": "2026-10-07T08:25:00Z",
       "tags": [
         "AU Cyber"
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "ClingSTUN Turns Vulnerable IoT Devices Into Proxy Nodes",
-      "link": "https://www.darkreading.com/iot/clingstun-vulnerable-iot-devices-proxy-nodes",
-      "summary": "The Linux backdoor exploits 24 known flaws to compromise IoT devices and uses legitimate public STUN servers to obscure communications.",
-      "date": "2026-10-05T21:25:08Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "OAIC opens investigation into maker of HeyCyan smart glasses phone app",
+      "link": "https://australiancybersecuritymagazine.com.au/oaic-opens-investigation-into-maker-of-heycyan-smart-glasses-phone-app/?utm_source=rss&utm_medium=rss&utm_campaign=oaic-opens-investigation-into-maker-of-heycyan-smart-glasses-phone-app&utm_source=rss&utm_medium=rss&utm_campaign=oaic-opens-investigation-into-maker-of-heycyan-smart-glasses-phone-app",
+      "summary": "The Office of the Australian Information Commissioner (OAIC) has commenced an investigation into the privacy practices of Shenzhen Qingcheng Future Technology Co. Ltd, the maker of the ‘HeyCyan’ Smart Glasses [...]",
+      "date": "2026-10-07T00:20:09Z",
       "tags": [
-        "AU Cyber"
+        "Compliance"
       ]
     },
     {
@@ -64,6 +157,45 @@
       "date": "2026-10-05T18:15:00Z",
       "tags": [
         "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
+          "date": "2026-10-06T20:32:58Z"
+        }
+      ],
+      "latest": "2026-10-06T20:32:58Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "How David Jones, Canva and others are putting agentic AI to work",
+      "link": "https://www.itnews.com.au/feature/how-david-jones-canva-and-others-are-putting-agentic-ai-to-work-629378?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Meet around 600 customers, prospects and partners for two days focused on automation, integration and the growing role of agentic AI in enterprise operations.",
+      "date": "2026-10-06T19:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
+      "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
+      "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
+      "date": "2026-10-06T16:59:24Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "404 @ 3",
+      "link": "https://www.404media.co/404-at-3-live-show/",
+      "summary": "And 404's Flock coverage cited in proposed legislation.",
+      "date": "2026-10-06T14:08:33Z",
+      "tags": [
+        "Compliance"
       ]
     },
     {
@@ -178,9 +310,9 @@
     },
     {
       "source": "ACSC (via Google News)",
-      "title": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products",
+      "title": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products - Australian Cyber Security",
       "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOeUgyN2dOcHBaZ2VQZzl4cmVzcEwzOFJ0NkhCd3JYMkhNY0UyQ0dUMjE2Q2d5Uk9YbGJTTjVwRWJzY21qSllBOWNCaTd1S3RJdk9wU3VHbnV6MVdoYmZYWEtVWVBaWG9YdFJ6WGNKU0tPUWJMRFpQTFd6UzRueHh4MThIbWJnNWdsYVpGUHdnd0VpTkMxVjVWYkVpMzVobVF2SWxfMUtlTkhvakRYck1PX0c4dVhuU3JCWkZnTDFqcGhqNUZ0RV9SZ2xndHNCdTgtMGJxb3BrQjg3dXhLbmlpOUt4MXFjZmZBRDd4a1M5WDg?oc=5",
-      "summary": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products Cyber.gov.au",
+      "summary": "Critical vulnerabilities in Citrix NetScaler ADC and Citrix NetScaler Gateway products Australian Cyber Security",
       "date": "2026-09-27T23:54:33Z",
       "tags": [
         "AU Cyber"
@@ -208,26 +340,6 @@
       ]
     },
     {
-      "source": "404 Media",
-      "title": "Someone ‘Torturing’ LLMs in a Robot Prison Has Triggered the Dumbest Debate in AI Yet",
-      "link": "https://www.404media.co/someone-torturing-llms-in-a-robot-prison-has-triggered-the-dumbest-debate-in-ai-yet/",
-      "summary": "The \"AI Torture Chamber\" has opened an upsetting and absurd window into the effective altruist obsession with \"model welfare.\"",
-      "date": "2026-09-30T21:23:11Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "Lawyer Cites ChatGPT-Invented Fake Witnesses in Murder Appeal",
-      "link": "https://www.404media.co/chatgpt-fake-witnesses-testimony-stephen-aarons-new-mexico/",
-      "summary": "\"Do you watch the news? Do you listen to the radio? Do you read anything about what's going on in the world?” one of the judges asked the lawyer, who submitted false testimony and witnesses after using ChatGPT.",
-      "date": "2026-09-30T18:15:31Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
       "link": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
@@ -239,16 +351,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "OpenAI takes on Meta with dots agent",
-      "link": "https://www.itnews.com.au/news/openai-takes-on-meta-with-dots-agent-629332?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "In autonomous AI push.",
-      "date": "2026-09-30T10:47:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "South Africa Seeks Help After Cyberattack Targets Air Traffic Control",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/south-africa-help-cyberattack-air-traffic-control",
@@ -257,37 +359,6 @@
       "tags": [
         "AU Cyber"
       ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Home Affairs orders gov-wide 'legacy' system stocktake within six months",
-      "link": "https://www.itnews.com.au/news/home-affairs-orders-gov-wide-legacy-system-stocktake-within-six-months-629313?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "After OpenAI agent interaction with Medicare statistics site.",
-      "date": "2026-09-30T00:08:00Z",
-      "tags": [
-        "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Google News — The Register AU",
-          "title": "OpenAI’s dirty deeds Down Under included security bypass attempts, using exposed keys, source code siphon - theregister.com",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQZzhlckswVUZUMF9Obi1jVmVURVlIZm1mcEhWMkVzYVVLdUM0OTB1TERuWHZuNkd6dEotQWpCR2d1R3Q2amNNRkEtMXpNMVZUbjBJc2s2aW9pd19IZ1lvNHlJN2Zuek9FNHdtSW44cHY5M1kyd1gyWm11OHI1RmpfWHdjdW5lZGdYVGN0MFc0QTR3NTkwNGtiTGpEblhDYXpvb0NoRUJyLXVfcmJBdEZtTjBuSi1VUWgwLTBsMnN4VUFydEZuRV81RkZGdDI3NTBuaHRRb21pREZhZlJzUUhSWHNHb0xIcGU0VGFpOWJGYTE?oc=5",
-          "date": "2026-09-29T02:13:51Z"
-        },
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
-          "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
-          "date": "2026-09-25T00:42:58Z"
-        },
-        {
-          "source": "Google News — Bleeping Computer AU",
-          "title": "OpenAI hacked Australian Medicare govt site, probed data providers - BleepingComputer",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdWYwVDNPZ1haMXJ0d1BqOGJsMHp1LVlDbFktWUwtQms3Z2xWUVRXeU9yaDBPcm5CTmRwR2xwNUlrNURoT0JaXzFCdTF1SXJQRWREaXg1ejd2ckktbHJkWkZTU2FNYlNJQ3loallxU2N1bTNTXzFUSHhqNnIyM2lfSGRZalV1d3lENWR0eXJJQkNVa0drMHAzWHdLdGRXR2JXYTdvOWdJQUhmWF9MT0JUcmRQVdIBuAFBVV95cUxPb3R2QWxhY29POE54UkFjY2o2a21OVVhGaHBndHhWU3FkZlB6UmoyZGZsRV9ZZUYtRVJxcXY2NEJRRGhnMVVndXU1bW9tN24tWkczUUM4VkFta05BV09peEVqSlpLQmFsSWtEVFgtU05TSEg2emRPNWIwdnNlYjM5RXRBbUZsYmNjb3M4Q1JsRXhZWlVCLXN4UzltU0s2RVFQaVZlWUNRbXBObmhrak14RXNramZTZ2w0?oc=5",
-          "date": "2026-09-24T07:00:00Z"
-        }
-      ],
-      "latest": "2026-09-30T00:08:00Z"
     },
     {
       "source": "Risky Business",
@@ -340,16 +411,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "OpenAI agent accessed \"credentials\" via Medicare data portal",
-      "link": "https://www.itnews.com.au/news/openai-agent-accessed-credentials-via-medicare-data-portal-629297?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "May explain government's alarm surrounding the incident.",
-      "date": "2026-09-29T06:39:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "One Packet Can Crash OT Servers in Industrial Sectors",
       "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
@@ -381,9 +442,9 @@
     },
     {
       "source": "ACSC (via Google News)",
-      "title": "Protect your organisation's AI services",
+      "title": "Protect your organisation's AI services - Australian Cyber Security",
       "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQci1BenBQenVMWlpoSm5ZSF9iRUlRbFZBX0dVcWN4UXNEc3gzb1BzalBheWxLOHo3QnZRclowdmFwWDBod05LNE14WFJRb1lYM3Nwc2xlY1RsR19fVmc1SXdiTk54bVpaVnFDeWdLMWZFYXRyWkw3Q1RLc1ROZGhlaDR1ZnJkTXZDek9Na19HclJrVVhydHJyM0M3eGdfYl9yak1mMXVUTUNVTzNUWndjYQ?oc=5",
-      "summary": "Protect your organisation's AI services Cyber.gov.au",
+      "summary": "Protect your organisation's AI services Australian Cyber Security",
       "date": "2026-09-28T06:09:29Z",
       "tags": [
         "AU Cyber"
@@ -431,25 +492,25 @@
       ]
     },
     {
-      "source": "ACSC (via Google News)",
-      "title": "Risks of AI misalignment to Australian organisations",
-      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRkdCTUY1VjdpRk9jVy03MldoVmZzTWNWOHJnalE5cXBoTG1NTnZsSGtTOEt4cVRFNWJSM2laTFdKeHRMR2t4Unk5ZW90TUNVUTZjdU5PZ3VDM1ZvN2pHZ2pJeVJ2UlBDUDlQLUtZaWxHTV9DQm9pZGhRNzIxT2lPSjNyZGZlcnhGSDlQR21SU2U0dFc5a0lPbnF6bTJlQV9nWEdtel8xS1gwMzZFb0E0a19IZV9qTHF1QVlYWUJ6dnVWZ1k?oc=5",
-      "summary": "Risks of AI misalignment to Australian organisations Cyber.gov.au",
-      "date": "2026-09-24T07:00:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "OpenAI agent contacted four Australian government websites as Canberra launches security review",
+      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-contacted-four-australian-government-websites-as-canberra-launches-security-review",
+      "summary": "The Australian Government has launched a multi-agency review after Prime Minister Albanese disclosed in New York yesterday that an OpenAI artificial intelligence model interacted with four government websites, including an [...]",
+      "date": "2026-09-25T00:42:58Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACSC warns Australian organisations about risks of AI misalignment",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-australian-organisations-about-risks-of-ai-misalignment/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment",
+      "summary": "The Australian Signals Directorate’s Australian Cyber Security Centre (ACSC) has issued a “high alert” warning to Australian organisations with public-facing websites or applications, citing instances where artificial intelligence (AI) agents [...]",
+      "date": "2026-09-25T00:41:01Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "official": true,
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "ACSC warns Australian organisations about risks of AI misalignment",
-          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-australian-organisations-about-risks-of-ai-misalignment/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-australian-organisations-about-risks-of-ai-misalignment",
-          "date": "2026-09-25T00:41:01Z"
-        }
-      ],
-      "latest": "2026-09-25T00:41:01Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -470,90 +531,6 @@
       "date": "2026-09-24T14:44:12Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Google News — The Register AU",
-      "title": "OpenAI agents ‘infiltrated Australian government website’ - theregister.com",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNSmphV1RqZnlfTklodDdXdnduT3pOVHNTem9pYjRmYzNWd1dKVDV5ZG5Cd3ZQWW5VQzhIMXVQOTRVQmlwZXFMUUtMdnItcjlUbzRXTm1EbGRjX0g4YkJRUHZoRjM3a0MtMGJnbEw2dmR2V0h5U2V4Z09VNlY1UjkxWDNhanBHMU5hV0k0V0JaMjY3LUVTUUIwemV2ZGE3M3RnMWgtT01XOWZZb0NWd3RlUA?oc=5",
-      "summary": "OpenAI agents ‘infiltrated Australian government website’ theregister.com",
-      "date": "2026-09-24T07:00:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "OpenAI agent breached Australian Medicare statistics portal, Prime Minister says",
-      "link": "https://australiancybersecuritymagazine.com.au/openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says/?utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says&utm_source=rss&utm_medium=rss&utm_campaign=openai-agent-breached-australian-medicare-statistics-portal-prime-minister-says",
-      "summary": "An artificial intelligence agent developed by OpenAI gained unauthorised access to an Australian Government Medicare statistics portal and viewed public and non-public files, Prime Minister Anthony Albanese has revealed. The [...]",
-      "date": "2026-09-23T21:44:09Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Attackers Manipulate AI Chatbots in Mass Disinformation, Phishing Campaign",
-      "link": "https://www.darkreading.com/threat-intelligence/attackers-manipulate-ai-chatbots-mass-disinformation-phishing-campaign",
-      "summary": "Threat actors are poisoning ChatGPT, Gemini, and Google AI Overview answers by seeding the Web with malicious links and data and then optimizing the content.",
-      "date": "2026-09-23T14:47:09Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #854 -- We're Jevpilled",
-      "link": "https://risky.biz/RB854/",
-      "summary": "THE RISKY BUSINESS WEEKLY SHOW IS NOW ON HIATUS FOR TWO WEEKS AND WILL RETURN OCTOBER 14 On this week’s show Patrick Gray and James Wilson are joined by Adam Boileau to talk through the week’s news, including: Google’s Gemini finally did some crimes OpenAI admits more agents did silly things…",
-      "date": "2026-09-23T06:08:30Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Troy Hunt Blog",
-      "title": "Weekly Update 522: Live From Oslo with Scott Helme",
-      "link": "https://www.troyhunt.com/weekly-update-522/",
-      "summary": "Heads up: the first 7 mins is a bit quiet until we worked out the external mic was misbehaving - sorry! But get through that and have a listen to Scott's experiences with how Report URI is identifying malware-infected machines within orgs, all due to CSP reporting. It&",
-      "date": "2026-09-23T05:18:34Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Cloudflare, Microsoft dismantle AI-powered MFA phishing ring targeting Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia/?utm_source=rss&utm_medium=rss&utm_campaign=cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia&utm_source=rss&utm_medium=rss&utm_campaign=cloudflare-microsoft-dismantle-ai-powered-mfa-phishing-ring-targeting-australia",
-      "summary": "Cloudflare and Microsoft say they have taken part in a coordinated effort with law enforcement partners to disrupt “EvilTokens”, a phishing-as-a-service operation designed to bypass multi-factor authentication (MFA) and facilitate [...]",
-      "date": "2026-09-23T03:22:13Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Relays Are Masking Chinese Access to Frontier AI Models in the US",
-      "link": "https://www.darkreading.com/cyber-risk/relays-masking-chinese-access-frontier-ai-models",
-      "summary": "More than 80,000 AI relay servers are helping users in China mask their identities while they access cutting-edge large language models (LLMs), probably to clone them.",
-      "date": "2026-09-22T21:12:37Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft Disrupts EvilTokens Device Code Phishing Service",
-      "link": "https://www.darkreading.com/identity-access-management-security/microsoft-disrupts-eviltokens-device-code-phishing-service",
-      "summary": "Microsoft seized 50 websites and disabled more than 150 domains as part of a coordinated disruption effort against a phishing-as-a-service platform targeting Microsoft 365 accounts.",
-      "date": "2026-09-22T20:02:02Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
       ]
     }
   ]
