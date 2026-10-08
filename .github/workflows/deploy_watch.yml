@@ -185,6 +185,8 @@ jobs:
       # Branch from current main, not the failed commit: main may have moved on
       # (a branch based on an older commit would look like it edits workflows).
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          fetch-depth: 0   # full history so --3way can merge around later commits
 
       - uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
         with:
@@ -208,7 +210,14 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git checkout -b "$branch"
-          git apply --3way "$FIXER/fix.patch"
+          if ! git apply --3way "$FIXER/fix.patch"; then
+            gh issue comment "$ISSUE" --body-file - <<EOF
+          The fixer's change no longer applies cleanly to main (main changed since the failed run). Its findings, for a manual fix:
+
+          $(cat "$FIXER/summary.md")
+          EOF
+            exit 0
+          fi
           git add -A
           git commit -q -m "Fixer: repair failing deploy (run $RUN_ID)"
           git push -q origin "$branch"
