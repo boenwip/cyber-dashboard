@@ -1,6 +1,6 @@
 /**
  * definitions.js — pseudosec.
- * 50 cyber security terms for the glossary and word of the day
+ * 54 cyber security terms for the glossary and word of the day
  */
 
 var DEFINITIONS = [
@@ -259,7 +259,7 @@ var DEFINITIONS = [
   {
     term: "Essential Eight",
     short: "The ACSC's eight baseline security controls every Australian organisation should implement.",
-    full: "The Essential Eight is the Australian Signals Directorate's (ASD) prioritised set of mitigation strategies to protect against cyber threats. The eight controls are: application control, patch applications, configure Microsoft Office macro settings, user application hardening, restrict admin privileges, patch operating systems, multi-factor authentication, and regular backups. Organisations are assessed against three maturity levels. Non-corporate Commonwealth government entities are required to achieve Maturity Level Two under the Protective Security Policy Framework; ACSC recommends the same target for all other Australian organisations.",
+    full: "The Essential Eight is the Australian Signals Directorate's (ASD) prioritised set of mitigation strategies to protect against cyber threats. The eight controls are: application control, patch applications, configure Microsoft Office macro settings, user application hardening, restrict admin privileges, patch operating systems, multi-factor authentication, and regular backups. Organisations are assessed against three maturity levels. Non-corporate Commonwealth government entities are required to achieve Maturity Level Two under the Protective Security Policy Framework; other organisations choose a target level based on the threats they face. ASD is evolving the Essential Eight into a broader Essentials series.",
     example: "An organisation implements all Essential Eight controls. When ransomware arrives via email, application control blocks it from executing, and recent backups mean no ransom payment is needed.",
     level: "intermediate"
   },
@@ -359,6 +359,27 @@ var DEFINITIONS = [
     short: "Systematically identifying what could go wrong and planning how to protect against it.",
     full: "Threat modelling is a structured process for identifying potential threats, attack vectors, and vulnerabilities in a system before it's built or changed. Teams ask: what are we building? What could go wrong? What do we do about it? Common frameworks include STRIDE and PASTA. Building security in from the design stage is significantly cheaper than fixing it after deployment.",
     example: "Before launching a new customer portal, the development team maps all entry points, identifies what data could be exposed if each is compromised, and implements controls for the highest-risk scenarios.",
+    level: "intermediate"
+  },
+  {
+    term: "Essentials Series",
+    short: "ASD's successor to the Essential Eight — baseline security guidance organised by technology environment.",
+    full: "The Essentials series is the Australian Signals Directorate's planned evolution of the Essential Eight. Instead of one set of eight strategies for every organisation, it is organised into chapters for different technology environments. The first, Essentials for enterprise IT, evolves the current Essential Eight, with further chapters to follow. It is grounded in the Information Security Manual (ISM), and ASD expects organisations already using the Essential Eight to find strong alignment with their existing controls.",
+    example: "A council that reached Essential Eight Maturity Level Two keeps its application control, patching and MFA in place — ASD expects those controls to align closely with Essentials for enterprise IT.",
+    level: "intermediate"
+  },
+  {
+    term: "Frontier AI",
+    short: "The most capable AI models available at any given time.",
+    full: "Frontier AI models are the most advanced, general-purpose AI systems at the cutting edge of capability. ASD warns they lower the cost, effort and expertise needed to find and exploit software vulnerabilities, so attacks can come faster and at greater scale. They mostly speed up existing techniques rather than inventing new ones, and the same capability helps defenders find and fix flaws first. ASD's advice: strengthen the fundamentals, reduce what's exposed to the internet, patch promptly, use layered defences, rehearse incident response, and use AI defensively.",
+    example: "A software company points a frontier AI model at its own code before release and fixes dozens of vulnerabilities an attacker could otherwise have found with the same tool.",
+    level: "intermediate"
+  },
+  {
+    term: "Open-Weight Model",
+    short: "An AI model whose internals are published so anyone can download and run it themselves.",
+    full: "An open-weight AI model has its trained parameters (the 'weights') released publicly. Anyone can run it on their own hardware, adapt it, or remove its safety restrictions — outside any provider's monitoring. That makes it valuable for research, privacy and cost, but it also puts capable AI in attackers' hands. ASD notes that many vulnerability discovery techniques shown by frontier models can already be reproduced with inexpensive open-weight models, so defenders can't assume attackers lag far behind the frontier.",
+    example: "A criminal group downloads a free open-weight model, removes its safeguards, and runs it on rented servers to scan websites for known vulnerabilities — with no provider able to see or block it.",
     level: "intermediate"
   }
 ];

@@ -7,6 +7,10 @@ Format: decision → why. Newest first within each session.
 
 ## Session: 2026-10-08 — deploy outage and fixer
 
+### Reference — Essentials series, maturity target wording, frontier/open-weight AI terms
+**Decision:** The Essential Eight tab and glossary note ASD's evolution into the Essentials series, which is still current for now. The "Maturity Level 2 minimum for all organisations" claim is replaced with ASD's position: organisations pick a target level based on threat, and non-corporate Commonwealth entities must reach ML2. Glossary adds Essentials Series, Frontier AI and Open-Weight Model. E8 links point to the new `cyber.gov.au/essential-eight` URL.
+**Why:** Owner request. The ML2 claim was flagged by three Content Integrity reports. Wording was checked against ASD's own pages (the Essential Eight consultation of 2 Sep 2026 and the frontier AI update of 30 Apr 2026). The 12/24-month retirement timeline appears only in secondary sources, so the site doesn't state it.
+
 ### Sanitiser — decoded tag-shaped text becomes angle quotes
 **Decision:** After decoding entities, `strip_html()` turns tag-shaped text (`<source>`) into `‹source›`. The audit's "no markup" check is unchanged.
 **Why:** Claude Code release notes contained `&lt;source&gt;`, which decoded to `<source>`, failed the audit and blocked every deploy for ~33h. Fixing the sanitiser rather than loosening the audit keeps the audit as a safety net.
