@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-10-08 — deploy outage and fixer
+
+### Sanitiser — decoded tag-shaped text becomes angle quotes
+**Decision:** After decoding entities, `strip_html()` turns tag-shaped text (`<source>`) into `‹source›`. The audit's "no markup" check is unchanged.
+**Why:** Claude Code release notes contained `&lt;source&gt;`, which decoded to `<source>`, failed the audit and blocked every deploy for ~33h. Fixing the sanitiser rather than loosening the audit keeps the audit as a safety net.
+
+### Deploy watch — failure issue plus a fixer agent
+**Decision:** `deploy_watch.yml` opens one `deploy-failure` issue when a deploy fails and closes it on the next success. On the first failure of a streak, Claude (claude-code-action, Sonnet) reproduces the failure against the failed run's data (uploaded by `deploy.yml` on failure) and proposes a fix as a PR. It can't push: the agent job is read-only with no git credentials, and a separate job opens the PR. It must not edit data or weaken the audit. Repo setting "Allow GitHub Actions to create pull requests" is on for this.
+**Why:** Owner asked for a fixer. The daily Content Integrity Agent found the outage's cause but only 32h later, and it is report-only. Feed text is untrusted, so the agent gets minimal tools and permissions, and the owner always reviews the PR.
+
+---
+
 ## Session: 2026-09-25 (later) — owner feedback on phone layout and grouping
 
 ### Grouping — same news from different outlets only; best reputation leads

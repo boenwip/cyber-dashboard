@@ -68,6 +68,17 @@ jobs:
       - name: Audit
         run: python scripts/audit.py
 
+      - name: Keep the failing data for the fixer
+        # The snapshot step never runs on failure, so this is the only copy of
+        # the data that broke the build (see deploy_watch.yml).
+        if: failure()
+        uses: actions/upload-artifact@cf430e030ddbb5b0abf93d22962f4752f3646cd9 # v7.0.2
+        with:
+          name: failed-data
+          path: data/
+          retention-days: 7
+          if-no-files-found: ignore
+
       - name: Assemble site
         run: |
           mkdir _site
