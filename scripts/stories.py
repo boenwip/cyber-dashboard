@@ -28,7 +28,7 @@ PRICE_IN, PRICE_OUT = 2.00, 10.00
 # Outlets report the same development within a few days of each other; anything
 # further apart is a follow-up, whatever the model says.
 MAX_SPREAD = datetime.timedelta(days=3)
-MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "5"))
+MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "4"))
 GROUPS_FILE = "data/groups.json"
 
 SYSTEM_PROMPT = """You group news articles for an Australian cyber security news feed.

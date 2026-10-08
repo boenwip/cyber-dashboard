@@ -8,7 +8,7 @@ Format: decision → why. Newest first within each session.
 ## Session: 2026-10-08 — deploy outage and fixer
 
 ### Grouping — Sonnet 5 at low effort, 3-day spread limit, follow-up rules
-**Decision:** Story grouping moves from Haiku 4.5 to Sonnet 5 at `effort: low` (first real call: $0.037, 7.5k in / 2.2k out tokens, about $3.30/month). The owner raised the cap from $3 to $5/month to keep thinking on. Code now drops any group member published more than 3 days after the group's earliest member. The prompt says government reactions (reviews, stocktakes, orders) are follow-ups, and that articles days apart are usually different developments. It also says to group the same disclosure under different wording. Changing the model forces a fresh grouping.
+**Decision:** Story grouping moves from Haiku 4.5 to Sonnet 5 at `effort: low` (first real call: $0.037, 7.5k in / 2.2k out tokens, about $3.30/month). The owner raised the cap from $3 to $4/month to keep thinking on, leaving headroom under the API key's $5/month Console limit for the fixer. Code now drops any group member published more than 3 days after the group's earliest member. The prompt says government reactions (reviews, stocktakes, orders) are follow-ups, and that articles days apart are usually different developments. It also says to group the same disclosure under different wording. Changing the model forces a fresh grouping.
 **Why:** Content Integrity reports: Haiku folded a Home Affairs stocktake (6 days later) into the OpenAI/Medicare breach story, paired the NetScaler alert with a 4-day-later follow-up, and left the original disclosure split across outlets.
 
 ### Tagging — breach/hack wording, AI needs a security angle, no bare "regulation"
