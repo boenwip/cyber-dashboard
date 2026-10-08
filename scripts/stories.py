@@ -20,7 +20,7 @@ import os
 import re
 
 # Sonnet at low effort: Haiku merged follow-ups into original stories and missed the
-# same disclosure under different wording. Opus would exceed the monthly cap.
+# same disclosure under different wording. About $0.04 a call (~$3.30/month).
 MODEL = "claude-sonnet-5"
 EFFORT = "low"
 # Sonnet 5 pricing, USD per million tokens, used to track spend against the monthly cap
@@ -28,7 +28,7 @@ PRICE_IN, PRICE_OUT = 2.00, 10.00
 # Outlets report the same development within a few days of each other; anything
 # further apart is a follow-up, whatever the model says.
 MAX_SPREAD = datetime.timedelta(days=3)
-MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "3"))
+MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "5"))
 GROUPS_FILE = "data/groups.json"
 
 SYSTEM_PROMPT = """You group news articles for an Australian cyber security news feed.
