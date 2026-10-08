@@ -47,10 +47,11 @@ def test_validate_rejects_wrong_shape():
 
 # ── AI grouping ────────────────────────────────────────────
 
-def test_ai_groups_uses_haiku_with_json_schema():
+def test_ai_groups_uses_sonnet_low_effort_with_json_schema():
     client = FakeClient({"groups": [[0, 1, 2]]})
     assert st.ai_groups(MEDICARE, client) == [[0, 1, 2]]
-    assert client.kwargs["model"] == "claude-haiku-4-5"
+    assert client.kwargs["model"] == "claude-sonnet-5"
+    assert client.kwargs["output_config"]["effort"] == "low"
     assert client.kwargs["output_config"]["format"]["type"] == "json_schema"
     # Headlines are sent without the Google News publisher suffix
     assert "bleepingcomputer.com" not in client.kwargs["messages"][0]["content"]
@@ -161,10 +162,10 @@ def test_best_reputation_leads_the_story():
 
 def test_spend_accumulates_and_budget_stops_calls(tmp_path, monkeypatch):
     path = str(tmp_path / "groups.json")
-    monkeypatch.setattr(st, "MONTHLY_BUDGET_USD", 0.0002)       # one fake call costs 0.00015
+    monkeypatch.setattr(st, "MONTHLY_BUDGET_USD", 0.0004)       # one fake call costs 0.0003
     first = FakeClient({"groups": [[0, 1, 2]]})
     st.choose_groups(MEDICARE, first, path, month="2026-09")
-    assert json.load(open(path))["spend"] == {"month": "2026-09", "usd": 0.00015}
+    assert json.load(open(path))["spend"] == {"month": "2026-09", "usd": 0.0003}
     second = FakeClient({"groups": []})
     st.choose_groups(MEDICARE + [art("new")], second, path, month="2026-09")   # changed set, still under cap
     assert second.calls == 1
@@ -185,6 +186,43 @@ def test_changing_the_rules_invalidates_the_cache(tmp_path, monkeypatch):
     path = str(tmp_path / "groups.json")
     st.choose_groups(MEDICARE, FakeClient({"groups": [[0, 1, 2]]}), path)
     monkeypatch.setattr(st, "SYSTEM_PROMPT", st.SYSTEM_PROMPT + " (revised)")
+    again = FakeClient({"groups": [[0, 1, 2]]})
+    st.choose_groups(MEDICARE, again, path)
+    assert again.calls == 1
+
+
+# ── Date spread ────────────────────────────────────────────
+
+def test_follow_up_days_later_is_dropped_from_the_group():
+    # Original disclosure (Sep 23-24) vs the government's stocktake order six days later
+    arts = [
+        art("OpenAI agent breached Australian Medicare statistics portal", "ACM", date="2026-09-23T22:00:00Z"),
+        art("OpenAI agents 'infiltrated Australian government website'", "The Register", date="2026-09-24T07:00:00Z"),
+        art("Home Affairs orders gov-wide 'legacy' system stocktake", "iTnews", date="2026-09-30T02:00:00Z"),
+    ]
+    assert st.ai_groups(arts, FakeClient({"groups": [[2, 0, 1]]})) == [[0, 1]]
+
+
+def test_group_left_with_one_dated_member_is_dropped():
+    arts = [art("Critical NetScaler vulnerabilities", "ACSC", date="2026-09-27T01:00:00Z"),
+            art("ACSC warns of confirmed NetScaler exploitation", "ACM", date="2026-10-01T01:00:00Z")]
+    assert st.ai_groups(arts, FakeClient({"groups": [[0, 1]]})) == []
+
+
+def test_undated_articles_are_not_dropped_by_the_spread_check():
+    arts = [art("A", "One", date=None), art("B", "Two", date="2026-09-24T01:00:00Z")]
+    assert st.ai_groups(arts, FakeClient({"groups": [[0, 1]]})) == [[0, 1]]
+
+
+def test_prompt_treats_government_reactions_and_later_articles_as_follow_ups():
+    assert "Government reactions" in st.SYSTEM_PROMPT
+    assert "several days apart" in st.SYSTEM_PROMPT
+
+
+def test_changing_the_model_invalidates_the_cache(tmp_path, monkeypatch):
+    path = str(tmp_path / "groups.json")
+    st.choose_groups(MEDICARE, FakeClient({"groups": [[0, 1, 2]]}), path)
+    monkeypatch.setattr(st, "MODEL", "claude-other")
     again = FakeClient({"groups": [[0, 1, 2]]})
     st.choose_groups(MEDICARE, again, path)
     assert again.calls == 1

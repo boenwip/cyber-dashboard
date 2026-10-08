@@ -280,17 +280,20 @@ TOPIC_TAG_RULES = [
             "phishing", "data breach", "vulnerability", "vulnerabilities", "cve",
             "malware", "threat actor", "exploit", "security patch",
             "security incident", "compromise", "security advisory",
-            "cyber attack", "cyberwarfare", "cybercrime",
+            "cyber attack", "cyberattack", "cyber-attack", "cyberwarfare", "cybercrime",
+            "breach", "hack", "hacker", "intrusion", "infiltrate",
+            "unauthorised access", "unauthorized access", "credentials",
+            "security controls", "zero-day", "spyware", "botnet", "ddos",
+            "infostealer", "backdoor", "extortion", "data theft",
         ]
     },
     {
         "tag": "AI & Tools",
         "keywords": [
-            "artificial intelligence", "generative ai", "chatgpt", "copilot",
-            "large language model", "llm", "ai tools", "machine learning",
-            "automation", "ai workforce", "ai skills", "ai adoption",
-            "openai", "anthropic", "google gemini", "ai productivity",
-            "ai regulation", "ai governance", "responsible ai",
+            "ai", "artificial intelligence", "generative ai", "chatgpt", "copilot",
+            "large language model", "llm", "machine learning", "chatbot",
+            "agentic", "openai", "anthropic", "gemini", "frontier model",
+            "open-weight", "deepfake",
         ]
     },
     {
@@ -307,8 +310,10 @@ TOPIC_TAG_RULES = [
         "tag": "Compliance",
         "keywords": [
             "privacy act", "privacy law", "oaic", "notifiable data breach",
-            "ndb scheme", "gdpr", "compliance", "regulation",
-            "regulatory", "legislation", "legal requirement",
+            "ndb scheme", "gdpr", "compliance", "legislation", "legal requirement",
+            "mandatory reporting", "incident reporting", "privacy commissioner",
+            "information commissioner", "apra", "cps 234", "soci act",
+            "security of critical infrastructure", "irap", "fined",
             "data protection", "information security policy",
             "ism", "essential eight", "iso 27001", "soc 2",
             "audit", "data governance", "data sovereignty",
@@ -457,18 +462,31 @@ def fetch_feed(url, timeout=10, retries=0):
 
 def _keyword_regex(keywords):
     # Whole-word/phrase matching: "ism" must not match "tourism", "ato" must
-    # not match "senator". An optional trailing "s" lets "scam" match "scams";
-    # irregular plurals ("vulnerabilities") need their own entry.
+    # not match "senator". Optional regular endings let "scam" match "scams",
+    # "breach" match "breached" and "hack" match "hacking"; irregular forms
+    # ("vulnerabilities") need their own entry.
     alts = "|".join(re.escape(k.lower()) for k in sorted(keywords, key=len, reverse=True))
-    return re.compile(r"(?<![a-z0-9])(?:" + alts + r")s?(?![a-z0-9])")
+    return re.compile(r"(?<![a-z0-9])(?:" + alts + r")(?:s|es|ed|d|ing)?(?![a-z0-9])")
 
 
 for _rule in TOPIC_TAG_RULES:
     _rule["regex"] = _keyword_regex(_rule["keywords"])
 
+# AI news is in scope only when it's about security: attacks, misuse, safety, risk.
+# Product launches and business adoption stories ("agentic AI at work") are not.
+AI_SECURITY_CONTEXT = _keyword_regex([
+    "security", "cyber", "cybersecurity", "attack", "attacker", "threat", "risk",
+    "safety", "misuse", "abuse", "jailbreak", "prompt injection", "guardrail",
+    "rogue", "escape", "containment", "misalignment", "incident", "privacy",
+    "vulnerability", "vulnerabilities", "defender",
+])
+
 
 def get_topic_tags(combined):
-    return [rule["tag"] for rule in TOPIC_TAG_RULES if rule["regex"].search(combined)]
+    tags = [rule["tag"] for rule in TOPIC_TAG_RULES if rule["regex"].search(combined)]
+    if tags == ["AI & Tools"] and not AI_SECURITY_CONTEXT.search(combined):
+        return []
+    return tags
 
 
 # -------------------------------------------------------

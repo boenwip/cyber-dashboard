@@ -62,6 +62,31 @@ def test_keywords_match_whole_words_only():
     assert "Scams" in f.get_topic_tags("text scams are rising")
 
 
+def test_breach_and_hack_wording_tags_au_cyber():
+    # The OpenAI/Medicare stories were tagged AI only (Content Integrity report, Oct 2026)
+    for text in ["openai hacked australian medicare govt site",
+                 "openai agent breached australian medicare statistics portal",
+                 "agent 'infiltrated' government website",
+                 "dutch police arrest reformed hacker",
+                 "suspect used ai tools in south korean bank hacks"]:
+        assert "AU Cyber" in f.get_topic_tags(text), text
+
+
+def test_ai_tag_needs_a_security_angle():
+    assert f.get_topic_tags("how david jones and canva are putting agentic ai to work") == []
+    assert f.get_topic_tags("openai takes on meta with dots agent") == []
+    assert "AI & Tools" in f.get_topic_tags("is it fair to blame rogue ai for security failures?")
+    assert "AI & Tools" in f.get_topic_tags("researchers get ai drunk to test chatbot cyber risks")
+    # With another topic, the AI tag stays
+    assert f.get_topic_tags("government weighs mandatory ai incident reporting") == ["AI & Tools", "Compliance"]
+
+
+def test_compliance_needs_more_than_the_word_regulation():
+    # TA419 espionage story was tagged Compliance for "AI regulation" (Content Integrity report)
+    assert "Compliance" not in f.get_topic_tags("phishing targets experts in ai regulation, export controls")
+    assert "Compliance" in f.get_topic_tags("oaic finds breach of the privacy act")
+
+
 def test_off_topic_article_dropped():
     assert f.build_article(DIRECT, entry("Kodak Alaris launches N2000 series scanners for offices")) is None
 

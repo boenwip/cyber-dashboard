@@ -4,7 +4,7 @@
 # breach) into a single story, so the feed shows each story once with its
 # other coverage listed underneath.
 #
-# Primary method: one Claude Haiku call per run that returns only which
+# Primary method: one Claude Sonnet call per run that returns only which
 # article numbers belong together — it never writes any text shown on the
 # site. The answer is validated before use. If there is no API key, the call
 # fails, or nothing has changed since the last run, a cached grouping or a
@@ -12,15 +12,22 @@
 # never merges different stories).
 # -------------------------------------------------------
 
+import datetime
 import hashlib
 import json
 import math
 import os
 import re
 
-MODEL = "claude-haiku-4-5"
-# Haiku 4.5 pricing, USD per million tokens, used to track spend against the monthly cap
-PRICE_IN, PRICE_OUT = 1.00, 5.00
+# Sonnet at low effort: Haiku merged follow-ups into original stories and missed the
+# same disclosure under different wording. Opus would exceed the monthly cap.
+MODEL = "claude-sonnet-5"
+EFFORT = "low"
+# Sonnet 5 pricing, USD per million tokens, used to track spend against the monthly cap
+PRICE_IN, PRICE_OUT = 2.00, 10.00
+# Outlets report the same development within a few days of each other; anything
+# further apart is a follow-up, whatever the model says.
+MAX_SPREAD = datetime.timedelta(days=3)
 MONTHLY_BUDGET_USD = float(os.environ.get("GROUPING_BUDGET_USD", "3"))
 GROUPS_FILE = "data/groups.json"
 
@@ -30,10 +37,13 @@ Each line is one article: id | source | date | headline | first sentence.
 
 Group articles only when different outlets are reporting the same news: the same event AND the same development of it (the same breach disclosure, the same vulnerability, the same arrest or takedown, the same official alert or report). Readers should lose nothing by seeing just one of them.
 
+Group the same disclosure even when the headlines are worded very differently ("breached", "hacked", "infiltrated", "accessed" can all describe one event).
+
 Keep these separate:
-- A follow-up that reports a new development (a new review, new victims, new statements, a new official response) is a separate story from the original report.
+- A follow-up that reports a new development (a new review, new victims, new statements, a new official response) is a separate story from the original report. Government reactions (reviews, stocktakes, inquiries, orders) to an incident are follow-ups, not the incident.
+- Articles published several days apart. The same development is almost always reported within a day or two; a later article on the same subject usually reports something new.
 - Articles that only share a topic, company, product, threat type or theme. Two different OpenAI stories, two different phishing campaigns or two different ransomware attacks are separate stories.
-- Two articles from the same outlet are never the same story. A group may contain at most one article per source.
+- Two articles from the same outlet are never the same story. A group may contain at most one article per source; if an outlet has several candidates, pick the one closest in date to the others.
 
 Return only groups of two or more articles. Each id may appear in at most one group. When unsure, leave the articles ungrouped."""
 
@@ -61,9 +71,27 @@ def clean_title(title):
 
 # ── Validation ─────────────────────────────────────────────
 
-def validate_groups(raw, count, sources=None):
+def parse_date(value):
+    try:
+        return datetime.datetime.strptime(value or "", "%Y-%m-%dT%H:%M:%SZ")
+    except ValueError:
+        return None
+
+
+def within_spread(ids, dates):
+    """Drop members published more than MAX_SPREAD after the group's earliest dated member."""
+    when = {i: parse_date(dates[i]) for i in ids}
+    known = [d for d in when.values() if d]
+    if not known:
+        return ids
+    start = min(known)
+    return [i for i in ids if when[i] is None or when[i] - start <= MAX_SPREAD]
+
+
+def validate_groups(raw, count, sources=None, dates=None):
     """Keep only well-formed groups: integer ids in range, each used once, at most one
-    article per source (when `sources` is given), 2+ per group."""
+    article per source (when `sources` is given), all within MAX_SPREAD of each other
+    (when `dates` is given), 2+ per group."""
     if not isinstance(raw, dict) or not isinstance(raw.get("groups"), list):
         return None
     seen, groups = set(), []
@@ -78,6 +106,8 @@ def validate_groups(raw, count, sources=None):
                     continue          # same outlet twice: keep the first, leave the rest as their own stories
                 outlets.add(outlet)
                 ids.append(i)
+        if dates:
+            ids = within_spread(ids, dates)
         if len(ids) >= 2:
             seen.update(ids)
             groups.append(ids)
@@ -110,10 +140,10 @@ def ai_groups(articles, client=None, spend=None):
     try:
         response = client.messages.create(
             model=MODEL,
-            max_tokens=2000,
+            max_tokens=16000,   # room for thinking before the short JSON answer
             system=SYSTEM_PROMPT,
             messages=[{"role": "user", "content": article_lines(articles)}],
-            output_config={"format": {"type": "json_schema", "schema": SCHEMA}},
+            output_config={"effort": EFFORT, "format": {"type": "json_schema", "schema": SCHEMA}},
         )
     except Exception as e:  # any API/network failure falls back to word matching
         print(f"    AI grouping failed ({type(e).__name__}): {e}")
@@ -123,7 +153,8 @@ def ai_groups(articles, client=None, spend=None):
         return None
     text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "")
     try:
-        groups = validate_groups(json.loads(text), len(articles), [outlet(a) for a in articles])
+        groups = validate_groups(json.loads(text), len(articles), [outlet(a) for a in articles],
+                                 [a.get("date") for a in articles])
     except ValueError:
         groups = None
     usage = getattr(response, "usage", None)
@@ -186,8 +217,8 @@ def word_groups(articles):
 # ── Cache (avoid a paid call when nothing changed) ─────────
 
 def fingerprint(articles):
-    # Includes the grouping instructions, so changing the rules forces a fresh grouping
-    key = SYSTEM_PROMPT + "\n" + "\n".join(sorted(a.get("link", "") + a.get("title", "") for a in articles))
+    # Includes the model and instructions, so changing either forces a fresh grouping
+    key = MODEL + "\n" + SYSTEM_PROMPT + "\n" + "\n".join(sorted(a.get("link", "") + a.get("title", "") for a in articles))
     return hashlib.sha256(key.encode("utf-8")).hexdigest()
 
 
@@ -211,7 +242,8 @@ def save_cache(fp, groups, method, articles, path=GROUPS_FILE, spend=None):
 def cached_groups(cache, articles):
     index = {a.get("link", ""): i for i, a in enumerate(articles)}
     raw = {"groups": [[index[l] for l in g if l in index] for g in cache.get("groups", [])]}
-    return validate_groups(raw, len(articles), [outlet(a) for a in articles]) or []
+    return validate_groups(raw, len(articles), [outlet(a) for a in articles],
+                           [a.get("date") for a in articles]) or []
 
 
 def month_spend(cache, month):

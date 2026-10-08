@@ -7,6 +7,14 @@ Format: decision → why. Newest first within each session.
 
 ## Session: 2026-10-08 — deploy outage and fixer
 
+### Grouping — Sonnet 5 at low effort, 3-day spread limit, follow-up rules
+**Decision:** Story grouping moves from Haiku 4.5 to Sonnet 5 at `effort: low` (about $1.50/month estimated, under the $3 cap; Opus 5 would have been about $3.60). Code now drops any group member published more than 3 days after the group's earliest member. The prompt says government reactions (reviews, stocktakes, orders) are follow-ups, and that articles days apart are usually different developments. It also says to group the same disclosure under different wording. Changing the model forces a fresh grouping.
+**Why:** Content Integrity reports: Haiku folded a Home Affairs stocktake (6 days later) into the OpenAI/Medicare breach story, paired the NetScaler alert with a 4-day-later follow-up, and left the original disclosure split across outlets.
+
+### Tagging — breach/hack wording, AI needs a security angle, no bare "regulation"
+**Decision:** Keywords match regular endings (-s, -es, -ed, -d, -ing). AU Cyber adds breach, hack, hacker, intrusion, infiltrate, unauthorised access, credentials, cyberattack and similar terms. An article tagged only AI & Tools must also mention a security angle (risk, misuse, attack, safety, incident...), otherwise it's dropped. Compliance no longer matches bare "regulation"/"regulatory"; it adds specific obligations (mandatory/incident reporting, APRA, CPS 234, SOCI, IRAP, commissioners).
+**Why:** Content Integrity reports: breach stories tagged AI only, AI business filler (product launches, "agentic AI at work") in the feed, and an espionage story tagged Compliance for "AI regulation". Checked against the live snapshot: 3 filler stories drop out and no security story loses a tag.
+
 ### Reference — Essentials series, maturity target wording, frontier/open-weight AI terms
 **Decision:** The Essential Eight tab and glossary note ASD's evolution into the Essentials series, which is still current for now. The "Maturity Level 2 minimum for all organisations" claim is replaced with ASD's position: organisations pick a target level based on threat, and non-corporate Commonwealth entities must reach ML2. Glossary adds Essentials Series, Frontier AI and Open-Weight Model. E8 links point to the new `cyber.gov.au/essential-eight` URL.
 **Why:** Owner request. The ML2 claim was flagged by three Content Integrity reports. Wording was checked against ASD's own pages (the Essential Eight consultation of 2 Sep 2026 and the frontier AI update of 30 Apr 2026). The 12/24-month retirement timeline appears only in secondary sources, so the site doesn't state it.
