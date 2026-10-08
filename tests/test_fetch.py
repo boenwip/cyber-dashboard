@@ -78,6 +78,9 @@ def test_strip_html_outputs_plain_text_decoded_once():
     # Double-encoded input stays literal text rather than becoming markup.
     assert f.strip_html("&amp;lt;img&amp;gt;") == "&lt;img&gt;"
     assert f.strip_html("It&apos;s &#8217;fine&#8217;") == "It's ’fine’"
+    # Escaped placeholders in release notes stay readable but not tag-shaped.
+    assert f.strip_html("<p>Added --marketplace &lt;source&gt; to install</p>") == "Added --marketplace ‹source› to install"
+    assert f.strip_html("a &lt; b and x &lt;img") == "a < b and x ‹img"
 
 
 def test_http_links_upgraded():

@@ -394,6 +394,10 @@ def parse_iso(value):
 def strip_html(text):
     text = re.sub(r"<[^>]*>", " ", text or "")
     text = html.unescape(text)
+    # Escaped literals like "&lt;source&gt;" decode to tag-shaped text; swap in
+    # angle quotes so it reads the same but can never be mistaken for markup.
+    text = re.sub(r"<([a-zA-Z/!][^<>]*)>", "‹\\1›", text)
+    text = re.sub(r"<(?=[a-zA-Z/!])", "‹", text)
     return " ".join(text.split())
 
 
