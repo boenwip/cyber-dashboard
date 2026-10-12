@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-10-11T20:11:36Z",
-  "count": 70,
+  "last_updated": "2026-10-12T00:29:37Z",
+  "count": 71,
   "items": [
+    {
+      "source": "iTnews",
+      "title": "NetScaler builds that fixed zero-days carry critical flaw, too",
+      "link": "https://www.itnews.com.au/news/netscaler-builds-that-fixed-zero-days-carry-critical-flaw-too-629542?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Separate SAML flaw rated as 9.5 out of 10.0.",
+      "date": "2026-10-11T14:29:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
+          "date": "2026-10-11T23:50:46Z"
+        }
+      ],
+      "latest": "2026-10-11T23:50:46Z"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "UST: Businesses must rethink how AI returns are measured",
+      "link": "https://securitybrief.com.au/story/ust-businesses-must-rethink-how-ai-returns-are-measured",
+      "summary": "Australian firms risk spending increasing resources on AI pilots that ultimately fail to prove gains in revenue, efficiency or customer service.",
+      "date": "2026-10-11T22:09:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Data sovereignty is a strategic imperative in the AI era",
+      "link": "https://securitybrief.com.au/story/data-sovereignty-is-a-strategic-imperative-in-the-ai-era",
+      "summary": "AI is pushing boards to weigh local control against cloud convenience, with 80% of respondents saying sovereignty matters more in vendor selection.",
+      "date": "2026-10-11T21:00:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
     {
       "source": "iTnews",
       "title": "Anthropic discloses fake tip to police among new rogue AI incidents",
@@ -42,16 +82,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "NetScaler builds that fixed zero-days carry critical flaw, too",
-      "link": "https://www.itnews.com.au/news/netscaler-builds-that-fixed-zero-days-carry-critical-flaw-too-629542?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Separate SAML flaw rated as 9.5 out of 10.0.",
-      "date": "2026-10-11T14:29:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
@@ -72,23 +102,14 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was…",
-      "date": "2026-10-07T13:48:45Z",
+      "source": "Dark Reading",
+      "title": "What We Missed: FBI Strikes Back at ShinyHunters",
+      "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
+      "date": "2026-10-09T17:21:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-          "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-          "date": "2026-10-09T17:21:00Z"
-        }
-      ],
-      "latest": "2026-10-09T17:21:00Z"
+      ]
     },
     {
       "source": "Google News — Bleeping Computer AU",
@@ -160,26 +181,6 @@
       "link": "https://securitybrief.com.au/story/elastic-launches-ai-agents-for-security-ops-in-australia",
       "summary": "Only 31% of Australian businesses have a central view of AI agents, raising concerns over security gaps as Elastic rolls out new tools.",
       "date": "2026-10-08T22:11:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Saviynt appoints Clinton Mottram to APJ security role",
-      "link": "https://securitybrief.com.au/story/saviynt-appoints-clinton-mottram-to-apj-security-role",
-      "summary": "The appointment reflects rising demand for tighter access controls as firms in Asia Pacific and Japan adopt AI across legacy and cloud systems.",
-      "date": "2026-10-08T22:03:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI raises cyber risk as firms race to boost resilience",
-      "link": "https://securitybrief.com.au/story/ai-raises-cyber-risk-as-firms-race-to-boost-resilience",
-      "summary": "Boards are being pushed to treat recoverability as a frontline cyber issue, as AI lets attackers move faster and widen attacks.",
-      "date": "2026-10-08T22:00:23Z",
       "tags": [
         "AI & Tools"
       ]
@@ -307,6 +308,16 @@
       "date": "2026-10-07T19:34:08Z",
       "tags": [
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was…",
+      "date": "2026-10-07T13:48:45Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -541,23 +552,14 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
-      "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
-      "date": "2026-09-29T14:19:43Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACSC warns of confirmed exploitation of Citrix NetScaler vulnerabilities",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities",
+      "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert on vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway, saying it has received reports from Australian organisations [...]",
+      "date": "2026-10-01T00:52:38Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "ACSC warns of confirmed exploitation of Citrix NetScaler vulnerabilities",
-          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities",
-          "date": "2026-10-01T00:52:38Z"
-        }
-      ],
-      "latest": "2026-10-01T00:52:38Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -654,6 +656,25 @@
     },
     {
       "source": "Dark Reading",
+      "title": "Dual NetScaler Zero-Days Trigger Chaos for Citrix Customers",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/netscaler-zero-days-chaos-citrix",
+      "summary": "The critical vulnerabilities, which impact default configurations of NetScaler products, essentially give attackers a skeleton key to customers' networks.",
+      "date": "2026-09-29T14:19:43Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ACSC warns of actively exploited vulnerabilities in Citrix NetScaler products",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products",
+          "date": "2026-09-28T00:35:45Z"
+        }
+      ],
+      "latest": "2026-09-29T14:19:43Z"
+    },
+    {
+      "source": "Dark Reading",
       "title": "Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities",
       "link": "https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities",
       "summary": "The Open Agent Safety Platform relies on hardware and software components to monitor agent activities and quarantine unruly agents before they can cause harm.",
@@ -745,16 +766,6 @@
       "date": "2026-09-28T01:31:51Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC warns of actively exploited vulnerabilities in Citrix NetScaler products",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-actively-exploited-vulnerabilities-in-citrix-netscaler-products",
-      "summary": "The Australian Cyber Security Centre (ACSC) has issued a critical alert for Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway, warning of multiple newly disclosed vulnerabilities and urging [...]",
-      "date": "2026-09-28T00:35:45Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]
