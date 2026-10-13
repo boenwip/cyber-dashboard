@@ -1,67 +1,116 @@
 {
-  "last_updated": "2026-10-12T15:12:51Z",
-  "count": 60,
+  "last_updated": "2026-10-13T02:33:24Z",
+  "count": 64,
   "items": [
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
-      "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
-      "summary": "Australian and international cyber security agencies have issued a joint warning detailing how Chinese government-linked threat actors are combining large-scale automated scanning, legitimate network administration tools and targeted intrusions to [...]",
-      "date": "2026-10-12T06:35:19Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Security Brief Australia",
-      "title": "Atturra named ISG contender in Australian public sector AI",
-      "link": "https://securitybrief.com.au/story/atturra-named-isg-contender-in-australian-public-sector-ai",
-      "summary": "The ranking underscores rising demand for AI suppliers that can meet strict security and sovereignty rules while supporting government service delivery.",
-      "date": "2026-10-12T01:40:00Z",
+      "title": "HPE launches ProLiant Gen13 servers for AI workloads",
+      "link": "https://securitybrief.com.au/story/hpe-launches-proliant-gen13-servers-for-ai-workloads",
+      "summary": "Enterprises facing tougher AI security and operational demands can now choose four new systems built for inference, analytics and simulation.",
+      "date": "2026-10-13T00:32:00Z",
       "tags": [
         "AI & Tools"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "Check Point warns of 48% rise in cyber attacks worldwide",
-      "link": "https://securitybrief.com.au/story/check-point-warns-of-48-rise-in-cyber-attacks-worldwide",
-      "summary": "Sensitive data exposure through workplace AI is compounding a 48% annual rise in attacks, with organisations hit by 2,803 per week in September.",
-      "date": "2026-10-12T01:37:00Z",
+      "title": "Australia tops IoT & OT cyberattack list, says report",
+      "link": "https://securitybrief.com.au/story/australia-tops-iot-ot-cyberattack-list-says-report",
+      "summary": "Australian operators faced the highest alert volumes per organisation as attackers increasingly targeted connected industrial systems and critical infrastructure.",
+      "date": "2026-10-12T23:40:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australia lags on tech modernisation as AI pressure grows",
+      "link": "https://securitybrief.com.au/story/australia-lags-on-tech-modernisation-as-ai-pressure-grows",
+      "summary": "Nearly half of Australian organisations are behind on technology upgrades, with AI adoption exposing ageing systems and increasing security and governance risks.",
+      "date": "2026-10-12T22:52:31Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Businesses urged to tighten AI governance beyond awareness",
+      "link": "https://securitybrief.com.au/story/businesses-urged-to-tighten-ai-governance-beyond-awareness",
+      "summary": "Boards are being pushed to set clear controls as AI decisions spread beyond cyber teams and into daily work, raising governance and outage risks.",
+      "date": "2026-10-12T22:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI drives sharper cyber threats, tech leaders warn",
+      "link": "https://securitybrief.com.au/story/ai-drives-sharper-cyber-threats-tech-leaders-warn",
+      "summary": "Attackers are using AI to speed up, scale and automate probes, forcing organisations to tighten governance, data flow and incident testing.",
+      "date": "2026-10-12T22:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Maximum-Severity SSRF Flaw in SonicWall SMA Devices Under Attack",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/max-severity-ssrf-flaw-sonicwall-sma-devices-under-attack",
+      "summary": "Attackers are currently targeting a critical vulnerability in SMA 1000 appliances, putting SonicWall customers in a familiar yet unenviable position.",
+      "date": "2026-10-12T21:42:42Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Firms urged to tighten AI agent oversight as threats rise",
+      "link": "https://securitybrief.com.au/story/firms-urged-to-tighten-ai-agent-oversight-as-threats-rise",
+      "summary": "Autonomous systems are exposing governance gaps, leaving companies scrambling to monitor access, review decisions and curb machine-speed attacks.",
+      "date": "2026-10-12T21:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Anthropic MCP SDK flaw lets attackers hijack logins",
+      "link": "https://securitybrief.com.au/story/anthropic-mcp-sdk-flaw-lets-attackers-hijack-logins",
+      "summary": "A flaw in Anthropic's MCP Python SDK could let malicious servers steal credentials and take over accounts through apparently legitimate logins.",
+      "date": "2026-10-12T21:03:51Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
-      "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
-      "date": "2026-10-11T23:50:46Z",
+      "source": "Security Brief Australia",
+      "title": "Scyne tour pushes verified cyber checks for suppliers",
+      "link": "https://securitybrief.com.au/story/scyne-tour-pushes-verified-cyber-checks-for-suppliers",
+      "summary": "Verified supplier checks could help governments cut breach risks and avoid service disruptions as agencies rely on thousands of contractors.",
+      "date": "2026-10-12T21:00:00Z",
       "tags": [
         "AU Cyber"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "UST: Businesses must rethink how AI returns are measured",
-      "link": "https://securitybrief.com.au/story/ust-businesses-must-rethink-how-ai-returns-are-measured",
-      "summary": "Australian firms risk spending increasing resources on AI pilots that ultimately fail to prove gains in revenue, efficiency or customer service.",
-      "date": "2026-10-11T22:09:00Z",
+      "source": "iTnews",
+      "title": "Hackers exploit firmware flaw to heat supermarket fridges",
+      "link": "https://www.itnews.com.au/news/hackers-exploit-firmware-flaw-to-heat-supermarket-fridges-629586?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Sparking fires and spoiling food.",
+      "date": "2026-10-12T20:24:00Z",
       "tags": [
-        "AI & Tools"
+        "AU Cyber"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Data sovereignty is a strategic imperative in the AI era",
-      "link": "https://securitybrief.com.au/story/data-sovereignty-is-a-strategic-imperative-in-the-ai-era",
-      "summary": "AI is pushing boards to weigh local control against cloud convenience, with 80% of respondents saying sovereignty matters more in vendor selection.",
-      "date": "2026-10-11T21:00:00Z",
+      "source": "iTnews",
+      "title": "Microsoft president says milk faces more regulation than AI",
+      "link": "https://www.itnews.com.au/news/microsoft-president-says-milk-faces-more-regulation-than-ai-629587?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Safety requirements debate continues.",
+      "date": "2026-10-12T20:24:00Z",
       "tags": [
-        "AI & Tools",
-        "Compliance"
+        "AI & Tools"
       ]
     },
     {
@@ -76,12 +125,67 @@
       "coverage": [
         {
           "source": "Dark Reading",
-          "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-          "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-          "date": "2026-10-09T17:21:00Z"
+          "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+          "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+          "date": "2026-10-12T20:00:53Z"
+        },
+        {
+          "source": "iTnews",
+          "title": "Canadian ransomware negotiator arrested",
+          "link": "https://www.itnews.com.au/news/canadian-ransomware-negotiator-arrested-629567?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-10-11T15:56:00Z"
         }
       ],
-      "latest": "2026-10-10T00:17:42Z"
+      "latest": "2026-10-12T20:00:53Z"
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
+      "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
+      "summary": "Australian and international cyber security agencies have issued a joint warning detailing how Chinese government-linked threat actors are combining large-scale automated scanning, legitimate network administration tools and targeted intrusions to [...]",
+      "date": "2026-10-12T06:35:19Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "NetScaler builds that fixed zero-days carry critical flaw, too",
+      "link": "https://www.itnews.com.au/news/netscaler-builds-that-fixed-zero-days-carry-critical-flaw-too-629542?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Separate SAML flaw rated as 9.5 out of 10.0.",
+      "date": "2026-10-11T14:29:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
+          "date": "2026-10-11T23:50:46Z"
+        }
+      ],
+      "latest": "2026-10-11T23:50:46Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "Anthropic discloses fake tip to police among new rogue AI incidents",
+      "link": "https://www.itnews.com.au/news/anthropic-discloses-fake-tip-to-police-among-new-rogue-ai-incidents-629568?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Attributed to an automated test process.",
+      "date": "2026-10-11T15:56:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "ASD joins seven-nation alert as US seizes Chinese hacking firm's tools",
+      "link": "https://www.itnews.com.au/news/asd-joins-seven-nation-alert-as-us-seizes-chinese-hacking-firms-tools-629536?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Chinese govt-linked 'Flax Typhoon' hackers ran portal for stolen email access.",
+      "date": "2026-10-11T14:32:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -101,6 +205,16 @@
       "date": "2026-10-09T19:26:26Z",
       "tags": [
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "What We Missed: FBI Strikes Back at ShinyHunters",
+      "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
+      "date": "2026-10-09T17:21:00Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -136,13 +250,13 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Middle managers want humans in security AI decisions",
-      "link": "https://securitybrief.com.au/story/middle-managers-want-humans-in-security-ai-decisions",
-      "summary": "That caution could slow adoption, as 46% of middle managers want a human involved in security-sensitive AI decisions, versus 24% of executives.",
-      "date": "2026-10-09T07:53:00Z",
+      "source": "iTnews",
+      "title": "US freezes Microsoft, Adobe, Infosys green-card applications",
+      "link": "https://www.itnews.com.au/news/us-freezes-microsoft-adobe-infosys-green-card-applications-629526?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Over alleged fraud.",
+      "date": "2026-10-08T20:52:00Z",
       "tags": [
-        "AI & Tools"
+        "Scams"
       ]
     },
     {
@@ -187,6 +301,17 @@
       ]
     },
     {
+      "source": "iTnews",
+      "title": "CrowdStrike says China-based suspect used AI tools in South Korean bank hacks",
+      "link": "https://www.itnews.com.au/news/crowdstrike-says-china-based-suspect-used-ai-tools-in-south-korean-bank-hacks-629513?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Clues found through analysis of AI coding-tool sessions.",
+      "date": "2026-10-08T06:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Australian Cyber Security Magazine",
       "title": "Critical Atlassian vulnerability affects Jira, Confluence and other products",
       "link": "https://australiancybersecuritymagazine.com.au/critical-atlassian-vulnerability-affects-jira-confluence-and-other-products/?utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products&utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products",
@@ -227,7 +352,16 @@
       "tags": [
         "AI & Tools",
         "Compliance"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Walk, don’t run, but never stand still on AI transformation",
+          "link": "https://australiancybersecuritymagazine.com.au/walk-dont-run-but-never-stand-still-on-ai-transformation/?utm_source=rss&utm_medium=rss&utm_campaign=walk-dont-run-but-never-stand-still-on-ai-transformation&utm_source=rss&utm_medium=rss&utm_campaign=walk-dont-run-but-never-stand-still-on-ai-transformation",
+          "date": "2026-10-06T02:17:43Z"
+        }
+      ],
+      "latest": "2026-10-07T21:42:55Z"
     },
     {
       "source": "Dark Reading",
@@ -317,16 +451,6 @@
       "date": "2026-10-06T14:08:33Z",
       "tags": [
         "Compliance"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Walk, don’t run, but never stand still on AI transformation",
-      "link": "https://australiancybersecuritymagazine.com.au/walk-dont-run-but-never-stand-still-on-ai-transformation/?utm_source=rss&utm_medium=rss&utm_campaign=walk-dont-run-but-never-stand-still-on-ai-transformation&utm_source=rss&utm_medium=rss&utm_campaign=walk-dont-run-but-never-stand-still-on-ai-transformation",
-      "summary": "By Tim Morris, Chief Security Advisor, Americas, Tanium Recently, the Australian Government disclosed that an AI agent had accessed a Medicare statistics portal without authorisation. No personal information is believed [...]",
-      "date": "2026-10-06T02:17:43Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -562,69 +686,6 @@
       "date": "2026-09-29T14:19:43Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Nvidia Launches AI Agent Safety Platform to Prevent Rogue Activities",
-      "link": "https://www.darkreading.com/cyber-risk/nvidia-launches-ai-agent-safety-platform-prevent-rogue-activities",
-      "summary": "The Open Agent Safety Platform relies on hardware and software components to monitor agent activities and quarantine unruly agents before they can cause harm.",
-      "date": "2026-09-28T22:02:46Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "One Packet Can Crash OT Servers in Industrial Sectors",
-      "link": "https://www.darkreading.com/ics-ot-security/one-packet-crash-servers-tdengine",
-      "summary": "A high-severity vulnerability affects the TDengine time-series database used across industrial, IoT, energy, and automotive environments, and orgs should patch right away.",
-      "date": "2026-09-28T21:13:04Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Carbonato Botnet Puts an AI Agent on Hacked Docker Hosts",
-      "link": "https://www.darkreading.com/identity-access-management-security/carbonato-botnet-ai-agent-hacked-docker-hosts",
-      "summary": "The botnet uses the open source Hermes Agent AI framework to execute commands via Telegram and steal AI API keys from exposed Docker hosts.",
-      "date": "2026-09-28T20:23:58Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Agents Are Privileged Users; Who Is Auditing Their Access?",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ai-agents-are-privileged-users-who-is-auditing-their-access",
-      "summary": "Enterprises regularly rigorously monitor human employees, while autonomous AI agents quietly operate with broad privileges that could turn them into the next generation of insider threats.",
-      "date": "2026-09-28T18:44:22Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Chrome Store Hosts 'Poper Blocker' Spyware Downloaded by Millions",
-      "link": "https://www.darkreading.com/application-security/chrome-store-poper-blocker-spyware-downloaded-millions",
-      "summary": "A purported ad-blocker exfiltrates reams of sensitive information and benefits from having Google's stamp of approval despite researcher warnings.",
-      "date": "2026-09-28T16:51:25Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "JadePuffer AI Actor Compromises Azure Tenant in Destructive Cloud Attack",
-      "link": "https://www.darkreading.com/cloud-security/jadepuffer-ai-actor-azure-tenant-destructive-cloud-attack",
-      "summary": "The \"agentic threat actor\" may have used exposed credentials to access resources and delete cloud-based storage, applications, and databases.",
-      "date": "2026-09-28T15:33:21Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     }
   ]
