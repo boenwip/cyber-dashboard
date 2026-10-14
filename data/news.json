@@ -1,7 +1,121 @@
 {
-  "last_updated": "2026-10-14T10:04:09Z",
-  "count": 65,
+  "last_updated": "2026-10-14T23:54:18Z",
+  "count": 63,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "date": "2026-10-14T05:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Security Brief Australia",
+          "title": "Ransomware gangs threaten Australian executives & families",
+          "link": "https://securitybrief.com.au/story/ransomware-gangs-threaten-australian-executives-families",
+          "date": "2026-10-14T23:37:00Z"
+        }
+      ],
+      "latest": "2026-10-14T23:37:00Z"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI, post-quantum cryptography shift signals new era of CLM",
+      "link": "https://securitybrief.com.au/story/ai-post-quantum-cryptography-shift-signals-new-era-of-clm",
+      "summary": "Shorter certificate lifespans are leading Australian businesses to automate renewals as manual tracking raises costs and security risks.",
+      "date": "2026-10-14T22:55:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+      "date": "2026-10-14T21:20:13Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Yam Store: The Phishing Network Behind a Billion Messages",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/yam-store-phishing-network-behind-billion-messages",
+      "summary": "A sprawling cybercrime marketplace supplied cloud infrastructure and phishing kits that helped fuel more than 1 billion phishing messages worldwide.",
+      "date": "2026-10-14T20:57:16Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "ASD’s Essential Eight replacement moves away from maturity ladder",
+      "link": "https://www.itnews.com.au/news/asds-essential-eight-replacement-moves-away-from-maturity-ladder-629637?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Organisations will report security area by area.",
+      "date": "2026-10-14T20:28:00Z",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic 'SneakPeek' Flaw Is a Silent Zero-Click Threat",
+      "link": "https://www.darkreading.com/threat-intelligence/new-anthropic-sneakpeek-silent-zero-click-threat",
+      "summary": "A bug in Claude Code Desktop's preview pane can allow adversaries to quietly steal credentials from developers, including SSH private keys, AWS credentials, and Claude 0Auth tokens.",
+      "date": "2026-10-14T20:09:42Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ocient & Shadow Nexus partner on security data platform",
+      "link": "https://securitybrief.com.au/story/ocient-shadow-nexus-partner-on-security-data-platform",
+      "summary": "National security agencies will be able to search hacked, breached and public data alongside mission records without moving it out of their own environment.",
+      "date": "2026-10-14T18:11:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Ransomware shifts to data corruption, Index Engines says",
+      "link": "https://securitybrief.com.au/story/ransomware-shifts-to-data-corruption-index-engines-says",
+      "summary": "Data recovery teams face a tougher test as new ransomware often corrupts files without full encryption, Index Engines said.",
+      "date": "2026-10-14T18:10:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Data Governance in the AI Era: Why One-Off Projects Fail",
+      "link": "https://securitybrief.com.au/story/data-governance-in-the-ai-era-why-one-off-projects-fail",
+      "summary": "AI pilots are stalling because weak data quality and unclear ownership keep organisations from turning governance spend into measurable gains.",
+      "date": "2026-10-14T17:17:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
+      "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
+      "summary": "The United Kingdom has issued economic sanctions against Cryptomus, a chameleonic cryptocurrency platform that experts say serves as a major conduit for payments related to ransomware, narcotics, darknet markets, fraud and cybercrime services that are helping Russia circumvent existing financial…",
+      "date": "2026-10-14T14:22:49Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Google rolls out Gemini 4 Argon for enterprise users",
@@ -13,79 +127,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Deepfake fraud market hits USD $40 billion, report says",
-      "link": "https://securitybrief.com.au/story/deepfake-fraud-market-hits-usd-40-billion-report-says",
-      "summary": "Synthetic fraud is now costing banks and insurers USD $40 billion a year, with voice cloning and video deepfakes driving most cases.",
-      "date": "2026-10-14T07:56:00Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "New merchants face fraud within weeks, Fraudio finds",
-      "link": "https://securitybrief.com.au/story/new-merchants-face-fraud-within-weeks-fraudio-finds",
-      "summary": "Newly observed merchants are most exposed in their first three months, with 10.5% hit by fraud and the median first case coming after 33 days.",
-      "date": "2026-10-14T07:40:00Z",
-      "tags": [
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Reco raises USD $55 million as AI agent security grows",
-      "link": "https://securitybrief.com.au/story/reco-raises-usd-55-million-as-ai-agent-security-grows-b4bf7e85-b4ab-4558-9674-813ee1c8bc81",
-      "summary": "Backers are betting that enterprise AI oversight will need sharper tools, as the security software company brings total funding to USD $140 million.",
-      "date": "2026-10-14T07:30:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Deepfake scams drive USD $40 billion fraud warning",
-      "link": "https://securitybrief.com.au/story/deepfake-scams-drive-usd-40-billion-fraud-warning",
-      "summary": "Banks and insurers face rising losses as deepfake fraud is now estimated at USD $40 billion a year, with voice cloning fuelling most cases.",
-      "date": "2026-10-14T07:30:00Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Banks overrate fraud readiness as data gaps persist",
-      "link": "https://securitybrief.com.au/story/banks-overrate-fraud-readiness-as-data-gaps-persist",
-      "summary": "Operational gaps are undermining banks' fraud defences, with only 41% fully connecting key data despite strong plans to increase AI spending.",
-      "date": "2026-10-14T07:15:00Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian firms hit by cyber incidents as AI threats rise",
-      "link": "https://securitybrief.com.au/story/australian-firms-hit-by-cyber-incidents-as-ai-threats-rise",
-      "summary": "AI-enhanced attacks are widening the gap between well-coordinated teams and slower rivals, with 93% of Australian organisations hit in the past year.",
-      "date": "2026-10-14T05:32:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats to their families, stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -93,26 +134,6 @@
       "date": "2026-10-14T04:35:49Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "GFF AI appoints Meenakshi Arekar as chief risk officer",
-      "link": "https://securitybrief.com.au/story/gff-ai-appoints-meenakshi-arekar-as-chief-risk-officer",
-      "summary": "As AI moves into core operations, the hire is designed to strengthen governance and resilience for regulated customers in Australia.",
-      "date": "2026-10-14T02:30:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI agents in IT service management and cloud operations",
-      "link": "https://securitybrief.com.au/story/ai-agents-in-it-service-management-and-cloud-operations",
-      "summary": "Teams can save time on tickets, incident summaries and cloud cost checks, but production changes still need named human approval.",
-      "date": "2026-10-14T02:30:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -262,23 +283,14 @@
       "latest": "2026-10-12T20:00:53Z"
     },
     {
-      "source": "iTnews",
-      "title": "ASD joins seven-nation alert as US seizes Chinese hacking firm's tools",
-      "link": "https://www.itnews.com.au/news/asd-joins-seven-nation-alert-as-us-seizes-chinese-hacking-firms-tools-629536?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Chinese govt-linked 'Flax Typhoon' hackers ran portal for stolen email access.",
-      "date": "2026-10-11T14:32:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
+      "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
+      "summary": "Australian and international cyber security agencies have issued a joint warning detailing how Chinese government-linked threat actors are combining large-scale automated scanning, legitimate network administration tools and targeted intrusions to [...]",
+      "date": "2026-10-12T06:35:19Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
-          "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
-          "date": "2026-10-12T06:35:19Z"
-        }
-      ],
-      "latest": "2026-10-12T06:35:19Z"
+      ]
     },
     {
       "source": "iTnews",
@@ -310,6 +322,16 @@
       ]
     },
     {
+      "source": "iTnews",
+      "title": "ASD joins seven-nation alert as US seizes Chinese hacking firm's tools",
+      "link": "https://www.itnews.com.au/news/asd-joins-seven-nation-alert-as-us-seizes-chinese-hacking-firms-tools-629536?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Chinese govt-linked 'Flax Typhoon' hackers ran portal for stolen email access.",
+      "date": "2026-10-11T14:32:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
@@ -330,23 +352,14 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
-      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
-      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was…",
-      "date": "2026-10-07T13:48:45Z",
+      "source": "Dark Reading",
+      "title": "What We Missed: FBI Strikes Back at ShinyHunters",
+      "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
+      "date": "2026-10-09T17:21:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-          "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-          "date": "2026-10-09T17:21:00Z"
-        }
-      ],
-      "latest": "2026-10-09T17:21:00Z"
+      ]
     },
     {
       "source": "Google News — Bleeping Computer AU",
@@ -367,16 +380,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "US freezes Microsoft, Adobe, Infosys green-card applications",
-      "link": "https://www.itnews.com.au/news/us-freezes-microsoft-adobe-infosys-green-card-applications-629526?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Over alleged fraud.",
-      "date": "2026-10-08T20:52:00Z",
-      "tags": [
         "Scams"
       ]
     },
@@ -482,6 +485,16 @@
       "date": "2026-10-07T19:34:08Z",
       "tags": [
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "ShinyHunters Extorted Boeing Spin-off Prior to Arrests",
+      "link": "https://krebsonsecurity.com/2026/10/shinyhunters-extorted-boeing-spin-off-prior-to-arrests/",
+      "summary": "A teenager from Amman, Jordan suspected of leading the prolific data theft and extortion group ShinyHunters has been detained and is reportedly cooperating with the FBI to identify other members of the hacking gang. KrebsOnSecurity has learned that the suspect, who uses the hacker handle \"Rey,\" was…",
+      "date": "2026-10-07T13:48:45Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -674,48 +687,6 @@
       "date": "2026-10-01T00:52:38Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Malicious Custom GPTs Turn ChatGPT Into RAT Delivery Lure",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/malicious-custom-gpts-chatgpt-rat-delivery-lure",
-      "summary": "In yet another ClickFix-style campaign, threat actors abuse legitimate domains from OpenAI and Google to fool unsuspecting users.",
-      "date": "2026-09-30T21:25:47Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Trump, Tech Giants Strike Voluntary AI Safety Accord",
-      "link": "https://www.darkreading.com/cyber-risk/trump-tech-giants-strike-voluntary-ai-safety-accord",
-      "summary": "The new White House Accord on so-called \"Super Intelligence\" calls on companies to implement greater controls and oversight over AI safety.",
-      "date": "2026-09-30T20:51:15Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "As AI Reshapes the SOC Career Ladder, Satisfaction Rises for 91%, but Entry Gets Harder for Nearly Half",
-      "link": "https://www.darkreading.com/cybersecurity-careers/ai-reshapes-soc-career-ladder",
-      "summary": "New Swimlane research underscores a paradox: While AI detection and response is essential to giving defenders an edge, one in four security pros say AI limits their skill development.",
-      "date": "2026-09-30T18:56:56Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Russia's Star Blizzard Ditches ClickFix to Widen Phishing Net",
-      "link": "https://www.darkreading.com/threat-intelligence/russia-star-blizzard-apt-ditches-clickfix-widen-phishing-net",
-      "summary": "The APT actor is using a new tactic, dubbed \"RedFlick,\" against Ukrainian-linked targets such as NGOs, think tanks, and journalists to deploy its CosmicPulse backdoor.",
-      "date": "2026-09-30T15:02:25Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
       ]
     }
   ]

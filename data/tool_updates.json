@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-10-14T10:04:17Z",
-  "count": 40,
+  "last_updated": "2026-10-14T23:54:26Z",
+  "count": 39,
   "items": [
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Early Stable Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/10/early-stable-update-for-desktop_01549127219.html",
+      "summary": "The Stable channel has been updated to 156.0.8078.35/.36 for Windows and Mac a s part of our early stable release to a small percentage of users. A full list of changes in this build is available in…",
+      "date": "2026-10-14T20:46:06Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_02125536954.html",
+      "summary": "Hello Everyone! We've just released Chrome 156 (156.0.8078.39) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details…",
+      "date": "2026-10-14T20:25:53Z"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.300",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
+      "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and…",
+      "date": "2026-10-14T18:24:25Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for iOS Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-ios-update_0317100573.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 157 (157.0.8103.1) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you…",
+      "date": "2026-10-14T17:13:33Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_01506840435.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 156 (156.0.8078.39) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
+      "date": "2026-10-14T13:28:32Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -9,38 +49,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
       "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the…",
       "date": "2026-10-14T02:49:42Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01360129943.html",
-      "summary": "Hi, everyone! We've just released Chrome 155 (155.0.8059.79) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
-      "date": "2026-10-13T22:00:00Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Beta Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "https://chromereleases.googleblog.com/2026/10/beta-channel-update-for-chromeos_0596170668.html",
-      "summary": "The Beta channel is being updated to OS version 16836.15.0 (Browser version 156.0.8078.31) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a bug…",
-      "date": "2026-10-13T21:16:57Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01668083673.html",
-      "summary": "The Stable channel has been updated to 155.0.8059.79/.80 for Windows and Mac and 155.0.8059.79 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
-      "date": "2026-10-13T20:53:43Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop_0571684596.html",
-      "summary": "The Extended Stable channel has been updated to 152.0.7977.167 for Windows and Mac which will roll out over the coming days/weeks. Security Fixes Note: Access to bug details and links may be kept…",
-      "date": "2026-10-13T20:40:37Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -57,14 +65,6 @@
       "link": "https://workspaceupdates.googleblog.com/2026/10/switch-from-live-stream-viewer-to-contributor-in-Google-Meet-on-Android.html",
       "summary": "You can now switch from watching a Google Meet live stream to participating with audio and video directly on Android. This feature is available for viewers who have been invited to both the live…",
       "date": "2026-10-13T19:19:34Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Stable for iOS Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-stable-for-ios-update_01885421664.html",
-      "summary": "Hi everyone! We've just released Chrome Stable 156 (156.0.8078.33) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements…",
-      "date": "2026-10-13T16:13:33Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -91,6 +91,14 @@
       "date": "2026-10-12T15:54:33Z"
     },
     {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic just took steps to protect Claude's feelings. Here's what that means. - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRlVwVUoxaEpsS3JtdXJYM2ZIaUo4ZW9qRVhlWmhRQVFWNzc0UlhIMXNlQ3J1RXMwZ0tMRVQ4blQyR2h6bUhHSzBlYXRfZTNYR2NNQlo0ckFLcEtXbzE4d2dJRUs0eUVnaUFqWk9sR095UHlYYXFKUjNwM0k4ZzZabHBpN0xjNVg1bUZmUQ?oc=5",
+      "summary": "Anthropic just took steps to protect Claude's feelings. Here's what that means. Mashable",
+      "date": "2026-10-11T16:03:40Z"
+    },
+    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.296",
@@ -115,28 +123,12 @@
       "date": "2026-10-08T19:48:38Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic changes usage policy to ban model abuse and election interference - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2twUlZwTmdvdVBobFlHazd4UnRGZ0Rqam1GQm15S184aDJ2ZzVUaWJXSElGNHFzSGFGU1R3X0d2T0ZmV0V0UXdlTUVwb28zeldaYzVNeWoxT19GTnpmUEl4eXB4UWlETElkNDZ5dGJqTWJSMWZIbHFwZ2FzMzBBTy1qcUIxZ2lGNFJ4NFo5c19HRDRUWXk0X2YyRUJXeHU5Z0Y0QXczY0plaUdtT0NF?oc=5",
-      "summary": "Anthropic changes usage policy to ban model abuse and election interference TechCrunch",
-      "date": "2026-10-08T18:16:24Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.294",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
       "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as…",
       "date": "2026-10-08T05:03:54Z"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.293",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293",
-      "summary": "What's changed Added Claude Haiku 5.5 ( claude-haiku-5-5 ), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50 for prompts over 100K) Added agentType to…",
-      "date": "2026-10-07T18:10:20Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -171,12 +163,12 @@
       "date": "2026-09-29T07:00:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
+      "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
-      "date": "2026-09-25T12:07:25Z"
+      "title": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal - TechSpot",
+      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02U3d5M09xTkFWTWRLOTVYdThSTUhxSW02RzJBd19fOHpHV1d4ZjUxOGg5bTFVV1ZPcUVwMlNtSEc2dHZXdmxTTWJyUzJTUDhOUFZvUnUySlNFUFNBNGIzNGpoS29CdEJKRHlGQ3BYT0VEVnhlcnc4djB2OEJFemc?oc=5",
+      "summary": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal TechSpot",
+      "date": "2026-09-28T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -251,6 +243,14 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
+      "date": "2026-09-03T15:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
@@ -281,14 +281,6 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBCQ0pjZFVwNTUxSU1INkRxYnVMTGt6QnVxT0J6NVJ4cTRIMGcyOXMteG05cjRUWFhHcE5YWmtIMU9PN0w1QzV5TkFYU1JncmJzZHc?oc=5",
       "summary": "OpenAI has launched “ChatGPT for Academic Researchers,” a programme offering 10,000 researchers free access to its frontier AI models this summer. The company plans to expand the initiative to…",
       "date": "2026-07-29T07:00:00Z"
-    },
-    {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "What Is the Latest Version of Microsoft Office in 2026? - Online Tech Tips",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1ZQYk44cUNXeEppVGlYMWZBdnBxLWtKUTZwQk5SbmN2VUtEZ1JpcTJlRzlBcVdaLW1xRzhUcV96WDFSVnNHaWZKN3BZUjJhQ1lyMDdDTWJXWERQZ3R5NS12UC1STXdyWGFyWFRFaHA2OFkzTjFoTnE5TFZ1NHAzSjh1M05UUXc?oc=5",
-      "summary": "What Is the Latest Version of Microsoft Office in 2026? Online Tech Tips",
-      "date": "2026-07-16T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
