@@ -1,7 +1,15 @@
 {
-  "last_updated": "2026-10-14T00:16:29Z",
+  "last_updated": "2026-10-14T04:42:22Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.299",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
+      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the…",
+      "date": "2026-10-14T02:49:42Z"
+    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -115,14 +123,6 @@
       "date": "2026-10-08T18:16:24Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic bans ‘abusive or cruel behavior’ toward Claude - The Verge",
-      "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPRHp1a0RodHB0TloxZW1vN3pSUFl6VkJyLWFvUXk3RHp5ZWVadUFJWlotZTk2SG5oanR6V3JRMGRMVDB5YThFUVBWaVYyZWFfalBneDl0THFXb0U0NmZHUVQzN1RZS1dGNmZ6X01rMlBoeWNpZEhrYmQzalItcVpyS2p1WFJDMUFMMHBFREZWeHJaNlh1Q0Vka0lHQWxHNy1S?oc=5",
-      "summary": "Anthropic bans ‘abusive or cruel behavior’ toward Claude The Verge",
-      "date": "2026-10-08T17:00:00Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.294",
@@ -155,27 +155,11 @@
       "date": "2026-10-07T18:00:19Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.292",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292",
-      "summary": "What's changed Added --marketplace ‹source› to claude plugin install : adds the marketplace if needed, under the same policy checks as claude plugin marketplace add , then installs the plugin from it…",
-      "date": "2026-10-06T18:59:30Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing dots - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-      "summary": "Introducing dots OpenAI",
-      "date": "2026-09-29T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live - 9to5Mac",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOakJHS3lYYUpuLXdnUmROa3lTY2JfMWt2QmQzNHZoN3BCLUxVWVdzWDRPa2NuSkV3M0xHOXY5dmp6TW45ZUxHTjV5YkY4SEEzcW5kdWtUNVFWb1J0TXNDRVVEZlRVajZ2MUM0bzMxSXZPN1E5SUt1cW96QXh4Qy14TllSbUR4Ui10Q2pJ?oc=5",
-      "summary": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live 9to5Mac",
+      "title": "DevDay 2026 Recap - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
+      "summary": "DevDay 2026 Recap OpenAI",
       "date": "2026-09-29T07:00:00Z"
     },
     {
@@ -185,14 +169,6 @@
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02U3d5M09xTkFWTWRLOTVYdThSTUhxSW02RzJBd19fOHpHV1d4ZjUxOGg5bTFVV1ZPcUVwMlNtSEc2dHZXdmxTTWJyUzJTUDhOUFZvUnUySlNFUFNBNGIzNGpoS29CdEJKRHlGQ3BYT0VEVnhlcnc4djB2OEJFemc?oc=5",
       "summary": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal TechSpot",
       "date": "2026-09-28T07:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
-      "date": "2026-09-25T12:07:25Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -237,6 +213,14 @@
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
+      "date": "2026-09-15T07:00:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
       "title": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features - Creative Boom",
       "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQLTFyUzBwYW9FeF9CVF9TbGlkaGowT21oZ1g5cGhMaHlJYUYwZ1U2Yk9GQ1RubzZpOFdlRkp6T3N4TFFUcU4xWEktWnJ5bk9UTktBWUEtS0VkTTdCWEFNcy1UdWZLdWdOVUZ0M09zTkNxekJnVW5TVmdVOU5GcVdmcmNLVXdVWTE1a0VVczctcmFncXkxUm9fcU91X293enhuOFludXhRRGFocXd4MjBXb21Ta0dYUHNRVEg3TEtzUTQxVjhLZnRMbHE0VGUzdXo0WXdtRHNlZHNERmRObkFvTw?oc=5",
       "summary": "Canva launches ProSuite bringing Affinity, Cavalry, Flourish and Leonardo together with more than 100 new features Creative Boom",
@@ -257,6 +241,22 @@
       "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
       "summary": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared…",
       "date": "2026-09-10T15:00:00Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
+      "date": "2026-09-03T15:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT’s newest feature is like Windows Recall without screenshots - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMzJXYmlWSlpydTEySUg0YmYxczBxc2pWTDE2M3d3LUJSRXNscFAyNmI2ZGVSQldBejJReFUyXzVVaGl2Q21qeGg0TVVVNV9DUlJOUTZpODZfSXVoblZJTjhPWU9XdkpGc1ZrWjNrQUtTbnRSWlgzYVliQ2tvZDVLTDNQaHlzYUJFV1Z1UUNGaHZRTnduUVRIa1EzZ0wzVXpMb0t4ZXVac1Z2S3ZQVnFZ?oc=5",
+      "summary": "ChatGPT’s newest feature is like Windows Recall without screenshots PCWorld",
+      "date": "2026-08-18T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -307,20 +307,20 @@
       "date": "2026-06-15T07:00:00Z"
     },
     {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Opus 4.8 with broad gains - IT Brief Australia",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOb2FXSG13TVZlRnJra1g1QWFMMTlKeFcwN3ZVWXhnblJManBBdVU2MVdTMDlUSG04Z0tUY0VpeXNYd2JvaVBtWlhBLWZpVGFwdjNmYnAtSVNVbE01RkN6ZDVaa1hrVUczZHNubW9uaHZTWl9VV0JOa3h2VUhxZXJKM1ZYV3M2ZVE?oc=5",
+      "summary": "Anthropic releases Claude Opus 4.8 with broad gains IT Brief Australia",
+      "date": "2026-05-29T07:00:00Z"
+    },
+    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "2026-04-16T07:00:00Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
-      "date": "2026-03-18T07:00:00Z"
     }
   ]
 }
