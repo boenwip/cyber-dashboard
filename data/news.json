@@ -1,7 +1,37 @@
 {
-  "last_updated": "2026-10-14T23:54:18Z",
-  "count": 63,
+  "last_updated": "2026-10-15T04:24:26Z",
+  "count": 60,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Arctic Wolf launches AI oversight tools for security teams",
+      "link": "https://securitybrief.com.au/story/arctic-wolf-launches-ai-oversight-tools-for-security-teams",
+      "summary": "Security teams are being offered earlier attack interruption and clearer AI decision trails as the company adds three products to its Aurora platform.",
+      "date": "2026-10-15T01:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "DataMasque joins MAS PathFin.ai for privacy-preserving AI",
+      "link": "https://securitybrief.com.au/story/datamasque-joins-mas-pathfin-ai-for-privacy-preserving-ai",
+      "summary": "Financial firms can now assess privacy-preserving AI tools faster as DataMasque joins MAS's PathFin.ai library to mask sensitive customer data.",
+      "date": "2026-10-15T01:14:02Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "LogicMonitor unveils AI operating model for IT operations",
+      "link": "https://securitybrief.com.au/story/logicmonitor-unveils-ai-operating-model-for-it-operations",
+      "summary": "Enterprises could cut alert overload and speed incident response as LogicMonitor adds governed AI investigation across its monitoring tools.",
+      "date": "2026-10-15T00:23:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Dark Reading",
       "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
@@ -32,14 +62,23 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
-      "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
-      "date": "2026-10-14T21:20:13Z",
+      "source": "iTnews",
+      "title": "Attackers chain three Ivanti VPN zero-days for root access",
+      "link": "https://www.itnews.com.au/news/attackers-chain-three-ivanti-vpn-zero-days-for-root-access-629621?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "One of the flaws awaits fix.",
+      "date": "2026-10-13T20:46:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+          "date": "2026-10-14T21:20:13Z"
+        }
+      ],
+      "latest": "2026-10-14T21:20:13Z"
     },
     {
       "source": "Dark Reading",
@@ -85,27 +124,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Ransomware shifts to data corruption, Index Engines says",
-      "link": "https://securitybrief.com.au/story/ransomware-shifts-to-data-corruption-index-engines-says",
-      "summary": "Data recovery teams face a tougher test as new ransomware often corrupts files without full encryption, Index Engines said.",
-      "date": "2026-10-14T18:10:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Data Governance in the AI Era: Why One-Off Projects Fail",
-      "link": "https://securitybrief.com.au/story/data-governance-in-the-ai-era-why-one-off-projects-fail",
-      "summary": "AI pilots are stalling because weak data quality and unclear ownership keep organisations from turning governance spend into measurable gains.",
-      "date": "2026-10-14T17:17:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
       "source": "Krebs on Security",
       "title": "U.K. Sanctions Cryptomus for RU Money Laundering",
       "link": "https://krebsonsecurity.com/2026/10/u-k-sanctions-cryptomus-for-ru-money-laundering/",
@@ -114,16 +132,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Google rolls out Gemini 4 Argon for enterprise users",
-      "link": "https://securitybrief.com.au/story/google-rolls-out-gemini-4-argon-for-enterprise-users",
-      "summary": "The model is being pitched at coding, finance and security teams after Google said it sped up engineering work and helped patch serious flaws.",
-      "date": "2026-10-14T08:00:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -164,16 +172,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Attackers chain three Ivanti VPN zero-days for root access",
-      "link": "https://www.itnews.com.au/news/attackers-chain-three-ivanti-vpn-zero-days-for-root-access-629621?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "One of the flaws awaits fix.",
-      "date": "2026-10-13T20:46:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -293,23 +291,14 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "NetScaler builds that fixed zero-days carry critical flaw, too",
-      "link": "https://www.itnews.com.au/news/netscaler-builds-that-fixed-zero-days-carry-critical-flaw-too-629542?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Separate SAML flaw rated as 9.5 out of 10.0.",
-      "date": "2026-10-11T14:29:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
+      "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
+      "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
+      "date": "2026-10-11T23:50:46Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
-          "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
-          "date": "2026-10-11T23:50:46Z"
-        }
-      ],
-      "latest": "2026-10-11T23:50:46Z"
+      ]
     },
     {
       "source": "iTnews",
@@ -664,27 +653,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/warlock-ransomware-spanish-portuguese",
       "summary": "A year-old Chinese threat actor looks like a cybercrime gang, acts like a state-associated APT, and attacks organizations in unexpected places.",
       "date": "2026-10-01T13:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "OpenAI pauses training of its most capable artificial intelligence models",
-      "link": "https://australiancybersecuritymagazine.com.au/openai-pauses-training-of-its-most-capable-artificial-intelligence-models/?utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models&utm_source=rss&utm_medium=rss&utm_campaign=openai-pauses-training-of-its-most-capable-artificial-intelligence-models",
-      "summary": "OpenAI has paused training of its most capable artificial intelligence models as the company investigates a growing number of incidents involving AI agents bypassing security controls and taking unintended actions [...]",
-      "date": "2026-10-01T00:54:05Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC warns of confirmed exploitation of Citrix NetScaler vulnerabilities",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-confirmed-exploitation-of-citrix-netscaler-vulnerabilities",
-      "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert on vulnerabilities affecting Citrix NetScaler ADC and Citrix NetScaler Gateway, saying it has received reports from Australian organisations [...]",
-      "date": "2026-10-01T00:52:38Z",
       "tags": [
         "AU Cyber"
       ]
