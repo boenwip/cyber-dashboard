@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-10-15T09:21:46Z",
-  "count": 39,
+  "last_updated": "2026-10-15T23:40:38Z",
+  "count": 40,
   "items": [
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01464551208.html",
+      "summary": "Hi, everyone! We've just released Chrome 155 (155.0.8059.84) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
+      "date": "2026-10-15T23:00:00Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_01173306270.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 157 (157.0.8103.5) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
+      "date": "2026-10-15T22:58:31Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Extended Stable Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop_01598036246.html",
+      "summary": "The Extended Stable channel has been updated to 152.0.7977.169 for Windows and Mac which will roll out over the coming days/weeks. Security Fixes Note: Access to bug details and links may be kept…",
+      "date": "2026-10-15T21:20:05Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gmail Live is rolling out to paid Workspace users",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html",
+      "summary": "Finding critical information on the go often involves sifting through lengthy email threads and switching between multiple messages while your hands are busy commuting or multi-tasking. Following our…",
+      "date": "2026-10-15T21:19:41Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01886704284.html",
+      "summary": "The Stable channel has been updated to 155.0.8059.84/.85 for Windows and Mac and 155.0.8059.84 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
+      "date": "2026-10-15T20:50:35Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gmail’s AI Inbox is rolling out to paid Workspace users",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/gmails-ai-inbox-is-rolling-out-to-paid-Workspace-users.html",
+      "summary": "Earlier this year, we launched AI Inbox in Gmail which helps users catch up on what matters most. Starting today, we’re expanding AI Inbox to paid Google Workspace users. By highlighting key…",
+      "date": "2026-10-15T20:14:12Z"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.301",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
+      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of…",
+      "date": "2026-10-15T19:22:06Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Now generally available: Preview client-side encrypted PDF and image files directly in Google Drive",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/now-generally-available-preview-client-side-encrypted-PDF-and-image-files-directly-in-Google-Drive.html",
+      "summary": "Client-side encryption (CSE) gives organizations ultimate control over who can access their most confidential data, using customer-managed encryption keys that render the data unreadable to…",
+      "date": "2026-10-15T16:59:58Z"
+    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -11,36 +75,12 @@
       "date": "2026-10-14T20:46:06Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_02125536954.html",
-      "summary": "Hello Everyone! We've just released Chrome 156 (156.0.8078.39) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details…",
-      "date": "2026-10-14T20:25:53Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.300",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300",
       "summary": "What's changed Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt Added cache_creation_5m_tokens and…",
       "date": "2026-10-14T18:24:25Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-ios-update_0317100573.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 157 (157.0.8103.1) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you…",
-      "date": "2026-10-14T17:13:33Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-android-update_01506840435.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 156 (156.0.8078.39) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
-      "date": "2026-10-14T13:28:32Z"
     },
     {
       "source": "Claude Code Releases",
@@ -65,30 +105,6 @@
       "link": "https://workspaceupdates.googleblog.com/2026/10/switch-from-live-stream-viewer-to-contributor-in-Google-Meet-on-Android.html",
       "summary": "You can now switch from watching a Google Meet live stream to participating with audio and video directly on Android. This feature is available for viewers who have been invited to both the live…",
       "date": "2026-10-13T19:19:34Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Find your routine next steps on the post-meeting screen in Google Meet",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/find-your-routine-next-steps-on-post-meeting-screen-in-Google-Meet.html",
-      "summary": "We are introducing next steps in Google Meet. Powered by Gemini and Workspace Studio, our new capability allows users to automate repetitive post-meeting tasks directly within Google Workspace. Next…",
-      "date": "2026-10-12T19:17:43Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Configure Access Management and Access Approvals policies using classification labels with rules in Assured Controls",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/configure-access-management-and-access-Approvals-policies-using-classification-labels-with-rules-in-Assured-Controls.html",
-      "summary": "We’re introducing Assured Controls rules in the Google Workspace Admin Console, giving administrators a more granular, resource-centric way to enforce Access Management and Access Approvals policies…",
-      "date": "2026-10-12T18:28:27Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Meet now uses post-quantum cryptography",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/google-meet-now-uses-post-quantum-cryptography.html",
-      "summary": "Calls in Google Meet will use post-quantum cryptography (PQC) for extra protection, starting now with laptop web clients and meeting room hardware, with mobile support coming soon. There are no…",
-      "date": "2026-10-12T15:54:33Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -123,36 +139,20 @@
       "date": "2026-10-08T19:48:38Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.294",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294",
-      "summary": "What's changed Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block Improved how prompt hooks on Stop and SubagentStop written as…",
-      "date": "2026-10-08T05:03:54Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT is getting a lot more visual, with the launch of a new interface - TechCrunch",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEFVMy1BRFZyWXM2UFZVeVFyUy1TdTluV0tYRkkwdnlDVFNyZW9jZVhMQVN3Qng5UXk5bmtCSXRaOGcySFNveWtudG11eXZfNGhJSFZmallXN3I2d052WXZrT0xuRF9yR0lvYjBycmV0NVRka2FtMG84SXp5QWo0WlFsN0QyTlN4bHFpRWZGSVJreWJsTmtfV3lQTkNTVTFpZDJ6WlRRN01jUQ?oc=5",
       "summary": "ChatGPT is getting a lot more visual, with the launch of a new interface TechCrunch",
-      "date": "2026-10-07T18:00:19Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-      "summary": "GPT-6 and Intelligent UI for everyone OpenAI",
       "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "DevDay 2026 Recap - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
-      "summary": "DevDay 2026 Recap OpenAI",
-      "date": "2026-09-29T07:00:00Z"
+      "title": "Building advertising for the way people use AI - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
+      "summary": "Building advertising for the way people use AI OpenAI",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -163,28 +163,12 @@
       "date": "2026-09-29T07:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing dots - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-      "summary": "Introducing dots OpenAI",
-      "date": "2026-09-29T07:00:00Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal - TechSpot",
       "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02U3d5M09xTkFWTWRLOTVYdThSTUhxSW02RzJBd19fOHpHV1d4ZjUxOGg5bTFVV1ZPcUVwMlNtSEc2dHZXdmxTTWJyUzJTUDhOUFZvUnUySlNFUFNBNGIzNGpoS29CdEJKRHlGQ3BYT0VEVnhlcnc4djB2OEJFemc?oc=5",
       "summary": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal TechSpot",
       "date": "2026-09-28T07:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
-      "date": "2026-09-25T12:07:25Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -259,12 +243,36 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
+      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
+      "date": "2026-09-08T07:00:00Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
+      "date": "2026-09-03T15:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT’s newest feature is like Windows Recall without screenshots - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMzJXYmlWSlpydTEySUg0YmYxczBxc2pWTDE2M3d3LUJSRXNscFAyNmI2ZGVSQldBejJReFUyXzVVaGl2Q21qeGg0TVVVNV9DUlJOUTZpODZfSXVoblZJTjhPWU9XdkpGc1ZrWjNrQUtTbnRSWlgzYVliQ2tvZDVLTDNQaHlzYUJFV1Z1UUNGaHZRTnduUVRIa1EzZ0wzVXpMb0t4ZXVac1Z2S3ZQVnFZ?oc=5",
+      "summary": "ChatGPT’s newest feature is like Windows Recall without screenshots PCWorld",
+      "date": "2026-08-18T07:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft is cutting off new Office features on Windows 10 soon - PCWorld",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNN0d0N0tYVEQ0WjY1Vjk4c1d5WDBIcHlEbjJxLUdSUDFhZFFGc0ZtVmVrQnBoVzBhQXpUMjdSX2RfM0pHWFQyVWE0TTJVNl82aGxfWEZ0RGpDOHNqR0QwYWdJNDJ4ZnVZTGx0dEdLeE9WVGpteDlnWWFDNFZyWVd2cU05UlpFVGJxaDBJTUFlak1nUWxqVmREdVljR0taUlRSaDZ3RVRnTl9xZHFH?oc=5",
       "summary": "Microsoft is cutting off new Office features on Windows 10 soon PCWorld",
-      "date": "2026-08-13T14:58:37Z"
+      "date": "2026-08-13T07:00:00Z"
     },
     {
       "source": "Google News — Canva Updates",
