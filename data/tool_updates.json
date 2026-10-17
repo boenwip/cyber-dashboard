@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-10-16T09:15:08Z",
+  "last_updated": "2026-10-17T04:13:17Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.302",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
+      "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to…",
+      "date": "2026-10-16T20:53:06Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - October 16, 2026",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-16-2026.html",
+      "summary": "Google Meet now uses post-quantum cryptography Calls in Google Meet will use post-quantum cryptography (PQC) for extra protection, starting now with laptop web clients and meeting room hardware, with…",
+      "date": "2026-10-16T18:44:55Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-dev-for-desktop-update_0562111902.html",
+      "summary": "The Dev channel has been updated to 158.0.8106.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
+      "date": "2026-10-16T15:43:33Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-dev-for-android-update_0193953929.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 158 (158.0.8106.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
+      "date": "2026-10-16T13:13:32Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Desktop Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-desktop-update_02089051700.html",
+      "summary": "The Chrome team is excited to announce the promotion of Chrome 157 to the Beta channel for Windows, Mac and Linux. Chrome 157.0.8103.6 contains our usual under-the-hood performance and stability…",
+      "date": "2026-10-16T09:13:33Z"
+    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -19,28 +59,12 @@
       "date": "2026-10-15T22:58:31Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/extended-stable-update-for-desktop_01598036246.html",
-      "summary": "The Extended Stable channel has been updated to 152.0.7977.169 for Windows and Mac which will roll out over the coming days/weeks. Security Fixes Note: Access to bug details and links may be kept…",
-      "date": "2026-10-15T21:20:05Z"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Gmail Live is rolling out to paid Workspace users",
       "link": "https://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html",
       "summary": "Finding critical information on the go often involves sifting through lengthy email threads and switching between multiple messages while your hands are busy commuting or multi-tasking. Following our…",
       "date": "2026-10-15T21:19:41Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_01886704284.html",
-      "summary": "The Stable channel has been updated to 155.0.8059.84/.85 for Windows and Mac and 155.0.8059.84 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
-      "date": "2026-10-15T20:50:35Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -67,14 +91,6 @@
       "date": "2026-10-15T16:59:58Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Early Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/early-stable-update-for-desktop_01549127219.html",
-      "summary": "The Stable channel has been updated to 156.0.8078.35/.36 for Windows and Mac a s part of our early stable release to a small percentage of users. A full list of changes in this build is available in…",
-      "date": "2026-10-14T20:46:06Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.300",
@@ -99,14 +115,6 @@
       "date": "2026-10-13T20:33:42Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Switch from live stream viewer to contributor in Google Meet on Android",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/switch-from-live-stream-viewer-to-contributor-in-Google-Meet-on-Android.html",
-      "summary": "You can now switch from watching a Google Meet live stream to participating with audio and video directly on Android. This feature is available for viewers who have been invited to both the live…",
-      "date": "2026-10-13T19:19:34Z"
-    },
-    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Strengthening our defenses against distillation attacks - Anthropic",
@@ -123,22 +131,6 @@
       "date": "2026-10-09T19:28:59Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic asks users to stop being mean to Claude - The Register",
-      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYm1BN01TVXF6eDVwQU81bWZXYWExX091aXN2UHRxUG1KZ2h0bEhqZUoxRHZBRXAzdTg1U0hSdjBoWjJ3MU9WSzNXSDNQUHdBQm15cndjbUZydzNiZVNGWDUwOVVrOEtLOXFQZU9GWk85VlQ2MDBCdTVBb1ExY3RXYXBObXBhbGk5bUZBckxyS3ZNTDVaOXFlUFR0UkdJdWc1Q1RHYXJfY0JCdw?oc=5",
-      "summary": "Anthropic asks users to stop being mean to Claude The Register",
-      "date": "2026-10-09T10:42:00Z"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.295",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295",
-      "summary": "What's changed Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action instead of letting it through Added Program…",
-      "date": "2026-10-08T19:48:38Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT is getting a lot more visual, with the launch of a new interface - TechCrunch",
@@ -147,12 +139,20 @@
       "date": "2026-10-07T07:00:00Z"
     },
     {
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Here are all the new features Microsoft added to Excel in September 2026 - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNOU1udzRicWhyaHp2WlJ3d1dXenVEa3BLM1RZSmc2TTNYVnNqbHNiQkNlZHBVZU1zWmN2QzVYNG0zcW9oWG9qaDNhU05DYlB4TDNyUFVXdDZBODZwRmFhSHRLUWhPcGc4cFdiWFlmQjd2Y2lJMDYzbkZvR1Zoa0s0TTRUYk15NjdULTYxalVOSnFETkM1bTRSMnFPc1N6RXVwbmNZ?oc=5",
+      "summary": "Here are all the new features Microsoft added to Excel in September 2026 Neowin",
+      "date": "2026-09-29T07:00:00Z"
+    },
+    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Building advertising for the way people use AI - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
-      "summary": "Building advertising for the way people use AI OpenAI",
-      "date": "2026-10-05T07:00:00Z"
+      "title": "DevDay 2026 Recap - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
+      "summary": "DevDay 2026 Recap OpenAI",
+      "date": "2026-09-29T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -171,12 +171,12 @@
       "date": "2026-09-29T07:00:00Z"
     },
     {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal - TechSpot",
-      "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE02U3d5M09xTkFWTWRLOTVYdThSTUhxSW02RzJBd19fOHpHV1d4ZjUxOGg5bTFVV1ZPcUVwMlNtSEc2dHZXdmxTTWJyUzJTUDhOUFZvUnUySlNFUFNBNGIzNGpoS29CdEJKRHlGQ3BYT0VEVnhlcnc4djB2OEJFemc?oc=5",
-      "summary": "The latest Microsoft Office 2024 Professional Plus suite is $49 in this limited-time deal TechSpot",
-      "date": "2026-09-28T07:00:00Z"
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it - Mashable",
+      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZmVllHd3ZISlAtUEZSa0xkaExzZ1RfNl9LU2dGZUdiU0xNb1FLZlNlMldSc2pFWnFVbEhPbDRKbG50bXlNVVRqcEpOUEl0VTdhZXpabFg0N29fbXVMYlM5TlVSU1hDZFU1NUxnd2N3SzNVb0dvMlRQbmJtSnVDcQ?oc=5",
+      "summary": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it Mashable",
+      "date": "2026-09-28T19:20:57Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -285,10 +285,10 @@
     {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
-      "date": "2026-08-10T07:00:00Z"
+      "title": "What Is the Latest Version of Microsoft Office in 2026? - Online Tech Tips",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1ZQYk44cUNXeEppVGlYMWZBdnBxLWtKUTZwQk5SbmN2VUtEZ1JpcTJlRzlBcVdaLW1xRzhUcV96WDFSVnNHaWZKN3BZUjJhQ1lyMDdDTWJXWERQZ3R5NS12UC1STXdyWGFyWFRFaHA2OFkzTjFoTnE5TFZ1NHAzSjh1M05UUXc?oc=5",
+      "summary": "What Is the Latest Version of Microsoft Office in 2026? Online Tech Tips",
+      "date": "2026-07-16T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
