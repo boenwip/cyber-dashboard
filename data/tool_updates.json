@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-18T04:19:33Z",
+  "last_updated": "2026-10-18T12:35:35Z",
   "count": 40,
   "items": [
     {
@@ -115,20 +115,20 @@
       "date": "2026-10-13T20:33:42Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Strengthening our defenses against distillation attacks - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9OcHNZdWYyUWdnYV9lY1lrOGw0MEhIY2dhY0dFbmxXUWd3QjYtanptamV5cEl1TVRXdGhsZnFtRUFUVzlNZXJGNWhnU1g2cDBEMDhEVXVDWUZkZmFPY1BZVEhucjBDY1U?oc=5",
-      "summary": "Strengthening our defenses against distillation attacks Anthropic",
-      "date": "2026-10-12T09:30:00Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.296",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296",
       "summary": "What's changed Added a code key to the Claude apps gateway's managed.policies[] : the same settings as cli , also applied in Claude Desktop's Code tab; beside desktop , it turns on Claude Desktop's…",
       "date": "2026-10-09T19:28:59Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic asks users to stop being mean to Claude - The Register",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYm1BN01TVXF6eDVwQU81bWZXYWExX091aXN2UHRxUG1KZ2h0bEhqZUoxRHZBRXAzdTg1U0hSdjBoWjJ3MU9WSzNXSDNQUHdBQm15cndjbUZydzNiZVNGWDUwOVVrOEtLOXFQZU9GWk85VlQ2MDBCdTVBb1ExY3RXYXBObXBhbGk5bUZBckxyS3ZNTDVaOXFlUFR0UkdJdWc1Q1RHYXJfY0JCdw?oc=5",
+      "summary": "Anthropic asks users to stop being mean to Claude The Register",
+      "date": "2026-10-09T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -145,14 +145,6 @@
       "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
       "summary": "Building advertising for the way people use AI OpenAI",
       "date": "2026-10-05T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "ChatGPT can now virtually try on clothes for you - TechCrunch",
-      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObWFoWGZaei1UNC1PVVU2NFl0bmRBQV91RDNZVWlXbHdNOGFmVGl0cEtzX2lVNVF3R3FTNlJ3MnRvLUZOWW5LUHh0Q01hUFV2dVJMakxGMG44UHQzLVdzd2xkSkJNTERXQzdjT0pMalZOdTRlUjdnTVpKSzdUY0hwbTQzR21HQzVIX0Q0?oc=5",
-      "summary": "ChatGPT can now virtually try on clothes for you TechCrunch",
-      "date": "2026-10-01T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -185,6 +177,14 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZmVllHd3ZISlAtUEZSa0xkaExzZ1RfNl9LU2dGZUdiU0xNb1FLZlNlMldSc2pFWnFVbEhPbDRKbG50bXlNVVRqcEpOUEl0VTdhZXpabFg0N29fbXVMYlM5TlVSU1hDZFU1NUxnd2N3SzNVb0dvMlRQbmJtSnVDcQ?oc=5",
       "summary": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it Mashable",
       "date": "2026-09-28T19:20:57Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing the new Copilot with Home, Code and Autopilot",
+      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
+      "date": "2026-09-25T12:07:25Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -259,12 +259,12 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
-      "date": "2026-09-03T15:00:00Z"
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT’s newest feature is like Windows Recall without screenshots - PCWorld",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMzJXYmlWSlpydTEySUg0YmYxczBxc2pWTDE2M3d3LUJSRXNscFAyNmI2ZGVSQldBejJReFUyXzVVaGl2Q21qeGg0TVVVNV9DUlJOUTZpODZfSXVoblZJTjhPWU9XdkpGc1ZrWjNrQUtTbnRSWlgzYVliQ2tvZDVLTDNQaHlzYUJFV1Z1UUNGaHZRTnduUVRIa1EzZ0wzVXpMb0t4ZXVac1Z2S3ZQVnFZ?oc=5",
+      "summary": "ChatGPT’s newest feature is like Windows Recall without screenshots PCWorld",
+      "date": "2026-08-18T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
