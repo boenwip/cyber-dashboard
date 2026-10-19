@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-10-18T23:04:08Z",
-  "count": 60,
+  "last_updated": "2026-10-19T01:09:50Z",
+  "count": 62,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Cyber's failure of imagination relates to the cost of waiting",
+      "link": "https://securitybrief.com.au/story/cyber-s-failure-of-imagination-relates-to-the-cost-of-waiting",
+      "summary": "Australian organisations are paying millions more when breaches linger, making delayed cyber investment a boardroom problem rather than a technical one.",
+      "date": "2026-10-19T00:49:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Australia 11th in Microsoft cyber report as phishing rises",
@@ -133,18 +143,8 @@
       "summary": "Ads tied to mercenary spyware turned up on ANSTO and critical infrastructure networks.",
       "date": "2026-10-16T07:34:00Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "404 Media",
-          "title": "ChatGPT Ads Target Your Phone Number, Email",
-          "link": "https://www.404media.co/chatgpt-ads-target-your-phone-number-email/",
-          "date": "2026-10-15T14:31:09Z"
-        }
-      ],
-      "latest": "2026-10-16T07:34:00Z"
+        "AU Cyber"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -165,26 +165,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Commvault adds Microsoft 365 tools to spot safe backups",
-      "link": "https://securitybrief.com.au/story/commvault-adds-microsoft-365-tools-to-spot-safe-backups",
-      "summary": "The new add-ons aim to help businesses avoid restoring infected files after cyberattacks, as Microsoft 365 remains a prime target for ransomware.",
-      "date": "2026-10-16T02:58:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SEON & Yuno team up to boost global fraud controls",
-      "link": "https://securitybrief.com.au/story/seon-yuno-team-up-to-boost-global-fraud-controls",
-      "summary": "Merchants expanding into new markets can now add fraud checks through Yuno's existing payments infrastructure, avoiding a separate integration.",
-      "date": "2026-10-16T00:39:00Z",
-      "tags": [
-        "Scams"
       ]
     },
     {
@@ -219,6 +199,17 @@
       ]
     },
     {
+      "source": "404 Media",
+      "title": "ChatGPT Ads Target Your Phone Number, Email",
+      "link": "https://www.404media.co/chatgpt-ads-target-your-phone-number-email/",
+      "summary": "OpenAI's ads targeting is pretty creepy, and new research confirms spyware companies are delivering potent malware through advertising networks.",
+      "date": "2026-10-15T14:31:09Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
       "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
@@ -238,23 +229,14 @@
       "latest": "2026-10-15T05:00:00Z"
     },
     {
-      "source": "iTnews",
-      "title": "Attackers chain three Ivanti VPN zero-days for root access",
-      "link": "https://www.itnews.com.au/news/attackers-chain-three-ivanti-vpn-zero-days-for-root-access-629621?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "One of the flaws awaits fix.",
-      "date": "2026-10-13T20:46:00Z",
+      "source": "Dark Reading",
+      "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
+      "summary": "CVE-2026-104935, a high-severity authentication bypass + RCE vulnerability, was only partially discovered and patched in July, leaving an opening for threat actors to capitalize on.",
+      "date": "2026-10-14T21:20:13Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Ivanti ICS Zero-Day Attacks Highlight Vendor Patching Hurdles",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/ivanti-ics-zero-day-attacks-vendor-patching",
-          "date": "2026-10-14T21:20:13Z"
-        }
-      ],
-      "latest": "2026-10-14T21:20:13Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -342,6 +324,16 @@
     },
     {
       "source": "iTnews",
+      "title": "Attackers chain three Ivanti VPN zero-days for root access",
+      "link": "https://www.itnews.com.au/news/attackers-chain-three-ivanti-vpn-zero-days-for-root-access-629621?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "One of the flaws awaits fix.",
+      "date": "2026-10-13T20:46:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "iTnews",
       "title": "Investigators hunt French supermarket fridge hackers",
       "link": "https://www.itnews.com.au/news/investigators-hunt-french-supermarket-fridge-hackers-629623?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
       "summary": "No claim of responsibility.",
@@ -402,23 +394,14 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
-      "date": "2026-10-10T00:17:42Z",
+      "source": "Dark Reading",
+      "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+      "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+      "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
+      "date": "2026-10-12T20:00:53Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
-          "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
-          "date": "2026-10-12T20:00:53Z"
-        }
-      ],
-      "latest": "2026-10-12T20:00:53Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -436,6 +419,16 @@
       "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
       "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
       "date": "2026-10-11T23:50:46Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
+      "date": "2026-10-10T00:17:42Z",
       "tags": [
         "AU Cyber"
       ]
