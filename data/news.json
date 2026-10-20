@@ -1,27 +1,108 @@
 {
-  "last_updated": "2026-10-20T09:37:19Z",
-  "count": 61,
+  "last_updated": "2026-10-20T23:49:32Z",
+  "count": 63,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Hack The Box launches AI range for enterprise security teams",
-      "link": "https://securitybrief.com.au/story/hack-the-box-launches-ai-range-for-enterprise-security-teams",
-      "summary": "Security leaders are being given a way to judge whether AI agents and staff can handle cyber tasks safely as adoption speeds up.",
-      "date": "2026-10-20T07:15:00Z",
+      "title": "Telstra Health launches care insights for aged care",
+      "link": "https://securitybrief.com.au/story/telstra-health-launches-care-insights-for-aged-care",
+      "summary": "Aged care providers could cut reporting time and improve oversight as new tools combine resident, medication and compliance data in one system.",
+      "date": "2026-10-20T23:11:00Z",
       "tags": [
-        "AU Cyber",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "HPE touts self-driving networks as AI adoption grows",
+      "link": "https://securitybrief.com.au/story/hpe-touts-self-driving-networks-as-ai-adoption-grows",
+      "summary": "As AI-driven systems spread, businesses are under pressure to cut outages and security risks by automating increasingly complex networks.",
+      "date": "2026-10-20T23:08:00Z",
+      "tags": [
         "AI & Tools"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "The future of iGaming belongs to operators that can scale trust, not transactions",
-      "link": "https://securitybrief.com.au/story/the-future-of-igaming-belongs-to-operators-that-can-scale-trust-not-transactions",
-      "summary": "Peak betting events are exposing fraud and compliance gaps, forcing operators to balance faster growth with player protection and customer trust.",
-      "date": "2026-10-20T07:00:00Z",
+      "title": "Teradata adds privacy & resiliency for enterprise AI",
+      "link": "https://securitybrief.com.au/story/teradata-adds-privacy-resiliency-for-enterprise-ai",
+      "summary": "New controls aim to keep sensitive data usable in AI systems while reducing re-identification risk and improving recovery after outages or attacks.",
+      "date": "2026-10-20T22:37:00Z",
       "tags": [
-        "Scams",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Appdome promotes Bertasi to President amid AI push",
+      "link": "https://securitybrief.com.au/story/appdome-promotes-bertasi-to-president-amid-ai-push",
+      "summary": "The move gives Appdome more sales and customer firepower as it races to scale its AI-driven mobile security platform against rising threats.",
+      "date": "2026-10-20T22:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Financial firms deploy AI agents unmonitored, study warns",
+      "link": "https://securitybrief.com.au/story/financial-firms-deploy-ai-agents-unmonitored-study-warns",
+      "summary": "A compliance gap is leaving 22% of financial services firms running AI agents in production without monitoring, a New Relic study warns.",
+      "date": "2026-10-20T21:20:00Z",
+      "tags": [
+        "AI & Tools",
         "Compliance"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
+      "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
+      "summary": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
+      "date": "2026-10-20T19:16:49Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AppViewX adds shadow AI agent controls & quantum IDs",
+      "link": "https://securitybrief.com.au/story/appviewx-adds-shadow-ai-agent-controls-quantum-ids",
+      "summary": "Security teams can now spot unsanctioned AI agents, stop them mid-run and issue quantum-resilient identities as usage spreads across enterprises.",
+      "date": "2026-10-20T16:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "IRONSCALES names Laura Beaulieu Chief Marketing Officer",
+      "link": "https://securitybrief.com.au/story/ironscales-names-laura-beaulieu-chief-marketing-officer",
+      "summary": "The appointment comes as the email security company widens its pitch beyond phishing to account takeover and deepfake risks across workplace tools.",
+      "date": "2026-10-20T16:17:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Close Identity Gaps in Software Development Before Unleashing AI",
+      "link": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
+      "summary": "Artificial Intelligence is complicating security in the software development lifecycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
+      "date": "2026-10-20T15:35:45Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -33,28 +114,26 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+          "date": "2026-10-20T14:36:05Z"
+        }
+      ],
+      "latest": "2026-10-20T14:36:05Z"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "AI moves fast: are you training your people to use it wisely?",
-      "link": "https://securitybrief.com.au/story/ai-moves-fast-are-you-training-your-people-to-use-it-wisely",
-      "summary": "Poorly designed compliance courses leave staff unprepared for AI-era judgement calls, increasing the risk of privacy, cyber and fraud lapses.",
-      "date": "2026-10-20T01:49:00Z",
+      "source": "404 Media",
+      "title": "People Are Using 'AI Decompiling' to Hack Their Things",
+      "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+      "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
+      "date": "2026-10-20T13:51:57Z",
       "tags": [
-        "AI & Tools",
-        "Scams",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Small but mighty - micro data centres are the foundation of security and disaster recovery",
-      "link": "https://securitybrief.com.au/story/small-but-mighty-micro-data-centres-are-the-foundation-of-security-and-disaster-recovery",
-      "summary": "Resilience-minded organisations are turning to compact edge systems to keep critical services running if cyberattacks, outages or floods hit.",
-      "date": "2026-10-20T00:49:00Z",
-      "tags": [
-        "AU Cyber"
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
@@ -267,17 +346,6 @@
       "date": "2026-10-15T15:17:18Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "ChatGPT Ads Target Your Phone Number, Email",
-      "link": "https://www.404media.co/chatgpt-ads-target-your-phone-number-email/",
-      "summary": "OpenAI's ads targeting is pretty creepy, and new research confirms spyware companies are delivering potent malware through advertising networks.",
-      "date": "2026-10-15T14:31:09Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -627,46 +695,6 @@
       "date": "2026-10-07T00:20:09Z",
       "tags": [
         "Compliance"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "ClickFix Attacks Evolve to Better Hide Malicious Payloads",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/clickfix-attacks-evolve-better-hide-malicious-payloads",
-      "summary": "Threat actors are now hiding payloads by using DNS TXT records and browser cache pre-fetching, making it tougher to spot early attack stages.",
-      "date": "2026-10-06T20:32:58Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Google's PageBreak AI Agent Finds 500 Flaws in Its Web Apps",
-      "link": "https://www.darkreading.com/application-security/google-pagebreak-ai-agent-500-flaws-web-apps",
-      "summary": "The situation illustrates a trend toward using AI and deterministic validation to identify flaws and exploitability, and provide a risk assessment.",
-      "date": "2026-10-06T17:56:29Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "IANS' Kakolowski: How AI Is Reshaping CISO Budgets & Security Teams",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-reshaping-ciso-budgets-security-teams",
-      "summary": "In this video interview, Nick Kakolowski, senior director for CISO research at IANS, talks AI: budgets, ROI, and changes inside security teams.",
-      "date": "2026-10-06T17:15:24Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'BigDiskBuster' Leaves Microsoft Defender Running While Blocking Updates",
-      "link": "https://www.darkreading.com/application-security/bigdiskbuster-microsoft-defender-running-blocking-updates",
-      "summary": "Not quite an EDR-killer, but the proof-of-concept cyber technique creates a silent virus detection gap while service runs normally, no exploit required.",
-      "date": "2026-10-06T16:59:24Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]

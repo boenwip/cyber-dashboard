@@ -1,7 +1,61 @@
 {
-  "last_updated": "2026-10-20T09:37:26Z",
+  "last_updated": "2026-10-20T23:49:42Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-106931",
+      "name": "EG Secure Solutions SiteGuard Server Edition",
+      "description": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-10-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931"
+    },
+    {
+      "id": "CVE-2026-96656",
+      "name": "Plex Media Server",
+      "description": "Plex Media Server contains an external control of file name or path vulnerability which can allow an admin user to write arbitrary files that may be executed on load. This vulnerability can be…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-10-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96656"
+    },
+    {
+      "id": "CVE-2026-96655",
+      "name": "Plex Media Server",
+      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability that could allow an authenticated user to request arbitrary internal or external addresses via the…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-11-03",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96655"
+    },
+    {
+      "id": "CVE-2026-96654",
+      "name": "Plex Media Server",
+      "description": "Plex Media Server contains an improper neutralization of encoded URI schemes in a web page vulnerability that could allow an attacker to call other plugins' functions and supply their own parameters…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-10-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96654"
+    },
+    {
+      "id": "CVE-2026-96652",
+      "name": "Plex Media Server",
+      "description": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-11-03",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652"
+    },
+    {
+      "id": "CVE-2026-110936",
+      "name": "Siemens Software Center",
+      "description": "Siemens Software Center contains an uncontrolled search path element vulnerability that could allow an authenticated local attacker to place a specially crafted DLL in a directory that the…",
+      "date_added": "2026-10-20",
+      "due_date": "2026-11-03",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110936"
+    },
     {
       "id": "CVE-2026-102764",
       "name": "BeyondTrust Remote Support",
@@ -37,60 +91,6 @@
       "due_date": "2026-10-17",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134"
-    },
-    {
-      "id": "CVE-2026-76519",
-      "name": "Cisco Secure Email Gateway",
-      "description": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519"
-    },
-    {
-      "id": "CVE-2026-105133",
-      "name": "Ahsay AhsayCBS",
-      "description": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s…",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133"
-    },
-    {
-      "id": "CVE-2026-0322",
-      "name": "Palo Alto Networks PAN-OS",
-      "description": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
-      "date_added": "2026-10-14",
-      "due_date": "2026-10-17",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322"
-    },
-    {
-      "id": "CVE-2026-104935",
-      "name": "Ivanti Connect Secure",
-      "description": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
-      "date_added": "2026-10-13",
-      "due_date": "2026-10-16",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935"
-    },
-    {
-      "id": "CVE-2026-96951",
-      "name": "Microsoft Windows",
-      "description": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
-      "date_added": "2026-10-13",
-      "due_date": "2026-10-16",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951"
-    },
-    {
-      "id": "CVE-2015-5477",
-      "name": "ISC BIND",
-      "description": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
-      "date_added": "2026-10-08",
-      "due_date": "2026-10-11",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477"
     }
   ]
 }
