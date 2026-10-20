@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-10-19T10:13:11Z",
+  "last_updated": "2026-10-20T00:17:30Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.304",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304",
+      "summary": "What's changed Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin Added decider: \"person\" to a mod's tool.check answer: only the…",
+      "date": "2026-10-19T21:34:39Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Teacher-led Gemini Notebook in Google Classroom now offers insight summaries for educators and updated sharing settings for admins, including trusted domains",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/teacher-led-gemini-notebook-in-google-Classroom-now-offers-insight-summaries-for-educators-and-updated-sharing-settings-for-admins-including-trusted-domains.html",
+      "summary": "Following the launch of teacher-led Gemini Notebook in Google Classroom , we are introducing insight summaries for educators. This update provides teachers with greater visibility into how students…",
+      "date": "2026-10-19T20:23:52Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Analyze BigQuery data using natural language with Gemini in Google Sheets",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/analyze-bigquery-data-using-natural-language-with-Gemini-in-Google-Sheets.html",
+      "summary": "We’re introducing a new way to analyze BigQuery data in Google Sheets. After connecting to BigQuery data with Connected Sheets, you can use Gemini to interact and analyze that data conversationally…",
+      "date": "2026-10-19T20:19:13Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Publish interactive apps from the Gemini app to Google Sites",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/publish-interactive-apps-from-gemini-app-to-Google-Sites.html",
+      "summary": "You can now export interactive apps built in the Gemini app directly to Google Sites. With one click, your app is added to a new, private site draft — fully interactive and ready to customize. From…",
+      "date": "2026-10-19T17:25:14Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Gemini in Google Sheets is now available on iOS devices",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/gemini-in-google-sheets-is-now-available-on-iOS-devices.html",
+      "summary": "Building upon the power of Gemini in Sheets on the web and our recent launch on Android devices , we’re excited to announce that you can now use Gemini in Google Sheets on your iOS device to quickly…",
+      "date": "2026-10-19T17:00:39Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Follow through on your meeting tasks with meeting recaps in Google Chat",
+      "link": "https://workspaceupdates.googleblog.com/2026/10/follow-through-on-your-meeting-tasks-with-meeting-recaps-in-Google-Chat.html",
+      "summary": "To make it easier for teams to move from planning to action, we’re introducing meeting recaps in Google Chat. Meeting recaps provide a convenient summary directly in Google Chat, including: Meeting…",
+      "date": "2026-10-19T15:37:48Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -17,14 +65,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302",
       "summary": "What's changed Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for server-side auto mode Added an Idle compaction row to…",
       "date": "2026-10-16T20:53:06Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - October 16, 2026",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/weekly-recap-10-16-2026.html",
-      "summary": "Google Meet now uses post-quantum cryptography Calls in Google Meet will use post-quantum cryptography (PQC) for extra protection, starting now with laptop web clients and meeting room hardware, with…",
-      "date": "2026-10-16T18:44:55Z"
     },
     {
       "source": "Google Chrome Releases",
@@ -67,36 +107,12 @@
       "date": "2026-10-15T22:58:31Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Gmail Live is rolling out to paid Workspace users",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/gmail-live-is-rolling-out-to-paid-Workspace-users.html",
-      "summary": "Finding critical information on the go often involves sifting through lengthy email threads and switching between multiple messages while your hands are busy commuting or multi-tasking. Following our…",
-      "date": "2026-10-15T21:19:41Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Gmail’s AI Inbox is rolling out to paid Workspace users",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/gmails-ai-inbox-is-rolling-out-to-paid-Workspace-users.html",
-      "summary": "Earlier this year, we launched AI Inbox in Gmail which helps users catch up on what matters most. Starting today, we’re expanding AI Inbox to paid Google Workspace users. By highlighting key…",
-      "date": "2026-10-15T20:14:12Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.301",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
       "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of…",
       "date": "2026-10-15T19:22:06Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Now generally available: Preview client-side encrypted PDF and image files directly in Google Drive",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/now-generally-available-preview-client-side-encrypted-PDF-and-image-files-directly-in-Google-Drive.html",
-      "summary": "Client-side encryption (CSE) gives organizations ultimate control over who can access their most confidential data, using customer-managed encryption keys that render the data unreadable to…",
-      "date": "2026-10-15T16:59:58Z"
     },
     {
       "source": "Claude Code Releases",
@@ -107,36 +123,12 @@
       "date": "2026-10-14T18:24:25Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.299",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299",
-      "summary": "What's changed Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the files' contents Added idle compaction in the…",
-      "date": "2026-10-14T02:49:42Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "An update on the launch of skills in the Gemini app and Workspace",
-      "link": "https://workspaceupdates.googleblog.com/2026/10/an-update-on-launch-of-skills-in-gemini-app-and-workspace.html",
-      "summary": "As previously announced , skills in the Gemini app are starting to roll out today, with an expected completion by mid-November. In the coming weeks, we’ll also introduce critical features like the…",
-      "date": "2026-10-13T20:33:42Z"
-    },
-    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Anthropic asks users to stop being mean to Claude - The Register",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNYm1BN01TVXF6eDVwQU81bWZXYWExX091aXN2UHRxUG1KZ2h0bEhqZUoxRHZBRXAzdTg1U0hSdjBoWjJ3MU9WSzNXSDNQUHdBQm15cndjbUZydzNiZVNGWDUwOVVrOEtLOXFQZU9GWk85VlQ2MDBCdTVBb1ExY3RXYXBObXBhbGk5bUZBckxyS3ZNTDVaOXFlUFR0UkdJdWc1Q1RHYXJfY0JCdw?oc=5",
       "summary": "Anthropic asks users to stop being mean to Claude The Register",
       "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-      "summary": "GPT-6 and Intelligent UI for everyone OpenAI",
-      "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -165,6 +157,14 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
+      "title": "Introducing dots - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
+      "summary": "Introducing dots OpenAI",
+      "date": "2026-09-29T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
       "title": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live - 9to5Mac",
       "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOakJHS3lYYUpuLXdnUmROa3lTY2JfMWt2QmQzNHZoN3BCLUxVWVdzWDRPa2NuSkV3M0xHOXY5dmp6TW45ZUxHTjV5YkY4SEEzcW5kdWtUNVFWb1J0TXNDRVVEZlRVajZ2MUM0bzMxSXZPN1E5SUt1cW96QXh4Qy14TllSbUR4Ui10Q2pJ?oc=5",
       "summary": "OpenAI makes 20+ announcements at DevDay event including always-on agents called dots, watch live 9to5Mac",
@@ -177,6 +177,14 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNXzZmVllHd3ZISlAtUEZSa0xkaExzZ1RfNl9LU2dGZUdiU0xNb1FLZlNlMldSc2pFWnFVbEhPbDRKbG50bXlNVVRqcEpOUEl0VTdhZXpabFg0N29fbXVMYlM5TlVSU1hDZFU1NUxnd2N3SzNVb0dvMlRQbmJtSnVDcQ?oc=5",
       "summary": "Anthropic releases Claude Sonnet 5.5: Details, pricing, how to try it Mashable",
       "date": "2026-09-28T19:20:57Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing the new Copilot with Home, Code and Autopilot",
+      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
+      "date": "2026-09-25T12:07:25Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -251,14 +259,6 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
-      "date": "2026-09-03T15:00:00Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT’s newest feature is like Windows Recall without screenshots - PCWorld",
@@ -317,10 +317,10 @@
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
-      "title": "Canva’s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design - The Futurum Group",
-      "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQTUpqVExMZEJEdTctR1M2Qi1veGFLQmNQa2JFYzFkZlB6WkRKYkt0NlF4WmZWZ1JGbExfbGNuQVNKUEJPQWZ3blF6d0g2OC0zQXlwakw5T2d1Rm5ZMXZwR3NmUG1XVHpmQzFybVRpcHo3WUtNTk5zR09udXBPc1dZSFV5dDZRcnZWZXhMNTVlWkR6Q1VXcVJsZ1UwbHpQei12bVEzc1Q0cDZrSEpmZVVCYzRn?oc=5",
-      "summary": "Canva’s May 2026 Launches Signal an Enterprise Platform Ambition Beyond Design The Futurum Group",
-      "date": "2026-05-28T07:00:00Z"
+      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
+      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
+      "date": "2026-04-16T07:00:00Z"
     }
   ]
 }
