@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-10-20T23:49:42Z",
+  "last_updated": "2026-10-21T04:30:57Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.306",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
+      "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and…",
+      "date": "2026-10-21T03:16:31Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
+      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-chromeos_01150416531.html",
+      "summary": "M-156, ChromeOS version 16836.19.0 (Browser version 156.0.8078.42) has rolled out to ChromeOS devices on the Stable channel. If you find new issues, please let us know one of the following ways: File…",
+      "date": "2026-10-21T00:56:18Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -9,6 +25,22 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.305",
       "summary": "What's changed Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets them get around the sandbox's file protections…",
       "date": "2026-10-20T20:46:50Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_095004068.html",
+      "summary": "Hi, everyone! We've just released Chrome 156 (156.0.8078.47) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
+      "date": "2026-10-20T20:10:45Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Stable Channel Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02018666648.html",
+      "summary": "The Chrome team is delighted to announce the promotion of Chrome 156 to the stable channel for Windows, Mac and Linux. This will roll out over the coming days/weeks. Chrome 156.0.8078.47 (Linux)…",
+      "date": "2026-10-20T20:09:05Z"
     },
     {
       "source": "Google Chrome Releases",
@@ -107,38 +139,6 @@
       "date": "2026-10-16T15:43:33Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-dev-for-android-update_0193953929.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 158 (158.0.8106.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
-      "date": "2026-10-16T13:13:32Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-beta-for-desktop-update_02089051700.html",
-      "summary": "The Chrome team is excited to announce the promotion of Chrome 157 to the Beta channel for Windows, Mac and Linux. Chrome 157.0.8103.6 contains our usual under-the-hood performance and stability…",
-      "date": "2026-10-16T09:13:33Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_01464551208.html",
-      "summary": "Hi, everyone! We've just released Chrome 155 (155.0.8059.84) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
-      "date": "2026-10-15T23:00:00Z"
-    },
-    {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.301",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301",
-      "summary": "What's changed Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode ( CLAUDE_CODE_RETRY_WATCHDOG ) ends a request at a usage limit that resets too far away instead of…",
-      "date": "2026-10-15T19:22:06Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "ChatGPT is getting a lot more visual, with the launch of a new interface - TechCrunch",
@@ -155,20 +155,20 @@
       "date": "2026-10-07T07:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Building advertising for the way people use AI - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
-      "summary": "Building advertising for the way people use AI OpenAI",
-      "date": "2026-10-05T07:00:00Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Here are all the new features added to Microsoft 365 Copilot in September 2026 - Neowin",
       "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFNlNTNRWE54aFJ5TENOY3Y1MkktN0xidG5iZmxjNmFPMlJERDdTYVI2bFdJZHFobUFJRTQwOG1mVk0yUnd3WEIySmU3bktsRHhGb3BmbXh5TDVkeDlBSjctcDFhY25mbkZyejdUZFpGdXJ6czFVV3RxcFpKazQ3WWhnekpvdGxOX3I1YUdnRkY0Tk9wX1Y1dkV1Q1o0NkZNanI5eHFQTkh1Nms?oc=5",
       "summary": "Here are all the new features added to Microsoft 365 Copilot in September 2026 Neowin",
       "date": "2026-10-01T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing dots - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
+      "summary": "Introducing dots OpenAI",
+      "date": "2026-09-29T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -251,14 +251,6 @@
       "date": "2026-09-10T15:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "2026-09-08T07:00:00Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
@@ -293,10 +285,10 @@
     {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What Is the Latest Version of Microsoft Office in 2026? - Online Tech Tips",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1ZQYk44cUNXeEppVGlYMWZBdnBxLWtKUTZwQk5SbmN2VUtEZ1JpcTJlRzlBcVdaLW1xRzhUcV96WDFSVnNHaWZKN3BZUjJhQ1lyMDdDTWJXWERQZ3R5NS12UC1STXdyWGFyWFRFaHA2OFkzTjFoTnE5TFZ1NHAzSjh1M05UUXc?oc=5",
-      "summary": "What Is the Latest Version of Microsoft Office in 2026? Online Tech Tips",
-      "date": "2026-07-16T07:00:00Z"
+      "title": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? - HP",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSmlKWjZLZUpqcDdSQTR1dVFSZXZTVnBZSUJnNTVva3I2YTcxcE9WVGVGampoVE1qLUVpTUtrVThkZzVtYWdETjlUY2RMbHZjbHdGUGYwYXpDUzJEVXhwWVZCWkFkbXFwcTRETGl2Mm96N1p4TVBrbVRBZnlLbVRGVEhHdkFPaldGb1B3RGJiTU1FcXJmWGtJQVZn?oc=5",
+      "summary": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? HP",
+      "date": "2026-07-31T21:20:34Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -313,6 +305,14 @@
       "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
       "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
       "date": "2026-06-15T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO - Memeburn",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOMDRCUkxGZldRankxejVyQkZDY1R0dDJfaURSdmpvVGdtc3l4QlgxZFhPZDdCVXUydjhFMnZYSmIzenlGUko4U1lhZ0xZNDF6ZGpkT0J0LUx1VFFqLXZJNDRHMzhDN3BXa0VWVml4a1pVTi1RNll2Tmd4THl3N1dFVlc5OWRmVnM?oc=5",
+      "summary": "OpenAI ChatGPT Overhaul 2026: Super App Strategy Before IPO Memeburn",
+      "date": "2026-06-11T06:42:27Z"
     },
     {
       "source": "Google News — Claude Updates",
