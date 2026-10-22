@@ -1,36 +1,137 @@
 {
-  "last_updated": "2026-10-22T09:35:39Z",
-  "count": 63,
+  "last_updated": "2026-10-22T23:58:43Z",
+  "count": 66,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Tanium teams with NVIDIA to manage local AI endpoints",
-      "link": "https://securitybrief.com.au/story/tanium-teams-with-nvidia-to-manage-local-ai-endpoints",
-      "summary": "IT teams gain patching and compliance controls for NVIDIA's local AI systems as Tanium extends its endpoint platform beyond standard PCs.",
-      "date": "2026-10-22T07:15:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Meta's Muse AI agent seen in half of customer traffic",
-      "link": "https://securitybrief.com.au/story/meta-s-muse-ai-agent-seen-in-half-of-customer-traffic",
-      "summary": "Security teams face a new attribution problem as Meta's Muse AI agent can slip into customer traffic while posing as an ordinary browser.",
-      "date": "2026-10-22T07:15:00Z",
+      "title": "Securonix launches behavioural analytics for AI threats",
+      "link": "https://securitybrief.com.au/story/securonix-launches-behavioural-analytics-for-ai-threats",
+      "summary": "With AI agents widening the attack surface, security teams need to spot abnormal activity across human and machine users before damage is done.",
+      "date": "2026-10-22T23:35:09Z",
       "tags": [
         "AI & Tools"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "The identity gap putting Australia's healthcare data at risk",
-      "link": "https://securitybrief.com.au/story/the-identity-gap-putting-australia-s-healthcare-data-at-risk",
-      "summary": "Recent breaches show healthcare providers could leave former staff with lingering access to patient records, even after credentials are meant to be revoked.",
-      "date": "2026-10-22T05:17:00Z",
+      "title": "Darwinium adds AI agent fraud checks across journeys",
+      "link": "https://securitybrief.com.au/story/darwinium-adds-ai-agent-fraud-checks-across-journeys",
+      "summary": "Fraud teams may struggle to spot AI-driven scams and agent-led abuse as Darwinium moves to assess intent across entire digital journeys.",
+      "date": "2026-10-22T23:22:16Z",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "DigiCert adds Secure Releases to Software Trust Manager",
+      "link": "https://securitybrief.com.au/story/digicert-adds-secure-releases-to-software-trust-manager",
+      "summary": "The update helps teams spot newly exposed releases sooner, tying signing workflows to vulnerability data as software risks change over time.",
+      "date": "2026-10-22T23:12:33Z",
       "tags": [
         "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Palo Alto Networks launches Cortex XDR One for AI agents",
+      "link": "https://securitybrief.com.au/story/palo-alto-networks-launches-cortex-xdr-one-for-ai-agents",
+      "summary": "Businesses adopting AI agents now face new endpoint risks, which Palo Alto Networks says its Cortex XDR One platform is built to contain.",
+      "date": "2026-10-22T22:01:21Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SentinelOne expands PartnerOne for AI security services",
+      "link": "https://securitybrief.com.au/story/sentinelone-expands-partnerone-for-ai-security-services",
+      "summary": "Partners will now be able to package and run more AI security services around SentinelOne's Singularity platform as customer demand grows.",
+      "date": "2026-10-22T21:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
+      "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
+      "date": "2026-10-22T20:42:17Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Relationships Australia SA uses AI agent to assess at-risk clients",
+      "link": "https://www.itnews.com.au/news/relationships-australia-sa-uses-ai-agent-to-assess-at-risk-clients-629612?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "While they wait for an appointment.",
+      "date": "2026-10-22T20:34:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Lava flags NVIDIA DCGM flaw exposing AI GPU servers",
+      "link": "https://securitybrief.com.au/story/lava-flags-nvidia-dcgm-flaw-exposing-ai-gpu-servers",
+      "summary": "About 2,100 internet-exposed monitoring hosts left AI GPU telemetry open, putting more than 12,000 GPUs and roughly USD $100 million of hardware at risk.",
+      "date": "2026-10-22T20:22:59Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Russia-linked hackers use decentralised network in Ukraine cyberattack",
+      "link": "https://www.itnews.com.au/news/russia-linked-hackers-use-decentralised-network-in-ukraine-cyberattack-629846?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "First documented use of the technology by a state-linked group.",
+      "date": "2026-10-22T19:49:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Google News — Bleeping Computer AU",
+      "title": "LiteLLM release pipeline hacked to distribute info-stealer malware - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPX1JNSE14QmQ1Qm1XX3dlSWNFY0xLZUZCd3FhZmNRQl9yR0FJTmdXVW9XOXpxenByZ3JQOGduQWZYMmlFc1ZGTVV2RkJydmRYV2NMVjFYRGF2cmNKYTFvdjdCRTJIRVQwalBtd0t1VGxiTFdoZWxDM3h2QXU2NHM4bFNiald3WTREQ1BEX3p4RDdESzZWVG1oYUNnRTNHZG1MNzJKU2NiMjZtc2hyd3NzTEhRY0Y?oc=5",
+      "summary": "LiteLLM release pipeline hacked to distribute info-stealer malware BleepingComputer",
+      "date": "2026-10-22T19:12:51Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "This Woman's Living a CashApp Scam Nightmare",
+      "link": "https://www.404media.co/this-womans-living-a-cashapp-scam-nightmare/",
+      "summary": "A CashApp scam mess, Airbnb hosts crashing out, and much more.",
+      "date": "2026-10-22T15:33:44Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+      "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+      "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
+      "date": "2026-10-22T14:23:36Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "AI Is Already 'Amplifying the Destruction' of War",
+      "link": "https://www.404media.co/ai-is-already-amplifying-the-destruction-of-war/",
+      "summary": "The people who write the Laws of Armed Conflict want to put guardrails on AI weapons systems. Will the world listen?",
+      "date": "2026-10-22T14:20:46Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -39,37 +140,6 @@
       "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
       "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
       "date": "2026-10-22T05:00:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Qualys warns patching surge is missing active exploits",
-      "link": "https://securitybrief.com.au/story/qualys-warns-patching-surge-is-missing-active-exploits",
-      "summary": "Despite more patching, organisations are leaving the most dangerous flaws open longer, as attackers exploit vulnerabilities before defenders can act.",
-      "date": "2026-10-22T03:22:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Delinea launches Fastpath MCP Server for AI audits",
-      "link": "https://securitybrief.com.au/story/delinea-launches-fastpath-mcp-server-for-ai-audits",
-      "summary": "It aims to cut manual spreadsheet checks for finance and audit teams by letting AI assistants query live access-risk data across 100 systems.",
-      "date": "2026-10-22T03:17:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "TrendAI adds NVIDIA Nemotron to sovereign security cloud",
-      "link": "https://securitybrief.com.au/story/trendai-adds-nvidia-nemotron-to-sovereign-security-cloud",
-      "summary": "The move lets regulated organisations run AI-driven threat detection inside customer-controlled environments, keeping sensitive security data local.",
-      "date": "2026-10-22T02:58:00Z",
       "tags": [
         "AI & Tools"
       ]
@@ -92,8 +162,7 @@
       "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the…",
       "date": "2026-10-21T15:26:07Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "AU Cyber"
       ],
       "coverage": [
         {
@@ -113,12 +182,6 @@
           "title": "Critical flaws strike PHP as disclosure embargo is broken",
           "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
           "date": "2026-10-21T09:58:00Z"
-        },
-        {
-          "source": "Risky Business",
-          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-          "link": "https://risky.biz/RB856/",
-          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-21T21:15:42Z"
@@ -184,6 +247,17 @@
       ]
     },
     {
+      "source": "Risky Business",
+      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+      "link": "https://risky.biz/RB856/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
+      "date": "2026-10-21T04:43:10Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
       "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
@@ -229,15 +303,20 @@
           "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
           "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
           "date": "2026-10-20T14:36:05Z"
-        },
-        {
-          "source": "404 Media",
-          "title": "People Are Using 'AI Decompiling' to Hack Their Things",
-          "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
-          "date": "2026-10-20T13:51:57Z"
         }
       ],
       "latest": "2026-10-20T14:36:05Z"
+    },
+    {
+      "source": "404 Media",
+      "title": "People Are Using 'AI Decompiling' to Hack Their Things",
+      "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+      "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
+      "date": "2026-10-20T13:51:57Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -317,25 +396,6 @@
       "date": "2026-10-19T13:48:56Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "When Your Ransomware Negotiator Works for the Other Side",
-          "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-          "date": "2026-10-16T14:00:00Z"
-        }
-      ],
-      "latest": "2026-10-19T13:48:56Z"
-    },
-    {
-      "source": "404 Media",
-      "title": "How a Massive Chinese Crime Ring Hacked Staples to Steal Millions",
-      "link": "https://www.404media.co/how-a-massive-chinese-crime-ring-hacked-staples-to-steal-millions/",
-      "summary": "A sophisticated organized crime gang hacked into Staples, issued millions of dollars worth of gift cards, and went on a spending spree across the U.S.",
-      "date": "2026-10-19T13:23:31Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -390,6 +450,16 @@
     },
     {
       "source": "Dark Reading",
+      "title": "When Your Ransomware Negotiator Works for the Other Side",
+      "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+      "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
+      "date": "2026-10-16T14:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
       "title": "When AI Agents Commit Breaches, Humans May Not Be Held Liable",
       "link": "https://www.darkreading.com/insider-threats/ai-agents-breaches-humans-liable",
       "summary": "As agents escape containment and access external systems, responsibility remains human. Accountability, however, is much less settled.",
@@ -397,16 +467,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Australian gov, media networks reached by Israeli firm’s spy ads",
-      "link": "https://www.itnews.com.au/news/australian-gov-media-networks-reached-by-israeli-firms-spy-ads-629705?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Ads tied to mercenary spyware turned up on ANSTO and critical infrastructure networks.",
-      "date": "2026-10-16T07:34:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -451,14 +511,23 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
-      "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
-      "summary": "Australian cybersecurity executives are increasingly being targeted with threats to their physical safety during ransomware incidents, according to Semperis’ 2026 Ransomware Risk Report. The report found 41% of attacks involving [...]",
-      "date": "2026-10-15T05:00:00Z",
+      "source": "Dark Reading",
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "date": "2026-10-14T05:00:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
+          "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
+          "date": "2026-10-15T05:00:00Z"
+        }
+      ],
+      "latest": "2026-10-15T05:00:00Z"
     },
     {
       "source": "Dark Reading",
@@ -501,16 +570,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -596,14 +655,23 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
-      "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
-      "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
-      "date": "2026-10-12T20:00:53Z",
+      "source": "Krebs on Security",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
+      "date": "2026-10-10T00:17:42Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+          "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+          "date": "2026-10-12T20:00:53Z"
+        }
+      ],
+      "latest": "2026-10-12T20:00:53Z"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -621,16 +689,6 @@
       "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
       "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
       "date": "2026-10-11T23:50:46Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
-      "date": "2026-10-10T00:17:42Z",
       "tags": [
         "AU Cyber"
       ]
@@ -675,37 +733,6 @@
         "AU Cyber",
         "AI & Tools",
         "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'AgentCorruption' Puts AWS Environments at Risk With Single Prompt",
-      "link": "https://www.darkreading.com/cloud-security/agentcorruption-aws-environments-at-risk-single-prompt",
-      "summary": "A now-patched vulnerability in AWS Bedrock AgentCore could have allowed an attacker to use one AI chatbot to take over an organization's entire fleet.",
-      "date": "2026-10-08T20:39:44Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Venezuelan Cartel's Malware Honcho Nabbed for ATM Jackpotting",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/venezuelan-cartel-malware-honcho-nabbed-atm-jackpotting",
-      "summary": "The first cybercriminal to ever make the FBI's \"10 Most Wanted Fugitives\" list allegedly infused Tren de Aragua's violent criminal operations with cash.",
-      "date": "2026-10-08T19:08:16Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Russian Spies Give 'MatchBoil' Malware a Stealthy Facelift",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/russian-spies-matchboil-malware-facelift",
-      "summary": "Cyber-espionage actor UAC-0099 has been steadily refining its flagship dropper in campaigns targeting Ukrainian organizations.",
-      "date": "2026-10-08T18:01:50Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]
