@@ -1,7 +1,48 @@
 {
-  "last_updated": "2026-10-22T04:28:20Z",
-  "count": 61,
+  "last_updated": "2026-10-22T09:35:39Z",
+  "count": 63,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium teams with NVIDIA to manage local AI endpoints",
+      "link": "https://securitybrief.com.au/story/tanium-teams-with-nvidia-to-manage-local-ai-endpoints",
+      "summary": "IT teams gain patching and compliance controls for NVIDIA's local AI systems as Tanium extends its endpoint platform beyond standard PCs.",
+      "date": "2026-10-22T07:15:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Meta's Muse AI agent seen in half of customer traffic",
+      "link": "https://securitybrief.com.au/story/meta-s-muse-ai-agent-seen-in-half-of-customer-traffic",
+      "summary": "Security teams face a new attribution problem as Meta's Muse AI agent can slip into customer traffic while posing as an ordinary browser.",
+      "date": "2026-10-22T07:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "The identity gap putting Australia's healthcare data at risk",
+      "link": "https://securitybrief.com.au/story/the-identity-gap-putting-australia-s-healthcare-data-at-risk",
+      "summary": "Recent breaches show healthcare providers could leave former staff with lingering access to patient records, even after credentials are meant to be revoked.",
+      "date": "2026-10-22T05:17:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+      "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
+      "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
+      "date": "2026-10-22T05:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Qualys warns patching surge is missing active exploits",
@@ -34,16 +75,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Outcomex names Michael van Zoggel as Chief Executive Officer",
-      "link": "https://securitybrief.com.au/story/outcomex-names-michael-van-zoggel-as-chief-executive-officer",
-      "summary": "The reshuffle is intended to sharpen Outcomex's focus on cyber security, managed services and AI work as it targets further growth.",
-      "date": "2026-10-22T02:53:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Nuix launches agentic AI capability in Nuix Neo with audit trail",
       "link": "https://australiancybersecuritymagazine.com.au/nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail/?utm_source=rss&utm_medium=rss&utm_campaign=nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail&utm_source=rss&utm_medium=rss&utm_campaign=nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail",
@@ -52,16 +83,6 @@
       "tags": [
         "AI & Tools",
         "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "BeyondTrust: Agentic AI is an 'old new' identity problem",
-      "link": "https://securitybrief.com.au/story/beyondtrust-agentic-ai-is-an-old-new-identity-problem",
-      "summary": "Gartner says Fortune 500 firms could run 150,000 AI agents by 2028, raising the risk of overprivileged machine identities.",
-      "date": "2026-10-22T00:34:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -163,24 +184,14 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "How one hacker used AI agents and a few thousand dollars to break into scores of sites",
-      "link": "https://www.itnews.com.au/news/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-629764?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Ecommerce sites in Australia, Canada, US and Japan targeted.",
-      "date": "2026-10-20T03:42:00Z",
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-          "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-          "date": "2026-10-20T21:45:47Z"
-        }
-      ],
-      "latest": "2026-10-20T21:45:47Z"
+        "AU Cyber"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -203,26 +214,30 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-      "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
-      "date": "2026-10-20T14:36:05Z",
+      "source": "iTnews",
+      "title": "How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+      "link": "https://www.itnews.com.au/news/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-629764?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Ecommerce sites in Australia, Canada, US and Japan targeted.",
+      "date": "2026-10-20T03:42:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "People Are Using 'AI Decompiling' to Hack Their Things",
-      "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
-      "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
-      "date": "2026-10-20T13:51:57Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+          "date": "2026-10-20T14:36:05Z"
+        },
+        {
+          "source": "404 Media",
+          "title": "People Are Using 'AI Decompiling' to Hack Their Things",
+          "link": "https://www.404media.co/people-are-using-ai-decompiling-to-hack-their-things/",
+          "date": "2026-10-20T13:51:57Z"
+        }
+      ],
+      "latest": "2026-10-20T14:36:05Z"
     },
     {
       "source": "Dark Reading",
@@ -516,16 +531,17 @@
       "date": "2026-10-13T23:24:53Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-          "date": "2026-10-13T22:29:57Z"
-        }
-      ],
-      "latest": "2026-10-13T23:24:53Z"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+      "summary": "The scary surprises in the largest security update ever include defense bypasses and unauthenticated RCEs.",
+      "date": "2026-10-13T22:29:57Z",
+      "tags": [
+        "AU Cyber"
+      ]
     },
     {
       "source": "Dark Reading",
