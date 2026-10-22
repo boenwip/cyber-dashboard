@@ -1,45 +1,66 @@
 {
-  "last_updated": "2026-10-21T23:59:31Z",
-  "count": 63,
+  "last_updated": "2026-10-22T04:28:20Z",
+  "count": 61,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "Australia cyber rules tighten as reporting deadlines bite",
-      "link": "https://securitybrief.com.au/story/australia-cyber-rules-tighten-as-reporting-deadlines-bite",
-      "summary": "Australian firms face faster reporting clocks and penalties of up to AUD $50 million, as regulators step up scrutiny after cyber attacks.",
-      "date": "2026-10-21T23:53:00Z",
+      "title": "Qualys warns patching surge is missing active exploits",
+      "link": "https://securitybrief.com.au/story/qualys-warns-patching-surge-is-missing-active-exploits",
+      "summary": "Despite more patching, organisations are leaving the most dangerous flaws open longer, as attackers exploit vulnerabilities before defenders can act.",
+      "date": "2026-10-22T03:22:00Z",
       "tags": [
         "AU Cyber"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "Red Hat expands NVIDIA tie-up on secure agentic AI",
-      "link": "https://securitybrief.com.au/story/red-hat-expands-nvidia-tie-up-on-secure-agentic-ai",
-      "summary": "The update gives enterprises tighter controls over autonomous AI agents, with runtime security, governed inference and Day 0 support for new NVIDIA chips.",
-      "date": "2026-10-21T23:11:40Z",
+      "title": "Delinea launches Fastpath MCP Server for AI audits",
+      "link": "https://securitybrief.com.au/story/delinea-launches-fastpath-mcp-server-for-ai-audits",
+      "summary": "It aims to cut manual spreadsheet checks for finance and audit teams by letting AI assistants query live access-risk data across 100 systems.",
+      "date": "2026-10-22T03:17:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "TrendAI adds NVIDIA Nemotron to sovereign security cloud",
+      "link": "https://securitybrief.com.au/story/trendai-adds-nvidia-nemotron-to-sovereign-security-cloud",
+      "summary": "The move lets regulated organisations run AI-driven threat detection inside customer-controlled environments, keeping sensitive security data local.",
+      "date": "2026-10-22T02:58:00Z",
       "tags": [
         "AI & Tools"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "Recorded Future warns of rising Magecart attacks & exploits",
-      "link": "https://securitybrief.com.au/story/recorded-future-warns-of-rising-magecart-attacks-exploits",
-      "summary": "Online checkout systems face greater risk as attackers increasingly hide skimming code inside trusted payment tools and services.",
-      "date": "2026-10-21T22:30:00Z",
+      "title": "Outcomex names Michael van Zoggel as Chief Executive Officer",
+      "link": "https://securitybrief.com.au/story/outcomex-names-michael-van-zoggel-as-chief-executive-officer",
+      "summary": "The reshuffle is intended to sharpen Outcomex's focus on cyber security, managed services and AI work as it targets further growth.",
+      "date": "2026-10-22T02:53:00Z",
       "tags": [
-        "AU Cyber"
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Nuix launches agentic AI capability in Nuix Neo with audit trail",
+      "link": "https://australiancybersecuritymagazine.com.au/nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail/?utm_source=rss&utm_medium=rss&utm_campaign=nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail&utm_source=rss&utm_medium=rss&utm_campaign=nuix-launches-agentic-ai-capability-in-nuix-neo-with-audit-trail",
+      "summary": "Nuix has launched the Nuix Neo AI Agent, a new capability aimed at helping investigators, legal teams, auditors, regulators and law enforcement agencies analyse large volumes of unstructured data using [...]",
+      "date": "2026-10-22T01:46:18Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "Human hackers drive attacks as AI use stays limited",
-      "link": "https://securitybrief.com.au/story/human-hackers-drive-attacks-as-ai-use-stays-limited",
-      "summary": "Most tracked cyberattacks are still run by people, even as attackers exploit high-severity flaws in an average of three days.",
-      "date": "2026-10-21T22:15:46Z",
+      "title": "BeyondTrust: Agentic AI is an 'old new' identity problem",
+      "link": "https://securitybrief.com.au/story/beyondtrust-agentic-ai-is-an-old-new-identity-problem",
+      "summary": "Gartner says Fortune 500 firms could run 150,000 AI agents by 2028, raising the risk of overprivileged machine identities.",
+      "date": "2026-10-22T00:34:00Z",
       "tags": [
-        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -87,16 +108,6 @@
       "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
       "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
       "date": "2026-10-21T21:15:39Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Supply chain attacks rise as 215 flaws are exploited",
-      "link": "https://securitybrief.com.au/story/supply-chain-attacks-rise-as-215-flaws-are-exploited",
-      "summary": "Supply chain compromises helped actively exploited flaws to 215 in the first half of 2026, as attackers used trusted tools and platforms to steal credentials.",
-      "date": "2026-10-21T21:00:00Z",
       "tags": [
         "AU Cyber"
       ]
@@ -152,14 +163,24 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
+      "source": "iTnews",
+      "title": "How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+      "link": "https://www.itnews.com.au/news/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-629764?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Ecommerce sites in Australia, Canada, US and Japan targeted.",
+      "date": "2026-10-20T03:42:00Z",
       "tags": [
-        "AU Cyber"
-      ]
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+          "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+          "date": "2026-10-20T21:45:47Z"
+        }
+      ],
+      "latest": "2026-10-20T21:45:47Z"
     },
     {
       "source": "Dark Reading",
@@ -182,24 +203,15 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "How one hacker used AI agents and a few thousand dollars to break into scores of sites",
-      "link": "https://www.itnews.com.au/news/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-629764?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Ecommerce sites in Australia, Canada, US and Japan targeted.",
-      "date": "2026-10-20T03:42:00Z",
+      "source": "Dark Reading",
+      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+      "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
+      "date": "2026-10-20T14:36:05Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-          "date": "2026-10-20T14:36:05Z"
-        }
-      ],
-      "latest": "2026-10-20T14:36:05Z"
+      ]
     },
     {
       "source": "404 Media",
@@ -290,7 +302,16 @@
       "date": "2026-10-19T13:48:56Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "When Your Ransomware Negotiator Works for the Other Side",
+          "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+          "date": "2026-10-16T14:00:00Z"
+        }
+      ],
+      "latest": "2026-10-19T13:48:56Z"
     },
     {
       "source": "404 Media",
@@ -350,16 +371,6 @@
       "date": "2026-10-16T18:37:50Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "When Your Ransomware Negotiator Works for the Other Side",
-      "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-      "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-      "date": "2026-10-16T14:00:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -569,23 +580,14 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
-      "date": "2026-10-10T00:17:42Z",
+      "source": "Dark Reading",
+      "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
+      "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
+      "summary": "Edward Dubrovsky, a longtime cybersecurity executive, was arrested and charged in Pennsylvania last week under conspiracy to extort money.",
+      "date": "2026-10-12T20:00:53Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
-          "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
-          "date": "2026-10-12T20:00:53Z"
-        }
-      ],
-      "latest": "2026-10-12T20:00:53Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -603,6 +605,16 @@
       "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
       "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
       "date": "2026-10-11T23:50:46Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
+      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
+      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
+      "date": "2026-10-10T00:17:42Z",
       "tags": [
         "AU Cyber"
       ]
@@ -678,38 +690,6 @@
       "date": "2026-10-08T18:01:50Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Critical Atlassian vulnerability affects Jira, Confluence and other products",
-      "link": "https://australiancybersecuritymagazine.com.au/critical-atlassian-vulnerability-affects-jira-confluence-and-other-products/?utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products&utm_source=rss&utm_medium=rss&utm_campaign=critical-atlassian-vulnerability-affects-jira-confluence-and-other-products",
-      "summary": "Rapid7 has published an Emergent Threat Response (ETR) alert for a critical vulnerability, tracked as CVE-2026-21589, affecting eight Atlassian products including Jira, Confluence, Bitbucket and Crowd. Rapid7 rated the vulnerability [...]",
-      "date": "2026-10-08T04:14:08Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "New email attacks target both humans and AI in the same message",
-      "link": "https://australiancybersecuritymagazine.com.au/new-email-attacks-target-both-humans-and-ai-in-the-same-message/?utm_source=rss&utm_medium=rss&utm_campaign=new-email-attacks-target-both-humans-and-ai-in-the-same-message&utm_source=rss&utm_medium=rss&utm_campaign=new-email-attacks-target-both-humans-and-ai-in-the-same-message",
-      "summary": "Recent phishing attacks analysed by Barracuda Research found attackers combining two sets of tactics in a single email: social engineering aimed at the human recipient, and prompt injection attacks designed [...]",
-      "date": "2026-10-08T03:38:37Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Kiteworks and A-LIGN extend partnership to support IRAP-aligned assessments in Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=kiteworks-and-a-lign-extend-partnership-to-support-irap-aligned-assessments-in-australia",
-      "summary": "Kiteworks and compliance assessment firm A-LIGN have extended their partnership to target Australian government agencies and regulated enterprises seeking IRAP-aligned assurance for data protection platforms. The companies said the arrangement [...]",
-      "date": "2026-10-08T02:16:46Z",
-      "tags": [
-        "Compliance"
       ]
     }
   ]
