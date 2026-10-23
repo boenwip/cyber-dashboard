@@ -1,7 +1,74 @@
 {
-  "last_updated": "2026-10-23T04:34:10Z",
-  "count": 61,
+  "last_updated": "2026-10-23T09:31:57Z",
+  "count": 68,
   "items": [
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
+      "date": "2026-10-23T08:57:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Security Brief Australia",
+          "title": "Azul patches Java after eMudhra certificate compromise",
+          "link": "https://securitybrief.com.au/story/azul-patches-java-after-emudhra-certificate-compromise",
+          "date": "2026-10-23T05:41:00Z"
+        }
+      ],
+      "latest": "2026-10-23T08:57:00Z"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+      "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the…",
+      "date": "2026-10-21T15:26:07Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "coverage": [
+        {
+          "source": "Security Brief Australia",
+          "title": "PHP flaws trigger outage fears & retail fraud warnings",
+          "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
+          "date": "2026-10-23T08:15:00Z"
+        },
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Critical PHP vulnerabilities allow remote execution",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-critical-php-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities",
+          "date": "2026-10-21T21:15:42Z"
+        },
+        {
+          "source": "Dark Reading",
+          "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+          "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+          "date": "2026-10-21T19:19:17Z"
+        },
+        {
+          "source": "iTnews",
+          "title": "Critical flaws strike PHP as disclosure embargo is broken",
+          "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-10-21T09:58:00Z"
+        }
+      ],
+      "latest": "2026-10-23T08:15:00Z"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Reco joins Microsoft Pegasus programme for AI agent security",
+      "link": "https://securitybrief.com.au/story/reco-joins-microsoft-pegasus-programme-for-ai-agent-security",
+      "summary": "Businesses using Microsoft software are facing sharper oversight of AI agents, as Reco gains access to enterprise sales channels through Pegasus.",
+      "date": "2026-10-23T07:45:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Shadow AI Is Creating an Unmanaged Identity Crisis Across APAC",
@@ -45,48 +112,14 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the…",
-      "date": "2026-10-21T15:26:07Z",
+      "source": "Security Brief Australia",
+      "title": "PHP flaws spark emergency patch warning for websites",
+      "link": "https://securitybrief.com.au/story/php-flaws-spark-emergency-patch-warning-for-websites",
+      "summary": "Security teams face a race to patch exposed sites as a public exploit raises the risk of remote code execution across millions of PHP installs.",
+      "date": "2026-10-23T01:15:00Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Security Brief Australia",
-          "title": "PHP flaws spark emergency patch warning for websites",
-          "link": "https://securitybrief.com.au/story/php-flaws-spark-emergency-patch-warning-for-websites",
-          "date": "2026-10-23T01:15:00Z"
-        },
-        {
-          "source": "404 Media",
-          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-          "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-          "date": "2026-10-22T14:23:36Z"
-        },
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Critical PHP vulnerabilities allow remote execution",
-          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-critical-php-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities",
-          "date": "2026-10-21T21:15:42Z"
-        },
-        {
-          "source": "Dark Reading",
-          "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
-          "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
-          "date": "2026-10-21T19:19:17Z"
-        },
-        {
-          "source": "Risky Business",
-          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-          "link": "https://risky.biz/RB856/",
-          "date": "2026-10-21T04:43:10Z"
-        }
-      ],
-      "latest": "2026-10-23T01:15:00Z"
+        "AU Cyber"
+      ]
     },
     {
       "source": "Security Brief Australia",
@@ -109,27 +142,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Securonix launches behavioural analytics for AI threats",
-      "link": "https://securitybrief.com.au/story/securonix-launches-behavioural-analytics-for-ai-threats",
-      "summary": "With AI agents widening the attack surface, security teams need to spot abnormal activity across human and machine users before damage is done.",
-      "date": "2026-10-22T23:35:09Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Darwinium adds AI agent fraud checks across journeys",
-      "link": "https://securitybrief.com.au/story/darwinium-adds-ai-agent-fraud-checks-across-journeys",
-      "summary": "Fraud teams may struggle to spot AI-driven scams and agent-led abuse as Darwinium moves to assess intent across entire digital journeys.",
-      "date": "2026-10-22T23:22:16Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
@@ -140,6 +152,26 @@
       ]
     },
     {
+      "source": "iTnews",
+      "title": "Relationships Australia SA uses AI agent to assess at-risk clients",
+      "link": "https://www.itnews.com.au/news/relationships-australia-sa-uses-ai-agent-to-assess-at-risk-clients-629612?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "While they wait for an appointment.",
+      "date": "2026-10-22T20:34:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Russia-linked hackers use decentralised network in Ukraine cyberattack",
+      "link": "https://www.itnews.com.au/news/russia-linked-hackers-use-decentralised-network-in-ukraine-cyberattack-629846?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "First documented use of the technology by a state-linked group.",
+      "date": "2026-10-22T19:49:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "404 Media",
       "title": "This Woman's Living a CashApp Scam Nightmare",
       "link": "https://www.404media.co/this-womans-living-a-cashapp-scam-nightmare/",
@@ -147,6 +179,17 @@
       "date": "2026-10-22T15:33:44Z",
       "tags": [
         "Scams"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+      "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+      "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
+      "date": "2026-10-22T14:23:36Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
@@ -241,6 +284,17 @@
       ]
     },
     {
+      "source": "Risky Business",
+      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+      "link": "https://risky.biz/RB856/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
+      "date": "2026-10-21T04:43:10Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
       "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
@@ -271,15 +325,24 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-      "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
-      "date": "2026-10-20T14:36:05Z",
+      "source": "iTnews",
+      "title": "How one hacker used AI agents and a few thousand dollars to break into scores of sites",
+      "link": "https://www.itnews.com.au/news/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-629764?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Ecommerce sites in Australia, Canada, US and Japan targeted.",
+      "date": "2026-10-20T03:42:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
+          "date": "2026-10-20T14:36:05Z"
+        }
+      ],
+      "latest": "2026-10-20T14:36:05Z"
     },
     {
       "source": "404 Media",
@@ -476,23 +539,14 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
+      "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
+      "summary": "Australian cybersecurity executives are increasingly being targeted with threats to their physical safety during ransomware incidents, according to Semperis’ 2026 Ransomware Risk Report. The report found 41% of attacks involving [...]",
+      "date": "2026-10-15T05:00:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
-          "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
-          "date": "2026-10-15T05:00:00Z"
-        }
-      ],
-      "latest": "2026-10-15T05:00:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -538,6 +592,16 @@
       ]
     },
     {
+      "source": "Dark Reading",
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "date": "2026-10-14T05:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -555,16 +619,17 @@
       "date": "2026-10-13T23:24:53Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-          "date": "2026-10-13T22:29:57Z"
-        }
-      ],
-      "latest": "2026-10-13T23:24:53Z"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+      "summary": "The scary surprises in the largest security update ever include defense bypasses and unauthenticated RCEs.",
+      "date": "2026-10-13T22:29:57Z",
+      "tags": [
+        "AU Cyber"
+      ]
     },
     {
       "source": "Dark Reading",
