@@ -1,17 +1,75 @@
 {
-  "last_updated": "2026-10-23T09:31:57Z",
-  "count": 68,
+  "last_updated": "2026-10-24T04:26:06Z",
+  "count": 62,
   "items": [
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
-      "date": "2026-10-23T08:57:00Z",
+      "source": "Dark Reading",
+      "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
+      "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
+      "summary": "Threat actors don't need to rely on malware to breach organizations anymore. They're simply calling help desks and politely asking for access, with a little help from artificial intelligence.",
+      "date": "2026-10-23T20:57:56Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Tools Are Generating Massive Attacks for Little Cost",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-tools-massive-attacks-little-cost",
+      "summary": "One campaign targets 105 sites using open-weight models; in another, public models gained full domain control for $12. Cyber-defense will have to change.",
+      "date": "2026-10-23T17:26:59Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
+      "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
+      "summary": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
+      "date": "2026-10-23T14:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
+      "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
+      "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
+      "date": "2026-10-23T13:30:00Z",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
+      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
+      "date": "2026-10-23T11:38:28Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
       "tags": [
         "AU Cyber"
       ],
       "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+          "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+          "date": "2026-10-23T08:57:00Z"
+        },
         {
           "source": "Security Brief Australia",
           "title": "Azul patches Java after eMudhra certificate compromise",
@@ -29,6 +87,7 @@
       "date": "2026-10-21T15:26:07Z",
       "tags": [
         "AU Cyber",
+        "AI & Tools",
         "Scams"
       ],
       "coverage": [
@@ -37,6 +96,12 @@
           "title": "PHP flaws trigger outage fears & retail fraud warnings",
           "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
           "date": "2026-10-23T08:15:00Z"
+        },
+        {
+          "source": "404 Media",
+          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+          "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+          "date": "2026-10-22T14:23:36Z"
         },
         {
           "source": "Australian Cyber Security Magazine",
@@ -55,6 +120,12 @@
           "title": "Critical flaws strike PHP as disclosure embargo is broken",
           "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
           "date": "2026-10-21T09:58:00Z"
+        },
+        {
+          "source": "Risky Business",
+          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+          "link": "https://risky.biz/RB856/",
+          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-23T08:15:00Z"
@@ -182,13 +253,12 @@
       ]
     },
     {
-      "source": "404 Media",
-      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-      "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-      "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
-      "date": "2026-10-22T14:23:36Z",
+      "source": "Dark Reading",
+      "title": "As AI Risks Grow, Insurers Split on Covering the Damage",
+      "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
+      "summary": "Some build specialized agentic AI coverage, while major carriers quietly exclude it — leaving enterprises exposed without their knowledge.",
+      "date": "2026-10-22T14:21:22Z",
       "tags": [
-        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -204,7 +274,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "UAE Transitions 50% of Gov't Services to Agentic AI",
+      "title": "UAE Transitions 50% of Government Services to Agentic AI",
       "link": "https://www.darkreading.com/cybersecurity-operations/uae-transitions-50-government-services-agentic-ai",
       "summary": "The United Arab Emirates says it's creating a foundation of security and safety as it transforms its public service footprint.",
       "date": "2026-10-22T05:00:00Z",
@@ -227,7 +297,7 @@
       "source": "Dark Reading",
       "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
       "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
-      "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the data comes home to roost.",
+      "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
       "date": "2026-10-21T21:15:39Z",
       "tags": [
         "AU Cyber"
@@ -279,27 +349,6 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
       "summary": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs BleepingComputer",
       "date": "2026-10-21T08:36:24Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-      "link": "https://risky.biz/RB856/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
-      "date": "2026-10-21T04:43:10Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
       "tags": [
         "AU Cyber"
       ]
@@ -377,16 +426,6 @@
       ]
     },
     {
-      "source": "Google News — Bleeping Computer AU",
-      "title": "Hackers hijack AOMEI update servers to secretly spread malware - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQT2RUSDlRLWI1M0Jqdi1FVjlvM1o5cHd3UnZOVGhTUl9mZ2FyTUpIUDNUbzBvbHBfQ182QzZ5MGRTMWp2QjY1bGoybVpoVFE2OV9mSkZrMnNIYnZVWmZVdjNGek93MTE1X25idVVSTmVaSU1sa2ZLVjdqbGN2U3d0SXF2MHpnekpGaEdNTXdyYU01eFUzQjBWNm1SSTZhczVzOFZNOGlOZmRUWGNCQnpB0gG0AUFVX3lxTE1NemFESUt6QmhaTnE3X2ZZRS0tb3lXUUZ0RUVQNkV1WmZiZ1hxaFZad0k0S2RVWTlWNHpfM1M3a3lWemxPVm9jV2QzTThKWXFRbEl1WlBUa3NIZjV5WkdoZjhDLW5Odkk1ZTBya05TbUNVZFZVbmd6OE52ZTRLVDRGdDdrNDBUczBMNVBUTTg1d3FHSVRNT0dJRi1FcWxPeHgzSjZTOTFpR1RYX1htVHg2NHFURg?oc=5",
-      "summary": "Hackers hijack AOMEI update servers to secretly spread malware BleepingComputer",
-      "date": "2026-10-19T19:40:58Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "ConnectWise Disables Cloud Backups Amid Concerns for Downstream MSPs",
       "link": "https://www.darkreading.com/identity-access-management-security/connectwise-disables-cloud-backups-downstream-msps",
@@ -397,20 +436,10 @@
       ]
     },
     {
-      "source": "404 Media",
-      "title": "The Staples Gift Card Heist",
-      "link": "https://www.404media.co/the-staples-gift-card-heist/",
-      "summary": "A gang of hackers targets Staples, but not to buy things from Staples.",
-      "date": "2026-10-19T14:59:51Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
       "link": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
-      "summary": "An industry-wide laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
+      "summary": "An industry-wide, laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
       "date": "2026-10-19T14:00:00Z",
       "tags": [
         "AU Cyber"
@@ -424,7 +453,16 @@
       "date": "2026-10-19T13:48:56Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "When Your Ransomware Negotiator Works for the Other Side",
+          "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
+          "date": "2026-10-16T14:00:00Z"
+        }
+      ],
+      "latest": "2026-10-19T13:48:56Z"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -474,16 +512,6 @@
       "date": "2026-10-16T18:37:50Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "When Your Ransomware Negotiator Works for the Other Side",
-      "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-      "summary": "The shocking arrest of a well-known ransomware negotiator reveals the critical need for vendor program oversight.",
-      "date": "2026-10-16T14:00:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -539,14 +567,23 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
-      "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
-      "summary": "Australian cybersecurity executives are increasingly being targeted with threats to their physical safety during ransomware incidents, according to Semperis’ 2026 Ransomware Risk Report. The report found 41% of attacks involving [...]",
-      "date": "2026-10-15T05:00:00Z",
+      "source": "Dark Reading",
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "date": "2026-10-14T05:00:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
+          "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
+          "date": "2026-10-15T05:00:00Z"
+        }
+      ],
+      "latest": "2026-10-15T05:00:00Z"
     },
     {
       "source": "Dark Reading",
@@ -592,16 +629,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -619,17 +646,16 @@
       "date": "2026-10-13T23:24:53Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-      "summary": "The scary surprises in the largest security update ever include defense bypasses and unauthenticated RCEs.",
-      "date": "2026-10-13T22:29:57Z",
-      "tags": [
-        "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+          "date": "2026-10-13T22:29:57Z"
+        }
+      ],
+      "latest": "2026-10-13T23:24:53Z"
     },
     {
       "source": "Dark Reading",
@@ -684,25 +710,6 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "FBI Arrests Executive at Ransomware Negotiation Firm",
-      "link": "https://krebsonsecurity.com/2026/10/fbi-arrests-founder-of-ransomware-negotiation-firm/",
-      "summary": "Agents with the Federal Bureau of Investigation (FBI) on Thursday arrested the co-founder of a Canadian cybersecurity firm in connection with an investigation into the ShinyHunters hacking group that recently relieved the FBI of sensitive data on thousands of agents, multiple sources tell…",
-      "date": "2026-10-10T00:17:42Z",
-      "tags": [
-        "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Prominent Ransomware Negotiator Faces Extortion Charges",
-          "link": "https://www.darkreading.com/insider-threats/prominent-ransomware-negotiator-extortion-charges",
-          "date": "2026-10-12T20:00:53Z"
-        }
-      ],
-      "latest": "2026-10-12T20:00:53Z"
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
       "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
@@ -718,36 +725,6 @@
       "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
       "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
       "date": "2026-10-11T23:50:46Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "ASOS Breach Reveals the Risks in Customer-Facing SaaS",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/asos-breach-risks-customer-facing-saas",
-      "summary": "The attack on the British retailer shows that compromising a single identity can lead to much deeper penetration of the corporate network.",
-      "date": "2026-10-09T20:58:32Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Scramble Drives Cybersecurity M&A Boom",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ai-scramble-cybersecurity-ma-boom",
-      "summary": "Welcome to another gangbuster year for strategic M&A activity in cyber, with 117 deals announced in the latest quarter. What's different: Many of the buyers are not your typical cybersecurity firms.",
-      "date": "2026-10-09T19:26:26Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "What We Missed: FBI Strikes Back at ShinyHunters",
-      "link": "https://www.darkreading.com/identity-access-management-security/fbi-shinyhunters-claims-hack",
-      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from the arrest of a suspected ShinyHunters operative to the compromise of a Pentagon-run data center.",
-      "date": "2026-10-09T17:21:00Z",
       "tags": [
         "AU Cyber"
       ]
