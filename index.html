@@ -6,14 +6,16 @@
 <meta name="description" content="pseudosec. — Australian cyber security at a glance, for anyone: ACSC alerts, actively exploited vulnerabilities, scams and security news, one entry per story, refreshed through the day.">
 <meta property="og:title" content="pseudosec. — Australian Cyber Intelligence">
 <meta property="og:description" content="Australian cyber security at a glance — ACSC alerts, actively exploited vulnerabilities, scam alerts and security news.">
-<meta property="og:image" content="https://boenwip.github.io/cyber-dashboard/assets/pseudosec.png">
+<meta property="og:image" content="https://boenwip.github.io/cyber-dashboard/assets/logo/og-image.png">
 <meta property="og:url" content="https://boenwip.github.io/cyber-dashboard/">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'sha256-4T8dZb51ux2/CYCRqV2+LkNw+u0nLUwpxgkb6lLkzOQ='; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <title>pseudosec. — Australian Cyber Intelligence</title>
 <link rel="canonical" href="https://boenwip.github.io/cyber-dashboard/">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%230f0d0b'/><text x='52' y='82' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23e07830' text-anchor='middle'>p</text><text x='50' y='80' font-family='Arial Black,sans-serif' font-weight='900' font-size='78' fill='%23f8ce2a' text-anchor='middle'>p</text></svg>">
+<link rel="icon" href="assets/logo/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/logo/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 <script>try{var t=localStorage.getItem('csi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="stylesheet" href="shared.css">
 <link rel="stylesheet" href="dashboard.css">
@@ -31,7 +33,8 @@
     </nav>
   </div>
   <a href="index.html" class="site-logo" aria-label="pseudosec. home">
-    <img src="assets/pseudosec.png" alt="pseudosec." width="74" height="34">
+    <img class="logo-light" src="assets/logo/pseudosec-wordmark-light.svg" alt="pseudosec." width="206" height="36">
+    <img class="logo-dark" src="assets/logo/pseudosec-wordmark-dark.svg" alt="" width="206" height="36">
   </a>
   <div class="hdr-right">
     <span class="hdr-meta" id="last-updated"></span>
@@ -72,6 +75,27 @@
       <span class="ttl" id="scam-title">Loading…</span>
       <span class="cue">Scams this week</span>
     </button>
+
+    <!-- SPOT THE SCAM — one hand-written puzzle a day, from data/puzzles.json -->
+    <div class="panel p-puzzle" id="puzzle-panel" hidden>
+      <div class="lbl"><span id="puzzle-no">Spot the scam</span></div>
+      <p class="puzzle-intro">One real-world style message a day. Decide, then see the giveaways.</p>
+      <p class="puzzle-context" id="puzzle-context" hidden></p>
+      <div class="phone" id="puzzle-phone"></div>
+      <div class="choices" id="puzzle-choices" role="group" aria-label="Scam or legit?">
+        <button type="button" class="choice" data-answer="scam">Scam</button>
+        <button type="button" class="choice" data-answer="legit">Legit</button>
+      </div>
+      <div class="result" id="puzzle-result" role="status" aria-live="polite" hidden></div>
+      <div class="progress" id="puzzle-progress">
+        <p class="streak" id="puzzle-streak"></p>
+        <ol class="ranks" id="puzzle-ranks" aria-label="Ranks, earned by correct answers"></ol>
+        <div class="sharebox" id="puzzle-share" hidden>
+          <button type="button" class="btn-quiet" id="puzzle-share-btn">Share your result</button>
+          <span class="share-done" id="puzzle-share-done" role="status"></span>
+        </div>
+      </div>
+    </div>
 
     <button type="button" class="panel p-news" data-go="news">
       <span class="lbl"><span>Latest news</span><em id="news-count"></em></span>

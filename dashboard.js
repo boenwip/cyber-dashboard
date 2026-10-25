@@ -157,6 +157,160 @@ function renderToolsPanel() {
   }).join('') || '<span class="small">No updates right now.</span>';
 }
 
+// ── SPOT THE SCAM ──────────────────────────────────────────
+// One hand-written message a day from data/puzzles.json. Progress (streak,
+// correct count, today's answer) is stored in this browser only. Self-
+// contained inside its own bento panel — it doesn't use the explorer.
+var LAUNCH_DAY = 20751;   // 25 Oct 2026 — puzzle #1
+var RANKS = [
+  { name: 'Curious',         at: 0 },
+  { name: 'Alert',           at: 3 },
+  { name: 'Scam Spotter',    at: 10 },
+  { name: 'Family Guardian', at: 25 }
+];
+var PUZZLE_KEY = 'csi-puzzle';
+var puzzle = null;
+var puzzleNo = 0;
+
+function loadStore(key, fallback) {
+  try { var v = JSON.parse(localStorage.getItem(key)); return v && typeof v === 'object' ? v : fallback; }
+  catch (e) { return fallback; }
+}
+function saveStore(key, v) { try { localStorage.setItem(key, JSON.stringify(v)); } catch (e) {} }
+
+function puzzleState() {
+  return loadStore(PUZZLE_KEY, { last: null, streak: 0, correct: 0, played: 0, today: null });
+}
+
+function renderPhone(p) {
+  var top = p.channel === 'email'
+    ? '<div class="phone-top"><span class="sender">' + esc(p.from) + '</span><span class="addr">' + esc(p.address || '') + '</span></div>' +
+      '<p class="mail-subject">' + esc(p.subject || '') + '</p>'
+    : '<div class="phone-top"><span class="sender">' + esc(p.from) + '</span><span>Today ' + esc(p.time || '') + '</span></div>';
+  var body = p.body.map(function (seg) {
+    var cls = [];
+    if (seg.g != null) cls.push('hl');
+    if (seg.link) cls.push('fake-link');
+    var text = esc(seg.t).replace(/\n/g, '<br>');
+    return cls.length ? '<span class="' + cls.join(' ') + '"' + (seg.g != null ? ' data-g="' + seg.g + '"' : '') + '>' + text + '</span>' : text;
+  }).join('');
+  var el = document.getElementById('puzzle-phone');
+  el.className = 'phone phone--' + (p.channel === 'email' ? 'email' : 'sms');
+  el.setAttribute('aria-label', p.channel === 'email' ? 'Example email' : 'Example text message');
+  el.innerHTML = top + '<div class="bubble">' + body + '</div>';
+}
+
+function rankFor(correct) {
+  var r = 0;
+  RANKS.forEach(function (k, i) { if (correct >= k.at) r = i; });
+  return r;
+}
+
+function renderProgress(st) {
+  var streakEl = document.getElementById('puzzle-streak');
+  var r = rankFor(st.correct);
+  var next = RANKS[r + 1];
+  var parts = [];
+  if (st.streak > 0) parts.push('<strong>' + st.streak + '-day streak</strong>');
+  else parts.push('<strong>Start a streak today</strong>');
+  if (next) {
+    var left = next.at - st.correct;
+    parts.push('<span>' + left + ' more right ' + (left === 1 ? 'answer' : 'answers') + ' to reach ' + esc(next.name) + '</span>');
+  } else {
+    parts.push('<span>Top rank reached. Keep the streak going.</span>');
+  }
+  streakEl.innerHTML = parts.join('');
+  document.getElementById('puzzle-ranks').innerHTML = RANKS.map(function (k, i) {
+    var cls = i <= r ? 'rank done' : (i === r + 1 ? 'rank next' : 'rank');
+    var label = esc(k.name) + (i <= r ? '<span class="visually-hidden"> (reached)</span>' : (i === r + 1 ? '<span class="visually-hidden"> (next)</span>' : ''));
+    return '<li class="' + cls + '">' + label + '</li>';
+  }).join('');
+  document.getElementById('puzzle-share').hidden = st.last !== sydneyDayNumber();
+}
+
+function showResult(choice) {
+  var right = choice === puzzle.answer;
+  var res = document.getElementById('puzzle-result');
+  var scam = puzzle.answer === 'scam';
+  var head = right
+    ? (scam ? 'Nice spot. This one\'s a scam.' : 'Good call. This one\'s real.')
+    : (scam ? 'This one fools lots of people. Here\'s the giveaway.' : 'Fair enough to be careful. This one\'s real.');
+  res.className = 'result ' + (right ? 'result--good' : 'result--bad');
+  res.innerHTML = '<p class="result-h">' + esc(head) + '</p>' +
+    '<p class="result-lead">' + (scam ? (right ? '' : 'It\'s a scam. ') + 'The giveaways are highlighted in the message:' : 'What makes it trustworthy:') + '</p>' +
+    '<ol>' + puzzle.giveaways.map(function (g) { return '<li>' + esc(g) + '</li>'; }).join('') + '</ol>';
+  res.hidden = false;
+  document.querySelectorAll('#puzzle-phone .hl').forEach(function (h) { h.classList.add('on'); });
+  document.querySelectorAll('#puzzle-choices .choice').forEach(function (b) {
+    b.disabled = true;
+    b.setAttribute('aria-pressed', b.dataset.answer === choice ? 'true' : 'false');
+  });
+}
+
+function answerPuzzle(choice) {
+  var st = puzzleState();
+  var today = sydneyDayNumber();
+  if (st.last === today) return;
+  var right = choice === puzzle.answer;
+  st.streak = st.last === today - 1 ? st.streak + 1 : 1;
+  st.last = today;
+  st.played += 1;
+  if (right) st.correct += 1;
+  st.today = { day: today, choice: choice, right: right };
+  saveStore(PUZZLE_KEY, st);
+  showResult(choice);
+  renderProgress(st);
+}
+
+function sharePuzzle() {
+  var st = puzzleState();
+  var t = st.today || {};
+  var text = 'Spot the scam #' + puzzleNo + ': ' + (t.right ? 'got it right' : 'got caught out') +
+    (st.streak > 1 ? ', ' + st.streak + '-day streak' : '') + '. Try today\'s: ' + siteUrl();
+  var done = document.getElementById('puzzle-share-done');
+  if (canNativeShare()) {
+    navigator.share({ title: 'Spot the scam', text: text }).catch(function () {});
+    return;
+  }
+  copyText(text).then(function () { done.textContent = 'Copied. Paste it anywhere.'; },
+                      function () { done.textContent = text; });
+}
+
+function initPuzzle() {
+  var panel = document.getElementById('puzzle-panel');
+  if (!panel) return;
+  fetch('data/puzzles.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(function (data) {
+      var items = Array.isArray(data.items) ? data.items : [];
+      if (!items.length) return;
+      var today = sydneyDayNumber();
+      puzzleNo = Math.max(1, today - LAUNCH_DAY + 1);
+      puzzle = items[(puzzleNo - 1) % items.length];
+      setText('puzzle-no', 'Spot the scam, puzzle ' + puzzleNo);
+      var ctx = document.getElementById('puzzle-context');
+      ctx.hidden = !puzzle.context;
+      if (puzzle.context) ctx.textContent = puzzle.context;
+      renderPhone(puzzle);
+
+      var st = puzzleState();
+      if (st.last != null && st.last < today - 1) st.streak = 0;   // missed a day
+      if (st.today && st.today.day === today) showResult(st.today.choice);
+      renderProgress(st);
+
+      // Stop every click here from bubbling to #overview's "open the explorer"
+      // delegation — this panel has no data-go topic, it's fully self-contained.
+      panel.addEventListener('click', function (e) {
+        e.stopPropagation();
+        var b = e.target.closest('.choice');
+        if (b && !b.disabled) { answerPuzzle(b.dataset.answer); return; }
+        if (e.target.closest('#puzzle-share-btn')) sharePuzzle();
+      });
+      panel.hidden = false;
+    })
+    .catch(function () {});
+}
+
 // ── EXPLORER TOPICS ────────────────────────────────────────
 function linkButton(url, label) {
   var href = safeUrl(url);
@@ -381,6 +535,7 @@ document.addEventListener('DOMContentLoaded', function () {
   setText('tip-text', pickForToday(TIPS)[1]);
   if (typeof DEFINITIONS !== 'undefined') renderWotd(DEFINITIONS);
   loadAll();
+  initPuzzle();
 
   overview.addEventListener('click', function (e) {
     var p = e.target.closest('.panel');

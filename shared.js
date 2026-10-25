@@ -101,6 +101,30 @@ function renderWotd(terms) {
   if (strip) strip.style.opacity = '1';
 }
 
+// ── SHARING ─────────────────────────────────────────────────
+function siteUrl() { return location.href.split('#')[0].split('?')[0]; }
+
+function canNativeShare() { return typeof navigator.share === 'function'; }
+
+function copyText(text) {
+  if (navigator.clipboard && navigator.clipboard.writeText) {
+    return navigator.clipboard.writeText(text);
+  }
+  try {
+    var ta = document.createElement('textarea');
+    ta.value = text;
+    ta.style.position = 'fixed';
+    ta.style.opacity = '0';
+    document.body.appendChild(ta);
+    ta.select();
+    document.execCommand('copy');
+    document.body.removeChild(ta);
+    return Promise.resolve();
+  } catch (e) {
+    return Promise.reject(e);
+  }
+}
+
 // ── MOBILE NAV ──────────────────────────────────────────────
 function initMobileNav() {
   var toggle = document.getElementById('nav-toggle');

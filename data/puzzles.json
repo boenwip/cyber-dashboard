@@ -1,0 +1,158 @@
+{
+  "_note": "Spot the scam — one puzzle a day, picked by AEST day number. Hand-written and reviewed, not generated. Links use the reserved .example domain so nothing here is clickable or real. In each body, a segment with \"g\" is highlighted when the answer is revealed, and points at the giveaway with the same index.",
+  "items": [
+    {
+      "channel": "sms",
+      "from": "+61 4XX XXX 218",
+      "time": "9:41 am",
+      "body": [
+        { "t": "Linkt:", "g": 0 },
+        { "t": " Your account has an unpaid toll of $2.80. " },
+        { "t": "Pay within 24 hours to avoid a $135 penalty:", "g": 1 },
+        { "t": " " },
+        { "t": "linkt-au-pay.example/t/88a", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "It comes from an ordinary mobile number, not from Linkt.",
+        "A tiny amount with a big penalty and a short deadline is designed to rush you.",
+        "The link isn't linkt.com.au. If you're unsure, log in to your toll account by typing the address yourself."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "AusPost",
+      "time": "2:15 pm",
+      "body": [
+        { "t": "Your parcel is on hold " },
+        { "t": "due to an incomplete address.", "g": 0 },
+        { "t": " " },
+        { "t": "Update your details and pay the $1.99 redelivery fee:", "g": 1 },
+        { "t": " " },
+        { "t": "auspost-redeliver.example", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "It doesn't name you, the sender or the parcel. Scams are sent to thousands of numbers at once.",
+        "Australia Post doesn't text you asking for payment or personal details.",
+        "The link isn't auspost.com.au. Sender names like \"AusPost\" can be faked, so the name alone proves nothing."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "myGov",
+      "address": "notice@mygov-refund.example",
+      "subject": "Your tax refund is ready",
+      "body": [
+        { "t": "You are eligible for a tax refund of " },
+        { "t": "$1,284.50.", "g": 0 },
+        { "t": " To receive it, " },
+        { "t": "verify your identity within 48 hours", "g": 1 },
+        { "t": " using the secure link below.\n\n" },
+        { "t": "Verify my identity", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "Real refunds are paid into the bank account you already gave the ATO. You don't have to claim them from an email.",
+        "A 48-hour deadline is there to stop you checking first.",
+        "myGov says it never sends links to sign in. The sender address isn't my.gov.au either."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "+61 4XX XXX 503",
+      "time": "7:02 pm",
+      "body": [
+        { "t": "Hi Mum, I dropped my phone in the toilet. " },
+        { "t": "This is my new number,", "g": 0 },
+        { "t": " the old one isn't working. " },
+        { "t": "Can you message me on WhatsApp?", "g": 1 },
+        { "t": " " },
+        { "t": "Need a quick favour x", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "An unknown number saying it's a family member, without using their name.",
+        "Moving the chat to another app makes it harder for your phone company to flag it.",
+        "The \"favour\" is usually an urgent payment. Call your child on the number you already have before doing anything."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Microsoft",
+      "time": "11:20 am",
+      "context": "You've just tried to sign in to your email on a new laptop.",
+      "body": [
+        { "t": "Use verification code " },
+        { "t": "481 902", "g": 0 },
+        { "t": " for Microsoft authentication. " },
+        { "t": "Don't share this code with anyone.", "g": 1 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "You asked for it: it arrived right after you tried to sign in.",
+        "There's no link and nothing to reply to. It only tells you not to share the code.",
+        "If a code like this arrives when you didn't ask for one, someone may have your password. Change it."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Netflix",
+      "address": "billing@netflix-accounts.example",
+      "subject": "Your membership is on hold",
+      "body": [
+        { "t": "Hi, " },
+        { "t": "Dear Customer", "g": 0 },
+        { "t": ".\n\nWe couldn't process your latest payment, so your membership has been paused. " },
+        { "t": "Update your card details now to keep watching.", "g": 1 },
+        { "t": "\n\n" },
+        { "t": "Update payment", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "\"Dear Customer\" instead of your name. Services you pay for know your name.",
+        "It asks for card details by email. Check by opening the app or typing the website address yourself.",
+        "The sender address isn't netflix.com, even though the name says Netflix."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "myGov",
+      "address": "noreply@my.gov.au",
+      "subject": "You have a new message in your myGov Inbox",
+      "body": [
+        { "t": "You have a new message from " },
+        { "t": "a member service.", "g": 0 },
+        { "t": "\n\n" },
+        { "t": "Sign in to myGov to read it.", "g": 1 },
+        { "t": " For your security, " },
+        { "t": "this email doesn't contain a link.", "g": 2 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "It doesn't ask for anything or mention money.",
+        "It tells you to sign in yourself, instead of giving you a place to type your password.",
+        "There's no link at all, which matches how myGov says it contacts people. To be safe, still type my.gov.au yourself."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Bank Alert",
+      "time": "6:48 am",
+      "body": [
+        { "t": "A new device was added to your account " },
+        { "t": "at 6:31am.", "g": 0 },
+        { "t": " If this wasn't you, " },
+        { "t": "call our fraud team now on 02 XXXX XXXX.", "g": 1 },
+        { "t": " " },
+        { "t": "Do not log in until we have secured your account.", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A precise time makes it feel real. That detail is easy to make up.",
+        "The number to call is in the message itself. Call the number on the back of your card instead.",
+        "Telling you not to log in stops you seeing that nothing is wrong. Banks want you to check your account."
+      ]
+    }
+  ]
+}

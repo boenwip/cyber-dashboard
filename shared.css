@@ -119,6 +119,9 @@ button { font: inherit; color: inherit; }
 .hdr-left { justify-self: start; display: flex; align-items: center; gap: 8px; min-width: 0; }
 .site-logo { justify-self: center; display: flex; align-items: center; text-decoration: none; }
 .site-logo img { height: 36px; width: auto; display: block; }
+.site-logo .logo-dark { display: none; }
+:root[data-theme="dark"] .site-logo .logo-light { display: none; }
+:root[data-theme="dark"] .site-logo .logo-dark { display: block; }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link {
   font-size: 14px;
