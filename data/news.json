@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-10-25T11:07:06Z",
-  "count": 62,
+  "last_updated": "2026-10-25T11:28:12Z",
+  "count": 67,
   "items": [
     {
       "source": "Dark Reading",
@@ -45,6 +45,17 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Critical vulnerabilities in Fortinet products",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnZYRjhXNmZuZXh3U2V1Tlo1bHJocHJVczFicFV6b2xpVmVENlpoeUNOdndtc0hSQjdWNERrdWx2SG5sNWp3N3hyU0VPYmVYWGFabTJJU0hfMFRMN1JwcktGREhYdVFteVR1ajRjWmU4Zm9LMmVpYTJuV00zdlhNT0Zn?oc=5",
+      "summary": "Critical vulnerabilities in Fortinet products Australian Cyber Security",
+      "date": "2026-10-23T12:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
       "source": "Dark Reading",
       "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
@@ -80,28 +91,22 @@
       "latest": "2026-10-23T08:57:00Z"
     },
     {
-      "source": "Krebs on Security",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the…",
-      "date": "2026-10-21T15:26:07Z",
+      "source": "ACSC (via Google News)",
+      "title": "Critical vulnerabilities in PHP",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81OHpLdWRyeFdnclNtbnlfMnF5YXp2SlFybTQ2aTh3RVB5RHQtOXJiTGlpXzl1eEZQaURMRWN4MnBSa3ktWjZQd3NwM3ZnWWNHcXd2bTFRaC1OYzZXOGxicklacVNXMms2MHpCbkhXcw?oc=5",
+      "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security",
+      "date": "2026-10-21T12:00:00Z",
       "tags": [
         "AU Cyber",
-        "AI & Tools",
         "Scams"
       ],
+      "official": true,
       "coverage": [
         {
           "source": "Security Brief Australia",
           "title": "PHP flaws trigger outage fears & retail fraud warnings",
           "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
           "date": "2026-10-23T08:15:00Z"
-        },
-        {
-          "source": "404 Media",
-          "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
-          "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
-          "date": "2026-10-22T14:23:36Z"
         },
         {
           "source": "Australian Cyber Security Magazine",
@@ -116,16 +121,16 @@
           "date": "2026-10-21T19:19:17Z"
         },
         {
+          "source": "Krebs on Security",
+          "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+          "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+          "date": "2026-10-21T15:26:07Z"
+        },
+        {
           "source": "iTnews",
           "title": "Critical flaws strike PHP as disclosure embargo is broken",
           "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
           "date": "2026-10-21T09:58:00Z"
-        },
-        {
-          "source": "Risky Business",
-          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-          "link": "https://risky.biz/RB856/",
-          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-23T08:15:00Z"
@@ -253,6 +258,17 @@
       ]
     },
     {
+      "source": "404 Media",
+      "title": "AI Is Changing Everything About Hacking. No One Knows What Happens Next",
+      "link": "https://www.404media.co/php2shell-black-october-ai-is-changing-everything-about-hacking-no-one-knows-what-happens-next/",
+      "summary": "'Black October:' The PHP vulnerabilities and a series of other hacks and bugs have cybersecurity experts freaking out and unsure what happens next.",
+      "date": "2026-10-22T14:23:36Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "As AI Risks Grow, Insurers Split on Covering the Damage",
       "link": "https://www.darkreading.com/cyber-risk/cyber-insurance-covering-ai-damage",
@@ -351,6 +367,17 @@
       "date": "2026-10-21T08:36:24Z",
       "tags": [
         "AU Cyber"
+      ]
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+      "link": "https://risky.biz/RB856/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
+      "date": "2026-10-21T04:43:10Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
@@ -629,6 +656,17 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Protecting operational technology and edge devices",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMmVkTW5oZkVYTk5TR0JBQnJmdWNRaWxadEpaUlZlQlpZQ3kxdGVRVEwyUVNkYUF3UDFNQ1pRam0xcVlGTzVyblItSmQwV2xkdnhXNEhPMjN0eHJlenFfS0c4SThiS1FFa1Jkem9IWG9ROXo5OTlkeHgtTW5WSHBYU1dKT3NpZUJN?oc=5",
+      "summary": "Protecting operational technology and edge devices Australian Cyber Security",
+      "date": "2026-10-14T07:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -708,6 +746,17 @@
       "tags": [
         "AU Cyber"
       ]
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "Vulnerability planning",
+      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1XUmdic3pZcWhuLURIaHBPaUZkZHp0S3paemZrMnVWLXNBdU9QbTBLT0lldG03dEhRVTMzck1vZ2FlV0JYSVBZNEV1aHNJbFY3R2tYV29KU1docFU?oc=5",
+      "summary": "Vulnerability planning Australian Cyber Security Centre",
+      "date": "2026-10-12T16:06:19Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
     },
     {
       "source": "Australian Cyber Security Magazine",
