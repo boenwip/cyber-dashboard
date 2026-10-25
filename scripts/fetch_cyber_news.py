@@ -211,12 +211,15 @@ NEWS_FEEDS = [
 
 # cyber.gov.au often times out from cloud/datacentre networks (it does from GitHub
 # Actions). When both direct ACSC feeds return nothing, this Google News search of
-# the ACSC alerts-and-advisories section is used instead. Google News drops ACSC's
-# "HIGH ALERT:" style prefixes, so these items are marked official with NO threat
-# level — the site shows them as ACSC items without inventing a severity.
+# cyber.gov.au is used instead. Google News drops ACSC's "HIGH ALERT:" style
+# prefixes, so these items are marked official with NO threat level — the site
+# shows them as ACSC items without inventing a severity.
+# The search can't be limited to the alerts section by path (alert URLs no longer
+# share one Google indexes), so it searches the whole site by keyword and
+# build_article() keeps only alert-like headlines (ACSC_ALERT_WORDS).
 ACSC_FALLBACK_FEED = {
     "name": "ACSC (via Google News)",
-    "url": "https://news.google.com/rss/search?q=site:cyber.gov.au/about-us/view-all-content/alerts-and-advisories&hl=en-AU&gl=AU&ceid=AU:en",
+    "url": "https://news.google.com/rss/search?q=site:cyber.gov.au+(vulnerability+OR+vulnerabilities+OR+exploitation+OR+alert+OR+advisory+OR+risks)&hl=en-AU&gl=AU&ceid=AU:en",
     "official": True,
     "severity_known": False,
 }
@@ -551,6 +554,16 @@ TITLE_BLOCKLIST = [
 # Section index pages (not alerts) that the ACSC Google News fallback can return
 ACSC_INDEX_PAGES = {"alerts and advisories", "homepage | cyber.gov.au", "report", "report and recover"}
 
+# The fallback searches all of cyber.gov.au, so it also returns ordinary site pages
+# ("Glossary", "Small Business Hub"). Only headlines that read like an alert are kept.
+ACSC_ALERT_WORDS = re.compile(
+    r"vulnerab|exploit|compromise|advisory|alert|threat|malicious|malware|ransomware"
+    r"|risks?\b|protecting|targeting|actors?\b|attack|campaign|breach", re.I)
+
+# Publisher suffixes Google News appends to cyber.gov.au headlines
+ACSC_GNEWS_SUFFIX = re.compile(
+    r"(\s+\|\s+CGA)?\s+[-\u2013|]\s+(Cyber\.gov\.au|Australian Cyber Secur\w*( Centre)?)$", re.I)
+
 # Index/listing pages that Google News returns for site: queries
 LISTING_PAGE = re.compile(r"\b(browse news|news and alerts|alerts and news)\b|\bpage \d+\b", re.I)
 
@@ -578,8 +591,8 @@ def build_article(feed, entry):
         if feed.get("severity_known", True):
             threat, title = official_threat(title)
         else:
-            title = re.sub(r"\s+[-\u2013|]\s+Cyber\.gov\.au$", "", title, flags=re.I)
-            if title.lower() in ACSC_INDEX_PAGES:
+            title = ACSC_GNEWS_SUFFIX.sub("", title)
+            if title.lower() in ACSC_INDEX_PAGES or not ACSC_ALERT_WORDS.search(title):
                 return None
         if "AU Cyber" not in topic_tags:
             topic_tags.insert(0, "AU Cyber")

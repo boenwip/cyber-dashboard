@@ -217,3 +217,16 @@ def test_main_runs_end_to_end_with_fallback_acsc_items(tmp_path, monkeypatch):
     f.main()
     news = json.load(open("data/news.json", encoding="utf-8"))["items"]
     assert any(n.get("official") and "threat" not in n for n in news)
+
+
+def test_fallback_strips_google_news_publisher_suffixes():
+    for raw in ["Critical vulnerabilities in Fortinet products - Australian Cyber Security",
+                "Critical vulnerabilities in PHP | CGA - Australian Cyber Security Centre"]:
+        a = f.build_article(f.ACSC_FALLBACK_FEED, entry(raw))
+        assert a["title"] in ("Critical vulnerabilities in Fortinet products", "Critical vulnerabilities in PHP")
+
+
+def test_fallback_skips_ordinary_site_pages():
+    for raw in ["ASD Essentials | CGA - Australian Cyber Security", "Submit a Report - Australian Cyber Security",
+                "Glossary - Australian Cyber Security", "Small Business Hub - Australian Cyber Security"]:
+        assert f.build_article(f.ACSC_FALLBACK_FEED, entry(raw)) is None
