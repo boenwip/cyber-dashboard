@@ -1,7 +1,38 @@
 {
-  "last_updated": "2026-10-26T04:30:48Z",
-  "count": 66,
+  "last_updated": "2026-10-26T10:26:57Z",
+  "count": 63,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Graylog launches AI case system in security platform",
+      "link": "https://securitybrief.com.au/story/graylog-launches-ai-case-system-in-security-platform",
+      "summary": "Security teams may cut alert overload as Graylog's new case system groups evidence and lets AI triage incidents before analysts step in.",
+      "date": "2026-10-26T09:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Global cyber attacks jump 48% as phishing rises",
+      "link": "https://securitybrief.com.au/story/global-cyber-attacks-jump-48-as-phishing-rises",
+      "summary": "Organisations faced 2,803 attacks a week on average in September as phishing and ransomware added to pressure on corporate and public sector systems.",
+      "date": "2026-10-26T06:48:48Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Acronis adds dark web monitoring to MDR service",
+      "link": "https://securitybrief.com.au/story/acronis-adds-dark-web-monitoring-to-mdr-service",
+      "summary": "Managed service providers can now spot exposed credentials and leaked data more quickly, with Acronis also widening multilingual support and customer alerts.",
+      "date": "2026-10-26T06:39:33Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Address-Anchored Identity: Why Data Quality Is the Missing Link in eIDV",
@@ -10,16 +41,6 @@
       "date": "2026-10-26T01:25:00Z",
       "tags": [
         "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Iranian hacker group hides C2 server in US for first time",
-      "link": "https://securitybrief.com.au/story/iranian-hacker-group-hides-c2-server-in-us-for-first-time",
-      "summary": "Shared hosting in the US has made Prince of Persia's command-and-control traffic harder for defenders to spot as the group adapts its methods.",
-      "date": "2026-10-26T01:15:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -86,65 +107,23 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
-      "date": "2026-10-23T08:57:00Z",
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
       "tags": [
         "AU Cyber"
       ],
       "coverage": [
         {
-          "source": "Security Brief Australia",
-          "title": "Azul patches Java after eMudhra certificate compromise",
-          "link": "https://securitybrief.com.au/story/azul-patches-java-after-emudhra-certificate-compromise",
-          "date": "2026-10-23T05:41:00Z"
+          "source": "Australian Cyber Security Magazine",
+          "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+          "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+          "date": "2026-10-23T08:57:00Z"
         }
       ],
       "latest": "2026-10-23T08:57:00Z"
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "PHP flaws trigger outage fears & retail fraud warnings",
-      "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
-      "summary": "Millions of sites may need urgent patching after critical PHP bugs raised fears of outages, data theft and account fraud ahead of peak shopping.",
-      "date": "2026-10-23T08:15:00Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Reco joins Microsoft Pegasus programme for AI agent security",
-      "link": "https://securitybrief.com.au/story/reco-joins-microsoft-pegasus-programme-for-ai-agent-security",
-      "summary": "Businesses using Microsoft software are facing sharper oversight of AI agents, as Reco gains access to enterprise sales channels through Pegasus.",
-      "date": "2026-10-23T07:45:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Shadow AI Is Creating an Unmanaged Identity Crisis Across APAC",
-      "link": "https://securitybrief.com.au/story/shadow-ai-is-creating-an-unmanaged-identity-crisis-across-apac",
-      "summary": "Breaches linked to unapproved AI tools are now costing organisations more and exposing a widening identity gap across APAC.",
-      "date": "2026-10-23T04:16:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "JFrog launches local AI security for developer laptops",
-      "link": "https://securitybrief.com.au/story/jfrog-launches-local-ai-security-for-developer-laptops",
-      "summary": "Security teams can now spot unapproved AI tools on laptops before they reach central controls, as JFrog widens its software supply chain checks.",
-      "date": "2026-10-23T03:56:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
     },
     {
       "source": "Dark Reading",
@@ -154,17 +133,6 @@
       "date": "2026-10-23T03:30:00Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "It's time to embrace our robot overlords",
-      "link": "https://securitybrief.com.au/story/it-s-time-to-embrace-our-robot-overlords",
-      "summary": "Agentic AI can already handle bookings, bills and reminders for users, but its growing access to personal data raises fresh hacking and privacy fears.",
-      "date": "2026-10-23T03:23:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -360,16 +328,6 @@
       "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
       "summary": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs BleepingComputer",
       "date": "2026-10-21T08:36:24Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
       "tags": [
         "AU Cyber"
       ]
@@ -588,23 +546,14 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
+      "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
+      "summary": "Australian cybersecurity executives are increasingly being targeted with threats to their physical safety during ransomware incidents, according to Semperis’ 2026 Ransomware Risk Report. The report found 41% of attacks involving [...]",
+      "date": "2026-10-15T05:00:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Semperis report: Australian cyber executives face physical threats in ransomware attacks",
-          "link": "https://australiancybersecuritymagazine.com.au/semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks/?utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks&utm_source=rss&utm_medium=rss&utm_campaign=semperis-report-australian-cyber-executives-face-physical-threats-in-ransomware-attacks",
-          "date": "2026-10-15T05:00:00Z"
-        }
-      ],
-      "latest": "2026-10-15T05:00:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -661,6 +610,16 @@
       "official": true
     },
     {
+      "source": "Dark Reading",
+      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
+      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
+      "date": "2026-10-14T05:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -678,16 +637,17 @@
       "date": "2026-10-13T23:24:53Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
-          "date": "2026-10-13T22:29:57Z"
-        }
-      ],
-      "latest": "2026-10-13T23:24:53Z"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Zero-Days Lurk in Microsoft's Overgrown October Patch Tuesday",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/zero-days-microsoft-october-patch-tuesday",
+      "summary": "The scary surprises in the largest security update ever include defense bypasses and unauthenticated RCEs.",
+      "date": "2026-10-13T22:29:57Z",
+      "tags": [
+        "AU Cyber"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -751,16 +711,6 @@
         "AU Cyber"
       ],
       "official": true
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Cyber agencies warn of China-linked hackers blending automated scanning with hands-on intrusions",
-      "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
-      "summary": "Australian and international cyber security agencies have issued a joint warning detailing how Chinese government-linked threat actors are combining large-scale automated scanning, legitimate network administration tools and targeted intrusions to [...]",
-      "date": "2026-10-12T06:35:19Z",
-      "tags": [
-        "AU Cyber"
-      ]
     }
   ]
 }
