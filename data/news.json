@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-10-25T23:11:35Z",
-  "count": 67,
+  "last_updated": "2026-10-26T01:38:58Z",
+  "count": 66,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Address-Anchored Identity: Why Data Quality Is the Missing Link in eIDV",
+      "link": "https://securitybrief.com.au/story/address-anchored-identity-why-data-quality-is-the-missing-link-in-eidv",
+      "summary": "Synthetic fraud is slipping past standard checks, prompting banks to use real-time address matching to tie identities to physical locations.",
+      "date": "2026-10-26T01:25:00Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Iranian hacker group hides C2 server in US for first time",
+      "link": "https://securitybrief.com.au/story/iranian-hacker-group-hides-c2-server-in-us-for-first-time",
+      "summary": "Shared hosting in the US has made Prince of Persia's command-and-control traffic harder for defenders to spot as the group adapts its methods.",
+      "date": "2026-10-26T01:15:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Dark Reading",
       "title": "Trust Is Not What It Seems — And Fraudsters Are Counting on It",
@@ -66,21 +86,15 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
+      "date": "2026-10-23T08:57:00Z",
       "tags": [
         "AU Cyber"
       ],
       "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-          "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-          "date": "2026-10-23T08:57:00Z"
-        },
         {
           "source": "Security Brief Australia",
           "title": "Azul patches Java after eMudhra certificate compromise",
@@ -91,49 +105,15 @@
       "latest": "2026-10-23T08:57:00Z"
     },
     {
-      "source": "ACSC (via Google News)",
-      "title": "Critical vulnerabilities in PHP",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81OHpLdWRyeFdnclNtbnlfMnF5YXp2SlFybTQ2aTh3RVB5RHQtOXJiTGlpXzl1eEZQaURMRWN4MnBSa3ktWjZQd3NwM3ZnWWNHcXd2bTFRaC1OYzZXOGxicklacVNXMms2MHpCbkhXcw?oc=5",
-      "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security",
-      "date": "2026-10-21T12:00:00Z",
+      "source": "Security Brief Australia",
+      "title": "PHP flaws trigger outage fears & retail fraud warnings",
+      "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
+      "summary": "Millions of sites may need urgent patching after critical PHP bugs raised fears of outages, data theft and account fraud ahead of peak shopping.",
+      "date": "2026-10-23T08:15:00Z",
       "tags": [
         "AU Cyber",
         "Scams"
-      ],
-      "official": true,
-      "coverage": [
-        {
-          "source": "Security Brief Australia",
-          "title": "PHP flaws trigger outage fears & retail fraud warnings",
-          "link": "https://securitybrief.com.au/story/php-flaws-trigger-outage-fears-retail-fraud-warnings",
-          "date": "2026-10-23T08:15:00Z"
-        },
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Critical PHP vulnerabilities allow remote execution",
-          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-critical-php-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities",
-          "date": "2026-10-21T21:15:42Z"
-        },
-        {
-          "source": "Dark Reading",
-          "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
-          "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
-          "date": "2026-10-21T19:19:17Z"
-        },
-        {
-          "source": "Krebs on Security",
-          "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-          "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-          "date": "2026-10-21T15:26:07Z"
-        },
-        {
-          "source": "iTnews",
-          "title": "Critical flaws strike PHP as disclosure embargo is broken",
-          "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-          "date": "2026-10-21T09:58:00Z"
-        }
-      ],
-      "latest": "2026-10-23T08:15:00Z"
+      ]
     },
     {
       "source": "Security Brief Australia",
@@ -184,36 +164,6 @@
       "date": "2026-10-23T03:23:00Z",
       "tags": [
         "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "PHP flaws spark emergency patch warning for websites",
-      "link": "https://securitybrief.com.au/story/php-flaws-spark-emergency-patch-warning-for-websites",
-      "summary": "Security teams face a race to patch exposed sites as a public exploit raises the risk of remote code execution across millions of PHP installs.",
-      "date": "2026-10-23T01:15:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SentinelOne expands PartnerOne for AI security services",
-      "link": "https://securitybrief.com.au/story/sentinelone-expands-partnerone-for-ai-security-services",
-      "summary": "Partners will now be able to package and run more AI security services around SentinelOne's Singularity platform as customer demand grows.",
-      "date": "2026-10-23T00:30:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "BeyondTrust launches AI agent security on Pathfinder",
-      "link": "https://securitybrief.com.au/story/beyondtrust-launches-ai-agent-security-on-pathfinder",
-      "summary": "The launch follows research showing AI coding agents can issue millions of commands and reach dozens of external services on enterprise endpoints.",
-      "date": "2026-10-23T00:09:00Z",
-      "tags": [
         "AI & Tools"
       ]
     },
@@ -310,6 +260,51 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Critical vulnerabilities in PHP",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81OHpLdWRyeFdnclNtbnlfMnF5YXp2SlFybTQ2aTh3RVB5RHQtOXJiTGlpXzl1eEZQaURMRWN4MnBSa3ktWjZQd3NwM3ZnWWNHcXd2bTFRaC1OYzZXOGxicklacVNXMms2MHpCbkhXcw?oc=5",
+      "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security",
+      "date": "2026-10-21T12:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true,
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Critical PHP vulnerabilities allow remote execution",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-critical-php-vulnerabilities/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-php-vulnerabilities",
+          "date": "2026-10-21T21:15:42Z"
+        },
+        {
+          "source": "Dark Reading",
+          "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
+          "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
+          "date": "2026-10-21T19:19:17Z"
+        },
+        {
+          "source": "Krebs on Security",
+          "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+          "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+          "date": "2026-10-21T15:26:07Z"
+        },
+        {
+          "source": "iTnews",
+          "title": "Critical flaws strike PHP as disclosure embargo is broken",
+          "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-10-21T09:58:00Z"
+        },
+        {
+          "source": "Risky Business",
+          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+          "link": "https://risky.biz/RB856/",
+          "date": "2026-10-21T04:43:10Z"
+        }
+      ],
+      "latest": "2026-10-21T21:15:42Z"
+    },
+    {
       "source": "Dark Reading",
       "title": "TiDB Breach Exposes Flawed Cloud Security Assumptions",
       "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
@@ -370,14 +365,13 @@
       ]
     },
     {
-      "source": "Risky Business",
-      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-      "link": "https://risky.biz/RB856/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
-      "date": "2026-10-21T04:43:10Z",
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "AU Cyber"
       ]
     },
     {
@@ -764,16 +758,6 @@
       "link": "https://australiancybersecuritymagazine.com.au/cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions/?utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions&utm_source=rss&utm_medium=rss&utm_campaign=cyber-agencies-warn-of-china-linked-hackers-blending-automated-scanning-with-hands-on-intrusions",
       "summary": "Australian and international cyber security agencies have issued a joint warning detailing how Chinese government-linked threat actors are combining large-scale automated scanning, legitimate network administration tools and targeted intrusions to [...]",
       "date": "2026-10-12T06:35:19Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC updates alert on critical Citrix NetScaler vulnerabilities, adds new RCE CVE",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve&utm_source=rss&utm_medium=rss&utm_campaign=acsc-updates-alert-on-critical-citrix-netscaler-vulnerabilities-adds-new-rce-cve",
-      "summary": "The Australian Cyber Security Centre (ACSC) has issued an updated critical alert warning Australian organisations running Citrix NetScaler ADC and Citrix NetScaler Gateway to apply the latest vendor patches after [...]",
-      "date": "2026-10-11T23:50:46Z",
       "tags": [
         "AU Cyber"
       ]
