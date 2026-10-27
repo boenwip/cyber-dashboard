@@ -1,7 +1,15 @@
 {
-  "last_updated": "2026-10-26T10:27:07Z",
+  "last_updated": "2026-10-27T00:23:08Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.311",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
+      "summary": "What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output…",
+      "date": "2026-10-26T21:51:23Z"
+    },
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
@@ -9,14 +17,6 @@
       "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOS09LWWpfQWp5bU84RDRjZlRuXzZDWUcxWEhrd2dUUmUyWEpuZnFlUDVyYU5GZUNmYkNMNldzaWMtVnJaOGdZSUxLa29kOUdYQVNKMTdYcHdpV0dISWgwM0lhWk5uOHZOUzRGbTNudUZYUFFicVBwUURJZWhROVNTUQ?oc=5",
       "summary": "Canva Built Craft in 6 Months With 160 Staff [2026] tech-insider.org",
       "date": "2026-10-26T04:57:50Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Gamma 5 vs Copilot vs Canva: US$9 to US$40 Seats [2026] - tech-insider.org",
-      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQbVBEdjB2cHgxZjBZR0pLMUtXX1c0d1BDZjZxSXFISXdaMldYZE84ZHZwVXkwLWpsci1xNUJqOGIzcEFVUHVzUEh3XzZfQlo1VTE4anJpREZWYU81aUo0c1h2NGVaQ2V3M2dKbmZKYXkzaWJNd0ctNlUzelBjc2xoaU5adEVnRXVlMzVEcg?oc=5",
-      "summary": "Gamma 5 vs Copilot vs Canva: US$9 to US$40 Seats [2026] tech-insider.org",
-      "date": "2026-10-26T00:33:48Z"
     },
     {
       "source": "Claude Code Releases",
@@ -115,14 +115,6 @@
       "date": "2026-10-22T22:08:28Z"
     },
     {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva Pricing 2026: How Much Does Canva Cost? - Fello AI",
-      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5neU96UnlyUk1CUXJJYTNRRmpQX0E5aW9HbzdSdXIydEw2VDM4QUVOeVRLYWhQeGFtRHhKTFdJSkZ1REFXSW5MU1FB?oc=5",
-      "summary": "Canva Pricing 2026: How Much Does Canva Cost? Fello AI",
-      "date": "2026-10-22T07:00:00Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.308",
@@ -139,44 +131,12 @@
       "date": "2026-10-21T22:17:02Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.306",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.306",
-      "summary": "What's changed Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables Fixed an API error being replaced by \"prompt is too long\", and…",
-      "date": "2026-10-21T03:16:31Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Claude Next Leak: Anthropic's Unreleased Model Reportedly Running in Claude Code - OrcaRouter",
-      "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1GLWNMRmhzNUZfTGpiaFhuRnlySnVteU4teVh4Vkp6WmYyMzctNWx5Y0J0YzFXR3A5WUpIU1p4ekRPUHZpWWJSQzBBVHN5dVZPUkJZLURSSy1reTg?oc=5",
-      "summary": "Claude Next Leak: Anthropic's Unreleased Model Reportedly Running in Claude Code OrcaRouter",
-      "date": "2026-10-11T07:00:00Z"
-    },
-    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Anthropic bans users from being 'cruel' to its AI systems - BBC",
       "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9ramZhSWMyQlZTRHhlTjVYOXNuNkw0Ty1RYkF4dTQ5aVZtSUgtRjQ5SWpkTllONG5VYlVHaS1Mb1VsRXpTT2dvUUZ0RmxYczVWT0E0c0VvN3h3WW8?oc=5",
       "summary": "Anthropic bans users from being 'cruel' to its AI systems BBC",
       "date": "2026-10-09T07:00:00Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPb2lja2Y3b2J4SGw2TDhuWUNxNmxablZvTlcwSVg4eHhuSUFwNUEzQTd0WFhOTlJMd0F5UHBDSnhxTl9nVXJlNjFrZVBSc1Zic01sZ1RuZ2tTTlQ3RVVLUEw5OFI2NDcwNzNPSVpYTUJmR1pVdmd2NWkyOUtxcTg5bC05ckRhX1pnSVRZdVhLSlQ0ckU?oc=5",
-      "summary": "Anthropic bans users from ‘needless abusive or cruel behavior’ towards Claude The Guardian",
-      "date": "2026-10-08T07:00:00Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Haiku 5.5 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
-      "summary": "Introducing Claude Haiku 5.5 Anthropic",
-      "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -195,6 +155,14 @@
       "date": "2026-09-28T19:20:57Z"
     },
     {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Anthropic rolls out second Claude 5.5 model as it builds toward IPO - Reuters",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUm1rcklHNVRzQnFIS2t3RnNGNDBwU25RUzJIcnFNN0FIbDNOU3VTNEhVVGprOEhNOVZISGVlWHo1NkFZX3doLUNkOU16cmlMdWotdnljUUowc19DcXJXbzFjRTI1QVFKNGtJSWNBMGdUSExIVlB3NmpVZWQ2TnBFNFpjckY1NEhOOS1BMWw1MktacnlrbFpBMDd5X2tZb0xpbVRxRlREYlRGWWE4elFr?oc=5",
+      "summary": "Anthropic rolls out second Claude 5.5 model as it builds toward IPO Reuters",
+      "date": "2026-09-28T07:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog",
@@ -211,20 +179,20 @@
       "date": "2026-09-23T15:00:00Z"
     },
     {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Massive Canva update adds 100 features to new ProSuite - Creative Bloq",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalh0clpuN1NzMHk0Nm14UmlMMlJqX3VBUU84elhrZDNkWUNoS1NaY0oxbHRGXzdvbHNVNWkwdVl2Ym5kcUwyaUtYSUNQSG1QaUszV0tiZ01KUWxUMkdBMjZOMDJzb3J5c1RhUGMyZFRGNy1RUGU5ZS01dUkwMGNocDFaWFRtckcxN2dpSVFEeGJuczVpQlJ0WFEwZ3dLSWVDZEZwb2ZZdFI0STBfWnpzdU1NR3JRMkU?oc=5",
+      "summary": "Massive Canva update adds 100 features to new ProSuite Creative Bloq",
+      "date": "2026-09-17T07:00:00Z"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
       "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
       "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust…",
       "date": "2026-09-15T15:00:00Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
-      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
-      "date": "2026-09-15T07:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -251,12 +219,28 @@
       "date": "2026-09-08T07:00:00Z"
     },
     {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva Hits 100 Visual Suite Updates: What Matters for Teams - TechRepublic",
+      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBBX1hTMFQ3bU9TWkhwanc0SFdfM2xFWEdIdUhraE9iNHZ2U3Nrb0d3NzF4ZVJLckxpXzc0RS1wdXBza3NqOWQyUGtBMWpEMVhTd2hVQmtWY3ZvNVEtRU9FanVLMVIzN3JvMFZPd2otWTh5QmlNWFNhWHFSM1k2QQ?oc=5",
+      "summary": "Canva Hits 100 Visual Suite Updates: What Matters for Teams TechRepublic",
+      "date": "2026-09-08T07:00:00Z"
+    },
+    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "PPCC 2026: Bringing AI and your business processes together",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
       "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
       "date": "2026-09-03T15:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
+      "date": "2026-09-01T18:01:25Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -283,12 +267,28 @@
       "date": "2026-07-16T07:00:00Z"
     },
     {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing GPT-Live - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1DVXI2NXkzejZWS2piS0F6aTh4YWlHMVRCT3lkTWdsb2NjYkpnOFpSR0hlNWxBd2swaklLak5JanFpY3dSU3lyUnlyalMwbUVJQXE2MHVSZmQ2dw?oc=5",
+      "summary": "Introducing GPT-Live OpenAI",
+      "date": "2026-07-08T07:00:00Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "2026-06-21T07:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Why the US government shut down Anthropic’s latest Claude AI model - The Conversation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
+      "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
+      "date": "2026-06-15T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -307,20 +307,20 @@
       "date": "2026-05-15T07:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.0 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE96QnVnaXU0bWFnZF9MMVBROVpXeXVtSHBDSE1kc0k1cXMzdG1uLUJIT2U2Rk9jVVJNV2FzNzA4VFhrUkNqNi1janYtNzNneXZIWURncGNiZGdSWU1HVkxCN2tBYVZuWWc?oc=5",
-      "summary": "Introducing ChatGPT Images 2.0 OpenAI",
-      "date": "2026-04-21T07:00:00Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "2026-04-16T07:00:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases first major update to its free Affinity software - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
+      "summary": "Canva releases first major update to its free Affinity software CG Channel",
+      "date": "2026-03-18T07:00:00Z"
     }
   ]
 }
