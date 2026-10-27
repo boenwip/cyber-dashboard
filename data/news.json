@@ -1,43 +1,75 @@
 {
-  "last_updated": "2026-10-27T00:23:00Z",
-  "count": 61,
+  "last_updated": "2026-10-27T04:49:55Z",
+  "count": 60,
   "items": [
+    {
+      "source": "ACSC (via Google News)",
+      "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
+      "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 Australian Cyber Security",
+      "date": "2026-10-27T04:39:47Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true,
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
+          "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
+          "date": "2026-10-27T00:26:23Z"
+        }
+      ],
+      "latest": "2026-10-27T04:39:47Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "Fixes for Google Brotli flaw arrive for Microsoft .NET, PHP and Linux",
+      "link": "https://www.itnews.com.au/news/fixes-for-google-brotli-flaw-arrive-for-microsoft-net-php-and-linux-629928?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Vendors disagree on how readily the flaw can be exploited.",
+      "date": "2026-10-27T02:52:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Fortinet launches AI security service for FortiGate",
+      "link": "https://securitybrief.com.au/story/fortinet-launches-ai-security-service-for-fortigate",
+      "summary": "The cloud-delivered offering adds real-time prompt and response inspection to existing firewalls, helping firms curb shadow AI, data loss and runaway spend.",
+      "date": "2026-10-27T01:32:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cisco warns Singapore firms struggle to spot compromised AI",
+      "link": "https://securitybrief.com.au/story/cisco-warns-singapore-firms-struggle-to-spot-compromised-ai",
+      "summary": "Just 38% of Singapore organisations feel able to detect and respond to compromised AI agents, as 89% suffered a cyber incident last year.",
+      "date": "2026-10-27T00:30:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+      "summary": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
+      "date": "2026-10-27T00:26:50Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "BT International expands Global Fabric with security options",
       "link": "https://securitybrief.com.au/story/bt-international-expands-global-fabric-with-security-options",
       "summary": "Multinational firms can now choose from four security providers on BT's network platform as AI traffic raises demands on speed, resilience and control.",
       "date": "2026-10-27T00:15:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cohesity & IBM validate cloud recovery with Terraform",
-      "link": "https://securitybrief.com.au/story/cohesity-ibm-validate-cloud-recovery-with-terraform",
-      "summary": "The validation gives businesses a faster way to restore cloud apps after AI-driven attacks, using approved Terraform code and backup data.",
-      "date": "2026-10-27T00:04:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Oracle launches agentic AI tools & Deep Trust architecture",
-      "link": "https://securitybrief.com.au/story/oracle-launches-agentic-ai-tools-deep-trust-architecture",
-      "summary": "Businesses using Oracle Fusion software will get new AI tools that can act on approved tasks, while a trust framework aims to curb data and security risks.",
-      "date": "2026-10-26T22:46:30Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Check Point launches firewall subscription for AI security",
-      "link": "https://securitybrief.com.au/story/check-point-launches-firewall-subscription-for-ai-security",
-      "summary": "The new model lets organisations spread firewall spending over time, easing budget pressure as AI traffic and threats grow.",
-      "date": "2026-10-26T21:51:00Z",
       "tags": [
         "AI & Tools"
       ]
@@ -51,27 +83,6 @@
       "tags": [
         "AI & Tools"
       ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Synology urges local control of surveillance video",
-      "link": "https://securitybrief.com.au/story/synology-urges-local-control-of-surveillance-video",
-      "summary": "Firms face greater risk of exposed footage unless they keep surveillance video and AI analytics on site, Synology says.",
-      "date": "2026-10-26T21:30:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "ACSC (via Google News)",
-      "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
-      "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 Australian Cyber Security",
-      "date": "2026-10-26T21:15:32Z",
-      "tags": [
-        "AU Cyber"
-      ],
-      "official": true
     },
     {
       "source": "Dark Reading",
@@ -305,8 +316,7 @@
       "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security",
       "date": "2026-10-21T12:00:00Z",
       "tags": [
-        "AU Cyber",
-        "AI & Tools"
+        "AU Cyber"
       ],
       "official": true,
       "coverage": [
@@ -333,12 +343,6 @@
           "title": "Critical flaws strike PHP as disclosure embargo is broken",
           "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
           "date": "2026-10-21T09:58:00Z"
-        },
-        {
-          "source": "Risky Business",
-          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-          "link": "https://risky.biz/RB856/",
-          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-21T21:15:42Z"
@@ -391,6 +395,27 @@
       "date": "2026-10-21T13:00:00Z",
       "tags": [
         "AU Cyber"
+      ]
+    },
+    {
+      "source": "Google News — Bleeping Computer AU",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
+      "summary": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs BleepingComputer",
+      "date": "2026-10-21T08:36:24Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+      "link": "https://risky.biz/RB856/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
+      "date": "2026-10-21T04:43:10Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
@@ -620,16 +645,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Ransomware Gangs Embrace Physical Threats, Family Stalking?",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/ransomware-gangs-physical-threats-family-stalking",
-      "summary": "Organizations are reporting that employees face threats of stalking, physical violence, and abduction. But these alarming claims are hard to verify.",
-      "date": "2026-10-14T05:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #855 -- ShinyHunters done sowing, enters reaping phase",
       "link": "https://risky.biz/RB855/",
@@ -658,26 +673,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Cisco report flags organisational friction as a key barrier to AI-driven cyber defence in Australia",
-      "link": "https://australiancybersecuritymagazine.com.au/cisco-report-flags-organisational-friction-as-a-key-barrier-to-ai-driven-cyber-defence-in-australia/?utm_source=rss&utm_medium=rss&utm_campaign=cisco-report-flags-organisational-friction-as-a-key-barrier-to-ai-driven-cyber-defence-in-australia&utm_source=rss&utm_medium=rss&utm_campaign=cisco-report-flags-organisational-friction-as-a-key-barrier-to-ai-driven-cyber-defence-in-australia",
-      "summary": "A new Cisco report suggests Australian organisations are struggling to keep pace with AI-driven cyber threats, not primarily because of missing technology but because internal processes and team structures slow [...]",
-      "date": "2026-10-13T04:39:35Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Claroty research: ANZ OT cyberattacks cost $2.04m on average, nearly double global figure",
-      "link": "https://australiancybersecuritymagazine.com.au/claroty-research-anz-ot-cyberattacks-cost-2-04m-on-average-nearly-double-global-figure/?utm_source=rss&utm_medium=rss&utm_campaign=claroty-research-anz-ot-cyberattacks-cost-2-04m-on-average-nearly-double-global-figure&utm_source=rss&utm_medium=rss&utm_campaign=claroty-research-anz-ot-cyberattacks-cost-2-04m-on-average-nearly-double-global-figure",
-      "summary": "Cyberattacks on operational environments are costing organisations in Australia and New Zealand an average of $2.04 million per incident—almost double the global average of $1.04 million—according to new research published [...]",
-      "date": "2026-10-13T04:26:47Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]
