@@ -1,7 +1,38 @@
 {
-  "last_updated": "2026-10-27T04:49:55Z",
-  "count": 60,
+  "last_updated": "2026-10-27T10:23:02Z",
+  "count": 61,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Harmonic Security raises USD $50 million in Series B",
+      "link": "https://securitybrief.com.au/story/harmonic-security-raises-usd-50-million-in-series-b",
+      "summary": "Demand for tighter oversight of workplace AI has helped Harmonic Security secure USD $50 million to expand its engineering and sales teams.",
+      "date": "2026-10-27T09:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sonatype launches Nexus Repository Pro+ for AI screening",
+      "link": "https://securitybrief.com.au/story/sonatype-launches-nexus-repository-pro-for-ai-screening",
+      "summary": "It blocks malicious or policy-breaking software and AI artefacts at intake, helping enterprises cut build failures, rework and release risk.",
+      "date": "2026-10-27T09:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Island finds MicrosoftSystem64 campaign in GitHub repos",
+      "link": "https://securitybrief.com.au/story/island-finds-microsoftsystem64-campaign-in-github-repos",
+      "summary": "Developers may have been steered towards malicious code as at least 88 public GitHub repositories linked to a malware cluster surfaced in AI recommendations.",
+      "date": "2026-10-27T08:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
     {
       "source": "ACSC (via Google News)",
       "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
@@ -60,16 +91,6 @@
       "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
       "summary": "Measuring AI model security gets complex fast — a growing patchwork of benchmarks targets different variables in the equation, but none replace testing against your own code and workflows.",
       "date": "2026-10-27T00:26:50Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "BT International expands Global Fabric with security options",
-      "link": "https://securitybrief.com.au/story/bt-international-expands-global-fabric-with-security-options",
-      "summary": "Multinational firms can now choose from four security providers on BT's network platform as AI traffic raises demands on speed, resilience and control.",
-      "date": "2026-10-27T00:15:00Z",
       "tags": [
         "AI & Tools"
       ]
@@ -316,7 +337,8 @@
       "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security",
       "date": "2026-10-21T12:00:00Z",
       "tags": [
-        "AU Cyber"
+        "AU Cyber",
+        "AI & Tools"
       ],
       "official": true,
       "coverage": [
@@ -343,6 +365,12 @@
           "title": "Critical flaws strike PHP as disclosure embargo is broken",
           "link": "https://www.itnews.com.au/news/critical-flaws-strike-php-as-disclosure-embargo-is-broken-629794?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
           "date": "2026-10-21T09:58:00Z"
+        },
+        {
+          "source": "Risky Business",
+          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+          "link": "https://risky.biz/RB856/",
+          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-21T21:15:42Z"
@@ -405,17 +433,6 @@
       "date": "2026-10-21T08:36:24Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-      "link": "https://risky.biz/RB856/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
-      "date": "2026-10-21T04:43:10Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
