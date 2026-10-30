@@ -1,7 +1,112 @@
 {
-  "last_updated": "2026-10-29T11:44:17Z",
-  "count": 59,
+  "last_updated": "2026-10-30T00:51:32Z",
+  "count": 60,
   "items": [
+    {
+      "source": "Risky Business",
+      "title": "Snake Oilers: Minimal.dev, Request Rocket and TRM Labs",
+      "link": "https://risky.biz/SNAKEOILERS24PT2/",
+      "summary": "In this edition of the Snake Oilers podcast, three vendors drop by to pitch their products. Minimal.dev: A sandbox for AI agents! Co-Founder and CEO Jake King explains what the company is and how it works. Request Rocket: Runtime access control for AI agents and APIs. Founder and CTO Alex Ferguson…",
+      "date": "2026-10-30T00:34:05Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike uncovers China-linked AI cyber campaign",
+      "link": "https://securitybrief.com.au/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign",
+      "summary": "CrowdStrike has identified a China-linked cyber campaign using agentic AI to conduct simultaneous intrusions against more than 200 organisations across at least 14 countries.",
+      "date": "2026-10-29T23:10:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cloudflare reports surge in smaller, shorter DDoS attacks",
+      "link": "https://securitybrief.com.au/story/cloudflare-reports-surge-in-smaller-shorter-ddos-attacks",
+      "summary": "Businesses face more frequent disruption as Cloudflare says 96% of network-layer attacks now end in under 10 minutes and stay below 1 Gbps.",
+      "date": "2026-10-29T22:28:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "APAC firms race ahead on AI agents, but controls lag",
+      "link": "https://securitybrief.com.au/story/apac-firms-race-ahead-on-ai-agents-but-controls-lag",
+      "summary": "Most APAC firms running AI agents still lack oversight, leaving systems that can access data and act autonomously exposed to security and compliance risks.",
+      "date": "2026-10-29T22:15:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Schneider Electric, NVIDIA & HPE launch industrial AI",
+      "link": "https://securitybrief.com.au/story/schneider-electric-nvidia-hpe-launch-industrial-ai",
+      "summary": "Industrial operators could soon detect faults and cyber risks faster as Schneider Electric, NVIDIA and HPE move AI closer to plant data.",
+      "date": "2026-10-29T21:38:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Anthropic-Themed Phishing Emails Bypass Top Security Tools",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/anthropic-phishing-emails-bypass-security-tools",
+      "summary": "Obvious phishing emails with numerous red flags are somehow getting past some of the industry-leading secure email gateway (SEG) products.",
+      "date": "2026-10-29T21:21:56Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Researchers feed infostealer gangs booby-trapped session cookies",
+      "link": "https://www.itnews.com.au/news/researchers-feed-infostealer-gangs-booby-trapped-session-cookies-630000?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Infected their own machines with malware to see what criminals do with stolen sessions.",
+      "date": "2026-10-29T20:47:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Rethinking Cybersecurity Awareness in the AI Era",
+      "link": "https://www.darkreading.com/cyber-risk/rethinking-cybersecurity-awareness-ai-era",
+      "summary": "This installment of the Reporters' Notebook video series discusses some of the trends and topics from Cybersecurity Awareness Month, from using AI for better training to educating next-generation workforces on modern risks and emerging threats.",
+      "date": "2026-10-29T20:15:37Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
+      "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
+      "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
+      "date": "2026-10-29T18:15:59Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "Manifestos, Fear, and ‘Loser Thinking’: Inside Proton’s AI Reckoning",
+      "link": "https://www.404media.co/manifestos-fear-and-loser-thinking-inside-protons-ai-reckoning/",
+      "summary": "Proton CEO Andy Yen projects a calm persona and rails against Big Tech and critiques AI. Internally, he is pushing engineers to build Proton with AI, even when they have security concerns.",
+      "date": "2026-10-29T14:21:49Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Dark Reading",
       "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
@@ -13,73 +118,13 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Google unveils Gemini 4 Carbon with cyber focus",
-      "link": "https://securitybrief.com.au/story/google-unveils-gemini-4-carbon-with-cyber-focus",
-      "summary": "Cyber defenders are getting first access as Google rolls out its latest AI model in stages, with wider use to follow after testing and review.",
-      "date": "2026-10-29T09:01:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Google uncovers brief AOMEI supply chain malware attack",
-      "link": "https://securitybrief.com.au/story/google-uncovers-brief-aomei-supply-chain-malware-attack",
-      "summary": "Systems that polled AOMEI's update servers at the wrong moment could have pulled malicious files in the brief April-to-July tampering window.",
-      "date": "2026-10-29T08:37:28Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Hotejka scam network uses free hosting to target users",
-      "link": "https://securitybrief.com.au/story/hotejka-scam-network-uses-free-hosting-to-target-users",
-      "summary": "Researchers say the scheme has run since 2017, exposing users to fake Microsoft alerts and remote access theft through legitimate hosting tools.",
-      "date": "2026-10-29T08:00:00Z",
-      "tags": [
-        "Scams"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
       "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-      "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared to everywhere else.",
+      "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
       "date": "2026-10-29T08:00:00Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Oracle unveils Deep Trust AI Architecture for enterprises",
-      "link": "https://securitybrief.com.au/story/oracle-unveils-deep-trust-ai-architecture-for-enterprises",
-      "summary": "The framework is meant to help companies control security, privacy and business rules as AI agents and generated software spread through enterprise systems.",
-      "date": "2026-10-29T07:07:08Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Smart TVs top connected home security risks, report finds",
-      "link": "https://securitybrief.com.au/story/smart-tvs-top-connected-home-security-risks-report-finds",
-      "summary": "Smart TVs now account for the biggest share of vulnerabilities in connected homes, as households average 24 devices and attacks speed up.",
-      "date": "2026-10-29T02:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cybersecurity Awareness: The Importance of Getting the Basics Right",
-      "link": "https://securitybrief.com.au/story/cybersecurity-awareness-the-importance-of-getting-the-basics-right",
-      "summary": "Poor data classification and weak access controls can let AI expose information or rack up costs, leaving organisations vulnerable.",
-      "date": "2026-10-29T01:38:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -94,12 +139,22 @@
     },
     {
       "source": "Dark Reading",
-      "title": "GhostAction Hacking Wave Fizzles, But Attackers Lurk on in GitHub",
+      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
       "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
       "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
       "date": "2026-10-28T19:39:00Z",
       "tags": [
         "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
+      "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
+      "summary": "Artificial intelligence (AI) is everywhere in healthcare, from doctors’ intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
+      "date": "2026-10-28T15:29:06Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -111,6 +166,16 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Google News — Bleeping Computer AU",
+      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlVUQUtkRl9BVHNMdWNLU2VRY1F5Y2hoUUMxQUp2WTBfU2NPRVdmbmxyekVMbl9NTVlxS09TZFVjcHBjZnQwa1F4Vngtd2lmb1JQWVEzdGp5YlNKTHhsdnNobl9GcTFMQ0NMWVZNQkZEZ0hUbzhhN25PcHhqY3dkX0ltOW9RQlUzUERQd2wzVUFPUE9jWURlbk1zRDNOS2ZaX3RhaEI4QmkyYTFsQ29B0gG0AUFVX3lxTE1vcHNENVlrc2I0WlNic3FDNk1UQnJ6NjloUHRheFdJd29qMHBnczA1eEZBMGdnLTd0cjhkUU9kbFpVTjh1U1QxRUFWVDFZVW41NmEyQ2w4a19BWEI0OWM4akRSajhzSlpuSmlYbmZtWk5hVjBrZ1E3RENRTDBSUVNNWGJ4S0QwU0ZHMWZoR0dWZENSU2lNeHFzRDA0R1FmWEdlazdDUndCQjA4a2h0SEJwQ3pVWQ?oc=5",
+      "summary": "Nefilim and Hive ransomware affiliate gets 70 months in prison BleepingComputer",
+      "date": "2026-10-28T09:43:15Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -187,6 +252,27 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
+      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
+      "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 | CGA Australian Cyber Security Centre",
+      "date": "2026-10-27T12:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true,
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
+          "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
+          "date": "2026-10-27T00:26:23Z"
+        }
+      ],
+      "latest": "2026-10-27T12:00:00Z"
+    },
+    {
       "source": "iTnews",
       "title": "Fixes for Google Brotli flaw arrive for Microsoft .NET, PHP and Linux",
       "link": "https://www.itnews.com.au/news/fixes-for-google-brotli-flaw-arrive-for-microsoft-net-php-and-linux-629928?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
@@ -198,22 +284,11 @@
     },
     {
       "source": "Dark Reading",
-      "title": "So Many AI Security Benchmarks, But None Tell the Whole Story",
+      "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
       "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
       "summary": "Measuring AI model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
       "date": "2026-10-27T00:26:50Z",
       "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
-      "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
-      "summary": "Australia’s cyber threat environment is becoming increasingly complex as artificial intelligence accelerates malicious activity, cybercrime losses rise and state-sponsored actors continue targeting government, businesses and critical infrastructure, according to the [...]",
-      "date": "2026-10-27T00:26:23Z",
-      "tags": [
-        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -269,16 +344,6 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACSC warns of critical vulnerabilities in Fortinet products",
-      "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-of-critical-vulnerabilities-in-fortinet-products/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-vulnerabilities-in-fortinet-products&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-of-critical-vulnerabilities-in-fortinet-products",
-      "summary": "The Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) has issued a critical alert urging organisations using Fortinet products to apply security updates, after Fortinet disclosed critical vulnerabilities affecting [...]",
-      "date": "2026-10-26T00:03:29Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
       "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
@@ -321,6 +386,17 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Critical vulnerabilities in Fortinet products",
+      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnZYRjhXNmZuZXh3U2V1Tlo1bHJocHJVczFicFV6b2xpVmVENlpoeUNOdndtc0hSQjdWNERrdWx2SG5sNWp3N3hyU0VPYmVYWGFabTJJU0hfMFRMN1JwcktGREhYdVFteVR1ajRjWmU4Zm9LMmVpYTJuV00zdlhNT0Zn?oc=5",
+      "summary": "Critical vulnerabilities in Fortinet products Australian Cyber Security Centre",
+      "date": "2026-10-23T12:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
       "source": "Dark Reading",
       "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
       "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
@@ -331,14 +407,23 @@
       ]
     },
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
-      "date": "2026-10-23T08:57:00Z",
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+          "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+          "date": "2026-10-23T08:57:00Z"
+        }
+      ],
+      "latest": "2026-10-23T08:57:00Z"
     },
     {
       "source": "Dark Reading",
@@ -358,16 +443,6 @@
       "date": "2026-10-22T20:42:17Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "This Woman's Living a CashApp Scam Nightmare",
-      "link": "https://www.404media.co/this-womans-living-a-cashapp-scam-nightmare/",
-      "summary": "A CashApp scam mess, Airbnb hosts crashing out, and much more.",
-      "date": "2026-10-22T15:33:44Z",
-      "tags": [
-        "Scams"
       ]
     },
     {
@@ -402,14 +477,15 @@
       ]
     },
     {
-      "source": "Krebs on Security",
-      "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
-      "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
-      "summary": "Expect to see quite a few websites serving \"404\" or \"Page Not Found\" errors today: Nearly 70 percent of websites need to update their core software to fix a pair of vulnerabilities that allow an attacker to seize full control over affected servers. Experts say there are working exploits for the…",
-      "date": "2026-10-21T15:26:07Z",
+      "source": "ACSC (via Google News)",
+      "title": "Critical vulnerabilities in PHP",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE81OHpLdWRyeFdnclNtbnlfMnF5YXp2SlFybTQ2aTh3RVB5RHQtOXJiTGlpXzl1eEZQaURMRWN4MnBSa3ktWjZQd3NwM3ZnWWNHcXd2bTFRaC1OYzZXOGxicklacVNXMms2MHpCbkhXcw?oc=5",
+      "summary": "Critical vulnerabilities in PHP | CGA Australian Cyber Security Centre",
+      "date": "2026-10-21T07:00:00Z",
       "tags": [
         "AU Cyber"
       ],
+      "official": true,
       "coverage": [
         {
           "source": "Australian Cyber Security Magazine",
@@ -422,6 +498,12 @@
           "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
           "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
           "date": "2026-10-21T19:19:17Z"
+        },
+        {
+          "source": "Krebs on Security",
+          "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
+          "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
+          "date": "2026-10-21T15:26:07Z"
         }
       ],
       "latest": "2026-10-21T21:15:42Z"
@@ -457,6 +539,16 @@
       ]
     },
     {
+      "source": "Google News — Bleeping Computer AU",
+      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
+      "summary": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs BleepingComputer",
+      "date": "2026-10-21T08:36:24Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Risky Business",
       "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
       "link": "https://risky.biz/RB856/",
@@ -465,16 +557,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -540,16 +622,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "The Evolving Cybersecurity Lexicon: Vulnerability Discovery to Resilience",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/cybersecurity-lexicon-vulnerability-discovery-resilience",
-      "summary": "An industry-wide, laser focus on vulnerabilities has left cybersecurity teams without enough room to strategize for resilience.",
-      "date": "2026-10-19T14:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Krebs on Security",
       "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
       "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
@@ -557,16 +629,7 @@
       "date": "2026-10-19T13:48:56Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "When Your Ransomware Negotiator Works for the Other Side",
-          "link": "https://www.darkreading.com/cyber-risk/when-your-ransomware-negotiator-works-other-side",
-          "date": "2026-10-16T14:00:00Z"
-        }
-      ],
-      "latest": "2026-10-19T13:48:56Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -586,36 +649,6 @@
       "date": "2026-10-16T20:34:37Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Fake Claude, ChatGPT Attacks Surge, Putting Developers at Risk",
-      "link": "https://www.darkreading.com/application-security/fake-claude-chatgpt-attacks-developers-risk",
-      "summary": "Campaigns that impersonate popular AI brands are on the rise, and they typically use ClickFix-like tactics to target unsuspecting enterprise employees.",
-      "date": "2026-10-16T19:49:30Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Enterprise AI Enters Risk Management Phase as Security Concerns Rise",
-      "link": "https://www.darkreading.com/cyber-risk/enterprise-ai-risk-management-phase-security-concerns-rise",
-      "summary": "Companies are increasingly discovering that the challenge with AI is no longer adoption, but execution.",
-      "date": "2026-10-16T19:13:59Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Takes Control of Robotic Arm in 16 Minutes Flat",
-      "link": "https://www.darkreading.com/ics-ot-security/ai-takes-control-robotic-arm-16-minutes",
-      "summary": "Most OT devices at utilities, factories, and elsewhere have been deployed for a decade or more, but operators need to get agile and deploy new cyber defenses.",
-      "date": "2026-10-16T18:37:50Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
