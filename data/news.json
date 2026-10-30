@@ -1,7 +1,69 @@
 {
-  "last_updated": "2026-10-30T00:51:32Z",
-  "count": 60,
+  "last_updated": "2026-10-30T05:34:18Z",
+  "count": 63,
   "items": [
+    {
+      "source": "iTnews",
+      "title": "Flaw in GNU's code forge could have let attackers backdoor Bash",
+      "link": "https://www.itnews.com.au/news/flaw-in-gnus-code-forge-could-have-let-attackers-backdoor-bash-630027?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Researchers use special email address to reach crucial source code.",
+      "date": "2026-10-30T04:50:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "SentinelOne adds Anthropic Claude Mythos to cyber defence service",
+      "link": "https://securitybrief.com.au/story/sentinelone-adds-anthropic-claude-mythos-to-cyber-defence-service",
+      "summary": "Security teams facing AI-driven attack surges may get quicker triage, as SentinelOne widens its service with Anthropic's Claude Mythos 5.1.",
+      "date": "2026-10-30T04:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Canberra students learn ethical hacking at re_B00TCMP cyber bootcamp",
+      "link": "https://australiancybersecuritymagazine.com.au/canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp/?utm_source=rss&utm_medium=rss&utm_campaign=canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp&utm_source=rss&utm_medium=rss&utm_campaign=canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp",
+      "summary": "High school students in Canberra have taken part in a cyber security bootcamp focused on ethical hacking and online legal boundaries, as law enforcement and industry groups look to steer [...]",
+      "date": "2026-10-30T03:13:11Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "F5 & Oracle plan OCI security tie-up for AI threats",
+      "link": "https://securitybrief.com.au/story/f5-oracle-plan-oci-security-tie-up-for-ai-threats",
+      "summary": "Cloud customers could gain extra protection against automated attacks as Oracle and F5 plan to embed web application and API security into OCI.",
+      "date": "2026-10-30T02:57:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Keeper adds on-device AI phishing warnings to browser",
+      "link": "https://securitybrief.com.au/story/keeper-adds-on-device-ai-phishing-warnings-to-browser",
+      "summary": "The browser extension now flags look-alike login pages locally, helping users block credential theft before passwords are submitted.",
+      "date": "2026-10-30T01:30:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Check Point launches AI-scale security orchestrator 200",
+      "link": "https://securitybrief.com.au/story/check-point-launches-ai-scale-security-orchestrator-200",
+      "summary": "Rising east-west traffic in data centres is pushing organisations to inspect encrypted AI workloads without slowing performance, Check Point says.",
+      "date": "2026-10-30T01:11:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Risky Business",
       "title": "Snake Oilers: Minimal.dev, Request Rocket and TRM Labs",
@@ -14,10 +76,10 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "CrowdStrike uncovers China-linked AI cyber campaign",
-      "link": "https://securitybrief.com.au/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign",
-      "summary": "CrowdStrike has identified a China-linked cyber campaign using agentic AI to conduct simultaneous intrusions against more than 200 organisations across at least 14 countries.",
-      "date": "2026-10-29T23:10:00Z",
+      "title": "Palo Alto Networks: AI hunting vulnerability in legacy systems",
+      "link": "https://securitybrief.com.au/story/palo-alto-networks-ai-hunting-vulnerability-in-legacy-systems",
+      "summary": "Critical infrastructure operators are being urged to merge IT and OT security as AI speeds up attacks on ageing industrial systems.",
+      "date": "2026-10-29T23:18:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
@@ -25,32 +87,12 @@
     },
     {
       "source": "Security Brief Australia",
-      "title": "Cloudflare reports surge in smaller, shorter DDoS attacks",
-      "link": "https://securitybrief.com.au/story/cloudflare-reports-surge-in-smaller-shorter-ddos-attacks",
-      "summary": "Businesses face more frequent disruption as Cloudflare says 96% of network-layer attacks now end in under 10 minutes and stay below 1 Gbps.",
-      "date": "2026-10-29T22:28:00Z",
+      "title": "CrowdStrike uncovers China-linked AI cyber campaign",
+      "link": "https://securitybrief.com.au/story/crowdstrike-uncovers-china-linked-ai-cyber-campaign",
+      "summary": "CrowdStrike has identified a China-linked cyber campaign using agentic AI to conduct simultaneous intrusions against more than 200 organisations across at least 14 countries.",
+      "date": "2026-10-29T23:10:00Z",
       "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "APAC firms race ahead on AI agents, but controls lag",
-      "link": "https://securitybrief.com.au/story/apac-firms-race-ahead-on-ai-agents-but-controls-lag",
-      "summary": "Most APAC firms running AI agents still lack oversight, leaving systems that can access data and act autonomously exposed to security and compliance risks.",
-      "date": "2026-10-29T22:15:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Schneider Electric, NVIDIA & HPE launch industrial AI",
-      "link": "https://securitybrief.com.au/story/schneider-electric-nvidia-hpe-launch-industrial-ai",
-      "summary": "Industrial operators could soon detect faults and cyber risks faster as Schneider Electric, NVIDIA and HPE move AI closer to plant data.",
-      "date": "2026-10-29T21:38:00Z",
-      "tags": [
+        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -166,16 +208,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Google News — Bleeping Computer AU",
-      "title": "Nefilim and Hive ransomware affiliate gets 70 months in prison - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNlVUQUtkRl9BVHNMdWNLU2VRY1F5Y2hoUUMxQUp2WTBfU2NPRVdmbmxyekVMbl9NTVlxS09TZFVjcHBjZnQwa1F4Vngtd2lmb1JQWVEzdGp5YlNKTHhsdnNobl9GcTFMQ0NMWVZNQkZEZ0hUbzhhN25PcHhqY3dkX0ltOW9RQlUzUERQd2wzVUFPUE9jWURlbk1zRDNOS2ZaX3RhaEI4QmkyYTFsQ29B0gG0AUFVX3lxTE1vcHNENVlrc2I0WlNic3FDNk1UQnJ6NjloUHRheFdJd29qMHBnczA1eEZBMGdnLTd0cjhkUU9kbFpVTjh1U1QxRUFWVDFZVW41NmEyQ2w4a19BWEI0OWM4akRSajhzSlpuSmlYbmZtWk5hVjBrZ1E3RENRTDBSUVNNWGJ4S0QwU0ZHMWZoR0dWZENSU2lNeHFzRDA0R1FmWEdlazdDUndCQjA4a2h0SEJwQ3pVWQ?oc=5",
-      "summary": "Nefilim and Hive ransomware affiliate gets 70 months in prison BleepingComputer",
-      "date": "2026-10-28T09:43:15Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -342,6 +374,29 @@
       "tags": [
         "AU Cyber"
       ]
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "Vulnerability discovery",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRERvVkNLdVh4VWNLeEpjOENSdW9JTWFTaXpZYzQ2NkdSbExiT185dTY1M19RSUJuWUJObjRJTVRxeXBmb3lWbnZEa0lrcGFNMU5wUG9TR3FmRVNVQldvdUUtNXJzRGY4VHlxNmkxVnhpYTF1dXVGV3cxZlVheDM4bGtidnFHeDZaMHRRZk1kV2hxdm1RamMtZUxURjljUlVneGJPdWtpakNEdWg0RDloUXNaZ0pXeGtWVXFrZWJIWmZNTTR0UFlkcQ?oc=5",
+      "summary": "Vulnerability discovery Australian Cyber Security",
+      "date": "2026-10-26T12:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "AI-enabled attacks highlight supply chain and cloud security risks",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUXdzR05HNXNlNXptYkJ0M05YT002T3c3LTZza3ZTV2g4UFkyaC1nTVNMbkptUkl4VmhDTm5vZ3FNaFNnUHVFT25oZklfc1MtNzJIQVYyQk9LSTlLcUstY255WUhoanA4Zm9paFpsaC1lVnpqU0RBV3V2YVZodDRHNXgzaXo2NFlTem9uaVowYVJyT05DTDRNUWxRYXhFSG04b3R5M243WFFuMjZ4cWZPTFBQbjh5WnNMY2xrdDdXMnRWS0VBSVBYMkhSdGNHREVtTTYteFMwRzV0X3g5SUxEVFVIZ0lGRFl2bHFLcWhiMndMd1ZQSHVUTUd2OFVuNERFLTRWcVJ4V0VOTW1uakxkN1FPNG9zd050UHRmZUJ0Yw?oc=5",
+      "summary": "AI-enabled attacks highlight supply chain and cloud security risks Australian Cyber Security",
+      "date": "2026-10-26T12:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true
     },
     {
       "source": "Dark Reading",
@@ -539,16 +594,6 @@
       ]
     },
     {
-      "source": "Google News — Bleeping Computer AU",
-      "title": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOb3NaOGFmN04tRTNZOEEzUS1QeEVzekQxMTk1OEVfbjU0ZnU5em1CRUhLcFF4OURxTDZvSm4xUmJHZ1FVenoxWi15c2lMaFFDei11cGx4RW1NdXdTeXBrdEw2UDYwSnNPMEpwdlNGUl96Z08tSVRtam1zYjdnc3NqQXI3YVZNcTVpWk9uWXFOVnBSSnNhaGQ0SFA5bndCN3FyaVprUmY3Zkl0SWJlV1NrMTBhNzRWNGdkaFRjT3hRWldZUkJhd0JVLUY0dzN6MzDSAdQBQVVfeXFMUGlGb3hFNHRIVnU3Ym5pbnJodkVKcTVxQ2dXbmZkdTI5ZWwtazhmZ01sRmdLVHdYWkp1eDdDMGJkVTZCTXNZcFBTaHVuVDFoYk0wZmMxQ0NtN0ZsTWRjbS03dTFlN3QwcFhoRnI3OFNlQmxpWWYzcXZmOW1TOEJXZ3kxS010N2piY2NhUGJVb2cxQUU2aVFocktMb3ZuS3dGUVNTVGJqVXlENzFnNFRMUkZMR2VIdS1Za0lhR2pwM1lpak1aUEd6alhhQ2xIZUN1T19taTE?oc=5",
-      "summary": "CISA: SafePay ransomware hit over 600 critical infrastructure orgs BleepingComputer",
-      "date": "2026-10-21T08:36:24Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
       "link": "https://risky.biz/RB856/",
@@ -647,16 +692,6 @@
       "link": "https://www.darkreading.com/endpoint-security/beyondtrust-remote-support-exploited-edge-bugs",
       "summary": "Ivanti, Cisco, and Palo Alto Networks all had vulnerabilities in edge devices come under fire this week. Now BeyondTrust joins the group.",
       "date": "2026-10-16T20:34:37Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACS warns ASD Essentials lacks clear assessor standards",
-      "link": "https://australiancybersecuritymagazine.com.au/acs-warns-asd-essentials-lacks-clear-assessor-standards/?utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-asd-essentials-lacks-clear-assessor-standards&utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-asd-essentials-lacks-clear-assessor-standards",
-      "summary": "The Australian Computer Society (ACS) says the Australian Signals Directorate’s (ASD) new ASD Essentials cyber security framework relies on “expert judgement” without defining who qualifies as an expert, creating what [...]",
-      "date": "2026-10-16T04:14:31Z",
       "tags": [
         "AU Cyber"
       ]
