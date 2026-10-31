@@ -1,7 +1,25 @@
 {
-  "last_updated": "2026-10-30T11:36:19Z",
+  "last_updated": "2026-10-31T05:23:33Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-118527",
+      "name": "Ivanti Connect Secure",
+      "description": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known…",
+      "date_added": "2026-10-30",
+      "due_date": "2026-11-13",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527"
+    },
+    {
+      "id": "CVE-2026-111357",
+      "name": "Ivanti Connect Secure",
+      "description": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be…",
+      "date_added": "2026-10-30",
+      "due_date": "2026-11-02",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357"
+    },
     {
       "id": "CVE-2026-97229",
       "name": "GitLab Community Edition and Enterprise Edition",
@@ -73,24 +91,6 @@
       "due_date": "2026-10-29",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619"
-    },
-    {
-      "id": "CVE-2026-114625",
-      "name": "Arista VeloCloud Orchestrator",
-      "description": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful…",
-      "date_added": "2026-10-23",
-      "due_date": "2026-10-26",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625"
-    },
-    {
-      "id": "CVE-2026-110447",
-      "name": "Collabora Collabora Online – Built-in CODE Server",
-      "description": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server…",
-      "date_added": "2026-10-23",
-      "due_date": "2026-10-26",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447"
     }
   ]
 }
