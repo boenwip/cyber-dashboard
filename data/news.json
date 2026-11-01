@@ -1,7 +1,18 @@
 {
-  "last_updated": "2026-11-01T14:58:39Z",
-  "count": 67,
+  "last_updated": "2026-11-01T20:27:35Z",
+  "count": 69,
   "items": [
+    {
+      "source": "iTnews",
+      "title": "ARTEX AI hacking framework spreads to another China-linked group",
+      "link": "https://www.itnews.com.au/news/artex-ai-hacking-framework-spreads-to-another-china-linked-group-630045?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Open-source ARTEX framework linked to espionage and financially motivated campaigns.",
+      "date": "2026-11-01T20:57:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Google News — Bleeping Computer AU",
       "title": "Northflank security breach leads to abuse of customers' AI API keys - BleepingComputer",
@@ -533,23 +544,14 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
-      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
-      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
-      "date": "2026-10-20T21:45:47Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
+      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
+      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
+      "date": "2026-10-23T08:57:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-          "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-          "date": "2026-10-23T08:57:00Z"
-        }
-      ],
-      "latest": "2026-10-23T08:57:00Z"
+      ]
     },
     {
       "source": "ACSC (via Google News)",
@@ -684,6 +686,16 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Tech Giants Block eMudhra Certificates Tied to 8 Compromised Keys",
+      "link": "https://www.darkreading.com/cyber-risk/tech-giants-emudhra-certificates-compromised-keys",
+      "summary": "Google, Mozilla, Apple, the Go project and others moved swiftly to block the affected certificates from the Indian CA, though it's unclear how the keys were compromised.",
+      "date": "2026-10-20T21:45:47Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
