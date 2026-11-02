@@ -1,7 +1,27 @@
 {
-  "last_updated": "2026-11-02T05:48:15Z",
-  "count": 59,
+  "last_updated": "2026-11-02T15:34:28Z",
+  "count": 58,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft's AI Risk Report Misses This Key Detail",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-ai-cyber-risk-report-miss",
+      "summary": "The latest \"Digital Defense Report\" identifies government agencies as prime targets for AI attacks but doesn't mention that they are broadly being targeted through Microsoft bugs.",
+      "date": "2026-11-02T15:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Microsoft quietly fixes Windows troubleshooter privesc vulnerability",
+      "link": "https://www.itnews.com.au/news/microsoft-quietly-fixes-windows-troubleshooter-privesc-vulnerability-630060?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Aussie researcher bags US$16,000 in bounties for two diagnostics bugs.",
+      "date": "2026-11-02T03:43:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Palo Alto Networks launches unified SaaS cloud security",
@@ -407,6 +427,29 @@
       ]
     },
     {
+      "source": "ACSC (via Google News)",
+      "title": "Vulnerability discovery",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRERvVkNLdVh4VWNLeEpjOENSdW9JTWFTaXpZYzQ2NkdSbExiT185dTY1M19RSUJuWUJObjRJTVRxeXBmb3lWbnZEa0lrcGFNMU5wUG9TR3FmRVNVQldvdUUtNXJzRGY4VHlxNmkxVnhpYTF1dXVGV3cxZlVheDM4bGtidnFHeDZaMHRRZk1kV2hxdm1RamMtZUxURjljUlVneGJPdWtpakNEdWg0RDloUXNaZ0pXeGtWVXFrZWJIWmZNTTR0UFlkcQ?oc=5",
+      "summary": "Vulnerability discovery Australian Cyber Security",
+      "date": "2026-10-26T12:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "AI-enabled attacks highlight supply chain and cloud security risks",
+      "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxNUXdzR05HNXNlNXptYkJ0M05YT002T3c3LTZza3ZTV2g4UFkyaC1nTVNMbkptUkl4VmhDTm5vZ3FNaFNnUHVFT25oZklfc1MtNzJIQVYyQk9LSTlLcUstY255WUhoanA4Zm9paFpsaC1lVnpqU0RBV3V2YVZodDRHNXgzaXo2NFlTem9uaVowYVJyT05DTDRNUWxRYXhFSG04b3R5M243WFFuMjZ4cWZPTFBQbjh5WnNMY2xrdDdXMnRWS0VBSVBYMkhSdGNHREVtTTYteFMwRzV0X3g5SUxEVFVIZ0lGRFl2bHFLcWhiMndMd1ZQSHVUTUd2OFVuNERFLTRWcVJ4V0VOTW1uakxkN1FPNG9zd050UHRmZUJ0Yw?oc=5",
+      "summary": "AI-enabled attacks highlight supply chain and cloud security risks Australian Cyber Security",
+      "date": "2026-10-26T12:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true
+    },
+    {
       "source": "Dark Reading",
       "title": "Trust Is Not What It Seems — and Fraudsters Are Counting on It",
       "link": "https://www.darkreading.com/cyber-risk/trust-is-not-what-it-seems-and-fraudsters-are-counting-on-it",
@@ -546,7 +589,8 @@
       "summary": "Critical vulnerabilities in PHP | CGA Cyber.gov.au",
       "date": "2026-10-21T07:00:00Z",
       "tags": [
-        "AU Cyber"
+        "AU Cyber",
+        "AI & Tools"
       ],
       "official": true,
       "coverage": [
@@ -567,6 +611,12 @@
           "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
           "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
           "date": "2026-10-21T15:26:07Z"
+        },
+        {
+          "source": "Risky Business",
+          "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
+          "link": "https://risky.biz/RB856/",
+          "date": "2026-10-21T04:43:10Z"
         }
       ],
       "latest": "2026-10-21T21:15:42Z"
@@ -597,58 +647,6 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/decades-old-windows-utility-modern-clickfix-attack",
       "summary": "The attack uses malicious Google search results related to Amazon and leverages the \"finger\" utility to launch a CAPTCHA that installs malware, including the Lumma stealer.",
       "date": "2026-10-21T13:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #856 -- 8-bit encryption, PHP megabugs and more",
-      "link": "https://risky.biz/RB856/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host security engineer Mark El-Khoury to talk through the week’s cybersecurity news, including: The PHP foundation is about to release patches for a couple of critical bugs… We’re watching to see if the internet burns…",
-      "date": "2026-10-21T04:43:10Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Ex-OpenAI Engineer Detained After Planting Secret Recorder at HQ",
-      "link": "https://www.darkreading.com/insider-threats/ex-openai-engineer-secret-recorder-saudi-ties",
-      "summary": "The perp, who has Saudi ties, was arrested for allegedly bugging an OpenAI conference room, highlighting a preventable insider threat vector.",
-      "date": "2026-10-20T19:16:49Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Close Identity Gaps in Software Development Before Unleashing AI",
-      "link": "https://www.darkreading.com/application-security/close-identity-gaps-sdlc-before-ai",
-      "summary": "Artificial intelligence is complicating security in the software development life cycle, but a Dark Reading roundtable found collaboration, better identity visibility, and reduced testing costs offer CISOs a way ahead.",
-      "date": "2026-10-20T15:35:45Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Hackers Abuse AI Pen-Test Tool Cairn to Automate Massive Attack Spree",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/hackers-abuse-ai-pen-test-tool-cairn",
-      "summary": "A Chinese-speaking attacker has compromised hundreds of websites across the globe, looting from big fish like John Deere, SharkNinja, and engine manufacturer Cummins.",
-      "date": "2026-10-20T14:36:05Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Feds Suspect Ransom Negotiator Ran ShinyHunters Extortion Site",
-      "link": "https://krebsonsecurity.com/2026/10/feds-suspect-ransom-negotiator-ran-shinyhunters-extortion-site/",
-      "summary": "U.S. federal investigators pursuing the ShinyHunters hacking group that recently stole highly sensitive data from the FBI have identified executives at two different ransomware negotiation firms who maintained unusually close relations with the extortion group, KrebsOnSecurity has learned. Sources…",
-      "date": "2026-10-19T13:48:56Z",
       "tags": [
         "AU Cyber"
       ]
