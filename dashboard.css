@@ -161,6 +161,7 @@ body { --bar: 70px; }
 .side { display: grid; align-content: start; gap: clamp(26px, 2.6vw, 40px); }
 .crime { display: grid; gap: 14px; padding-top: 12px; border-top: 1px solid var(--border2); }
 .crime .bars > b { font: 500 13px var(--mono); color: var(--text-3); }
+.crime .bars > p { font-size: 15px; line-height: 1.45; color: var(--text-2); }
 .side-link { appearance: none; margin-top: 12px; padding: 0; background: none; border: 0; font-size: 15px; font-weight: 500; text-align: left; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
 .side-link:hover { text-decoration-thickness: 2px; }
 .eight { list-style: none; counter-reset: eight; }

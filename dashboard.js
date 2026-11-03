@@ -131,7 +131,7 @@ function renderAlert() {
   label.classList.toggle('is-sev', alert.threat === 'Critical' || alert.threat === 'High');
 }
 
-// The latest report's headline figures, and its most reported crime types
+// The latest report's headline figures and its breakdowns
 function renderReport() {
   var r = D.report;
   if (!r) return;
@@ -142,12 +142,17 @@ function renderReport() {
     return '<div><b>' + esc(s.value) + '</b>' + esc(s.label) + '</div>';
   }).join('');
   var crime = document.getElementById('crime-bars');
-  crime.innerHTML = (r.crime_types || []).map(function (g) {
-    return '<div class="bars"><b>' + esc(g.group) + ', FY' + esc(r.crime_types_fy || r.fy) + '</b>' + g.items.map(function (it) {
-      return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
-    }).join('') + '</div>';
-  }).join('');
+  crime.innerHTML = '<div class="bars"><b>Most reported crimes, FY' + esc(r.fy) + '</b><p>' + esc(r.top_crimes) + '</p></div>' +
+    (r.breakdowns || []).filter(function (g) { return g.home; }).map(function (g) {
+      return breakdownBars(g.group + ', FY' + r.fy, g.items.slice(0, g.home));
+    }).join('');
   sizeBars(crime);
+}
+
+function breakdownBars(title, items) {
+  return '<div class="bars"><b>' + esc(title) + '</b>' + items.map(function (it) {
+    return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
+  }).join('') + '</div>';
 }
 
 function renderCve() {
@@ -430,13 +435,10 @@ function buildTopics() {
           return '<div><b>' + esc(s.value) + '</b>' + esc(s.label) + '</div>';
         }).join('') + '</div>' + linkButton(r.url, 'Read the full report');
       } },
-      { k: 'FY' + (r.crime_types_fy || r.fy) + ' · ASD report', t: 'The most reported types of cybercrime', view: function () {
-        return '<span class="chip">FY' + esc(r.crime_types_fy || r.fy) + '</span><h2>The most reported types of cybercrime</h2>' + r.crime_types.map(function (g) {
-          return '<div class="bars"><b>' + esc(g.group) + '</b>' + g.items.map(function (it) {
-            return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
-          }).join('') + '</div>';
-        }).join('') + '<p class="aside">' + esc(r.crime_types_note || '') + '</p>' +
-          (r.crime_types_url && r.crime_types_url !== r.url ? linkButton(r.crime_types_url, 'Read the FY' + r.crime_types_fy + ' report') : '');
+      { k: 'FY' + r.fy + ' · ASD report', t: 'Report breakdown', view: function () {
+        return '<span class="chip">FY' + esc(r.fy) + '</span><h2>Report breakdown</h2><p class="body">Most reported crimes: ' + esc(r.top_crimes) + '</p>' + r.breakdowns.map(function (g) {
+          return breakdownBars(g.group, g.items);
+        }).join('') + '<p class="aside">' + esc(r.breakdown_note || '') + '</p>' + linkButton(r.url, 'Read the full report');
       } }
     ].concat(r.ai ? [
       { k: 'FY' + r.fy + ' · ASD report', t: r.ai.title, view: function () {

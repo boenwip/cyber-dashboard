@@ -117,7 +117,7 @@ GitHub runs schedules on a best-effort basis, so gaps can be longer. Actions are
 
 ASD publishes its Annual Cyber Threat Report each year (the 2025–26 edition came out in October 2026). `annual_report_watch.yml` checks daily and opens a GitHub issue with a checklist when the next one appears. To update:
 
-1. Edit `data/annual_report.json` — title, FY, URL, yearly report count, interval, stats and crime types. Rewrite or remove the optional `ai` block (the report's AI theme) to match the new report. If the new report publishes no crime-type percentages, keep the last ones and set `crime_types_fy`/`crime_types_url` to the report they came from. It's the only place these figures live; the dashboard renders from it.
+1. Edit `data/annual_report.json` — title, FY, URL, yearly report count, interval, stats, `top_crimes` and `breakdowns`. Rewrite or remove the optional `ai` block (the report's AI theme) to match the new report. Every figure must come from the new report: if it drops a breakdown, remove that breakdown rather than keeping last year's numbers. It's the only place these figures live; the dashboard renders from it.
 2. Check glossary entries that quote the previous year (search for the old FY).
 3. Run `python3 scripts/audit.py` (it validates the file) and look at the dashboard.
 

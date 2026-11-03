@@ -26,6 +26,14 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-03 — Report breakdown
+
+### Annual report — only the current report's figures
+**Decision:** The 2024–25 crime-type percentages are gone. The most reported types appear in words, and the bars show what the 2025–26 report publishes: techniques seen in incidents, cybercrime reports by state, and incidents by sector. This replaces the crime chart decision below.
+**Why:** The owner expects the panel to match the current report, and a year-old chart beside this year's figures reads as out of date even with a label. The new bars count different things, so the note under them says which source each one uses.
+
+---
+
 ## Session: 2026-10-27 — ASD Annual Cyber Threat Report 2025–26
 
 ### Annual report — 2025–26 figures; crime chart stays on 2024–25
