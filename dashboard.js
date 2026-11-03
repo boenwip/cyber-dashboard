@@ -138,6 +138,7 @@ function newsPreview() {
 function renderCrimePanel() {
   var group = D.report && D.report.crime_types && D.report.crime_types[0];
   if (!group) return;
+  setText('crime-fy', 'FY' + (D.report.crime_types_fy || D.report.fy));
   var el = document.getElementById('crime-bars');
   el.innerHTML = group.items.map(function (it) {
     return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
@@ -377,14 +378,25 @@ function buildTopics() {
           return '<div><b>' + esc(s.value) + '</b>' + esc(s.label) + '</div>';
         }).join('') + '</div>' + linkButton(r.url, 'Read the full report');
       } },
-      { k: 'FY' + r.fy + ' · ASD report', t: 'The most reported types of cybercrime', view: function () {
-        return '<span class="chip">FY' + esc(r.fy) + '</span><h2>The most reported types of cybercrime</h2>' + r.crime_types.map(function (g) {
+      { k: 'FY' + (r.crime_types_fy || r.fy) + ' · ASD report', t: 'The most reported types of cybercrime', view: function () {
+        return '<span class="chip">FY' + esc(r.crime_types_fy || r.fy) + '</span><h2>The most reported types of cybercrime</h2>' + r.crime_types.map(function (g) {
           return '<div class="bars"><b>' + esc(g.group) + '</b>' + g.items.map(function (it) {
             return '<span><span class="row"><span>' + esc(it.name) + '</span><b>' + esc(it.pct) + '%</b></span><span class="track"><i data-w="' + (+it.pct || 0) + '"></i></span></span>';
           }).join('') + '</div>';
-        }).join('') + '<p class="aside">' + esc(r.crime_types_note || '') + '</p>';
+        }).join('') + '<p class="aside">' + esc(r.crime_types_note || '') + '</p>' +
+          (r.crime_types_url && r.crime_types_url !== r.url ? linkButton(r.crime_types_url, 'Read the FY' + r.crime_types_fy + ' report') : '');
       } }
-    ] : [], empty: 'Report figures are unavailable right now.' },
+    ].concat(r.ai ? [
+      { k: 'FY' + r.fy + ' · ASD report', t: r.ai.title, view: function () {
+        return '<span class="chip">FY' + esc(r.fy) + '</span><h2>' + esc(r.ai.title) + '</h2><p class="body">' + esc(r.ai.summary) + '</p>' +
+          r.ai.points.map(function (p) { return '<p class="body">' + esc(p) + '</p>'; }).join('') +
+          (r.ai.facts && r.ai.facts.length ? '<div class="facts">' + r.ai.facts.map(function (s) {
+            return '<div><b>' + esc(s.value) + '</b>' + esc(s.label) + '</div>';
+          }).join('') + '</div>' : '') +
+          (r.ai.advice ? '<p class="body">' + esc(r.ai.advice) + '</p>' : '') +
+          '<p class="aside">' + esc(r.ai.note || '') + '</p>' + linkButton(r.url, 'Read the full report');
+      } }
+    ] : []) : [], empty: 'Report figures are unavailable right now.' },
     tools: { label: 'Tool updates', items: D.tools.map(function (t) {
       return { k: t.tool + ' · ' + formatDate(t.date), t: t.title, view: function () {
         return '<span class="chip">' + esc(t.tool) + '</span><h2>' + esc(t.title) + '</h2><div class="meta"><span>' + esc(t.source) + '</span><span>' + esc(formatDate(t.date, true)) + '</span></div>' +

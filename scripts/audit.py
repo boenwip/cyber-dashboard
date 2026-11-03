@@ -228,10 +228,20 @@ if report:
     check("data/annual_report.json: fy_slug is YYYY-YYYY", bool(re.match(r"^\d{4}-\d{4}$", report.get("fy_slug", ""))))
     check("data/annual_report.json: url is https on cyber.gov.au",
           urlparse(report.get("url", "")).scheme == "https" and urlparse(report.get("url", "")).hostname == "www.cyber.gov.au")
+    if report.get("crime_types_url"):
+        check("data/annual_report.json: crime_types_url is https on cyber.gov.au",
+              urlparse(report["crime_types_url"]).scheme == "https" and urlparse(report["crime_types_url"]).hostname == "www.cyber.gov.au")
     check("data/annual_report.json: reports_per_year is a positive number",
           isinstance(report.get("reports_per_year"), (int, float)) and report["reports_per_year"] > 0)
     check("data/annual_report.json: every stat has value + label",
           all(s.get("value") and s.get("label") for s in report.get("stats", [])))
+    if "ai" in report:
+        ai = report["ai"]
+        check("data/annual_report.json: ai has title, summary and points",
+              bool(ai.get("title") and ai.get("summary") and ai.get("points"))
+              and all(isinstance(p, str) and p for p in ai["points"]))
+        check("data/annual_report.json: every ai fact has value + label",
+              all(f.get("value") and f.get("label") for f in ai.get("facts", [])))
     pcts = [i.get("pct") for g in report.get("crime_types", []) for i in g.get("items", [])]
     check("data/annual_report.json: crime-type percentages are 0–100",
           bool(pcts) and all(isinstance(p, (int, float)) and 0 <= p <= 100 for p in pcts))

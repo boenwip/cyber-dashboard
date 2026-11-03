@@ -5,6 +5,22 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-10-27 — ASD Annual Cyber Threat Report 2025–26
+
+### Annual report — 2025–26 figures; crime chart stays on 2024–25
+**Decision:** `data/annual_report.json` now carries the 2025–26 figures, taken from the report PDF and factsheets. The individual average ($33,000) is labelled "steady" because ASD says "consistent with last year" and treats changes under 5% as no change. AUPDNS shows "up from 334M" because ASD gives no percentage change. The crime-type chart keeps the 2024–25 percentages, with `crime_types_fy`/`crime_types_url` so the dashboard shows the year they come from.
+**Why:** The 2025–26 report names identity, online shopping and online banking fraud as the top types for individuals but publishes no percentages, and has no business breakdown. Mixing years without a label would misstate what the bars show; dropping the chart would lose the only per-type data ASD has published.
+
+### Annual report — AI summary, with no AI attack count
+**Decision:** A fourth This year item summarises what the report says about AI (scams and deepfakes, faster exploitation, victim profiling, AI agents), from an optional `ai` block in `annual_report.json`. It shows only figures from the sections where ASD discusses AI (phishing in 39% of incidents, CVEs ↑30%) and says plainly that the report gives no count of AI-enabled attacks.
+**Why:** AI is the report's headline theme, but ASD describes it as speeding up and scaling existing threats rather than measuring it. Presenting any figure as "AI attacks" would overstate the source.
+
+### Watcher — check ASD's new publication URL
+**Decision:** `check_annual_report.py` tries `/publication/annual-cyber-threat-report-YYYY-YY` before the old reports-and-statistics URL, and matches either slug on the listing page.
+**Why:** ASD moved the 2025–26 report to the new path; issue #4 only came from the Google News fallback, and its link was a Google News redirect.
+
+---
+
 ## Session: 2026-10-08 — deploy outage and fixer
 
 ### Grouping — Sonnet 5 at low effort, 3-day spread limit, follow-up rules
