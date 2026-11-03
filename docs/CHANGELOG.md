@@ -4,6 +4,13 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Report breakdown uses only 2025–26 figures
+
+**Changed**
+- The home page panel and Report figures no longer show the 2024–25 crime-type percentages. The 2025–26 report names the most reported types without percentages, so they now appear in words, next to the breakdowns it does publish: techniques seen in incidents, cybercrime reports by state, and incidents by sector
+
+---
+
 ## November 2026 — New look across the site
 
 **Changed**

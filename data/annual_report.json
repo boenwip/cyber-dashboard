@@ -1,5 +1,5 @@
 {
-  "_comment": "Hand-maintained. The ONLY place annual-report figures live — the dashboard tracker, stats and crime chart all render from this file. When ASD publishes a new Annual Cyber Threat Report (the 'annual report watch' workflow opens an issue), update every value here from the new report and check the page. The fy/fy_slug values also tell the watcher which report comes next. crime_types_fy is the report the crime-type percentages come from: the 2025–26 report names the top types but publishes no percentages, so the chart keeps the 2024–25 breakdown.",
+  "_comment": "Hand-maintained. The ONLY place annual-report figures live — the dashboard tracker, stats and crime chart all render from this file. When ASD publishes a new Annual Cyber Threat Report (the 'annual report watch' workflow opens an issue), update every value here from the new report and check the page. The fy/fy_slug values also tell the watcher which report comes next. Every figure here must come from the report named in fy. The 2025–26 report names the most reported crime types but gives no percentages for them, so top_crimes is words only and breakdowns holds the percentages it does publish. home is how many rows of a breakdown the home page shows; leave it out to show that breakdown only under Report figures.",
   "title": "ASD Annual Cyber Threat Report 2025–26",
   "fy": "2025–26",
   "fy_slug": "2025-2026",
@@ -29,25 +29,53 @@
     "advice": "The basics still work, and matter more: install updates quickly, use multi-factor authentication or passkeys, check privacy settings, and be wary of urgent requests even when the voice or face seems familiar.",
     "note": "The report gives no count of AI-enabled attacks. The figures above are from the parts of the report on phishing and vulnerabilities, where it says AI is having an effect; they are not a measure of AI use."
   },
-  "crime_types_fy": "2024–25",
-  "crime_types_url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025",
-  "crime_types": [
+  "top_crimes": "Identity fraud, online shopping fraud and online banking fraud. Identity fraud stayed on top, with reports down 18%.",
+  "breakdowns": [
     {
-      "group": "Individuals",
+      "group": "Techniques seen in incidents",
+      "home": 3,
       "items": [
-        { "name": "Identity fraud",        "pct": 30 },
-        { "name": "Online shopping fraud", "pct": 13 },
-        { "name": "Online banking fraud",  "pct": 10 }
+        { "name": "Phishing",                            "pct": 39 },
+        { "name": "Compromised accounts",                "pct": 21 },
+        { "name": "User execution",                      "pct": 17 },
+        { "name": "Valid accounts",                      "pct": 15 },
+        { "name": "Social engineering",                  "pct": 13 },
+        { "name": "Gathering victim identity details",   "pct": 13 },
+        { "name": "Exploiting public-facing apps",       "pct": 13 },
+        { "name": "Network denial of service",           "pct": 11 },
+        { "name": "Phishing for information",            "pct": 11 },
+        { "name": "Acquiring attack infrastructure",     "pct": 10 }
       ]
     },
     {
-      "group": "Businesses",
+      "group": "Cybercrime reports by state",
+      "home": 3,
       "items": [
-        { "name": "Email compromise (no financial loss)", "pct": 19 },
-        { "name": "Business email compromise fraud",      "pct": 15 },
-        { "name": "Identity fraud",                       "pct": 11 }
+        { "name": "Victoria",                     "pct": 27 },
+        { "name": "Queensland",                   "pct": 26 },
+        { "name": "New South Wales",              "pct": 22 },
+        { "name": "Western Australia",            "pct": 12 },
+        { "name": "South Australia",              "pct": 7 },
+        { "name": "Australian Capital Territory", "pct": 2 },
+        { "name": "Northern Territory",           "pct": 2 },
+        { "name": "Tasmania",                     "pct": 2 }
+      ]
+    },
+    {
+      "group": "Incidents by sector",
+      "items": [
+        { "name": "Federal government",                  "pct": 32 },
+        { "name": "State and local government",          "pct": 16 },
+        { "name": "Health care and social assistance",   "pct": 7 },
+        { "name": "Professional and technical services", "pct": 6 },
+        { "name": "Financial and insurance services",    "pct": 6 },
+        { "name": "Media and telecommunications",        "pct": 5 },
+        { "name": "Education and training",              "pct": 4 },
+        { "name": "Manufacturing",                       "pct": 4 },
+        { "name": "Construction",                        "pct": 3 },
+        { "name": "Retail trade",                        "pct": 3 }
       ]
     }
   ],
-  "crime_types_note": "Share of self-reported cybercrime reports to ReportCyber in FY2024–25, the latest year ASD published a breakdown for. A report can include more than one type, so figures don't add to 100%. The 2025–26 report says identity fraud, online shopping fraud and online banking fraud are still the most reported types, with identity fraud reports down 18%."
+  "breakdown_note": "Techniques and sectors come from the incidents ASD's ACSC responded to, and states from cybercrime reports to ReportCyber, so they count different things. Techniques are ASD's top 10, using the MITRE ATT&CK framework, and add to more than 100%. ASD names the most reported crime types but doesn't give a percentage for each."
 }

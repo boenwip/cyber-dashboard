@@ -55,7 +55,7 @@ jobs:
             "- [ ] \`title\`, \`fy\`, \`fy_slug\`, \`url\`" \
             "- [ ] \`reports_per_year\` and \`report_interval\` (cybercrime reports to ReportCyber)" \
             "- [ ] \`stats\`: incidents responded to, avg cost per business report, avg cost per individual report, hotline calls, malicious domains blocked — check each label still matches the measure" \
-            "- [ ] \`crime_types\`: top self-reported types for individuals and businesses" \
+            "- [ ] \`top_crimes\` and \`breakdowns\`: most reported types and the percentages this report publishes (no figures from older reports)" \
             "- [ ] Glossary/tips that quote the old report (search the repo for the old FY)" \
             "- [ ] Run \`python scripts/audit.py\` and check the dashboard")
           gh issue create --title "$title" --body "$body"
