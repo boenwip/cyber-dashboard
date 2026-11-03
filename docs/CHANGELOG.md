@@ -4,6 +4,19 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## October 2026 — ASD Annual Cyber Threat Report 2025–26
+
+**Changed**
+- Tracker rate, headline stats and report link updated to the 2025–26 report (82,000+ reports, one every 6 minutes; 1,500+ incidents ↑20%; business average $93,500 ↑16%; individual average steady at $33,000; 37,500+ hotline calls ↓12%; 564M+ domains blocked)
+- Crime-type chart keeps the 2024–25 percentages, now labelled with their own year: the 2025–26 report names the top types but publishes no percentages
+- Report watcher also checks ASD's new `/publication/annual-cyber-threat-report-YYYY-YY` URL (this year it only found the report through the Google News fallback)
+- Ransomware glossary entry quotes the 2025–26 report
+
+**Added**
+- "What the report says about AI" in the This year explorer: the report's central theme, in plain language, with the related phishing and vulnerability figures (from the optional `ai` block in `annual_report.json`)
+
+---
+
 ## September 2026 — Review fixes
 
 **Fixed**

@@ -14,7 +14,7 @@ var DEFINITIONS = [
   {
     term: "Ransomware",
     short: "Malicious software that locks your files and demands payment to unlock them.",
-    full: "Ransomware is a type of malware that encrypts your files — making them completely inaccessible — then demands a ransom payment (usually in cryptocurrency) to restore access. Even if you pay, there's no guarantee you'll get your files back. It can spread across an entire organisation's network in hours. The ACSC recorded ransomware as the most disruptive cybercrime type in FY2024–25.",
+    full: "Ransomware is a type of malware that encrypts your files — making them completely inaccessible — then demands a ransom payment (usually in cryptocurrency) to restore access. Even if you pay, there's no guarantee you'll get your files back. It can spread across an entire organisation's network in hours. In FY2025–26 ASD's ACSC responded to 139 ransomware incidents and called ransomware one of the most disruptive, costly and persistent cyber threats facing Australia.",
     example: "A Queensland hospital's patient records become encrypted overnight. A note appears demanding $50,000 in Bitcoin within 72 hours.",
     level: "beginner"
   },

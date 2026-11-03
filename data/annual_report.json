@@ -1,18 +1,36 @@
 {
-  "_comment": "Hand-maintained. The ONLY place annual-report figures live — the dashboard tracker, stats and crime chart all render from this file. When ASD publishes a new Annual Cyber Threat Report (the 'annual report watch' workflow opens an issue), update every value here from the new report and check the page. The fy/fy_slug values also tell the watcher which report comes next.",
-  "title": "ASD Annual Cyber Threat Report 2024–25",
-  "fy": "2024–25",
-  "fy_slug": "2024-2025",
-  "url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025",
-  "reports_per_year": 84700,
+  "_comment": "Hand-maintained. The ONLY place annual-report figures live — the dashboard tracker, stats and crime chart all render from this file. When ASD publishes a new Annual Cyber Threat Report (the 'annual report watch' workflow opens an issue), update every value here from the new report and check the page. The fy/fy_slug values also tell the watcher which report comes next. crime_types_fy is the report the crime-type percentages come from: the 2025–26 report names the top types but publishes no percentages, so the chart keeps the 2024–25 breakdown.",
+  "title": "ASD Annual Cyber Threat Report 2025–26",
+  "fy": "2025–26",
+  "fy_slug": "2025-2026",
+  "url": "https://www.cyber.gov.au/publication/annual-cyber-threat-report-2025-26",
+  "reports_per_year": 82000,
   "report_interval": "6 minutes",
   "stats": [
-    { "value": "1,200+",  "label": "↑ 11% cyber security incidents ASD responded to" },
-    { "value": "$80,850", "label": "↑ 50% avg cost per business cybercrime report", "tone": "high" },
-    { "value": "$33,000", "label": "↑ 8% avg cost per individual cybercrime report", "tone": "med" },
-    { "value": "42,500+", "label": "↑ 16% calls to the Cyber Security Hotline" },
-    { "value": "334M",    "label": "↑ 307% malicious domains blocked (AUPDNS)" }
+    { "value": "1,500+",  "label": "↑ 20% cyber security incidents ASD responded to" },
+    { "value": "$93,500", "label": "↑ 16% avg cost per business cybercrime report", "tone": "high" },
+    { "value": "$33,000", "label": "Steady avg cost per individual cybercrime report", "tone": "med" },
+    { "value": "37,500+", "label": "↓ 12% calls to the Cyber Security Hotline" },
+    { "value": "564M+",   "label": "malicious domains blocked (AUPDNS), up from 334M" }
   ],
+  "ai": {
+    "title": "What the report says about AI",
+    "summary": "ASD calls AI \"the defining force in the cyber threat landscape\" this year. It hasn't created new kinds of attack. It makes existing ones faster, more convincing and possible for less skilled criminals, at greater scale.",
+    "points": [
+      "Scams and phishing: AI writes phishing emails without spelling mistakes, automates targeted messages, and fakes voices, images and video. ASIC has seen a sharp rise in investment scams using deepfakes of celebrities and politicians.",
+      "Software flaws: AI cuts the time and skill needed to find and exploit vulnerabilities. ASD says defenders who once had months to patch now have days, sometimes hours, and expects that window to shrink further.",
+      "Profiling victims: AI tools can scrape social media and stolen data to build profiles for identity theft, fraud and tailored scams.",
+      "New risks: AI agents can take unsafe or unexpected actions, and organisations adding AI to their systems are widening what attackers can target."
+    ],
+    "facts": [
+      { "value": "39%",  "label": "of incidents involved phishing, the most common technique" },
+      { "value": "↑ 30%", "label": "publicly reported software vulnerabilities (CVEs)" }
+    ],
+    "advice": "The basics still work, and matter more: install updates quickly, use multi-factor authentication or passkeys, check privacy settings, and be wary of urgent requests even when the voice or face seems familiar.",
+    "note": "The report gives no count of AI-enabled attacks. The figures above are from the parts of the report on phishing and vulnerabilities, where it says AI is having an effect; they are not a measure of AI use."
+  },
+  "crime_types_fy": "2024–25",
+  "crime_types_url": "https://www.cyber.gov.au/about-us/view-all-content/reports-and-statistics/annual-cyber-threat-report-2024-2025",
   "crime_types": [
     {
       "group": "Individuals",
@@ -31,5 +49,5 @@
       ]
     }
   ],
-  "crime_types_note": "Share of self-reported cybercrime reports to ReportCyber. A report can include more than one type, so figures don't add to 100%."
+  "crime_types_note": "Share of self-reported cybercrime reports to ReportCyber in FY2024–25, the latest year ASD published a breakdown for. A report can include more than one type, so figures don't add to 100%. The 2025–26 report says identity fraud, online shopping fraud and online banking fraud are still the most reported types, with identity fraud reports down 18%."
 }
