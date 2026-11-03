@@ -113,7 +113,7 @@ Then work through the human lenses.
 **Spacing and layout**
 - [ ] Consistent horizontal padding throughout (40px desktop, 20px mobile)
 - [ ] Nothing feels edge-to-edge or cramped
-- [ ] Bento panels and explorer work at 1300px, 960px and phone width
+- [ ] The stage, topic switch and reader work at 1300px, 960px and phone width
 - [ ] The CVE panel scrolls cleanly with max-height respected
 
 **Interaction design**
