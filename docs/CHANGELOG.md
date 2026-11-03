@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — New look across the site
+
+**Changed**
+- The home page now shows one topic at a time, each in its own colour, instead of a grid of panels
+- A switch of five topics stays in reach while you read; changing topic spreads blocks of the logo's cursor across the screen
+- The reader below the stage replaces the explorer. ACSC alerts and tool updates are now filters under News
+- Spot the Scam gets its own screen, with its streak, ranks and sharing kept
+- Swoop, a small pixel magpie, stands above the open topic
+- Reference, Resources, AI Guide and Sources take the same look: one colour per page, big plain headings, thin rules instead of cards, content in a central column on large monitors
+
+---
+
 ## October 2026 — ASD Annual Cyber Threat Report 2025–26
 
 **Changed**

@@ -14,7 +14,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 | Page | What's on it |
 |---|---|
-| **Dashboard** | A bento overview (cybercrime estimate · ACSC alert · exploited CVEs · scam to know · news · crime types · tip · tool updates · word of the day). Each panel opens a split-view explorer: a list on the left, the full item on the right. |
+| **Dashboard** | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
 | **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
 | **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
@@ -26,13 +26,13 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ## Features
 
-**Layout** — The logo is centred in the header. The dashboard opens as a grid of panels, each showing one thing at a glance. Clicking a panel opens the explorer at that topic (ACSC alerts, exploited CVEs, news, scams, this year, tool updates, learn), with tabs to move between topics and a smooth transition back to the overview. On phones the panels are reordered and lighter (word of the day as a slim line, then the alert, news, the estimate, exploited/scam side by side, reference panels last), and the explorer is tap-through: list, then item, then back. Topics can be linked directly: `index.html#news`, `#alerts`, `#cve`, `#scams`, `#year`, `#tools`, `#learn`.
+**Layout** — The home page opens on a stage showing one topic, with the latest news directly below it. This year shows the report's headline figures with the estimate. Beside the news sit the most reported crime types, the AI summary, the Essential Eight and tool updates. A switch of five topics (This year, News, Scams, Exploited, Learn) changes the stage and the reader below it, and stays at the top of the screen while you read. ACSC alerts and tool updates are filters under News, and the old `#alerts` and `#tools` links still go there. On phones the reader becomes tap-through: the list, then the item, then back.
 
 **Official ACSC alert** — The newest ACSC alert from the last 14 days, Critical or High first. ACSC items are the only ones with a threat level, taken from ACSC's own title ("CRITICAL ALERT: …"). cyber.gov.au times out from GitHub's servers, so the pipeline falls back to a Google News search of ACSC's alerts section; those items are labelled "ACSC" with no level rather than a guessed one.
 
 **Cybercrime estimate** — Projects the yearly cybercrime-report rate from ASD's latest Annual Cyber Threat Report across the current financial year (rolls over each 1 July), with that report's headline statistics and top reported crime types for individuals and businesses. Every figure lives in `data/annual_report.json` — see [New annual report](#new-annual-report).
 
-**CVE panel** — The 10 most recently added entries in the CISA Known Exploited Vulnerabilities catalog, with ransomware use and CISA's fix-by date. KEV has no severity score, so none is shown.
+**Exploited flaws** — The 10 most recently added entries in the CISA Known Exploited Vulnerabilities catalog, with ransomware use and CISA's fix-by date. KEV has no severity score, so none is shown.
 
 **One entry per story** — When different outlets report the same news, it's one story led by the most reputable outlet (official → ABC/Guardian/iTnews/Krebs/Troy Hunt → international trade press → Australian trade press), with the others listed under it. Follow-ups with a new development stay separate; one outlet's articles are never merged. Each refresh, Claude Sonnet 5 (low effort) is asked only which articles are the same news (JSON-schema output, validated, at most one article per outlet and a 3-day spread enforced in code; it writes no site text; ~$0.04 per call, skipped when nothing changed). Spend is tracked per month on the `data` branch and capped at US$4 (`GROUPING_BUDGET_USD`); past the cap, or without a key, a strict headline match is used.
 
@@ -61,7 +61,7 @@ pseudosec/
 ├── sources.html            # Sources & methodology
 ├── definitions.html        # Redirect stub -> reference.html#glossary
 ├── shared.css/js           # Design system, theme, nav, esc()/safeUrl(), Sydney-time dates, daily rotations
-├── dashboard.css/js        # Bento overview + split-view explorer
+├── dashboard.css/js        # Home page: stage, topic switch, Swoop, reader
 ├── reference.css           # Reference page styles
 ├── definitions.css/js      # Glossary data + render (reused by reference.html)
 ├── definitions-page.js     # Reference page's tab/glossary controller
@@ -149,7 +149,9 @@ Both run on every pull request (`ci.yml`) and before every deploy (`deploy.yml`)
 
 ## Design
 
-Soft paper-and-ink palette with the logo kept as the one playful element. The logo's yellow becomes a pale butter tint (the estimate panel) and its orange a small accent (links, the financial-year ruler, focus rings).
+On the home page each topic owns one colour and only one shows at a time: gold `#f7d768` (This year), blue `#3d4fe0` (News), peach `#fb9a7e` (Scams), mint `#8fe6cc` (Exploited) and pink `#f5c4e3` (Learn). These colours say where you are, never how serious something is. The logo's `>` prompt and block cursor head every section, and changing topic spreads blocks of that cursor across the stage. Swoop, a small pixel magpie, stands above the open topic. Other pages each take one of these colours in their header: Reference pink, Resources mint, AI Guide blue, Sources gold.
+
+Beneath the colour, pages are paper and ink. The logo's yellow becomes a pale butter tint (the estimate panel) and its orange a small accent (links, the financial-year ruler, focus rings).
 
 | | Light | Dark |
 |---|---|---|

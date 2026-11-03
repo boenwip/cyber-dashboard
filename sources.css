@@ -2,116 +2,29 @@
  * sources.css — pseudosec. Sources & Methodology
  */
 
-.src-section { margin-bottom: 48px; }
-.src-section-title {
-  font-size: 20px;
-  font-weight: 600;
-  color: var(--text);
-  letter-spacing: -0.02em;
-  margin-bottom: 8px;
-}
-.src-section-sub {
-  font-size: 14px;
-  color: var(--text-3);
-  line-height: 1.7;
-  max-width: 680px;
-  margin-bottom: 20px;
-}
+.src-section { margin-bottom: clamp(36px, 4vw, 64px); scroll-margin-top: calc(var(--hdr) + 16px); }
+.src-section-title { margin-bottom: 12px; font-size: clamp(22px, 1.7vw, 30px); line-height: 1.15; letter-spacing: -.02em; color: var(--text); }
+.src-section-sub { max-width: 74ch; margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: var(--text-2); }
 
-/* Disclaimer banner */
-.src-disclaimer {
-  display: flex;
-  gap: 14px;
-  align-items: flex-start;
-  padding: 16px 20px;
-  background: rgba(212,168,74,0.06);
-  border: 1px solid rgba(212,168,74,0.22);
-  border-radius: 8px;
-  margin-bottom: 40px;
-}
-
-.src-disclaimer-text { font-size: 14px; color: var(--text-2); line-height: 1.7; }
+/* Disclaimer */
+.src-disclaimer { display: flex; align-items: baseline; gap: 12px; max-width: 74ch; margin-bottom: clamp(32px, 3.5vw, 52px); padding: 14px 16px; background: var(--flood); color: var(--on); }
+.src-disclaimer-text { font-size: 15px; line-height: 1.55; }
 
 /* Source list */
-.src-list {
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  overflow: hidden;
-}
-.src-item {
-  display: grid;
-  grid-template-columns: 1fr auto;
-  gap: 16px;
-  padding: 18px 22px;
-  background: var(--surface);
-  align-items: start;
-}
-.src-item:hover { background: var(--surface2); }
+.src-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px var(--gap); align-items: baseline; padding: 14px 0 16px; border-top: 1px solid var(--border2); }
 .src-item-body { min-width: 0; }
-.src-item-name {
-  font-size: 14px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 4px;
-}
-.src-item-desc {
-  font-size: 13px;
-  color: var(--text-3);
-  line-height: 1.6;
-}
-.src-item-meta { text-align: right; flex-shrink: 0; }
-.src-item-freq {
-  font-family: var(--mono);
-  font-size: 11px;
-  color: var(--accent);
-  background: var(--accent-dim);
-  border: 1px solid var(--accent-b);
-  border-radius: 4px;
-  padding: 2px 8px;
-  white-space: nowrap;
-  display: inline-block;
-}
-.src-item-type {
-  font-size: 11px;
-  color: var(--text-4);
-  margin-top: 5px;
-  display: block;
-  text-align: right;
-}
+.src-item-name { margin-bottom: 4px; font-size: clamp(17px, 1.3vw, 21px); font-weight: 500; line-height: 1.2; letter-spacing: -.012em; color: var(--text); }
+.src-item-desc { max-width: 74ch; font-size: 15px; line-height: 1.55; color: var(--text-2); }
+.src-item-meta { flex-shrink: 0; text-align: right; }
+.src-item-freq { display: block; font: 500 13px var(--mono); white-space: nowrap; color: var(--text); }
+.src-item-type { display: block; margin-top: 3px; font: 500 13px var(--mono); color: var(--text-3); }
 
-/* Limitation pills */
-.src-limits {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-.src-limit {
-  display: flex;
-  align-items: flex-start;
-  gap: 14px;
-  padding: 14px 18px;
-  border-radius: 8px;
-  border: 1px solid var(--border);
-  background: var(--surface);
-  font-size: 13px;
-  color: var(--text-3);
-  line-height: 1.6;
-}
-.src-limit-icon, .src-disclaimer-icon {
-  flex: none;
-  width: 20px; height: 20px; margin-top: 2px;
-  display: grid; place-items: center;
-  border-radius: 50%;
-  background: var(--surface2);
-  color: var(--text-2);
-  font: 600 12px/1 var(--sans);
-}
+/* Limits */
+.src-limit { display: flex; align-items: baseline; gap: 14px; max-width: 80ch; padding: 11px 0 12px; border-top: 1px solid var(--border2); font-size: 15px; line-height: 1.55; color: var(--text-2); }
+.src-limit-icon, .src-disclaimer-icon { flex: none; font: 500 14px var(--mono); }
+.src-limit-icon { color: var(--text-3); }
 
-@media (max-width: 600px) {
-  .src-item { grid-template-columns: 1fr; gap: 8px; }
+@media (max-width: 680px) {
+  .src-item { grid-template-columns: minmax(0, 1fr); }
   .src-item-meta { text-align: left; }
-  .src-item-type { text-align: left; }
 }

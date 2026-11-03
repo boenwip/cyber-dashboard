@@ -5,6 +5,27 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-03 — New home page
+
+### Home page — one colour at a time
+**Decision:** The bento grid is replaced by a stage showing one topic, with a colour per topic and only one on screen at once. The look comes from the logo: the `>` prompt, the block cursor, Host Grotesk and thin rules. Nothing loops except the logo's cursor. Colour marks the topic, never severity; severity stays with the diamond chips and markers.
+**Why:** The owner wants colour and fun while staying professional and clearly about tech and cyber. A grid with decoration on top had no single idea. Galleries such as Recent and Visual Journal favour one idea, one colour moment and confident type. A first version with full-strength colours, very large heavy type and thick black borders was "a little bit too aggressive", so colours were softened and type made smaller and lighter. A full-height stage left too much empty colour on a 1440p monitor and pushed the news out of sight, so the stage is now only as tall as it needs, content sits in a central column up to 1640px wide, and the latest news comes straight after it with tool updates as a narrow sidebar.
+**Rejected along the way, none published:** a violet dot field (not credible); clouds; a sun behind a grassy hill with grain, glass cards and tilting panels ("vomity"); a magpie in a hi-vis vest ("looks like a tennis ball"); synthesised sound.
+
+### Home page — report figures and Essential Eight stay in view
+**Decision:** The report's headline figures sit with the estimate on the opening screen, and the most reported crime types, the AI summary and the Essential Eight sit beside the news.
+**Why:** The owner looked for them and thought they were gone: behind a scroll or a tab, they may as well be. They are the site's most valuable content for most readers.
+
+### Inner pages — one colour per page, thin rules instead of cards
+**Decision:** Reference (pink), Resources (mint), AI Guide (blue) and Sources (gold) each take one colour from the home page's palette, in the header and page title only. Below that it's paper and ink, with rows divided by thin rules. Tokens such as `--accent` now resolve to the text colour, so no second accent competes with the page's colour. Severity markers keep their own colours.
+**Why:** The site should read as one thing. Cards on inner pages would have kept the template feel the home page dropped, and on a large monitor two-column rows use the width better than long lines of text.
+
+### Home page — five topics, with alerts and tool updates under News
+**Decision:** The switch has five topics. ACSC alerts and tool updates are filters under News, and the old `#alerts` and `#tools` links still land there. The latest ACSC item stays visible on a line at the top of every topic.
+**Why:** Seven colours would bring back the noise, and five labels is about what fits across a phone.
+
+---
+
 ## Session: 2026-10-27 — ASD Annual Cyber Threat Report 2025–26
 
 ### Annual report — 2025–26 figures; crime chart stays on 2024–25
