@@ -1,78 +1,129 @@
 {
-  "last_updated": "2026-11-03T14:36:35Z",
-  "count": 62,
+  "last_updated": "2026-11-04T01:17:20Z",
+  "count": 67,
   "items": [
     {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Rapid7 warns of two additional Ivanti Connect Secure zero-days under active exploitation",
+      "link": "https://australiancybersecuritymagazine.com.au/rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation/?utm_source=rss&utm_medium=rss&utm_campaign=rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation&utm_source=rss&utm_medium=rss&utm_campaign=rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation",
+      "summary": "Rapid7 has warned of two additional zero-day vulnerabilities in Ivanti Connect Secure that it says are being actively exploited alongside a previously disclosed authentication bypass flaw. The vulnerabilities, tracked as [...]",
+      "date": "2026-11-04T00:09:46Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACS warns Qantas supplier incident highlights data sovereignty and essential services risk",
+      "link": "https://australiancybersecuritymagazine.com.au/acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk/?utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk&utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk",
+      "summary": "The Australian Computer Society (ACS) has called for stronger scrutiny of technology supply chains and cyber preparedness after a cyber incident involving Qantas technology supplier Amadeus, arguing it raises “urgent [...]",
+      "date": "2026-11-04T00:06:17Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "PagerDuty launches Paige AI agent & PD Labs in ANZ",
+      "link": "https://securitybrief.com.au/story/pagerduty-launches-paige-ai-agent-pd-labs-in-anz",
+      "summary": "Australian and New Zealand customers will gain early access to AI tools designed to speed incident response and cut service disruption costs.",
+      "date": "2026-11-03T23:18:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "CrowdStrike to buy Fiddler AI & Dreadnode in AI push",
+      "link": "https://securitybrief.com.au/story/crowdstrike-to-buy-fiddler-ai-dreadnode-in-ai-push",
+      "summary": "The moves underline how security vendors are racing to control AI agents as businesses widen their use of automated software across operations.",
+      "date": "2026-11-03T23:05:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian firms let AI act with limited oversight",
+      "link": "https://securitybrief.com.au/story/australian-firms-let-ai-act-with-limited-oversight",
+      "summary": "Most Australian businesses now let AI make and carry out decisions once reserved for people, yet only 55% can audit every action it takes.",
+      "date": "2026-11-03T22:56:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium joins OpenAI cyber programme for threat research",
+      "link": "https://securitybrief.com.au/story/tanium-joins-openai-cyber-programme-for-threat-research",
+      "summary": "The limited access will help its hunters and engineers turn OpenAI models into detections, vulnerability work and stronger platform defences.",
+      "date": "2026-11-03T22:53:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ThreatLocker launches control for corporate AI agents",
+      "link": "https://securitybrief.com.au/story/threatlocker-launches-control-for-corporate-ai-agents",
+      "summary": "Security teams can now block AI agents from accessing sensitive systems, as businesses turn them loose on day-to-day tasks inside corporate networks.",
+      "date": "2026-11-03T22:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Dark Reading",
-      "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
-      "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
-      "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
-      "date": "2026-11-03T14:00:00Z",
+      "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
+      "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
+      "summary": "German police led a multinational probe that exposed an alleged crime-as-a-service provider supplying fraudulent trading platforms to investment scammers.",
+      "date": "2026-11-03T21:57:12Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Snowflake launches AI control tools for business definitions",
+      "link": "https://securitybrief.com.au/story/snowflake-launches-ai-control-tools-for-business-definitions",
+      "summary": "The new features let enterprises audit AI agents' access, spending and definitions, as businesses struggle with inconsistent context across systems.",
+      "date": "2026-11-03T21:25:59Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Candescent adds Memcyco to its banking marketplace",
+      "link": "https://securitybrief.com.au/story/candescent-adds-memcyco-to-its-banking-marketplace",
+      "summary": "Banks and credit unions gain earlier warnings on phishing and account takeover as Candescent adds Memcyco to its marketplace.",
+      "date": "2026-11-03T20:37:00Z",
       "tags": [
         "AU Cyber",
-        "AI & Tools"
+        "Scams"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Binance hack warns firms on compromised work laptops",
-      "link": "https://securitybrief.com.au/story/binance-hack-warns-firms-on-compromised-work-laptops",
-      "summary": "Businesses should rethink laptop security after Binance said a work device may have opened the door to a USD $6.3 billion theft.",
-      "date": "2026-11-03T08:15:00Z",
+      "source": "iTnews",
+      "title": "Binance hackers used fake job interview in US$6.3 billion attack",
+      "link": "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "To compromise the ⁠computers of two software engineers.",
+      "date": "2026-11-03T20:28:00Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cybercriminals hijack LLM access, racking up bills",
-      "link": "https://securitybrief.com.au/story/cybercriminals-hijack-llm-access-racking-up-bills",
-      "summary": "Victims can face six-figure charges in hours as stolen credentials let attackers run large language models on company accounts.",
-      "date": "2026-11-03T06:32:48Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Bitget Q3 volume hits USD $1.86 trillion amid security push",
-      "link": "https://securitybrief.com.au/story/bitget-q3-volume-hits-usd-1-86-trillion-amid-security-push",
-      "summary": "A security incident in September left user balances untouched as the exchange rebuilt its Protection Fund to more than USD $300 million.",
-      "date": "2026-11-03T04:28:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI isn't the next cloud. Don't let it outgrow IT",
-      "link": "https://securitybrief.com.au/story/ai-isn-t-the-next-cloud-don-t-let-it-outgrow-it",
-      "summary": "With 87% of New Zealand organisations now using AI, firms risk shadow tools, data leaks and fractured controls if IT is sidelined.",
-      "date": "2026-11-03T03:43:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike expands ties with Dynatrace & CoreWeave",
-      "link": "https://securitybrief.com.au/story/crowdstrike-expands-ties-with-dynatrace-coreweave",
-      "summary": "Security teams may gain faster investigations as CrowdStrike links Falcon to Dynatrace telemetry and brings protection to CoreWeave's AI cloud.",
-      "date": "2026-11-03T03:22:08Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike & Dell launch AI Factory security package",
-      "link": "https://securitybrief.com.au/story/crowdstrike-dell-launch-ai-factory-security-package",
-      "summary": "The package aims to help enterprises secure AI systems from infrastructure to agents as they rush to deploy production workloads.",
-      "date": "2026-11-03T03:17:04Z",
-      "tags": [
-        "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+          "date": "2026-11-02T22:27:24Z"
+        }
+      ],
+      "latest": "2026-11-03T20:28:00Z"
     },
     {
       "source": "Krebs on Security",
@@ -83,16 +134,26 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "iTnews",
+          "title": "Chinese Videostrong botnet hit Android TV boxes in Australia: researchers",
+          "link": "https://www.itnews.com.au/news/chinese-videostrong-botnet-hit-android-tv-boxes-in-australia-researchers-630083?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-11-03T20:23:00Z"
+        }
+      ],
+      "latest": "2026-11-03T20:23:00Z"
     },
     {
       "source": "Dark Reading",
-      "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-      "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
-      "date": "2026-11-02T22:27:24Z",
+      "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
+      "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
+      "summary": "Evidence suggests a model may have generated and revised commands during the ransom gang's breach, though researchers stopped short of claiming full automation.",
+      "date": "2026-11-03T14:00:00Z",
       "tags": [
-        "AU Cyber"
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
@@ -126,13 +187,13 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Palo Alto Networks launches unified SaaS cloud security",
-      "link": "https://securitybrief.com.au/story/palo-alto-networks-launches-unified-saas-cloud-security",
-      "summary": "Security teams may gain a clearer picture of connected threats as Palo Alto Networks folds SaaS, cloud, identity and AI risks into one platform.",
-      "date": "2026-11-02T02:46:51Z",
+      "source": "iTnews",
+      "title": "Microsoft quietly fixes Windows troubleshooter privesc vulnerability",
+      "link": "https://www.itnews.com.au/news/microsoft-quietly-fixes-windows-troubleshooter-privesc-vulnerability-630060?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Aussie researcher bags US$16,000 in bounties for two diagnostics bugs.",
+      "date": "2026-11-02T03:43:00Z",
       "tags": [
-        "AI & Tools"
+        "AU Cyber"
       ]
     },
     {
@@ -416,11 +477,21 @@
       ]
     },
     {
+      "source": "Dark Reading",
+      "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
+      "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
+      "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
+      "date": "2026-10-27T00:26:50Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "ACSC (via Google News)",
-      "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
-      "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 Cyber.gov.au",
-      "date": "2026-10-27T12:00:00Z",
+      "title": "AI-enabled attacks highlight supply chain and cloud security risks",
+      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQSHduYmZrU1hJbG9NLXJfYkkxLWtwbGJDRlZnSEd4bUVzOFEtaXFrVzBSMGNPanU3V01BZmF3dTRfVC1WM0J3RGw3YUlXWnZtNWFXalRVMll6d09SSnNiTzQ1RFkya3FVSHduOGNUNFhXNVotYkZNS2hHUjU4dmtmaFZYODV5cUQxMkNDWEJKSDBrcEFTT3V4ellYRGc?oc=5",
+      "summary": "AI-enabled attacks highlight supply chain and cloud security risks Australian Cyber Security Centre",
+      "date": "2026-10-26T12:00:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
@@ -434,17 +505,7 @@
           "date": "2026-10-27T00:26:23Z"
         }
       ],
-      "latest": "2026-10-27T12:00:00Z"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-      "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-      "date": "2026-10-27T00:26:50Z",
-      "tags": [
-        "AI & Tools"
-      ]
+      "latest": "2026-10-27T00:26:23Z"
     },
     {
       "source": "Dark Reading",
@@ -486,6 +547,28 @@
       "tags": [
         "AU Cyber"
       ]
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "Vulnerability discovery",
+      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRERvVkNLdVh4VWNLeEpjOENSdW9JTWFTaXpZYzQ2NkdSbExiT185dTY1M19RSUJuWUJObjRJTVRxeXBmb3lWbnZEa0lrcGFNMU5wUG9TR3FmRVNVQldvdUUtNXJzRGY4VHlxNmkxVnhpYTF1dXVGV3cxZlVheDM4bGtidnFHeDZaMHRRZk1kV2hxdm1RamMtZUxURjljUlVneGJPdWtpakNEdWg0RDloUXNaZ0pXeGtWVXFrZWJIWmZNTTR0UFlkcQ?oc=5",
+      "summary": "Vulnerability discovery Australian Cyber Security",
+      "date": "2026-10-26T12:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "Annual Cyber Threat Report 2025-26",
+      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9LRU0wQ3hXekc3QkZtU0tsX1FUY0JYcUN3YnFRTTJrU1FhZ3RsZUt4Y0xmeUE1dS1xSTIwWW9XZ2NYWkh4VzRzeGVuVFdfTnJXb0xSSWNidWk0M0N1d25SUlFGRl9faGIwSHJYem1WY2tpeUhOSXlTcDFFRQ?oc=5",
+      "summary": "Annual Cyber Threat Report 2025-26 Cyber.gov.au",
+      "date": "2026-10-26T07:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "official": true
     },
     {
       "source": "Dark Reading",
@@ -629,12 +712,6 @@
           "date": "2026-10-21T21:15:42Z"
         },
         {
-          "source": "Dark Reading",
-          "title": "'PHP2Shell' Bugs Signal Red Alert for Security Industry",
-          "link": "https://www.darkreading.com/application-security/php2shell-bugs-red-alert-security-industry",
-          "date": "2026-10-21T19:19:17Z"
-        },
-        {
           "source": "Krebs on Security",
           "title": "Widespread PHP Flaw May Cause Many Site Outages Today",
           "link": "https://krebsonsecurity.com/2026/10/widespread-php-flaw-may-cause-many-site-outages-today/",
@@ -649,16 +726,6 @@
       "link": "https://www.darkreading.com/cloud-security/tidb-breach-flawed-cloud-security",
       "summary": "Cloud providers may be storing sensitive customer data, without either party knowing it. But when a provider is breached, the unseen information comes to light.",
       "date": "2026-10-21T21:15:39Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "OVHcloud GitHub Compromise Tied to GlassWorm Threat Actors",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/ovhcloud-github-compromise-glassworm-threat-actors",
-      "summary": "A developer's GitHub account that was compromised several months earlier was used to push malicious code to unsuspecting users.",
-      "date": "2026-10-21T16:50:15Z",
       "tags": [
         "AU Cyber"
       ]

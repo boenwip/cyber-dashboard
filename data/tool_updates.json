@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-11-03T14:36:43Z",
-  "count": 40,
+  "last_updated": "2026-11-04T01:17:36Z",
+  "count": 35,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.318",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318",
+      "summary": "What's changed Added a record of your answer when Claude Code asks to turn on the mods it writes in a session Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another…",
+      "date": "2026-11-04T00:01:03Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "AI platform updates you need to know from October 2026 - Campaign Middle East",
+      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNOHFEajNfYnlZVnBXZnFPQnZuQklfamdkeUlJRExlQ1dsUFhXYkQ5ZmFIX2oxX2xWZnNvelpuOXpTX1d1MjVRUzBkM2lQR0NpYjZ4VlBYX2JpMUQ4alBGakx2LTFDMUU1eGhsVWZoMldHNlNwNGxVQ0FudXR3VUdfZjRHSE8?oc=5",
+      "summary": "AI platform updates you need to know from October 2026 Campaign Middle East",
+      "date": "2026-11-03T16:32:28Z"
+    },
     {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
@@ -19,19 +35,11 @@
       "date": "2026-11-03T01:25:46Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic Addresses Video Game Cloning With Minor Claude Update - CNET",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObGl6Z1lPb2hocjU2aGRvdWx6aVhQWU9HdGlNQVdyaTB5WWlUSy1OX2loVkJ3Mnh0M3l2M3lWS1NMdXk2SHNYTDI5ZmFkNnBFM1ZBd1RLYmQ1aDB1d3ZudlRlWTJZQUFDZlA3d09pQ25oVTFuRUF6WFEyNk5nQ3JtYzlB?oc=5",
-      "summary": "Anthropic Addresses Video Game Cloning With Minor Claude Update CNET",
-      "date": "2026-11-03T00:06:13Z"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Upload an image to create a custom avatar in Google Vids",
       "link": "https://workspaceupdates.googleblog.com/2026/11/create-a-custom-avatar-google-vids.html",
-      "summary": "Users can now upload images to create custom avatars directly within Google Vids . This enables greater options for customization and more precise creative control by uploading your own image, in…",
+      "summary": "Update: November 3, 2026: Rollout for this feature is paused. We will post an update when it resumes. We have updated the rollout timelines listed below in this post to reflect this change. Users can…",
       "date": "2026-11-02T17:48:25Z"
     },
     {
@@ -49,6 +57,14 @@
       "link": "https://news.google.com/rss/articles/CBMiyAJBVV95cUxQQVBYaTFvbkpGT0FNbXhiUmMwdHR3SlRQYVdwbWFRalZ0SEtSd0pSQ2FOOFhsazRtY1VCX19heHpvTzEwSkJGNFQ1b1lBOXJmU1M2NGdvRnZyMEVNaW9YbnpBS1pSMC1ET3JnR0s1WFE0WmluRldpemhYUUM0elI2YzFfQWFQWDZ5UlFWQUplbVBId1JDNGtCQUoyMHROcVlSbXZHMUxremtlaFd2cy1qRmc0eVJfYmM0Rm95SHdScVVUS2NBMW1vMFRsNUZsUk5ILXZ4dWdsVVFIRjZhU0ZxaGNyRkFtZnFUS2FpbUpDQ25ydWtoZkF6SHdiT252SDhTOWdGeERvNTU5SkxWRlFGOWluZGM3SEVGVW14ZHNtWTVmR2VkUlh1UFFZcjM3akFuRENWT3VhQTJ5clNnQ1JyNVpibU1oNlRm?oc=5",
       "summary": "Anthropic's Claude AI blocks video game cloning and reverse-engineering — sweeping new restrictions also hit legitimate developers and basic troubleshooting tasks Tom's Hardware",
       "date": "2026-10-31T12:20:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva AI alternatives Download App for Android - Học viện Nông nghiệp Việt Nam",
+      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1zR0EtNFRLMlpwZGh3UTJVeUY1M2xyNlc3ZUhCNjNXYWdOZEFTdHV2VUxTeEFqcXlKY24wQlp3YU4yclhaVDBzU2NjOWNXUkJJQV8ydA?oc=5",
+      "summary": "Canva AI alternatives Download App for Android Học viện Nông nghiệp Việt Nam",
+      "date": "2026-10-31T11:22:30Z"
     },
     {
       "source": "Claude Code Releases",
@@ -83,52 +99,12 @@
       "date": "2026-10-30T18:54:03Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Dev Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "https://chromereleases.googleblog.com/2026/10/dev-channel-update-for-chromeos_0448562495.html",
-      "summary": "The ChromeOS Dev channel is being updated to OS version 16868.5.0 (Browser version 158.0.8127.5 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File…",
-      "date": "2026-10-30T18:49:40Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-dev-for-desktop-update_01100896752.html",
-      "summary": "The Dev channel has been updated to 159.0.8130.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
-      "date": "2026-10-30T14:58:33Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-dev-for-android-update_0754174154.html",
-      "summary": "Hi everyone! We've just released Chrome Dev 159 (159.0.8130.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
-      "date": "2026-10-30T12:13:32Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.314",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
       "summary": "What's changed Added permissions.blockWritesOutsideWorkingDirectories : Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode Added an optional groups…",
       "date": "2026-10-30T01:06:26Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/10/chrome-for-android-update_090381616.html",
-      "summary": "Hi, everyone! We've just released Chrome 156 (156.0.8078.79) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
-      "date": "2026-10-29T21:38:02Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/10/stable-channel-update-for-desktop_02107719452.html",
-      "summary": "The Stable and Extended Stable channel has been updated to 156.0.8078.79/.80 for Windows and Mac and 156.0.8078.79 to Linux which will roll out over the coming days/weeks. A full list of changes in…",
-      "date": "2026-10-29T21:26:20Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -155,12 +131,12 @@
       "date": "2026-10-27T16:00:00Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.311",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.311",
-      "summary": "What's changed Added --hold-idle-file and --max-hold-min to self-hosted-runner , to keep an idle session while your host reports processes it left running Added a tip for the Explanatory output…",
-      "date": "2026-10-26T21:51:23Z"
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva Pricing 2026: How Much Does Canva Cost? - Fello AI",
+      "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5neU96UnlyUk1CUXJJYTNRRmpQX0E5aW9HbzdSdXIydEw2VDM4QUVOeVRLYWhQeGFtRHhKTFdJSkZ1REFXSW5MU1FB?oc=5",
+      "summary": "Canva Pricing 2026: How Much Does Canva Cost? Fello AI",
+      "date": "2026-10-22T07:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -171,6 +147,30 @@
       "date": "2026-10-08T15:00:00Z"
     },
     {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "GPT-6 Intelligent UI Hits ChatGPT in 2-Day Rollout [2026] - https://tech-insider.org/",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5ydUg1bGE4T1RJY21Ob1VfaHYwX1FRc3NTUExjbEhsYzYxbjhrSDhTUEJENk8xOGhvM3YxWmV1S0Zsd2ZnSGxGZVFoMmJ4bTNUb0U0ejZBSW9oVkp3N2Nrb2R6WkdLd1N6cTF3?oc=5",
+      "summary": "GPT-6 Intelligent UI Hits ChatGPT in 2-Day Rollout [2026] https://tech-insider.org/",
+      "date": "2026-10-08T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
+      "summary": "GPT-6 and Intelligent UI for everyone OpenAI",
+      "date": "2026-10-07T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "ChatGPT is getting a lot more visual, with the launch of a new interface - TechCrunch",
+      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOeEFVMy1BRFZyWXM2UFZVeVFyUy1TdTluV0tYRkkwdnlDVFNyZW9jZVhMQVN3Qng5UXk5bmtCSXRaOGcySFNveWtudG11eXZfNGhJSFZmallXN3I2d052WXZrT0xuRF9yR0lvYjBycmV0NVRka2FtMG84SXp5QWo0WlFsN0QyTlN4bHFpRWZGSVJreWJsTmtfV3lQTkNTVTFpZDJ6WlRRN01jUQ?oc=5",
+      "summary": "ChatGPT is getting a lot more visual, with the launch of a new interface TechCrunch",
+      "date": "2026-10-07T07:00:00Z"
+    },
+    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Introducing Claude Haiku 5.5 - Anthropic",
@@ -179,12 +179,12 @@
       "date": "2026-10-07T07:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Building advertising for the way people use AI - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
-      "summary": "Building advertising for the way people use AI OpenAI",
-      "date": "2026-10-05T07:00:00Z"
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Here are all the new features added to Microsoft 365 Copilot in September 2026 - Neowin",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWFNlNTNRWE54aFJ5TENOY3Y1MkktN0xidG5iZmxjNmFPMlJERDdTYVI2bFdJZHFobUFJRTQwOG1mVk0yUnd3WEIySmU3bktsRHhGb3BmbXh5TDVkeDlBSjctcDFhY25mbkZyejdUZFpGdXJ6czFVV3RxcFpKazQ3WWhnekpvdGxOX3I1YUdnRkY0Tk9wX1Y1dkV1Q1o0NkZNanI5eHFQTkh1Nms?oc=5",
+      "summary": "Here are all the new features added to Microsoft 365 Copilot in September 2026 Neowin",
+      "date": "2026-10-01T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -192,14 +192,6 @@
       "title": "DevDay 2026 Recap - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
       "summary": "DevDay 2026 Recap OpenAI",
-      "date": "2026-09-29T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing dots - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
-      "summary": "Introducing dots OpenAI",
       "date": "2026-09-29T07:00:00Z"
     },
     {
@@ -227,14 +219,6 @@
       "date": "2026-09-23T15:00:00Z"
     },
     {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Massive Canva update adds 100 features to new ProSuite - Creative Bloq",
-      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQalh0clpuN1NzMHk0Nm14UmlMMlJqX3VBUU84elhrZDNkWUNoS1NaY0oxbHRGXzdvbHNVNWkwdVl2Ym5kcUwyaUtYSUNQSG1QaUszV0tiZ01KUWxUMkdBMjZOMDJzb3J5c1RhUGMyZFRGNy1RUGU5ZS01dUkwMGNocDFaWFRtckcxN2dpSVFEeGJuczVpQlJ0WFEwZ3dLSWVDZEZwb2ZZdFI0STBfWnpzdU1NR3JRMkU?oc=5",
-      "summary": "Massive Canva update adds 100 features to new ProSuite Creative Bloq",
-      "date": "2026-09-17T07:00:00Z"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
@@ -243,12 +227,28 @@
       "date": "2026-09-15T15:00:00Z"
     },
     {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
+      "date": "2026-09-15T07:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
+      "date": "2026-09-01T18:01:25Z"
+    },
+    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "Introducing ChatGPT Images 2.5 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1oVnJHU0hFU1p6Rk54WUFyckU5SnlndTJQY0NEcUEtS0lOQW5EUElYUjVuMnpOT2JRVmZ5TFdzNkIzR2xjUlB1NEhtYU1fV0l6WDczQk0xaW1SZHVBXzViS1FxMjNzcDg?oc=5",
-      "summary": "Introducing ChatGPT Images 2.5 OpenAI",
-      "date": "2026-09-08T07:00:00Z"
+      "title": "OpenAI makes ChatGPT less 'human' for teens in new safety update - BBC",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1wbmRxU2pBcjRMUW13OVQtX3NnNlc2MUZMOWRUM3lFY2ozSk1CZmtlbEZBVEl1QkNiaV9sRWc0N1UyQjFRN19LeHJrcDFleUN2Mm5Jdkd0SE03Zw?oc=5",
+      "summary": "OpenAI makes ChatGPT less 'human' for teens in new safety update BBC",
+      "date": "2026-08-18T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -259,44 +259,12 @@
       "date": "2026-08-13T14:58:37Z"
     },
     {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPWVRMdTJScVdXdFpIV1dLVDJwaU5ETTlnSTFwY1lMeFl1c2RQYnV1SHp1M1pKSG5zbmtwMHZ0NjBqNEZ6LVRubDJ3eS1rekxNQWhTX3VNX2VCajFoNGh5cHBBaldCbDJaZ2VBRVFlMGpfczJxd0VqM0tqOU5hcXo3S0NhQzZnT19NWlVaMWZ3VWg?oc=5",
-      "summary": "AI was supposed to power Canva's next act. It also exposed software's most expensive problem Fortune",
-      "date": "2026-08-12T07:00:00Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
-      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
-      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
-      "date": "2026-08-10T07:00:00Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "What’s new in Power Platform: July/August 2026 feature update - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS2VLd2w4Ry1jdkRNTGtaNkRIbzVjYkR4Zk5ZdXJrMjMxTFNhN0c5eWhMMXdxNDlBbFBHa1Q4Mk9CdE5oU1ZZWk1BSzdWRWptcW9QN1UwU3A0X1NFQTY5MkJDbk1UaG9ENThiNURjUHkyeGRMMWR5LU16T2ZnLUJHaFpzQjhpdGtLTnc0cm5JZHE0U2NYa0tLNUdyekg0Y21ZSENQMUZPdmFoSjQyUTRBMVJrRXF4R1BMZmc2SjZyXzk?oc=5",
-      "summary": "What’s new in Power Platform: July/August 2026 feature update Microsoft",
-      "date": "2026-08-06T07:00:00Z"
-    },
-    {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? - HP",
-      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSmlKWjZLZUpqcDdSQTR1dVFSZXZTVnBZSUJnNTVva3I2YTcxcE9WVGVGampoVE1qLUVpTUtrVThkZzVtYWdETjlUY2RMbHZjbHdGUGYwYXpDUzJEVXhwWVZCWkFkbXFwcTRETGl2Mm96N1p4TVBrbVRBZnlLbVRGVEhHdkFPaldGb1B3RGJiTU1FcXJmWGtJQVZn?oc=5",
-      "summary": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? HP",
-      "date": "2026-07-31T21:20:34Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Launching Health in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1SZ20wcWdqZlZXdjZSYXpVcHNtS1R5cVFydGdYRnpLSVV5R1pLUXRDR1hQOWpjaFRBcktWNGhjWVlxcUtRY1BjYmZBVDZtRThCWFVBY0pn?oc=5",
-      "summary": "Launching Health in ChatGPT OpenAI",
-      "date": "2026-07-23T07:00:00Z"
+      "title": "What Is the Latest Version of Microsoft Office in 2026? - Online Tech Tips",
+      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOc1ZQYk44cUNXeEppVGlYMWZBdnBxLWtKUTZwQk5SbmN2VUtEZ1JpcTJlRzlBcVdaLW1xRzhUcV96WDFSVnNHaWZKN3BZUjJhQ1lyMDdDTWJXWERQZ3R5NS12UC1STXdyWGFyWFRFaHA2OFkzTjFoTnE5TFZ1NHAzSjh1M05UUXc?oc=5",
+      "summary": "What Is the Latest Version of Microsoft Office in 2026? Online Tech Tips",
+      "date": "2026-07-16T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -309,18 +277,10 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic’s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
-      "date": "2026-06-15T07:00:00Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
-      "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
-      "date": "2026-04-16T07:00:00Z"
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "Introducing Claude Opus 4.8 Anthropic",
+      "date": "2026-05-28T07:00:00Z"
     }
   ]
 }
