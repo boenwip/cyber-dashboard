@@ -1,7 +1,16 @@
 {
-  "last_updated": "2026-11-04T14:19:18Z",
+  "last_updated": "2026-11-05T01:26:56Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2024-27834",
+      "name": "Apple Multiple Products",
+      "description": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer…",
+      "date_added": "2026-11-04",
+      "due_date": "2026-11-18",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834"
+    },
     {
       "id": "CVE-2026-119977",
       "name": "WordPress WordPress Core",
@@ -82,15 +91,6 @@
       "due_date": "2026-11-10",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497"
-    },
-    {
-      "id": "CVE-2026-109618",
-      "name": "PHP Group PHP",
-      "description": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-      "date_added": "2026-10-26",
-      "due_date": "2026-10-29",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618"
     }
   ]
 }
