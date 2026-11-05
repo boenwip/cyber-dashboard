@@ -1,7 +1,85 @@
 {
-  "last_updated": "2026-11-05T06:27:45Z",
-  "count": 61,
+  "last_updated": "2026-11-05T14:55:12Z",
+  "count": 67,
   "items": [
+    {
+      "source": "404 Media",
+      "title": "An AI Fraud Kingpin’s Confessions",
+      "link": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
+      "summary": "An AI fraud kingpins rise and fall; voters rejected data centers; and a new fear unlocked.",
+      "date": "2026-11-05T14:30:59Z",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "The Confessions of an AI Fraud Kingpin",
+      "link": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
+      "summary": "Yuriy Nazarenko created ‘OnlyFake’, a site that let anyone churn out realistic fake IDs with AI. Then the North Koreans came knocking.",
+      "date": "2026-11-05T14:16:07Z",
+      "tags": [
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "ACSC (via Google News)",
+      "title": "Open-weight AI models: Opportunities and cyber security risks",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRW5FNFF0al9LT1NZOXR6RGs2SjNJaVhRZHJPZDRMclBvMVBhZU0zYzlDR0V2N2NTS1hBQTZPMjFZTkRtbnhLcUxhTTNPbEFDSzBFYjF3NmIwVEdiMlZzTTlmSXROb2tJdlFRdWx2NzVuZWdvX0ktVURITlNWYnB2ME1uZkhyVXd0eVJLUEROU0VfTlZ6cU1wS195c2Z6QQ?oc=5",
+      "summary": "Open-weight AI models: Opportunities and cyber security risks Cyber.gov.au",
+      "date": "2026-11-05T09:44:53Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "official": true
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Tracebit says context bombs cut AI attack success 91%",
+      "link": "https://securitybrief.com.au/story/tracebit-says-context-bombs-cut-ai-attack-success-91",
+      "summary": "Tracebit's research suggests deception can sharply slow AI-driven intrusions, lifting attacker costs 23-fold while cutting completed objectives by 91%.",
+      "date": "2026-11-05T09:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI attacker blocked by microsegmentation in Anthropic test",
+      "link": "https://securitybrief.com.au/story/ai-attacker-blocked-by-microsegmentation-in-anthropic-test",
+      "summary": "The result underscores how microsegmentation can stop an AI intruder from turning one compromised machine into wider network access.",
+      "date": "2026-11-05T09:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Illumio warns AI authority is outpacing security controls",
+      "link": "https://securitybrief.com.au/story/illumio-warns-ai-authority-is-outpacing-security-controls",
+      "summary": "Most firms now hand AI decisions once reserved for staff, but fewer than half can fully audit its actions, a new survey found.",
+      "date": "2026-11-05T08:30:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Rapid7 warns of three-day gap before attacks exploit flaws",
+      "link": "https://securitybrief.com.au/story/rapid7-warns-of-three-day-gap-before-attacks-exploit-flaws",
+      "summary": "Defenders now have just days to patch internet-facing systems, as 71% of tracked exploitation happened within a week of disclosure.",
+      "date": "2026-11-05T08:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Krebs on Security",
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
@@ -66,27 +144,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "CrowdStrike launches tools to detect risky AI agents",
-      "link": "https://securitybrief.com.au/story/crowdstrike-launches-tools-to-detect-risky-ai-agents",
-      "summary": "The tools are designed to spot rogue AI behaviour and simulate attacks before autonomous systems can reach critical data or systems.",
-      "date": "2026-11-04T23:54:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "JFrog adds AI security controls for developer tools",
-      "link": "https://securitybrief.com.au/story/jfrog-adds-ai-security-controls-for-developer-tools",
-      "summary": "Security teams can now spot unauthorised AI tools on developer machines before they reach production, as JFrog extends its controls.",
-      "date": "2026-11-04T22:15:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Critical Rails Bug Threatens to Derail Vulnerable Servers",
       "link": "https://www.darkreading.com/application-security/critical-rails-bug-derail-vulnerable-servers",
@@ -97,11 +154,11 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Hackers abuse trusted AI tools to breach organisations",
-      "link": "https://securitybrief.com.au/story/hackers-abuse-trusted-ai-tools-to-breach-organisations",
-      "summary": "Attackers are abusing approved AI and admin tools to move through networks in minutes, making traditional trust-based defences far less reliable.",
-      "date": "2026-11-04T21:30:00Z",
+      "source": "iTnews",
+      "title": "Japan to seek early access to software vulnerability data from US AI firms",
+      "link": "https://www.itnews.com.au/news/japan-to-seek-early-access-to-software-vulnerability-data-from-us-ai-firms-630124?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Amid cyberattack surge.",
+      "date": "2026-11-04T20:24:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
@@ -254,6 +311,16 @@
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/paprat-cyberespionage-campaign-bitter-south-asia",
       "summary": "Organizations in the region face growing cyberattacks from the known India-linked threat group, which leverages legitimate Windows functionality in three distinct attack chains.",
       "date": "2026-11-02T14:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Microsoft quietly fixes Windows troubleshooter privesc vulnerability",
+      "link": "https://www.itnews.com.au/news/microsoft-quietly-fixes-windows-troubleshooter-privesc-vulnerability-630060?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Aussie researcher bags US$16,000 in bounties for two diagnostics bugs.",
+      "date": "2026-11-02T03:43:00Z",
       "tags": [
         "AU Cyber"
       ]
@@ -523,7 +590,7 @@
       "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
       "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
       "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 Cyber.gov.au",
-      "date": "2026-10-27T12:00:00Z",
+      "date": "2026-10-27T07:00:00Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
@@ -537,7 +604,7 @@
           "date": "2026-10-27T00:26:23Z"
         }
       ],
-      "latest": "2026-10-27T12:00:00Z"
+      "latest": "2026-10-27T07:00:00Z"
     },
     {
       "source": "Dark Reading",
