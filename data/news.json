@@ -1,12 +1,154 @@
 {
-  "last_updated": "2026-11-05T14:55:12Z",
-  "count": 67,
+  "last_updated": "2026-11-06T01:30:32Z",
+  "count": 69,
   "items": [
+    {
+      "source": "iTnews",
+      "title": "Tyro finds new CISO",
+      "link": "https://www.itnews.com.au/news/tyro-finds-new-ciso-630166?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Initial focus on harnessing AI to strengthen cyber defences.",
+      "date": "2026-11-06T02:12:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Huntress adds new security tools across its platform",
+      "link": "https://securitybrief.com.au/story/huntress-adds-new-security-tools-across-its-platform",
+      "summary": "The latest releases aim to help customers spot and stop identity attacks, brute-force attempts and ransomware spread sooner across Huntress's platform.",
+      "date": "2026-11-06T00:25:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Fortinet brings AI security to Equinix distributed hub",
+      "link": "https://securitybrief.com.au/story/fortinet-brings-ai-security-to-equinix-distributed-hub",
+      "summary": "Enterprises can now inspect AI prompts and responses across clouds and data centres through a validated Fortinet-Equinix architecture.",
+      "date": "2026-11-05T23:42:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Attackers weaponise public research within minutes",
+      "link": "https://securitybrief.com.au/story/attackers-weaponise-public-research-within-minutes",
+      "summary": "Published exploit code is giving defenders days, not weeks, to patch, with 91% of public proof-of-concept vulnerabilities hit within 48 hours.",
+      "date": "2026-11-05T22:18:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ARM Hub urges AI checks to bolster factory cyber security",
+      "link": "https://securitybrief.com.au/story/arm-hub-urges-ai-checks-to-bolster-factory-cyber-security",
+      "summary": "Australian manufacturers could uncover hidden cyber risks in ageing systems by treating AI-readiness reviews as part of routine security checks.",
+      "date": "2026-11-05T22:04:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "DNSFilter launches LUMINATE to unify security under DNS",
+      "link": "https://securitybrief.com.au/story/dnsfilter-launches-luminate-to-unify-security-under-dns",
+      "summary": "It aims to cut security sprawl by putting filtering, AI governance and threat hunting into one DNS-based platform for harder-to-manage devices.",
+      "date": "2026-11-05T21:50:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Rubrik launches hosted backup for on-premise NAS data",
+      "link": "https://securitybrief.com.au/story/rubrik-launches-hosted-backup-for-on-premise-nas-data",
+      "summary": "The hosted service shifts backup storage and maintenance off site, aimed at enterprises under pressure from rising hardware costs and ransomware risk.",
+      "date": "2026-11-05T21:47:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ExpressVPN adds browser web protection against scams",
+      "link": "https://securitybrief.com.au/story/expressvpn-adds-browser-web-protection-against-scams",
+      "summary": "The browser add-on now blocks malicious and phishing pages in real time, even when subscribers are not connected to the VPN.",
+      "date": "2026-11-05T21:46:00Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
+      "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
+      "summary": "In this video conversation, Dark Reading editors discuss some of the news they didn't get a chance to cover, from an ill-conceived phishing simulation to a hacktivist attack on a US government agency.",
+      "date": "2026-11-05T21:00:47Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "Binance hack prompted US regulators to check in on bank systems",
+      "link": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "For anomalous behavioural detections.",
+      "date": "2026-11-05T20:58:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+          "date": "2026-11-02T22:27:24Z"
+        }
+      ],
+      "latest": "2026-11-05T20:58:00Z"
+    },
+    {
+      "source": "iTnews",
+      "title": "Low-privileged accounts on unpatched systems as good as root: OpenAI",
+      "link": "https://www.itnews.com.au/news/low-privileged-accounts-on-unpatched-systems-as-good-as-root-openai-630145?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "AI agents built 948 distinct Linux kernel privilege-escalation exploits in exercise.",
+      "date": "2026-11-05T20:54:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "404 Media",
+      "title": "Podcast: Proton’s CEO Is Putting AI Before Security",
+      "link": "https://www.404media.co/podcast-protons-ceo-is-putting-ai-before-security/",
+      "summary": "Inside Proton's AI reckoning, the AO3 outage, and why we're not tech support.",
+      "date": "2026-11-05T16:49:39Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "SecurityDataPipeline.com Launches as a New Educational Resource for the AI Era",
+      "link": "https://www.darkreading.com/cybersecurity-operations/securitydatapipeline-com-launches-as-a-new-educational-resource-for-the-ai-era",
+      "summary": "The ungated resource explains how security data pipelines reduce SIEM ingestion costs, preserve detection coverage, and prepare the data layer for AI-driven security operations.",
+      "date": "2026-11-05T16:48:36Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "404 Media",
       "title": "An AI Fraud Kingpin’s Confessions",
       "link": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
-      "summary": "An AI fraud kingpins rise and fall; voters rejected data centers; and a new fear unlocked.",
+      "summary": "An AI fraud kingpin’s rise and fall; voters rejected data centers; and a new fear unlocked.",
       "date": "2026-11-05T14:30:59Z",
       "tags": [
         "AI & Tools",
@@ -37,82 +179,6 @@
       "official": true
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Tracebit says context bombs cut AI attack success 91%",
-      "link": "https://securitybrief.com.au/story/tracebit-says-context-bombs-cut-ai-attack-success-91",
-      "summary": "Tracebit's research suggests deception can sharply slow AI-driven intrusions, lifting attacker costs 23-fold while cutting completed objectives by 91%.",
-      "date": "2026-11-05T09:00:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AI attacker blocked by microsegmentation in Anthropic test",
-      "link": "https://securitybrief.com.au/story/ai-attacker-blocked-by-microsegmentation-in-anthropic-test",
-      "summary": "The result underscores how microsegmentation can stop an AI intruder from turning one compromised machine into wider network access.",
-      "date": "2026-11-05T09:00:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Illumio warns AI authority is outpacing security controls",
-      "link": "https://securitybrief.com.au/story/illumio-warns-ai-authority-is-outpacing-security-controls",
-      "summary": "Most firms now hand AI decisions once reserved for staff, but fewer than half can fully audit its actions, a new survey found.",
-      "date": "2026-11-05T08:30:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Rapid7 warns of three-day gap before attacks exploit flaws",
-      "link": "https://securitybrief.com.au/story/rapid7-warns-of-three-day-gap-before-attacks-exploit-flaws",
-      "summary": "Defenders now have just days to patch internet-facing systems, as 71% of tracked exploitation happened within a week of disclosure.",
-      "date": "2026-11-05T08:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Krebs on Security",
-      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
-      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
-      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown…",
-      "date": "2026-11-03T02:24:31Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ],
-      "coverage": [
-        {
-          "source": "Security Brief Australia",
-          "title": "TrendAI helps disrupt X.CPE botnet in 1.3m devices",
-          "link": "https://securitybrief.com.au/story/trendai-helps-disrupt-x-cpe-botnet-in-1-3m-devices",
-          "date": "2026-11-05T04:39:12Z"
-        },
-        {
-          "source": "Dark Reading",
-          "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
-          "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
-          "date": "2026-11-04T16:24:08Z"
-        },
-        {
-          "source": "iTnews",
-          "title": "Chinese Videostrong botnet hit Android TV boxes in Australia: researchers",
-          "link": "https://www.itnews.com.au/news/chinese-videostrong-botnet-hit-android-tv-boxes-in-australia-researchers-630083?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-          "date": "2026-11-03T20:23:00Z"
-        }
-      ],
-      "latest": "2026-11-05T04:39:12Z"
-    },
-    {
       "source": "Krebs on Security",
       "title": "Want to Rent an Internet Address at the White House?",
       "link": "https://krebsonsecurity.com/2026/11/want-to-rent-an-internet-address-at-the-white-house/",
@@ -120,17 +186,6 @@
       "date": "2026-11-05T04:36:17Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Tanium joins OpenAI cyber programme for threat research",
-      "link": "https://securitybrief.com.au/story/tanium-joins-openai-cyber-programme-for-threat-research-6351e583-9443-41a7-aa4a-c5f7f2c8795b",
-      "summary": "The move gives Tanium's security teams access to OpenAI cyber models for threat detection, vulnerability work and platform defence against AI-driven attacks.",
-      "date": "2026-11-05T03:56:03Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -174,6 +229,32 @@
         "AU Cyber",
         "Compliance"
       ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
+      "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
+      "summary": "Google said today it worked with industry partners to dismantle a botnet made up of more than 1.3 million Android TV set-top boxes that ship with malicious software which secretly rents the user's Internet connection out to strangers and conducts advertising fraud. Experts involved in the takedown…",
+      "date": "2026-11-03T02:24:31Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Google, Partners Disrupt 1.3 Million-Device-Strong XCPE Botnet",
+          "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
+          "date": "2026-11-04T16:24:08Z"
+        },
+        {
+          "source": "iTnews",
+          "title": "Chinese Videostrong botnet hit Android TV boxes in Australia: researchers",
+          "link": "https://www.itnews.com.au/news/chinese-videostrong-botnet-hit-android-tv-boxes-in-australia-researchers-630083?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-11-03T20:23:00Z"
+        }
+      ],
+      "latest": "2026-11-04T16:24:08Z"
     },
     {
       "source": "iTnews",
@@ -263,16 +344,7 @@
       "date": "2026-11-03T20:28:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-          "date": "2026-11-02T22:27:24Z"
-        }
-      ],
-      "latest": "2026-11-03T20:28:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -379,36 +451,6 @@
       ]
     },
     {
-      "source": "404 Media",
-      "title": "Proton’s CEO Cancels AI ‘Re-Interviews’",
-      "link": "https://www.404media.co/protons-ceo-cancels-ai-re-interviews/",
-      "summary": "The move came after 404 Media published an investigation into how Proton CEO Andy Yen was aggressively pushing AI across Proton despite security concerns and the culture of fear he has created.",
-      "date": "2026-10-30T16:40:39Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Binance freezes assets after US$6.3 billion heist",
-      "link": "https://www.itnews.com.au/news/binance-freezes-assets-after-us63-billion-heist-630029?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "May have started with hacked laptop of single engineer.",
-      "date": "2026-10-30T07:23:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Flaw in GNU's code forge could have let attackers backdoor Bash",
-      "link": "https://www.itnews.com.au/news/flaw-in-gnus-code-forge-could-have-let-attackers-backdoor-bash-630027?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Researchers use special email address to reach crucial source code.",
-      "date": "2026-10-30T04:50:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Canberra students learn ethical hacking at re_B00TCMP cyber bootcamp",
       "link": "https://australiancybersecuritymagazine.com.au/canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp/?utm_source=rss&utm_medium=rss&utm_campaign=canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp&utm_source=rss&utm_medium=rss&utm_campaign=canberra-students-learn-ethical-hacking-at-re_b00tcmp-cyber-bootcamp",
@@ -438,16 +480,6 @@
         "AU Cyber",
         "AI & Tools",
         "Scams"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Researchers feed infostealer gangs booby-trapped session cookies",
-      "link": "https://www.itnews.com.au/news/researchers-feed-infostealer-gangs-booby-trapped-session-cookies-630000?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Infected their own machines with malware to see what criminals do with stolen sessions.",
-      "date": "2026-10-29T20:47:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
@@ -729,26 +761,6 @@
         "AU Cyber"
       ],
       "official": true
-    },
-    {
-      "source": "Dark Reading",
-      "title": "State Bank of India Suffers a Customer PII Data Leak",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/state-bank-india-customer-pii-data-leak",
-      "summary": "Relatively small data breaches in India can turn quite serious, thanks to a sophisticated underground market for trading PII.",
-      "date": "2026-10-23T03:30:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Microsoft Links Storm-0940 to ConnectWise Supply Chain Attack",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/microsoft-storm-0940-connectwise-supply-chain-attack",
-      "summary": "The China-linked actor used an AI-enabled penetration-testing tool to automate and accelerate its attack on more than 2,200 tenants.",
-      "date": "2026-10-22T20:42:17Z",
-      "tags": [
-        "AI & Tools"
-      ]
     }
   ]
 }
