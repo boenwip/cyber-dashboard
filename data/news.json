@@ -1,7 +1,59 @@
 {
-  "last_updated": "2026-11-06T06:22:10Z",
-  "count": 67,
+  "last_updated": "2026-11-06T14:33:16Z",
+  "count": 62,
   "items": [
+    {
+      "source": "Dark Reading",
+      "title": "Why Europe's Freezer Hacks Spread So Far, So Fast",
+      "link": "https://www.darkreading.com/ics-ot-security/europes-freezer-hacks-spread-so-far-so-fast",
+      "summary": "Europe's supermarket freezer hacks show how security issues can cascade across an industry, disrupting supply chains at scale.",
+      "date": "2026-11-06T14:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Reco & Cyera rank AI agent risks from sensitive data",
+      "link": "https://securitybrief.com.au/story/reco-cyera-rank-ai-agent-risks-from-sensitive-data",
+      "summary": "Security teams can now prioritise AI agent exposures by linking permissions to sensitive data across business systems, Reco said.",
+      "date": "2026-11-06T09:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Most Australian businesses hit by AI failures, study finds",
+      "link": "https://securitybrief.com.au/story/most-australian-businesses-hit-by-ai-failures-study-finds",
+      "summary": "The report says repeated breakdowns are now hitting operations, compliance and security, with 76% of Australian businesses affected in the past year.",
+      "date": "2026-11-06T09:30:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Web Hole attack targets AI agents via abandoned sites",
+      "link": "https://securitybrief.com.au/story/web-hole-attack-targets-ai-agents-via-abandoned-sites",
+      "summary": "AI agents could be tricked into harmful actions by search results pointing to expired domains that attackers can re-register and poison.",
+      "date": "2026-11-06T09:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
+      "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
+      "summary": "Britain's new Labour-led government is making a concerted push to get ahead of the AI risks to its national networks and the industrial complex.",
+      "date": "2026-11-06T09:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "Nuix launches AI agent for forensic investigations",
@@ -44,36 +96,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Attackers weaponise public research within minutes",
-      "link": "https://securitybrief.com.au/story/attackers-weaponise-public-research-within-minutes",
-      "summary": "Published exploit code is giving defenders days, not weeks, to patch, with 91% of public proof-of-concept vulnerabilities hit within 48 hours.",
-      "date": "2026-11-05T22:18:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ARM Hub urges AI checks to bolster factory cyber security",
-      "link": "https://securitybrief.com.au/story/arm-hub-urges-ai-checks-to-bolster-factory-cyber-security",
-      "summary": "Australian manufacturers could uncover hidden cyber risks in ageing systems by treating AI-readiness reviews as part of routine security checks.",
-      "date": "2026-11-05T22:04:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DNSFilter launches LUMINATE to unify security under DNS",
-      "link": "https://securitybrief.com.au/story/dnsfilter-launches-luminate-to-unify-security-under-dns",
-      "summary": "It aims to cut security sprawl by putting filtering, AI governance and threat hunting into one DNS-based platform for harder-to-manage devices.",
-      "date": "2026-11-05T21:50:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "What We Missed: Knicks Phishing Test Goes Out of Bounds",
       "link": "https://www.darkreading.com/cyber-risk/what-we-missed-knicks-phishing-test-out-of-bounds",
@@ -92,7 +114,16 @@
       "date": "2026-11-05T20:58:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+          "date": "2026-11-02T22:27:24Z"
+        }
+      ],
+      "latest": "2026-11-05T20:58:00Z"
     },
     {
       "source": "iTnews",
@@ -126,15 +157,25 @@
       ]
     },
     {
-      "source": "404 Media",
-      "title": "An AI Fraud Kingpin’s Confessions",
-      "link": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
-      "summary": "An AI fraud kingpin’s rise and fall; voters rejected data centers; and a new fear unlocked.",
-      "date": "2026-11-05T14:30:59Z",
+      "source": "Dark Reading",
+      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
+      "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
+      "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
+      "date": "2026-11-04T01:05:40Z",
       "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
+        "AU Cyber",
+        "Scams",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "404 Media",
+          "title": "An AI Fraud Kingpin’s Confessions",
+          "link": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
+          "date": "2026-11-05T14:30:59Z"
+        }
+      ],
+      "latest": "2026-11-05T14:30:59Z"
     },
     {
       "source": "404 Media",
@@ -157,7 +198,16 @@
         "AU Cyber",
         "AI & Tools"
       ],
-      "official": true
+      "official": true,
+      "coverage": [
+        {
+          "source": "iTnews",
+          "title": "Japan to seek early access to software vulnerability data from US AI firms",
+          "link": "https://www.itnews.com.au/news/japan-to-seek-early-access-to-software-vulnerability-data-from-us-ai-firms-630124?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-11-04T20:24:00Z"
+        }
+      ],
+      "latest": "2026-11-05T09:44:53Z"
     },
     {
       "source": "Krebs on Security",
@@ -187,17 +237,6 @@
       "date": "2026-11-04T21:48:18Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Japan to seek early access to software vulnerability data from US AI firms",
-      "link": "https://www.itnews.com.au/news/japan-to-seek-early-access-to-software-vulnerability-data-from-us-ai-firms-630124?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Amid cyberattack surge.",
-      "date": "2026-11-04T20:24:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -277,17 +316,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-      "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-      "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing a phishing-resistant authentication gap. Plus: post-quantum YubiKey beta.",
-      "date": "2026-11-04T01:05:40Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Rapid7 warns of two additional Ivanti Connect Secure zero-days under active exploitation",
       "link": "https://australiancybersecuritymagazine.com.au/rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation/?utm_source=rss&utm_medium=rss&utm_campaign=rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation&utm_source=rss&utm_medium=rss&utm_campaign=rapid7-warns-of-two-additional-ivanti-connect-secure-zero-days-under-active-exploitation",
@@ -325,16 +353,7 @@
       "date": "2026-11-03T20:28:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-          "date": "2026-11-02T22:27:24Z"
-        }
-      ],
-      "latest": "2026-11-03T20:28:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -597,33 +616,23 @@
       ]
     },
     {
-      "source": "ACSC (via Google News)",
-      "title": "ASD releases seventh annual Cyber Threat Report 2025-26",
-      "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWTlxOHhLem9qSXRua3dlU0c5WDZCaHdGSGZxejAtMmJ4MDNOaEIxNjFoMWRmcW9UaEZtb0R0RldWNDh1d3hFVFo0eXY2WE5od0xPcGlVRkxOQ3h0Q2dvRmJHOGpBb0FPSG1nWlNyWTJ5M3NVNXZaWmhnVkFIbFE2Yzlia2lNWTNQMlNQcFh3?oc=5",
-      "summary": "ASD releases seventh annual Cyber Threat Report 2025-26 Cyber.gov.au",
-      "date": "2026-10-27T07:00:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "official": true,
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
-          "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
-          "date": "2026-10-27T00:26:23Z"
-        }
-      ],
-      "latest": "2026-10-27T07:00:00Z"
-    },
-    {
       "source": "Dark Reading",
       "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
       "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
       "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
       "date": "2026-10-27T00:26:50Z",
       "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
+      "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
+      "summary": "Australia’s cyber threat environment is becoming increasingly complex as artificial intelligence accelerates malicious activity, cybercrime losses rise and state-sponsored actors continue targeting government, businesses and critical infrastructure, according to the [...]",
+      "date": "2026-10-27T00:26:23Z",
+      "tags": [
+        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -688,58 +697,6 @@
       "tags": [
         "AI & Tools"
       ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Why Caribbean Threats Cascade Into Global Cyber-Risk",
-      "link": "https://www.darkreading.com/cyber-risk/why-caribbean-threats-cascade-global-cyber-risk",
-      "summary": "The region is demonstrating what happens when exploits accelerate but assurance does not.",
-      "date": "2026-10-23T14:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Cyber Insurance's New Reality: Underwriting Isn't Enough",
-      "link": "https://www.darkreading.com/cyber-risk/cyber-insurances-underwriting-isnt-enough",
-      "summary": "Rising AI, social engineering, and cloud risks are pushing carriers beyond risk transfer and deeper into cybersecurity itself.",
-      "date": "2026-10-23T13:30:00Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "AI Agents as Insider Threats: Inside Microsoft's Bet on a Unified Security Stack",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-agents-insider-threats-inside-microsoft-unified-security-stack",
-      "summary": "Microsoft's Project Perception adds Guardian Agents to monitor and contain anomalous AI agents, but experts warn that policing unpredictable agents with other agents may compound — not contain — the risk.",
-      "date": "2026-10-23T11:38:28Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Azul issues urgent Java security updates following eMudhra certificate compromise",
-      "link": "https://australiancybersecuritymagazine.com.au/azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise/?utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise&utm_source=rss&utm_medium=rss&utm_campaign=azul-issues-urgent-java-security-updates-following-emudhra-certificate-compromise",
-      "summary": "Azul has issued an out-of-cycle security update after the compromise of eight eMudhra intermediate Certificate Authority (CA) certificates, publicly disclosed on 20 October 2026. The compromised certificates could potentially be [...]",
-      "date": "2026-10-23T08:57:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "ACSC (via Google News)",
-      "title": "Critical vulnerabilities in Fortinet products",
-      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOTnZYRjhXNmZuZXh3U2V1Tlo1bHJocHJVczFicFV6b2xpVmVENlpoeUNOdndtc0hSQjdWNERrdWx2SG5sNWp3N3hyU0VPYmVYWGFabTJJU0hfMFRMN1JwcktGREhYdVFteVR1ajRjWmU4Zm9LMmVpYTJuV00zdlhNT0Zn?oc=5",
-      "summary": "Critical vulnerabilities in Fortinet products Cyber.gov.au",
-      "date": "2026-10-23T07:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ],
-      "official": true
     }
   ]
 }
