@@ -1,7 +1,37 @@
 {
-  "last_updated": "2026-11-08T20:24:17Z",
+  "last_updated": "2026-11-09T00:47:55Z",
   "count": 62,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "OneSchool Global expands Dayforce to unify workforce",
+      "link": "https://securitybrief.com.au/story/oneschool-global-expands-dayforce-to-unify-workforce",
+      "summary": "The rollout should cut admin for teachers and give leaders a single view of vacancies, recruitment and compliance across 20 countries.",
+      "date": "2026-11-09T00:39:12Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AISA warns firms not to put AI before cyber basics",
+      "link": "https://securitybrief.com.au/story/aisa-warns-firms-not-to-put-ai-before-cyber-basics",
+      "summary": "Rising attack volumes are exposing firms that still have unpatched systems, poor visibility and unnecessary internet connections, the industry body said.",
+      "date": "2026-11-08T21:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google Cloud launches new security tools for AI agents",
+      "link": "https://securitybrief.com.au/story/google-cloud-launches-new-security-tools-for-ai-agents",
+      "summary": "The rollout aims to help companies patch AI-driven systems faster, as Google adds identity, perimeter and detection controls across its cloud security stack.",
+      "date": "2026-11-08T21:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
     {
       "source": "iTnews",
       "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
@@ -86,42 +116,11 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Nuix launches AI agent for forensic investigations",
-      "link": "https://securitybrief.com.au/story/nuix-launches-ai-agent-for-forensic-investigations",
-      "summary": "Forensic and compliance teams can now trace AI-generated answers back to source documents, a safeguard aimed at court and regulator scrutiny.",
-      "date": "2026-11-06T03:10:12Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
       "source": "iTnews",
       "title": "Tyro finds new CISO",
       "link": "https://www.itnews.com.au/news/tyro-finds-new-ciso-630166?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
       "summary": "Initial focus on harnessing AI to strengthen cyber defences.",
       "date": "2026-11-06T02:12:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Huntress adds new security tools across its platform",
-      "link": "https://securitybrief.com.au/story/huntress-adds-new-security-tools-across-its-platform",
-      "summary": "The latest releases aim to help customers spot and stop identity attacks, brute-force attempts and ransomware spread sooner across Huntress's platform.",
-      "date": "2026-11-06T00:25:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Fortinet brings AI security to Equinix distributed hub",
-      "link": "https://securitybrief.com.au/story/fortinet-brings-ai-security-to-equinix-distributed-hub",
-      "summary": "Enterprises can now inspect AI prompts and responses across clouds and data centres through a validated Fortinet-Equinix architecture.",
-      "date": "2026-11-05T23:42:00Z",
       "tags": [
         "AI & Tools"
       ]
@@ -145,22 +144,7 @@
       "date": "2026-11-05T20:58:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Risky Business",
-          "title": "Risky Business #858 -- The $6.3b laptop",
-          "link": "https://risky.biz/RB858/",
-          "date": "2026-11-04T03:26:14Z"
-        },
-        {
-          "source": "Dark Reading",
-          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-          "date": "2026-11-02T22:27:24Z"
-        }
-      ],
-      "latest": "2026-11-05T20:58:00Z"
+      ]
     },
     {
       "source": "iTnews",
@@ -325,6 +309,16 @@
       "latest": "2026-11-04T04:31:44Z"
     },
     {
+      "source": "Risky Business",
+      "title": "Risky Business #858 -- The $6.3b laptop",
+      "link": "https://risky.biz/RB858/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host Ciaran Martin, former CEO of the UK’s National Cyber Security Centre (NCSC), to talk through the week’s cybersecurity news, including: The $6.3 billion dollar Binance hack turned out to be pretty clunky, but it…",
+      "date": "2026-11-04T03:26:14Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Dark Reading",
       "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
       "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
@@ -383,7 +377,16 @@
       "date": "2026-11-03T20:28:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+          "date": "2026-11-02T22:27:24Z"
+        }
+      ],
+      "latest": "2026-11-03T20:28:00Z"
     },
     {
       "source": "Dark Reading",
@@ -394,16 +397,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "New cyberattack on supermarket fridges sweeps across Europe",
-      "link": "https://www.itnews.com.au/news/new-cyberattack-on-supermarket-fridges-sweeps-across-europe-630074?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Echoes attack in France last month.",
-      "date": "2026-11-02T20:18:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     },
     {
