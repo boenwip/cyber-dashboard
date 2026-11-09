@@ -1,33 +1,78 @@
 {
-  "last_updated": "2026-11-09T00:47:55Z",
-  "count": 62,
+  "last_updated": "2026-11-09T05:59:58Z",
+  "count": 63,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "OneSchool Global expands Dayforce to unify workforce",
-      "link": "https://securitybrief.com.au/story/oneschool-global-expands-dayforce-to-unify-workforce",
-      "summary": "The rollout should cut admin for teachers and give leaders a single view of vacancies, recruitment and compliance across 20 countries.",
-      "date": "2026-11-09T00:39:12Z",
-      "tags": [
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "AISA warns firms not to put AI before cyber basics",
-      "link": "https://securitybrief.com.au/story/aisa-warns-firms-not-to-put-ai-before-cyber-basics",
-      "summary": "Rising attack volumes are exposing firms that still have unpatched systems, poor visibility and unnecessary internet connections, the industry body said.",
-      "date": "2026-11-08T21:30:00Z",
+      "title": "WitFoo says filtering data cuts AI security costs 79%",
+      "link": "https://securitybrief.com.au/story/witfoo-says-filtering-data-cuts-ai-security-costs-79",
+      "summary": "Filtering security logs before they reach AI models could save organisations 79% on annual costs, according to WitFoo's paper.",
+      "date": "2026-11-09T03:31:00Z",
       "tags": [
         "AI & Tools"
       ]
     },
     {
       "source": "Security Brief Australia",
-      "title": "Google Cloud launches new security tools for AI agents",
-      "link": "https://securitybrief.com.au/story/google-cloud-launches-new-security-tools-for-ai-agents",
-      "summary": "The rollout aims to help companies patch AI-driven systems faster, as Google adds identity, perimeter and detection controls across its cloud security stack.",
-      "date": "2026-11-08T21:15:00Z",
+      "title": "Data Governance in Banking: A Framework for Better Data Quality",
+      "link": "https://securitybrief.com.au/story/data-governance-in-banking-a-framework-for-better-data-quality-55fe4633-4003-48ad-867d-686c32ba8191",
+      "summary": "Poor data can undermine compliance, fraud detection and reporting, making strong governance essential for banks handling sensitive customer records.",
+      "date": "2026-11-09T03:12:00Z",
+      "tags": [
+        "Scams",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Risky Business",
+      "title": "Soap Box: Security must be more browser-centric",
+      "link": "https://risky.biz/SOAPBOX112/",
+      "summary": "In this Soap Box episode Patrick Gray chats to Push Security co-founder and CEO Adam Bateman about the benefits of taking a browser-centric approach to security. By now most Risky Business listeners know that Push sells a browser extension-based product that can reliably prevent phishing, ClickFix…",
+      "date": "2026-11-09T02:58:50Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Why ASD's new authentication guidance demands a closer look at passkeys",
+      "link": "https://securitybrief.com.au/story/why-asd-s-new-authentication-guidance-demands-a-closer-look-at-passkeys",
+      "summary": "Phishing-resistant logins are now a baseline expectation, but Australian organisations still need to decide whether synced or hardware-bound passkeys fit the risk.",
+      "date": "2026-11-09T02:53:00Z",
+      "tags": [
+        "AU Cyber",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Four Steps CISOs Can Take To Secure AI-driven Software Development",
+      "link": "https://securitybrief.com.au/story/four-steps-cisos-can-take-to-secure-ai-driven-software-development",
+      "summary": "Without tighter governance, AI-generated code could amplify security flaws and compliance breaches across the software pipeline as adoption accelerates.",
+      "date": "2026-11-09T02:40:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Fortinet lifts full-year outlook after strong third quarter",
+      "link": "https://securitybrief.com.au/story/fortinet-lifts-full-year-outlook-after-strong-third-quarter",
+      "summary": "Strong demand in security and AI helped lift third-quarter revenue 20% to USD $2.08 billion, prompting a higher full-year forecast.",
+      "date": "2026-11-09T02:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australian MSPs face rising demand for AI security advice",
+      "link": "https://securitybrief.com.au/story/australian-msps-face-rising-demand-for-ai-security-advice",
+      "summary": "Nearly six in 10 prospective customers are worried about AI-related threats, pushing Australian MSPs to explain cyber risk in plain language.",
+      "date": "2026-11-09T01:20:00Z",
       "tags": [
         "AI & Tools"
       ]
@@ -74,37 +119,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Reco & Cyera rank AI agent risks from sensitive data",
-      "link": "https://securitybrief.com.au/story/reco-cyera-rank-ai-agent-risks-from-sensitive-data",
-      "summary": "Security teams can now prioritise AI agent exposures by linking permissions to sensitive data across business systems, Reco said.",
-      "date": "2026-11-06T09:30:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Most Australian businesses hit by AI failures, study finds",
-      "link": "https://securitybrief.com.au/story/most-australian-businesses-hit-by-ai-failures-study-finds",
-      "summary": "The report says repeated breakdowns are now hitting operations, compliance and security, with 76% of Australian businesses affected in the past year.",
-      "date": "2026-11-06T09:30:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Web Hole attack targets AI agents via abandoned sites",
-      "link": "https://securitybrief.com.au/story/web-hole-attack-targets-ai-agents-via-abandoned-sites",
-      "summary": "AI agents could be tricked into harmful actions by search results pointing to expired domains that attackers can re-register and poison.",
-      "date": "2026-11-06T09:00:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "UK Warns Its Critical Infrastructure Faces Grave Risk",
       "link": "https://www.darkreading.com/cybersecurity-operations/uk-warns-critical-infrastructure-grave-risk",
@@ -144,7 +158,16 @@
       "date": "2026-11-05T20:58:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+          "date": "2026-11-02T22:27:24Z"
+        }
+      ],
+      "latest": "2026-11-05T20:58:00Z"
     },
     {
       "source": "iTnews",
@@ -377,16 +400,7 @@
       "date": "2026-11-03T20:28:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-          "date": "2026-11-02T22:27:24Z"
-        }
-      ],
-      "latest": "2026-11-03T20:28:00Z"
+      ]
     },
     {
       "source": "Dark Reading",
