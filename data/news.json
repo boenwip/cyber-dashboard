@@ -1,37 +1,117 @@
 {
-  "last_updated": "2026-11-09T15:59:28Z",
-  "count": 63,
+  "last_updated": "2026-11-10T03:28:53Z",
+  "count": 60,
   "items": [
     {
+      "source": "iTnews",
+      "title": "Gov proposes AI safety regulator",
+      "link": "https://www.itnews.com.au/news/gov-proposes-ai-safety-regulator-630244?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Following incident where an AI agent accessed a Medicare data portal.",
+      "date": "2026-11-10T03:49:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "Security Brief Australia",
-      "title": "Kong launches Token Vault to secure AI agent access",
-      "link": "https://securitybrief.com.au/story/kong-launches-token-vault-to-secure-ai-agent-access",
-      "summary": "It aims to curb credential sprawl and reduce the risk of compromised AI agents using persistent secrets to move across enterprise systems.",
-      "date": "2026-11-09T09:30:00Z",
+      "title": "ClickHouse expands with Xata deal into Postgres & AI",
+      "link": "https://securitybrief.com.au/story/clickhouse-expands-with-xata-deal-into-postgres-ai",
+      "summary": "The deal aims to cut the operational sprawl facing companies as AI agents push analytics, transactions, monitoring and security onto one platform.",
+      "date": "2026-11-10T02:39:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Red Hat launches OpenShift 5 with AI troubleshooting",
+      "link": "https://securitybrief.com.au/story/red-hat-launches-openshift-5-with-ai-troubleshooting",
+      "summary": "Customers can now use natural language prompts to diagnose issues and assess upgrade risks on the updated hybrid cloud platform.",
+      "date": "2026-11-10T02:05:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Smartsheet wins Australian IRAP security assessment",
+      "link": "https://securitybrief.com.au/story/smartsheet-wins-australian-irap-security-assessment",
+      "summary": "The assessment should make it easier for Australian agencies and regulated firms to buy Smartsheet, after an independent review cleared its controls for sensitive data.",
+      "date": "2026-11-10T01:53:55Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Sinch launches Australian hosting region for Mailgun",
+      "link": "https://securitybrief.com.au/story/sinch-launches-australian-hosting-region-for-mailgun",
+      "summary": "Banks, hospitals and universities can now keep transactional email data and logs onshore under the new region, easing compliance pressure.",
+      "date": "2026-11-10T01:36:59Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "Ex-ATO deputy commissioner joins BioCatch advisory board focused on government payment fraud",
+      "link": "https://australiancybersecuritymagazine.com.au/ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud&utm_source=rss&utm_medium=rss&utm_campaign=ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud",
+      "summary": "Former Australian Taxation Office (ATO) deputy commissioner John Ford has joined a new BioCatch public-private advisory board that aims to help governments identify and prevent fraud involving tax, welfare and [...]",
+      "date": "2026-11-09T23:41:50Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "French officials blame Iran for refrigerator hacks",
+      "link": "https://www.itnews.com.au/news/french-officials-blame-iran-for-refrigerator-hacks-630226?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Vow retaliation.",
+      "date": "2026-11-09T22:41:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ASD Essentials Raises the Bar for Third-Party Risk to Focus on Outcomes",
+      "link": "https://securitybrief.com.au/story/asd-essentials-raises-the-bar-for-third-party-risk-to-focus-on-outcomes",
+      "summary": "Australian organisations will have to prove supplier risks are fixed, not just assessed, as ASD Essentials replaces checklist-style cyber compliance.",
+      "date": "2026-11-09T22:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Microsoft Fixes RCE Bug in Windows Paint After Weeks of Confusion",
+      "link": "https://www.darkreading.com/application-security/microsoft-rce-bug-windows-paint-confusion",
+      "summary": "Last month, Microsoft disclosed a vulnerability in Microsoft Paint, but messaging regarding a patch was unclear.",
+      "date": "2026-11-09T21:12:24Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Attackers Crash Claude's 'Office Party' Flaw to Run Malicious Code on Linux",
+      "link": "https://www.darkreading.com/endpoint-security/attackers-claude-office-party-flaw-malicious-code-linux",
+      "summary": "Attackers can exploit a flaw in Claude's document-processing tool by creating a temporary file that Anthropic's AI assistant can access and run on a user's machine.",
+      "date": "2026-11-09T18:08:30Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "WitFoo says filtering data cuts AI security costs 79%",
-      "link": "https://securitybrief.com.au/story/witfoo-says-filtering-data-cuts-ai-security-costs-79",
-      "summary": "Filtering security logs before they reach AI models could save organisations 79% on annual costs, according to WitFoo's paper.",
-      "date": "2026-11-09T03:31:00Z",
+      "source": "Dark Reading",
+      "title": "PwC's CISO on AI, Robots & What's Next for Security",
+      "link": "https://www.darkreading.com/cybersecurity-operations/pwc-ciso-ai-robots-security",
+      "summary": "As AI accelerates change across the enterprise, PwC's James Shira explains why security teams must rethink their approach to risk and adapt their strategies.",
+      "date": "2026-11-09T17:17:23Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Data Governance in Banking: A Framework for Better Data Quality",
-      "link": "https://securitybrief.com.au/story/data-governance-in-banking-a-framework-for-better-data-quality-55fe4633-4003-48ad-867d-686c32ba8191",
-      "summary": "Poor data can undermine compliance, fraud detection and reporting, making strong governance essential for banks handling sensitive customer records.",
-      "date": "2026-11-09T03:12:00Z",
-      "tags": [
-        "Scams",
-        "Compliance"
       ]
     },
     {
@@ -43,49 +123,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Why ASD's new authentication guidance demands a closer look at passkeys",
-      "link": "https://securitybrief.com.au/story/why-asd-s-new-authentication-guidance-demands-a-closer-look-at-passkeys",
-      "summary": "Phishing-resistant logins are now a baseline expectation, but Australian organisations still need to decide whether synced or hardware-bound passkeys fit the risk.",
-      "date": "2026-11-09T02:53:00Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Four Steps CISOs Can Take To Secure AI-driven Software Development",
-      "link": "https://securitybrief.com.au/story/four-steps-cisos-can-take-to-secure-ai-driven-software-development",
-      "summary": "Without tighter governance, AI-generated code could amplify security flaws and compliance breaches across the software pipeline as adoption accelerates.",
-      "date": "2026-11-09T02:40:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Fortinet lifts full-year outlook after strong third quarter",
-      "link": "https://securitybrief.com.au/story/fortinet-lifts-full-year-outlook-after-strong-third-quarter",
-      "summary": "Strong demand in security and AI helped lift third-quarter revenue 20% to USD $2.08 billion, prompting a higher full-year forecast.",
-      "date": "2026-11-09T02:15:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian MSPs face rising demand for AI security advice",
-      "link": "https://securitybrief.com.au/story/australian-msps-face-rising-demand-for-ai-security-advice",
-      "summary": "Nearly six in 10 prospective customers are worried about AI-related threats, pushing Australian MSPs to explain cyber risk in plain language.",
-      "date": "2026-11-09T01:20:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -169,16 +206,7 @@
       "date": "2026-11-05T20:58:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
-          "date": "2026-11-02T22:27:24Z"
-        }
-      ],
-      "latest": "2026-11-05T20:58:00Z"
+      ]
     },
     {
       "source": "iTnews",
@@ -276,28 +304,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "Japan to seek early access to software vulnerability data from US AI firms",
-      "link": "https://www.itnews.com.au/news/japan-to-seek-early-access-to-software-vulnerability-data-from-us-ai-firms-630124?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Amid cyberattack surge.",
-      "date": "2026-11-04T20:24:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "No OAIC probe of collapsed VIQ over court transcription work in India",
-      "link": "https://www.itnews.com.au/news/no-oaic-probe-of-collapsed-viq-over-court-transcription-work-in-india-630103?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Regulator sees possible security breach but won't pursue liquidated provider.",
-      "date": "2026-11-04T20:10:00Z",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
-      ]
-    },
-    {
       "source": "Krebs on Security",
       "title": "Tech Firms Dismantle Botnet That Turned 1.3M TV Boxes Into Proxies",
       "link": "https://krebsonsecurity.com/2026/11/tech-firms-dismantle-botnet-that-turned-1-3m-tv-boxes-into-proxies/",
@@ -318,23 +324,14 @@
       "latest": "2026-11-04T16:24:08Z"
     },
     {
-      "source": "iTnews",
-      "title": "NSW Health server targeted in cyber incident",
-      "link": "https://www.itnews.com.au/news/nsw-health-server-targeted-in-cyber-incident-630096?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Cybercrime detectives take over investigation.",
-      "date": "2026-11-04T01:06:00Z",
+      "source": "Australian Cyber Security Magazine",
+      "title": "NSW Police launch Strike Force Civic investigation into NSW Health cyber breach",
+      "link": "https://australiancybersecuritymagazine.com.au/nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach/?utm_source=rss&utm_medium=rss&utm_campaign=nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach&utm_source=rss&utm_medium=rss&utm_campaign=nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach",
+      "summary": "NSW Police have launched a criminal investigation into an alleged cyber security breach affecting NSW Health, with specialist detectives from the State Crime Command’s Cybercrime Squad investigating the incident under [...]",
+      "date": "2026-11-04T04:31:44Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Australian Cyber Security Magazine",
-          "title": "NSW Police launch Strike Force Civic investigation into NSW Health cyber breach",
-          "link": "https://australiancybersecuritymagazine.com.au/nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach/?utm_source=rss&utm_medium=rss&utm_campaign=nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach&utm_source=rss&utm_medium=rss&utm_campaign=nsw-police-launch-strike-force-civic-investigation-into-nsw-health-cyber-breach",
-          "date": "2026-11-04T04:31:44Z"
-        }
-      ],
-      "latest": "2026-11-04T04:31:44Z"
+      ]
     },
     {
       "source": "Risky Business",
@@ -398,16 +395,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "Binance hackers used fake job interview in US$6.3 billion attack",
-      "link": "https://www.itnews.com.au/news/binance-hackers-used-fake-job-interview-in-us63-billion-attack-630092?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "To compromise the ⁠computers of two software engineers.",
-      "date": "2026-11-03T20:28:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "3AM Affiliate Embraces AI-Like Loops in European School Attack",
       "link": "https://www.darkreading.com/data-privacy/3am-affiliate-ai-loops-european-school-attack",
@@ -416,6 +403,16 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "One Compromised Laptop, Billions Lost: The Binance Attack-Path Warning",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/binance-hack-test-attack-paths",
+      "summary": "The record theft shows how weak system separation, inadequate controls, and untested attack possibilities can turn one breach into systemic loss.",
+      "date": "2026-11-02T22:27:24Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -634,58 +631,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "So Many AI Security Benchmarks, but None Tell the Whole Story",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/benchmarking-security-of-ai-models-poses-challenges",
-      "summary": "Measuring artificial intelligence model security gets complex, fast, thanks to a growing patchwork of benchmarks targeting different variables in the equation. But none replace testing against your own code and workflows.",
-      "date": "2026-10-27T00:26:50Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ASD report flags AI-enabled cyber threats as incidents and business losses rise",
-      "link": "https://australiancybersecuritymagazine.com.au/asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise/?utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise&utm_source=rss&utm_medium=rss&utm_campaign=asd-report-flags-ai-enabled-cyber-threats-as-incidents-and-business-losses-rise",
-      "summary": "Australia’s cyber threat environment is becoming increasingly complex as artificial intelligence accelerates malicious activity, cybercrime losses rise and state-sponsored actors continue targeting government, businesses and critical infrastructure, according to the [...]",
-      "date": "2026-10-27T00:26:23Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Risks & Rewards: How AI Is Redefining the CISO's Role",
-      "link": "https://www.darkreading.com/cybersecurity-careers/risks-rewards-ai-redefining-ciso-role",
-      "summary": "Nvidia security executive Mark Weatherford says CISOs must help business leaders weigh AI's pros and cons, and ensure those deploying it own the risks.",
-      "date": "2026-10-26T21:44:33Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "In-the-Wild Attack Abuses AI Agents' Trust in Markdown",
-      "link": "https://www.darkreading.com/application-security/in-the-wild-attack-ai-agents-trust-markdown",
-      "summary": "A new AI agent prompt injection technique exploits how coding assistants consume local instruction files, blurring the line between text documents and executable actions.",
-      "date": "2026-10-26T20:59:26Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "'Gheist' Weaponizes GitHub Tokens to Steal Cloud Secrets",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/gheist-stolen-github-tokens-cloud-secrets",
-      "summary": "An ongoing supply chain attack is harvesting credentials and sensitive data from thousands of developer repositories.",
-      "date": "2026-10-26T18:01:40Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]
