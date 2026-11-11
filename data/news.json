@@ -1,7 +1,108 @@
 {
-  "last_updated": "2026-11-10T15:32:01Z",
-  "count": 62,
+  "last_updated": "2026-11-11T01:13:23Z",
+  "count": 60,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "Ansarada expands AI capabilities to streamline deals with OS Bondi 3.0",
+      "link": "https://securitybrief.com.au/story/ansarada-expands-ai-capabilities-to-streamline-deals-with-os-bondi-3-0",
+      "summary": "OS Bondi 3.0 to cut due diligence time and give deal teams faster risk flags, while keeping sensitive transaction data within a governed secure environment.",
+      "date": "2026-11-10T23:04:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Wiseclick launches cyber membership for small businesses",
+      "link": "https://securitybrief.com.au/story/wiseclick-launches-cyber-membership-for-small-businesses",
+      "summary": "Small firms facing rising scam losses can now buy managed protection from AUD $59 a month, with backups and alert support included.",
+      "date": "2026-11-10T22:30:00Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
+      "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
+      "summary": "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software. This month's Patch Tuesday addresses 63 critical flaws -- including a zero-day in Microsoft Outlook -- and comes amid important…",
+      "date": "2026-11-10T21:55:03Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+          "date": "2026-11-10T22:26:51Z"
+        }
+      ],
+      "latest": "2026-11-10T22:26:51Z"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "date": "2026-11-10T21:01:14Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
+      "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
+      "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
+      "date": "2026-11-10T20:41:45Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Checkmarx Appoints Kobi Sivilya as Chief Information Security Officer",
+      "link": "https://www.darkreading.com/cybersecurity-careers/checkmarx-appoints-kobi-sivilya-chief-information-security-officer",
+      "summary": "Sivilya brings deep cybersecurity and technology leadership to Checkmarx as AI transforms software development.",
+      "date": "2026-11-10T20:35:34Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
+      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
+      "date": "2026-11-08T20:40:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+          "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+          "date": "2026-11-10T18:46:22Z"
+        }
+      ],
+      "latest": "2026-11-10T18:46:22Z"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google Cloud launches IAM Helper for agent access tasks",
+      "link": "https://securitybrief.com.au/story/google-cloud-launches-iam-helper-for-agent-access-tasks",
+      "summary": "That could cut deployment delays for firms using autonomous agents, while keeping higher-risk access changes behind human approval and audit trails.",
+      "date": "2026-11-10T16:45:00Z",
+      "tags": [
+        "Compliance"
+      ]
+    },
     {
       "source": "404 Media",
       "title": "'Reverse Engineer Anything': AI Companies Crack Down on the Coolest Thing People Were Doing With AI",
@@ -17,7 +118,7 @@
       "source": "Dark Reading",
       "title": "AI Makes Reverse Engineering Mainstream Software & Malware Far Easier",
       "link": "https://www.darkreading.com/application-security/ai-reverse-engineering-apps",
-      "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising fresh concerns for defenders.",
+      "summary": "Researchers unpacked, mapped, and recreated complex software and the Turla malware, raising opportunities and concerns for organizations and cybersecurity analysts.",
       "date": "2026-11-10T13:00:00Z",
       "tags": [
         "AU Cyber",
@@ -96,16 +197,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Sinch launches Australian hosting region for Mailgun",
-      "link": "https://securitybrief.com.au/story/sinch-launches-australian-hosting-region-for-mailgun",
-      "summary": "Banks, hospitals and universities can now keep transactional email data and logs onshore under the new region, easing compliance pressure.",
-      "date": "2026-11-10T01:36:59Z",
-      "tags": [
-        "Compliance"
-      ]
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "Ex-ATO deputy commissioner joins BioCatch advisory board focused on government payment fraud",
       "link": "https://australiancybersecuritymagazine.com.au/ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud&utm_source=rss&utm_medium=rss&utm_campaign=ex-ato-deputy-commissioner-joins-biocatch-advisory-board-focused-on-government-payment-fraud",
@@ -116,6 +207,16 @@
       ]
     },
     {
+      "source": "Dark Reading",
+      "title": "People Are Getting Weird About AI",
+      "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
+      "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+      "date": "2026-11-09T23:06:22Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
       "source": "iTnews",
       "title": "French officials blame Iran for refrigerator hacks",
       "link": "https://www.itnews.com.au/news/french-officials-blame-iran-for-refrigerator-hacks-630226?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
@@ -123,17 +224,6 @@
       "date": "2026-11-09T22:41:00Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "ASD Essentials Raises the Bar for Third-Party Risk to Focus on Outcomes",
-      "link": "https://securitybrief.com.au/story/asd-essentials-raises-the-bar-for-third-party-risk-to-focus-on-outcomes",
-      "summary": "Australian organisations will have to prove supplier risks are fixed, not just assessed, as ASD Essentials replaces checklist-style cyber compliance.",
-      "date": "2026-11-09T22:00:00Z",
-      "tags": [
-        "AU Cyber",
-        "Compliance"
       ]
     },
     {
@@ -176,17 +266,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
-      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
-      "date": "2026-11-08T20:40:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -249,27 +328,6 @@
       "tags": [
         "AU Cyber",
         "Scams"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Binance hack prompted US regulators to check in on bank systems",
-      "link": "https://www.itnews.com.au/news/binance-hack-prompted-us-regulators-to-check-in-on-bank-systems-630153?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "For anomalous behavioural detections.",
-      "date": "2026-11-05T20:58:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "iTnews",
-      "title": "Low-privileged accounts on unpatched systems as good as root: OpenAI",
-      "link": "https://www.itnews.com.au/news/low-privileged-accounts-on-unpatched-systems-as-good-as-root-openai-630145?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "AI agents built 948 distinct Linux kernel privilege-escalation exploits in exercise.",
-      "date": "2026-11-05T20:54:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -592,27 +650,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "AI Takes Root in Hospital Corridors, Raises Security Stakes",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-root-hospital-corridors-raised-security-stakes",
-      "summary": "Artificial intelligence is everywhere in healthcare, from doctors' intake forms to cancer screenings. But in some cases, life-and-death uses are outpacing cybersecurity.",
-      "date": "2026-10-28T15:29:06Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Attacker Relentlessly Scans for Credentials by Impersonating AI Bots",
-      "link": "https://www.darkreading.com/cyber-risk/attacker-impersonates-ai-bots-scans-credentials",
-      "summary": "The threat actor lurked behind bots posing as agents from OpenAI, Anthropic, Meta, and others to find exposed data.",
-      "date": "2026-10-28T14:37:52Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Risky Business",
       "title": "Risky Business #857 -- AI FUD intensifies",
       "link": "https://risky.biz/RB857/",
@@ -620,47 +657,6 @@
       "date": "2026-10-28T04:53:56Z",
       "tags": [
         "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "3 Frameworks to Protect CISOs & Orgs Against AI Liability",
-      "link": "https://www.darkreading.com/cyber-risk/3-frameworks-cisos-ai-liability",
-      "summary": "Cyber leaders can get ahead of AI liability with rigorous documentation, transparency, and smart contract negotiations with AI vendors.",
-      "date": "2026-10-27T21:15:03Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "External Teams Chats Anchor 15-Minute Malware Delivery",
-      "link": "https://www.darkreading.com/cloud-security/email-bombing-external-teams-chats-repeatable-access-path",
-      "summary": "Mail bombing is getting a new look with a wide-scale, ongoing social engineering campaign that might be tied to the Black Basta ransomware gang.",
-      "date": "2026-10-27T20:42:40Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "SBOMs Alone Can't Reveal the Scope of a Supply Chain Attack",
-      "link": "https://www.darkreading.com/cyber-risk/sboms-alone-scope-supply-chain-attack",
-      "summary": "A recent Shai-Hulud attack shows defenders need real-time visibility into production code and affected services to respond to supply chain compromises.",
-      "date": "2026-10-27T19:58:06Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Beware the Slasher: AI Could Kill Off Cybersecurity Pros' Skills",
-      "link": "https://www.darkreading.com/cybersecurity-operations/ai-kill-off-cybersecurity-pros-skills",
-      "summary": "Nathan Hamiel outlines potential SecOps horror in the AI midst, as core technical capabilities go the way of reading an atlas or remembering phone numbers.",
-      "date": "2026-10-27T17:43:07Z",
-      "tags": [
         "AI & Tools"
       ]
     }
