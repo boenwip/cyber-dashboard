@@ -1,7 +1,38 @@
 {
-  "last_updated": "2026-11-12T06:59:51Z",
-  "count": 59,
+  "last_updated": "2026-11-12T15:55:44Z",
+  "count": 64,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "BlackFog warns approved AI tools expose sensitive data",
+      "link": "https://securitybrief.com.au/story/blackfog-warns-approved-ai-tools-expose-sensitive-data",
+      "summary": "Nearly half of security leaders have seen sensitive data exposed via AI tools, with most incidents linked to company-approved services, a survey found.",
+      "date": "2026-11-12T14:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Inside an AI Attack Against a US Retailer",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/inside-ai-attack-us-retailer",
+      "summary": "When hand-typed commands failed to breach a US retailer, the attacker turned to AI-generated scripts, achieving lateral movement in minutes.",
+      "date": "2026-11-12T11:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ReliaQuest warns of proxy-backed cyber attacks on logins",
+      "link": "https://securitybrief.com.au/story/reliaquest-warns-of-proxy-backed-cyber-attacks-on-logins",
+      "summary": "Residential proxies are letting impostors bypass location checks and move quickly through cloud systems before defenders can spot the breach.",
+      "date": "2026-11-12T09:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Security Brief Australia",
       "title": "AI in AppSec: Why Finding Vulnerabilities Is No Longer Enough",
@@ -110,7 +141,7 @@
       "source": "Dark Reading",
       "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
       "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
-      "summary": "The RMM provider also released a hotfix as one of recommended mitigations to address public exploits for the alleged zero-days that allow for attacker takeover.",
+      "summary": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
       "date": "2026-11-11T20:05:18Z",
       "tags": [
         "AU Cyber"
@@ -135,16 +166,7 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-          "date": "2026-11-10T21:01:14Z"
-        }
-      ],
-      "latest": "2026-11-11T06:09:15Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -187,6 +209,17 @@
     },
     {
       "source": "Dark Reading",
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "date": "2026-11-10T21:01:14Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
       "title": "F-Secure Identifies 26 Ways AI Can Harm Consumers, and Where to Stop Them",
       "link": "https://www.darkreading.com/application-security/f-secure-26-ways-ai-harm-consumers-where-to-stop-them",
       "summary": "New AI Harms Taxonomy traces how harm moves through AI systems, from misleading chatbot answers to compromised autonomous agents, and identifies where defenses can intervene.",
@@ -207,24 +240,15 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
-      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
-      "date": "2026-11-08T20:40:00Z",
+      "source": "Dark Reading",
+      "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+      "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+      "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations.",
+      "date": "2026-11-10T18:46:22Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
-          "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
-          "date": "2026-11-10T18:46:22Z"
-        }
-      ],
-      "latest": "2026-11-10T18:46:22Z"
+      ]
     },
     {
       "source": "404 Media",
@@ -293,7 +317,7 @@
       "source": "Dark Reading",
       "title": "People Are Getting Weird About AI",
       "link": "https://www.darkreading.com/cyber-risk/people-are-getting-weird-about-ai",
-      "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility.",
+      "summary": "Dark Reading Confidential Episode 22: You can love AI without being blind to cybersecurity being sacrificed for utility. The tendency for humans to anthropomorphize the conversations and interactions we're having with AI is growing into potential delusion.",
       "date": "2026-11-09T23:06:22Z",
       "tags": [
         "AI & Tools"
@@ -349,6 +373,17 @@
       "tags": [
         "AU Cyber",
         "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
+      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
+      "date": "2026-11-08T20:40:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
       ]
     },
     {
