@@ -1,7 +1,119 @@
 {
-  "last_updated": "2026-11-11T14:02:19Z",
-  "count": 60,
+  "last_updated": "2026-11-12T02:14:42Z",
+  "count": 58,
   "items": [
+    {
+      "source": "Security Brief Australia",
+      "title": "How businesses can verify suspicious email requests",
+      "link": "https://securitybrief.com.au/story/how-businesses-can-verify-suspicious-email-requests",
+      "summary": "Businesses can cut the risk of invoice fraud if staff have a clear, trusted route to verify new payment details before money leaves the company.",
+      "date": "2026-11-12T02:07:00Z",
+      "tags": [
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Google Cloud warns AI agents will reshape cyber defence",
+      "link": "https://securitybrief.com.au/story/google-cloud-warns-ai-agents-will-reshape-cyber-defence",
+      "summary": "The shift to machine-speed attacks could leave weekly scans and month-long patching too slow, as autonomous systems take on more security work.",
+      "date": "2026-11-12T01:30:12Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Australia cyber attacks rise 39% as ransomware grows",
+      "link": "https://securitybrief.com.au/story/australia-cyber-attacks-rise-39-as-ransomware-grows",
+      "summary": "Ransomware claims hit a record 1,063 victims in October, even as Australian organisations still faced 2,117 cyber attacks a week, up 39% year on year.",
+      "date": "2026-11-12T01:28:45Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Chinese AI Project Scouts Spies in Taiwan Chip Industry",
+      "link": "https://www.darkreading.com/threat-intelligence/chinese-ai-project-scouts-spies-taiwan-chip-industry",
+      "summary": "The CCP built a Big Data system to scrape reams of information and learn about individuals abroad, to potentially target and exploit them. Think Alice Huang Lite.",
+      "date": "2026-11-12T01:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Nine in 10 Australian firms hit by slow patching risks",
+      "link": "https://securitybrief.com.au/story/nine-in-10-australian-firms-hit-by-slow-patching-risks",
+      "summary": "More than half of respondents said slow patching had already caused a confirmed incident, as AI tools shrink attackers' exploitation window to days.",
+      "date": "2026-11-12T00:56:01Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Japan Pushes Emergency Funding for Cybersecurity as AI-Assisted Breaches Rise",
+      "link": "https://www.darkreading.com/cybersecurity-operations/japan-emergency-funding-cybersecurity-ai-assisted-breaches",
+      "summary": "The package adds public-private cyber responders, an AI-focused team run by the economic ministry, and more leeway to use the government's new active cyber-defense powers.",
+      "date": "2026-11-12T00:00:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cisco bets on unified security to counter AI-led threats",
+      "link": "https://securitybrief.com.au/story/cisco-bets-on-unified-security-to-counter-ai-led-threats",
+      "summary": "Businesses face faster AI-driven attacks as the networking giant folds security, observability and management into one platform.",
+      "date": "2026-11-11T22:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "AI Raises the Stakes for Cyber Resilience",
+      "link": "https://www.darkreading.com/cyber-risk/ai-raises-stakes-cyber-resilience",
+      "summary": "An organization's ability to quickly recover from a business disruption will be a competitive advantage in an era of AI-driven threats and business enablement.",
+      "date": "2026-11-11T21:20:41Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
+      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
+      "date": "2026-11-08T20:40:00Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "N-able Takes N-central Platform Offline After Discovery of 33 Flaws",
+          "link": "https://www.darkreading.com/endpoint-security/n-able-n-central-offline-33-flaws",
+          "date": "2026-11-11T20:05:18Z"
+        }
+      ],
+      "latest": "2026-11-11T20:05:18Z"
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Who Runs the Ransomware Group Qilin?",
+      "link": "https://krebsonsecurity.com/2026/11/who-runs-the-ransomware-group-qilin/",
+      "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over…",
+      "date": "2026-11-11T18:06:01Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Risky Business",
       "title": "Risky Business #859 -- ARTEX damage approaches crisis levels",
@@ -11,27 +123,6 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Six questions to ask your MDR provider",
-      "link": "https://securitybrief.com.au/story/six-questions-to-ask-your-mdr-provider",
-      "summary": "As cloud, AI and machine identities proliferate, many firms may not know whether their MDR provider can spot risks across the whole environment.",
-      "date": "2026-11-11T06:06:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "The trust factor: why your blockchain infrastructure matters in the AI era",
-      "link": "https://securitybrief.com.au/story/the-trust-factor-why-your-blockchain-infrastructure-matters-in-the-ai-era",
-      "summary": "As AI decisions become harder to audit, firms are being pushed to prove data provenance and avoid scaling bad inputs across their operations.",
-      "date": "2026-11-11T06:03:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
       ]
     },
     {
@@ -45,52 +136,11 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "New Relic launches Kubernetes agent in public preview",
-      "link": "https://securitybrief.com.au/story/new-relic-launches-kubernetes-agent-in-public-preview",
-      "summary": "Operations teams facing Kubernetes outages may now get AI-generated fix code, as New Relic opens its incident-response agent to public preview.",
-      "date": "2026-11-11T04:27:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "The AI Era Is Transforming Cyberattacks - Australian Businesses Need a New Defence",
-      "link": "https://securitybrief.com.au/story/the-ai-era-is-transforming-cyberattacks-australian-businesses-need-a-new-defence",
-      "summary": "Australian firms now face attacks that can move in hours, forcing security teams to validate exposure and deploy virtual defences faster.",
-      "date": "2026-11-11T03:51:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "iTnews",
       "title": "App hoster Railway attackers ran up US$740,000 on stolen AI keys",
       "link": "https://www.itnews.com.au/news/app-hoster-railway-attackers-ran-up-us740000-on-stolen-ai-keys-630277?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
       "summary": "AI model gateway OpenRouter declines refunds.",
       "date": "2026-11-11T03:31:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian firms see AI returns but readiness lags",
-      "link": "https://securitybrief.com.au/story/australian-firms-see-ai-returns-but-readiness-lags",
-      "summary": "Yet governance, cyber and workforce readiness are lagging as most firms push AI beyond pilots, Kyndryl research finds.",
-      "date": "2026-11-11T03:10:51Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "SUSE updates platform to manage AI & Linux workloads",
-      "link": "https://securitybrief.com.au/story/suse-updates-platform-to-manage-ai-linux-workloads",
-      "summary": "The update aims to help businesses run AI and traditional systems together as security concerns and operational complexity rise across hybrid estates.",
-      "date": "2026-11-11T03:04:19Z",
       "tags": [
         "AI & Tools"
       ]
@@ -147,24 +197,15 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "\"Don't ask again\" in Anthropic's Claude Code leaks developer secrets",
-      "link": "https://www.itnews.com.au/news/dont-ask-again-in-anthropics-claude-code-leaks-developer-secrets-630203?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "AI vendor looking into fixes after researchers count 2539 exposed credentials.",
-      "date": "2026-11-08T20:40:00Z",
+      "source": "Dark Reading",
+      "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
+      "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
+      "summary": "A command in Claude Code inadvertently saves files with credentials and other sensitive data to public Git repositories, creating security gaps for organizations.",
+      "date": "2026-11-10T18:46:22Z",
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "AI Coding Agents Leak Thousands of Secrets to GitHub",
-          "link": "https://www.darkreading.com/cyber-risk/ai-coding-agents-leak-secrets-github",
-          "date": "2026-11-10T18:46:22Z"
-        }
-      ],
-      "latest": "2026-11-10T18:46:22Z"
+      ]
     },
     {
       "source": "404 Media",
@@ -361,28 +402,6 @@
       "date": "2026-11-05T16:48:36Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "An AI Fraud Kingpin’s Confessions",
-      "link": "https://www.404media.co/an-ai-fraud-kingpins-confessions/",
-      "summary": "An AI fraud kingpin’s rise and fall; voters rejected data centers; and a new fear unlocked.",
-      "date": "2026-11-05T14:30:59Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "404 Media",
-      "title": "The Confessions of an AI Fraud Kingpin",
-      "link": "https://www.404media.co/the-confessions-of-an-ai-fraud-kingpin-onlyfake-owner-nazarenko/",
-      "summary": "Yuriy Nazarenko created ‘OnlyFake’, a site that let anyone churn out realistic fake IDs with AI. Then the North Koreans came knocking.",
-      "date": "2026-11-05T14:16:07Z",
-      "tags": [
-        "AI & Tools",
-        "Scams"
       ]
     },
     {
@@ -619,47 +638,6 @@
       "date": "2026-10-29T20:15:37Z",
       "tags": [
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Claude Model Builds Exploits Across Major Browsers & OSes",
-      "link": "https://www.darkreading.com/application-security/claude-model-exploits-major-browsers-oses",
-      "summary": "An unreleased version of the AI model has found and chained multiple vulnerabilities in Chrome, Safari, Android, Windows, and Linux, Anthropic says.",
-      "date": "2026-10-29T18:15:59Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Shadowy AI Relay Disables OpenAI Codex, Claude Code Sandboxes",
-      "link": "https://www.darkreading.com/threat-intelligence/ai-relay-service-openai-codex-claude-code-sandboxes",
-      "summary": "The enigmatic service is providing popular AI coding tools to mainland China and other regions where OpenAI and Anthropic products are not officially for sale — but with key security features turned off.",
-      "date": "2026-10-29T10:00:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Cyber Vulnerabilities Besiege Italy, Absent Clear Cause",
-      "link": "https://www.darkreading.com/cybersecurity-analytics/cyber-vulnerabilities-besiege-italy",
-      "summary": "Researchers can't quite explain why cyber threats look so different in Italy compared with everywhere else.",
-      "date": "2026-10-29T08:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "GhostAction Hacking Wave Fizzles, but Attackers Lurk on in GitHub",
-      "link": "https://www.darkreading.com/application-security/ghostaction-hacking-wave-fizzles-attackers-github",
-      "summary": "The supply chain attack campaign's shift toward developer endpoints and cloud access signals what could be next for the cybercrime outfit.",
-      "date": "2026-10-28T19:39:00Z",
-      "tags": [
-        "AU Cyber"
       ]
     }
   ]
