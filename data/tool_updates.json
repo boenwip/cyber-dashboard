@@ -1,22 +1,62 @@
 {
-  "last_updated": "2026-11-12T15:55:53Z",
+  "last_updated": "2026-11-13T01:47:22Z",
   "count": 40,
   "items": [
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
-      "link": "https://chromereleases.googleblog.com/2026/11/chrome-for-android-update_02063106877.html",
-      "summary": "Hi, everyone! We've just released Chrome 157 (157.0.8103.78) for Android. It'll become available on Google Play over the next few days. This release includes stability and performance improvements…",
-      "date": "2026-11-11T23:30:00Z"
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-for-android-update_012297226.html",
+      "summary": "Hello Everyone! We've just released Chrome 158 (158.0.8127.36) for Android to a small percentage of users. It'll become available on Google Play over the next few days. You can find more details…",
+      "date": "2026-11-12T23:00:00Z"
+    },
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.323",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.323",
+      "summary": "What's changed Added Code Mode, an experimental opt-in in which Claude writes JavaScript to call its tools; see https://code.claude.com/docs/en/code-mode to turn it on, or to turn it off for an…",
+      "date": "2026-11-12T22:12:13Z"
     },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
-      "title": "Long Term Support Channel Update for ChromeOS",
-      "link": "https://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for.html",
-      "summary": "A new LTS-150 version 150.0.7871.289 (Platform Version: 16700.70.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including: 579818899 High…",
-      "date": "2026-11-11T23:06:31Z"
+      "title": "Early Stable Update for Desktop",
+      "link": "https://chromereleases.googleblog.com/2026/11/early-stable-update-for-desktop_0520415684.html",
+      "summary": "The Stable channel has been updated to 158.0.8127.36/.37 for Windows , Mac will be coming shortly as part of our early stable release to a small percentage of users. A full list of changes in this…",
+      "date": "2026-11-12T21:30:51Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Desktop Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-beta-for-desktop-update_0414360355.html",
+      "summary": "The Chrome team is excited to announce the promotion of Chrome 159 to the Beta channel for Windows, Mac and Linux. Chrome 159.0.8154.6 contains our usual under-the-hood performance and stability…",
+      "date": "2026-11-12T20:13:33Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Stable for iOS Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-stable-for-ios-update_02111478502.html",
+      "summary": "Hi everyone! We've just released Chrome Stable 158 (158.0.8127.35) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements…",
+      "date": "2026-11-12T17:58:34Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-beta-for-android-update_01250189783.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 159 (159.0.8154.4) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
+      "date": "2026-11-12T17:58:32Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Claude 6 Release Date: When Will Claude Opus 6 and Fable 6 Come Out? - Fello AI",
+      "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBDOTIyU1lXSE9mNHVFNWJ6QnJFMWwwV3lxa1VlcUxaUHdVTF80MnBRcl84YmlDMnM5WTZKaE1XU0FYTTA?oc=5",
+      "summary": "Claude 6 Release Date: When Will Claude Opus 6 and Fable 6 Come Out? Fello AI",
+      "date": "2026-11-12T09:05:35Z"
     },
     {
       "source": "Google Workspace Updates",
@@ -35,44 +75,12 @@
       "date": "2026-11-11T21:18:23Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Extended Stable Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/11/extended-stable-update-for-desktop_01570615041.html",
-      "summary": "The Extended Stable channel has been updated to 156.0.8078.100 for Windows and Mac which will roll out over the coming days/weeks. Security Fixes Note: Access to bug details and links may be kept…",
-      "date": "2026-11-11T20:02:29Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for Desktop",
-      "link": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-desktop_01744469280.html",
-      "summary": "The Stable channel has been updated to 157.0.8103.78/.79 for Windows and Mac and 157.0.8103.78 to Linux which will roll out over the coming days/weeks. A full list of changes in this build is…",
-      "date": "2026-11-11T20:02:26Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "With IPO looming, Anthropic launches new AI models, workplace tools - TechTarget",
-      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS1MwT2h1RTlJWFZHV1NGdFFBSkp5a2N0LTdKRnNnaHJQODNjdm1ULWRURTFrTTdPUkhHSTlvQWdqT0hOclZDMnl2NnpvQ19fZEJfbEFDbU5wLWRMOTB6LU9yRURtTjlkbzJPWlJlM1VGSzRqR3RzUVVoeDlyMTU1Mk1GY1Bsc01iTzM1anZ1Mkx0Y3J1LXppN2s2U2VTbGtNNGtjX3c3clA?oc=5",
-      "summary": "With IPO looming, Anthropic launches new AI models, workplace tools TechTarget",
-      "date": "2026-11-11T19:58:59Z"
-    },
-    {
       "source": "Google Workspace Updates",
       "tool": "Google Workspace",
       "title": "Expanding Gemini in Gmail to more Google Workspace users",
       "link": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html",
       "summary": "We’re expanding the availability of some Gemini in Gmail features to more Google Workspace users aged 18 and older. Previously available to consumer accounts and specific Workspace editions, these…",
       "date": "2026-11-10T21:45:00Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Stable for iOS Update",
-      "link": "https://chromereleases.googleblog.com/2026/11/chrome-stable-for-ios-update_01666689214.html",
-      "summary": "Hi everyone! We've just released Chrome Stable 158 (158.0.8127.32) for iOS; it'll become available on App Store in the next few hours. This release includes stability and performance improvements…",
-      "date": "2026-11-10T19:58:32Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -125,6 +133,14 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
+      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
+      "summary": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 Anthropic",
+      "date": "2026-11-10T02:08:56Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
       "title": "Anthropic debuts updated Claude Fable and Mythos models, priced 20% below OpenAI's GPT-6 Astra - Fortune",
       "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
       "summary": "Anthropic debuts updated Claude Fable and Mythos models, priced 20% below OpenAI's GPT-6 Astra Fortune",
@@ -171,30 +187,6 @@
       "date": "2026-11-04T00:01:03Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.317",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
-      "summary": "What's changed Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them Added a check that asks before a web or shell tool call sends…",
-      "date": "2026-11-03T01:25:46Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "The AI advantage your company can keep",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
-      "summary": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI…",
-      "date": "2026-10-27T16:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
-      "summary": "The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work…",
-      "date": "2026-10-08T15:00:00Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
@@ -219,14 +211,6 @@
       "date": "2026-09-29T07:00:00Z"
     },
     {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Introducing the new Copilot with Home, Code and Autopilot",
-      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
-      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
-      "date": "2026-09-25T12:07:25Z"
-    },
-    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog",
@@ -239,7 +223,7 @@
       "tool": "Microsoft 365",
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
+      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
       "date": "2026-09-23T15:00:00Z"
     },
     {
@@ -254,9 +238,25 @@
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
       "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust…",
       "date": "2026-09-15T15:00:00Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
+      "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community…",
+      "date": "2026-09-10T16:00:00Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Build apps in Copilot Cowork and Copilot Studio",
+      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
+      "summary": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared…",
+      "date": "2026-09-10T15:00:00Z"
     },
     {
       "source": "Google News — Canva Updates",
@@ -267,12 +267,12 @@
       "date": "2026-09-08T07:00:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
-      "date": "2026-09-01T18:01:25Z"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "PPCC 2026: Bringing AI and your business processes together",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
+      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
+      "date": "2026-09-03T15:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
