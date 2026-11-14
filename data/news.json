@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-11-14T06:06:42Z",
-  "count": 60,
+  "last_updated": "2026-11-14T14:58:20Z",
+  "count": 61,
   "items": [
+    {
+      "source": "iTnews",
+      "title": "Phishers quick to exploit extended M365 outage",
+      "link": "https://www.itnews.com.au/news/phishers-quick-to-exploit-extended-m365-outage-630347?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Fake service health notices threaten to delete \"held\" email unless recipients click to restore it.",
+      "date": "2026-11-14T09:49:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "Dark Reading",
       "title": "ArcticRAT Cybercrime Gang Profiles Victim Finances With AI",
@@ -47,16 +57,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Binance says fake hiring plot fuelled USD $6.3bn theft",
-      "link": "https://securitybrief.com.au/story/binance-says-fake-hiring-plot-fuelled-usd-6-3bn-theft",
-      "summary": "The breach began months earlier with a tampered software package and a fake recruitment process that helped attackers reach privileged wallet staff.",
-      "date": "2026-11-13T16:15:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
       "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
@@ -64,7 +64,16 @@
       "date": "2026-11-13T13:00:00Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Security Brief Australia",
+          "title": "Binance says fake hiring plot fuelled USD $6.3bn theft",
+          "link": "https://securitybrief.com.au/story/binance-says-fake-hiring-plot-fuelled-usd-6-3bn-theft",
+          "date": "2026-11-13T16:15:00Z"
+        }
+      ],
+      "latest": "2026-11-13T16:15:00Z"
     },
     {
       "source": "Security Brief Australia",
@@ -243,6 +252,16 @@
       ]
     },
     {
+      "source": "Dark Reading",
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+      "date": "2026-11-10T22:26:51Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
       "source": "Krebs on Security",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -250,16 +269,7 @@
       "date": "2026-11-10T21:55:03Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-          "date": "2026-11-10T22:26:51Z"
-        }
-      ],
-      "latest": "2026-11-10T22:26:51Z"
+      ]
     },
     {
       "source": "Dark Reading",
