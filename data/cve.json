@@ -1,7 +1,25 @@
 {
-  "last_updated": "2026-11-13T14:52:13Z",
+  "last_updated": "2026-11-14T06:06:46Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-114713",
+      "name": "UnrealIRCd UnrealIRCd",
+      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are…",
+      "date_added": "2026-11-13",
+      "due_date": "2026-11-16",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "id": "CVE-2026-123039",
+      "name": "Check Point Multiple Products",
+      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources…",
+      "date_added": "2026-11-13",
+      "due_date": "2026-11-16",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
     {
       "id": "CVE-2026-124194",
       "name": "Microsoft Office",
@@ -73,24 +91,6 @@
       "due_date": "2026-11-12",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
-    },
-    {
-      "id": "CVE-2026-116779",
-      "name": "SignalWire FreeSwitch",
-      "description": "SignalWire FreeSwitch contains a code injection vulnerability that permits configuration and credential disclosure, arbitrary call control, and command execution.",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-116779"
-    },
-    {
-      "id": "CVE-2026-123218",
-      "name": "IBM Aspera Faspex",
-      "description": "IBM Aspera Faspex contains an incorrect authorization vulnerability that could allow an authenticated user to craft a specific message to bypass authorization, causing privilege escalations.",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123218"
     }
   ]
 }
