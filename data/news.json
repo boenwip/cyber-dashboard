@@ -1,7 +1,17 @@
 {
-  "last_updated": "2026-11-15T06:13:02Z",
-  "count": 61,
+  "last_updated": "2026-11-15T15:36:31Z",
+  "count": 60,
   "items": [
+    {
+      "source": "404 Media",
+      "title": "This Comic Kills Technofascists",
+      "link": "https://www.404media.co/this-comic-kills-technofascists/",
+      "summary": "'Exploit' is an action thriller inspired by the battle raging right now between the tech oligarchy and the independent press.",
+      "date": "2026-11-15T13:00:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
     {
       "source": "iTnews",
       "title": "Phishers quick to exploit extended M365 outage",
@@ -252,16 +262,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
-      "date": "2026-11-10T22:26:51Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Krebs on Security",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -269,7 +269,16 @@
       "date": "2026-11-10T21:55:03Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+          "date": "2026-11-10T22:26:51Z"
+        }
+      ],
+      "latest": "2026-11-10T22:26:51Z"
     },
     {
       "source": "Dark Reading",
@@ -489,18 +498,6 @@
       "tags": [
         "AI & Tools"
       ]
-    },
-    {
-      "source": "ACSC (via Google News)",
-      "title": "Open-weight AI models: Opportunities and cyber security risks",
-      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRW5FNFF0al9LT1NZOXR6RGs2SjNJaVhRZHJPZDRMclBvMVBhZU0zYzlDR0V2N2NTS1hBQTZPMjFZTkRtbnhLcUxhTTNPbEFDSzBFYjF3NmIwVEdiMlZzTTlmSXROb2tJdlFRdWx2NzVuZWdvX0ktVURITlNWYnB2ME1uZkhyVXd0eVJLUEROU0VfTlZ6cU1wS195c2Z6QQ?oc=5",
-      "summary": "Open-weight AI models: Opportunities and cyber security risks Australian Cyber Security",
-      "date": "2026-11-05T08:00:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ],
-      "official": true
     },
     {
       "source": "Krebs on Security",
