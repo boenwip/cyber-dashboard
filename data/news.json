@@ -1,15 +1,37 @@
 {
-  "last_updated": "2026-11-16T00:57:50Z",
+  "last_updated": "2026-11-16T06:08:56Z",
   "count": 64,
   "items": [
     {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACS renews call for sovereign risk review after Microsoft outage disrupts Australian services",
-      "link": "https://australiancybersecuritymagazine.com.au/acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services/?utm_source=rss&utm_medium=rss&utm_campaign=acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services&utm_source=rss&utm_medium=rss&utm_campaign=acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services",
-      "summary": "The Australian Computer Society (ACS) has renewed its call for a national review of sovereign risk in Australian IT after a Microsoft outage disrupted access to email, Teams and Copilot [...]",
-      "date": "2026-11-16T00:22:09Z",
+      "source": "Security Brief Australia",
+      "title": "FinTech Australia launches anti-scam forum for payments",
+      "link": "https://securitybrief.com.au/story/fintech-australia-launches-anti-scam-forum-for-payments",
+      "summary": "The new group aims to close intelligence gaps as scams spread across non-bank payments and digital asset transfers beyond banking safeguards.",
+      "date": "2026-11-16T04:22:00Z",
       "tags": [
-        "AI & Tools"
+        "Scams"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Securing the leap to autonomous AI",
+      "link": "https://securitybrief.com.au/story/securing-the-leap-to-autonomous-ai",
+      "summary": "Employee trust could slow the shift to autonomous AI unless firms set clear limits, oversight and audit trails for machine-led actions.",
+      "date": "2026-11-16T02:23:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "How AI Is Transforming Email Verification",
+      "link": "https://securitybrief.com.au/story/how-ai-is-transforming-email-verification",
+      "summary": "AI is helping firms cut bounce rates, spot fraud and recheck stale addresses, but it still cannot prove a mailbox is live.",
+      "date": "2026-11-16T02:14:00Z",
+      "tags": [
+        "AI & Tools",
+        "Scams"
       ]
     },
     {
@@ -19,7 +41,47 @@
       "summary": "Says no evidence of data being \"compromised or removed\".",
       "date": "2026-11-15T23:11:00Z",
       "tags": [
+        "AU Cyber",
+        "Scams"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Coles probes cyber security incident as Woolworths customers report digital gift card fraud",
+          "link": "https://australiancybersecuritymagazine.com.au/coles-probes-cyber-security-incident-as-woolworths-customers-report-digital-gift-card-fraud/?utm_source=rss&utm_medium=rss&utm_campaign=coles-probes-cyber-security-incident-as-woolworths-customers-report-digital-gift-card-fraud&utm_source=rss&utm_medium=rss&utm_campaign=coles-probes-cyber-security-incident-as-woolworths-customers-report-digital-gift-card-fraud",
+          "date": "2026-11-16T02:07:41Z"
+        }
+      ],
+      "latest": "2026-11-16T02:07:41Z"
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "ANZ IT leaders face rising data centre costs & cyber risk",
+      "link": "https://securitybrief.com.au/story/anz-it-leaders-face-rising-data-centre-costs-cyber-risk",
+      "summary": "Higher data centre bills and frequent cyberattacks are forcing ANZ IT leaders to shift budgets towards backup and recovery, a survey finds.",
+      "date": "2026-11-16T01:53:48Z",
+      "tags": [
         "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Horizon3 launches lab for AI cyber defence research",
+      "link": "https://securitybrief.com.au/story/horizon3-launches-lab-for-ai-cyber-defence-research",
+      "summary": "The research could help security teams close real-world attack paths faster by training AI on verified data from live systems, rather than simulations.",
+      "date": "2026-11-16T00:59:57Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "ACS renews call for sovereign risk review after Microsoft outage disrupts Australian services",
+      "link": "https://australiancybersecuritymagazine.com.au/acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services/?utm_source=rss&utm_medium=rss&utm_campaign=acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services&utm_source=rss&utm_medium=rss&utm_campaign=acs-renews-call-for-sovereign-risk-review-after-microsoft-outage-disrupts-australian-services",
+      "summary": "The Australian Computer Society (ACS) has renewed its call for a national review of sovereign risk in Australian IT after a Microsoft outage disrupted access to email, Teams and Copilot [...]",
+      "date": "2026-11-16T00:22:09Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -51,16 +113,6 @@
       "tags": [
         "AI & Tools",
         "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Australian firms face wave of AI cyber threats, ESET says",
-      "link": "https://securitybrief.com.au/story/australian-firms-face-wave-of-ai-cyber-threats-eset-says",
-      "summary": "A survey of 400 decision-makers found 66% of Australian businesses faced at least one AI-related cyber threat in the past year.",
-      "date": "2026-11-15T21:00:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -105,29 +157,6 @@
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Guardz adds Prisma Browser to MSP security platform",
-      "link": "https://securitybrief.com.au/story/guardz-adds-prisma-browser-to-msp-security-platform",
-      "summary": "Small business MSPs can now tie browser events to email, identity and endpoint alerts, closing gaps as phishing and AI tool misuse rise.",
-      "date": "2026-11-13T17:15:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Eclypsium spotlights AI hardware attack blind spot",
-      "link": "https://securitybrief.com.au/story/eclypsium-spotlights-ai-hardware-attack-blind-spot",
-      "summary": "Researchers have shown a compromised DPU can change AI outputs in memory, exposing gaps in checks that only verify saved model files.",
-      "date": "2026-11-13T16:30:00Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "Attackers in Binance Breach Targeted Known Weakness, Missing Controls",
       "link": "https://www.darkreading.com/cybersecurity-operations/attackers-binance-breach-targeted-weakness-missing-controls",
@@ -135,16 +164,7 @@
       "date": "2026-11-13T13:00:00Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Security Brief Australia",
-          "title": "Binance says fake hiring plot fuelled USD $6.3bn theft",
-          "link": "https://securitybrief.com.au/story/binance-says-fake-hiring-plot-fuelled-usd-6-3bn-theft",
-          "date": "2026-11-13T16:15:00Z"
-        }
-      ],
-      "latest": "2026-11-13T16:15:00Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -289,7 +309,16 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+          "date": "2026-11-10T21:01:14Z"
+        }
+      ],
+      "latest": "2026-11-11T06:09:15Z"
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -329,17 +358,6 @@
         }
       ],
       "latest": "2026-11-10T22:26:51Z"
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
-      "date": "2026-11-10T21:01:14Z",
-      "tags": [
-        "AU Cyber",
-        "AI & Tools"
-      ]
     },
     {
       "source": "Dark Reading",
@@ -638,16 +656,6 @@
       "date": "2026-11-04T00:09:46Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "ACS warns Qantas supplier incident highlights data sovereignty and essential services risk",
-      "link": "https://australiancybersecuritymagazine.com.au/acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk/?utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk&utm_source=rss&utm_medium=rss&utm_campaign=acs-warns-qantas-supplier-incident-highlights-data-sovereignty-and-essential-services-risk",
-      "summary": "The Australian Computer Society (ACS) has called for stronger scrutiny of technology supply chains and cyber preparedness after a cyber incident involving Qantas technology supplier Amadeus, arguing it raises “urgent [...]",
-      "date": "2026-11-04T00:06:17Z",
-      "tags": [
-        "Compliance"
       ]
     },
     {
