@@ -1,7 +1,55 @@
 {
-  "last_updated": "2026-11-16T16:20:22Z",
+  "last_updated": "2026-11-17T03:45:01Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.326",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
+      "summary": "What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an…",
+      "date": "2026-11-16T22:11:05Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Share skills and add files from Google Drive, Gemini Notebook and Google Photos to your skills in the Gemini app",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/share-skills-add-files-from-Drive-Notebook-Photos-to-skills-Gemini-app.html",
+      "summary": "We recently launched skills—reusable, custom instructions that guide Gemini—in the Gemini app, and we’re now introducing two additional capabilities: Shareable skills: You can now share any skill…",
+      "date": "2026-11-16T21:25:28Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Pics upgrades to Nano Banana 2.1 for higher-quality image generation and editing",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/google-pics-upgrades-to-nano-banana-21-for-higher-quality-image-generation-and-editing.html",
+      "summary": "Today, we’re upgrading Google Pics to Nano Banana 2.1 , bringing higher visual quality, stronger edit fidelity, and sharper text rendering across all existing generation and editing features. With…",
+      "date": "2026-11-16T18:31:33Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "More detail for Google Classroom log events in the Admin console",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/more-detail-google-classroom-log-events-admin.html",
+      "summary": "Google Classroom log events now include two additional fields, Actor application name and User device ID, as new columns in both the audit and investigation tool and the security investigation tool…",
+      "date": "2026-11-16T18:18:37Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Review edits across Microsoft Word and Google Docs without converting files",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/review-edits-across-microsoft-word-docx-and-Google-Docs-files.html",
+      "summary": "Google Docs makes it easy to work across file formats, letting you view and edit Microsoft Office files directly in Docs without converting them. Now, we’re making cross-platform collaboration even…",
+      "date": "2026-11-16T17:07:54Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Easily customize and extend Google Workspace with Gemini in Apps Script",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/customize-and-extend-workspace-with-apps-script.html",
+      "summary": "Google Apps Script is a powerful way to customize, connect and automate in Workspace, built right into Google Sheets, Docs, Slides, and Forms under Extensions > Apps Script . Now, with the Gemini…",
+      "date": "2026-11-16T15:39:28Z"
+    },
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
@@ -25,14 +73,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
       "summary": "What's changed Fixed a security issue in how zstd-compressed responses are decoded Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Claude…",
       "date": "2026-11-13T20:40:01Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Weekly Recap - November 13, 2026",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-13-2026.html",
-      "summary": "Quickly confirm system-applied classification labels in Google Drive, Docs, Sheets, and Slides We’re making it faster to confirm automatically applied classification labels in Google Drive, Docs…",
-      "date": "2026-11-13T18:25:53Z"
     },
     {
       "source": "Google Chrome Releases",
@@ -75,38 +115,6 @@
       "date": "2026-11-12T21:30:51Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Publish a Sheets canvas as a standalone link",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/publish-sheets-canvas-as-standalone-link.html",
-      "summary": "Earlier this year we introduced Sheets canvas , which uses Gemini to turn spreadsheet data into interactive mini-apps like dashboards, kanban boards, and calendars. Starting today, you can publish a…",
-      "date": "2026-11-11T21:58:56Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Organize and communicate complex information with numbered and nested lists in Google Chat",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/organize-and-communicate-complex-information-with-numbered-and-nested-lists-in-Google-Chat.html",
-      "summary": "You can now use numbered lists and nested lists in your Google Chat messages. Numbered lists work well for step-by-step instructions, rankings, and agendas. Nested lists let you break a main point…",
-      "date": "2026-11-11T21:18:23Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Expanding Gemini in Gmail to more Google Workspace users",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/expanding-gemini-in-gmail-to-more-Google-Workspace-users.html",
-      "summary": "We’re expanding the availability of some Gemini in Gmail features to more Google Workspace users aged 18 and older. Previously available to consumer accounts and specific Workspace editions, these…",
-      "date": "2026-11-10T21:45:00Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Schedule meetings in a single click from conversations in Google Chat",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/schedule-meetings-in-single-click-from-conversations-in-Google-Chat.html",
-      "summary": "With help from Gemini, we’re making it easier than ever to schedule meetings directly from conversations in Google Chat. When someone in a Chat conversation with up to five members suggests finding a…",
-      "date": "2026-11-10T16:32:49Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "What’s new in Power Platform: October/November 2026 feature update - Microsoft",
@@ -147,14 +155,6 @@
       "date": "2026-11-09T18:56:17Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.319",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
-      "summary": "What's changed Changed auto mode with telemetry or feature flags off, including behind LLM gateways: calls the server can't check are asked about or denied, with no fallback to the built-in…",
-      "date": "2026-11-06T17:04:01Z"
-    },
-    {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
       "title": "Introducing Claude Haiku 5.5 - Anthropic",
@@ -165,10 +165,10 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
-      "title": "DevDay 2026 Recap - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
-      "summary": "DevDay 2026 Recap OpenAI",
-      "date": "2026-09-29T07:00:00Z"
+      "title": "Building advertising for the way people use AI - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
+      "summary": "Building advertising for the way people use AI OpenAI",
+      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -176,6 +176,14 @@
       "title": "Introducing dots - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
       "summary": "Introducing dots OpenAI",
+      "date": "2026-09-29T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "DevDay 2026 Recap - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBPODc0MlB3RGcyUzMtMUZsd2VJX2ZTcE5qbC1jZVVURi1FUGJrM1o0QVMtWnQyLVNhS0JuYjE2cFdmV3pvLTc3WDJPUi1NWmVJcGZNQnhn?oc=5",
+      "summary": "DevDay 2026 Recap OpenAI",
       "date": "2026-09-29T07:00:00Z"
     },
     {
@@ -269,26 +277,10 @@
     {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "Copilot in Excel: Built for the era of Frontier Finance - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPSkx2dFBvQzhUbklTWThDT2w5ZkxUWjFmcFhWd09tX0ZMdDNxcE5VaE1FaXZBTWJaMWlGN08xcnBjekJDbVdleTllcnFuQ2dhdFdiNW1oaHZ3UmFrSW5WeVdIUWsycDFBTGVnbXZwUmdSOTZxV3Vlc29XS3prbDBsa2JnbkhWVGtSNXhTQXFtZ3E1QU9vNHdmb1U4NWZHdW96U2lmMy12TGZSc0JFS25DYQ?oc=5",
-      "summary": "Copilot in Excel: Built for the era of Frontier Finance Microsoft",
-      "date": "2026-06-25T07:00:00Z"
-    },
-    {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
       "title": "Microsoft 365: A guide to the updates - Computerworld",
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "2026-06-21T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Dreaming: Better memory for a more helpful ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBOd2FyMkVXZ01LRFZHMHZ2Wk1HeTlSOEMtNGd0azhKMi1tT0JZWkZVaHR3UUdFS0NMUzZpNEtIcExsaVo3Y1BON3ExVWR6a3F3bkp6Y1FvV2s0bGZCWFE?oc=5",
-      "summary": "Dreaming: Better memory for a more helpful ChatGPT OpenAI",
-      "date": "2026-06-04T07:00:00Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -321,6 +313,14 @@
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
       "summary": "Canva releases first major update to its free Affinity software CG Channel",
       "date": "2026-03-18T07:00:00Z"
+    },
+    {
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Google Workspace vs. Microsoft 365: What’s the best office suite for business? - Computerworld",
+      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
+      "summary": "Google Workspace vs. Microsoft 365: What’s the best office suite for business? Computerworld",
+      "date": "2026-03-04T08:00:00Z"
     }
   ]
 }
