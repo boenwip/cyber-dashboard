@@ -1,15 +1,94 @@
 {
-  "last_updated": "2026-11-17T17:33:56Z",
-  "count": 66,
+  "last_updated": "2026-11-18T02:52:00Z",
+  "count": 68,
   "items": [
     {
+      "source": "iTnews",
+      "title": "Hijacked website testing tool plants card skimmer on Australian brands’ sites",
+      "link": "https://www.itnews.com.au/news/hijacked-website-testing-tool-plants-card-skimmer-on-australian-brands-sites-630407?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Telco, bank and super fund sites among 178 hit through Optimizely breach.",
+      "date": "2026-11-18T03:01:00Z",
+      "tags": [
+        "AU Cyber"
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
+          "link": "https://www.darkreading.com/cyber-risk/optimizely-malware-attacks-third-party-vendor-risks",
+          "date": "2026-11-17T22:34:22Z"
+        }
+      ],
+      "latest": "2026-11-18T03:01:00Z"
+    },
+    {
       "source": "Security Brief Australia",
-      "title": "GitLab & RapidFort launch hardened image partnership",
-      "link": "https://securitybrief.com.au/story/gitlab-rapidfort-launch-hardened-image-partnership",
-      "summary": "Regulated and air-gapped users can now get continuously patched GitLab images with audit-ready evidence, without changing code or workflows.",
-      "date": "2026-11-17T17:15:00Z",
+      "title": "Australia's energy transition has an identity security problem",
+      "link": "https://securitybrief.com.au/story/australia-s-energy-transition-has-an-identity-security-problem",
+      "summary": "More remote access and distributed assets are leaving power firms exposed to credential theft, with compromised accounts implicated in 19 per cent of incidents.",
+      "date": "2026-11-18T02:42:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Five Years Ago, Nine in Ten Cyber Ransom Styled Events Hit the USA. Now Half Hit The Rest Of the World",
+      "link": "https://securitybrief.com.au/story/five-years-ago-nine-in-ten-cyber-ransom-styled-events-hit-the-usa-now-half-hit-the-rest-of-the-world",
+      "summary": "Claims are now spreading beyond the US as attackers favour data theft and extortion, with New Zealand firms increasingly in their sights.",
+      "date": "2026-11-18T02:15:00Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Schools urged to tighten AI rules amid cyber risks",
+      "link": "https://securitybrief.com.au/story/schools-urged-to-tighten-ai-rules-amid-cyber-risks",
+      "summary": "Education leaders say tighter oversight is needed as schools face rising cyber threats and AI tools that could expose sensitive student data.",
+      "date": "2026-11-18T02:08:08Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Lockheed Martin backs Nozomi's automated defence checks",
+      "link": "https://securitybrief.com.au/story/lockheed-martin-backs-nozomi-s-automated-defence-checks",
+      "summary": "Defence contractors could cut manual compliance work as the project aims to automate security checks across operational systems and sensitive networks.",
+      "date": "2026-11-18T01:54:36Z",
       "tags": [
         "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium launches AgentSight to track AI agents on devices",
+      "link": "https://securitybrief.com.au/story/tanium-launches-agentsight-to-track-ai-agents-on-devices",
+      "summary": "It gives IT and security teams a way to spot unsanctioned AI tools on devices and link each agent to a user, even offline.",
+      "date": "2026-11-18T01:49:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Tanium launches AgentSight to govern AI tools on endpoints",
+      "link": "https://securitybrief.com.au/story/tanium-launches-agentsight-to-govern-ai-tools-on-endpoints",
+      "summary": "The move gives security teams visibility into unsanctioned AI tools on employee devices, as firms struggle to control software running outside IT approval.",
+      "date": "2026-11-18T01:45:02Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Semperis launches Lightning to bolster AI identity security",
+      "link": "https://securitybrief.com.au/story/semperis-launches-lightning-to-bolster-ai-identity-security",
+      "summary": "As Australian firms adopt AI systems, the new platform aims to help teams spot and respond to identity attacks across human and machine accounts.",
+      "date": "2026-11-18T01:34:14Z",
+      "tags": [
+        "AI & Tools"
       ]
     },
     {
@@ -17,50 +96,61 @@
       "title": "Vulnerabilities are moving quickly, so patch, protect, prevent",
       "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDZUR0oyZ1NOSnlOamdoNEVsQjRmNGwzUGg1TnlpUjlwV0g0SUZsMnR5THNrM25QVkhOTU5vRzhTTXBudW9ieGxfVEN1c18xNnU5YVk1Qk1PZEc4WGEyRkNfd0w3WDg4NUd5c3BIbWJ2VmpyUUJXWGlYem9WT3BWTENQUjUxV2JKdElwRHREYmJuWDZC?oc=5",
       "summary": "Vulnerabilities are moving quickly, so patch, protect, prevent Australian Cyber Security",
-      "date": "2026-11-17T10:17:59Z",
+      "date": "2026-11-17T12:00:00Z",
       "tags": [
         "AU Cyber"
       ],
-      "official": true
+      "official": true,
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "ACSC warns vulnerabilities are being exploited quickly, urges organisations to patch and reduce exposure",
+          "link": "https://australiancybersecuritymagazine.com.au/acsc-warns-vulnerabilities-are-being-exploited-quickly-urges-organisations-to-patch-and-reduce-exposure/?utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-vulnerabilities-are-being-exploited-quickly-urges-organisations-to-patch-and-reduce-exposure&utm_source=rss&utm_medium=rss&utm_campaign=acsc-warns-vulnerabilities-are-being-exploited-quickly-urges-organisations-to-patch-and-reduce-exposure",
+          "date": "2026-11-17T23:44:02Z"
+        }
+      ],
+      "latest": "2026-11-17T23:44:02Z"
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Ransomware leak-site listings surge 30% in quarter",
-      "link": "https://securitybrief.com.au/story/ransomware-leak-site-listings-surge-30-in-quarter",
-      "summary": "Most of the jump came from newly observed groups, casting doubt on whether ransomware activity itself really rose by 30%.",
-      "date": "2026-11-17T09:30:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cohesity wins Cisco partner growth award for second year",
-      "link": "https://securitybrief.com.au/story/cohesity-wins-cisco-partner-growth-award-for-second-year",
-      "summary": "Recognition highlights the growing appeal of Cisco-linked data protection tools as customers seek integrated security and AI infrastructure.",
-      "date": "2026-11-17T09:15:00Z",
-      "tags": [
-        "AI & Tools",
-        "Compliance"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Cohesity expands Microsoft backup & AI data access",
-      "link": "https://securitybrief.com.au/story/cohesity-expands-microsoft-backup-ai-data-access",
-      "summary": "The update broadens backup, recovery and threat scanning for Azure, Microsoft 365 and GitHub, while linking data to Databricks for AI use.",
-      "date": "2026-11-17T09:15:00Z",
+      "source": "iTnews",
+      "title": "Microsoft unveils AI models for coding and cyber security",
+      "link": "https://www.itnews.com.au/news/microsoft-unveils-ai-models-for-coding-and-cyber-security-630419?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "To challenge rivals such as Anthropic and OpenAI.",
+      "date": "2026-11-17T21:11:00Z",
       "tags": [
         "AI & Tools"
       ]
     },
     {
-      "source": "Security Brief Australia",
-      "title": "Atsign launches EdgeAI to secure distributed AI systems",
-      "link": "https://securitybrief.com.au/story/atsign-launches-edgeai-to-secure-distributed-ai-systems",
-      "summary": "The package is aimed at firms scaling AI across multiple sites, where mixed networks and security rules often slow roll-outs and raise risk.",
-      "date": "2026-11-17T09:00:00Z",
+      "source": "Dark Reading",
+      "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
+      "link": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
+      "summary": "The commercial kit uses attacker-supplied AI models to personalize lures, evade spam filters, and scale campaigns to tens of thousands of targets.",
+      "date": "2026-11-17T20:58:13Z",
       "tags": [
+        "AU Cyber",
+        "AI & Tools",
+        "Scams"
+      ]
+    },
+    {
+      "source": "Google News — Bleeping Computer AU",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack - BleepingComputer",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTHhRTWZ0WnNxM2ZvV3VLZThMdVlPejFTOVJMYVhJMm1ibWh3X0I1QnRGdWNtdWtrX1BCSG5sTXFEVDhuaEVtWldDdE9FdHdVeldaX3EyRHNsU3RqN2VQc19mQlgwY1E2SjR3Z0tZamloWkZKM0dWdGJuSGdjdHNxYzU5bXRJMWV5bTlyMGtfSF91cEQ1bkhyNDNPNE5RV2N0cV92MFp3NGF1a0k?oc=5",
+      "summary": "Japan takes Fugaku supercomputer offlline after cyberattack BleepingComputer",
+      "date": "2026-11-17T20:51:21Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Cursor Traces Malicious Claude Code Extension to Third-Party Breach",
+      "link": "https://www.darkreading.com/application-security/cursor-malicious-claude-code-extension-third-party-breach",
+      "summary": "A compromised key issued to AI infrastructure provider Fireworks was used by threat actors to access Cursor data and credentials.",
+      "date": "2026-11-17T18:38:37Z",
+      "tags": [
+        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -71,27 +161,6 @@
       "summary": "The Business: ASIC Chair says AI has the potential to supercharge risks to consumers The Business ABC iview",
       "date": "2026-11-17T08:48:03Z",
       "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Vosker launches enterprise unit after Reconeyez deal",
-      "link": "https://securitybrief.com.au/story/vosker-launches-enterprise-unit-after-reconeyez-deal",
-      "summary": "Customers in remote and hard-to-service sites will get one supplier for intrusion detection and cellular cameras after VOSKER folded Reconeyez into Enterprise.",
-      "date": "2026-11-17T08:45:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Google warns of autonomous AI attacks finding flaws",
-      "link": "https://securitybrief.com.au/story/google-warns-of-autonomous-ai-attacks-finding-flaws",
-      "summary": "Attackers are compressing intrusion timelines to minutes as autonomous AI systems identify flaws and draft exploits without human help.",
-      "date": "2026-11-17T04:53:40Z",
-      "tags": [
-        "AU Cyber",
         "AI & Tools"
       ]
     },
@@ -129,7 +198,7 @@
     },
     {
       "source": "Dark Reading",
-      "title": "Ransomware Attacks Increase Behind AI, But Payments Decline",
+      "title": "Ransomware Attacks Increase Behind AI, but Payments Decline",
       "link": "https://www.darkreading.com/threat-intelligence/ransomware-attacks-increase-ai-payments-decline",
       "summary": "Large language models and other AI systems allow a growing number of ransomware groups to create convincing phishing emails and identify sensitive data quickly.",
       "date": "2026-11-16T19:56:05Z",
@@ -305,16 +374,6 @@
       ]
     },
     {
-      "source": "Google News — Bleeping Computer AU",
-      "title": "Hackers plant GSocket on Linux servers for persistent access - BleepingComputer",
-      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYk9NeEd4dmJOUjJaeU8zbUh0Qjk5d0NNTmFka2ZUa0FoR2FxTTlMbHBZcnJyblNzdHktTmtqMDIyaVoydnFRUktFOFFlZEMyY3BBdWV6QTE0YkY4di1uRElzSUVBSWE2Z1RXWUZhRTBjY1NvZEs2elZUelVqQlQtNVNod1NOWFA4WHE4VFBuTFZLZmdBZkVTY1RhNmM1SzBMc1VQc1VGcEJSRjhZ?oc=5",
-      "summary": "Hackers plant GSocket on Linux servers for persistent access BleepingComputer",
-      "date": "2026-11-12T09:38:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Australian Cyber Security Magazine",
       "title": "90% of Australian organisations report patching-related security incidents or near misses, Azul research finds",
       "link": "https://australiancybersecuritymagazine.com.au/90-of-australian-organisations-report-patching-related-security-incidents-or-near-misses-azul-research-finds/?utm_source=rss&utm_medium=rss&utm_campaign=90-of-australian-organisations-report-patching-related-security-incidents-or-near-misses-azul-research-finds&utm_source=rss&utm_medium=rss&utm_campaign=90-of-australian-organisations-report-patching-related-security-incidents-or-near-misses-azul-research-finds",
@@ -415,16 +474,7 @@
       "tags": [
         "AU Cyber",
         "AI & Tools"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-          "date": "2026-11-10T21:01:14Z"
-        }
-      ],
-      "latest": "2026-11-11T06:09:15Z"
+      ]
     },
     {
       "source": "Australian Cyber Security Magazine",
@@ -437,13 +487,13 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "App hoster Railway attackers ran up US$740,000 on stolen AI keys",
-      "link": "https://www.itnews.com.au/news/app-hoster-railway-attackers-ran-up-us740000-on-stolen-ai-keys-630277?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "AI model gateway OpenRouter declines refunds.",
-      "date": "2026-11-11T03:31:00Z",
+      "source": "Dark Reading",
+      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
+      "date": "2026-11-10T22:26:51Z",
       "tags": [
-        "AI & Tools"
+        "AU Cyber"
       ]
     },
     {
@@ -454,16 +504,18 @@
       "date": "2026-11-10T21:55:03Z",
       "tags": [
         "AU Cyber"
-      ],
-      "coverage": [
-        {
-          "source": "Dark Reading",
-          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-          "date": "2026-11-10T22:26:51Z"
-        }
-      ],
-      "latest": "2026-11-10T22:26:51Z"
+      ]
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "date": "2026-11-10T21:01:14Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -681,37 +733,6 @@
       "date": "2026-11-04T03:26:14Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Philippine Migrant Worker Data Likely Leaked in 69GB Government Breach",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/philippine-migrant-worker-data-69gb-government-breach",
-      "summary": "An unknown operator appears to have exfiltrated SQL Server backups from the Philippine Overseas Employment Administration in under a half hour.",
-      "date": "2026-11-04T02:00:00Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Phishing-Resistant Isn't Enough; Yubico Takes Aim at Identity-Verification Gap",
-      "link": "https://www.darkreading.com/identity-access-management-security/beyond-phishing-resistant-yubico-identity-verification-gap",
-      "summary": "The new YubiID service bridges identity verification with credential enrollment and recovery across existing identity platforms, closing an important authentication gap. Plus: post-quantum YubiKey beta.",
-      "date": "2026-11-04T01:05:40Z",
-      "tags": [
-        "AU Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Germany Busts 'Crime-as-a-Service' Investment Fraud Outfit",
-      "link": "https://www.darkreading.com/cybersecurity-operations/germany-crime-service-investment-fraud",
-      "summary": "Authorities seized more than 100 servers and arrested seven as part of a crackdown on a fraud network spanning more than 50 countries.",
-      "date": "2026-11-03T21:57:12Z",
-      "tags": [
-        "Scams"
       ]
     }
   ]

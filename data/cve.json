@@ -1,7 +1,16 @@
 {
-  "last_updated": "2026-11-17T17:34:06Z",
+  "last_updated": "2026-11-18T02:52:08Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-115731",
+      "name": "Perforce Puppet Enterprise",
+      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary…",
+      "date_added": "2026-11-17",
+      "due_date": "2026-12-01",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
     {
       "id": "CVE-2026-114713",
       "name": "UnrealIRCd UnrealIRCd",
@@ -82,15 +91,6 @@
       "due_date": "2026-11-12",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-102895"
-    },
-    {
-      "id": "CVE-2026-123158",
-      "name": "OpenBSD OpenSSH",
-      "description": "OpenBSD OpenSSH on Linux contains an unexpected status code or return value vulnerability that could allow for authentication bypass.",
-      "date_added": "2026-11-09",
-      "due_date": "2026-11-12",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123158"
     }
   ]
 }
