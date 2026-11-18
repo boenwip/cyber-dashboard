@@ -1,7 +1,15 @@
 {
-  "last_updated": "2026-11-18T07:09:02Z",
+  "last_updated": "2026-11-18T16:42:04Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Beta for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-beta-for-android-update_01196380134.html",
+      "summary": "Hi everyone! We've just released Chrome Beta 159 (159.0.8154.18) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new…",
+      "date": "2026-11-18T12:28:32Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -115,14 +123,6 @@
       "date": "2026-11-13T20:40:01Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Dev for Desktop Update",
-      "link": "https://chromereleases.googleblog.com/2026/11/chrome-dev-for-desktop-update_01047619778.html",
-      "summary": "The Dev channel has been updated to 160.0.8157.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
-      "date": "2026-11-13T17:43:38Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.323",
@@ -131,20 +131,20 @@
       "date": "2026-11-12T22:12:13Z"
     },
     {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing Businesses in ChatGPT - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWl94aW1pbWMtLVFmMnN6d3NRdk5zOGFhNUNYVUJ4dkZtaG14dnpwQ1F3blgzN2hvTm5DeHV4cXV3dVdfS3JxbDVVb21MMG9sWG0tS2NYNUJTREIyYTVGNmFFdTZEdzQ?oc=5",
+      "summary": "Introducing Businesses in ChatGPT OpenAI",
+      "date": "2026-11-10T08:00:00Z"
+    },
+    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.322",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322",
       "summary": "What's changed Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it",
       "date": "2026-11-10T02:29:43Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing Businesses in ChatGPT - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1QWl94aW1pbWMtLVFmMnN6d3NRdk5zOGFhNUNYVUJ4dkZtaG14dnpwQ1F3blgzN2hvTm5DeHV4cXV3dVdfS3JxbDVVb21MMG9sWG0tS2NYNUJTREIyYTVGNmFFdTZEdzQ?oc=5",
-      "summary": "Introducing Businesses in ChatGPT OpenAI",
-      "date": "2026-11-09T22:38:57Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -169,14 +169,6 @@
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
       "summary": "The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work…",
       "date": "2026-10-08T15:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "GPT-6 and Intelligent UI for everyone - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ZcDg5SXNmVWFZbnFGQkVMYjVFNjBxeUVDWlN2RFJNREhRb0xXbmRsUWhWRnkzOWNHSjgxT3ROQk96VkZ3OHR4X2JrZDNmUThOa3ZJWU9zcw?oc=5",
-      "summary": "GPT-6 and Intelligent UI for everyone OpenAI",
-      "date": "2026-10-07T07:00:00Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -251,12 +243,20 @@
       "date": "2026-09-15T15:00:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
-      "date": "2026-09-01T18:01:25Z"
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva releases Affinity 3.3 as part of the Canva ProSuite - CG Channel",
+      "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
+      "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
+      "date": "2026-09-15T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "GPT-6 Astra: A new generation of intelligence - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE11QUxBUVJLdC1jSmtJbmcxQzg4Qm9yUlNPS3JEMEVBanIyY1FRT2k2R0hBTlNnX2VqcWpTSDJUMDV0TjBJN1VGamlrZzVPZw?oc=5",
+      "summary": "GPT-6 Astra: A new generation of intelligence OpenAI",
+      "date": "2026-09-03T18:42:16Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -267,12 +267,36 @@
       "date": "2026-08-13T14:58:37Z"
     },
     {
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "The Best Office Suites We've Tested for 2026 - PCMag",
+      "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjRzlOOGtfYlpUcTg4ZExfZDhnZGcxXzVya2JSYlNtREFnMHB6YVlXUWhWOUJkRlpwOXlXSEVSUTU4UTJUQmZxZk4temdncjZCV3ItMzN4am9xMS1MMURz?oc=5",
+      "summary": "The Best Office Suites We've Tested for 2026 PCMag",
+      "date": "2026-08-10T07:00:00Z"
+    },
+    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "What’s new in Power Platform: July/August 2026 feature update - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS2VLd2w4Ry1jdkRNTGtaNkRIbzVjYkR4Zk5ZdXJrMjMxTFNhN0c5eWhMMXdxNDlBbFBHa1Q4Mk9CdE5oU1ZZWk1BSzdWRWptcW9QN1UwU3A0X1NFQTY5MkJDbk1UaG9ENThiNURjUHkyeGRMMWR5LU16T2ZnLUJHaFpzQjhpdGtLTnc0cm5JZHE0U2NYa0tLNUdyekg0Y21ZSENQMUZPdmFoSjQyUTRBMVJrRXF4R1BMZmc2SjZyXzk?oc=5",
       "summary": "What’s new in Power Platform: July/August 2026 feature update Microsoft",
       "date": "2026-08-06T07:00:00Z"
+    },
+    {
+      "source": "Google News — Microsoft 365",
+      "tool": "Microsoft 365",
+      "title": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? - HP",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSmlKWjZLZUpqcDdSQTR1dVFSZXZTVnBZSUJnNTVva3I2YTcxcE9WVGVGampoVE1qLUVpTUtrVThkZzVtYWdETjlUY2RMbHZjbHdGUGYwYXpDUzJEVXhwWVZCWkFkbXFwcTRETGl2Mm96N1p4TVBrbVRBZnlLbVRGVEhHdkFPaldGb1B3RGJiTU1FcXJmWGtJQVZn?oc=5",
+      "summary": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? HP",
+      "date": "2026-07-31T21:20:34Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Opus 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9iczRhdUZaZWkyQ2RXakhsM1ViSF8wclZFX25KdEF6WU1UTEtMQXJhYnpiZnJRUWd2LXNoSkF0TnFQWEpBZzN2b0Z5TmhNZExyTVJUZDR3cw?oc=5",
+      "summary": "Introducing Claude Opus 5 Anthropic",
+      "date": "2026-07-24T07:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
@@ -291,36 +315,12 @@
       "date": "2026-05-28T07:00:00Z"
     },
     {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available - Microsoft",
-      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY2pBT0F5X0h2UmtVTWhtaFc3TFFZbU1ObFAxdmN0TGhkQmYxMTVWYlRaY2NfdEdwbUpqNFF5Y1RzMDFKNlM3b1FzZWFrel9CNkZoek5CUjdqMTJSQkpsVVQ5U08zV2tnVU44eUFzNGZVRXdMcWlwYnJCWGJqdVJUdVJ0MDdid3dtZjBpN21xbWdsSzRhWm9fQV9ieW1GSENYS2gwX2tUR05vR3oxampRY21FUlcyelFrbzQ2VVBudXdHM1dHa2N2NDY4YUgzNWptdlZRRHBn?oc=5",
-      "summary": "Copilot’s agentic capabilities in Word, Excel, and PowerPoint are generally available Microsoft",
-      "date": "2026-04-22T07:00:00Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva AI 2.0 Launches With New Features And Conversational AI - Forbes",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVJIZGlGVThLYnItTGhObGo4UUxhZjdPaVdCcVR5VU1La1hDUU91VDdOSldDLWxQZ2JjNHlLeXlJLWVxUHRXc3FPQUliLVlwLXE1RXF4T1pBRnRoNzYtM1RMQUJxa0M4aVR6RHlLLTdqT3JWNzJVSG4tWWlycFB3REFPd1Y5THNaUjg0Ti13ajhDYzBiOEdNMXFfVUxsc2RvZVJPa044Y3E0bVhNLTZNT2hHRQ?oc=5",
       "summary": "Canva AI 2.0 Launches With New Features And Conversational AI Forbes",
       "date": "2026-04-16T07:00:00Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva releases first major update to its free Affinity software - CG Channel",
-      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNU1FLejEtc2NwNUVvQURicTNjYkdRSVV4dHc2S1VnUVc5bnJrVHYtUkozaENTOVhPYklJT0RmWFZwVEdsYTFGSUZUaEpYeXVPbHdLUEd3Zmh4RkJBTkxQSFFyWlF4Ti1ocHJsSHh0RWxySEw2TF9JaWQ4VDFnYlg3dWxoMS1qdWNVSzRkcFFPNVAtcDZPLUhoQnJJVGs4akU?oc=5",
-      "summary": "Canva releases first major update to its free Affinity software CG Channel",
-      "date": "2026-03-18T07:00:00Z"
-    },
-    {
-      "source": "Google News — Microsoft 365",
-      "tool": "Microsoft 365",
-      "title": "Google Workspace vs. Microsoft 365: What’s the best office suite for business? - Computerworld",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQT0Y4cXZIcElrS0ZhRnFCMmkxU1pWOWR6dGxhWElfSVVxSmx3RjFFYnhFUlFpSkZLVXJXTi1lSTBMWEpiSTVBWXlsRE1QV1ItQ1dMX2d6OENZYm93M1N1ZmZEZ1dJZkFFazQ0LVJDWmF1RWJOa0lRUm9TWHhWX2RWTVhPbGJqOUpNZHF0S2U5OElrNlBycE9oVEJMTEJLbmtOMzVsZUVXQlNTWjB0MUxGMllSTQ?oc=5",
-      "summary": "Google Workspace vs. Microsoft 365: What’s the best office suite for business? Computerworld",
-      "date": "2026-03-04T08:00:00Z"
     }
   ]
 }
