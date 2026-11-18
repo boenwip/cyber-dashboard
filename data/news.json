@@ -1,17 +1,54 @@
 {
-  "last_updated": "2026-11-18T02:52:00Z",
+  "last_updated": "2026-11-18T07:08:56Z",
   "count": 68,
   "items": [
     {
-      "source": "iTnews",
-      "title": "Hijacked website testing tool plants card skimmer on Australian brands’ sites",
-      "link": "https://www.itnews.com.au/news/hijacked-website-testing-tool-plants-card-skimmer-on-australian-brands-sites-630407?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Telco, bank and super fund sites among 178 hit through Optimizely breach.",
-      "date": "2026-11-18T03:01:00Z",
+      "source": "Security Brief Australia",
+      "title": "Keeper secures Williams F1 credentials across globe",
+      "link": "https://securitybrief.com.au/story/keeper-secures-williams-f1-credentials-across-globe",
+      "summary": "The system now protects more than 17,000 logins for a 1,200-person operation spread across over 20 countries each season.",
+      "date": "2026-11-18T07:08:24Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Risky Business",
+      "title": "Risky Business #860 -- Google: Agentic hacking has “crossed a threshold”",
+      "link": "https://risky.biz/RB860/",
+      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host Jason Kikta, CISO at METR.org, to talk through the week’s cybersecurity news, including: Website management platform Optimizely got popped… CNN and BBC readers got some malware with their daily news There’s some…",
+      "date": "2026-11-18T04:47:42Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Australian Cyber Security Magazine",
+      "title": "New security needs emerge as physical access threats surpass cybercrime concerns at data centres for the first time",
+      "link": "https://australiancybersecuritymagazine.com.au/new-security-needs-emerge-as-physical-access-threats-surpass-cybercrime-concerns-at-data-centres-for-the-first-time/?utm_source=rss&utm_medium=rss&utm_campaign=new-security-needs-emerge-as-physical-access-threats-surpass-cybercrime-concerns-at-data-centres-for-the-first-time&utm_source=rss&utm_medium=rss&utm_campaign=new-security-needs-emerge-as-physical-access-threats-surpass-cybercrime-concerns-at-data-centres-for-the-first-time",
+      "summary": "By Mike Fisher* Findings that data centre insiders can pose greater security risks than external cyberattacks come as no surprise to those of us working with some of the world’s [...]",
+      "date": "2026-11-18T03:04:57Z",
+      "tags": [
+        "AU Cyber"
+      ]
+    },
+    {
+      "source": "Krebs on Security",
+      "title": "Attackers Used Optimizely to A/B Test Malware on Top Websites",
+      "link": "https://krebsonsecurity.com/2026/11/attackers-used-optimizely-to-a-b-test-malware-on-top-websites/",
+      "summary": "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely, a company that helps websites customize user experiences and test out new features. Experts say the incident, which saw…",
+      "date": "2026-11-18T02:52:04Z",
       "tags": [
         "AU Cyber"
       ],
       "coverage": [
+        {
+          "source": "iTnews",
+          "title": "Hijacked website testing tool plants card skimmer on Australian brands’ sites",
+          "link": "https://www.itnews.com.au/news/hijacked-website-testing-tool-plants-card-skimmer-on-australian-brands-sites-630407?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+          "date": "2026-11-18T03:01:00Z"
+        },
         {
           "source": "Dark Reading",
           "title": "Optimizely Malware Attacks Highlight Third-Party Vendor Risks",
@@ -77,16 +114,6 @@
       "link": "https://securitybrief.com.au/story/tanium-launches-agentsight-to-govern-ai-tools-on-endpoints",
       "summary": "The move gives security teams visibility into unsanctioned AI tools on employee devices, as firms struggle to control software running outside IT approval.",
       "date": "2026-11-18T01:45:02Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Semperis launches Lightning to bolster AI identity security",
-      "link": "https://securitybrief.com.au/story/semperis-launches-lightning-to-bolster-ai-identity-security",
-      "summary": "As Australian firms adopt AI systems, the new platform aims to help teams spot and respond to identity attacks across human and machine accounts.",
-      "date": "2026-11-18T01:34:14Z",
       "tags": [
         "AI & Tools"
       ]
@@ -487,16 +514,6 @@
       ]
     },
     {
-      "source": "Dark Reading",
-      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
-      "date": "2026-11-10T22:26:51Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
       "source": "Krebs on Security",
       "title": "Microsoft Fixes Nearly 1,100 Security Vulnerabilities",
       "link": "https://krebsonsecurity.com/2026/11/microsoft-fixes-nearly-1100-security-vulnerabilities/",
@@ -504,7 +521,16 @@
       "date": "2026-11-10T21:55:03Z",
       "tags": [
         "AU Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+          "date": "2026-11-10T22:26:51Z"
+        }
+      ],
+      "latest": "2026-11-10T22:26:51Z"
     },
     {
       "source": "Dark Reading",
@@ -721,16 +747,6 @@
       "link": "https://www.darkreading.com/endpoint-security/google-13-million-device-strong-xcpe-botnet",
       "summary": "Android device manufacturer Videostrong allegedly ran the operation, which infected set-top boxes and IoT devices with a backdoor to create infrastructure for criminal activity.",
       "date": "2026-11-04T16:24:08Z",
-      "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #858 -- The $6.3b laptop",
-      "link": "https://risky.biz/RB858/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host Ciaran Martin, former CEO of the UK’s National Cyber Security Centre (NCSC), to talk through the week’s cybersecurity news, including: The $6.3 billion dollar Binance hack turned out to be pretty clunky, but it…",
-      "date": "2026-11-04T03:26:14Z",
       "tags": [
         "AU Cyber"
       ]
