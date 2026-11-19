@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-11-19T07:09:40Z",
+  "last_updated": "2026-11-19T16:45:32Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Improved syncing of guest additions across calendar services",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/improved-syncing-of-guest-additions-across-calendar-services.html",
+      "summary": "We are introducing key interoperability enhancements in Google Calendar to improve how guest additions are handled across calendar platforms. When a Google Calendar guest adds new guests to an event…",
+      "date": "2026-11-19T16:09:41Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Seamlessly share presented file links with viewers in Google Meet",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/seamlessly-share-presented-file-links-with-viewers-in-Google-Meet.html",
+      "summary": "We are introducing new controls in Google Meet to streamline collaboration by letting presenters seamlessly share Docs, Sheets, and Slides links and grant file access directly within meetings. If…",
+      "date": "2026-11-19T15:02:01Z"
+    },
     {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
@@ -91,36 +107,12 @@
       "date": "2026-11-17T23:17:45Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Gemini-powered data classification in Google Drive is now generally available",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/gemini-powered-data-classification-in-Google-Drive-is-now-generally-available.html",
-      "summary": "Gemini-powered AI classification in Google Drive is now generally available. Following our open beta , administrators can now deploy natural-language classification instructions at scale with two new…",
-      "date": "2026-11-17T22:00:35Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Schedule more easily across time zones with time zone abbreviations in Google Calendar on the web",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/schedule-more-easily-across-time-zones-with-time-zone-abbreviations-in-Google-Calendar-on-the-web.html",
-      "summary": "Building on our recent launch allowing you to view up to three time zones in Google Calendar on the web , we’re making cross-time-zone scheduling even clearer by replacing raw GMT+/- offsets (such as…",
-      "date": "2026-11-17T16:33:56Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.326",
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326",
       "summary": "What's changed Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code Mode Added a startup warning when an…",
       "date": "2026-11-16T22:11:05Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Most Innovative Meetings 2026: Canva Create - BizBash",
-      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNR2xvWjdIejhrRjg1dVBqRGVVai1CUklFcURSRnNiLWg5UTRpY0VBMTNDLTgxZFZHSHpmWmhaay10UlRra0xOYkRpMjZfaGF2Q2J3Q2JBR095UjF3YUd1bUctZ0o4Vk5ONlN6RmpCN2ZVNGJPSmVTYmRWN1c5YTdmZQ?oc=5",
-      "summary": "Most Innovative Meetings 2026: Canva Create BizBash",
-      "date": "2026-11-16T11:01:59Z"
     },
     {
       "source": "Claude Code Releases",
@@ -155,12 +147,20 @@
       "date": "2026-11-09T08:00:00Z"
     },
     {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
-      "summary": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 OpenAI",
-      "date": "2026-11-04T08:00:00Z"
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "The AI advantage your company can keep",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/27/the-ai-advantage-your-company-can-keep/",
+      "summary": "New research across more than 200 enterprises looks at how shared knowledge can help companies coordinate their agents—and turn lessons from their work into an operational edge. The post The AI…",
+      "date": "2026-10-27T16:00:00Z"
+    },
+    {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Bringing CRM into the flow of work and agents into business process for sales and service teams",
+      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/10/08/bringing-crm-into-the-flow-of-work-and-agents-into-business-process-for-sales-and-service-teams/",
+      "summary": "The traditional boundaries of business applications are disappearing. For decades, people went to their customer relationship management (CRM) to find customer context, take action, and move work…",
+      "date": "2026-10-08T15:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -181,6 +181,14 @@
     {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
+      "title": "Building advertising for the way people use AI - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
+      "summary": "Building advertising for the way people use AI OpenAI",
+      "date": "2026-10-05T07:00:00Z"
+    },
+    {
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
       "title": "Introducing dots - OpenAI",
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MVUVlaTV5ZFFBUnVJMFZDWTJIRGg5R20zQXpKU0tENk5PMXR0TEZ0N2VqRXpsOHdrazZKYS1QaUFNZ2tzN0c4Tnk0UjBjRmtFX0RjRw?oc=5",
       "summary": "Introducing dots OpenAI",
@@ -195,6 +203,14 @@
       "date": "2026-09-29T07:00:00Z"
     },
     {
+      "source": "Microsoft 365 Blog",
+      "tool": "Microsoft 365",
+      "title": "Introducing the new Copilot with Home, Code and Autopilot",
+      "link": "https://blogs.microsoft.com/blog/2026/09/25/introducing-the-new-copilot-with-home-code-and-autopilot/",
+      "summary": "We’re reimagining Microsoft Copilot to enable work as it evolves and to help expand what every individual and every organization can accomplish in the flow of human ambition. The post Introducing the…",
+      "date": "2026-09-25T12:07:25Z"
+    },
+    {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
       "title": "Introducing the new Copilot with Home, Code and Autopilot - The Official Microsoft Blog",
@@ -207,7 +223,7 @@
       "tool": "Microsoft 365",
       "title": "Building the system for AI at work",
       "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/23/building-the-system-for-ai-at-work/",
-      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on AI at Work Blog .",
+      "summary": "There's no shortage of sound and fury in AI right now. The post Building the system for AI at work appeared first on Microsoft Copilot Blog .",
       "date": "2026-09-23T15:00:00Z"
     },
     {
@@ -222,7 +238,7 @@
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Introducing Microsoft 365 G7: Intelligence + Trust for the mission ahead",
-      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "link": "https://www.microsoft.com/en-us/microsoft-cloud/blog/us-government/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
       "summary": "Microsoft 365 G7 brings AI, Copilot, agent governance, security, and compliance together to help government agencies modernize securely. The post Introducing Microsoft 365 G7: Intelligence + Trust…",
       "date": "2026-09-15T15:00:00Z"
     },
@@ -233,30 +249,6 @@
       "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBRVDZBWV9aRzBPN29uVFkwQl94b0NBMXpMSXJ3RGtvT09CQWFWY0lsb3lyaXNLOTQ2WHg4WC1kVzdHczlsUmNUU0pqZE1hczd1OUd1M0toMHFuWTFYSkhOV1FLdGs1UmdyMnBJWnF3NA?oc=5",
       "summary": "Canva releases Affinity 3.3 as part of the Canva ProSuite CG Channel",
       "date": "2026-09-15T07:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/10/espc-2026-is-coming-to-amsterdam-bringing-microsoft-and-the-community-together/",
-      "summary": "Join Microsoft at ESPC 2026 in Amsterdam to explore the latest innovations in Microsoft 365, Copilot, agents, and AI. The post ESPC 2026 is coming to Amsterdam: Bringing Microsoft and the community…",
-      "date": "2026-09-10T16:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "Build apps in Copilot Cowork and Copilot Studio",
-      "link": "https://www.microsoft.com/en-us/microsoft-copilot/blog/copilot-studio/build-apps-in-copilot-cowork-and-copilot-studio/",
-      "summary": "Create full-stack business apps through conversation, grounded in your data with app building in Copilot Cowork and Copilot Studio. The post Build apps in Copilot Cowork and Copilot Studio appeared…",
-      "date": "2026-09-10T15:00:00Z"
-    },
-    {
-      "source": "Microsoft 365 Blog",
-      "tool": "Microsoft 365",
-      "title": "PPCC 2026: Bringing AI and your business processes together",
-      "link": "https://www.microsoft.com/en-us/copilot/blog/2026/09/03/ppcc-2026-bringing-ai-and-your-business-processes-together/",
-      "summary": "Every enterprise runs on business processes, but it's the people that provide judgment, manage exceptions, and often connect systems that were never designed to work together. The post PPCC 2026…",
-      "date": "2026-09-03T15:00:00Z"
     },
     {
       "source": "Google News — Claude Updates",
@@ -277,6 +269,14 @@
     {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
+      "title": "New Tools to Elevate Teaching, Learning, and Student Success: July 2026 Product Updates - Instructure",
+      "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOR1ZKbDF6SnlIU1c0bTRKWTdyWFZJaXV6WnZOMFBKdkIzaHVlS28wMHN3SzdGVVBGNDB1SW1VUk5ZRVNZY21qNExnR3Y0cURXQmpjbU9paE02NkxWQUtlZ19lbHRjWTF1QmoteDdIY3VLQVVUclUyWUdoMUNoTVJxWTFVek0zZXZqLTJ0eVdPcDhOYVdBM0s0Qm9ZTDRuYWxzeThQczFvbEVNSVdrRVVpWGZocjFQTzVoM3NPZVc3NWpnZw?oc=5",
+      "summary": "New Tools to Elevate Teaching, Learning, and Student Success: July 2026 Product Updates Instructure",
+      "date": "2026-08-07T07:00:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
       "title": "What’s new in Power Platform: July/August 2026 feature update - Microsoft",
       "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS2VLd2w4Ry1jdkRNTGtaNkRIbzVjYkR4Zk5ZdXJrMjMxTFNhN0c5eWhMMXdxNDlBbFBHa1Q4Mk9CdE5oU1ZZWk1BSzdWRWptcW9QN1UwU3A0X1NFQTY5MkJDbk1UaG9ENThiNURjUHkyeGRMMWR5LU16T2ZnLUJHaFpzQjhpdGtLTnc0cm5JZHE0U2NYa0tLNUdyekg0Y21ZSENQMUZPdmFoSjQyUTRBMVJrRXF4R1BMZmc2SjZyXzk?oc=5",
       "summary": "What’s new in Power Platform: July/August 2026 feature update Microsoft",
@@ -285,10 +285,10 @@
     {
       "source": "Google News — Microsoft 365",
       "tool": "Microsoft 365",
-      "title": "What Is Microsoft 365? Apps, Features, and Plans Explained - HP",
-      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbDZUQzlJVmFpejhIYlE0NVo5RWZmREdpUWRSUGhBanRmdnBLUlJ6aVRhY0pBSUZTa2cwdGczVlc4MjRfR0huVFdOcldCXzBXQ25ZR25MN2NIUDFOUl9FU3dhU2poTTFCYmhjelQ1WGlkTHVJcU5ldzNOeXMzRUZOZDR2UUpaaWtp?oc=5",
-      "summary": "What Is Microsoft 365? Apps, Features, and Plans Explained HP",
-      "date": "2026-07-31T21:34:14Z"
+      "title": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? - HP",
+      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNSmlKWjZLZUpqcDdSQTR1dVFSZXZTVnBZSUJnNTVva3I2YTcxcE9WVGVGampoVE1qLUVpTUtrVThkZzVtYWdETjlUY2RMbHZjbHdGUGYwYXpDUzJEVXhwWVZCWkFkbXFwcTRETGl2Mm96N1p4TVBrbVRBZnlLbVRGVEhHdkFPaldGb1B3RGJiTU1FcXJmWGtJQVZn?oc=5",
+      "summary": "Microsoft 365 vs. Microsoft Office: What's the Difference and Which Should You Buy? HP",
+      "date": "2026-07-31T21:20:34Z"
     },
     {
       "source": "Google News — Claude Updates",
