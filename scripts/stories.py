@@ -43,6 +43,7 @@ Keep these separate:
 - A follow-up that reports a new development (a new review, new victims, new statements, a new official response) is a separate story from the original report. Government reactions (reviews, stocktakes, inquiries, orders) to an incident are follow-ups, not the incident.
 - Articles published several days apart. The same development is almost always reported within a day or two; a later article on the same subject usually reports something new.
 - Articles that only share a topic, company, product, threat type or theme. Two different OpenAI stories, two different phishing campaigns or two different ransomware attacks are separate stories.
+- Different victims, organisations, products or sectors are different events even when both are breaches, share a cause (a third-party vendor, a supply chain, a vulnerability class) or appear on the same day. Two breaches only count as one story when both articles name the same victim or the same incident. A "second" or "another" breach is a separate event from the first.
 - Two articles from the same outlet are never the same story. A group may contain at most one article per source; if an outlet has several candidates, pick the one closest in date to the others.
 
 Return only groups of two or more articles. Each id may appear in at most one group. When unsure, leave the articles ungrouped."""
