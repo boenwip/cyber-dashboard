@@ -1,7 +1,43 @@
 {
-  "last_updated": "2026-11-20T16:02:17Z",
+  "last_updated": "2026-11-21T06:55:59Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-129448",
+      "name": "Apache Roller",
+      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and…",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+    },
+    {
+      "id": "CVE-2026-123890",
+      "name": "Broadcom VMware vCenter",
+      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access…",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+    },
+    {
+      "id": "CVE-2025-42884",
+      "name": "SAP NetWeaver",
+      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server…",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+    },
+    {
+      "id": "CVE-2026-76466",
+      "name": "Cisco Expressway Series",
+      "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root…",
+      "date_added": "2026-11-20",
+      "due_date": "2026-11-23",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+    },
     {
       "id": "CVE-2024-10441",
       "name": "Synology DiskStation Manager (DSM)",
@@ -55,42 +91,6 @@
       "due_date": "2026-11-16",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
-    },
-    {
-      "id": "CVE-2026-123039",
-      "name": "Check Point Multiple Products",
-      "description": "Check Point Firewall, Multi-Domain Security Management Server, Scalable Platforms, Security Gateway, and Security Management Server contain an incorrect permissions assignment for critical resources…",
-      "date_added": "2026-11-13",
-      "due_date": "2026-11-16",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
-    },
-    {
-      "id": "CVE-2026-124194",
-      "name": "Microsoft Office",
-      "description": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
-      "date_added": "2026-11-10",
-      "due_date": "2026-11-24",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194"
-    },
-    {
-      "id": "CVE-2026-111793",
-      "name": "Openwave Messaging Limited Webtop Media Transcoder",
-      "description": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended…",
-      "date_added": "2026-11-10",
-      "due_date": "2026-11-24",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793"
-    },
-    {
-      "id": "CVE-2026-20320",
-      "name": "Cisco BroadWorks",
-      "description": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an…",
-      "date_added": "2026-11-10",
-      "due_date": "2026-11-24",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320"
     }
   ]
 }

@@ -1,7 +1,71 @@
 {
-  "last_updated": "2026-11-20T16:02:16Z",
+  "last_updated": "2026-11-21T06:55:59Z",
   "count": 40,
   "items": [
+    {
+      "source": "Claude Code Releases",
+      "tool": "Claude",
+      "title": "v2.1.330",
+      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "summary": "What's changed Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login , Claude Code applies the organization's settings and uses its cloud provider or…",
+      "date": "2026-11-20T22:32:56Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - November 20, 2026",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-20-2026.html",
+      "summary": "Schedule meetings with a default 5-minute buffer in Google Calendar Back-to-back meetings can leave no time for a break in your day. To help you build in short breaks, we’re expanding the “Speedy…",
+      "date": "2026-11-20T21:21:00Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Expanded Google Vault support for external spaces and group conversations in Google Chat",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/expanded-google-vault-support-for-external-spaces-and-group-conversations-in-Google-Chat.html",
+      "summary": "To give organizations more consistent visibility and help support their compliance requirements, we’re expanding Google Vault support in Google Chat. Starting mid-February 2027, Vault admins can…",
+      "date": "2026-11-20T19:17:44Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Android Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-dev-for-android-update_0498913154.html",
+      "summary": "Hi everyone! We've just released Chrome Dev 160 (160.0.8171.0) for Android. It's now available on Google Play . You can see a partial list of the changes in the Git log . For details on new features…",
+      "date": "2026-11-20T19:13:32Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Vids now lets you reuse your media in video generation",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/google-vids-now-lets-you-reuse-your-media-in-video-generation.html",
+      "summary": "When generating videos with Gemini Omni in Google Vids , your media is now stored in a new “Assets” section, letting you easily reuse media for future video generations within the same project. The…",
+      "date": "2026-11-20T17:59:59Z"
+    },
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Chrome Dev for Desktop Update",
+      "link": "https://chromereleases.googleblog.com/2026/11/chrome-dev-for-desktop-update_0667948876.html",
+      "summary": "The Dev channel has been updated to 160.0.8171.0 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
+      "date": "2026-11-20T17:58:33Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Now available in beta: Collaborate in real-time on client-side encrypted (CSE) Google Docs",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/now-available-in-beta-collaborate-in-real-time-on-client-side-encrypted-Google-Docs.html",
+      "summary": "Client-side encryption (CSE) provides organizations control over access to their confidential data, with encryption that makes data indecipherable to unauthorized third-parties, including Google, and…",
+      "date": "2026-11-20T17:11:09Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Studio support for Data Regions is now generally available",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/google-workspace-studio-support-for-Data-Regions-is-now-generally-available.html",
+      "summary": "Google Workspace Studio now supports Data Regions , giving organizations greater governance over where their workflow data is stored at rest and processed in use. With this launch, core Workspace…",
+      "date": "2026-11-20T15:57:23Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -17,38 +81,6 @@
       "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcDVsa0phckFDTm9XLUNKWXJjY3ZFLUdOSmJIRDJBdTJyOXRlZ3NFdng2OE1JZU9PSFhreEdFeWpDV1NGMXNQUWRPWGpmMGhEMHFkdmFiQkxCc3RGbDh0ZlR1OEY5OThYeGp4RThzbUVXa25SLUVLTkJ0dFg1d21RS1hGeFUzVDV1cXdyM2hQRmFFZ2NFeEcxbjhtc1BjNDFHVktCbEwzTQ?oc=5",
       "summary": "ChatGPT's New Live Dictation Feature Raises Privacy Concerns Gizmodo",
       "date": "2026-11-19T21:25:59Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "New admin setting to control collaboration steps in Workspace Studio flows",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/new-admin-setting-to-control-collaboration-steps-in-Workspace-Studio-flows.html",
-      "summary": "We’re introducing a new admin setting, Collaboration steps, that lets admins control whether Workspace Studio flows can share information with other people or modify shared resources in their…",
-      "date": "2026-11-19T20:50:19Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Email meeting guests from Google Calendar with the full capabilities of Gmail",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/email-meeting-guests-from-google-Calendar-with-the-full-capabilities-of-Gmail.html",
-      "summary": "To make it easier to send well-formatted meeting updates, share agendas, and verify Google Drive file access before sending, we’re updating the Email guests flow in Google Calendar on the web to open…",
-      "date": "2026-11-19T18:00:50Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Improved syncing of guest additions across calendar services",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/improved-syncing-of-guest-additions-across-calendar-services.html",
-      "summary": "We are introducing key interoperability enhancements in Google Calendar to improve how guest additions are handled across calendar platforms. When a Google Calendar guest adds new guests to an event…",
-      "date": "2026-11-19T16:09:41Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Seamlessly share presented file links with viewers in Google Meet",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/seamlessly-share-presented-file-links-with-viewers-in-Google-Meet.html",
-      "summary": "We are introducing new controls in Google Meet to streamline collaboration by letting presenters seamlessly share Docs, Sheets, and Slides links and grant file access directly within meetings. If…",
-      "date": "2026-11-19T15:02:01Z"
     },
     {
       "source": "Google Chrome Releases",
@@ -75,14 +107,6 @@
       "date": "2026-11-19T01:14:04Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Add inline captions, cross-references, and tables of captions in Google Docs",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/add-inline-captions-cross-references-and-tables-of-captions-in-Google-Docs.html",
-      "summary": "Google Docs makes it easy to create, structure, and collaborate on complex documents across formats, including viewing and editing Microsoft Word (.docx) files directly in Docs. Today, we are…",
-      "date": "2026-11-18T22:52:11Z"
-    },
-    {
       "source": "Google Chrome Releases",
       "tool": "Google Chrome",
       "title": "Chrome for Android Update",
@@ -97,22 +121,6 @@
       "link": "https://chromereleases.googleblog.com/2026/11/early-stable-update-for-desktop_01707050408.html",
       "summary": "The Stable channel has been updated to 159.0.8154.13/.14 for Windows , Mac as part of our early stable release to a small percentage of users. A full list of changes in this build is available in the…",
       "date": "2026-11-18T18:58:35Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for Desktop Update",
-      "link": "https://chromereleases.googleblog.com/2026/11/chrome-beta-for-desktop-update_01411055938.html",
-      "summary": "The Beta channel has been updated to 159.0.8154.13 for Windows, Mac and Linux. A partial list of changes is available in the Git log . Interested in switching release channels? Find out how . If you…",
-      "date": "2026-11-18T18:28:33Z"
-    },
-    {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Chrome Beta for iOS Update",
-      "link": "https://chromereleases.googleblog.com/2026/11/chrome-beta-for-ios-update_0690310551.html",
-      "summary": "Hi everyone! We've just released Chrome Beta 159 (159.0.8154.17) for iOS; it'll become available on App Store in the next few days. You can see a partial list of the changes in the Git log . If you…",
-      "date": "2026-11-18T16:28:32Z"
     },
     {
       "source": "Claude Code Releases",
@@ -131,14 +139,6 @@
       "date": "2026-11-16T22:11:05Z"
     },
     {
-      "source": "Claude Code Releases",
-      "tool": "Claude",
-      "title": "v2.1.325",
-      "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.325",
-      "summary": "What's changed Fixed a security issue in how zstd-compressed responses are decoded Added a spinner tip in VS Code and similar integrated terminals about re-running a notebook cell, shown once Claude…",
-      "date": "2026-11-13T20:40:01Z"
-    },
-    {
       "source": "Google News — ChatGPT Updates",
       "tool": "AI Tools",
       "title": "Introducing Businesses in ChatGPT - OpenAI",
@@ -147,12 +147,12 @@
       "date": "2026-11-10T08:00:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 - Anthropic",
-      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBvemRsWlN1U1g0NDQ5VUdhajBhZVVfd3J1eGRGV1lubnZQc3J6UVA1STMwdmlUM0k3a2c0SkN3VmdxYkplTnp4TWlheWV0NHlUUzFTYTU1b3Vmbmh1ZjVBakVlcw?oc=5",
-      "summary": "Introducing Claude Fable 5.2 and Claude Mythos 5.2 Anthropic",
-      "date": "2026-11-09T08:00:00Z"
+      "source": "Google News — ChatGPT Updates",
+      "tool": "AI Tools",
+      "title": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 - OpenAI",
+      "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5aRllmMHFwSmtFNVhMV0dnNXpZa0RkejJ2bDkzYUlTLXRBaHF5TXd0VldHSEZxbWEyQ25EdlM1azgxV2p5dGs0cnZ2dG56ekEzQTJDY1FFWjN5MzZh?oc=5",
+      "summary": "Introducing Images 2.6 I n t r o d u c i n g I m a g e s 2 6 OpenAI",
+      "date": "2026-11-04T08:00:00Z"
     },
     {
       "source": "Microsoft 365 Blog",
@@ -177,14 +177,6 @@
       "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE94MUNId0d0TmJZUzNMVGwtcU5ZX0ZGYnlwZFVlRUxaM2tndlktanQwR3Z5OWJvMVRhWlNsVkhlWEpzY3pMY0M5Wl9DWkptZmlMYUtleA?oc=5",
       "summary": "Introducing Claude Haiku 5.5 Anthropic",
       "date": "2026-10-07T07:00:00Z"
-    },
-    {
-      "source": "Google News — ChatGPT Updates",
-      "tool": "AI Tools",
-      "title": "Building advertising for the way people use AI - OpenAI",
-      "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBrTGpFWUV6LXBPamVmUVVuZktVbi13bVZaVUg3NEdQWjdjcXZpNXVBNDNlRGIzRmV0ZUlBYTIzeXV1VmZBMXh0NnpkTGpCYmJrUFFhanBwY0lKVFctYWNLLUNpRzdtOXktbVVFa0x6Ry1zQQ?oc=5",
-      "summary": "Building advertising for the way people use AI OpenAI",
-      "date": "2026-10-05T07:00:00Z"
     },
     {
       "source": "Google News — ChatGPT Updates",
@@ -305,6 +297,14 @@
       "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcjNYaU9aOHRyRDNnQWFLVW5uTEl2bk1aN1JMcFBBTE54R0ZtU2hJeHI1NnFvaUJNeXVIaDUxYmRvYzRfRWJadDM2a1Y3R1JpYmZ5ME9mNnhmTXhXUGdMT3dLaTYwcl9PS0JSVm50UkhvamFHN1F3MW1UQ21keXRnQ0tHWmhsOENXNGMtRw?oc=5",
       "summary": "Microsoft 365: A guide to the updates Computerworld",
       "date": "2026-06-21T07:00:00Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Claude Fable 5 and Claude Mythos 5 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE0tNXJJQXNGZWM1d1VmMVRfOFZlYU9VUFcwdm03RFhDRE5uajJOY19mbUQ5ZVpXYW9IOWhzd3JOS3F2c0xIdFRYVUgtZF9RVVI1VW1KVExGb0RVRDBWdlpNTXN1cTA?oc=5",
+      "summary": "Claude Fable 5 and Claude Mythos 5 Anthropic",
+      "date": "2026-06-09T07:00:00Z"
     },
     {
       "source": "Google News — Claude Updates",
