@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-21T21:37:29Z",
-  "count": 69,
+  "last_updated": "2026-11-22T06:32:18Z",
+  "count": 68,
   "items": [
     {
       "source": "Krebs on Security",
@@ -24,25 +24,15 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack",
-      "link": "https://www.itnews.com.au/news/jpmorgan-visa-mastercard-say-third-party-vendors-targeted-in-cyberattack-630480?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "Non-payment information accessed.",
-      "date": "2026-11-20T03:15:00Z",
+      "source": "404 Media",
+      "title": "Podcast: I Spoke to an AI Fraud Kingpin",
+      "link": "https://www.404media.co/podcast-i-spoke-to-an-ai-fraud-kingpin/",
+      "summary": "The man who created OnlyFake; a Muse agent is suing Meta; and the Justice Department is using Pangram.",
+      "date": "2026-11-20T20:12:51Z",
       "tags": [
-        "AU Cyber",
         "AI & Tools",
         "Scams"
-      ],
-      "coverage": [
-        {
-          "source": "404 Media",
-          "title": "Podcast: I Spoke to an AI Fraud Kingpin",
-          "link": "https://www.404media.co/podcast-i-spoke-to-an-ai-fraud-kingpin/",
-          "date": "2026-11-20T20:12:51Z"
-        }
-      ],
-      "latest": "2026-11-20T20:12:51Z"
+      ]
     },
     {
       "source": "Dark Reading",
@@ -104,6 +94,16 @@
       "date": "2026-11-20T05:46:00Z",
       "tags": [
         "Scams"
+      ]
+    },
+    {
+      "source": "iTnews",
+      "title": "JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack",
+      "link": "https://www.itnews.com.au/news/jpmorgan-visa-mastercard-say-third-party-vendors-targeted-in-cyberattack-630480?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
+      "summary": "Non-payment information accessed.",
+      "date": "2026-11-20T03:15:00Z",
+      "tags": [
+        "AU Cyber"
       ]
     },
     {
@@ -197,16 +197,6 @@
       "date": "2026-11-19T08:50:21Z",
       "tags": [
         "AU Cyber"
-      ]
-    },
-    {
-      "source": "Google News — ABC Tech",
-      "title": "The Business: ASIC Chair says AI has the potential to supercharge risks to consumers The Business - ABC iview",
-      "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40TGc5Vm1jVTBvdHhXcG5xMm9FRUM1Y2JWYTRFWVBaWTY4ejNPU0t1UWtmcGpVR25qMHFGQnM4M3p3V0lzTFlHaU92OTlzS1FlckItQnc5bklaNTZtQkJMalUxUUNIMWRFOEYwYUFSSFBrMlItVnoyOWxGZw?oc=5",
-      "summary": "The Business: ASIC Chair says AI has the potential to supercharge risks to consumers The Business ABC iview",
-      "date": "2026-11-19T08:00:00Z",
-      "tags": [
-        "AI & Tools"
       ]
     },
     {
@@ -611,8 +601,18 @@
       "summary": "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.",
       "date": "2026-11-11T20:05:18Z",
       "tags": [
-        "AU Cyber"
-      ]
+        "AU Cyber",
+        "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Australian Cyber Security Magazine",
+          "title": "Australia’s AI safety plan won’t work without local tech capability, ACS warns",
+          "link": "https://australiancybersecuritymagazine.com.au/australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns/?utm_source=rss&utm_medium=rss&utm_campaign=australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns&utm_source=rss&utm_medium=rss&utm_campaign=australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns",
+          "date": "2026-11-11T04:52:01Z"
+        }
+      ],
+      "latest": "2026-11-11T20:05:18Z"
     },
     {
       "source": "Krebs on Security",
@@ -621,38 +621,18 @@
       "summary": "The cybercrime group Qilin has emerged as the world's most active ransomware affiliate program, claiming at least 365 victim organizations in the past three months alone. But even top Russian hackers make operational security mistakes, and the administrator of Qilin has made a few key missteps over…",
       "date": "2026-11-11T18:06:01Z",
       "tags": [
-        "AU Cyber"
-      ]
-    },
-    {
-      "source": "Risky Business",
-      "title": "Risky Business #859 -- ARTEX damage approaches crisis levels",
-      "link": "https://risky.biz/RB859/",
-      "summary": "On this week’s show Patrick Gray and James Wilson are joined by special guest co-host Chris Krebs to talk through the week’s cybersecurity news, including: Everyone’s using the ARTEX pentesting framework to hack the planet and it has the makings of an actual crisis The French government attributes…",
-      "date": "2026-11-11T06:09:15Z",
-      "tags": [
         "AU Cyber",
         "AI & Tools"
       ],
       "coverage": [
         {
-          "source": "Dark Reading",
-          "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-          "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-          "date": "2026-11-10T21:01:14Z"
+          "source": "Risky Business",
+          "title": "Risky Business #859 -- ARTEX damage approaches crisis levels",
+          "link": "https://risky.biz/RB859/",
+          "date": "2026-11-11T06:09:15Z"
         }
       ],
-      "latest": "2026-11-11T06:09:15Z"
-    },
-    {
-      "source": "Australian Cyber Security Magazine",
-      "title": "Australia’s AI safety plan won’t work without local tech capability, ACS warns",
-      "link": "https://australiancybersecuritymagazine.com.au/australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns/?utm_source=rss&utm_medium=rss&utm_campaign=australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns&utm_source=rss&utm_medium=rss&utm_campaign=australias-ai-safety-plan-wont-work-without-local-tech-capability-acs-warns",
-      "summary": "The Australian Computer Society (ACS) has warned that the Federal Government’s proposed AI safety protections will fall short without stronger local technical capability to implement, test and enforce the measures. [...]",
-      "date": "2026-11-11T04:52:01Z",
-      "tags": [
-        "AI & Tools"
-      ]
+      "latest": "2026-11-11T18:06:01Z"
     },
     {
       "source": "Krebs on Security",
@@ -672,6 +652,17 @@
         }
       ],
       "latest": "2026-11-10T22:26:51Z"
+    },
+    {
+      "source": "Dark Reading",
+      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
+      "date": "2026-11-10T21:01:14Z",
+      "tags": [
+        "AU Cyber",
+        "AI & Tools"
+      ]
     },
     {
       "source": "Dark Reading",
