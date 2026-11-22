@@ -88,10 +88,11 @@ def within_spread(ids, dates):
     return [i for i in ids if when[i] is None or when[i] - start <= MAX_SPREAD]
 
 
-def validate_groups(raw, count, sources=None, dates=None):
+def validate_groups(raw, count, sources=None, dates=None, words=None):
     """Keep only well-formed groups: integer ids in range, each used once, at most one
     article per source (when `sources` is given), all within MAX_SPREAD of each other
-    (when `dates` is given), 2+ per group."""
+    (when `dates` is given), each sharing a name with another member
+    (when `words` is given), 2+ per group."""
     if not isinstance(raw, dict) or not isinstance(raw.get("groups"), list):
         return None
     seen, groups = set(), []
@@ -108,6 +109,10 @@ def validate_groups(raw, count, sources=None, dates=None):
                 ids.append(i)
         if dates:
             ids = within_spread(ids, dates)
+        if words:
+            # The model has merged stories that share nothing (N-able flaws + an ACS policy story), so each
+            # member must share a name (Coles, Optimizely, 178) with another member.
+            ids = [i for i in ids if any(words[i] & words[j] for j in ids if j != i)]
         if len(ids) >= 2:
             seen.update(ids)
             groups.append(ids)
@@ -154,7 +159,7 @@ def ai_groups(articles, client=None, spend=None):
     text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "")
     try:
         groups = validate_groups(json.loads(text), len(articles), [outlet(a) for a in articles],
-                                 [a.get("date") for a in articles])
+                                 [a.get("date") for a in articles], subject_words(articles))
     except ValueError:
         groups = None
     usage = getattr(response, "usage", None)
@@ -189,6 +194,18 @@ def headline_tokens(title):
         if len(w) >= 3 and w not in STOP and w not in GENERIC:
             out.add({"govt": "government", "infiltrated": "infiltrate"}.get(w, w))
     return out
+
+
+def names(text):
+    """Capitalised words and numbers ("Coles", "Optimizely", "178"), minus stop and generic words.
+    Title Case headlines make every word a name; the other article must use it as one too."""
+    words = [w for w in (text or "").split() if w.lstrip("'\"‘“(")[:1].isupper() or w[:1].isdigit()]   # "WaterPlum"
+    return headline_tokens(" ".join(words))
+
+
+def subject_words(articles):
+    """Names in each article's headline and first sentence: what the model sees."""
+    return [names(a.get("title", "")) | names(lede(a.get("summary", ""))) for a in articles]
 
 
 def word_groups(articles):
@@ -243,7 +260,7 @@ def cached_groups(cache, articles):
     index = {a.get("link", ""): i for i, a in enumerate(articles)}
     raw = {"groups": [[index[l] for l in g if l in index] for g in cache.get("groups", [])]}
     return validate_groups(raw, len(articles), [outlet(a) for a in articles],
-                           [a.get("date") for a in articles]) or []
+                           [a.get("date") for a in articles], subject_words(articles)) or []
 
 
 def month_spend(cache, month):
