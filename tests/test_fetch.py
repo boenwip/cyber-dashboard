@@ -11,8 +11,14 @@ ACSC = {"name": "ACSC Alerts", "url": "https://www.cyber.gov.au/rss/alerts", "of
 DIRECT = {"name": "Dark Reading", "url": "https://www.darkreading.com/rss.xml"}
 
 
-def entry(title, summary="", link="https://example.com/a", published="Thu, 24 Sep 2026 10:01:59 +1000"):
-    return feedparser.FeedParserDict({"title": title, "summary": summary, "link": link, "published": published})
+def entry(title, summary="", link="https://example.com/a", published="Thu, 24 Sep 2026 10:01:59 +1000", source=None):
+    e = {"title": title, "summary": summary, "link": link, "published": published}
+    if source:   # Google News names each item's publisher: <source url="https://www.theguardian.com">
+        e["source"] = feedparser.FeedParserDict({"href": source, "title": title.rsplit(" - ", 1)[-1]})
+    return feedparser.FeedParserDict(e)
+
+
+GNEWS = {"name": "Google News — Guardian AU Cyber", "url": "https://news.google.com/rss/search?q=site:theguardian.com"}
 
 
 # ── Blocklist ──────────────────────────────────────────────
@@ -222,8 +228,58 @@ def test_main_runs_end_to_end_with_fallback_acsc_items(tmp_path, monkeypatch):
 def test_fallback_strips_google_news_publisher_suffixes():
     for raw in ["Critical vulnerabilities in Fortinet products - Australian Cyber Security",
                 "Critical vulnerabilities in PHP | CGA - Australian Cyber Security Centre"]:
-        a = f.build_article(f.ACSC_FALLBACK_FEED, entry(raw))
+        a = f.build_article(f.ACSC_FALLBACK_FEED, entry(raw, source="https://www.cyber.gov.au"))
         assert a["title"] in ("Critical vulnerabilities in Fortinet products", "Critical vulnerabilities in PHP")
+
+
+def test_fallback_keeps_alert_now_labelled_cyber_gov():
+    # Since 2026-11 Google News names the publisher "cyber.gov"; every fallback alert was being dropped.
+    a = f.build_article(f.ACSC_FALLBACK_FEED, entry(
+        "Vulnerabilities are moving quickly, so patch, protect, prevent - cyber.gov", source="https://www.cyber.gov.au"))
+    assert a is not None and a["official"] is True
+    assert a["title"] == "Vulnerabilities are moving quickly, so patch, protect, prevent"
+
+
+# ── Google News publisher allowlist ────────────────────────
+
+def test_gnews_approved_by_publisher_host():
+    for title, host in [("Coles investigates cyber-attack and apologises to customers - The Guardian", "https://www.theguardian.com"),
+                        ("Hackers hit Australian retailer's data - The Register", "https://www.theregister.com")]:
+        assert f.build_article(GNEWS, entry(title, source=host)) is not None, title
+
+
+def test_gnews_rejects_unapproved_publisher_whatever_the_headline_says():
+    # The old check approved any headline whose last 3 words contained "abc", "wired", "risky"...
+    assert f.build_article(GNEWS, entry("Scam warning from abc - Facebook", "scam", source="https://www.facebook.com")) is None
+    assert f.build_article(GNEWS, entry("Data breach leaves every home wired - Local Blog", "breach")) is None
+
+
+def test_gnews_without_source_needs_exact_publisher_name():
+    assert f.build_article(GNEWS, entry("FBI breached by hackers - The Guardian")) is not None
+    assert f.build_article(GNEWS, entry("FBI breached by hackers - Guardian Fan Blog")) is None
+
+
+def test_gnews_blocked_publisher_host_dropped():
+    # ABC iview TV episode pages, not articles (garbled "The Business ... - ABC iview" items)
+    assert f.build_article(GNEWS, entry("The Business: Thursday 19/11/2026 The Business - ABC iview", "cyber hacks",
+                                        source="https://iview.abc.net.au")) is None
+
+
+# ── Trusted security feeds ─────────────────────────────────
+
+def test_trusted_security_feed_kept_without_keywords():
+    troy = next(feed for feed in f.NEWS_FEEDS if feed["name"] == "Troy Hunt Blog")
+    a = f.build_article(troy, entry("Weekly Update 531: Optimizely. Script Dependencies & Third Parties"))
+    assert a is not None and a["tags"] == ["AU Cyber"]
+
+
+# ── Query freshness ────────────────────────────────────────
+
+def test_google_news_queries_use_recency_not_a_hard_coded_year():
+    gnews = [feed["url"] for feed in f.NEWS_FEEDS + f.TOOL_FEEDS if "news.google.com" in feed["url"]]
+    assert not [u for u in gnews if "2026" in u]
+    scamwatch = next(feed["url"] for feed in f.NEWS_FEEDS if "scamwatch" in feed["url"])
+    assert "when:" in scamwatch   # without it the search returns evergreen pages from 2015-2024
 
 
 def test_fallback_skips_ordinary_site_pages():
