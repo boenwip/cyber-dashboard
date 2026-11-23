@@ -4,6 +4,17 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — New home page (redesign step 2)
+
+**Changed**
+- The home page now does one job: today's top 5 stories. The lead story gets a colour panel for its topic; stories 2 to 5 are a plain list. The ACSC alert bar shows only when there is an alert. One line links on to exploited bugs, today's puzzle and the year's report count
+- Swoop is the lookout on the lead story. His mood follows the real ACSC alert: calm, alert, or one swoop across the page for a critical or high alert. He moves once on load, then only when you hover or tap him, and stays still under reduced motion
+- Every page has a light stone background (#E4E0D9) and a plain header with a rule under it. The menu marks where you are with the logo's cursor
+- On phones a tab bar sits at the bottom: Today, Play, Exploited, This year, More. More opens the full menu. It replaces the menu button in the header
+- The old topic dashboard moved to `dashboard.html` until its pages are rebuilt. Old links such as `#scams` and `#cve` on the home page go there
+
+---
+
 ## November 2026 — Lean cleanups
 
 **Changed**

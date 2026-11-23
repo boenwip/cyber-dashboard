@@ -14,7 +14,8 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 | Page | What's on it |
 |---|---|
-| **Dashboard** | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
+| **Today** (home) | Today's top 5 stories, the ACSC alert when there is one, and Swoop the lookout. |
+| **Dashboard** (`dashboard.html`, being split into pages) | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
 | **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
 | **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
@@ -26,7 +27,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ## Features
 
-**Layout** — The home page opens on a stage showing one topic, with the latest news directly below it. This year shows the report's headline figures with the estimate. Beside the news sit the most reported crime types, the AI summary, the Essential Eight and tool updates. A switch of five topics (This year, News, Scams, Exploited, Learn) changes the stage and the reader below it, and stays at the top of the screen while you read. ACSC alerts and tool updates are filters under News, and the old `#alerts` and `#tools` links still go there. On phones the reader becomes tap-through: the list, then the item, then back.
+**Layout** — The home page (`index.html`) shows today's top 5 stories: the lead in its topic's colour, then a plain list, the ACSC alert bar when there is an alert, and one line onward to exploited bugs, the puzzle and the year's count. Swoop the lookout perches on the lead; his mood follows the alert. On phones a tab bar at the bottom (Today, Play, Exploited, This year, More) holds the main sections. The previous topic dashboard lives at `dashboard.html` while its parts are rebuilt as their own pages; old `#topic` links on the home page redirect there.
 
 **Official ACSC alert** — The newest ACSC alert from the last 14 days, Critical or High first. ACSC items are the only ones with a threat level, taken from ACSC's own title ("CRITICAL ALERT: …"). cyber.gov.au times out from GitHub's servers, so the pipeline falls back to a Google News search of ACSC's alerts section; those items are labelled "ACSC" with no level rather than a guessed one.
 

@@ -18,9 +18,9 @@
 <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 <script>try{var t=localStorage.getItem('csi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="stylesheet" href="shared.css">
-<link rel="stylesheet" href="dashboard.css">
+<link rel="stylesheet" href="landing.css">
 </head>
-<body data-topic="year">
+<body>
 
 <header class="site-header">
   <a href="index.html" class="site-logo" aria-label="pseudosec. home"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 5947 1040" aria-hidden="true"><g transform="translate(40,800)">
@@ -30,9 +30,11 @@
 <rect class="cursor" x="5567.0" y="-640.0" width="300" height="700" fill="currentColor"/>
 </g></svg></a>
   <div class="hdr-left">
-    <button type="button" class="icon-btn nav-toggle" id="nav-toggle" aria-label="Open navigation" aria-expanded="false"><span class="bars"></span></button>
     <nav class="site-nav" aria-label="Main navigation">
-      <a href="index.html" class="nav-link nav-link--active" aria-current="page">Dashboard</a>
+      <a href="index.html" class="nav-link nav-link--active" aria-current="page">Today</a>
+      <a href="dashboard.html#scams" class="nav-link">Play</a>
+      <a href="dashboard.html#cve" class="nav-link">Exploited</a>
+      <a href="dashboard.html#year" class="nav-link">This year</a>
       <a href="reference.html" class="nav-link">Reference</a>
       <a href="resources.html" class="nav-link">Resources</a>
       <a href="ai-guide.html" class="nav-link">AI Guide</a>
@@ -44,132 +46,29 @@
   </div>
 </header>
 
-<main id="main">
-  <h1 class="visually-hidden">Australian cyber security, at a glance</h1>
-
-  <!-- STAGE: one topic at a time, in that topic's colour -->
-  <div class="stage" id="stage">
-    <canvas id="wipe" aria-hidden="true"></canvas>
-    <button type="button" class="alert" id="alert"><b id="alert-label">ACSC</b><span id="alert-title">Loading the latest alert…</span><time id="alert-when"></time></button>
-
-    <div class="screen" id="screen">
-      <div class="prompt-row">
-        <p class="prompt"><span aria-hidden="true">&gt;</span><span id="cmd">this year</span><i aria-hidden="true"></i></p>
-        <button type="button" class="jump" id="jump">All report figures</button>
-      </div>
-
-      <section class="panel" data-screen="year" role="tabpanel" aria-labelledby="tab-year">
-        <div class="count-wrap">
-          <p class="count" id="main-count">—</p>
-          <div class="count-note">
-            <p>Estimated cybercrime reports made in Australia since 1 July. <span id="report-interval"></span></p>
-            <a class="more" href="sources.html#tracker-methodology">How it's counted</a>
-          </div>
-        </div>
-        <div class="report-figures">
-          <p class="report-from">From <a id="report-link" target="_blank" rel="noopener noreferrer">ASD's Annual Cyber Threat Report</a></p>
-          <div class="report-stats" id="report-stats"></div>
-        </div>
-      </section>
-
-      <section class="panel" data-screen="news" role="tabpanel" aria-labelledby="tab-news" hidden>
-        <a class="lead" id="news-lead" target="_blank" rel="noopener noreferrer"><h2 id="news-lead-title">Loading…</h2><p id="news-lead-summary"></p></a>
-        <div class="pair" id="news-pair"></div>
-      </section>
-
-      <section class="panel" data-screen="scams" role="tabpanel" aria-labelledby="tab-scams" hidden>
-        <p class="puzzle-unavailable" id="puzzle-unavailable">Today's message is loading…</p>
-        <!-- SPOT THE SCAM — one hand-written puzzle a day, from data/puzzles.json -->
-        <div class="puzzle" id="puzzle-panel" hidden>
-          <p class="puzzle-context" id="puzzle-context" hidden></p>
-          <div class="phone" id="puzzle-phone"></div>
-          <div class="choices" id="puzzle-choices" role="group" aria-label="Scam or legit?">
-            <button type="button" class="choice" data-answer="scam">Scam</button>
-            <button type="button" class="choice" data-answer="legit">Legit</button>
-          </div>
-          <div class="result" id="puzzle-result" role="status" aria-live="polite" hidden></div>
-          <div class="progress" id="puzzle-progress">
-            <p class="streak" id="puzzle-streak"></p>
-            <ol class="ranks" id="puzzle-ranks" aria-label="Ranks, earned by correct answers"></ol>
-            <div class="sharebox" id="puzzle-share" hidden>
-              <button type="button" class="btn-quiet" id="puzzle-share-btn">Share your result</button>
-              <span class="share-done" id="puzzle-share-done" role="status"></span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section class="panel" data-screen="cve" role="tabpanel" aria-labelledby="tab-cve" hidden>
-        <div class="split-stage">
-          <div><p class="mega" id="cve-count">—</p><p class="mega-note" id="cve-sub">Loading…</p></div>
-          <div class="rows" id="cve-rows"></div>
-        </div>
-      </section>
-
-      <section class="panel" data-screen="learn" role="tabpanel" aria-labelledby="tab-learn" hidden>
-        <p class="word" id="wotd-term"></p>
-        <div class="defs">
-          <p id="wotd-def"></p>
-          <div><b id="tip-title"></b><span id="tip-text"></span></div>
-        </div>
-      </section>
-    </div>
+<main id="main" class="home">
+  <a class="alert" id="alert" target="_blank" rel="noopener noreferrer" hidden></a>
+  <div class="masthead">
+    <h1>Today in Australian cyber security</h1>
+    <p id="date"></p>
   </div>
-
-  <!-- THE SWITCH: stays in reach while you read -->
-  <div class="switch" id="switch" role="tablist" aria-label="Topics">
-    <button type="button" role="tab" id="tab-year" data-t="year" aria-selected="true"><b>This year</b><small id="d-year">&nbsp;</small></button>
-    <button type="button" role="tab" id="tab-news" data-t="news" aria-selected="false" tabindex="-1"><b>News</b><small id="d-news">&nbsp;</small></button>
-    <button type="button" role="tab" id="tab-scams" data-t="scams" aria-selected="false" tabindex="-1"><b>Scams</b><small id="d-scams">Today's message</small></button>
-    <button type="button" role="tab" id="tab-cve" data-t="cve" aria-selected="false" tabindex="-1"><b>Exploited</b><small id="d-cve">&nbsp;</small></button>
-    <button type="button" role="tab" id="tab-learn" data-t="learn" aria-selected="false" tabindex="-1"><b>Learn</b><small id="d-learn">&nbsp;</small></button>
-    <div class="swoop" id="swoop" aria-hidden="true"><div class="swoop-in"></div></div>
+  <div class="lead-wrap">
+    <button type="button" class="swoop" id="swoop"><span class="bird"></span></button>
+    <article class="lead" id="lead">Loading today's stories…</article>
   </div>
-
-  <div class="below is-year" id="below">
-    <section class="block" id="home-rows" aria-label="Latest">
-      <div class="home-grid">
-        <div>
-          <div class="sec-head"><h2>Latest news</h2><button type="button" class="jump" id="all-stories">All stories</button></div>
-          <div id="latest"></div>
-        </div>
-        <aside class="side">
-          <div>
-            <div class="sec-head"><h2>Report breakdown</h2><button type="button" class="jump" id="all-crime">All figures</button></div>
-            <div class="crime" id="crime-bars"></div>
-            <button type="button" class="side-link" id="report-ai">What the report says about AI</button>
-          </div>
-          <div>
-            <div class="sec-head"><h2>Essential Eight</h2><a class="jump" href="reference.html#e8">All eight</a></div>
-            <ol class="eight">
-            <li><a href="reference.html#e8">Application Control</a></li>
-            <li><a href="reference.html#e8">Patch Applications</a></li>
-            <li><a href="reference.html#e8">Configure Microsoft Office Macro Settings</a></li>
-            <li><a href="reference.html#e8">User Application Hardening</a></li>
-            <li><a href="reference.html#e8">Restrict Administrative Privileges</a></li>
-            <li><a href="reference.html#e8">Patch Operating Systems</a></li>
-            <li><a href="reference.html#e8">Multi-factor Authentication</a></li>
-            <li><a href="reference.html#e8">Regular Backups</a></li>
-            </ol>
-          </div>
-          <div>
-            <div class="sec-head"><h2>Tool updates</h2><button type="button" class="jump" id="all-tools">All</button></div>
-            <div id="tools-rows"></div>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <!-- READER: list on the left, detail on the right -->
-    <section class="block reader" id="reader" aria-labelledby="reader-cmd">
-      <div class="sec-head"><h2 id="reader-cmd">Report figures</h2></div>
-      <div class="split">
-        <div class="list" id="list" aria-label="Items"></div>
-        <article class="pane" id="pane" aria-live="polite"></article>
-      </div>
-    </section>
+  <ol class="more" id="more-stories" start="2" aria-label="Stories 2 to 5"></ol>
+  <div class="onward">
+    <a class="all" href="dashboard.html#news">All stories</a>
+    <p class="also">Also today: <a id="on-cve" href="dashboard.html#cve">Exploited bugs</a> <a href="dashboard.html#scams">Today's puzzle</a> <a id="on-year" href="dashboard.html#year">This year's reports</a></p>
   </div>
 </main>
+<nav class="tabbar" aria-label="Sections">
+  <a href="index.html" aria-current="page">Today</a>
+  <a href="dashboard.html#scams">Play</a>
+  <a href="dashboard.html#cve">Exploited</a>
+  <a href="dashboard.html#year">This year</a>
+  <button type="button" id="more-btn" aria-expanded="false">More</button>
+</nav>
 
 <footer class="site-footer">
   <span>pseudosec. · Australian cyber security, for anyone · <a href="sources.html">Sources &amp; methodology</a> · <a href="https://github.com/boenwip/cyber-dashboard" target="_blank" rel="noopener noreferrer">GitHub</a></span>
@@ -177,7 +76,6 @@
 </footer>
 
 <script src="shared.js"></script>
-<script src="definitions.js"></script>
-<script src="dashboard.js"></script>
+<script src="landing.js"></script>
 </body>
 </html>
