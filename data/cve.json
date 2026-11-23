@@ -1,7 +1,25 @@
 {
-  "last_updated": "2026-11-23T19:27:34Z",
+  "last_updated": "2026-11-23T22:01:29Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-133968",
+      "name": "Project MONAI MONAI Label",
+      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially…",
+      "date_added": "2026-11-23",
+      "due_date": "2026-11-26",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+    },
+    {
+      "id": "CVE-2026-134624",
+      "name": "N-able MailAssure",
+      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary…",
+      "date_added": "2026-11-23",
+      "due_date": "2026-11-26",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+    },
     {
       "id": "CVE-2026-129448",
       "name": "Apache Roller",
@@ -73,24 +91,6 @@
       "due_date": "2026-11-21",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
-    },
-    {
-      "id": "CVE-2026-115731",
-      "name": "Perforce Puppet Enterprise",
-      "description": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary…",
-      "date_added": "2026-11-17",
-      "due_date": "2026-12-01",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
-    },
-    {
-      "id": "CVE-2026-114713",
-      "name": "UnrealIRCd UnrealIRCd",
-      "description": "UnrealIRCd UnrealIRCd contains an improper neutralization of delimiters vulnerability that allows any user on a network with two or more linked servers to inject server-to-server commands that are…",
-      "date_added": "2026-11-13",
-      "due_date": "2026-11-16",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
     }
   ]
 }
