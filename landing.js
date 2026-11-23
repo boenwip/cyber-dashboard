@@ -6,7 +6,8 @@ if (location.hash === '#scams') location.replace('play.html');
 else if (location.hash === '#cve') location.replace('exploited.html');
 else if (location.hash === '#news') location.replace('stories.html');
 else if (/^#(alerts|tools)$/.test(location.hash)) location.replace('stories.html' + location.hash);
-else if (/^#(year|learn)$/.test(location.hash)) location.replace('dashboard.html' + location.hash);
+else if (location.hash === '#year') location.replace('year.html');
+else if (location.hash === '#learn') location.replace('dashboard.html#learn');
 
 var DAY = 86400000;
 var sw;   // Swoop, from swoop.js

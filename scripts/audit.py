@@ -20,7 +20,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlparse
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-PAGES = ["index.html", "play.html", "exploited.html", "stories.html", "dashboard.html", "reference.html", "resources.html", "ai-guide.html", "sources.html"]
+PAGES = ["index.html", "play.html", "exploited.html", "stories.html", "year.html", "dashboard.html", "reference.html", "resources.html", "ai-guide.html", "sources.html"]
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 
 failures = []
@@ -166,7 +166,7 @@ for name in js_files:
           not re.search(r"\beval\(|new Function\(|document\.write\(", js))
 for name in js_files + css_files + PAGES:
     check(name + ": no stray control characters", not re.search(r"[\x00-\x08\x0b\x0c\x0e-\x1f]", read(name)))
-for name in ("dashboard.js", "landing.js", "exploited.js", "stories.js"):
+for name in ("dashboard.js", "landing.js", "exploited.js", "stories.js", "year.js"):
     check(name + " renders feed data through esc()/safeUrl()", "esc(" in read(name) and "safeUrl(" in read(name))
 
 # ── DATA ────────────────────────────────────────────────────
