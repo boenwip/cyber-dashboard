@@ -109,3 +109,13 @@
 .crack-tip { color: var(--text-2); }
 .crack .btn { justify-self: start; }
 @media (prefers-reduced-motion: reduce) { .crack-meter i { transition: none; } }
+
+/* Practise: what each link is, and who it's for */
+.picks em { margin-top: 2px; font-size: 13px; font-style: normal; font-weight: 600; color: var(--text-2); }
+.picks a:hover em { color: inherit; }
+.who-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+.who-btns button { min-height: 44px; padding: 0 16px; border: 1.5px solid var(--border2); border-radius: 99px; background: var(--bg); color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.who-btns button:hover { border-color: var(--text); }
+.who-btns button[aria-pressed="true"] { border-color: var(--partner); background: var(--partner); color: var(--on-partner); }
+:root[data-theme="dark"] .who-btns button[aria-pressed="true"] { border-color: var(--main); background: var(--main); color: var(--on-main); }
+.who .track-note { margin-top: 10px; }

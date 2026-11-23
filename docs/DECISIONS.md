@@ -5,6 +5,12 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Practise
+
+### One list, filtered by who's asking
+**Decision:** Practise is one column of links in four sections, with a "Show me things for" filter (everyone, just me, my business, a career in cyber). Sections with nothing left hide.
+**Why:** The links serve very different readers. A member of the public shouldn't wade through Hack The Box to find Scamwatch, and a would-be analyst shouldn't wade the other way. Filtering keeps one page instead of three.
+
 ## Session: 2026-11-24 — Crack-time checker, deadline bars, glossary quiz
 
 ### The crack-time checker assumes the worst case, and says so

@@ -26,7 +26,8 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | **Play** (`play.html`) | Spot the scam: one message a day. Tap the parts that look suspicious, decide if it's a scam, and see which giveaways you found. Streak and rank are kept in your browser. |
 | **Dashboard** (`dashboard.html`, being split into pages) | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
-| **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
+| **Practise** (`practise.html`) | Courses, free tools, safe places to practise, and Australian organisations, filtered by who it's for. |
+| **Resources** | A signpost to I've been scammed, Check a breach and Practise. |
 | **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
 | **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
 
@@ -69,7 +70,8 @@ pseudosec/
 ├── essential-eight.html    # ASD's Essential Eight
 ├── glossary.html           # Searchable glossary
 ├── owasp.html              # OWASP web, API and LLM Top 10s
-├── resources.html          # Breach checker + links
+├── resources.html          # Signpost to help, breach and practise pages
+├── practise.html           # Courses, tools, practice platforms, organisations
 ├── ai-guide.html           # Prompt library + AI safety
 ├── sources.html            # Sources & methodology
 ├── definitions.html        # Redirect stub -> glossary.html
@@ -82,7 +84,7 @@ pseudosec/
 ├── reference.js            # Redirects old Reference #tab links
 ├── definitions.css/js      # Glossary data + render (glossary.html)
 ├── definitions-page.js     # Glossary search, filter and A-Z
-├── resources.css           # Resources page
+├── practise.js             # Practise: filter by who it's for
 ├── ai-guide.css/js         # Prompt library
 ├── sources.css             # Sources page styles
 ├── assets/

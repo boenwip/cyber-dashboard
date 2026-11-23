@@ -24,7 +24,7 @@ Phone tab bar: **Today, Play, Stay safe, Learn, Help**. "More" goes away.
 | Learn | Learn | `learn.html` | Three doors, plus the word and tip of the day | New; word and tip from the Dashboard | To do |
 | Learn | Glossary | `glossary.html` | 51 terms, searchable A to Z | Reference: Glossary | Done |
 | Learn | OWASP Top 10 | `owasp.html` | Web, API and LLM lists, for technical readers | Reference: OWASP | Done |
-| Learn | Practise | `practise.html` | Courses, tools, practice games, Australian organisations | Resources: Learn, Tools, CTF, Organisations | To do |
+| Learn | Practise | `practise.html` | Courses, tools, practice games, Australian organisations | Resources: Learn, Tools, CTF, Organisations | Done |
 | Footer | About and sources | `sources.html` | How the site works | (now) | Restyle |
 
 ## Retired
