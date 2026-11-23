@@ -12,7 +12,8 @@ body { --bar: 70px; }
 [data-t="learn"] { --c: #f5c4e3; --ct: #000; }
 
 /* ── HEADER (sits on the stage, and scrolls away) ── */
-.site-header { position: absolute; left: 0; right: 0; background: none; }
+.site-header { position: absolute; left: 0; right: 0; background: none; color: var(--on); border-bottom: 0; }
+.site-header .icon-btn:hover { background: var(--on); color: var(--flood); }
 .stage :focus-visible, .switch :focus-visible { outline-color: currentColor; border-radius: 0; }
 
 /* ── STAGE ── */

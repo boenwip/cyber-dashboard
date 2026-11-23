@@ -5,6 +5,26 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Redesign step 2: home page
+
+### Tiles, the Clearer palette and Geist
+**Decision:** The home page uses pastel topic tiles on a cool concrete base (#E6E8E5), and the whole site uses Geist and Geist Mono.
+**Why:** The owner compared three directions (Briefing, Tiles, Signal), four palettes and four fonts on the real page and chose these. The warm stone base made the pastels look muddy, and a full-colour panel felt punishing. Bricolage Grotesque was tried and rejected.
+
+### One job per page; the home page is today's news
+**Decision:** `index.html` shows the top 5 stories of the last week (most outlets first, the briefing's featured story on top), the ACSC alert when there is one, and one line onward. Everything else moves to its own page.
+**Why:** The owner's rule, from their lecturer: don't overload a page. The reader is the public on a phone for a couple of minutes.
+
+### The old dashboard stays at dashboard.html for now
+**Decision:** The tabbed dashboard moved to `dashboard.html`. Play, Exploited, This year and All stories link into it until steps 3 to 6 replace each part. Old `index.html#topic` links redirect there.
+**Why:** Each step ships on its own without losing any content in between.
+
+### Tab bar replaces the phone menu button
+**Decision:** Under 820px a bottom tab bar (Today, Play, Exploited, This year, More) replaces the header's menu button; More opens the full menu above the bar.
+**Why:** The main sections are one thumb tap away on a phone.
+
+---
+
 ## Session: 2026-11-23 — Quick fixes
 
 ### "AU Cyber" tag renamed "Cyber"

@@ -26,7 +26,7 @@ function toggleTheme() {
 // ── NAV ACTIVE STATE ────────────────────────────────────────
 function markActiveNav() {
   var page = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-link').forEach(function(link) {
+  document.querySelectorAll('.nav-link, .tabbar a').forEach(function(link) {
     var href = (link.getAttribute('href') || '').split('/').pop();
     var active = href === page;
     link.classList.toggle('nav-link--active', active);
@@ -131,42 +131,26 @@ function legacyCopy(text) {
 }
 
 // ── MOBILE NAV ──────────────────────────────────────────────
+// On phones the tab bar's More button opens the full menu above the bar
 function initMobileNav() {
-  var toggle = document.getElementById('nav-toggle');
+  var toggle = document.getElementById('more-btn');
   var nav    = document.querySelector('.site-nav');
   if (!toggle || !nav) return;
 
-  function openNav() {
-    nav.classList.add('site-nav--open');
-    toggle.setAttribute('aria-expanded', 'true');
-    toggle.setAttribute('aria-label', 'Close navigation');
-  }
-  function closeNav() {
-    nav.classList.remove('site-nav--open');
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', 'Open navigation');
+  function setOpen(open) {
+    nav.classList.toggle('site-nav--open', open);
+    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
   }
 
-  toggle.addEventListener('click', function() {
-    nav.classList.contains('site-nav--open') ? closeNav() : openNav();
-  });
-
+  toggle.addEventListener('click', function() { setOpen(!nav.classList.contains('site-nav--open')); });
   nav.querySelectorAll('.nav-link').forEach(function(link) {
-    link.addEventListener('click', closeNav);
+    link.addEventListener('click', function() { setOpen(false); });
   });
-
   document.addEventListener('click', function(e) {
-    if (nav.classList.contains('site-nav--open') &&
-        !nav.contains(e.target) && !toggle.contains(e.target)) {
-      closeNav();
-    }
+    if (nav.classList.contains('site-nav--open') && !nav.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
   });
-
   document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && nav.classList.contains('site-nav--open')) {
-      closeNav();
-      toggle.focus();
-    }
+    if (e.key === 'Escape' && nav.classList.contains('site-nav--open')) { setOpen(false); toggle.focus(); }
   });
 }
 
