@@ -102,6 +102,33 @@ function renderWotd(terms) {
 }
 
 // ── SHARING ─────────────────────────────────────────────────
+// ── NEWS SOURCES: short publisher names and clean headlines ──
+var SHORT_SOURCE = {
+  'Australian Cyber Security Magazine': 'AU Cyber Security Mag',
+  'Security Brief Australia': 'Security Brief',
+  'Bleeping Computer AU': 'BleepingComputer',
+  'Guardian AU Cyber': 'The Guardian',
+  'The Register AU': 'The Register',
+  'ABC Tech': 'ABC',
+  'Privacy & Compliance AU': 'Google News',
+  'ACSC (via Google News)': 'ACSC'
+};
+function sourceName(s) {
+  var name = String(s || '').replace(/^Google News\s*[—-]\s*/i, '');
+  return SHORT_SOURCE[name] || name;
+}
+// Google News headlines end with the publisher ("… - bleepingcomputer.com", "… – BleepingComputer")
+function headline(t, source) {
+  var s = String(t || '').replace(/\s+[-–|]\s+(?:[\w.-]+\.(?:com|net|org|co|au)(?:\.au)?|The Guardian|The Register|ABC News|Cyber\.gov\.au)\s*$/i, '');
+  var pub = sourceName(source).toLowerCase().replace(/\s+/g, '');
+  var m = s.match(/^(.*\S)\s+[-–|]\s+([^-–|]{3,40})$/);
+  return m && pub && m[2].toLowerCase().replace(/\s+/g, '') === pub ? m[1] : s;
+}
+// Google News "summaries" only repeat the headline and publisher, so they're not shown.
+function hasSummary(s) {
+  return !!s.summary && s.summary.length > 60 && !/Google News/i.test(s.source || '');
+}
+
 function siteUrl() { return location.href.split('#')[0].split('?')[0]; }
 
 function canNativeShare() { return typeof navigator.share === 'function'; }

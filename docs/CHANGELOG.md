@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — All stories page
+
+**Added**
+- All stories has its own page (`stories.html`): every story in the feed, newest first, grouped by day ("Today", "Yesterday", then the date), in one readable column. Each story shows its topic, source and time, the headline, the full summary, and the other outlets that covered it, behind "Also covered by"
+- Filters for Cyber, Scams, AI and tools, ACSC alerts, Compliance and Tool updates, each with a count. The filter is in the address (`stories.html#scams`), so it can be shared. On phones the filters scroll sideways
+- `docs/site-map.md`: the agreed site map. Pages are grouped into Today, Play, Stay safe and Learn, with a Get help button on every page
+
+**Changed**
+- The home page's "All stories" button goes to the new page. Old `#news`, `#alerts` and `#tools` links redirect there
+
+---
+
 ## November 2026 — Exploited page (redesign step 4)
 
 **Added**
