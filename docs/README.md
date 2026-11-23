@@ -27,7 +27,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ## Features
 
-**Layout** — The home page (`index.html`) shows today's top 5 stories as tiles, one pastel per topic, the lead in a big tile, the ACSC alert bar when there is an alert, and one line onward to exploited bugs, the puzzle and the year's count. Swoop the lookout perches on the lead; his mood follows the alert. On phones a tab bar at the bottom (Today, Play, Exploited, This year, More) holds the main sections. The previous topic dashboard lives at `dashboard.html` while its parts are rebuilt as their own pages; old `#topic` links on the home page redirect there.
+**Layout** — The home page (`index.html`) shows today's top 5 stories as tiles: the lead in a big lemon tile, the rest in chocolate, each topic marked by a small coloured dot, the ACSC alert bar when there is an alert, and one line onward to exploited bugs, the puzzle and the year's count. Swoop the lookout perches on the lead; his mood follows the alert. On phones a tab bar at the bottom (Today, Play, Exploited, This year, More) holds the main sections. The previous topic dashboard lives at `dashboard.html` while its parts are rebuilt as their own pages; old `#topic` links on the home page redirect there.
 
 **Official ACSC alert** — The newest ACSC alert from the last 14 days, Critical or High first. ACSC items are the only ones with a threat level, taken from ACSC's own title ("CRITICAL ALERT: …"). cyber.gov.au times out from GitHub's servers, so the pipeline falls back to a Google News search of ACSC's alerts section; those items are labelled "ACSC" with no level rather than a guessed one.
 

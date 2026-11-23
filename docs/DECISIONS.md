@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Lemon and chocolate
+
+### Lemon leads, chocolate partners, orange accents
+**Decision:** The home page's lead tile is lemon, the other tiles and buttons chocolate, the accent the logo's orange, on warm grey. Topic colours shrink to a dot.
+**Why:** The pastel tiles let coral take over whenever a scam led, and drifted from the logo's banana. Banana with black read like a bank, so banana got a coloured partner. The owner picked this mix in a live colour playground on the real page.
+
+### Swoop flips in dark mode
+**Decision:** Swoop's feathers come from CSS (`--swoop-k`, `--swoop-w`); dark mode swaps them to a light body with dark patches.
+**Why:** His black body vanished on the dark page; the one-pixel outline wasn't enough.
+
+---
+
 ## Session: 2026-11-23 — Redesign step 2: home page
 
 ### Tiles, the Clearer palette and Geist

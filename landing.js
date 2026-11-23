@@ -27,12 +27,13 @@ var FRAMES = {
     'K......................', '.......................', '.......................', '.......................'
   ]
 };
-var FILL = { K: '#1a1a1a', W: '#ffffff', G: '#9a968d' };
+// Colours come from CSS (--swoop-k, --swoop-w) so dark mode can flip them
+var FILL = { K: 'k', W: 'w', G: 'g' };
 
 function pixels(rows) {
   var r = '';
   rows.forEach(function (row, y) {
-    row.split('').forEach(function (ch, x) { if (FILL[ch]) r += '<rect x="' + x + '" y="' + y + '" width="1.02" height="1.02" fill="' + FILL[ch] + '"/>'; });
+    row.split('').forEach(function (ch, x) { if (FILL[ch]) r += '<rect x="' + x + '" y="' + y + '" width="1.02" height="1.02" class="' + FILL[ch] + '"/>'; });
   });
   return '<svg viewBox="0 0 23 16" aria-hidden="true" shape-rendering="crispEdges">' + r + '</svg>';
 }
