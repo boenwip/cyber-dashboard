@@ -197,7 +197,8 @@ def test_follow_up_days_later_is_dropped_from_the_group():
     # Original disclosure (Sep 23-24) vs the government's stocktake order six days later
     arts = [
         art("OpenAI agent breached Australian Medicare statistics portal", "ACM", date="2026-09-23T22:00:00Z"),
-        art("OpenAI agents 'infiltrated Australian government website'", "The Register", date="2026-09-24T07:00:00Z"),
+        art("OpenAI agents 'infiltrated Australian government website'", "The Register", date="2026-09-24T07:00:00Z",
+            summary="An OpenAI agent pressed past access controls on a Medicare statistics portal."),
         art("Home Affairs orders gov-wide 'legacy' system stocktake", "iTnews", date="2026-09-30T02:00:00Z"),
     ]
     assert st.ai_groups(arts, FakeClient({"groups": [[2, 0, 1]]})) == [[0, 1]]
@@ -210,7 +211,8 @@ def test_group_left_with_one_dated_member_is_dropped():
 
 
 def test_undated_articles_are_not_dropped_by_the_spread_check():
-    arts = [art("A", "One", date=None), art("B", "Two", date="2026-09-24T01:00:00Z")]
+    arts = [art("Qantas customer records stolen", "One", date=None),
+            art("Qantas confirms customer records stolen", "Two", date="2026-09-24T01:00:00Z")]
     assert st.ai_groups(arts, FakeClient({"groups": [[0, 1]]})) == [[0, 1]]
 
 
@@ -226,3 +228,59 @@ def test_changing_the_model_invalidates_the_cache(tmp_path, monkeypatch):
     again = FakeClient({"groups": [[0, 1, 2]]})
     st.choose_groups(MEDICARE, again, path)
     assert again.calls == 1
+
+
+# ── Shared-subject guard (AI pairings with nothing in common) ──
+
+D = "2026-11-11T01:00:00Z"
+N_ABLE = art("N-able Takes N-central Platform Offline After Discovery of 33 Flaws", "Dark Reading", D,
+             "The RMM provider also released a hotfix as a recommended mitigation to address public exploits for the alleged zero-days, which allow for attacker takeover.")
+ACS = art("Australia’s AI safety plan won’t work without local tech capability, ACS warns", "Australian Cyber Security Magazine", D,
+          "The Australian Computer Society (ACS) has warned that the Federal Government’s proposed AI safety protections will fall short without stronger local technical capability to implement, test and enforce them.")
+JPM = art("JPMorgan, Visa, Mastercard say third-party vendors targeted in cyberattack", "iTnews", D, "Non-payment information accessed.")
+NORWAY = art("Second Norwegian Energy Company Breached in 2 Days", "Dark Reading", D,
+             "No specific link has been drawn between the two incidents, though they certainly sing the same notes.")
+KINGPIN = art("Podcast: I Spoke to an AI Fraud Kingpin", "404 Media", D,
+              "The man who created OnlyFake; a Muse agent is suing Meta; and the Justice Department is using Pangram.")
+OPTIMIZELY = [
+    art("Hijacked website testing tool plants card skimmer on Australian brands’ sites", "iTnews", D,
+        "Telco, bank and super fund sites among 178 hit through Optimizely breach."),
+    art("Attackers Used Optimizely to A/B Test Malware on Top Websites", "Krebs on Security", D,
+        "At least 178 top web destinations unwittingly served a variety of malware exploits against visitors over the past 24 hours thanks to a security vulnerability involving Optimizely."),
+    art("Optimizely Malware Attacks Highlight Third-Party Vendor Risks", "Dark Reading", D,
+        "At least 178 organizations, including several major brands, unwittingly exposed website visitors to hydra-like malware via a third-party platform."),
+]
+PATCH = [
+    art("November Patch Tuesday: An Overflowing Cornucopia of CVEs", "Dark Reading", D,
+        "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast."),
+    art("Microsoft Fixes Nearly 1,100 Security Vulnerabilities", "Krebs on Security", D,
+        "Microsoft did another four-digit patch drop today, releasing updates to fix almost 1,100 security vulnerabilities in its Windows operating systems and supported software."),
+]
+
+
+def test_ai_pairs_with_nothing_in_common_are_not_merged():
+    # The three wrong pairings the integrity agent flagged, 2026-11-19 to 2026-11-23
+    for a, b in [(N_ABLE, ACS), (JPM, NORWAY), (JPM, KINGPIN)]:
+        assert st.ai_groups([a, b], FakeClient({"groups": [[0, 1]]})) == [], a["title"]
+
+
+def test_ai_groups_sharing_a_subject_are_kept():
+    arts = OPTIMIZELY + PATCH + MEDICARE
+    payload = {"groups": [[0, 1, 2], [3, 4], [5, 6, 7]]}
+    assert st.ai_groups(arts, FakeClient(payload)) == payload["groups"]
+
+
+def test_one_shared_common_word_is_not_enough():
+    # ACS's policy story shares only "test" with Krebs's "A/B Test Malware"
+    assert st.ai_groups([OPTIMIZELY[1], ACS], FakeClient({"groups": [[0, 1]]})) == []
+
+
+def test_unrelated_member_is_dropped_from_an_otherwise_good_group():
+    arts = OPTIMIZELY + [ACS]
+    assert st.ai_groups(arts, FakeClient({"groups": [[0, 1, 2, 3]]})) == [[0, 1, 2]]
+
+
+def test_quoted_names_count():
+    arts = [art('North Korean "WaterPlum" actors target IT job seekers', "ACSC"),
+            art("Beware DPRK job scams, ASD warns", "iTnews", summary='Fake "WaterPlum" employer infected at least 30,000 devices.')]
+    assert st.ai_groups(arts, FakeClient({"groups": [[0, 1]]})) == [[0, 1]]

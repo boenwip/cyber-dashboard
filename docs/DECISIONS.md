@@ -5,6 +5,14 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Grouping guard
+
+### AI groups must share a name
+**Decision:** `validate_groups()` drops any member of an AI group that shares no name (a capitalised word or number such as Coles, Optimizely or 178 in its headline or first sentence) with another member. It applies to fresh and cached AI groups.
+**Why:** Prompt wording alone hasn't stopped the model merging unrelated stories: N-able's 33 flaws with an ACS policy piece, and JPMorgan with a Norwegian energy breach. Replaying the check over all 129 past groups dropped about 18 wrong merges and split about 8 real pairs that share only lowercase words (ACSC's "Risks of AI misalignment" and ACM's write-up of it). A split shows a story twice, while a wrong merge shows a false "2 sources" and can become Today's Story, so the trade is worth it. Requiring two shared words instead split real pairs that share one name (both Coles stories), and one shared word of any kind let "test" join ACS to Krebs's "A/B Test" story.
+
+---
+
 ## Session: 2026-11-23 — Feed intake fix
 
 ### Google News allowlist — check the publisher's site, not headline words

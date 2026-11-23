@@ -4,6 +4,13 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Unrelated stories no longer merged
+
+**Fixed**
+- Stories grouped together must now name something in common, such as a company, product or figure. Before, unrelated stories were sometimes shown as one story covered by two outlets. A few real pairs that share no name may now appear as two stories
+
+---
+
 ## November 2026 — More sources reach the news feed
 
 **Fixed**
