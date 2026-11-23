@@ -50,7 +50,7 @@ def test_validate_rejects_wrong_shape():
 def test_ai_groups_uses_sonnet_low_effort_with_json_schema():
     client = FakeClient({"groups": [[0, 1, 2]]})
     assert st.ai_groups(MEDICARE, client) == [[0, 1, 2]]
-    assert client.kwargs["model"] == "claude-sonnet-5"
+    assert client.kwargs["model"] == "claude-sonnet-5-5"
     assert client.kwargs["output_config"]["effort"] == "low"
     assert client.kwargs["output_config"]["format"]["type"] == "json_schema"
     # Headlines are sent without the Google News publisher suffix
@@ -284,3 +284,11 @@ def test_quoted_names_count():
     arts = [art('North Korean "WaterPlum" actors target IT job seekers', "ACSC"),
             art("Beware DPRK job scams, ASD warns", "iTnews", summary='Fake "WaterPlum" employer infected at least 30,000 devices.')]
     assert st.ai_groups(arts, FakeClient({"groups": [[0, 1]]})) == [[0, 1]]
+
+
+def test_refusal_falls_back_and_logs_its_category(capsys):
+    client = FakeClient({"groups": [[0, 1]]}, stop="refusal")
+    real = client.create
+    client.create = lambda **kw: SimpleNamespace(**{**vars(real(**kw)), "stop_details": SimpleNamespace(category="cyber")})
+    assert st.ai_groups(MEDICARE, client) is None
+    assert "refusal, cyber" in capsys.readouterr().out
