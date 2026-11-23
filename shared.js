@@ -23,18 +23,6 @@ function toggleTheme() {
   syncThemeButton();
 }
 
-// ── NAV ACTIVE STATE ────────────────────────────────────────
-function markActiveNav() {
-  var page = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-link, .tabbar a').forEach(function(link) {
-    var href = (link.getAttribute('href') || '').split('/').pop();
-    var active = href === page;
-    link.classList.toggle('nav-link--active', active);
-    if (active) link.setAttribute('aria-current', 'page');
-    else link.removeAttribute('aria-current');
-  });
-}
-
 // ── ESCAPING ────────────────────────────────────────────────
 // Every value from data/*.json goes through esc() (text) or safeUrl() (links)
 // before it is placed in an HTML string. Feed content is untrusted.
@@ -97,8 +85,6 @@ function renderWotd(terms) {
   var defEl  = document.getElementById('wotd-def');
   if (termEl) termEl.textContent = term.term || '';
   if (defEl)  defEl.textContent  = term.short || '';
-  var strip = document.getElementById('wotd-strip');
-  if (strip) strip.style.opacity = '1';
 }
 
 // ── SHARING ─────────────────────────────────────────────────
@@ -157,35 +143,9 @@ function legacyCopy(text) {
   }
 }
 
-// ── MOBILE NAV ──────────────────────────────────────────────
-// On phones the tab bar's More button opens the full menu above the bar
-function initMobileNav() {
-  var toggle = document.getElementById('more-btn');
-  var nav    = document.querySelector('.site-nav');
-  if (!toggle || !nav) return;
-
-  function setOpen(open) {
-    nav.classList.toggle('site-nav--open', open);
-    toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
-  }
-
-  toggle.addEventListener('click', function() { setOpen(!nav.classList.contains('site-nav--open')); });
-  nav.querySelectorAll('.nav-link').forEach(function(link) {
-    link.addEventListener('click', function() { setOpen(false); });
-  });
-  document.addEventListener('click', function(e) {
-    if (nav.classList.contains('site-nav--open') && !nav.contains(e.target) && !toggle.contains(e.target)) setOpen(false);
-  });
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && nav.classList.contains('site-nav--open')) { setOpen(false); toggle.focus(); }
-  });
-}
-
 // ── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
-  markActiveNav();
   syncThemeButton();
   var themeBtn = document.getElementById('theme-btn');
   if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
-  initMobileNav();
 });
