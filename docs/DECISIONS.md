@@ -5,6 +5,22 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Site map, and the All stories page
+
+### A new site map, before new colours
+**Decision:** The site splits into one-job pages grouped as Today, Play, Stay safe and Learn (`docs/site-map.md`). Reference and Resources split into Essential Eight, Glossary, OWASP, I've been scammed, Check a breach and Practise. A Get help button sits on every page. Colours are picked after the splits.
+**Why:** The owner found some pages too busy and still didn't like the colours. Less on each page makes colours easier to judge, and a reader who has just been scammed shouldn't have to hunt for help.
+
+### All stories is rows, not tiles
+**Decision:** One column of rows grouped by day, full summaries, filters beside it. No reader pane.
+**Why:** Sixty-plus tiles would be a wall; rows stay calm and scannable. Every story opens on its source anyway, so the dashboard's list-and-detail reader only repeated the summary.
+
+### Headline helpers moved to shared.js
+**Decision:** `sourceName`, `headline` and `hasSummary` moved from `dashboard.js` to `shared.js`.
+**Why:** The dashboard and All stories both need them; one copy.
+
+---
+
 ## Session: 2026-11-23 — Redesign step 4: Exploited page
 
 ### Flaws grouped by the day they were added
