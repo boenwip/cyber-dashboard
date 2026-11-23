@@ -52,11 +52,12 @@
     <h1>Essential Eight</h1>
     <p>Australia's baseline defences against the most common attacks</p>
   </div>
+  <div class="with-rail">
   <div class="col">
     <p>The Essential Eight — the Australian Signals Directorate's baseline cyber security controls for Australian organisations. Not a compliance checkbox — a prioritised set of mitigations designed to prevent the most common attacks. ASD's maturity model has three levels; organisations choose a target level based on the threats they face, and non-corporate Commonwealth entities must reach Maturity Level Two.</p>
     <p><strong>Changing to the Essentials series.</strong> ASD is evolving the Essential Eight into a broader Essentials series, starting with <em>Essentials for enterprise IT</em>, with further chapters to follow. ASD expects organisations already using the Essential Eight to find strong alignment with their existing controls. The Essential Eight remains current for now.</p>
     <p class="acts"><a class="btn" href="https://www.cyber.gov.au/essential-eight" target="_blank" rel="noopener noreferrer">Read ASD's guide</a> <a class="btn btn--quiet" href="https://www.cyber.gov.au/news/consultation-on-evolution-of-essential-eight" target="_blank" rel="noopener noreferrer">How it's changing</a></p>
-    <ol class="steps">
+    <ol class="steps" data-track="e8" data-label="We do this">
       <li>
         <h2>Application Control</h2>
         <p>Only allow approved applications to run on your systems. Executables, scripts, libraries — if they're not on the approved list, they don't run. Stops malware and unauthorised software before it can execute. One of the most effective controls against malware — unapproved programs, including most ransomware, simply can't run.</p>
@@ -100,6 +101,16 @@
     </ol>
     <p class="more">Unsure what a word means? <a href="glossary.html">Open the glossary</a></p>
   </div>
+  <aside class="rail" aria-label="Your self-check">
+    <div class="rail-box track">
+      <span class="swoop rail-swoop" id="swoop" aria-hidden="true"><span class="bird"></span></span>
+      <div class="ring"><svg viewBox="0 0 36 36" aria-hidden="true"><circle class="ring-track" cx="18" cy="18" r="15.9" pathLength="100"/><circle class="ring-fill" id="track-ring" cx="18" cy="18" r="15.9" pathLength="100"/></svg><p aria-live="polite"><b id="track-count">0</b> of 8</p></div>
+      <p>Your next gap: <a id="track-next" href="#e8-1">Application Control</a></p>
+      <p id="track-all" hidden>All eight in place. Next, check how well: ASD's maturity levels go deeper.</p>
+      <p class="track-note">Tick the ones you already do. Your ticks stay on this device.</p>
+    </div>
+  </aside>
+  </div>
 </main>
 <nav class="tabbar" aria-label="Sections">
   <a href="index.html">Today</a>
@@ -115,5 +126,7 @@
 </footer>
 
 <script src="shared.js"></script>
+<script src="swoop.js"></script>
+<script src="guide.js"></script>
 </body>
 </html>

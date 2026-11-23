@@ -2,7 +2,9 @@
    column, the most urgent thing first in lemon, then numbered steps. Requires shared.css. */
 
 .guide { padding: 0 var(--gutter) clamp(40px, 5vw, 72px); }
-.col { max-width: 46rem; font-size: clamp(17px, 1.2vw, 19px); line-height: 1.55; }
+/* The strapline sits under the title, clear of the rail and Swoop */
+.guide .masthead { flex-direction: column; align-items: flex-start; }
+.col { max-width: 50rem; font-size: clamp(17px, 1.2vw, 19px); line-height: 1.55; }
 .col p + p { margin-top: 10px; }
 
 /* The first thing to do */
@@ -61,4 +63,35 @@
 .picks span { font-size: 15px; color: var(--text-2); }
 .picks a:hover { background: var(--pop); color: #1a1a1a; }
 .picks a:hover span { color: inherit; }
-.col--wide { max-width: 52rem; }
+
+
+/* Side rail: progress, next step, and Swoop perched on top */
+.track { position: relative; display: grid; gap: 8px; padding-top: 26px; }
+.rail-swoop { position: absolute; top: -40px; right: 20px; width: 64px; }
+.track-count { font-size: 17px; }
+.track-count b, .ring b { font-size: 34px; font-weight: 700; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.track a { color: var(--text); font-weight: 600; text-underline-offset: 3px; }
+.track-note { font-size: 14px; color: var(--text-2); }
+.meter { display: block; height: 10px; border-radius: 99px; background: var(--surface3); overflow: hidden; }
+.meter i { display: block; height: 100%; width: 0; border-radius: 99px; background: var(--pop); transition: width .5s cubic-bezier(.2, .7, .2, 1); }
+.ring { position: relative; width: 132px; }
+.ring svg { display: block; width: 100%; transform: rotate(-90deg); }
+.ring circle { fill: none; stroke-width: 3.4; }
+.ring-track { stroke: var(--surface3); }
+.ring-fill { stroke: var(--pop); stroke-dasharray: 100; stroke-dashoffset: 100; transition: stroke-dashoffset .6s cubic-bezier(.2, .7, .2, 1); }
+.ring p { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; font-size: 15px; line-height: 1; }
+.rail-head { margin-bottom: 8px; font-weight: 700; }
+.rail-links { display: grid; list-style: none; }
+.rail-links a { display: flex; align-items: center; min-height: 44px; color: var(--text); font-weight: 600; text-underline-offset: 3px; }
+
+/* Tick a step off */
+.tick { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; margin-top: 10px; padding: 0 18px 0 12px; border: 1.5px solid var(--text); border-radius: 99px; background: none; color: var(--text); font: inherit; font-size: 15px; font-weight: 600; cursor: pointer; }
+.tick::before { content: ''; display: grid; place-items: center; width: 20px; height: 20px; border: 1.5px solid currentColor; border-radius: 6px; font-size: 14px; line-height: 1; }
+.tick[aria-pressed="true"] { border-color: var(--partner); background: var(--partner); color: var(--on-partner); }
+.tick[aria-pressed="true"]::before { content: '✓'; border-color: transparent; background: var(--pop); color: #1a1a1a; }
+.tick:hover { border-color: var(--pop); }
+:root[data-theme="dark"] .tick[aria-pressed="true"] { border-color: var(--main); background: var(--main); color: var(--on-main); }
+.steps li.done::before { content: '✓'; background: var(--pop); color: #1a1a1a; }
+.steps li.just::before { animation: tick-pop .4s cubic-bezier(.3, 1.6, .5, 1); }
+@keyframes tick-pop { 50% { transform: scale(1.25); } }
+@media (prefers-reduced-motion: reduce) { .meter i, .ring-fill { transition: none; } .steps li.just::before { animation: none; } }

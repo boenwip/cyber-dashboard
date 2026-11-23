@@ -31,12 +31,29 @@ function chart(g) {
   }).join('') + '</ul></figure>';
 }
 
+// Write the estimate; digits that changed since last time roll up (year.css)
+function showCount() {
+  var el = document.getElementById('count'), old = el.textContent, t = estimate();
+  el.innerHTML = t.split('').map(function (c, i) {
+    return old.length === t.length && c !== old[i] ? '<span class="roll">' + c + '</span>' : c;
+  }).join('');
+}
+
+// Bars grow in once, the first time the charts are on screen
+function growBars(charts) {
+  var bars = charts.querySelectorAll('i[data-w]');
+  function grow() { bars.forEach(function (i) { i.style.width = i.getAttribute('data-w') + '%'; }); }
+  if (!('IntersectionObserver' in window)) return grow();
+  var io = new IntersectionObserver(function (es) { if (es[0].isIntersecting) { io.disconnect(); grow(); } }, { threshold: .3 });
+  io.observe(charts);
+}
+
 function text(id, t) { var el = document.getElementById(id); el.textContent = t || ''; el.hidden = !t; }
 
 function render(r) {
   report = r;
   text('source', 'From ASD\'s ' + r.title);
-  document.getElementById('count').textContent = estimate();
+  showCount();
   text('how', 'ASD received ' + r.reports_per_year.toLocaleString('en-AU') + ' cybercrime reports in FY' + r.fy +
     ', about one every ' + r.report_interval + '. This spreads that rate across the current financial year. Most cybercrime is never reported at all.');
   document.getElementById('fy-day').textContent = fyDay();
@@ -44,7 +61,7 @@ function render(r) {
   text('crimes', r.top_crimes);
   var charts = document.getElementById('charts');
   charts.innerHTML = (r.breakdowns || []).map(chart).join('');
-  charts.querySelectorAll('i[data-w]').forEach(function (i) { i.style.width = i.getAttribute('data-w') + '%'; });
+  growBars(charts);
   text('breakdown-note', r.breakdown_note);
   if (r.ai) {
     document.getElementById('ai').hidden = false;
@@ -61,7 +78,7 @@ function render(r) {
   var link = document.getElementById('report-link'), href = safeUrl(r.url);
   if (href) link.href = href; else link.hidden = true;
   document.getElementById('report').hidden = false;
-  setInterval(function () { document.getElementById('count').textContent = estimate(); }, 6000);
+  setInterval(showCount, 6000);
 }
 
 document.addEventListener('DOMContentLoaded', function () {

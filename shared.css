@@ -241,6 +241,24 @@ button { font: inherit; color: inherit; }
 .masthead p { font-size: 16px; color: var(--text-2); }
 
 
+/* Wide screens: the reading column, with a sticky rail of the page's quick actions beside it.
+   On phones the rail drops below the page (.rail--top: above it; .rail-wide: wide screens only). */
+.with-rail { display: grid; gap: clamp(28px, 3vw, 44px); align-items: start; }
+.rail { display: grid; gap: 14px; align-content: start; }
+.rail-box { padding: 20px 22px; border-radius: 20px; background: var(--surface); }
+@media (min-width: 1100px) {
+  .with-rail { grid-template-columns: minmax(0, 50rem) minmax(17rem, 26rem); column-gap: clamp(40px, 5vw, 120px); }
+  .rail { position: sticky; top: calc(var(--hdr) + 24px); }
+}
+@media (max-width: 1099px) {
+  .rail--top { order: -1; }
+  .rail-wide { display: none; }
+}
+/* Big monitors: scale the whole page up so it isn't a thin strip in a sea of stone */
+/* (vw ignores zoom, so the gutter divides by it to keep content at most 1640px wide) */
+@media (min-width: 1800px) { html { zoom: 1.2; } body { --gutter: max(40px, calc((100vw / 1.2 - 1640px) / 2)); } }
+@media (min-width: 2300px) { html { zoom: 1.4; } body { --gutter: max(40px, calc((100vw / 1.4 - 1640px) / 2)); } }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 820px) {
   body { --hdr: 57px; --tab: calc(60px + env(safe-area-inset-bottom)); padding-bottom: var(--tab); }
