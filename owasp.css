@@ -5,7 +5,8 @@
 .src { margin-top: 8px; font-size: 15px; }
 .src a { color: var(--text); text-underline-offset: 3px; }
 
-.jumps { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.jumps { display: flex; flex-wrap: wrap; gap: 8px; }
+@media (min-width: 1100px) { .jumps { flex-direction: column; align-items: flex-start; } }
 .jumps a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 99px; background: var(--surface); color: var(--text); font-weight: 600; text-decoration: none; }
 .jumps a:hover { background: var(--pop); color: #1a1a1a; }
 .part[id] { scroll-margin-top: calc(var(--hdr) + 16px); }

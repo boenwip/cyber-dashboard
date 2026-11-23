@@ -35,6 +35,12 @@
 .def-example-label { display: block; margin-bottom: 3px; font: 500 12px var(--mono); color: var(--text-2); }
 .def-empty { padding: 32px 0; font-size: 15px; color: var(--text-3); }
 
+/* In the side rail on wide screens */
+@media (min-width: 1100px) {
+  .find .def-controls { flex-direction: column; align-items: stretch; }
+  .find .def-search-wrap { min-width: 0; }
+}
+
 @media (max-width: 860px) {
   .def-card { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
   .def-card-header, .def-short, .def-full, .def-example { grid-column: 1; grid-row: auto; }

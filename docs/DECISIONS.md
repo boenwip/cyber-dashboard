@@ -5,6 +5,20 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Wide screens and side rails
+
+### Scale up, and use the side for quick actions
+**Decision:** From 1800px wide the page zooms (1.2×, then 1.4× from 2300px). Rail pages get a sticky side rail with the page's quick actions.
+**Why:** At 1440p two-thirds of the screen was empty stone. Scaling keeps the one comfortable reading column; the rail turns the leftover space into something useful that stays in view.
+
+### Interactive, but only when the reader acts
+**Decision:** Ticks, the progress ring, the meter and Swoop's moves happen in answer to a click. The only motion without a click is the estimate's digit roll and the bars growing in once. All of it is off under reduced motion.
+**Why:** The owner wants the site to feel more interactive; the rule set for Swoop (never on a loop) keeps that from becoming busy.
+
+### Ticks stay on the device
+**Decision:** Checklist and self-check ticks go to `localStorage` under `csi-track-help` and `csi-track-e8`. Nothing is sent anywhere.
+**Why:** No accounts or servers on a static site, and no one's scam or security status should leave their device.
+
 ## Session: 2026-11-24 — Reference split
 
 ### Three pages, no tabs

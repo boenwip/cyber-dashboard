@@ -77,6 +77,7 @@ pseudosec/
 ├── dashboard.css/js        # Home page: stage, topic switch, Swoop, reader
 ├── owasp.css               # OWASP page styles
 ├── guide.css               # Plain-English guide pages (help, breach, Essential Eight)
+├── guide.js                # Tick-off steps and progress rail (help, Essential Eight)
 ├── reference.js            # Redirects old Reference #tab links
 ├── definitions.css/js      # Glossary data + render (glossary.html)
 ├── definitions-page.js     # Glossary search, filter and A-Z

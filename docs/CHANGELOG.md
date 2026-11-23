@@ -4,6 +4,22 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Wide screens and side rails
+
+**Added**
+- A side rail beside the reading column on wide screens, holding each page's quick actions. It stays in view as you scroll. On phones it drops below the page, or above it where it's the main thing (the estimate on This year, the search on Glossary, the jump links on OWASP)
+- I've been scammed: tick off each step. The rail shows how many are done and links to the next one; Swoop ruffles at each tick and hops when all six are done. Ticks are kept in your browser only
+- Essential Eight: a self-check. Tick the controls you already have; a ring fills and the rail names your next gap
+- This year: the estimate sits in the rail and each digit rolls up as it ticks over. The bar charts grow in the first time you scroll to them
+- Check a breach: the rail links to each "what to do" part and to I've been scammed
+
+**Changed**
+- Big monitors: the whole site scales up (1.2× from 1800px wide, 1.4× from 2300px), so pages no longer sit in a thin strip
+- On the rail pages, the strapline sits under the title
+- This year no longer says "From ASD's ASD Annual Cyber Threat Report"
+
+---
+
 ## November 2026 — Reference split: Essential Eight, Glossary, OWASP
 
 **Added**

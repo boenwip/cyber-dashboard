@@ -52,6 +52,7 @@
     <h1>I've been scammed</h1>
     <p>What to do first, in order</p>
   </div>
+  <div class="with-rail">
   <div class="col">
     <section class="now">
       <h2>If money or card details are involved, call your bank now</h2>
@@ -60,7 +61,7 @@
     </section>
     <p class="calm">It's not your fault. Scams are built by professionals to fool people, and they catch careful people every day.</p>
 
-    <ol class="steps">
+    <ol class="steps" data-track="help">
       <li>
         <h2>Stop all contact</h2>
         <p>Don't reply, don't send more money, and don't click any more links. If someone is on the phone, hang up. Scammers often push hardest once they know you've noticed.</p>
@@ -100,6 +101,21 @@
     </section>
     <p class="more">Think your details were in a data breach? <a href="breach.html">Check a breach</a></p>
   </div>
+  <aside class="rail" aria-label="Your progress">
+    <div class="rail-box track">
+      <span class="swoop rail-swoop" id="swoop" aria-hidden="true"><span class="bird"></span></span>
+      <p class="track-count" aria-live="polite"><b id="track-count">0</b> of 6 steps done</p>
+      <span class="meter"><i id="track-fill"></i></span>
+      <p>Next: <a id="track-next" href="#help-1">Stop all contact</a></p>
+      <p id="track-all" hidden>All done. Look after yourself, and keep an eye on your accounts for a few weeks.</p>
+      <p class="track-note">Tick each step as you go. Your ticks stay on this device.</p>
+    </div>
+    <div class="rail-box rail-wide">
+      <p>Not sure what's happened? Free, 24 hours:</p>
+      <p class="acts"><a class="btn" href="tel:1300292371">Call 1300 292 371</a></p>
+    </div>
+  </aside>
+  </div>
 </main>
 <nav class="tabbar" aria-label="Sections">
   <a href="index.html">Today</a>
@@ -115,5 +131,7 @@
 </footer>
 
 <script src="shared.js"></script>
+<script src="swoop.js"></script>
+<script src="guide.js"></script>
 </body>
 </html>

@@ -52,6 +52,7 @@
     <h1>Check a breach</h1>
     <p>Is my email in a leak?</p>
   </div>
+  <div class="with-rail">
   <div class="col">
     <section class="now">
       <h2>Check your email address</h2>
@@ -59,7 +60,7 @@
       <p class="acts"><a class="btn btn--big" href="https://haveibeenpwned.com/" target="_blank" rel="noopener noreferrer">Check on haveibeenpwned.com</a></p>
     </section>
 
-    <section class="part">
+    <section class="part" id="if-breached">
       <h2>If your email is in a breach</h2>
       <p class="calm">Being in a breach is common, and it doesn't mean you've been hacked. It means some of your details were leaked, so it's time to tidy up.</p>
       <ol class="steps">
@@ -78,16 +79,31 @@
       </ol>
     </section>
 
-    <section class="part">
+    <section class="part" id="if-id">
       <h2>If your ID documents were leaked</h2>
       <p>If the breach included your licence, passport or Medicare number, the company should tell you what was taken. Ask the agency that issued the document about replacing it. IDCARE can help you work out what to do, free: <a class="tel" href="tel:1800595160">1800 595 160</a></p>
     </section>
 
-    <section class="part">
+    <section class="part" id="notify">
       <h2>Hear about the next one</h2>
       <p>Have I Been Pwned can email you if your address turns up in a future breach. Look for "Notify me" on their site.</p>
     </section>
     <p class="more">Lost money or gave details to a scammer? <a href="help.html">I've been scammed</a></p>
+  </div>
+  <aside class="rail rail-wide" aria-label="On this page">
+    <div class="rail-box">
+      <p class="rail-head">After you check</p>
+      <ul class="rail-links">
+        <li><a href="#if-breached">If your email is in a breach</a></li>
+        <li><a href="#if-id">If your ID documents were leaked</a></li>
+        <li><a href="#notify">Hear about the next one</a></li>
+      </ul>
+    </div>
+    <div class="rail-box">
+      <p>Lost money or gave details to a scammer?</p>
+      <p class="acts"><a class="btn" href="help.html">I've been scammed</a></p>
+    </div>
+  </aside>
   </div>
 </main>
 <nav class="tabbar" aria-label="Sections">
