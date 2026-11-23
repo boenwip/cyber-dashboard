@@ -7,6 +7,10 @@ Format: decision → why. Newest first within each session.
 
 ## Session: 2026-11-23 — Redesign step 2: home page
 
+### Tiles, the Clearer palette and Geist
+**Decision:** The home page uses pastel topic tiles on a cool concrete base (#E6E8E5), and the whole site uses Geist and Geist Mono.
+**Why:** The owner compared three directions (Briefing, Tiles, Signal), four palettes and four fonts on the real page and chose these. The warm stone base made the pastels look muddy, and a full-colour panel felt punishing. Bricolage Grotesque was tried and rejected.
+
 ### One job per page; the home page is today's news
 **Decision:** `index.html` shows the top 5 stories of the last week (most outlets first, the briefing's featured story on top), the ACSC alert when there is one, and one line onward. Everything else moves to its own page.
 **Why:** The owner's rule, from their lecturer: don't overload a page. The reader is the public on a phone for a couple of minutes.

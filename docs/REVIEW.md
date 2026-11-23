@@ -124,7 +124,7 @@ Then work through the human lenses.
 
 **Typography**
 - [ ] Body text is readable at current size (no smaller than 13px for secondary text)
-- [ ] Spline Sans Mono only for small technical data (dates, IDs); Host Grotesk for everything else
+- [ ] Geist Mono only for small technical data (dates, IDs); Geist for everything else
 - [ ] No emoji icons, tiny letter-spaced capitals, hairline borders or accent rails
 - [ ] Text tokens meet WCAG AA 4.5:1 on every surface (audit checks)
 

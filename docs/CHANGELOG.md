@@ -7,9 +7,10 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 ## November 2026 — New home page (redesign step 2)
 
 **Changed**
-- The home page now does one job: today's top 5 stories. The lead story gets a colour panel for its topic; stories 2 to 5 are a plain list. The ACSC alert bar shows only when there is an alert. One line links on to exploited bugs, today's puzzle and the year's report count
+- The home page now does one job: today's top 5 stories, as rounded tiles in one pastel per topic (butter for cyber, coral for scams, periwinkle for AI, mint for ACSC). The lead takes a big tile, the other four sit beside it, and all five fit on one screen. The ACSC alert bar shows only when there is an alert. One row links on to exploited bugs, today's puzzle and the year's report count
 - Swoop is the lookout on the lead story. His mood follows the real ACSC alert: calm, alert, or one swoop across the page for a critical or high alert. He moves once on load, then only when you hover or tap him, and stays still under reduced motion
-- Every page has a light stone background (#E4E0D9) and a plain header with a rule under it. The menu marks where you are with the logo's cursor
+- Every page has a cool concrete background (#E6E8E5) and a plain header. The menu marks where you are with the logo's cursor
+- The site's font is now Geist, with Geist Mono for dates and IDs, both self-hosted. Host Grotesk and Spline Sans Mono are removed
 - On phones a tab bar sits at the bottom: Today, Play, Exploited, This year, More. More opens the full menu. It replaces the menu button in the header
 - The old topic dashboard moved to `dashboard.html` until its pages are rebuilt. Old links such as `#scams` and `#cve` on the home page go there
 

@@ -8,9 +8,8 @@
  */
 
 /* Self-hosted fonts (assets/fonts, licences in assets/fonts/README.md) */
-@font-face { font-family: 'Host Grotesk'; src: url('assets/fonts/host-grotesk-latin-wght-normal.woff2') format('woff2'); font-weight: 300 800; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Spline Sans Mono'; src: url('assets/fonts/spline-sans-mono-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Spline Sans Mono'; src: url('assets/fonts/spline-sans-mono-latin-500-normal.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist'; src: url('assets/fonts/geist-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist Mono'; src: url('assets/fonts/geist-mono-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 [hidden] { display: none !important; }
@@ -18,10 +17,10 @@
 /* ── LIGHT THEME (base, and the no-JS default) ── */
 :root, :root[data-theme="light"] {
   color-scheme: light;
-  --bg:         #e4e0d9;   /* light stone */
-  --surface:    #efece7;
-  --surface2:   #e9e5df;
-  --surface3:   #dad6ce;
+  --bg:         #e6e8e5;   /* light concrete */
+  --surface:    #f3f4f2;
+  --surface2:   #eceeeb;
+  --surface3:   #dcdfdb;
   --text:       #1a1a1a;
   --text-2:     #3b3d42;
   --text-3:     #57595f;   /* 5.8:1+ on every surface (AA) */
@@ -40,13 +39,15 @@
   --high:       #8a5a0b;  --high-bg: #fcefd3;
   --adv:        #2f4a6b;  --adv-bg:  #e8edf4;
   --med:        #2d6a4f;
-  --ink:        #1a1a1a;  --on-ink:  #e4e0d9;
+  --ink:        #1a1a1a;  --on-ink:  #e6e8e5;
   --rule:       #1a1a1a;
+  --on-tile:    #1d1b19;
   --border:     rgba(27, 28, 30, 0.09);
   --border2:    rgba(27, 28, 30, 0.16);
   --shadow:     0 1px 2px rgba(27, 28, 30, 0.04), 0 8px 24px -12px rgba(27, 28, 30, 0.14);
-  --sans:       'Host Grotesk', 'Helvetica Neue', Arial, system-ui, sans-serif;
-  --mono:       'Spline Sans Mono', ui-monospace, Menlo, Consolas, monospace;
+  --sans:       'Geist', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --mono:       'Geist Mono', ui-monospace, Menlo, Consolas, monospace;
+  --display:    var(--sans);   /* headings on the home page */
   --font-display: var(--sans);
   --radius:     18px;
   --gutter:     clamp(16px, 4vw, 40px);
@@ -79,6 +80,7 @@
   --med:        #7fcfae;
   --ink:        #ecece6;  --on-ink:  #1f1e1c;
   --rule:       #4a4843;
+  --on-tile:    #1d1b19;
   --border:     rgba(236, 236, 230, 0.08);
   --border2:    rgba(236, 236, 230, 0.16);
   --shadow:     0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
@@ -105,11 +107,11 @@ body[data-topic="news"]  { --flood: #3d4fe0; --on: #fff; }
 body[data-topic="scams"] { --flood: #fb9a7e; }
 body[data-topic="cve"]   { --flood: #8fe6cc; }
 body[data-topic="learn"] { --flood: #f5c4e3; }
-/* One colour per news topic */
-.t-cyber { --p: #f4c430; --pi: #1a1a1a; }
-.t-scams { --p: #ef5a3c; --pi: #1a1a1a; }
-.t-ai    { --p: #3a4fe0; --pi: #ffffff; }
-.t-acsc  { --p: #0e8f7a; --pi: #ffffff; }
+/* One pastel per news topic; text on them is always --on-tile */
+.t-cyber { --p: #ffe48c; }
+.t-scams { --p: #ff9a80; }
+.t-ai    { --p: #b8c6ff; }
+.t-acsc  { --p: #9be6cb; }
 
 /* ── BASE ── */
 body {

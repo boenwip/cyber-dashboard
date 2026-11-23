@@ -98,7 +98,10 @@ function within(d, days) { return d && Date.now() - d < days * DAY; }
 
 function metaLine(s) {
   var n = outlets(s);
-  return '<span class="tp">' + esc(topic(s).label) + '</span> ' + esc(s.source) + ', ' + esc(formatDate(s.latest || s.date)) + (n > 1 ? ', covered by ' + n + ' outlets' : '');
+  return esc(s.source) + ', ' + esc(formatDate(s.latest || s.date)) + (n > 1 ? ', covered by ' + n + ' outlets' : '');
+}
+function tile(s, cls, inner) {
+  return '<a class="tile ' + cls + ' t-' + topic(s).key + '" href="' + safeUrl(s.link) + '" target="_blank" rel="noopener noreferrer">' + inner + '</a>';
 }
 
 function renderTop(items, featured) {
@@ -110,17 +113,13 @@ function renderTop(items, featured) {
   }
   var top = list.slice(0, 5), lead = top[0];
   if (!lead) { document.getElementById('lead').textContent = 'No stories this week.'; return; }
-  var tp = topic(lead), href = safeUrl(lead.link);
-  document.getElementById('lead').innerHTML =
-    '<div class="lead-panel t-' + tp.key + '"><span class="rank">1</span><span class="topic">' + esc(tp.label) + '</span></div>' +
-    '<div class="lead-text"><p class="meta">' + metaLine(lead) + '</p>' +
-    '<h2><a href="' + href + '" target="_blank" rel="noopener noreferrer">' + esc(clean(lead.title)) + '</a></h2>' +
-    (lead.summary ? '<p class="lede">' + esc(lead.summary) + '</p>' : '') + '</div>';
-  document.getElementById('more-stories').innerHTML = top.slice(1).map(function (s, i) {
-    return '<li><a href="' + safeUrl(s.link) + '" target="_blank" rel="noopener noreferrer">' +
-      '<span class="sq t-' + topic(s).key + '">' + (i + 2) + '</span>' +
-      '<span class="txt"><b>' + esc(clean(s.title)) + '</b><small>' + metaLine(s) + '</small></span></a></li>';
-  }).join('');
+  document.getElementById('lead').outerHTML = tile(lead, 'lead',
+    '<span class="topic">' + esc(topic(lead).label) + '</span><h2>' + esc(clean(lead.title)) + '</h2>' +
+    (lead.summary ? '<p>' + esc(lead.summary) + '</p>' : '') + '<small>' + metaLine(lead) + '</small>');
+  document.getElementById('tiles').insertAdjacentHTML('beforeend', top.slice(1).map(function (s, i) {
+    return tile(s, '', '<span class="tile-top"><span class="n">' + (i + 2) + '</span><span class="topic">' + esc(topic(s).label) + '</span></span>' +
+      '<h3>' + esc(clean(s.title)) + '</h3><small>' + metaLine(s) + '</small>');
+  }).join(''));
 }
 
 function findAlert(items) {
@@ -162,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function () {
     renderTop(items, r[1].items && r[1].items.featured);
     showAlert(a);
     initSwoop(moodFor(a));
-  }).catch(function () { document.getElementById('lead').textContent = 'News is unavailable right now.'; });
+  }).catch(function () { var l = document.getElementById('lead'); if (l) l.textContent = 'News is unavailable right now.'; });
   Promise.all([getJson('data/cve.json').catch(function () { return { items: [] }; }), getJson('data/annual_report.json').catch(function () { return null; })])
     .then(function (r) { renderOnward(r[0].items || [], r[1]); });
 });

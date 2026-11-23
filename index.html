@@ -47,19 +47,22 @@
 </header>
 
 <main id="main" class="home">
-  <a class="alert" id="alert" target="_blank" rel="noopener noreferrer" hidden></a>
   <div class="masthead">
     <h1>Today in Australian cyber security</h1>
     <p id="date"></p>
   </div>
-  <div class="lead-wrap">
-    <button type="button" class="swoop" id="swoop"><span class="bird"></span></button>
-    <article class="lead" id="lead">Loading today's stories…</article>
+  <a class="alert" id="alert" target="_blank" rel="noopener noreferrer" hidden></a>
+  <div class="tiles" id="tiles">
+    <div class="lead-wrap">
+      <button type="button" class="swoop" id="swoop"><span class="bird"></span></button>
+      <div class="tile lead" id="lead">Loading today's stories…</div>
+    </div>
   </div>
-  <ol class="more" id="more-stories" start="2" aria-label="Stories 2 to 5"></ol>
   <div class="onward">
     <a class="all" href="dashboard.html#news">All stories</a>
-    <p class="also">Also today: <a id="on-cve" href="dashboard.html#cve">Exploited bugs</a> <a href="dashboard.html#scams">Today's puzzle</a> <a id="on-year" href="dashboard.html#year">This year's reports</a></p>
+    <a class="chip-link" id="on-cve" href="dashboard.html#cve">Exploited bugs</a>
+    <a class="chip-link" href="dashboard.html#scams">Today's puzzle</a>
+    <a class="chip-link" id="on-year" href="dashboard.html#year">This year's reports</a>
   </div>
 </main>
 <nav class="tabbar" aria-label="Sections">
