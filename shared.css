@@ -17,10 +17,10 @@
 /* ── LIGHT THEME (base, and the no-JS default) ── */
 :root, :root[data-theme="light"] {
   color-scheme: light;
-  --bg:         #e6e8e5;   /* light concrete */
-  --surface:    #f3f4f2;
-  --surface2:   #eceeeb;
-  --surface3:   #dcdfdb;
+  --bg:         #ebe7e1;   /* warm grey */
+  --surface:    #f6f4f1;
+  --surface2:   #f0ede8;
+  --surface3:   #dfdad2;
   --text:       #1a1a1a;
   --text-2:     #3b3d42;
   --text-3:     #57595f;   /* 5.8:1+ on every surface (AA) */
@@ -39,9 +39,14 @@
   --high:       #8a5a0b;  --high-bg: #fcefd3;
   --adv:        #2f4a6b;  --adv-bg:  #e8edf4;
   --med:        #2d6a4f;
-  --ink:        #1a1a1a;  --on-ink:  #e6e8e5;
+  --ink:        #1a1a1a;  --on-ink:  #ebe7e1;
   --rule:       #1a1a1a;
-  --on-tile:    #1d1b19;
+  /* The brand: lemon leads, chocolate partners, the logo's orange is the small accent */
+  --main:       #ffe14d;  --on-main:    #1a1a1a;
+  --partner:    #4a2f25;  --on-partner: #fbf7f2;
+  --pop:        #e8692c;
+  /* Swoop's feathers; flipped in dark mode so he stays visible */
+  --swoop-k:    #1a1a1a;  --swoop-w:    #ffffff;
   --border:     rgba(27, 28, 30, 0.09);
   --border2:    rgba(27, 28, 30, 0.16);
   --shadow:     0 1px 2px rgba(27, 28, 30, 0.04), 0 8px 24px -12px rgba(27, 28, 30, 0.14);
@@ -80,7 +85,10 @@
   --med:        #7fcfae;
   --ink:        #ecece6;  --on-ink:  #1f1e1c;
   --rule:       #4a4843;
-  --on-tile:    #1d1b19;
+  --main:       #ffe14d;  --on-main:    #1a1a1a;
+  --partner:    #4a2f25;  --on-partner: #fbf7f2;
+  --pop:        #e8692c;
+  --swoop-k:    #f1efe9;  --swoop-w:    #3d3934;
   --border:     rgba(236, 236, 230, 0.08);
   --border2:    rgba(236, 236, 230, 0.16);
   --shadow:     0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
@@ -107,11 +115,11 @@ body[data-topic="news"]  { --flood: #3d4fe0; --on: #fff; }
 body[data-topic="scams"] { --flood: #fb9a7e; }
 body[data-topic="cve"]   { --flood: #8fe6cc; }
 body[data-topic="learn"] { --flood: #f5c4e3; }
-/* One pastel per news topic; text on them is always --on-tile */
-.t-cyber { --p: #ffe48c; }
-.t-scams { --p: #ff9a80; }
-.t-ai    { --p: #b8c6ff; }
-.t-acsc  { --p: #9be6cb; }
+/* One dot colour per news topic: a marker, never a whole tile */
+.t-cyber { --m: #ffe14d; }
+.t-scams { --m: #ff8a3d; }
+.t-ai    { --m: #9db8ff; }
+.t-acsc  { --m: #6fe0b8; }
 
 /* ── BASE ── */
 body {
@@ -145,8 +153,8 @@ button { font: inherit; color: inherit; }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link { padding: 7px 10px; font-size: 15px; font-weight: 500; white-space: nowrap; text-decoration: none; color: inherit; }
 .nav-link:hover { text-decoration: underline; text-underline-offset: 4px; }
-/* You are here: the logo's cursor */
-.nav-link--active::after { content: ''; display: inline-block; width: .5em; height: 1em; margin-left: .2em; vertical-align: -.12em; background: currentColor; }
+/* You are here: the logo's cursor, in its orange */
+.nav-link--active::after { content: ''; display: inline-block; width: .5em; height: 1em; margin-left: .2em; vertical-align: -.12em; background: var(--pop); }
 .hdr-right { display: flex; align-items: center; gap: 10px; }
 .hdr-meta { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
 .icon-btn {

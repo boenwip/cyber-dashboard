@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Lemon and chocolate
+
+**Changed**
+- New colours, chosen by the owner in a live playground: lemon (#FFE14D) for the lead story, chocolate (#4A2F25) for the other tiles and buttons, the logo's orange (#E8692C) as the small accent on cursors and hovers, on a warm grey page (#EBE7E1)
+- Topics are now a small coloured dot beside the label, so no single topic colours the page
+- A block cursor in the logo's orange follows the page heading, and marks the current page in the menu
+
+**Fixed**
+- Swoop no longer disappears in dark mode: his colours flip there (light body, dark patches)
+
+---
+
 ## November 2026 — New home page (redesign step 2)
 
 **Changed**
