@@ -39,7 +39,7 @@ def test_acsc_alert_kept_without_keywords_and_severity_from_prefix():
     assert a["threat"] == "High"
     assert a["title"] == "Risks of AI misalignment to Australian organisations"
     assert a["official"] is True
-    assert "AU Cyber" in a["tags"]
+    assert "Cyber" in a["tags"]
 
 
 def test_acsc_critical_prefix():
@@ -75,7 +75,7 @@ def test_breach_and_hack_wording_tags_au_cyber():
                  "agent 'infiltrated' government website",
                  "dutch police arrest reformed hacker",
                  "suspect used ai tools in south korean bank hacks"]:
-        assert "AU Cyber" in f.get_topic_tags(text), text
+        assert "Cyber" in f.get_topic_tags(text), text
 
 
 def test_ai_tag_needs_a_security_angle():
@@ -176,7 +176,7 @@ def test_fallback_acsc_item_is_official_without_invented_severity():
     assert a["official"] is True
     assert "threat" not in a
     assert a["title"] == "Risks of AI misalignment to Australian organisations"
-    assert "AU Cyber" in a["tags"]
+    assert "Cyber" in a["tags"]
 
 
 def test_fallback_skips_section_index_pages():
@@ -270,7 +270,7 @@ def test_gnews_blocked_publisher_host_dropped():
 def test_trusted_security_feed_kept_without_keywords():
     troy = next(feed for feed in f.NEWS_FEEDS if feed["name"] == "Troy Hunt Blog")
     a = f.build_article(troy, entry("Weekly Update 531: Optimizely. Script Dependencies & Third Parties"))
-    assert a is not None and a["tags"] == ["AU Cyber"]
+    assert a is not None and a["tags"] == ["Cyber"]
 
 
 # ── Query freshness ────────────────────────────────────────

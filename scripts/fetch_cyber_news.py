@@ -132,7 +132,7 @@ APPROVED_DOMAINS = {
 
 NEWS_FEEDS = [
     # ── Government & Official ──
-    # "official": always included and tagged AU Cyber, whatever the keywords say.
+    # "official": always included and tagged Cyber, whatever the keywords say.
     # These are the only items that carry a threat level (see official_threat()).
     {
         "name": "ACSC Alerts",
@@ -165,7 +165,7 @@ NEWS_FEEDS = [
     },
     {
         # "trusted": every post is security news, but titles like "Weekly Update 531: Optimizely"
-        # carry no tag keyword, so 7 of 8 posts were dropped. Kept and tagged AU Cyber instead.
+        # carry no tag keyword, so 7 of 8 posts were dropped. Kept and tagged Cyber instead.
         "name": "Troy Hunt Blog",
         "url": "https://www.troyhunt.com/rss/",
         "trusted": True,
@@ -281,7 +281,7 @@ TOOL_FEEDS = [
 
 TOPIC_TAG_RULES = [
     {
-        "tag": "AU Cyber",
+        "tag": "Cyber",   # any cyber story, Australian or not (was "AU Cyber")
         "keywords": [
             "acsc", "asd", "cyber.gov", "auscert",
             "critical infrastructure", "ransomware",
@@ -605,10 +605,10 @@ def build_article(feed, entry):
             title = ACSC_GNEWS_SUFFIX.sub("", title)
             if title.lower() in ACSC_INDEX_PAGES or not ACSC_ALERT_WORDS.search(title):
                 return None
-        if "AU Cyber" not in topic_tags:
-            topic_tags.insert(0, "AU Cyber")
+        if "Cyber" not in topic_tags:
+            topic_tags.insert(0, "Cyber")
     if not topic_tags and feed.get("trusted"):
-        topic_tags = ["AU Cyber"]
+        topic_tags = ["Cyber"]
     if not topic_tags:
         return None
 

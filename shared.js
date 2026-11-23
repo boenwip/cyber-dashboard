@@ -107,9 +107,14 @@ function siteUrl() { return location.href.split('#')[0].split('?')[0]; }
 function canNativeShare() { return typeof navigator.share === 'function'; }
 
 function copyText(text) {
+  // The clipboard API can be missing, or refuse (permissions, iframes): fall back to execCommand either way
   if (navigator.clipboard && navigator.clipboard.writeText) {
-    return navigator.clipboard.writeText(text);
+    return navigator.clipboard.writeText(text).catch(function () { return legacyCopy(text); });
   }
+  return legacyCopy(text);
+}
+
+function legacyCopy(text) {
   try {
     var ta = document.createElement('textarea');
     ta.value = text;

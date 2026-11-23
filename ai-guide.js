@@ -417,15 +417,7 @@ function copyPrompt(id, btn) {
       btn.classList.remove('ag-copy-btn--done');
     }, 2000);
   };
-  navigator.clipboard.writeText(el.textContent).then(done).catch(function() {
-    var range = document.createRange();
-    range.selectNode(el);
-    window.getSelection().removeAllRanges();
-    window.getSelection().addRange(range);
-    document.execCommand('copy');
-    window.getSelection().removeAllRanges();
-    done();
-  });
+  copyText(el.textContent).then(done).catch(function() { btn.textContent = 'Select and copy'; });
 }
 
 document.addEventListener('DOMContentLoaded', function() {

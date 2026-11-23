@@ -40,7 +40,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 **Tip / word of the day** — Deterministic daily rotations that change at Sydney midnight.
 
-**News** — Stories from the last 7 days in the overview; every stored story in the explorer, filterable by tag (AU Cyber, AI & Tools, Scams, Compliance). Sources: ACSC, Scamwatch (via Google News), AU Cyber Security Magazine, Security Brief AU, iTnews, Troy Hunt, Krebs on Security, Risky Business, Dark Reading, 404 Media, plus site-scoped Google News searches (Guardian, ABC, BleepingComputer, The Register). News Corp, Nine, Seven West Media and clickbait farms are blocked by hostname.
+**News** — Stories from the last 7 days in the overview; every stored story in the explorer, filterable by tag (Cyber, AI & Tools, Scams, Compliance). Sources: ACSC, Scamwatch (via Google News), AU Cyber Security Magazine, Security Brief AU, iTnews, Troy Hunt, Krebs on Security, Risky Business, Dark Reading, 404 Media, plus site-scoped Google News searches (Guardian, ABC, BleepingComputer, The Register). News Corp, Nine, Seven West Media and clickbait farms are blocked by hostname.
 
 **Tool updates** — Recent releases for Google Workspace, Chrome, Microsoft 365, Canva, Claude and AI tools, grouped by tool.
 

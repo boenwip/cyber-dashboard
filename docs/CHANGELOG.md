@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Quick fixes from the review
+
+**Fixed**
+- OWASP Top 10: A01 and A02 quote OWASP's 2025 figures. The glossary no longer says Zero Trust is mandated for federal agencies
+- The "AU Cyber" filter is now "Cyber", since it covers cyber news from anywhere
+- Home page: fast arrow keys on the topic tabs no longer leave focus on a different tab from the one shown. Picking a filter keeps focus on it. Escape on a phone returns to the story list with focus on the story. "1 story this week" reads correctly. The three stories under the lead show their latest coverage date
+- On narrow phones, the "This year" tab no longer wraps its cursor onto a second line
+- Reference: A–Z glossary links still open the glossary after a reload or when shared. The tabs work with the arrow keys, and still work if the glossary fails to load
+- Copy buttons fall back to another copy method when the browser refuses clipboard access
+
+---
+
 ## November 2026 — Unrelated stories no longer merged
 
 **Fixed**

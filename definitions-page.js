@@ -57,14 +57,14 @@ function renderDefs() {
       var levelBadge = '<span class="def-level def-level--' + t.level + '">' + t.level + '</span>';
       var example = t.example ?
         '<div class="def-example"><span class="def-example-label">Example</span>' +
-        t.example.replace(/</g,'&lt;').replace(/>/g,'&gt;') + '</div>' : '';
+        esc(t.example) + '</div>' : '';
       return '<div class="def-card" role="listitem">' +
         '<div class="def-card-header">' +
-          '<span class="def-term">' + t.term.replace(/</g,'&lt;') + '</span>' +
+          '<span class="def-term">' + esc(t.term) + '</span>' +
           levelBadge +
         '</div>' +
-        '<div class="def-short">' + t.short.replace(/</g,'&lt;') + '</div>' +
-        '<div class="def-full">' + (t.full || '').replace(/</g,'&lt;') + '</div>' +
+        '<div class="def-short">' + esc(t.short) + '</div>' +
+        '<div class="def-full">' + esc(t.full) + '</div>' +
         example +
       '</div>';
     }).join('');
@@ -115,8 +115,17 @@ function initRefTabs() {
     history.replaceState(null, '', '#' + tabId);
   }
 
-  tabs.forEach(function(btn) {
+  tabs.forEach(function(btn, n) {
+    btn.setAttribute('aria-controls', 'panel-' + btn.dataset.tab);
     btn.addEventListener('click', function() { activate(btn.dataset.tab); });
+    btn.addEventListener('keydown', function(e) {
+      var step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
+      if (!step) return;
+      e.preventDefault();
+      var next = tabs[(n + step + tabs.length) % tabs.length];
+      next.focus();
+      activate(next.dataset.tab);
+    });
   });
 
   var glossaryLink = document.getElementById('wotd-glossary-link');
@@ -131,14 +140,21 @@ function initRefTabs() {
   var hash = location.hash.replace('#', '');
   var valid = ['owasp-web','owasp-api','owasp-llm','e8','glossary'];
   if (hash && valid.indexOf(hash) !== -1) activate(hash);
+  else if (hash.indexOf('letter-') === 0) {   // an A-Z link, reloaded or shared
+    var letter = document.getElementById(hash);
+    activate('glossary');
+    if (letter) letter.scrollIntoView();
+  }
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  if (typeof DEFINITIONS === 'undefined' || !DEFINITIONS.length) return;
-  renderAlpha(DEFINITIONS);
-  renderDefs();
-  initSearch();
-  renderWotd(DEFINITIONS);
+  // Tabs work even if the glossary data fails to load
+  if (typeof DEFINITIONS !== 'undefined' && DEFINITIONS.length) {
+    renderAlpha(DEFINITIONS);
+    renderDefs();
+    initSearch();
+    renderWotd(DEFINITIONS);
+  }
   initRefTabs();
 
   document.querySelectorAll('.def-lvl-btn').forEach(function(btn) {
