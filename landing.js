@@ -3,7 +3,8 @@
 
 // The old home page's #topic links now live on dashboard.html
 if (location.hash === '#scams') location.replace('play.html');
-else if (/^#(year|news|cve|learn|alerts|tools)$/.test(location.hash)) location.replace('dashboard.html' + location.hash);
+else if (location.hash === '#cve') location.replace('exploited.html');
+else if (/^#(year|news|learn|alerts|tools)$/.test(location.hash)) location.replace('dashboard.html' + location.hash);
 
 var DAY = 86400000;
 var sw;   // Swoop, from swoop.js
