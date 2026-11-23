@@ -1,13 +1,13 @@
 /* landing.js — pseudosec. The home page: today's top 5 stories, the ACSC alert when there
    is one, and Swoop the lookout. Requires shared.js (esc, safeUrl, formatDate, parseDate, SYDNEY). */
 
-// The old home page's #topic links now live on dashboard.html
+// The old home page's #topic links now live on their own pages
 if (location.hash === '#scams') location.replace('play.html');
 else if (location.hash === '#cve') location.replace('exploited.html');
 else if (location.hash === '#news') location.replace('stories.html');
 else if (/^#(alerts|tools)$/.test(location.hash)) location.replace('stories.html' + location.hash);
 else if (location.hash === '#year') location.replace('year.html');
-else if (location.hash === '#learn') location.replace('dashboard.html#learn');
+else if (location.hash === '#learn') location.replace('learn.html');
 
 var DAY = 86400000;
 var sw;   // Swoop, from swoop.js

@@ -5,6 +5,20 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Hubs, menu and redirects
+
+### Pages inside a group light up their group
+**Decision:** On Check a breach, "Stay safe" shows as the current menu item (`aria-current="true"`); on the hub itself it's `aria-current="page"`. On phones, I've been scammed lights up Help, not Stay safe.
+**Why:** The reader should always see where they are in four words, and Help is the tab that page belongs to.
+
+### The menu is written into each page
+**Decision:** The generator writes the menu, tab bar and current item into the HTML. The script that worked out the current item, and the More menu, are gone.
+**Why:** It works without JavaScript and is one less thing to go wrong; with four items there's nothing for a More menu to hold.
+
+### One redirect script for retired pages
+**Decision:** `redirect.js` holds one map for all three retired pages, with a `<noscript>` refresh as the fallback.
+**Why:** A meta refresh can't read `#sections`, and old links like `dashboard.html#cve` are out there.
+
 ## Session: 2026-11-24 — Practise
 
 ### One list, filtered by who's asking

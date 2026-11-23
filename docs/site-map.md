@@ -16,12 +16,12 @@ Phone tab bar: **Today, Play, Stay safe, Learn, Help**. "More" goes away.
 | Today | Exploited | `exploited.html` | Flaws attackers are using right now | Dashboard Exploited tab | Done |
 | Today | This year | `year.html` | ASD's yearly figures: the running estimate, headline numbers, breakdown, AI findings | Dashboard This year tab | Done |
 | Play | Spot the scam | `play.html` | Today's puzzle | Dashboard Scams tab | Done |
-| Stay safe | Stay safe | `safe.html` | Four doors, nothing else | New | To do |
+| Stay safe | Stay safe | `safe.html` | Four doors, nothing else | New | Done |
 | Stay safe | I've been scammed | `help.html` | What to do first, and who to call | Resources: Report a scam | Done |
 | Stay safe | Check a breach | `breach.html` | Is my email in a leak? | Resources: breach check | Done |
 | Stay safe | Essential Eight | `essential-eight.html` | The eight basics, in plain English | Reference: Essential Eight | Done |
 | Stay safe | Using AI safely | `ai-guide.html` | What not to share, writing prompts, prompt library | (now) | Restyle |
-| Learn | Learn | `learn.html` | Three doors, plus the word and tip of the day | New; word and tip from the Dashboard | To do |
+| Learn | Learn | `learn.html` | Three doors, plus the word and tip of the day | New; word and tip from the Dashboard | Done |
 | Learn | Glossary | `glossary.html` | 51 terms, searchable A to Z | Reference: Glossary | Done |
 | Learn | OWASP Top 10 | `owasp.html` | Web, API and LLM lists, for technical readers | Reference: OWASP | Done |
 | Learn | Practise | `practise.html` | Courses, tools, practice games, Australian organisations | Resources: Learn, Tools, CTF, Organisations | Done |
@@ -29,7 +29,7 @@ Phone tab bar: **Today, Play, Stay safe, Learn, Help**. "More" goes away.
 
 ## Retired
 
-`dashboard.html`, `reference.html` and `resources.html` become short redirect pages, so old links and their `#sections` land on the new page.
+`dashboard.html`, `reference.html` and `resources.html` are short redirect pages (`redirect.js`), so old links and their `#sections` land on the new page. Done.
 
 ## Trade-offs
 

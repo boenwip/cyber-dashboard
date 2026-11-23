@@ -4,6 +4,24 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Stay safe and Learn hubs, the new menu
+
+**Added**
+- Stay safe (`safe.html`): four big doors. I've been scammed is the lemon one
+- Learn (`learn.html`): doors to the Glossary, OWASP and Practise, with the word of the day and the tip of the day in the rail, and all ten tips one tap away
+- A Get help button, in orange, on every page
+
+**Changed**
+- The menu is now Today, Play, Stay safe and Learn. A page inside a group lights up its group
+- The phone tab bar is Today, Play, Stay safe, Learn and Help. More is gone
+- Exploited and This year leave the menu; they stay one tap from Today's onward line
+- `dashboard.html`, `reference.html` and `resources.html` are now redirects. Old links keep their place: `dashboard.html#cve` goes to Exploited, `reference.html#letter-P` to the glossary's P, and so on
+
+**Removed**
+- The old topic dashboard (`dashboard.js`, `dashboard.css`), `reference.js`, the More menu code and the word-of-the-day strip styles. The active menu item is now written into each page instead of set by script
+
+---
+
 ## November 2026 — Practise
 
 **Added**

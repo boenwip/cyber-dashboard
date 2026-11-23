@@ -119,3 +119,25 @@
 .who-btns button[aria-pressed="true"] { border-color: var(--partner); background: var(--partner); color: var(--on-partner); }
 :root[data-theme="dark"] .who-btns button[aria-pressed="true"] { border-color: var(--main); background: var(--main); color: var(--on-main); }
 .who .track-note { margin-top: 10px; }
+
+/* Hubs: a few big doors, nothing else */
+.doors { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 15rem), 1fr)); gap: 14px; list-style: none; }
+.doors a { display: grid; align-content: space-between; gap: 28px; min-height: clamp(150px, 13vw, 230px); padding: clamp(22px, 2vw, 32px); border-radius: 24px; background: var(--surface); color: var(--text); text-decoration: none; transition: transform .18s ease; }
+.doors b { font-size: clamp(26px, 2.2vw, 36px); font-weight: 700; line-height: 1.05; letter-spacing: -.03em; }
+.doors span { max-width: 30ch; font-size: 17px; line-height: 1.4; color: var(--text-2); }
+.doors .door-now a { background: var(--main); color: var(--on-main); }
+.doors .door-now span { color: inherit; }
+.doors a:hover { background: var(--pop); color: #1a1a1a; transform: translateY(-3px); }
+.doors a:hover span { color: inherit; }
+@media (prefers-reduced-motion: reduce) { .doors a { transition: none; } }
+
+/* Learn: the word and tip of the day */
+.today { display: grid; gap: 8px; }
+.today-word { font-size: clamp(26px, 2vw, 32px); font-weight: 700; line-height: 1.1; letter-spacing: -.025em; }
+.today-tip { font-size: 20px; font-weight: 700; line-height: 1.2; }
+.today a { color: var(--text); font-weight: 600; text-underline-offset: 3px; }
+.all-tips summary { display: flex; align-items: center; min-height: 44px; font-weight: 600; cursor: pointer; }
+.all-tips ol { display: grid; gap: 10px; padding-left: 1.2em; font-size: 15px; line-height: 1.5; }
+/* Beside a rail, doors stack */
+.col .doors { grid-template-columns: minmax(0, 1fr); }
+.col .doors a { min-height: 0; gap: 8px; }
