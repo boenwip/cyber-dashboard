@@ -76,10 +76,13 @@ BLOCKED_DOMAINS = [
 
 
 # Keywords that indicate irrelevant celebrity/tabloid content
+# Deliberately no bare "actor": in security news it almost always means "threat actor".
 BLOCKED_TITLE_KEYWORDS = [
     "nude photo", "naked", "sex tape", "celebrity hack", "snapchat leak",
     "onlyfans", "nudes leaked", "intimate images", "revenge porn",
     "bachelor", "bachelorette", "reality tv", "kardashian", "taylor swift",
+    "rebel wilson", "celebrity", "actress", "leaked photo", "influencer",
+    "tiktok star", "youtube star",
 ]
 
 def host_matches(link, domains):
@@ -103,12 +106,8 @@ def is_blocked(link, title=""):
 
 # -------------------------------------------------------
 # ZONE 1: NEWS FEEDS
-# -------------------------------------------------------
-
-# -------------------------------------------------------
-# APPROVED DOMAINS — allowlist for Google News proxy results
-# Articles via news.google.com links are only accepted if
-# their title suffix or source name maps to one of these.
+# APPROVED DOMAINS — Google News results are kept only if the
+# publisher link (entry.source.href) is on one of these sites.
 # Direct RSS feeds (non-Google-News) are always trusted.
 # -------------------------------------------------------
 
@@ -389,14 +388,6 @@ def parse_date(entry):
     return ""
 
 
-def parse_iso(value):
-    """Parse our ISO format back to an aware datetime; None if missing/invalid."""
-    try:
-        return datetime.datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
-    except (TypeError, ValueError):
-        return None
-
-
 # -------------------------------------------------------
 # HELPER: Convert feed HTML to plain text
 # Output is plain text only. Entities are decoded exactly once, after tags
@@ -512,7 +503,7 @@ def filter_old_articles(articles, days=30):
     cutoff = datetime.datetime.now(datetime.timezone.utc) - datetime.timedelta(days=days)
     kept = []
     for article in articles:
-        dt = parse_iso(article.get("date", ""))
+        dt = stories.parse_iso(article.get("date", ""))
         if dt is None or dt >= cutoff:
             kept.append(article)
     return kept
@@ -554,14 +545,6 @@ def deduplicate(articles):
 # FETCH ZONE 1: News articles
 # -------------------------------------------------------
 
-# Celebrity/entertainment content that slips through topic matching.
-# Deliberately no bare "actor": in security news it almost always means "threat actor".
-TITLE_BLOCKLIST = [
-    "rebel wilson", "kardashian", "celebrity", "actress",
-    "nude photo", "leaked photo", "snapchat hack celebrity",
-    "reality tv", "influencer", "tiktok star", "youtube star",
-]
-
 # Section index pages (not alerts) that the ACSC Google News fallback can return
 ACSC_INDEX_PAGES = {"alerts and advisories", "homepage | cyber.gov.au", "report", "report and recover"}
 
@@ -592,7 +575,7 @@ def build_article(feed, entry):
         return None
     if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(entry):
         return None
-    if any(term in title.lower() for term in TITLE_BLOCKLIST) or LISTING_PAGE.search(title):
+    if LISTING_PAGE.search(title):
         return None
 
     combined = (title + " " + summary).lower()

@@ -71,16 +71,17 @@ def clean_title(title):
 
 # ── Validation ─────────────────────────────────────────────
 
-def parse_date(value):
+def parse_iso(value):
+    """Parse the site's ISO format to an aware UTC datetime; None if missing/invalid."""
     try:
-        return datetime.datetime.strptime(value or "", "%Y-%m-%dT%H:%M:%SZ")
-    except ValueError:
+        return datetime.datetime.strptime(value, "%Y-%m-%dT%H:%M:%SZ").replace(tzinfo=datetime.timezone.utc)
+    except (TypeError, ValueError):
         return None
 
 
 def within_spread(ids, dates):
     """Drop members published more than MAX_SPREAD after the group's earliest dated member."""
-    when = {i: parse_date(dates[i]) for i in ids}
+    when = {i: parse_iso(dates[i]) for i in ids}
     known = [d for d in when.values() if d]
     if not known:
         return ids
@@ -272,8 +273,7 @@ def month_spend(cache, month):
 
 
 def choose_groups(articles, client=None, cache_path=GROUPS_FILE, month=None):
-    import datetime as dt
-    month = month or dt.datetime.now(dt.timezone.utc).strftime("%Y-%m")
+    month = month or datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m")
     fp = fingerprint(articles)
     cache = load_cache(cache_path)
     spend = month_spend(cache, month)
