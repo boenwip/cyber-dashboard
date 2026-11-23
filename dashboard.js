@@ -122,7 +122,8 @@ function renderAlert() {
   var alert = recent.filter(function (s) { return s.threat === 'Critical' || s.threat === 'High'; })[0] || recent[0];
   var label = document.getElementById('alert-label');
   if (!alert) {
-    setText('alert-title', 'No ACSC alerts in the last two weeks.');
+    // "found": the feed can miss alerts (ACSC's own feeds time out from GitHub), so don't claim there were none
+    setText('alert-title', D.newsFailed ? 'ACSC alerts are unavailable right now.' : 'No ACSC alerts found in the last two weeks.');
     return;
   }
   setText('alert-title', headline(alert.title, alert.source));
@@ -676,7 +677,7 @@ function loadAll() {
     var ts = formatDate(d.last_updated, true);
     setText('last-updated', ts ? 'Updated ' + ts : '');
     setText('footer-updated', ts ? 'Updated ' + ts : '');
-  }).catch(function () { D.news = []; setText('news-lead-title', 'News is unavailable right now.'); });
+  }).catch(function () { D.news = []; D.newsFailed = true; setText('news-lead-title', 'News is unavailable right now.'); });
   var featured = getJson('data/briefing.json').then(function (d) { D.featured = d.items && d.items.featured; }).catch(function () {});
   var cve = getJson('data/cve.json').then(function (d) { D.cve = Array.isArray(d.items) ? d.items : []; renderCve(); })
     .catch(function () { setText('cve-sub', 'CVE data is unavailable right now.'); });

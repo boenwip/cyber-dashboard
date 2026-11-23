@@ -36,6 +36,8 @@ import stories
 # -------------------------------------------------------
 
 BLOCKED_DOMAINS = [
+    # TV episode pages, not articles (Google News returns them for site:abc.net.au)
+    "iview.abc.net.au",
     # Murdoch / News Corp Australia
     "theaustralian.com.au",
     "heraldsun.com.au",
@@ -146,7 +148,7 @@ NEWS_FEEDS = [
     },
     {
         "name": "Google News — ScamWatch",
-        "url": "https://news.google.com/rss/search?q=site:scamwatch.gov.au&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=site:scamwatch.gov.au+when:30d&hl=en-AU&gl=AU&ceid=AU:en"
     },
     # ── Australian Cyber & Tech News (direct RSS — always trusted) ──
     {
@@ -162,8 +164,11 @@ NEWS_FEEDS = [
         "url": "https://www.itnews.com.au/RSS/rss.ashx"
     },
     {
+        # "trusted": every post is security news, but titles like "Weekly Update 531: Optimizely"
+        # carry no tag keyword, so 7 of 8 posts were dropped. Kept and tagged AU Cyber instead.
         "name": "Troy Hunt Blog",
-        "url": "https://www.troyhunt.com/rss/"
+        "url": "https://www.troyhunt.com/rss/",
+        "trusted": True,
     },
     {
         "name": "404 Media",
@@ -244,17 +249,17 @@ TOOL_FEEDS = [
     {
         "name": "Google News — Microsoft 365",
         "tool": "Microsoft 365",
-        "url": "https://news.google.com/rss/search?q=Microsoft+365+Word+Excel+update+feature+2026&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=Microsoft+365+Word+Excel+update+feature+when:30d&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — ChatGPT Updates",
         "tool": "AI Tools",
-        "url": "https://news.google.com/rss/search?q=ChatGPT+OpenAI+update+new+feature+2026&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=ChatGPT+OpenAI+update+new+feature+when:30d&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Google News — Canva Updates",
         "tool": "Canva",
-        "url": "https://news.google.com/rss/search?q=Canva+new+feature+update+2026&hl=en-AU&gl=AU&ceid=AU:en"
+        "url": "https://news.google.com/rss/search?q=Canva+new+feature+update+when:30d&hl=en-AU&gl=AU&ceid=AU:en"
     },
     {
         "name": "Claude Code Releases",
@@ -426,15 +431,21 @@ def truncate(text, limit):
 # Google News RSS titles often end with "- Publisher Name"
 # -------------------------------------------------------
 
-def is_approved_gnews(title):
-    """Google News appends the publisher to each headline ("… - bleepingcomputer.com",
-    "… - Scamwatch"). Approve only when that publisher is in APPROVED_DOMAINS."""
-    title_lower = title.lower()
-    for domain in APPROVED_DOMAINS:
-        name_part = domain.split('.')[0]  # e.g. "abc", "scamwatch"
-        if name_part in title_lower.split()[-3:] or domain in title_lower:
-            return True
-    return False
+def is_approved_gnews(entry):
+    """Approve a Google News item only when its publisher is in APPROVED_DOMAINS.
+    Google News names the publisher's site on every item (<source url="https://www.theguardian.com">),
+    so that hostname is checked. Matching words in the headline instead let any headline ending in
+    "abc" or "wired" through, while rejecting "- The Guardian" and "- cyber.gov".
+    Without a source, the publisher after the last " - " must exactly match a domain or its first
+    label ("Scamwatch", "The Guardian" -> "theguardian")."""
+    href = (entry.get("source") or {}).get("href", "")
+    if href:
+        return host_matches(href, APPROVED_DOMAINS) and not host_matches(href, BLOCKED_DOMAINS)
+    title = strip_html(entry.get("title", ""))
+    if " - " not in title:
+        return False
+    publisher = title.rsplit(" - ", 1)[1].lower().replace(" ", "")
+    return any(publisher in (d, d.split(".")[0]) for d in APPROVED_DOMAINS)
 
 
 # -------------------------------------------------------
@@ -562,7 +573,7 @@ ACSC_ALERT_WORDS = re.compile(
 
 # Publisher suffixes Google News appends to cyber.gov.au headlines
 ACSC_GNEWS_SUFFIX = re.compile(
-    r"(\s+\|\s+CGA)?\s+[-\u2013|]\s+(Cyber\.gov\.au|Australian Cyber Secur\w*( Centre)?)$", re.I)
+    r"(\s+\|\s+(CGA|cyber\.gov\.au))?\s+[-\u2013|]\s+(Cyber\.gov(\.au)?|Australian Cyber Secur\w*( Centre)?)$", re.I)
 
 # Index/listing pages that Google News returns for site: queries
 LISTING_PAGE = re.compile(r"\b(browse news|news and alerts|alerts and news)\b|\bpage \d+\b", re.I)
@@ -579,7 +590,7 @@ def build_article(feed, entry):
         return None
     if is_blocked(link, title):
         return None
-    if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(title):
+    if feed["url"].startswith("https://news.google.com") and not is_approved_gnews(entry):
         return None
     if any(term in title.lower() for term in TITLE_BLOCKLIST) or LISTING_PAGE.search(title):
         return None
@@ -596,6 +607,8 @@ def build_article(feed, entry):
                 return None
         if "AU Cyber" not in topic_tags:
             topic_tags.insert(0, "AU Cyber")
+    if not topic_tags and feed.get("trusted"):
+        topic_tags = ["AU Cyber"]
     if not topic_tags:
         return None
 

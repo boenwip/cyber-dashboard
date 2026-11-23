@@ -5,6 +5,26 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Feed intake fix
+
+### Google News allowlist — check the publisher's site, not headline words
+**Decision:** `is_approved_gnews()` approves a Google News item by the hostname in its `<source url>`, checked against `APPROVED_DOMAINS` and `BLOCKED_DOMAINS`. Items with no source must end in a publisher name that exactly matches an approved domain or its first label.
+**Why:** The old check looked for an approved domain's first word among the headline's last three words. That rejected "- The Guardian", "- The Register" and, once Google relabelled ACSC as "cyber.gov", every ACSC fallback alert, while approving any headline ending in "abc" or "wired". The integrity agent read the empty feeds as dead or blocked for 29 snapshots.
+
+### Trusted feeds skip the keyword filter
+**Decision:** A feed marked `"trusted": True` keeps posts that match no tag keyword and tags them AU Cyber. Only Troy Hunt is marked.
+**Why:** Every Troy Hunt post is security news, but "Weekly Update 531: Optimizely" carries no keyword, so 7 of 8 posts were dropped.
+
+### Google News searches — `when:30d`, not the year
+**Decision:** The Scamwatch and tool-update searches use Google's `when:30d` operator instead of "2026" in the query.
+**Why:** The year would have gone stale on 1 January. Without a recency limit the Scamwatch search returned evergreen pages from 2015–2024, all older than the 14-day window, so real Scamwatch alerts never showed.
+
+### Alert bar — "found", and say when the feed failed
+**Decision:** The bar says "No ACSC alerts found in the last two weeks", or "ACSC alerts are unavailable right now" when news.json fails to load.
+**Why:** The fallback search can miss alerts, so "no alerts" claimed more than we know.
+
+---
+
 ## Session: 2026-11-03 — New home page
 
 ### Home page — one colour at a time

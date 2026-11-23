@@ -4,6 +4,21 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — More sources reach the news feed
+
+**Fixed**
+- ACSC alerts reach the site again when ACSC's own feeds time out. Google News started labelling them "cyber.gov", and the site was dropping every one
+- The Guardian and The Register appear again. A publisher check that matched words in headlines rejected them and could let unapproved sites through; it now checks the publisher's website
+- Troy Hunt's posts appear again. Most have no tag keyword in the title, so they were filtered out
+- Scamwatch alerts appear. The search returned old pages from 2015–2024 instead of recent alerts
+- ABC iview TV episode pages no longer appear as news
+
+**Changed**
+- The tool-update searches no longer have "2026" written into them, so they keep working next year
+- The alert bar says "No ACSC alerts found" rather than "No ACSC alerts", and says when alerts can't be loaded
+
+---
+
 ## November 2026 — Report breakdown uses only 2025–26 figures
 
 **Changed**
