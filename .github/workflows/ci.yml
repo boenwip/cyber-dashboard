@@ -19,7 +19,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install feedparser anthropic pytest
+        run: pip install --require-hashes -r requirements.txt
 
       - name: Pipeline tests
         run: python -m pytest -q tests

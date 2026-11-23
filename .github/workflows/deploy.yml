@@ -21,10 +21,10 @@ on:
     - cron: '7 */8 * * 6,0'        # Weekends
   workflow_dispatch:
 
-permissions:
-  contents: write   # push the data snapshot to the `data` branch
-  pages: write
-  id-token: write
+# Each job gets only what it needs (below). The build job installs packages and
+# holds the API key, so its write token is kept out of git config and handed only
+# to the step that pushes the snapshot.
+permissions: {}
 
 concurrency:
   group: pages
@@ -34,9 +34,13 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    permissions:
+      contents: write   # push the data snapshot to the `data` branch
     steps:
       - name: Checkout
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
 
       - name: Set up Python
         uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6.3.0
@@ -44,7 +48,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install feedparser anthropic pytest
+        run: pip install --require-hashes -r requirements.txt
 
       - name: Test pipeline
         run: python -m pytest -q tests
@@ -91,6 +95,8 @@ jobs:
           path: _site
 
       - name: Save data snapshot to the data branch
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -100,12 +106,15 @@ jobs:
           git add data
           if git diff --staged --quiet; then echo "No data changes"; exit 0; fi
           git commit -q -m "data: $(TZ='Australia/Sydney' date '+%d-%m-%Y %H:%M %Z')"
-          git push origin HEAD:data
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:data
 
   deploy:
     needs: build
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}

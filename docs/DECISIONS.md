@@ -5,6 +5,22 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — CI hardening
+
+### Workflows install a hash-locked requirements.txt
+**Decision:** All three workflows run `pip install --require-hashes -r requirements.txt`, which pins feedparser, anthropic, pytest and every dependency of theirs to exact versions and file hashes.
+**Why:** `pip install feedparser anthropic pytest` took whatever was newest, in a job holding the API key and a token that can push. A bad release of any package, or of anything they depend on, would have run there. It also means an SDK major version can't land unannounced and break the grouping call.
+
+### Deploy: the push token reaches only the push step
+**Decision:** Permissions are set per job (build: `contents: write`; deploy: `pages: write`, `id-token: write`). Checkout no longer stores the token in git config. The snapshot step gets it through `GH_TOKEN` and pushes with it.
+**Why:** Before, every step in the build job, including package installs and the feed fetch with the API key, could read a token that pushes to `main` and `data`.
+
+### Fixer: code-execution risk documented, not removed
+**Decision:** The fixer can still write a test and run pytest with the API key in its environment. The risk is written up at the top of `deploy_watch.yml`.
+**Why:** Removing it means changing how claude-code-action passes the key, which can't be tested without a failing deploy. The exposure is bounded: there's no write token or git credentials in the job, the prompt treats feed text as data, and the key has a US$5/month spend limit.
+
+---
+
 ## Session: 2026-11-23 — Grouping guard
 
 ### AI groups must share a name

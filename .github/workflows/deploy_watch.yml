@@ -9,6 +9,12 @@ name: Deploy watch
 # The fixer never pushes to main. Its job can only read the repo, can't reach
 # git credentials, and can only edit files and run the tests and audit. A
 # separate job turns its diff into a PR, which the owner reviews and merges.
+#
+# Known risk, accepted: the fixer may write a test and run pytest, which is code
+# execution in a job whose environment holds ANTHROPIC_API_KEY. Feed text in data/
+# could try to steer it into that. Limits: the prompt treats feed text as data, the
+# job has no write token or git credentials, and the key has a US$5/month spend
+# limit in the Console (shared with grouping). Rotate the key if a fixer run looks odd.
 on:
   workflow_run:
     workflows: ["Build and deploy"]
@@ -97,7 +103,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install feedparser anthropic pytest
+        run: pip install --require-hashes -r requirements.txt
 
       - name: Get the data that broke the build
         uses: actions/download-artifact@9000827ccba6bdab643e8b6fd33ac0654aef8333 # v8.0.2
