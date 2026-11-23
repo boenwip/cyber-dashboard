@@ -1,7 +1,23 @@
 {
-  "last_updated": "2026-11-23T11:25:33Z",
+  "last_updated": "2026-11-23T19:27:34Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Meet on the web now supports sending 1080p video for all users, enabled by default",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/google-meet-on-web-now-supports-sending-1080p-video-for-all-users-enabled-by-default.html",
+      "summary": "We’re expanding 1080p Full HD video sending in Google Meet on the web (previously limited to select paid editions) to all users. It is now enabled by default on computers with a 1080p camera and…",
+      "date": "2026-11-23T16:16:33Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Make messages in Google Chat from apps and agents easier to read with tables and headings",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
+      "summary": "Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings…",
+      "date": "2026-11-23T14:53:48Z"
+    },
     {
       "source": "Claude Code Releases",
       "tool": "Claude",
@@ -51,22 +67,6 @@
       "date": "2026-11-20T17:58:33Z"
     },
     {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Now available in beta: Collaborate in real-time on client-side encrypted (CSE) Google Docs",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/now-available-in-beta-collaborate-in-real-time-on-client-side-encrypted-Google-Docs.html",
-      "summary": "Client-side encryption (CSE) provides organizations control over access to their confidential data, with encryption that makes data indecipherable to unauthorized third-parties, including Google, and…",
-      "date": "2026-11-20T17:11:09Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Google Workspace Studio support for Data Regions is now generally available",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/google-workspace-studio-support-for-Data-Regions-is-now-generally-available.html",
-      "summary": "Google Workspace Studio now supports Data Regions , giving organizations greater governance over where their workflow data is stored at rest and processed in use. With this launch, core Workspace…",
-      "date": "2026-11-20T15:57:23Z"
-    },
-    {
       "source": "Google News — Canva Updates",
       "tool": "Canva",
       "title": "Canva AI Controls Add a Generative AI Off Switch - remio",
@@ -113,14 +113,6 @@
       "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXBCUUxuZ2I0SS14akMtdmoyZXBfdFFPS2Nfb3FxM1l6QnlkaTM1bl9tS2V0Q2lfcGlpNEtXOXpsQWlUcGZoYVZndmEtSzRsc1dUSl9jM2RQdXRZWk9oNkUzUE9WeGF2ZGlTbjd6bVpNbDhnSnR2RWJmNExYUFZZWHQyWnJBa09BWVhDYWdKNA?oc=5",
       "summary": "Canva Has a New Kill Switch for AI: ‘We Know AI Doesn’t Suit Every Task’ CNET",
       "date": "2026-11-19T12:30:20Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva adds an AI ‘off’ button - The Verge",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcE4xZV9mX2VDUGs5LVlMbWtKRjVocGl0NlJzaXhKTlJJLXdfeHlVQnN1MXBsRXdvZldTTnRwc0FCLUVfQ3Vra0ZGZ0hMbWRyQXdQY0JPdmk4N05hVTVZSmtaYkRSQm1LZnU1a0k0UVM4ZFBTN3JXSXY0NHBENXphaTdrWjE2U3lfeV9kQ0QzTXFyZw?oc=5",
-      "summary": "Canva adds an AI ‘off’ button The Verge",
-      "date": "2026-11-19T12:30:00Z"
     },
     {
       "source": "Google Chrome Releases",
@@ -225,6 +217,14 @@
       "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdFdmdzlmTVdnd3BVMjUzQ0YycGo1dHNpVDhUc3RGX3NyaTFVb1d3M2xhekp1NnFLcUJKU0lJMjBMcXJpT0dkZW1Sc0xoem9wRXQ0dGFSN0twRXltNWJYLUJIU212SUFCUk4wOEhkQkFWX3gyZDJIMTV5YmxtUWVjVWZ2bmpxUDdjRkFvVVZaLWxHVGx5b2Z5YXpMT1ppUHJJblVLSVpzY3diSHowN3YzVll5eGoxUjI5bjFB?oc=5",
       "summary": "What’s new in Power Platform: October/November 2026 feature update Microsoft",
       "date": "2026-11-10T08:00:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Canva doubles down with OpenAI just days after launching its 2nd in-house AI model - Startup Daily",
+      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYmJHMXhtUGgzQ2F4c29LcmFiZ0FaWUF6aXpzTDIzSTlHdnJibzlDRTU2bmZDcDZmVDJWYUUzUmI4dnVYRFg4ZERpaC1kaUZoYmNuUE13LWZyQUV6YmdmRzRSU19EZWRwdDROcjA1bnAtYlJ5MkZ5ajRjMGlsVzhEemQzc1lYdEd1TU5aVTZXS1dra0FvSGl5Sk10YV9sOW5aTHBDX01qVUg4WHUycVlDTDIxelM5cFQxMDNOaV83cXNmRXVxX0t3?oc=5",
+      "summary": "Canva doubles down with OpenAI just days after launching its 2nd in-house AI model Startup Daily",
+      "date": "2026-11-03T08:00:00Z"
     },
     {
       "source": "Google News — Microsoft 365",
