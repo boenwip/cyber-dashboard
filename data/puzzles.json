@@ -153,6 +153,231 @@
         "The number to call is in the message itself. Call the number on the back of your card instead.",
         "Telling you not to log in stops you seeing that nothing is wrong. Banks want you to check your account."
       ]
+    },
+    {
+      "channel": "sms",
+      "from": "ATO",
+      "time": "2:14 pm",
+      "body": [
+        { "t": "ATO: " },
+        { "t": "Your tax return has been flagged for review.", "g": 0 },
+        { "t": " " },
+        { "t": "Log in within 48 hours to avoid a penalty:", "g": 1 },
+        { "t": " " },
+        { "t": "ato-gov-au.example/login", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A vague problem with your tax is meant to worry you before you think it through.",
+        "A deadline and a penalty push you to act now instead of checking.",
+        "The ATO says it won't text you a link to log in to its online services. Go to my.gov.au yourself."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Bright Smiles",
+      "time": "4:05 pm",
+      "context": "You booked a check-up at your local dentist last month.",
+      "body": [
+        { "t": "Hi Sam, a reminder of your appointment with " },
+        { "t": "Dr Patel on Thu 28 Nov at 10:30am.", "g": 0 },
+        { "t": " " },
+        { "t": "Reply Y to confirm or call the clinic to change it.", "g": 1 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "It matches something you booked, with the right name, day and dentist.",
+        "It only asks for a Y. No link, no payment and no personal details."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Microsoft 365",
+      "address": "it-support@m365-storage.example",
+      "subject": "Action required: your mailbox is 98% full",
+      "body": [
+        { "t": "Your mailbox has almost reached its limit. " },
+        { "t": "New emails will be rejected from today.", "g": 0 },
+        { "t": "\n\n" },
+        { "t": "Increase my storage", "g": 1, "link": true },
+        { "t": "\n\n" },
+        { "t": "Sign in with your work password to keep receiving mail.", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A threat that mail will stop today is there to rush you.",
+        "The button goes to a site that isn't Microsoft's. Check storage in Outlook itself.",
+        "Asking you to type your password after clicking a link is how passwords get stolen."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "+61 4XX XXX 771",
+      "time": "7:52 pm",
+      "body": [
+        { "t": "Hi, I'm Jenny from a recruitment agency. " },
+        { "t": "Your CV was recommended to us.", "g": 0 },
+        { "t": " " },
+        { "t": "Part-time online work, $300 to $800 a day, no experience needed.", "g": 1 },
+        { "t": " " },
+        { "t": "Add me on WhatsApp to start.", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "You never sent them your CV. A vague compliment is the hook.",
+        "Big pay for easy work is the bait in task scams. You'll be asked to pay in to 'unlock' earnings.",
+        "Moving you to WhatsApp takes you away from anyone who could warn you."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Coastline Supplies",
+      "address": "accounts@coastIine-supplies.example",
+      "subject": "Updated bank details for invoice 4471",
+      "body": [
+        { "t": "Hi, please note " },
+        { "t": "our bank details have changed.", "g": 0 },
+        { "t": " " },
+        { "t": "Please pay this month's invoice to the new account below", "g": 1 },
+        { "t": " and update your records.\n\nBSB 000-000  Account 0000 0000\n\n" },
+        { "t": "We're in an audit, so please don't call the office this week.", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "Changed bank details by email is the most common trick in business email scams. Look closely at the address too: it's \"coastIine\" with a capital I, not an L.",
+        "One email is not enough to send money to a new account. That's how the payment goes to the scammer.",
+        "Asking you not to call stops the one check that would catch it. Call the supplier on a number you already have."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Medicare",
+      "time": "10:03 am",
+      "body": [
+        { "t": "Medicare: " },
+        { "t": "Your card has been suspended", "g": 0 },
+        { "t": " due to missing details. " },
+        { "t": "Verify now to keep your benefits:", "g": 1 },
+        { "t": " " },
+        { "t": "medicare-au-renew.example", "g": 2, "link": true }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A suspended card is a made-up emergency.",
+        "\"Verify\" means \"type your details into our page\".",
+        "Medicare is run by Services Australia, which says its texts won't include a link to sign in. Use the Express Plus Medicare app or my.gov.au yourself."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Amazon",
+      "time": "11:47 pm",
+      "body": [
+        { "t": "Your order of " },
+        { "t": "iPhone 16 Pro ($1,899.00) has been confirmed.", "g": 0 },
+        { "t": " " },
+        { "t": "If you didn't place this order, call our refund team on 1800 XXX XXX.", "g": 1 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "An expensive order you didn't make is meant to scare you into acting.",
+        "The 'refund team' will ask to install an app on your computer or for your bank details. Check your orders in the Amazon app instead."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Streamly",
+      "address": "no-reply@streamly.example",
+      "context": "You changed your Streamly password two minutes ago.",
+      "subject": "Your password was changed",
+      "body": [
+        { "t": "The password for your Streamly account " },
+        { "t": "was changed just now.", "g": 0 },
+        { "t": "\n\n" },
+        { "t": "If this was you, there's nothing to do.", "g": 1 },
+        { "t": " " },
+        { "t": "If it wasn't, open the Streamly app and go to Account to secure it.", "g": 2 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "It matches what you just did.",
+        "It doesn't ask you to do anything if it was you.",
+        "It sends you to the app you already have, not to a link in the email."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "+61 4XX XXX 096",
+      "time": "8:15 am",
+      "body": [
+        { "t": "Hi Karen, is this still your number? " },
+        { "t": "It's Lily from the Saturday yoga class.", "g": 0 },
+        { "t": " " },
+        { "t": "I've been doing really well with crypto lately, happy to show you how.", "g": 1 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A 'wrong number' message from a stranger opens a friendly chat. It's how many investment scams start.",
+        "After weeks of chatting, they bring up crypto and show fake profits so you'll pay in."
+      ]
+    },
+    {
+      "channel": "sms",
+      "from": "Tony's Pizza",
+      "time": "6:41 pm",
+      "context": "You ordered a pizza on Tony's website 25 minutes ago.",
+      "body": [
+        { "t": "Your order #2217 is " },
+        { "t": "out for delivery", "g": 0 },
+        { "t": " and should arrive in about 15 minutes. " },
+        { "t": "Enjoy!", "g": 1 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "You placed the order, and the timing fits.",
+        "It doesn't ask for anything: no link, no payment, no reply."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Jetline",
+      "address": "bookings@jetline.example",
+      "context": "You booked flights to Hobart on the Jetline website last night.",
+      "subject": "Booking confirmed: Sydney to Hobart, 14 Dec",
+      "body": [
+        { "t": "Thanks for booking. Your reference is " },
+        { "t": "JX4H2K.", "g": 0 },
+        { "t": "\n\n" },
+        { "t": "Sydney to Hobart, Sat 14 Dec, 7:05am.", "g": 1 },
+        { "t": " " },
+        { "t": "You can manage your booking in the Jetline app.", "g": 2 }
+      ],
+      "answer": "legit",
+      "giveaways": [
+        "It arrived right after you booked, with a reference you can check.",
+        "The flight details match what you chose.",
+        "It points you to the app, and asks for no payment or password. If in doubt, look the booking up yourself."
+      ]
+    },
+    {
+      "channel": "email",
+      "from": "Facebook Support",
+      "address": "meta.support@pages-review.example",
+      "subject": "Your page will be removed in 24 hours",
+      "body": [
+        { "t": "We received a copyright report about your page. " },
+        { "t": "If you don't appeal within 24 hours, your page will be permanently deleted.", "g": 0 },
+        { "t": "\n\n" },
+        { "t": "Appeal now", "g": 1, "link": true },
+        { "t": "\n\n" },
+        { "t": "You'll need to confirm your password and login code.", "g": 2 }
+      ],
+      "answer": "scam",
+      "giveaways": [
+        "A 24-hour threat to delete your page is there to rush you.",
+        "The link isn't facebook.com. Check alerts in the app's own notifications.",
+        "No real appeal asks for your login code. Anyone with it can take over your account."
+      ]
     }
   ]
 }
