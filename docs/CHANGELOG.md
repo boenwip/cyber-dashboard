@@ -4,6 +4,19 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Practise
+
+**Added**
+- Practise (`practise.html`): safe places to try hacking and defending, courses and videos, free tools and the Australian organisations to know, as one readable list. "Show me things for" in the rail filters it to just me, my business or a career in cyber
+- Spot the scam (Play) is listed as the first thing to practise
+
+**Changed**
+- Resources is now a short signpost to I've been scammed, Check a breach and Practise. `resources.css` is gone
+- The ACCC card now points to Scamwatch, where people actually check and report scams
+- The Essential Eight maturity card is gone from the organisations list: it has its own page
+
+---
+
 ## November 2026 — Crack-time checker, deadline bars, glossary quiz
 
 **Added**
