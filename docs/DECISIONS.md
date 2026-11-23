@@ -5,6 +5,20 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Crack-time checker, deadline bars, glossary quiz
+
+### The crack-time checker assumes the worst case, and says so
+**Decision:** 10 billion guesses a second (one graphics card against a quickly-hashed leak). Common passwords, and common words with numbers or swapped letters (P@ssw0rd1, Sydney2024!) count as near-instant. Passphrases count whole words from a 50,000-word list.
+**Why:** A breach page should not reassure people about a weak password. Scoring by characters made "magpie toaster rainbow" look unbreakable; by words it's about an hour, and four words about nine years, which matches ASD's four-random-words advice. No library: zxcvbn is around 800 KB for a page toy.
+
+### Ask for a made-up password
+**Decision:** The box is plain text, not a password field, and the copy says "Don't type a real one." Nothing is sent or stored.
+**Why:** Seeing what you type is the point of the toy, and teaching people to type real passwords into websites is the opposite of the lesson.
+
+### Glossary examples fold away
+**Decision:** Examples hide behind "Show an example".
+**Why:** The owner found pages busy; most readers want the meaning, and the example is one tap away.
+
 ## Session: 2026-11-24 — Wide screens and side rails
 
 ### Scale up, and use the side for quick actions

@@ -79,6 +79,19 @@
       </ol>
     </section>
 
+    <section class="part" id="crack">
+      <h2>How fast could a password be cracked?</h2>
+      <p>When a site is breached, attackers try billions of guesses a second against the leaked passwords. Type a made-up password to see roughly how long yours would last. <b>Don't type a real one.</b> Nothing you type leaves this page.</p>
+      <div class="crack">
+        <label for="crack-input">Made-up password</label>
+        <input id="crack-input" type="text" autocomplete="off" autocapitalize="off" spellcheck="false" maxlength="64">
+        <span class="crack-meter"><i id="crack-fill"></i></span>
+        <p class="crack-time" id="crack-time" aria-live="polite">–</p>
+        <p class="crack-tip" id="crack-tip"></p>
+        <button type="button" class="btn btn--quiet" id="crack-try">Try four random words</button>
+      </div>
+    </section>
+
     <section class="part" id="if-id">
       <h2>If your ID documents were leaked</h2>
       <p>If the breach included your licence, passport or Medicare number, the company should tell you what was taken. Ask the agency that issued the document about replacing it. IDCARE can help you work out what to do, free: <a class="tel" href="tel:1800595160">1800 595 160</a></p>
@@ -95,6 +108,7 @@
       <p class="rail-head">After you check</p>
       <ul class="rail-links">
         <li><a href="#if-breached">If your email is in a breach</a></li>
+        <li><a href="#crack">How fast could a password be cracked?</a></li>
         <li><a href="#if-id">If your ID documents were leaked</a></li>
         <li><a href="#notify">Hear about the next one</a></li>
       </ul>
@@ -120,5 +134,6 @@
 </footer>
 
 <script src="shared.js"></script>
+<script src="crack.js"></script>
 </body>
 </html>

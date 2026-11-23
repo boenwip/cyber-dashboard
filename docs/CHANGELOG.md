@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Crack-time checker, deadline bars, glossary quiz
+
+**Added**
+- Check a breach: "How fast could a password be cracked?" Type a made-up password and see a rough time, a coloured bar and a tip. It runs entirely in the browser and keeps nothing. Passphrases are scored by whole words, so four random words come out strong and two do not, in line with ASD's advice
+- Exploited: each flaw shows how much of CISA's fix-by window has gone, as a bar that fills once as the page opens, with "3 days left", "Due today" or "Fix-by date passed"
+- Glossary: "Quiz me" in the rail. A meaning and four words; Swoop hops when you're right and tilts his head when you're not, with a running streak
+
+**Changed**
+- Glossary examples are folded behind "Show an example" and turn down like a card when opened, so the list reads calmer
+
+---
+
 ## November 2026 — Wide screens and side rails
 
 **Added**
