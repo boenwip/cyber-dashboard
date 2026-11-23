@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-11-23T10:35:08Z",
-  "count": 91,
+  "last_updated": "2026-11-23T11:12:12Z",
+  "count": 88,
   "items": [
     {
       "source": "Security Brief Australia",
@@ -279,16 +279,6 @@
       ]
     },
     {
-      "source": "Google News — The Register AU",
-      "title": "Support tech fixed malware by charging client less for their services - The Register",
-      "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNdXo5OEUwRVpMUTVlVGdfMGlWOTNFckFDZk1YdUtfYy00TnlHcGRKcnJuQXgtalNQYVdCaThJV045aXliRk1nYVRhQ25tNXFDSHZCX2QxRFZqbVREeWZfd1hzTUhtSVpqMXRaWklOaGh1dGZ2aVc3QUZEa3hpN3hkTThaaWd4MmJ3MDIwemZoWmZWRHhwZU1uWkxDWVdiS3N4bUxyejNrWlBFUXZ6VWVYc1hINEJveTUyWURXTFljRU1YVk1IdDNHWWJn?oc=5",
-      "summary": "Support tech fixed malware by charging client less for their services The Register",
-      "date": "2026-11-20T06:29:00Z",
-      "tags": [
-        "Cyber"
-      ]
-    },
-    {
       "source": "Google News — ScamWatch",
       "title": "Scam alert: Microsoft pop-up IT support scams - Scamwatch",
       "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOSUJMeFhoYjFHQURrc2tLYms5dV9sVHJ1SG5IWFlvQzJld0hURmd1NkozZXVpYnNVekdpcG40TWwtc2o2b1E1cFdZNks4XzBLOWR0aTBGVlBSTW11Q09ieW5XZEtSWVQzUVpNdjBUOFVKQzNXaXVmSjR6N0dyZ1dMdmVDYlVCbGNjOFhzVDRhU2J1M3A0WFcxd1ZWTXJlWjA?oc=5",
@@ -555,6 +545,12 @@
         "AI & Tools"
       ],
       "coverage": [
+        {
+          "source": "Google News — The Register AU",
+          "title": "California sues OpenAI for misleading public about AI safety - The Register Forums",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BR2hVU2JDb2xvWm16MXVZRHRXWVVKN0Q0TTJXZEZXX05KNlZPeWVxeW9nSTV0OGxXejFEVmV1Q2YtMGlEalU2WHk2WVRpMmd6ZWg3UkVMZGdaOHJpUHpoalY2OE1PcGotZTZF?oc=5",
+          "date": "2026-11-16T23:46:15Z"
+        },
         {
           "source": "Google News — Bleeping Computer AU",
           "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms - BleepingComputer",
@@ -864,17 +860,16 @@
       "tags": [
         "Cyber",
         "AI & Tools"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
-      "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
-      "summary": "Microsoft serves up an actively exploited Outlook zero-day, and a wave of critical Exchange, SharePoint, Windows Search, and LDAP bugs that exhausted defenders need to prioritize fast.",
-      "date": "2026-11-10T22:26:51Z",
-      "tags": [
-        "Cyber"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
+          "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
+          "date": "2026-11-10T21:01:14Z"
+        }
+      ],
+      "latest": "2026-11-11T06:09:15Z"
     },
     {
       "source": "Krebs on Security",
@@ -884,18 +879,16 @@
       "date": "2026-11-10T21:55:03Z",
       "tags": [
         "Cyber"
-      ]
-    },
-    {
-      "source": "Dark Reading",
-      "title": "Artex: The AI Pen-Test Tool Hackers Turned Into a Weapon",
-      "link": "https://www.darkreading.com/cyberattacks-data-breaches/artex-ai-pen-test-tool-hackers-weapon",
-      "summary": "Forks of the open source Artex framework, along with 45 similar pen-testing tools, remain capable of executing credential attacks and cloud breaches at machine speed across multiple industries.",
-      "date": "2026-11-10T21:01:14Z",
-      "tags": [
-        "Cyber",
-        "AI & Tools"
-      ]
+      ],
+      "coverage": [
+        {
+          "source": "Dark Reading",
+          "title": "November Patch Tuesday: An Overflowing Cornucopia of CVEs",
+          "link": "https://www.darkreading.com/vulnerabilities-threats/november-patch-tuesday-cornucopia-cves",
+          "date": "2026-11-10T22:26:51Z"
+        }
+      ],
+      "latest": "2026-11-10T22:26:51Z"
     },
     {
       "source": "Dark Reading",
