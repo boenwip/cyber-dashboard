@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — I've been scammed, and Check a breach
+
+**Added**
+- I've been scammed (`help.html`): what to do first, in order. It leads with "call your bank now" and the 24-hour Australian Cyber Security Hotline, then six numbered steps (stop contact, bank, secure accounts, report, ID support, watch for recovery scams) and a list of who to call, each with a tap-to-call button
+- Check a breach (`breach.html`): the Have I Been Pwned check, then what to do if your email is in a breach, what to do if ID documents were leaked, and how to hear about future breaches
+
+**Changed**
+- Resources no longer holds the breach check or the report links. A "Need help now?" section points to the two new pages
+- The National Anti-Scam Centre card is gone: it explained the centre rather than giving a reader something to do, and Scamwatch reports feed it anyway
+
+---
+
 ## November 2026 — This year page
 
 **Added**
