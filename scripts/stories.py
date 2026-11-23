@@ -21,9 +21,9 @@ import re
 
 # Sonnet at low effort: Haiku merged follow-ups into original stories and missed the
 # same disclosure under different wording. About $0.04 a call (~$3.30/month).
-MODEL = "claude-sonnet-5"
+MODEL = "claude-sonnet-5-5"
 EFFORT = "low"
-# Sonnet 5 pricing, USD per million tokens, used to track spend against the monthly cap
+# Sonnet 5.5 pricing (same as Sonnet 5), USD per million tokens, used to track spend against the monthly cap
 PRICE_IN, PRICE_OUT = 2.00, 10.00
 # Outlets report the same development within a few days of each other; anything
 # further apart is a follow-up, whatever the model says.
@@ -154,7 +154,10 @@ def ai_groups(articles, client=None, spend=None):
         print(f"    AI grouping failed ({type(e).__name__}): {e}")
         return None
     if getattr(response, "stop_reason", None) not in ("end_turn", "stop_sequence"):
-        print(f"    AI grouping stopped early ({getattr(response, 'stop_reason', None)})")
+        # Sonnet 5.5 refusals carry a category (cyber, general_harms...); worth seeing on a cyber news feed
+        details = getattr(response, "stop_details", None)
+        print(f"    AI grouping stopped early ({getattr(response, 'stop_reason', None)}"
+              f"{', ' + str(getattr(details, 'category', None)) if details else ''})")
         return None
     text = next((b.text for b in response.content if getattr(b, "type", "") == "text"), "")
     try:
