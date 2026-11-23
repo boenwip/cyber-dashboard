@@ -95,3 +95,17 @@
 .steps li.just::before { animation: tick-pop .4s cubic-bezier(.3, 1.6, .5, 1); }
 @keyframes tick-pop { 50% { transform: scale(1.25); } }
 @media (prefers-reduced-motion: reduce) { .meter i, .ring-fill { transition: none; } .steps li.just::before { animation: none; } }
+
+/* Check a breach: how fast could a password be cracked? */
+.crack { display: grid; gap: 10px; margin-top: 16px; padding: clamp(18px, 1.6vw, 26px); border-radius: 20px; background: var(--surface); }
+.crack label { font-weight: 700; }
+.crack input { width: 100%; min-height: 52px; padding: 0 16px; border: 1.5px solid var(--text-2); border-radius: 14px; background: var(--bg); color: var(--text); font: 500 20px var(--mono); }
+.crack input:focus { border-color: var(--text); outline: 3px solid var(--pop); outline-offset: 2px; }
+.crack-meter { display: block; height: 12px; border-radius: 99px; background: var(--surface3); overflow: hidden; }
+.crack-meter i { display: block; height: 100%; width: 0; border-radius: 99px; background: var(--pop); transition: width .35s cubic-bezier(.2, .7, .2, 1), background-color .35s; }
+.crack-meter i.fair { background: var(--main); }
+.crack-meter i.strong { background: #3f9d6b; }
+.crack-time { font-size: clamp(24px, 2vw, 32px); font-weight: 700; line-height: 1.15; letter-spacing: -.02em; }
+.crack-tip { color: var(--text-2); }
+.crack .btn { justify-self: start; }
+@media (prefers-reduced-motion: reduce) { .crack-meter i { transition: none; } }

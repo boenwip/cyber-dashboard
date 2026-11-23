@@ -74,6 +74,18 @@
 
     <!-- A-Z INDEX -->
     <div class="def-alpha" id="def-alpha" role="navigation" aria-label="Alphabetical index"></div>
+    <div class="rail-box quiz" id="quiz">
+      <span class="swoop rail-swoop" id="swoop" aria-hidden="true"><span class="bird"></span></span>
+      <p class="rail-head">Test yourself</p>
+      <button type="button" class="btn" id="quiz-start">Quiz me</button>
+      <div id="quiz-body" hidden>
+        <p>Which word means:</p>
+        <p class="quiz-q" id="quiz-q"></p>
+        <div class="quiz-opts" id="quiz-opts"></div>
+        <p class="quiz-result" id="quiz-result" aria-live="polite"></p>
+        <button type="button" class="btn" id="quiz-next" hidden>Next question</button>
+      </div>
+    </div>
   </aside>
   </div>
 </main>
@@ -92,6 +104,7 @@
 
 <script src="shared.js"></script>
 <script src="definitions.js"></script>
+<script src="swoop.js"></script>
 <script src="definitions-page.js"></script>
 </body>
 </html>
