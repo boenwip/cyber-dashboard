@@ -4,11 +4,6 @@
 .home { padding: 0 var(--gutter) clamp(40px, 5vw, 72px); font-family: var(--display); }
 .site-header { border-bottom: 0; }
 
-.masthead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; padding: clamp(22px, 2.4vw, 36px) 0 clamp(16px, 1.6vw, 24px); }
-.masthead h1 { font-family: var(--display); font-size: clamp(26px, 2.4vw, 40px); font-weight: 700; line-height: 1.1; letter-spacing: -.03em; }
-.masthead h1::after { content: ''; display: inline-block; width: .42em; height: .9em; margin-left: .18em; vertical-align: -.08em; background: var(--pop); }
-.masthead p { font-size: 16px; color: var(--text-2); }
-
 /* Alert: only when there is one */
 .alert { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 12px; margin-bottom: 14px; padding: 14px 20px; border-radius: 18px; background: var(--text); color: var(--bg); text-decoration: none; }
 .alert b { font-weight: 700; white-space: nowrap; }
@@ -44,15 +39,7 @@ a.tile:hover h2, a.tile:hover h3 { text-decoration: underline; text-decoration-t
 .home :focus-visible { outline-color: var(--text); }
 
 /* Swoop perches on the lead tile, top right */
-.swoop { appearance: none; position: absolute; right: 28px; top: 0; z-index: 5; width: clamp(56px, 4.4vw, 76px); padding: 0; background: none; border: 0; transform: translateY(-86%); cursor: default; }
-.swoop .bird svg { display: block; width: 100%; height: auto; }
-.swoop .k { fill: var(--swoop-k); }
-.swoop .w { fill: var(--swoop-w); }
-.swoop .g { fill: #9a968d; }
-.swoop.hop .bird { animation: hop 420ms steps(7); }
-@keyframes hop { 0%, 100% { transform: translateY(0); } 30%, 70% { transform: translateY(-14%); } 50% { transform: translateY(-22%); } }
-.swoop.ruffle .bird { animation: ruffle 360ms steps(6); transform-origin: bottom center; }
-@keyframes ruffle { 0%, 100% { transform: scale(1); } 40% { transform: scale(1.06, .94); } 70% { transform: scale(.97, 1.04); } }
+.swoop { position: absolute; right: 28px; top: 0; z-index: 5; width: clamp(56px, 4.4vw, 76px); transform: translateY(-86%); }
 /* Critical: he comes in from the right, along the top of the page */
 .swoop.incoming { transform: translate(100vw, -260%); }
 .swoop.landing { transition: transform 1200ms cubic-bezier(.25, .7, .3, 1); }
@@ -71,5 +58,4 @@ a.tile:hover h2, a.tile:hover h3 { text-decoration: underline; text-decoration-t
 @media (prefers-reduced-motion: reduce) {
   .tile { transition: none; }
   .swoop.landing { transition: none; }
-  .swoop .bird { animation: none !important; }
 }
