@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Redesign step 4: Exploited page
+
+### Flaws grouped by the day they were added
+**Decision:** The list is grouped under "Added Friday 20 November" headings, newest first, beside a lemon summary with the 7-day count and what to do.
+**Why:** The date a flaw joined the list is the one fact that tells a reader how new the danger is; KEV has no severity score to sort by.
+
+### Only the latest day is chocolate
+**Decision:** The latest day's flaws are chocolate tiles; older ones sit on the plain surface.
+**Why:** Nine chocolate tiles at once made a heavy wall of colour, which the owner has found punishing before. One coloured group gives the page a lead, as the home page does.
+
+---
+
 ## Session: 2026-11-23 — Redesign step 3: Play page
 
 ### Every part of the message can be tapped

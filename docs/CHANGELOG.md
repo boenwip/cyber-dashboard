@@ -4,6 +4,17 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Exploited page (redesign step 4)
+
+**Added**
+- Exploited right now has its own page (`exploited.html`): the newest flaws on CISA's Known Exploited Vulnerabilities list, grouped by the day they were added. The latest day's flaws are chocolate tiles, older ones plain. Each shows the product, the CVE number, what the flaw does, CISA's fix-by date, and whether it's known to be used in ransomware, and links to the details on NVD
+- A lemon summary beside the list says how many were added in the last 7 days, what the list is, and what to do about it. On wide screens it stays in view as you scroll
+
+**Changed**
+- Exploited in the menu, the tab bar and the home page's link now go to the new page. Old `#cve` links redirect there
+
+---
+
 ## November 2026 — Play page (redesign step 3)
 
 **Added**

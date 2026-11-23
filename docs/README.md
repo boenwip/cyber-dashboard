@@ -15,6 +15,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | Page | What's on it |
 |---|---|
 | **Today** (home) | Today's top 5 stories, the ACSC alert when there is one, and Swoop the lookout. |
+| **Exploited** (`exploited.html`) | The newest flaws attackers are using, from CISA's Known Exploited Vulnerabilities list, grouped by the day they were added, with a summary of what to do. |
 | **Play** (`play.html`) | Spot the scam: one message a day. Tap the parts that look suspicious, decide if it's a scam, and see which giveaways you found. Streak and rank are kept in your browser. |
 | **Dashboard** (`dashboard.html`, being split into pages) | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
 | **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
