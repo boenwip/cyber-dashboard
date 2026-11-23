@@ -174,13 +174,13 @@ button { font: inherit; color: inherit; }
 .prompt i { display: inline-block; width: .62em; height: 1.08em; background: currentColor; }
 
 /* Choices: page tabs and filters */
-.ref-tab-btn, .ag-cat-btn, .def-lvl-btn {
+.ag-cat-btn, .def-lvl-btn {
   appearance: none; padding: 6px 14px; background: none; border: 1px solid var(--border2);
   font-size: 14px; font-weight: 500; white-space: nowrap; color: var(--text-2); cursor: pointer;
 }
-.ref-tab-btn:hover, .ag-cat-btn:hover, .def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
-.ref-tab-btn--active, .ag-cat-btn--active, .def-lvl-btn--active,
-.ref-tab-btn--active:hover, .ag-cat-btn--active:hover, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
+.ag-cat-btn:hover, .def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
+.ag-cat-btn--active, .def-lvl-btn--active,
+.ag-cat-btn--active:hover, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
 
 /* ── WORD OF THE DAY (Reference page) ── */
 .wotd-strip {

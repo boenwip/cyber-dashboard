@@ -1,6 +1,6 @@
 /**
  * definitions-page.js — pseudosec.
- * Glossary page: search, filter, A-Z index, term cards
+ * Glossary page (glossary.html): search, filter, A-Z index, term cards
  */
 
 var currentLevel  = 'all';
@@ -97,65 +97,15 @@ function initSearch() {
   });
 }
 
-// ── REFERENCE PAGE TABS (OWASP / Essential Eight / Glossary) ──
-function initRefTabs() {
-  var tabs   = document.querySelectorAll('.ref-tab-btn');
-  var panels = document.querySelectorAll('.ref-panel');
-  if (!tabs.length) return;
-
-  function activate(tabId) {
-    tabs.forEach(function(t) {
-      var on = t.dataset.tab === tabId;
-      t.classList.toggle('ref-tab-btn--active', on);
-      t.setAttribute('aria-selected', on ? 'true' : 'false');
-    });
-    panels.forEach(function(p) {
-      p.classList.toggle('ref-panel--active', p.id === 'panel-' + tabId);
-    });
-    history.replaceState(null, '', '#' + tabId);
-  }
-
-  tabs.forEach(function(btn, n) {
-    btn.setAttribute('aria-controls', 'panel-' + btn.dataset.tab);
-    btn.addEventListener('click', function() { activate(btn.dataset.tab); });
-    btn.addEventListener('keydown', function(e) {
-      var step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
-      if (!step) return;
-      e.preventDefault();
-      var next = tabs[(n + step + tabs.length) % tabs.length];
-      next.focus();
-      activate(next.dataset.tab);
-    });
-  });
-
-  var glossaryLink = document.getElementById('wotd-glossary-link');
-  if (glossaryLink) {
-    glossaryLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      activate('glossary');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
-
-  var hash = location.hash.replace('#', '');
-  var valid = ['owasp-web','owasp-api','owasp-llm','e8','glossary'];
-  if (hash && valid.indexOf(hash) !== -1) activate(hash);
-  else if (hash.indexOf('letter-') === 0) {   // an A-Z link, reloaded or shared
-    var letter = document.getElementById(hash);
-    activate('glossary');
-    if (letter) letter.scrollIntoView();
-  }
-}
-
 document.addEventListener('DOMContentLoaded', function() {
-  // Tabs work even if the glossary data fails to load
   if (typeof DEFINITIONS !== 'undefined' && DEFINITIONS.length) {
     renderAlpha(DEFINITIONS);
     renderDefs();
     initSearch();
-    renderWotd(DEFINITIONS);
   }
-  initRefTabs();
+  // An A-Z link, reloaded or shared: the letters only exist once rendered
+  var letter = location.hash.indexOf('#letter-') === 0 && document.getElementById(location.hash.slice(1));
+  if (letter) letter.scrollIntoView();
 
   document.querySelectorAll('.def-lvl-btn').forEach(function(btn) {
     btn.addEventListener('click', function() { filterLevel(btn.dataset.level, btn); });

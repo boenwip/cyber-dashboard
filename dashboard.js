@@ -448,7 +448,7 @@ function learnItems() {
   if (term) items.push({ k: 'Word of the day', t: term.term, view: function () {
     return '<span class="chip">Word of the day</span><h2>' + esc(term.term) + '</h2><p class="body">' + esc(term.full || term.short) + '</p>' +
       (term.example ? '<p class="aside"><b>Example:</b> ' + esc(term.example) + '</p>' : '') +
-      '<a class="go" href="reference.html#glossary">Open the glossary</a>';
+      '<a class="go" href="glossary.html">Open the glossary</a>';
   } });
   TIPS.forEach(function (t) {
     if (t !== today) items.push({ k: 'Tip', t: t[0], view: function () { return '<span class="chip">Tip</span><h2>' + esc(t[0]) + '</h2><p class="body">' + esc(t[1]) + '</p>'; } });

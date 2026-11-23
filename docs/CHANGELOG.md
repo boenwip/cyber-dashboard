@@ -4,6 +4,23 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Reference split: Essential Eight, Glossary, OWASP
+
+**Added**
+- Essential Eight (`essential-eight.html`): ASD's eight controls as one readable column, each with what it stops, plus links to ASD's guide and how it's changing
+- Glossary (`glossary.html`): the searchable A to Z glossary on its own page. Shared `#letter-X` links still land on the letter
+- OWASP Top 10s (`owasp.html`): the web, API and AI/LLM lists on one page, one after another, with jump links instead of tabs
+
+**Changed**
+- Reference (`reference.html`) is now a short list of the three pages. Old `reference.html#e8`, `#glossary`, `#letter-X` and `#owasp-*` links redirect to the right page
+- `definitions.html` now redirects to `glossary.html`; the dashboard's Essential Eight and glossary links point to the new pages
+- The word of the day no longer shows on Reference. It stays on the dashboard until the Learn hub takes it
+
+**Removed**
+- `reference.css` (its OWASP styles live on in `owasp.css`), the tab code in `definitions-page.js`, and the unused tab-button styles
+
+---
+
 ## November 2026 — I've been scammed, and Check a breach
 
 **Added**

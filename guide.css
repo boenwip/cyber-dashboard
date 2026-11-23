@@ -50,3 +50,15 @@
   .now { border-radius: 20px; }
   .steps li { padding-left: 46px; }
 }
+
+/* Essential Eight: what each control stops */
+.prevents { margin-top: 8px; font-size: 15px; color: var(--text-2); }
+
+/* Reference: a short list of pages */
+.picks { display: grid; gap: 10px; list-style: none; }
+.picks a { display: grid; gap: 2px; padding: 16px 20px; border-radius: 18px; background: var(--surface); color: var(--text); text-decoration: none; }
+.picks b { font-size: clamp(19px, 1.4vw, 22px); font-weight: 700; }
+.picks span { font-size: 15px; color: var(--text-2); }
+.picks a:hover { background: var(--pop); color: #1a1a1a; }
+.picks a:hover span { color: inherit; }
+.col--wide { max-width: 52rem; }
