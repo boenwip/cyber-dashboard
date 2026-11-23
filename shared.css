@@ -244,10 +244,11 @@ button { font: inherit; color: inherit; }
 /* Wide screens: the reading column, with a sticky rail of the page's quick actions beside it.
    On phones the rail drops below the page (.rail--top: above it; .rail-wide: wide screens only). */
 .with-rail { display: grid; gap: clamp(28px, 3vw, 44px); align-items: start; }
-.rail { display: grid; gap: 14px; align-content: start; }
+.rail { display: grid; gap: 14px; align-content: start; max-width: 50rem; }
 .rail-box { padding: 20px 22px; border-radius: 20px; background: var(--surface); }
 @media (min-width: 1100px) {
-  .with-rail { grid-template-columns: minmax(0, 50rem) minmax(17rem, 26rem); column-gap: clamp(40px, 5vw, 120px); }
+  /* The rail's right edge lines up with the header's */
+  .with-rail { grid-template-columns: minmax(0, 50rem) minmax(17rem, 26rem); justify-content: space-between; column-gap: clamp(40px, 5vw, 120px); }
   .rail { position: sticky; top: calc(var(--hdr) + 24px); }
 }
 @media (max-width: 1099px) {
