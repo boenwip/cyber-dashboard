@@ -18,6 +18,7 @@
 <link rel="apple-touch-icon" href="assets/logo/apple-touch-icon.png">
 <script>try{var t=localStorage.getItem('csi-theme');if(t!=='light'&&t!=='dark')t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
 <link rel="stylesheet" href="shared.css">
+<link rel="stylesheet" href="swoop.css">
 <link rel="stylesheet" href="landing.css">
 </head>
 <body>
@@ -32,7 +33,7 @@
   <div class="hdr-left">
     <nav class="site-nav" aria-label="Main navigation">
       <a href="index.html" class="nav-link nav-link--active" aria-current="page">Today</a>
-      <a href="dashboard.html#scams" class="nav-link">Play</a>
+      <a href="play.html" class="nav-link">Play</a>
       <a href="dashboard.html#cve" class="nav-link">Exploited</a>
       <a href="dashboard.html#year" class="nav-link">This year</a>
       <a href="reference.html" class="nav-link">Reference</a>
@@ -61,13 +62,13 @@
   <div class="onward">
     <a class="all" href="dashboard.html#news">All stories</a>
     <a class="chip-link" id="on-cve" href="dashboard.html#cve">Exploited bugs</a>
-    <a class="chip-link" href="dashboard.html#scams">Today's puzzle</a>
+    <a class="chip-link" href="play.html">Today's puzzle</a>
     <a class="chip-link" id="on-year" href="dashboard.html#year">This year's reports</a>
   </div>
 </main>
 <nav class="tabbar" aria-label="Sections">
   <a href="index.html" aria-current="page">Today</a>
-  <a href="dashboard.html#scams">Play</a>
+  <a href="play.html">Play</a>
   <a href="dashboard.html#cve">Exploited</a>
   <a href="dashboard.html#year">This year</a>
   <button type="button" id="more-btn" aria-expanded="false">More</button>
@@ -79,6 +80,7 @@
 </footer>
 
 <script src="shared.js"></script>
+<script src="swoop.js"></script>
 <script src="landing.js"></script>
 </body>
 </html>

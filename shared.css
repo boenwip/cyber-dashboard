@@ -234,6 +234,13 @@ button { font: inherit; color: inherit; }
 .site-footer a { color: inherit; text-underline-offset: 3px; }
 .site-footer a:hover { color: var(--text); }
 
+/* ── MASTHEAD: page title with the logo's block cursor ── */
+.masthead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; padding: clamp(22px, 2.4vw, 36px) 0 clamp(16px, 1.6vw, 24px); }
+.masthead h1 { font-family: var(--display); font-size: clamp(26px, 2.4vw, 40px); font-weight: 700; line-height: 1.1; letter-spacing: -.03em; }
+.masthead h1::after { content: ''; display: inline-block; width: .42em; height: .9em; margin-left: .18em; vertical-align: -.08em; background: var(--pop); }
+.masthead p { font-size: 16px; color: var(--text-2); }
+
+
 /* ── RESPONSIVE ── */
 @media (max-width: 820px) {
   body { --hdr: 57px; --tab: calc(60px + env(safe-area-inset-bottom)); padding-bottom: var(--tab); }

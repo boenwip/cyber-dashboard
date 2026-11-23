@@ -4,6 +4,19 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Play page (redesign step 3)
+
+**Added**
+- Spot the scam has its own page, Play (`play.html`). The day's message sits in a frame with the question beside it on wide screens, and stacks on phones
+- Find the clues: tap anything in the message that looks suspicious before you decide. The answer then numbers every giveaway, marks the ones you found in lemon and the ones you missed with an orange dashed line, and says how many you spotted
+- Swoop perches on the message. He hops when you're right and tilts his head when you're wrong
+
+**Changed**
+- Play in the menu, the tab bar and the home page's "Today's puzzle" link now go to the new page. Old `#scams` links redirect there
+- Your streak and rank carry over from the old puzzle
+
+---
+
 ## November 2026 — Lemon and chocolate
 
 **Changed**

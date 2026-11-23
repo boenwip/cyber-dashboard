@@ -5,6 +5,22 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Redesign step 3: Play page
+
+### Every part of the message can be tapped
+**Decision:** Each piece of the message body is a toggle, not just the giveaways. After the answer, the giveaways are numbered to match the explanation; found ones are lemon, missed ones get an orange dashed underline. Scam puzzles say "You spotted X of N"; legit puzzles show the trust signals without a score.
+**Why:** If only the giveaways were tappable, the puzzle would give itself away. The score rewards looking closely without changing the streak, which still counts only the scam-or-legit answer.
+
+### Swoop lives in swoop.js and swoop.css
+**Decision:** His frames, drawing and moves moved out of `landing.js` and `landing.css`; each page places his perch itself. The page heading (`.masthead`) moved to `shared.css` for the same reason.
+**Why:** Home and Play both use him; one copy avoids two drifting apart.
+
+### The old Scams tab stays for now
+**Decision:** `dashboard.html` keeps its Scams tab and its copy of the puzzle code until the dashboard is retired; nothing links to it any more.
+**Why:** Removing it means reworking the dashboard's tab bar, which later steps replace anyway.
+
+---
+
 ## Session: 2026-11-23 — Lemon and chocolate
 
 ### Lemon leads, chocolate partners, orange accents

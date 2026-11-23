@@ -2,63 +2,22 @@
    is one, and Swoop the lookout. Requires shared.js (esc, safeUrl, formatDate, parseDate, SYDNEY). */
 
 // The old home page's #topic links now live on dashboard.html
-if (/^#(year|news|scams|cve|learn|alerts|tools)$/.test(location.hash)) location.replace('dashboard.html' + location.hash);
+if (location.hash === '#scams') location.replace('play.html');
+else if (/^#(year|news|cve|learn|alerts|tools)$/.test(location.hash)) location.replace('dashboard.html' + location.hash);
 
 var DAY = 86400000;
-var REDUCED = matchMedia('(prefers-reduced-motion: reduce)').matches;
-
-// ── SWOOP, the lookout ─────────────────────────────────────
-// Frames are 23 x 16 pixels. K black, W white, G grey (beak).
-var BASE = [
-  '.......................', '................KKKK...', '...............KKKKKK..', '...............KKWKKKGG',
-  '...............KKKKKGG.', '..............WWKKKK...', '............WWWWKKKK...', '........KKKKWWKKKKKK...',
-  '.....KKKKKWWWKKKKKKK...', '...KKKKWWWWWKKKKKKK....', 'KKKKKKWWWWKKKKKKKK.....', 'KKKK..KKKKKKKKKKK......',
-  'K........KKKKKKK.......', '..........K...K........', '..........K...K........', '.........KK..KK........'
-];
-var FRAMES = {
-  idle: BASE,
-  blink: BASE.map(function (r, y) { return y === 3 ? r.slice(0, 17) + 'K' + r.slice(18) : r; }),
-  alert: ['................KKKK...', '...............KKKKKK..', '...............KKWKKKGG', '...............KKKKKGG.',
-          '................KKKK...'].concat(BASE.slice(5)),
-  fly: [
-    '........KK.............', '........KKK.....KKKK...', '.........KKK...KKKKKK..', '.........KWKK..KKWKKKGG',
-    '..........WWKK.KKKKKGG.', '..........WWWKKKKKK....', '...........WWKKKKKK....', '........KKKKKKKKKKKK...',
-    '.....KKKKKKKKKKKKKK....', '...KKKKKWWWKKKKKKK.....', 'KKKKKKKWWKKKKKKK.......', 'KKKK.....KKKKK.........',
-    'K......................', '.......................', '.......................', '.......................'
-  ]
-};
-// Colours come from CSS (--swoop-k, --swoop-w) so dark mode can flip them
-var FILL = { K: 'k', W: 'w', G: 'g' };
-
-function pixels(rows) {
-  var r = '';
-  rows.forEach(function (row, y) {
-    row.split('').forEach(function (ch, x) { if (FILL[ch]) r += '<rect x="' + x + '" y="' + y + '" width="1.02" height="1.02" class="' + FILL[ch] + '"/>'; });
-  });
-  return '<svg viewBox="0 0 23 16" aria-hidden="true" shape-rendering="crispEdges">' + r + '</svg>';
-}
-
-var swoop, rest = 'idle', busy = false;
-function pose(name) { swoop.querySelector('.bird').innerHTML = pixels(FRAMES[name]); }
-// Play frames in order: [name, ms], then settle on the resting pose
-function play(steps, done) {
-  busy = true;
-  (function next(i) {
-    if (i === steps.length) { pose(rest); busy = false; if (done) done(); return; }
-    pose(steps[i][0]);
-    setTimeout(function () { next(i + 1); }, steps[i][1]);
-  })(0);
-}
+var sw;   // Swoop, from swoop.js
 
 // His mood comes from real data: a critical/high ACSC alert in the last two weeks, any alert, or none
 function arrive(mood) {
+  var swoop = sw.el;
   swoop.dataset.mood = mood;
-  rest = mood === 'calm' ? 'idle' : 'alert';
+  sw.rest = mood === 'calm' ? 'idle' : 'alert';
   swoop.setAttribute('aria-label', mood === 'calm' ? 'Swoop, the lookout: a quiet day' :
     mood === 'alert' ? 'Swoop, the lookout: there is an ACSC alert' : 'Swoop, the lookout: there is a serious ACSC alert');
-  if (REDUCED) { pose(rest); return; }
-  if (mood === 'calm') play([['idle', 700], ['blink', 140], ['idle', 260], ['blink', 140]]);
-  else if (mood === 'alert') { pose('idle'); setTimeout(function () { swoop.classList.add('ruffle'); play([['alert', 10]]); }, 500); }
+  if (SWOOP_REDUCED) { sw.pose(sw.rest); return; }
+  if (mood === 'calm') sw.play([['idle', 700], ['blink', 140], ['idle', 260], ['blink', 140]]);
+  else if (mood === 'alert') { setTimeout(function () { swoop.classList.add('ruffle'); sw.play([['alert', 10]]); }, 500); }
   else {
     // One swoop across the top of the page, then he lands on his perch, alert
     swoop.classList.add('incoming');
@@ -66,22 +25,17 @@ function arrive(mood) {
     for (var i = 0; i < 10; i++) flaps.push([i % 2 ? 'idle' : 'fly', 120]);
     void swoop.offsetWidth;   // apply the start position before the transition
     setTimeout(function () { swoop.classList.add('landing'); swoop.classList.remove('incoming'); }, 20);
-    play(flaps.concat([['alert', 10]]), function () { swoop.classList.remove('landing'); swoop.classList.add('ruffle'); });
+    sw.play(flaps.concat([['alert', 10]]), function () { swoop.classList.remove('landing'); swoop.classList.add('ruffle'); });
   }
 }
 
 function initSwoop(mood) {
-  swoop = document.getElementById('swoop');
-  pose('idle');
+  sw = Swoop(document.getElementById('swoop'));
   arrive(mood);
   // He responds to you, and only to you
-  function react() {
-    if (busy || REDUCED) return;
-    swoop.classList.remove('hop', 'ruffle'); void swoop.offsetWidth; swoop.classList.add('hop');
-    play([['blink', 140], [rest, 10]]);
-  }
-  swoop.addEventListener('mouseenter', react);
-  swoop.addEventListener('click', react);
+  function react() { sw.react('hop'); }
+  sw.el.addEventListener('mouseenter', react);
+  sw.el.addEventListener('click', react);
 }
 
 // ── STORIES ────────────────────────────────────────────────
