@@ -5,6 +5,22 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Resources split: help and breach pages
+
+### Help leads with the bank, not with reporting
+**Decision:** I've been scammed opens with "call your bank now" and the hotline in lemon, before the steps. Reporting is step 4.
+**Why:** Money can sometimes be stopped if the bank hears fast; reporting helps others but rarely gets money back. A stressed reader needs the time-critical action first.
+
+### A shared guide style
+**Decision:** Both pages use `guide.css`: one column, the urgent thing in lemon, numbered steps, tap-to-call buttons at least 44px tall. Essential Eight will use it too.
+**Why:** The steps are a real sequence, so numbers carry meaning; and one style for every plain-English guide keeps them consistent.
+
+### Lifeline and 000 are on the help page
+**Decision:** The contact list includes Lifeline (13 11 14) and 000.
+**Why:** Scams cause real distress, and some involve threats. The page is for someone at a bad moment.
+
+---
+
 ## Session: 2026-11-23 — This year page
 
 ### One column through the report

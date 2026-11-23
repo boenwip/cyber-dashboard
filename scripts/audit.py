@@ -20,7 +20,7 @@ from html.parser import HTMLParser
 from urllib.parse import urlparse
 
 ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-PAGES = ["index.html", "play.html", "exploited.html", "stories.html", "year.html", "dashboard.html", "reference.html", "resources.html", "ai-guide.html", "sources.html"]
+PAGES = ["index.html", "play.html", "exploited.html", "stories.html", "year.html", "help.html", "breach.html", "dashboard.html", "reference.html", "resources.html", "ai-guide.html", "sources.html"]
 ISO = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z$")
 
 failures = []
