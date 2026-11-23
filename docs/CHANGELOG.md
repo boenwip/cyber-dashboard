@@ -4,6 +4,17 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — This year page
+
+**Added**
+- This year has its own page (`year.html`): ASD's Annual Cyber Threat Report in one readable column. It opens with the running estimate of cybercrime reports since 1 July, in lemon, with how it's worked out. Then the headline figures, the most reported crimes, all three breakdowns as bar charts (techniques, states, sectors), what the report says about AI, and a link to the full report
+- All three breakdowns are shown in full. The old dashboard showed the first three rows of two of them
+
+**Changed**
+- This year in the menu, the tab bar and the home page's report count now go to the new page. Old `#year` links redirect there
+
+---
+
 ## November 2026 — All stories page
 
 **Added**

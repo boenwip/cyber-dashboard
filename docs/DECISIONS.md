@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — This year page
+
+### One column through the report
+**Decision:** The page reads top to bottom: estimate, headline figures, most reported crimes, breakdowns, AI, link to the report. Only the estimate is coloured; the rest is quiet surface cards and bars.
+**Why:** The owner asked for less busy pages. The report is one story, so it reads as one column, at a width that keeps lines under about 70 characters.
+
+### The estimate updates, but quietly
+**Decision:** The count is recalculated every 6 seconds with no animation and no screen-reader announcement.
+**Why:** It's a projection, and the number changing is the point. Motion or announcements every few seconds would distract.
+
+---
+
 ## Session: 2026-11-23 — Site map, and the All stories page
 
 ### A new site map, before new colours

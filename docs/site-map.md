@@ -14,7 +14,7 @@ Phone tab bar: **Today, Play, Stay safe, Learn, Help**. "More" goes away.
 | Today | Today | `index.html` | Today's top 5 stories, the ACSC alert when there is one | (now) | Done |
 | Today | All stories | `stories.html` | Every story, newest first, filter by topic | Dashboard News tab | Done |
 | Today | Exploited | `exploited.html` | Flaws attackers are using right now | Dashboard Exploited tab | Done |
-| Today | This year | `year.html` | ASD's yearly figures: the running estimate, headline numbers, breakdown, AI findings | Dashboard This year tab | To do |
+| Today | This year | `year.html` | ASD's yearly figures: the running estimate, headline numbers, breakdown, AI findings | Dashboard This year tab | Done |
 | Play | Spot the scam | `play.html` | Today's puzzle | Dashboard Scams tab | Done |
 | Stay safe | Stay safe | `safe.html` | Four doors, nothing else | New | To do |
 | Stay safe | I've been scammed | `help.html` | What to do first, and who to call | Resources: Report a scam | To do |
