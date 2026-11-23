@@ -4,6 +4,15 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Lean cleanups
+
+**Changed**
+- One list of blocked headline words instead of two overlapping ones. Same headlines are dropped as before
+- One date parser for the site's ISO dates, shared by the fetch and grouping scripts
+- Removed an empty comment header, a repeated import, and a comment that still described the old Google News check
+
+---
+
 ## November 2026 — Quick fixes from the review
 
 **Fixed**
