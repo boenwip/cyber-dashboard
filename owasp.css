@@ -1,0 +1,16 @@
+/* owasp.css — pseudosec. OWASP Top 10s: three lists of ten risks, each risk a short heading
+   with its code, then a plain-English paragraph. Requires shared.css and guide.css. */
+
+.lede { max-width: 70ch; }
+.src { margin-top: 8px; font-size: 15px; }
+.src a { color: var(--text); text-underline-offset: 3px; }
+
+.jumps { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+.jumps a { display: inline-flex; align-items: center; min-height: 44px; padding: 0 18px; border-radius: 99px; background: var(--surface); color: var(--text); font-weight: 600; text-decoration: none; }
+.jumps a:hover { background: var(--pop); color: #1a1a1a; }
+.part[id] { scroll-margin-top: calc(var(--hdr) + 16px); }
+
+.owasp { display: grid; gap: 22px; margin-top: 20px; padding: 0; list-style: none; }
+.owasp h3 { margin-bottom: 6px; font-size: clamp(19px, 1.4vw, 22px); font-weight: 700; line-height: 1.25; letter-spacing: -.015em; }
+.owasp .code { display: inline-block; min-width: 3.6em; margin-right: 6px; color: var(--text-2); font-variant-numeric: tabular-nums; }
+.owasp p { max-width: 70ch; }

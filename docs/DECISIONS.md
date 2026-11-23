@@ -5,6 +5,16 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Reference split
+
+### Three pages, no tabs
+**Decision:** Essential Eight, Glossary and OWASP each get a page. The three OWASP lists share one page, stacked, with jump links.
+**Why:** One job per page. The OWASP lists are read by the same (more technical) reader and are short enough to scroll; tabs hid two-thirds of the page from search and from people who didn't notice them.
+
+### Reference stays as a signpost for now
+**Decision:** `reference.html` becomes a list of the three pages and redirects old `#tab` links, rather than a bare redirect.
+**Why:** The menu still says "Reference" until the new menu lands in step 6; a bare redirect would send that menu item to only one of the three.
+
 ## Session: 2026-11-24 — Resources split: help and breach pages
 
 ### Help leads with the bank, not with reporting

@@ -19,6 +19,9 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | **This year** (`year.html`) | ASD's annual report in plain numbers: an estimate of reports since 1 July, the headline figures, breakdowns and what it says about AI. |
 | **I've been scammed** (`help.html`) | What to do first, in order, and who to call. |
 | **Check a breach** (`breach.html`) | The Have I Been Pwned check and what to do if your email is in a breach. |
+| **Essential Eight** (`essential-eight.html`) | ASD's eight baseline controls, in plain English, and what each one stops. |
+| **Glossary** (`glossary.html`) | Cyber security words, searchable A to Z. |
+| **OWASP Top 10s** (`owasp.html`) | The top risks for websites, APIs and AI apps. |
 | **Exploited** (`exploited.html`) | The newest flaws attackers are using, from CISA's Known Exploited Vulnerabilities list, grouped by the day they were added, with a summary of what to do. |
 | **Play** (`play.html`) | Spot the scam: one message a day. Tap the parts that look suspicious, decide if it's a scam, and see which giveaways you found. Streak and rank are kept in your browser. |
 | **Dashboard** (`dashboard.html`, being split into pages) | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
@@ -27,7 +30,7 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
 | **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
 
-`definitions.html` is a redirect stub to `reference.html#glossary` — kept for old links, not a real page.
+`reference.html` lists the three pages above and redirects its old `#tab` links. `definitions.html` is a redirect stub to `glossary.html` — kept for old links, not a real page.
 
 ---
 
@@ -62,16 +65,21 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 ```
 pseudosec/
 ├── index.html              # Dashboard
-├── reference.html          # OWASP Top 10s, Essential Eight, glossary (tabbed)
+├── reference.html          # Signpost to the three pages below; redirects old #tab links
+├── essential-eight.html    # ASD's Essential Eight
+├── glossary.html           # Searchable glossary
+├── owasp.html              # OWASP web, API and LLM Top 10s
 ├── resources.html          # Breach checker + links
 ├── ai-guide.html           # Prompt library + AI safety
 ├── sources.html            # Sources & methodology
-├── definitions.html        # Redirect stub -> reference.html#glossary
+├── definitions.html        # Redirect stub -> glossary.html
 ├── shared.css/js           # Design system, theme, nav, esc()/safeUrl(), Sydney-time dates, daily rotations
 ├── dashboard.css/js        # Home page: stage, topic switch, Swoop, reader
-├── reference.css           # Reference page styles
-├── definitions.css/js      # Glossary data + render (reused by reference.html)
-├── definitions-page.js     # Reference page's tab/glossary controller
+├── owasp.css               # OWASP page styles
+├── guide.css               # Plain-English guide pages (help, breach, Essential Eight)
+├── reference.js            # Redirects old Reference #tab links
+├── definitions.css/js      # Glossary data + render (glossary.html)
+├── definitions-page.js     # Glossary search, filter and A-Z
 ├── resources.css           # Resources page
 ├── ai-guide.css/js         # Prompt library
 ├── sources.css             # Sources page styles
