@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-23 — Quick fixes
+
+### "AU Cyber" tag renamed "Cyber"
+**Decision:** The general cyber tag and its filter are now called "Cyber".
+**Why:** The tag fired on any cyber story, so a Florida fraud indictment was labelled AU Cyber. Requiring an Australian signal instead would have dropped most international stories from the feed altogether, because an article with no tag isn't kept.
+
+### Reference corrections flagged by the integrity agent
+**Decision:** OWASP A01 and A02 now quote OWASP's 2025 data (every application tested had some form of the weakness), and the glossary says Zero Trust is a 2030 target for federal agencies, not a mandate in force.
+**Why:** Flagged in 16 consecutive integrity reports. The old 94% and 90% figures were 2021-era numbers.
+
+---
+
 ## Session: 2026-11-23 — CI hardening
 
 ### Workflows install a hash-locked requirements.txt
@@ -36,7 +48,7 @@ Format: decision → why. Newest first within each session.
 **Why:** The old check looked for an approved domain's first word among the headline's last three words. That rejected "- The Guardian", "- The Register" and, once Google relabelled ACSC as "cyber.gov", every ACSC fallback alert, while approving any headline ending in "abc" or "wired". The integrity agent read the empty feeds as dead or blocked for 29 snapshots.
 
 ### Trusted feeds skip the keyword filter
-**Decision:** A feed marked `"trusted": True` keeps posts that match no tag keyword and tags them AU Cyber. Only Troy Hunt is marked.
+**Decision:** A feed marked `"trusted": True` keeps posts that match no tag keyword and tags them Cyber. Only Troy Hunt is marked.
 **Why:** Every Troy Hunt post is security news, but "Weekly Update 531: Optimizely" carries no keyword, so 7 of 8 posts were dropped.
 
 ### Google News searches — `when:30d`, not the year

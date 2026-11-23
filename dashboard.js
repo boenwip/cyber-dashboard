@@ -181,7 +181,7 @@ function renderNews() {
     var i = list.findIndex(function (s) { return s.link === D.featured.link; });
     if (i > 0) list.unshift(list.splice(i, 1)[0]);
   }
-  setText('d-news', week.length + ' stories this week');
+  setText('d-news', week.length + (week.length === 1 ? ' story' : ' stories') + ' this week');
   var lead = list[0], a = document.getElementById('news-lead');
   if (!lead) { setText('news-lead-title', 'No stories this week.'); return; }
   var href = safeUrl(lead.link);
@@ -190,7 +190,7 @@ function renderNews() {
   setText('news-lead-summary', hasSummary(lead) ? lead.summary : '');
   document.getElementById('news-pair').innerHTML = list.slice(1, 4).map(function (s) {
     var h = safeUrl(s.link);
-    return h ? '<a href="' + h + '" target="_blank" rel="noopener noreferrer">' + esc(headline(s.title, s.source)) + '<small>' + esc(sourceName(s.source)) + ', ' + esc(formatDate(s.date)) + '</small></a>' : '';
+    return h ? '<a href="' + h + '" target="_blank" rel="noopener noreferrer">' + esc(headline(s.title, s.source)) + '<small>' + esc(sourceName(s.source)) + ', ' + esc(formatDate(s.latest || s.date)) + '</small></a>' : '';
   }).join('');
   document.getElementById('latest').innerHTML = list.slice(0, 8).map(storyRow).join('');
 }
@@ -420,7 +420,7 @@ function buildTopics() {
           '<p class="aside">If your organisation runs this product, apply the vendor\'s fix now. The fix-by date is the deadline CISA sets for US federal agencies; it\'s a good guide to urgency anywhere.</p>';
       } };
     }), empty: 'CVE data is unavailable right now.' },
-    news: { label: 'all stories', jump: 'All stories', filters: ['All', ALERTS, 'AU Cyber', 'AI & Tools', 'Scams', 'Compliance', TOOLS], items: D.news.map(storyItem).concat(toolItems()), empty: 'No stories match.' },
+    news: { label: 'all stories', jump: 'All stories', filters: ['All', ALERTS, 'Cyber', 'AI & Tools', 'Scams', 'Compliance', TOOLS], items: D.news.map(storyItem).concat(toolItems()), empty: 'No stories match.' },
     scams: { label: 'scam stories', jump: 'Scam stories', items: scamStories().map(storyItem), empty: 'No scam stories this week.' },
     year: { label: 'report figures', jump: 'All report figures', items: r ? [
       { k: fy.label + ' · projection', t: 'Estimated cybercrime reports so far', view: function () {
@@ -730,6 +730,7 @@ document.addEventListener('DOMContentLoaded', function () {
       var step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
       if (!step) return;
       e.preventDefault();
+      if (wiping) return;   // flood() ignores clicks mid-change; moving focus now would desync it
       var next = tabs[(n + step + tabs.length) % tabs.length];
       next.focus();
       flood(next.dataset.t, next);
@@ -744,7 +745,12 @@ document.addEventListener('DOMContentLoaded', function () {
 
   list.addEventListener('click', function (e) {
     var f = e.target.closest('[data-filter]');
-    if (f) { state.filter = f.dataset.filter; state.idx = 0; renderList(); renderPane(); return; }
+    if (f) {
+      state.filter = f.dataset.filter; state.idx = 0; renderList(); renderPane();
+      var again = list.querySelector('[data-filter="' + CSS.escape(state.filter) + '"]');
+      if (again) again.focus();
+      return;
+    }
     var b = e.target.closest('[data-idx]');
     if (!b) return;
     state.idx = +b.dataset.idx;
@@ -757,12 +763,12 @@ document.addEventListener('DOMContentLoaded', function () {
       if (back) back.focus();
     }
   });
-  pane.addEventListener('click', function (e) {
-    if (!e.target.closest('#pane-back')) return;
+  function closeItem() {
     reader.classList.remove('show-item');
     var cur = list.querySelector('[aria-current="true"]');
     if (cur) { cur.focus(); cur.scrollIntoView({ block: 'center' }); }
-  });
+  }
+  pane.addEventListener('click', function (e) { if (e.target.closest('#pane-back')) closeItem(); });
   list.addEventListener('keydown', function (e) {
     if (e.key !== 'ArrowDown' && e.key !== 'ArrowUp') return;
     var items = Array.prototype.slice.call(list.querySelectorAll('.item'));
@@ -773,6 +779,6 @@ document.addEventListener('DOMContentLoaded', function () {
     next.focus(); next.click();
   });
   document.addEventListener('keydown', function (e) {
-    if (e.key === 'Escape') reader.classList.remove('show-item');
+    if (e.key === 'Escape' && reader.classList.contains('show-item')) closeItem();
   });
 });

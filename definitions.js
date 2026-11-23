@@ -308,7 +308,7 @@ var DEFINITIONS = [
   {
     term: "Zero Trust",
     short: "A security model that trusts no one by default — every access request must be verified.",
-    full: "Zero Trust is a security framework built on the principle of 'never trust, always verify'. Rather than assuming anything inside the network is safe, Zero Trust requires continuous verification of every user, device, and connection — regardless of location. It's particularly relevant as more work happens remotely and in the cloud. The Australian government has mandated Zero Trust architecture for federal agencies.",
+    full: "Zero Trust is a security framework built on the principle of 'never trust, always verify'. Rather than assuming anything inside the network is safe, Zero Trust requires continuous verification of every user, device, and connection — regardless of location. It's particularly relevant as more work happens remotely and in the cloud. The Australian Government has set federal agencies a target of moving to Zero Trust by 2030; it is a direction, not a mandate in force today.",
     example: "Even after a staff member logs in from the office, every time they access a sensitive system, they must re-authenticate and their device's security posture is checked.",
     level: "intermediate"
   },

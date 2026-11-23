@@ -10,7 +10,7 @@ import stories as st  # noqa: E402
 
 def art(title, source="Outlet", date="2026-09-24T01:00:00Z", summary="", link=None, **kw):
     return dict(title=title, source=source, date=date, summary=summary,
-                link=link or "https://example.com/" + str(abs(hash(title))), tags=kw.pop("tags", ["AU Cyber"]), **kw)
+                link=link or "https://example.com/" + str(abs(hash(title))), tags=kw.pop("tags", ["Cyber"]), **kw)
 
 
 MEDICARE = [
