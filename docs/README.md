@@ -27,8 +27,8 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 | **Stay safe** (`safe.html`) | Four doors: I've been scammed, Check a breach, Essential Eight, Using AI safely. |
 | **Learn** (`learn.html`) | Three doors (Glossary, OWASP, Practise), the word of the day and the tip of the day. |
 | **Practise** (`practise.html`) | Courses, free tools, safe places to practise, and Australian organisations, filtered by who it's for. |
-| **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
-| **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
+| **Using AI safely** (`ai-guide.html`) | What not to share with AI tools, how to write your own prompt, and 47 prompts that work in any AI chat tool |
+| **Sources and methods** (`sources.html`) | Where the data comes from, how stories are grouped and labelled, and what the site can't do (footer link) |
 
 `dashboard.html`, `reference.html` and `resources.html` are retired: `redirect.js` sends them, and their old `#sections`, to the page that took over. `definitions.html` is a redirect stub to `glossary.html`.
 

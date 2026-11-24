@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — AI Guide and Sources restyle
+
+### Prompts fold away
+**Decision:** a prompt card shows the title and Copy; the prompt text opens on request.
+**Why:** 47 long prompts made the library a wall of monospace. Copying doesn't need the text open, and the title is enough to choose.
+
+### Both pages use the guide layout
+**Decision:** the same masthead, reading column, cards and rail as the other Stay safe pages, built from This year's shell.
+**Why:** they were the last pages with the old full-width topic colours, and keeping one layout means one set of styles to maintain.
+
+---
+
 ## Session: 2026-11-24 — Colours
 
 ### Lemon and milk chocolate

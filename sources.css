@@ -1,30 +1,15 @@
-/**
- * sources.css — pseudosec. Sources & Methodology
- */
+/* sources.css — pseudosec. Sources and methods. Requires shared.css and guide.css. */
 
-.src-section { margin-bottom: clamp(36px, 4vw, 64px); scroll-margin-top: calc(var(--hdr) + 16px); }
-.src-section-title { margin-bottom: 12px; font-size: clamp(22px, 1.7vw, 30px); line-height: 1.15; letter-spacing: -.02em; color: var(--text); }
-.src-section-sub { max-width: 74ch; margin-bottom: 16px; font-size: 16px; line-height: 1.6; color: var(--text-2); }
+.col .part > p + p { margin-top: 10px; }
+.note { padding: 16px 20px; border-radius: 18px; background: var(--main); color: var(--on-main); font-size: 16px; }
 
-/* Disclaimer */
-.src-disclaimer { display: flex; align-items: baseline; gap: 12px; max-width: 74ch; margin-bottom: clamp(32px, 3.5vw, 52px); padding: 14px 16px; background: var(--flood); color: var(--on); }
-.src-disclaimer-text { font-size: 15px; line-height: 1.55; }
+/* Each source: what it is, then how often and how it's fetched */
+.srcs { display: grid; gap: 10px; margin-top: 16px; list-style: none; }
+.srcs li { display: grid; gap: 4px; padding: 16px 20px; border-radius: 18px; background: var(--surface); }
+.srcs b { font-size: clamp(18px, 1.3vw, 21px); font-weight: 700; line-height: 1.25; }
+.srcs span { font-size: 15px; color: var(--text-2); }
+.srcs em { justify-self: start; margin-top: 4px; padding: 2px 10px; border-radius: 99px; background: var(--surface3); font-size: 13px; font-style: normal; font-weight: 600; color: var(--text-2); }
 
-/* Source list */
-.src-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 8px var(--gap); align-items: baseline; padding: 14px 0 16px; border-top: 1px solid var(--border2); }
-.src-item-body { min-width: 0; }
-.src-item-name { margin-bottom: 4px; font-size: clamp(17px, 1.3vw, 21px); font-weight: 500; line-height: 1.2; letter-spacing: -.012em; color: var(--text); }
-.src-item-desc { max-width: 74ch; font-size: 15px; line-height: 1.55; color: var(--text-2); }
-.src-item-meta { flex-shrink: 0; text-align: right; }
-.src-item-freq { display: block; font: 500 13px var(--mono); white-space: nowrap; color: var(--text); }
-.src-item-type { display: block; margin-top: 3px; font: 500 13px var(--mono); color: var(--text-3); }
-
-/* Limits */
-.src-limit { display: flex; align-items: baseline; gap: 14px; max-width: 80ch; padding: 11px 0 12px; border-top: 1px solid var(--border2); font-size: 15px; line-height: 1.55; color: var(--text-2); }
-.src-limit-icon, .src-disclaimer-icon { flex: none; font: 500 14px var(--mono); }
-.src-limit-icon { color: var(--text-3); }
-
-@media (max-width: 680px) {
-  .src-item { grid-template-columns: minmax(0, 1fr); }
-  .src-item-meta { text-align: left; }
-}
+.limits { display: grid; gap: 12px; margin-top: 14px; padding-left: 1.2em; }
+.limits li { padding-left: 4px; }
+.limits li::marker { color: var(--text-3); }

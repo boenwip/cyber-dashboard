@@ -4,6 +4,20 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Using AI safely and Sources, restyled
+
+**Changed**
+- The AI Guide is now "Using AI safely", matching its door on Stay safe. What not to share comes first in lemon, then the five rules as cards, then writing your own prompt as numbered steps
+- The prompt library runs the full width. Each card shows its title and a Copy button; the prompt itself folds open with "Show the prompt", so the library is no longer a wall of text. Situations and the audience switch are round buttons, like Practise's
+- Sources & Methodology is now "Sources and methods": a lemon note, each source as a card, and an "On this page" rail on wide screens
+- Sources no longer mentions the retired dashboard and its panels. It says where each thing lives now (Today, Exploited, This year, All stories), and the grouping model and budget match the code (Claude Sonnet, US$4 a month)
+- `sources.html#tracker-methodology` is now `sources.html#estimate`; This year's link follows it
+
+**Removed**
+- The last full-width colour headers (`.page-hero`, `.page-wrap`), now that no page uses them
+
+---
+
 ## November 2026 — Lemon and milk chocolate
 
 **Changed**
