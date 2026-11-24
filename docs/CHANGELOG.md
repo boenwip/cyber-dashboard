@@ -4,6 +4,18 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Lemon and milk chocolate
+
+**Changed**
+- The chocolate is lighter and milkier: `#4a2f25` becomes `#5c3a2c`. The lemon stays `#ffe14d`
+- The page is a touch warmer, and dark mode is a cocoa brown instead of grey
+- Picked from seven options in a colour playground that shows the real pages, desktop and phone, light and dark
+
+**Removed**
+- The orange block after each page title. It read as a stray mark rather than the logo's cursor
+
+---
+
 ## November 2026 — Stay safe and Learn hubs, the new menu
 
 **Added**
