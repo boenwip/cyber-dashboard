@@ -45,5 +45,5 @@ Phone tab bar: **Today, Play, Stay safe, Learn, Help**. "More" goes away.
 4. Essential Eight, Glossary and OWASP (Reference split)
 5. Practise
 6. Stay safe and Learn hubs, the new menu and tab bar, redirects for retired pages
-7. Colours, picked in a live playground, applied site-wide
+7. Colours, picked in a live playground, applied site-wide (done: lemon and milk chocolate)
 8. Restyle AI Guide and Sources

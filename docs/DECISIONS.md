@@ -5,6 +5,18 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — Colours
+
+### Lemon and milk chocolate
+**Decision:** keep the lemon (`#ffe14d`), soften the chocolate to `#5c3a2c`, warm the page, and make dark mode cocoa rather than grey.
+**Why:** the owner tried seven palettes on the real pages and wanted to stay with lemon and chocolate. Navy, terminal green, sky, forest and teal were rejected; banana was close but the owner preferred lemon. Text on the chocolate stays above 9:1.
+
+### No orange block after page titles
+**Decision:** the masthead `h1::after` cursor is gone. The orange stays on the Get help button, links and the active menu item.
+**Why:** next to a big heading it looked like a stray line, not part of the design.
+
+---
+
 ## Session: 2026-11-24 — Hubs, menu and redirects
 
 ### Pages inside a group light up their group
