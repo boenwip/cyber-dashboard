@@ -144,7 +144,7 @@ button { font: inherit; color: inherit; }
   height: var(--hdr); padding: 0 var(--gutter);
   background: var(--bg); color: var(--text); border-bottom: 1.5px solid var(--rule);
 }
-.site-header :focus-visible, .page-hero :focus-visible { outline-color: currentColor; border-radius: 0; }
+.site-header :focus-visible { outline-color: currentColor; border-radius: 0; }
 .hdr-left { margin-left: auto; display: flex; align-items: center; gap: 8px; min-width: 0; }
 .site-logo { display: flex; align-items: center; line-height: 0; text-decoration: none; }
 .site-logo svg { height: clamp(24px, 2.3vw, 32px); width: auto; }
@@ -177,13 +177,12 @@ button { font: inherit; color: inherit; }
 .prompt i { display: inline-block; width: .62em; height: 1.08em; background: currentColor; }
 
 /* Choices: page tabs and filters */
-.ag-cat-btn, .def-lvl-btn {
+.def-lvl-btn {
   appearance: none; padding: 6px 14px; background: none; border: 1px solid var(--border2);
   font-size: 14px; font-weight: 500; white-space: nowrap; color: var(--text-2); cursor: pointer;
 }
-.ag-cat-btn:hover, .def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
-.ag-cat-btn--active, .def-lvl-btn--active,
-.ag-cat-btn--active:hover, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
+.def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
+.def-lvl-btn--active, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
 
 /* ── CHIPS (severity and labels) ── */
 .chip {
@@ -198,16 +197,6 @@ button { font: inherit; color: inherit; }
 .chip--high { background: var(--high-bg); color: var(--high); }
 .chip--adv  { background: var(--adv-bg);  color: var(--adv); }
 
-/* ── PAGE (inner pages) ── */
-.page-hero {
-  display: grid; gap: 12px;
-  padding: 16px var(--gutter) clamp(30px, 3.5vw, 56px);
-  background: var(--flood); color: var(--on);
-  border-top: 1px solid currentColor;
-}
-.page-hero-title { margin-top: clamp(14px, 2vw, 30px); font-size: clamp(40px, 6vw, 104px); line-height: 1.02; letter-spacing: -.03em; }
-.page-hero-sub { max-width: 44em; font-size: clamp(16px, 1.4vw, 21px); line-height: 1.35; }
-.page-wrap { padding: clamp(28px, 3vw, 48px) var(--gutter) 64px; }
 [id] { scroll-margin-top: calc(var(--hdr) + 16px); }
 
 /* ── FOOTER ── */
