@@ -1,57 +1,108 @@
 {
-  "last_updated": "2026-11-24T05:18:09Z",
-  "count": 90,
+  "last_updated": "2026-11-24T09:41:58Z",
+  "count": 94,
   "items": [
     {
       "source": "Security Brief Australia",
-      "title": "How CISOs Can Use AI Effectively in Cybersecurity",
-      "link": "https://securitybrief.com.au/story/how-cisos-can-use-ai-effectively-in-cybersecurity",
-      "summary": "AI can help security teams spot leaks and speed investigations, but CISOs must avoid public models, says SearchInform's Sergio Bertoni.",
-      "date": "2026-11-24T04:18:00Z",
+      "title": "From passive to active: Why backup is becoming a foundation for trusted AI",
+      "link": "https://securitybrief.com.au/story/from-passive-to-active-why-backup-is-becoming-a-foundation-for-trusted-ai",
+      "summary": "AI adoption is pushing data protection into the boardroom, as firms need backup that can prove provenance and integrity before systems use it.",
+      "date": "2026-11-24T08:30:00Z",
       "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "NSW sets up first joint cyber police command centre",
-      "link": "https://securitybrief.com.au/story/nsw-sets-up-first-joint-cyber-police-command-centre",
-      "summary": "The move is expected to speed up intelligence sharing and response to phishing-led attacks on public sector systems and critical services.",
-      "date": "2026-11-24T04:10:00Z",
-      "tags": [
-        "Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Datadog named challenger in Gartner's 2026 SIEM report",
-      "link": "https://securitybrief.com.au/story/datadog-named-challenger-in-gartner-s-2026-siem-report",
-      "summary": "It marks Datadog's growing security push as AI-driven attacks and rising alert volumes force teams to unify monitoring and incident response.",
-      "date": "2026-11-24T03:29:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "DigiCert launches DNS tool to spot configuration risks",
-      "link": "https://securitybrief.com.au/story/digicert-launches-dns-tool-to-spot-configuration-risks",
-      "summary": "The software aims to cut outages and phishing risk by flagging stale records and other DNS mistakes before they disrupt services.",
-      "date": "2026-11-24T02:51:00Z",
-      "tags": [
-        "Cyber",
-        "Scams"
-      ]
-    },
-    {
-      "source": "Security Brief Australia",
-      "title": "Why security automation is critical to closing Australia's cyber skills gap",
-      "link": "https://securitybrief.com.au/story/why-security-automation-is-critical-to-closing-australia-s-cyber-skills-gap",
-      "summary": "Automation is becoming essential for overstretched Australian cyber teams as threats grow, compliance demands tighten and staffing gaps widen.",
-      "date": "2026-11-24T01:38:00Z",
-      "tags": [
+        "AI & Tools",
         "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Shadow AI exposes the security challenge of inadequate SaaS visibility",
+      "link": "https://securitybrief.com.au/story/shadow-ai-exposes-the-security-challenge-of-inadequate-saas-visibility",
+      "summary": "Shadow AI is exposing a deeper problem, as fewer than 40% of organisations say they have an accurate software inventory.",
+      "date": "2026-11-24T08:30:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cold hacks, affairs and crypto meltdowns: how to handle a crisis fallout when it hits the fan",
+      "link": "https://securitybrief.com.au/story/cold-hacks-affairs-and-crypto-meltdowns-how-to-handle-a-crisis-fallout-when-it-hits-the-fan",
+      "summary": "Prepared crisis plans, fast action and audience-specific messaging helped one crypto exchange limit losses and kept another firm from flailing publicly.",
+      "date": "2026-11-24T08:25:00Z",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Malware now moves faster than the industry that names it",
+      "link": "https://securitybrief.com.au/story/malware-now-moves-faster-than-the-industry-that-names-it",
+      "summary": "Banks are losing money in the gap before malware is named, as AI-driven attacks now appear in hours and evade signature-based defences.",
+      "date": "2026-11-24T08:25:00Z",
+      "tags": [
+        "Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Regulators have turned GDPR accountability into a test for AI agents",
+      "link": "https://securitybrief.com.au/story/regulators-have-turned-gdpr-accountability-into-a-test-for-ai-agents",
+      "summary": "A new privacy resolution will force firms to prove which AI agents handled personal data, raising the bar for GDPR accountability and audits.",
+      "date": "2026-11-24T08:15:00Z",
+      "tags": [
+        "AI & Tools",
+        "Compliance"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Cohesity joins OpenAI network to test software weaknesses",
+      "link": "https://securitybrief.com.au/story/cohesity-joins-openai-network-to-test-software-weaknesses",
+      "summary": "The data security company will use OpenAI's cyber models to spot flaws earlier in development, starting with identity threat detection software.",
+      "date": "2026-11-24T08:15:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "The 'soft edge', visibility, exploitation, and geopolitics: The cybersecurity trends in 2027",
+      "link": "https://securitybrief.com.au/story/the-soft-edge-visibility-exploitation-and-geopolitics-the-cybersecurity-trends-in-2027",
+      "summary": "British energy and grid operators face faster, AI-boosted attacks as weak visibility leaves renewables and storage exposed to state-backed disruption.",
+      "date": "2026-11-24T08:10:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "Your VPN Is a Standing Admin Account for Your Network",
+      "link": "https://securitybrief.com.au/story/your-vpn-is-a-standing-admin-account-for-your-network",
+      "summary": "Remote access tools that still trust one login all day are leaving small firms exposed to breaches and insurance headaches.",
+      "date": "2026-11-24T08:04:00Z",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "source": "Security Brief Australia",
+      "title": "AI Agents are Entering the Enterprise Faster Than Security Teams Can Govern Them",
+      "link": "https://securitybrief.com.au/story/ai-agents-are-entering-the-enterprise-faster-than-security-teams-can-govern-them",
+      "summary": "Security teams are losing sight of autonomous tools that can reach sensitive data and automate tasks unless firms map them, monitor them and set access rules.",
+      "date": "2026-11-24T08:00:00Z",
+      "tags": [
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Google News — Privacy & Compliance AU",
+      "title": "Strong Wind Warning for coastal waters between Port Hacking and Ulladulla for 24 November - ABC News & Headlines – Australian Broadcasting Corporation",
+      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPci04RC1TR1RfZ2owOWVyYWIxVnVqWHRPRjh2OHNrcW9kMGx4enJ3RW5mcWpUdVpZcXE5V1ppd1ZiLXI1WnkxRHh4ak0zWkVzYkhrV0pYNXFOVVhGRW0zLTJMUnpKYnFuazJ3cjl6WHViQmthbHN4SmVLdnRpcXpjalFDT2pSY3dQ?oc=5",
+      "summary": "Strong Wind Warning for coastal waters between Port Hacking and Ulladulla for 24 November ABC News & Headlines – Australian Broadcasting Corporation",
+      "date": "2026-11-24T05:47:00Z",
+      "tags": [
+        "Cyber"
       ]
     },
     {
@@ -111,6 +162,17 @@
       "link": "https://www.404media.co/im-not-going-to-remove-the-repository/",
       "summary": "ARTEX, an AI hacking framework causing havoc, is free, and Jensen Huang is back.",
       "date": "2026-11-23T15:35:22Z",
+      "tags": [
+        "Cyber",
+        "AI & Tools"
+      ]
+    },
+    {
+      "source": "Google News — Guardian AU Cyber",
+      "title": "Hacks, AI and conspiracy theories: why are we having so many outages? | Technology - The Guardian",
+      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSnpqZEFCdFN6ajFQM0JERXJuOE12Yk5TZ29QTlRLdWVnNzRRRE9ZQmlWWXh5dE1fcGhKS2J4VWhSTlBjRUVweTJrVkI0SWZCeGltUFF6UzN5bDJOWlkzb1B5eUhrSnJEUUxaNXdwTDZvUGZLNm8zbnNLSDAtb3FFNGkzNjRPTVF6VXlSMlB2eFJqeWszRFNuSGJFSUVrMjlEQ0gwdW5wX1lQMHM?oc=5",
+      "summary": "Hacks, AI and conspiracy theories: why are we having so many outages? | Technology The Guardian",
+      "date": "2026-11-23T14:27:00Z",
       "tags": [
         "Cyber",
         "AI & Tools"
@@ -178,26 +240,6 @@
       ]
     },
     {
-      "source": "Google News — Privacy & Compliance AU",
-      "title": "Work from home breaches raise questions for employees and companies - ABC News & Headlines – Australian Broadcasting Corporation",
-      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxORlpwN3hDaFZvRERqWVpfQ3hrc1E4cXJjZzdyYkJFOEhIMTBycE82OWlPMkxIUFJKM3lOSUFrV0hfaENqbEQ0cDdvNE1MNGhRWVlMN0x0OUN0SjVfQ0k0d3QzdmFVOTNza3ZIX21yN29YbEZfazhyWUdpeFlvTjRITHIxNHU2TVdUU2gzZExzT00?oc=5",
-      "summary": "Work from home breaches raise questions for employees and companies ABC News & Headlines – Australian Broadcasting Corporation",
-      "date": "2026-11-22T18:44:39Z",
-      "tags": [
-        "Cyber"
-      ]
-    },
-    {
-      "source": "Google News — Guardian AU Cyber",
-      "title": "‘I don’t blame any woman for being sucked in’: how the wellness industry is cynically exploiting menopause - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbXBmMU9STnB6VzNUbHgzdXRTZHpYQTAwOTZBOTloNERRRlJRdmx3M1ljb05wWm42N2dseVBDVFZkOFI4WkRmVDBvQjNnbGFESXZEdFR4OUNPVi1PQ2h1bmhjSjFyWU1yV1AtdUtpc0tEN1drOUNJUW8tdnFiSFBfT1FvdDRYbHJJNEZfWVE5LWxoZENocXBySHh2Z2VoaDBKNHVvSg?oc=5",
-      "summary": "‘I don’t blame any woman for being sucked in’: how the wellness industry is cynically exploiting menopause The Guardian",
-      "date": "2026-11-22T12:00:00Z",
-      "tags": [
-        "Cyber"
-      ]
-    },
-    {
       "source": "Google News — Guardian AU Cyber",
       "title": "Unreal deals: the scam websites targeting Black Friday bargain hunters - The Guardian",
       "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMk5JNm1GTloxc2tVczBtWDdiR0N1VkRRUUFia1pnYWNXekc1MnQzYkloM01oMGdNeVVYWjV2a1JHZklvSFp6ajhfSHAtXzdtV2ZETFA4c0VVdEFic1JsTThMQTBEQkJnbFlTOHo1M2pxZ1FEcW5UbjdmcXVoMEx1cFludVByVTlVV1U3OEhMYlM2Tnc?oc=5",
@@ -205,17 +247,6 @@
       "date": "2026-11-22T07:02:00Z",
       "tags": [
         "Scams"
-      ]
-    },
-    {
-      "source": "Google News — Guardian AU Cyber",
-      "title": "Hacks, AI and conspiracy theories: why are we having so many outages? | Technology - The Guardian",
-      "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPSnpqZEFCdFN6ajFQM0JERXJuOE12Yk5TZ29QTlRLdWVnNzRRRE9ZQmlWWXh5dE1fcGhKS2J4VWhSTlBjRUVweTJrVkI0SWZCeGltUFF6UzN5bDJOWlkzb1B5eUhrSnJEUUxaNXdwTDZvUGZLNm8zbnNLSDAtb3FFNGkzNjRPTVF6VXlSMlB2eFJqeWszRFNuSGJFSUVrMjlEQ0gwdW5wX1lQMHM?oc=5",
-      "summary": "Hacks, AI and conspiracy theories: why are we having so many outages? | Technology The Guardian",
-      "date": "2026-11-22T06:00:00Z",
-      "tags": [
-        "Cyber",
-        "AI & Tools"
       ]
     },
     {
@@ -316,6 +347,16 @@
       "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQa2pKY2JLMTZXLUNETk5sUjJNcVBGTFF4RnRPMjJnZGVCeDVuS2QyQXdEU19RUFpxRUk0OFhhTHBuT2N1Q0dPTkM0TUFRQjJoMUFWVXEwSDNaSEFpN2xJYjl3V2ZSZWk3NEtsa09UWDRmWXVKMElDbDdzS3k3dzJoXzhoNE4tTlVBY19zWjM5NGFvZFZmdThlZ3FnVzdnLXBHSGZrNmhoRzVHV1pBSXpCcFVDX25BNktnQnJiMWFn?oc=5",
       "summary": "Microsoft suggests Registry hack to work around hotpatch woes The Register",
       "date": "2026-11-20T13:39:00Z",
+      "tags": [
+        "Cyber"
+      ]
+    },
+    {
+      "source": "Google News — The Register AU",
+      "title": "Spy court blasts UK secrecy, forces government to admit Apple ‘backdoor’ demand - The Register Forums",
+      "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9XdzhjeHZ3TlVTbW12Zkp6dEthMENUbDJpVHE2bkdOX2w0ZFR0MjdsQTAzY1J6YjhjV3ZwQ1NlVncySE04c3Q2M0VYaWZXS1JHTXFheXJ4R2F0S2p3V3FaMFl6X09MRGRMa3c?oc=5",
+      "summary": "Spy court blasts UK secrecy, forces government to admit Apple ‘backdoor’ demand The Register Forums",
+      "date": "2026-11-20T12:25:14Z",
       "tags": [
         "Cyber"
       ]
@@ -554,16 +595,6 @@
       ]
     },
     {
-      "source": "iTnews",
-      "title": "Microsoft unveils AI models for coding and cyber security",
-      "link": "https://www.itnews.com.au/news/microsoft-unveils-ai-models-for-coding-and-cyber-security-630419?utm_source=feed&utm_medium=rss&utm_campaign=iTnews+",
-      "summary": "To challenge rivals such as Anthropic and OpenAI.",
-      "date": "2026-11-17T21:11:00Z",
-      "tags": [
-        "AI & Tools"
-      ]
-    },
-    {
       "source": "Dark Reading",
       "title": "'TheMailer' Phishing Kit Puts AI in the Driver's Seat",
       "link": "https://www.darkreading.com/perimeter/themailer-phishing-kit-ai-drivers-seat",
@@ -595,6 +626,25 @@
       "tags": [
         "Cyber",
         "AI & Tools"
+      ],
+      "coverage": [
+        {
+          "source": "Google News — The Register AU",
+          "title": "California sues OpenAI for misleading public about AI safety - The Register Forums",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1BR2hVU2JDb2xvWm16MXVZRHRXWVVKN0Q0TTJXZEZXX05KNlZPeWVxeW9nSTV0OGxXejFEVmV1Q2YtMGlEalU2WHk2WVRpMmd6ZWg3UkVMZGdaOHJpUHpoalY2OE1PcGotZTZF?oc=5",
+          "date": "2026-11-16T23:46:15Z"
+        }
+      ],
+      "latest": "2026-11-17T18:06:00Z"
+    },
+    {
+      "source": "Google News — The Register AU",
+      "title": "'Not rocket surgery' claims researcher who found six Danfoss fridge controller zero-days in under an hour - The Register Forums",
+      "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxQ3lGNFowUWRMa0Y3V1dtN1dFZ0NNT2pUV0NvbjlrU3pTOWg2NENOcFcwOEpBaV9EQjd3MmVxVDI5eGtmc1lwcDdVSG83empWTldCWnhYLUZWYWN5TXpGaWY0NWJndXhlSktv?oc=5",
+      "summary": "'Not rocket surgery' claims researcher who found six Danfoss fridge controller zero-days in under an hour The Register Forums",
+      "date": "2026-11-17T14:01:17Z",
+      "tags": [
+        "Cyber"
       ]
     },
     {
