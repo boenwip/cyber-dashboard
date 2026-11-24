@@ -32,12 +32,36 @@
 .def-short { grid-column: 1; font-size: 15px; font-weight: 500; line-height: 1.45; color: var(--text-2); }
 .def-full { grid-column: 2; grid-row: 1 / span 2; max-width: 72ch; font-size: 15px; line-height: 1.6; color: var(--text-2); }
 .def-example { grid-column: 2; max-width: 72ch; margin-top: 8px; padding-left: 12px; border-left: 3px solid var(--flood); font-size: 14px; line-height: 1.55; color: var(--text-3); }
-.def-example-label { display: block; margin-bottom: 3px; font: 500 12px var(--mono); color: var(--text-2); }
+.def-ex-btn { grid-column: 2; justify-self: start; min-height: 44px; margin-top: 4px; padding: 0; border: 0; background: none; color: var(--text); font: inherit; font-size: 14px; font-weight: 600; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.def-ex-btn:hover { color: var(--pop); }
+/* The example turns down like a flipped card */
+.def-example:not([hidden]) { animation: ex-flip .35s cubic-bezier(.2, .7, .2, 1); transform-origin: top; }
+@keyframes ex-flip { from { transform: perspective(600px) rotateX(-70deg); opacity: 0; } }
+
+/* Quiz me, in the rail */
+.quiz { position: relative; display: grid; gap: 10px; padding-top: 26px; }
+.quiz .btn { justify-self: start; }
+.quiz-q { font-size: 18px; font-weight: 600; line-height: 1.35; }
+.quiz-opts { display: grid; gap: 8px; }
+.quiz-opts button { min-height: 44px; padding: 8px 14px; border: 1.5px solid var(--border2); border-radius: 14px; background: var(--bg); color: var(--text); font: inherit; font-size: 15px; font-weight: 600; text-align: left; cursor: pointer; }
+.quiz-opts button:hover:not(:disabled) { border-color: var(--text); }
+.quiz-opts button:disabled { cursor: default; opacity: .6; }
+.quiz-opts button.right { border-color: #3f9d6b; background: #3f9d6b; color: #fff; opacity: 1; }
+.quiz-opts button.wrong { border-color: var(--pop); background: var(--pop); color: #1a1a1a; opacity: 1; }
+.quiz-opts button.right::after { content: ' ✓'; }
+.quiz-result { font-weight: 600; }
+@media (prefers-reduced-motion: reduce) { .def-example:not([hidden]) { animation: none; } }
 .def-empty { padding: 32px 0; font-size: 15px; color: var(--text-3); }
+
+/* In the side rail on wide screens */
+@media (min-width: 1100px) {
+  .find .def-controls { flex-direction: column; align-items: stretch; }
+  .find .def-search-wrap { min-width: 0; }
+}
 
 @media (max-width: 860px) {
   .def-card { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
-  .def-card-header, .def-short, .def-full, .def-example { grid-column: 1; grid-row: auto; }
+  .def-card-header, .def-short, .def-full, .def-example, .def-ex-btn { grid-column: 1; grid-row: auto; }
   .def-full { margin-top: 4px; }
 }
 @media (max-width: 600px) {

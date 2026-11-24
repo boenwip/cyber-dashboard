@@ -11,6 +11,195 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 - New scams: ATO and Medicare texts, a full Microsoft 365 mailbox, a recruitment task scam, changed supplier bank details, a fake Amazon order, a "wrong number" crypto opener and a Facebook page takedown
 - New legit messages use made-up businesses, so none claims how a real company writes to you
 
+**Changed**
+- The Linkt text's first clue now matches what it highlights: anyone can start a text with "Linkt:", and this one came from an ordinary mobile
+- The Netflix email no longer opens "Hi, Dear Customer"
+
+---
+
+## November 2026 — Using AI safely and Sources, restyled
+
+**Changed**
+- The AI Guide is now "Using AI safely", matching its door on Stay safe. What not to share comes first in lemon, then the five rules as cards, then writing your own prompt as numbered steps
+- The prompt library runs the full width. Each card shows its title and a Copy button; the prompt itself folds open with "Show the prompt", so the library is no longer a wall of text. Situations and the audience switch are round buttons, like Practise's
+- Sources & Methodology is now "Sources and methods": a lemon note, each source as a card, and an "On this page" rail on wide screens
+- Sources no longer mentions the retired dashboard and its panels. It says where each thing lives now (Today, Exploited, This year, All stories), and the grouping model and budget match the code (Claude Sonnet, US$4 a month)
+- `sources.html#tracker-methodology` is now `sources.html#estimate`; This year's link follows it
+
+**Removed**
+- The last full-width colour headers (`.page-hero`, `.page-wrap`), now that no page uses them
+
+---
+
+## November 2026 — Lemon and milk chocolate
+
+**Changed**
+- The chocolate is lighter and milkier: `#4a2f25` becomes `#5c3a2c`. The lemon stays `#ffe14d`
+- The page is a touch warmer, and dark mode is a cocoa brown instead of grey
+- Picked from seven options in a colour playground that shows the real pages, desktop and phone, light and dark
+
+**Removed**
+- The orange block after each page title. It read as a stray mark rather than the logo's cursor
+
+---
+
+## November 2026 — Stay safe and Learn hubs, the new menu
+
+**Added**
+- Stay safe (`safe.html`): four big doors. I've been scammed is the lemon one
+- Learn (`learn.html`): doors to the Glossary, OWASP and Practise, with the word of the day and the tip of the day in the rail, and all ten tips one tap away
+- A Get help button, in orange, on every page
+
+**Changed**
+- The menu is now Today, Play, Stay safe and Learn. A page inside a group lights up its group
+- The phone tab bar is Today, Play, Stay safe, Learn and Help. More is gone
+- Exploited and This year leave the menu; they stay one tap from Today's onward line
+- `dashboard.html`, `reference.html` and `resources.html` are now redirects. Old links keep their place: `dashboard.html#cve` goes to Exploited, `reference.html#letter-P` to the glossary's P, and so on
+
+**Removed**
+- The old topic dashboard (`dashboard.js`, `dashboard.css`), `reference.js`, the More menu code and the word-of-the-day strip styles. The active menu item is now written into each page instead of set by script
+
+---
+
+## November 2026 — Practise
+
+**Added**
+- Practise (`practise.html`): safe places to try hacking and defending, courses and videos, free tools and the Australian organisations to know, as one readable list. "Show me things for" in the rail filters it to just me, my business or a career in cyber
+- Spot the scam (Play) is listed as the first thing to practise
+
+**Changed**
+- Resources is now a short signpost to I've been scammed, Check a breach and Practise. `resources.css` is gone
+- The ACCC card now points to Scamwatch, where people actually check and report scams
+- The Essential Eight maturity card is gone from the organisations list: it has its own page
+
+---
+
+## November 2026 — Crack-time checker, deadline bars, glossary quiz
+
+**Added**
+- Check a breach: "How fast could a password be cracked?" Type a made-up password and see a rough time, a coloured bar and a tip. It runs entirely in the browser and keeps nothing. Passphrases are scored by whole words, so four random words come out strong and two do not, in line with ASD's advice
+- Exploited: each flaw shows how much of CISA's fix-by window has gone, as a bar that fills once as the page opens, with "3 days left", "Due today" or "Fix-by date passed"
+- Glossary: "Quiz me" in the rail. A meaning and four words; Swoop hops when you're right and tilts his head when you're not, with a running streak
+
+**Changed**
+- Glossary examples are folded behind "Show an example" and turn down like a card when opened, so the list reads calmer
+
+---
+
+## November 2026 — Wide screens and side rails
+
+**Added**
+- A side rail beside the reading column on wide screens, holding each page's quick actions. It stays in view as you scroll. On phones it drops below the page, or above it where it's the main thing (the estimate on This year, the search on Glossary, the jump links on OWASP)
+- I've been scammed: tick off each step. The rail shows how many are done and links to the next one; Swoop ruffles at each tick and hops when all six are done. Ticks are kept in your browser only
+- Essential Eight: a self-check. Tick the controls you already have; a ring fills and the rail names your next gap
+- This year: the estimate sits in the rail and each digit rolls up as it ticks over. The bar charts grow in the first time you scroll to them
+- Check a breach: the rail links to each "what to do" part and to I've been scammed
+
+**Changed**
+- Big monitors: the whole site scales up (1.2× from 1800px wide, 1.4× from 2300px), so pages no longer sit in a thin strip
+- On the rail pages, the strapline sits under the title
+- This year no longer says "From ASD's ASD Annual Cyber Threat Report"
+
+---
+
+## November 2026 — Reference split: Essential Eight, Glossary, OWASP
+
+**Added**
+- Essential Eight (`essential-eight.html`): ASD's eight controls as one readable column, each with what it stops, plus links to ASD's guide and how it's changing
+- Glossary (`glossary.html`): the searchable A to Z glossary on its own page. Shared `#letter-X` links still land on the letter
+- OWASP Top 10s (`owasp.html`): the web, API and AI/LLM lists on one page, one after another, with jump links instead of tabs
+
+**Changed**
+- Reference (`reference.html`) is now a short list of the three pages. Old `reference.html#e8`, `#glossary`, `#letter-X` and `#owasp-*` links redirect to the right page
+- `definitions.html` now redirects to `glossary.html`; the dashboard's Essential Eight and glossary links point to the new pages
+- The word of the day no longer shows on Reference. It stays on the dashboard until the Learn hub takes it
+
+**Removed**
+- `reference.css` (its OWASP styles live on in `owasp.css`), the tab code in `definitions-page.js`, and the unused tab-button styles
+
+---
+
+## November 2026 — I've been scammed, and Check a breach
+
+**Added**
+- I've been scammed (`help.html`): what to do first, in order. It leads with "call your bank now" and the 24-hour Australian Cyber Security Hotline, then six numbered steps (stop contact, bank, secure accounts, report, ID support, watch for recovery scams) and a list of who to call, each with a tap-to-call button
+- Check a breach (`breach.html`): the Have I Been Pwned check, then what to do if your email is in a breach, what to do if ID documents were leaked, and how to hear about future breaches
+
+**Changed**
+- Resources no longer holds the breach check or the report links. A "Need help now?" section points to the two new pages
+- The National Anti-Scam Centre card is gone: it explained the centre rather than giving a reader something to do, and Scamwatch reports feed it anyway
+
+---
+
+## November 2026 — This year page
+
+**Added**
+- This year has its own page (`year.html`): ASD's Annual Cyber Threat Report in one readable column. It opens with the running estimate of cybercrime reports since 1 July, in lemon, with how it's worked out. Then the headline figures, the most reported crimes, all three breakdowns as bar charts (techniques, states, sectors), what the report says about AI, and a link to the full report
+- All three breakdowns are shown in full. The old dashboard showed the first three rows of two of them
+
+**Changed**
+- This year in the menu, the tab bar and the home page's report count now go to the new page. Old `#year` links redirect there
+
+---
+
+## November 2026 — All stories page
+
+**Added**
+- All stories has its own page (`stories.html`): every story in the feed, newest first, grouped by day ("Today", "Yesterday", then the date), in one readable column. Each story shows its topic, source and time, the headline, the full summary, and the other outlets that covered it, behind "Also covered by"
+- Filters for Cyber, Scams, AI and tools, ACSC alerts, Compliance and Tool updates, each with a count. The filter is in the address (`stories.html#scams`), so it can be shared. On phones the filters scroll sideways
+- `docs/site-map.md`: the agreed site map. Pages are grouped into Today, Play, Stay safe and Learn, with a Get help button on every page
+
+**Changed**
+- The home page's "All stories" button goes to the new page. Old `#news`, `#alerts` and `#tools` links redirect there
+
+---
+
+## November 2026 — Exploited page (redesign step 4)
+
+**Added**
+- Exploited right now has its own page (`exploited.html`): the newest flaws on CISA's Known Exploited Vulnerabilities list, grouped by the day they were added. The latest day's flaws are chocolate tiles, older ones plain. Each shows the product, the CVE number, what the flaw does, CISA's fix-by date, and whether it's known to be used in ransomware, and links to the details on NVD
+- A lemon summary beside the list says how many were added in the last 7 days, what the list is, and what to do about it. On wide screens it stays in view as you scroll
+
+**Changed**
+- Exploited in the menu, the tab bar and the home page's link now go to the new page. Old `#cve` links redirect there
+
+---
+
+## November 2026 — Play page (redesign step 3)
+
+**Added**
+- Spot the scam has its own page, Play (`play.html`). The day's message sits in a frame with the question beside it on wide screens, and stacks on phones
+- Find the clues: tap anything in the message that looks suspicious before you decide. The answer then numbers every giveaway, marks the ones you found in lemon and the ones you missed with an orange dashed line, and says how many you spotted
+- Swoop perches on the message. He hops when you're right and tilts his head when you're wrong
+
+**Changed**
+- Play in the menu, the tab bar and the home page's "Today's puzzle" link now go to the new page. Old `#scams` links redirect there
+- Your streak and rank carry over from the old puzzle
+
+---
+
+## November 2026 — Lemon and chocolate
+
+**Changed**
+- New colours, chosen by the owner in a live playground: lemon (#FFE14D) for the lead story, chocolate (#4A2F25) for the other tiles and buttons, the logo's orange (#E8692C) as the small accent on cursors and hovers, on a warm grey page (#EBE7E1)
+- Topics are now a small coloured dot beside the label, so no single topic colours the page
+- A block cursor in the logo's orange follows the page heading, and marks the current page in the menu
+
+**Fixed**
+- Swoop no longer disappears in dark mode: his colours flip there (light body, dark patches)
+
+---
+
+## November 2026 — New home page (redesign step 2)
+
+**Changed**
+- The home page now does one job: today's top 5 stories, as rounded tiles in one pastel per topic (butter for cyber, coral for scams, periwinkle for AI, mint for ACSC). The lead takes a big tile, the other four sit beside it, and all five fit on one screen. The ACSC alert bar shows only when there is an alert. One row links on to exploited bugs, today's puzzle and the year's report count
+- Swoop is the lookout on the lead story. His mood follows the real ACSC alert: calm, alert, or one swoop across the page for a critical or high alert. He moves once on load, then only when you hover or tap him, and stays still under reduced motion
+- Every page has a cool concrete background (#E6E8E5) and a plain header. The menu marks where you are with the logo's cursor
+- The site's font is now Geist, with Geist Mono for dates and IDs, both self-hosted. Host Grotesk and Spline Sans Mono are removed
+- On phones a tab bar sits at the bottom: Today, Play, Exploited, This year, More. More opens the full menu. It replaces the menu button in the header
+- The old topic dashboard moved to `dashboard.html` until its pages are rebuilt. Old links such as `#scams` and `#cve` on the home page go there
+
 ---
 
 ## November 2026 — Lean cleanups

@@ -5,6 +5,192 @@ Format: decision → why. Newest first within each session.
 
 ---
 
+## Session: 2026-11-24 — AI Guide and Sources restyle
+
+### Prompts fold away
+**Decision:** a prompt card shows the title and Copy; the prompt text opens on request.
+**Why:** 47 long prompts made the library a wall of monospace. Copying doesn't need the text open, and the title is enough to choose.
+
+### Both pages use the guide layout
+**Decision:** the same masthead, reading column, cards and rail as the other Stay safe pages, built from This year's shell.
+**Why:** they were the last pages with the old full-width topic colours, and keeping one layout means one set of styles to maintain.
+
+---
+
+## Session: 2026-11-24 — Colours
+
+### Lemon and milk chocolate
+**Decision:** keep the lemon (`#ffe14d`), soften the chocolate to `#5c3a2c`, warm the page, and make dark mode cocoa rather than grey.
+**Why:** the owner tried seven palettes on the real pages and wanted to stay with lemon and chocolate. Navy, terminal green, sky, forest and teal were rejected; banana was close but the owner preferred lemon. Text on the chocolate stays above 9:1.
+
+### No orange block after page titles
+**Decision:** the masthead `h1::after` cursor is gone. The orange stays on the Get help button, links and the active menu item.
+**Why:** next to a big heading it looked like a stray line, not part of the design.
+
+---
+
+## Session: 2026-11-24 — Hubs, menu and redirects
+
+### Pages inside a group light up their group
+**Decision:** On Check a breach, "Stay safe" shows as the current menu item (`aria-current="true"`); on the hub itself it's `aria-current="page"`. On phones, I've been scammed lights up Help, not Stay safe.
+**Why:** The reader should always see where they are in four words, and Help is the tab that page belongs to.
+
+### The menu is written into each page
+**Decision:** The generator writes the menu, tab bar and current item into the HTML. The script that worked out the current item, and the More menu, are gone.
+**Why:** It works without JavaScript and is one less thing to go wrong; with four items there's nothing for a More menu to hold.
+
+### One redirect script for retired pages
+**Decision:** `redirect.js` holds one map for all three retired pages, with a `<noscript>` refresh as the fallback.
+**Why:** A meta refresh can't read `#sections`, and old links like `dashboard.html#cve` are out there.
+
+## Session: 2026-11-24 — Practise
+
+### One list, filtered by who's asking
+**Decision:** Practise is one column of links in four sections, with a "Show me things for" filter (everyone, just me, my business, a career in cyber). Sections with nothing left hide.
+**Why:** The links serve very different readers. A member of the public shouldn't wade through Hack The Box to find Scamwatch, and a would-be analyst shouldn't wade the other way. Filtering keeps one page instead of three.
+
+## Session: 2026-11-24 — Crack-time checker, deadline bars, glossary quiz
+
+### The crack-time checker assumes the worst case, and says so
+**Decision:** 10 billion guesses a second (one graphics card against a quickly-hashed leak). Common passwords, and common words with numbers or swapped letters (P@ssw0rd1, Sydney2024!) count as near-instant. Passphrases count whole words from a 50,000-word list.
+**Why:** A breach page should not reassure people about a weak password. Scoring by characters made "magpie toaster rainbow" look unbreakable; by words it's about an hour, and four words about nine years, which matches ASD's four-random-words advice. No library: zxcvbn is around 800 KB for a page toy.
+
+### Ask for a made-up password
+**Decision:** The box is plain text, not a password field, and the copy says "Don't type a real one." Nothing is sent or stored.
+**Why:** Seeing what you type is the point of the toy, and teaching people to type real passwords into websites is the opposite of the lesson.
+
+### Glossary examples fold away
+**Decision:** Examples hide behind "Show an example".
+**Why:** The owner found pages busy; most readers want the meaning, and the example is one tap away.
+
+## Session: 2026-11-24 — Wide screens and side rails
+
+### Scale up, and use the side for quick actions
+**Decision:** From 1800px wide the page zooms (1.2×, then 1.4× from 2300px). Rail pages get a sticky side rail with the page's quick actions.
+**Why:** At 1440p two-thirds of the screen was empty stone. Scaling keeps the one comfortable reading column; the rail turns the leftover space into something useful that stays in view.
+
+### Interactive, but only when the reader acts
+**Decision:** Ticks, the progress ring, the meter and Swoop's moves happen in answer to a click. The only motion without a click is the estimate's digit roll and the bars growing in once. All of it is off under reduced motion.
+**Why:** The owner wants the site to feel more interactive; the rule set for Swoop (never on a loop) keeps that from becoming busy.
+
+### Ticks stay on the device
+**Decision:** Checklist and self-check ticks go to `localStorage` under `csi-track-help` and `csi-track-e8`. Nothing is sent anywhere.
+**Why:** No accounts or servers on a static site, and no one's scam or security status should leave their device.
+
+## Session: 2026-11-24 — Reference split
+
+### Three pages, no tabs
+**Decision:** Essential Eight, Glossary and OWASP each get a page. The three OWASP lists share one page, stacked, with jump links.
+**Why:** One job per page. The OWASP lists are read by the same (more technical) reader and are short enough to scroll; tabs hid two-thirds of the page from search and from people who didn't notice them.
+
+### Reference stays as a signpost for now
+**Decision:** `reference.html` becomes a list of the three pages and redirects old `#tab` links, rather than a bare redirect.
+**Why:** The menu still says "Reference" until the new menu lands in step 6; a bare redirect would send that menu item to only one of the three.
+
+## Session: 2026-11-24 — Resources split: help and breach pages
+
+### Help leads with the bank, not with reporting
+**Decision:** I've been scammed opens with "call your bank now" and the hotline in lemon, before the steps. Reporting is step 4.
+**Why:** Money can sometimes be stopped if the bank hears fast; reporting helps others but rarely gets money back. A stressed reader needs the time-critical action first.
+
+### A shared guide style
+**Decision:** Both pages use `guide.css`: one column, the urgent thing in lemon, numbered steps, tap-to-call buttons at least 44px tall. Essential Eight will use it too.
+**Why:** The steps are a real sequence, so numbers carry meaning; and one style for every plain-English guide keeps them consistent.
+
+### Lifeline and 000 are on the help page
+**Decision:** The contact list includes Lifeline (13 11 14) and 000.
+**Why:** Scams cause real distress, and some involve threats. The page is for someone at a bad moment.
+
+---
+
+## Session: 2026-11-23 — This year page
+
+### One column through the report
+**Decision:** The page reads top to bottom: estimate, headline figures, most reported crimes, breakdowns, AI, link to the report. Only the estimate is coloured; the rest is quiet surface cards and bars.
+**Why:** The owner asked for less busy pages. The report is one story, so it reads as one column, at a width that keeps lines under about 70 characters.
+
+### The estimate updates, but quietly
+**Decision:** The count is recalculated every 6 seconds with no animation and no screen-reader announcement.
+**Why:** It's a projection, and the number changing is the point. Motion or announcements every few seconds would distract.
+
+---
+
+## Session: 2026-11-23 — Site map, and the All stories page
+
+### A new site map, before new colours
+**Decision:** The site splits into one-job pages grouped as Today, Play, Stay safe and Learn (`docs/site-map.md`). Reference and Resources split into Essential Eight, Glossary, OWASP, I've been scammed, Check a breach and Practise. A Get help button sits on every page. Colours are picked after the splits.
+**Why:** The owner found some pages too busy and still didn't like the colours. Less on each page makes colours easier to judge, and a reader who has just been scammed shouldn't have to hunt for help.
+
+### All stories is rows, not tiles
+**Decision:** One column of rows grouped by day, full summaries, filters beside it. No reader pane.
+**Why:** Sixty-plus tiles would be a wall; rows stay calm and scannable. Every story opens on its source anyway, so the dashboard's list-and-detail reader only repeated the summary.
+
+### Headline helpers moved to shared.js
+**Decision:** `sourceName`, `headline` and `hasSummary` moved from `dashboard.js` to `shared.js`.
+**Why:** The dashboard and All stories both need them; one copy.
+
+---
+
+## Session: 2026-11-23 — Redesign step 4: Exploited page
+
+### Flaws grouped by the day they were added
+**Decision:** The list is grouped under "Added Friday 20 November" headings, newest first, beside a lemon summary with the 7-day count and what to do.
+**Why:** The date a flaw joined the list is the one fact that tells a reader how new the danger is; KEV has no severity score to sort by.
+
+### Only the latest day is chocolate
+**Decision:** The latest day's flaws are chocolate tiles; older ones sit on the plain surface.
+**Why:** Nine chocolate tiles at once made a heavy wall of colour, which the owner has found punishing before. One coloured group gives the page a lead, as the home page does.
+
+---
+
+## Session: 2026-11-23 — Redesign step 3: Play page
+
+### Every part of the message can be tapped
+**Decision:** Each piece of the message body is a toggle, not just the giveaways. After the answer, the giveaways are numbered to match the explanation; found ones are lemon, missed ones get an orange dashed underline. Scam puzzles say "You spotted X of N"; legit puzzles show the trust signals without a score.
+**Why:** If only the giveaways were tappable, the puzzle would give itself away. The score rewards looking closely without changing the streak, which still counts only the scam-or-legit answer.
+
+### Swoop lives in swoop.js and swoop.css
+**Decision:** His frames, drawing and moves moved out of `landing.js` and `landing.css`; each page places his perch itself. The page heading (`.masthead`) moved to `shared.css` for the same reason.
+**Why:** Home and Play both use him; one copy avoids two drifting apart.
+
+### The old Scams tab stays for now
+**Decision:** `dashboard.html` keeps its Scams tab and its copy of the puzzle code until the dashboard is retired; nothing links to it any more.
+**Why:** Removing it means reworking the dashboard's tab bar, which later steps replace anyway.
+
+---
+
+## Session: 2026-11-23 — Lemon and chocolate
+
+### Lemon leads, chocolate partners, orange accents
+**Decision:** The home page's lead tile is lemon, the other tiles and buttons chocolate, the accent the logo's orange, on warm grey. Topic colours shrink to a dot.
+**Why:** The pastel tiles let coral take over whenever a scam led, and drifted from the logo's banana. Banana with black read like a bank, so banana got a coloured partner. The owner picked this mix in a live colour playground on the real page.
+
+### Swoop flips in dark mode
+**Decision:** Swoop's feathers come from CSS (`--swoop-k`, `--swoop-w`); dark mode swaps them to a light body with dark patches.
+**Why:** His black body vanished on the dark page; the one-pixel outline wasn't enough.
+
+---
+
+## Session: 2026-11-23 — Redesign step 2: home page
+
+### Tiles, the Clearer palette and Geist
+**Decision:** The home page uses pastel topic tiles on a cool concrete base (#E6E8E5), and the whole site uses Geist and Geist Mono.
+**Why:** The owner compared three directions (Briefing, Tiles, Signal), four palettes and four fonts on the real page and chose these. The warm stone base made the pastels look muddy, and a full-colour panel felt punishing. Bricolage Grotesque was tried and rejected.
+
+### One job per page; the home page is today's news
+**Decision:** `index.html` shows the top 5 stories of the last week (most outlets first, the briefing's featured story on top), the ACSC alert when there is one, and one line onward. Everything else moves to its own page.
+**Why:** The owner's rule, from their lecturer: don't overload a page. The reader is the public on a phone for a couple of minutes.
+
+### The old dashboard stays at dashboard.html for now
+**Decision:** The tabbed dashboard moved to `dashboard.html`. Play, Exploited, This year and All stories link into it until steps 3 to 6 replace each part. Old `index.html#topic` links redirect there.
+**Why:** Each step ships on its own without losing any content in between.
+
+### Tab bar replaces the phone menu button
+**Decision:** Under 820px a bottom tab bar (Today, Play, Exploited, This year, More) replaces the header's menu button; More opens the full menu above the bar.
+**Why:** The main sections are one thumb tap away on a phone.
+
+---
+
 ## Session: 2026-11-23 — Quick fixes
 
 ### "AU Cyber" tag renamed "Cyber"

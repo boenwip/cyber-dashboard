@@ -1,0 +1,44 @@
+/* stories.css — pseudosec. All stories: topic filters beside one readable column of stories,
+   grouped by day. Rows, not tiles, so a long list stays calm. Requires shared.css. */
+
+.stories { padding: 0 var(--gutter) clamp(40px, 5vw, 72px); }
+
+/* Wide screens: filters stay beside the list */
+.browse { display: grid; gap: 18px; }
+@media (min-width: 961px) {
+  .browse { grid-template-columns: minmax(180px, 3fr) minmax(0, 9fr); column-gap: clamp(28px, 4vw, 72px); align-items: start; }
+  .filters { position: sticky; top: 20px; flex-direction: column; align-items: stretch; }
+}
+
+/* Filters */
+.filters { display: flex; flex-wrap: wrap; gap: 6px; }
+.filters a { display: flex; justify-content: space-between; gap: 14px; min-height: 44px; align-items: center; padding: 8px 16px; border-radius: 99px; background: var(--surface); color: var(--text); font-size: 16px; font-weight: 600; text-decoration: none; }
+.filters a span { font-weight: 500; color: var(--text-2); }
+.filters a:hover { background: var(--surface3); }
+.filters a[aria-current="true"] { background: var(--partner); color: var(--on-partner); }
+.filters a[aria-current="true"] span { color: inherit; opacity: .8; }
+:root[data-theme="dark"] .filters a[aria-current="true"] { background: var(--main); color: var(--on-main); }
+
+/* One column of stories, grouped by day */
+.days { max-width: 52rem; }
+.day + .day { margin-top: clamp(26px, 2.4vw, 40px); }
+.day h2 { padding-bottom: 8px; border-bottom: 1.5px solid var(--rule); font-size: clamp(18px, 1.4vw, 22px); font-weight: 700; letter-spacing: -.015em; }
+.story { padding: clamp(16px, 1.4vw, 22px) 0; border-bottom: 1px solid var(--surface3); }
+.story .meta { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-bottom: 6px; font-size: 14px; color: var(--text-2); }
+.topic { font-weight: 700; color: var(--text); }
+.topic::before { content: ''; display: inline-block; width: 9px; height: 9px; margin-right: 7px; border-radius: 50%; background: var(--m); vertical-align: .05em; }
+.story h3 { font-size: clamp(20px, 1.5vw, 24px); font-weight: 600; line-height: 1.2; letter-spacing: -.015em; }
+.story h3 a { color: inherit; text-decoration: none; }
+.story h3 a:hover { text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 4px; }
+.sum { max-width: 70ch; margin-top: 8px; font-size: 17px; line-height: 1.5; color: var(--text-2); }
+.story details { margin-top: 10px; font-size: 15px; }
+.story summary { min-height: 32px; cursor: pointer; font-weight: 600; }
+.story details ul { display: grid; gap: 8px; margin-top: 6px; padding-left: 1.2em; }
+.story details a { color: var(--text); }
+.story details li span { color: var(--text-2); white-space: nowrap; }
+.empty { padding: 20px 0; color: var(--text-2); }
+
+@media (max-width: 960px) {
+  .filters { flex-wrap: nowrap; overflow-x: auto; margin: 0 calc(-1 * var(--gutter)); padding: 0 var(--gutter) 4px; scrollbar-width: none; }
+  .filters a { flex: none; }
+}

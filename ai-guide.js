@@ -6,11 +6,11 @@
 
 var CATS = [
   { id: 'all',          label: 'All' },
-  { id: 'staying-safe', label: 'Staying Safe' },
-  { id: 'work',         label: 'Everyday Work' },
-  { id: 'comms',        label: 'Writing & Comms' },
-  { id: 'learn',        label: 'Understanding Something' },
-  { id: 'life',         label: 'Your Day-to-Day' },
+  { id: 'staying-safe', label: 'Staying safe' },
+  { id: 'work',         label: 'Everyday work' },
+  { id: 'comms',        label: 'Writing and emails' },
+  { id: 'learn',        label: 'Understanding something' },
+  { id: 'life',         label: 'Day to day' },
 ];
 
 // Shared lines, so safety wording is written (and fact-checked) once.
@@ -364,7 +364,6 @@ function renderAudienceToggle() {
   if (!toggle) return;
   toggle.querySelectorAll('.ag-audience-btn').forEach(function(btn) {
     var active = btn.dataset.audience === currentAudience;
-    btn.classList.toggle('ag-audience-btn--active', active);
     btn.setAttribute('aria-pressed', active ? 'true' : 'false');
   });
 }
@@ -374,7 +373,7 @@ function renderCatFilter() {
   if (!bar) return;
   bar.innerHTML = CATS.map(function(c) {
     var active = c.id === currentCat;
-    return '<button type="button" class="ag-cat-btn' + (active ? ' ag-cat-btn--active' : '') + '" data-cat="' + esc(c.id) + '" aria-pressed="' + active + '">' + esc(c.label) + '</button>';
+    return '<button type="button" class="ag-cat-btn" data-cat="' + esc(c.id) + '" aria-pressed="' + active + '">' + esc(c.label) + '</button>';
   }).join('');
 }
 
@@ -387,7 +386,7 @@ function renderPrompts() {
     return catMatch && audienceMatch;
   });
   if (!filtered.length) {
-    grid.innerHTML = '<div class="ag-empty">No prompts in this category yet.</div>';
+    grid.innerHTML = '<p class="ag-empty">No prompts here yet. Try another situation.</p>';
     return;
   }
   grid.innerHTML = filtered.map(function(p, i) {
@@ -400,8 +399,8 @@ function renderPrompts() {
         proTag +
       '</div>' +
       '<h3 class="ag-prompt-title">' + esc(p.title) + '</h3>' +
-      '<pre class="ag-prompt-text" id="' + id + '">' + esc(p.prompt) + '</pre>' +
-      '<button type="button" class="ag-copy-btn" data-prompt-id="' + id + '">Copy prompt</button>' +
+      '<button type="button" class="btn ag-copy-btn" data-prompt-id="' + id + '">Copy prompt</button>' +
+      '<details><summary>Show the prompt</summary><pre class="ag-prompt-text" id="' + id + '">' + esc(p.prompt) + '</pre></details>' +
     '</div>';
   }).join('');
 }

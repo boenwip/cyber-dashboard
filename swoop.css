@@ -1,0 +1,15 @@
+/* swoop.css — pseudosec. Swoop the magpie's feathers and moves (swoop.js draws him).
+   Each page places his perch itself. Moves play once, in answer to the reader. */
+.swoop { appearance: none; padding: 0; background: none; border: 0; cursor: default; }
+.swoop .bird svg { display: block; width: 100%; height: auto; }
+.swoop .k { fill: var(--swoop-k); }
+.swoop .w { fill: var(--swoop-w); }
+.swoop .g { fill: #9a968d; }
+.swoop.hop .bird { animation: hop 420ms steps(7); }
+@keyframes hop { 0%, 100% { transform: translateY(0); } 30%, 70% { transform: translateY(-14%); } 50% { transform: translateY(-22%); } }
+.swoop.ruffle .bird { animation: ruffle 360ms steps(6); transform-origin: bottom center; }
+@keyframes ruffle { 0%, 100% { transform: scale(1); } 40% { transform: scale(1.06, .94); } 70% { transform: scale(.97, 1.04); } }
+/* A puzzled head tilt: wrong answer, no judgement */
+.swoop.tilt .bird { animation: tilt 900ms steps(9); transform-origin: 60% 90%; }
+@keyframes tilt { 0%, 100% { transform: rotate(0); } 20%, 75% { transform: rotate(-11deg); } }
+@media (prefers-reduced-motion: reduce) { .swoop .bird { animation: none !important; } }

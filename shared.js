@@ -23,18 +23,6 @@ function toggleTheme() {
   syncThemeButton();
 }
 
-// ── NAV ACTIVE STATE ────────────────────────────────────────
-function markActiveNav() {
-  var page = window.location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.nav-link').forEach(function(link) {
-    var href = (link.getAttribute('href') || '').split('/').pop();
-    var active = href === page;
-    link.classList.toggle('nav-link--active', active);
-    if (active) link.setAttribute('aria-current', 'page');
-    else link.removeAttribute('aria-current');
-  });
-}
-
 // ── ESCAPING ────────────────────────────────────────────────
 // Every value from data/*.json goes through esc() (text) or safeUrl() (links)
 // before it is placed in an HTML string. Feed content is untrusted.
@@ -97,11 +85,36 @@ function renderWotd(terms) {
   var defEl  = document.getElementById('wotd-def');
   if (termEl) termEl.textContent = term.term || '';
   if (defEl)  defEl.textContent  = term.short || '';
-  var strip = document.getElementById('wotd-strip');
-  if (strip) strip.style.opacity = '1';
 }
 
 // ── SHARING ─────────────────────────────────────────────────
+// ── NEWS SOURCES: short publisher names and clean headlines ──
+var SHORT_SOURCE = {
+  'Australian Cyber Security Magazine': 'AU Cyber Security Mag',
+  'Security Brief Australia': 'Security Brief',
+  'Bleeping Computer AU': 'BleepingComputer',
+  'Guardian AU Cyber': 'The Guardian',
+  'The Register AU': 'The Register',
+  'ABC Tech': 'ABC',
+  'Privacy & Compliance AU': 'Google News',
+  'ACSC (via Google News)': 'ACSC'
+};
+function sourceName(s) {
+  var name = String(s || '').replace(/^Google News\s*[—-]\s*/i, '');
+  return SHORT_SOURCE[name] || name;
+}
+// Google News headlines end with the publisher ("… - bleepingcomputer.com", "… – BleepingComputer")
+function headline(t, source) {
+  var s = String(t || '').replace(/\s+[-–|]\s+(?:[\w.-]+\.(?:com|net|org|co|au)(?:\.au)?|The Guardian|The Register|ABC News|Cyber\.gov\.au)\s*$/i, '');
+  var pub = sourceName(source).toLowerCase().replace(/\s+/g, '');
+  var m = s.match(/^(.*\S)\s+[-–|]\s+([^-–|]{3,40})$/);
+  return m && pub && m[2].toLowerCase().replace(/\s+/g, '') === pub ? m[1] : s;
+}
+// Google News "summaries" only repeat the headline and publisher, so they're not shown.
+function hasSummary(s) {
+  return !!s.summary && s.summary.length > 60 && !/Google News/i.test(s.source || '');
+}
+
 function siteUrl() { return location.href.split('#')[0].split('?')[0]; }
 
 function canNativeShare() { return typeof navigator.share === 'function'; }
@@ -130,51 +143,9 @@ function legacyCopy(text) {
   }
 }
 
-// ── MOBILE NAV ──────────────────────────────────────────────
-function initMobileNav() {
-  var toggle = document.getElementById('nav-toggle');
-  var nav    = document.querySelector('.site-nav');
-  if (!toggle || !nav) return;
-
-  function openNav() {
-    nav.classList.add('site-nav--open');
-    toggle.setAttribute('aria-expanded', 'true');
-    toggle.setAttribute('aria-label', 'Close navigation');
-  }
-  function closeNav() {
-    nav.classList.remove('site-nav--open');
-    toggle.setAttribute('aria-expanded', 'false');
-    toggle.setAttribute('aria-label', 'Open navigation');
-  }
-
-  toggle.addEventListener('click', function() {
-    nav.classList.contains('site-nav--open') ? closeNav() : openNav();
-  });
-
-  nav.querySelectorAll('.nav-link').forEach(function(link) {
-    link.addEventListener('click', closeNav);
-  });
-
-  document.addEventListener('click', function(e) {
-    if (nav.classList.contains('site-nav--open') &&
-        !nav.contains(e.target) && !toggle.contains(e.target)) {
-      closeNav();
-    }
-  });
-
-  document.addEventListener('keydown', function(e) {
-    if (e.key === 'Escape' && nav.classList.contains('site-nav--open')) {
-      closeNav();
-      toggle.focus();
-    }
-  });
-}
-
 // ── INIT ────────────────────────────────────────────────────
 document.addEventListener('DOMContentLoaded', function() {
-  markActiveNav();
   syncThemeButton();
   var themeBtn = document.getElementById('theme-btn');
   if (themeBtn) themeBtn.addEventListener('click', toggleTheme);
-  initMobileNav();
 });

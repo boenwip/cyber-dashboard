@@ -8,9 +8,8 @@
  */
 
 /* Self-hosted fonts (assets/fonts, licences in assets/fonts/README.md) */
-@font-face { font-family: 'Host Grotesk'; src: url('assets/fonts/host-grotesk-latin-wght-normal.woff2') format('woff2'); font-weight: 300 800; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Spline Sans Mono'; src: url('assets/fonts/spline-sans-mono-latin-400-normal.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'Spline Sans Mono'; src: url('assets/fonts/spline-sans-mono-latin-500-normal.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist'; src: url('assets/fonts/geist-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Geist Mono'; src: url('assets/fonts/geist-mono-latin-wght-normal.woff2') format('woff2'); font-weight: 100 900; font-style: normal; font-display: swap; }
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 [hidden] { display: none !important; }
@@ -18,11 +17,11 @@
 /* ── LIGHT THEME (base, and the no-JS default) ── */
 :root, :root[data-theme="light"] {
   color-scheme: light;
-  --bg:         #f3f3f0;
-  --surface:    #ffffff;
-  --surface2:   #eaeae5;
-  --surface3:   #e1e1db;
-  --text:       #1b1c1e;
+  --bg:         #ece8e2;   /* warm grey */
+  --surface:    #f7f5f1;
+  --surface2:   #f1eee9;
+  --surface3:   #dfdad2;
+  --text:       #1a1a1a;
   --text-2:     #3b3d42;
   --text-3:     #57595f;   /* 5.8:1+ on every surface (AA) */
   --text-4:     #5f6167;   /* 5.1:1+ on every surface (AA) */
@@ -40,12 +39,20 @@
   --high:       #8a5a0b;  --high-bg: #fcefd3;
   --adv:        #2f4a6b;  --adv-bg:  #e8edf4;
   --med:        #2d6a4f;
-  --ink:        #1b1c1e;  --on-ink:  #f3f3f0;
+  --ink:        #1a1a1a;  --on-ink:  #ece8e2;
+  --rule:       #1a1a1a;
+  /* The brand: lemon leads, milk chocolate partners, the logo's orange is the small accent */
+  --main:       #ffe14d;  --on-main:    #1a1a1a;
+  --partner:    #5c3a2c;  --on-partner: #fbf7f2;
+  --pop:        #e8692c;
+  /* Swoop's feathers; flipped in dark mode so he stays visible */
+  --swoop-k:    #1a1a1a;  --swoop-w:    #ffffff;
   --border:     rgba(27, 28, 30, 0.09);
   --border2:    rgba(27, 28, 30, 0.16);
   --shadow:     0 1px 2px rgba(27, 28, 30, 0.04), 0 8px 24px -12px rgba(27, 28, 30, 0.14);
-  --sans:       'Host Grotesk', 'Helvetica Neue', Arial, system-ui, sans-serif;
-  --mono:       'Spline Sans Mono', ui-monospace, Menlo, Consolas, monospace;
+  --sans:       'Geist', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --mono:       'Geist Mono', ui-monospace, Menlo, Consolas, monospace;
+  --display:    var(--sans);   /* headings on the home page */
   --font-display: var(--sans);
   --radius:     18px;
   --gutter:     clamp(16px, 4vw, 40px);
@@ -54,10 +61,10 @@
 /* ── DARK THEME ── */
 :root[data-theme="dark"] {
   color-scheme: dark;
-  --bg:         #121314;
-  --surface:    #1b1c1f;
-  --surface2:   #24262a;
-  --surface3:   #2c2e33;
+  --bg:         #211c19;
+  --surface:    #2c2520;
+  --surface2:   #322a24;
+  --surface3:   #3c332d;
   --text:       #ecece6;
   --text-2:     #c9cac4;
   --text-3:     #a3a5ac;
@@ -76,7 +83,12 @@
   --high:       #f3c46a;  --high-bg: #3a2c12;
   --adv:        #a9c3e4;  --adv-bg:  #1f2a38;
   --med:        #7fcfae;
-  --ink:        #ecece6;  --on-ink:  #121314;
+  --ink:        #ecece6;  --on-ink:  #211c19;
+  --rule:       #4d423a;
+  --main:       #ffe14d;  --on-main:    #1a1a1a;
+  --partner:    #5c3a2c;  --on-partner: #fbf7f2;
+  --pop:        #e8692c;
+  --swoop-k:    #f1efe9;  --swoop-w:    #3c332d;
   --border:     rgba(236, 236, 230, 0.08);
   --border2:    rgba(236, 236, 230, 0.16);
   --shadow:     0 1px 2px rgba(0, 0, 0, 0.3), 0 10px 28px -14px rgba(0, 0, 0, 0.6);
@@ -103,6 +115,11 @@ body[data-topic="news"]  { --flood: #3d4fe0; --on: #fff; }
 body[data-topic="scams"] { --flood: #fb9a7e; }
 body[data-topic="cve"]   { --flood: #8fe6cc; }
 body[data-topic="learn"] { --flood: #f5c4e3; }
+/* One dot colour per news topic: a marker, never a whole tile */
+.t-cyber { --m: #ffe14d; }
+.t-scams { --m: #ff8a3d; }
+.t-ai    { --m: #9db8ff; }
+.t-acsc  { --m: #6fe0b8; }
 
 /* ── BASE ── */
 body {
@@ -125,9 +142,9 @@ button { font: inherit; color: inherit; }
   position: sticky; top: 0; z-index: 100;
   display: flex; align-items: center; gap: 16px;
   height: var(--hdr); padding: 0 var(--gutter);
-  background: var(--flood); color: var(--on);
+  background: var(--bg); color: var(--text); border-bottom: 1.5px solid var(--rule);
 }
-.site-header :focus-visible, .page-hero :focus-visible { outline-color: currentColor; border-radius: 0; }
+.site-header :focus-visible { outline-color: currentColor; border-radius: 0; }
 .hdr-left { margin-left: auto; display: flex; align-items: center; gap: 8px; min-width: 0; }
 .site-logo { display: flex; align-items: center; line-height: 0; text-decoration: none; }
 .site-logo svg { height: clamp(24px, 2.3vw, 32px); width: auto; }
@@ -135,57 +152,37 @@ button { font: inherit; color: inherit; }
 @keyframes blink { 0%, 55% { opacity: 1; } 56%, 100% { opacity: 0; } }
 .site-nav { display: flex; align-items: center; gap: 2px; }
 .nav-link { padding: 7px 10px; font-size: 15px; font-weight: 500; white-space: nowrap; text-decoration: none; color: inherit; }
-.nav-link:hover, .nav-link--active { text-decoration: underline; text-underline-offset: 4px; }
+.nav-link:hover { text-decoration: underline; text-underline-offset: 4px; }
+/* You are here: the logo's cursor, in its orange */
+.nav-link--active::after { content: ''; display: inline-block; width: .5em; height: 1em; margin-left: .2em; vertical-align: -.12em; background: var(--pop); }
 .hdr-right { display: flex; align-items: center; gap: 10px; }
 .hdr-meta { font-family: var(--mono); font-size: 12px; white-space: nowrap; }
+/* Get help: on every page, so someone who's just been scammed doesn't have to hunt */
+.help-btn { display: inline-flex; align-items: center; min-height: 36px; padding: 0 16px; border-radius: 99px; background: var(--pop); color: #1a1a1a; font-size: 15px; font-weight: 700; white-space: nowrap; text-decoration: none; }
+.help-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
 .icon-btn {
   width: 36px; height: 36px;
   display: grid; place-items: center; flex: none;
   background: none; border: 1px solid currentColor; color: inherit; cursor: pointer;
 }
-.icon-btn:hover { background: var(--on); color: var(--flood); }
+.icon-btn:hover { background: var(--text); color: var(--bg); }
 .icon-btn svg { width: 17px; height: 17px; }
 /* The theme button shows the theme you'd switch to */
 .theme-btn .i-sun { display: none; }
 :root[data-theme="dark"] .theme-btn .i-sun { display: block; }
 :root[data-theme="dark"] .theme-btn .i-moon { display: none; }
-.nav-toggle { display: none; }
-.nav-toggle .bars, .nav-toggle .bars::before, .nav-toggle .bars::after {
-  content: ''; display: block; width: 16px; height: 1.5px; background: currentColor; border-radius: 1px; transition: transform 0.2s ease;
-}
-.nav-toggle .bars { position: relative; }
-.nav-toggle .bars::before { position: absolute; top: -5px; }
-.nav-toggle .bars::after  { position: absolute; top: 5px; }
-.nav-toggle[aria-expanded="true"] .bars { background: transparent; }
-.nav-toggle[aria-expanded="true"] .bars::before { transform: translateY(5px) rotate(45deg); }
-.nav-toggle[aria-expanded="true"] .bars::after  { transform: translateY(-5px) rotate(-45deg); }
 
 /* The logo's prompt and cursor head each page */
 .prompt { display: flex; align-items: center; gap: .6ch; font-family: var(--mono); font-weight: 500; font-size: clamp(14px, 1.25vw, 18px); }
 .prompt i { display: inline-block; width: .62em; height: 1.08em; background: currentColor; }
 
 /* Choices: page tabs and filters */
-.ref-tab-btn, .ag-cat-btn, .def-lvl-btn {
+.def-lvl-btn {
   appearance: none; padding: 6px 14px; background: none; border: 1px solid var(--border2);
   font-size: 14px; font-weight: 500; white-space: nowrap; color: var(--text-2); cursor: pointer;
 }
-.ref-tab-btn:hover, .ag-cat-btn:hover, .def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
-.ref-tab-btn--active, .ag-cat-btn--active, .def-lvl-btn--active,
-.ref-tab-btn--active:hover, .ag-cat-btn--active:hover, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
-
-/* ── WORD OF THE DAY (Reference page) ── */
-.wotd-strip {
-  display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px;
-  padding: 14px var(--gutter);
-  border-bottom: 1px solid var(--border);
-  font-size: 14px;
-}
-.wotd-label { font-size: 13px; color: var(--text-3); }
-.wotd-term { font-weight: 600; color: var(--text); }
-.wotd-sep { color: var(--text-4); }
-.wotd-def { color: var(--text-2); }
-.wotd-more { margin-left: auto; font-size: 13px; color: var(--accent); text-decoration: none; }
-.wotd-more:hover { text-decoration: underline; text-underline-offset: 3px; }
+.def-lvl-btn:hover { color: var(--text); border-color: var(--text); }
+.def-lvl-btn--active, .def-lvl-btn--active:hover { background: var(--flood); border-color: var(--flood); color: var(--on); }
 
 /* ── CHIPS (severity and labels) ── */
 .chip {
@@ -200,41 +197,65 @@ button { font: inherit; color: inherit; }
 .chip--high { background: var(--high-bg); color: var(--high); }
 .chip--adv  { background: var(--adv-bg);  color: var(--adv); }
 
-/* ── PAGE (inner pages) ── */
-.page-hero {
-  display: grid; gap: 12px;
-  padding: 16px var(--gutter) clamp(30px, 3.5vw, 56px);
-  background: var(--flood); color: var(--on);
-  border-top: 1px solid currentColor;
-}
-.page-hero-title { margin-top: clamp(14px, 2vw, 30px); font-size: clamp(40px, 6vw, 104px); line-height: 1.02; letter-spacing: -.03em; }
-.page-hero-sub { max-width: 44em; font-size: clamp(16px, 1.4vw, 21px); line-height: 1.35; }
-.page-wrap { padding: clamp(28px, 3vw, 48px) var(--gutter) 64px; }
 [id] { scroll-margin-top: calc(var(--hdr) + 16px); }
 
 /* ── FOOTER ── */
 .site-footer {
   display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 24px;
   padding: 22px var(--gutter);
-  border-top: 1px solid var(--border);
+  border-top: 1.5px solid var(--rule);
   font-size: 13px; color: var(--text-3);
 }
+
+/* ── PHONE TAB BAR (shown under 820px) ── */
+.tabbar { display: none; }
 .site-footer a { color: inherit; text-underline-offset: 3px; }
 .site-footer a:hover { color: var(--text); }
 
+/* ── MASTHEAD: page title ── */
+.masthead { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: 6px 20px; padding: clamp(22px, 2.4vw, 36px) 0 clamp(16px, 1.6vw, 24px); }
+.masthead h1 { font-family: var(--display); font-size: clamp(26px, 2.4vw, 40px); font-weight: 700; line-height: 1.1; letter-spacing: -.03em; }
+.masthead p { font-size: 16px; color: var(--text-2); }
+
+
+/* Wide screens: the reading column, with a sticky rail of the page's quick actions beside it.
+   On phones the rail drops below the page (.rail--top: above it; .rail-wide: wide screens only). */
+.with-rail { display: grid; gap: clamp(28px, 3vw, 44px); align-items: start; }
+.rail { display: grid; gap: 14px; align-content: start; max-width: 50rem; }
+.rail-box { padding: 20px 22px; border-radius: 20px; background: var(--surface); }
+@media (min-width: 1100px) {
+  /* The rail's right edge lines up with the header's */
+  .with-rail { grid-template-columns: minmax(0, 50rem) minmax(17rem, 26rem); justify-content: space-between; column-gap: clamp(40px, 5vw, 120px); }
+  .rail { position: sticky; top: calc(var(--hdr) + 24px); }
+}
+@media (max-width: 1099px) {
+  .rail--top { order: -1; }
+  .rail-wide { display: none; }
+}
+/* Big monitors: scale the whole page up so it isn't a thin strip in a sea of stone */
+/* (vw ignores zoom, so the gutter divides by it to keep content at most 1640px wide) */
+@media (min-width: 1800px) { html { zoom: 1.2; } body { --gutter: max(40px, calc((100vw / 1.2 - 1640px) / 2)); } }
+@media (min-width: 2300px) { html { zoom: 1.4; } body { --gutter: max(40px, calc((100vw / 1.4 - 1640px) / 2)); } }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 820px) {
-  body { --hdr: 57px; }
-  .site-nav { display: none; }
-  .nav-toggle { display: grid; }
-  .hdr-meta { display: none; }
-  .site-nav--open {
-    display: flex; flex-direction: column; align-items: stretch;
-    position: fixed; top: var(--hdr); left: 0; right: 0;
-    padding: 10px var(--gutter) 16px; gap: 2px;
-    background: var(--bg); color: var(--text); border-bottom: 1px solid var(--border2);
-    box-shadow: var(--shadow);
+  body { --hdr: 57px; --tab: calc(60px + env(safe-area-inset-bottom)); padding-bottom: var(--tab); }
+  .site-nav, .help-btn { display: none; }
+  /* The tab bar takes over the menu; its last tab is Help */
+  .tabbar {
+    position: fixed; left: 0; right: 0; bottom: 0; z-index: 90;
+    display: grid; grid-template-columns: repeat(5, minmax(0, 1fr));
+    padding-bottom: env(safe-area-inset-bottom);
+    background: var(--bg); border-top: 1.5px solid var(--rule);
   }
-  .site-nav--open .nav-link { padding: 12px 14px; font-size: 16px; }
-  .wotd-more { margin-left: 0; }
+  .tabbar a {
+    display: grid; place-items: center; height: 60px;
+    font-size: 13px; font-weight: 500; color: var(--text-2); text-decoration: none;
+  }
+  .tabbar [aria-current] { color: var(--text); font-weight: 600; }
+  .tabbar [aria-current]::after { content: ''; width: 1.2em; height: 3px; margin-top: -14px; background: currentColor; }
+  .tabbar .tab-help { color: var(--text); font-weight: 700; }
+  .tabbar .tab-help::before { content: ''; width: 8px; height: 8px; margin-bottom: -10px; border-radius: 50%; background: var(--pop); }
+  .tabbar :focus-visible { outline-offset: -4px; }
+  .hdr-meta { display: none; }
 }

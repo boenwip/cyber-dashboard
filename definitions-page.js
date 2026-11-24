@@ -1,6 +1,6 @@
 /**
  * definitions-page.js — pseudosec.
- * Glossary page: search, filter, A-Z index, term cards
+ * Glossary page (glossary.html): search, filter, A-Z index, term cards
  */
 
 var currentLevel  = 'all';
@@ -55,9 +55,10 @@ function renderDefs() {
   grid.innerHTML = Object.keys(byLetter).sort().map(function(letter) {
     var cards = byLetter[letter].map(function(t) {
       var levelBadge = '<span class="def-level def-level--' + t.level + '">' + t.level + '</span>';
+      // The example stays folded until asked for, so the list reads calmer
       var example = t.example ?
-        '<div class="def-example"><span class="def-example-label">Example</span>' +
-        esc(t.example) + '</div>' : '';
+        '<button type="button" class="def-ex-btn" aria-expanded="false">Show an example</button>' +
+        '<div class="def-example" hidden>' + esc(t.example) + '</div>' : '';
       return '<div class="def-card" role="listitem">' +
         '<div class="def-card-header">' +
           '<span class="def-term">' + esc(t.term) + '</span>' +
@@ -97,65 +98,68 @@ function initSearch() {
   });
 }
 
-// ── REFERENCE PAGE TABS (OWASP / Essential Eight / Glossary) ──
-function initRefTabs() {
-  var tabs   = document.querySelectorAll('.ref-tab-btn');
-  var panels = document.querySelectorAll('.ref-panel');
-  if (!tabs.length) return;
-
-  function activate(tabId) {
-    tabs.forEach(function(t) {
-      var on = t.dataset.tab === tabId;
-      t.classList.toggle('ref-tab-btn--active', on);
-      t.setAttribute('aria-selected', on ? 'true' : 'false');
-    });
-    panels.forEach(function(p) {
-      p.classList.toggle('ref-panel--active', p.id === 'panel-' + tabId);
-    });
-    history.replaceState(null, '', '#' + tabId);
+// Quiz me: a meaning and four words; Swoop hops when you're right and tilts his head when you're not
+function initQuiz() {
+  var box = document.getElementById('quiz'), sw = null, streak = 0;
+  if (!box || typeof DEFINITIONS === 'undefined' || DEFINITIONS.length < 4) return;
+  var q = document.getElementById('quiz-q'), opts = document.getElementById('quiz-opts'),
+      result = document.getElementById('quiz-result'), next = document.getElementById('quiz-next');
+  function pick(n) {
+    var pool = DEFINITIONS.slice(), out = [];
+    while (out.length < n) out.push(pool.splice(Math.floor(Math.random() * pool.length), 1)[0]);
+    return out;
   }
-
-  tabs.forEach(function(btn, n) {
-    btn.setAttribute('aria-controls', 'panel-' + btn.dataset.tab);
-    btn.addEventListener('click', function() { activate(btn.dataset.tab); });
-    btn.addEventListener('keydown', function(e) {
-      var step = e.key === 'ArrowRight' ? 1 : e.key === 'ArrowLeft' ? -1 : 0;
-      if (!step) return;
-      e.preventDefault();
-      var next = tabs[(n + step + tabs.length) % tabs.length];
-      next.focus();
-      activate(next.dataset.tab);
+  function ask() {
+    var four = pick(4), answer = four[0];
+    q.textContent = answer.short;
+    opts.innerHTML = four.sort(function () { return Math.random() - .5; }).map(function (t) {
+      return '<button type="button" data-right="' + (t === answer) + '">' + esc(t.term) + '</button>';
+    }).join('');
+    result.textContent = '';
+    next.hidden = true;
+  }
+  opts.addEventListener('click', function (e) {
+    var b = e.target.closest('button');
+    if (!b || next.hidden === false) return;
+    var right = b.dataset.right === 'true';
+    opts.querySelectorAll('button').forEach(function (o) {
+      o.disabled = true;
+      if (o.dataset.right === 'true') o.classList.add('right');
     });
+    if (!right) b.classList.add('wrong');
+    streak = right ? streak + 1 : 0;
+    result.textContent = right ? (streak > 1 ? 'Right, ' + streak + ' in a row.' : 'Right.') : 'Not quite: it’s ' + opts.querySelector('.right').textContent + '.';
+    if (sw) sw.react(right ? 'hop' : 'tilt');
+    next.hidden = false;
+    next.focus();
   });
-
-  var glossaryLink = document.getElementById('wotd-glossary-link');
-  if (glossaryLink) {
-    glossaryLink.addEventListener('click', function(e) {
-      e.preventDefault();
-      activate('glossary');
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-  }
-
-  var hash = location.hash.replace('#', '');
-  var valid = ['owasp-web','owasp-api','owasp-llm','e8','glossary'];
-  if (hash && valid.indexOf(hash) !== -1) activate(hash);
-  else if (hash.indexOf('letter-') === 0) {   // an A-Z link, reloaded or shared
-    var letter = document.getElementById(hash);
-    activate('glossary');
-    if (letter) letter.scrollIntoView();
-  }
+  next.addEventListener('click', ask);
+  document.getElementById('quiz-start').addEventListener('click', function () {
+    this.hidden = true;
+    document.getElementById('quiz-body').hidden = false;
+    if (!sw) sw = Swoop(document.getElementById('swoop'));
+    ask();
+  });
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  // Tabs work even if the glossary data fails to load
   if (typeof DEFINITIONS !== 'undefined' && DEFINITIONS.length) {
     renderAlpha(DEFINITIONS);
     renderDefs();
     initSearch();
-    renderWotd(DEFINITIONS);
+    initQuiz();
   }
-  initRefTabs();
+  document.getElementById('def-grid').addEventListener('click', function (e) {
+    var b = e.target.closest('.def-ex-btn');
+    if (!b) return;
+    var open = b.getAttribute('aria-expanded') !== 'true';
+    b.setAttribute('aria-expanded', open);
+    b.textContent = open ? 'Hide the example' : 'Show an example';
+    b.nextElementSibling.hidden = !open;
+  });
+  // An A-Z link, reloaded or shared: the letters only exist once rendered
+  var letter = location.hash.indexOf('#letter-') === 0 && document.getElementById(location.hash.slice(1));
+  if (letter) letter.scrollIntoView();
 
   document.querySelectorAll('.def-lvl-btn').forEach(function(btn) {
     btn.addEventListener('click', function() { filterLevel(btn.dataset.level, btn); });

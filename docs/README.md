@@ -14,19 +14,29 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 | Page | What's on it |
 |---|---|
-| **Dashboard** | One topic at a time, each in its own colour: this year's cybercrime estimate, news, Spot the Scam, exploited flaws and the word and tip of the day, with the latest ACSC item on a line above. Below that, a reader for the open topic: a list on the left, the full item on the right. |
-| **Reference** | OWASP Top 10 (Web, API, LLM) · Essential Eight · 51-term glossary — all in plain English |
-| **Resources** | Breach check (via HaveIBeenPwned) · report links · learning resources · security tools |
-| **AI Guide** | 47 general prompts that work in any AI chat tool · what not to share · how to write your own prompt |
-| **Sources & Methodology** | How the site collects and presents data, what it isn't, and its limitations (footer link) |
+| **Today** (home) | Today's top 5 stories, the ACSC alert when there is one, and Swoop the lookout. |
+| **All stories** (`stories.html`) | Every story, newest first, grouped by day, with topic filters. |
+| **This year** (`year.html`) | ASD's annual report in plain numbers: an estimate of reports since 1 July, the headline figures, breakdowns and what it says about AI. |
+| **I've been scammed** (`help.html`) | What to do first, in order, and who to call. |
+| **Check a breach** (`breach.html`) | The Have I Been Pwned check and what to do if your email is in a breach. |
+| **Essential Eight** (`essential-eight.html`) | ASD's eight baseline controls, in plain English, and what each one stops. |
+| **Glossary** (`glossary.html`) | Cyber security words, searchable A to Z. |
+| **OWASP Top 10s** (`owasp.html`) | The top risks for websites, APIs and AI apps. |
+| **Exploited** (`exploited.html`) | The newest flaws attackers are using, from CISA's Known Exploited Vulnerabilities list, grouped by the day they were added, with a summary of what to do. |
+| **Play** (`play.html`) | Spot the scam: one message a day. Tap the parts that look suspicious, decide if it's a scam, and see which giveaways you found. Streak and rank are kept in your browser. |
+| **Stay safe** (`safe.html`) | Four doors: I've been scammed, Check a breach, Essential Eight, Using AI safely. |
+| **Learn** (`learn.html`) | Three doors (Glossary, OWASP, Practise), the word of the day and the tip of the day. |
+| **Practise** (`practise.html`) | Courses, free tools, safe places to practise, and Australian organisations, filtered by who it's for. |
+| **Using AI safely** (`ai-guide.html`) | What not to share with AI tools, how to write your own prompt, and 47 prompts that work in any AI chat tool |
+| **Sources and methods** (`sources.html`) | Where the data comes from, how stories are grouped and labelled, and what the site can't do (footer link) |
 
-`definitions.html` is a redirect stub to `reference.html#glossary` — kept for old links, not a real page.
+`dashboard.html`, `reference.html` and `resources.html` are retired: `redirect.js` sends them, and their old `#sections`, to the page that took over. `definitions.html` is a redirect stub to `glossary.html`.
 
 ---
 
 ## Features
 
-**Layout** — The home page opens on a stage showing one topic, with the latest news directly below it. This year shows the report's headline figures with the estimate. Beside the news sit the most reported crime types, the AI summary, the Essential Eight and tool updates. A switch of five topics (This year, News, Scams, Exploited, Learn) changes the stage and the reader below it, and stays at the top of the screen while you read. ACSC alerts and tool updates are filters under News, and the old `#alerts` and `#tools` links still go there. On phones the reader becomes tap-through: the list, then the item, then back.
+**Layout** — The home page (`index.html`) shows today's top 5 stories as tiles: the lead in a big lemon tile, the rest in milk chocolate, each topic marked by a small coloured dot, the ACSC alert bar when there is an alert, and one line onward to exploited bugs, the puzzle and the year's count. Swoop the lookout perches on the lead; his mood follows the alert. The menu is Today, Play, Stay safe and Learn, with an orange Get help button on every page. On phones a tab bar at the bottom holds Today, Play, Stay safe, Learn and Help. Old `#topic` links on the home page redirect to the page that now holds that topic.
 
 **Official ACSC alert** — The newest ACSC alert from the last 14 days, Critical or High first. ACSC items are the only ones with a threat level, taken from ACSC's own title ("CRITICAL ALERT: …"). cyber.gov.au times out from GitHub's servers, so the pipeline falls back to a Google News search of ACSC's alerts section; those items are labelled "ACSC" with no level rather than a guessed one.
 
@@ -54,23 +64,32 @@ PseudoSec is a cyber security dashboard built for Australians — whether you're
 
 ```
 pseudosec/
-├── index.html              # Dashboard
-├── reference.html          # OWASP Top 10s, Essential Eight, glossary (tabbed)
-├── resources.html          # Breach checker + links
+├── index.html              # Today (home)
+├── safe.html               # Stay safe hub
+├── learn.html              # Learn hub, word and tip of the day
+├── dashboard.html, reference.html, resources.html  # Retired: redirect via redirect.js
+├── essential-eight.html    # ASD's Essential Eight
+├── glossary.html           # Searchable glossary
+├── owasp.html              # OWASP web, API and LLM Top 10s
+├── practise.html           # Courses, tools, practice platforms, organisations
 ├── ai-guide.html           # Prompt library + AI safety
 ├── sources.html            # Sources & methodology
-├── definitions.html        # Redirect stub -> reference.html#glossary
+├── definitions.html        # Redirect stub -> glossary.html
 ├── shared.css/js           # Design system, theme, nav, esc()/safeUrl(), Sydney-time dates, daily rotations
-├── dashboard.css/js        # Home page: stage, topic switch, Swoop, reader
-├── reference.css           # Reference page styles
-├── definitions.css/js      # Glossary data + render (reused by reference.html)
-├── definitions-page.js     # Reference page's tab/glossary controller
-├── resources.css           # Resources page
+├── learn.js                # Word and tip of the day
+├── owasp.css               # OWASP page styles
+├── guide.css               # Plain-English guide pages (help, breach, Essential Eight)
+├── guide.js                # Tick-off steps and progress rail (help, Essential Eight)
+├── crack.js                # Password crack-time checker (breach); tested in tests/test_crack_js.py
+├── redirect.js             # Retired pages -> their new homes, keeping #sections
+├── definitions.css/js      # Glossary data + render (glossary.html)
+├── definitions-page.js     # Glossary search, filter and A-Z
+├── practise.js             # Practise: filter by who it's for
 ├── ai-guide.css/js         # Prompt library
 ├── sources.css             # Sources page styles
 ├── assets/
 │   ├── pseudosec.png       # Logo
-│   └── fonts/              # Self-hosted Host Grotesk, Spline Sans Mono (woff2)
+│   └── fonts/              # Self-hosted Geist, Geist Mono (woff2)
 ├── scripts/
 │   ├── fetch_cyber_news.py # RSS aggregation, tool updates, CVEs, featured story
 │   ├── stories.py          # Groups coverage of the same event (Claude Haiku, word-match fallback)
@@ -117,9 +136,9 @@ GitHub runs schedules on a best-effort basis, so gaps can be longer. Actions are
 
 ASD publishes its Annual Cyber Threat Report each year (the 2025–26 edition came out in October 2026). `annual_report_watch.yml` checks daily and opens a GitHub issue with a checklist when the next one appears. To update:
 
-1. Edit `data/annual_report.json` — title, FY, URL, yearly report count, interval, stats, `top_crimes` and `breakdowns`. Rewrite or remove the optional `ai` block (the report's AI theme) to match the new report. Every figure must come from the new report: if it drops a breakdown, remove that breakdown rather than keeping last year's numbers. It's the only place these figures live; the dashboard renders from it.
+1. Edit `data/annual_report.json` — title, FY, URL, yearly report count, interval, stats, `top_crimes` and `breakdowns`. Rewrite or remove the optional `ai` block (the report's AI theme) to match the new report. Every figure must come from the new report: if it drops a breakdown, remove that breakdown rather than keeping last year's numbers. It's the only place these figures live; the This year page renders from it.
 2. Check glossary entries that quote the previous year (search for the old FY).
-3. Run `python3 scripts/audit.py` (it validates the file) and look at the dashboard.
+3. Run `python3 scripts/audit.py` (it validates the file) and look at the This year page.
 
 ---
 
@@ -161,7 +180,7 @@ Beneath the colour, pages are paper and ink. The logo's yellow becomes a pale bu
 | Butter panel | `#fbf3c8` | `#2a2716` |
 | Critical / High | `#a3231a` / `#8a5a0b` | `#f59a8f` / `#f3c46a` |
 
-Fonts (self-hosted): Host Grotesk (everything) · Spline Sans Mono (small data: dates, IDs). Severity is shown with diamond chips, not colour alone. No emoji icons, no tiny letter-spaced capitals, no hairline borders. All text tokens meet WCAG AA (4.5:1) on every surface in both themes — enforced by `audit.py`.
+Fonts (self-hosted): Geist (everything) · Geist Mono (small data: dates, IDs). Severity is shown with diamond chips, not colour alone. No emoji icons, no tiny letter-spaced capitals, no hairline borders. All text tokens meet WCAG AA (4.5:1) on every surface in both themes — enforced by `audit.py`.
 
 ---
 

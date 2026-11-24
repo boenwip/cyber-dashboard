@@ -14,7 +14,7 @@
       ],
       "answer": "scam",
       "giveaways": [
-        "It comes from an ordinary mobile number, not from Linkt.",
+        "Anyone can start a text with \"Linkt:\". This one came from an ordinary mobile number, not from Linkt.",
         "A tiny amount with a big penalty and a short deadline is designed to rush you.",
         "The link isn't linkt.com.au. If you're unsure, log in to your toll account by typing the address yourself."
       ]
@@ -101,9 +101,8 @@
       "address": "billing@netflix-accounts.example",
       "subject": "Your membership is on hold",
       "body": [
-        { "t": "Hi, " },
         { "t": "Dear Customer", "g": 0 },
-        { "t": ".\n\nWe couldn't process your latest payment, so your membership has been paused. " },
+        { "t": ",\n\nWe couldn't process your latest payment, so your membership has been paused. " },
         { "t": "Update your card details now to keep watching.", "g": 1 },
         { "t": "\n\n" },
         { "t": "Update payment", "g": 2, "link": true }
