@@ -1,7 +1,34 @@
 {
-  "last_updated": "2026-11-24T09:42:04Z",
+  "last_updated": "2026-11-25T04:06:52Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-132224",
+      "name": "Optimizely Web Experimentation",
+      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and…",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+    },
+    {
+      "id": "CVE-2026-131914",
+      "name": "Idunno AntiCsrf",
+      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could…",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+    },
+    {
+      "id": "CVE-2026-132165",
+      "name": "Drupal Core",
+      "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific…",
+      "date_added": "2026-11-24",
+      "due_date": "2026-11-27",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+    },
     {
       "id": "CVE-2026-133968",
       "name": "Project MONAI MONAI Label",
@@ -64,33 +91,6 @@
       "due_date": "2026-11-21",
       "ransomware": "Known",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441"
-    },
-    {
-      "id": "CVE-2026-40217",
-      "name": "BerriAI LiteLLM",
-      "description": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
-      "date_added": "2026-11-18",
-      "due_date": "2026-12-02",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217"
-    },
-    {
-      "id": "CVE-2026-90817",
-      "name": "Vanderbilt University Research Electronic Data Capture (REDCap)",
-      "description": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An…",
-      "date_added": "2026-11-18",
-      "due_date": "2026-11-21",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817"
-    },
-    {
-      "id": "CVE-2026-90436",
-      "name": "Apache Axis",
-      "description": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and…",
-      "date_added": "2026-11-18",
-      "due_date": "2026-11-21",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436"
     }
   ]
 }
