@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25T18:49:06Z",
+  "last_updated": "2026-11-26T03:30:23Z",
   "count": 10,
   "items": [
     {
@@ -12,85 +12,85 @@
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406"
     },
     {
-      "id": "CVE-2026-132224",
-      "name": "Optimizely Web Experimentation",
-      "description": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and…",
-      "date_added": "2026-11-24",
-      "due_date": "2026-11-27",
+      "id": "CVE-2026-133469",
+      "name": "Vates Xen Orchestra",
+      "description": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469"
     },
     {
-      "id": "CVE-2026-131914",
-      "name": "Idunno AntiCsrf",
-      "description": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could…",
-      "date_added": "2026-11-24",
-      "due_date": "2026-11-27",
+      "id": "CVE-2025-41450",
+      "name": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-12-09",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450"
     },
     {
-      "id": "CVE-2026-132165",
-      "name": "Drupal Core",
-      "description": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific…",
-      "date_added": "2026-11-24",
-      "due_date": "2026-11-27",
+      "id": "CVE-2023-25914",
+      "name": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914"
     },
     {
-      "id": "CVE-2026-133968",
-      "name": "Project MONAI MONAI Label",
-      "description": "Project MONAI MONAI Label contains a path traversal vulnerability that allows an unauthenticated remote attacker to write arbitrary files outside the intended datastore directory, potentially…",
-      "date_added": "2026-11-23",
-      "due_date": "2026-11-26",
+      "id": "CVE-2023-25915",
+      "name": "Danfoss AK-SM 800A Series",
+      "description": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133968"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915"
     },
     {
-      "id": "CVE-2026-134624",
-      "name": "N-able MailAssure",
-      "description": "N-able MailAssure (SpamExperts) contains a server-side request forgery vulnerability in the LDAP synchronization connection check that allows an authenticated API user to connect to arbitrary…",
-      "date_added": "2026-11-23",
-      "due_date": "2026-11-26",
+      "id": "CVE-2026-133324",
+      "name": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-134624"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324"
     },
     {
-      "id": "CVE-2026-129448",
-      "name": "Apache Roller",
-      "description": "Apache Roller contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via the XML-RPC endpoint, which accepts and…",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
+      "id": "CVE-2026-133275",
+      "name": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129448"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275"
     },
     {
-      "id": "CVE-2026-123890",
-      "name": "Broadcom VMware vCenter",
-      "description": "Broadcom VMware vCenter contains an authentication bypass using an alternate path or channel vulnerability in the VMware Directory Service that allows an unauthenticated attacker with network access…",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
+      "id": "CVE-2026-133311",
+      "name": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-12-09",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-123890"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
     },
     {
-      "id": "CVE-2025-42884",
-      "name": "SAP NetWeaver",
-      "description": "SAP NetWeaver Enterprise Portal contains an improper neutralization of special elements in data query logic vulnerability that allows an unauthenticated attacker to disclose or modify server…",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
+      "id": "CVE-2026-133303",
+      "name": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2025-42884"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
     },
     {
-      "id": "CVE-2026-76466",
-      "name": "Cisco Expressway Series",
-      "description": "Cisco Expressway Series contains a use of hard-coded credentials vulnerability that allows an unauthenticated, remote attacker with persistent cookies and network access to execute commands as root…",
-      "date_added": "2026-11-20",
-      "due_date": "2026-11-23",
+      "id": "CVE-2026-133323",
+      "name": "Mitel MiCollab",
+      "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could…",
+      "date_added": "2026-11-25",
+      "due_date": "2026-11-28",
       "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466"
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
     }
   ]
 }
