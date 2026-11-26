@@ -4,6 +4,19 @@ Decisions and changes, most recent first. The git log tells you *what* changed. 
 
 ---
 
+## November 2026 — Twelve more Spot the Scam puzzles
+
+**Added**
+- 12 new messages, for 20 in total, so a puzzle repeats every 20 days instead of every 8. Six of the 20 are now legit, so "scam" isn't always the safe guess
+- New scams: ATO and Medicare texts, a full Microsoft 365 mailbox, a recruitment task scam, changed supplier bank details, a fake Amazon order, a "wrong number" crypto opener and a Facebook page takedown
+- New legit messages use made-up businesses, so none claims how a real company writes to you
+
+**Changed**
+- The Linkt text's first clue now matches what it highlights: anyone can start a text with "Linkt:", and this one came from an ordinary mobile
+- The Netflix email no longer opens "Hi, Dear Customer"
+
+---
+
 ## November 2026 — Using AI safely and Sources, restyled
 
 **Changed**
