@@ -1,7 +1,34 @@
 {
-  "last_updated": "2026-11-27T08:05:19Z",
+  "last_updated": "2026-11-27T18:06:42Z",
   "count": 10,
   "items": [
+    {
+      "id": "CVE-2026-120705",
+      "name": "OSGeo GeoServer",
+      "description": "OsGeo GeoServer contains an XML injection vulnerability that allows an unauthenticated remote attacker to cause the server to read local text files accessible to the GeoServer process or fetch…",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-120705"
+    },
+    {
+      "id": "CVE-2026-129243",
+      "name": "OSGeo GeoServer",
+      "description": "GeoServer contains an incorrect authorization vulnerability that allows an unauthenticated remote attacker to bypass service-level role checks and invoke operations protected solely by those checks…",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-129243"
+    },
+    {
+      "id": "CVE-2026-136716",
+      "name": "Drupal Core",
+      "description": "Drupal Core contains an improper check for unusual or exceptional conditions vulnerability that allows an unauthenticated remote attacker to take over a site via the exposed Drupal installer when the…",
+      "date_added": "2026-11-27",
+      "due_date": "2026-11-30",
+      "ransomware": "Unknown",
+      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-136716"
+    },
     {
       "id": "CVE-2026-103406",
       "name": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router",
@@ -64,33 +91,6 @@
       "due_date": "2026-11-28",
       "ransomware": "Unknown",
       "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275"
-    },
-    {
-      "id": "CVE-2026-133311",
-      "name": "Mitel MiCollab",
-      "description": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using…",
-      "date_added": "2026-11-25",
-      "due_date": "2026-12-09",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311"
-    },
-    {
-      "id": "CVE-2026-133303",
-      "name": "Mitel MiCollab",
-      "description": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using…",
-      "date_added": "2026-11-25",
-      "due_date": "2026-11-28",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303"
-    },
-    {
-      "id": "CVE-2026-133323",
-      "name": "Mitel MiCollab",
-      "description": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could…",
-      "date_added": "2026-11-25",
-      "due_date": "2026-11-28",
-      "ransomware": "Unknown",
-      "link": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323"
     }
   ]
 }
