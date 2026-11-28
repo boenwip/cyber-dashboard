@@ -1,7 +1,31 @@
 {
-  "last_updated": "2026-11-27T18:06:42Z",
+  "last_updated": "2026-11-28T07:34:10Z",
   "count": 40,
   "items": [
+    {
+      "source": "Google Chrome Releases",
+      "tool": "Google Chrome",
+      "title": "Long Term Support Channel Update for ChromeOS",
+      "link": "https://chromereleases.googleblog.com/2026/11/long-term-support-channel-update-for_01009121915.html",
+      "summary": "A new LTS-150 version 150.0.7871.290 (Platform Version: 16700.71.0), is being rolled out for most ChromeOS devices. This version includes selected security fixes including: 553155590 Medium…",
+      "date": "2026-11-27T18:52:47Z"
+    },
+    {
+      "source": "Google Workspace Updates",
+      "tool": "Google Workspace",
+      "title": "Google Workspace Weekly Recap - November 27, 2026",
+      "link": "https://workspaceupdates.googleblog.com/2026/11/weekly-recap-11-27-2026.html",
+      "summary": "Make messages in Google Chat from apps and agents easier to read with tables and headings Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy…",
+      "date": "2026-11-27T17:13:18Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Will Claude Opus 5.5 go away when Opus 5.6 comes out? Not right away, by Anthropic's own rules - Nacionale",
+      "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ2JuSm9ZNjhEYkxxWHZUd1o0NmVoWjNqbFdaMGFIcDI5QldTSzJwejFvZkh5bXBGbW5XcDZHOGY3SnBmelY5cjlsNGpUc3BiRmdmUmw2ZlVtcEdSRXJzbDQ5VnMxNHpsbzY4WUN5S3ZTVHJMNDN5WXJ4eDhkNHM0ZThzWThGTTUyOS01SlRhak1RaGdjbXhCVHlnMkJnX1g4MGxfVzFuVnVybTkxUHhzRmtKLXV4eG1LLUxreS1R?oc=5",
+      "summary": "Will Claude Opus 5.5 go away when Opus 5.6 comes out? Not right away, by Anthropic's own rules Nacionale",
+      "date": "2026-11-26T00:49:00Z"
+    },
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
@@ -75,14 +99,6 @@
       "date": "2026-11-24T14:28:32Z"
     },
     {
-      "source": "Google Chrome Releases",
-      "tool": "Google Chrome",
-      "title": "Stable Channel Update for ChromeOS / ChromeOS Flex",
-      "link": "https://chromereleases.googleblog.com/2026/11/stable-channel-update-for-chromeos_01679457768.html",
-      "summary": "The Stable channel is being updated to OS version 16868.29.0 (Browser version 158.0.8127.98 ) for most ChromeOS devices. If you find new issues, please let us know one of the following ways: File a…",
-      "date": "2026-11-24T02:54:25Z"
-    },
-    {
       "source": "Claude Code Releases",
       "tool": "Claude",
       "title": "v2.1.331",
@@ -105,14 +121,6 @@
       "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE53ZHpRRjdFOUpHN093VnNFRFZTemxMODJDaG9IeVVFREYzdV92dFVJSG9KLVhqYmNwb2VEaW5iNWpoZGRNMWl4aDBqV1kxa2FTLWhyMjhJZUpLbzNqQ1FGNWFnaVc2QlVzWXZseHFySWdOUDlTVVQ0bW5VVQ?oc=5",
       "summary": "Timeline Of ChatGPT Updates & Key Events Search Engine Journal",
       "date": "2026-11-23T15:29:11Z"
-    },
-    {
-      "source": "Google Workspace Updates",
-      "tool": "Google Workspace",
-      "title": "Make messages in Google Chat from apps and agents easier to read with tables and headings",
-      "link": "https://workspaceupdates.googleblog.com/2026/11/make-messages-in-google-chat-from-apps-and-agents-easier-to-read-with-tables-and-headings.html",
-      "summary": "Agents and apps in Google Chat can now send messages formatted with tables and headings. Tables make it easy to compare options, share status trackers, and present data in rows and columns. Headings…",
-      "date": "2026-11-23T14:53:48Z"
     },
     {
       "source": "Claude Code Releases",
@@ -145,14 +153,6 @@
       "link": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
       "summary": "What's changed Added a trust dialog warning that says where a folder's hooks are declared Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed…",
       "date": "2026-11-19T22:14:41Z"
-    },
-    {
-      "source": "Google News — Canva Updates",
-      "tool": "Canva",
-      "title": "Canva adds an AI ‘off’ button - The Verge",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPcE4xZV9mX2VDUGs5LVlMbWtKRjVocGl0NlJzaXhKTlJJLXdfeHlVQnN1MXBsRXdvZldTTnRwc0FCLUVfQ3Vra0ZGZ0hMbWRyQXdQY0JPdmk4N05hVTVZSmtaYkRSQm1LZnU1a0k0UVM4ZFBTN3JXSXY0NHBENXphaTdrWjE2U3lfeV9kQ0QzTXFyZw?oc=5",
-      "summary": "Canva adds an AI ‘off’ button The Verge",
-      "date": "2026-11-19T12:30:00Z"
     },
     {
       "source": "Claude Code Releases",
@@ -243,22 +243,6 @@
       "date": "2026-11-10T08:00:00Z"
     },
     {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic debuts updated Claude Fable and Mythos models, priced 20% below OpenAI's GPT-6 Astra - Fortune",
-      "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNZXh5WWJvWmxMbkZBakNhNWhkR3R2YnFvS2Uwc3JuOFlPOGh0aU1mbWZXZEJJU0xuRDZ2TW1nLXdyMWxnWllFcnRnRGlHWDJBdWUxdHJaR1NIZDc5Y0djdEliTUhGTDlxazlFbER1cmZyTk9udlJ1eHJxRHo1cmlKV2QtMW0yVTFaVk55dFJJVE9DRVYyM21nMXl0eEVzVEVxR1lVVGJWb2lzNDl1MmJONWVsc2ZET2VST3dEUUxGQWdIeFFkQjB6TnlKY0M5WmFqck80Q1VaSHQ?oc=5",
-      "summary": "Anthropic debuts updated Claude Fable and Mythos models, priced 20% below OpenAI's GPT-6 Astra Fortune",
-      "date": "2026-11-09T08:00:00Z"
-    },
-    {
-      "source": "Google News — Claude Updates",
-      "tool": "Claude",
-      "title": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO - Reuters",
-      "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNVzhYdUhsNzNPQkZ3aVh2eGJ4NEgtNlpiX0tRaDA3UFpFclkzMWRycGVrQlhaZVRNSnVoSlFBY2tWR0dyV2JTWWRBcy1qVnZyQ0VFWWE4SkozSFgyMmdzSXdQMkVLaXVJS0dFUUh5WXd6N1UyRjFGczJvU2VycHVEemxlZkRKQk5PRWtyakNiM0dSdzllZ1ItcjlJRzcyWnhkVE0zTy1paTZpWmJhLWZPaFVpeVFvWjMwNDdn?oc=5",
-      "summary": "Anthropic unveils new Fable, Mythos models as competition heats up ahead of IPO Reuters",
-      "date": "2026-11-09T08:00:00Z"
-    },
-    {
       "source": "Microsoft 365 Blog",
       "tool": "Microsoft 365",
       "title": "Bringing Claude models in Microsoft Copilot into the EU Data Boundary",
@@ -272,6 +256,14 @@
       "title": "Microsoft broke one of Excel's most basic features again - Windows Central",
       "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEhUMTZkVWtTeS1Ba2ZuM0otOFlDdzBaSFgxWnp6dW9wblRGM3I0a0VOaWFQOEI5VUh4NFduMk9lMUo1VEkwWGdjbXpvSlRxVE8zaURZWjFJVnNLTUd1UDU2RUJ5b1l2b25qZ0podEtSRW1udzJ3ak9KRm92T2FaeVBsT3lhc1Itc3NYeWpsS3lSdklMYWlXaXVJa19QQkdoY2dIbDg5SkgtT3hmeC10bTNuN0RPZw?oc=5",
       "summary": "Microsoft broke one of Excel's most basic features again Windows Central",
+      "date": "2026-11-04T08:00:00Z"
+    },
+    {
+      "source": "Google News — Canva Updates",
+      "tool": "Canva",
+      "title": "Will the AI boom bust Canva? Australia’s tech icon faces its toughest test - AFR",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1femI4SEtvYkJBcjRwVngzcmU1YWZ5RVQ2RjlwZDNnRlNhM2Q0Qm9RallpYVp5R2ZBeWtUSlVocXhtbFlHRS15c0ZibDlFWTgwT1lhbGp0XzhmaGwzWHBoX0pfWkFXQ3BVMnhqczhESjdrZVFfSEhmTnVn?oc=5",
+      "summary": "Will the AI boom bust Canva? Australia’s tech icon faces its toughest test AFR",
       "date": "2026-11-04T08:00:00Z"
     },
     {
@@ -317,10 +309,18 @@
     {
       "source": "Google News — Claude Updates",
       "tool": "Claude",
-      "title": "Why the US government shut down Anthropic’s latest Claude AI model - The Conversation",
-      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWUpveEJWVS1OcWh3cDBXVFl3SXAxUUpxemJtNXEtUm9fZWkzNVpRS2wtaU1kZDNIb0pWRkFLdllyNkpSMzNTTXV4a2trWFlNNkN5aGI3RTY5b0VSMm54bjY3a25xUXZ0bmhLUVhPSGhjUXljMWtBNk56ekJ6bEpBRHhibDg4MU1ocWRlbFQtaXltc1h6LXRReTI0d0VWLWdNZ1E?oc=5",
-      "summary": "Why the US government shut down Anthropic’s latest Claude AI model The Conversation",
-      "date": "2026-06-15T07:00:00Z"
+      "title": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+      "summary": "Introducing Claude Fable 5.1 and Claude Mythos 5.1 Anthropic",
+      "date": "2026-09-01T18:01:25Z"
+    },
+    {
+      "source": "Google News — Claude Updates",
+      "tool": "Claude",
+      "title": "Introducing Claude Opus 4.8 - Anthropic",
+      "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBVeFZoaVpfX1hnTlJPS05nQWZYRnB6bUdOc3pzSmlyX3dpN3BleUlVQm53Z3Bxd29JOUw1MENDMWk5VF9CX1VSU0Q2eV9zMXZWNUVOb2V4N2VaUQ?oc=5",
+      "summary": "Introducing Claude Opus 4.8 Anthropic",
+      "date": "2026-05-28T07:00:00Z"
     }
   ]
 }
